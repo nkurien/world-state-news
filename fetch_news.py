@@ -126,6 +126,12 @@ def fetch_rss_feed(source_name, url):
             if not title or not link:
                 continue
                 
+            # Skip generic live-blog placeholders and generic video/audio bulletins
+            cleaned_title_lower = title.lower().strip(" .’'\"")
+            if (cleaned_title_lower in ["here's the latest", "here’s the latest", "latest updates", "live updates", "here’s what you need to know"]
+                    or "news bulletin" in cleaned_title_lower or "latest news" in cleaned_title_lower):
+                continue
+                
             # Parse publication date
             pub_date = None
             if hasattr(entry, "published_parsed") and entry.published_parsed:
@@ -149,57 +155,6 @@ def fetch_rss_feed(source_name, url):
         print(f"  Successfully fetched {len(stories)} articles from {source_name}.")
     except Exception as e:
         print(f"  Error fetching {source_name}: {e}", file=sys.stderr)
-    return stories
-
-def fetch_reuters_sitemap():
-    """Fetch and parse the Reuters news sitemap XML directly."""
-    print("Fetching Reuters news sitemap...")
-    url = "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml"
-    stories = []
-    try:
-        response = requests.get(url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        
-        # Parse XML
-        root = ET.fromstring(response.content)
-        
-        # XML Namespaces used in sitemaps
-        ns = {
-            'sitemap': 'http://www.sitemaps.org/schemas/sitemap/0.9',
-            'news': 'http://www.google.com/schemas/sitemap-news/0.9'
-        }
-        
-        for url_node in root.findall("sitemap:url", ns):
-            loc_node = url_node.find("sitemap:loc", ns)
-            news_node = url_node.find("news:news", ns)
-            
-            if loc_node is None or news_node is None:
-                continue
-                
-            link = loc_node.text.strip()
-            title_node = news_node.find("news:title", ns)
-            date_node = news_node.find("news:publication_date", ns)
-            
-            if title_node is None or not title_node.text:
-                continue
-                
-            title = title_node.text.strip()
-            pub_date = parse_iso_date(date_node.text if date_node is not None else None)
-            
-            # Filter: Skip non-English articles based on path segments
-            if any(segment in link for segment in ["/es/", "/pt/", "/de/", "/fr/", "/it/", "/jp/", "/latam/"]):
-                continue
-                
-            stories.append({
-                "title": title,
-                "url": link,
-                "source": "Reuters",
-                "published": pub_date.isoformat()
-            })
-            
-        print(f"  Successfully fetched {len(stories)} English articles from Reuters sitemap.")
-    except Exception as e:
-        print(f"  Error fetching Reuters sitemap: {e}", file=sys.stderr)
     return stories
 
 def fetch_hn_item(item_id):
@@ -324,9 +279,13 @@ def main():
     news_stories.extend(fetch_rss_feed("Semafor", "https://www.semafor.com/rss.xml"))
     news_stories.extend(fetch_rss_feed("BBC News", "https://feeds.bbci.co.uk/news/world/rss.xml"))
     news_stories.extend(fetch_rss_feed("The Independent", "https://www.independent.co.uk/news/world/rss"))
-    
-    # Custom XML Sitemap Feed
-    news_stories.extend(fetch_reuters_sitemap())
+    news_stories.extend(fetch_rss_feed("NPR World", "https://feeds.npr.org/1004/rss.xml"))
+    news_stories.extend(fetch_rss_feed("CBC World", "https://rss.cbc.ca/lineup/world.xml"))
+    news_stories.extend(fetch_rss_feed("The Guardian", "https://www.theguardian.com/world/rss"))
+    news_stories.extend(fetch_rss_feed("Deutsche Welle", "https://rss.dw.com/xml/rss-en-world"))
+    news_stories.extend(fetch_rss_feed("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"))
+    news_stories.extend(fetch_rss_feed("Euronews", "https://www.euronews.com/rss?level=theme&name=news"))
+    news_stories.extend(fetch_rss_feed("RFI English", "https://www.rfi.fr/en/rss"))
     
     # 2. Sort all news stories descending by publication date (newest first)
     # This ensures that our deduplicator keeps the absolute newest version of a story
@@ -346,14 +305,45 @@ def main():
     breaking_stories = []
     world_stories = []
     
+    # Track number of breaking stories contributed by each source (max 2)
+    breaking_source_counts = {}
+    # Track number of world stories contributed by each source (max 6)
+    world_source_counts = {}
+    
     for story in deduped_stories:
         pub_dt = parse_iso_date(story["published"])
+        src = story["source"]
+        
         if pub_dt >= breaking_threshold:
-            breaking_stories.append(story)
-        else:
-            world_stories.append(story)
+            # Editorial Criteria for Breaking News:
+            # - Must be a major story reported by multiple sources (score >= 2) OR
+            # - Must be an extremely fresh single-source story (score == 1, published < 45 mins ago)
+            minutes_ago = (now - pub_dt).total_seconds() / 60
+            is_fresh = minutes_ago < 45
+            is_major_breaking = story["score"] >= 2 or (story["score"] == 1 and is_fresh)
             
-    # Limit world stories to keep UI clean and balanced
+            if is_major_breaking:
+                # Apply per-source cap (maximum of 2 breaking stories per source)
+                if breaking_source_counts.get(src, 0) < 2:
+                    breaking_source_counts[src] = breaking_source_counts.get(src, 0) + 1
+                    breaking_stories.append(story)
+                else:
+                    # Demote to World section if it exceeds the per-source cap (maximum 6 per source)
+                    if world_source_counts.get(src, 0) < 6:
+                        world_source_counts[src] = world_source_counts.get(src, 0) + 1
+                        world_stories.append(story)
+            else:
+                # Demote minor/older single-source stories to World section (maximum 6 per source)
+                if world_source_counts.get(src, 0) < 6:
+                    world_source_counts[src] = world_source_counts.get(src, 0) + 1
+                    world_stories.append(story)
+        else:
+            if world_source_counts.get(src, 0) < 6:
+                world_source_counts[src] = world_source_counts.get(src, 0) + 1
+                world_stories.append(story)
+            
+    # Cap breaking stories at 8, world stories at 40 to preserve visual balance
+    breaking_stories = breaking_stories[:8]
     world_stories = world_stories[:MAX_WORLD_STORIES]
     
     # 5. Fetch Web stories (HN & Reddit)

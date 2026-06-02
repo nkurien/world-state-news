@@ -211,7 +211,11 @@ def fetch_reddit_subreddit(subreddit):
     stories = []
     url = f"https://www.reddit.com/r/{subreddit}/hot/.rss"
     try:
-        response = requests.get(url, headers=HEADERS, timeout=10)
+        # Reddit guidelines recommend a unique User-Agent to avoid generic blocks
+        reddit_headers = {
+            "User-Agent": "python:world-state-news-aggregator:v1.0.0 (by /u/nkurien)"
+        }
+        response = requests.get(url, headers=reddit_headers, timeout=10)
         response.raise_for_status()
         
         feed = feedparser.parse(response.content)
@@ -258,14 +262,51 @@ def fetch_reddit_subreddit(subreddit):
     return stories
 
 def fetch_all_reddit():
-    """Fetch and merge Reddit stories from r/worldnews and r/europe."""
+    """Fetch and merge Reddit stories from multiple subreddits."""
     reddit_stories = []
-    reddit_stories.extend(fetch_reddit_subreddit("worldnews"))
-    reddit_stories.extend(fetch_reddit_subreddit("europe"))
+    subreddits = ["worldnews", "europe", "geopolitics", "technology", "science"]
+    for sub in subreddits:
+        reddit_stories.extend(fetch_reddit_subreddit(sub))
+        time.sleep(1) # Sleep to prevent rapid-fire rate limiting
     
     # Sort merged list by publication date descending, limit to top 15
     reddit_stories.sort(key=lambda x: x["published"], reverse=True)
     return reddit_stories[:MAX_WEB_STORIES]
+
+def fetch_lobsters():
+    """Fetch hot stories from Lobste.rs JSON API."""
+    print("Fetching Lobste.rs hot stories...")
+    stories = []
+    url = "https://lobste.rs/hottest.json"
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        
+        items = response.json()
+        for item in items:
+            title = item.get("title", "").strip()
+            link = item.get("url", "").strip()
+            comments_link = item.get("comments_url", "").strip()
+            score = item.get("score")
+            
+            if not title or not link:
+                continue
+                
+            # Parse publication date and convert to UTC
+            pub_date = parse_iso_date(item.get("created_at")).astimezone(timezone.utc)
+                
+            stories.append({
+                "title": title,
+                "url": link,
+                "comments_url": comments_link,
+                "score": score,
+                "source": "Lobste.rs",
+                "published": pub_date.isoformat()
+            })
+        print(f"  Successfully fetched {len(stories)} stories from Lobste.rs.")
+    except Exception as e:
+        print(f"  Error fetching Lobste.rs JSON: {e}", file=sys.stderr)
+    return stories
 
 def main():
     start_time = time.time()
@@ -346,8 +387,17 @@ def main():
     breaking_stories = breaking_stories[:8]
     world_stories = world_stories[:MAX_WORLD_STORIES]
     
-    # 5. Fetch Web stories (HN & Reddit)
+    # 5. Fetch Web stories (HN, Lobsters & Reddit)
     hn_stories = fetch_hacker_news()
+    lobsters_stories = fetch_lobsters()
+    
+    # Merge and sort Tech & Code stories
+    tech_stories = []
+    tech_stories.extend(hn_stories)
+    tech_stories.extend(lobsters_stories)
+    tech_stories.sort(key=lambda x: x["published"], reverse=True)
+    tech_stories = tech_stories[:MAX_WEB_STORIES]
+    
     reddit_stories = fetch_all_reddit()
     
     # 6. Build final payload
@@ -356,7 +406,7 @@ def main():
         "breaking": breaking_stories,
         "world": world_stories,
         "web": {
-            "hacker_news": hn_stories,
+            "tech": tech_stories,
             "reddit": reddit_stories
         }
     }

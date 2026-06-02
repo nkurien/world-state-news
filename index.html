@@ -483,7 +483,7 @@
             
             <!-- Hacker News Column -->
             <div class="web-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Hacker News</h3>
+              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Tech &amp; Code</h3>
               <div id="hn-list">
                 <!-- HN items injected here -->
               </div>
@@ -702,10 +702,10 @@
             worldGrid.innerHTML = `<div class="quiet-state" style="grid-column: span 3;">No world news available at this time.</div>`;
           }
 
-          // 4. Render HN List
+          // 4. Render Tech & Code List
           const hnList = document.getElementById("hn-list");
-          if (data.web && data.web.hacker_news && data.web.hacker_news.length > 0) {
-            hnList.innerHTML = data.web.hacker_news.map(createWebItemHTML).join('');
+          if (data.web && data.web.tech && data.web.tech.length > 0) {
+            hnList.innerHTML = data.web.tech.map(createWebItemHTML).join('');
           } else {
             hnList.innerHTML = `<div class="quiet-state">No stories found.</div>`;
           }

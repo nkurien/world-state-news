@@ -251,44 +251,55 @@ def fetch_hacker_news():
     return stories
 
 def fetch_reddit_subreddit(subreddit):
-    """Fetch hot posts from a specific subreddit."""
-    print(f"Fetching Reddit /r/{subreddit}...")
+    """Fetch hot posts from a specific subreddit using its RSS feed."""
+    print(f"Fetching Reddit /r/{subreddit} (RSS)...")
     stories = []
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={MAX_WEB_STORIES}"
+    url = f"https://www.reddit.com/r/{subreddit}/hot/.rss"
     try:
         response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
-        data = response.json()
         
-        for post_wrapper in data.get("data", {}).get("children", []):
-            post = post_wrapper.get("data", {})
-            # Ignore stickied posts
-            if post.get("stickied"):
+        feed = feedparser.parse(response.content)
+        for entry in feed.entries:
+            title = entry.get("title", "").strip()
+            comments_link = entry.get("link", "").strip()
+            
+            if not title or not comments_link:
                 continue
                 
-            title = post.get("title", "").strip()
-            link = post.get("url", "").strip()
-            score = post.get("score", 0)
-            created_utc = post.get("created_utc", time.time())
-            pub_date = datetime.fromtimestamp(created_utc, timezone.utc)
-            
-            if not title or not link:
-                continue
+            # Try to extract the direct article link from the HTML summary
+            # If it's a link post, the RSS summary has a link matching: <a href="direct_url">[link]</a>
+            direct_link = comments_link
+            summary = entry.get("summary", "")
+            link_match = re.search(r'href="([^"]+)">\[link\]</a>', summary)
+            if link_match:
+                direct_link = link_match.group(1).strip()
                 
             # Clean up URLs (relative Reddit links should be full links)
-            if link.startswith("/r/"):
-                link = f"https://www.reddit.com{link}"
+            if direct_link.startswith("/r/"):
+                direct_link = f"https://www.reddit.com{direct_link}"
+                
+            # Parse publication date
+            pub_date = None
+            if hasattr(entry, "published_parsed") and entry.published_parsed:
+                try:
+                    pub_date = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
+                except Exception:
+                    pass
+            if not pub_date:
+                pub_date = parse_iso_date(entry.get("published") or entry.get("updated"))
                 
             stories.append({
                 "title": title,
-                "url": link,
-                "score": score,
+                "url": direct_link,
+                "comments_url": comments_link,
+                "score": None,
                 "source": f"/r/{subreddit}",
                 "published": pub_date.isoformat()
             })
         print(f"  Successfully fetched {len(stories)} posts from /r/{subreddit}.")
     except Exception as e:
-        print(f"  Error fetching /r/{subreddit}: {e}", file=sys.stderr)
+        print(f"  Error fetching /r/{subreddit} RSS: {e}", file=sys.stderr)
     return stories
 
 def fetch_all_reddit():
@@ -297,8 +308,8 @@ def fetch_all_reddit():
     reddit_stories.extend(fetch_reddit_subreddit("worldnews"))
     reddit_stories.extend(fetch_reddit_subreddit("europe"))
     
-    # Sort merged list by score descending, limit to top 15
-    reddit_stories.sort(key=lambda x: x["score"], reverse=True)
+    # Sort merged list by publication date descending, limit to top 15
+    reddit_stories.sort(key=lambda x: x["published"], reverse=True)
     return reddit_stories[:MAX_WEB_STORIES]
 
 def main():

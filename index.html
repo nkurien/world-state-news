@@ -571,12 +571,15 @@
     // Web Item (HN / Reddit) HTML Builder
     function createWebItemHTML(item) {
       const timeAgo = getRelativeTime(item.published);
-      let scoreText = '';
-      if (item.score !== undefined) {
-        // Reddit points usually styled in K, HN as raw points
+      let metaHTML = `<span>${escapeHTML(item.source)}</span>`;
+      
+      if (item.score !== undefined && item.score !== null) {
         const score = item.score;
-        scoreText = score >= 1000 ? `${(score / 1000).toFixed(1)}k pts` : `${score} pts`;
+        const scoreText = score >= 1000 ? `${(score / 1000).toFixed(1)}k pts` : `${score} pts`;
+        metaHTML += `<span>&bull;</span><span class="score-badge">${escapeHTML(scoreText)}</span>`;
       }
+      
+      metaHTML += `<span>&bull;</span><span>${escapeHTML(timeAgo)}</span>`;
       
       return `
         <div class="web-item">
@@ -584,11 +587,7 @@
             <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)}</a>
           </h4>
           <div class="web-item-meta">
-            <span>${escapeHTML(item.source)}</span>
-            <span>&bull;</span>
-            <span class="score-badge">${escapeHTML(scoreText)}</span>
-            <span>&bull;</span>
-            <span>${escapeHTML(timeAgo)}</span>
+            ${metaHTML}
           </div>
         </div>
       `;

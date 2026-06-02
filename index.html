@@ -434,7 +434,7 @@
       <!-- Meta Information Bar -->
       <div class="meta-bar">
         <div class="meta-item" id="issue-date">Tuesday, June 2, 2026</div>
-        <div class="meta-item">No. 001 &bull; World Edition</div>
+        <div class="meta-item" id="issue-edition">Vol. I &bull; No. 001 &bull; World Edition</div>
         <div class="meta-item">Price: Free &amp; Open Source</div>
         <div class="meta-item">
           <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Night Edition">Night Edition</button>
@@ -624,10 +624,22 @@
           loading.style.display = "none";
           content.style.display = "block";
           
-          // 1. Update Masthead Issue Date and Cache stamp
+          // 1. Update Masthead Issue Date, Cache stamp, and Edition/No.
           if (data.last_updated) {
             issueDateEl.textContent = formatIssueDate(data.last_updated);
             cacheTimeEl.textContent = `Cached on: ${new Date(data.last_updated).toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
+            
+            // Calculate Dynamic Volume & Issue Number from Project Epoch (June 2, 2026)
+            const LAUNCH_DATE = new Date("2026-06-02T00:00:00Z");
+            const lastUpdated = new Date(data.last_updated);
+            const diffMs = lastUpdated - LAUNCH_DATE;
+            const elapsedDays = Math.max(0, Math.floor(diffMs / (1000 * 60 * 60 * 24)));
+            
+            const issueNum = elapsedDays + 1;
+            const romanNumerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+            const volNum = romanNumerals[Math.floor(elapsedDays / 365)] || "I";
+            
+            document.getElementById("issue-edition").innerHTML = `Vol. ${volNum} &bull; No. ${String(issueNum).padStart(3, '0')} &bull; World Edition`;
           }
 
           // 2. Render Breaking News (if any)

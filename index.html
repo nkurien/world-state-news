@@ -613,7 +613,7 @@
       const cacheTimeEl = document.getElementById("cache-time");
       
       // Load data.json from relative path (local/Cloudflare)
-      fetch("data.json")
+      fetch("https://raw.githubusercontent.com/nkurien/world-state-news/main/data.json")
         .then(response => {
           if (!response.ok) {
             throw new Error(`Data fetch failed: status ${response.status}`);

@@ -144,5 +144,39 @@ class TestFetchNews(unittest.TestCase):
                 self.assertEqual(result.tzinfo, timezone.utc)
                 self.assertTrue(now_before <= result <= now_after)
 
+    def test_clean_html(self):
+        """Test HTML tag removal, entity unescaping, and whitespace normalization (A-A-A)."""
+        from fetch_news import clean_html
+        test_cases = [
+            ("<p>Hello <b>World</b>!</p>", "Hello World!"),
+            ("Text with &amp; entity and &#8217; curly quote.", "Text with & entity and ’ curly quote."),
+            ("Multiple   spaces \n and \t newlines.", "Multiple spaces and newlines."),
+            (None, ""),
+            ("", ""),
+        ]
+        for html_input, expected in test_cases:
+            with self.subTest(html_input=html_input):
+                result = clean_html(html_input)
+                self.assertEqual(result, expected)
+
+    def test_truncate_snippet(self):
+        """Test snippet truncation at word boundaries close to limit (A-A-A)."""
+        from fetch_news import truncate_snippet
+        text = "This is a very long sentence that has multiple words and we want to truncate it cleanly without cutting words in half if possible."
+        # Truncate at length 40
+        res = truncate_snippet(text, max_len=40)
+        # Verify it ends with "..." and is less than length 43, and truncates at a space
+        self.assertTrue(res.endswith("..."))
+        self.assertTrue(len(res) <= 43)
+        self.assertEqual(res, "This is a very long sentence that has...")
+
+        # Shorter text should not be truncated
+        short_text = "Short sentence."
+        self.assertEqual(truncate_snippet(short_text, max_len=40), short_text)
+
+        # None/empty text
+        self.assertEqual(truncate_snippet(None), "")
+        self.assertEqual(truncate_snippet(""), "")
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,4 +1,5 @@
 import json
+import html
 import re
 import time
 import sys
@@ -308,6 +309,158 @@ def fetch_lobsters():
         print(f"  Error fetching Lobste.rs JSON: {e}", file=sys.stderr)
     return stories
 
+def clean_html(text):
+    """Strip HTML tags, normalize whitespace, and unescape entities."""
+    if not text:
+        return ""
+    # Strip HTML tags
+    clean = re.sub(r'<[^>]+>', '', text)
+    # Unescape HTML entities (e.g. &#8217; or &amp;)
+    clean = html.unescape(clean)
+    # Normalize whitespaces/newlines to single spaces
+    clean = re.sub(r'\s+', ' ', clean).strip()
+    return clean
+
+def truncate_snippet(text, max_len=160):
+    """Truncate text at a word boundary close to max_len and append ellipsis."""
+    if not text:
+        return ""
+    if len(text) <= max_len:
+        return text
+    # Try to truncate at a word boundary
+    truncated = text[:max_len]
+    last_space = truncated.rfind(' ')
+    if last_space > max_len - 20:
+        return truncated[:last_space] + "..."
+    return truncated + "..."
+
+DIGEST_CONFIGS = [
+    {
+        "id": "politico_playbook",
+        "name": "Politico Playbook",
+        "url": "https://rss.politico.com/playbook.xml",
+        "column": "briefings",
+        "headers": HEADERS
+    },
+    {
+        "id": "the_week",
+        "name": "The Week",
+        "url": "https://www.theweek.com/rss",
+        "column": "briefings",
+        "headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5"
+        }
+    },
+    {
+        "id": "economist_world",
+        "name": "The Economist",
+        "url": "https://www.economist.com/leaders/rss.xml",
+        "column": "global",
+        "headers": HEADERS
+    },
+    {
+        "id": "ft_world",
+        "name": "Financial Times",
+        "url": "https://www.ft.com/world?format=rss",
+        "column": "global",
+        "headers": HEADERS
+    },
+    {
+        "id": "tldr_tech",
+        "name": "TLDR Tech",
+        "url": "https://tldr.tech/rss",
+        "column": "tech",
+        "headers": HEADERS
+    },
+    {
+        "id": "stratechery",
+        "name": "Stratechery",
+        "url": "https://stratechery.com/feed/",
+        "column": "tech",
+        "headers": HEADERS
+    }
+]
+
+def fetch_single_digest(config):
+    """Fetch and parse a single digest feed, returning cleaned entries."""
+    name = config["name"]
+    url = config["url"]
+    headers = config["headers"]
+    
+    print(f"Fetching digest feed from {name}...")
+    entries = []
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        response.raise_for_status()
+        
+        feed = feedparser.parse(response.content)
+        # Parse top 3 entries
+        for entry in feed.entries[:3]:
+            title = entry.get("title", "").strip()
+            link = entry.get("link", "").strip()
+            
+            if not title or not link:
+                continue
+                
+            # Get snippet
+            summary = entry.get("summary") or entry.get("description") or ""
+            if "content" in entry and entry.content:
+                summary = entry.content[0].value
+                
+            clean_summary = clean_html(summary)
+            snippet = truncate_snippet(clean_summary)
+            
+            # Parse pub date
+            pub_date = None
+            if hasattr(entry, "published_parsed") and entry.published_parsed:
+                try:
+                    pub_date = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
+                except Exception:
+                    pass
+            if not pub_date:
+                date_str = entry.get("published") or entry.get("updated")
+                pub_date = parse_iso_date(date_str)
+                
+            entries.append({
+                "title": title,
+                "url": link,
+                "published": pub_date.isoformat(),
+                "snippet": snippet
+            })
+        print(f"  Successfully fetched {len(entries)} entries from {name}.")
+    except Exception as e:
+        print(f"  Error fetching digest {name}: {e}", file=sys.stderr)
+        
+    return {
+        "id": config["id"],
+        "name": name,
+        "column": config["column"],
+        "entries": entries
+    }
+
+def fetch_all_digests():
+    """Fetch all configured news digests in parallel."""
+    print(f"Fetching {len(DIGEST_CONFIGS)} news digests in parallel...")
+    results = []
+    
+    with ThreadPoolExecutor(max_workers=6) as executor:
+        future_to_config = {executor.submit(fetch_single_digest, config): config for config in DIGEST_CONFIGS}
+        for future in as_completed(future_to_config):
+            config = future_to_config[future]
+            try:
+                res = future.result()
+                if res is not None:
+                    results.append(res)
+            except Exception as e:
+                print(f"  Error resolving future for digest {config['name']}: {e}", file=sys.stderr)
+                
+    # Sort results in the order defined by DIGEST_CONFIGS
+    order_map = {cfg["id"]: i for i, cfg in enumerate(DIGEST_CONFIGS)}
+    results.sort(key=lambda x: order_map.get(x["id"], 99))
+    return results
+
 TICKER_NAMES = {
     "^GSPC": "S&P 500",
     "VWRP.L": "FTSE All-World",
@@ -506,6 +659,9 @@ def main():
     # 6. Fetch categorized markets and header ticker data
     ticker_data, market_data = compile_markets_data()
     
+    # 6b. Fetch news digests and daily briefings
+    digest_data = fetch_all_digests()
+    
     # 7. Build final payload
     payload = {
         "last_updated": now.isoformat(),
@@ -513,6 +669,7 @@ def main():
         "world": world_stories,
         "tickers": ticker_data,
         "markets": market_data,
+        "digests": digest_data,
         "web": {
             "tech": tech_stories,
             "reddit": reddit_stories

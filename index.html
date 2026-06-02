@@ -578,6 +578,115 @@
       letter-spacing: 0.5px;
     }
 
+    /* Digests & Briefings Section Styling */
+    .digest-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+    
+    .digest-column {
+      border-right: 1px solid var(--border-color);
+      padding-right: 1.25rem;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .digest-column:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+    
+    .digest-column-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-bottom: 1.2rem;
+      font-weight: 700;
+      border-bottom: 1px solid var(--border-accent);
+      padding-bottom: 0.3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .digest-publication {
+      margin-bottom: 1.8rem;
+    }
+    
+    .digest-publication:last-child {
+      margin-bottom: 0;
+    }
+    
+    .digest-pub-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      font-weight: 900;
+      margin-bottom: 0.8rem;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--accent-color);
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.2rem;
+    }
+    
+    .digest-entry {
+      margin-bottom: 0.8rem;
+      border-bottom: 1px dotted var(--border-color);
+      padding-bottom: 0.8rem;
+    }
+    
+    .digest-entry:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+    
+    .digest-entry-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.65rem;
+      color: var(--hover-color);
+      margin-bottom: 0.2rem;
+      display: block;
+    }
+    
+    .digest-entry-title {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .digest-entry-title a:hover {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+    
+    .digest-entry-snippet {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 0.75rem;
+      font-style: italic;
+      color: var(--hover-color);
+      margin-top: 0.4rem;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 900px) {
+      .digest-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+      .digest-column {
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 1px dashed var(--border-color);
+        padding-bottom: 1.5rem;
+      }
+      .digest-column:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+      }
+    }
+
     /* Loading Indicator */
     .loading-state {
       text-align: center;
@@ -675,6 +784,36 @@
                   <!-- Equities tickers injected here -->
                 </tbody>
               </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- News Digests & Daily Briefings Section -->
+        <section style="margin-top: 3.5rem;">
+          <h2 class="section-title">Briefings &amp; Digests</h2>
+          <div class="digest-grid">
+            <!-- Column 1: Daily Briefings -->
+            <div class="digest-column">
+              <h3 class="digest-column-title">Daily Briefings</h3>
+              <div id="digests-col-briefings">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+            <!-- Column 2: Global Analysis -->
+            <div class="digest-column">
+              <h3 class="digest-column-title">Global Analysis</h3>
+              <div id="digests-col-global">
+                <!-- Injected via JavaScript -->
+              </div>
+            </div>
+
+            <!-- Column 3: Tech & Strategy -->
+            <div class="digest-column">
+              <h3 class="digest-column-title">Tech &amp; Strategy</h3>
+              <div id="digests-col-tech">
+                <!-- Injected via JavaScript -->
+              </div>
             </div>
           </div>
         </section>
@@ -990,6 +1129,63 @@
               equitiesList.innerHTML = data.markets.equities.map(createMarketRowHTML).join('');
             } else {
               equitiesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No equities data.</td></tr>';
+            }
+          }
+
+          // 3d. Render News Digests & Daily Briefings Section
+          if (data.digests && data.digests.length > 0) {
+            const briefingsCol = document.getElementById("digests-col-briefings");
+            const globalCol = document.getElementById("digests-col-global");
+            const techCol = document.getElementById("digests-col-tech");
+
+            // Group digests by column
+            const digestsByCol = {
+              briefings: [],
+              global: [],
+              tech: []
+            };
+
+            data.digests.forEach(digest => {
+              if (digestsByCol[digest.column]) {
+                digestsByCol[digest.column].push(digest);
+              }
+            });
+
+            // Helper to build HTML for a publication and its entries
+            const createDigestPubHTML = (pub) => {
+              const entriesHTML = pub.entries.map(entry => {
+                const timeAgo = getRelativeTime(entry.published);
+                const snippetHTML = entry.snippet ? `<div class="digest-entry-snippet">${escapeHTML(entry.snippet)}</div>` : '';
+                return `
+                  <div class="digest-entry">
+                    <span class="digest-entry-meta">${escapeHTML(timeAgo)}</span>
+                    <h4 class="digest-entry-title">
+                      <a href="${escapeHTML(entry.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(entry.title)}</a>
+                    </h4>
+                    ${snippetHTML}
+                  </div>
+                `;
+              }).join('');
+
+              return `
+                <div class="digest-publication">
+                  <h3 class="digest-pub-title">${escapeHTML(pub.name)}</h3>
+                  <div class="digest-entries-list">
+                    ${entriesHTML || '<div class="quiet-state">No briefing entries.</div>'}
+                  </div>
+                </div>
+              `;
+            };
+
+            // Inject into DOM
+            if (briefingsCol) {
+              briefingsCol.innerHTML = digestsByCol.briefings.map(createDigestPubHTML).join('');
+            }
+            if (globalCol) {
+              globalCol.innerHTML = digestsByCol.global.map(createDigestPubHTML).join('');
+            }
+            if (techCol) {
+              techCol.innerHTML = digestsByCol.tech.map(createDigestPubHTML).join('');
             }
           }
 

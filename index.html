@@ -552,12 +552,14 @@
     // Article HTML Builder
     function createArticleHTML(article, isLead = false) {
       const timeAgo = getRelativeTime(article.published);
+      const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
       return `
         <article class="${isLead ? 'lead-story' : ''}">
           <div class="article-meta">
             <span>${escapeHTML(article.source)}</span>
             <span class="date-dot"></span>
             <span class="time-ago">${escapeHTML(timeAgo)}</span>
+            ${scoreBadge}
           </div>
           <h3 class="article-title">
             <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
@@ -634,18 +636,22 @@
           
           if (data.breaking && data.breaking.length > 0) {
             breakingSection.style.display = "block";
-            breakingContainer.innerHTML = data.breaking.map(article => `
-              <div class="breaking-item">
-                <div class="article-meta" style="margin-bottom: 0.2rem;">
-                  <span>${escapeHTML(article.source)}</span>
-                  <span class="date-dot"></span>
-                  <span class="time-ago">${escapeHTML(getRelativeTime(article.published))}</span>
+            breakingContainer.innerHTML = data.breaking.map(article => {
+              const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
+              return `
+                <div class="breaking-item">
+                  <div class="article-meta" style="margin-bottom: 0.2rem;">
+                    <span>${escapeHTML(article.source)}</span>
+                    <span class="date-dot"></span>
+                    <span class="time-ago">${escapeHTML(getRelativeTime(article.published))}</span>
+                    ${scoreBadge}
+                  </div>
+                  <h3 class="breaking-title">
+                    <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
+                  </h3>
                 </div>
-                <h3 class="breaking-title">
-                  <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
-                </h3>
-              </div>
-            `).join('');
+              `;
+            }).join('');
           } else {
             // Keep the section visible but show a quiet, typography-driven placeholders
             breakingSection.style.display = "block";

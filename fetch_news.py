@@ -49,30 +49,49 @@ def get_trigrams(words):
 def deduplicate_stories(stories):
     """
     Deduplicates a list of stories sorted by newest first.
-    If a story shares a trigram with an already seen story, it is skipped.
+    Groups duplicates and increments the canonical story's score.
+    Supports transitive n-gram registration for subsequent duplicates.
     """
-    seen_trigrams = set()
+    seen_trigrams = {} # Maps trigram tuple -> story dict
+    seen_exact = {}     # Maps short exact title key -> story dict
     deduped = []
     
     for story in stories:
+        story["score"] = 1 # Initialize consensus score
         words = clean_title_for_ngrams(story["title"])
+        
         # If the title is very short, fallback to exact title comparison
         if len(words) < 3:
             exact_key = " ".join(words)
-            if exact_key in seen_trigrams:
+            if exact_key in seen_exact:
+                # Vote up the original kept story
+                seen_exact[exact_key]["score"] += 1
                 continue
-            seen_trigrams.add(exact_key)
+            seen_exact[exact_key] = story
             deduped.append(story)
             continue
             
         trigrams = get_trigrams(words)
+        
         # Check if any trigram is already seen
-        if any(tg in seen_trigrams for tg in trigrams):
-            # Duplicate detected (at least one shared 3-word n-gram)
+        duplicate_story = None
+        for tg in trigrams:
+            if tg in seen_trigrams:
+                duplicate_story = seen_trigrams[tg]
+                break
+                
+        if duplicate_story:
+            # We found a duplicate! Increment canonical story's score
+            duplicate_story["score"] += 1
+            # Register this duplicate's trigrams pointing back to the canonical story
+            # to handle transitive duplicates
+            for tg in trigrams:
+                seen_trigrams[tg] = duplicate_story
             continue
             
-        # Update seen list and keep story
-        seen_trigrams.update(trigrams)
+        # Update seen list and keep unique story
+        for tg in trigrams:
+            seen_trigrams[tg] = story
         deduped.append(story)
         
     return deduped
@@ -305,6 +324,9 @@ def main():
     # 3. Apply trigram-based deduplication
     deduped_stories = deduplicate_stories(news_stories)
     print(f"Deduplication summary: {len(news_stories)} inputs -> {len(deduped_stories)} outputs.")
+    
+    # Sort the deduplicated list by consensus score (descending) first, and published date (descending) second
+    deduped_stories.sort(key=lambda x: (x["score"], x["published"]), reverse=True)
     
     # 4. Partition into Breaking (published < 3 hours ago) and World (older)
     now = datetime.now(timezone.utc)

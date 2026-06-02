@@ -49,7 +49,7 @@ class TestFetchNews(unittest.TestCase):
                 self.assertEqual(result, expected)
 
     def test_deduplicate_stories_parameterized(self):
-        """Test that stories are correctly deduplicated keeping the newest copy (A-A-A)."""
+        """Test that stories are correctly deduplicated keeping the newest copy and updating scores (A-A-A)."""
         # Arrange: Prepare mock stories with overlapping content and timestamps
         test_cases = [
             # Case 1: Standard duplicate headlines with varying timestamps
@@ -59,16 +59,22 @@ class TestFetchNews(unittest.TestCase):
                     {"title": "Germany warns of escalation in the Middle East conflict", "published": "2026-06-02T10:00:00Z"},
                     {"title": "Unrelated world news story about trade", "published": "2026-06-02T09:00:00Z"},
                 ],
-                ["Germany warns of escalation in Middle East", "Unrelated world news story about trade"]
+                [
+                    ("Germany warns of escalation in Middle East", 2),
+                    ("Unrelated world news story about trade", 1)
+                ]
             ),
-            # Case 2: Multi-word overlap duplicates
+            # Case 2: Multi-word overlap duplicates with possessive normalization
             (
                 [
                     {"title": "US sanctions Iran's crypto exchange over IRGC links", "published": "2026-06-02T14:00:00Z"},
                     {"title": "US imposes sanctions on Iran crypto exchange due to IRGC links", "published": "2026-06-02T13:00:00Z"},
                     {"title": "Completely different report on weather", "published": "2026-06-02T12:00:00Z"},
                 ],
-                ["US sanctions Iran's crypto exchange over IRGC links", "Completely different report on weather"]
+                [
+                    ("US sanctions Iran's crypto exchange over IRGC links", 2),
+                    ("Completely different report on weather", 1)
+                ]
             ),
             # Case 3: Short titles exact duplicate filter
             (
@@ -77,18 +83,32 @@ class TestFetchNews(unittest.TestCase):
                     {"title": "Short title", "published": "2026-06-02T11:00:00Z"},
                     {"title": "Short body", "published": "2026-06-02T10:00:00Z"},
                 ],
-                ["Short title", "Short body"]
+                [
+                    ("Short title", 2),
+                    ("Short body", 1)
+                ]
+            ),
+            # Case 4: Transitive duplicate chaining (A <- B, B <- C => A has score 3)
+            (
+                [
+                    {"title": "Crisis in eastern europe deepens today", "published": "2026-06-02T14:00:00Z"},
+                    {"title": "Crisis in eastern europe reported", "published": "2026-06-02T13:00:00Z"},
+                    {"title": "Eastern europe reported stable", "published": "2026-06-02T12:00:00Z"},
+                ],
+                [
+                    ("Crisis in eastern europe deepens today", 3)
+                ]
             )
         ]
 
-        for input_stories, expected_titles in test_cases:
+        for input_stories, expected_results in test_cases:
             with self.subTest(case=len(input_stories)):
                 # Act: Execute deduplication logic
                 result = deduplicate_stories(input_stories)
-                result_titles = [story["title"] for story in result]
+                result_titles_and_scores = [(story["title"], story["score"]) for story in result]
 
-                # Assert: Check that only unique / newest duplicate headlines remain
-                self.assertEqual(result_titles, expected_titles)
+                # Assert: Check that only unique / newest duplicate headlines remain with correct consensus scores
+                self.assertEqual(result_titles_and_scores, expected_results)
 
     def test_parse_iso_date_parameterized(self):
         """Test ISO 8601 string parsing with different formats (A-A-A)."""

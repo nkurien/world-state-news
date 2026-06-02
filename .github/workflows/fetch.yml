@@ -1,0 +1,52 @@
+name: Fetch Latest World State
+
+on:
+  schedule:
+    # Run every 3 hours at minute 0
+    - cron: '0 */3 * * *'
+  workflow_dispatch: # Allows manual runs from the GitHub Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip' # caching pip dependencies for faster runs
+
+      - name: Create Requirements File
+        run: |
+          echo "requests>=2.31.0" > requirements.txt
+          echo "feedparser>=6.0.12" >> requirements.txt
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Fetch and Deduplicate News
+        run: python fetch_news.py
+
+      - name: Commit and Push if data.json changed
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Check if data.json has changed
+          if git diff --name-only | grep -q "data.json"; then
+            echo "Changes detected in data.json, committing..."
+            git add data.json
+            git commit -m "chore: update world news cache (data.json) [skip ci]"
+            git push
+          else
+            echo "No changes detected in data.json. Skipping commit."
+          fi

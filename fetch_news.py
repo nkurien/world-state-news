@@ -308,6 +308,109 @@ def fetch_lobsters():
         print(f"  Error fetching Lobste.rs JSON: {e}", file=sys.stderr)
     return stories
 
+TICKER_NAMES = {
+    "^GSPC": "S&P 500",
+    "VWRP.L": "FTSE All-World",
+    "^IXIC": "NASDAQ Composite",
+    "^FTSE": "FTSE 100",
+    "^DJI": "Dow Jones",
+    "^N225": "Nikkei 225",
+    "^GDAXI": "DAX Index",
+    "^FCHI": "CAC 40",
+    "GC=F": "Gold",
+    "BZ=F": "Brent Crude",
+    "GBPUSD=X": "GBP/USD",
+    "EURUSD=X": "EUR/USD",
+    "BTC-USD": "Bitcoin",
+    "SI=F": "Silver",
+    "JPY=X": "USD/JPY",
+    "MSFT": "Microsoft",
+    "AAPL": "Apple",
+    "NVDA": "NVIDIA",
+    "GOOGL": "Alphabet",
+    "AMZN": "Amazon",
+    "TSLA": "Tesla",
+    "META": "Meta"
+}
+
+HEADER_TICKERS = ["^GSPC", "VWRP.L", "^IXIC", "^FTSE"]
+INDICES_TICKERS = ["^GSPC", "^FTSE", "^DJI", "^IXIC", "^N225", "^GDAXI", "^FCHI"]
+COMMODITIES_FOREX_TICKERS = ["GC=F", "SI=F", "BZ=F", "EURUSD=X", "GBPUSD=X", "JPY=X", "BTC-USD"]
+EQUITIES_TICKERS = ["MSFT", "AAPL", "NVDA", "GOOGL", "AMZN", "TSLA", "META"]
+
+def fetch_single_ticker(symbol):
+    """Fetch delayed stock price data for a single symbol from Yahoo Finance API."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+    ticker_headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+    try:
+        response = requests.get(url, headers=ticker_headers, timeout=8)
+        if response.status_code == 200:
+            data = response.json()
+            meta = data.get("chart", {}).get("result", [{}])[0].get("meta", {})
+            price = meta.get("regularMarketPrice")
+            prev_close = meta.get("previousClose")
+            
+            if price is not None and prev_close is not None:
+                change = price - prev_close
+                change_pct = (change / prev_close) * 100
+                return {
+                    "symbol": symbol,
+                    "price": round(price, 2),
+                    "change": round(change, 2),
+                    "change_percent": round(change_pct, 2)
+                }
+    except Exception as e:
+        print(f"  Error fetching ticker {symbol}: {e}", file=sys.stderr)
+    return None
+
+def fetch_all_tickers_data(symbols):
+    """Fetch data for a list of tickers in parallel."""
+    print(f"Fetching {len(symbols)} unique stock tickers in parallel...")
+    results = {}
+    
+    with ThreadPoolExecutor(max_workers=5) as executor:
+        future_to_symbol = {executor.submit(fetch_single_ticker, sym): sym for sym in symbols}
+        for future in as_completed(future_to_symbol):
+            sym = future_to_symbol[future]
+            try:
+                res = future.result()
+                if res:
+                    results[sym] = res
+            except Exception as e:
+                print(f"  Error resolving future for {sym}: {e}", file=sys.stderr)
+            # Minimal sleep to avoid hammering Yahoo Finance
+            time.sleep(0.1)
+            
+    print(f"  Successfully fetched {len(results)} out of {len(symbols)} tickers.")
+    return results
+
+def compile_markets_data():
+    """Compile and categorize market board tickers."""
+    unique_symbols = list(set(HEADER_TICKERS + INDICES_TICKERS + COMMODITIES_FOREX_TICKERS + EQUITIES_TICKERS))
+    fetched_data = fetch_all_tickers_data(unique_symbols)
+    
+    def build_list(symbol_list):
+        out = []
+        for sym in symbol_list:
+            if sym in fetched_data:
+                data = fetched_data[sym].copy()
+                data["name"] = TICKER_NAMES.get(sym, sym)
+                out.append(data)
+        return out
+        
+    header_list = build_list(HEADER_TICKERS)
+    indices_list = build_list(INDICES_TICKERS)
+    commodities_forex_list = build_list(COMMODITIES_FOREX_TICKERS)
+    equities_list = build_list(EQUITIES_TICKERS)
+    
+    return header_list, {
+        "indices": indices_list,
+        "commodities_forex": commodities_forex_list,
+        "equities": equities_list
+    }
+
 def main():
     start_time = time.time()
     
@@ -400,11 +503,16 @@ def main():
     
     reddit_stories = fetch_all_reddit()
     
-    # 6. Build final payload
+    # 6. Fetch categorized markets and header ticker data
+    ticker_data, market_data = compile_markets_data()
+    
+    # 7. Build final payload
     payload = {
         "last_updated": now.isoformat(),
         "breaking": breaking_stories,
         "world": world_stories,
+        "tickers": ticker_data,
+        "markets": market_data,
         "web": {
             "tech": tech_stories,
             "reddit": reddit_stories

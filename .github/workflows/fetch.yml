@@ -3,7 +3,9 @@ name: Fetch Latest World State
 on:
   schedule:
     # Run every hour at minute 21 to avoid top-of-the-hour Actions runner queue congestion
-    - cron: '21 * * * *'
+    - cron: '21,51 * * * *'
+  repository_dispatch:
+    types: [trigger-fetch]
   workflow_dispatch: # Allows manual runs from the GitHub Actions tab
 
 permissions:

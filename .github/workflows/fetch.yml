@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,7 +31,7 @@ jobs:
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Fetch and Deduplicate News
         run: python fetch_news.py
@@ -39,13 +41,13 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Check if data.json has changed
-          if git diff --name-only | grep -q "data.json"; then
+          # Check if data.json is modified (M) or untracked (??)
+          if git status --porcelain | grep -q "data.json"; then
             echo "Changes detected in data.json, committing..."
             git add data.json
             git commit -m "chore: update world news cache (data.json) [skip ci]"
-            git pull --rebase origin main
-            git push
+            git pull --rebase -X theirs origin main
+            git push origin main
           else
             echo "No changes detected in data.json. Skipping commit."
           fi

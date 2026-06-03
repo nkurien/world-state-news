@@ -44,6 +44,7 @@ jobs:
             echo "Changes detected in data.json, committing..."
             git add data.json
             git commit -m "chore: update world news cache (data.json) [skip ci]"
+            git pull --rebase origin main
             git push
           else
             echo "No changes detected in data.json. Skipping commit."

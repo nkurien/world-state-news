@@ -493,6 +493,79 @@
       text-underline-offset: 4px;
     }
 
+    /* Collapsible Alternative Sources */
+    details.sources-details {
+      margin-top: 0.6rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      border-top: 1px dashed var(--border-color);
+      padding-top: 0.5rem;
+    }
+
+    details.sources-details summary {
+      list-style: none; /* Hide default arrow in Chrome/Firefox */
+      cursor: pointer;
+      color: var(--accent-color);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+      user-select: none;
+      text-transform: uppercase;
+    }
+
+    details.sources-details summary::-webkit-details-marker {
+      display: none; /* Hide default arrow in Safari */
+    }
+
+    details.sources-details summary::before {
+      content: "▶";
+      display: inline-block;
+      transition: transform 0.2s ease;
+      font-size: 0.55rem;
+    }
+
+    details.sources-details[open] summary::before {
+      transform: rotate(90deg);
+    }
+
+    .sources-expanded {
+      margin-top: 0.5rem;
+      padding-left: 0.75rem;
+      border-left: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .source-item {
+      display: flex;
+      flex-direction: column;
+      line-height: 1.3;
+    }
+
+    .source-meta {
+      color: var(--hover-color);
+      font-size: 0.62rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 0.1rem;
+    }
+
+    .source-title-link {
+      font-family: 'Libre Baskerville', Georgia, serif;
+      font-size: 0.75rem;
+      color: var(--text-color);
+      text-decoration: underline;
+      text-decoration-style: dotted;
+      text-decoration-thickness: 1px;
+    }
+
+    .source-title-link:hover {
+      color: var(--accent-color) !important;
+      text-decoration-style: solid;
+    }
+
     /* On The Web Sections (HN + Reddit) */
     .web-grid {
       display: grid;
@@ -903,10 +976,32 @@
       return `${diffDays}d ago`;
     }
 
+    // Alternative Sources HTML Builder
+    function createOtherSourcesHTML(article) {
+      if (!article.other_sources || article.other_sources.length === 0) {
+        return '';
+      }
+      return `
+        <details class="sources-details">
+          <summary>Also reported by ${escapeHTML(article.other_sources.map(s => s.source).join(', '))}</summary>
+          <div class="sources-expanded">
+            ${article.other_sources.map(s => `
+              <div class="source-item">
+                <span class="source-meta">${escapeHTML(s.source)} &bull; ${escapeHTML(getRelativeTime(s.published))}</span>
+                <a href="${escapeHTML(s.url)}" target="_blank" rel="noopener noreferrer" class="source-title-link">${escapeHTML(s.title)}</a>
+              </div>
+            `).join('')}
+          </div>
+        </details>
+      `;
+    }
+
     // Article HTML Builder
     function createArticleHTML(article, isLead = false) {
       const timeAgo = getRelativeTime(article.published);
       const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
+      const otherSourcesHTML = createOtherSourcesHTML(article);
+
       return `
         <article class="${isLead ? 'lead-story' : ''}">
           <div class="article-meta">
@@ -918,6 +1013,7 @@
           <h3 class="article-title">
             <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
           </h3>
+          ${otherSourcesHTML}
         </article>
       `;
     }
@@ -1006,6 +1102,8 @@
             breakingSection.style.display = "block";
             breakingContainer.innerHTML = data.breaking.map(article => {
               const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
+              const otherSourcesHTML = createOtherSourcesHTML(article);
+
               return `
                 <div class="breaking-item">
                   <div class="article-meta" style="margin-bottom: 0.2rem;">
@@ -1017,6 +1115,7 @@
                   <h3 class="breaking-title">
                     <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
                   </h3>
+                  ${otherSourcesHTML}
                 </div>
               `;
             }).join('');

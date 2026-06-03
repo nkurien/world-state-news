@@ -59,14 +59,26 @@ def deduplicate_stories(stories):
     
     for story in stories:
         story["score"] = 1 # Initialize consensus score
+        story["other_sources"] = [] # Initialize alternative sources list
         words = clean_title_for_ngrams(story["title"])
         
         # If the title is very short, fallback to exact title comparison
         if len(words) < 3:
             exact_key = " ".join(words)
             if exact_key in seen_exact:
+                canonical = seen_exact[exact_key]
                 # Vote up the original kept story
-                seen_exact[exact_key]["score"] += 1
+                canonical["score"] += 1
+                # Add to other_sources if unique source
+                source = story.get("source")
+                canonical_source = canonical.get("source")
+                if source and source != canonical_source and not any(x.get("source") == source for x in canonical["other_sources"]):
+                    canonical["other_sources"].append({
+                        "source": source,
+                        "url": story.get("url", ""),
+                        "title": story.get("title", ""),
+                        "published": story.get("published", "")
+                    })
                 continue
             seen_exact[exact_key] = story
             deduped.append(story)
@@ -84,6 +96,16 @@ def deduplicate_stories(stories):
         if duplicate_story:
             # We found a duplicate! Increment canonical story's score
             duplicate_story["score"] += 1
+            # Add to other_sources if unique source
+            source = story.get("source")
+            duplicate_source = duplicate_story.get("source")
+            if source and source != duplicate_source and not any(x.get("source") == source for x in duplicate_story["other_sources"]):
+                duplicate_story["other_sources"].append({
+                    "source": source,
+                    "url": story.get("url", ""),
+                    "title": story.get("title", ""),
+                    "published": story.get("published", "")
+                })
             # Register this duplicate's trigrams pointing back to the canonical story
             # to handle transitive duplicates
             for tg in trigrams:

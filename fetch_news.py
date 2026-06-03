@@ -355,6 +355,45 @@ def truncate_snippet(text, max_len=160):
     if last_space > max_len - 20:
         return truncated[:last_space] + "..."
     return truncated + "..."
+RSS_SOURCES = [
+    ("France24", "https://www.france24.com/en/rss"),
+    ("Politico EU", "https://www.politico.eu/feed/"),
+    ("Semafor", "https://www.semafor.com/rss.xml"),
+    ("BBC News", "https://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("The Independent", "https://www.independent.co.uk/news/world/rss"),
+    ("NPR World", "https://feeds.npr.org/1004/rss.xml"),
+    ("CBC World", "https://rss.cbc.ca/lineup/world.xml"),
+    ("The Guardian", "https://www.theguardian.com/world/rss"),
+    ("Deutsche Welle", "https://rss.dw.com/xml/rss-en-world"),
+    ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"),
+    ("Euronews", "https://www.euronews.com/rss?level=theme&name=news"),
+    ("RFI English", "https://www.rfi.fr/en/rss"),
+    ("CNA", "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6311"),
+    ("Japan Times", "https://www.japantimes.co.jp/feed/"),
+    ("SCMP", "https://www.scmp.com/rss/91/feed"),
+    ("Straits Times", "https://www.straitstimes.com/news/asia/rss.xml"),
+    ("Spiegel", "https://www.spiegel.de/international/index.rss"),
+    ("El País", "https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada"),
+    ("RNZ", "https://www.rnz.co.nz/rss/news.xml")
+]
+
+def fetch_all_rss():
+    """Fetch all configured news RSS feeds in parallel."""
+    print(f"Fetching {len(RSS_SOURCES)} RSS feeds in parallel...")
+    stories = []
+    
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        future_to_source = {executor.submit(fetch_rss_feed, name, url): name for name, url in RSS_SOURCES}
+        for future in as_completed(future_to_source):
+            name = future_to_source[future]
+            try:
+                res = future.result()
+                if res:
+                    stories.extend(res)
+            except Exception as e:
+                print(f"  Error resolving future for RSS source {name}: {e}", file=sys.stderr)
+                
+    return stories
 
 DIGEST_CONFIGS = [
     {
@@ -514,30 +553,47 @@ COMMODITIES_FOREX_TICKERS = ["GC=F", "SI=F", "BZ=F", "EURUSD=X", "GBPUSD=X", "JP
 EQUITIES_TICKERS = ["MSFT", "AAPL", "NVDA", "GOOGL", "AMZN", "TSLA", "META"]
 
 def fetch_single_ticker(symbol):
-    """Fetch delayed stock price data for a single symbol from Yahoo Finance API."""
+    """Fetch delayed stock price data for a single symbol from Yahoo Finance API with retries."""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
     ticker_headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
-    try:
-        response = requests.get(url, headers=ticker_headers, timeout=8)
-        if response.status_code == 200:
-            data = response.json()
-            meta = data.get("chart", {}).get("result", [{}])[0].get("meta", {})
-            price = meta.get("regularMarketPrice")
-            prev_close = meta.get("previousClose")
-            
-            if price is not None and prev_close is not None:
-                change = price - prev_close
-                change_pct = (change / prev_close) * 100
-                return {
-                    "symbol": symbol,
-                    "price": round(price, 2),
-                    "change": round(change, 2),
-                    "change_percent": round(change_pct, 2)
-                }
-    except Exception as e:
-        print(f"  Error fetching ticker {symbol}: {e}", file=sys.stderr)
+    retries = 3
+    for attempt in range(retries):
+        try:
+            response = requests.get(url, headers=ticker_headers, timeout=8)
+            if response.status_code == 200:
+                data = response.json()
+                meta = data.get("chart", {}).get("result", [{}])[0].get("meta", {})
+                price = meta.get("regularMarketPrice")
+                prev_close = meta.get("previousClose")
+                
+                if price is not None and prev_close is not None:
+                    change = price - prev_close
+                    change_pct = (change / prev_close) * 100
+                    
+                    rounded_change = round(change, 2)
+                    rounded_change_pct = round(change_pct, 2)
+                    
+                    # Prevent negative zero (-0.0)
+                    if rounded_change == 0.0:
+                        rounded_change = 0.0
+                    if rounded_change_pct == 0.0:
+                        rounded_change_pct = 0.0
+                    
+                    return {
+                        "symbol": symbol,
+                        "price": round(price, 2),
+                        "change": rounded_change,
+                        "change_percent": rounded_change_pct
+                    }
+            elif response.status_code == 429:
+                time.sleep(1 * (attempt + 1))
+        except Exception:
+            if attempt < retries - 1:
+                time.sleep(0.5 * (attempt + 1))
+    
+    print(f"  Error: Failed to fetch ticker {symbol} after {retries} attempts.", file=sys.stderr)
     return None
 
 def fetch_all_tickers_data(symbols):
@@ -593,18 +649,7 @@ def main():
     news_stories = []
     
     # RSS Feeds
-    news_stories.extend(fetch_rss_feed("France24", "https://www.france24.com/en/rss"))
-    news_stories.extend(fetch_rss_feed("Politico EU", "https://www.politico.eu/feed/"))
-    news_stories.extend(fetch_rss_feed("Semafor", "https://www.semafor.com/rss.xml"))
-    news_stories.extend(fetch_rss_feed("BBC News", "https://feeds.bbci.co.uk/news/world/rss.xml"))
-    news_stories.extend(fetch_rss_feed("The Independent", "https://www.independent.co.uk/news/world/rss"))
-    news_stories.extend(fetch_rss_feed("NPR World", "https://feeds.npr.org/1004/rss.xml"))
-    news_stories.extend(fetch_rss_feed("CBC World", "https://rss.cbc.ca/lineup/world.xml"))
-    news_stories.extend(fetch_rss_feed("The Guardian", "https://www.theguardian.com/world/rss"))
-    news_stories.extend(fetch_rss_feed("Deutsche Welle", "https://rss.dw.com/xml/rss-en-world"))
-    news_stories.extend(fetch_rss_feed("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml"))
-    news_stories.extend(fetch_rss_feed("Euronews", "https://www.euronews.com/rss?level=theme&name=news"))
-    news_stories.extend(fetch_rss_feed("RFI English", "https://www.rfi.fr/en/rss"))
+    news_stories.extend(fetch_all_rss())
     
     # 2. Sort all news stories descending by publication date (newest first)
     # This ensures that our deduplicator keeps the absolute newest version of a story
@@ -622,12 +667,9 @@ def main():
     breaking_threshold = now - timedelta(hours=3)
     
     breaking_stories = []
-    world_stories = []
     
     # Track number of breaking stories contributed by each source (max 2)
     breaking_source_counts = {}
-    # Track number of world stories contributed by each source (max 6)
-    world_source_counts = {}
     
     for story in deduped_stories:
         pub_dt = parse_iso_date(story["published"])
@@ -646,23 +688,55 @@ def main():
                 if breaking_source_counts.get(src, 0) < 2:
                     breaking_source_counts[src] = breaking_source_counts.get(src, 0) + 1
                     breaking_stories.append(story)
-                else:
-                    # Demote to World section if it exceeds the per-source cap (maximum 6 per source)
-                    if world_source_counts.get(src, 0) < 6:
-                        world_source_counts[src] = world_source_counts.get(src, 0) + 1
-                        world_stories.append(story)
-            else:
-                # Demote minor/older single-source stories to World section (maximum 6 per source)
-                if world_source_counts.get(src, 0) < 6:
-                    world_source_counts[src] = world_source_counts.get(src, 0) + 1
-                    world_stories.append(story)
-        else:
-            if world_source_counts.get(src, 0) < 6:
-                world_source_counts[src] = world_source_counts.get(src, 0) + 1
-                world_stories.append(story)
             
-    # Cap breaking stories at 8, world stories at 40 to preserve visual balance
+    # Cap breaking stories at 8 to preserve visual balance
     breaking_stories = breaking_stories[:8]
+    
+    # Extract trigrams and exact title keys of final breaking stories
+    breaking_ids = {story["url"] for story in breaking_stories}
+    breaking_trigrams = set()
+    breaking_exact = set()
+    for story in breaking_stories:
+        words = clean_title_for_ngrams(story["title"])
+        if len(words) < 3:
+            breaking_exact.add(" ".join(words))
+        else:
+            breaking_trigrams.update(get_trigrams(words))
+            
+    world_stories = []
+    # Track number of world stories contributed by each source (max 6)
+    world_source_counts = {}
+    
+    for story in deduped_stories:
+        # Avoid duplicating exactly any story in breaking news
+        if story["url"] in breaking_ids:
+            continue
+            
+        pub_dt = parse_iso_date(story["published"])
+        src = story["source"]
+        
+        # Check trigram/exact title overlap with breaking stories
+        words = clean_title_for_ngrams(story["title"])
+        is_duplicate_of_breaking = False
+        if len(words) < 3:
+            exact_key = " ".join(words)
+            if exact_key in breaking_exact:
+                is_duplicate_of_breaking = True
+        else:
+            trigrams = get_trigrams(words)
+            if any(tg in breaking_trigrams for tg in trigrams):
+                is_duplicate_of_breaking = True
+                
+        if is_duplicate_of_breaking:
+            print(f"  Filtering out world story '{story['title']}' due to overlap with breaking news.")
+            continue
+            
+        # Apply per-source cap (maximum 6 per source)
+        if world_source_counts.get(src, 0) < 6:
+            world_source_counts[src] = world_source_counts.get(src, 0) + 1
+            world_stories.append(story)
+            
+    # Cap world stories at 40 to preserve visual balance
     world_stories = world_stories[:MAX_WORLD_STORIES]
     
     # 5. Fetch Web stories (HN, Lobsters & Reddit)

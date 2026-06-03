@@ -6,6 +6,15 @@
   <title>The World State | Global News Aggregator</title>
   <meta name="description" content="A digital broadsheet - with my preferred news, aggregated and without noise">
   
+  <!-- Favicon & Open Graph Previews -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The World State | Global News Aggregator">
+  <meta property="og:description" content="A digital broadsheet - with my preferred news, aggregated and without noise">
+  <meta property="og:image" content="https://raw.githubusercontent.com/nkurien/world-state-news/main/og_image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1200">
+  
   <!-- Typography & Styling -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +59,7 @@
       font-family: 'Libre Baskerville', Georgia, serif;
       line-height: 1.6;
       padding: 2rem 5% 4rem 5%;
-      transition: background-color var(--transition-speed), color var(--transition-speed);
+      transition: background-color var(--transition-speed), color var(--transition-speed), border-color var(--transition-speed);
       position: relative;
     }
 
@@ -76,6 +85,7 @@
       margin-bottom: 2rem;
       border-bottom: 4px double var(--border-accent);
       padding-bottom: 1.5rem;
+      transition: border-color var(--transition-speed);
     }
 
     .masthead {
@@ -112,12 +122,37 @@
       text-transform: uppercase;
       font-weight: 500;
       letter-spacing: 1px;
+      transition: border-color var(--transition-speed);
     }
 
     .meta-item {
       display: flex;
       align-items: center;
       gap: 0.5rem;
+    }
+
+    .stale-badge {
+      display: inline-flex;
+      align-items: center;
+      background-color: var(--ticker-neg);
+      color: #ffffff;
+      padding: 0.1rem 0.35rem;
+      font-size: 0.6rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      border-radius: 2px;
+      margin-left: 0.6rem;
+      vertical-align: middle;
+      letter-spacing: 0.5px;
+      line-height: 1;
+      border: 1px solid var(--ticker-neg);
+      animation: pulse-stale 2.5s infinite ease-in-out;
+    }
+    
+    @keyframes pulse-stale {
+      0% { opacity: 0.85; }
+      50% { opacity: 1; }
+      100% { opacity: 0.85; }
     }
 
     @media (max-width: 650px) {
@@ -154,6 +189,12 @@
       gap: 0.4rem;
     }
     
+    .ticker-item:not(:last-child)::after {
+      content: "•";
+      margin-left: 1.5rem;
+      color: var(--border-color);
+    }
+    
     .ticker-name {
       font-weight: 700;
       color: var(--text-color);
@@ -181,6 +222,9 @@
         padding: 0.8rem 0.5rem;
         justify-content: center;
       }
+      .ticker-item:not(:last-child)::after {
+        display: none;
+      }
     }
 
     /* Theme Toggle Switch */
@@ -193,8 +237,10 @@
       font-size: 0.7rem;
       cursor: pointer;
       text-transform: uppercase;
-      transition: background-color var(--transition-speed), border-color var(--transition-speed);
+      transition: background-color var(--transition-speed), border-color var(--transition-speed), color var(--transition-speed);
       border-radius: 2px;
+      min-width: 7.5rem;
+      text-align: center;
     }
 
     .theme-toggle:hover {
@@ -248,9 +294,17 @@
     }
 
     @media (max-width: 600px) {
+      body {
+        padding: 1rem 3% 3rem 3%;
+      }
       .finance-section {
         padding: 1.2rem;
         margin-top: 2rem;
+      }
+      .market-cell-symbol {
+        display: block;
+        margin-left: 0;
+        margin-top: 0.1rem;
       }
     }
 
@@ -681,6 +735,15 @@
       letter-spacing: 0.5px;
     }
     
+    .column-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      border-bottom: 1px solid var(--border-accent);
+      padding-bottom: 0.3rem;
+    }
+    
     .digest-publication {
       margin-bottom: 1.8rem;
     }
@@ -831,7 +894,7 @@
           <div class="market-grid">
             <!-- Column 1: Indices -->
             <div class="market-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Indices</h3>
+              <h3 class="column-title">Indices</h3>
               <table class="market-table">
                 <tbody id="indices-list">
                   <!-- Indices tickers injected here -->
@@ -841,7 +904,7 @@
 
             <!-- Column 2: Commodities & Forex -->
             <div class="market-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Commodities &amp; Forex</h3>
+              <h3 class="column-title">Commodities &amp; Forex</h3>
               <table class="market-table">
                 <tbody id="commodities-list">
                   <!-- Commodities/Forex tickers injected here -->
@@ -851,7 +914,7 @@
 
             <!-- Column 3: Equities -->
             <div class="market-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.3rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Market Equities</h3>
+              <h3 class="column-title">Market Equities</h3>
               <table class="market-table">
                 <tbody id="equities-list">
                   <!-- Equities tickers injected here -->
@@ -898,7 +961,7 @@
             
             <!-- Hacker News Column -->
             <div class="web-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Tech &amp; Code</h3>
+              <h3 class="column-title">Tech &amp; Code</h3>
               <div id="hn-list">
                 <!-- HN items injected here -->
               </div>
@@ -906,7 +969,7 @@
 
             <!-- Reddit Column -->
             <div class="web-column">
-              <h3 style="font-family: 'Playfair Display', serif; font-size: 1.4rem; margin-bottom: 1.2rem; font-weight: 700; border-bottom: 1px solid var(--border-accent); padding-bottom: 0.3rem;">Reddit</h3>
+              <h3 class="column-title">Reddit</h3>
               <div id="reddit-list">
                 <!-- Reddit items injected here -->
               </div>
@@ -920,7 +983,7 @@
 
     <!-- Footer -->
     <footer>
-      <p>Published from the terminal &bull; Updates every three hours &bull; Hosted on Cloudflare Pages</p>
+      <p>Published from the terminal &bull; Updates hourly &bull; Hosted on Cloudflare Pages</p>
       <p style="margin-top: 0.5rem; font-size: 0.65rem;" id="cache-time">Cache stamp: N/A</p>
     </footer>
 
@@ -1078,12 +1141,24 @@
           
           // 1. Update Masthead Issue Date, Cache stamp, and Edition/No.
           if (data.last_updated) {
+            const lastUpdated = new Date(data.last_updated);
             issueDateEl.textContent = formatIssueDate(data.last_updated);
-            cacheTimeEl.textContent = `Cached on: ${new Date(data.last_updated).toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
+            
+            // Check cache freshness (> 2 hours)
+            const now = new Date();
+            const hoursOld = (now - lastUpdated) / (1000 * 60 * 60);
+            if (hoursOld > 2) {
+              const staleBadge = document.createElement("span");
+              staleBadge.className = "stale-badge";
+              staleBadge.innerHTML = "⚠️ STALE";
+              staleBadge.title = `Data is ${Math.round(hoursOld)} hours old`;
+              issueDateEl.appendChild(staleBadge);
+            }
+            
+            cacheTimeEl.textContent = `Cached on: ${lastUpdated.toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
             
             // Calculate Dynamic Volume & Issue Number from Project Epoch (June 2, 2026)
             const LAUNCH_DATE = new Date("2026-06-02T00:00:00Z");
-            const lastUpdated = new Date(data.last_updated);
             const diffMs = lastUpdated - LAUNCH_DATE;
             const elapsedDays = Math.max(0, Math.floor(diffMs / (1000 * 60 * 60 * 24)));
             
@@ -1148,8 +1223,8 @@
           if (data.tickers && data.tickers.length > 0) {
             tickerBar.style.display = "flex";
             tickerBar.innerHTML = data.tickers.map(ticker => {
-              const sign = ticker.change >= 0 ? '+' : '';
-              const colorClass = ticker.change >= 0 ? 'ticker-pos' : 'ticker-neg';
+              const sign = ticker.change_percent > 0 ? '+' : '';
+              const colorClass = ticker.change_percent > 0 ? 'ticker-pos' : (ticker.change_percent < 0 ? 'ticker-neg' : '');
               const formattedPrice = ticker.symbol.endsWith('.L') ? `${ticker.price}p` : ticker.price.toLocaleString();
               return `
                 <div class="ticker-item">
@@ -1158,7 +1233,7 @@
                   <span class="ticker-change ${colorClass}">${sign}${ticker.change_percent}%</span>
                 </div>
               `;
-            }).join(' &bull; ');
+            }).join('');
           } else {
             tickerBar.style.display = "none";
           }
@@ -1178,7 +1253,7 @@
                 // Forex pair: format as decimal ratio (e.g. 1.2825)
                 return sym.startsWith('JPY') ? price.toFixed(2) : price.toFixed(4);
               }
-              if (sym === 'GC=F' || sym === 'BZ=F') {
+              if (sym === 'GC=F' || sym === 'SI=F' || sym === 'BZ=F') {
                 // Commodities: format with currency sign $
                 return `$${price.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
               }
@@ -1196,8 +1271,8 @@
             
             // Helper to build table rows
             const createMarketRowHTML = (ticker) => {
-              const sign = ticker.change >= 0 ? '+' : '';
-              const colorClass = ticker.change >= 0 ? 'ticker-pos' : 'ticker-neg';
+              const sign = ticker.change_percent > 0 ? '+' : '';
+              const colorClass = ticker.change_percent > 0 ? 'ticker-pos' : (ticker.change_percent < 0 ? 'ticker-neg' : '');
               const formattedPrice = formatPriceVal(ticker);
               
               return `

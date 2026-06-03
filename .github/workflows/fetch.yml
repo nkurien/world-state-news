@@ -26,11 +26,6 @@ jobs:
           python-version: '3.11'
           cache: 'pip' # caching pip dependencies for faster runs
 
-      - name: Create Requirements File
-        run: |
-          echo "requests>=2.31.0" > requirements.txt
-          echo "feedparser>=6.0.12" >> requirements.txt
-
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip

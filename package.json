@@ -1,0 +1,16 @@
+{
+  "name": "world-state-news",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zero-backend static news aggregator",
+  "scripts": {
+    "lint:html": "htmlhint index.html",
+    "format:check": "prettier --check index.html",
+    "format": "prettier --write index.html",
+    "lint": "npm run lint:html && npm run format:check"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.0.0",
+    "prettier": "^3.2.5"
+  }
+}

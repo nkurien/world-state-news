@@ -1,18 +1,29 @@
 import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
-from fetch_news import clean_title_for_ngrams, get_trigrams, deduplicate_stories, parse_iso_date
+from fetch_news import (
+    clean_title_for_ngrams,
+    get_trigrams,
+    deduplicate_stories,
+    parse_iso_date,
+)
+
 
 class TestFetchNews(unittest.TestCase):
-
     def test_clean_title_for_ngrams_parameterized(self):
         """Test cleaning of headlines to verify normalization and stopword removal (A-A-A)."""
         # Arrange: Setup list of headlines and their expected clean token lists
         test_cases = [
             ("The Quick Brown Fox!", ["quick", "brown", "fox"]),
-            ("Germany warns of escalation in Middle East", ["germany", "warns", "escalation", "middle", "east"]),
+            (
+                "Germany warns of escalation in Middle East",
+                ["germany", "warns", "escalation", "middle", "east"],
+            ),
             ("A and AN and THE are standard stopwords", ["standard", "stopwords"]),
-            ("Punctuation, like commas: should be stripped.", ["punctuation", "like", "commas", "stripped"]),
+            (
+                "Punctuation, like commas: should be stripped.",
+                ["punctuation", "like", "commas", "stripped"],
+            ),
             ("   Spaces   should be   trimmed.  ", ["spaces", "trimmed"]),
         ]
 
@@ -30,12 +41,12 @@ class TestFetchNews(unittest.TestCase):
         test_cases = [
             (["quick", "brown", "fox"], {("quick", "brown", "fox")}),
             (
-                ["germany", "warns", "escalation", "middle", "east"], 
+                ["germany", "warns", "escalation", "middle", "east"],
                 {
                     ("germany", "warns", "escalation"),
                     ("warns", "escalation", "middle"),
-                    ("escalation", "middle", "east")
-                }
+                    ("escalation", "middle", "east"),
+                },
             ),
             (["short"], set()),
             (["two", "words"], set()),
@@ -56,84 +67,171 @@ class TestFetchNews(unittest.TestCase):
             # Case 1: Standard duplicate headlines with varying timestamps
             (
                 [
-                    {"title": "Germany warns of escalation in Middle East", "published": "2026-06-02T12:00:00Z", "source": "BBC News"},
-                    {"title": "Germany warns of escalation in the Middle East conflict", "published": "2026-06-02T10:00:00Z", "source": "France24"},
-                    {"title": "Unrelated world news story about trade", "published": "2026-06-02T09:00:00Z", "source": "Politico EU"},
+                    {
+                        "title": "Germany warns of escalation in Middle East",
+                        "published": "2026-06-02T12:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "Germany warns of escalation in the Middle East conflict",
+                        "published": "2026-06-02T10:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "Unrelated world news story about trade",
+                        "published": "2026-06-02T09:00:00Z",
+                        "source": "Politico EU",
+                    },
                 ],
                 [
                     ("Germany warns of escalation in Middle East", 2, ["France24"]),
-                    ("Unrelated world news story about trade", 1, [])
-                ]
+                    ("Unrelated world news story about trade", 1, []),
+                ],
             ),
             # Case 2: Multi-word overlap duplicates with possessive normalization
             (
                 [
-                    {"title": "US sanctions Iran's crypto exchange over IRGC links", "published": "2026-06-02T14:00:00Z", "source": "BBC News"},
-                    {"title": "US imposes sanctions on Iran crypto exchange due to IRGC links", "published": "2026-06-02T13:00:00Z", "source": "France24"},
-                    {"title": "Completely different report on weather", "published": "2026-06-02T12:00:00Z", "source": "Politico EU"},
+                    {
+                        "title": "US sanctions Iran's crypto exchange over IRGC links",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "US imposes sanctions on Iran crypto exchange due to IRGC links",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "Completely different report on weather",
+                        "published": "2026-06-02T12:00:00Z",
+                        "source": "Politico EU",
+                    },
                 ],
                 [
-                    ("US sanctions Iran's crypto exchange over IRGC links", 2, ["France24"]),
-                    ("Completely different report on weather", 1, [])
-                ]
+                    (
+                        "US sanctions Iran's crypto exchange over IRGC links",
+                        2,
+                        ["France24"],
+                    ),
+                    ("Completely different report on weather", 1, []),
+                ],
             ),
             # Case 3: Short titles exact duplicate filter
             (
                 [
-                    {"title": "Short title", "published": "2026-06-02T12:00:00Z", "source": "BBC News"},
-                    {"title": "Short title", "published": "2026-06-02T11:00:00Z", "source": "France24"},
-                    {"title": "Short body", "published": "2026-06-02T10:00:00Z", "source": "Politico EU"},
+                    {
+                        "title": "Short title",
+                        "published": "2026-06-02T12:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "Short title",
+                        "published": "2026-06-02T11:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "Short body",
+                        "published": "2026-06-02T10:00:00Z",
+                        "source": "Politico EU",
+                    },
                 ],
-                [
-                    ("Short title", 2, ["France24"]),
-                    ("Short body", 1, [])
-                ]
+                [("Short title", 2, ["France24"]), ("Short body", 1, [])],
             ),
             # Case 4: Prevents false positive transitive chaining (A, B, C are kept separate because overlap is below threshold)
             (
                 [
-                    {"title": "Crisis in eastern europe deepens today", "published": "2026-06-02T14:00:00Z", "source": "BBC News"},
-                    {"title": "Crisis in eastern europe reported", "published": "2026-06-02T13:00:00Z", "source": "France24"},
-                    {"title": "Eastern europe reported stable", "published": "2026-06-02T12:00:00Z", "source": "Politico EU"},
+                    {
+                        "title": "Crisis in eastern europe deepens today",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "Crisis in eastern europe reported",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "Eastern europe reported stable",
+                        "published": "2026-06-02T12:00:00Z",
+                        "source": "Politico EU",
+                    },
                 ],
                 [
                     ("Crisis in eastern europe deepens today", 1, []),
                     ("Crisis in eastern europe reported", 1, []),
-                    ("Eastern europe reported stable", 1, [])
-                ]
+                    ("Eastern europe reported stable", 1, []),
+                ],
             ),
             # Case 5: Valid transitive duplicate chaining (C matches A through a mix of A's directly and B's transitively registered trigrams)
             (
                 [
-                    {"title": "Germany warns of escalation in Middle East conflict", "published": "2026-06-02T14:00:00Z", "source": "BBC News"},
-                    {"title": "Germany warns of escalation in Middle East region", "published": "2026-06-02T13:00:00Z", "source": "France24"},
-                    {"title": "escalation in Middle East region volatile", "published": "2026-06-02T12:00:00Z", "source": "Politico EU"},
+                    {
+                        "title": "Germany warns of escalation in Middle East conflict",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "Germany warns of escalation in Middle East region",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "escalation in Middle East region volatile",
+                        "published": "2026-06-02T12:00:00Z",
+                        "source": "Politico EU",
+                    },
                 ],
                 [
-                    ("Germany warns of escalation in Middle East conflict", 3, ["France24", "Politico EU"])
-                ]
+                    (
+                        "Germany warns of escalation in Middle East conflict",
+                        3,
+                        ["France24", "Politico EU"],
+                    )
+                ],
             ),
             # Case 6: Multiple duplicates from the same source (all should be preserved in other_sources under new policy)
             (
                 [
-                    {"title": "New tax policy announced by government", "published": "2026-06-02T14:00:00Z", "source": "BBC News"},
-                    {"title": "New tax policy announced by government today", "published": "2026-06-02T13:30:00Z", "source": "France24"},
-                    {"title": "New tax policy announced by government yesterday", "published": "2026-06-02T13:00:00Z", "source": "France24"},
+                    {
+                        "title": "New tax policy announced by government",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "BBC News",
+                    },
+                    {
+                        "title": "New tax policy announced by government today",
+                        "published": "2026-06-02T13:30:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "New tax policy announced by government yesterday",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "France24",
+                    },
                 ],
                 [
-                    ("New tax policy announced by government", 2, ["France24", "France24"])
-                ]
+                    (
+                        "New tax policy announced by government",
+                        2,
+                        ["France24", "France24"],
+                    )
+                ],
             ),
             # Case 7: High Jaccard similarity fallback (ceasefire example, trigrams don't meet threshold but Jaccard = 0.8)
             (
                 [
-                    {"title": "Israel and Lebanon agree to conditional ceasefire", "published": "2026-06-02T14:00:00Z", "source": "France24"},
-                    {"title": "Israel and Lebanon agree ceasefire", "published": "2026-06-02T13:00:00Z", "source": "Semafor"},
+                    {
+                        "title": "Israel and Lebanon agree to conditional ceasefire",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "France24",
+                    },
+                    {
+                        "title": "Israel and Lebanon agree ceasefire",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "Semafor",
+                    },
                 ],
-                [
-                    ("Israel and Lebanon agree to conditional ceasefire", 2, ["Semafor"])
-                ]
-            )
+                [("Israel and Lebanon agree to conditional ceasefire", 2, ["Semafor"])],
+            ),
         ]
 
         for input_stories, expected_results in test_cases:
@@ -141,7 +239,11 @@ class TestFetchNews(unittest.TestCase):
                 # Act: Execute deduplication logic
                 result = deduplicate_stories(input_stories)
                 result_details = [
-                    (story["title"], story["score"], [os["source"] for os in story["other_sources"]])
+                    (
+                        story["title"],
+                        story["score"],
+                        [os["source"] for os in story["other_sources"]],
+                    )
                     for story in result
                 ]
 
@@ -152,9 +254,18 @@ class TestFetchNews(unittest.TestCase):
         """Test ISO 8601 string parsing with different formats (A-A-A)."""
         # Arrange: Setup ISO 8601 strings and their expected parsed timezone-aware UTC datetime values
         test_cases = [
-            ("2026-06-02T20:30:00Z", datetime(2026, 6, 2, 20, 30, 0, tzinfo=timezone.utc)),
-            ("2026-06-02T20:30:00+00:00", datetime(2026, 6, 2, 20, 30, 0, tzinfo=timezone.utc)),
-            ("2026-06-02T20:30:00.123456+00:00", datetime(2026, 6, 2, 20, 30, 0, 123456, tzinfo=timezone.utc)),
+            (
+                "2026-06-02T20:30:00Z",
+                datetime(2026, 6, 2, 20, 30, 0, tzinfo=timezone.utc),
+            ),
+            (
+                "2026-06-02T20:30:00+00:00",
+                datetime(2026, 6, 2, 20, 30, 0, tzinfo=timezone.utc),
+            ),
+            (
+                "2026-06-02T20:30:00.123456+00:00",
+                datetime(2026, 6, 2, 20, 30, 0, 123456, tzinfo=timezone.utc),
+            ),
         ]
 
         for date_str, expected_dt in test_cases:
@@ -184,9 +295,13 @@ class TestFetchNews(unittest.TestCase):
     def test_clean_html(self):
         """Test HTML tag removal, entity unescaping, and whitespace normalization (A-A-A)."""
         from fetch_news import clean_html
+
         test_cases = [
             ("<p>Hello <b>World</b>!</p>", "Hello World!"),
-            ("Text with &amp; entity and &#8217; curly quote.", "Text with & entity and ’ curly quote."),
+            (
+                "Text with &amp; entity and &#8217; curly quote.",
+                "Text with & entity and ’ curly quote.",
+            ),
             ("Multiple   spaces \n and \t newlines.", "Multiple spaces and newlines."),
             (None, ""),
             ("", ""),
@@ -199,6 +314,7 @@ class TestFetchNews(unittest.TestCase):
     def test_truncate_snippet(self):
         """Test snippet truncation at word boundaries close to limit (A-A-A)."""
         from fetch_news import truncate_snippet
+
         text = "This is a very long sentence that has multiple words and we want to truncate it cleanly without cutting words in half if possible."
         # Truncate at length 40
         res = truncate_snippet(text, max_len=40)
@@ -215,12 +331,13 @@ class TestFetchNews(unittest.TestCase):
         self.assertEqual(truncate_snippet(None), "")
         self.assertEqual(truncate_snippet(""), "")
 
-class TestFetchNewsNetwork(unittest.TestCase):
 
-    @patch('fetch_news.requests.get')
+class TestFetchNewsNetwork(unittest.TestCase):
+    @patch("fetch_news.requests.get")
     def test_fetch_rss_feed_success(self, mock_get):
         """Test fetch_rss_feed parses a valid RSS XML response correctly (A-A-A)."""
         from fetch_news import fetch_rss_feed
+
         # Arrange: Setup mock response
         mock_response = MagicMock()
         mock_response.status_code = 200
@@ -251,10 +368,11 @@ class TestFetchNewsNetwork(unittest.TestCase):
         self.assertEqual(result[0]["source"], "Test Source")
         self.assertEqual(result[0]["published"], "2026-06-04T12:00:00+00:00")
 
-    @patch('fetch_news.requests.get')
+    @patch("fetch_news.requests.get")
     def test_fetch_rss_feed_failure(self, mock_get):
         """Test fetch_rss_feed returns empty list on HTTP error (A-A-A)."""
         from fetch_news import fetch_rss_feed
+
         # Arrange: Mock a requests failure
         mock_get.side_effect = Exception("Network connection timeout")
 
@@ -263,6 +381,7 @@ class TestFetchNewsNetwork(unittest.TestCase):
 
         # Assert: Verify that list is empty and did not crash the pipeline
         self.assertEqual(result, [])
+
 
 if __name__ == "__main__":
     unittest.main()

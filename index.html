@@ -1,1075 +1,1095 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The World State | Global News Aggregator</title>
-  <meta name="description" content="A digital broadsheet - with my preferred news, aggregated and without noise">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://world-state-news.pages.dev/">
-  
-  <!-- Favicon & Open Graph Previews -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="The World State | Global News Aggregator">
-  <meta property="og:description" content="A digital broadsheet - with my preferred news, aggregated and without noise">
-  <meta property="og:image" content="https://raw.githubusercontent.com/nkurien/world-state-news/main/og_image.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="1200">
-  
-  <!-- Typography & Styling -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The World State | Global News Aggregator</title>
+    <meta name="description" content="A digital broadsheet - with my preferred news, aggregated and without noise" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://world-state-news.pages.dev/" />
 
-  <style>
-    /* Design Tokens */
-    :root {
-      --bg-color: #fcfaf2; /* Warm newsprint beige */
-      --text-color: #121314; /* Charcoal black ink */
-      --border-color: #cdc9be; /* Muted gray border */
-      --border-accent: #121314; /* Double lines color */
-      --accent-color: #bd4a1c; /* Deep terracotta rust orange for badges */
-      --hover-color: #555555;
-      --card-bg: transparent;
-      --transition-speed: 0.3s;
-      --ticker-pos: #1e7d34; /* Rich green */
-      --ticker-neg: #c5221f; /* Classic crimson red */
-    }
+    <!-- Favicon & Open Graph Previews -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The World State | Global News Aggregator" />
+    <meta
+      property="og:description"
+      content="A digital broadsheet - with my preferred news, aggregated and without noise"
+    />
+    <meta property="og:image" content="https://raw.githubusercontent.com/nkurien/world-state-news/main/og_image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="1200" />
 
-    [data-theme="dark"] {
-      --bg-color: #121315; /* Deep slate ink */
-      --text-color: #eae7dd; /* Warm ivory paper */
-      --border-color: #383a3d; /* Dark gray border */
-      --border-accent: #eae7dd;
-      --accent-color: #ff7e47; /* Bright amber orange */
-      --hover-color: #b0afab;
-      --ticker-pos: #66bb6a; /* Muted vibrant green */
-      --ticker-neg: #ef5350; /* Muted vibrant red */
-    }
+    <!-- Typography & Styling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
-    /* Reset & Base */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      font-family: 'Libre Baskerville', Georgia, serif;
-      line-height: 1.6;
-      padding: 2rem 5% 4rem 5%;
-      transition: background-color var(--transition-speed), color var(--transition-speed), border-color var(--transition-speed);
-      position: relative;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-      transition: color var(--transition-speed);
-    }
-
-    a:hover {
-      color: var(--accent-color);
-    }
-
-    /* Containers */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    /* Header & Masthead */
-    header {
-      text-align: center;
-      margin-bottom: 2rem;
-      border-bottom: 4px double var(--border-accent);
-      padding-bottom: 1.5rem;
-      transition: border-color var(--transition-speed);
-    }
-
-    .masthead {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.5rem, 8vw, 5.5rem);
-      font-weight: 900;
-      letter-spacing: -2px;
-      line-height: 1;
-      text-transform: uppercase;
-      margin: 0;
-      margin-bottom: 0.5rem;
-      position: relative;
-      display: inline-block;
-    }
-
-
-
-    /* Metadata Bar */
-    .meta-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      padding: 0.6rem 1rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      font-weight: 500;
-      letter-spacing: 1px;
-      transition: border-color var(--transition-speed);
-    }
-
-    .meta-item {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .stale-badge {
-      display: inline-flex;
-      align-items: center;
-      background-color: var(--ticker-neg);
-      color: #ffffff;
-      padding: 0.1rem 0.35rem;
-      font-size: 0.6rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      border-radius: 2px;
-      margin-left: 0.6rem;
-      vertical-align: middle;
-      letter-spacing: 0.5px;
-      line-height: 1;
-      border: 1px solid var(--ticker-neg);
-      animation: pulse-stale 2.5s infinite ease-in-out;
-    }
-    
-    @keyframes pulse-stale {
-      0% { opacity: 0.85; }
-      50% { opacity: 1; }
-      100% { opacity: 0.85; }
-    }
-
-    @media (max-width: 650px) {
-      .meta-bar {
-        flex-direction: column;
-        gap: 0.6rem;
-        padding: 0.8rem 0.5rem;
-        font-size: 0.7rem;
+    <style>
+      /* Design Tokens */
+      :root {
+        --bg-color: #fcfaf2; /* Warm newsprint beige */
+        --text-color: #121314; /* Charcoal black ink */
+        --border-color: #cdc9be; /* Muted gray border */
+        --border-accent: #121314; /* Double lines color */
+        --accent-color: #bd4a1c; /* Deep terracotta rust orange for badges */
+        --hover-color: #555555;
+        --card-bg: transparent;
+        --transition-speed: 0.3s;
+        --ticker-pos: #1e7d34; /* Rich green */
+        --ticker-neg: #c5221f; /* Classic crimson red */
       }
+
+      [data-theme="dark"] {
+        --bg-color: #121315; /* Deep slate ink */
+        --text-color: #eae7dd; /* Warm ivory paper */
+        --border-color: #383a3d; /* Dark gray border */
+        --border-accent: #eae7dd;
+        --accent-color: #ff7e47; /* Bright amber orange */
+        --hover-color: #b0afab;
+        --ticker-pos: #66bb6a; /* Muted vibrant green */
+        --ticker-neg: #ef5350; /* Muted vibrant red */
+      }
+
+      /* Reset & Base */
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        font-family: "Libre Baskerville", Georgia, serif;
+        line-height: 1.6;
+        padding: 2rem 5% 4rem 5%;
+        transition:
+          background-color var(--transition-speed),
+          color var(--transition-speed),
+          border-color var(--transition-speed);
+        position: relative;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        transition: color var(--transition-speed);
+      }
+
+      a:hover {
+        color: var(--accent-color);
+      }
+
+      /* Containers */
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      /* Header & Masthead */
+      header {
+        text-align: center;
+        margin-bottom: 2rem;
+        border-bottom: 4px double var(--border-accent);
+        padding-bottom: 1.5rem;
+        transition: border-color var(--transition-speed);
+      }
+
+      .masthead {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(2.5rem, 8vw, 5.5rem);
+        font-weight: 900;
+        letter-spacing: -2px;
+        line-height: 1;
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 0.5rem;
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Metadata Bar */
+      .meta-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--border-color);
+        padding: 0.6rem 1rem;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 1px;
+        transition: border-color var(--transition-speed);
+      }
+
       .meta-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .stale-badge {
+        display: inline-flex;
+        align-items: center;
+        background-color: var(--ticker-neg);
+        color: #ffffff;
+        padding: 0.1rem 0.35rem;
+        font-size: 0.6rem;
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 700;
+        border-radius: 2px;
+        margin-left: 0.6rem;
+        vertical-align: middle;
+        letter-spacing: 0.5px;
+        line-height: 1;
+        border: 1px solid var(--ticker-neg);
+        animation: pulse-stale 2.5s infinite ease-in-out;
+      }
+
+      @keyframes pulse-stale {
+        0% {
+          opacity: 0.85;
+        }
+        50% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0.85;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .meta-bar {
+          flex-direction: column;
+          gap: 0.6rem;
+          padding: 0.8rem 0.5rem;
+          font-size: 0.7rem;
+        }
+        .meta-item {
+          justify-content: center;
+          text-align: center;
+        }
+      }
+
+      /* Ticker Bar */
+      .ticker-bar {
+        display: flex;
         justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+        border-top: 1px solid var(--border-color);
+        padding: 0.6rem 1rem;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.5px;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+      }
+
+      .ticker-item {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+      }
+
+      .ticker-item:not(:last-child)::after {
+        content: "•";
+        margin-left: 1.5rem;
+        color: var(--border-color);
+      }
+
+      .ticker-name {
+        font-weight: 700;
+        color: var(--text-color);
+      }
+
+      .ticker-val {
+        color: var(--hover-color);
+      }
+
+      .ticker-change {
+        font-weight: 700;
+      }
+
+      .ticker-pos {
+        color: var(--ticker-pos);
+      }
+
+      .ticker-neg {
+        color: var(--ticker-neg);
+      }
+
+      @media (max-width: 650px) {
+        .ticker-bar {
+          gap: 0.8rem;
+          padding: 0.8rem 0.5rem;
+          justify-content: center;
+        }
+        .ticker-item:not(:last-child)::after {
+          display: none;
+        }
+      }
+
+      /* Theme Toggle Switch */
+      .theme-toggle {
+        background: none;
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+        padding: 0.3rem 0.8rem;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition:
+          background-color var(--transition-speed),
+          border-color var(--transition-speed),
+          color var(--transition-speed);
+        border-radius: 2px;
+        min-width: 7.5rem;
         text-align: center;
       }
-    }
 
-    /* Ticker Bar */
-    .ticker-bar {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      border-top: 1px solid var(--border-color);
-      padding: 0.6rem 1rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      letter-spacing: 0.5px;
-      flex-wrap: wrap;
-      text-transform: uppercase;
-    }
-    
-    .ticker-item {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-    }
-    
-    .ticker-item:not(:last-child)::after {
-      content: "•";
-      margin-left: 1.5rem;
-      color: var(--border-color);
-    }
-    
-    .ticker-name {
-      font-weight: 700;
-      color: var(--text-color);
-    }
-    
-    .ticker-val {
-      color: var(--hover-color);
-    }
-    
-    .ticker-change {
-      font-weight: 700;
-    }
-    
-    .ticker-pos {
-      color: var(--ticker-pos);
-    }
-    
-    .ticker-neg {
-      color: var(--ticker-neg);
-    }
-
-    @media (max-width: 650px) {
-      .ticker-bar {
-        gap: 0.8rem;
-        padding: 0.8rem 0.5rem;
-        justify-content: center;
+      .theme-toggle:hover {
+        background-color: var(--text-color);
+        color: var(--bg-color);
+        border-color: var(--text-color);
       }
-      .ticker-item:not(:last-child)::after {
-        display: none;
+
+      /* Section Headers */
+      .section-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-bottom: 2px solid var(--border-accent);
+        padding-bottom: 0.4rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: -0.5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
-    }
 
-    /* Theme Toggle Switch */
-    .theme-toggle {
-      background: none;
-      border: 1px solid var(--border-color);
-      color: var(--text-color);
-      padding: 0.3rem 0.8rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      cursor: pointer;
-      text-transform: uppercase;
-      transition: background-color var(--transition-speed), border-color var(--transition-speed), color var(--transition-speed);
-      border-radius: 2px;
-      min-width: 7.5rem;
-      text-align: center;
-    }
-
-    .theme-toggle:hover {
-      background-color: var(--text-color);
-      color: var(--bg-color);
-      border-color: var(--text-color);
-    }
-
-    /* Section Headers */
-    .section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      border-bottom: 2px solid var(--border-accent);
-      padding-bottom: 0.4rem;
-      margin-top: 2.5rem;
-      margin-bottom: 1.5rem;
-      letter-spacing: -0.5px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .section-title::after {
-      content: "";
-      flex-grow: 1;
-      height: 1px;
-      background: var(--border-color);
-      margin-left: 1.5rem;
-    }
-
-    /* Finance & Markets Section Styling */
-    .finance-section {
-      margin-top: 3.5rem;
-      padding: 2rem;
-      background-color: #ffefe5; /* Financial Times salmon color */
-      border: 1px solid var(--border-color);
-      border-top: 4px double var(--border-accent);
-      border-bottom: 4px double var(--border-accent);
-      transition: background-color var(--transition-speed), border-color var(--transition-speed);
-    }
-    
-    [data-theme="dark"] .finance-section {
-      background-color: #1e1512; /* Muted warm dark terracotta */
-      border-color: #4a342b;
-    }
-
-    .finance-section .section-title {
-      margin-top: 0;
-    }
-
-    @media (max-width: 600px) {
-      body {
-        padding: 1rem 3% 3rem 3%;
+      .section-title::after {
+        content: "";
+        flex-grow: 1;
+        height: 1px;
+        background: var(--border-color);
+        margin-left: 1.5rem;
       }
+
+      /* Finance & Markets Section Styling */
       .finance-section {
-        padding: 1.2rem;
-        margin-top: 2rem;
+        margin-top: 3.5rem;
+        padding: 2rem;
+        background-color: #ffefe5; /* Financial Times salmon color */
+        border: 1px solid var(--border-color);
+        border-top: 4px double var(--border-accent);
+        border-bottom: 4px double var(--border-accent);
+        transition:
+          background-color var(--transition-speed),
+          border-color var(--transition-speed);
       }
-      .market-cell-symbol {
-        display: block;
-        margin-left: 0;
-        margin-top: 0.1rem;
+
+      [data-theme="dark"] .finance-section {
+        background-color: #1e1512; /* Muted warm dark terracotta */
+        border-color: #4a342b;
       }
-    }
 
-    /* Market Board Tables Styling */
-    .market-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-    }
-    
-    .market-column {
-      border-right: 1px solid var(--border-color);
-      padding-right: 1.25rem;
-    }
-    
-    .market-column:last-child {
-      border-right: none;
-      padding-right: 0;
-    }
-    
-    .market-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.85rem;
-      line-height: 1.4;
-    }
-    
-    .market-row {
-      border-bottom: 1px dotted var(--border-color);
-    }
-    
-    .market-row:last-child {
-      border-bottom: none;
-    }
-    
-    .market-row td {
-      padding: 0.6rem 0;
-      vertical-align: middle;
-    }
-    
-    .market-cell-name {
-      font-family: 'Libre Baskerville', Georgia, serif;
-      font-weight: 700;
-      color: var(--text-color);
-    }
-    
-    .market-cell-symbol {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--hover-color);
-      text-transform: uppercase;
-      margin-left: 0.4rem;
-    }
-    
-    .market-cell-price {
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 500;
-      text-align: right;
-      color: var(--text-color);
-      padding-right: 0.5rem;
-    }
-    
-    .market-cell-change {
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      text-align: right;
-      white-space: nowrap;
-    }
+      .finance-section .section-title {
+        margin-top: 0;
+      }
 
-    @media (max-width: 900px) {
+      @media (max-width: 600px) {
+        body {
+          padding: 1rem 3% 3rem 3%;
+        }
+        .finance-section {
+          padding: 1.2rem;
+          margin-top: 2rem;
+        }
+        .market-cell-symbol {
+          display: block;
+          margin-left: 0;
+          margin-top: 0.1rem;
+        }
+      }
+
+      /* Market Board Tables Styling */
       .market-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
       }
+
       .market-column {
+        border-right: 1px solid var(--border-color);
+        padding-right: 1.25rem;
+      }
+
+      .market-column:last-child {
         border-right: none;
         padding-right: 0;
-        border-bottom: 1px dashed var(--border-color);
-        padding-bottom: 1.5rem;
       }
-      .market-column:last-child {
+
+      .market-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+        line-height: 1.4;
+      }
+
+      .market-row {
+        border-bottom: 1px dotted var(--border-color);
+      }
+
+      .market-row:last-child {
+        border-bottom: none;
+      }
+
+      .market-row td {
+        padding: 0.6rem 0;
+        vertical-align: middle;
+      }
+
+      .market-cell-name {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-weight: 700;
+        color: var(--text-color);
+      }
+
+      .market-cell-symbol {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.65rem;
+        color: var(--hover-color);
+        text-transform: uppercase;
+        margin-left: 0.4rem;
+      }
+
+      .market-cell-price {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 500;
+        text-align: right;
+        color: var(--text-color);
+        padding-right: 0.5rem;
+      }
+
+      .market-cell-change {
+        font-family: "JetBrains Mono", monospace;
+        font-weight: 700;
+        text-align: right;
+        white-space: nowrap;
+      }
+
+      @media (max-width: 900px) {
+        .market-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+        .market-column {
+          border-right: none;
+          padding-right: 0;
+          border-bottom: 1px dashed var(--border-color);
+          padding-bottom: 1.5rem;
+        }
+        .market-column:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+      }
+
+      /* Breaking News Panel */
+      #breaking-section {
+        margin-bottom: 2rem;
+      }
+
+      .breaking-container {
+        background: transparent;
+        border: 1px solid var(--accent-color);
+        padding: 1.5rem;
+        position: relative;
+      }
+
+      .breaking-container::before {
+        content: "BREAKING NEWS";
+        position: absolute;
+        top: -10px;
+        left: 1.5rem;
+        background: var(--accent-color);
+        color: var(--bg-color);
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 0.1rem 0.6rem;
+        letter-spacing: 1px;
+      }
+
+      .breaking-item {
+        padding: 0.5rem 0;
+        border-bottom: 1px dashed var(--border-color);
+      }
+
+      .breaking-item:last-child {
         border-bottom: none;
         padding-bottom: 0;
       }
-    }
 
-    /* Breaking News Panel */
-    #breaking-section {
-      margin-bottom: 2rem;
-    }
-
-    .breaking-container {
-      background: transparent;
-      border: 1px solid var(--accent-color);
-      padding: 1.5rem;
-      position: relative;
-    }
-
-    .breaking-container::before {
-      content: "BREAKING NEWS";
-      position: absolute;
-      top: -10px;
-      left: 1.5rem;
-      background: var(--accent-color);
-      color: var(--bg-color);
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      font-weight: 700;
-      padding: 0.1rem 0.6rem;
-      letter-spacing: 1px;
-    }
-
-    .breaking-item {
-      padding: 0.5rem 0;
-      border-bottom: 1px dashed var(--border-color);
-    }
-
-    .breaking-item:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-
-    .breaking-item:first-child {
-      padding-top: 0.5rem;
-    }
-
-    .breaking-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      line-height: 1.3;
-    }
-
-    /* News Grid Layout (Broadsheet) */
-    .broadsheet-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-    }
-
-    @media (max-width: 900px) {
-      .broadsheet-grid {
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+      .breaking-item:first-child {
+        padding-top: 0.5rem;
       }
-    }
 
-    @media (max-width: 600px) {
-      .broadsheet-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+      .breaking-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 1.3;
       }
-    }
 
-    /* Article Cards */
-    article {
-      display: flex;
-      flex-direction: column;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+      /* News Grid Layout (Broadsheet) */
+      .broadsheet-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+      }
 
-    article:last-of-type {
-      border-bottom: none;
-    }
+      @media (max-width: 900px) {
+        .broadsheet-grid {
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+        }
+      }
 
-    /* Lead Story Treatment */
-    article.lead-story {
-      grid-column: span 2;
-      border-right: 1px solid var(--border-color);
-      padding-right: 2.5rem;
-      border-bottom: none;
-      padding-bottom: 0;
-    }
+      @media (max-width: 600px) {
+        .broadsheet-grid {
+          grid-template-columns: 1fr;
+          gap: 1.5rem;
+        }
+      }
 
-    @media (max-width: 900px) {
-      article.lead-story {
-        grid-column: span 2;
-        border-right: none;
-        padding-right: 0;
+      /* Article Cards */
+      article {
+        display: flex;
+        flex-direction: column;
         border-bottom: 1px solid var(--border-color);
         padding-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
       }
-    }
 
-    @media (max-width: 600px) {
+      article:last-of-type {
+        border-bottom: none;
+      }
+
+      /* Lead Story Treatment */
       article.lead-story {
-        grid-column: span 1;
-      }
-    }
-
-    .lead-story .article-title {
-      font-size: 2rem;
-      line-height: 1.25;
-      font-weight: 900;
-      margin-bottom: 0.8rem;
-    }
-
-    .article-meta {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--accent-color);
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 0.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.6rem;
-    }
-
-    .article-meta span.date-dot {
-      width: 3px;
-      height: 3px;
-      background-color: var(--border-color);
-      border-radius: 50%;
-      display: inline-block;
-    }
-
-    .article-meta span.time-ago {
-      color: var(--hover-color);
-      font-weight: 400;
-    }
-
-    .article-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      line-height: 1.35;
-      margin-bottom: 0.5rem;
-    }
-
-    .article-title a {
-      position: relative;
-    }
-
-    .article-title a:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 4px;
-    }
-
-    /* Collapsible Alternative Sources */
-    details.sources-details {
-      margin-top: 0.6rem;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.68rem;
-      border-top: 1px dashed var(--border-color);
-      padding-top: 0.5rem;
-    }
-
-    details.sources-details summary {
-      list-style: none; /* Hide default arrow in Chrome/Firefox */
-      cursor: pointer;
-      color: var(--accent-color);
-      font-weight: 700;
-      display: flex;
-      align-items: center;
-      gap: 0.3rem;
-      user-select: none;
-      text-transform: uppercase;
-    }
-
-    details.sources-details summary::-webkit-details-marker {
-      display: none; /* Hide default arrow in Safari */
-    }
-
-    details.sources-details summary::before {
-      content: "▶";
-      display: inline-block;
-      transition: transform 0.2s ease;
-      font-size: 0.55rem;
-    }
-
-    details.sources-details[open] summary::before {
-      transform: rotate(90deg);
-    }
-
-    .sources-expanded {
-      margin-top: 0.5rem;
-      padding-left: 0.75rem;
-      border-left: 1px solid var(--border-color);
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
-    }
-
-    .source-item {
-      display: flex;
-      flex-direction: column;
-      line-height: 1.3;
-    }
-
-    .source-meta {
-      color: var(--hover-color);
-      font-size: 0.62rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin-bottom: 0.1rem;
-    }
-
-    .source-title-link {
-      font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 0.75rem;
-      color: var(--text-color);
-      text-decoration: underline;
-      text-decoration-style: dotted;
-      text-decoration-thickness: 1px;
-    }
-
-    .source-title-link:hover {
-      color: var(--accent-color) !important;
-      text-decoration-style: solid;
-    }
-
-    /* On The Web Sections (HN + Reddit) */
-    .web-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-    }
-
-    @media (max-width: 800px) {
-      .web-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-      }
-    }
-
-    .web-column {
-      border-right: 1px solid var(--border-color);
-      padding-right: 3rem;
-    }
-
-    .web-column:last-child {
-      border-right: none;
-      padding-right: 0;
-    }
-
-    @media (max-width: 800px) {
-      .web-column {
-        border-right: none;
-        padding-right: 0;
-      }
-    }
-
-    .web-item {
-      padding: 0.8rem 0;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 0.95rem;
-    }
-
-    .web-item:last-child {
-      border-bottom: none;
-    }
-
-    .web-item-title {
-      font-family: 'Libre Baskerville', Georgia, serif;
-      font-weight: 400;
-      line-height: 1.4;
-      margin-bottom: 0.3rem;
-    }
-
-    .web-item-meta {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.68rem;
-      color: var(--hover-color);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
-
-    .score-badge {
-      color: var(--accent-color);
-      font-weight: 700;
-    }
-
-    /* Empty / Quiet State styling */
-    .quiet-state {
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      color: var(--hover-color);
-      text-align: center;
-      padding: 1rem 0;
-      font-size: 1.05rem;
-    }
-
-    /* Footer styling */
-    footer {
-      margin-top: 5rem;
-      border-top: 1px solid var(--border-color);
-      padding-top: 2rem;
-      text-align: center;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.7rem;
-      color: var(--hover-color);
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
-    /* Digests & Briefings Section Styling */
-    .digest-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 2.5rem;
-    }
-    
-    .digest-column {
-      border-right: 1px solid var(--border-color);
-      padding-right: 1.25rem;
-      display: flex;
-      flex-direction: column;
-    }
-    
-    .digest-column:last-child {
-      border-right: none;
-      padding-right: 0;
-    }
-    
-    .digest-column-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      margin-bottom: 1.2rem;
-      font-weight: 700;
-      border-bottom: 1px solid var(--border-accent);
-      padding-bottom: 0.3rem;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    
-    .column-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      margin-bottom: 1.2rem;
-      border-bottom: 1px solid var(--border-accent);
-      padding-bottom: 0.3rem;
-    }
-    
-    .digest-publication {
-      margin-bottom: 1.8rem;
-    }
-    
-    .digest-publication:last-child {
-      margin-bottom: 0;
-    }
-    
-    .digest-pub-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 1rem;
-      font-weight: 900;
-      margin-bottom: 0.8rem;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      color: var(--accent-color);
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 0.2rem;
-    }
-    
-    .digest-entry {
-      margin-bottom: 0.8rem;
-      border-bottom: 1px dotted var(--border-color);
-      padding-bottom: 0.8rem;
-    }
-    
-    .digest-entry:last-child {
-      border-bottom: none;
-      padding-bottom: 0;
-      margin-bottom: 0;
-    }
-    
-    .digest-entry-meta {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.65rem;
-      color: var(--hover-color);
-      margin-bottom: 0.2rem;
-      display: block;
-    }
-    
-    .digest-entry-title {
-      font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 0.85rem;
-      font-weight: 700;
-      line-height: 1.35;
-    }
-
-    .digest-entry-title a:hover {
-      text-decoration: underline;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
-    }
-    
-    .digest-entry-snippet {
-      font-family: 'Libre Baskerville', Georgia, serif;
-      font-size: 0.75rem;
-      font-style: italic;
-      color: var(--hover-color);
-      margin-top: 0.4rem;
-      line-height: 1.4;
-    }
-
-    @media (max-width: 900px) {
-      .digest-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-      }
-      .digest-column {
-        border-right: none;
-        padding-right: 0;
-        border-bottom: 1px dashed var(--border-color);
-        padding-bottom: 1.5rem;
-      }
-      .digest-column:last-child {
+        grid-column: span 2;
+        border-right: 1px solid var(--border-color);
+        padding-right: 2.5rem;
         border-bottom: none;
         padding-bottom: 0;
       }
-    }
 
-    /* Loading Indicator */
-    .loading-state {
-      text-align: center;
-      padding: 4rem 0;
-      font-family: 'Playfair Display', serif;
-      font-size: 1.5rem;
-      font-style: italic;
-      color: var(--hover-color);
-    }
-    
-    .error-state {
-      border: 1px solid var(--accent-color);
-      padding: 2rem;
-      text-align: center;
-      color: var(--accent-color);
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      margin: 2rem 0;
-    }
-  </style>
-</head>
-<body>
+      @media (max-width: 900px) {
+        article.lead-story {
+          grid-column: span 2;
+          border-right: none;
+          padding-right: 0;
+          border-bottom: 1px solid var(--border-color);
+          padding-bottom: 1.5rem;
+        }
+      }
 
-  <div class="container">
-    
-    <!-- Header -->
-    <header>
-      <h1 class="masthead" id="masthead-title">The World State</h1>
-      
-      <!-- Meta Information Bar -->
-      <div class="meta-bar">
-        <div class="meta-item" id="issue-date">Tuesday, June 2, 2026</div>
-        <div class="meta-item" id="issue-edition">Vol. I &bull; No. 001 &bull; World Edition</div>
-        <div class="meta-item">Price: Free &amp; Open Source</div>
-        <div class="meta-item">
-          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Night Edition">Night Edition</button>
+      @media (max-width: 600px) {
+        article.lead-story {
+          grid-column: span 1;
+        }
+      }
+
+      .lead-story .article-title {
+        font-size: 2rem;
+        line-height: 1.25;
+        font-weight: 900;
+        margin-bottom: 0.8rem;
+      }
+
+      .article-meta {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        color: var(--accent-color);
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+      }
+
+      .article-meta span.date-dot {
+        width: 3px;
+        height: 3px;
+        background-color: var(--border-color);
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      .article-meta span.time-ago {
+        color: var(--hover-color);
+        font-weight: 400;
+      }
+
+      .article-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        line-height: 1.35;
+        margin-bottom: 0.5rem;
+      }
+
+      .article-title a {
+        position: relative;
+      }
+
+      .article-title a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 4px;
+      }
+
+      /* Collapsible Alternative Sources */
+      details.sources-details {
+        margin-top: 0.6rem;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.68rem;
+        border-top: 1px dashed var(--border-color);
+        padding-top: 0.5rem;
+      }
+
+      details.sources-details summary {
+        list-style: none; /* Hide default arrow in Chrome/Firefox */
+        cursor: pointer;
+        color: var(--accent-color);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+        user-select: none;
+        text-transform: uppercase;
+      }
+
+      details.sources-details summary::-webkit-details-marker {
+        display: none; /* Hide default arrow in Safari */
+      }
+
+      details.sources-details summary::before {
+        content: "▶";
+        display: inline-block;
+        transition: transform 0.2s ease;
+        font-size: 0.55rem;
+      }
+
+      details.sources-details[open] summary::before {
+        transform: rotate(90deg);
+      }
+
+      .sources-expanded {
+        margin-top: 0.5rem;
+        padding-left: 0.75rem;
+        border-left: 1px solid var(--border-color);
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+
+      .source-item {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.3;
+      }
+
+      .source-meta {
+        color: var(--hover-color);
+        font-size: 0.62rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0.1rem;
+      }
+
+      .source-title-link {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 0.75rem;
+        color: var(--text-color);
+        text-decoration: underline;
+        text-decoration-style: dotted;
+        text-decoration-thickness: 1px;
+      }
+
+      .source-title-link:hover {
+        color: var(--accent-color) !important;
+        text-decoration-style: solid;
+      }
+
+      /* On The Web Sections (HN + Reddit) */
+      .web-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+
+      @media (max-width: 800px) {
+        .web-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+      }
+
+      .web-column {
+        border-right: 1px solid var(--border-color);
+        padding-right: 3rem;
+      }
+
+      .web-column:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+
+      @media (max-width: 800px) {
+        .web-column {
+          border-right: none;
+          padding-right: 0;
+        }
+      }
+
+      .web-item {
+        padding: 0.8rem 0;
+        border-bottom: 1px solid var(--border-color);
+        font-size: 0.95rem;
+      }
+
+      .web-item:last-child {
+        border-bottom: none;
+      }
+
+      .web-item-title {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-weight: 400;
+        line-height: 1.4;
+        margin-bottom: 0.3rem;
+      }
+
+      .web-item-meta {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.68rem;
+        color: var(--hover-color);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .score-badge {
+        color: var(--accent-color);
+        font-weight: 700;
+      }
+
+      /* Empty / Quiet State styling */
+      .quiet-state {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        color: var(--hover-color);
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1.05rem;
+      }
+
+      /* Footer styling */
+      footer {
+        margin-top: 5rem;
+        border-top: 1px solid var(--border-color);
+        padding-top: 2rem;
+        text-align: center;
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.7rem;
+        color: var(--hover-color);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      /* Digests & Briefings Section Styling */
+      .digest-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+      }
+
+      .digest-column {
+        border-right: 1px solid var(--border-color);
+        padding-right: 1.25rem;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .digest-column:last-child {
+        border-right: none;
+        padding-right: 0;
+      }
+
+      .digest-column-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+        font-weight: 700;
+        border-bottom: 1px solid var(--border-accent);
+        padding-bottom: 0.3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .column-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 1.2rem;
+        border-bottom: 1px solid var(--border-accent);
+        padding-bottom: 0.3rem;
+      }
+
+      .digest-publication {
+        margin-bottom: 1.8rem;
+      }
+
+      .digest-publication:last-child {
+        margin-bottom: 0;
+      }
+
+      .digest-pub-title {
+        font-family: "Playfair Display", serif;
+        font-size: 1rem;
+        font-weight: 900;
+        margin-bottom: 0.8rem;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: var(--accent-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 0.2rem;
+      }
+
+      .digest-entry {
+        margin-bottom: 0.8rem;
+        border-bottom: 1px dotted var(--border-color);
+        padding-bottom: 0.8rem;
+      }
+
+      .digest-entry:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .digest-entry-meta {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 0.65rem;
+        color: var(--hover-color);
+        margin-bottom: 0.2rem;
+        display: block;
+      }
+
+      .digest-entry-title {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 0.85rem;
+        font-weight: 700;
+        line-height: 1.35;
+      }
+
+      .digest-entry-title a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+      }
+
+      .digest-entry-snippet {
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 0.75rem;
+        font-style: italic;
+        color: var(--hover-color);
+        margin-top: 0.4rem;
+        line-height: 1.4;
+      }
+
+      @media (max-width: 900px) {
+        .digest-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+        .digest-column {
+          border-right: none;
+          padding-right: 0;
+          border-bottom: 1px dashed var(--border-color);
+          padding-bottom: 1.5rem;
+        }
+        .digest-column:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+      }
+
+      /* Loading Indicator */
+      .loading-state {
+        text-align: center;
+        padding: 4rem 0;
+        font-family: "Playfair Display", serif;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: var(--hover-color);
+      }
+
+      .error-state {
+        border: 1px solid var(--accent-color);
+        padding: 2rem;
+        text-align: center;
+        color: var(--accent-color);
+        font-family: "Playfair Display", serif;
+        font-size: 1.2rem;
+        margin: 2rem 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <h1 class="masthead" id="masthead-title">The World State</h1>
+
+        <!-- Meta Information Bar -->
+        <div class="meta-bar">
+          <div class="meta-item" id="issue-date">Tuesday, June 2, 2026</div>
+          <div class="meta-item" id="issue-edition">Vol. I &bull; No. 001 &bull; World Edition</div>
+          <div class="meta-item">Price: Free &amp; Open Source</div>
+          <div class="meta-item">
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Night Edition">Night Edition</button>
+          </div>
         </div>
-      </div>
-      
-      <!-- Financial Ticker Bar -->
-      <div class="ticker-bar" id="ticker-bar" style="display: none;"></div>
-    </header>
 
-    <!-- Main Content Area -->
-    <main id="main-content" aria-live="polite">
-      <div class="loading-state" id="loading-indicator">Retrieving print plates and caching news archives...</div>
-      
-      <!-- Content injected by JavaScript -->
-      <div id="news-content" style="display: none;">
-        
-        <!-- Breaking News Section -->
-        <section id="breaking-section" style="display: none;">
-          <div class="breaking-container" id="breaking-container">
-            <!-- Breaking news list injected here -->
-          </div>
-        </section>
+        <!-- Financial Ticker Bar -->
+        <div class="ticker-bar" id="ticker-bar" style="display: none"></div>
+      </header>
 
-        <!-- World Section -->
-        <section>
-          <h2 class="section-title">The World</h2>
-          <div class="broadsheet-grid" id="world-grid">
-            <!-- World articles injected here -->
-          </div>
-        </section>
+      <!-- Main Content Area -->
+      <main id="main-content" aria-live="polite">
+        <div class="loading-state" id="loading-indicator">Retrieving print plates and caching news archives...</div>
 
-        <!-- Finance & Markets Section -->
-        <section class="finance-section">
-          <h2 class="section-title">Finance &amp; Markets</h2>
-          <div class="market-grid">
-            <!-- Column 1: Indices -->
-            <div class="market-column">
-              <h3 class="column-title">Indices</h3>
-              <table class="market-table">
-                <tbody id="indices-list">
-                  <!-- Indices tickers injected here -->
-                </tbody>
-              </table>
+        <!-- Content injected by JavaScript -->
+        <div id="news-content" style="display: none">
+          <!-- Breaking News Section -->
+          <section id="breaking-section" style="display: none">
+            <div class="breaking-container" id="breaking-container">
+              <!-- Breaking news list injected here -->
             </div>
+          </section>
 
-            <!-- Column 2: Commodities & Forex -->
-            <div class="market-column">
-              <h3 class="column-title">Commodities &amp; Forex</h3>
-              <table class="market-table">
-                <tbody id="commodities-list">
-                  <!-- Commodities/Forex tickers injected here -->
-                </tbody>
-              </table>
+          <!-- World Section -->
+          <section>
+            <h2 class="section-title">The World</h2>
+            <div class="broadsheet-grid" id="world-grid">
+              <!-- World articles injected here -->
             </div>
+          </section>
 
-            <!-- Column 3: Equities -->
-            <div class="market-column">
-              <h3 class="column-title">Market Equities</h3>
-              <table class="market-table">
-                <tbody id="equities-list">
-                  <!-- Equities tickers injected here -->
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </section>
+          <!-- Finance & Markets Section -->
+          <section class="finance-section">
+            <h2 class="section-title">Finance &amp; Markets</h2>
+            <div class="market-grid">
+              <!-- Column 1: Indices -->
+              <div class="market-column">
+                <h3 class="column-title">Indices</h3>
+                <table class="market-table">
+                  <tbody id="indices-list">
+                    <!-- Indices tickers injected here -->
+                  </tbody>
+                </table>
+              </div>
 
-        <!-- News Digests & Daily Briefings Section -->
-        <section style="margin-top: 3.5rem;">
-          <h2 class="section-title">Briefings &amp; Digests</h2>
-          <div class="digest-grid">
-            <!-- Column 1: Daily Briefings -->
-            <div class="digest-column">
-              <h3 class="digest-column-title">Daily Briefings</h3>
-              <div id="digests-col-briefings">
-                <!-- Injected via JavaScript -->
+              <!-- Column 2: Commodities & Forex -->
+              <div class="market-column">
+                <h3 class="column-title">Commodities &amp; Forex</h3>
+                <table class="market-table">
+                  <tbody id="commodities-list">
+                    <!-- Commodities/Forex tickers injected here -->
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Column 3: Equities -->
+              <div class="market-column">
+                <h3 class="column-title">Market Equities</h3>
+                <table class="market-table">
+                  <tbody id="equities-list">
+                    <!-- Equities tickers injected here -->
+                  </tbody>
+                </table>
               </div>
             </div>
+          </section>
 
-            <!-- Column 2: Global Analysis -->
-            <div class="digest-column">
-              <h3 class="digest-column-title">Global Analysis</h3>
-              <div id="digests-col-global">
-                <!-- Injected via JavaScript -->
+          <!-- News Digests & Daily Briefings Section -->
+          <section style="margin-top: 3.5rem">
+            <h2 class="section-title">Briefings &amp; Digests</h2>
+            <div class="digest-grid">
+              <!-- Column 1: Daily Briefings -->
+              <div class="digest-column">
+                <h3 class="digest-column-title">Daily Briefings</h3>
+                <div id="digests-col-briefings">
+                  <!-- Injected via JavaScript -->
+                </div>
+              </div>
+
+              <!-- Column 2: Global Analysis -->
+              <div class="digest-column">
+                <h3 class="digest-column-title">Global Analysis</h3>
+                <div id="digests-col-global">
+                  <!-- Injected via JavaScript -->
+                </div>
+              </div>
+
+              <!-- Column 3: Tech & Strategy -->
+              <div class="digest-column">
+                <h3 class="digest-column-title">Tech &amp; Strategy</h3>
+                <div id="digests-col-tech">
+                  <!-- Injected via JavaScript -->
+                </div>
               </div>
             </div>
+          </section>
 
-            <!-- Column 3: Tech & Strategy -->
-            <div class="digest-column">
-              <h3 class="digest-column-title">Tech &amp; Strategy</h3>
-              <div id="digests-col-tech">
-                <!-- Injected via JavaScript -->
+          <!-- On The Web Section -->
+          <section style="margin-top: 3.5rem">
+            <h2 class="section-title">On The Web</h2>
+            <div class="web-grid">
+              <!-- Hacker News Column -->
+              <div class="web-column">
+                <h3 class="column-title">Tech &amp; Code</h3>
+                <div id="hn-list">
+                  <!-- HN items injected here -->
+                </div>
+              </div>
+
+              <!-- Reddit Column -->
+              <div class="web-column">
+                <h3 class="column-title">Reddit</h3>
+                <div id="reddit-list">
+                  <!-- Reddit items injected here -->
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
+      </main>
 
-        <!-- On The Web Section -->
-        <section style="margin-top: 3.5rem;">
-          <h2 class="section-title">On The Web</h2>
-          <div class="web-grid">
-            
-            <!-- Hacker News Column -->
-            <div class="web-column">
-              <h3 class="column-title">Tech &amp; Code</h3>
-              <div id="hn-list">
-                <!-- HN items injected here -->
-              </div>
-            </div>
+      <!-- Footer -->
+      <footer>
+        <p>Published from the terminal &bull; Updates hourly &bull; Hosted on Cloudflare Pages</p>
+        <p style="margin-top: 0.5rem; font-size: 0.65rem" id="cache-time">Cache stamp: N/A</p>
+      </footer>
+    </div>
 
-            <!-- Reddit Column -->
-            <div class="web-column">
-              <h3 class="column-title">Reddit</h3>
-              <div id="reddit-list">
-                <!-- Reddit items injected here -->
-              </div>
-            </div>
+    <!-- Client side Javascript -->
+    <script>
+      // Theme Toggle Logic
+      const themeToggle = document.getElementById("theme-toggle");
+      const currentTheme = localStorage.getItem("theme");
 
-          </div>
-        </section>
-
-      </div>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-      <p>Published from the terminal &bull; Updates hourly &bull; Hosted on Cloudflare Pages</p>
-      <p style="margin-top: 0.5rem; font-size: 0.65rem;" id="cache-time">Cache stamp: N/A</p>
-    </footer>
-
-  </div>
-
-  <!-- Client side Javascript -->
-  <script>
-    // Theme Toggle Logic
-    const themeToggle = document.getElementById("theme-toggle");
-    const currentTheme = localStorage.getItem("theme");
-
-    if (currentTheme === "dark") {
-      document.documentElement.setAttribute("data-theme", "dark");
-      themeToggle.textContent = "Day Edition";
-    }
-
-    themeToggle.addEventListener("click", () => {
-      let theme = "light";
-      if (document.documentElement.getAttribute("data-theme") !== "dark") {
+      if (currentTheme === "dark") {
         document.documentElement.setAttribute("data-theme", "dark");
         themeToggle.textContent = "Day Edition";
-        theme = "dark";
-      } else {
-        document.documentElement.removeAttribute("data-theme");
-        themeToggle.textContent = "Night Edition";
       }
-      localStorage.setItem("theme", theme);
-    });
 
-    // Dynamic Date Formatting for the Issue
-    function formatIssueDate(isoString) {
-      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-      const date = isoString ? new Date(isoString) : new Date();
-      return date.toLocaleDateString('en-US', options);
-    }
+      themeToggle.addEventListener("click", () => {
+        let theme = "light";
+        if (document.documentElement.getAttribute("data-theme") !== "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+          themeToggle.textContent = "Day Edition";
+          theme = "dark";
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+          themeToggle.textContent = "Night Edition";
+        }
+        localStorage.setItem("theme", theme);
+      });
 
-    // Relative Time Formatter
-    function getRelativeTime(isoString) {
-      if (!isoString) return '';
-      const now = new Date();
-      const past = new Date(isoString);
-      const diffMs = now - past;
-      const diffMins = Math.floor(diffMs / 60000);
-      const diffHrs = Math.floor(diffMins / 60);
-      const diffDays = Math.floor(diffHrs / 24);
-
-      if (diffMins < 1) return 'just now';
-      if (diffMins < 60) return `${diffMins}m ago`;
-      if (diffHrs < 24) {
-        const remainingMins = diffMins % 60;
-        return remainingMins > 10 ? `${diffHrs}h ${remainingMins}m ago` : `${diffHrs}h ago`;
+      // Dynamic Date Formatting for the Issue
+      function formatIssueDate(isoString) {
+        const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+        const date = isoString ? new Date(isoString) : new Date();
+        return date.toLocaleDateString("en-US", options);
       }
-      return `${diffDays}d ago`;
-    }
 
-    // Alternative Sources HTML Builder
-    function createOtherSourcesHTML(article) {
-      if (!article.other_sources || article.other_sources.length === 0) {
-        return '';
+      // Relative Time Formatter
+      function getRelativeTime(isoString) {
+        if (!isoString) return "";
+        const now = new Date();
+        const past = new Date(isoString);
+        const diffMs = now - past;
+        const diffMins = Math.floor(diffMs / 60000);
+        const diffHrs = Math.floor(diffMins / 60);
+        const diffDays = Math.floor(diffHrs / 24);
+
+        if (diffMins < 1) return "just now";
+        if (diffMins < 60) return `${diffMins}m ago`;
+        if (diffHrs < 24) {
+          const remainingMins = diffMins % 60;
+          return remainingMins > 10 ? `${diffHrs}h ${remainingMins}m ago` : `${diffHrs}h ago`;
+        }
+        return `${diffDays}d ago`;
       }
-      const otherNames = [...new Set(
-        article.other_sources.map(s => s.source).filter(s => s !== article.source)
-      )];
-      const summaryText = otherNames.length > 0
-        ? `Also reported by ${otherNames.join(', ')}`
-        : `Also covered in ${article.other_sources.length} other report${article.other_sources.length > 1 ? 's' : ''}`;
 
-      return `
+      // Alternative Sources HTML Builder
+      function createOtherSourcesHTML(article) {
+        if (!article.other_sources || article.other_sources.length === 0) {
+          return "";
+        }
+        const otherNames = [...new Set(article.other_sources.map((s) => s.source).filter((s) => s !== article.source))];
+        const summaryText =
+          otherNames.length > 0
+            ? `Also reported by ${otherNames.join(", ")}`
+            : `Also covered in ${article.other_sources.length} other report${article.other_sources.length > 1 ? "s" : ""}`;
+
+        return `
         <details class="sources-details">
           <summary>${escapeHTML(summaryText)}</summary>
           <div class="sources-expanded">
-            ${article.other_sources.map(s => `
+            ${article.other_sources
+              .map(
+                (s) => `
               <div class="source-item">
                 <span class="source-meta">${escapeHTML(s.source)} &bull; ${escapeHTML(getRelativeTime(s.published))}</span>
                 <a href="${escapeHTML(s.url)}" target="_blank" rel="noopener noreferrer" class="source-title-link">${escapeHTML(s.title)}</a>
               </div>
-            `).join('')}
+            `,
+              )
+              .join("")}
           </div>
         </details>
       `;
-    }
+      }
 
-    // Article HTML Builder
-    function createArticleHTML(article, isLead = false) {
-      const timeAgo = getRelativeTime(article.published);
-      const scoreBadge = article.score > 1 && article.other_sources && article.other_sources.length > 0 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
-      const otherSourcesHTML = createOtherSourcesHTML(article);
+      // Article HTML Builder
+      function createArticleHTML(article, isLead = false) {
+        const timeAgo = getRelativeTime(article.published);
+        const scoreBadge =
+          article.score > 1 && article.other_sources && article.other_sources.length > 0
+            ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>`
+            : "";
+        const otherSourcesHTML = createOtherSourcesHTML(article);
 
-      return `
-        <article class="${isLead ? 'lead-story' : ''}">
+        return `
+        <article class="${isLead ? "lead-story" : ""}">
           <div class="article-meta">
             <span>${escapeHTML(article.source)}</span>
             <span class="date-dot"></span>
@@ -1082,22 +1102,22 @@
           ${otherSourcesHTML}
         </article>
       `;
-    }
-
-    // Web Item (HN / Reddit) HTML Builder
-    function createWebItemHTML(item) {
-      const timeAgo = getRelativeTime(item.published);
-      let metaHTML = `<span>${escapeHTML(item.source)}</span>`;
-      
-      if (item.score !== undefined && item.score !== null) {
-        const score = item.score;
-        const scoreText = score >= 1000 ? `${(score / 1000).toFixed(1)}k pts` : `${score} pts`;
-        metaHTML += `<span>&bull;</span><span class="score-badge">${escapeHTML(scoreText)}</span>`;
       }
-      
-      metaHTML += `<span>&bull;</span><span>${escapeHTML(timeAgo)}</span>`;
-      
-      return `
+
+      // Web Item (HN / Reddit) HTML Builder
+      function createWebItemHTML(item) {
+        const timeAgo = getRelativeTime(item.published);
+        let metaHTML = `<span>${escapeHTML(item.source)}</span>`;
+
+        if (item.score !== undefined && item.score !== null) {
+          const score = item.score;
+          const scoreText = score >= 1000 ? `${(score / 1000).toFixed(1)}k pts` : `${score} pts`;
+          metaHTML += `<span>&bull;</span><span class="score-badge">${escapeHTML(scoreText)}</span>`;
+        }
+
+        metaHTML += `<span>&bull;</span><span>${escapeHTML(timeAgo)}</span>`;
+
+        return `
         <div class="web-item">
           <h4 class="web-item-title">
             <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)}</a>
@@ -1107,81 +1127,86 @@
           </div>
         </div>
       `;
-    }
+      }
 
-    // Helper to safely escape HTML content
-    function escapeHTML(str) {
-      if (!str) return '';
-      return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#039;');
-    }
+      // Helper to safely escape HTML content
+      function escapeHTML(str) {
+        if (!str) return "";
+        return String(str)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;")
+          .replace(/'/g, "&#039;");
+      }
 
-    // Load Data
-    document.addEventListener("DOMContentLoaded", () => {
-      const loading = document.getElementById("loading-indicator");
-      const content = document.getElementById("news-content");
-      const issueDateEl = document.getElementById("issue-date");
-      const cacheTimeEl = document.getElementById("cache-time");
-      
-      // Load data.json dynamically (works locally and in production)
-      const dataUrl = "data.json";
-      
-      fetch(dataUrl)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`Data fetch failed: status ${response.status}`);
-          }
-          return response.json();
-        })
-        .then(data => {
-          loading.style.display = "none";
-          content.style.display = "block";
-          
-          // 1. Update Masthead Issue Date, Cache stamp, and Edition/No.
-          if (data.last_updated) {
-            const lastUpdated = new Date(data.last_updated);
-            issueDateEl.textContent = formatIssueDate(data.last_updated);
-            
-            // Check cache freshness (> 2 hours)
-            const now = new Date();
-            const hoursOld = (now - lastUpdated) / (1000 * 60 * 60);
-            if (hoursOld > 2) {
-              const staleBadge = document.createElement("span");
-              staleBadge.className = "stale-badge";
-              staleBadge.textContent = "⚠️ STALE";
-              staleBadge.title = `Data is ${Math.round(hoursOld)} hours old`;
-              issueDateEl.appendChild(staleBadge);
+      // Load Data
+      document.addEventListener("DOMContentLoaded", () => {
+        const loading = document.getElementById("loading-indicator");
+        const content = document.getElementById("news-content");
+        const issueDateEl = document.getElementById("issue-date");
+        const cacheTimeEl = document.getElementById("cache-time");
+
+        // Load data.json dynamically (works locally and in production)
+        const dataUrl = "data.json";
+
+        fetch(dataUrl)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`Data fetch failed: status ${response.status}`);
             }
-            
-            cacheTimeEl.textContent = `Cached on: ${lastUpdated.toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
-            
-            // Calculate Dynamic Volume & Issue Number from Project Epoch (June 2, 2026)
-            const LAUNCH_DATE = new Date("2026-06-02T00:00:00Z");
-            const diffMs = lastUpdated - LAUNCH_DATE;
-            const elapsedDays = Math.max(0, Math.floor(diffMs / (1000 * 60 * 60 * 24)));
-            
-            const issueNum = elapsedDays + 1;
-            const romanNumerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
-            const volNum = romanNumerals[Math.floor(elapsedDays / 365)] || "I";
-            
-            document.getElementById("issue-edition").innerHTML = `Vol. ${volNum} &bull; No. ${String(issueNum).padStart(3, '0')} &bull; World Edition`;
-          }
+            return response.json();
+          })
+          .then((data) => {
+            loading.style.display = "none";
+            content.style.display = "block";
 
-          // 2. Render Breaking News (if any)
-          const breakingSection = document.getElementById("breaking-section");
-          const breakingContainer = document.getElementById("breaking-container");
-          
-          if (data.breaking && data.breaking.length > 0) {
-            breakingSection.style.display = "block";
-            breakingContainer.innerHTML = data.breaking.map(article => {
-              const scoreBadge = article.score > 1 && article.other_sources && article.other_sources.length > 0 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
-              const otherSourcesHTML = createOtherSourcesHTML(article);
+            // 1. Update Masthead Issue Date, Cache stamp, and Edition/No.
+            if (data.last_updated) {
+              const lastUpdated = new Date(data.last_updated);
+              issueDateEl.textContent = formatIssueDate(data.last_updated);
 
-              return `
+              // Check cache freshness (> 2 hours)
+              const now = new Date();
+              const hoursOld = (now - lastUpdated) / (1000 * 60 * 60);
+              if (hoursOld > 2) {
+                const staleBadge = document.createElement("span");
+                staleBadge.className = "stale-badge";
+                staleBadge.textContent = "⚠️ STALE";
+                staleBadge.title = `Data is ${Math.round(hoursOld)} hours old`;
+                issueDateEl.appendChild(staleBadge);
+              }
+
+              cacheTimeEl.textContent = `Cached on: ${lastUpdated.toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
+
+              // Calculate Dynamic Volume & Issue Number from Project Epoch (June 2, 2026)
+              const LAUNCH_DATE = new Date("2026-06-02T00:00:00Z");
+              const diffMs = lastUpdated - LAUNCH_DATE;
+              const elapsedDays = Math.max(0, Math.floor(diffMs / (1000 * 60 * 60 * 24)));
+
+              const issueNum = elapsedDays + 1;
+              const romanNumerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"];
+              const volNum = romanNumerals[Math.floor(elapsedDays / 365)] || "I";
+
+              document.getElementById("issue-edition").innerHTML =
+                `Vol. ${volNum} &bull; No. ${String(issueNum).padStart(3, "0")} &bull; World Edition`;
+            }
+
+            // 2. Render Breaking News (if any)
+            const breakingSection = document.getElementById("breaking-section");
+            const breakingContainer = document.getElementById("breaking-container");
+
+            if (data.breaking && data.breaking.length > 0) {
+              breakingSection.style.display = "block";
+              breakingContainer.innerHTML = data.breaking
+                .map((article) => {
+                  const scoreBadge =
+                    article.score > 1 && article.other_sources && article.other_sources.length > 0
+                      ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>`
+                      : "";
+                  const otherSourcesHTML = createOtherSourcesHTML(article);
+
+                  return `
                 <div class="breaking-item">
                   <div class="article-meta" style="margin-bottom: 0.2rem;">
                     <span>${escapeHTML(article.source)}</span>
@@ -1195,89 +1220,96 @@
                   ${otherSourcesHTML}
                 </div>
               `;
-            }).join('');
-          } else {
-            // Keep the section visible but show a quiet, typography-driven placeholders
-            breakingSection.style.display = "block";
-            breakingContainer.innerHTML = `
+                })
+                .join("");
+            } else {
+              // Keep the section visible but show a quiet, typography-driven placeholders
+              breakingSection.style.display = "block";
+              breakingContainer.innerHTML = `
               <div class="quiet-state">
                 THE WORLD REMAINS QUIET &mdash; No breaking reports received within the last three hours.
               </div>
             `;
-          }
+            }
 
-          // 3. Render World News Grid
-          const worldGrid = document.getElementById("world-grid");
-          if (data.world && data.world.length > 0) {
-            let worldHTML = '';
-            data.world.forEach((article, index) => {
-              // Mark the first article as the Lead Story (index 0)
-              const isLead = (index === 0);
-              worldHTML += createArticleHTML(article, isLead);
-            });
-            worldGrid.innerHTML = worldHTML;
-          } else {
-            worldGrid.innerHTML = `<div class="quiet-state" style="grid-column: span 3;">No world news available at this time.</div>`;
-          }
+            // 3. Render World News Grid
+            const worldGrid = document.getElementById("world-grid");
+            if (data.world && data.world.length > 0) {
+              let worldHTML = "";
+              data.world.forEach((article, index) => {
+                // Mark the first article as the Lead Story (index 0)
+                const isLead = index === 0;
+                worldHTML += createArticleHTML(article, isLead);
+              });
+              worldGrid.innerHTML = worldHTML;
+            } else {
+              worldGrid.innerHTML = `<div class="quiet-state" style="grid-column: span 3;">No world news available at this time.</div>`;
+            }
 
-          // 3b. Render Tickers
-          const tickerBar = document.getElementById("ticker-bar");
-          if (data.tickers && data.tickers.length > 0) {
-            tickerBar.style.display = "flex";
-            tickerBar.innerHTML = data.tickers.map(ticker => {
-              const sign = ticker.change_percent > 0 ? '+' : '';
-              const colorClass = ticker.change_percent > 0 ? 'ticker-pos' : (ticker.change_percent < 0 ? 'ticker-neg' : '');
-              const formattedPrice = ticker.symbol.endsWith('.L') ? `${ticker.price}p` : ticker.price.toLocaleString();
-              return `
+            // 3b. Render Tickers
+            const tickerBar = document.getElementById("ticker-bar");
+            if (data.tickers && data.tickers.length > 0) {
+              tickerBar.style.display = "flex";
+              tickerBar.innerHTML = data.tickers
+                .map((ticker) => {
+                  const sign = ticker.change_percent > 0 ? "+" : "";
+                  const colorClass =
+                    ticker.change_percent > 0 ? "ticker-pos" : ticker.change_percent < 0 ? "ticker-neg" : "";
+                  const formattedPrice = ticker.symbol.endsWith(".L")
+                    ? `${ticker.price}p`
+                    : ticker.price.toLocaleString();
+                  return `
                 <div class="ticker-item">
                   <span class="ticker-name">${escapeHTML(ticker.name)}</span>
                   <span class="ticker-val">${escapeHTML(formattedPrice)}</span>
                   <span class="ticker-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</span>
                 </div>
               `;
-            }).join('');
-          } else {
-            tickerBar.style.display = "none";
-          }
+                })
+                .join("");
+            } else {
+              tickerBar.style.display = "none";
+            }
 
-          // 3c. Render Finance & Markets Board
-          const indicesList = document.getElementById("indices-list");
-          const commoditiesList = document.getElementById("commodities-list");
-          const equitiesList = document.getElementById("equities-list");
-          
-          if (data.markets) {
-            // Helper to format prices dynamically
-            const formatPriceVal = (ticker) => {
-              const sym = ticker.symbol;
-              const price = ticker.price;
-              
-              if (sym.endsWith('=X')) {
-                // Forex pair: format as decimal ratio (e.g. 1.2825)
-                return sym.startsWith('JPY') ? price.toFixed(2) : price.toFixed(4);
-              }
-              if (sym === 'GC=F' || sym === 'SI=F' || sym === 'BZ=F') {
-                // Commodities: format with currency sign $
-                return `$${price.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-              }
-              if (sym.endsWith('.L')) {
-                // UK assets: format with p (pence)
-                return `${price.toLocaleString()}p`;
-              }
-              if (sym.startsWith('^')) {
-                // Index points: no currency symbol
-                return price.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
-              }
-              // Default to USD currency format for equities and others
-              return `$${price.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
-            };
-            
-            // Helper to build table rows
-            const createMarketRowHTML = (ticker) => {
-              const sign = ticker.change_percent > 0 ? '+' : '';
-              const colorClass = ticker.change_percent > 0 ? 'ticker-pos' : (ticker.change_percent < 0 ? 'ticker-neg' : '');
-              const formattedPrice = formatPriceVal(ticker);
-              
-              return `
+            // 3c. Render Finance & Markets Board
+            const indicesList = document.getElementById("indices-list");
+            const commoditiesList = document.getElementById("commodities-list");
+            const equitiesList = document.getElementById("equities-list");
+
+            if (data.markets) {
+              // Helper to format prices dynamically
+              const formatPriceVal = (ticker) => {
+                const sym = ticker.symbol;
+                const price = ticker.price;
+
+                if (sym.endsWith("=X")) {
+                  // Forex pair: format as decimal ratio (e.g. 1.2825)
+                  return sym.startsWith("JPY") ? price.toFixed(2) : price.toFixed(4);
+                }
+                if (sym === "GC=F" || sym === "SI=F" || sym === "BZ=F") {
+                  // Commodities: format with currency sign $
+                  return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+                }
+                if (sym.endsWith(".L")) {
+                  // UK assets: format with p (pence)
+                  return `${price.toLocaleString()}p`;
+                }
+                if (sym.startsWith("^")) {
+                  // Index points: no currency symbol
+                  return price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+                }
+                // Default to USD currency format for equities and others
+                return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+              };
+
+              // Helper to build table rows
+              const createMarketRowHTML = (ticker) => {
+                const sign = ticker.change_percent > 0 ? "+" : "";
+                const colorClass =
+                  ticker.change_percent > 0 ? "ticker-pos" : ticker.change_percent < 0 ? "ticker-neg" : "";
+                const formattedPrice = formatPriceVal(ticker);
+
+                return `
                 <tr class="market-row">
                   <td>
                     <span class="market-cell-name">${escapeHTML(ticker.name)}</span>
@@ -1287,52 +1319,55 @@
                   <td class="market-cell-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</td>
                 </tr>
               `;
-            };
-            
-            if (data.markets.indices && data.markets.indices.length > 0) {
-              indicesList.innerHTML = data.markets.indices.map(createMarketRowHTML).join('');
-            } else {
-              indicesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No index data.</td></tr>';
-            }
-            
-            if (data.markets.commodities_forex && data.markets.commodities_forex.length > 0) {
-              commoditiesList.innerHTML = data.markets.commodities_forex.map(createMarketRowHTML).join('');
-            } else {
-              commoditiesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No commodity data.</td></tr>';
-            }
-            
-            if (data.markets.equities && data.markets.equities.length > 0) {
-              equitiesList.innerHTML = data.markets.equities.map(createMarketRowHTML).join('');
-            } else {
-              equitiesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No equities data.</td></tr>';
-            }
-          }
+              };
 
-          // 3d. Render News Digests & Daily Briefings Section
-          if (data.digests && data.digests.length > 0) {
-            const briefingsCol = document.getElementById("digests-col-briefings");
-            const globalCol = document.getElementById("digests-col-global");
-            const techCol = document.getElementById("digests-col-tech");
-
-            // Group digests by column
-            const digestsByCol = {
-              briefings: [],
-              global: [],
-              tech: []
-            };
-
-            data.digests.forEach(digest => {
-              if (digestsByCol[digest.column]) {
-                digestsByCol[digest.column].push(digest);
+              if (data.markets.indices && data.markets.indices.length > 0) {
+                indicesList.innerHTML = data.markets.indices.map(createMarketRowHTML).join("");
+              } else {
+                indicesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No index data.</td></tr>';
               }
-            });
 
-            // Helper to build HTML for a publication and its entries
-            const createDigestPubHTML = (pub) => {
-              const entriesHTML = pub.entries.map(entry => {
-                const timeAgo = getRelativeTime(entry.published);
-                const snippetHTML = entry.snippet ? `<div class="digest-entry-snippet">${escapeHTML(entry.snippet)}</div>` : '';
-                return `
+              if (data.markets.commodities_forex && data.markets.commodities_forex.length > 0) {
+                commoditiesList.innerHTML = data.markets.commodities_forex.map(createMarketRowHTML).join("");
+              } else {
+                commoditiesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No commodity data.</td></tr>';
+              }
+
+              if (data.markets.equities && data.markets.equities.length > 0) {
+                equitiesList.innerHTML = data.markets.equities.map(createMarketRowHTML).join("");
+              } else {
+                equitiesList.innerHTML = '<tr><td colspan="3" class="quiet-state">No equities data.</td></tr>';
+              }
+            }
+
+            // 3d. Render News Digests & Daily Briefings Section
+            if (data.digests && data.digests.length > 0) {
+              const briefingsCol = document.getElementById("digests-col-briefings");
+              const globalCol = document.getElementById("digests-col-global");
+              const techCol = document.getElementById("digests-col-tech");
+
+              // Group digests by column
+              const digestsByCol = {
+                briefings: [],
+                global: [],
+                tech: [],
+              };
+
+              data.digests.forEach((digest) => {
+                if (digestsByCol[digest.column]) {
+                  digestsByCol[digest.column].push(digest);
+                }
+              });
+
+              // Helper to build HTML for a publication and its entries
+              const createDigestPubHTML = (pub) => {
+                const entriesHTML = pub.entries
+                  .map((entry) => {
+                    const timeAgo = getRelativeTime(entry.published);
+                    const snippetHTML = entry.snippet
+                      ? `<div class="digest-entry-snippet">${escapeHTML(entry.snippet)}</div>`
+                      : "";
+                    return `
                   <div class="digest-entry">
                     <span class="digest-entry-meta">${escapeHTML(timeAgo)}</span>
                     <h4 class="digest-entry-title">
@@ -1341,9 +1376,10 @@
                     ${snippetHTML}
                   </div>
                 `;
-              }).join('');
+                  })
+                  .join("");
 
-              return `
+                return `
                 <div class="digest-publication">
                   <h3 class="digest-pub-title">${escapeHTML(pub.name)}</h3>
                   <div class="digest-entries-list">
@@ -1351,53 +1387,53 @@
                   </div>
                 </div>
               `;
-            };
+              };
 
-            // Inject into DOM
-            if (briefingsCol) {
-              briefingsCol.innerHTML = digestsByCol.briefings.map(createDigestPubHTML).join('');
+              // Inject into DOM
+              if (briefingsCol) {
+                briefingsCol.innerHTML = digestsByCol.briefings.map(createDigestPubHTML).join("");
+              }
+              if (globalCol) {
+                globalCol.innerHTML = digestsByCol.global.map(createDigestPubHTML).join("");
+              }
+              if (techCol) {
+                techCol.innerHTML = digestsByCol.tech.map(createDigestPubHTML).join("");
+              }
             }
-            if (globalCol) {
-              globalCol.innerHTML = digestsByCol.global.map(createDigestPubHTML).join('');
-            }
-            if (techCol) {
-              techCol.innerHTML = digestsByCol.tech.map(createDigestPubHTML).join('');
-            }
-          }
 
-          // 4. Render Tech & Code List
-          const hnList = document.getElementById("hn-list");
-          if (data.web && data.web.tech && data.web.tech.length > 0) {
-            hnList.innerHTML = data.web.tech.map(createWebItemHTML).join('');
-          } else {
-            hnList.innerHTML = `<div class="quiet-state">No stories found.</div>`;
-          }
+            // 4. Render Tech & Code List
+            const hnList = document.getElementById("hn-list");
+            if (data.web && data.web.tech && data.web.tech.length > 0) {
+              hnList.innerHTML = data.web.tech.map(createWebItemHTML).join("");
+            } else {
+              hnList.innerHTML = `<div class="quiet-state">No stories found.</div>`;
+            }
 
-          // 5. Render Reddit List
-          const redditList = document.getElementById("reddit-list");
-          if (data.web && data.web.reddit && data.web.reddit.length > 0) {
-            redditList.innerHTML = data.web.reddit.map(createWebItemHTML).join('');
-          } else {
-            redditList.innerHTML = `<div class="quiet-state">No posts found.</div>`;
-          }
-        })
-        .catch(error => {
-          console.error(error);
-          loading.style.display = "none";
-          
-          // Display a beautiful error panel
-          const main = document.getElementById("main-content");
-          const errDiv = document.createElement("div");
-          errDiv.className = "error-state";
-          errDiv.innerHTML = `
+            // 5. Render Reddit List
+            const redditList = document.getElementById("reddit-list");
+            if (data.web && data.web.reddit && data.web.reddit.length > 0) {
+              redditList.innerHTML = data.web.reddit.map(createWebItemHTML).join("");
+            } else {
+              redditList.innerHTML = `<div class="quiet-state">No posts found.</div>`;
+            }
+          })
+          .catch((error) => {
+            console.error(error);
+            loading.style.display = "none";
+
+            // Display a beautiful error panel
+            const main = document.getElementById("main-content");
+            const errDiv = document.createElement("div");
+            errDiv.className = "error-state";
+            errDiv.innerHTML = `
             <h3 style="font-weight: 700; margin-bottom: 0.5rem;">EDITION CURRENTLY UNAVAILABLE</h3>
             <p style="font-size: 0.95rem; font-family: 'Libre Baskerville', Georgia, serif; font-style: italic;">
               Failed to load current news payload (${escapeHTML(error.message)}). Please check back shortly, or run the local compiler to populate the archives.
             </p>
           `;
-          main.appendChild(errDiv);
-        });
-    });
-  </script>
-</body>
+            main.appendChild(errDiv);
+          });
+      });
+    </script>
+  </body>
 </html>

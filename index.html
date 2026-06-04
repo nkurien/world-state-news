@@ -1045,9 +1045,16 @@
       if (!article.other_sources || article.other_sources.length === 0) {
         return '';
       }
+      const otherNames = [...new Set(
+        article.other_sources.map(s => s.source).filter(s => s !== article.source)
+      )];
+      const summaryText = otherNames.length > 0
+        ? `Also reported by ${otherNames.join(', ')}`
+        : `Also covered in ${article.other_sources.length} other report${article.other_sources.length > 1 ? 's' : ''}`;
+
       return `
         <details class="sources-details">
-          <summary>Also reported by ${escapeHTML(article.other_sources.map(s => s.source).join(', '))}</summary>
+          <summary>${escapeHTML(summaryText)}</summary>
           <div class="sources-expanded">
             ${article.other_sources.map(s => `
               <div class="source-item">
@@ -1063,7 +1070,7 @@
     // Article HTML Builder
     function createArticleHTML(article, isLead = false) {
       const timeAgo = getRelativeTime(article.published);
-      const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
+      const scoreBadge = article.score > 1 && article.other_sources && article.other_sources.length > 0 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
       const otherSourcesHTML = createOtherSourcesHTML(article);
 
       return `
@@ -1176,7 +1183,7 @@
           if (data.breaking && data.breaking.length > 0) {
             breakingSection.style.display = "block";
             breakingContainer.innerHTML = data.breaking.map(article => {
-              const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
+              const scoreBadge = article.score > 1 && article.other_sources && article.other_sources.length > 0 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
               const otherSourcesHTML = createOtherSourcesHTML(article);
 
               return `

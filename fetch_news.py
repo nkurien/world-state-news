@@ -68,12 +68,13 @@ def deduplicate_stories(stories):
             exact_key = " ".join(words)
             if exact_key in seen_exact:
                 canonical = seen_exact[exact_key]
-                # Vote up the original kept story
-                canonical["score"] += 1
-                # Add to other_sources if unique source
                 source = story.get("source")
                 canonical_source = canonical.get("source")
-                if source and source != canonical_source and not any(x.get("source") == source for x in canonical["other_sources"]):
+                already_counted = any(x.get("source") == source for x in canonical["other_sources"])
+                if source and source != canonical_source and not already_counted:
+                    canonical["score"] += 1
+                # Add to other_sources
+                if source:
                     canonical["other_sources"].append({
                         "source": source,
                         "url": story.get("url", ""),
@@ -109,12 +110,13 @@ def deduplicate_stories(stories):
         threshold = min(2, len(trigrams))
         
         if duplicate_story and max_matches >= threshold:
-            # We found a duplicate! Increment canonical story's score
-            duplicate_story["score"] += 1
-            # Add to other_sources if unique source
             source = story.get("source")
-            duplicate_source = duplicate_story.get("source")
-            if source and source != duplicate_source and not any(x.get("source") == source for x in duplicate_story["other_sources"]):
+            canonical_source = duplicate_story.get("source")
+            already_counted = any(x.get("source") == source for x in duplicate_story["other_sources"])
+            if source and source != canonical_source and not already_counted:
+                duplicate_story["score"] += 1
+            # Add to other_sources
+            if source:
                 duplicate_story["other_sources"].append({
                     "source": source,
                     "url": story.get("url", ""),

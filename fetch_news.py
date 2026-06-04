@@ -52,6 +52,7 @@ def deduplicate_stories(stories):
     Deduplicates a list of stories sorted by newest first.
     Groups duplicates and increments the canonical story's score.
     Supports transitive n-gram registration for subsequent duplicates.
+    Requires at least 2 matching trigrams (or 1 if the story has only 1 trigram).
     """
     seen_trigrams = {} # Maps trigram tuple -> story dict
     seen_exact = {}     # Maps short exact title key -> story dict
@@ -86,14 +87,28 @@ def deduplicate_stories(stories):
             
         trigrams = get_trigrams(words)
         
-        # Check if any trigram is already seen
-        duplicate_story = None
+        # Count matching trigrams for each previously seen canonical story
+        match_counts = {} # Maps url -> [canonical_story, count]
         for tg in trigrams:
             if tg in seen_trigrams:
-                duplicate_story = seen_trigrams[tg]
-                break
+                canonical = seen_trigrams[tg]
+                url = canonical.get("url") or canonical.get("title")
+                if url not in match_counts:
+                    match_counts[url] = [canonical, 0]
+                match_counts[url][1] += 1
                 
-        if duplicate_story:
+        # Find the candidate with the highest number of matching trigrams
+        duplicate_story = None
+        max_matches = 0
+        for url, (canonical, count) in match_counts.items():
+            if count > max_matches:
+                duplicate_story = canonical
+                max_matches = count
+                
+        # Require at least 2 matching trigrams, or 1 if the headline is extremely short
+        threshold = min(2, len(trigrams))
+        
+        if duplicate_story and max_matches >= threshold:
             # We found a duplicate! Increment canonical story's score
             duplicate_story["score"] += 1
             # Add to other_sources if unique source

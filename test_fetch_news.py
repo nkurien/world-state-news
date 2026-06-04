@@ -88,7 +88,7 @@ class TestFetchNews(unittest.TestCase):
                     ("Short body", 1)
                 ]
             ),
-            # Case 4: Transitive duplicate chaining (A <- B, B <- C => A has score 3)
+            # Case 4: Prevents false positive transitive chaining (A, B, C are kept separate because overlap is below threshold)
             (
                 [
                     {"title": "Crisis in eastern europe deepens today", "published": "2026-06-02T14:00:00Z"},
@@ -96,7 +96,20 @@ class TestFetchNews(unittest.TestCase):
                     {"title": "Eastern europe reported stable", "published": "2026-06-02T12:00:00Z"},
                 ],
                 [
-                    ("Crisis in eastern europe deepens today", 3)
+                    ("Crisis in eastern europe deepens today", 1),
+                    ("Crisis in eastern europe reported", 1),
+                    ("Eastern europe reported stable", 1)
+                ]
+            ),
+            # Case 5: Valid transitive duplicate chaining (C matches A through a mix of A's directly and B's transitively registered trigrams)
+            (
+                [
+                    {"title": "Germany warns of escalation in Middle East conflict", "published": "2026-06-02T14:00:00Z"},
+                    {"title": "Germany warns of escalation in Middle East region", "published": "2026-06-02T13:00:00Z"},
+                    {"title": "escalation in Middle East region volatile", "published": "2026-06-02T12:00:00Z"},
+                ],
+                [
+                    ("Germany warns of escalation in Middle East conflict", 3)
                 ]
             )
         ]

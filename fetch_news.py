@@ -611,8 +611,6 @@ def fetch_all_tickers_data(symbols):
                     results[sym] = res
             except Exception as e:
                 print(f"  Error resolving future for {sym}: {e}", file=sys.stderr)
-            # Minimal sleep to avoid hammering Yahoo Finance
-            time.sleep(0.1)
             
     print(f"  Successfully fetched {len(results)} out of {len(symbols)} tickers.")
     return results

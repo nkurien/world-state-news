@@ -123,6 +123,16 @@ class TestFetchNews(unittest.TestCase):
                 [
                     ("New tax policy announced by government", 2, ["France24", "France24"])
                 ]
+            ),
+            # Case 7: High Jaccard similarity fallback (ceasefire example, trigrams don't meet threshold but Jaccard = 0.8)
+            (
+                [
+                    {"title": "Israel and Lebanon agree to conditional ceasefire", "published": "2026-06-02T14:00:00Z", "source": "France24"},
+                    {"title": "Israel and Lebanon agree ceasefire", "published": "2026-06-02T13:00:00Z", "source": "Semafor"},
+                ],
+                [
+                    ("Israel and Lebanon agree to conditional ceasefire", 2, ["Semafor"])
+                ]
             )
         ]
 

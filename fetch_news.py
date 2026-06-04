@@ -109,6 +109,19 @@ def deduplicate_stories(stories):
         # Require at least 2 matching trigrams, or 1 if the headline is extremely short
         threshold = min(2, len(trigrams))
         
+        # Fallback to Jaccard word similarity for headlines with high word overlap but minor reorderings
+        if not (duplicate_story and max_matches >= threshold) and len(words) >= 3:
+            for seen_story in deduped:
+                seen_words = clean_title_for_ngrams(seen_story["title"])
+                if len(seen_words) >= 3:
+                    set1 = set(words)
+                    set2 = set(seen_words)
+                    jaccard = len(set1 & set2) / len(set1 | set2)
+                    if jaccard >= 0.7:
+                        duplicate_story = seen_story
+                        max_matches = threshold
+                        break
+                        
         if duplicate_story and max_matches >= threshold:
             source = story.get("source")
             canonical_source = duplicate_story.get("source")
@@ -707,16 +720,15 @@ def main():
     # Cap breaking stories at 8 to preserve visual balance
     breaking_stories = breaking_stories[:8]
     
-    # Extract trigrams and exact title keys of final breaking stories
+    # Compile patterns (trigrams or exact keys) for each breaking story to verify world overlap
     breaking_ids = {story["url"] for story in breaking_stories}
-    breaking_trigrams = set()
-    breaking_exact = set()
+    breaking_patterns = []
     for story in breaking_stories:
         words = clean_title_for_ngrams(story["title"])
         if len(words) < 3:
-            breaking_exact.add(" ".join(words))
+            breaking_patterns.append(("exact", " ".join(words)))
         else:
-            breaking_trigrams.update(get_trigrams(words))
+            breaking_patterns.append(("trigrams", get_trigrams(words)))
             
     world_stories = []
     # Track number of world stories contributed by each source (max 6)
@@ -733,14 +745,20 @@ def main():
         # Check trigram/exact title overlap with breaking stories
         words = clean_title_for_ngrams(story["title"])
         is_duplicate_of_breaking = False
-        if len(words) < 3:
-            exact_key = " ".join(words)
-            if exact_key in breaking_exact:
-                is_duplicate_of_breaking = True
-        else:
-            trigrams = get_trigrams(words)
-            if any(tg in breaking_trigrams for tg in trigrams):
-                is_duplicate_of_breaking = True
+        
+        for pat_type, pat in breaking_patterns:
+            if pat_type == "exact":
+                if len(words) < 3 and " ".join(words) == pat:
+                    is_duplicate_of_breaking = True
+                    break
+            elif pat_type == "trigrams":
+                if len(words) >= 3:
+                    trigrams = get_trigrams(words)
+                    overlap_count = sum(1 for tg in trigrams if tg in pat)
+                    threshold = min(2, len(trigrams))
+                    if overlap_count >= threshold:
+                        is_duplicate_of_breaking = True
+                        break
                 
         if is_duplicate_of_breaking:
             print(f"  Filtering out world story '{story['title']}' due to overlap with breaking news.")

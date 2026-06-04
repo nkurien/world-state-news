@@ -770,6 +770,11 @@ def main():
         }
     }
     
+    # Sanity check: refuse to write if the pipeline produced an empty or sparse dataset
+    if len(world_stories) < 5:
+        print(f"Error: Pipeline produced only {len(world_stories)} world stories. Refusing to write empty/corrupted data payload.", file=sys.stderr)
+        sys.exit(1)
+
     # Write payload
     try:
         with open(DATA_FILE, "w", encoding="utf-8") as f:

@@ -89,19 +89,19 @@ def deduplicate_stories(stories):
         trigrams = get_trigrams(words)
         
         # Count matching trigrams for each previously seen canonical story
-        match_counts = {} # Maps url -> [canonical_story, count]
+        match_counts = {} # Maps story_id -> [canonical_story, count]
         for tg in trigrams:
             if tg in seen_trigrams:
                 canonical = seen_trigrams[tg]
-                url = canonical.get("url") or canonical.get("title")
-                if url not in match_counts:
-                    match_counts[url] = [canonical, 0]
-                match_counts[url][1] += 1
+                story_id = id(canonical)
+                if story_id not in match_counts:
+                    match_counts[story_id] = [canonical, 0]
+                match_counts[story_id][1] += 1
                 
         # Find the candidate with the highest number of matching trigrams
         duplicate_story = None
         max_matches = 0
-        for url, (canonical, count) in match_counts.items():
+        for story_id, (canonical, count) in match_counts.items():
             if count > max_matches:
                 duplicate_story = canonical
                 max_matches = count
@@ -391,6 +391,8 @@ def truncate_snippet(text, max_len=160):
     if last_space > max_len - 20:
         return truncated[:last_space] + "..."
     return truncated + "..."
+
+
 RSS_SOURCES = [
     ("France24", "https://www.france24.com/en/rss"),
     ("Politico EU", "https://www.politico.eu/feed/"),

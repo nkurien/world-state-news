@@ -1063,7 +1063,7 @@
     // Article HTML Builder
     function createArticleHTML(article, isLead = false) {
       const timeAgo = getRelativeTime(article.published);
-      const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
+      const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
       const otherSourcesHTML = createOtherSourcesHTML(article);
 
       return `
@@ -1176,7 +1176,7 @@
           if (data.breaking && data.breaking.length > 0) {
             breakingSection.style.display = "block";
             breakingContainer.innerHTML = data.breaking.map(article => {
-              const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${article.score} sources</span>` : '';
+              const scoreBadge = article.score > 1 ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>` : '';
               const otherSourcesHTML = createOtherSourcesHTML(article);
 
               return `
@@ -1230,7 +1230,7 @@
                 <div class="ticker-item">
                   <span class="ticker-name">${escapeHTML(ticker.name)}</span>
                   <span class="ticker-val">${escapeHTML(formattedPrice)}</span>
-                  <span class="ticker-change ${colorClass}">${sign}${ticker.change_percent}%</span>
+                  <span class="ticker-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</span>
                 </div>
               `;
             }).join('');
@@ -1282,7 +1282,7 @@
                     <span class="market-cell-symbol">${escapeHTML(ticker.symbol)}</span>
                   </td>
                   <td class="market-cell-price">${escapeHTML(formattedPrice)}</td>
-                  <td class="market-cell-change ${colorClass}">${sign}${ticker.change_percent}%</td>
+                  <td class="market-cell-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</td>
                 </tr>
               `;
             };
@@ -1390,7 +1390,7 @@
           errDiv.innerHTML = `
             <h3 style="font-weight: 700; margin-bottom: 0.5rem;">EDITION CURRENTLY UNAVAILABLE</h3>
             <p style="font-size: 0.95rem; font-family: 'Libre Baskerville', Georgia, serif; font-style: italic;">
-              Failed to load current news payload (${error.message}). Please check back shortly, or run the local compiler to populate the archives.
+              Failed to load current news payload (${escapeHTML(error.message)}). Please check back shortly, or run the local compiler to populate the archives.
             </p>
           `;
           main.appendChild(errDiv);

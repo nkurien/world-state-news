@@ -122,15 +122,15 @@ def deduplicate_stories(stories):
 def parse_iso_date(date_str):
     """Parse various ISO 8601 date string formats into a UTC datetime object."""
     if not date_str:
-        return datetime.now(timezone.utc)
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
     try:
         # Standard replacement for UTC indicator
         iso_str = date_str.replace("Z", "+00:00")
         # In Python 3.11+, fromisoformat handles decimal seconds and timezone offsets cleanly
         return datetime.fromisoformat(iso_str)
     except Exception:
-        # Fallback to current time if parsing fails
-        return datetime.now(timezone.utc)
+        # Fallback to epoch time if parsing fails to avoid promoting stories
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 def fetch_rss_feed(source_name, url):
     """Fetch and parse a standard RSS feed using feedparser."""

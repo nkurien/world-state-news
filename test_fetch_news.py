@@ -129,20 +129,19 @@ class TestFetchNews(unittest.TestCase):
 
     def test_parse_iso_date_fallback(self):
         """Test fallback parsing logic on invalid input strings (A-A-A)."""
-        # Arrange: Define invalid inputs and capture time bounds before parsing
+        # Arrange: Define invalid inputs and expected epoch output
         invalid_dates = [None, "", "not-a-date", "2026/06/02"]
-        now_before = datetime.now(timezone.utc)
+        expected_dt = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
         for invalid_str in invalid_dates:
             with self.subTest(invalid_str=invalid_str):
                 # Act: Execute parsing with invalid input
                 result = parse_iso_date(invalid_str)
-                now_after = datetime.now(timezone.utc)
 
-                # Assert: Verify date defaults to present time (within bounds) in UTC
+                # Assert: Verify date defaults to epoch (1970-01-01) in UTC
                 self.assertIsInstance(result, datetime)
                 self.assertEqual(result.tzinfo, timezone.utc)
-                self.assertTrue(now_before <= result <= now_after)
+                self.assertEqual(result, expected_dt)
 
     def test_clean_html(self):
         """Test HTML tag removal, entity unescaping, and whitespace normalization (A-A-A)."""

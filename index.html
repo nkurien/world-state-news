@@ -1147,8 +1147,11 @@
         const issueDateEl = document.getElementById("issue-date");
         const cacheTimeEl = document.getElementById("cache-time");
 
-        // Load data.json dynamically (works locally and in production)
-        const dataUrl = "data.json";
+        // Load data.json dynamically: relative locally, raw GitHub on production (with cache-buster)
+        const isLocal = window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1";
+        const dataUrl = isLocal
+          ? `data.json?t=${Date.now()}`
+          : `https://raw.githubusercontent.com/nkurien/world-state-news/main/data.json?t=${Date.now()}`;
 
         fetch(dataUrl)
           .then((response) => {

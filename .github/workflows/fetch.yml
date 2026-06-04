@@ -49,14 +49,22 @@ jobs:
           
           # Check if data.json is modified (M) or untracked (??)
           if git status --porcelain | grep -q "data.json"; then
-            echo "Changes detected in data.json, committing..."
+            echo "Changes detected in data.json, preparing commit..."
+            
+            # Cache the newly generated data.json
+            cp data.json data.json.tmp
+            
+            # Cleanly update workspace to remote branch HEAD to bypass any local tracking or merge issues
+            git fetch origin ${{ github.ref_name }}
+            git reset --hard origin/${{ github.ref_name }}
+            
+            # Restore the new data.json to the workspace
+            mv data.json.tmp data.json
+            
+            # Commit and push directly on top of the remote HEAD
             git add data.json
             git commit -m "chore: update world news cache (data.json) [skip ci]"
-            
-            # Rebase onto the latest remote branch changes (using -X theirs to prioritize our generated data.json)
-            git pull --rebase -X theirs origin ${{ github.ref_name }}
-            
-            git push origin ${{ github.ref_name }}
+            git push origin HEAD:${{ github.ref_name }}
           else
             echo "No changes detected in data.json. Skipping commit."
           fi

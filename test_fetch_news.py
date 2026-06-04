@@ -1,5 +1,6 @@
 import unittest
 from datetime import datetime, timezone
+from unittest.mock import patch, MagicMock
 from fetch_news import clean_title_for_ngrams, get_trigrams, deduplicate_stories, parse_iso_date
 
 class TestFetchNews(unittest.TestCase):
@@ -189,6 +190,55 @@ class TestFetchNews(unittest.TestCase):
         # None/empty text
         self.assertEqual(truncate_snippet(None), "")
         self.assertEqual(truncate_snippet(""), "")
+
+class TestFetchNewsNetwork(unittest.TestCase):
+
+    @patch('fetch_news.requests.get')
+    def test_fetch_rss_feed_success(self, mock_get):
+        """Test fetch_rss_feed parses a valid RSS XML response correctly (A-A-A)."""
+        from fetch_news import fetch_rss_feed
+        # Arrange: Setup mock response
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.content = b"""<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Escalation in Middle East reported</title>
+      <link>https://example.com/escalation-middle-east</link>
+      <pubDate>Thu, 04 Jun 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Unrelated story</title>
+      <link>https://example.com/unrelated</link>
+      <pubDate>Thu, 04 Jun 2026 11:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>"""
+        mock_get.return_value = mock_response
+
+        # Act: Fetch the RSS feed
+        result = fetch_rss_feed("Test Source", "https://example.com/rss")
+
+        # Assert: Verify details of stories
+        self.assertEqual(len(result), 2)
+        self.assertEqual(result[0]["title"], "Escalation in Middle East reported")
+        self.assertEqual(result[0]["url"], "https://example.com/escalation-middle-east")
+        self.assertEqual(result[0]["source"], "Test Source")
+        self.assertEqual(result[0]["published"], "2026-06-04T12:00:00+00:00")
+
+    @patch('fetch_news.requests.get')
+    def test_fetch_rss_feed_failure(self, mock_get):
+        """Test fetch_rss_feed returns empty list on HTTP error (A-A-A)."""
+        from fetch_news import fetch_rss_feed
+        # Arrange: Mock a requests failure
+        mock_get.side_effect = Exception("Network connection timeout")
+
+        # Act: Execute fetch
+        result = fetch_rss_feed("Failed Source", "https://example.com/fail")
+
+        # Assert: Verify that list is empty and did not crash the pipeline
+        self.assertEqual(result, [])
 
 if __name__ == "__main__":
     unittest.main()

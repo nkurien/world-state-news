@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The World State | Global News Aggregator</title>
   <meta name="description" content="A digital broadsheet - with my preferred news, aggregated and without noise">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://world-state-news.pages.dev/">
   
   <!-- Favicon & Open Graph Previews -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📰</text></svg>">
@@ -101,14 +103,7 @@
       display: inline-block;
     }
 
-    .subtitle {
-      font-family: 'Playfair Display', serif;
-      font-style: italic;
-      font-size: 1.1rem;
-      color: var(--hover-color);
-      margin-bottom: 1.5rem;
-      letter-spacing: 0.5px;
-    }
+
 
     /* Metadata Bar */
     .meta-bar {
@@ -868,7 +863,7 @@
     </header>
 
     <!-- Main Content Area -->
-    <main id="main-content">
+    <main id="main-content" aria-live="polite">
       <div class="loading-state" id="loading-indicator">Retrieving print plates and caching news archives...</div>
       
       <!-- Content injected by JavaScript -->
@@ -1157,7 +1152,7 @@
             if (hoursOld > 2) {
               const staleBadge = document.createElement("span");
               staleBadge.className = "stale-badge";
-              staleBadge.innerHTML = "⚠️ STALE";
+              staleBadge.textContent = "⚠️ STALE";
               staleBadge.title = `Data is ${Math.round(hoursOld)} hours old`;
               issueDateEl.appendChild(staleBadge);
             }

@@ -26,7 +26,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0 # fetch all history for git pull --rebase to work correctly
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -52,25 +52,11 @@ jobs:
             echo "Changes detected in data.json, committing..."
             git add data.json
             git commit -m "chore: update world news cache (data.json) [skip ci]"
-            git pull --rebase -X theirs origin main
             
-            # Verify our data wasn't silently replaced by remote due to -X theirs.
-            # If data.json is older than 5 minutes, compile it again and amend the commit.
-            if ! python -c "
-import json, datetime
-d = json.load(open('data.json'))
-t = datetime.datetime.fromisoformat(d['last_updated'])
-now = datetime.datetime.now(datetime.timezone.utc)
-if (now - t).total_seconds() > 300:
-    print('data.json was replaced during rebase. Regenerating...')
-    exit(1)
-"; then
-              python fetch_news.py
-              git add data.json
-              git commit --amend --no-edit || git commit -m "chore: update world news cache (data.json) [skip ci]"
-            fi
+            # Rebase onto the latest remote branch changes (using -X theirs to prioritize our generated data.json)
+            git pull --rebase -X theirs origin ${{ github.ref_name }}
             
-            git push origin main
+            git push origin ${{ github.ref_name }}
           else
             echo "No changes detected in data.json. Skipping commit."
           fi

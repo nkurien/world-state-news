@@ -162,52 +162,58 @@ def parse_iso_date(date_str):
         # Fallback to epoch time if parsing fails to avoid promoting stories
         return datetime(1970, 1, 1, tzinfo=timezone.utc)
 
-def fetch_rss_feed(source_name, url):
-    """Fetch and parse a standard RSS feed using feedparser."""
+def fetch_rss_feed(source_name, url, retries=2):
+    """Fetch and parse a standard RSS feed using feedparser with retry logic."""
     print(f"Fetching RSS feed from {source_name}...")
     stories = []
-    try:
-        # We fetch manually using requests first to apply headers and timeouts consistently
-        response = requests.get(url, headers=HEADERS, timeout=10)
-        response.raise_for_status()
-        
-        feed = feedparser.parse(response.content)
-        for entry in feed.entries:
-            title = entry.get("title", "").strip()
-            link = entry.get("link", "").strip()
+    for attempt in range(retries + 1):
+        try:
+            # We fetch manually using requests first to apply headers and timeouts consistently
+            response = requests.get(url, headers=HEADERS, timeout=10)
+            response.raise_for_status()
             
-            if not title or not link:
+            feed = feedparser.parse(response.content)
+            for entry in feed.entries:
+                title = entry.get("title", "").strip()
+                link = entry.get("link", "").strip()
+                
+                if not title or not link:
+                    continue
+                    
+                # Skip generic live-blog placeholders and generic video/audio bulletins
+                cleaned_title_lower = title.lower().strip(" .’'\"")
+                if (cleaned_title_lower in ["here's the latest", "here’s the latest", "latest updates", "live updates", "here’s what you need to know"]
+                        or "news bulletin" in cleaned_title_lower or "latest news" in cleaned_title_lower):
+                    continue
+                    
+                # Parse publication date
+                pub_date = None
+                if hasattr(entry, "published_parsed") and entry.published_parsed:
+                    try:
+                        # calendar.timegm converts parsed date tuple to UTC timestamp
+                        pub_date = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
+                    except Exception:
+                        pass
+                
+                if not pub_date:
+                    # Fallback parsed date strings
+                    date_str = entry.get("published") or entry.get("updated")
+                    pub_date = parse_iso_date(date_str)
+                    
+                stories.append({
+                    "title": title,
+                    "url": link,
+                    "source": source_name,
+                    "published": pub_date.isoformat()
+                })
+            print(f"  Successfully fetched {len(stories)} articles from {source_name}.")
+            return stories
+        except Exception as e:
+            if attempt < retries:
+                print(f"  Warning: Attempt {attempt + 1} failed for {source_name}. Retrying...", file=sys.stderr)
+                time.sleep(1 * (attempt + 1))
                 continue
-                
-            # Skip generic live-blog placeholders and generic video/audio bulletins
-            cleaned_title_lower = title.lower().strip(" .’'\"")
-            if (cleaned_title_lower in ["here's the latest", "here’s the latest", "latest updates", "live updates", "here’s what you need to know"]
-                    or "news bulletin" in cleaned_title_lower or "latest news" in cleaned_title_lower):
-                continue
-                
-            # Parse publication date
-            pub_date = None
-            if hasattr(entry, "published_parsed") and entry.published_parsed:
-                try:
-                    # calendar.timegm converts parsed date tuple to UTC timestamp
-                    pub_date = datetime.fromtimestamp(timegm(entry.published_parsed), timezone.utc)
-                except Exception:
-                    pass
-            
-            if not pub_date:
-                # Fallback parsed date strings
-                date_str = entry.get("published") or entry.get("updated")
-                pub_date = parse_iso_date(date_str)
-                
-            stories.append({
-                "title": title,
-                "url": link,
-                "source": source_name,
-                "published": pub_date.isoformat()
-            })
-        print(f"  Successfully fetched {len(stories)} articles from {source_name}.")
-    except Exception as e:
-        print(f"  Error fetching {source_name}: {e}", file=sys.stderr)
+            print(f"  Error fetching {source_name} after {retries} retries: {e}", file=sys.stderr)
     return stories
 
 def fetch_hn_item(item_id):

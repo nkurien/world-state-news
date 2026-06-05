@@ -232,6 +232,22 @@ class TestFetchNews(unittest.TestCase):
                 ],
                 [("Israel and Lebanon agree to conditional ceasefire", 2, ["Semafor"])],
             ),
+            # Case 8: Overlap Coefficient fallback for headlines with detailed clauses (e.g. Xi Jinping N Korea story)
+            (
+                [
+                    {
+                        "title": "Chinese leader Xi Jinping plans North Korea visit",
+                        "published": "2026-06-02T14:00:00Z",
+                        "source": "Semafor",
+                    },
+                    {
+                        "title": "Xi Jinping to meet Kim Jong Un in rare visit to North Korea",
+                        "published": "2026-06-02T13:00:00Z",
+                        "source": "BBC News",
+                    },
+                ],
+                [("Chinese leader Xi Jinping plans North Korea visit", 2, ["BBC News"])],
+            ),
         ]
 
         for input_stories, expected_results in test_cases:

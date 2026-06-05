@@ -193,15 +193,17 @@ def deduplicate_stories(stories):
         # Require at least 2 matching trigrams, or 1 if the headline is extremely short
         threshold = min(2, len(trigrams))
 
-        # Fallback to Jaccard word similarity for headlines with high word overlap but minor reorderings
+        # Fallback to Jaccard word similarity or Overlap Coefficient for headlines with high word overlap but minor reorderings
         if not (duplicate_story and max_matches >= threshold) and len(words) >= 3:
             for seen_story in deduped:
                 seen_words = clean_title_for_ngrams(seen_story["title"])
                 if len(seen_words) >= 3:
                     set1 = set(words)
                     set2 = set(seen_words)
-                    jaccard = len(set1 & set2) / len(set1 | set2)
-                    if jaccard >= 0.7:
+                    intersect = set1 & set2
+                    jaccard = len(intersect) / len(set1 | set2)
+                    overlap = len(intersect) / min(len(set1), len(set2))
+                    if jaccard >= 0.7 or (overlap >= 0.6 and len(intersect) >= 4):
                         duplicate_story = seen_story
                         max_matches = threshold
                         break

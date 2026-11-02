@@ -759,6 +759,13 @@ DIGEST_CONFIGS = [
         "headers": HEADERS,
     },
     {
+        "id": "works_in_progress",
+        "name": "Works in Progress",
+        "url": "https://www.worksinprogress.news/feed",
+        "column": "tech",
+        "headers": HEADERS,
+    },
+    {
         "id": "rest_of_world",
         "name": "Rest of World",
         "url": "https://restofworld.org/feed/",

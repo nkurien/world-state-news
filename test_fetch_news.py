@@ -1,7 +1,8 @@
 import unittest
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    select_reddit_posts,
     fetch_all_reddit,
     parse_reddit_feed,
     carry_forward_digests,
@@ -750,7 +751,8 @@ class TestReddit(unittest.TestCase):
         self.assertEqual(mock_get.call_count, 1)
         self.assertIn("worldnews+europe", mock_get.call_args[0][0])
         self.assertEqual(len(stories), 2)
-        self.assertGreater(stories[0]["published"], stories[1]["published"])
+        # Feed (hot) order is preserved even though the second post is older
+        self.assertEqual([s["source"] for s in stories], ["/r/technology", "/r/europe"])
 
     @patch("fetch_news.time.sleep")
     @patch("fetch_news.requests.get")
@@ -770,6 +772,71 @@ class TestReddit(unittest.TestCase):
         mock_get.return_value = self._resp(429, {"X-Ratelimit-Reset": "20"})
         self.assertEqual(fetch_all_reddit(), [])
         self.assertEqual(mock_get.call_count, 3)
+
+
+class TestSelectRedditPosts(unittest.TestCase):
+    NOW = datetime(2026, 11, 3, 12, 0, tzinfo=timezone.utc)
+
+    @classmethod
+    def _post(cls, title, hours_ago, sub="worldnews", url=None):
+        return {
+            "title": title,
+            "url": url or f"https://example.com/{abs(hash(title))}",
+            "source": f"/r/{sub}",
+            "published": (cls.NOW - timedelta(hours=hours_ago)).isoformat(),
+        }
+
+    def test_keeps_hot_order_not_recency(self):
+        posts = [
+            self._post("Older but hotter story about parliament vote", 10),
+            self._post("Newer story about central bank decision", 1),
+        ]
+        out = select_reddit_posts(posts, now=self.NOW)
+        self.assertEqual([p["title"] for p in out], [p["title"] for p in posts])
+
+    def test_drops_stale_pinned_posts(self):
+        posts = [
+            self._post("Megathread: community rules and guidelines", 24 * 59),
+            self._post("Fresh story about parliament vote", 2),
+        ]
+        out = select_reddit_posts(posts, now=self.NOW)
+        self.assertEqual(
+            [p["title"] for p in out], ["Fresh story about parliament vote"]
+        )
+
+    def test_drops_cross_posts_keeping_best_ranked(self):
+        dup_url = "https://example.com/dup"
+        posts = [
+            self._post(
+                "Supermarket freezers across Europe struck in second cyberattack",
+                3,
+                "europe",
+            ),
+            self._post("Unrelated story about lithium mining regulation", 4, "science"),
+            self._post(
+                "Supermarket freezers across Europe struck in second cyberattack",
+                3,
+                "technology",
+            ),
+            self._post("Different headline", 2, "worldnews", url=dup_url),
+            self._post("Another headline entirely", 2, "worldnews", url=dup_url),
+        ]
+        out = select_reddit_posts(posts, now=self.NOW)
+        self.assertEqual(
+            [(p["source"], p["title"][:12]) for p in out],
+            [
+                ("/r/europe", "Supermarket "),
+                ("/r/science", "Unrelated st"),
+                ("/r/worldnews", "Different he"),
+            ],
+        )
+
+    def test_respects_limit(self):
+        posts = [
+            self._post(f"Distinct topic number {w}", 1)
+            for w in ["alpha beta", "gamma delta", "epsilon zeta", "eta theta"]
+        ]
+        self.assertEqual(len(select_reddit_posts(posts, now=self.NOW, limit=2)), 2)
 
 
 if __name__ == "__main__":

@@ -496,6 +496,34 @@ def parse_reddit_feed(feed):
     return stories
 
 
+REDDIT_MAX_AGE_HOURS = 72  # drops pinned/stickied posts that linger in "hot"
+
+
+def select_reddit_posts(stories, now=None, limit=MAX_WEB_STORIES):
+    """
+    Keep Reddit's own "hot" ordering (a popularity ranking, since unauthenticated
+    feeds expose no vote counts) while dropping stale pinned posts and
+    cross-posts of the same story to several subreddits (best-ranked copy wins).
+    """
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=REDDIT_MAX_AGE_HOURS)
+    kept, kept_words = [], []
+    for story in stories:
+        if parse_iso_date(story["published"]) < cutoff:
+            continue
+        words = clean_title_for_ngrams(story["title"])
+        if any(
+            story["url"] == k["url"] or titles_similar(words, kw)
+            for k, kw in zip(kept, kept_words)
+        ):
+            continue
+        kept.append(story)
+        kept_words.append(words)
+        if len(kept) >= limit:
+            break
+    return kept
+
+
 def fetch_all_reddit():
     """
     Fetch hot posts from all configured subreddits in ONE request.
@@ -503,7 +531,8 @@ def fetch_all_reddit():
     Unauthenticated Reddit allows roughly one request per rate-limit window
     (X-Ratelimit-Remaining hits 0 after the first call), so per-subreddit
     requests 429'd for every sub but the first. A multireddit feed
-    (r/a+b+c) returns the combined hot list in a single call.
+    (r/a+b+c) returns the combined hot list in a single call, already ranked
+    by popularity, and we keep that order.
     """
     print(f"Fetching Reddit ({'+'.join(REDDIT_SUBREDDITS)}) in one request...")
     url = f"https://www.reddit.com/r/{'+'.join(REDDIT_SUBREDDITS)}/hot/.rss?limit=50"
@@ -515,8 +544,7 @@ def fetch_all_reddit():
         print(f"  Error fetching Reddit RSS: {e}", file=sys.stderr)
         return []
 
-    stories.sort(key=lambda x: x["published"], reverse=True)
-    return stories[:MAX_WEB_STORIES]
+    return select_reddit_posts(stories)
 
 
 def fetch_lobsters():

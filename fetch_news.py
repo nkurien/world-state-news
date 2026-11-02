@@ -745,13 +745,6 @@ DIGEST_CONFIGS = [
         "headers": HEADERS,
     },
     {
-        "id": "tldr_tech",
-        "name": "TLDR Tech",
-        "url": "https://tldr.tech/rss",
-        "column": "tech",
-        "headers": HEADERS,
-    },
-    {
         "id": "stratechery",
         "name": "Stratechery",
         "url": "https://stratechery.com/feed/",

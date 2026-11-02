@@ -2,11 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://raw.githubusercontent.com https://cloudflareinsights.com; base-uri 'none'; form-action 'none'"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The World State | Global News Aggregator</title>
     <meta name="description" content="A digital broadsheet - with my preferred news, aggregated and without noise" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://world-state-news.pages.dev/" />
+    <link rel="canonical" href="https://news.nathankurien.com/" />
 
     <!-- Favicon & Open Graph Previews -->
     <link
@@ -1069,7 +1073,7 @@
                 (s) => `
               <div class="source-item">
                 <span class="source-meta">${escapeHTML(s.source)} &bull; ${escapeHTML(getRelativeTime(s.published))}</span>
-                <a href="${escapeHTML(s.url)}" target="_blank" rel="noopener noreferrer" class="source-title-link">${escapeHTML(s.title)}</a>
+                <a href="${escapeHTML(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer" class="source-title-link">${escapeHTML(s.title)}</a>
               </div>
             `,
               )
@@ -1084,7 +1088,7 @@
         const timeAgo = getRelativeTime(article.published);
         const scoreBadge =
           article.score > 1 && article.other_sources && article.other_sources.length > 0
-            ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>`
+            ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">${escapeHTML(String(article.score))} sources</span>`
             : "";
         const otherSourcesHTML = createOtherSourcesHTML(article);
 
@@ -1097,7 +1101,7 @@
             ${scoreBadge}
           </div>
           <h3 class="article-title">
-            <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
+            <a href="${escapeHTML(safeUrl(article.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
           </h3>
           ${otherSourcesHTML}
         </article>
@@ -1120,7 +1124,7 @@
         return `
         <div class="web-item">
           <h4 class="web-item-title">
-            <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)}</a>
+            <a href="${escapeHTML(safeUrl(item.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(item.title)}</a>
           </h4>
           <div class="web-item-meta">
             ${metaHTML}
@@ -1138,6 +1142,46 @@
           .replace(/>/g, "&gt;")
           .replace(/"/g, "&quot;")
           .replace(/'/g, "&#039;");
+      }
+
+      // Only allow absolute http(s) links; escaping alone doesn't stop javascript: URLs
+      function safeUrl(url) {
+        try {
+          const u = new URL(url);
+          return u.protocol === "http:" || u.protocol === "https:" ? u.href : "#";
+        } catch (e) {
+          return "#";
+        }
+      }
+
+      function formatPercent(pct) {
+        const n = Number(pct) || 0;
+        return `${n > 0 ? "+" : ""}${n.toFixed(2)}%`;
+      }
+
+      // Shared by the ticker bar and the markets board so both show the same precision
+      function formatPriceVal(ticker) {
+        const sym = ticker.symbol;
+        const price = ticker.price;
+        const two = { minimumFractionDigits: 2, maximumFractionDigits: 2 };
+
+        if (sym.endsWith("=X")) {
+          // Forex pair: format as decimal ratio (e.g. 1.2825)
+          return sym.startsWith("JPY") ? price.toFixed(2) : price.toFixed(4);
+        }
+        if (sym === "GC=F" || sym === "SI=F" || sym === "BZ=F") {
+          return `$${price.toLocaleString(undefined, two)}`;
+        }
+        if (sym.endsWith(".L")) {
+          // LSE listings can be quoted in pence (GBp) or pounds (GBP); trust Yahoo's currency
+          if (ticker.currency === "GBp") return `${price.toLocaleString(undefined, two)}p`;
+          return `\u00a3${price.toLocaleString(undefined, two)}`;
+        }
+        if (sym.startsWith("^")) {
+          // Index points: no currency symbol
+          return price.toLocaleString(undefined, two);
+        }
+        return `$${price.toLocaleString(undefined, two)}`;
       }
 
       // Load Data
@@ -1205,7 +1249,7 @@
                 .map((article) => {
                   const scoreBadge =
                     article.score > 1 && article.other_sources && article.other_sources.length > 0
-                      ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">&bull; ${escapeHTML(String(article.score))} sources</span>`
+                      ? `<span class="date-dot"></span><span style="color: var(--accent-color); font-weight: 700;">${escapeHTML(String(article.score))} sources</span>`
                       : "";
                   const otherSourcesHTML = createOtherSourcesHTML(article);
 
@@ -1218,7 +1262,7 @@
                     ${scoreBadge}
                   </div>
                   <h3 class="breaking-title">
-                    <a href="${escapeHTML(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
+                    <a href="${escapeHTML(safeUrl(article.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(article.title)}</a>
                   </h3>
                   ${otherSourcesHTML}
                 </div>
@@ -1255,17 +1299,14 @@
               tickerBar.style.display = "flex";
               tickerBar.innerHTML = data.tickers
                 .map((ticker) => {
-                  const sign = ticker.change_percent > 0 ? "+" : "";
                   const colorClass =
                     ticker.change_percent > 0 ? "ticker-pos" : ticker.change_percent < 0 ? "ticker-neg" : "";
-                  const formattedPrice = ticker.symbol.endsWith(".L")
-                    ? `${ticker.price}p`
-                    : ticker.price.toLocaleString();
+                  const formattedPrice = formatPriceVal(ticker);
                   return `
                 <div class="ticker-item">
                   <span class="ticker-name">${escapeHTML(ticker.name)}</span>
                   <span class="ticker-val">${escapeHTML(formattedPrice)}</span>
-                  <span class="ticker-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</span>
+                  <span class="ticker-change ${colorClass}">${escapeHTML(formatPercent(ticker.change_percent))}</span>
                 </div>
               `;
                 })
@@ -1280,34 +1321,8 @@
             const equitiesList = document.getElementById("equities-list");
 
             if (data.markets) {
-              // Helper to format prices dynamically
-              const formatPriceVal = (ticker) => {
-                const sym = ticker.symbol;
-                const price = ticker.price;
-
-                if (sym.endsWith("=X")) {
-                  // Forex pair: format as decimal ratio (e.g. 1.2825)
-                  return sym.startsWith("JPY") ? price.toFixed(2) : price.toFixed(4);
-                }
-                if (sym === "GC=F" || sym === "SI=F" || sym === "BZ=F") {
-                  // Commodities: format with currency sign $
-                  return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-                }
-                if (sym.endsWith(".L")) {
-                  // UK assets: format with p (pence)
-                  return `${price.toLocaleString()}p`;
-                }
-                if (sym.startsWith("^")) {
-                  // Index points: no currency symbol
-                  return price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-                }
-                // Default to USD currency format for equities and others
-                return `$${price.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
-              };
-
               // Helper to build table rows
               const createMarketRowHTML = (ticker) => {
-                const sign = ticker.change_percent > 0 ? "+" : "";
                 const colorClass =
                   ticker.change_percent > 0 ? "ticker-pos" : ticker.change_percent < 0 ? "ticker-neg" : "";
                 const formattedPrice = formatPriceVal(ticker);
@@ -1319,7 +1334,7 @@
                     <span class="market-cell-symbol">${escapeHTML(ticker.symbol)}</span>
                   </td>
                   <td class="market-cell-price">${escapeHTML(formattedPrice)}</td>
-                  <td class="market-cell-change ${colorClass}">${escapeHTML(sign)}${escapeHTML(String(ticker.change_percent))}%</td>
+                  <td class="market-cell-change ${colorClass}">${escapeHTML(formatPercent(ticker.change_percent))}</td>
                 </tr>
               `;
               };
@@ -1374,7 +1389,7 @@
                   <div class="digest-entry">
                     <span class="digest-entry-meta">${escapeHTML(timeAgo)}</span>
                     <h4 class="digest-entry-title">
-                      <a href="${escapeHTML(entry.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(entry.title)}</a>
+                      <a href="${escapeHTML(safeUrl(entry.url))}" target="_blank" rel="noopener noreferrer">${escapeHTML(entry.title)}</a>
                     </h4>
                     ${snippetHTML}
                   </div>

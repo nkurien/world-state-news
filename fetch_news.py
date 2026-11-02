@@ -3,6 +3,7 @@ import html
 import re
 import time
 import sys
+from urllib.parse import urlparse
 from datetime import datetime, timezone, timedelta
 from calendar import timegm
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -262,7 +263,7 @@ def fetch_rss_feed(source_name, url, retries=2):
                 title = entry.get("title", "").strip()
                 link = entry.get("link", "").strip()
 
-                if not title or not link:
+                if not title or not is_safe_url(link):
                     continue
 
                 # Skip generic live-blog placeholders and generic video/audio bulletins
@@ -354,10 +355,9 @@ def fetch_hacker_news():
                 item = future.result()
                 if item and item.get("type") == "story":
                     title = item.get("title", "").strip()
-                    url = (
-                        item.get("url")
-                        or f"https://news.ycombinator.com/item?id={item['id']}"
-                    )
+                    url = item.get("url")
+                    if not is_safe_url(url):
+                        url = f"https://news.ycombinator.com/item?id={item['id']}"
                     score = item.get("score", 0)
                     time_stamp = item.get("time", time.time())
                     pub_date = datetime.fromtimestamp(time_stamp, timezone.utc)
@@ -397,7 +397,7 @@ def fetch_reddit_subreddit(subreddit):
             title = entry.get("title", "").strip()
             comments_link = entry.get("link", "").strip()
 
-            if not title or not comments_link:
+            if not title or not is_safe_url(comments_link):
                 continue
 
             # Try to extract the direct article link from the HTML summary
@@ -425,6 +425,9 @@ def fetch_reddit_subreddit(subreddit):
                 pub_date = parse_iso_date(
                     entry.get("published") or entry.get("updated")
                 )
+
+            if not is_safe_url(direct_link):
+                direct_link = comments_link
 
             stories.append(
                 {
@@ -471,8 +474,10 @@ def fetch_lobsters():
             comments_link = item.get("comments_url", "").strip()
             score = item.get("score")
 
-            if not title or not link:
+            if not title or not is_safe_url(link):
                 continue
+            if not is_safe_url(comments_link):
+                comments_link = ""
 
             # Parse publication date and convert to UTC
             pub_date = parse_iso_date(item.get("created_at")).astimezone(timezone.utc)
@@ -493,16 +498,29 @@ def fetch_lobsters():
     return stories
 
 
+def is_safe_url(url):
+    """True only for absolute http(s) URLs; rejects javascript:, data:, etc."""
+    if not url or not isinstance(url, str):
+        return False
+    parsed = urlparse(url.strip())
+    return parsed.scheme in ("http", "https") and bool(parsed.netloc)
+
+
 def clean_html(text):
-    """Strip HTML tags, normalize whitespace, and unescape entities."""
+    """Strip HTML tags, unescape entities, and normalize whitespace.
+
+    Tags are stripped again after unescaping so entity-encoded markup
+    (e.g. ``&lt;p&gt;``) doesn't survive as a literal ``<p>``. The literal
+    string "null" that some feeds emit for empty summaries becomes "".
+    """
     if not text:
         return ""
-    # Strip HTML tags
     clean = re.sub(r"<[^>]+>", "", text)
-    # Unescape HTML entities (e.g. &#8217; or &amp;)
     clean = html.unescape(clean)
-    # Normalize whitespaces/newlines to single spaces
+    clean = re.sub(r"<[^>]+>", "", clean)
     clean = re.sub(r"\s+", " ", clean).strip()
+    if clean.lower() == "null":
+        return ""
     return clean
 
 
@@ -668,7 +686,7 @@ def fetch_single_digest(config):
             title = entry.get("title", "").strip()
             link = entry.get("link", "").strip()
 
-            if not title or not link:
+            if not title or not is_safe_url(link):
                 continue
 
             # Get snippet
@@ -742,7 +760,7 @@ def fetch_all_digests():
 
 TICKER_NAMES = {
     "^GSPC": "S&P 500",
-    "VWRP.L": "FTSE All-World",
+    "VWRP.L": "FTSE All-World ETF",
     "^IXIC": "NASDAQ Composite",
     "^FTSE": "FTSE 100",
     "^DJI": "Dow Jones",
@@ -811,6 +829,7 @@ def fetch_single_ticker(symbol):
                     return {
                         "symbol": symbol,
                         "price": round(price, 2),
+                        "currency": meta.get("currency"),
                         "change": rounded_change,
                         "change_percent": rounded_change_pct,
                     }

@@ -2,6 +2,8 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    clean_html,
+    is_safe_url,
     titles_similar,
     clean_title_for_ngrams,
     get_trigrams,
@@ -474,6 +476,35 @@ class TestSimilarityAndGrouping(unittest.TestCase):
             [o["source"] for o in by_title[a["title"]]["other_sources"]],
             ["Politico EU"],
         )
+
+
+class TestSanitizing(unittest.TestCase):
+    def test_clean_html_strips_entity_encoded_tags(self):
+        self.assertEqual(
+            clean_html("&lt;p&gt;Hello &amp; welcome&lt;/p&gt;"), "Hello & welcome"
+        )
+
+    def test_clean_html_strips_plain_tags_and_whitespace(self):
+        self.assertEqual(clean_html("<p>Hi   <b>there</b></p>\n"), "Hi there")
+
+    def test_clean_html_drops_literal_null(self):
+        self.assertEqual(clean_html("null"), "")
+        self.assertEqual(clean_html(" <p>NULL</p> "), "")
+        self.assertEqual(clean_html("null and void"), "null and void")
+
+    def test_is_safe_url(self):
+        self.assertTrue(is_safe_url("https://example.com/a?b=1"))
+        self.assertTrue(is_safe_url("http://example.com"))
+        for bad in [
+            "javascript:alert(1)",
+            "data:text/html,x",
+            "//example.com",
+            "/relative",
+            "",
+            None,
+            "ftp://x.com",
+        ]:
+            self.assertFalse(is_safe_url(bad), bad)
 
 
 if __name__ == "__main__":

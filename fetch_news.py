@@ -553,6 +553,11 @@ RSS_SOURCES = [
         "https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada",
     ),
     ("RNZ", "https://www.rnz.co.nz/rss/news.xml"),
+    ("ABC Australia", "https://www.abc.net.au/news/feed/51120/rss.xml"),
+    ("Africanews", "https://www.africanews.com/feed/"),
+    ("The Hindu", "https://www.thehindu.com/news/international/feeder/default.rss"),
+    ("The Moscow Times", "https://www.themoscowtimes.com/rss/news"),
+    ("MercoPress", "https://en.mercopress.com/rss/"),
 ]
 
 
@@ -561,7 +566,7 @@ def fetch_all_rss():
     print(f"Fetching {len(RSS_SOURCES)} RSS feeds in parallel...")
     stories = []
 
-    with ThreadPoolExecutor(max_workers=8) as executor:
+    with ThreadPoolExecutor(max_workers=12) as executor:
         future_to_source = {
             executor.submit(fetch_rss_feed, name, url): name
             for name, url in RSS_SOURCES
@@ -615,6 +620,13 @@ DIGEST_CONFIGS = [
         "headers": HEADERS,
     },
     {
+        "id": "the_atlantic",
+        "name": "The Atlantic",
+        "url": "https://www.theatlantic.com/feed/all/",
+        "column": "global",
+        "headers": HEADERS,
+    },
+    {
         "id": "tldr_tech",
         "name": "TLDR Tech",
         "url": "https://tldr.tech/rss",
@@ -625,6 +637,20 @@ DIGEST_CONFIGS = [
         "id": "stratechery",
         "name": "Stratechery",
         "url": "https://stratechery.com/feed/",
+        "column": "tech",
+        "headers": HEADERS,
+    },
+    {
+        "id": "rest_of_world",
+        "name": "Rest of World",
+        "url": "https://restofworld.org/feed/",
+        "column": "tech",
+        "headers": HEADERS,
+    },
+    {
+        "id": "wired_tech",
+        "name": "Wired",
+        "url": "https://www.wired.com/feed/rss",
         "column": "tech",
         "headers": HEADERS,
     },

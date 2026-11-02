@@ -35,6 +35,20 @@
       rel="stylesheet"
     />
 
+    <script>
+      // Resolve the theme before first paint (no beige flash in dark mode).
+      // Saved choice wins; otherwise follow the OS setting.
+      (function () {
+        var theme = null;
+        try {
+          theme = localStorage.getItem("theme");
+        } catch (e) {}
+        if (!theme && window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          theme = "dark";
+        }
+        if (theme === "dark") document.documentElement.setAttribute("data-theme", "dark");
+      })();
+    </script>
     <style>
       /* Design Tokens */
       :root {
@@ -863,6 +877,22 @@
         font-size: 1.2rem;
         margin: 2rem 0;
       }
+
+      a:focus-visible,
+      button:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -886,8 +916,10 @@
       </header>
 
       <!-- Main Content Area -->
-      <main id="main-content" aria-live="polite">
-        <div class="loading-state" id="loading-indicator">Retrieving print plates and caching news archives...</div>
+      <main id="main-content" aria-busy="true">
+        <div class="loading-state" id="loading-indicator" role="status">
+          Retrieving print plates and caching news archives...
+        </div>
 
         <!-- Content injected by JavaScript -->
         <div id="news-content" style="display: none">
@@ -1005,26 +1037,25 @@
 
     <!-- Client side Javascript -->
     <script>
-      // Theme Toggle Logic
+      // Theme Toggle Logic (initial theme is already applied by the script in <head>)
       const themeToggle = document.getElementById("theme-toggle");
-      const currentTheme = localStorage.getItem("theme");
+      const root = document.documentElement;
 
-      if (currentTheme === "dark") {
-        document.documentElement.setAttribute("data-theme", "dark");
-        themeToggle.textContent = "Day Edition";
+      function syncThemeButton() {
+        const isDark = root.getAttribute("data-theme") === "dark";
+        themeToggle.textContent = isDark ? "Day Edition" : "Night Edition";
+        themeToggle.setAttribute("aria-pressed", String(isDark));
       }
+      syncThemeButton();
 
       themeToggle.addEventListener("click", () => {
-        let theme = "light";
-        if (document.documentElement.getAttribute("data-theme") !== "dark") {
-          document.documentElement.setAttribute("data-theme", "dark");
-          themeToggle.textContent = "Day Edition";
-          theme = "dark";
-        } else {
-          document.documentElement.removeAttribute("data-theme");
-          themeToggle.textContent = "Night Edition";
-        }
-        localStorage.setItem("theme", theme);
+        const goDark = root.getAttribute("data-theme") !== "dark";
+        if (goDark) root.setAttribute("data-theme", "dark");
+        else root.removeAttribute("data-theme");
+        syncThemeButton();
+        try {
+          localStorage.setItem("theme", goDark ? "dark" : "light");
+        } catch (e) {}
       });
 
       // Dynamic Date Formatting for the Issue
@@ -1206,6 +1237,7 @@
           })
           .then((data) => {
             loading.style.display = "none";
+            document.getElementById("main-content").setAttribute("aria-busy", "false");
             content.style.display = "block";
 
             // 1. Update Masthead Issue Date, Cache stamp, and Edition/No.
@@ -1446,6 +1478,7 @@
           .catch((error) => {
             console.error(error);
             loading.style.display = "none";
+            document.getElementById("main-content").setAttribute("aria-busy", "false");
 
             // Display a beautiful error panel
             const main = document.getElementById("main-content");

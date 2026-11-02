@@ -2,6 +2,7 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    titles_similar,
     clean_title_for_ngrams,
     get_trigrams,
     deduplicate_stories,
@@ -189,7 +190,7 @@ class TestFetchNews(unittest.TestCase):
                     )
                 ],
             ),
-            # Case 6: Multiple duplicates from the same source (all should be preserved in other_sources under new policy)
+            # Case 6: Multiple duplicates from the same source (listed once in other_sources, counted once)
             (
                 [
                     {
@@ -212,7 +213,7 @@ class TestFetchNews(unittest.TestCase):
                     (
                         "New tax policy announced by government",
                         2,
-                        ["France24", "France24"],
+                        ["France24"],
                     )
                 ],
             ),
@@ -403,6 +404,76 @@ class TestFetchNewsNetwork(unittest.TestCase):
 
         # Assert: Verify that list is empty and did not crash the pipeline
         self.assertEqual(result, [])
+
+
+class TestSimilarityAndGrouping(unittest.TestCase):
+    @staticmethod
+    def _story(title, source, minute=0):
+        return {
+            "title": title,
+            "url": f"https://example.com/{source}/{minute}",
+            "source": source,
+            "published": f"2026-06-02T12:{59 - minute:02d}:00Z",
+        }
+
+    def test_titles_similar_trigram_and_reordered(self):
+        a = clean_title_for_ngrams(
+            "Germany warns of escalation in Middle East conflict"
+        )
+        b = clean_title_for_ngrams("Germany warns of escalation in Middle East region")
+        c = clean_title_for_ngrams("Stock markets rally on tech earnings")
+        self.assertTrue(titles_similar(a, b))
+        self.assertFalse(titles_similar(a, c))
+
+    def test_titles_similar_short_titles_need_exact_match(self):
+        self.assertTrue(titles_similar(["live", "updates"], ["live", "updates"]))
+        self.assertFalse(titles_similar(["live", "updates"], ["live", "blog"]))
+        self.assertFalse(titles_similar([], []))
+
+    def test_same_outlet_listed_once_and_counted_once(self):
+        stories = [
+            self._story("Bangladesh garment factories shut after unrest", "CNA", 0),
+            self._story(
+                "Bangladesh garment factories shut after unrest", "Straits Times", 1
+            ),
+            self._story(
+                "Bangladesh garment factories shut after unrest", "Straits Times", 2
+            ),
+        ]
+        result = deduplicate_stories(stories)
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["score"], 2)
+        self.assertEqual(
+            [o["source"] for o in result[0]["other_sources"]], ["Straits Times"]
+        )
+
+    def test_canonical_outlet_not_listed_in_its_own_other_sources(self):
+        stories = [
+            self._story("Bangladesh garment factories shut after unrest", "CNA", 0),
+            self._story("Bangladesh garment factories shut after unrest", "CNA", 1),
+        ]
+        result = deduplicate_stories(stories)
+        self.assertEqual(result[0]["score"], 1)
+        self.assertEqual(result[0]["other_sources"], [])
+
+    def test_merging_does_not_steal_trigrams_from_other_cluster(self):
+        # B merges into A but contains a trigram owned by C; D must still group with C.
+        c = self._story("quake strikes coastal region tonight", "BBC News", 0)
+        a = self._story("senate passes budget bill friday", "France24", 1)
+        b = self._story(
+            "senate passes budget bill strikes coastal region", "Politico EU", 2
+        )
+        d = self._story("quake strikes coastal region", "Al Jazeera", 3)
+        result = deduplicate_stories([c, a, b, d])
+        by_title = {r["title"]: r for r in result}
+        self.assertEqual(len(result), 2)
+        self.assertEqual(
+            [o["source"] for o in by_title[c["title"]]["other_sources"]], ["Al Jazeera"]
+        )
+        self.assertEqual(
+            [o["source"] for o in by_title[a["title"]]["other_sources"]],
+            ["Politico EU"],
+        )
 
 
 if __name__ == "__main__":

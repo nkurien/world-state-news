@@ -127,44 +127,71 @@ def get_trigrams(words):
     return set(tuple(words[i : i + 3]) for i in range(len(words) - 2))
 
 
+def titles_similar(words_a, words_b, trigrams_a=None, trigrams_b=None):
+    """
+    Single source of truth for "are these two headlines about the same story?".
+
+    Takes tokenized titles (see clean_title_for_ngrams). Titles under 3 words
+    must match exactly. Otherwise they are similar if they share enough
+    trigrams, or (for reordered headlines) have high Jaccard / overlap
+    coefficient on their word sets.
+    """
+    if len(words_a) < 3 or len(words_b) < 3:
+        return words_a == words_b and len(words_a) > 0
+    tg_a = trigrams_a if trigrams_a is not None else get_trigrams(words_a)
+    tg_b = trigrams_b if trigrams_b is not None else get_trigrams(words_b)
+    if len(tg_a & tg_b) >= min(2, len(tg_a)):
+        return True
+    set_a, set_b = set(words_a), set(words_b)
+    intersect = set_a & set_b
+    jaccard = len(intersect) / len(set_a | set_b)
+    overlap = len(intersect) / min(len(set_a), len(set_b))
+    return jaccard >= 0.7 or (overlap >= 0.6 and len(intersect) >= 4)
+
+
+def _attach_duplicate(canonical, story):
+    """Record `story` as another pickup of `canonical`, once per outlet."""
+    source = story.get("source")
+    if not source or source == canonical.get("source"):
+        return
+    if any(x.get("source") == source for x in canonical["other_sources"]):
+        return
+    canonical["score"] += 1
+    canonical["other_sources"].append(
+        {
+            "source": source,
+            "url": story.get("url", ""),
+            "title": story.get("title", ""),
+            "published": story.get("published", ""),
+        }
+    )
+
+
 def deduplicate_stories(stories):
     """
     Deduplicates a list of stories sorted by newest first.
-    Groups duplicates and increments the canonical story's score.
-    Supports transitive n-gram registration for subsequent duplicates.
-    Requires at least 2 matching trigrams (or 1 if the story has only 1 trigram).
+    Groups duplicates under the first-seen (newest) canonical story and counts
+    each distinct outlet once in its score / other_sources.
+    Candidates come from a trigram index (transitive: a duplicate's trigrams
+    point back at its canonical story without stealing other stories' trigrams),
+    then titles_similar() makes the final decision.
     """
-    seen_trigrams = {}  # Maps trigram tuple -> story dict
-    seen_exact = {}  # Maps short exact title key -> story dict
+    seen_trigrams = {}  # trigram -> canonical story (first owner wins)
+    seen_exact = {}  # short exact title key -> canonical story
     deduped = []
+    # id(canonical) -> (words, trigrams). The trigram set grows as duplicates
+    # join the cluster, which is what makes chaining transitive.
+    canonical_words = {}
 
     for story in stories:
-        story["score"] = 1  # Initialize consensus score
-        story["other_sources"] = []  # Initialize alternative sources list
+        story["score"] = 1
+        story["other_sources"] = []
         words = clean_title_for_ngrams(story["title"])
 
-        # If the title is very short, fallback to exact title comparison
         if len(words) < 3:
             exact_key = " ".join(words)
             if exact_key in seen_exact:
-                canonical = seen_exact[exact_key]
-                source = story.get("source")
-                canonical_source = canonical.get("source")
-                already_counted = any(
-                    x.get("source") == source for x in canonical["other_sources"]
-                )
-                if source and source != canonical_source and not already_counted:
-                    canonical["score"] += 1
-                # Add to other_sources
-                if source:
-                    canonical["other_sources"].append(
-                        {
-                            "source": source,
-                            "url": story.get("url", ""),
-                            "title": story.get("title", ""),
-                            "published": story.get("published", ""),
-                        }
-                    )
+                _attach_duplicate(seen_exact[exact_key], story)
                 continue
             seen_exact[exact_key] = story
             deduped.append(story)
@@ -172,69 +199,35 @@ def deduplicate_stories(stories):
 
         trigrams = get_trigrams(words)
 
-        # Count matching trigrams for each previously seen canonical story
-        match_counts = {}  # Maps story_id -> [canonical_story, count]
+        # Candidate canonicals: indexed hits first, then everything as fallback
+        candidates = []
+        seen_ids = set()
         for tg in trigrams:
-            if tg in seen_trigrams:
-                canonical = seen_trigrams[tg]
-                story_id = id(canonical)
-                if story_id not in match_counts:
-                    match_counts[story_id] = [canonical, 0]
-                match_counts[story_id][1] += 1
+            owner = seen_trigrams.get(tg)
+            if owner is not None and id(owner) not in seen_ids:
+                seen_ids.add(id(owner))
+                candidates.append(owner)
+        candidates.extend(c for c in deduped if id(c) not in seen_ids)
 
-        # Find the candidate with the highest number of matching trigrams
         duplicate_story = None
-        max_matches = 0
-        for story_id, (canonical, count) in match_counts.items():
-            if count > max_matches:
-                duplicate_story = canonical
-                max_matches = count
+        for cand in candidates:
+            cw = canonical_words.get(id(cand))
+            if cw is None:
+                continue  # short-title canonicals never match long titles
+            if titles_similar(words, cw[0], trigrams, cw[1]):
+                duplicate_story = cand
+                break
 
-        # Require at least 2 matching trigrams, or 1 if the headline is extremely short
-        threshold = min(2, len(trigrams))
-
-        # Fallback to Jaccard word similarity or Overlap Coefficient for headlines with high word overlap but minor reorderings
-        if not (duplicate_story and max_matches >= threshold) and len(words) >= 3:
-            for seen_story in deduped:
-                seen_words = clean_title_for_ngrams(seen_story["title"])
-                if len(seen_words) >= 3:
-                    set1 = set(words)
-                    set2 = set(seen_words)
-                    intersect = set1 & set2
-                    jaccard = len(intersect) / len(set1 | set2)
-                    overlap = len(intersect) / min(len(set1), len(set2))
-                    if jaccard >= 0.7 or (overlap >= 0.6 and len(intersect) >= 4):
-                        duplicate_story = seen_story
-                        max_matches = threshold
-                        break
-
-        if duplicate_story and max_matches >= threshold:
-            source = story.get("source")
-            canonical_source = duplicate_story.get("source")
-            already_counted = any(
-                x.get("source") == source for x in duplicate_story["other_sources"]
-            )
-            if source and source != canonical_source and not already_counted:
-                duplicate_story["score"] += 1
-            # Add to other_sources
-            if source:
-                duplicate_story["other_sources"].append(
-                    {
-                        "source": source,
-                        "url": story.get("url", ""),
-                        "title": story.get("title", ""),
-                        "published": story.get("published", ""),
-                    }
-                )
-            # Register this duplicate's trigrams pointing back to the canonical story
-            # to handle transitive duplicates
+        if duplicate_story:
+            _attach_duplicate(duplicate_story, story)
+            canonical_words[id(duplicate_story)][1].update(trigrams)
             for tg in trigrams:
-                seen_trigrams[tg] = duplicate_story
+                seen_trigrams.setdefault(tg, duplicate_story)
             continue
 
-        # Update seen list and keep unique story
         for tg in trigrams:
-            seen_trigrams[tg] = story
+            seen_trigrams.setdefault(tg, story)
+        canonical_words[id(story)] = (words, set(trigrams))
         deduped.append(story)
 
     return deduped
@@ -943,15 +936,10 @@ def main():
     # Cap breaking stories at 8 to preserve visual balance
     breaking_stories = breaking_stories[:8]
 
-    # Compile patterns (trigrams or exact keys) for each breaking story to verify world overlap
+    # Token sets for each breaking story, compared with the same titles_similar()
+    # used for clustering so the two sections can never disagree.
     breaking_ids = {story["url"] for story in breaking_stories}
-    breaking_patterns = []
-    for story in breaking_stories:
-        words = clean_title_for_ngrams(story["title"])
-        if len(words) < 3:
-            breaking_patterns.append(("exact", " ".join(words)))
-        else:
-            breaking_patterns.append(("trigrams", get_trigrams(words)))
+    breaking_words = [clean_title_for_ngrams(s["title"]) for s in breaking_stories]
 
     world_stories = []
     # Track number of world stories contributed by each source (max 6)
@@ -965,25 +953,8 @@ def main():
         pub_dt = parse_iso_date(story["published"])
         src = story["source"]
 
-        # Check trigram/exact title overlap with breaking stories
         words = clean_title_for_ngrams(story["title"])
-        is_duplicate_of_breaking = False
-
-        for pat_type, pat in breaking_patterns:
-            if pat_type == "exact":
-                if len(words) < 3 and " ".join(words) == pat:
-                    is_duplicate_of_breaking = True
-                    break
-            elif pat_type == "trigrams":
-                if len(words) >= 3:
-                    trigrams = get_trigrams(words)
-                    overlap_count = sum(1 for tg in trigrams if tg in pat)
-                    threshold = min(2, len(trigrams))
-                    if overlap_count >= threshold:
-                        is_duplicate_of_breaking = True
-                        break
-
-        if is_duplicate_of_breaking:
+        if any(titles_similar(words, bw) for bw in breaking_words):
             print(
                 f"  Filtering out world story '{story['title']}' due to overlap with breaking news."
             )

@@ -23,14 +23,14 @@ The World State takes a different approach:
 ```mermaid
 graph TD
     Cron[GitHub Actions · every 30 min] -->|runs| Py[fetch_news.py]
-    Py -->|pulls from| Sources[19 RSS feeds · HN · Lobsters · Reddit · Yahoo Finance]
+    Py -->|pulls from| Sources[24 RSS feeds · HN · Lobsters · Reddit · Yahoo Finance]
     Py -->|deduplicates & groups| JSON[data.json]
     JSON -->|committed to| Repo[GitHub]
     Browser[Your browser] -->|loads| CF[Cloudflare Pages]
     Browser -->|fetches data.json from| CDN[GitHub Raw CDN]
 ```
 
-**Backend:** A Python script fetches headlines from 19 global RSS feeds in parallel, plus Hacker News, Lobste.rs, five Reddit subs, financial tickers, and newsletter digests. It then groups duplicate stories and writes everything to a single `data.json`.
+**Backend:** A Python script fetches headlines from 24 global RSS feeds in parallel, plus Hacker News, Lobste.rs, five Reddit subs, financial tickers, and newsletter digests. It then groups duplicate stories and writes everything to a single `data.json`.
 
 **Frontend:** One static HTML file. On load, client-side JS fetches `data.json` from the GitHub raw CDN (with a cache-buster), so Cloudflare Pages never needs to rebuild. Supports a dark "Night Edition" and escapes all rendered content against XSS.
 
@@ -65,7 +65,7 @@ git clone git@github.com:nkurien/world-state-news.git
 cd world-state-news
 
 python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 
 # Compile a fresh data.json
 python fetch_news.py

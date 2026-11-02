@@ -246,7 +246,13 @@ class TestFetchNews(unittest.TestCase):
                         "source": "BBC News",
                     },
                 ],
-                [("Chinese leader Xi Jinping plans North Korea visit", 2, ["BBC News"])],
+                [
+                    (
+                        "Chinese leader Xi Jinping plans North Korea visit",
+                        2,
+                        ["BBC News"],
+                    )
+                ],
             ),
         ]
 

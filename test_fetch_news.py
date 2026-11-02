@@ -544,5 +544,60 @@ class TestConsensusScore(unittest.TestCase):
         self.assertEqual(consensus_score({"other_sources": []}), 0)
 
 
+class TestSourceHealth(unittest.TestCase):
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_failed_feed_reported_as_not_ok(self, mock_get, _sleep):
+        from fetch_news import fetch_rss_feed
+
+        mock_get.side_effect = Exception("boom")
+        health = {}
+        self.assertEqual(fetch_rss_feed("X", "https://example.com", health=health), [])
+        self.assertFalse(health["ok"])
+        self.assertEqual(health["count"], 0)
+        self.assertIn("boom", health["error"])
+
+    @patch("fetch_news.requests.get")
+    def test_empty_but_successful_feed_is_ok(self, mock_get):
+        from fetch_news import fetch_rss_feed
+
+        resp = MagicMock()
+        resp.content = (
+            b'<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>'
+        )
+        mock_get.return_value = resp
+        health = {}
+        self.assertEqual(fetch_rss_feed("X", "https://example.com", health=health), [])
+        self.assertTrue(health["ok"])
+        self.assertEqual(health["count"], 0)
+
+    @patch("fetch_news.RSS_SOURCES", [("Good", "https://g"), ("Bad", "https://b")])
+    @patch("fetch_news.fetch_rss_feed")
+    def test_fetch_all_rss_collects_health_per_source(self, mock_feed):
+        from fetch_news import fetch_all_rss
+
+        def fake(name, url, health=None):
+            if name == "Good":
+                health.update(ok=True, count=1, error=None)
+                return [
+                    {
+                        "title": "t",
+                        "url": "https://x",
+                        "source": "Good",
+                        "published": "2026-01-01T00:00:00+00:00",
+                    }
+                ]
+            health.update(ok=False, count=0, error="down")
+            return []
+
+        mock_feed.side_effect = fake
+        health = {}
+        stories = fetch_all_rss(health)
+        self.assertEqual(len(stories), 1)
+        self.assertTrue(health["Good"]["ok"])
+        self.assertFalse(health["Bad"]["ok"])
+        self.assertIsInstance(health["Good"]["ms"], int)
+
+
 if __name__ == "__main__":
     unittest.main()

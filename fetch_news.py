@@ -298,8 +298,12 @@ def parse_iso_date(date_str):
         return datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
-def fetch_rss_feed(source_name, url, retries=2):
-    """Fetch and parse a standard RSS feed using feedparser with retry logic."""
+def fetch_rss_feed(source_name, url, retries=2, health=None):
+    """Fetch and parse a standard RSS feed using feedparser with retry logic.
+
+    If a `health` dict is passed it is filled with {"ok": bool, "count": int,
+    "error": str | None} so callers can tell a failed feed from an empty one.
+    """
     print(f"Fetching RSS feed from {source_name}...")
     stories = []
     for attempt in range(retries + 1):
@@ -357,6 +361,8 @@ def fetch_rss_feed(source_name, url, retries=2):
                     }
                 )
             print(f"  Successfully fetched {len(stories)} articles from {source_name}.")
+            if health is not None:
+                health.update(ok=True, count=len(stories), error=None)
             return stories
         except Exception as e:
             if attempt < retries:
@@ -370,6 +376,8 @@ def fetch_rss_feed(source_name, url, retries=2):
                 f"  Error fetching {source_name} after {retries} retries: {e}",
                 file=sys.stderr,
             )
+            if health is not None:
+                health.update(ok=False, count=0, error=str(e)[:120])
     return stories
 
 
@@ -622,27 +630,48 @@ RSS_SOURCES = [
 ]
 
 
-def fetch_all_rss():
-    """Fetch all configured news RSS feeds in parallel."""
+def _fetch_rss_timed(name, url):
+    """Fetch one feed, returning (stories, health) with wall-clock time in ms."""
+    health = {}
+    start = time.time()
+    stories = fetch_rss_feed(name, url, health=health)
+    health["ms"] = int((time.time() - start) * 1000)
+    return stories, health
+
+
+def fetch_all_rss(health=None):
+    """Fetch all configured news RSS feeds in parallel.
+
+    Pass a dict as `health` to receive per-source {ok, count, ms, error}.
+    """
     print(f"Fetching {len(RSS_SOURCES)} RSS feeds in parallel...")
     stories = []
 
     with ThreadPoolExecutor(max_workers=12) as executor:
         future_to_source = {
-            executor.submit(fetch_rss_feed, name, url): name
+            executor.submit(_fetch_rss_timed, name, url): name
             for name, url in RSS_SOURCES
         }
         for future in as_completed(future_to_source):
             name = future_to_source[future]
             try:
-                res = future.result()
+                res, src_health = future.result()
                 if res:
                     stories.extend(res)
+                if health is not None:
+                    health[name] = src_health
             except Exception as e:
                 print(
                     f"  Error resolving future for RSS source {name}: {e}",
                     file=sys.stderr,
                 )
+                if health is not None:
+                    health[name] = {
+                        "ok": False,
+                        "count": 0,
+                        "ms": None,
+                        "error": str(e)[:120],
+                    }
 
     return stories
 
@@ -958,7 +987,14 @@ def main():
     news_stories = []
 
     # RSS Feeds
-    news_stories.extend(fetch_all_rss())
+    source_health = {}
+    news_stories.extend(fetch_all_rss(source_health))
+    failed = sorted(n for n, h in source_health.items() if not h.get("ok"))
+    if failed:
+        print(
+            f"WARNING: {len(failed)} RSS sources failed: {', '.join(failed)}",
+            file=sys.stderr,
+        )
 
     # 2. Sort all news stories descending by publication date (newest first)
     # This ensures that our deduplicator keeps the absolute newest version of a story
@@ -1059,7 +1095,9 @@ def main():
 
     # 7. Build final payload
     payload = {
+        "schema_version": 2,
         "last_updated": now.isoformat(),
+        "sources": dict(sorted(source_health.items())),
         "breaking": breaking_stories,
         "world": world_stories,
         "tickers": ticker_data,

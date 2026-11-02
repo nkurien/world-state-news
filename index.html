@@ -1226,6 +1226,14 @@
 
               cacheTimeEl.textContent = `Cached on: ${lastUpdated.toUTCString()} (local check: ${getRelativeTime(data.last_updated)})`;
 
+              // Per-source health: "23/24 sources reporting", failures in the tooltip
+              if (data.sources) {
+                const entries = Object.entries(data.sources);
+                const failed = entries.filter(([, h]) => !h.ok).map(([name]) => name);
+                cacheTimeEl.textContent += ` \u2022 ${entries.length - failed.length}/${entries.length} feeds reporting`;
+                if (failed.length) cacheTimeEl.title = `Not reporting: ${failed.join(", ")}`;
+              }
+
               // Calculate Dynamic Volume & Issue Number from Project Epoch (June 2, 2026)
               const LAUNCH_DATE = new Date("2026-06-02T00:00:00Z");
               const diffMs = lastUpdated - LAUNCH_DATE;

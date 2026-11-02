@@ -2,6 +2,8 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    carry_forward_digests,
+    get_with_retry,
     pick_snippet,
     OUTLET_META,
     RSS_SOURCES,
@@ -628,6 +630,68 @@ class TestPickSnippet(unittest.TestCase):
 
     def test_truncates(self):
         self.assertLessEqual(len(pick_snippet({"summary": "word " * 100})), 163)
+
+
+class TestDigestResilience(unittest.TestCase):
+    @staticmethod
+    def _resp(status, headers=None):
+        r = MagicMock()
+        r.status_code = status
+        r.headers = headers or {}
+        r.raise_for_status.side_effect = (
+            None if status < 400 else Exception(f"{status} error")
+        )
+        return r
+
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_retries_429_then_succeeds_and_honours_retry_after(
+        self, mock_get, mock_sleep
+    ):
+        mock_get.side_effect = [self._resp(429, {"Retry-After": "3"}), self._resp(200)]
+        resp = get_with_retry("https://example.com")
+        self.assertEqual(resp.status_code, 200)
+        self.assertEqual(mock_get.call_count, 2)
+        mock_sleep.assert_called_once_with(3)
+
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_gives_up_after_retries(self, mock_get, _sleep):
+        mock_get.side_effect = [self._resp(429)] * 3
+        with self.assertRaises(Exception):
+            get_with_retry("https://example.com", retries=2)
+        self.assertEqual(mock_get.call_count, 3)
+
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_does_not_retry_client_errors(self, mock_get, _sleep):
+        mock_get.side_effect = [self._resp(404)]
+        with self.assertRaises(Exception):
+            get_with_retry("https://example.com")
+        self.assertEqual(mock_get.call_count, 1)
+
+    def test_carry_forward_fills_only_empty_digests(self):
+        prev = {
+            "digests": [
+                {"id": "a", "entries": [{"title": "old a"}]},
+                {"id": "b", "entries": [{"title": "old b"}]},
+            ]
+        }
+        new = [
+            {"id": "a", "name": "A", "entries": []},
+            {"id": "b", "name": "B", "entries": [{"title": "fresh b"}]},
+            {"id": "c", "name": "C", "entries": []},
+        ]
+        out = carry_forward_digests(new, prev)
+        self.assertEqual(out[0]["entries"], [{"title": "old a"}])
+        self.assertTrue(out[0]["stale"])
+        self.assertEqual(out[1]["entries"], [{"title": "fresh b"}])
+        self.assertNotIn("stale", out[1])
+        self.assertEqual(out[2]["entries"], [])
+
+    def test_carry_forward_without_previous_payload(self):
+        new = [{"id": "a", "name": "A", "entries": []}]
+        self.assertEqual(carry_forward_digests(new, None)[0]["entries"], [])
 
 
 if __name__ == "__main__":

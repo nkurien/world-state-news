@@ -765,6 +765,69 @@ DIGEST_CONFIGS = [
 ]
 
 
+def get_with_retry(url, headers=None, retries=2, timeout=10):
+    """
+    GET with retries for transient failures (timeouts, 429, 5xx).
+    Honours a numeric Retry-After header on 429, capped at 10s. Raises the last
+    error once retries are exhausted.
+    """
+    for attempt in range(retries + 1):
+        try:
+            response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 429 or response.status_code >= 500:
+                if attempt < retries:
+                    retry_after = response.headers.get("Retry-After", "")
+                    delay = (
+                        min(int(retry_after), 10)
+                        if retry_after.isdigit()
+                        else 2 * (attempt + 1)
+                    )
+                    print(
+                        f"  Warning: {response.status_code} from {url}, retrying in {delay}s...",
+                        file=sys.stderr,
+                    )
+                    time.sleep(delay)
+                    continue
+            response.raise_for_status()
+            return response
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt >= retries:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+
+def carry_forward_digests(new_digests, previous_payload):
+    """
+    If a digest came back empty (feed down or rate-limited), reuse its entries
+    from the previous data.json rather than publishing an empty section.
+    Carried entries are flagged with "stale": true on the digest.
+    """
+    previous = {
+        d.get("id"): d for d in (previous_payload or {}).get("digests", []) if d
+    }
+    for digest in new_digests:
+        if digest.get("entries"):
+            continue
+        old = previous.get(digest["id"])
+        if old and old.get("entries"):
+            print(
+                f"  Warning: {digest['name']} returned nothing; keeping previous entries.",
+                file=sys.stderr,
+            )
+            digest["entries"] = old["entries"]
+            digest["stale"] = True
+    return new_digests
+
+
+def load_previous_payload(path=DATA_FILE):
+    """Read the last published data.json, or None if missing/unreadable."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return None
+
+
 def fetch_single_digest(config):
     """Fetch and parse a single digest feed, returning cleaned entries."""
     name = config["name"]
@@ -774,8 +837,7 @@ def fetch_single_digest(config):
     print(f"Fetching digest feed from {name}...")
     entries = []
     try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
+        response = get_with_retry(url, headers=headers)
 
         feed = feedparser.parse(response.content)
         # Parse top 3 entries
@@ -1103,7 +1165,7 @@ def main():
     ticker_data, market_data = compile_markets_data()
 
     # 6b. Fetch news digests and daily briefings
-    digest_data = fetch_all_digests()
+    digest_data = carry_forward_digests(fetch_all_digests(), load_previous_payload())
 
     # 7. Build final payload
     payload = {

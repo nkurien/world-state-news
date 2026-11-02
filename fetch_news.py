@@ -714,6 +714,13 @@ DIGEST_CONFIGS = [
         },
     },
     {
+        "id": "guardian_first_edition",
+        "name": "Guardian First Edition",
+        "url": "https://www.theguardian.com/world/series/first-edition/rss",
+        "column": "briefings",
+        "headers": HEADERS,
+    },
+    {
         "id": "economist_world",
         "name": "The Economist",
         "url": "https://www.economist.com/leaders/rss.xml",
@@ -752,13 +759,6 @@ DIGEST_CONFIGS = [
         "id": "rest_of_world",
         "name": "Rest of World",
         "url": "https://restofworld.org/feed/",
-        "column": "tech",
-        "headers": HEADERS,
-    },
-    {
-        "id": "wired_tech",
-        "name": "Wired",
-        "url": "https://www.wired.com/feed/rss",
         "column": "tech",
         "headers": HEADERS,
     },

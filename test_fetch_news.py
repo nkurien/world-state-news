@@ -2,6 +2,9 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    OUTLET_META,
+    RSS_SOURCES,
+    consensus_score,
     clean_html,
     is_safe_url,
     titles_similar,
@@ -505,6 +508,40 @@ class TestSanitizing(unittest.TestCase):
             "ftp://x.com",
         ]:
             self.assertFalse(is_safe_url(bad), bad)
+
+
+class TestConsensusScore(unittest.TestCase):
+    @staticmethod
+    def _story(source, others):
+        return {"source": source, "other_sources": [{"source": o} for o in others]}
+
+    def test_single_outlet(self):
+        self.assertEqual(consensus_score(self._story("BBC News", [])), 1)
+
+    def test_commonly_owned_outlets_count_once(self):
+        # Euronews owns Africanews: one family, two regions -> 1 + 0.5
+        self.assertEqual(consensus_score(self._story("Euronews", ["Africanews"])), 1.5)
+        # France24 and RFI share an owner and a region
+        self.assertEqual(consensus_score(self._story("France24", ["RFI English"])), 1)
+
+    def test_regional_diversity_outranks_one_region(self):
+        asia_only = self._story("CNA", ["Straits Times", "SCMP"])
+        global_mix = self._story("BBC News", ["NPR World", "CNA"])
+        self.assertEqual(consensus_score(asia_only), 3)
+        self.assertEqual(consensus_score(global_mix), 4)
+        self.assertGreater(consensus_score(global_mix), consensus_score(asia_only))
+
+    def test_unknown_outlets_are_their_own_family(self):
+        self.assertEqual(
+            consensus_score(self._story("New Outlet", ["Other Outlet"])), 2
+        )
+
+    def test_every_rss_source_has_outlet_metadata(self):
+        # A new feed without an entry would silently count as its own family
+        self.assertEqual([n for n, _ in RSS_SOURCES if n not in OUTLET_META], [])
+
+    def test_empty_story(self):
+        self.assertEqual(consensus_score({"other_sources": []}), 0)
 
 
 if __name__ == "__main__":

@@ -128,6 +128,56 @@ def get_trigrams(words):
     return set(tuple(words[i : i + 3]) for i in range(len(words) - 2))
 
 
+# Outlet -> (ownership family, home region). Used for consensus ranking so that
+# commonly-owned outlets (e.g. Euronews/Africanews) count once, and stories
+# covered across several regions outrank ones covered by one region's outlets.
+# Unlisted outlets count as their own family in region "other".
+OUTLET_META = {
+    "France24": ("france-medias-monde", "europe"),
+    "RFI English": ("france-medias-monde", "europe"),
+    "Euronews": ("euronews", "europe"),
+    "Africanews": ("euronews", "africa"),
+    "Politico EU": ("politico", "europe"),
+    "Semafor": ("semafor", "north-america"),
+    "BBC News": ("bbc", "europe"),
+    "The Independent": ("independent", "europe"),
+    "The Guardian": ("guardian", "europe"),
+    "Deutsche Welle": ("dw", "europe"),
+    "Spiegel": ("spiegel", "europe"),
+    "El País": ("el-pais", "europe"),
+    "The Moscow Times": ("moscow-times", "europe"),
+    "NPR World": ("npr", "north-america"),
+    "CBC World": ("cbc", "north-america"),
+    "Al Jazeera": ("al-jazeera", "middle-east"),
+    "CNA": ("cna", "asia"),
+    "Japan Times": ("japan-times", "asia"),
+    "SCMP": ("scmp", "asia"),
+    "Straits Times": ("straits-times", "asia"),
+    "The Hindu": ("the-hindu", "asia"),
+    "RNZ": ("rnz", "oceania"),
+    "ABC Australia": ("abc-australia", "oceania"),
+    "MercoPress": ("mercopress", "latin-america"),
+}
+
+
+def consensus_score(story):
+    """
+    Independence-aware consensus: distinct ownership families covering the
+    story, plus 0.5 per additional region beyond the first.
+    """
+    names = [story.get("source")] + [
+        o.get("source") for o in story.get("other_sources", [])
+    ]
+    families, regions = set(), set()
+    for name in filter(None, names):
+        family, region = OUTLET_META.get(name, (name, "other"))
+        families.add(family)
+        regions.add(region)
+    if not families:
+        return 0
+    return len(families) + 0.5 * (len(regions) - 1)
+
+
 def titles_similar(words_a, words_b, trigrams_a=None, trigrams_b=None):
     """
     Single source of truth for "are these two headlines about the same story?".
@@ -920,8 +970,11 @@ def main():
         f"Deduplication summary: {len(news_stories)} inputs -> {len(deduped_stories)} outputs."
     )
 
-    # Sort the deduplicated list by consensus score (descending) first, and published date (descending) second
-    deduped_stories.sort(key=lambda x: (x["score"], x["published"]), reverse=True)
+    # Rank by independence-aware consensus first, then recency. `score` stays the
+    # plain outlet count shown in the UI; `consensus` drives ranking and breaking.
+    for story in deduped_stories:
+        story["consensus"] = consensus_score(story)
+    deduped_stories.sort(key=lambda x: (x["consensus"], x["published"]), reverse=True)
 
     # 4. Partition into Breaking (published < 3 hours ago) and World (older)
     now = datetime.now(timezone.utc)
@@ -938,13 +991,11 @@ def main():
 
         if pub_dt >= breaking_threshold:
             # Editorial Criteria for Breaking News:
-            # - Must be a major story reported by multiple sources (score >= 2) OR
-            # - Must be an extremely fresh single-source story (score == 1, published < 45 mins ago)
+            # - Must be reported by 2+ independent outlet families (consensus >= 2) OR
+            # - Must be an extremely fresh story from a single family (consensus < 2, published < 45 mins ago)
             minutes_ago = (now - pub_dt).total_seconds() / 60
             is_fresh = minutes_ago < 45
-            is_major_breaking = story["score"] >= 2 or (
-                story["score"] == 1 and is_fresh
-            )
+            is_major_breaking = story["consensus"] >= 2 or is_fresh
 
             if is_major_breaking:
                 # Apply per-source cap (maximum of 2 breaking stories per source)

@@ -1,5 +1,152 @@
 {
-  "last_updated": "2026-11-02T23:01:04.076356+00:00",
+  "schema_version": 2,
+  "last_updated": "2026-11-02T23:30:52.273254+00:00",
+  "sources": {
+    "ABC Australia": {
+      "ok": true,
+      "count": 25,
+      "error": null,
+      "ms": 302
+    },
+    "Africanews": {
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 368
+    },
+    "Al Jazeera": {
+      "ok": true,
+      "count": 25,
+      "error": null,
+      "ms": 57
+    },
+    "BBC News": {
+      "ok": true,
+      "count": 35,
+      "error": null,
+      "ms": 56
+    },
+    "CBC World": {
+      "ok": true,
+      "count": 20,
+      "error": null,
+      "ms": 313
+    },
+    "CNA": {
+      "ok": true,
+      "count": 20,
+      "error": null,
+      "ms": 240
+    },
+    "Deutsche Welle": {
+      "ok": true,
+      "count": 12,
+      "error": null,
+      "ms": 487
+    },
+    "El País": {
+      "ok": true,
+      "count": 58,
+      "error": null,
+      "ms": 538
+    },
+    "Euronews": {
+      "ok": true,
+      "count": 40,
+      "error": null,
+      "ms": 128
+    },
+    "France24": {
+      "ok": true,
+      "count": 24,
+      "error": null,
+      "ms": 216
+    },
+    "Japan Times": {
+      "ok": true,
+      "count": 30,
+      "error": null,
+      "ms": 476
+    },
+    "MercoPress": {
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "ms": 355
+    },
+    "NPR World": {
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "ms": 429
+    },
+    "Politico EU": {
+      "ok": true,
+      "count": 10,
+      "error": null,
+      "ms": 273
+    },
+    "RFI English": {
+      "ok": true,
+      "count": 21,
+      "error": null,
+      "ms": 813
+    },
+    "RNZ": {
+      "ok": true,
+      "count": 48,
+      "error": null,
+      "ms": 130
+    },
+    "SCMP": {
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 709
+    },
+    "Semafor": {
+      "ok": true,
+      "count": 216,
+      "error": null,
+      "ms": 652
+    },
+    "Spiegel": {
+      "ok": true,
+      "count": 20,
+      "error": null,
+      "ms": 648
+    },
+    "Straits Times": {
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 177
+    },
+    "The Guardian": {
+      "ok": true,
+      "count": 45,
+      "error": null,
+      "ms": 189
+    },
+    "The Hindu": {
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "ms": 332
+    },
+    "The Independent": {
+      "ok": true,
+      "count": 58,
+      "error": null,
+      "ms": 106
+    },
+    "The Moscow Times": {
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 266
+    }
+  },
   "breaking": [
     {
       "title": "British adventurer returns home after 28-year journey around the world",
@@ -32,14 +179,43 @@
           "title": "Global pedestrian Karl Bushby returns home to UK after 28-year trek",
           "published": "2026-11-02T12:31:00+00:00"
         }
-      ]
+      ],
+      "consensus": 6.0
+    },
+    {
+      "title": "Supreme Court rejects Trump bid to block 20,000 California ballots",
+      "url": "https://www.dw.com/en/supreme-court-rejects-trump-bid-to-block-20-000-california-ballots/a-79833739?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-02T23:18:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/02/supreme-court-trump-california-ballots",
+          "title": "Supreme court rules against Trump over bid to force California to set aside ballots",
+          "published": "2026-11-02T23:09:57+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
+          "title": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
+          "published": "2026-11-02T19:06:52+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
+          "title": "Trump administration asks Supreme Court to set aside 20,000 disputed California ballots",
+          "published": "2026-11-02T17:57:38+00:00"
+        }
+      ],
+      "consensus": 5.0
     },
     {
       "title": "Commentary: What to watch for in the US midterm elections",
       "url": "https://www.channelnewsasia.com/commentary/us-midterm-elections-trump-what-watch-6512736",
       "source": "CNA",
       "published": "2026-11-02T21:59:00+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
         {
           "source": "RNZ",
@@ -52,29 +228,43 @@
           "url": "https://www.euronews.com/2026/11/02/us-midterm-elections-2026-what-are-they-and-when-will-we-know-the-results",
           "title": "US midterm elections 2026: What are they and when will we know the results?",
           "published": "2026-11-02T13:20:08+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Lindsay Clancy back in court seeking to dismiss murder charges after mistrial",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/lindsay-clancy-massachusetts-court-hearing",
-      "source": "The Guardian",
-      "published": "2026-11-02T21:40:39+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
-          "title": "Lindsay Clancy back in court in bid to dismiss charges she killed her 3 young children",
-          "published": "2026-11-02T20:14:49+00:00"
         },
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/2/lindsay-clancy-in-court-to-drop-child-murder-charges-after-mistrial?traffic_source=rss",
-          "title": "Lindsay Clancy back in court seeking to have murder charges dismissed",
-          "published": "2026-11-02T19:11:37+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/what-are-united-states-midterm-elections-2026-democrats-vs-republicans-donald-trump-what-it-means-for-india/article71643628.ece",
+          "title": "What are U.S. midterm elections?",
+          "published": "2026-11-02T10:27:03+00:00"
         }
-      ]
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "US judge dismisses Trump administration’s Harvard race data admissions case",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373048/us-judge-dismisses-trump-administrations-harvard-race-data-admissions-case",
+      "source": "SCMP",
+      "published": "2026-11-02T21:49:22+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/epstein-files-us-judge-dismisses-trump-lawsuit-against-wall-street-journal-over-epstein-letter/article71652110.ece",
+          "title": "‘Epstein Files’: U.S. Judge dismisses Trump lawsuit against Wall Street Journal",
+          "published": "2026-11-01T06:55:24+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
+          "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
+          "published": "2026-11-01T00:41:24+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/trump-jeffrey-epstein-lawsuit-dismissed-9.7404357?cmp=rss",
+          "title": "Judge throws out Trump suit against Wall Street Journal over Epstein letter",
+          "published": "2026-10-31T20:13:16+00:00"
+        }
+      ],
+      "consensus": 5.0
     },
     {
       "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
@@ -86,7 +276,7 @@
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/2/russian-bombing-of-ukrainian-aid-centre-kills-24-people-zelenskyy?traffic_source=rss",
-          "title": "Russian bombing of Ukrainian aid centre kills 24 people",
+          "title": "Russian bombing of Ukrainian aid centre kills 26 people",
           "published": "2026-11-02T18:23:02+00:00"
         },
         {
@@ -95,22 +285,46 @@
           "title": "Russian bomb attack on aid centre in southern Ukraine kills 26, officials say",
           "published": "2026-11-02T10:54:55+00:00"
         }
-      ]
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Reddit and libertarian group challenge Australia’s under-16s social media ban in high court",
       "url": "https://www.theguardian.com/australia-news/2026/nov/03/australia-social-media-ban-high-court-challenge-reddit-digital-freedom-project",
       "source": "The Guardian",
       "published": "2026-11-02T22:09:35+00:00",
-      "score": 2,
+      "score": 3,
       "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-03/high-court-challenge-to-under-16s-social-media-ban/107336886",
+          "title": "High Court to hear challenge to under-16s social media ban",
+          "published": "2026-11-02T19:43:45+00:00"
+        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/ck79py02p1jlo?at_medium=RSS&at_campaign=rss",
           "title": "Legal challenge to Australia's social media ban to start in High Court",
           "published": "2026-11-02T19:12:59+00:00"
         }
-      ]
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
+      "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
+      "source": "The Independent",
+      "published": "2026-11-02T22:52:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/south-florida-jet-crash-9.7405773?cmp=rss",
+          "title": "20-year-old co-pilot among 9 victims in Florida plane crash, mother says",
+          "published": "2026-11-02T16:48:54+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Trump cuts South Africa, Rwanda from AGOA trade program",
@@ -125,66 +339,126 @@
           "title": "Trump to remove Rwanda and South Africa from US trade deal",
           "published": "2026-11-02T19:33:10+00:00"
         }
-      ]
-    },
-    {
-      "title": "US to drop South Africa, Rwanda from duty-free trade initiative",
-      "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-02T21:40:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
-          "title": "US to suspend South Africa and Rwanda from duty-free trade access",
-          "published": "2026-11-02T20:38:04+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Uganda withdrawing troops from peacekeeping mission in Somalia",
-      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
-      "source": "France24",
-      "published": "2026-11-02T21:24:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-          "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-          "published": "2026-11-02T12:05:34+00:00"
-        }
-      ]
+      ],
+      "consensus": 2.5
     }
   ],
   "world": [
     {
-      "title": "Trump asks Supreme Court to block 20,000 California midterm ballots",
-      "url": "https://www.dw.com/en/trump-asks-supreme-court-to-block-20-000-california-midterm-ballots/a-79833739?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-02T19:13:00+00:00",
+      "title": "UN brings 35-year Western Sahara peacekeeping mission to a close",
+      "url": "https://www.independent.co.uk/news/world/africa/un-western-sahara-mission-end-morocco-b3077516.html",
+      "source": "The Independent",
+      "published": "2026-11-02T12:37:12+00:00",
       "score": 4,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
-          "title": "Trump asks Supreme Court to block 20,000 California ballots before midterms",
-          "published": "2026-11-02T19:06:52+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/trump-administration-california-alaska-9.7405838?cmp=rss",
-          "title": "Trump administration ramps up midterm battles, asks Supreme Court to intervene in California case",
-          "published": "2026-11-02T18:27:33+00:00"
-        },
-        {
           "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373041/trump-administration-asks-supreme-court-set-aside-20000-disputed-california-ballots",
-          "title": "Trump administration asks Supreme Court to set aside 20,000 disputed California ballots",
-          "published": "2026-11-02T17:57:38+00:00"
+          "url": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
+          "title": "As UN peacekeeping mission in Western Sahara ends, refugees cling to hopes of return",
+          "published": "2026-11-02T12:15:06+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/02/un-peacekeeping-mission-in-western-sahara-ends-after-35-years/",
+          "title": "UN peacekeeping mission in Western Sahara ends after 35 years",
+          "published": "2026-11-02T10:47:26+00:00"
+        },
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
+          "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
+          "published": "2026-11-02T07:19:35+00:00"
         }
-      ]
+      ],
+      "consensus": 5.5
+    },
+    {
+      "title": "Iran says ready to reopen Hormuz in two days if U.S. agrees to demands",
+      "url": "https://www.thehindu.com/news/international/iran-says-ready-to-reopen-hormuz-in-two-days-if-us-agrees-to-demands/article71657916.ece",
+      "source": "The Hindu",
+      "published": "2026-11-02T16:57:39+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
+          "title": "Iran says it can reopen Hormuz in two days if US meets conditions",
+          "published": "2026-11-02T11:48:15+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/iran-considering-two-day-plan-reopen-strait-hormuz-6512536",
+          "title": "Iran says ready to reopen Hormuz in two days if US agrees to demands",
+          "published": "2026-11-02T08:35:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Israeli strikes kill three people in Gaza, medics say",
+      "url": "https://www.thehindu.com/news/international/israeli-strikes-kill-three-people-in-gaza-medics-say/article71657806.ece",
+      "source": "The Hindu",
+      "published": "2026-11-02T16:17:49+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israeli-strikes-kill-three-people-gaza-6512451",
+          "title": "Israeli strikes kill three people in Gaza, medics say",
+          "published": "2026-11-02T07:35:00+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
+          "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
+          "published": "2026-11-01T17:06:32+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Police with assault rifles begin Sydney patrols in wake of Bondi attack",
+      "url": "https://www.channelnewsasia.com/world/australia-police-armed-assault-rifles-bondi-beach-6512051",
+      "source": "CNA",
+      "published": "2026-11-02T04:41:56+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australianz/police-with-assault-rifles-begin-sydney-patrols-in-wake-of-bondi-attack",
+          "title": "Police with assault rifles begin Sydney patrols in wake of Bondi attack",
+          "published": "2026-11-02T03:06:54+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
+          "title": "Armed police start patrols in Sydney after Bondi Beach attack",
+          "published": "2026-11-01T17:56:47+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Bangladesh garment factories shut again as wage protests turn violent",
+      "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-factories-shut-again-as-wage-protests-turn-violent",
+      "source": "Straits Times",
+      "published": "2026-11-02T17:05:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bangladesh-garment-factories-reopen-as-wage-protests-keep-industry-on-edge/article71655556.ece",
+          "title": "Bangladesh garment factories reopen as wage protests keep industry on edge",
+          "published": "2026-11-02T07:40:05+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/asia/bangladesh-garment-works-higher-wages-protests-6512231",
+          "title": "Bangladesh garment factories reopen as wage protests keep industry on edge",
+          "published": "2026-11-02T06:45:31+00:00"
+        }
+      ],
+      "consensus": 3.0
     },
     {
       "title": "Japan weighs US$500 billion defence spending plan: sources",
@@ -205,136 +479,56 @@
           "title": "Japan weighs $600 billion defence spending plan, say sources",
           "published": "2026-11-02T05:07:00+00:00"
         }
-      ]
+      ],
+      "consensus": 3.0
     },
     {
-      "title": "UN brings 35-year Western Sahara peacekeeping mission to a close",
-      "url": "https://www.independent.co.uk/news/world/africa/un-western-sahara-mission-end-morocco-b3077516.html",
-      "source": "The Independent",
-      "published": "2026-11-02T12:37:12+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3373014/un-peacekeeping-mission-western-sahara-ends-refugees-cling-hopes-return",
-          "title": "As UN peacekeeping mission in Western Sahara ends, refugees cling to hopes of return",
-          "published": "2026-11-02T12:15:06+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/02/nx-s1-6026050/uns-peacekeeping-western-sahara-ends",
-          "title": "UN's peacekeeping mission in disputed Western Sahara ends after 35 years",
-          "published": "2026-11-02T07:19:35+00:00"
-        }
-      ]
-    },
-    {
-      "title": "French pupils resume school blockades as country braces for more protests",
-      "url": "https://www.theguardian.com/education/2026/nov/02/franch-students-school-blockades-protests",
-      "source": "The Guardian",
-      "published": "2026-11-02T18:17:33+00:00",
+      "title": "US to drop South Africa, Rwanda from duty-free trade initiative",
+      "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-02T21:40:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/france/20261102-france-braces-for-fresh-protests-as-students-to-resume-school-blockades",
-          "title": "France braces for fresh protests as students to resume school blockades",
-          "published": "2026-11-02T07:09:12+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/2/us-to-suspend-south-africa-and-rwanda-from-duty-free-trade-access?traffic_source=rss",
+          "title": "US to suspend South Africa and Rwanda from duty-free trade access",
+          "published": "2026-11-02T20:38:04+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Bangladesh garment factories shut again as wage protests turn violent",
-      "url": "https://www.channelnewsasia.com/world/bangladesh-protests-garment-factories-wage-inflation-6513891",
-      "source": "CNA",
-      "published": "2026-11-02T17:52:00+00:00",
+      "title": "UK bookshop helps meet demand for Sally Rooney novels",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/2/uk-bookshop-helps-meet-demand-for-sally-rooney-novels?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-02T20:31:16+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-factories-shut-again-as-wage-protests-turn-violent",
-          "title": "Bangladesh garment factories shut again as wage protests turn violent",
-          "published": "2026-11-02T17:05:00+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/asia/bangladesh-garment-works-higher-wages-protests-6512231",
-          "title": "Bangladesh garment factories reopen as wage protests keep industry on edge",
-          "published": "2026-11-02T06:45:31+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-factories-reopen-as-wage-protests-keep-industry-on-edge",
-          "title": "Bangladesh garment factories reopen as wage protests keep industry on edge",
-          "published": "2026-11-02T05:12:09+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/irish-bookshops-help-meet-uk-demand-for-sally-rooney-novels/article71655233.ece",
+          "title": "Irish bookshops help meet U.K. demand for Sally Rooney novels",
+          "published": "2026-11-02T03:58:21+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Petition to ban French right-wing TV channel clears 600,000 signatures after racist killing",
-      "url": "https://www.france24.com/en/france/20261102-petition-to-ban-french-right-wing-tv-channel-clears-500-000-signatures-after-racist-killing",
-      "source": "France24",
-      "published": "2026-11-02T16:53:34+00:00",
+      "title": "Lindsay Clancy back in court in bid to dismiss charges she killed her 3 young children",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373044/lindsay-clancy-back-court-bid-dismiss-charges-she-killed-her-3-young-children",
+      "source": "SCMP",
+      "published": "2026-11-02T20:14:49+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/france/20261102-calls-mount-to-ban-french-tv-channel-after-racist-killing",
-          "title": "Calls mount to ban French TV channel after racist killing",
-          "published": "2026-11-02T15:54:59+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/lindsay-clancy-in-court-to-drop-child-murder-charges-after-mistrial?traffic_source=rss",
+          "title": "Lindsay Clancy back in court seeking to have murder charges dismissed",
+          "published": "2026-11-02T19:11:37+00:00"
         }
-      ]
-    },
-    {
-      "title": "South Korean president's passport details leaked online, broadcaster reports",
-      "url": "https://www.channelnewsasia.com/world/south-korean-president-lee-jae-myung-passport-details-leaked-6513791",
-      "source": "CNA",
-      "published": "2026-11-02T16:19:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korean-presidents-passport-details-leaked-online-broadcaster-reports",
-          "title": "South Korean President’s passport details leaked online, broadcaster reports",
-          "published": "2026-11-02T15:15:54+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-korean-presidents-passport-details-leaked-online-broadcaster-reports",
-          "title": "South Korean president's passport details leaked online, broadcaster reports",
-          "published": "2026-11-02T15:12:29+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Nine dead in small plane crash near Trump's Florida home",
-      "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
-      "source": "France24",
-      "published": "2026-11-02T15:33:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
-          "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
-          "published": "2026-11-02T07:30:17+00:00"
-        }
-      ]
-    },
-    {
-      "title": "North Korea’s hackers supercharge crypto heists with AI skills",
-      "url": "https://www.straitstimes.com/asia/east-asia/north-koreas-hackers-supercharge-crypto-heists-with-ai-skills",
-      "source": "Straits Times",
-      "published": "2026-11-02T12:55:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/02/asia-pacific/north-korea-hackers-crypto-heist-ai/",
-          "title": "North Korea’s hackers supercharge crypto heists with AI skills",
-          "published": "2026-11-02T10:19:00+00:00"
-        }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Taliban voices 'serious concern' over US plans to deport Afghans via Pakistan",
@@ -349,187 +543,40 @@
           "title": "Taliban government voices ‘serious concern’ over US’ Afghan deportation plans",
           "published": "2026-11-02T06:47:20+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Iran says it can reopen Hormuz in two days if US meets conditions",
-      "url": "https://www.euronews.com/2026/11/02/iran-says-it-can-reopen-hormuz-in-two-days-if-us-meets-conditions",
-      "source": "Euronews",
-      "published": "2026-11-02T11:48:15+00:00",
+      "title": "Iran says considering two-day plan to reopen Hormuz",
+      "url": "https://www.thehindu.com/news/international/iran-says-considering-two-day-plan-to-reopen-hormuz/article71656060.ece",
+      "source": "The Hindu",
+      "published": "2026-11-02T10:43:37+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/iran-considering-two-day-plan-reopen-strait-hormuz-6512536",
-          "title": "Iran says ready to reopen Hormuz in two days if US agrees to demands",
-          "published": "2026-11-02T08:35:00+00:00"
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/02/iran-proposes-two-day-plan-to-reopen-strait-of-hormuz/",
+          "title": "Iran proposes two-day plan to reopen Strait of Hormuz",
+          "published": "2026-11-02T09:57:18+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Children’s author jailed for possessing and distributing child exploitation material",
-      "url": "https://www.independent.co.uk/news/world/australasia/craig-silvey-australia-child-exploitation-jasper-jones-sentence-b3077385.html",
-      "source": "The Independent",
-      "published": "2026-11-02T11:46:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/02/australian-author-craig-silvey-jailed-child-exploitation-material-ntwnfb",
-          "title": "Award‑winning Australian children’s author Craig Silvey jailed over child exploitation material",
-          "published": "2026-11-02T08:01:34+00:00"
-        }
-      ]
-    },
-    {
-      "title": "French school protests resume on smaller scale as holidays end",
-      "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
-      "source": "SCMP",
-      "published": "2026-11-02T11:13:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/france-school-holidays-end-protests-resume-6512656",
-          "title": "Limited French school protests resume as holidays end",
-          "published": "2026-11-02T09:38:00+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Japan launches new national agency to boost disaster response",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3373006/japan-launches-new-national-agency-boost-disaster-response",
-      "source": "SCMP",
-      "published": "2026-11-02T10:47:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/japan-launches-disaster-management-agency-to-boost-response-reduce-damage",
-          "title": "Japan launches disaster management agency to boost response, reduce damage",
-          "published": "2026-11-02T02:35:00+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Israeli strikes kill three people in Gaza, medics say",
-      "url": "https://www.channelnewsasia.com/world/israeli-strikes-kill-three-people-gaza-6512451",
-      "source": "CNA",
-      "published": "2026-11-02T07:35:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmqln14rrzxvo?at_medium=RSS&at_campaign=rss",
-          "title": "Israeli strikes in Gaza kill eight including child, hospitals say",
-          "published": "2026-11-01T17:06:32+00:00"
-        }
-      ]
-    },
-    {
-      "title": "China's Xi Jinping says Middle East should not become battleground for great power rivalry",
-      "url": "https://www.channelnewsasia.com/world/china-xi-jinping-middle-east-battleground-great-power-rivalry-6512181",
-      "source": "CNA",
-      "published": "2026-11-02T07:25:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/deeper-china-oman-ties-strategic-for-both-sides-xi-says",
-          "title": "China’s Xi says Middle East should not become battleground for great-power rivalry",
-          "published": "2026-11-02T04:37:02+00:00"
-        }
-      ]
-    },
-    {
-      "title": "India evacuates thousands ahead of second cyclone in a week",
-      "url": "https://www.channelnewsasia.com/asia/india-cyclone-murasu-evacuation-weather-6512186",
-      "source": "CNA",
-      "published": "2026-11-02T05:16:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/india-evacuates-thousands-ahead-of-second-cyclone-in-a-week",
-          "title": "India evacuates thousands ahead of second cyclone in a week",
-          "published": "2026-11-02T04:31:54+00:00"
-        }
-      ]
-    },
-    {
-      "title": "North Korea touts BBQ restaurant boom, but skeptics dismiss it as propaganda",
-      "url": "https://www.japantimes.co.jp/news/2026/11/02/asia-pacific/politics/north-korea-bbq-restaurant-propaganda/",
-      "source": "Japan Times",
-      "published": "2026-11-02T04:57:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-touts-bbq-restaurant-boom-but-sceptics-dismiss-it-as-propaganda",
-          "title": "North Korea touts barbecue restaurant boom, but sceptics dismiss it as propaganda",
-          "published": "2026-11-02T01:06:54+00:00"
-        }
-      ]
-    },
-    {
-      "title": "South Korea to double spending on AI and chips in 2027",
-      "url": "https://www.japantimes.co.jp/business/2026/11/02/south-korea-ai-chips-spending-2027/",
-      "source": "Japan Times",
-      "published": "2026-11-02T04:57:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-to-double-spending-on-ai-and-chips-in-2027",
-          "title": "South Korea to double spending on AI and chips in 2027",
-          "published": "2026-11-02T02:33:00+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Police with assault rifles begin Sydney patrols in wake of Bondi attack",
-      "url": "https://www.straitstimes.com/asia/australianz/police-with-assault-rifles-begin-sydney-patrols-in-wake-of-bondi-attack",
-      "source": "Straits Times",
-      "published": "2026-11-02T03:06:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9kgj7k7ry0ro?at_medium=RSS&at_campaign=rss",
-          "title": "Armed police start patrols in Sydney after Bondi Beach attack",
-          "published": "2026-11-01T17:56:47+00:00"
-        }
-      ]
-    },
-    {
-      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-02T00:15:30+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police",
-          "title": "France launches 'attempted murder' probe after petrol bomb attack on police",
-          "published": "2026-11-01T13:26:02+00:00"
-        }
-      ]
-    },
-    {
-      "title": "Judge dismisses Trump's lawsuit against Wall Street Journal over Epstein birthday book",
-      "url": "https://www.bbc.co.uk/news/articles/cwr5yj2lj9myo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-01T00:41:24+00:00",
+      "title": "German ministers pledge tough action after rioters damage stores in Frankfurt",
+      "url": "https://www.thehindu.com/news/international/german-ministers-pledge-tough-action-after-rioters-damage-stores-in-frankfurt/article71653397.ece",
+      "source": "The Hindu",
+      "published": "2026-11-01T14:32:26+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/trump-jeffrey-epstein-lawsuit-dismissed-9.7404357?cmp=rss",
-          "title": "Judge throws out Trump suit against Wall Street Journal over Epstein letter",
-          "published": "2026-10-31T20:13:16+00:00"
+          "url": "https://www.cbc.ca/news/world/german-ministers-action-rioters-9.7404719?cmp=rss",
+          "title": "German ministers pledge tough action after rioters damage stores in Frankfurt",
+          "published": "2026-11-01T14:18:31+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
       "title": "France seethes again as youth-led protests sweep Europe",
@@ -544,149 +591,405 @@
           "title": "France sees third weekend of protests as youth-led rallies sweep Europe",
           "published": "2026-10-31T17:46:47+00:00"
         }
-      ]
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Brazil selloff extends dismal run for Latin American markets",
-      "url": "https://www.semafor.com/article/11/02/2026/stocks-sink-across-latin-america-amidst-brazilian-election-fallout",
-      "source": "Semafor",
-      "published": "2026-11-02T22:53:21+00:00",
-      "score": 1,
-      "other_sources": []
+      "title": "Lagos Fashion Week returns for 15th edition with a commitment to sustainability",
+      "url": "http://www.africanews.com/2026/10/30/lagos-fashion-week-returns-for-15th-edition-with-a-commitment-to-sustainability/",
+      "source": "Africanews",
+      "published": "2026-10-30T16:09:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/10/30/2026/lagos-fashion-week-returns-with-focus-on-sustainability",
+          "title": "Lagos Fashion Week returns with focus on sustainability",
+          "published": "2026-10-30T13:13:14+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
-      "url": "https://www.independent.co.uk/news/world/americas/florida-plane-crash-victims-identified-b3077901.html",
-      "source": "The Independent",
-      "published": "2026-11-02T22:52:55+00:00",
+      "title": "Netanyahu is pressing Trump to attack Iran after US midterm elections, officials say",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373046/netanyahu-pressing-trump-attack-iran-after-us-midterm-elections-officials-say",
+      "source": "SCMP",
+      "published": "2026-11-02T22:16:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/netanyahu-pressing-trump-to-attack-iran-after-midterms-says-officials/article71658356.ece",
+          "title": "Netanyahu pressing Trump to attack Iran after midterms, says officials",
+          "published": "2026-11-02T20:23:21+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Uganda withdrawing troops from peacekeeping mission in Somalia",
+      "url": "https://www.france24.com/en/uganda-withdrawing-troops-from-peacekeeping-mission-in-somalia",
+      "source": "France24",
+      "published": "2026-11-02T21:24:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
+          "title": "Uganda begins withdrawing troops from Somalia after 20 years",
+          "published": "2026-11-02T12:05:34+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "French pupils resume school blockades as country braces for more protests",
+      "url": "https://www.theguardian.com/education/2026/nov/02/franch-students-school-blockades-protests",
+      "source": "The Guardian",
+      "published": "2026-11-02T18:17:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/france/20261102-france-braces-for-fresh-protests-as-students-to-resume-school-blockades",
+          "title": "France braces for fresh protests as students to resume school blockades",
+          "published": "2026-11-02T07:09:12+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Japan urges U.S. to enforce discipline after second Marine arrest",
+      "url": "https://www.thehindu.com/news/international/japan-urges-us-to-enforce-discipline-after-second-marine-arrest/article71657866.ece",
+      "source": "The Hindu",
+      "published": "2026-11-02T16:24:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/japan-urges-us-to-tighten-discipline-after-another-us-marine-arrested",
+          "title": "Japan urges US to tighten discipline after another US marine arrested in Okinawa",
+          "published": "2026-11-02T04:07:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Nine dead in small plane crash near Trump's Florida home",
+      "url": "https://www.france24.com/en/video/20261102-nine-dead-in-small-plane-crash-near-trump-s-florida-home",
+      "source": "France24",
+      "published": "2026-11-02T15:33:38+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/02/all-nine-on-board-learjet-killed-in-florida-plane-crash-near-trumps-resort-home",
+          "title": "All nine on board Learjet killed in Florida plane crash near Trump's resort home",
+          "published": "2026-11-02T07:30:17+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "North Korea’s hackers supercharge crypto heists with AI skills",
+      "url": "https://www.straitstimes.com/asia/east-asia/north-koreas-hackers-supercharge-crypto-heists-with-ai-skills",
+      "source": "Straits Times",
+      "published": "2026-11-02T12:55:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/02/asia-pacific/north-korea-hackers-crypto-heist-ai/",
+          "title": "North Korea’s hackers supercharge crypto heists with AI skills",
+          "published": "2026-11-02T10:19:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "French school protests resume on smaller scale as holidays end",
+      "url": "https://www.scmp.com/news/world/europe/article/3373008/french-school-protests-resume-smaller-scale-holidays-end",
+      "source": "SCMP",
+      "published": "2026-11-02T11:13:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/france-school-holidays-end-protests-resume-6512656",
+          "title": "Limited French school protests resume as holidays end",
+          "published": "2026-11-02T09:38:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Japan launches new national agency to boost disaster response",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3373006/japan-launches-new-national-agency-boost-disaster-response",
+      "source": "SCMP",
+      "published": "2026-11-02T10:47:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/japan-launches-disaster-management-agency-to-boost-response-reduce-damage",
+          "title": "Japan launches disaster management agency to boost response, reduce damage",
+          "published": "2026-11-02T02:35:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Popular Australian children's author jailed over child exploitation offences",
+      "url": "https://www.bbc.co.uk/news/articles/cmjwe9nggp60o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-02T08:03:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/02/australian-author-craig-silvey-jailed-child-exploitation-material-ntwnfb",
+          "title": "Award‑winning Australian children’s author Craig Silvey jailed over child exploitation material",
+          "published": "2026-11-02T08:01:34+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "China's Xi Jinping says Middle East should not become battleground for great power rivalry",
+      "url": "https://www.channelnewsasia.com/world/china-xi-jinping-middle-east-battleground-great-power-rivalry-6512181",
+      "source": "CNA",
+      "published": "2026-11-02T07:25:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/deeper-china-oman-ties-strategic-for-both-sides-xi-says",
+          "title": "China’s Xi says Middle East should not become battleground for great-power rivalry",
+          "published": "2026-11-02T04:37:02+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Iran warns new war could last longer after Trump threatens strikes",
+      "url": "https://www.channelnewsasia.com/world/iran-new-war-trump-threatens-strikes-6512341",
+      "source": "CNA",
+      "published": "2026-11-02T06:21:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/iran-warns-new-war-could-last-longer-after-trump-threatens-strikes/article71653794.ece",
+          "title": "Iran warns new war could last longer after Trump threatens strikes",
+          "published": "2026-11-01T16:04:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "India evacuates thousands ahead of second cyclone in a week",
+      "url": "https://www.channelnewsasia.com/asia/india-cyclone-murasu-evacuation-weather-6512186",
+      "source": "CNA",
+      "published": "2026-11-02T05:16:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/india-evacuates-thousands-ahead-of-second-cyclone-in-a-week",
+          "title": "India evacuates thousands ahead of second cyclone in a week",
+          "published": "2026-11-02T04:31:54+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "North Korea touts BBQ restaurant boom, but skeptics dismiss it as propaganda",
+      "url": "https://www.japantimes.co.jp/news/2026/11/02/asia-pacific/politics/north-korea-bbq-restaurant-propaganda/",
+      "source": "Japan Times",
+      "published": "2026-11-02T04:57:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-touts-bbq-restaurant-boom-but-sceptics-dismiss-it-as-propaganda",
+          "title": "North Korea touts barbecue restaurant boom, but sceptics dismiss it as propaganda",
+          "published": "2026-11-02T01:06:54+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "South Korea to double spending on AI and chips in 2027",
+      "url": "https://www.japantimes.co.jp/business/2026/11/02/south-korea-ai-chips-spending-2027/",
+      "source": "Japan Times",
+      "published": "2026-11-02T04:57:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-to-double-spending-on-ai-and-chips-in-2027",
+          "title": "South Korea to double spending on AI and chips in 2027",
+          "published": "2026-11-02T02:33:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "France launches attempted murder investigation after petrol bomb thrown at police",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg05z184j0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-02T00:15:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/france/20261101-france-launches-attempted-murder-probe-after-petrol-bomb-attack-on-police",
+          "title": "France launches 'attempted murder' probe after petrol bomb attack on police",
+          "published": "2026-11-01T13:26:02+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Iranian negotiators in Doha to continue talks to end the U.S.-Iran war, official says",
+      "url": "https://www.thehindu.com/news/international/iranian-negotiators-in-doha-to-continue-talks-to-end-the-us-iran-war-official-says/article71652891.ece",
+      "source": "The Hindu",
+      "published": "2026-11-01T13:00:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/iranian-negotiators-in-doha-to-continue-talks-to-end-the-us-iran-war-official-says",
+          "title": "Iran, Qatari mediators hold third day of talks to end US-Iran war",
+          "published": "2026-11-01T12:26:56+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Russian independent newspaper Novaya Gazeta says it will shut down following pressure from Kremlin",
+      "url": "https://www.euronews.com/2026/10/30/russian-independent-newspaper-novaya-gazeta-says-it-will-shut-down-following-pressure-from",
+      "source": "Euronews",
+      "published": "2026-10-30T15:08:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/10/30/russias-oldest-independent-newspaper-novaya-gazeta-announces-closure-a94130",
+          "title": "Russia’s Oldest Independent Newspaper, Novaya Gazeta, Announces Closure",
+          "published": "2026-10-30T09:43:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Pakistan: Islamabad zoo introduces 'Coffee with Alpaca' attraction",
+      "url": "http://www.africanews.com/2026/10/30/pakistan-islamabad-zoo-introduces-coffee-with-alpaca-attraction/",
+      "source": "Africanews",
+      "published": "2026-10-30T15:16:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/30/pakistan-islamabad-zoo-introduces-coffee-with-alpaca-attraction",
+          "title": "Pakistan: Islamabad zoo introduces 'Coffee with Alpaca' attraction",
+          "published": "2026-10-30T15:16:43+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Czech Republic: Meerkats and cheetah cubs play with Halloween pumpkins",
+      "url": "http://www.africanews.com/2026/10/30/czech-republic-meerkats-and-cheetah-cubs-play-with-halloween-pumpkins/",
+      "source": "Africanews",
+      "published": "2026-10-30T13:50:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/30/czech-republic-meerkats-and-cheetah-cubs-play-with-halloween-pumpkins",
+          "title": "Czech Republic: Meerkats and cheetah cubs play with Halloween pumpkins",
+          "published": "2026-10-30T13:50:45+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Italy: Thousands protest rising living costs and defence spending in general strike",
+      "url": "http://www.africanews.com/2026/10/30/italy-thousands-protest-rising-living-costs-and-defence-spending-in-general-strike/",
+      "source": "Africanews",
+      "published": "2026-10-30T13:26:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/10/30/italy-thousands-protest-rising-living-costs-and-defence-spending-in-general-strike",
+          "title": "Italy: Thousands protest rising living costs and defence spending in general strike",
+          "published": "2026-10-30T13:26:01+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "US signals progress in talks with Iran to avert renewed war",
+      "url": "https://www.channelnewsasia.com/world/us-iran-war-talks-progress-trump-tehran-hormuz-6514421",
+      "source": "CNA",
+      "published": "2026-11-02T23:27:14+00:00",
       "score": 1,
-      "other_sources": []
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Former Silver Fern Maia Wilson more confused after meeting with Netball NZ",
+      "url": "https://www.rnz.co.nz/news/sport/2313250/former-silver-fern-maia-wilson-more-confused-after-meeting-with-netball-nz",
+      "source": "RNZ",
+      "published": "2026-11-02T23:21:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Two teens charged after school stabbing in Canberra's south",
+      "url": "https://www.abc.net.au/news/2026-11-03/teenagers-arrested-charged-following-school-stabbing/107339864",
+      "source": "ABC Australia",
+      "published": "2026-11-02T23:20:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "Trump focuses on Washington DC construction projects on eve of midterm election as Democrats climb in polls – live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-02T22:52:40+00:00",
+      "published": "2026-11-02T23:12:11+00:00",
       "score": 1,
-      "other_sources": []
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "North Korea says claims linking it to Binance heist are 'absurd rhetoric,' KCNA says",
-      "url": "https://www.straitstimes.com/asia/north-korea-says-claims-linking-it-to-binance-heist-are-absurd-rhetoric-kcna-says",
-      "source": "Straits Times",
-      "published": "2026-11-02T22:52:15+00:00",
+      "title": "Trump’s approval rating is near a career low ahead of elections, poll finds",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373049/trumps-approval-rating-near-career-low-ahead-elections-poll-finds",
+      "source": "SCMP",
+      "published": "2026-11-02T23:11:13+00:00",
       "score": 1,
-      "other_sources": []
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "US automakers push for ban on Chinese vehicle imports",
-      "url": "https://www.semafor.com/article/11/02/2026/us-automakers-push-for-a-chinese-vehicle-import-ban",
-      "source": "Semafor",
-      "published": "2026-11-02T22:49:54+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Apple beats revenue estimates in CEO Ternus' first earnings call",
-      "url": "https://www.semafor.com/article/11/02/2026/apple-beats-estimates-in-ceo-ternus-first-earnings-call",
-      "source": "Semafor",
-      "published": "2026-11-02T22:44:37+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "'The fight for me continues': Labour's Priyanca Radhakrishnan balances electorate, portfolio needs",
-      "url": "https://www.rnz.co.nz/news/indonz-featured/2312406/the-fight-for-me-continues-labour-s-priyanca-radhakrishnan-balances-electorate-portfolio-needs",
+      "title": "Why power prices might not rise so fast in future",
+      "url": "https://www.rnz.co.nz/news/business/2313115/why-power-prices-might-not-rise-so-fast-in-future",
       "source": "RNZ",
-      "published": "2026-11-02T22:41:09+00:00",
+      "published": "2026-11-02T23:11:08+00:00",
       "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Political opposition to data centers mounts in US and abroad",
-      "url": "https://www.semafor.com/article/11/02/2026/political-opposition-to-data-centers-mounts-in-us-and-abroad",
-      "source": "Semafor",
-      "published": "2026-11-02T22:40:21+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "They hate both U.S. parties. They could swing the midterms",
-      "url": "https://www.cbc.ca/player/play/9.7406360?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-02T22:36:48+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "‘A despicable betrayal’: Democrats incensed by Haley Stevens’s endorsement of Mike Rogers",
-      "url": "https://www.theguardian.com/us-news/2026/nov/02/democrats-reaction-haley-steven-mike-rogers",
-      "source": "The Guardian",
-      "published": "2026-11-02T22:34:48+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "PM to ask countries affected by UK’s role in slavery to help shape formal apology",
-      "url": "https://www.theguardian.com/world/2026/nov/02/andy-burnham-ask-countries-affected-uk-role-slavery-shape-formal-apology",
-      "source": "The Guardian",
-      "published": "2026-11-02T22:30:30+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Election 2026: Nicola Willis never contemplated running in safe National seat",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2310661/election-2026-nicola-willis-never-contemplated-running-in-safe-national-seat",
-      "source": "RNZ",
-      "published": "2026-11-02T22:30:08+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Three-bus crash outside Auckland's Botany Town Centre",
-      "url": "https://www.rnz.co.nz/news/regional/2312096/three-bus-crash-outside-auckland-s-botany-town-centre",
-      "source": "RNZ",
-      "published": "2026-11-02T22:27:54+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Trump’s final midterms speech really kicked the Republicans while they’re down",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-closing-midterms-speech-republicans-reflecting-pool-b3077878.html",
-      "source": "The Independent",
-      "published": "2026-11-02T22:26:10+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Oil prices fall on US-Iran negotiations",
-      "url": "https://www.semafor.com/article/11/02/2026/oil-prices-fall-on-us-iran-negotiations",
-      "source": "Semafor",
-      "published": "2026-11-02T22:25:05+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Democrats eye post-election powers",
-      "url": "https://www.semafor.com/article/11/02/2026/democrats-eye-post-election-powers",
-      "source": "Semafor",
-      "published": "2026-11-02T22:22:40+00:00",
-      "score": 1,
-      "other_sources": []
-    },
-    {
-      "title": "Trump drops jaws with low-energy Reflecting Pool ramble day before Americans decide party’s fate",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-closing-argument-speech-b3077896.html",
-      "source": "The Independent",
-      "published": "2026-11-02T22:17:00+00:00",
-      "score": 1,
-      "other_sources": []
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
       "price": 7541.4,
+      "currency": "USD",
       "change": -38.67,
       "change_percent": -0.51,
       "name": "S&P 500"
@@ -694,20 +997,23 @@
     {
       "symbol": "VWRP.L",
       "price": 141.42,
+      "currency": "GBP",
       "change": 0.74,
       "change_percent": 0.53,
-      "name": "FTSE All-World"
+      "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 25164.32,
-      "change": -272.68,
+      "price": 25164.36,
+      "currency": "USD",
+      "change": -272.63,
       "change_percent": -1.07,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
       "price": 10761.33,
+      "currency": "GBP",
       "change": 31.55,
       "change_percent": 0.29,
       "name": "FTSE 100"
@@ -718,6 +1024,7 @@
       {
         "symbol": "^GSPC",
         "price": 7541.4,
+        "currency": "USD",
         "change": -38.67,
         "change_percent": -0.51,
         "name": "S&P 500"
@@ -725,6 +1032,7 @@
       {
         "symbol": "^FTSE",
         "price": 10761.33,
+        "currency": "GBP",
         "change": 31.55,
         "change_percent": 0.29,
         "name": "FTSE 100"
@@ -732,20 +1040,23 @@
       {
         "symbol": "^DJI",
         "price": 51983.98,
+        "currency": "USD",
         "change": 213.67,
         "change_percent": 0.41,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 25164.32,
-        "change": -272.68,
+        "price": 25164.36,
+        "currency": "USD",
+        "change": -272.63,
         "change_percent": -1.07,
         "name": "NASDAQ Composite"
       },
       {
         "symbol": "^N225",
         "price": 63081.86,
+        "currency": "JPY",
         "change": -208.25,
         "change_percent": -0.33,
         "name": "Nikkei 225"
@@ -753,6 +1064,7 @@
       {
         "symbol": "^GDAXI",
         "price": 25981.09,
+        "currency": "EUR",
         "change": 162.88,
         "change_percent": 0.63,
         "name": "DAX Index"
@@ -760,6 +1072,7 @@
       {
         "symbol": "^FCHI",
         "price": 8047.69,
+        "currency": "EUR",
         "change": 78.27,
         "change_percent": 0.98,
         "name": "CAC 40"
@@ -768,28 +1081,32 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3956.6,
-        "change": -13.0,
-        "change_percent": -0.33,
+        "price": 3954.5,
+        "currency": "USD",
+        "change": -15.1,
+        "change_percent": -0.38,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 50.71,
-        "change": -0.18,
-        "change_percent": -0.35,
+        "price": 50.67,
+        "currency": "USD",
+        "change": -0.21,
+        "change_percent": -0.42,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 104.23,
-        "change": -0.54,
-        "change_percent": -0.52,
+        "price": 104.3,
+        "currency": "USD",
+        "change": -0.47,
+        "change_percent": -0.45,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
         "price": 1.12,
+        "currency": "USD",
         "change": 0.0,
         "change_percent": 0.22,
         "name": "EUR/USD"
@@ -797,22 +1114,25 @@
       {
         "symbol": "GBPUSD=X",
         "price": 1.34,
+        "currency": "USD",
         "change": 0.0,
         "change_percent": 0.13,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.94,
-        "change": 0.42,
-        "change_percent": 0.27,
+        "price": 157.9,
+        "currency": "JPY",
+        "change": 0.38,
+        "change_percent": 0.24,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 76679.8,
-        "change": -1555.76,
-        "change_percent": -1.99,
+        "price": 76650.29,
+        "currency": "USD",
+        "change": -1585.27,
+        "change_percent": -2.03,
         "name": "Bitcoin"
       }
     ],
@@ -820,6 +1140,7 @@
       {
         "symbol": "MSFT",
         "price": 507.12,
+        "currency": "USD",
         "change": -14.79,
         "change_percent": -2.83,
         "name": "Microsoft"
@@ -827,6 +1148,7 @@
       {
         "symbol": "AAPL",
         "price": 338.32,
+        "currency": "USD",
         "change": -6.31,
         "change_percent": -1.83,
         "name": "Apple"
@@ -834,6 +1156,7 @@
       {
         "symbol": "NVDA",
         "price": 202.06,
+        "currency": "USD",
         "change": -2.58,
         "change_percent": -1.26,
         "name": "NVIDIA"
@@ -841,6 +1164,7 @@
       {
         "symbol": "GOOGL",
         "price": 278.99,
+        "currency": "USD",
         "change": -0.85,
         "change_percent": -0.3,
         "name": "Alphabet"
@@ -848,6 +1172,7 @@
       {
         "symbol": "AMZN",
         "price": 245.63,
+        "currency": "USD",
         "change": 5.28,
         "change_percent": 2.2,
         "name": "Amazon"
@@ -855,6 +1180,7 @@
       {
         "symbol": "TSLA",
         "price": 403.82,
+        "currency": "USD",
         "change": 4.01,
         "change_percent": 1.0,
         "name": "Tesla"
@@ -862,6 +1188,7 @@
       {
         "symbol": "META",
         "price": 606.73,
+        "currency": "USD",
         "change": -8.26,
         "change_percent": -1.34,
         "name": "Meta"
@@ -903,19 +1230,19 @@
           "title": "Understanding the average credit score by age",
           "url": "https://theweek.com/personal-finance/understanding-the-average-credit-score-by-age",
           "published": "2026-11-02T20:01:28+00:00",
-          "snippet": "<p>Becca Stanek has worked as an editor and writer in the personal finance space since 2017. She previously served as a deputy editor and later a managing..."
+          "snippet": "Becca Stanek has worked as an editor and writer in the personal finance space since 2017. She previously served as a deputy editor and later a managing editor..."
         },
         {
           "title": "Ramaswamy: Too nasty to win?",
           "url": "https://theweek.com/politics/ramaswamy-ohio-ad-too-nasty-acton",
           "published": "2026-11-02T20:00:00+00:00",
-          "snippet": "null"
+          "snippet": ""
         },
         {
           "title": "Trump pre-emptively alleges voting fraud",
           "url": "https://theweek.com/politics/trump-midterms-voter-fraud-claims",
           "published": "2026-11-02T19:43:00+00:00",
-          "snippet": "null"
+          "snippet": ""
         }
       ]
     },
@@ -950,22 +1277,47 @@
       "column": "global",
       "entries": [
         {
-          "title": "FirstFT: Big majority of US voters disapprove of Trump’s handling of inflation, according to FT poll",
-          "url": "https://www.ft.com/content/65982705-e3f3-4dfe-8d5d-39809f8a1103?syn-25a6b1a6=1",
-          "published": "2026-11-02T21:40:13+00:00",
-          "snippet": "Also in today’s newsletter: Anthropic reveals $900bn AI spending commitments and European supermarket freezers overheat in fresh cyber attack"
+          "title": "US Supreme Court rejects Trump request to intervene in California vote count",
+          "url": "https://www.ft.com/content/b3619ebb-01cc-4458-bc77-b04e5b16b658?syn-25a6b1a6=1",
+          "published": "2026-11-02T23:18:53+00:00",
+          "snippet": "Justices issue latest blow to US president’s attempts to use the power of the federal government to influence elections"
         },
         {
-          "title": "Democrats close ranks after shock Michigan defection",
-          "url": "https://www.ft.com/content/17ea8ea2-a834-428b-8c93-bc1803ca4d9f?syn-25a6b1a6=1",
-          "published": "2026-11-02T21:35:58+00:00",
-          "snippet": "Haley Stevens’ support for Republican candidate instead of Abdul El-Sayed provokes a swift backlash"
+          "title": "My tax rises made Britain’s economy stronger, says Reeves",
+          "url": "https://www.ft.com/content/542e044e-23c6-42a6-a8a6-640ea04205ff?syn-25a6b1a6=1",
+          "published": "2026-11-02T23:00:00+00:00",
+          "snippet": "Former chancellor argues that national insurance increase pushed a break with ‘low-wage, low-investment cycle’"
         },
         {
-          "title": "Marvell to buy data centre component maker Lumentum in $115bn AI bet",
-          "url": "https://www.ft.com/content/92322fad-f293-48b8-a14b-00506d78eb3b?syn-25a6b1a6=1",
-          "published": "2026-11-02T21:19:47+00:00",
-          "snippet": "Silicon Valley companies say all-stock deal would create a ‘leader in AI connectivity’"
+          "title": "OpenAI hires former US Army secretary as military seeks to expand AI use",
+          "url": "https://www.ft.com/content/e6b8fd40-ef92-46e8-aeaf-f98dade55a67?syn-25a6b1a6=1",
+          "published": "2026-11-02T22:58:27+00:00",
+          "snippet": "Dan Driscoll to join the start-up as senior counsellor for national security modernisation"
+        }
+      ]
+    },
+    {
+      "id": "the_atlantic",
+      "name": "The Atlantic",
+      "column": "global",
+      "entries": [
+        {
+          "title": "Who Thought This Ad Was a Good Idea?",
+          "url": "https://www.theatlantic.com/newsletters/2026/11/who-thought-this-ad-was-a-good-idea/689258/?utm_source=feed",
+          "published": "2026-11-02T23:07:00+00:00",
+          "snippet": "This is an edition of The Atlantic Daily, a newsletter that guides you through the biggest stories of the day, helps you discover new ideas, and recommends the..."
+        },
+        {
+          "title": "The Anger Election’s Final Twist",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/ra-voter-issues/689254/?utm_source=feed",
+          "published": "2026-11-02T22:23:10+00:00",
+          "snippet": "Subscribe here: Apple Podcasts | Spotify | YouTube | Overcast | Pocket CastsOver the weekend, in a November surprise, Democratic Representative Haley Stevens,..."
+        },
+        {
+          "title": "Fall Is in the Air, Part II",
+          "url": "https://www.theatlantic.com/photography/2026/11/fall-photos-2026/689253/?utm_source=feed",
+          "published": "2026-11-02T18:11:37+00:00",
+          "snippet": "Charly Triballeau / AFP / GettyFall foliage is seen in Burlington, Maine, on October 13, 2026.Russell Cheyne / ReutersA statue of a deer is silhouetted against..."
         }
       ]
     },
@@ -1018,50 +1370,93 @@
           "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery."
         }
       ]
+    },
+    {
+      "id": "rest_of_world",
+      "name": "Rest of World",
+      "column": "tech",
+      "entries": [
+        {
+          "title": "Startups recalibrate Chinese AI for the West",
+          "url": "https://restofworld.org/2026/western-startups-realigning-chinese-ai-models/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "published": "2026-11-02T11:00:00+00:00",
+          "snippet": "The concept of machine unlearning — or removing data from an artificial intelligence system after it has been trained — was largely an academic pursuit when..."
+        },
+        {
+          "title": "Why Africa needs its own AI off switch",
+          "url": "https://restofworld.org/2026/africa-sovereign-ai-off-switch/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "published": "2026-10-29T10:00:00+00:00",
+          "snippet": "Imagine that it is 6 a.m. in the wholesale markets of Nairobi. Merchants are delivering vegetables from up-country farms to the retailers who sell to the..."
+        },
+        {
+          "title": "AI models cost more when you don’t use English",
+          "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "published": "2026-10-26T10:00:22+00:00",
+          "snippet": "People who use less widely spoken languages could end up paying more to use artificial intelligence than those who speak English or other dominant languages. A..."
+        }
+      ]
+    },
+    {
+      "id": "wired_tech",
+      "name": "Wired",
+      "column": "tech",
+      "entries": [
+        {
+          "title": "The Online Right’s Closing Campaign Argument: Fascist Anakin Skywalker Memes",
+          "url": "https://www.wired.com/story/the-online-rights-closing-campaign-argument-fascist-anakin-skywalker-memes/",
+          "published": "2026-11-02T23:17:27+00:00",
+          "snippet": "With Democrats poised to make significant gains in Tuesday’s midterm elections, Trump supporters have been reduced to posting bizarre Star Wars fan fiction."
+        },
+        {
+          "title": "How to Save $25 on Burga’s Phone Accessories With This Sale",
+          "url": "https://www.wired.com/story/burga-sale-november-2026/",
+          "published": "2026-11-02T21:30:00+00:00",
+          "snippet": "Whether you need a phone case, magnetic ring, Apple Watch band, or power bank, now’s a great time to save $25 on orders over $50."
+        },
+        {
+          "title": "Best Dyson Vacuum Deals (2026): Dyson Spot+Scrub Ai, Dyson V16 Piston Animal",
+          "url": "https://www.wired.com/story/dyson-vacuum-deals-nov-2026/",
+          "published": "2026-11-02T21:00:00+00:00",
+          "snippet": "Black Friday is still weeks away, but you don’t have to wait for a good sale on Dyson vacuums."
+        }
+      ]
     }
   ],
   "web": {
     "tech": [
       {
-        "title": "Anthropic's growth just flattened (really)",
+        "title": "Anthropic's growth just flattened",
         "url": "https://www.regenerator1.com/p/anthropics-growth-just-flattened",
-        "score": 12,
+        "score": 68,
         "source": "Hacker News",
         "published": "2026-11-02T22:33:20+00:00"
       },
       {
         "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
         "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
-        "score": 43,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-02T22:30:47+00:00"
       },
       {
         "title": "Apple reports fourth quarter results",
         "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
-        "score": 28,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-02T22:13:42+00:00"
       },
       {
-        "title": "Can't fish Ethernet? Use \"invisible\" fiber instead",
-        "url": "https://momandpop.network/2026/11/02/cant-fish-ethernet-use-invisible-fiber-instead/",
-        "score": 25,
+        "title": "Stop Hogging RAM You Monster",
+        "url": "https://ramhogger.monster/",
+        "score": 14,
         "source": "Hacker News",
-        "published": "2026-11-02T21:42:18+00:00"
-      },
-      {
-        "title": "BYD sold more EVs last month than the US did all quarter, topping 300,000",
-        "url": "https://electrek.co/2026/11/02/byd-sold-more-evs-last-month-than-the-us-did-all-quarter/",
-        "score": 178,
-        "source": "Hacker News",
-        "published": "2026-11-02T21:38:49+00:00"
+        "published": "2026-11-02T22:05:16+00:00"
       },
       {
         "title": "A Decade of Kill Bugs",
         "url": "https://alangrow.com/blog/a-decade-of-kill-bugs",
         "comments_url": "https://lobste.rs/s/wgoato/decade_kill_bugs",
-        "score": 5,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-02T21:23:24.764000+00:00"
       },
@@ -1069,7 +1464,7 @@
         "title": "My favourite laptop",
         "url": "https://blog.jsbarretto.com/post/laptop",
         "comments_url": "https://lobste.rs/s/ezg5mx/my_favourite_laptop",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-02T19:48:40.520000+00:00"
       },
@@ -1085,54 +1480,69 @@
         "title": "Stop Hardcoding Your Timeouts",
         "url": "https://alfy.blog/2026/04/23/stop-hardcoding-your-timeouts.html",
         "comments_url": "https://lobste.rs/s/qa0owz/stop_hardcoding_your_timeouts",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-02T19:22:32.608000+00:00"
       },
       {
         "title": "Egoless Mathematics in the AI Era",
         "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-        "score": 88,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-02T18:54:44+00:00"
       },
       {
         "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
         "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
-        "score": 226,
+        "score": 250,
         "source": "Hacker News",
         "published": "2026-11-02T18:39:38+00:00"
       },
       {
         "title": "Astra can read and write weights to improve Qwen",
         "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-        "score": 1533,
+        "score": 1641,
         "source": "Hacker News",
         "published": "2026-11-02T18:21:28+00:00"
       },
       {
         "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
         "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
-        "score": 84,
+        "score": 87,
         "source": "Hacker News",
         "published": "2026-11-02T18:12:48+00:00"
       },
       {
+        "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+        "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+        "score": 52,
+        "source": "Hacker News",
+        "published": "2026-11-02T17:47:40+00:00"
+      },
+      {
         "title": "Show HN: Subvocal – Talk to your computer without making noise",
         "url": "https://news.ycombinator.com/item?id=50340088",
-        "score": 456,
+        "score": 476,
         "source": "Hacker News",
         "published": "2026-11-02T17:16:17+00:00"
       },
       {
         "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
         "url": "https://momentic.ai/",
-        "score": 104,
+        "score": 107,
         "source": "Hacker News",
         "published": "2026-11-02T17:05:25+00:00"
       }
     ],
     "reddit": [
+      {
+        "title": "Ukraine accused Russia of taking ​advantage of a rare, US-backed humanitarian ceasefire in the southern Kherson region to strengthen its military position ‌there, boost defences and improve battlefield logistics",
+        "url": "https://www.reuters.com/world/europe/ukraine-says-russia-used-oleshky-ceasefire-reinforce-positions-2026-11-02/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xmch0m/ukraine_accused_russia_of_taking_advantage_of_a/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-02T23:03:38+00:00"
+      },
       {
         "title": "Explosions and Air-Defense Activity Reported on Iran’s Qeshm Island",
         "url": "https://thestateofisrael.com/news/story/2026-11-02-explosions-and-air-defense-activity-reported-on-iran-s-qeshm-island",
@@ -1140,6 +1550,14 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-02T22:01:25+00:00"
+      },
+      {
+        "title": "Shop freezers in seven European countries hit by cyber-attack",
+        "url": "https://www.bbc.com/news/articles/cq1kd1nee80eo",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xmam3o/shop_freezers_in_seven_european_countries_hit_by/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-02T21:48:19+00:00"
       },
       {
         "title": "Initial results suggest Iliana Yotova wins runoff to become Bulgaria's 1st elected female president",
@@ -1236,22 +1654,6 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-02T14:01:54+00:00"
-      },
-      {
-        "title": "Zelenskyy: Ukraine will halt strikes on Russian refineries if US provides interceptors",
-        "url": "https://www.pravda.com.ua/eng/news/2026/11/02/8060855/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xlvfth/zelenskyy_ukraine_will_halt_strikes_on_russian/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-02T12:07:43+00:00"
-      },
-      {
-        "title": "Iranians have left Doha talks, draft proposal for US deal being circulated, official says",
-        "url": "https://www.reuters.com/world/middle-east/iranians-have-left-doha-talks-draft-proposal-us-deal-being-circulated-official-2026-11-02/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xluh68/iranians_have_left_doha_talks_draft_proposal_for/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-02T11:15:12+00:00"
       }
     ]
   }

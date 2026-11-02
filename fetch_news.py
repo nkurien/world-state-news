@@ -437,83 +437,86 @@ def fetch_hacker_news():
     return stories
 
 
-def fetch_reddit_subreddit(subreddit):
-    """Fetch hot posts from a specific subreddit using its RSS feed."""
-    print(f"Fetching Reddit /r/{subreddit} (RSS)...")
+REDDIT_SUBREDDITS = ["worldnews", "europe", "geopolitics", "technology", "science"]
+REDDIT_HEADERS = {
+    # Reddit guidelines recommend a unique, descriptive User-Agent
+    "User-Agent": "python:world-state-news-aggregator:v1.0.0 (by /u/nkurien)"
+}
+
+
+def parse_reddit_feed(feed):
+    """Turn a parsed Reddit RSS feed into story dicts, one per post."""
     stories = []
-    url = f"https://www.reddit.com/r/{subreddit}/hot/.rss"
-    try:
-        # Reddit guidelines recommend a unique User-Agent to avoid generic blocks
-        reddit_headers = {
-            "User-Agent": "python:world-state-news-aggregator:v1.0.0 (by /u/nkurien)"
-        }
-        response = requests.get(url, headers=reddit_headers, timeout=10)
-        response.raise_for_status()
+    for entry in feed.entries:
+        title = entry.get("title", "").strip()
+        comments_link = entry.get("link", "").strip()
 
-        feed = feedparser.parse(response.content)
-        for entry in feed.entries:
-            title = entry.get("title", "").strip()
-            comments_link = entry.get("link", "").strip()
+        if not title or not is_safe_url(comments_link):
+            continue
 
-            if not title or not is_safe_url(comments_link):
-                continue
+        # Subreddit comes from the entry's category tag, else from its URL
+        subreddit = next(
+            (t.get("term") for t in entry.get("tags", []) if t.get("term")), None
+        )
+        if not subreddit:
+            m = re.search(r"/r/([^/]+)/", comments_link)
+            subreddit = m.group(1) if m else "reddit"
 
-            # Try to extract the direct article link from the HTML summary
-            # If it's a link post, the RSS summary has a link matching: <a href="direct_url">[link]</a>
+        # If it's a link post, the RSS summary has <a href="direct_url">[link]</a>
+        direct_link = comments_link
+        link_match = re.search(r'href="([^"]+)">\[link\]</a>', entry.get("summary", ""))
+        if link_match:
+            direct_link = link_match.group(1).strip()
+        if direct_link.startswith("/r/"):
+            direct_link = f"https://www.reddit.com{direct_link}"
+        if not is_safe_url(direct_link):
             direct_link = comments_link
-            summary = entry.get("summary", "")
-            link_match = re.search(r'href="([^"]+)">\[link\]</a>', summary)
-            if link_match:
-                direct_link = link_match.group(1).strip()
 
-            # Clean up URLs (relative Reddit links should be full links)
-            if direct_link.startswith("/r/"):
-                direct_link = f"https://www.reddit.com{direct_link}"
-
-            # Parse publication date
-            pub_date = None
-            if hasattr(entry, "published_parsed") and entry.published_parsed:
-                try:
-                    pub_date = datetime.fromtimestamp(
-                        timegm(entry.published_parsed), timezone.utc
-                    )
-                except Exception:
-                    pass
-            if not pub_date:
-                pub_date = parse_iso_date(
-                    entry.get("published") or entry.get("updated")
+        pub_date = None
+        if hasattr(entry, "published_parsed") and entry.published_parsed:
+            try:
+                pub_date = datetime.fromtimestamp(
+                    timegm(entry.published_parsed), timezone.utc
                 )
+            except Exception:
+                pass
+        if not pub_date:
+            pub_date = parse_iso_date(entry.get("published") or entry.get("updated"))
 
-            if not is_safe_url(direct_link):
-                direct_link = comments_link
-
-            stories.append(
-                {
-                    "title": title,
-                    "url": direct_link,
-                    "comments_url": comments_link,
-                    "score": None,
-                    "source": f"/r/{subreddit}",
-                    "published": pub_date.isoformat(),
-                }
-            )
-        print(f"  Successfully fetched {len(stories)} posts from /r/{subreddit}.")
-    except Exception as e:
-        print(f"  Error fetching /r/{subreddit} RSS: {e}", file=sys.stderr)
+        stories.append(
+            {
+                "title": title,
+                "url": direct_link,
+                "comments_url": comments_link,
+                "score": None,
+                "source": f"/r/{subreddit}",
+                "published": pub_date.isoformat(),
+            }
+        )
     return stories
 
 
 def fetch_all_reddit():
-    """Fetch and merge Reddit stories from multiple subreddits."""
-    reddit_stories = []
-    subreddits = ["worldnews", "europe", "geopolitics", "technology", "science"]
-    for sub in subreddits:
-        reddit_stories.extend(fetch_reddit_subreddit(sub))
-        time.sleep(1)  # Sleep to prevent rapid-fire rate limiting
+    """
+    Fetch hot posts from all configured subreddits in ONE request.
 
-    # Sort merged list by publication date descending, limit to top 15
-    reddit_stories.sort(key=lambda x: x["published"], reverse=True)
-    return reddit_stories[:MAX_WEB_STORIES]
+    Unauthenticated Reddit allows roughly one request per rate-limit window
+    (X-Ratelimit-Remaining hits 0 after the first call), so per-subreddit
+    requests 429'd for every sub but the first. A multireddit feed
+    (r/a+b+c) returns the combined hot list in a single call.
+    """
+    print(f"Fetching Reddit ({'+'.join(REDDIT_SUBREDDITS)}) in one request...")
+    url = f"https://www.reddit.com/r/{'+'.join(REDDIT_SUBREDDITS)}/hot/.rss?limit=50"
+    try:
+        response = get_with_retry(url, headers=REDDIT_HEADERS, retries=2, max_delay=30)
+        stories = parse_reddit_feed(feedparser.parse(response.content))
+        print(f"  Successfully fetched {len(stories)} Reddit posts.")
+    except Exception as e:
+        print(f"  Error fetching Reddit RSS: {e}", file=sys.stderr)
+        return []
+
+    stories.sort(key=lambda x: x["published"], reverse=True)
+    return stories[:MAX_WEB_STORIES]
 
 
 def fetch_lobsters():
@@ -765,21 +768,25 @@ DIGEST_CONFIGS = [
 ]
 
 
-def get_with_retry(url, headers=None, retries=2, timeout=10):
+def get_with_retry(url, headers=None, retries=2, timeout=10, max_delay=10):
     """
     GET with retries for transient failures (timeouts, 429, 5xx).
-    Honours a numeric Retry-After header on 429, capped at 10s. Raises the last
-    error once retries are exhausted.
+    On 429 it waits for the server's Retry-After (or Reddit's X-Ratelimit-Reset)
+    seconds, capped at `max_delay`. Raises the last error once retries are
+    exhausted.
     """
     for attempt in range(retries + 1):
         try:
             response = requests.get(url, headers=headers, timeout=timeout)
             if response.status_code == 429 or response.status_code >= 500:
                 if attempt < retries:
-                    retry_after = response.headers.get("Retry-After", "")
+                    wait = response.headers.get("Retry-After") or response.headers.get(
+                        "X-Ratelimit-Reset", ""
+                    )
+                    wait = str(wait).split(".")[0]
                     delay = (
-                        min(int(retry_after), 10)
-                        if retry_after.isdigit()
+                        min(int(wait) + 1, max_delay)
+                        if wait.isdigit()
                         else 2 * (attempt + 1)
                     )
                     print(
@@ -1159,13 +1166,24 @@ def main():
     tech_stories.sort(key=lambda x: x["published"], reverse=True)
     tech_stories = tech_stories[:MAX_WEB_STORIES]
 
+    previous_payload = load_previous_payload()
     reddit_stories = fetch_all_reddit()
+    if not reddit_stories:
+        previous_reddit = ((previous_payload or {}).get("web") or {}).get(
+            "reddit"
+        ) or []
+        if previous_reddit:
+            print(
+                "  Warning: Reddit returned nothing; keeping previous posts.",
+                file=sys.stderr,
+            )
+            reddit_stories = previous_reddit
 
     # 6. Fetch categorized markets and header ticker data
     ticker_data, market_data = compile_markets_data()
 
     # 6b. Fetch news digests and daily briefings
-    digest_data = carry_forward_digests(fetch_all_digests(), load_previous_payload())
+    digest_data = carry_forward_digests(fetch_all_digests(), previous_payload)
 
     # 7. Build final payload
     payload = {

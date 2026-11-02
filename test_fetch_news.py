@@ -2,6 +2,8 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    fetch_all_reddit,
+    parse_reddit_feed,
     carry_forward_digests,
     get_with_retry,
     pick_snippet,
@@ -652,7 +654,7 @@ class TestDigestResilience(unittest.TestCase):
         resp = get_with_retry("https://example.com")
         self.assertEqual(resp.status_code, 200)
         self.assertEqual(mock_get.call_count, 2)
-        mock_sleep.assert_called_once_with(3)
+        mock_sleep.assert_called_once_with(4)  # Retry-After + 1s slack
 
     @patch("fetch_news.time.sleep")
     @patch("fetch_news.requests.get")
@@ -692,6 +694,82 @@ class TestDigestResilience(unittest.TestCase):
     def test_carry_forward_without_previous_payload(self):
         new = [{"id": "a", "name": "A", "entries": []}]
         self.assertEqual(carry_forward_digests(new, None)[0]["entries"], [])
+
+
+class TestReddit(unittest.TestCase):
+    @staticmethod
+    def _resp(status, headers=None, content=b""):
+        r = MagicMock()
+        r.status_code = status
+        r.headers = headers or {}
+        r.content = content
+        r.raise_for_status.side_effect = (
+            None if status < 400 else Exception(f"{status}")
+        )
+        return r
+
+    FEED = b"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <entry>
+    <category term="technology" label="r/technology"/>
+    <title>Chip maker announces layoffs</title>
+    <link href="https://www.reddit.com/r/technology/comments/abc/chip_maker/"/>
+    <content type="html">&lt;a href="https://example.com/story"&gt;[link]&lt;/a&gt;</content>
+    <updated>2026-11-02T12:00:00+00:00</updated>
+  </entry>
+  <entry>
+    <category term="europe" label="r/europe"/>
+    <title>Self post</title>
+    <link href="https://www.reddit.com/r/europe/comments/def/self_post/"/>
+    <updated>2026-11-02T11:00:00+00:00</updated>
+  </entry>
+  <entry>
+    <title>Bad link</title>
+    <link href="javascript:alert(1)"/>
+    <updated>2026-11-02T10:00:00+00:00</updated>
+  </entry>
+</feed>"""
+
+    def test_parse_reddit_feed_uses_category_for_subreddit_and_direct_link(self):
+        import feedparser
+
+        stories = parse_reddit_feed(feedparser.parse(self.FEED))
+        self.assertEqual([s["source"] for s in stories], ["/r/technology", "/r/europe"])
+        self.assertEqual(stories[0]["url"], "https://example.com/story")
+        self.assertEqual(
+            stories[0]["comments_url"],
+            "https://www.reddit.com/r/technology/comments/abc/chip_maker/",
+        )
+        # Self post links to its own thread
+        self.assertEqual(stories[1]["url"], stories[1]["comments_url"])
+
+    @patch("fetch_news.requests.get")
+    def test_fetch_all_reddit_makes_a_single_request(self, mock_get):
+        mock_get.return_value = self._resp(200, content=self.FEED)
+        stories = fetch_all_reddit()
+        self.assertEqual(mock_get.call_count, 1)
+        self.assertIn("worldnews+europe", mock_get.call_args[0][0])
+        self.assertEqual(len(stories), 2)
+        self.assertGreater(stories[0]["published"], stories[1]["published"])
+
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_fetch_all_reddit_waits_out_rate_limit_reset(self, mock_get, mock_sleep):
+        mock_get.side_effect = [
+            self._resp(429, {"X-Ratelimit-Reset": "20"}),
+            self._resp(200, content=self.FEED),
+        ]
+        self.assertEqual(len(fetch_all_reddit()), 2)
+        mock_sleep.assert_called_once_with(21)
+
+    @patch("fetch_news.time.sleep")
+    @patch("fetch_news.requests.get")
+    def test_fetch_all_reddit_returns_empty_when_rate_limited_throughout(
+        self, mock_get, _sleep
+    ):
+        mock_get.return_value = self._resp(429, {"X-Ratelimit-Reset": "20"})
+        self.assertEqual(fetch_all_reddit(), [])
+        self.assertEqual(mock_get.call_count, 3)
 
 
 if __name__ == "__main__":

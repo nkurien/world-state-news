@@ -2,6 +2,7 @@ import unittest
 from datetime import datetime, timezone
 from unittest.mock import patch, MagicMock
 from fetch_news import (
+    pick_snippet,
     OUTLET_META,
     RSS_SOURCES,
     consensus_score,
@@ -597,6 +598,36 @@ class TestSourceHealth(unittest.TestCase):
         self.assertTrue(health["Good"]["ok"])
         self.assertFalse(health["Bad"]["ok"])
         self.assertIsInstance(health["Good"]["ms"], int)
+
+
+class TestPickSnippet(unittest.TestCase):
+    def test_prefers_summary_over_content(self):
+        entry = {
+            "summary": "A proper one-line dek",
+            "content": [{"value": "<p>Author bio that is not the article</p>"}],
+        }
+        self.assertEqual(pick_snippet(entry), "A proper one-line dek")
+
+    def test_the_week_null_placeholder_in_content(self):
+        entry = {
+            "summary": "",
+            "content": [{"value": "null"}, {"value": "<p>Body text</p>"}],
+        }
+        self.assertEqual(pick_snippet(entry), "Body text")
+
+    def test_falls_back_to_description(self):
+        self.assertEqual(
+            pick_snippet({"description": "From description"}), "From description"
+        )
+
+    def test_nothing_usable_returns_empty(self):
+        self.assertEqual(
+            pick_snippet({"summary": "null", "content": [{"value": " "}]}), ""
+        )
+        self.assertEqual(pick_snippet({}), "")
+
+    def test_truncates(self):
+        self.assertLessEqual(len(pick_snippet({"summary": "word " * 100})), 163)
 
 
 if __name__ == "__main__":

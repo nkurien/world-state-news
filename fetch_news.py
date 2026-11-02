@@ -582,6 +582,24 @@ def clean_html(text):
     return clean
 
 
+def pick_snippet(entry, max_len=160):
+    """
+    Choose a short snippet for a digest entry.
+
+    Prefers the feed's own summary/description (normally a proper dek) and only
+    falls back to the full-content blocks. Content blocks are unreliable: some
+    feeds put placeholders ("null"), author bios, photo credits or podcast
+    boilerplate first. Candidates that clean to nothing are skipped.
+    """
+    candidates = [entry.get("summary"), entry.get("description")]
+    candidates += [c.get("value") for c in (entry.get("content") or [])]
+    for raw in candidates:
+        text = clean_html(raw or "")
+        if text:
+            return truncate_snippet(text, max_len)
+    return ""
+
+
 def truncate_snippet(text, max_len=160):
     """Truncate text at a word boundary close to max_len and append ellipsis."""
     if not text:
@@ -768,13 +786,7 @@ def fetch_single_digest(config):
             if not title or not is_safe_url(link):
                 continue
 
-            # Get snippet
-            summary = entry.get("summary") or entry.get("description") or ""
-            if "content" in entry and entry.content:
-                summary = entry.content[0].value
-
-            clean_summary = clean_html(summary)
-            snippet = truncate_snippet(clean_summary)
+            snippet = pick_snippet(entry)
 
             # Parse pub date
             pub_date = None

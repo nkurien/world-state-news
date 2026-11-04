@@ -1,165 +1,231 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-04T21:01:06.273794+00:00",
+  "last_updated": "2026-11-04T21:30:53.263450+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 466
+      "ms": 306
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 546
+      "ms": 383
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 298
+      "ms": 143
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 220
+      "ms": 154
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 277
+      "ms": 550
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 280
+      "ms": 233
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 602
+      "ms": 303
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 889
+      "ms": 707
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 190
+      "ms": 289
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 383
+      "ms": 1262
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 453
+      "ms": 488
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 458
+      "ms": 544
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 343
+      "ms": 275
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 180
+      "ms": 854
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 391
+      "ms": 241
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 281
+      "ms": 685
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 974
+      "ms": 765
     },
     "Semafor": {
       "ok": true,
       "count": 287,
       "error": null,
-      "ms": 1200
+      "ms": 823
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 942
+      "ms": 749
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 319
+      "ms": 519
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 118
+      "ms": 513
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 350
+      "ms": 314
     },
     "The Independent": {
       "ok": true,
-      "count": 98,
+      "count": 100,
       "error": null,
-      "ms": 356
+      "ms": 275
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 282
+      "ms": 261
     }
   },
   "breaking": [
     {
+      "title": "US midterm election results live: Trump blames Iran war after losses",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T21:00:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-midterm-election-results-2026-congress-senate-house-governor-races-before-and-after/article71664981.ece",
+          "title": "U.S. midterm election results: Senate, House and Governor shifts before and after",
+          "published": "2026-11-04T16:41:17+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/iran-united-states-midterm-results-trump-9.7408499?cmp=rss",
+          "title": "Iranian officials welcome U.S. midterm results after voters rebuke Trump administration, Iran war",
+          "published": "2026-11-04T12:54:34+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "South Africans vote in key municipal elections",
+      "url": "https://www.france24.com/en/south-africans-vote-in-key-municipal-elections",
+      "source": "France24",
+      "published": "2026-11-04T21:26:13+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/04/south-africans-vote-in-local-elections-with-anc-missteps-in-sharp-focus/",
+          "title": "South Africans vote in local elections with ANC missteps in sharp focus",
+          "published": "2026-11-04T16:01:52+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+          "title": "ANC faces anger over poor services as South Africans vote in local elections",
+          "published": "2026-11-04T14:50:47+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Five takeaways from US midterms as Democrats sweep Congress and Trump faces Iran reckoning",
+      "url": "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
+      "source": "SCMP",
+      "published": "2026-11-04T21:24:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/winners-losers-the-eu-five-takeaways-from-the-us-midterms/a-79858901?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Winners, losers, the EU: Five takeaways from the US midterms",
+          "published": "2026-11-04T20:27:00+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/us-midterms-how-will-trump-manage-working-with-democrats",
+          "title": "US Midterms: How will Trump manage working with Democrats?",
+          "published": "2026-11-04T16:24:56+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "US midterm elections 2026 live: Democrats hope for more wins in tight races as Trump downplays his role in blue wave",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
       "source": "The Guardian",
-      "published": "2026-11-04T20:47:40+00:00",
+      "published": "2026-11-04T21:14:52+00:00",
       "score": 3,
       "other_sources": [
         {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-lossers-live-updates-trump-republicans-democrats-news/article71660811.ece",
           "title": "U.S. midterm elections 2026 LIVE: Trump says 'largely true' Iran war caused election loss",
-          "published": "2026-11-04T19:19:30+00:00"
+          "published": "2026-11-04T20:58:41+00:00"
         },
         {
           "source": "Euronews",
@@ -169,44 +235,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html",
-      "source": "The Independent",
-      "published": "2026-11-04T19:00:32+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/us-midterms-how-will-trump-manage-working-with-democrats",
-          "title": "US Midterms: How will Trump manage working with Democrats?",
-          "published": "2026-11-04T16:24:56+00:00"
-        },
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
-          "published": "2026-11-04T09:09:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Winners, losers, the EU: Five takeaways from the US midterms",
-      "url": "https://www.dw.com/en/winners-losers-the-eu-five-takeaways-from-the-us-midterms/a-79858901?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-04T20:27:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
-          "title": "The biggest winners and losers of the 2026 US midterms",
-          "published": "2026-11-04T18:52:25+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "WHO approves clinical trials on two new Ebola vaccines",
@@ -220,6 +248,22 @@
           "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines?traffic_source=rss",
           "title": "WHO approves trials for two new Ebola vaccines",
           "published": "2026-11-04T19:22:09+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump",
+      "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-losers-trump-republicans-democrats-news/article71663818.ece",
+      "source": "The Hindu",
+      "published": "2026-11-04T19:50:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/04/democrats-set-to-seize-control-of-congress-after-long-night-for-republican-party",
+          "title": "Democrats win control of US Congress in midterm rejection of Trump presidency",
+          "published": "2026-11-04T05:57:47+00:00"
         }
       ],
       "consensus": 2.5
@@ -241,45 +285,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him",
-      "url": "https://www.channelnewsasia.com/world/trump-us-midterms-iran-war-republican-loss-6525316",
-      "source": "CNA",
-      "published": "2026-11-04T19:33:31+00:00",
+      "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html",
+      "source": "The Independent",
+      "published": "2026-11-04T19:00:32+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-says-republicans-harmed-byiran-war-inability-to-transfer-the-love-for-him/article71667372.ece",
-          "title": "Trump says Republicans harmed by Iran war, inability to ‘transfer the love’ for him",
-          "published": "2026-11-04T19:18:44+00:00"
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
+          "published": "2026-11-04T09:09:00+00:00"
         }
       ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Zelenskyy awards US first lady Ukrainian civilian honour",
-      "url": "https://www.channelnewsasia.com/world/zelenskyy-melania-trump-honour-ukraine-ceasefire-6525091",
-      "source": "CNA",
-      "published": "2026-11-04T18:33:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/ukraines-zelenskyy-awards-us-first-lady-melania-state-honour/article71667243.ece",
-          "title": "Ukraine's Zelenskyy awards U.S. first lady Melania state honour",
-          "published": "2026-11-04T17:59:36+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "'It would be a scandal': NT government accused of hiding youth prison from UN",
-      "url": "https://www.abc.net.au/news/2026-11-05/united-nations-blocked-from-inspecting-darwin-youth-jail/107343550",
-      "source": "ABC Australia",
-      "published": "2026-11-04T21:00:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "consensus": 2.5
     }
   ],
   "world": [
@@ -384,28 +403,6 @@
       "consensus": 3.0
     },
     {
-      "title": "Indonesia arrests ex-police chief over alleged illegal wiretapping of President, officials",
-      "url": "https://www.thehindu.com/news/international/indonesia-arrests-ex-police-chief-over-alleged-illegal-wiretapping-of-president-officials/article71664234.ece",
-      "source": "The Hindu",
-      "published": "2026-11-04T06:25:45+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/04/asia-pacific/politics/indonesia-wiretapping-president/",
-          "title": "Indonesia arrests chief of staff and top policemen for alleged wiretapping of president",
-          "published": "2026-11-04T01:43:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/indonesia-arrests-ex-police-chief-listyo-for-alleged-wiretapping-of-prabowo",
-          "title": "Indonesia arrests ex-police chief Listyo for alleged wiretapping of Prabowo",
-          "published": "2026-11-03T15:00:00+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
       "title": "Danish students join European protest wave against education funding cuts",
       "url": "https://www.aljazeera.com/news/2026/11/4/danish-students-join-european-protest-wave-against-education-funding-cuts?traffic_source=rss",
       "source": "Al Jazeera",
@@ -486,38 +483,6 @@
       "consensus": 2.5
     },
     {
-      "title": "South Africans vote in local elections with ANC missteps in sharp focus",
-      "url": "http://www.africanews.com/2026/11/04/south-africans-vote-in-local-elections-with-anc-missteps-in-sharp-focus/",
-      "source": "Africanews",
-      "published": "2026-11-04T16:01:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-          "title": "ANC faces anger over poor services as South Africans vote in local elections",
-          "published": "2026-11-04T14:50:47+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Iranian leaders welcome US midterm results, but Trump may still attack",
-      "url": "https://www.aljazeera.com/news/2026/11/4/iranian-leaders-welcome-us-midterms-but-trump-may-still-attack?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-04T15:13:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/iran-united-states-midterm-results-trump-9.7408499?cmp=rss",
-          "title": "Iranian officials welcome U.S. midterm results after voters rebuke Trump administration, Iran war",
-          "published": "2026-11-04T12:54:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "What the Democrats' midterms win means for the US economy and Trump",
       "url": "https://www.dw.com/en/what-the-democrats-midterms-win-means-for-the-us-economy-and-trump/a-79853716?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -545,22 +510,6 @@
           "url": "https://www.theguardian.com/world/2026/nov/04/israel-election-commission-rejects-netanyahu-claims-voting-fraud",
           "title": "Israel’s election commission rejects Netanyahu claims of voting fraud",
           "published": "2026-11-04T12:19:18+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Democrats win U.S. Congress in midterm rout of U.S. President Donald Trump",
-      "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-losers-trump-republicans-democrats-news/article71663818.ece",
-      "source": "The Hindu",
-      "published": "2026-11-04T10:59:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/04/democrats-set-to-seize-control-of-congress-after-long-night-for-republican-party",
-          "title": "Democrats win control of US Congress in midterm rejection of Trump presidency",
-          "published": "2026-11-04T05:57:47+00:00"
         }
       ],
       "consensus": 2.5
@@ -598,17 +547,33 @@
       "consensus": 2.5
     },
     {
-      "title": "Bomb threats force several flights into emergency landings across Europe",
-      "url": "https://www.independent.co.uk/news/world/europe/bomb-threats-flights-europe-emergency-landing-b3078425.html",
-      "source": "The Independent",
-      "published": "2026-11-04T00:09:32+00:00",
+      "title": "Students blockade dozens of French schools and universities",
+      "url": "https://www.thehindu.com/news/international/students-blockade-dozens-of-french-schools-and-universities/article71662627.ece",
+      "source": "The Hindu",
+      "published": "2026-11-04T01:03:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/bomb-threats-europe-flights-ryanair-6517866",
-          "title": "Bomb threats disrupt Europe flights",
-          "published": "2026-11-03T20:20:34+00:00"
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/france/20261103-students-blockade-dozens-of-high-schools-in-france-before-nationwide-strike",
+          "title": "Students blockade dozens of high schools in France before nationwide strike",
+          "published": "2026-11-03T12:20:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Death toll hits 31 after Russian strike on Ukrainian aid site, with dozens still missing",
+      "url": "https://www.thehindu.com/news/international/death-toll-hits-31-after-russian-strike-on-ukrainian-aid-site-with-dozens-still-missing/article71662599.ece",
+      "source": "The Hindu",
+      "published": "2026-11-03T18:16:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
+          "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
+          "published": "2026-11-03T11:01:14+00:00"
         }
       ],
       "consensus": 2.5
@@ -628,6 +593,38 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Trump says Republicans harmed by Iran war, inability to 'transfer the love' for him",
+      "url": "https://www.channelnewsasia.com/world/trump-us-midterms-iran-war-republican-loss-6525316",
+      "source": "CNA",
+      "published": "2026-11-04T19:33:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-says-republicans-harmed-byiran-war-inability-to-transfer-the-love-for-him/article71667372.ece",
+          "title": "Trump says Republicans harmed by Iran war, inability to ‘transfer the love’ for him",
+          "published": "2026-11-04T19:18:44+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Zelenskyy awards US first lady Ukrainian civilian honour",
+      "url": "https://www.channelnewsasia.com/world/zelenskyy-melania-trump-honour-ukraine-ceasefire-6525091",
+      "source": "CNA",
+      "published": "2026-11-04T18:33:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/ukraines-zelenskyy-awards-us-first-lady-melania-state-honour/article71667243.ece",
+          "title": "Ukraine's Zelenskyy awards U.S. first lady Melania state honour",
+          "published": "2026-11-04T17:59:36+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "South Africa votes in local elections as growing anger threatens ANC",
@@ -758,118 +755,134 @@
       "consensus": 1.5
     },
     {
-      "title": "Cracks emerge in Trump’s Reflecting Pool - hours after he stood in front and told Americans about his great renovation",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-reflecting-pool-cracking-b3079076.html",
+      "title": "Portugal: Housing protesters return to Lisbon square after court ruling",
+      "url": "http://www.africanews.com/2026/11/04/portugal-housing-protesters-return-to-lisbon-square-after-court-ruling/",
+      "source": "Africanews",
+      "published": "2026-11-04T10:45:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/04/portugal-housing-protesters-return-to-lisbon-square-after-court-ruling",
+          "title": "Portugal: Housing protesters return to Lisbon square after court ruling",
+          "published": "2026-11-04T10:19:36+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Netanyahu claims 'serious concerns' of foreign spending to sway Israeli election",
+      "url": "https://www.france24.com/en/middle-east/20261104-netanyahu-claims-serious-concerns-of-foreign-spending-to-sway-israeli-election",
+      "source": "France24",
+      "published": "2026-11-04T21:26:53+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump’s ballroom deflection from his midterms ‘shellacking’ isn’t fooling anyone",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-defeat-ballroom-event-b3079364.html",
       "source": "The Independent",
-      "published": "2026-11-04T20:49:14+00:00",
+      "published": "2026-11-04T21:22:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Outback steps in to save dozens of steakhouses after franchise owner files for bankruptcy",
-      "url": "https://www.independent.co.uk/news/world/americas/outback-steakhouse-franchise-owner-files-bankruptcy-b3079368.html",
+      "title": "Social media reacts to Democrats’ takeover of US Congress",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/social-media-reacts-to-democrats-takeover-of-us-congress?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T21:21:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump insists he’d do Iran war ‘again’ despite admitting it hurt Republicans in midterms: Live updates",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
       "source": "The Independent",
-      "published": "2026-11-04T20:48:59+00:00",
+      "published": "2026-11-04T21:20:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What it's like to lose your job to AI",
-      "url": "https://www.rnz.co.nz/news/personal-finance/2346813/what-it-s-like-to-lose-your-job-to-ai",
-      "source": "RNZ",
-      "published": "2026-11-04T20:47:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bob Dylan comes knockin’ on pope’s door as Leo welcomes legend to Vatican",
-      "url": "https://www.scmp.com/news/world/europe/article/3373316/bob-dylan-comes-knockin-popes-door-leo-welcomes-legend-vatican",
-      "source": "SCMP",
-      "published": "2026-11-04T20:47:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Helicopter crashes into bay near Miami killing one person and injuring two others",
-      "url": "https://www.independent.co.uk/news/world/americas/miami-helicopter-crash-biscayne-bay-florida-b3079381.html",
+      "title": "Ukraine-Russia war latest: Zelensky condemns Moscow’s ‘insane’ attack on school that left at least 40 dead",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-school-attack-b3079198.html",
       "source": "The Independent",
-      "published": "2026-11-04T20:47:07+00:00",
+      "published": "2026-11-04T21:19:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump rambles from his under-construction White House ballroom after Election Day disaster",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-midterms-results-loss-reaction-post-truth-social-b3079308.html",
-      "source": "The Independent",
-      "published": "2026-11-04T20:44:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "UK government considers smart glasses ban over secret filming concerns",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/04/uk-government-considers-smart-glasses-ban-over-secret-filming-concerns",
-      "source": "The Guardian",
-      "published": "2026-11-04T20:43:21+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Serbia detains police officers over alleged use of force against protesters",
-      "url": "https://www.theguardian.com/world/2026/nov/04/serbia-officers-protesters",
-      "source": "The Guardian",
-      "published": "2026-11-04T20:42:14+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump and Vance lead GOP blame game as fingers point at Iran war",
-      "url": "https://www.abc.net.au/news/2026-11-05/us-midterms-daily-news-briefing/107347184",
+      "title": "Ministers agree on antisemitism curriculum to stamp out 'noxious' racism",
+      "url": "https://www.abc.net.au/news/2026-11-05/education-ministers-agree-to-biggest-shake-up-in-years-of-school/107348312",
       "source": "ABC Australia",
-      "published": "2026-11-04T20:37:23+00:00",
+      "published": "2026-11-04T21:16:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "California progressive Randy Villegas ousts longtime Republican in redrawn House district",
-      "url": "https://www.theguardian.com/us-news/2026/nov/04/california-22nd-district-house-midterms",
+      "title": "Israel restricting treatment for 1,100 child amputees in Gaza: NGO",
+      "url": "https://www.aljazeera.com/news/2026/11/4/israel-restricting-treatment-for-1100-child-amputees-in-gaza-ngo?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T21:13:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Death toll in Russian attack on aid centre up to 40: Zelenskyy",
+      "url": "https://www.channelnewsasia.com/world/ukraine-russia-war-aid-centre-attack-40-killed-6525456",
+      "source": "CNA",
+      "published": "2026-11-04T21:12:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Debt relief and aid no replacement for slavery reparations, UK told",
+      "url": "https://www.theguardian.com/world/2026/nov/04/debt-relief-aid-no-replacement-slavery-reparations-uk-told-caribbean",
       "source": "The Guardian",
-      "published": "2026-11-04T20:37:17+00:00",
+      "published": "2026-11-04T21:10:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Native American women make history in U.S. midterm elections",
-      "url": "https://www.cbc.ca/news/indigenous/deb-haaland-peggy-flanagan-election-2026-9.7409281?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-04T20:37:06+00:00",
+      "title": "Canada to curb reliance on US despite Trump team’s crushing midterm loss, minister says",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373317/canada-curb-reliance-us-despite-trump-teams-crushing-midterm-loss-minister-says",
+      "source": "SCMP",
+      "published": "2026-11-04T21:10:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What’s bad for Trump is good for Le Pen",
-      "url": "https://www.politico.eu/article/cost-of-living-europe-elections-france-spain-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-04T20:34:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump boasts about ‘magnificent’ ballroom day after Republican rout",
-      "url": "https://www.theguardian.com/us-news/2026/nov/04/trump-ballroom-midterms-reaction",
+      "title": "Telstra apologises after customers mystified by phantom missed call notifications",
+      "url": "https://www.theguardian.com/business/2026/nov/05/telstra-customers-false-missed-call-notifications-apology",
       "source": "The Guardian",
-      "published": "2026-11-04T20:34:08+00:00",
+      "published": "2026-11-04T21:10:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Menindee Lakes locals fear more fish kills as hot summer forecast",
+      "url": "https://www.abc.net.au/news/2026-11-05/menindee-lakes-review-locals-view-fish-kills/107255566",
+      "source": "ABC Australia",
+      "published": "2026-11-04T21:09:53+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Musk-backed candidates lose midterms despite financial backing",
+      "url": "https://www.france24.com/en/musk-backed-candidates-lose-midterms-despite-financial-backing",
+      "source": "France24",
+      "published": "2026-11-04T21:06:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -878,9 +891,9 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7688.87,
+      "price": 7688.62,
       "currency": "USD",
-      "change": 119.95,
+      "change": 119.7,
       "change_percent": 1.58,
       "name": "S&P 500"
     },
@@ -913,9 +926,9 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7688.87,
+        "price": 7688.62,
         "currency": "USD",
-        "change": 119.95,
+        "change": 119.7,
         "change_percent": 1.58,
         "name": "S&P 500"
       },
@@ -929,9 +942,9 @@
       },
       {
         "symbol": "^DJI",
-        "price": 53357.19,
+        "price": 53356.12,
         "currency": "USD",
-        "change": 1570.47,
+        "change": 1569.4,
         "change_percent": 3.03,
         "name": "Dow Jones"
       },
@@ -971,26 +984,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4069.4,
+        "price": 4075.5,
         "currency": "USD",
-        "change": 129.0,
-        "change_percent": 3.27,
+        "change": 135.1,
+        "change_percent": 3.43,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.24,
+        "price": 52.37,
         "currency": "USD",
-        "change": 2.49,
-        "change_percent": 5.01,
+        "change": 2.62,
+        "change_percent": 5.26,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 95.26,
+        "price": 95.04,
         "currency": "USD",
-        "change": -8.34,
-        "change_percent": -8.05,
+        "change": -8.56,
+        "change_percent": -8.26,
         "name": "Brent Crude"
       },
       {
@@ -1006,23 +1019,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.45,
+        "change_percent": 0.46,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.45,
+        "price": 158.42,
         "currency": "JPY",
-        "change": -0.17,
-        "change_percent": -0.11,
+        "change": -0.2,
+        "change_percent": -0.12,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 80075.52,
+        "price": 80029.83,
         "currency": "USD",
-        "change": 2737.29,
-        "change_percent": 3.54,
+        "change": 2691.6,
+        "change_percent": 3.48,
         "name": "Bitcoin"
       }
     ],
@@ -1217,6 +1230,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "It’s the Morality, Stupid",
+          "url": "https://www.theatlantic.com/culture/2026/11/morality-mattered-midterms/689293/?utm_source=feed",
+          "published": "2026-11-04T21:01:50+00:00",
+          "snippet": "Some midterm voters may have been driven by the desire to repudiate cruelty."
+        },
+        {
           "title": "Vance 2028 Is Here",
           "url": "https://www.theatlantic.com/ideas/2026/11/vance-2028-campaign-strategy-change/689291/?utm_source=feed",
           "published": "2026-11-04T20:30:46+00:00",
@@ -1227,12 +1246,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/trump-era-republicans-midterms/689292/?utm_source=feed",
           "published": "2026-11-04T20:30:06+00:00",
           "snippet": "The midterm elections were a thorough repudiation of the president and what he stands for."
-        },
-        {
-          "title": "Donald Trump Wanted to Be Viktor Orbán",
-          "url": "https://www.theatlantic.com/ideas/2026/11/trump-orban-elections/689287/?utm_source=feed",
-          "published": "2026-11-04T20:16:19+00:00",
-          "snippet": "And now he got his wish."
         }
       ]
     },
@@ -1315,52 +1328,58 @@
   "web": {
     "tech": [
       {
+        "title": "Everything is an AI scam now",
+        "url": "https://www.davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now/",
+        "score": 34,
+        "source": "Hacker News",
+        "published": "2026-11-04T21:05:19+00:00"
+      },
+      {
+        "title": "AR guitar with just a laptop and scissors",
+        "url": "https://www.arguitar.com/",
+        "score": 7,
+        "source": "Hacker News",
+        "published": "2026-11-04T20:54:34+00:00"
+      },
+      {
         "title": "Residential Proxies Detected on White House Network",
         "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-        "score": 21,
+        "score": 156,
         "source": "Hacker News",
         "published": "2026-11-04T20:45:18+00:00"
       },
       {
-        "title": "Code Matters: Reflections on Rust in the LLM Age",
-        "url": "https://www.youtube.com/watch?v=5D7QPOIZ7gY",
-        "comments_url": "https://lobste.rs/s/r3faqj/code_matters_reflections_on_rust_llm_age",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-04T19:59:35.166000+00:00"
-      },
-      {
         "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
         "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "score": 29,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-04T19:55:14+00:00"
       },
       {
         "title": "Insects Don't Swarm at LED Lights",
         "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-        "score": 50,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-04T19:50:23+00:00"
       },
       {
         "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
         "url": "https://www.ricursive.com/ripple",
-        "score": 101,
+        "score": 128,
         "source": "Hacker News",
         "published": "2026-11-04T18:53:29+00:00"
       },
       {
         "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
         "url": "https://fireflyk64.github.io/wcmulti/",
-        "score": 19,
+        "score": 34,
         "source": "Hacker News",
         "published": "2026-11-04T18:51:27+00:00"
       },
       {
         "title": "Have I Befriended a Murderer?",
         "url": "https://longreads.com/2026/11/03/murder-friendship-doubt/",
-        "score": 63,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-04T18:40:54+00:00"
       },
@@ -1376,28 +1395,36 @@
         "title": "A new Go API for JSON",
         "url": "https://go.dev/blog/jsonv2",
         "comments_url": "https://lobste.rs/s/gfm0xn/new_go_api_for_json",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-04T17:52:32.448000+00:00"
       },
       {
         "title": "A new Go API for JSON",
         "url": "https://go.dev/blog/jsonv2",
-        "score": 136,
+        "score": 141,
         "source": "Hacker News",
         "published": "2026-11-04T17:52:11+00:00"
       },
       {
         "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
-        "score": 40,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-04T17:31:53+00:00"
       },
       {
+        "title": "Python on my wrist",
+        "url": "https://tildeweb.nl/~michiel/python-on-my-wrist.html",
+        "comments_url": "https://lobste.rs/s/0vis9y/python_on_my_wrist",
+        "score": 3,
+        "source": "Lobste.rs",
+        "published": "2026-11-04T17:31:02.065000+00:00"
+      },
+      {
         "title": "Progress on provable inference for large language models",
         "url": "https://www.anthropic.com/research/provable-inference",
-        "score": 139,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-04T17:17:46+00:00"
       },
@@ -1408,21 +1435,6 @@
         "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-04T15:54:58.895000+00:00"
-      },
-      {
-        "title": "Arrows to Arrows, Categories to Queries",
-        "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-        "comments_url": "https://lobste.rs/s/gqis6q/arrows_arrows_categories_queries",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-04T15:49:15.176000+00:00"
-      },
-      {
-        "title": "AMD expects to outsell Intel in Q4 for the first time in history",
-        "url": "https://www.tomshardware.com/pc-components/cpus/amd-expects-to-outsell-intel-in-q4-for-the-first-time-in-history-usd17b-guidance-would-exceed-intels-projections",
-        "score": 353,
-        "source": "Hacker News",
-        "published": "2026-11-04T15:38:34+00:00"
       }
     ],
     "reddit": [
@@ -1475,20 +1487,20 @@
         "published": "2026-11-04T15:59:01+00:00"
       },
       {
-        "title": "'Democracy won in America,' Tusk declares alongside Czech Republic's Babiš",
-        "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news?CMP=share_btn_url&amp;page=with%3Ablock-6aeb133b8f088024efe06219#block-6aeb133b8f088024efe06219",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xnlpof/democracy_won_in_america_tusk_declares_alongside/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-04T11:20:41+00:00"
-      },
-      {
         "title": "Russian tankers carrying diesel have sharply changed course and are no longer heading to the United States",
         "url": "https://unn.ua/en/news/russian-tankers-carrying-diesel-have-sharply-changed-course-and-are-no-longer-heading-to-the-united-states",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnk0z4/russian_tankers_carrying_diesel_have_sharply/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-04T09:36:37+00:00"
+      },
+      {
+        "title": "'Democracy won in America,' Tusk declares alongside Czech Republic's Babiš",
+        "url": "https://www.theguardian.com/world/live/2026/nov/04/eu-ukraine-russia-france-germany-us-nato-europe-latest-news?CMP=share_btn_url&amp;page=with%3Ablock-6aeb133b8f088024efe06219#block-6aeb133b8f088024efe06219",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xnlpof/democracy_won_in_america_tusk_declares_alongside/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-04T11:20:41+00:00"
       },
       {
         "title": "Canada to Ban Russia From Hockey Event, Defying Court Ruling",

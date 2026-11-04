@@ -1,153 +1,175 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-04T23:30:51.338769+00:00",
+  "last_updated": "2026-11-04T23:56:49.609649+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 367
+      "ms": 555
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 334
+      "ms": 538
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 199
+      "ms": 267
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 188
+      "ms": 323
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 488
+      "ms": 344
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 416
+      "ms": 311
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 449
+      "ms": 676
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 558
+      "ms": 418
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 205
+      "ms": 109
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 283
+      "ms": 160
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 712
+      "ms": 777
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 243
+      "ms": 499
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 218
+      "ms": 238
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 162
+      "ms": 145
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 381
+      "ms": 420
     },
     "RNZ": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 400
+      "ms": 471
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 918
+      "ms": 735
     },
     "Semafor": {
       "ok": true,
       "count": 284,
       "error": null,
-      "ms": 680
+      "ms": 828
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 550
+      "ms": 745
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 375
+      "ms": 298
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 130
+      "ms": 285
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 243
+      "ms": 347
     },
     "The Independent": {
       "ok": true,
-      "count": 99,
+      "count": 100,
       "error": null,
-      "ms": 280
+      "ms": 350
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 304
+      "ms": 409
     }
   },
   "breaking": [
+    {
+      "title": "Trump blames Iran war for midterms losses",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T23:30:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
+          "title": "Trump insists he’d do Iran war ‘again’ despite admitting it hurt Republicans in midterms: Live updates",
+          "published": "2026-11-04T22:59:33+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/trump-midterms-jd-vance-iran-war-9.7409264?cmp=rss",
+          "title": "JD Vance blames Iran war for midterm thumping. Is he really blaming Trump?",
+          "published": "2026-11-04T20:27:48+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
     {
       "title": "US midterm election results could boost local NZ economy - Auckland Business Chamber",
       "url": "https://www.rnz.co.nz/news/business/2355589/us-midterm-election-results-could-boost-local-nz-economy-auckland-business-chamber",
@@ -169,6 +191,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html",
+      "source": "The Independent",
+      "published": "2026-11-04T23:41:52+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/us-midterms-how-will-trump-manage-working-with-democrats",
+          "title": "US Midterms: How will Trump manage working with Democrats?",
+          "published": "2026-11-04T16:24:56+00:00"
+        },
+        {
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
+          "published": "2026-11-04T09:09:00+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "South Africans vote in key municipal elections",
@@ -193,17 +237,17 @@
       "consensus": 3.5
     },
     {
-      "title": "US midterm elections 2026 live: Democrats pick up more wins as vote counting in tight races continues and Republican blame game begins",
+      "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
       "source": "The Guardian",
-      "published": "2026-11-04T23:13:40+00:00",
+      "published": "2026-11-04T23:36:32+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-lossers-live-updates-trump-republicans-democrats-news/article71660811.ece",
           "title": "U.S. midterm elections 2026 LIVE: Trump says 'largely true' Iran war caused election loss",
-          "published": "2026-11-04T20:58:41+00:00"
+          "published": "2026-11-04T23:02:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -225,44 +269,19 @@
       "consensus": 2.5
     },
     {
-      "title": "5 takeaways from US midterms as Democrats sweep Congress and Trump faces Iran reckoning",
-      "url": "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
-      "source": "SCMP",
-      "published": "2026-11-04T21:24:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/us-midterms-how-will-trump-manage-working-with-democrats",
-          "title": "US Midterms: How will Trump manage working with Democrats?",
-          "published": "2026-11-04T16:24:56+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Google turns off AI for schoolchildren by default",
-      "url": "https://www.channelnewsasia.com/world/google-ai-children-turn-default-6525746",
-      "source": "CNA",
-      "published": "2026-11-04T23:23:12+00:00",
+      "title": "No voting stations at some Auckland hospitals",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2356110/no-voting-stations-at-some-auckland-hospitals",
+      "source": "RNZ",
+      "published": "2026-11-04T23:54:36+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump U-turns on former MAGA ally Greg Abbott with dizzying speed after his election loss became clear",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-greg-abbott-midterm-results-b3079444.html",
-      "source": "The Independent",
-      "published": "2026-11-04T23:15:52+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Lockheed Martin to pay $29.5 million settlement for discrimination against white workers",
-      "url": "https://www.independent.co.uk/news/world/americas/lockheed-martin-dei-white-empoyees-b3079449.html",
-      "source": "The Independent",
-      "published": "2026-11-04T23:14:39+00:00",
+      "title": "Speculation Victorian farm could sell for close to $100 million",
+      "url": "https://www.abc.net.au/news/2026-11-05/mount-fyans-sale-expected-to-break-farmland-record/107348504",
+      "source": "ABC Australia",
+      "published": "2026-11-04T23:52:32+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -406,22 +425,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Donald Trump humiliated in US midterms as Democrats seize control of Congress",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/donald-trump-us-midterm-elections-democrats-b3079227.html",
-      "source": "The Independent",
-      "published": "2026-11-04T19:00:32+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
-          "published": "2026-11-04T09:09:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Danish students join European protest wave against education funding cuts",
       "url": "https://www.aljazeera.com/news/2026/11/4/danish-students-join-european-protest-wave-against-education-funding-cuts?traffic_source=rss",
       "source": "Al Jazeera",
@@ -481,22 +484,6 @@
           "url": "https://www.cbc.ca/news/world/iran-united-states-midterm-results-trump-9.7408499?cmp=rss",
           "title": "Iranian officials welcome U.S. midterm results after voters rebuke Trump administration, Iran war",
           "published": "2026-11-04T12:54:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ukrainian strikes kill three in Russia’s Belgorod region",
-      "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-04T16:20:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/04/ukrainian-attacks-kill-3-in-belgorod-region-a94179",
-          "title": "Ukrainian Attacks Kill 3 in Belgorod Region",
-          "published": "2026-11-04T14:50:26+00:00"
         }
       ],
       "consensus": 2.5
@@ -774,91 +761,109 @@
       "consensus": 1.5
     },
     {
-      "title": "CBS News is dead last in network ratings coverage of midterms, Nielsen data reveals",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/cbs-news-tv-ratings-midterms-b3079398.html",
-      "source": "The Independent",
-      "published": "2026-11-04T23:12:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Greens senator Jordon Steele-John's ex-partner charged with stalking",
-      "url": "https://www.abc.net.au/news/2026-11-05/greens-senator-jordon-steele-john-ex-partner-charged-stalking/107348424",
-      "source": "ABC Australia",
-      "published": "2026-11-04T23:11:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump’s constant companion aide Natalie Harp appears to have taken on a more personal role",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-mobile-phone-natalie-harp-b3079434.html",
-      "source": "The Independent",
-      "published": "2026-11-04T23:08:28+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Amy Acton let Vivek Ramaswamy’s concession call go to voicemail after repulsive attack ad featuring her estranged mother",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/amy-acton-vivek-ramaswamy-midterms-win-concession-b3079389.html",
-      "source": "The Independent",
-      "published": "2026-11-04T23:08:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Full year profit dips to $1.1 billion at BNZ",
-      "url": "https://www.rnz.co.nz/news/business/2355777/full-year-profit-dips-to-1-point-1-billion-at-bnz",
+      "title": "Bodies yet to be recovered after plane destroyed in crash near Nelson",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2356081/bodies-yet-to-be-recovered-after-plane-destroyed-in-crash-near-nelson",
       "source": "RNZ",
-      "published": "2026-11-04T23:04:49+00:00",
+      "published": "2026-11-04T23:48:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Joshua Wong, Hong Kong pro-democracy poster boy facing longer prison stint",
-      "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-activist-joshua-wong-set-to-be-sentenced-on-national-security-charge",
-      "source": "Straits Times",
-      "published": "2026-11-04T23:02:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "What’s the message for China as Japan weighs US$500 billion defence surge?",
-      "url": "https://www.scmp.com/news/china/military/article/3373139/whats-message-china-japan-weighs-us500-billion-defence-surge",
+      "title": "Nasa’s 22-year-old Swift satellite telescope falls from orbit in fiery finale",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373323/nasas-22-year-old-swift-satellite-telescope-falls-orbit-fiery-finale",
       "source": "SCMP",
-      "published": "2026-11-04T23:00:10+00:00",
+      "published": "2026-11-04T23:46:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump insists he’d do Iran war ‘again’ despite admitting it hurt Republicans in midterms: Live updates",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
-      "source": "The Independent",
-      "published": "2026-11-04T22:59:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Mount Morgan residents welcome new water pipeline after drought",
-      "url": "https://www.abc.net.au/news/2026-11-05/mount-morgan-residents-welcome-new-water-pipeline/107347094",
+      "title": "Rugby league great Paul Langmack dies aged 61",
+      "url": "https://www.abc.net.au/news/2026-11-05/rugby-league-great-paul-langmack-dies-aged-61/107348920",
       "source": "ABC Australia",
-      "published": "2026-11-04T22:58:29+00:00",
+      "published": "2026-11-04T23:35:40+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Kohli in the runs as India thrash New Zealand in first ODI",
-      "url": "https://www.rnz.co.nz/news/sport/2334864/kohli-in-the-runs-as-india-thrash-new-zealand-in-first-odi",
+      "title": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom",
+      "url": "https://www.channelnewsasia.com/world/donald-trump-us-midterms-white-house-ballroom-6525736",
+      "source": "CNA",
+      "published": "2026-11-04T23:35:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "St John will delay shut down of specialist paramedic team who help police and firefighters",
+      "url": "https://www.rnz.co.nz/news/health/2355310/st-john-will-delay-shut-down-of-specialist-paramedic-team-who-help-police-and-firefighters",
       "source": "RNZ",
-      "published": "2026-11-04T22:57:46+00:00",
+      "published": "2026-11-04T23:34:49+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/giant-banner-of-trump-vance-and-netanyahu-burnt-at-tehran-rally?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T23:34:47+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "NASA Swift telescope plummets to Earth near Indonesia",
+      "url": "https://www.abc.net.au/news/2026-11-05/nasa-telescope-plummets-to-earth-after-decades-long-mission/107348488",
+      "source": "ABC Australia",
+      "published": "2026-11-04T23:34:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump threatened ICE agents at the polls. There was historic turnout instead",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ice-polls-midterm-election-results-b3079448.html",
+      "source": "The Independent",
+      "published": "2026-11-04T23:32:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Opportunity defends constitutional provision that could mean two board members veto coalition agreement",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2355933/opportunity-defends-constitutional-provision-that-could-mean-two-board-members-veto-coalition-agreement",
+      "source": "RNZ",
+      "published": "2026-11-04T23:30:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Fiji PM Rabuka downplays El Niño impact: 'Are people dying? No. We can manage'",
+      "url": "https://www.rnz.co.nz/news/pacific/2355926/fiji-pm-rabuka-downplays-el-nino-impact-are-people-dying-no-we-can-manage",
+      "source": "RNZ",
+      "published": "2026-11-04T23:28:32+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Samoa government urged at UN to address declining media freedom",
+      "url": "https://www.rnz.co.nz/news/pacific/2355925/samoa-government-urged-at-un-to-address-declining-media-freedom",
+      "source": "RNZ",
+      "published": "2026-11-04T23:28:32+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Election live: 'A woman's dignity is not a punchline': Former NZ First MP Ria Bond on Michael Laws' comments",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2347755/election-live-a-woman-s-dignity-is-not-a-punchline-former-nz-first-mp-ria-bond-on-michael-laws-comments",
+      "source": "RNZ",
+      "published": "2026-11-04T23:26:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -960,26 +965,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4072.5,
+        "price": 4074.7,
         "currency": "USD",
-        "change": -0.5,
-        "change_percent": -0.01,
+        "change": 1.7,
+        "change_percent": 0.04,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.37,
+        "price": 52.38,
         "currency": "USD",
         "change": 0.09,
-        "change_percent": 0.17,
+        "change_percent": 0.18,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 94.73,
+        "price": 94.87,
         "currency": "USD",
-        "change": 0.11,
-        "change_percent": 0.12,
+        "change": 0.25,
+        "change_percent": 0.26,
         "name": "Brent Crude"
       },
       {
@@ -995,23 +1000,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.48,
+        "change_percent": 0.5,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.39,
+        "price": 158.36,
         "currency": "JPY",
-        "change": -0.23,
-        "change_percent": -0.15,
+        "change": -0.26,
+        "change_percent": -0.16,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 80414.44,
+        "price": 80453.52,
         "currency": "USD",
-        "change": 3076.21,
-        "change_percent": 3.98,
+        "change": 3115.29,
+        "change_percent": 4.03,
         "name": "Bitcoin"
       }
     ],
@@ -1206,22 +1211,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "The Midwest Is Back on the Map for Democrats",
+          "url": "https://www.theatlantic.com/politics/2026/11/sand-turek-iowa-midterms-blue/689290/?utm_source=feed",
+          "published": "2026-11-04T23:13:04+00:00",
+          "snippet": "Can the party sustain it?"
+        },
+        {
+          "title": "Google Puts a Price on Opting Out of AI in Schools",
+          "url": "https://www.theatlantic.com/technology/2026/11/google-schools-ai-search/689298/?utm_source=feed",
+          "published": "2026-11-04T23:10:00+00:00",
+          "snippet": "Are districts willing to give up the world’s most popular search engine?"
+        },
+        {
           "title": "The Polls Found a New Way to Be Wrong",
           "url": "https://www.theatlantic.com/politics/2026/11/midterm-polls-democrats/689297/?utm_source=feed",
           "published": "2026-11-04T22:28:00+00:00",
           "snippet": "After a decade of underrating Donald Trump’s support, pollsters finally underestimated Democrats."
-        },
-        {
-          "title": "Democrats Will Likely Disappoint Voters Soon",
-          "url": "https://www.theatlantic.com/newsletters/2026/11/democrats-midterms-bue-wave-affordability-trap/689294/?utm_source=feed",
-          "published": "2026-11-04T21:24:00+00:00",
-          "snippet": "We don’t need to guess what happens to politicians who campaign on affordability and don’t deliver. We saw it last night."
-        },
-        {
-          "title": "It’s the Morality, Stupid",
-          "url": "https://www.theatlantic.com/culture/2026/11/morality-mattered-midterms/689293/?utm_source=feed",
-          "published": "2026-11-04T21:01:50+00:00",
-          "snippet": "Some midterm voters may have been driven by the desire to repudiate cruelty."
         }
       ]
     },
@@ -1306,56 +1311,56 @@
       {
         "title": "Less Popular Than Coal",
         "url": "https://www.argmin.net/p/less-popular-than-coal",
-        "score": 14,
+        "score": 27,
         "source": "Hacker News",
         "published": "2026-11-04T22:26:24+00:00"
       },
       {
         "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
         "url": "https://icode4.coffee/?p=1746",
-        "score": 30,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-04T22:01:49+00:00"
       },
       {
         "title": "Residential proxies detected on White House network",
         "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-        "score": 474,
+        "score": 502,
         "source": "Hacker News",
         "published": "2026-11-04T20:45:18+00:00"
       },
       {
         "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
         "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "score": 75,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-04T19:55:14+00:00"
       },
       {
         "title": "Insects don't swarm at LED lights",
         "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-        "score": 137,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-04T19:50:23+00:00"
       },
       {
         "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
         "url": "https://www.ricursive.com/ripple",
-        "score": 187,
+        "score": 195,
         "source": "Hacker News",
         "published": "2026-11-04T18:53:29+00:00"
       },
       {
         "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
         "url": "https://fireflyk64.github.io/wcmulti/",
-        "score": 86,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-04T18:51:27+00:00"
       },
       {
         "title": "Conductor is joining Meta",
         "url": "https://www.conductor.build/announcement",
-        "score": 74,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-04T18:22:40+00:00"
       },
@@ -1363,7 +1368,7 @@
         "title": "Burnt TOAST",
         "url": "https://www.pgedge.com/blog/burnt-toast",
         "comments_url": "https://lobste.rs/s/dmpdid/burnt_toast",
-        "score": 7,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-04T18:00:32.521000+00:00"
       },
@@ -1378,22 +1383,29 @@
       {
         "title": "A new Go API for JSON",
         "url": "https://go.dev/blog/jsonv2",
-        "score": 189,
+        "score": 201,
         "source": "Hacker News",
         "published": "2026-11-04T17:52:11+00:00"
+      },
+      {
+        "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+        "url": "https://news.ycombinator.com/item?id=50368804",
+        "score": 63,
+        "source": "Hacker News",
+        "published": "2026-11-04T17:31:53+00:00"
       },
       {
         "title": "Python on my wrist",
         "url": "https://tildeweb.nl/~michiel/python-on-my-wrist.html",
         "comments_url": "https://lobste.rs/s/0vis9y/python_on_my_wrist",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-04T17:31:02.065000+00:00"
       },
       {
         "title": "Progress on provable inference for large language models",
         "url": "https://www.anthropic.com/research/provable-inference",
-        "score": 161,
+        "score": 163,
         "source": "Hacker News",
         "published": "2026-11-04T17:17:46+00:00"
       },
@@ -1401,28 +1413,12 @@
         "title": "Gleam Programming Language Update October 2026",
         "url": "https://www.youtube.com/watch?v=Jm2HZhwreNs",
         "comments_url": "https://lobste.rs/s/afjqpg/gleam_programming_language_update",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-04T15:54:58.895000+00:00"
-      },
-      {
-        "title": "Arrows to Arrows, Categories to Queries",
-        "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-        "comments_url": "https://lobste.rs/s/gqis6q/arrows_arrows_categories_queries",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-04T15:49:15.176000+00:00"
       }
     ],
     "reddit": [
-      {
-        "title": "Texas just went blue, and the tech bros are sad",
-        "url": "https://www.businessinsider.com/texas-went-blue-tech-bros-democrats-2026-11",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xnrp17/texas_just_went_blue_and_the_tech_bros_are_sad/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-04T15:52:01+00:00"
-      },
       {
         "title": "Zelensky doubts Musk ‘acted alone’ in Ukraine Starlink slowdown",
         "url": "https://thehill.com/policy/international/6199329-zelensky-musk-starlink-slowdown/",
@@ -1430,6 +1426,14 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-04T22:15:53+00:00"
+      },
+      {
+        "title": "Texas just went blue, and the tech bros are sad",
+        "url": "https://www.businessinsider.com/texas-went-blue-tech-bros-democrats-2026-11",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xnrp17/texas_just_went_blue_and_the_tech_bros_are_sad/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-04T15:52:01+00:00"
       },
       {
         "title": "1 in 4 teenagers worldwide is not active on any day of the week and girls are falling furthest behind, a major new study finds.",
@@ -1480,36 +1484,12 @@
         "published": "2026-11-04T11:20:41+00:00"
       },
       {
-        "title": "Ukraine Bonds Rise as Democrat Victory Boosts US Support Expectations",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-04/ukraine-bonds-jump-as-democrat-win-seen-helping-defense-efforts",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnnjy4/ukraine_bonds_rise_as_democrat_victory_boosts_us/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-04T12:58:31+00:00"
-      },
-      {
         "title": "Sam Altman Pulls Spectacular 180 After Unpopular Comments About RAM: 'It Is F**king Annoying'",
         "url": "https://kotaku.com/sam-altman-pulls-spectacular-180-after-unpopular-comments-about-ram-it-is-fking-annoying-2000753328",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xnt2ht/sam_altman_pulls_spectacular_180_after_unpopular/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-04T16:45:15+00:00"
-      },
-      {
-        "title": "Canada to Ban Russia From Hockey Event, Defying Court Ruling",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-03/canada-to-ban-russia-from-hockey-event-defying-court-ruling",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xnni4u/canada_to_ban_russia_from_hockey_event_defying/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-04T12:56:07+00:00"
-      },
-      {
-        "title": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
-        "url": "https://www.bbc.com/news/articles/cm87zvpzwq0no",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnzmpe/zelensky_gives_melania_trump_ukraines_highest/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-04T20:55:22+00:00"
       },
       {
         "title": "YouTuber discovers aircraft noise trick that can geolocate your videos to within 100m — 'Doppler effect' pinpoints locations from just 60 seconds of audio",
@@ -1520,12 +1500,12 @@
         "published": "2026-11-04T20:55:17+00:00"
       },
       {
-        "title": "Russian tankers carrying diesel have sharply changed course and are no longer heading to the United States",
-        "url": "https://unn.ua/en/news/russian-tankers-carrying-diesel-have-sharply-changed-course-and-are-no-longer-heading-to-the-united-states",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnk0z4/russian_tankers_carrying_diesel_have_sharply/",
+        "title": "Canada to Ban Russia From Hockey Event, Defying Court Ruling",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-03/canada-to-ban-russia-from-hockey-event-defying-court-ruling",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xnni4u/canada_to_ban_russia_from_hockey_event_defying/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-04T09:36:37+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-04T12:56:07+00:00"
       },
       {
         "title": "The Results Are In: Voters Hate Data Centers",
@@ -1534,6 +1514,30 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-04T18:30:42+00:00"
+      },
+      {
+        "title": "Ukraine Bonds Rise as Democrat Victory Boosts US Support Expectations",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-04/ukraine-bonds-jump-as-democrat-win-seen-helping-defense-efforts",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnnjy4/ukraine_bonds_rise_as_democrat_victory_boosts_us/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-04T12:58:31+00:00"
+      },
+      {
+        "title": "The Dangers of a Lame-Duck Trump: How Far Will He Go to Make Peace—and War?",
+        "url": "https://www.foreignaffairs.com/united-states/dangers-lame-duck-trump",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xnuqd7/the_dangers_of_a_lameduck_trump_how_far_will_he/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-04T17:46:42+00:00"
+      },
+      {
+        "title": "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
+        "url": "https://www.bbc.com/news/articles/cm87zvpzwq0no",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnzmpe/zelensky_gives_melania_trump_ukraines_highest/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-04T20:55:22+00:00"
       }
     ]
   }

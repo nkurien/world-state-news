@@ -1,160 +1,172 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-04T08:30:53.793268+00:00",
+  "last_updated": "2026-11-04T09:01:05.330262+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 144
+      "ms": 138
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 173
+      "ms": 625
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 170
+      "ms": 200
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 315
+      "ms": 53
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 70
+      "ms": 232
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 297
+      "ms": 200
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 539
+      "ms": 224
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 389
+      "ms": 509
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 255
+      "ms": 312
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 228
+      "ms": 1106
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 411
+      "ms": 694
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 303
+      "ms": 524
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 320
+      "ms": 915
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 391
+      "ms": 197
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 181
+      "ms": 251
     },
     "RNZ": {
       "ok": true,
-      "count": 51,
+      "count": 50,
       "error": null,
-      "ms": 165
+      "ms": 125
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 780
+      "ms": 787
     },
     "Semafor": {
       "ok": true,
       "count": 257,
       "error": null,
-      "ms": 1011
+      "ms": 910
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 491
+      "ms": 665
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 237
+      "ms": 647
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 302
+      "ms": 344
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 149
+      "ms": 295
     },
     "The Independent": {
       "ok": true,
       "count": 100,
       "error": null,
-      "ms": 163
+      "ms": 166
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 160
+      "ms": 552
     }
   },
   "breaking": [
     {
-      "title": "Spanish transport minister resigns after train crash killed 69 people",
-      "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-04T07:18:08+00:00",
-      "score": 7,
+      "title": "Spain’s transport minister resigns after the train crash that killed at least 69 people",
+      "url": "https://en.mercopress.com/2026/11/04/spain-s-transport-minister-resigns-after-the-train-crash-that-killed-at-least-69-people?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-04T07:44:00+00:00",
+      "score": 9,
       "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/4/spanish-transport-minister-resigns-after-train-crash-killed-69-people?traffic_source=rss",
+          "title": "Spanish transport minister resigns after train crash killed 69 people",
+          "published": "2026-11-04T07:18:08+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/spains-transport-minister-offers-resignation-after-deadly-train-crash/article71663710.ece",
+          "title": "Spain’s Transport Minister offers resignation after deadly train crash",
+          "published": "2026-11-04T01:03:16+00:00"
+        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
@@ -192,15 +204,21 @@
           "published": "2026-11-03T21:23:48+00:00"
         }
       ],
-      "consensus": 8.0
+      "consensus": 10.5
     },
     {
-      "title": "US midterm elections 2026 live updates: Democrats win control of Congress; El-Sayed wins Senate race in Michigan",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
-      "source": "The Guardian",
-      "published": "2026-11-04T08:17:29+00:00",
-      "score": 4,
+      "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
+      "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-04T09:09:00+00:00",
+      "score": 6,
       "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-election-results-live-updates",
+          "title": "US midterm elections 2026 live updates: Democrats win control of Congress as voters punish Trump",
+          "published": "2026-11-04T08:26:25+00:00"
+        },
         {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-senate-governor-races-winners-lossers-live-updates-trump-republicans-democrats-news/article71660811.ece",
@@ -214,13 +232,75 @@
           "published": "2026-11-04T07:13:41+00:00"
         },
         {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-04/democrats-claim-victory-over-republicans-2026-midterm-elections/107338138",
+          "title": "Democrats gain control of Congress in rebuke to Trump",
+          "published": "2026-11-04T04:57:58+00:00"
+        },
+        {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/03/us-midterm-elections-results-2026-live-updates-in-maps-and-charts",
           "title": "US midterm elections results 2026: Live updates in maps and charts",
           "published": "2026-11-03T09:51:21+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 7.5
+    },
+    {
+      "title": "Democrat Abdul El-Sayed wins Michigan Senate race, will become first Muslim senator",
+      "url": "https://www.france24.com/en/video/20261104-democrat-abdul-el-sayed-wins-michigan-senate-race-will-become-first-muslim-senator",
+      "source": "France24",
+      "published": "2026-11-04T08:42:53+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/03/abdul-el-sayed-mike-rogers-michigan-senate",
+          "title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
+          "published": "2026-11-04T08:42:22+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/democrat-abdul-el-sayed-wins-election-to-us-senate-from-michigan-2?traffic_source=rss",
+          "title": "Democrat Abdul El-Sayed wins election to US Senate from Michigan",
+          "published": "2026-11-04T08:18:40+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/democrat-abdul-el-sayed-michigan-us-midterm-elections-senate/article71664484.ece",
+          "title": "Democrat Abdul El-Sayed claims victory in Michigan Senate battle",
+          "published": "2026-11-04T07:03:10+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "US elects its first Black woman governor",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-elects-its-first-black-woman-governor?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T08:19:27+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us/article71663892.ece",
+          "title": "Democrat Keisha Lance Bottoms becomes first Black woman Governor in U.S.",
+          "published": "2026-11-04T04:43:38+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/keisha-lance-bottoms-gerogia-governor-first-black-woman-b3078728.html",
+          "title": "Keisha Lance Bottoms makes history as first Black woman elected Georgia governor",
+          "published": "2026-11-04T03:10:24+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/keisha-lance-bottoms-wins-georgia-race-first-black-woman-elected-governor-us-state-6519866",
+          "title": "Keisha Lance Bottoms wins Georgia race, becomes first Black woman elected governor of US state",
+          "published": "2026-11-04T02:57:00+00:00"
+        }
+      ],
+      "consensus": 5.0
     },
     {
       "title": "‘We defeated Goliath’: Texas Democrat James Talarico wins Senate seat",
@@ -251,56 +331,6 @@
       "consensus": 4.5
     },
     {
-      "title": "2026 Midterms: Democrat Keisha Lance Bottoms makes history in Georgia",
-      "url": "https://www.france24.com/en/video/20261104-2026-midterms-democrat-keisha-lance-bottoms-makes-history-in-georgia",
-      "source": "France24",
-      "published": "2026-11-04T07:02:13+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us/article71663892.ece",
-          "title": "Democrat Keisha Lance Bottoms becomes first Black woman Governor in U.S.",
-          "published": "2026-11-04T04:43:38+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/keisha-lance-bottoms-gerogia-governor-first-black-woman-b3078728.html",
-          "title": "Keisha Lance Bottoms makes history as first Black woman elected Georgia governor",
-          "published": "2026-11-04T03:10:24+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/keisha-lance-bottoms-wins-georgia-race-first-black-woman-elected-governor-us-state-6519866",
-          "title": "Keisha Lance Bottoms wins Georgia race, becomes first Black woman elected governor of US state",
-          "published": "2026-11-04T02:57:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
-      "url": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-04T08:09:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-04/democrats-claim-victory-over-republicans-2026-midterm-elections/107338138",
-          "title": "Democrats gain control of Congress in rebuke to Trump",
-          "published": "2026-11-04T04:57:58+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/04/live-updates-on-the-2026-midterm-elections-in-the-us",
-          "title": "US midterm elections: Democrats take control of US Congress in rejection of Trump",
-          "published": "2026-11-03T23:35:24+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "Indonesia arrests ex-police chief over alleged illegal wiretapping of President, officials",
       "url": "https://www.thehindu.com/news/international/indonesia-arrests-ex-police-chief-over-alleged-illegal-wiretapping-of-president-officials/article71664234.ece",
       "source": "The Hindu",
@@ -323,6 +353,22 @@
       "consensus": 3.0
     },
     {
+      "title": "What US midterm elections mean for Ukraine, Iran and elsewhere",
+      "url": "https://www.dw.com/en/what-us-midterm-elections-mean-for-ukraine-iran-and-elsewhere/a-79836423?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-04T08:52:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/what-are-united-states-midterm-elections-2026-democrats-vs-republicans-donald-trump-what-it-means-for-india/article71643628.ece",
+          "title": "What are U.S. midterm elections?",
+          "published": "2026-11-03T05:55:05+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Blue wave 'turning into a tsunami' as Democrats take control of Congress",
       "url": "https://www.france24.com/en/video/20261104-blue-wave-turning-into-a-tsunami-as-democrats-take-control-of-congress",
       "source": "France24",
@@ -334,22 +380,6 @@
           "url": "https://www.semafor.com/article/11/03/2026/democrats-take-senate-seats-as-republicans-underperform-in-midterm",
           "title": "Massive blue wave hands Congress to Democrats",
           "published": "2026-11-04T05:53:31+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "‘We will take back the House in 2028’: US House Speaker Johnson promises Republican comeback",
-      "url": "https://www.euronews.com/2026/11/04/we-will-take-back-the-house-in-2028-us-house-speaker-johnson-promises-republican-comeback",
-      "source": "Euronews",
-      "published": "2026-11-04T07:48:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-house-speaker-johnson-rants-about-marxism-after-democrat-gains?traffic_source=rss",
-          "title": "US House Speaker Johnson rants about Marxism after Democrat gains",
-          "published": "2026-11-04T07:11:47+00:00"
         }
       ],
       "consensus": 2.5
@@ -401,7 +431,7 @@
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/us-midterms-minorities-leadership-6522481",
           "title": "Historic leadership firsts for minorities across US in midterm vote",
-          "published": "2026-11-04T06:20:34+00:00"
+          "published": "2026-11-04T06:20:00+00:00"
         }
       ],
       "consensus": 4.0
@@ -427,6 +457,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "US midterm elections: Democrats flip Senate seat in North Carolina",
+      "url": "https://www.france24.com/en/video/20261104-us-midterms-democrats-flip-senate-seat-in-north-carolina",
+      "source": "France24",
+      "published": "2026-11-04T02:46:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-midterm-elections-democrat-roy-cooper-flips-republican-held-us-senate-seat-in-north-carolina/article71663730.ece",
+          "title": "U.S. midterm elections: Democrat Roy Cooper flips Republican-held US Senate seat in North Carolina",
+          "published": "2026-11-04T01:49:28+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/04/live-updates-on-the-2026-midterm-elections-in-the-us",
+          "title": "US midterm elections: Democrats take control of US Congress in rejection of Trump",
+          "published": "2026-11-03T23:35:24+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Bomb threats force several flights into emergency landings across Europe",
@@ -473,6 +525,54 @@
       "consensus": 3.0
     },
     {
+      "title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/republicans-fuming-after-democrat-talarico-flips-texas-senate-blue?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T08:42:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/in-huge-blow-to-republicans-democrat-talarico-flips-us-senate-seat-in-texas/article71663939.ece",
+          "title": "In huge blow to Republicans, Democrat Talarico flips U.S. Senate seat in Texas",
+          "published": "2026-11-04T05:09:50+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Australian government defends social media ban for under 16s in court",
+      "url": "https://www.aljazeera.com/news/2026/11/4/australian-government-defends-social-media-ban-for-under-16s-in-court?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-04T08:26:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australianz/australia-social-media-teen-ban-a-modest-step-says-government-in-top-court-challenge",
+          "title": "Australia social media teen ban a ‘modest’ step, says government in top court challenge",
+          "published": "2026-11-04T04:42:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "‘We will take back the House in 2028’: US House Speaker Johnson promises Republican comeback",
+      "url": "https://www.euronews.com/2026/11/04/we-will-take-back-the-house-in-2028-us-house-speaker-johnson-promises-republican-comeback",
+      "source": "Euronews",
+      "published": "2026-11-04T07:48:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/us-house-speaker-johnson-rants-about-marxism-after-democrat-gains?traffic_source=rss",
+          "title": "US House Speaker Johnson rants about Marxism after Democrat gains",
+          "published": "2026-11-04T07:11:47+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Democrats’ blue wave and a bad night for Trump: key US midterms takeaways",
       "url": "https://www.theguardian.com/us-news/2026/nov/04/midterm-election-takeaways-trump",
       "source": "The Guardian",
@@ -489,39 +589,7 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump-backed Indian-American Vivek Ramaswamy loses Ohio Governor’s race",
-      "url": "https://www.thehindu.com/news/international/trump-backed-indian-american-vivek-ramaswamy-loses-ohio-governors-race/article71664147.ece",
-      "source": "The Hindu",
-      "published": "2026-11-04T07:44:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/4/democrat-amy-acton-beats-republican-vivek-ramaswamy-in-ohio-governors-race?traffic_source=rss",
-          "title": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor’s race",
-          "published": "2026-11-04T04:25:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "South Carolina elects Democratic senator for first time in almost three decades",
-      "url": "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-04T07:32:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/4/kansas-elects-democrat-adam-hamilton?traffic_source=rss",
-          "title": "Kansas elects first Democratic senator in almost a century",
-          "published": "2026-11-04T04:37:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "El-Sayed defeats Rogers to win Senate seat in Michigan",
+      "title": "Abdul El-Sayed defeats Mike Rogers to win US Senate seat in Michigan",
       "url": "https://www.aljazeera.com/news/2026/11/4/el-sayed-defeats-rogers-to-win-senate-seat-in-michigan?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-04T07:31:20+00:00",
@@ -532,38 +600,6 @@
           "url": "https://www.france24.com/en/video/20261104-midterms-abdul-el-sayed-mike-rogers-face-off-for-michigan-senate-seat",
           "title": "Midterms: Abdul El-Sayed, Mike Rogers face off for Michigan Senate seat",
           "published": "2026-11-04T02:53:45+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Democrats win Congress: How they did it, and what it means",
-      "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-the-us-senate-what-does-this-mean?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-04T07:23:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-04/us-midterms-democrats-win-majority-what-happens-next/107335330",
-          "title": "The Democrats have won Congress. Here's what they could do with it",
-          "published": "2026-11-04T05:31:52+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Democrat Troy Jackson wins Maine US Senate seat in blow to Republicans",
-      "url": "https://www.aljazeera.com/news/2026/11/4/democrat-troy-jackson-wins-maine-us-senate-seat-in-blow-to-republicans?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-04T07:04:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/in-huge-blow-to-republicans-democrat-talarico-flips-us-senate-seat-in-texas/article71663939.ece",
-          "title": "In huge blow to Republicans, Democrat Talarico flips U.S. Senate seat in Texas",
-          "published": "2026-11-04T05:09:50+00:00"
         }
       ],
       "consensus": 2.5
@@ -649,22 +685,6 @@
       "consensus": 2.5
     },
     {
-      "title": "US midterm elections: Democrats flip Senate seat in North Carolina",
-      "url": "https://www.france24.com/en/video/20261104-us-midterms-democrats-flip-senate-seat-in-north-carolina",
-      "source": "France24",
-      "published": "2026-11-04T02:46:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-midterm-elections-democrat-roy-cooper-flips-republican-held-us-senate-seat-in-north-carolina/article71663730.ece",
-          "title": "U.S. midterm elections: Democrat Roy Cooper flips Republican-held US Senate seat in North Carolina",
-          "published": "2026-11-04T01:49:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Bomb threats cause disruptions across Europe but no explosives found",
       "url": "https://www.japantimes.co.jp/news/2026/11/04/world/crime-legal/bomb-threats-flights-cruise-europe/",
       "source": "Japan Times",
@@ -692,22 +712,6 @@
           "url": "https://www.rfi.fr/en/france/20261103-students-blockade-dozens-of-high-schools-in-france-before-nationwide-strike",
           "title": "Students blockade dozens of high schools in France before nationwide strike",
           "published": "2026-11-03T12:20:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US democracy, Trump fatigue, cost of living are top issues with voters, AP survey finds",
-      "url": "https://www.france24.com/en/americas/20261103-trump-fatigue-cost-of-living-and-corruption-are-top-issues-with-us-voters-ap-survey-finds",
-      "source": "France24",
-      "published": "2026-11-03T23:46:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/03/corruption-joins-the-cost-of-living-as-a-top-concern-for-us-voters?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "Corruption joins the cost of living as a top concern for US voters",
-          "published": "2026-11-03T00:31:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -777,22 +781,6 @@
       "consensus": 2.5
     },
     {
-      "title": "What US midterm elections mean for Ukraine, Iran and elsewhere",
-      "url": "https://www.dw.com/en/what-us-midterm-elections-mean-for-ukraine-iran-and-elsewhere/a-79836423?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-03T14:26:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/what-are-united-states-midterm-elections-2026-democrats-vs-republicans-donald-trump-what-it-means-for-india/article71643628.ece",
-          "title": "What are U.S. midterm elections?",
-          "published": "2026-11-03T05:55:05+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Indian navy rescues 20 crew from Iranian fishing boat hijacked off Somalia",
       "url": "https://www.npr.org/2026/11/03/g-s1-151468/indian-navy-rescues-20-crew-from-iranian-fishing-boat-hijacked-off-somalia",
       "source": "NPR World",
@@ -855,6 +843,38 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "China says avoiding new hostilities in Middle East a ‘top priority’",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-says-avoiding-new-hostilities-in-middle-east-a-top-priority",
+      "source": "Straits Times",
+      "published": "2026-11-04T08:50:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/china-avoiding-new-hostilities-middle-east-top-priority-6523286",
+          "title": "China says avoiding new hostilities in Mideast a 'top priority'",
+          "published": "2026-11-04T08:43:58+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Four oil tankers destroyed in Hormuz after hitting mines, Tehran says",
+      "url": "https://www.france24.com/en/middle-east/20261104-four-oil-tankers-destroyed-in-hormuz-after-hitting-mines-tehran-says",
+      "source": "France24",
+      "published": "2026-11-04T08:43:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+          "title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
+          "published": "2026-11-04T07:17:08+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Democrats win control of Senate as US voters reject Trump’s agenda",
@@ -1001,19 +1021,42 @@
       "consensus": 2.0
     },
     {
-      "title": "As US-Iran war shows, China’s influence can’t secure its line to Gulf oil",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3372480/us-iran-war-shows-chinas-influence-cant-secure-its-line-gulf-oil",
-      "source": "SCMP",
-      "published": "2026-11-04T08:30:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "South Korea, Turkey agree to deepen nuclear energy, defence ties",
+      "url": "https://www.thehindu.com/news/international/south-korea-turkey-agree-to-deepen-nuclear-energy-defence-ties/article71662518.ece",
+      "source": "The Hindu",
+      "published": "2026-11-03T17:37:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-korea-turkey-to-cooperate-in-nuclear-defence-infrastructure",
+          "title": "South Korea, Turkey to cooperate in nuclear, defence, infrastructure",
+          "published": "2026-11-03T09:57:20+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "US midterm elections: Cheers erupt as Talarico's Texas victory is projected",
-      "url": "https://www.euronews.com/video/2026/11/04/us-midterm-elections-cheers-erupt-as-talaricos-texas-victory-is-projected",
-      "source": "Euronews",
-      "published": "2026-11-04T08:28:03+00:00",
+      "url": "http://www.africanews.com/2026/11/04/us-midterm-elections-cheers-erupt-as-talaricos-texas-victory-is-projected/",
+      "source": "Africanews",
+      "published": "2026-11-04T08:28:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/04/us-midterm-elections-cheers-erupt-as-talaricos-texas-victory-is-projected",
+          "title": "US midterm elections: Cheers erupt as Talarico's Texas victory is projected",
+          "published": "2026-11-04T08:28:03+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Snap Insight: US midterms – what an angry ‘lame duck’ president could mean for Asia",
+      "url": "https://www.channelnewsasia.com/commentary/us-midterms-trump-what-lame-duck-president-means-asia-snap-insight-6523201",
+      "source": "CNA",
+      "published": "2026-11-04T08:53:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1030,10 +1073,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 140.0,
+      "price": 139.93,
       "currency": "GBP",
-      "change": -0.2,
-      "change_percent": -0.14,
+      "change": -0.27,
+      "change_percent": -0.19,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1046,10 +1089,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10652.4,
+      "price": 10655.34,
       "currency": "GBP",
-      "change": 13.97,
-      "change_percent": 0.13,
+      "change": 16.91,
+      "change_percent": 0.16,
       "name": "FTSE 100"
     }
   ],
@@ -1065,17 +1108,17 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10652.4,
+        "price": 10655.34,
         "currency": "GBP",
-        "change": 13.97,
-        "change_percent": 0.13,
+        "change": 16.91,
+        "change_percent": 0.16,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 51786.7,
+        "price": 51786.72,
         "currency": "USD",
-        "change": -197.3,
+        "change": -197.28,
         "change_percent": -0.38,
         "name": "Dow Jones"
       },
@@ -1097,52 +1140,52 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26000.53,
+        "price": 26006.5,
         "currency": "EUR",
-        "change": 135.91,
-        "change_percent": 0.53,
+        "change": 141.88,
+        "change_percent": 0.55,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8051.86,
+        "price": 8051.11,
         "currency": "EUR",
-        "change": 31.55,
-        "change_percent": 0.39,
+        "change": 30.8,
+        "change_percent": 0.38,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4038.5,
+        "price": 4045.1,
         "currency": "USD",
-        "change": 98.1,
-        "change_percent": 2.49,
+        "change": 104.7,
+        "change_percent": 2.66,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.84,
+        "price": 51.91,
         "currency": "USD",
-        "change": 2.09,
-        "change_percent": 4.19,
+        "change": 2.16,
+        "change_percent": 4.34,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 103.47,
+        "price": 104.13,
         "currency": "USD",
-        "change": -0.13,
-        "change_percent": -0.13,
+        "change": 0.53,
+        "change_percent": 0.51,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
-        "price": 1.12,
+        "price": 1.13,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.47,
+        "change_percent": 0.53,
         "name": "EUR/USD"
       },
       {
@@ -1150,23 +1193,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.52,
+        "change_percent": 0.54,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.13,
+        "price": 158.22,
         "currency": "JPY",
-        "change": -0.49,
-        "change_percent": -0.31,
+        "change": -0.41,
+        "change_percent": -0.26,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 78248.05,
+        "price": 78389.34,
         "currency": "USD",
-        "change": 909.82,
-        "change_percent": 1.18,
+        "change": 1051.11,
+        "change_percent": 1.36,
         "name": "Bitcoin"
       }
     ],
@@ -1338,20 +1381,20 @@
         {
           "title": "Live coverage: Trump admits Iran war a factor as Republicans routed",
           "url": "https://www.ft.com/content/77c2eaca-4fe1-4c69-b3bd-c517b045ff37?syn-25a6b1a6=1",
-          "published": "2026-11-04T08:21:46+00:00",
+          "published": "2026-11-04T08:52:29+00:00",
           "snippet": "President’s party defeated in battleground races from Kansas to South Carolina"
         },
         {
-          "title": "Stocks edge lower as investors digest Democratic sweep",
-          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-          "published": "2026-11-04T08:02:39+00:00",
-          "snippet": "Traders bet Democrats could slow AI infrastructure build-out central to economic growth"
+          "title": "Indonesia deploys 20,000 soldiers as wiretapping scandal erupts",
+          "url": "https://www.ft.com/content/b82627c8-726b-471d-9e49-f28b06765e79?syn-25a6b1a6=1",
+          "published": "2026-11-04T08:46:38+00:00",
+          "snippet": "Senior police and presidential chief of staff arrested over accusations of illegally wiretapping President Prabowo Subianto"
         },
         {
-          "title": "Corporate America braced for Democrats to unleash investigations",
-          "url": "https://www.ft.com/content/89b80817-fe6b-4172-ad01-8f675e3be6a5?syn-25a6b1a6=1",
-          "published": "2026-11-04T07:44:52+00:00",
-          "snippet": "Probes could uncover communications between officials and executives after alleged corruption emerged as campaign theme"
+          "title": "Americans deliver stunning rebuke to Trump as blue wave sweeps country",
+          "url": "https://www.ft.com/content/b1eb9500-612a-4bb0-bdc3-0311cfc0ec99?syn-25a6b1a6=1",
+          "published": "2026-11-04T08:34:14+00:00",
+          "snippet": "Democrats take Congress as Republicans defeated in midterm races from Texas to Georgia"
         }
       ]
     },
@@ -1459,10 +1502,25 @@
   "web": {
     "tech": [
       {
+        "title": "Kitty 0.50",
+        "url": "https://sw.kovidgoyal.net/kitty/changelog/#",
+        "score": 4,
+        "source": "Hacker News",
+        "published": "2026-11-04T08:57:10+00:00"
+      },
+      {
+        "title": "C++26 Disapproved",
+        "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
+        "comments_url": "https://lobste.rs/s/xvtufg/c_26_disapproved",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-04T08:56:24.356000+00:00"
+      },
+      {
         "title": "Being of use to someone",
         "url": "https://jmreiche.github.io/being-of-use-to-someone",
         "comments_url": "https://lobste.rs/s/5q535u/being_use_someone",
-        "score": 1,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-04T08:26:56.347000+00:00"
       },
@@ -1485,22 +1543,14 @@
       {
         "title": "The lost malloc()",
         "url": "https://napcakes.nekoweb.org/posts/malloc/",
-        "score": 8,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-04T07:37:30+00:00"
       },
       {
-        "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
-        "url": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
-        "comments_url": "https://lobste.rs/s/6omthz/cryptography_behind_electronic_voting",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-04T07:33:05.259000+00:00"
-      },
-      {
         "title": "Jelly Sheet",
         "url": "https://mrdoob.github.io/codevember-2026/01/",
-        "score": 186,
+        "score": 220,
         "source": "Hacker News",
         "published": "2026-11-04T03:40:50+00:00"
       },
@@ -1514,17 +1564,9 @@
       {
         "title": "Arrows to arrows, categories to queries (2025)",
         "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows/",
-        "score": 41,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-04T03:11:27+00:00"
-      },
-      {
-        "title": "Mac at any scale",
-        "url": "https://namespace.so/blog/mac-at-any-scale",
-        "comments_url": "https://lobste.rs/s/j1twhe/mac_at_any_scale",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-04T03:08:11.213000+00:00"
       },
       {
         "title": "The valley of webhooks",
@@ -1537,14 +1579,14 @@
       {
         "title": "Giant canyon on Mars is still tectonically active",
         "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
-        "score": 77,
+        "score": 78,
         "source": "Hacker News",
         "published": "2026-11-04T01:40:42+00:00"
       },
       {
         "title": "C++26 Disapproved",
         "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive/",
-        "score": 264,
+        "score": 274,
         "source": "Hacker News",
         "published": "2026-11-04T00:33:22+00:00"
       },
@@ -1552,7 +1594,7 @@
         "title": "Observations from Running stealmybitcoin.com",
         "url": "https://pavursec.com/blog/stealmybitcoin/",
         "comments_url": "https://lobste.rs/s/fgucra/observations_from_running",
-        "score": 36,
+        "score": 38,
         "source": "Lobste.rs",
         "published": "2026-11-03T23:45:21.591000+00:00"
       },
@@ -1568,7 +1610,7 @@
         "title": "Postgres 19 REPACK: Built-In Online Table Bloat Cleanup",
         "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
         "comments_url": "https://lobste.rs/s/uutnr5/postgres_19_repack_built_online_table",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-03T22:44:48.698000+00:00"
       }
@@ -1583,20 +1625,20 @@
         "published": "2026-11-04T03:58:32+00:00"
       },
       {
-        "title": "Researchers have solved the mystery behind 60-second fluctuations in global power grids: unintended synchronization from large-scale battery storage and uninterruptible power supply (UPS) systems performing automated power checks at the exact start of every minute.",
-        "url": "https://www.nature.com/articles/s41560-026-02144-0",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xn93n8/researchers_have_solved_the_mystery_behind/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-03T23:47:33+00:00"
-      },
-      {
         "title": "Hackers Hijacked French Blood Plasma Freezers, Changing Temperature Settings From −30°C to 110°C",
         "url": "https://cybersecuritynews.com/french-blood-plasma-freezers-hacked/amp/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xnhtji/hackers_hijacked_french_blood_plasma_freezers/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-04T07:13:16+00:00"
+      },
+      {
+        "title": "Researchers have solved the mystery behind 60-second fluctuations in global power grids: unintended synchronization from large-scale battery storage and uninterruptible power supply (UPS) systems performing automated power checks at the exact start of every minute.",
+        "url": "https://www.nature.com/articles/s41560-026-02144-0",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xn93n8/researchers_have_solved_the_mystery_behind/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-03T23:47:33+00:00"
       },
       {
         "title": "Sweden and Norway join Finland in boycotting hockey world championship games against Russia",
@@ -1607,12 +1649,28 @@
         "published": "2026-11-03T18:28:19+00:00"
       },
       {
+        "title": "Democrats win control of Congress; experts say little will change for Ukraine, Europe",
+        "url": "https://www.theparliamentmagazine.eu/news/article/the-democrats-won-americas-midterms-that-wont-alter-trumps-position-on-ukraine-or-europe",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xnioql/democrats_win_control_of_congress_experts_say/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-04T08:07:40+00:00"
+      },
+      {
         "title": "Trump says U.S. will stop US$4 billion funding to Israel at end of 2026",
         "url": "https://www.ctvnews.ca/world/article/trump-says-us-will-stop-us4-billion-military-aid-to-israel-at-end-of-2026/",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xmtuca/trump_says_us_will_stop_us4_billion_funding_to/",
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-03T14:06:59+00:00"
+      },
+      {
+        "title": "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'",
+        "url": "https://www.pcgamer.com/software/ai/google-criticized-by-nyc-mayor-zohran-mamdani-following-ai-policy-change-google-is-trying-to-use-its-monopoly-power-to-force-ai-into-our-public-schools/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xn85kj/google_criticized_by_nyc_mayor_zohran_mamdani/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-03T23:05:42+00:00"
       },
       {
         "title": "Zelensky: Musk in Contact With Putin Since War’s Start",
@@ -1631,36 +1689,12 @@
         "published": "2026-11-03T18:13:14+00:00"
       },
       {
-        "title": "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'",
-        "url": "https://www.pcgamer.com/software/ai/google-criticized-by-nyc-mayor-zohran-mamdani-following-ai-policy-change-google-is-trying-to-use-its-monopoly-power-to-force-ai-into-our-public-schools/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xn85kj/google_criticized_by_nyc_mayor_zohran_mamdani/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-03T23:05:42+00:00"
-      },
-      {
-        "title": "Tusk Reports “Disturbing Movement” Near Kaliningrad Border as Poland Deploys Additional Forces",
-        "url": "https://united24media.com/world/tusk-reports-disturbing-movement-near-kaliningrad-border-as-poland-deploys-additional-forces-24057",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xn0pux/tusk_reports_disturbing_movement_near_kaliningrad/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-03T18:21:28+00:00"
-      },
-      {
         "title": "Canada’s Carney Says US Has Lowered Its Demands in Trade Talks",
         "url": "https://www.bloomberg.com/news/articles/2026-11-03/canada-s-carney-says-us-has-lowered-its-demands-in-trade-talks",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xngzo3/canadas_carney_says_us_has_lowered_its_demands_in/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-04T06:22:54+00:00"
-      },
-      {
-        "title": "UK and European peacekeepers in Ukraine would be allowed to fire back at Russians",
-        "url": "https://www.theguardian.com/uk-news/2026/nov/03/uk-european-peacekeepers-ukraine-fire-back-russians",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xn9vm7/uk_and_european_peacekeepers_in_ukraine_would_be/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-04T00:21:40+00:00"
       },
       {
         "title": "Mentally reframing an unpleasant physical sensation by describing it like an objective news reporter can quiet activity in sensory areas of the brain in autistic children and teens. This mental strategy did not immediately change how unpleasant the textures felt, but reduced specific neural activity",
@@ -1679,6 +1713,14 @@
         "published": "2026-11-03T19:28:40+00:00"
       },
       {
+        "title": "Tusk Reports “Disturbing Movement” Near Kaliningrad Border as Poland Deploys Additional Forces",
+        "url": "https://united24media.com/world/tusk-reports-disturbing-movement-near-kaliningrad-border-as-poland-deploys-additional-forces-24057",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xn0pux/tusk_reports_disturbing_movement_near_kaliningrad/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-03T18:21:28+00:00"
+      },
+      {
         "title": "US politicians are much older than the people they represent (House median age 58, Senate 65, average American 39). A brand-new study of 6,000+ Americans found people were more likely to see decisions as fair when a group mixed under-40s with over-60s instead of being all older politicians.",
         "url": "https://www.gu.se/en/news/us-midterm-elections-younger-politicians-could-strengthen-trust-in-democracy",
         "comments_url": "https://www.reddit.com/r/science/comments/1xnbiqx/us_politicians_are_much_older_than_the_people/",
@@ -1687,12 +1729,12 @@
         "published": "2026-11-04T01:38:28+00:00"
       },
       {
-        "title": "Von der Leyen: “The closure of Hormutz has cost the EU an extra 127 billion euros”",
-        "url": "https://www.eunews.it/en/2026/11/03/von-der-leyen-the-closure-of-hormuz-has-cost-the-eu-an-extra-127-billion-euros/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xmxbbt/von_der_leyen_the_closure_of_hormutz_has_cost_the/",
+        "title": "AI stocks slide as Texas governor result raises data center risks",
+        "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xnh94y/ai_stocks_slide_as_texas_governor_result_raises/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-03T16:18:51+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-04T06:38:50+00:00"
       }
     ]
   }

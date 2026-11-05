@@ -1,175 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-05T03:01:07.421627+00:00",
+  "last_updated": "2026-11-05T03:30:50.708581+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 693
+      "ms": 284
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 632
+      "ms": 745
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 336
+      "ms": 160
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 322
+      "ms": 281
     },
     "CBC World": {
       "ok": true,
       "count": 18,
       "error": null,
-      "ms": 361
+      "ms": 305
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 289
+      "ms": 483
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 959
+      "ms": 374
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 805
+      "ms": 699
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 188
+      "ms": 129
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 329
+      "ms": 201
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 858
+      "ms": 468
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 401
+      "ms": 465
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 346
+      "ms": 221
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 182
+      "ms": 150
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 247
+      "ms": 288
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 616
+      "ms": 265
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 894
+      "ms": 908
     },
     "Semafor": {
       "ok": true,
       "count": 285,
       "error": null,
-      "ms": 964
+      "ms": 1027
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 667
+      "ms": 691
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 463
+      "ms": 409
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 297
+      "ms": 271
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 469
+      "ms": 372
     },
     "The Independent": {
       "ok": true,
-      "count": 94,
+      "count": 93,
       "error": null,
-      "ms": 439
+      "ms": 377
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 359
+      "ms": 471
     }
   },
   "breaking": [
-    {
-      "title": "U.S. midterm election results: Senate, House and Governor shifts before and after",
-      "url": "https://www.thehindu.com/news/international/us-midterm-election-results-2026-congress-senate-house-governor-races-before-and-after/article71664981.ece",
-      "source": "The Hindu",
-      "published": "2026-11-05T02:30:42+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "RNZ",
-          "url": "https://www.rnz.co.nz/news/business/2355589/us-midterm-election-results-could-boost-local-nz-economy-auckland-business-chamber",
-          "title": "US midterm election results could boost local NZ economy - Auckland Business Chamber",
-          "published": "2026-11-04T22:41:12+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
-          "title": "US midterm election results live: Trump blames Iran war after losses",
-          "published": "2026-11-04T21:00:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
     {
       "title": "What the U.S. midterms mean for ties with China",
       "url": "https://www.thehindu.com/news/international/what-the-us-midterms-mean-for-ties-with-china/article71668454.ece",
@@ -193,10 +171,26 @@
       "consensus": 3.0
     },
     {
+      "title": "US Marine dies during training in Japan’s Okinawa",
+      "url": "https://www.straitstimes.com/asia/east-asia/us-marine-dies-during-training-in-japans-okinawa",
+      "source": "Straits Times",
+      "published": "2026-11-05T03:22:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/marine-okinawa-japan-training-death-b3078956.html",
+          "title": "US Marine dies in training incident in Okinawa amid heightened tensions over military presence",
+          "published": "2026-11-04T10:44:33+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
       "source": "The Guardian",
-      "published": "2026-11-05T02:45:36+00:00",
+      "published": "2026-11-05T03:16:32+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -204,6 +198,22 @@
           "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
           "title": "U.S. midterm elections 2026 LIVE: Republican U.S. House Speaker to step down; Zelenskyy hopes Democrat gains will bring more help for Ukraine",
           "published": "2026-11-05T02:32:55+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Beau Lamarre-Condon tells double murder trial he suffered ‘daily bullying’ when working for NSW police",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/05/beau-lamarre-condon-witness-trial-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-05T03:16:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-05/beau-lamarre-condon-gives-evidence-in-murder-trial-live-blog/107348876",
+          "title": "Live: Beau Lamarre-Condon gives evidence in double murder trial",
+          "published": "2026-11-05T01:53:28+00:00"
         }
       ],
       "consensus": 2.5
@@ -225,17 +235,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-      "source": "The Guardian",
-      "published": "2026-11-05T02:33:53+00:00",
+      "title": "U.S. midterm election results: Senate, House and Governor shifts before and after",
+      "url": "https://www.thehindu.com/news/international/us-midterm-election-results-2026-congress-senate-house-governor-races-before-and-after/article71664981.ece",
+      "source": "The Hindu",
+      "published": "2026-11-05T02:30:42+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-05/beau-lamarre-condon-gives-evidence-in-murder-trial-live-blog/107348876",
-          "title": "Live: Beau Lamarre-Condon gives evidence in double murder trial",
-          "published": "2026-11-05T01:53:28+00:00"
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business/2355589/us-midterm-election-results-could-boost-local-nz-economy-auckland-business-chamber",
+          "title": "US midterm election results could boost local NZ economy - Auckland Business Chamber",
+          "published": "2026-11-04T22:41:12+00:00"
         }
       ],
       "consensus": 2.5
@@ -271,22 +281,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Joshua Wong, Hong Kong pro-democracy poster boy facing longer prison stint",
-      "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/joshua-wong-hong-kong-democracy-prison/",
-      "source": "Japan Times",
-      "published": "2026-11-05T01:18:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-activist-joshua-wong-set-to-be-sentenced-on-national-security-charge",
-          "title": "Joshua Wong, Hong Kong pro-democracy poster boy facing longer prison stint",
-          "published": "2026-11-04T23:02:43+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -317,28 +311,6 @@
         }
       ],
       "consensus": 5.0
-    },
-    {
-      "title": "Democrat Keisha Lance Bottoms becomes first Black woman governor in US history",
-      "url": "http://www.africanews.com/2026/11/04/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us-history/",
-      "source": "Africanews",
-      "published": "2026-11-04T09:26:20+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us/article71663892.ece",
-          "title": "Democrat Keisha Lance Bottoms becomes first Black woman Governor in U.S.",
-          "published": "2026-11-04T04:43:38+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/keisha-lance-bottoms-gerogia-governor-first-black-woman-b3078728.html",
-          "title": "Keisha Lance Bottoms makes history as first Black woman elected Georgia governor",
-          "published": "2026-11-04T03:10:24+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "South Africans vote in key municipal elections",
@@ -434,22 +406,6 @@
           "url": "https://www.cbc.ca/news/world/trump-midterms-jd-vance-iran-war-9.7409264?cmp=rss",
           "title": "JD Vance blames Iran war for midterm thumping. Is he really blaming Trump?",
           "published": "2026-11-04T20:27:48+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zelensky honours Melania Trump with Ukraine award for brokering Oleshky truce",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3373320/zelensky-honours-melania-trump-ukraine-award-brokering-oleshky-truce",
-      "source": "SCMP",
-      "published": "2026-11-04T21:44:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-melania-trump-zelensky-oleshky-ceasefire-b3079158.html",
-          "title": "Zelensky has awarded Melania Trump one of Ukraine's highest honours. Here's why",
-          "published": "2026-11-04T15:15:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -567,6 +523,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Democrat Keisha Lance Bottoms becomes first Black woman governor in US history",
+      "url": "http://www.africanews.com/2026/11/04/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us-history/",
+      "source": "Africanews",
+      "published": "2026-11-04T09:26:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/democrat-keisha-lance-bottoms-becomes-first-black-woman-governor-in-us/article71663892.ece",
+          "title": "Democrat Keisha Lance Bottoms becomes first Black woman Governor in U.S.",
+          "published": "2026-11-04T04:43:38+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Spain’s transport minister resigns after the train crash that killed at least 69 people",
       "url": "https://en.mercopress.com/2026/11/04/spain-s-transport-minister-resigns-after-the-train-crash-that-killed-at-least-69-people?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "source": "MercoPress",
@@ -629,6 +601,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Joshua Wong, Hong Kong pro-democracy poster boy facing longer prison stint",
+      "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/joshua-wong-hong-kong-democracy-prison/",
+      "source": "Japan Times",
+      "published": "2026-11-05T01:18:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-activist-joshua-wong-set-to-be-sentenced-on-national-security-charge",
+          "title": "Joshua Wong, Hong Kong pro-democracy poster boy facing longer prison stint",
+          "published": "2026-11-04T23:02:43+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Zelenskyy awards US first lady Ukrainian civilian honour",
@@ -743,10 +731,10 @@
       "consensus": 1.5
     },
     {
-      "title": "Black smoke seen rising over Auckland suburb",
-      "url": "https://www.rnz.co.nz/news/emergencies_local/2357212/black-smoke-seen-rising-over-auckland-suburb",
-      "source": "RNZ",
-      "published": "2026-11-05T02:54:11+00:00",
+      "title": "Petrol prices drive highest Philippine inflation in years",
+      "url": "https://www.straitstimes.com/asia/se-asia/petrol-prices-drive-highest-philippine-inflation-in-years",
+      "source": "Straits Times",
+      "published": "2026-11-05T03:25:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -755,43 +743,97 @@
       "title": "Trump’s admin warns Dems about toying with impeachment while Hannity buries head in sand: Live updates",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/midterm-elections-results-2026-live-updates-trump-map-b3078712.html",
       "source": "The Independent",
-      "published": "2026-11-05T02:51:41+00:00",
+      "published": "2026-11-05T03:23:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump says Hegseth doing 'a very good job' as questions swirl about his future",
-      "url": "https://www.channelnewsasia.com/world/trump-hegseth-defense-secretary-us-midterms-6526151",
-      "source": "CNA",
-      "published": "2026-11-05T02:47:40+00:00",
+      "title": "South Korea’s President Lee to launch YouTube show",
+      "url": "https://www.straitstimes.com/asia/east-asia/south-koreas-president-lee-to-launch-youtube-show",
+      "source": "Straits Times",
+      "published": "2026-11-05T03:20:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Vote counting underway in critical South Africa elections",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/vote-counting-underway-in-critical-south-africa-elections?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-05T02:43:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China keeps faith in Trump even as ‘total defeat’ adds new risks",
-      "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/china-trump-defeat-risks/",
+      "title": "Nidec scandal exposes limits of Japan reform, Muddy Waters says",
+      "url": "https://www.japantimes.co.jp/business/2026/11/05/companies/nidec-short-seller-corporate-governance/",
       "source": "Japan Times",
-      "published": "2026-11-05T02:43:00+00:00",
+      "published": "2026-11-05T03:20:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Zelensky condemns Moscow’s ‘insane’ attack on school that left at least 40 dead",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-school-attack-b3079198.html",
+      "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-05T03:18:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Big batteries ready to power one-third of ACT for hours if needed",
+      "url": "https://www.abc.net.au/news/2026-11-05/canberra-big-battery-storage-system/107348964",
+      "source": "ABC Australia",
+      "published": "2026-11-05T03:16:33+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Fire breaks out near Auckland electricity sub-station",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2357212/fire-breaks-out-near-auckland-electricity-sub-station",
+      "source": "RNZ",
+      "published": "2026-11-05T03:15:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hannity unloads on first show after midterms massacre — gives Iran war full-throated support and calls Abdul El-Sayed ‘crazy’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/hannity-trump-midterms-iran-el-sayed-b3079490.html",
       "source": "The Independent",
-      "published": "2026-11-05T02:40:34+00:00",
+      "published": "2026-11-05T03:15:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Concorde lands in Hong Kong’s Kai Tak for the first time in 1976 – from the SCMP archive",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3373104/concorde-lands-hong-kongs-kai-tak-first-time-1976-scmp-archive",
+      "source": "SCMP",
+      "published": "2026-11-05T03:15:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Republicans call for Trump to change course after midterm drubbing",
+      "url": "https://www.channelnewsasia.com/world/us-midterms-donald-trump-republicans-change-course-6525681",
+      "source": "CNA",
+      "published": "2026-11-05T03:13:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Joshua Wong jailed for 10 years over bid to instigate sanctions on Beijing, Hong Kong",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373335/joshua-wong-jailed-10-years-over-bid-instigate-sanctions-beijing-hong-kong",
+      "source": "SCMP",
+      "published": "2026-11-05T03:13:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
+      "url": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
+      "source": "The Guardian",
+      "published": "2026-11-05T03:12:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -800,70 +842,16 @@
       "title": "Serious crash on State Highway 1 in Otago",
       "url": "https://www.rnz.co.nz/news/emergencies_local/2357143/serious-crash-on-state-highway-1-in-otago",
       "source": "RNZ",
-      "published": "2026-11-05T02:40:22+00:00",
+      "published": "2026-11-05T03:11:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Research could reverse peanut allergy diagnosis for some infants",
-      "url": "https://www.abc.net.au/news/2026-11-05/infants-diagnosed-with-peanut-allergy-may-not-be-study-shows/107348650",
-      "source": "ABC Australia",
-      "published": "2026-11-05T02:39:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Taiwan sees continued US arms sale support after midterm election",
-      "url": "https://www.straitstimes.com/asia/taiwan-sees-continued-us-arms-sale-support-after-midterm-election",
+      "title": "Troops deployed in Indonesia as president sacks aide accused of wiretapping",
+      "url": "https://www.straitstimes.com/asia/se-asia/troops-deployed-in-indonesia-as-president-sacks-aide-accused-of-wiretapping",
       "source": "Straits Times",
-      "published": "2026-11-05T02:33:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Graduate takes fight to be lawyer all the way to Supreme Court",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2348148/graduate-takes-fight-to-be-lawyer-all-the-way-to-supreme-court",
-      "source": "RNZ",
-      "published": "2026-11-05T02:31:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Will New Zealand’s election reshape its ‘softly-softly’ approach to Trump?",
-      "url": "https://www.scmp.com/week-asia/politics/article/3373324/will-new-zealands-election-reshape-its-softly-softly-approach-trump",
-      "source": "SCMP",
-      "published": "2026-11-05T02:30:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Mitsui Chemicals eyes acquisition of JSR for over ¥1 trillion",
-      "url": "https://www.japantimes.co.jp/business/2026/11/05/companies/mitsui-chemicals-jsr-acquisition/",
-      "source": "Japan Times",
-      "published": "2026-11-05T02:29:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Our critics review the six books vying for the $95,000 Booker Prize",
-      "url": "https://www.abc.net.au/news/2026-11-05/booker-prize-shortlist-2026-elizabeth-strout-marlon-james/107322872",
-      "source": "ABC Australia",
-      "published": "2026-11-05T02:23:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Police seek driver, victim in Whangārei hit-and-run incident",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2356927/police-seek-driver-victim-in-whangarei-hit-and-run-incident",
-      "source": "RNZ",
-      "published": "2026-11-05T02:11:05+00:00",
+      "published": "2026-11-05T03:08:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -965,26 +953,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4143.5,
+        "price": 4147.5,
         "currency": "USD",
-        "change": 70.5,
-        "change_percent": 1.73,
+        "change": 74.5,
+        "change_percent": 1.83,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 53.3,
+        "price": 53.19,
         "currency": "USD",
-        "change": 1.01,
-        "change_percent": 1.94,
+        "change": 0.91,
+        "change_percent": 1.74,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.98,
+        "price": 93.97,
         "currency": "USD",
-        "change": -0.64,
-        "change_percent": -0.68,
+        "change": -0.65,
+        "change_percent": -0.69,
         "name": "Brent Crude"
       },
       {
@@ -992,7 +980,7 @@
         "price": 1.13,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.25,
         "name": "EUR/USD"
       },
       {
@@ -1000,23 +988,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.11,
+        "change_percent": 0.15,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.93,
+        "price": 157.97,
         "currency": "JPY",
-        "change": -0.4,
-        "change_percent": -0.25,
+        "change": -0.35,
+        "change_percent": -0.22,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 80477.45,
+        "price": 80613.66,
         "currency": "USD",
-        "change": 49.15,
-        "change_percent": 0.06,
+        "change": 185.36,
+        "change_percent": 0.23,
         "name": "Bitcoin"
       }
     ],
@@ -1186,22 +1174,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Australian department store chain enters administration after 188 years",
-          "url": "https://www.ft.com/content/271a287d-2585-42aa-9dc8-4760b979c825?syn-25a6b1a6=1",
-          "published": "2026-11-05T01:47:41+00:00",
-          "snippet": "Landlords pull plug on upmarket David Jones with process providing ‘breathing space’ while buyer sought"
+          "title": "US stocks post best day since August after Democrats sweep midterms",
+          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+          "published": "2026-11-05T03:11:55+00:00",
+          "snippet": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom"
         },
         {
-          "title": "US midterm results herald upheaval in Middle East policy",
-          "url": "https://www.ft.com/content/3dee82bf-3bbe-4075-8bfd-4001ddb689ae?syn-25a6b1a6=1",
-          "published": "2026-11-05T01:33:29+00:00",
-          "snippet": "American voters — including vice-president JD Vance — want an end to Trump’s Iran war and Washington’s proximity to Israel"
+          "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division",
+          "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4?syn-25a6b1a6=1",
+          "published": "2026-11-05T03:02:02+00:00",
+          "snippet": "Swiss-Swedish company’s unit is focused on Chinese market and has mega-factory in Pudong"
         },
         {
-          "title": "Democratic wave keeps US wealth taxes on the agenda despite California setback",
-          "url": "https://www.ft.com/content/c701ac0d-0ef4-426f-a629-e38ed29d5260?syn-25a6b1a6=1",
-          "published": "2026-11-05T00:52:16+00:00",
-          "snippet": "Proposition 40 billionaire tax set to be defeated in a rare victory for mega-donors in the US midterms"
+          "title": "Oil tumbles below $100 on post-election peace hopes",
+          "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+          "published": "2026-11-05T03:01:11+00:00",
+          "snippet": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war"
         }
       ]
     },
@@ -1312,70 +1300,70 @@
         "title": "Declarative Dragging",
         "url": "https://declarative-dragging.github.io/",
         "comments_url": "https://lobste.rs/s/jplxxr/declarative_dragging",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-05T00:35:09.470000+00:00"
       },
       {
         "title": "Starfall – Affordable, routine access to microgravity",
         "url": "https://www.spacex.com/starfall",
-        "score": 98,
+        "score": 111,
         "source": "Hacker News",
         "published": "2026-11-05T00:18:18+00:00"
       },
       {
         "title": "Images 2.6",
         "url": "https://openai.com/index/introducing-images-2-6/",
-        "score": 137,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-04T23:35:44+00:00"
       },
       {
         "title": "A thousand fewer paths to root",
         "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-        "score": 158,
+        "score": 179,
         "source": "Hacker News",
         "published": "2026-11-04T23:33:14+00:00"
       },
       {
         "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
         "url": "https://icode4.coffee/?p=1746",
-        "score": 66,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-04T22:01:49+00:00"
       },
       {
         "title": "Residential proxies detected on White House network",
         "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-        "score": 717,
+        "score": 744,
         "source": "Hacker News",
         "published": "2026-11-04T20:45:18+00:00"
       },
       {
         "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
         "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "score": 108,
+        "score": 113,
         "source": "Hacker News",
         "published": "2026-11-04T19:55:14+00:00"
       },
       {
         "title": "Insects don't swarm at LED lights",
         "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-        "score": 172,
+        "score": 179,
         "source": "Hacker News",
         "published": "2026-11-04T19:50:23+00:00"
       },
       {
         "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
         "url": "https://www.ricursive.com/ripple",
-        "score": 234,
+        "score": 241,
         "source": "Hacker News",
         "published": "2026-11-04T18:53:29+00:00"
       },
       {
         "title": "Conductor is joining Meta",
         "url": "https://www.conductor.build/announcement",
-        "score": 129,
+        "score": 135,
         "source": "Hacker News",
         "published": "2026-11-04T18:22:40+00:00"
       },
@@ -1398,14 +1386,14 @@
       {
         "title": "A new Go API for JSON",
         "url": "https://go.dev/blog/jsonv2",
-        "score": 241,
+        "score": 251,
         "source": "Hacker News",
         "published": "2026-11-04T17:52:11+00:00"
       },
       {
         "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
         "url": "https://news.ycombinator.com/item?id=50368804",
-        "score": 72,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-04T17:31:53+00:00"
       },
@@ -1476,6 +1464,14 @@
         "published": "2026-11-04T23:38:40+00:00"
       },
       {
+        "title": "Study of nearly 27,000 men finds that wearing tight underwear is linked to poorer sperm quality, including more DNA damage, fewer motile sperm, and lower semen volume compared with loose-fitting boxers",
+        "url": "https://www.sciencealert.com/study-of-nearly-27000-men-is-the-largest-yet-on-tight-underwear-and-sperm-quality",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xo4f5u/study_of_nearly_27000_men_finds_that_wearing/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-05T00:15:57+00:00"
+      },
+      {
         "title": "Texas just went blue, and the tech bros are sad",
         "url": "https://www.businessinsider.com/texas-went-blue-tech-bros-democrats-2026-11",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xnrp17/texas_just_went_blue_and_the_tech_bros_are_sad/",
@@ -1490,14 +1486,6 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-04T15:59:01+00:00"
-      },
-      {
-        "title": "Study of nearly 27,000 men finds that wearing tight underwear is linked to poorer sperm quality, including more DNA damage, fewer motile sperm, and lower semen volume compared with loose-fitting boxers",
-        "url": "https://www.sciencealert.com/study-of-nearly-27000-men-is-the-largest-yet-on-tight-underwear-and-sperm-quality",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xo4f5u/study_of_nearly_27000_men_finds_that_wearing/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-05T00:15:57+00:00"
       },
       {
         "title": "Switching from regular table salt to potassium-enriched salt could prevent 3 million deaths and 10 million new cases of cardiovascular and kidney disease globally each year",

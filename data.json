@@ -1,160 +1,172 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-05T05:01:03.477094+00:00",
+  "last_updated": "2026-11-05T05:30:48.404358+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 255
+      "ms": 235
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 354
+      "ms": 232
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 227
+      "ms": 113
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 73
+      "ms": 158
     },
     "CBC World": {
       "ok": true,
       "count": 18,
       "error": null,
-      "ms": 74
+      "ms": 198
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 218
+      "ms": 320
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 340
+      "ms": 451
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 442
+      "ms": 326
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 204
+      "ms": 160
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 188
+      "ms": 189
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 581
+      "ms": 472
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 269
+      "ms": 282
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 236
+      "ms": 311
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 202
+      "ms": 152
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 2403
+      "ms": 406
     },
     "RNZ": {
       "ok": true,
-      "count": 47,
+      "count": 49,
       "error": null,
-      "ms": 179
+      "ms": 440
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 578
+      "ms": 715
     },
     "Semafor": {
       "ok": true,
       "count": 285,
       "error": null,
-      "ms": 563
+      "ms": 444
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 525
+      "ms": 554
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 273
+      "ms": 403
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 159
+      "ms": 106
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 287
+      "ms": 255
     },
     "The Independent": {
       "ok": true,
-      "count": 84,
+      "count": 80,
       "error": null,
-      "ms": 116
+      "ms": 234
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 220
+      "ms": 169
     }
   },
   "breaking": [
     {
-      "title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-05T04:04:57+00:00",
-      "score": 5,
+      "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+      "url": "https://www.npr.org/2026/11/05/g-s1-152032/hong-kong-activist-wong-sentenced",
+      "source": "NPR World",
+      "published": "2026-11-05T05:29:56+00:00",
+      "score": 10,
       "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/hong-kong-activist-joshua-wong-sentenced-to-10-years-in-prison-in-2nd-national-security-case/article71668669.ece",
+          "title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison in 2nd national security case",
+          "published": "2026-11-05T05:11:55+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/hong-kong-activist-joshua-wong-sentenced-to-ten-years-in-jail?traffic_source=rss",
+          "title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
+          "published": "2026-11-05T04:04:57+00:00"
+        },
         {
           "source": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
@@ -168,32 +180,28 @@
           "published": "2026-11-05T04:00:00+00:00"
         },
         {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
+          "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+          "published": "2026-11-05T03:56:16+00:00"
+        },
+        {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/joshua-wong-second-sentence-9.7410128?cmp=rss",
           "title": "Prominent Hong Kong activist Joshua Wong sentenced to 10 years in 2nd national security case",
           "published": "2026-11-05T03:53:54+00:00"
         },
         {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-05/hong-kong-democracy-activist-joshua-wong-jailed-for-10-years/107350986",
+          "title": "Hong Kong democracy activist Joshua Wong jailed for 10 more years",
+          "published": "2026-11-05T03:47:07+00:00"
+        },
+        {
           "source": "France24",
           "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion",
           "title": "Hong Kong activist Joshua Wong gets 10 more years in jail for foreign collusion",
           "published": "2026-11-05T03:31:53+00:00"
-        }
-      ],
-      "consensus": 6.5
-    },
-    {
-      "title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-      "url": "https://www.bbc.co.uk/news/articles/cwp9g3rlp8jlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-05T03:56:16+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-05/hong-kong-democracy-activist-joshua-wong-jailed-for-10-years/107350986",
-          "title": "Breaking: Hong Kong democracy activist Joshua Wong jailed for 10 more years",
-          "published": "2026-11-05T03:47:07+00:00"
         },
         {
           "source": "SCMP",
@@ -202,7 +210,7 @@
           "published": "2026-11-05T03:13:58+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 12.0
     },
     {
       "title": "U.S. Marine dies during training in Okinawa",
@@ -249,17 +257,33 @@
       "consensus": 3.0
     },
     {
-      "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:37:50+00:00",
+      "title": "U.S. midterm elections 2026 LIVE: Donald Trump’s midterm defeat dims hopes of North Korea meeting",
+      "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
+      "source": "The Hindu",
+      "published": "2026-11-05T05:22:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-midterm-elections-2026-results-trump-senate-congress-races-winners-losers-live-updates-republicans-democrats/article71668404.ece",
-          "title": "U.S. midterm elections 2026 LIVE: Donald Trump’s midterm defeat dims hopes of North Korea meeting",
-          "published": "2026-11-05T04:37:49+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/04/midterm-elections-results-senate-house-michigan-maine-mississippi-latest-updates",
+          "title": "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+          "published": "2026-11-05T05:02:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Stock already being cleared as David Jones goes into administration",
+      "url": "https://www.abc.net.au/news/2026-11-05/customers-rush-to-spend-david-jones-gift-cards/107350168",
+      "source": "ABC Australia",
+      "published": "2026-11-05T04:32:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/business/2026/nov/05/david-jones-stores-closing-down-collapse-administration",
+          "title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
+          "published": "2026-11-05T03:12:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -281,36 +305,36 @@
       "consensus": 2.5
     },
     {
-      "title": "World record 53 red cards shown in Brazil football match",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/world-record-53-red-cards-shown-in-brazil-football-match?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-05T03:48:19+00:00",
+      "title": "South Korea to deploy military mission to help keep Hormuz open",
+      "url": "https://www.channelnewsasia.com/east-asia/south-korea-deploy-mission-strait-hormuz-6526131",
+      "source": "CNA",
+      "published": "2026-11-05T02:37:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-05/brazil-soccer-match-sets-world-record-for-most-red-cards/107349416",
-          "title": "Brazil soccer match sets world record for most red cards after mass brawl",
-          "published": "2026-11-05T01:03:59+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
+          "title": "South Korea to deploy military mission to keep Strait of Hormuz open",
+          "published": "2026-11-05T02:17:44+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "U.S. midterm election results 2026: List of key winners",
-      "url": "https://www.thehindu.com/news/international/us-mid-term-election-poll-results-2026-full-list-of-winners/article71663723.ece",
-      "source": "The Hindu",
-      "published": "2026-11-05T02:42:32+00:00",
+      "title": "Taiwan sees continued US arms sale support after midterm election",
+      "url": "https://www.channelnewsasia.com/east-asia/taiwan-continued-arms-support-united-states-midterms-6526126",
+      "source": "CNA",
+      "published": "2026-11-05T04:28:08+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "RNZ",
-          "url": "https://www.rnz.co.nz/news/business/2355589/us-midterm-election-results-could-boost-local-nz-economy-auckland-business-chamber",
-          "title": "US midterm election results could boost local NZ economy - Auckland Business Chamber",
-          "published": "2026-11-04T22:41:12+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/taiwan-sees-continued-us-arms-sale-support-after-midterm-election",
+          "title": "Taiwan sees continued US arms sale support after midterm election",
+          "published": "2026-11-05T02:33:00+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -403,17 +427,33 @@
       "consensus": 3.0
     },
     {
-      "title": "South Korea to deploy military mission to help keep Hormuz open",
-      "url": "https://www.channelnewsasia.com/east-asia/south-korea-deploy-mission-strait-hormuz-6526131",
-      "source": "CNA",
-      "published": "2026-11-05T02:37:44+00:00",
+      "title": "U.S. midterm election results 2026: List of key winners",
+      "url": "https://www.thehindu.com/news/international/us-mid-term-election-poll-results-2026-full-list-of-winners/article71663723.ece",
+      "source": "The Hindu",
+      "published": "2026-11-05T05:21:21+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261105-south-korea-military-mission-strait-of-hormuz",
-          "title": "South Korea to deploy military mission to keep Strait of Hormuz open",
-          "published": "2026-11-05T02:17:44+00:00"
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business/2355589/us-midterm-election-results-could-boost-local-nz-economy-auckland-business-chamber",
+          "title": "US midterm election results could boost local NZ economy - Auckland Business Chamber",
+          "published": "2026-11-04T22:41:12+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Canadian police find remains of mother and daughter killed by grizzly bears",
+      "url": "https://www.abc.net.au/news/2026-11-05/mother-and-daughter-killed-in-bear-attack-in-canada/107349256",
+      "source": "ABC Australia",
+      "published": "2026-11-05T02:25:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
+          "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
+          "published": "2026-11-04T19:42:47+00:00"
         }
       ],
       "consensus": 2.5
@@ -595,22 +635,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Students blockade dozens of French schools and universities",
-      "url": "https://www.thehindu.com/news/international/students-blockade-dozens-of-french-schools-and-universities/article71662627.ece",
-      "source": "The Hindu",
-      "published": "2026-11-04T01:03:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/france/20261103-students-blockade-dozens-of-high-schools-in-france-before-nationwide-strike",
-          "title": "Students blockade dozens of high schools in France before nationwide strike",
-          "published": "2026-11-03T12:20:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "UNESCO warns that most crimes against journalists go unpunished",
       "url": "http://www.africanews.com/2026/11/03/unesco-warns-that-most-crimes-against-journalists-go-unpunished/",
       "source": "Africanews",
@@ -627,22 +651,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Taiwan sees continued US arms sale support after midterm election",
-      "url": "https://www.channelnewsasia.com/east-asia/taiwan-continued-arms-support-united-states-midterms-6526126",
-      "source": "CNA",
-      "published": "2026-11-05T04:28:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/taiwan-sees-continued-us-arms-sale-support-after-midterm-election",
-          "title": "Taiwan sees continued US arms sale support after midterm election",
-          "published": "2026-11-05T02:33:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
       "url": "https://www.bbc.co.uk/news/articles/cqvgry8k5d01o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -651,9 +659,9 @@
       "other_sources": [
         {
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/04/canada-bear-attack-mother-daughter-killed",
-          "title": "Mother and daughter killed in grizzly bear attack, Canadian authorities confirm",
-          "published": "2026-11-04T19:42:47+00:00"
+          "url": "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
+          "title": "One dead and another missing in suspected grizzly bear attack in Canada",
+          "published": "2026-11-03T22:08:50+00:00"
         }
       ],
       "consensus": 2.0
@@ -771,118 +779,127 @@
       "consensus": 1.5
     },
     {
-      "title": "Bustling market in Dhaka shows shift to solar triggered by Middle East war",
-      "url": "https://www.japantimes.co.jp/environment/2026/11/05/energy/dhaka-solar-middle-east-war/",
-      "source": "Japan Times",
-      "published": "2026-11-05T04:56:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
       "title": "Beau Lamarre-Condon trial live updates: accused double murderer gives evidence in high-profile case",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/05/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
       "source": "The Guardian",
-      "published": "2026-11-05T04:54:48+00:00",
+      "published": "2026-11-05T05:25:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "‘An insult to his culture’: Italian chef sacked for not putting pineapple on pizza loses bid to get job back",
-      "url": "https://www.theguardian.com/food/2026/nov/05/italian-chef-sacked-refusing-pineapple-on-pizza-australia-fair-work",
-      "source": "The Guardian",
-      "published": "2026-11-05T04:53:28+00:00",
+      "title": "Man who drove stolen truck into police officers jailed for 10 years",
+      "url": "https://www.abc.net.au/news/2026-11-05/qld-bartholomew-dornbusch-sentence/107351588",
+      "source": "ABC Australia",
+      "published": "2026-11-05T05:21:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
       "title": "Ukraine-Russia war latest: Zelensky condemns Moscow’s ‘insane’ attack on school that left at least 40 dead",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-school-attack-b3079198.html",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-zelensky-melania-trump-putin-school-attack-b3079507.html",
       "source": "The Independent",
-      "published": "2026-11-05T04:52:09+00:00",
+      "published": "2026-11-05T05:19:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Nelson mayor 'aghast' at $88m civic hub plan",
-      "url": "https://www.rnz.co.nz/news/regional/2358044/nelson-mayor-aghast-at-88m-civic-hub-plan",
-      "source": "RNZ",
-      "published": "2026-11-05T04:50:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
-      "url": "https://www.aljazeera.com/news/2026/11/5/zelenskyy-hopes-democratic-congress-will-bring-more-us-help-for-ukraine?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-05T04:49:56+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Watch: Puppies listen to RNZ's Concert for Animals",
-      "url": "https://www.rnz.co.nz/life/lifestyle/pets/watch-puppies-listen-to-rnz-s-concert-for-animals",
-      "source": "RNZ",
-      "published": "2026-11-05T04:46:23+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Woman dies from leptospirosis after hunting near Top End billabong",
-      "url": "https://www.abc.net.au/news/2026-11-05/woman-dies-of-leptospirosis-death-in-nt-top-end/107350400",
+      "title": "North Tanami Band's bass guitarist jailed for assaulting partner",
+      "url": "https://www.abc.net.au/news/2026-11-05/nt-dv-conviction-north-tanami-band-mike-patterson/107349972",
       "source": "ABC Australia",
-      "published": "2026-11-05T04:42:36+00:00",
+      "published": "2026-11-05T05:15:38+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Sombre' mood inside David Jones stores as shoppers redeem gift cards",
-      "url": "https://www.abc.net.au/news/2026-11-05/customers-rush-to-spend-david-jones-gift-cards/107350168",
-      "source": "ABC Australia",
-      "published": "2026-11-05T04:32:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Watch: 'It's horrible': Fears over fate of dozens of pilot whales stranded in Wairarapa",
-      "url": "https://www.rnz.co.nz/news/environment/2356545/watch-it-s-horrible-fears-over-fate-of-dozens-of-pilot-whales-stranded-in-wairarapa",
+      "title": "Kyle Whorrall trial: Four teens found guilty of manslaughter and aggravated robbery",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2358229/kyle-whorrall-trial-four-teens-found-guilty-of-manslaughter-and-aggravated-robbery",
       "source": "RNZ",
-      "published": "2026-11-05T04:30:28+00:00",
+      "published": "2026-11-05T05:11:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Mamdani: ‘it’s morning again in America’ after blue wave",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mamdani-its-morning-again-in-america-after-blue-wave?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-05T04:30:18+00:00",
+      "title": "Telco towers spark fury among powerless Auckland residents",
+      "url": "https://www.rnz.co.nz/news/business/2358399/telco-towers-spark-fury-among-powerless-auckland-residents",
+      "source": "RNZ",
+      "published": "2026-11-05T05:11:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Donald Trump: Von allmächtig zu ohnmächtig?",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/donald-trump-von-allmachtig-zu-ohnmachtig/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-05T04:30:00+00:00",
+      "title": "Jumping castle owner appears at inquest into Hillcrest 2021 tragedy",
+      "url": "https://www.abc.net.au/news/2026-11-05/hillcrest-jumping-castle-inquest-rosemary-gamble/107348170",
+      "source": "ABC Australia",
+      "published": "2026-11-05T05:09:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Fenerbahce ends Liverpool’s perfect start in Champions League",
-      "url": "https://www.japantimes.co.jp/sports/2026/11/05/soccer/champions-league-liverpool-fenerbahce/",
+      "title": "Waikato medical school's ethnicity plan 'almost offensive to Māori', GP leader says",
+      "url": "https://www.rnz.co.nz/news/health/2358368/waikato-medical-school-s-ethnicity-plan-almost-offensive-to-maori-gp-leader-says",
+      "source": "RNZ",
+      "published": "2026-11-05T05:09:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hong Kong jails Joshua Wong for a decade in collusion case",
+      "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/joshua-wong-hong-kong-democracy-prison/",
       "source": "Japan Times",
-      "published": "2026-11-05T04:25:00+00:00",
+      "published": "2026-11-05T05:08:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "How to find a job in the age of AI",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-to-find-a-job-in-the-age-of-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-05T05:05:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan police to share scam account data nationwide to prevent damage",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-police-to-share-scam-account-data-nationwide-to-prevent-damage",
+      "source": "Straits Times",
+      "published": "2026-11-05T05:01:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy",
+      "source": "The Guardian",
+      "published": "2026-11-05T05:00:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Protesters to join nationwide march as France braces for day of strike action",
+      "url": "https://www.theguardian.com/world/2026/nov/05/protesters-france-march-strikes-education-cost-of-living",
+      "source": "The Guardian",
+      "published": "2026-11-05T05:00:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Historians say King Verica persuaded Rome to invade Britain. But could Verica actually have been a queen?",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/05/verica-rome-invade-britain-queen-or-king",
+      "source": "The Guardian",
+      "published": "2026-11-05T05:00:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -958,10 +975,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 61381.07,
+        "price": 61233.98,
         "currency": "JPY",
-        "change": -807.56,
-        "change_percent": -1.3,
+        "change": -954.65,
+        "change_percent": -1.54,
         "name": "Nikkei 225"
       },
       {
@@ -984,26 +1001,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4147.6,
+        "price": 4139.8,
         "currency": "USD",
-        "change": 74.6,
-        "change_percent": 1.83,
+        "change": 66.8,
+        "change_percent": 1.64,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 53.09,
+        "price": 52.88,
         "currency": "USD",
-        "change": 0.81,
-        "change_percent": 1.55,
+        "change": 0.59,
+        "change_percent": 1.13,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.97,
+        "price": 93.86,
         "currency": "USD",
-        "change": -0.65,
-        "change_percent": -0.69,
+        "change": -0.76,
+        "change_percent": -0.8,
         "name": "Brent Crude"
       },
       {
@@ -1011,7 +1028,7 @@
         "price": 1.13,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.28,
+        "change_percent": 0.27,
         "name": "EUR/USD"
       },
       {
@@ -1019,23 +1036,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.14,
+        "change_percent": 0.16,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.91,
+        "price": 157.86,
         "currency": "JPY",
-        "change": -0.42,
-        "change_percent": -0.26,
+        "change": -0.47,
+        "change_percent": -0.3,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 80397.41,
+        "price": 80363.15,
         "currency": "USD",
-        "change": -30.89,
-        "change_percent": -0.04,
+        "change": -65.15,
+        "change_percent": -0.08,
         "name": "Bitcoin"
       }
     ],
@@ -1205,22 +1222,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "US stocks post best day since August after Democrats sweep midterms",
-          "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
-          "published": "2026-11-05T03:11:55+00:00",
-          "snippet": "Hyperscalers surge and chipmakers fall as investors bet on winners and losers from expected backlash against the AI boom"
+          "title": "Asian tech stocks slide on post-midterm AI fears",
+          "url": "https://www.ft.com/content/21755495-c68a-45a9-90d8-64f698cd1952?syn-25a6b1a6=1",
+          "published": "2026-11-05T05:12:51+00:00",
+          "snippet": "Concerns mount that Democratic control of Congress will slow data centre build-out"
         },
         {
-          "title": "China blocks SoftBank’s $5.4bn takeover of ABB’s robotics division",
-          "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4?syn-25a6b1a6=1",
-          "published": "2026-11-05T03:02:02+00:00",
-          "snippet": "Swiss-Swedish company’s unit is focused on Chinese market and has mega-factory in Pudong"
+          "title": "Wall Street after the anti-Trump tsunami",
+          "url": "https://www.ft.com/content/1ec65f1e-fa8e-4e47-8b9e-612be738a900?syn-25a6b1a6=1",
+          "published": "2026-11-05T05:00:26+00:00",
+          "snippet": "Here’s what the US midterm elections mean for the AI supply chain and dealmaking"
         },
         {
-          "title": "Oil tumbles below $100 on post-election peace hopes",
-          "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
-          "published": "2026-11-05T03:01:11+00:00",
-          "snippet": "US vice-president JD Vance blames Republicans’ midterm defeat on anger over Iran war"
+          "title": "Democrats look to reshape America after historic midterm victories",
+          "url": "https://www.ft.com/content/9a4a7357-f783-462f-b5d3-9852daf0f328?syn-25a6b1a6=1",
+          "published": "2026-11-05T05:00:25+00:00",
+          "snippet": "Party promises dramatic change in the wake of its ‘blue wave’"
         }
       ]
     },
@@ -1339,7 +1356,7 @@
         "title": "Declarative Dragging",
         "url": "https://declarative-dragging.github.io/",
         "comments_url": "https://lobste.rs/s/jplxxr/declarative_dragging",
-        "score": 14,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-05T00:35:09.470000+00:00"
       },
@@ -1354,63 +1371,63 @@
       {
         "title": "Starfall – Affordable, routine access to microgravity",
         "url": "https://www.spacex.com/starfall",
-        "score": 162,
+        "score": 169,
         "source": "Hacker News",
         "published": "2026-11-05T00:18:18+00:00"
       },
       {
         "title": "Images 2.6",
         "url": "https://openai.com/index/introducing-images-2-6/",
-        "score": 187,
+        "score": 194,
         "source": "Hacker News",
         "published": "2026-11-04T23:35:44+00:00"
       },
       {
         "title": "A thousand fewer paths to root",
         "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-        "score": 219,
+        "score": 236,
         "source": "Hacker News",
         "published": "2026-11-04T23:33:14+00:00"
       },
       {
         "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
         "url": "https://icode4.coffee/?p=1746",
-        "score": 83,
+        "score": 87,
         "source": "Hacker News",
         "published": "2026-11-04T22:01:49+00:00"
       },
       {
         "title": "Residential proxies detected on White House network",
         "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-        "score": 824,
+        "score": 848,
         "source": "Hacker News",
         "published": "2026-11-04T20:45:18+00:00"
       },
       {
         "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
         "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
-        "score": 122,
+        "score": 126,
         "source": "Hacker News",
         "published": "2026-11-04T19:55:14+00:00"
       },
       {
         "title": "Insects don't swarm at LED lights",
         "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-        "score": 199,
+        "score": 212,
         "source": "Hacker News",
         "published": "2026-11-04T19:50:23+00:00"
       },
       {
         "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
         "url": "https://www.ricursive.com/ripple",
-        "score": 259,
+        "score": 264,
         "source": "Hacker News",
         "published": "2026-11-04T18:53:29+00:00"
       },
       {
         "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
         "url": "https://fireflyk64.github.io/wcmulti/",
-        "score": 138,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-04T18:51:27+00:00"
       },
@@ -1425,7 +1442,7 @@
         "title": "Burnt TOAST",
         "url": "https://www.pgedge.com/blog/burnt-toast",
         "comments_url": "https://lobste.rs/s/dmpdid/burnt_toast",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-04T18:00:32.521000+00:00"
       },
@@ -1433,7 +1450,7 @@
         "title": "A new Go API for JSON",
         "url": "https://go.dev/blog/jsonv2",
         "comments_url": "https://lobste.rs/s/gfm0xn/new_go_api_for_json",
-        "score": 19,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-04T17:52:32.448000+00:00"
       }
@@ -1480,6 +1497,14 @@
         "published": "2026-11-04T11:08:32+00:00"
       },
       {
+        "title": "Australia's far-right party scrubs their website of Trump after the death of MAGA",
+        "url": "https://www.victoriannews.com.au/politics/federal/want-trumps-action-and-style-then-its-one-nation-you-need/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xo3ku1/australias_farright_party_scrubs_their_website_of/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-04T23:38:40+00:00"
+      },
+      {
         "title": "Study of nearly 27,000 men finds that wearing tight underwear is linked to poorer sperm quality, including more DNA damage, fewer motile sperm, and lower semen volume compared with loose-fitting boxers",
         "url": "https://www.sciencealert.com/study-of-nearly-27000-men-is-the-largest-yet-on-tight-underwear-and-sperm-quality",
         "comments_url": "https://www.reddit.com/r/science/comments/1xo4f5u/study_of_nearly_27000_men_finds_that_wearing/",
@@ -1488,12 +1513,12 @@
         "published": "2026-11-05T00:15:57+00:00"
       },
       {
-        "title": "Australia's far-right party scrubs their website of Trump after the death of MAGA",
-        "url": "https://www.victoriannews.com.au/politics/federal/want-trumps-action-and-style-then-its-one-nation-you-need/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xo3ku1/australias_farright_party_scrubs_their_website_of/",
+        "title": "Mayor Zohran Mamdani Blasts Google After Schools Are Told They Can't Separate Search From AI",
+        "url": "https://www.gadgetreview.com/mayor-zohran-mamdani-blasts-google-after-schools-are-told-they-cant-separate-search-from-ai",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xo75pk/mayor_zohran_mamdani_blasts_google_after_schools/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-04T23:38:40+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-05T02:27:12+00:00"
       },
       {
         "title": "1 in 4 teenagers worldwide is not active on any day of the week and girls are falling furthest behind, a major new study finds.",
@@ -1510,14 +1535,6 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-04T19:36:41+00:00"
-      },
-      {
-        "title": "Mayor Zohran Mamdani Blasts Google After Schools Are Told They Can't Separate Search From AI",
-        "url": "https://www.gadgetreview.com/mayor-zohran-mamdani-blasts-google-after-schools-are-told-they-cant-separate-search-from-ai",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xo75pk/mayor_zohran_mamdani_blasts_google_after_schools/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-05T02:27:12+00:00"
       },
       {
         "title": "Texas just went blue, and the tech bros are sad",

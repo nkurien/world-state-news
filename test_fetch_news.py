@@ -709,27 +709,42 @@ class TestReddit(unittest.TestCase):
         )
         return r
 
-    FEED = b"""<?xml version="1.0" encoding="UTF-8"?>
+    _FEED_TEMPLATE = """<?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <entry>
     <category term="technology" label="r/technology"/>
     <title>Chip maker announces layoffs</title>
     <link href="https://www.reddit.com/r/technology/comments/abc/chip_maker/"/>
     <content type="html">&lt;a href="https://example.com/story"&gt;[link]&lt;/a&gt;</content>
-    <updated>2026-11-02T12:00:00+00:00</updated>
+    <updated>{ago1}</updated>
   </entry>
   <entry>
     <category term="europe" label="r/europe"/>
     <title>Self post</title>
     <link href="https://www.reddit.com/r/europe/comments/def/self_post/"/>
-    <updated>2026-11-02T11:00:00+00:00</updated>
+    <updated>{ago2}</updated>
   </entry>
   <entry>
     <title>Bad link</title>
     <link href="javascript:alert(1)"/>
-    <updated>2026-11-02T10:00:00+00:00</updated>
+    <updated>{ago3}</updated>
   </entry>
 </feed>"""
+
+    # Dates are relative to now: fetch_all_reddit drops posts older than 72h,
+    # so fixed dates would make these tests start failing once they age out.
+    FEED = (
+        _FEED_TEMPLATE.replace(
+            "{ago1}", (datetime.now(timezone.utc) - timedelta(hours=1)).isoformat()
+        )
+        .replace(
+            "{ago2}", (datetime.now(timezone.utc) - timedelta(hours=2)).isoformat()
+        )
+        .replace(
+            "{ago3}", (datetime.now(timezone.utc) - timedelta(hours=3)).isoformat()
+        )
+        .encode()
+    )
 
     def test_parse_reddit_feed_uses_category_for_subreddit_and_direct_link(self):
         import feedparser

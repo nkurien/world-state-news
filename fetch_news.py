@@ -738,6 +738,8 @@ DIGEST_CONFIGS = [
         "name": "The Week",
         "url": "https://www.theweek.com/rss",
         "column": "briefings",
+        # The feed interleaves "Start your subscription today" promos
+        "skip_url_substrings": ["/subscription/"],
         "headers": {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
@@ -875,12 +877,17 @@ def fetch_single_digest(config):
         response = get_with_retry(url, headers=headers)
 
         feed = feedparser.parse(response.content)
-        # Parse top 3 entries
-        for entry in feed.entries[:3]:
+        skip = config.get("skip_url_substrings", [])
+        # Keep the top 3 real entries (promos are skipped before counting)
+        for entry in feed.entries:
+            if len(entries) >= 3:
+                break
             title = entry.get("title", "").strip()
             link = entry.get("link", "").strip()
 
             if not title or not is_safe_url(link):
+                continue
+            if any(part in link for part in skip):
                 continue
 
             snippet = pick_snippet(entry)

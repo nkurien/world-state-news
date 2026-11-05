@@ -6,6 +6,7 @@ from fetch_news import (
     fetch_all_reddit,
     parse_reddit_feed,
     carry_forward_digests,
+    fetch_single_digest,
     get_with_retry,
     pick_snippet,
     OUTLET_META,
@@ -695,6 +696,34 @@ class TestDigestResilience(unittest.TestCase):
     def test_carry_forward_without_previous_payload(self):
         new = [{"id": "a", "name": "A", "entries": []}]
         self.assertEqual(carry_forward_digests(new, None)[0]["entries"], [])
+
+
+class TestDigestPromoFilter(unittest.TestCase):
+    FEED = b"""<?xml version="1.0"?><rss version="2.0"><channel>
+<item><title>Start your subscription today</title>
+<link>https://theweek.com/subscription/promo</link></item>
+<item><title>Real one</title><link>https://theweek.com/politics/a</link></item>
+<item><title>Real two</title><link>https://theweek.com/politics/b</link></item>
+<item><title>Real three</title><link>https://theweek.com/politics/c</link></item>
+<item><title>Real four</title><link>https://theweek.com/politics/d</link></item>
+</channel></rss>"""
+
+    @patch("fetch_news.get_with_retry")
+    def test_skips_promo_links_and_still_returns_three(self, mock_get):
+        mock_get.return_value = MagicMock(content=self.FEED)
+        out = fetch_single_digest(
+            {
+                "id": "x",
+                "name": "X",
+                "url": "https://example.com/rss",
+                "column": "briefings",
+                "headers": {},
+                "skip_url_substrings": ["/subscription/"],
+            }
+        )
+        self.assertEqual(
+            [e["title"] for e in out["entries"]], ["Real one", "Real two", "Real three"]
+        )
 
 
 class TestReddit(unittest.TestCase):

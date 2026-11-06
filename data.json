@@ -1,171 +1,193 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-06T00:30:52.842698+00:00",
+  "last_updated": "2026-11-06T01:01:26.075529+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 489
+      "ms": 278
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 309
+      "ms": 325
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 183
+      "ms": 167
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 263
+      "ms": 320
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 378
+      "ms": 264
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 334
+      "ms": 514
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 575
+      "ms": 591
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 405
+      "ms": 841
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 217
+      "ms": 128
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 156
+      "ms": 120
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 505
+      "ms": 398
     },
     "MercoPress": {
-      "ok": true,
-      "count": 10,
-      "error": null,
-      "ms": 305
+      "ok": false,
+      "count": 0,
+      "error": "HTTPSConnectionPool(host='en.mercopress.com', port=443): Read timed out. (read timeout=10)",
+      "ms": 27759
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 265
+      "ms": 122
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 179
+      "ms": 160
     },
     "RFI English": {
       "ok": true,
       "count": 16,
       "error": null,
-      "ms": 140
+      "ms": 190
     },
     "RNZ": {
       "ok": true,
-      "count": 47,
+      "count": 48,
       "error": null,
-      "ms": 327
+      "ms": 372
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 691
+      "ms": 528
     },
     "Semafor": {
       "ok": true,
       "count": 275,
       "error": null,
-      "ms": 556
+      "ms": 600
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 630
+      "ms": 672
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 243
+      "ms": 276
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 142
+      "ms": 85
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 285
+      "ms": 239
     },
     "The Independent": {
       "ok": true,
-      "count": 76,
+      "count": 77,
       "error": null,
-      "ms": 236
+      "ms": 482
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 233
+      "ms": 180
     }
   },
   "breaking": [
     {
-      "title": "California governor commutes sentences for state's 548 death row inmates",
-      "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-05T23:09:33+00:00",
+      "title": "California governor to grant clemency to all 548 death row inmates in state",
+      "url": "https://www.abc.net.au/news/2026-11-06/california-govenor-newsom-seeks-clemency-for-death-row-inmates/107354146",
+      "source": "ABC Australia",
+      "published": "2026-11-06T00:49:38+00:00",
       "score": 3,
       "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+          "title": "California governor commutes sentences for state's 548 death row inmates",
+          "published": "2026-11-05T23:09:33+00:00"
+        },
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3373467/california-governor-newsom-granting-clemency-all-548-death-row-inmates-state",
           "title": "California Governor Newsom granting clemency to all 548 death row inmates in state",
           "published": "2026-11-05T22:28:21+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Marco Rubio denies plans to leave post for White House bid",
+      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/politics/marco-rubio-midterms-future/",
+      "source": "Japan Times",
+      "published": "2026-11-06T00:45:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261106-marco-rubio-denies-resignation-2028-white-house",
+          "title": "Marco Rubio denies plans to resign as 2028 speculation grows",
+          "published": "2026-11-06T00:24:59+00:00"
         },
         {
           "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036",
-          "title": "California governor says commuting all death sentences in state",
-          "published": "2026-11-05T21:37:00+00:00"
+          "url": "https://www.channelnewsasia.com/world/marco-rubio-white-house-presidential-bid-us-midterms-6529406",
+          "title": "Rubio denies plans to leave post for White House bid",
+          "published": "2026-11-06T00:21:49+00:00"
         }
       ],
       "consensus": 3.5
@@ -174,7 +196,7 @@
       "title": "US elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
       "source": "The Guardian",
-      "published": "2026-11-06T00:24:35+00:00",
+      "published": "2026-11-06T00:26:50+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -203,6 +225,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Eisenkot tipped to seek Israel government with backing of Arab lists",
+      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/politics/eisenkot-israel-government/",
+      "source": "Japan Times",
+      "published": "2026-11-06T00:30:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/eisenkot-tipped-to-seek-israel-government-with-backing-of-arab-lists/article71671757.ece",
+          "title": "Eisenkot tipped to seek Israel government with backing of Arab lists",
+          "published": "2026-11-05T22:58:13+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
       "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -219,37 +257,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Overseas institutions keen on Hong Kong university towns, happy to help local peers",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3373457/overseas-institutions-keen-hong-kong-university-towns-happy-help-local-peers",
+      "title": "China’s new PLA theatre chiefs identified as anti-corruption drive clears ranks",
+      "url": "https://www.scmp.com/news/china/military/article/3373437/chinas-new-pla-theatre-chiefs-identified-anti-corruption-drive-clears-ranks",
       "source": "SCMP",
-      "published": "2026-11-06T00:30:06+00:00",
+      "published": "2026-11-06T01:00:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Euphoria turns to raw fear on Wall Street",
-      "url": "https://www.abc.net.au/news/2026-11-06/wall-street-sees-tech-sell-off-as-investors-rethink-ai-trade/107354110",
-      "source": "ABC Australia",
-      "published": "2026-11-06T00:27:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Marco Rubio denies plans to resign as 2028 speculation grows",
-      "url": "https://www.france24.com/en/americas/20261106-marco-rubio-denies-resignation-2028-white-house",
-      "source": "France24",
-      "published": "2026-11-06T00:24:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Beau Lamarre-Condon trial live updates: former police officer continues evidence in double murder trial",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
-      "source": "The Guardian",
-      "published": "2026-11-06T00:24:54+00:00",
+      "title": "South Korea apologises for classing gay teens as delinquents",
+      "url": "https://www.scmp.com/week-asia/people/article/3373429/south-korea-apologises-classing-gay-teens-delinquents",
+      "source": "SCMP",
+      "published": "2026-11-06T01:00:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -381,6 +401,34 @@
       "consensus": 4.5
     },
     {
+      "title": "British comedian Russell Brand guilty of rape, three sexual assaults",
+      "url": "https://www.channelnewsasia.com/entertainment/russell-brand-trial-guilty-rape-three-sexual-assaults-6528651",
+      "source": "CNA",
+      "published": "2026-11-05T17:51:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
+          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
+          "published": "2026-11-05T17:42:23+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/comedian-russell-brand-found-guilty-by-uk-court-of-rape-and-sexual-assaults/article71670633.ece",
+          "title": "Comedian Russell Brand found guilty by U.K. court of rape and sexual assaults",
+          "published": "2026-11-05T17:19:23+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
+          "title": "British comedian Russell Brand found guilty of rape, sexual assault",
+          "published": "2026-11-05T14:26:40+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
       "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
       "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
       "source": "The Guardian",
@@ -398,28 +446,6 @@
           "url": "https://www.france24.com/en/video/20261105-europe-dozens-of-flights-diverted-following-bomb-threats",
           "title": "Europe: Dozens of flights diverted following bomb threats",
           "published": "2026-11-05T15:40:50+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "British comedian Russell Brand guilty of rape, three sexual assaults",
-      "url": "https://www.channelnewsasia.com/entertainment/russell-brand-trial-guilty-rape-three-sexual-assaults-6528651",
-      "source": "CNA",
-      "published": "2026-11-05T17:51:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
-          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
-          "published": "2026-11-05T17:42:23+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/comedian-russell-brand-found-guilty-by-uk-court-of-rape-and-sexual-assaults/article71670633.ece",
-          "title": "Comedian Russell Brand found guilty by U.K. court of rape and sexual assaults",
-          "published": "2026-11-05T17:19:23+00:00"
         }
       ],
       "consensus": 3.5
@@ -490,22 +516,6 @@
           "url": "http://www.africanews.com/2026/11/05/cristiano-ronaldo-announces-international-retirement-from-portugal/",
           "title": "Cristiano Ronaldo announces international retirement from Portugal",
           "published": "2026-11-05T16:11:05+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "British actor Russell Brand faces prison after rape, sexual assault conviction",
-      "url": "https://www.scmp.com/news/world/europe/article/3373453/british-actor-russell-brand-faces-prison-after-rape-sexual-assault-conviction",
-      "source": "SCMP",
-      "published": "2026-11-05T14:54:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
-          "title": "British comedian Russell Brand found guilty of rape, sexual assault",
-          "published": "2026-11-05T14:26:40+00:00"
         }
       ],
       "consensus": 2.5
@@ -815,22 +825,6 @@
       "consensus": 2.0
     },
     {
-      "title": "U.S. Marine dies during training in Okinawa",
-      "url": "https://www.japantimes.co.jp/news/2026/11/05/japan/us-marine-okinawa-training-death/",
-      "source": "Japan Times",
-      "published": "2026-11-05T03:57:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/us-marine-dies-during-training-in-japans-okinawa",
-          "title": "US Marine dies during training in Japan’s Okinawa",
-          "published": "2026-11-05T03:22:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom",
       "url": "https://www.thehindu.com/news/international/trump-says-republicans-harmed-byiran-war-inability-to-transfer-the-love-for-him/article71667372.ece",
       "source": "The Hindu",
@@ -927,28 +921,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Rubio denies plans to leave post for White House bid",
-      "url": "https://www.channelnewsasia.com/world/marco-rubio-white-house-presidential-bid-us-midterms-6529406",
-      "source": "CNA",
-      "published": "2026-11-06T00:21:49+00:00",
+      "title": "U.S. Assistant Attorney General Harmeet Dhillon resigns",
+      "url": "https://www.thehindu.com/news/international/us-assistant-attorney-general-harmeet-dhillon-resigns/article71672623.ece",
+      "source": "The Hindu",
+      "published": "2026-11-06T00:58:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Socceroos still waiting for World Cup payment from FA",
-      "url": "https://www.abc.net.au/news/2026-11-06/socceroos-still-waiting-for-world-cup-payment-from-fa/107354910",
+      "title": "Japan’s nominal wages rise at fastest pace in almost 30 years",
+      "url": "https://www.japantimes.co.jp/business/2026/11/06/economy/nominal-wages-rise-september/",
+      "source": "Japan Times",
+      "published": "2026-11-06T00:57:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Beau Lamarre-Condon trial live updates: former police officer tells court of fatal confrontation with Jesse Baird and Luke Davies",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/06/beau-lamarre-condon-trial-former-police-accused-murder-case-jesse-baird-luke-davies-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-06T00:53:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "UK version of Married At First Sight cancelled after rape allegations",
+      "url": "https://www.abc.net.au/news/2026-11-06/uk-mafs-married-at-first-sight-cancelled-channel-4/107354598",
       "source": "ABC Australia",
-      "published": "2026-11-06T00:20:33+00:00",
+      "published": "2026-11-06T00:50:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Property listings hit highest October level in 12 years",
-      "url": "https://www.rnz.co.nz/news/business/2380088/property-listings-hit-highest-october-level-in-12-years",
-      "source": "RNZ",
-      "published": "2026-11-06T00:07:21+00:00",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-06T00:41:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1024,10 +1036,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57878.56,
+        "price": 57440.61,
         "currency": "JPY",
-        "change": -3199.34,
-        "change_percent": -5.24,
+        "change": -3637.29,
+        "change_percent": -5.96,
         "name": "Nikkei 225"
       },
       {
@@ -1050,26 +1062,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4112.4,
+        "price": 4104.7,
         "currency": "USD",
-        "change": -1.1,
-        "change_percent": -0.03,
+        "change": -8.8,
+        "change_percent": -0.21,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.02,
+        "price": 51.99,
         "currency": "USD",
-        "change": -0.35,
-        "change_percent": -0.67,
+        "change": -0.39,
+        "change_percent": -0.74,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 98.91,
+        "price": 99.0,
         "currency": "USD",
-        "change": 0.62,
-        "change_percent": 0.63,
+        "change": 0.71,
+        "change_percent": 0.72,
         "name": "Brent Crude"
       },
       {
@@ -1077,7 +1089,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.09,
+        "change_percent": 0.04,
         "name": "EUR/USD"
       },
       {
@@ -1085,23 +1097,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.04,
+        "change_percent": 0.01,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.72,
+        "price": 157.83,
         "currency": "JPY",
-        "change": 0.07,
-        "change_percent": 0.04,
+        "change": 0.18,
+        "change_percent": 0.11,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 76097.02,
+        "price": 76250.92,
         "currency": "USD",
-        "change": 114.21,
-        "change_percent": 0.15,
+        "change": 268.11,
+        "change_percent": 0.35,
         "name": "Bitcoin"
       }
     ],
@@ -1296,10 +1308,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "Betting Markets’ Exaggerated Win",
+          "title": "Prediction Markets Are Calling It Early",
           "url": "https://www.theatlantic.com/newsletters/2026/11/prediction-markets-election-outcomes-polymarket-kalshi/689322/?utm_source=feed",
           "published": "2026-11-06T00:04:00+00:00",
-          "snippet": "This week, Polymarket and Kalshi made their case to be taken seriously as political forecasters."
+          "snippet": "This week, Polymarket and Kalshi hoped to prove they could be taken seriously. Did they?"
         },
         {
           "title": "The Speaker Who Gave the House Away",
@@ -1404,7 +1416,7 @@
       {
         "title": "Inkling 2 Small",
         "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-        "score": 9,
+        "score": 29,
         "source": "Hacker News",
         "published": "2026-11-06T00:00:24+00:00"
       },
@@ -1417,9 +1429,16 @@
         "published": "2026-11-05T23:33:07.558000+00:00"
       },
       {
+        "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
+        "url": "https://www.fgc.org.br/comunicado",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-05T23:32:36+00:00"
+      },
+      {
         "title": "Claude Code sends your email address to websites",
         "url": "https://github.com/anthropics/claude-code/issues/107757",
-        "score": 359,
+        "score": 420,
         "source": "Hacker News",
         "published": "2026-11-05T22:17:15+00:00"
       },
@@ -1434,35 +1453,35 @@
       {
         "title": "MS Paint Remote Code Execution Vulnerability",
         "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-        "score": 266,
+        "score": 285,
         "source": "Hacker News",
         "published": "2026-11-05T20:43:42+00:00"
       },
       {
         "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
         "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-        "score": 73,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-05T20:21:43+00:00"
       },
       {
         "title": "Search for everyone",
         "url": "https://kagi.com/changelog#11820",
-        "score": 458,
+        "score": 485,
         "source": "Hacker News",
         "published": "2026-11-05T20:03:34+00:00"
       },
       {
         "title": "Goodbye from Salon",
         "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-        "score": 377,
+        "score": 400,
         "source": "Hacker News",
         "published": "2026-11-05T20:03:29+00:00"
       },
       {
         "title": "The Hackintosh Reborn",
         "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-        "score": 176,
+        "score": 190,
         "source": "Hacker News",
         "published": "2026-11-05T19:08:22+00:00"
       },
@@ -1493,16 +1512,9 @@
       {
         "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
         "url": "https://github.com/rivet-dev/rivet",
-        "score": 71,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-05T17:17:42+00:00"
-      },
-      {
-        "title": "Window Sweaters",
-        "url": "https://github.com/saragordic/window-sweaters",
-        "score": 227,
-        "source": "Hacker News",
-        "published": "2026-11-05T16:50:14+00:00"
       }
     ],
     "reddit": [
@@ -1515,20 +1527,20 @@
         "published": "2026-11-05T22:19:44+00:00"
       },
       {
+        "title": "Voters value long-term economic growth more than previously thought, study finds. Individuals are willing to endure poor initial conditions as long as they see things getting consistently better. The electorate is not as short-sighted as political analysts think.",
+        "url": "https://www.psypost.org/voters-care-more-about-economic-improvement-than-total-benefits/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xot5jp/voters_value_longterm_economic_growth_more_than/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-05T20:20:21+00:00"
+      },
+      {
         "title": "Front page of the French newspaper Libération",
         "url": "https://i.redd.it/oix8tg6enrzh1.jpeg",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xoepy4/front_page_of_the_french_newspaper_libération/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-05T09:52:06+00:00"
-      },
-      {
-        "title": "In January 2026, the federal government launched a pilot program in Medicare requiring advance approval for certain medical treatments and encouraging the use of AI to review requests. Doctors had rarely needed approval before providing treatments. This led to an immediate drop in use of services.",
-        "url": "https://sph.brown.edu/news/2026-11-04/prior-authorization-pilot",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xoh3f2/in_january_2026_the_federal_government_launched_a/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-05T12:12:00+00:00"
       },
       {
         "title": "“Regime Change Came in Texas Before Tehran”",
@@ -1539,12 +1551,12 @@
         "published": "2026-11-05T16:11:02+00:00"
       },
       {
-        "title": "Voters value long-term economic growth more than previously thought, study finds. Individuals are willing to endure poor initial conditions as long as they see things getting consistently better. The electorate is not as short-sighted as political analysts think.",
-        "url": "https://www.psypost.org/voters-care-more-about-economic-improvement-than-total-benefits/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xot5jp/voters_value_longterm_economic_growth_more_than/",
+        "title": "In January 2026, the federal government launched a pilot program in Medicare requiring advance approval for certain medical treatments and encouraging the use of AI to review requests. Doctors had rarely needed approval before providing treatments. This led to an immediate drop in use of services.",
+        "url": "https://sph.brown.edu/news/2026-11-04/prior-authorization-pilot",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xoh3f2/in_january_2026_the_federal_government_launched_a/",
         "score": null,
         "source": "/r/science",
-        "published": "2026-11-05T20:20:21+00:00"
+        "published": "2026-11-05T12:12:00+00:00"
       },
       {
         "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
@@ -1571,20 +1583,20 @@
         "published": "2026-11-05T15:47:39+00:00"
       },
       {
-        "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-        "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&amp;utm_source=TWITTER",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xorh8s/meta_warns_that_election_backlash_against_data/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-05T19:14:24+00:00"
-      },
-      {
         "title": "Musk Told to Save Records on Ukraine Satellite Slowdown",
         "url": "https://www.kyivpost.com/post/89212",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xofyxh/musk_told_to_save_records_on_ukraine_satellite/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-05T11:08:46+00:00"
+      },
+      {
+        "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+        "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&amp;utm_source=TWITTER",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xorh8s/meta_warns_that_election_backlash_against_data/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-05T19:14:24+00:00"
       },
       {
         "title": "Pro-Russian hacker groups claim responsibility for attacks on refrigeration systems across Europe",
@@ -1595,6 +1607,14 @@
         "published": "2026-11-05T08:04:06+00:00"
       },
       {
+        "title": "Mass protests sweep France as workers and students demand higher pay and funding",
+        "url": "https://www.rfi.fr/en/france/20261105-french-unions-join-forces-for-nationwide-strike-as-protests-intensify",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xoxlbi/mass_protests_sweep_france_as_workers_and/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-05T23:25:14+00:00"
+      },
+      {
         "title": "Neanderthals' flat feet was the consequence of a precise functional strategy to reduce impact stress under heavy loads and maximize stability on mountainous or rough terrain",
         "url": "https://magazine.unibo.it/en/articles/heels-and-flat-feet-from-neanderthals-to-homo-sapiens",
         "comments_url": "https://www.reddit.com/r/science/comments/1xolsba/neanderthals_flat_feet_was_the_consequence_of_a/",
@@ -1603,12 +1623,12 @@
         "published": "2026-11-05T15:37:58+00:00"
       },
       {
-        "title": "Republicans Learn X Is the Echo Chamber",
-        "url": "https://www.404media.co/republicans-learn-x-is-an-echo-chamber/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xopyuw/republicans_learn_x_is_the_echo_chamber/",
+        "title": "A bad omen? Syria bans women from university courses",
+        "url": "https://www.dw.com/en/a-bad-omen-syria-bans-women-from-university-courses/a-79769348",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xovc7c/a_bad_omen_syria_bans_women_from_university/",
         "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-05T18:17:03+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-05T21:47:54+00:00"
       },
       {
         "title": "Taliban sets fire to hundreds of ‘immoral’ musical instruments",
@@ -1617,14 +1637,6 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-05T13:06:40+00:00"
-      },
-      {
-        "title": "Italian chef fired after refusing to put pineapple on pizza",
-        "url": "https://www.bbc.com/news/articles/cx4g1qy6gq9mo?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&amp;at_medium=social&amp;at_format=link&amp;at_link_type=web_link&amp;at_campaign_type=owned&amp;at_bbc_team=editorial&amp;at_ptr_name=twitter&amp;at_link_origin=BBCWorld&amp;at_link_id=F690C6EC-D8EE-11F1-8A6B-93BB1BC03C61&amp;at_campaign=Social_Flow",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xodhtn/italian_chef_fired_after_refusing_to_put/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-05T08:29:18+00:00"
       }
     ]
   }

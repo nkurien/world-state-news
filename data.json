@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-06T04:00:58.913022+00:00",
+  "last_updated": "2026-11-06T04:30:57.866680+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 146
+      "ms": 445
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 283
+      "ms": 522
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 343
+      "ms": 173
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 337
+      "ms": 135
     },
     "CBC World": {
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null,
-      "ms": 91
+      "ms": 468
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 238
+      "ms": 269
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 370
+      "ms": 503
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 370
+      "ms": 701
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 210
+      "ms": 426
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 172
+      "ms": 285
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 336
+      "ms": 516
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 373
+      "ms": 7193
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 137
+      "ms": 259
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 308
+      "ms": 1049
     },
     "RFI English": {
       "ok": true,
       "count": 16,
       "error": null,
-      "ms": 304
+      "ms": 239
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 149
+      "ms": 674
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 831
+      "ms": 862
     },
     "Semafor": {
       "ok": true,
       "count": 275,
       "error": null,
-      "ms": 989
+      "ms": 864
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 503
+      "ms": 560
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 237
+      "ms": 381
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 146
+      "ms": 232
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 167
+      "ms": 358
     },
     "The Independent": {
       "ok": true,
       "count": 78,
       "error": null,
-      "ms": 241
+      "ms": 114
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 169
+      "ms": 362
     }
   },
   "breaking": [
@@ -171,6 +171,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Trump designates Oval Office as national monument",
+      "url": "https://www.thehindu.com/news/international/trump-designates-oval-office-as-national-monument/article71671751.ece",
+      "source": "The Hindu",
+      "published": "2026-11-06T02:29:35+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-oval-office-national-monument-white-house-6529706",
+          "title": "Trump designates Oval Office as national monument",
+          "published": "2026-11-06T01:55:52+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373469/trumps-first-move-after-midterms-ensuring-future-presidents-cant-change-his-oval-office",
+          "title": "Trump’s first post-midterm action: declaring the Oval Office a national monument",
+          "published": "2026-11-05T23:59:20+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Netanyahu rival Eisenkot tipped to seek Israeli government with backing of Arab lists",
       "url": "https://www.scmp.com/news/world/middle-east/article/3373476/netanyahu-rival-eisenkot-tipped-seek-israeli-government-backing-arab-lists",
       "source": "SCMP",
@@ -193,6 +215,54 @@
       "consensus": 3.0
     },
     {
+      "title": "Bondi beach shooting: Woman, 90, shot during massacre dies in hospital year after antisemitic attack",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-06T04:11:57+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-06/bondi-terror-attack-survivor-elderly-woman-dies-in-hospital/107355644",
+          "title": "Elderly woman shot during Bondi terror attack dies",
+          "published": "2026-11-06T02:04:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Dolly Parton's manager moves to drop complaint against late singer's nephew",
+      "url": "https://www.cbc.ca/news/entertainment/dolly-parton-manager-nephew-case-9.7411680?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-06T04:11:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/dolly-parton-tennessee-associated-press-b3080201.html",
+          "title": "Dolly Parton's manager moves to drop complaint accusing late singer's nephew of threatening estate",
+          "published": "2026-11-06T01:29:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
+      "source": "The Guardian",
+      "published": "2026-11-06T04:04:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/03/2026/democrats-take-senate-seats-as-republicans-underperform-in-midterm",
+          "title": "Massive blue wave hands Congress to Democrats",
+          "published": "2026-11-04T05:53:31+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Paraguay’s president impeached amid bank collapse crisis",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/paraguays-president-impeached-amid-bank-collapse-crisis?traffic_source=rss",
       "source": "Al Jazeera",
@@ -209,81 +279,17 @@
       "consensus": 2.5
     },
     {
-      "title": "US elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
-      "source": "The Guardian",
-      "published": "2026-11-06T03:48:55+00:00",
+      "title": "China’s Macau jails ex-lawmaker in first national security trial",
+      "url": "https://www.straitstimes.com/asia/east-asia/chinas-macau-jails-ex-lawmaker-in-first-national-security-trial",
+      "source": "Straits Times",
+      "published": "2026-11-06T04:04:32+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/03/2026/democrats-take-senate-seats-as-republicans-underperform-in-midterm",
-          "title": "Massive blue wave hands Congress to Democrats",
-          "published": "2026-11-04T05:53:31+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Bondi beach shooting: Woman, 90, shot during massacre dies in hospital year after antisemitic attack",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
-      "source": "The Guardian",
-      "published": "2026-11-06T03:31:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-06/bondi-terror-attack-survivor-elderly-woman-dies-in-hospital/107355644",
-          "title": "Elderly woman shot during Bondi terror attack dies",
-          "published": "2026-11-06T02:04:03+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Melania hosts Russia and Ukraine as Trump touts deal for 'all of Europe'",
-      "url": "https://www.channelnewsasia.com/world/melania-trump-russia-ukraine-deal-6529891",
-      "source": "CNA",
-      "published": "2026-11-06T03:04:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece",
-          "title": "Donald Trump predicts deal with Russia on Ukraine and ‘all of Europe’",
-          "published": "2026-11-06T01:07:49+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Trump designates Oval Office as national monument",
-      "url": "https://www.thehindu.com/news/international/trump-designates-oval-office-as-national-monument/article71671751.ece",
-      "source": "The Hindu",
-      "published": "2026-11-06T02:29:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-oval-office-national-monument-white-house-6529706",
-          "title": "Trump designates Oval Office as national monument",
-          "published": "2026-11-06T01:55:52+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "California governor says commuting all death sentences in state",
-      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/california-death-row-clemency/",
-      "source": "Japan Times",
-      "published": "2026-11-06T01:53:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036",
-          "title": "California governor says commuting all death sentences in state",
-          "published": "2026-11-05T21:37:00+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3373482/12-1/2-years-jail-ex-macau-lawmaker-au-kam-san-citys-first-national-security-trial",
+          "title": "12½ years’ jail for ex-Macau lawmaker Au Kam-san in city’s first national security trial",
+          "published": "2026-11-06T03:08:14+00:00"
         }
       ],
       "consensus": 2.0
@@ -359,6 +365,34 @@
       "consensus": 5.0
     },
     {
+      "title": "New wave of bomb hoaxes hits dozens of flights across Europe",
+      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/europe-bomb-hoaxes-second-wave/",
+      "source": "Japan Times",
+      "published": "2026-11-06T01:02:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
+          "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fears",
+          "published": "2026-11-05T18:17:36+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Bomb threats disrupt several flights across Europe",
+          "published": "2026-11-05T10:10:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/european-airlines-bomb-threats-hoax-6526981",
+          "title": "New wave of bomb hoaxes hits at least 27 passenger flights across Europe",
+          "published": "2026-11-05T09:31:00+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
       "title": "France workers strike, march for 'dignified wage'",
       "url": "https://www.channelnewsasia.com/world/france-workers-strike-wage-protest-police-macron-6529011",
       "source": "CNA",
@@ -382,34 +416,6 @@
           "url": "https://www.rfi.fr/en/france/20261105-french-unions-join-forces-for-nationwide-strike-as-protests-intensify",
           "title": "Mass protests sweep France as workers and students demand higher pay and funding",
           "published": "2026-11-05T07:11:27+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "British comedian Russell Brand guilty of rape, three sexual assaults",
-      "url": "https://www.channelnewsasia.com/entertainment/russell-brand-trial-guilty-rape-three-sexual-assaults-6528651",
-      "source": "CNA",
-      "published": "2026-11-05T17:51:00+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
-          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
-          "published": "2026-11-05T17:42:23+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/comedian-russell-brand-found-guilty-by-uk-court-of-rape-and-sexual-assaults/article71670633.ece",
-          "title": "Comedian Russell Brand found guilty by U.K. court of rape and sexual assaults",
-          "published": "2026-11-05T17:19:23+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
-          "title": "British comedian Russell Brand found guilty of rape, sexual assault",
-          "published": "2026-11-05T14:26:40+00:00"
         }
       ],
       "consensus": 4.5
@@ -481,6 +487,28 @@
       "consensus": 3.5
     },
     {
+      "title": "British comedian Russell Brand guilty of rape, three sexual assaults",
+      "url": "https://www.channelnewsasia.com/entertainment/russell-brand-trial-guilty-rape-three-sexual-assaults-6528651",
+      "source": "CNA",
+      "published": "2026-11-05T17:51:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
+          "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
+          "published": "2026-11-05T17:42:23+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/comedian-russell-brand-found-guilty-by-uk-court-of-rape-and-sexual-assaults/article71670633.ece",
+          "title": "Comedian Russell Brand found guilty by U.K. court of rape and sexual assaults",
+          "published": "2026-11-05T17:19:23+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Trump says Russia-Ukraine deal is near after meeting Putin’s envoy",
       "url": "https://www.aljazeera.com/news/2026/11/6/trump-met-russian-envoy-after-he-appeared-with-melania-trump-and-ukrainians?traffic_source=rss",
       "source": "Al Jazeera",
@@ -545,6 +573,22 @@
       "consensus": 2.5
     },
     {
+      "title": "British actor Russell Brand faces prison after rape, sexual assault conviction",
+      "url": "https://www.scmp.com/news/world/europe/article/3373453/british-actor-russell-brand-faces-prison-after-rape-sexual-assault-conviction",
+      "source": "SCMP",
+      "published": "2026-11-05T14:54:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261105-british-comedian-russell-brand-found-guilty-of-rape-sexual-assault",
+          "title": "British comedian Russell Brand found guilty of rape, sexual assault",
+          "published": "2026-11-05T14:26:40+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Finland Jails Russian Captain and Azerbaijani Crew Member Over Baltic Sea Cable Damage",
       "url": "https://www.themoscowtimes.com/2026/11/05/finland-jails-russian-captain-and-azerbaijani-crew-member-over-baltic-sea-cable-damage-a94185",
       "source": "The Moscow Times",
@@ -556,22 +600,6 @@
           "url": "https://www.scmp.com/news/world/europe/article/3373432/finland-jails-russian-cargo-ship-captain-over-baltic-sea-cable-sabotage",
           "title": "Finland jails Russian cargo ship captain over Baltic Sea cable sabotage",
           "published": "2026-11-05T12:30:38+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "South Korea plans to extend anti-piracy patrols closer to Strait of Hormuz",
-      "url": "https://www.euronews.com/2026/11/05/south-korea-plans-to-extend-anti-piracy-patrols-closer-to-strait-of-hormuz",
-      "source": "Euronews",
-      "published": "2026-11-05T12:07:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-to-expand-anti-piracy-unit-operations-closer-to-strait-of-hormuz",
-          "title": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz",
-          "published": "2026-11-05T02:02:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -593,6 +621,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Melania hosts Russia and Ukraine as Trump touts deal for 'all of Europe'",
+      "url": "https://www.channelnewsasia.com/world/melania-trump-russia-ukraine-deal-6529891",
+      "source": "CNA",
+      "published": "2026-11-06T03:04:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece",
+          "title": "Donald Trump predicts deal with Russia on Ukraine and ‘all of Europe’",
+          "published": "2026-11-06T01:07:49+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "California governor says commuting all death sentences in state",
+      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/california-death-row-clemency/",
+      "source": "Japan Times",
+      "published": "2026-11-06T01:53:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/california-death-row-life-imprisonment-newsom-6529036",
+          "title": "California governor says commuting all death sentences in state",
+          "published": "2026-11-05T21:37:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
       "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -604,22 +664,6 @@
           "url": "https://english.elpais.com/usa/2026-11-05/nithya-raman-defeats-karen-bass-to-become-los-angeles-first-asian-american-mayor.html",
           "title": "Nithya Raman defeats Karen Bass to become Los Angeles’ first Asian-American mayor",
           "published": "2026-11-05T20:54:11+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "New wave of bomb hoaxes hits dozens of flights across Europe",
-      "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/europe-bomb-hoaxes-second-wave/",
-      "source": "Japan Times",
-      "published": "2026-11-06T01:02:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/european-airlines-bomb-threats-hoax-6526981",
-          "title": "New wave of bomb hoaxes hits at least 27 passenger flights across Europe",
-          "published": "2026-11-05T09:31:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -668,22 +712,6 @@
           "url": "https://www.themoscowtimes.com/2026/11/05/russian-diesel-tankers-bound-for-us-change-course-casting-doubt-on-trump-deal-a94182",
           "title": "Russian Diesel Tankers Bound for U.S. Change Course, Casting Doubt on Trump Deal",
           "published": "2026-11-05T10:00:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war fears",
-      "url": "https://www.theguardian.com/world/2026/nov/05/bomb-threats-disrupt-flights-across-europe-and-renew-hybrid-warfare-fears",
-      "source": "The Guardian",
-      "published": "2026-11-05T18:17:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/bomb-threats-disrupt-several-flights-across-europe/a-79861216?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Bomb threats disrupt several flights across Europe",
-          "published": "2026-11-05T10:10:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -833,22 +861,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Taiwan sees continued US arms sale support after midterm election",
-      "url": "https://www.channelnewsasia.com/east-asia/taiwan-continued-arms-support-united-states-midterms-6526126",
-      "source": "CNA",
-      "published": "2026-11-05T04:28:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/taiwan-sees-continued-us-arms-sale-support-after-midterm-election",
-          "title": "Taiwan sees continued US arms sale support after midterm election",
-          "published": "2026-11-05T02:33:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "West Bank: Palestinians harvest olives under Israeli military restrictions",
       "url": "http://www.africanews.com/2026/11/05/west-bank-palestinians-harvest-olives-under-israeli-military-restrictions/",
       "source": "Africanews",
@@ -929,46 +941,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Growing Vietnam ties test Japan’s commitment to rules-based regional order",
-      "url": "https://www.scmp.com/week-asia/politics/article/3373470/growing-vietnam-ties-test-japans-commitment-rules-based-regional-order",
-      "source": "SCMP",
-      "published": "2026-11-06T04:00:12+00:00",
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-06T04:29:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "China passes cross-border corruption law, expanding anti-graft drive",
-      "url": "https://www.straitstimes.com/asia/china-passes-cross-border-corruption-law-expanding-anti-graft-drive",
-      "source": "Straits Times",
-      "published": "2026-11-06T03:57:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan PM Takaichi vows effort to reduce Okinawa base burden in first meeting in 13 years",
-      "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-vows-effort-to-reduce-okinawa-base-burden-in-first-meeting-in-13-years",
-      "source": "Straits Times",
-      "published": "2026-11-06T03:50:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Woman pleads not guilty to DV murder of man found dead on Newell Highway",
-      "url": "https://www.abc.net.au/news/2026-11-06/lisa-anne-silson-pleads-not-guilty-murder-mark-akers/107355300",
+      "title": "Man sues former AFL players Dion Prestia and Steven May",
+      "url": "https://www.abc.net.au/news/2026-11-06/dion-prestia-steven-may-sued-victoria-court-alleged-brawl/107356188",
       "source": "ABC Australia",
-      "published": "2026-11-06T03:47:57+00:00",
+      "published": "2026-11-06T04:26:33+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Mariko Mori predicted the future. She’ll do it again.",
-      "url": "https://www.japantimes.co.jp/culture/2026/11/06/art/mariko-mori-tokyo-exhibition/",
+      "title": "Customary landowners welcome Kaiteretere name change as part of Nelson Tenths' case",
+      "url": "https://www.rnz.co.nz/news/regional/2388135/customary-landowners-welcome-kaiteretere-name-change-as-part-of-nelson-tenths-case",
+      "source": "RNZ",
+      "published": "2026-11-06T04:20:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ukraine-Russia war live: Trump claims ‘big, beautiful’ deal in the works as UK refuses to invite Putin to G20",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-uk-putin-g20-b3079889.html",
+      "source": "The Independent",
+      "published": "2026-11-06T04:16:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Bank of England raises rates for first time since 2023 and warns more likely",
+      "url": "https://www.japantimes.co.jp/business/2026/11/06/economy/boe-raises-rates/",
       "source": "Japan Times",
-      "published": "2026-11-06T03:46:00+00:00",
+      "published": "2026-11-06T04:16:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1003,7 +1015,7 @@
       "symbol": "^FTSE",
       "price": 10782.66,
       "currency": "GBP",
-      "change": -46.55,
+      "change": -46.54,
       "change_percent": -0.43,
       "name": "FTSE 100"
     }
@@ -1022,7 +1034,7 @@
         "symbol": "^FTSE",
         "price": 10782.66,
         "currency": "GBP",
-        "change": -46.55,
+        "change": -46.54,
         "change_percent": -0.43,
         "name": "FTSE 100"
       },
@@ -1030,7 +1042,7 @@
         "symbol": "^DJI",
         "price": 51523.06,
         "currency": "USD",
-        "change": -1833.06,
+        "change": -1833.04,
         "change_percent": -3.44,
         "name": "Dow Jones"
       },
@@ -1044,17 +1056,17 @@
       },
       {
         "symbol": "^N225",
-        "price": 57444.66,
+        "price": 57349.72,
         "currency": "JPY",
-        "change": -3633.24,
-        "change_percent": -5.95,
+        "change": -3728.18,
+        "change_percent": -6.1,
         "name": "Nikkei 225"
       },
       {
         "symbol": "^GDAXI",
         "price": 26325.01,
         "currency": "EUR",
-        "change": -112.66,
+        "change": -112.69,
         "change_percent": -0.43,
         "name": "DAX Index"
       },
@@ -1070,26 +1082,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4053.4,
+        "price": 4053.1,
         "currency": "USD",
-        "change": -60.1,
-        "change_percent": -1.46,
+        "change": -60.4,
+        "change_percent": -1.47,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.5,
+        "price": 51.49,
         "currency": "USD",
         "change": -0.88,
-        "change_percent": -1.67,
+        "change_percent": -1.68,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 100.53,
+        "price": 100.26,
         "currency": "USD",
-        "change": 2.24,
-        "change_percent": 2.28,
+        "change": 1.97,
+        "change_percent": 2.0,
         "name": "Brent Crude"
       },
       {
@@ -1097,7 +1109,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.14,
+        "change_percent": -0.21,
         "name": "EUR/USD"
       },
       {
@@ -1105,23 +1117,23 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.13,
+        "change_percent": -0.19,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.79,
+        "price": 157.96,
         "currency": "JPY",
-        "change": 0.14,
-        "change_percent": 0.09,
+        "change": 0.31,
+        "change_percent": 0.2,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 75761.11,
+        "price": 75525.9,
         "currency": "USD",
-        "change": -221.7,
-        "change_percent": -0.29,
+        "change": -456.91,
+        "change_percent": -0.6,
         "name": "Bitcoin"
       }
     ],
@@ -1291,22 +1303,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "China’s tech megacity cleans up seedy underbelly for Apec summit",
-          "url": "https://www.ft.com/content/ea2ab632-1f5c-4e22-8fe2-f513e36a6862?syn-25a6b1a6=1",
-          "published": "2026-11-06T01:11:27+00:00",
-          "snippet": "Shenzhen clears out illicit markets for smuggled chips and stolen iPhones as it prepares to host gathering of international leaders"
+          "title": "Putin orders seizure of Japan Tobacco’s Russian business",
+          "url": "https://www.ft.com/content/5397eabe-5c04-4851-a216-9a269f69682c?syn-25a6b1a6=1",
+          "published": "2026-11-06T02:59:56+00:00",
+          "snippet": "Expropriation of market’s largest cigarette company set to further strain ties between Moscow and Tokyo"
         },
         {
-          "title": "US lawmakers summon Jensen Huang over Chinese spying concerns",
-          "url": "https://www.ft.com/content/20119746-a285-482e-a0ae-336ce13b26bc?syn-25a6b1a6=1",
-          "published": "2026-11-06T00:59:03+00:00",
-          "snippet": "Top Republicans ask Nvidia boss to brief congressional committees after reports he was targeted by China"
+          "title": "Asian tech stocks sink",
+          "url": "https://www.ft.com/content/b77ebe43-a017-4e63-af84-5bdec8f47648?syn-25a6b1a6=1",
+          "published": "2026-11-06T02:30:40+00:00",
+          "snippet": "‘Complete carnage’ as Nikkei 225 falls below 60,000 points for first time since May with Seoul’s Kospi under 5,000 points"
         },
         {
-          "title": "Merge police into 10 larger forces, says Met chief",
-          "url": "https://www.ft.com/content/aa2f03e3-e73e-48c2-b183-610fa00051e1?syn-25a6b1a6=1",
-          "published": "2026-11-06T00:01:01+00:00",
-          "snippet": "Sir Mark Rowley wants the existing 43 forces in England and Wales to be consolidated into bigger and more effective units"
+          "title": "The echo chamber of Xi Jinping",
+          "url": "https://www.ft.com/content/8407d5dc-c231-46aa-a4fb-58d25c85892a?syn-25a6b1a6=1",
+          "published": "2026-11-06T02:14:55+00:00",
+          "snippet": "Probes and purges have greatly reduced the party’s ranks"
         }
       ]
     },
@@ -1414,6 +1426,14 @@
   "web": {
     "tech": [
       {
+        "title": "Clojure Distilled",
+        "url": "https://yogthos.net/ClojureDistilled.html",
+        "comments_url": "https://lobste.rs/s/dxno99/clojure_distilled",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-06T04:20:58.464000+00:00"
+      },
+      {
         "title": "MCP Explained: how the Model Context Protocol works",
         "url": "https://mcp-explained.com/",
         "comments_url": "https://lobste.rs/s/zamj0y/mcp_explained_how_model_context_protocol",
@@ -1422,9 +1442,16 @@
         "published": "2026-11-06T03:43:00.313000+00:00"
       },
       {
+        "title": "Pwn.college",
+        "url": "https://pwn.college/",
+        "score": 17,
+        "source": "Hacker News",
+        "published": "2026-11-06T03:27:14+00:00"
+      },
+      {
         "title": "Nvidia Kubernetes Engine (NVKE)",
         "url": "https://github.com/dsx-ai-factory/nvke",
-        "score": 12,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-06T03:16:26+00:00"
       },
@@ -1439,21 +1466,21 @@
       {
         "title": "Closed AI models dominate the price-performance frontier",
         "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
-        "score": 13,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-06T02:49:56+00:00"
       },
       {
-        "title": "Castration extends life span in mice",
-        "url": "https://www.science.org/content/article/castration-extends-life-span-surprising-way-mouse-study-suggests",
-        "score": 8,
+        "title": "Tesla and SpaceX lose over $420B in combined market cap in the two days",
+        "url": "https://techlaws.pages.dev/tesla-and-spacex-lose-over-420b-in-combined-market-cap-in-the-two-days/",
+        "score": 59,
         "source": "Hacker News",
-        "published": "2026-11-06T02:38:29+00:00"
+        "published": "2026-11-06T02:30:25+00:00"
       },
       {
         "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
         "url": "https://github.com/matthewmrichter/mooftcp",
-        "score": 19,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-06T00:54:15+00:00"
       },
@@ -1468,7 +1495,7 @@
       {
         "title": "Inkling 2 Small",
         "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-        "score": 107,
+        "score": 117,
         "source": "Hacker News",
         "published": "2026-11-06T00:00:24+00:00"
       },
@@ -1483,14 +1510,14 @@
       {
         "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
         "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-        "score": 170,
+        "score": 182,
         "source": "Hacker News",
         "published": "2026-11-05T23:09:57+00:00"
       },
       {
         "title": "Claude Code sends your email address to websites",
         "url": "https://github.com/anthropics/claude-code/issues/107757",
-        "score": 680,
+        "score": 714,
         "source": "Hacker News",
         "published": "2026-11-05T22:17:15+00:00"
       },
@@ -1505,23 +1532,9 @@
       {
         "title": "MS Paint Remote Code Execution Vulnerability",
         "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-        "score": 373,
+        "score": 387,
         "source": "Hacker News",
         "published": "2026-11-05T20:43:42+00:00"
-      },
-      {
-        "title": "Goodbye from Salon",
-        "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-        "score": 489,
-        "source": "Hacker News",
-        "published": "2026-11-05T20:03:29+00:00"
-      },
-      {
-        "title": "The Hackintosh Reborn",
-        "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-        "score": 240,
-        "source": "Hacker News",
-        "published": "2026-11-05T19:08:22+00:00"
       }
     ],
     "reddit": [

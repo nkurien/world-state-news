@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-06T03:01:08.442826+00:00",
+  "last_updated": "2026-11-06T03:30:57.802816+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 385
+      "ms": 264
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 358
+      "ms": 195
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 248
+      "ms": 267
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 248
+      "ms": 99
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 440
+      "ms": 424
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1099
+      "ms": 321
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 1151
+      "ms": 452
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 591
+      "ms": 279
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 273
+      "ms": 209
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 189
+      "ms": 145
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 538
+      "ms": 667
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 3649
+      "ms": 6444
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 288
+      "ms": 281
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 100
+      "ms": 511
     },
     "RFI English": {
       "ok": true,
       "count": 16,
       "error": null,
-      "ms": 531
+      "ms": 291
     },
     "RNZ": {
       "ok": true,
-      "count": 49,
+      "count": 50,
       "error": null,
-      "ms": 311
+      "ms": 195
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 832
+      "ms": 609
     },
     "Semafor": {
       "ok": true,
       "count": 275,
       "error": null,
-      "ms": 724
+      "ms": 415
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 484
+      "ms": 495
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 308
+      "ms": 264
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 162
+      "ms": 176
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 207
+      "ms": 156
     },
     "The Independent": {
       "ok": true,
-      "count": 79,
+      "count": 78,
       "error": null,
-      "ms": 243
+      "ms": 205
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 212
+      "ms": 203
     }
   },
   "breaking": [
@@ -166,6 +166,28 @@
           "url": "http://www.africanews.com/2026/11/05/cristiano-ronaldo-announces-international-retirement-from-portugal/",
           "title": "Cristiano Ronaldo announces international retirement from Portugal",
           "published": "2026-11-05T16:11:05+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "California governor to grant clemency to all 548 death row inmates in state",
+      "url": "https://www.abc.net.au/news/2026-11-06/california-govenor-newsom-seeks-clemency-for-death-row-inmates/107354146",
+      "source": "ABC Australia",
+      "published": "2026-11-06T00:49:38+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
+          "title": "California governor commutes sentences for state's 548 death row inmates",
+          "published": "2026-11-05T23:09:33+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373467/california-governor-newsom-granting-clemency-all-548-death-row-inmates-state",
+          "title": "California Governor Newsom granting clemency to all 548 death row inmates in state",
+          "published": "2026-11-05T22:28:21+00:00"
         }
       ],
       "consensus": 4.0
@@ -193,6 +215,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Melania hosts Russia and Ukraine as Trump touts deal for 'all of Europe'",
+      "url": "https://www.channelnewsasia.com/world/melania-trump-russia-ukraine-deal-6529891",
+      "source": "CNA",
+      "published": "2026-11-06T03:04:15+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece",
+          "title": "Donald Trump predicts deal with Russia on Ukraine and ‘all of Europe’",
+          "published": "2026-11-06T01:07:49+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373459/melania-trump-hosts-ukraine-russia-officials-calls-more-enduring-truce",
+          "title": "Melania hosts Russia and Ukraine, as Trump touts deal for ‘all of Europe’",
+          "published": "2026-11-05T17:25:13+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Netanyahu rival Eisenkot tipped to seek Israeli government with backing of Arab lists",
       "url": "https://www.scmp.com/news/world/middle-east/article/3373476/netanyahu-rival-eisenkot-tipped-seek-israeli-government-backing-arab-lists",
       "source": "SCMP",
@@ -215,10 +259,26 @@
       "consensus": 3.0
     },
     {
+      "title": "Woman, 90, shot during Bondi beach massacre dies in hospital year after antisemitic attack",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/06/bondi-beach-shooting-woman-dies-year-after-terror-attack-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-06T03:14:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-06/bondi-terror-attack-survivor-elderly-woman-dies-in-hospital/107355644",
+          "title": "Live: Elderly woman shot during Bondi terror attack dies",
+          "published": "2026-11-06T02:04:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "US elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
       "source": "The Guardian",
-      "published": "2026-11-06T02:34:18+00:00",
+      "published": "2026-11-06T03:00:46+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -231,65 +291,17 @@
       "consensus": 2.5
     },
     {
-      "title": "California governor commutes sentences of more than 500 people on death row",
-      "url": "https://www.aljazeera.com/news/2026/11/6/california-governor-commutes-sentences-of-more-than-500-people-on-death-row?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-06T01:39:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
-          "title": "California governor commutes sentences for state's 548 death row inmates",
-          "published": "2026-11-05T23:09:33+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "California governor to grant clemency to all 548 death row inmates in state",
-      "url": "https://www.abc.net.au/news/2026-11-06/california-govenor-newsom-seeks-clemency-for-death-row-inmates/107354146",
-      "source": "ABC Australia",
-      "published": "2026-11-06T00:49:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373467/california-governor-newsom-granting-clemency-all-548-death-row-inmates-state",
-          "title": "California Governor Newsom granting clemency to all 548 death row inmates in state",
-          "published": "2026-11-05T22:28:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Trump designates Oval Office as national monument",
-      "url": "https://www.channelnewsasia.com/world/trump-oval-office-national-monument-white-house-6529706",
-      "source": "CNA",
-      "published": "2026-11-06T01:55:52+00:00",
+      "url": "https://www.thehindu.com/news/international/trump-designates-oval-office-as-national-monument/article71671751.ece",
+      "source": "The Hindu",
+      "published": "2026-11-06T02:29:35+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-designates-oval-office-as-national-monument/article71671751.ece",
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-oval-office-national-monument-white-house-6529706",
           "title": "Trump designates Oval Office as national monument",
-          "published": "2026-11-05T23:06:35+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
-      "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-06T01:28:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-05/nithya-raman-defeats-karen-bass-to-become-los-angeles-first-asian-american-mayor.html",
-          "title": "Nithya Raman defeats Karen Bass to become Los Angeles’ first Asian-American mayor",
-          "published": "2026-11-05T20:54:11+00:00"
+          "published": "2026-11-06T01:55:52+00:00"
         }
       ],
       "consensus": 2.0
@@ -421,6 +433,28 @@
       "consensus": 4.5
     },
     {
+      "title": "Democratic socialist Nithya Raman elected mayor of L.A.",
+      "url": "https://www.cbc.ca/news/world/raman-defeats-bass-la-mayor-9.7411057?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-05T22:51:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/india-born-nithya-raman-beats-democratic-incumbent-to-become-la-mayor/article71671618.ece",
+          "title": "India-born Nithya Raman beats Democratic incumbent to become LA mayor",
+          "published": "2026-11-05T21:31:01+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373464/india-born-leftist-nithya-raman-beats-incumbent-karen-bass-become-la-mayor",
+          "title": "India-born democratic socialist Nithya Raman becomes LA mayor, ousting Karen Bass",
+          "published": "2026-11-05T21:01:26+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Multiple planes diverted as bomb threats to commercial flights reported across Europe – as it happened",
       "url": "https://www.theguardian.com/world/live/2026/nov/05/aer-lingus-plane-bomb-threat-europe-latest-news-updates",
       "source": "The Guardian",
@@ -441,22 +475,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Karen Bass out as L.A. mayor, as voters pick DSA-backed Nithya Raman",
-      "url": "https://www.cbc.ca/news/world/raman-defeats-bass-la-mayor-9.7411057?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-05T22:51:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373464/india-born-leftist-nithya-raman-beats-incumbent-karen-bass-become-la-mayor",
-          "title": "India-born democratic socialist Nithya Raman becomes LA mayor, ousting Karen Bass",
-          "published": "2026-11-05T21:01:26+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "California Gov. Gavin Newsom says he'll commute all death row sentences to life in prison",
@@ -555,17 +573,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Donald Trump predicts deal with Russia on Ukraine and ‘all of Europe’",
-      "url": "https://www.thehindu.com/news/international/donald-trump-predicts-deal-with-russia-on-ukraine-and-all-of-europe/article71672626.ece",
-      "source": "The Hindu",
-      "published": "2026-11-06T01:07:49+00:00",
+      "title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3xxwk3k11o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-06T01:28:03+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373459/melania-trump-hosts-ukraine-russia-officials-calls-more-enduring-truce",
-          "title": "Melania hosts Russia and Ukraine, as Trump touts deal for ‘all of Europe’",
-          "published": "2026-11-05T17:25:13+00:00"
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-05/nithya-raman-defeats-karen-bass-to-become-los-angeles-first-asian-american-mayor.html",
+          "title": "Nithya Raman defeats Karen Bass to become Los Angeles’ first Asian-American mayor",
+          "published": "2026-11-05T20:54:11+00:00"
         }
       ],
       "consensus": 2.0
@@ -763,22 +781,6 @@
       "consensus": 2.0
     },
     {
-      "title": "New Zealand leaders make final appeals as election remains tight",
-      "url": "https://www.japantimes.co.jp/news/2026/11/05/asia-pacific/politics/new-zealand-leaders-election/",
-      "source": "Japan Times",
-      "published": "2026-11-05T08:51:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/new-zealand-leaders-make-final-appeals-as-election-remains-tight",
-          "title": "New Zealand leaders make final appeals as election remains tight",
-          "published": "2026-11-05T05:52:52+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Suspected grizzly bear attack kills mother and daughter during short walk close to home",
       "url": "https://www.independent.co.uk/news/world/americas/grizzly-bear-attack-canada-british-columbia-mother-daughter-b3079539.html",
       "source": "The Independent",
@@ -907,55 +909,64 @@
       "consensus": 1.5
     },
     {
-      "title": "US and Brazil deliver double blow to the populist right. Will Europe feel the impact?",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3373448/us-and-brazil-deliver-double-blow-populist-right-will-europe-feel-impact",
-      "source": "SCMP",
-      "published": "2026-11-06T03:00:08+00:00",
+      "title": "From red walls to white elephants: Is tourist town Melaka a grave for mega projects?",
+      "url": "https://www.straitstimes.com/asia/se-asia/from-red-walls-to-white-elephants-is-tourist-town-melaka-a-grave-for-mega-projects",
+      "source": "Straits Times",
+      "published": "2026-11-06T03:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "The curse of Liz Truss brings down the MAGA movement",
-      "url": "https://www.politico.eu/article/curse-liz-truss-maga-movement/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-06T03:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "From Madrid to MAGA: How Spain’s Vox forged a right-wing network with global reach",
-      "url": "https://www.politico.eu/article/from-madrid-to-maga-how-spains-vox-forged-a-right-wing-network-with-global-reach/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-06T03:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Don’t try to ‘please the dictator,’ Estonian leader urges Europe about Putin",
-      "url": "https://www.politico.eu/article/estonia-prime-minister-kristen-michal-europe-vladimir-putin-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-06T03:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-06T02:57:24+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "AFP officers meet flight at Sydney airport after 'threat' sent",
-      "url": "https://www.abc.net.au/news/2026-11-06/afp-search-sydney-flight-after-european-airline-bomb-threats/107354870",
+      "title": "Probe widens after steering failure on Spirit of Tasmania ferry",
+      "url": "https://www.abc.net.au/news/2026-11-06/transport-safety-bureau-expands-probe-spirit-iv-ferry-failure/107354880",
       "source": "ABC Australia",
-      "published": "2026-11-06T02:55:43+00:00",
+      "published": "2026-11-06T03:23:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Sarawak polls set for Dec 12",
+      "url": "https://www.straitstimes.com/asia/se-asia/sarawak-polls-set-for-dec-12",
+      "source": "Straits Times",
+      "published": "2026-11-06T03:23:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Israel faces new era of sinking US support after election",
+      "url": "https://www.channelnewsasia.com/world/israel-us-support-midterm-election-6529946",
+      "source": "CNA",
+      "published": "2026-11-06T03:21:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Canada budget charts ‘economic independence’ in decisive shift from US",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373484/canada-budget-charts-economic-independence-decisive-shift-us",
+      "source": "SCMP",
+      "published": "2026-11-06T03:20:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hegseth defends record as Pengaton chief, slams 'sham' push for his impeachment",
+      "url": "https://www.cbc.ca/news/world/hegseth-video-vows-fight-impeachment-9.7411639?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-06T03:19:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump signs order preventing future presidents from changing Oval Office",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-06T03:17:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1057,26 +1068,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4074.8,
+        "price": 4059.7,
         "currency": "USD",
-        "change": -38.7,
-        "change_percent": -0.94,
+        "change": -53.8,
+        "change_percent": -1.31,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.02,
+        "price": 51.69,
         "currency": "USD",
-        "change": -0.35,
-        "change_percent": -0.67,
+        "change": -0.69,
+        "change_percent": -1.31,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 99.69,
+        "price": 99.52,
         "currency": "USD",
-        "change": 1.4,
-        "change_percent": 1.42,
+        "change": 1.23,
+        "change_percent": 1.25,
         "name": "Brent Crude"
       },
       {
@@ -1084,7 +1095,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": -0.1,
         "name": "EUR/USD"
       },
       {
@@ -1092,23 +1103,23 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": -0.11,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.86,
+        "price": 157.87,
         "currency": "JPY",
-        "change": 0.21,
-        "change_percent": 0.13,
+        "change": 0.22,
+        "change_percent": 0.14,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 76083.11,
+        "price": 75831.78,
         "currency": "USD",
-        "change": 100.3,
-        "change_percent": 0.13,
+        "change": -151.03,
+        "change_percent": -0.2,
         "name": "Bitcoin"
       }
     ],
@@ -1401,17 +1412,32 @@
   "web": {
     "tech": [
       {
+        "title": "How Windows Bootloader Starts the Kernel",
+        "url": "https://www.youtube.com/watch?v=mxj7z6WqK14",
+        "comments_url": "https://lobste.rs/s/ml83td/how_windows_bootloader_starts_kernel",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-06T03:01:39.333000+00:00"
+      },
+      {
+        "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
+        "url": "https://github.com/matthewmrichter/mooftcp",
+        "score": 16,
+        "source": "Hacker News",
+        "published": "2026-11-06T00:54:15+00:00"
+      },
+      {
         "title": "X-87 - DOS 256 bytes",
         "url": "https://www.onirom.fr/wiki/codegolf/x-87/",
         "comments_url": "https://lobste.rs/s/q0ld7f/x_87_dos_256_bytes",
-        "score": 5,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-06T00:16:07.380000+00:00"
       },
       {
         "title": "Inkling 2 Small",
         "url": "https://thinkingmachines.ai/news/inkling-2-small/",
-        "score": 86,
+        "score": 94,
         "source": "Hacker News",
         "published": "2026-11-06T00:00:24+00:00"
       },
@@ -1426,21 +1452,21 @@
       {
         "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
         "url": "https://www.fgc.org.br/comunicado",
-        "score": 24,
+        "score": 26,
         "source": "Hacker News",
         "published": "2026-11-05T23:32:36+00:00"
       },
       {
         "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
         "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-        "score": 138,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-05T23:09:57+00:00"
       },
       {
         "title": "Claude Code sends your email address to websites",
         "url": "https://github.com/anthropics/claude-code/issues/107757",
-        "score": 607,
+        "score": 642,
         "source": "Hacker News",
         "published": "2026-11-05T22:17:15+00:00"
       },
@@ -1455,35 +1481,21 @@
       {
         "title": "MS Paint Remote Code Execution Vulnerability",
         "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-        "score": 345,
+        "score": 361,
         "source": "Hacker News",
         "published": "2026-11-05T20:43:42+00:00"
       },
       {
-        "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
-        "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
-        "score": 90,
-        "source": "Hacker News",
-        "published": "2026-11-05T20:21:43+00:00"
-      },
-      {
-        "title": "Search for everyone",
-        "url": "https://kagi.com/changelog#11820",
-        "score": 565,
-        "source": "Hacker News",
-        "published": "2026-11-05T20:03:34+00:00"
-      },
-      {
         "title": "Goodbye from Salon",
         "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-        "score": 460,
+        "score": 479,
         "source": "Hacker News",
         "published": "2026-11-05T20:03:29+00:00"
       },
       {
         "title": "The Hackintosh Reborn",
         "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-        "score": 221,
+        "score": 233,
         "source": "Hacker News",
         "published": "2026-11-05T19:08:22+00:00"
       },
@@ -1554,20 +1566,20 @@
         "published": "2026-11-05T16:11:02+00:00"
       },
       {
-        "title": "In January 2026, the federal government launched a pilot program in Medicare requiring advance approval for certain medical treatments and encouraging the use of AI to review requests. Doctors had rarely needed approval before providing treatments. This led to an immediate drop in use of services.",
-        "url": "https://sph.brown.edu/news/2026-11-04/prior-authorization-pilot",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xoh3f2/in_january_2026_the_federal_government_launched_a/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-05T12:12:00+00:00"
-      },
-      {
         "title": "Russia Tries to Keep Fuel Flowing, but Ukrainian Strikes Shut Down 15 of Its 38 Major Oil Refineries",
         "url": "https://united24media.com/war-in-ukraine/russia-tries-to-keep-fuel-flowing-but-ukrainian-strikes-shut-down-15-of-its-38-major-oil-refineries-24105",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xom13v/russia_tries_to_keep_fuel_flowing_but_ukrainian/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-05T15:47:39+00:00"
+      },
+      {
+        "title": "In January 2026, the federal government launched a pilot program in Medicare requiring advance approval for certain medical treatments and encouraging the use of AI to review requests. Doctors had rarely needed approval before providing treatments. This led to an immediate drop in use of services.",
+        "url": "https://sph.brown.edu/news/2026-11-04/prior-authorization-pilot",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xoh3f2/in_january_2026_the_federal_government_launched_a/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-05T12:12:00+00:00"
       },
       {
         "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
@@ -1586,14 +1598,6 @@
         "published": "2026-11-05T11:08:46+00:00"
       },
       {
-        "title": "Women don’t find deeper-than-average voices more attractive when they can see the man. Findings also indicate that deeper voices subtly nudge viewers to guess that a man weighs slightly more, even when his body is visible.",
-        "url": "https://www.psypost.org/women-dont-find-deeper-than-average-voices-more-attractive-when-they-can-see-the-man/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xolmci/women_dont_find_deeperthanaverage_voices_more/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-05T15:31:17+00:00"
-      },
-      {
         "title": "Meta warns that election backlash against data centers could make AI expansion harder",
         "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/?utm_medium=organic_social&amp;utm_source=TWITTER",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xorh8s/meta_warns_that_election_backlash_against_data/",
@@ -1610,12 +1614,12 @@
         "published": "2026-11-05T08:04:06+00:00"
       },
       {
-        "title": "Critically Endangered Antarctic blue whales are increasing but still far from pre-whaling levels",
-        "url": "https://www.int-res.com/journals/esr/articles/esr01557",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xows4m/critically_endangered_antarctic_blue_whales_are/",
+        "title": "Women don’t find deeper-than-average voices more attractive when they can see the man. Findings also indicate that deeper voices subtly nudge viewers to guess that a man weighs slightly more, even when his body is visible.",
+        "url": "https://www.psypost.org/women-dont-find-deeper-than-average-voices-more-attractive-when-they-can-see-the-man/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xolmci/women_dont_find_deeperthanaverage_voices_more/",
         "score": null,
         "source": "/r/science",
-        "published": "2026-11-05T22:49:09+00:00"
+        "published": "2026-11-05T15:31:17+00:00"
       },
       {
         "title": "Zelenskiy: \"Ukraine must adapt ​to the new realities of US politics to build dialogue and address its needs for ‌more foreign aid and bolstered air defences to counter Russian attacks\"",
@@ -1624,6 +1628,14 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-06T00:46:11+00:00"
+      },
+      {
+        "title": "Critically Endangered Antarctic blue whales are increasing but still far from pre-whaling levels",
+        "url": "https://www.int-res.com/journals/esr/articles/esr01557",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xows4m/critically_endangered_antarctic_blue_whales_are/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-05T22:49:09+00:00"
       },
       {
         "title": "Lula's election win dashes US hopes of quick access to Brazil's rare earths",

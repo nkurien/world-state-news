@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-07T09:01:01.621166+00:00",
+  "last_updated": "2026-11-07T09:30:50.787170+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 181
+      "ms": 658
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 665
+      "ms": 457
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 153
+      "ms": 301
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 221
+      "ms": 376
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 309
+      "ms": 172
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 175
+      "ms": 133
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 36
+      "ms": 326
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 355
+      "ms": 702
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 292
+      "ms": 217
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 163
+      "ms": 193
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 365
+      "ms": 549
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 315
+      "ms": 435
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 85
+      "ms": 247
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 250
+      "ms": 468
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 333
+      "ms": 289
     },
     "RNZ": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 152
+      "ms": 299
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 812
+      "ms": 803
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 943
+      "ms": 934
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 903
+      "ms": 466
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 273
+      "ms": 305
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 129
+      "ms": 131
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 165
+      "ms": 299
     },
     "The Independent": {
       "ok": true,
-      "count": 66,
+      "count": 61,
       "error": null,
-      "ms": 324
+      "ms": 197
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 248
+      "ms": 304
     }
   },
   "breaking": [
@@ -223,6 +223,28 @@
       "consensus": 4.5
     },
     {
+      "title": "US Secret Service arrests man parked near White House with 'multiple guns' in vehicle",
+      "url": "https://www.euronews.com/2026/11/07/us-secret-service-arrests-man-parked-near-white-house-with-multiple-guns-in-vehicle",
+      "source": "Euronews",
+      "published": "2026-11-07T09:22:35+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/secret-service-arrests-man-near-white-house-after-he-said-he-heard-voices-telling-him-to-kill-trump/article71677332.ece",
+          "title": "Secret Service arrests man near White House after he said he heard voices telling him to kill Trump",
+          "published": "2026-11-07T05:10:35+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/06/secret-service-man-in-custody-trump",
+          "title": "Man in custody after being found in vehicle near White House with guns",
+          "published": "2026-11-07T00:31:59+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Political chaos in Somalia after court ruling against president's term extension",
       "url": "http://www.africanews.com/2026/11/07/political-chaos-in-somalia-after-court-ruling-against-presidents-term-extension/",
       "source": "Africanews",
@@ -271,6 +293,22 @@
       "consensus": 2.5
     },
     {
+      "title": "New Zealand election early count shows two main parties near deadlocked",
+      "url": "https://www.straitstimes.com/asia/australianz/new-zealand-election-voting-ends-early-results-due-shortly",
+      "source": "Straits Times",
+      "published": "2026-11-07T06:48:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results?traffic_source=rss",
+          "title": "Two main parties neck and neck after New Zealand vote, early count",
+          "published": "2026-11-07T06:20:27+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Malaysia’s king warns against challenging Najib’s house arrest",
       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3373642/malaysias-king-warns-against-challenging-najibs-house-arrest",
       "source": "SCMP",
@@ -285,24 +323,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Russell Brand barrister reports himself to watchdog over clash with journalist",
-      "url": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-barrister-ian-winter-reports-himself-bar-watchdog-confronting-sunday-times-journalist",
-      "source": "The Guardian",
-      "published": "2026-11-07T08:49:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "New Zealand election 2026 live results: Labour draws level with National as count continues in close race",
-      "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls",
-      "source": "The Guardian",
-      "published": "2026-11-07T08:49:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -311,7 +331,7 @@
       "url": "https://www.france24.com/en/kenyan-cult-leader-sentenced-to-200-years-in-prison",
       "source": "France24",
       "published": "2026-11-06T21:23:53+00:00",
-      "score": 9,
+      "score": 7,
       "other_sources": [
         {
           "source": "CNA",
@@ -348,21 +368,9 @@
           "url": "http://www.africanews.com/2026/11/06/kenyan-doomsday-cult-leader-sentenced-to-200-years-in-prison-for-murder-of-191/",
           "title": "Kenyan doomsday cult leader sentenced to 200 years in prison for murder of 191",
           "published": "2026-11-06T14:22:48+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/kenya-cult-leader-sentenced-murder-children-9.7411795?cmp=rss",
-          "title": "Kenyan cult leader Paul Mackenzie sentenced to 200 years in prison for murder of 190 children",
-          "published": "2026-11-06T13:01:38+00:00"
-        },
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/kenya-cult-leader-paul-mackenzie-sentenced-to-200-years/a-79875112?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Kenya cult leader Paul Mackenzie sentenced to 200 years",
-          "published": "2026-11-06T12:03:00+00:00"
         }
       ],
-      "consensus": 9.5
+      "consensus": 7.5
     },
     {
       "title": "Cornell faculty vote no confidence in university's leadership",
@@ -416,6 +424,34 @@
           "url": "https://www.cbc.ca/news/world/trump-susie-wiles-9.7412558?cmp=rss",
           "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles after midterm defeat",
           "published": "2026-11-06T19:07:29+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Meghan Markle's father arrested in US over child sex abuse images",
+      "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
+      "source": "CNA",
+      "published": "2026-11-06T19:00:22+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
+          "title": "Meghan Markle's father arrested over child sex abuse images",
+          "published": "2026-11-06T16:10:18+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373612/meghans-father-thomas-markle-arrested-us-child-sex-abuse-material-charges",
+          "title": "Thomas Markle, father of Meghan, charged in US with possession of child sex abuse photos",
+          "published": "2026-11-06T16:02:13+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
+          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
+          "published": "2026-11-06T15:42:09+00:00"
         }
       ],
       "consensus": 5.0
@@ -499,45 +535,45 @@
       "consensus": 4.0
     },
     {
-      "title": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour",
-      "url": "https://www.france24.com/en/americas/20261106-pope-leo-arrives-in-uruguay-for-first-stop-on-12-day-south-america-tour",
-      "source": "France24",
-      "published": "2026-11-06T21:14:49+00:00",
+      "title": "What we know about Europe's latest wave of bomb threats targeting flights — and now newsrooms",
+      "url": "https://www.cbc.ca/news/world/bomb-threats-europe-airlines-flights-newsrooms-9.7412231?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-06T17:11:42+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3373618/pope-leo-uruguay-kick-south-america-tour-just-weeks-after-lung-surgery",
-          "title": "Pope Leo in Uruguay to kick off South America tour just weeks after lung surgery",
-          "published": "2026-11-06T20:30:15+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
+          "title": "Europe: What we know about the hoax bomb threats disrupting flights",
+          "published": "2026-11-06T16:59:02+00:00"
         },
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
-          "title": "After cancer surgery, Pope Leo embarks on Latin America trip",
-          "published": "2026-11-06T09:19:57+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/europe-hoax-bomb-threats-airlines-what-know-fighter-jets-6530546",
+          "title": "Fighter jet escorts, flight diversions: What we know about Europe’s wave of hoax bomb threats",
+          "published": "2026-11-06T08:41:14+00:00"
         }
       ],
       "consensus": 4.0
     },
     {
-      "title": "Meghan Markle’s father Thomas appears in court charged with possession of child sexual abuse images",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-arrest-meghan-florida-latest-b3080587.html",
+      "title": "Pope Leo arrives in South America for 12-day tour less than a month after surgery amid lung cancer diagnosis",
+      "url": "https://www.independent.co.uk/news/world/americas/pope-leo-south-america-tour-lung-cancer-surgery-b3080838.html",
       "source": "The Independent",
-      "published": "2026-11-06T23:27:16+00:00",
+      "published": "2026-11-06T21:53:12+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
-          "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
-          "published": "2026-11-06T18:06:19+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261106-pope-leo-arrives-in-uruguay-for-first-stop-on-12-day-south-america-tour",
+          "title": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour",
+          "published": "2026-11-06T21:14:49+00:00"
         },
         {
           "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373612/meghans-father-thomas-markle-arrested-us-child-sex-abuse-material-charges",
-          "title": "Thomas Markle, father of Meghan, charged in US with possession of child sex abuse photos",
-          "published": "2026-11-06T16:02:13+00:00"
+          "url": "https://www.scmp.com/news/world/americas/article/3373618/pope-leo-uruguay-kick-south-america-tour-just-weeks-after-lung-surgery",
+          "title": "Pope Leo in Uruguay to kick off South America tour just weeks after lung surgery",
+          "published": "2026-11-06T20:30:15+00:00"
         }
       ],
       "consensus": 3.5
@@ -560,6 +596,28 @@
           "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
           "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
           "published": "2026-11-05T17:42:23+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+      "source": "The Guardian",
+      "published": "2026-11-06T15:08:43+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/kenya-cult-leader-sentenced-murder-children-9.7411795?cmp=rss",
+          "title": "Kenyan cult leader Paul Mackenzie sentenced to 200 years in prison for murder of 190 children",
+          "published": "2026-11-06T13:01:38+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/kenya-cult-leader-paul-mackenzie-sentenced-to-200-years/a-79875112?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Kenya cult leader Paul Mackenzie sentenced to 200 years",
+          "published": "2026-11-06T12:03:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -647,22 +705,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Pope Leo XIV arrives for South American tour after cancer surgery",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/pope-leo-xiv-arrives-for-south-american-tour-after-cancer-surgery?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-07T00:55:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/pope-leo-south-america-tour-lung-cancer-surgery-b3080838.html",
-          "title": "Pope Leo arrives in South America for 12-day tour less than a month after surgery amid lung cancer diagnosis",
-          "published": "2026-11-06T21:53:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Pope Leo begins South America tour in 'fairly good shape'",
       "url": "https://www.channelnewsasia.com/world/pope-leo-begins-south-america-tour-in-fairly-good-shape-6532451",
       "source": "CNA",
@@ -679,49 +721,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Meghan Markle's father arrested in US over child sex abuse images",
-      "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
-      "source": "CNA",
-      "published": "2026-11-06T19:00:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
-          "title": "Meghan Markle's father arrested over child sex abuse images",
-          "published": "2026-11-06T16:10:18+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "What we know about Europe's latest wave of bomb threats targeting flights — and now newsrooms",
-      "url": "https://www.cbc.ca/news/world/bomb-threats-europe-airlines-flights-newsrooms-9.7412231?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-06T17:11:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe-what-we-know-about-the-hoax-bomb-threats-disrupting-flights",
-          "title": "Europe: What we know about the hoax bomb threats disrupting flights",
-          "published": "2026-11-06T16:59:02+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thomas Markle charged with possessing child sexual abuse materials: read FBI statement in full",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-fbi-statement-arrest-child-sexual-abuse-b3080683.html",
+      "title": "Meghan Markle’s father Thomas appears in court charged with possession of child sexual abuse images",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-arrest-meghan-florida-latest-b3080587.html",
       "source": "The Independent",
-      "published": "2026-11-06T17:03:51+00:00",
+      "published": "2026-11-06T23:27:16+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
-          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
-          "published": "2026-11-06T15:42:09+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
+          "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
+          "published": "2026-11-06T18:06:19+00:00"
         }
       ],
       "consensus": 2.5
@@ -775,17 +785,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
-      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-      "source": "The Guardian",
-      "published": "2026-11-06T15:08:43+00:00",
+      "title": "Pope Leo embarks on Latin America trip with a first stop in Uruguay",
+      "url": "https://www.france24.com/en/video/20261106-pope-leo-embarks-on-latin-america-trip-with-a-first-stop-in-uruguay",
+      "source": "France24",
+      "published": "2026-11-06T14:58:24+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3373594/kenyan-doomsday-cult-leader-jailed-200-years-murdering-191-followers",
-          "title": "Kenyan doomsday cult leader jailed for 200 years for murdering 191 followers",
-          "published": "2026-11-06T12:55:28+00:00"
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/06/nx-s1-6032454/pope-leo-latin-america-trip",
+          "title": "After cancer surgery, Pope Leo embarks on Latin America trip",
+          "published": "2026-11-06T09:19:57+00:00"
         }
       ],
       "consensus": 2.5
@@ -802,22 +812,6 @@
           "url": "https://www.spiegel.de/international/germany/new-information-in-the-nazi-database-what-you-need-to-know-about-the-ss-a-f7e09472-e9da-4b11-9846-87f1778116e3#ref=rss",
           "title": "New Information in the Nazi Database: What You Need to Know About the SS",
           "published": "2026-07-08T06:54:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "90-year-old Holocaust survivor injured in Bondi Beach shooting dies nearly a year later",
-      "url": "https://www.independent.co.uk/news/world/australasia/bondi-beach-survivor-attack-dies-b3080238.html",
-      "source": "The Independent",
-      "published": "2026-11-06T09:11:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/woman-90-wounded-in-bondi-beach-shooting-dies-one-year-after-attack",
-          "title": "Woman, 90, wounded in Bondi Beach shooting dies one year after attack",
-          "published": "2026-11-06T05:03:05+00:00"
         }
       ],
       "consensus": 2.5
@@ -882,22 +876,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/france-school-bus-crash-live-updates-lent-b3080294.html",
           "title": "Two children dead as school bus crashes in France",
           "published": "2026-11-06T09:00:33+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "‘Clock is ticking’: European TV channels targeted in wave of hoax bomb threats",
-      "url": "https://www.scmp.com/news/world/europe/article/3373611/clock-ticking-european-tv-channels-targeted-wave-hoax-bomb-threats",
-      "source": "SCMP",
-      "published": "2026-11-06T15:31:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/europe-hoax-bomb-threats-airlines-what-know-fighter-jets-6530546",
-          "title": "Fighter jet escorts, flight diversions: What we know about Europe’s wave of hoax bomb threats",
-          "published": "2026-11-06T08:41:14+00:00"
         }
       ],
       "consensus": 2.0
@@ -999,22 +977,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
-      "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case",
-      "source": "The Guardian",
-      "published": "2026-11-05T07:56:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/05/hong-kong-democracy-activist-joshua-wong-sentenced-to-10-more-years-for-collusion",
-          "title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years for collusion",
-          "published": "2026-11-05T06:24:58+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "US First Lady Melania Trump to host Ukrainian and Russian officials at White House",
       "url": "https://www.euronews.com/2026/11/05/us-first-lady-melania-trump-to-host-ukrainian-and-russian-officials-at-white-house",
       "source": "Euronews",
@@ -1077,6 +1039,56 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Japan: Commuters flock to see two goats grazing at Tokyo station",
+      "url": "http://www.africanews.com/2026/11/06/japan-commuters-flock-to-see-two-goats-grazing-at-tokyo-station/",
+      "source": "Africanews",
+      "published": "2026-11-06T11:03:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/japan-commuters-flock-to-see-two-goats-grazing-at-tokyo-station",
+          "title": "Japan: Commuters flock to see two goats grazing at Tokyo station",
+          "published": "2026-11-06T11:03:47+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Paraguay: Thousands protest banking scandal as president faces impeachment",
+      "url": "http://www.africanews.com/2026/11/06/paraguay-thousands-protest-banking-scandal-as-president-faces-impeachment/",
+      "source": "Africanews",
+      "published": "2026-11-06T08:29:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/paraguay-thousands-protest-banking-scandal-as-president-faces-impeachment",
+          "title": "Paraguay: Thousands protest banking scandal as president faces impeachment",
+          "published": "2026-11-06T08:06:58+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Election results: Top National MPs may be out of Parliament",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2413987/election-results-top-national-mps-may-be-out-of-parliament",
+      "source": "RNZ",
+      "published": "2026-11-07T09:26:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ukraine: Russia hits Kyiv with airstrikes ahead of trilateral talks",
+      "url": "https://www.dw.com/en/ukraine-russia-hits-kyiv-with-airstrikes-ahead-of-trilateral-talks/a-79883851?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-07T09:21:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1223,10 +1235,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 76135.68,
+        "price": 76010.34,
         "currency": "USD",
-        "change": 394.66,
-        "change_percent": 0.52,
+        "change": 269.32,
+        "change_percent": 0.36,
         "name": "Bitcoin"
       }
     ],
@@ -1519,6 +1531,14 @@
   "web": {
     "tech": [
       {
+        "title": "Meridian — an experimental web browser built on Servo and GPUI",
+        "url": "https://op.tngl.io/meridian/",
+        "comments_url": "https://lobste.rs/s/j63dme/meridian_experimental_web_browser_built",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-07T09:21:55.256000+00:00"
+      },
+      {
         "title": "Firecracker VM Escape: PwnEscape Part 2",
         "url": "https://pwn.ai/blog/firecracker-escape",
         "comments_url": "https://lobste.rs/s/wzz4u3/firecracker_vm_escape_pwnescape_part_2",
@@ -1527,32 +1547,17 @@
         "published": "2026-11-07T08:44:02.325000+00:00"
       },
       {
-        "title": "Two Dimensional Version Control",
-        "url": "https://www.redblobgames.com/blog/2026-09-27-jujutsu-experience/",
-        "comments_url": "https://lobste.rs/s/49o9f3/two_dimensional_version_control",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-07T08:21:50.861000+00:00"
-      },
-      {
-        "title": "Bong: DuckDuckGo bang alternative, open-source and self-hosted",
-        "url": "https://bong.glendalab.com",
-        "score": 8,
-        "source": "Hacker News",
-        "published": "2026-11-07T07:48:13+00:00"
-      },
-      {
         "title": "Scriptable GeoDNS: leaving AWS for Bunny",
         "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
         "comments_url": "https://lobste.rs/s/jsvlfm/scriptable_geodns_leaving_aws_for_bunny",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-07T07:46:35.449000+00:00"
       },
       {
         "title": "The Components of Agent Memory",
         "url": "https://www.anthropic.com/research/components-of-agent-memory",
-        "score": 23,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-07T06:39:04+00:00"
       },
@@ -1568,21 +1573,21 @@
         "title": "Progress Report: Linux 7.3 - Asahi Linux",
         "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
         "comments_url": "https://lobste.rs/s/4qiair/progress_report_linux_7_3_asahi_linux",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-07T06:02:38.914000+00:00"
       },
       {
         "title": "Asahi Linux Progress Linux 7.3",
         "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
-        "score": 147,
+        "score": 161,
         "source": "Hacker News",
         "published": "2026-11-07T05:20:18+00:00"
       },
       {
         "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
         "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
-        "score": 79,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-07T04:54:36+00:00"
       },
@@ -1614,7 +1619,7 @@
         "title": "UploadYourRam.org",
         "url": "https://uploadyourram.org/",
         "comments_url": "https://lobste.rs/s/miazwz/uploadyourram_org",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-07T00:00:06.210000+00:00"
       },
@@ -1622,16 +1627,23 @@
         "title": "Libghostty 1.0",
         "url": "https://mitchellh.com/writing/libghostty-1-0",
         "comments_url": "https://lobste.rs/s/0ouxwf/libghostty_1_0",
-        "score": 67,
+        "score": 73,
         "source": "Lobste.rs",
         "published": "2026-11-06T23:48:03.089000+00:00"
       },
       {
         "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
         "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-        "score": 115,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-06T23:37:19+00:00"
+      },
+      {
+        "title": "Libghostty 1.0",
+        "url": "https://mitchellh.com/writing/libghostty-1-0",
+        "score": 611,
+        "source": "Hacker News",
+        "published": "2026-11-06T23:30:52+00:00"
       }
     ],
     "reddit": [
@@ -1708,12 +1720,36 @@
         "published": "2026-11-06T14:04:55+00:00"
       },
       {
+        "title": "Iran distributes anti-radiation iodine tablets in Bushehr amid Trump threats",
+        "url": "https://www.trtworld.com/article/b361ae5c6d1f",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpzuqx/iran_distributes_antiradiation_iodine_tablets_in/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-07T06:47:13+00:00"
+      },
+      {
         "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says | Australian politics",
         "url": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xpmeei/aukus_is_worst_riskiest_and_most_costly/",
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-06T19:53:17+00:00"
+      },
+      {
+        "title": "Student movement demands probe into alleged ties between Vucic and organized crime groups",
+        "url": "https://n1info.rs/english/news/student-movement-demands-probe-into-alleged-ties-between-vucic-and-organized-crime-groups/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xq1hsl/student_movement_demands_probe_into_alleged_ties/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-07T08:30:36+00:00"
+      },
+      {
+        "title": "‘Everything is so out of whack’: UK trees experience spring six months early",
+        "url": "https://www.theguardian.com/environment/2026/nov/06/uk-trees-early-spring-mild-autumn?CMP=Share_AndroidApp_Other",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xpp08u/everything_is_so_out_of_whack_uk_trees_experience/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-06T21:40:45+00:00"
       },
       {
         "title": "The Ugly Car That Sucks Has Died",
@@ -1730,30 +1766,6 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-06T22:20:21+00:00"
-      },
-      {
-        "title": "‘Everything is so out of whack’: UK trees experience spring six months early",
-        "url": "https://www.theguardian.com/environment/2026/nov/06/uk-trees-early-spring-mild-autumn?CMP=Share_AndroidApp_Other",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xpp08u/everything_is_so_out_of_whack_uk_trees_experience/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-06T21:40:45+00:00"
-      },
-      {
-        "title": "Putin Now Wants More Ukrainian Territory Beyond Donbas, FT Reports",
-        "url": "https://united24media.com/war-in-ukraine/putin-now-wants-more-ukrainian-territory-beyond-donbas-ft-reports-24149",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpn6so/putin_now_wants_more_ukrainian_territory_beyond/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-06T20:25:11+00:00"
-      },
-      {
-        "title": "Trump discusses Middle East de-escalation with Qatar’s emir",
-        "url": "https://apnews.com/article/mideast-news-november-6-2026-ab62071e056c046fe6034216e14b8bb7",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xprmq9/trump_discusses_middle_east_deescalation_with/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-06T23:36:14+00:00"
       }
     ]
   }

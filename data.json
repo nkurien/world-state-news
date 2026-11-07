@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-07T18:01:00.103390+00:00",
+  "last_updated": "2026-11-07T18:30:50.498104+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 671
+      "ms": 267
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 224
+      "ms": 274
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 179
+      "ms": 191
     },
     "BBC News": {
       "ok": true,
-      "count": 21,
+      "count": 24,
       "error": null,
-      "ms": 212
+      "ms": 210
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 243
+      "ms": 69
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 354
+      "ms": 228
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 676
+      "ms": 448
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 320
+      "ms": 264
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 187
+      "ms": 176
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 201
+      "ms": 292
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 293
+      "ms": 273
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 232
+      "ms": 316
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 206
+      "ms": 81
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 153
+      "ms": 336
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 231
+      "ms": 134
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 259
+      "ms": 381
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 554
+      "ms": 770
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 431
+      "ms": 969
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 504
+      "ms": 562
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 297
+      "ms": 338
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 131
+      "ms": 268
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 207
+      "ms": 232
     },
     "The Independent": {
       "ok": true,
-      "count": 54,
+      "count": 52,
       "error": null,
-      "ms": 229
+      "ms": 154
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 155
+      "ms": 262
     }
   },
   "breaking": [
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-07T18:14:38+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
+          "title": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
+          "published": "2026-11-07T11:31:19+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/united-states-offers-20-million-reward-for-information-on-irans-nuclear-program-centcom/article71677324.ece",
+          "title": "United States offers $20 million reward for information on 'Iran's nuclear program': CENTCOM",
+          "published": "2026-11-07T05:12:15+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-07/us-20-million-rewards-for-justice-iran-nuclear-program-details/107359156",
+          "title": "US offers $29m reward for details on Iran's nuclear program",
+          "published": "2026-11-07T03:27:57+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information",
+          "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
+          "published": "2026-11-07T02:04:14+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
     {
       "title": "Breaking: At least five killed in shooting at Krakow's main square",
       "url": "https://www.abc.net.au/news/2026-11-08/five-killed-in-krakow/107360360",
@@ -171,23 +205,23 @@
       "consensus": 4.0
     },
     {
-      "title": "Trump’s new chief of staff Stephen Miller says he ‘saved America’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-trump-stephen-miller-loyalty-pledge?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-07T15:29:11+00:00",
+      "title": "Shooting in Polish city of Krakow leaves 6 people dead and more than a dozen injured",
+      "url": "https://www.cbc.ca/news/world/krakow-poland-shooting-9.7413582?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-07T15:52:29+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/stephen-miller-trump-chief-staff-midterms-b3080957.html",
-          "title": "Who is Stephen Miller? Trump’s new chief of staff is architect of ICE crackdown",
-          "published": "2026-11-07T14:37:33+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+          "title": "At least six people killed in shooting in Polish city of Krakow, police say",
+          "published": "2026-11-07T15:23:48+00:00"
         },
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/who-is-stephen-miller-trump-new-chief-of-staff/article71677475.ece",
-          "title": "Who is Stephen Miller, Trump’s new Chief of Staff?",
-          "published": "2026-11-07T09:12:25+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
+          "title": "At least six people killed in shooting in Poland’s Krakow",
+          "published": "2026-11-07T15:22:55+00:00"
         }
       ],
       "consensus": 4.0
@@ -215,6 +249,38 @@
       "consensus": 3.5
     },
     {
+      "title": "Russia pounds power facilities around Kyiv, damages major bridge",
+      "url": "https://www.channelnewsasia.com/world/russia-pounds-power-facilities-around-kyiv-damages-major-bridge-6533046",
+      "source": "CNA",
+      "published": "2026-11-07T18:04:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/07/russia-pounds-power-facilities-around-kyiv-damages-major-bridge-a94198",
+          "title": "Russia Pounds Power Facilities Around Kyiv, Damages Major Bridge",
+          "published": "2026-11-07T10:19:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Pope Leo hold first mass in Uruguay, urges crowd to be ‘bridge builders’",
+      "url": "https://www.aljazeera.com/news/2026/11/7/pope-leo-hold-first-mass-in-uruguay-urges-crowd-to-be-bridge-builders?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-07T18:00:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/pope-leo-calls-on-uruguay-catholics-bridge-builders",
+          "title": "Pope Leo calls on Uruguay's Catholics to be 'bridge builders'",
+          "published": "2026-11-07T14:59:30+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Guatemalan lawmaker and three police officers killed in armed attack",
       "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
       "source": "Al Jazeera",
@@ -231,47 +297,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Shooting in Polish city of Krakow leaves 6 people dead and more than a dozen injured",
-      "url": "https://www.cbc.ca/news/world/krakow-poland-shooting-9.7413582?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-07T15:52:29+00:00",
+      "title": "South Africa's ANC facing worst-ever performance in local elections",
+      "url": "https://www.dw.com/en/south-africa-s-anc-facing-worst-ever-performance-in-local-elections/a-79887482?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-07T18:07:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-          "title": "At least six people killed in shooting in Polish city of Krakow, police say",
-          "published": "2026-11-07T15:23:48+00:00"
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/africa/20261104-south-africa-votes-in-local-elections-as-growing-anger-threatens-anc",
+          "title": "South Africa votes in local elections as growing anger threatens ANC",
+          "published": "2026-11-04T14:31:38+00:00"
         }
       ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nato considers anti-tank barriers along Russian border as Putin rearms",
-      "url": "https://www.independent.co.uk/news/world/europe/nato-finland-russia-putin-anti-tank-barriers-b3080948.html",
-      "source": "The Independent",
-      "published": "2026-11-07T17:52:48+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Krakow shooting latest: Gunman in military gear shot by police after killing six using ‘army-style’ rifle",
-      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
-      "source": "The Independent",
-      "published": "2026-11-07T17:49:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Has the curtain come down on the age of Trump?",
-      "url": "https://www.abc.net.au/news/2026-11-08/us-midterms-election-end-of-trump-democrats-republicans-gop/107354404",
-      "source": "ABC Australia",
-      "published": "2026-11-07T17:45:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -374,62 +413,6 @@
       "consensus": 8.0
     },
     {
-      "title": "US offers $20 million reward and 'possible relocation' for information on 'Iran’s nuclear program'",
-      "url": "https://www.euronews.com/2026/11/07/us-offers-20-million-reward-and-possible-relocation-for-information-on-irans-nuclear-progr",
-      "source": "Euronews",
-      "published": "2026-11-07T11:31:19+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/united-states-offers-20-million-reward-for-information-on-irans-nuclear-program-centcom/article71677324.ece",
-          "title": "United States offers $20 million reward for information on 'Iran's nuclear program': CENTCOM",
-          "published": "2026-11-07T05:12:15+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-07/us-20-million-rewards-for-justice-iran-nuclear-program-details/107359156",
-          "title": "US offers $29m reward for details on Iran's nuclear program",
-          "published": "2026-11-07T03:27:57+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373625/irans-nuclear-programme-us-offers-us20-million-reward-information",
-          "title": "Iran’s nuclear programme: US offers US$20 million reward for information",
-          "published": "2026-11-07T02:04:14+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
-      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-07T07:27:44+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
-          "title": "Meghan Markle's father arrested in US over child sex abuse images",
-          "published": "2026-11-06T19:00:22+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
-          "title": "Meghan Markle's father arrested over child sex abuse images",
-          "published": "2026-11-06T16:10:18+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
-          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
-          "published": "2026-11-06T15:42:09+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
       "source": "The Guardian",
@@ -456,6 +439,28 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "Trump’s new chief of staff Stephen Miller says he ‘saved America’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-trump-stephen-miller-loyalty-pledge?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-07T15:29:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/stephen-miller-trump-chief-staff-midterms-b3080957.html",
+          "title": "Who is Stephen Miller? Trump’s new chief of staff is architect of ICE crackdown",
+          "published": "2026-11-07T14:37:33+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/who-is-stephen-miller-trump-new-chief-of-staff/article71677475.ece",
+          "title": "Who is Stephen Miller, Trump’s new Chief of Staff?",
+          "published": "2026-11-07T09:12:25+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Pope Leo greeted by 40,000 in Uruguay for first Mass in South America after cancer surgery",
@@ -502,6 +507,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Meghan Markle’s father Thomas appears in court charged with possession of child sexual abuse images",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-arrest-meghan-florida-latest-b3080587.html",
+      "source": "The Independent",
+      "published": "2026-11-06T23:27:16+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
+          "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
+          "published": "2026-11-06T18:06:19+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
+          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
+          "published": "2026-11-06T15:42:09+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "US: Giant pandas from China make public debut at Atlanta zoo",
       "url": "https://www.dw.com/en/us-giant-pandas-from-china-make-public-debut-at-atlanta-zoo/a-79883388?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -519,6 +546,28 @@
           "url": "https://www.channelnewsasia.com/world/china-panda-us-zoo-atlanta-6532496",
           "title": "China's giant pandas make public debut at US zoo",
           "published": "2026-11-07T01:14:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-07T07:27:44+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
+          "title": "Meghan Markle's father arrested in US over child sex abuse images",
+          "published": "2026-11-06T19:00:22+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
+          "title": "Meghan Markle's father arrested over child sex abuse images",
+          "published": "2026-11-06T16:10:18+00:00"
         }
       ],
       "consensus": 3.5
@@ -563,28 +612,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3373621/cornell-faculty-vote-no-confidence-leadership-after-gang-rape-case",
           "title": "Cornell faculty vote no-confidence in leadership after gang rape case",
           "published": "2026-11-06T23:06:09+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Tanzania opposition leader jailed for four years after treason acquittal",
-      "url": "http://www.africanews.com/2026/11/06/tanzania-opposition-leader-jailed-for-four-years-after-treason-acquittal/",
-      "source": "Africanews",
-      "published": "2026-11-06T13:19:13+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/tanzania-opposition-leader-tundu-lissu-jailed-for-four-years/a-79875248?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Tanzania: Opposition leader Tundu Lissu jailed for four years",
-          "published": "2026-11-06T12:19:00+00:00"
-        },
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/africa/20261106-tanzania-opposition-leader-lissu-cleared-of-treason-but-jailed-for-incitement",
-          "title": "Tanzania opposition leader Lissu cleared of treason but jailed for incitement",
-          "published": "2026-11-06T12:15:24+00:00"
         }
       ],
       "consensus": 3.5
@@ -720,22 +747,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Meghan Markle’s father Thomas appears in court charged with possession of child sexual abuse images",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-arrest-meghan-florida-latest-b3080587.html",
-      "source": "The Independent",
-      "published": "2026-11-06T23:27:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
-          "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
-          "published": "2026-11-06T18:06:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Wave of bomb threats target Irish media outlets and more European flights",
       "url": "https://www.politico.eu/article/bomb-threats-target-irish-media-and-more-european-flights/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
@@ -768,6 +779,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Tanzania opposition leader jailed for four years after treason acquittal",
+      "url": "http://www.africanews.com/2026/11/06/tanzania-opposition-leader-jailed-for-four-years-after-treason-acquittal/",
+      "source": "Africanews",
+      "published": "2026-11-06T13:19:13+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/africa/20261106-tanzania-opposition-leader-lissu-cleared-of-treason-but-jailed-for-incitement",
+          "title": "Tanzania opposition leader Lissu cleared of treason but jailed for incitement",
+          "published": "2026-11-06T12:15:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russell Brand guilty of rape and three sexual assaults",
       "url": "https://www.japantimes.co.jp/news/2026/11/06/world/crime-legal/russell-brand-guilty/",
       "source": "Japan Times",
@@ -779,22 +806,6 @@
           "url": "https://www.euronews.com/2026/11/05/british-comedian-russell-brand-found-guilty-of-rape-and-three-sexual-assaults-by-london-ju",
           "title": "British comedian Russell Brand found guilty of rape and three sexual assaults by London jury",
           "published": "2026-11-05T17:42:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "'An insult to his culture': Italian chef fired after refusing to put pineapple on pizza, loses case in Australia",
-      "url": "https://www.channelnewsasia.com/dining/italian-chef-fired-pineapple-pizza-australia-david-tamburella-6530021",
-      "source": "CNA",
-      "published": "2026-11-06T05:11:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cmvg9yy8wpweo?at_medium=RSS&at_campaign=rss",
-          "title": "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-          "published": "2026-11-05T10:33:21+00:00"
         }
       ],
       "consensus": 2.5
@@ -960,64 +971,73 @@
       "consensus": 1.5
     },
     {
-      "title": "Election 2026: Has vote splitting saved a battered coalition?",
-      "url": "https://www.rnz.co.nz/news/political/2424149/election-2026-has-vote-splitting-saved-a-battered-coalition",
-      "source": "RNZ",
-      "published": "2026-11-07T17:41:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
       "title": "Kraków shooting latest updates: six killed and more than a dozen injured, police say",
       "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-07T17:41:45+00:00",
+      "published": "2026-11-07T18:22:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Houthis report 25 killed in Yemen strikes",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/houthis-report-25-killed-in-yemen-strikes?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-07T17:39:23+00:00",
+      "title": "Five European leaders call for closer ties with Britain ahead of crucial EU summit",
+      "url": "https://www.independent.co.uk/news/world/europe/europe-leaders-eu-uk-summit-brussels-burnham-b3080990.html",
+      "source": "The Independent",
+      "published": "2026-11-07T18:22:16+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'We must change everything': French far-left leader Mélenchon launches presidential programme",
-      "url": "https://www.france24.com/en/video/20261107-we-must-change-everything-french-far-left-leader-m%C3%A9lenchon-launches-presidential-programme",
-      "source": "France24",
-      "published": "2026-11-07T17:30:04+00:00",
+      "title": "What we know about Krakow mass shooting so far",
+      "url": "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-07T18:22:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "ABC Wordage quiz: It's time to get to work",
-      "url": "https://www.abc.net.au/news/2026-11-08/abc-wordage-quiz-work/107328912",
-      "source": "ABC Australia",
-      "published": "2026-11-07T17:30:00+00:00",
+      "title": "'Peace is possible and we are called to build it' Pope Leo XIV says in Uruguay",
+      "url": "https://www.euronews.com/2026/11/07/peace-is-possible-and-we-are-called-to-build-it-pope-leo-xiv-says-in-uruguay",
+      "source": "Euronews",
+      "published": "2026-11-07T18:15:36+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What Renée Geyer taught soul protégé Ella Thompson about authenticity",
-      "url": "https://www.abc.net.au/news/2026-11-08/ella-thompson-triumph-and-sadness-album-soul-music-renee-geyer/107350826",
-      "source": "ABC Australia",
-      "published": "2026-11-07T17:30:00+00:00",
+      "title": "Nato considers anti-tank barriers along Russian border as Putin rearms",
+      "url": "https://www.independent.co.uk/news/world/europe/nato-finland-russia-putin-anti-tank-barriers-b3080948.html",
+      "source": "The Independent",
+      "published": "2026-11-07T18:08:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Mbappé returns to France duty as Zidane drafts Pagis into Nations League squad",
-      "url": "https://www.rfi.fr/en/sports/20261107-mbapp%C3%A9-returns-to-france-duty-as-zidane-drafts-pagis-into-nations-league-squad",
-      "source": "RFI English",
-      "published": "2026-11-07T17:27:11+00:00",
+      "title": "New Zealand vote leaves National, Labour nearly deadlocked",
+      "url": "https://www.straitstimes.com/asia/new-zealand-vote-leaves-national-labour-nearly-deadlocked",
+      "source": "Straits Times",
+      "published": "2026-11-07T18:08:25+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Clashes in Paris after new French protests",
+      "url": "https://www.scmp.com/news/world/europe/article/3373669/clashes-paris-after-new-french-protests",
+      "source": "SCMP",
+      "published": "2026-11-07T18:05:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Election 2026: Has vote splitting saved a battered coalition?",
+      "url": "https://www.rnz.co.nz/news/political/2424149/election-2026-has-vote-splitting-saved-a-battered-coalition",
+      "source": "RNZ",
+      "published": "2026-11-07T18:04:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1167,10 +1187,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 75736.25,
+        "price": 75693.1,
         "currency": "USD",
-        "change": -4.77,
-        "change_percent": -0.01,
+        "change": -47.92,
+        "change_percent": -0.06,
         "name": "Bitcoin"
       }
     ],
@@ -1463,60 +1483,74 @@
   "web": {
     "tech": [
       {
+        "title": "GhostMap: The Android flaw that crashes your phone before you open the app",
+        "url": "https://www.bitdefender.com/en-us/blog/labs/ghostmap-android",
+        "comments_url": "https://lobste.rs/s/c99mdx/ghostmap_android_flaw_crashes_your_phone",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-07T18:12:57.505000+00:00"
+      },
+      {
+        "title": "What I run on my $10 USD OpenStick, Linux, Homelab",
+        "url": "https://blog.bosscher.ch/posts/openstick/",
+        "score": 12,
+        "source": "Hacker News",
+        "published": "2026-11-07T18:12:12+00:00"
+      },
+      {
+        "title": "The End of AI Frontiers",
+        "url": "https://hunch.net/?p=13764006",
+        "score": 14,
+        "source": "Hacker News",
+        "published": "2026-11-07T18:04:07+00:00"
+      },
+      {
+        "title": "Microsoft Researcher John Langford Exits. AI Frontiers Group Declared Finished",
+        "url": "https://businessexaminer.ca/victoria-articles/item/microsoft-researcher-john-langford-exits-as-ai-frontiers-group-is-declared/",
+        "score": 13,
+        "source": "Hacker News",
+        "published": "2026-11-07T18:02:17+00:00"
+      },
+      {
         "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
         "url": "https://github.com/hedgerow-dev/coldframe",
-        "score": 20,
+        "score": 52,
         "source": "Hacker News",
         "published": "2026-11-07T17:27:30+00:00"
       },
       {
+        "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+        "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+        "score": 16,
+        "source": "Hacker News",
+        "published": "2026-11-07T17:19:00+00:00"
+      },
+      {
         "title": "How Long Can Life Wait?",
         "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
-        "score": 41,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-07T16:22:59+00:00"
       },
       {
         "title": "They don't make 'em like that any more: Borland Turbo Pascal 7",
         "url": "https://kevinboone.me/tpwin.html",
-        "score": 85,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-07T16:06:27+00:00"
-      },
-      {
-        "title": "Open-source firmwares for the M-VAVE FM-1, from their makers, in one place",
-        "url": "https://thefirmwarehub.com/",
-        "comments_url": "https://lobste.rs/s/jo4wqs/open_source_firmwares_for_m_vave_fm_1_from",
-        "score": 0,
-        "source": "Lobste.rs",
-        "published": "2026-11-07T15:52:28.327000+00:00"
       },
       {
         "title": "Just how far can the FOR UPDATE SKIP LOCKED Postgres queue go?",
         "url": "https://garbagecollected.io/posts/postgres-task-queue-where-it-breaks/",
         "comments_url": "https://lobste.rs/s/y8i714/just_how_far_can_for_update_skip_locked",
-        "score": 3,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-07T15:20:23.952000+00:00"
       },
       {
-        "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
-        "url": "https://news.ycombinator.com/item?id=50405250",
-        "score": 52,
-        "source": "Hacker News",
-        "published": "2026-11-07T15:14:40+00:00"
-      },
-      {
-        "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
-        "url": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
-        "score": 20,
-        "source": "Hacker News",
-        "published": "2026-11-07T14:18:45+00:00"
-      },
-      {
         "title": "The $8 Linux Computer (2022)",
         "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-        "score": 121,
+        "score": 136,
         "source": "Hacker News",
         "published": "2026-11-07T14:00:20+00:00"
       },
@@ -1524,28 +1558,28 @@
         "title": "Amutable Foundations: A Technical Overview",
         "url": "https://amutable.com/blog/amutable-foundations-technical-overview",
         "comments_url": "https://lobste.rs/s/soxqxp/amutable_foundations_technical",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-07T11:07:33.714000+00:00"
       },
       {
         "title": "Every Mac comes with an (undocumented) family member classifier",
         "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-        "score": 425,
+        "score": 447,
         "source": "Hacker News",
         "published": "2026-11-07T09:46:03+00:00"
       },
       {
         "title": "Running a law firm on Free software",
         "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-        "score": 145,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-07T09:39:06+00:00"
       },
       {
         "title": "Need for Speed Underground 2 online in the browser",
         "url": "https://nfsu2.xyz/",
-        "score": 531,
+        "score": 558,
         "source": "Hacker News",
         "published": "2026-11-07T09:36:36+00:00"
       },
@@ -1553,25 +1587,9 @@
         "title": "Meridian — an experimental web browser built on Servo and GPUI",
         "url": "https://op.tngl.io/meridian/",
         "comments_url": "https://lobste.rs/s/j63dme/meridian_experimental_web_browser_built",
-        "score": 27,
+        "score": 28,
         "source": "Lobste.rs",
         "published": "2026-11-07T09:21:55.256000+00:00"
-      },
-      {
-        "title": "Firecracker VM Escape: PwnEscape Part 2",
-        "url": "https://pwn.ai/blog/firecracker-escape",
-        "comments_url": "https://lobste.rs/s/wzz4u3/firecracker_vm_escape_pwnescape_part_2",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-07T08:44:02.325000+00:00"
-      },
-      {
-        "title": "Two Dimensional Version Control",
-        "url": "https://www.redblobgames.com/blog/2026-09-27-jujutsu-experience/",
-        "comments_url": "https://lobste.rs/s/49o9f3/two_dimensional_version_control",
-        "score": 20,
-        "source": "Lobste.rs",
-        "published": "2026-11-07T08:21:50.861000+00:00"
       }
     ],
     "reddit": [
@@ -1600,14 +1618,6 @@
         "published": "2026-11-07T14:47:53+00:00"
       },
       {
-        "title": "British troops will be allowed to fire back at Russian forces if attacked in mission — London and Paris pressing ahead with preparations for the \"Multinational Force-Ukraine\" (MNF-U)",
-        "url": "https://news.sky.com/story/british-troops-will-be-allowed-to-fire-back-at-russian-forces-if-attacked-in-mission-13607272",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xq7b3d/british_troops_will_be_allowed_to_fire_back_at/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-07T14:12:39+00:00"
-      },
-      {
         "title": "Five dead and many injured amid shooting in Poland's Krakow",
         "url": "https://tvpworld.com/96358317/two-reported-dead-10-injured-in-shooting-in-polands-krakow",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xqattv/five_dead_and_many_injured_amid_shooting_in/",
@@ -1616,12 +1626,12 @@
         "published": "2026-11-07T16:45:25+00:00"
       },
       {
-        "title": "Iran distributes anti-radiation iodine tablets in Bushehr amid Trump threats",
-        "url": "https://www.trtworld.com/article/b361ae5c6d1f",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpzuqx/iran_distributes_antiradiation_iodine_tablets_in/",
+        "title": "British troops will be allowed to fire back at Russian forces if attacked in mission — London and Paris pressing ahead with preparations for the \"Multinational Force-Ukraine\" (MNF-U)",
+        "url": "https://news.sky.com/story/british-troops-will-be-allowed-to-fire-back-at-russian-forces-if-attacked-in-mission-13607272",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xq7b3d/british_troops_will_be_allowed_to_fire_back_at/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T06:47:13+00:00"
+        "source": "/r/geopolitics",
+        "published": "2026-11-07T14:12:39+00:00"
       },
       {
         "title": "EU rejects Trummp’s 'big beautiful' security deal with Russsia",
@@ -1630,6 +1640,14 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-07T12:55:39+00:00"
+      },
+      {
+        "title": "Iran distributes anti-radiation iodine tablets in Bushehr amid Trump threats",
+        "url": "https://www.trtworld.com/article/b361ae5c6d1f",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpzuqx/iran_distributes_antiradiation_iodine_tablets_in/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-07T06:47:13+00:00"
       },
       {
         "title": "Goodbye, cavities? Scientists create gel that could regrow tooth enamel",
@@ -1648,28 +1666,12 @@
         "published": "2026-11-07T13:11:19+00:00"
       },
       {
-        "title": "Nvidia CEO Jensen Huang’s Alleged Chinese Spy Connection Was Flagged Before Trump’s Xi Summit: Report",
-        "url": "https://www.yahoo.com/news/politics/articles/nvidia-ceo-jensen-huang-alleged-103955689.html",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq3ktv/nvidia_ceo_jensen_huangs_alleged_chinese_spy/",
+        "title": "Trump meets top Putin envoy at the White House, but not Ukrainian officials",
+        "url": "https://apnews.com/article/ukraine-melania-trump-oleshky-ceasefire-putin-envoy-3ae35835dbc87ab348478c62c6c25ee3",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xqcehl/trump_meets_top_putin_envoy_at_the_white_house/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-07T10:48:32+00:00"
-      },
-      {
-        "title": "Research found that vitamin K deficiency has tripled and vitamin-K-deficient bleeding has quadrupled in infants since 2017. Late VKD, occurring between ages 1 week and 6 months, carries a 30% to 60% risk of intracranial hemorrhage, which can result in seizures, permanent brain damage or death",
-        "url": "https://news.vcu.edu/article/vitamin-k-deficiency-increasing-as-parents-decline-recommended-shots-for-their-newborns",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xq3sa6/research_found_that_vitamin_k_deficiency_has/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-07T11:01:32+00:00"
-      },
-      {
-        "title": "Russia has capacity to produce over 200 ballistic, cruise missiles per month, Ukraine's military intelligence says",
-        "url": "https://kyivindependent.com/russia-has-capacity-to-produce-over-200-ballistic-cruise-missiles-per-month-ukraines-military-intelligence-says/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq664c/russia_has_capacity_to_produce_over_200_ballistic/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T13:18:18+00:00"
+        "published": "2026-11-07T17:51:37+00:00"
       },
       {
         "title": "The tech billionaires who fled California are facing a new blue Texas",
@@ -1680,12 +1682,28 @@
         "published": "2026-11-07T16:32:35+00:00"
       },
       {
-        "title": "Germany can no longer supply Patriot air defense systems to Ukraine",
-        "url": "https://en.apa.az/europe/germany-can-no-longer-supply-patriot-air-defense-systems-to-ukraine-534727",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq60mg/germany_can_no_longer_supply_patriot_air_defense/",
+        "title": "Research found that vitamin K deficiency has tripled and vitamin-K-deficient bleeding has quadrupled in infants since 2017. Late VKD, occurring between ages 1 week and 6 months, carries a 30% to 60% risk of intracranial hemorrhage, which can result in seizures, permanent brain damage or death",
+        "url": "https://news.vcu.edu/article/vitamin-k-deficiency-increasing-as-parents-decline-recommended-shots-for-their-newborns",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xq3sa6/research_found_that_vitamin_k_deficiency_has/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-07T11:01:32+00:00"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang’s Alleged Chinese Spy Connection Was Flagged Before Trump’s Xi Summit: Report",
+        "url": "https://www.yahoo.com/news/politics/articles/nvidia-ceo-jensen-huang-alleged-103955689.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq3ktv/nvidia_ceo_jensen_huangs_alleged_chinese_spy/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-07T13:10:39+00:00"
+        "published": "2026-11-07T10:48:32+00:00"
+      },
+      {
+        "title": "Russia has capacity to produce over 200 ballistic, cruise missiles per month, Ukraine's military intelligence says",
+        "url": "https://kyivindependent.com/russia-has-capacity-to-produce-over-200-ballistic-cruise-missiles-per-month-ukraines-military-intelligence-says/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq664c/russia_has_capacity_to_produce_over_200_ballistic/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-07T13:18:18+00:00"
       },
       {
         "title": "Italy: Meloni says pro-Russian actors hacked minister",

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-07T16:00:58.380569+00:00",
+  "last_updated": "2026-11-07T16:30:51.043749+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 448
+      "ms": 661
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 471
+      "ms": 141
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 288
+      "ms": 238
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 167
+      "ms": 344
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 315
+      "ms": 318
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 373
+      "ms": 481
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 638
+      "ms": 452
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 609
+      "ms": 519
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 145
+      "ms": 218
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 213
+      "ms": 199
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 455
+      "ms": 796
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 421
+      "ms": 482
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 222
+      "ms": 307
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 80
+      "ms": 299
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 293
+      "ms": 186
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 368
+      "ms": 757
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 806
+      "ms": 863
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 759
+      "ms": 1039
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 636
+      "ms": 817
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 348
+      "ms": 443
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 274
+      "ms": 427
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 349
+      "ms": 464
     },
     "The Independent": {
       "ok": true,
-      "count": 53,
+      "count": 52,
       "error": null,
-      "ms": 212
+      "ms": 247
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 253
+      "ms": 337
     }
   },
   "breaking": [
@@ -215,6 +215,22 @@
       "consensus": 4.0
     },
     {
+      "title": "Guatemalan lawmaker and three police officers killed in armed attack",
+      "url": "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-07T16:15:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3373663/guatemalan-lawmaker-3-police-officers-killed-armed-attack",
+          "title": "Guatemalan lawmaker, 3 police officers killed in armed attack",
+          "published": "2026-11-07T15:01:41+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Shooting in Polish city of Krakow leaves 5 people dead and more than a dozen injured",
       "url": "https://www.cbc.ca/news/world/krakow-poland-shooting-9.7413582?cmp=rss",
       "source": "CBC World",
@@ -226,22 +242,6 @@
           "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
           "title": "At least five killed in shooting in Polish city of Krakow, police say",
           "published": "2026-11-07T15:23:48+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
-      "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
-      "source": "France24",
-      "published": "2026-11-07T15:26:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow?traffic_source=rss",
-          "title": "At least five people killed in shooting in Poland’s Krakow",
-          "published": "2026-11-07T15:22:55+00:00"
         }
       ],
       "consensus": 2.5
@@ -279,20 +279,20 @@
       "consensus": 2.5
     },
     {
-      "title": "France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
-      "url": "https://www.france24.com/en/france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
-      "source": "France24",
-      "published": "2026-11-07T13:29:28+00:00",
+      "title": "New Zealand PM sees path back to office but vote 'too close to call'",
+      "url": "https://www.channelnewsasia.com/world/new-zealand-election-pm-christopher-luxon-6533161",
+      "source": "CNA",
+      "published": "2026-11-07T14:33:08+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/france-protests-students-yellow-vests-rising-costs-6532981",
-          "title": "France braces for protests as Yellow Vests urge 'mass disobedience'",
-          "published": "2026-11-07T11:20:20+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece",
+          "title": "New Zealand vote still too close to call as results trickle in",
+          "published": "2026-11-07T10:58:53+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -423,6 +423,34 @@
       "consensus": 5.0
     },
     {
+      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-07T07:27:44+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
+          "title": "Meghan Markle's father arrested in US over child sex abuse images",
+          "published": "2026-11-06T19:00:22+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
+          "title": "Meghan Markle's father arrested over child sex abuse images",
+          "published": "2026-11-06T16:10:18+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
+          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
+          "published": "2026-11-06T15:42:09+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
       "source": "The Guardian",
@@ -496,28 +524,6 @@
           "url": "https://www.channelnewsasia.com/world/china-panda-us-zoo-atlanta-6532496",
           "title": "China's giant pandas make public debut at US zoo",
           "published": "2026-11-07T01:14:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
-      "url": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-07T07:27:44+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/meghan-markle-father-thomas-arrested-child-sex-abuse-images-6532121",
-          "title": "Meghan Markle's father arrested in US over child sex abuse images",
-          "published": "2026-11-06T19:00:22+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/06/meghan-markles-father-reportedly-arrested-in-florida-over-alleged-child-porn-possession",
-          "title": "Meghan Markle's father arrested over child sex abuse images",
-          "published": "2026-11-06T16:10:18+00:00"
         }
       ],
       "consensus": 3.5
@@ -655,17 +661,33 @@
       "consensus": 3.0
     },
     {
-      "title": "Pakistani astronaut to join China’s next space station mission",
-      "url": "https://www.aljazeera.com/news/2026/11/7/pakistani-astronaut-to-join-chinas-next-space-station-mission?traffic_source=rss",
+      "title": "Five killed and at least 10 injured in Krakow shooting",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-clip-poland-krakow-shooting?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-07T10:17:53+00:00",
+      "published": "2026-11-07T16:06:58+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/pakistani-astronaut-to-join-china-space-stations-shenzhou-24-mission",
-          "title": "Pakistani astronaut to join China’s next space-station mission",
-          "published": "2026-11-07T04:33:07+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261107-at-least-three-people-killed-shooting-in-polish-city-of-krakow-police-say",
+          "title": "🔴 At least five people killed in shooting in Krakow, Polish police say ⤵️",
+          "published": "2026-11-07T15:26:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "France braces for more nationwide protests as Yellow Vests urge 'mass disobedience'",
+      "url": "https://www.france24.com/en/france-braces-for-more-nationwide-protests-as-yellow-vests-urge-mass-disobedience",
+      "source": "France24",
+      "published": "2026-11-07T13:29:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/france-protests-students-yellow-vests-rising-costs-6532981",
+          "title": "France braces for protests as Yellow Vests urge 'mass disobedience'",
+          "published": "2026-11-07T11:20:20+00:00"
         }
       ],
       "consensus": 2.5
@@ -698,22 +720,6 @@
           "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
           "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
           "published": "2026-11-06T18:06:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thomas Markle charged with possessing child sexual abuse materials: read FBI statement in full",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-fbi-statement-arrest-child-sexual-abuse-b3080683.html",
-      "source": "The Independent",
-      "published": "2026-11-06T17:03:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/meghan-markle-father-thomas-markle-arrested-child-sexual-abuse-material-9.7412037?cmp=rss",
-          "title": "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
-          "published": "2026-11-06T15:42:09+00:00"
         }
       ],
       "consensus": 2.5
@@ -765,22 +771,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "New Zealand PM sees path back to office but vote 'too close to call'",
-      "url": "https://www.channelnewsasia.com/world/new-zealand-election-pm-christopher-luxon-6533161",
-      "source": "CNA",
-      "published": "2026-11-07T14:33:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/new-zealand-vote-still-too-close-to-call-as-results-trickle-in/article71677647.ece",
-          "title": "New Zealand vote still too close to call as results trickle in",
-          "published": "2026-11-07T10:58:53+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "New Zealand election first count ends with 2 main parties nearly deadlocked",
@@ -991,55 +981,64 @@
       "consensus": 1.5
     },
     {
+      "title": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
+      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+      "source": "The Independent",
+      "published": "2026-11-07T16:23:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Two skydivers die after midair collision in California",
+      "url": "https://www.independent.co.uk/news/world/americas/two-skydivers-die-after-midair-collision-in-california-b3081013.html",
+      "source": "The Independent",
+      "published": "2026-11-07T16:19:03+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Three teenagers arrested after 17-year-old injured in Gloucester sword attack",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/07/sword-attack-gloucester-school-men-arrested-boy-injured",
+      "source": "The Guardian",
+      "published": "2026-11-07T16:17:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Kraków shooting latest updates: five killed and more than a dozen injured, police say",
       "url": "https://www.theguardian.com/world/live/2026/nov/07/krakow-shooting-poland-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-07T15:58:57+00:00",
+      "published": "2026-11-07T16:11:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "No clear winner after tight New Zealand general election",
-      "url": "https://www.bbc.co.uk/news/articles/c3ewev11g1e0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-07T15:56:28+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "World’s shortest female firefighter makes her height the advantage in demanding job",
-      "url": "https://www.independent.co.uk/news/world/americas/firefighter-female-guinness-record-florida-b3080052.html",
-      "source": "The Independent",
-      "published": "2026-11-07T15:39:22+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Iran’s IRGC says building underground sites for weapons production, storage",
-      "url": "https://www.aljazeera.com/news/2026/11/7/irans-irgc-says-building-underground-sites-for-weapons-production-storage?traffic_source=rss",
+      "title": "Hundreds march in Pau, France against high living costs",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/hundreds-march-in-pau-france-against-high-living-costs?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-07T15:34:58+00:00",
+      "published": "2026-11-07T16:09:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump hints at more Cabinet firings after Susie Wiles axed in wake of midterms blowout: Live updates",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-news-elections-midterms-2026-results-b3080987.html",
+      "title": "Vegas lawyer who represented Tupac Shakur’s killer found dead",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/tupac-davis-killer-lawyer-michael-sanft-dead-b3080917.html",
       "source": "The Independent",
-      "published": "2026-11-07T15:30:46+00:00",
+      "published": "2026-11-07T16:08:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Krakow shooting latest: At least five dead and a dozen injured after gunman opens fire in main square",
-      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-poland-live-updates-main-square-b3081004.html",
+      "title": "Target accused of having preservatives in mac-and-cheese despite box’s claim",
+      "url": "https://www.independent.co.uk/news/world/americas/target-macaroni-and-cheese-preservatives-class-action-lawsuit-b3080976.html",
       "source": "The Independent",
-      "published": "2026-11-07T15:27:28+00:00",
+      "published": "2026-11-07T16:04:12+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1189,10 +1188,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 75641.74,
+        "price": 75655.75,
         "currency": "USD",
-        "change": -99.28,
-        "change_percent": -0.13,
+        "change": -85.27,
+        "change_percent": -0.11,
         "name": "Bitcoin"
       }
     ],
@@ -1387,6 +1386,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "What Comes After the Midterms",
+          "url": "https://www.theatlantic.com/national/2026/11/what-comes-after-midterms-washington-week/689342/?utm_source=feed",
+          "published": "2026-11-07T16:01:19+00:00",
+          "snippet": "Panelists on Washington Week With The Atlantic joined to discuss what President Trump may do in the remaining two years of his presidency—and how Democrats in..."
+        },
+        {
           "title": "Memories of the Train",
           "url": "https://www.theatlantic.com/magazine/2026/12/siqi-liu-memories-of-the-train/689026/?utm_source=feed",
           "published": "2026-11-07T14:00:00+00:00",
@@ -1397,12 +1402,6 @@
           "url": "https://www.theatlantic.com/newsletters/2026/11/mike-johnson-not-running-minority-leader/689341/?utm_source=feed",
           "published": "2026-11-07T13:00:00+00:00",
           "snippet": "This job will require actual work."
-        },
-        {
-          "title": "Americans Are Spending Less Time With Friends",
-          "url": "https://www.theatlantic.com/newsletters/2026/11/less-socializing-friends-families/689335/?utm_source=feed",
-          "published": "2026-11-07T13:00:00+00:00",
-          "snippet": "And more time with their families"
         }
       ]
     },
@@ -1496,7 +1495,7 @@
         "title": "Just how far can the FOR UPDATE SKIP LOCKED Postgres queue go?",
         "url": "https://garbagecollected.io/posts/postgres-task-queue-where-it-breaks/",
         "comments_url": "https://lobste.rs/s/y8i714/just_how_far_can_for_update_skip_locked",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-07T15:20:23.952000+00:00"
       },
@@ -1511,28 +1510,28 @@
       {
         "title": "The $8 Linux Computer (2022)",
         "url": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-        "score": 53,
+        "score": 75,
         "source": "Hacker News",
         "published": "2026-11-07T14:00:20+00:00"
       },
       {
         "title": "Every Mac comes with an (undocumented) family member classifier",
         "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-        "score": 342,
+        "score": 371,
         "source": "Hacker News",
         "published": "2026-11-07T09:46:03+00:00"
       },
       {
         "title": "Running a law firm on Free software",
         "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-        "score": 89,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-07T09:39:06+00:00"
       },
       {
         "title": "Need for Speed Underground 2 online in the browser",
         "url": "https://nfsu2.xyz/",
-        "score": 398,
+        "score": 432,
         "source": "Hacker News",
         "published": "2026-11-07T09:36:36+00:00"
       },
@@ -1569,13 +1568,6 @@
         "published": "2026-11-07T07:46:35.449000+00:00"
       },
       {
-        "title": "The Components of Agent Memory",
-        "url": "https://www.anthropic.com/research/components-of-agent-memory",
-        "score": 97,
-        "source": "Hacker News",
-        "published": "2026-11-07T06:39:04+00:00"
-      },
-      {
         "title": "Forwarded Without Question: How Web Frameworks Overtrust the Forwarded Header",
         "url": "https://www.lkoskela.fi/blog/2026-11-05-forwarded-without-question/",
         "comments_url": "https://lobste.rs/s/m5kism/forwarded_without_question_how_web",
@@ -1587,7 +1579,7 @@
         "title": "Progress Report: Linux 7.3 - Asahi Linux",
         "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
         "comments_url": "https://lobste.rs/s/4qiair/progress_report_linux_7_3_asahi_linux",
-        "score": 26,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-07T06:02:38.914000+00:00"
       },
@@ -1598,17 +1590,17 @@
         "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-07T04:28:11.062000+00:00"
+      },
+      {
+        "title": "Inform is a programming language for creating interactive fiction",
+        "url": "https://ganelson.github.io/inform-website/",
+        "comments_url": "https://lobste.rs/s/immpvk/inform_is_programming_language_for",
+        "score": 5,
+        "source": "Lobste.rs",
+        "published": "2026-11-07T02:05:38.231000+00:00"
       }
     ],
     "reddit": [
-      {
-        "title": "Scientists found a way to help the brain wash out waste while we're awake, which it mostly does while we sleep: a short-acting blood pressure drug plus whole-body vibration. In 29 healthy adults, Alzheimer's-linked proteins like beta-amyloid rose in the blood, a sign they were cleared from the brain",
-        "url": "https://www.oulu.fi/en/news/treatment-developed-university-oulu-researchers-boosts-brain-clearance-and-opens-new-possibilities",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xq2mxe/scientists_found_a_way_to_help_the_brain_wash_out/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-07T09:46:03+00:00"
-      },
       {
         "title": "Texas Governor-Elect Requests Pause on Land Talks With SpaceX",
         "url": "https://www.bloomberg.com/news/articles/2026-11-05/texas-governor-elect-requests-pause-on-land-talks-with-spacex",
@@ -1618,20 +1610,28 @@
         "published": "2026-11-07T14:52:04+00:00"
       },
       {
+        "title": "Scientists found a way to help the brain wash out waste while we're awake, which it mostly does while we sleep: a short-acting blood pressure drug plus whole-body vibration. In 29 healthy adults, Alzheimer's-linked proteins like beta-amyloid rose in the blood, a sign they were cleared from the brain",
+        "url": "https://www.oulu.fi/en/news/treatment-developed-university-oulu-researchers-boosts-brain-clearance-and-opens-new-possibilities",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xq2mxe/scientists_found_a_way_to_help_the_brain_wash_out/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-07T09:46:03+00:00"
+      },
+      {
+        "title": "Shooting in Cracow, Poland, multiple dead, story is developing",
+        "url": "https://tvpworld.com/96358317/fatalities-reported-after-shooting-in-polands-krakow",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq8jhd/shooting_in_cracow_poland_multiple_dead_story_is/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-07T15:07:59+00:00"
+      },
+      {
         "title": "EU rejects Trummp’s 'big beautiful' security deal with Russsia",
         "url": "https://www.euronews.com/2026/11/06/eu-rejects-trumps-big-beautiful-security-deal-with-russia-and-all-of-europe",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xq5q1y/eu_rejects_trummps_big_beautiful_security_deal/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-07T12:55:39+00:00"
-      },
-      {
-        "title": "Iran distributes anti-radiation iodine tablets in Bushehr amid Trump threats",
-        "url": "https://www.trtworld.com/article/b361ae5c6d1f",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpzuqx/iran_distributes_antiradiation_iodine_tablets_in/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T06:47:13+00:00"
       },
       {
         "title": "British troops will be allowed to fire back at Russian forces if attacked in mission — London and Paris pressing ahead with preparations for the \"Multinational Force-Ukraine\" (MNF-U)",
@@ -1650,44 +1650,12 @@
         "published": "2026-11-07T14:47:53+00:00"
       },
       {
-        "title": "Shooting in Cracow, Poland, multiple dead, story is developing",
-        "url": "https://tvpworld.com/96358317/fatalities-reported-after-shooting-in-polands-krakow",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq8jhd/shooting_in_cracow_poland_multiple_dead_story_is/",
+        "title": "Iran distributes anti-radiation iodine tablets in Bushehr amid Trump threats",
+        "url": "https://www.trtworld.com/article/b361ae5c6d1f",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpzuqx/iran_distributes_antiradiation_iodine_tablets_in/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-07T15:07:59+00:00"
-      },
-      {
-        "title": "Someone used Claude Code to reverse-engineer the Apple AirPods 3, and now head-tracking works on Linux",
-        "url": "https://www.xda-developers.com/someone-used-claude-code-to-reverse-engineer-the-apple-airpods-3-and-now-head-tracking-works-on-linux/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xq2xd3/someone_used_claude_code_to_reverseengineer_the/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-07T10:05:07+00:00"
-      },
-      {
-        "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xpvi73/us_believes_nvidias_huang_had_romantic/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-07T02:45:20+00:00"
-      },
-      {
-        "title": "Former Rockstar dev says threat of unofficial AI ports could force GTA 6 onto PC sooner",
-        "url": "https://www.dexerto.com/gta/former-rockstar-dev-says-threat-of-unofficial-ai-ports-could-force-gta-6-onto-pc-sooner-3425613/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xq5x2u/former_rockstar_dev_says_threat_of_unofficial_ai/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-07T13:05:34+00:00"
-      },
-      {
-        "title": "Nvidia CEO Jensen Huang’s Alleged Chinese Spy Connection Was Flagged Before Trump’s Xi Summit: Report",
-        "url": "https://www.yahoo.com/news/politics/articles/nvidia-ceo-jensen-huang-alleged-103955689.html",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq3ktv/nvidia_ceo_jensen_huangs_alleged_chinese_spy/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T10:48:32+00:00"
+        "published": "2026-11-07T06:47:13+00:00"
       },
       {
         "title": "US grocery prices jumped over 20% from 2020 to 2024. A new study found families were forced to eat less and had more mental health issues, even after switching to cheaper brands, eating out less, taking on extra work or credit, draining savings, cutting utilities and putting off needed medical care.",
@@ -1698,6 +1666,14 @@
         "published": "2026-11-07T13:11:19+00:00"
       },
       {
+        "title": "Naming your attacker would be ‘unfair,’ Toronto judge tells sex assault victim before handing down ‘very low’ sentence",
+        "url": "https://www.thestar.com/news/gta/naming-your-attacker-would-be-unfair-toronto-judge-tells-sex-assault-victim-before-handing-down-very-low-sentence/article_b8db5d58-db23-4e21-a7e8-1e039d441d5f.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq8jcz/naming_your_attacker_would_be_unfair_toronto/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-07T15:07:50+00:00"
+      },
+      {
         "title": "Research found that vitamin K deficiency has tripled and vitamin-K-deficient bleeding has quadrupled in infants since 2017. Late VKD, occurring between ages 1 week and 6 months, carries a 30% to 60% risk of intracranial hemorrhage, which can result in seizures, permanent brain damage or death",
         "url": "https://news.vcu.edu/article/vitamin-k-deficiency-increasing-as-parents-decline-recommended-shots-for-their-newborns",
         "comments_url": "https://www.reddit.com/r/science/comments/1xq3sa6/research_found_that_vitamin_k_deficiency_has/",
@@ -1706,20 +1682,44 @@
         "published": "2026-11-07T11:01:32+00:00"
       },
       {
-        "title": "Haiti PM says gang leader Mathias Saintil is dead",
-        "url": "https://www.reuters.com/world/americas/haiti-pm-says-gang-leader-mathias-saintil-dead-2026-11-07/?taid=6aeebc0c5609e00001421f3b&amp;utm_campaign=trueAnthem:+Trending+Content&amp;utm_medium=trueAnthem&amp;utm_source=twitter",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq0owc/haiti_pm_says_gang_leader_mathias_saintil_is_dead/",
+        "title": "Nvidia CEO Jensen Huang’s Alleged Chinese Spy Connection Was Flagged Before Trump’s Xi Summit: Report",
+        "url": "https://www.yahoo.com/news/politics/articles/nvidia-ceo-jensen-huang-alleged-103955689.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq3ktv/nvidia_ceo_jensen_huangs_alleged_chinese_spy/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-07T07:39:42+00:00"
+        "published": "2026-11-07T10:48:32+00:00"
       },
       {
-        "title": "Russia has capacity to produce over 200 ballistic, cruise missiles per month, Ukraine's military intelligence says",
-        "url": "https://kyivindependent.com/russia-has-capacity-to-produce-over-200-ballistic-cruise-missiles-per-month-ukraines-military-intelligence-says/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xq664c/russia_has_capacity_to_produce_over_200_ballistic/",
+        "title": "Former Rockstar dev says threat of unofficial AI ports could force GTA 6 onto PC sooner",
+        "url": "https://www.dexerto.com/gta/former-rockstar-dev-says-threat-of-unofficial-ai-ports-could-force-gta-6-onto-pc-sooner-3425613/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xq5x2u/former_rockstar_dev_says_threat_of_unofficial_ai/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T13:18:18+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-07T13:05:34+00:00"
+      },
+      {
+        "title": "Someone used Claude Code to reverse-engineer the Apple AirPods 3, and now head-tracking works on Linux",
+        "url": "https://www.xda-developers.com/someone-used-claude-code-to-reverse-engineer-the-apple-airpods-3-and-now-head-tracking-works-on-linux/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xq2xd3/someone_used_claude_code_to_reverseengineer_the/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-07T10:05:07+00:00"
+      },
+      {
+        "title": "Goodbye, cavities? Scientists create gel that could regrow tooth enamel",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261104005059.htm",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xq8yvi/goodbye_cavities_scientists_create_gel_that_could/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-07T15:26:28+00:00"
+      },
+      {
+        "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+        "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xpvi73/us_believes_nvidias_huang_had_romantic/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-07T02:45:20+00:00"
       }
     ]
   }

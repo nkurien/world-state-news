@@ -1,36 +1,36 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-07T04:00:59.791720+00:00",
+  "last_updated": "2026-11-07T04:30:51.770947+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 436
+      "ms": 416
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 636
+      "ms": 336
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 284
+      "ms": 173
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 345
+      "ms": 213
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 245
+      "ms": 343
     },
     "CNA": {
       "ok": true,
@@ -42,43 +42,43 @@
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 423
+      "ms": 551
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 636
+      "ms": 365
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 302
+      "ms": 183
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 77
+      "ms": 217
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 481
+      "ms": 332
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 1272
+      "ms": 254
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 179
+      "ms": 157
     },
     "Politico EU": {
       "ok": true,
@@ -90,64 +90,92 @@
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 253
+      "ms": 191
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 93
+      "ms": 480
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 823
+      "ms": 740
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 931
+      "ms": 475
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 563
+      "ms": 700
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 221
+      "ms": 400
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 224
+      "ms": 115
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 287
+      "ms": 246
     },
     "The Independent": {
       "ok": true,
-      "count": 65,
+      "count": 64,
       "error": null,
-      "ms": 184
+      "ms": 152
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 213
+      "ms": 149
     }
   },
   "breaking": [
+    {
+      "title": "Protesters storm site of Microsoft’s planned Amsterdam data centre",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/protesters-storm-site-of-microsofts-planned-amsterdam-data-centre?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-07T04:08:02+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/data-centre-protesters-microsoft-amsterdam-europe-6531886",
+          "title": "Protesters break into Microsoft data centre site in Amsterdam as Europe’s backlash spreads",
+          "published": "2026-11-07T00:47:42+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site/",
+          "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
+          "published": "2026-11-06T17:35:04+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
+          "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
+          "published": "2026-11-06T14:04:46+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
     {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
@@ -253,19 +281,10 @@
       "consensus": 2.5
     },
     {
-      "title": "China to narrow scope of contentious ‘designated location’ surveillance measure",
-      "url": "https://www.scmp.com/news/china/politics/article/3373546/china-narrow-scope-contentious-designated-location-surveillance-measure",
-      "source": "SCMP",
-      "published": "2026-11-07T04:00:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Lehmann says 'everyone' was ball tampering globally, denies Khawaja's sandpaper claims",
-      "url": "https://www.abc.net.au/news/2026-11-07/darren-lehmann-usman-khawaja-sandpaper-ball-tampering/107359274",
-      "source": "ABC Australia",
-      "published": "2026-11-07T03:49:32+00:00",
+      "title": "Japan eyes early contribution payment to ICC as court faces U.S. sanctions",
+      "url": "https://www.japantimes.co.jp/news/2026/11/07/japan/politics/japan-contribution-icc-us-sanctions/",
+      "source": "Japan Times",
+      "published": "2026-11-07T04:27:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -274,7 +293,7 @@
       "title": "MetService updates thunderstorm warning for Waikato, Waitakere, Franklin and Rodney",
       "url": "https://www.rnz.co.nz/news/weather/2397042/metservice-updates-thunderstorm-warning-for-waikato-waitakere-franklin-and-rodney",
       "source": "RNZ",
-      "published": "2026-11-07T03:47:28+00:00",
+      "published": "2026-11-07T04:26:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -346,40 +365,6 @@
       "consensus": 10.5
     },
     {
-      "title": "Trump names immigration hardliner Stephen Miller new chief of staff",
-      "url": "https://www.channelnewsasia.com/world/stephen-miller-trump-new-chief-staff-immigration-6532261",
-      "source": "CNA",
-      "published": "2026-11-06T21:06:00+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
-          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
-          "published": "2026-11-06T20:51:37+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/06/trump-appoints-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
-          "title": "Trump appoints immigration hardliner Stephen Miller as new chief of staff",
-          "published": "2026-11-06T19:52:20+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/6/trump-says-making-adviser-stephen-miller-white-house-chief-of-staff?traffic_source=rss",
-          "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles",
-          "published": "2026-11-06T19:08:31+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/trump-susie-wiles-9.7412558?cmp=rss",
-          "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles after midterm defeat",
-          "published": "2026-11-06T19:07:29+00:00"
-        }
-      ],
-      "consensus": 6.5
-    },
-    {
       "title": "Ex-lawmaker gets 12.5 years in Macao's first national security case",
       "url": "https://www.npr.org/2026/11/06/g-s1-152217/ex-lawmaker-gets-12-5-years-in-macaos-first-national-security-case",
       "source": "NPR World",
@@ -414,6 +399,34 @@
       "consensus": 6.0
     },
     {
+      "title": "Trump names immigration hardliner Stephen Miller new chief of staff",
+      "url": "https://www.channelnewsasia.com/world/stephen-miller-trump-new-chief-staff-immigration-6532261",
+      "source": "CNA",
+      "published": "2026-11-06T21:06:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261106-trump-announces-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+          "title": "Trump announces immigration hardliner Stephen Miller as new chief of staff",
+          "published": "2026-11-06T20:51:37+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/06/trump-appoints-immigration-hardliner-stephen-miller-as-new-chief-of-staff",
+          "title": "Trump appoints immigration hardliner Stephen Miller as new chief of staff",
+          "published": "2026-11-06T19:52:20+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/trump-susie-wiles-9.7412558?cmp=rss",
+          "title": "Trump names Stephen Miller as new chief of staff, replacing Susie Wiles after midterm defeat",
+          "published": "2026-11-06T19:07:29+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "Meghan Markle’s father arrested in US over alleged child sex abuse photos",
       "url": "https://www.aljazeera.com/news/2026/11/6/meghan-markles-father-arrested-in-us-over-alleged-child-sex-abuse-photos?traffic_source=rss",
       "source": "Al Jazeera",
@@ -440,34 +453,6 @@
         }
       ],
       "consensus": 5.0
-    },
-    {
-      "title": "Protesters break into Microsoft data centre site in Amsterdam as Europe’s backlash spreads",
-      "url": "https://www.channelnewsasia.com/world/data-centre-protesters-microsoft-amsterdam-europe-6531886",
-      "source": "CNA",
-      "published": "2026-11-07T00:47:42+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/6/protesters-break-into-microsoft-data-centre-site-in-amsterdam?traffic_source=rss",
-          "title": "Protesters break into Microsoft data centre site in Amsterdam",
-          "published": "2026-11-06T21:04:40+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site/",
-          "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-          "published": "2026-11-06T17:35:04+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/06/netherlands-protesters-storm-amsterdam-data-centre-construction-site",
-          "title": "Netherlands: Protesters storm Amsterdam data centre construction site",
-          "published": "2026-11-06T14:04:46+00:00"
-        }
-      ],
-      "consensus": 4.5
     },
     {
       "title": "Pope Leo arrives in Uruguay for first stop on 12-day South America tour",
@@ -1070,6 +1055,15 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Test of trust for Hong Kong’s new housing checks unit after Wang Fuk Court blaze",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3373606/test-trust-hong-kongs-new-housing-checks-unit-after-wang-fuk-court-blaze",
+      "source": "SCMP",
+      "published": "2026-11-07T04:25:50+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1101,7 +1095,7 @@
       "symbol": "^FTSE",
       "price": 10673.94,
       "currency": "GBP",
-      "change": -108.72,
+      "change": -108.76,
       "change_percent": -1.01,
       "name": "FTSE 100"
     }
@@ -1120,15 +1114,15 @@
         "symbol": "^FTSE",
         "price": 10673.94,
         "currency": "GBP",
-        "change": -108.72,
+        "change": -108.76,
         "change_percent": -1.01,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 51285.73,
+        "price": 51285.7,
         "currency": "USD",
-        "change": -237.33,
+        "change": -237.4,
         "change_percent": -0.46,
         "name": "Dow Jones"
       },
@@ -1152,7 +1146,7 @@
         "symbol": "^GDAXI",
         "price": 25820.36,
         "currency": "EUR",
-        "change": -504.65,
+        "change": -504.64,
         "change_percent": -1.92,
         "name": "DAX Index"
       },
@@ -1216,9 +1210,9 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 75758.18,
+        "price": 75756.9,
         "currency": "USD",
-        "change": 17.16,
+        "change": 15.88,
         "change_percent": 0.02,
         "name": "Bitcoin"
       }
@@ -1512,46 +1506,39 @@
   "web": {
     "tech": [
       {
+        "title": "Exploring Janet and the httpf web framework",
+        "url": "https://nick.gs/blog/2026-11/exploring-janet-and-the-httpf-web-framework/",
+        "comments_url": "https://lobste.rs/s/ydzlvp/exploring_janet_httpf_web_framework",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-07T04:28:11.062000+00:00"
+      },
+      {
         "title": "A Maintainer's Advice on Contributing to Open Source in 2026",
         "url": "https://wasp.sh/blog/2026/08/13/advice-for-contributing-in-2026",
         "comments_url": "https://lobste.rs/s/5mnquy/maintainer_s_advice_on_contributing_open",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-07T03:43:48.716000+00:00"
       },
       {
         "title": "Lighting the Skies",
         "url": "https://computer.rip/2026-10-25-searchlights.html",
-        "score": 5,
+        "score": 8,
         "source": "Hacker News",
         "published": "2026-11-07T03:40:34+00:00"
       },
       {
-        "title": "Show HN: Backwords – Let AI teach you how to speak in reverse",
-        "url": "https://backwords.greg.technology/",
-        "score": 9,
-        "source": "Hacker News",
-        "published": "2026-11-07T03:39:46+00:00"
-      },
-      {
         "title": "The AI sell-off compared to well-known stock market crashes",
         "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
-        "score": 9,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-07T02:20:06+00:00"
       },
       {
-        "title": "Inform is a programming language for creating interactive fiction",
-        "url": "https://ganelson.github.io/inform-website/",
-        "comments_url": "https://lobste.rs/s/immpvk/inform_is_programming_language_for",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-07T02:05:38.231000+00:00"
-      },
-      {
         "title": "I Toured Unitree's Factory. I'm More Bullish on the West",
         "url": "https://josef.cn/blog/unitree",
-        "score": 57,
+        "score": 66,
         "source": "Hacker News",
         "published": "2026-11-07T01:05:16+00:00"
       },
@@ -1567,7 +1554,7 @@
         "title": "UploadYourRam.org",
         "url": "https://uploadyourram.org/",
         "comments_url": "https://lobste.rs/s/miazwz/uploadyourram_org",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-07T00:00:06.210000+00:00"
       },
@@ -1575,21 +1562,21 @@
         "title": "Libghostty 1.0",
         "url": "https://mitchellh.com/writing/libghostty-1-0",
         "comments_url": "https://lobste.rs/s/0ouxwf/libghostty_1_0",
-        "score": 37,
+        "score": 40,
         "source": "Lobste.rs",
         "published": "2026-11-06T23:48:03.089000+00:00"
       },
       {
         "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
         "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-        "score": 56,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-06T23:37:19+00:00"
       },
       {
         "title": "Libghostty 1.0",
         "url": "https://mitchellh.com/writing/libghostty-1-0",
-        "score": 340,
+        "score": 368,
         "source": "Hacker News",
         "published": "2026-11-06T23:30:52+00:00"
       },
@@ -1612,16 +1599,23 @@
       {
         "title": "AI is dramatically accelerating AI research",
         "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-        "score": 229,
+        "score": 238,
         "source": "Hacker News",
         "published": "2026-11-06T20:27:23+00:00"
       },
       {
         "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
         "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-        "score": 376,
+        "score": 389,
         "source": "Hacker News",
         "published": "2026-11-06T19:48:51+00:00"
+      },
+      {
+        "title": "Firecracker VM Escape: PwnEscape Part 2",
+        "url": "https://pwn.ai/blog/firecracker-escape",
+        "score": 195,
+        "source": "Hacker News",
+        "published": "2026-11-06T19:33:38+00:00"
       }
     ],
     "reddit": [
@@ -1682,20 +1676,12 @@
         "published": "2026-11-06T21:28:50+00:00"
       },
       {
-        "title": "U. S. Department of State issues travel advisory:",
-        "url": "https://ir.usembassy.gov/security-alert-iran-november-7-2026/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xpshql/u_s_department_of_state_issues_travel_advisory/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-07T00:16:05+00:00"
-      },
-      {
-        "title": "RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd",
-        "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/",
+        "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
+        "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xpvi73/us_believes_nvidias_huang_had_romantic/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-06T14:46:53+00:00"
+        "published": "2026-11-07T02:45:20+00:00"
       },
       {
         "title": "Study of 30,000+ US adults finds about 1 in 4 wrongly believe childhood vaccines or taking Tylenol while pregnant causes autism. Men, Republicans, people aged 35-44 and Black or Hispanic adults were more likely to believe it. Surprisingly, people who use social media the most were less likely to.",
@@ -1704,6 +1690,14 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-06T21:59:13+00:00"
+      },
+      {
+        "title": "RIP Cybertruck. You Were Unloved, Unwanted, and Utterly Absurd",
+        "url": "https://www.wired.com/story/rip-cybertruck-you-were-unloved-unwanted-and-utterly-absurd/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xpel3i/rip_cybertruck_you_were_unloved_unwanted_and/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-06T14:46:53+00:00"
       },
       {
         "title": "UNIFIL confirms it will start leaving south Lebanon when mandate ends on Dec. 31 | Lebanese officials have warned peacekeepers’ withdrawal could leave security vacuum, while Israel has accused security force of letting Hezbollah infrastructure proliferate",
@@ -1738,12 +1732,12 @@
         "published": "2026-11-06T20:05:04+00:00"
       },
       {
-        "title": "US believes Nvidia’s Huang had romantic relationship with alleged Chinese spy",
-        "url": "https://www.ft.com/content/a55a2a22-4479-4f93-a445-6147a5c6d790?syn-25a6b1a6=1",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xpvi73/us_believes_nvidias_huang_had_romantic/",
+        "title": "LG faces legal action over alleged smart TV spying — and other manufacturers could be in the firing line over ignoring ACR opt-outs",
+        "url": "https://www.techradar.com/televisions/lg-faces-legal-action-over-alleged-smart-tv-spying-and-other-manufacturers-could-be-in-the-firing-line-over-ignoring-acr-opt-outs",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xpv2c2/lg_faces_legal_action_over_alleged_smart_tv/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-07T02:45:20+00:00"
+        "published": "2026-11-07T02:22:45+00:00"
       }
     ]
   }

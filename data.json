@@ -1,153 +1,193 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T19:30:50.473519+00:00",
+  "last_updated": "2026-11-08T20:01:00.070800+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 401
+      "ms": 361
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 590
+      "ms": 360
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 226
+      "ms": 91
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 140
+      "ms": 177
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 205
+      "ms": 104
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 245
+      "ms": 184
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 521
+      "ms": 474
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 615
+      "ms": 437
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 182
+      "ms": 277
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 177
+      "ms": 92
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 880
+      "ms": 417
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 287
+      "ms": 334
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 483
+      "ms": 181
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 279
+      "ms": 267
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 222
+      "ms": 139
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 402
+      "ms": 222
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 733
+      "ms": 622
     },
     "Semafor": {
       "ok": true,
       "count": 214,
       "error": null,
-      "ms": 728
+      "ms": 529
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 460
+      "ms": 501
     },
     "Straits Times": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 283
+      "ms": 274
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 107
+      "ms": 220
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 372
+      "ms": 278
     },
     "The Independent": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 155
+      "ms": 166
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 287
+      "ms": 252
     }
   },
   "breaking": [
+    {
+      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+      "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-08T19:58:02+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
+          "title": "Seven dead and 100 injured after trains collide in Egypt",
+          "published": "2026-11-08T19:20:50+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/08/egypt-4-dead-and-dozens-injured-after-two-trains-collide-south-of-cairo/",
+          "title": "Egypt: 7 dead and dozens injured after two trains collide south of Cairo",
+          "published": "2026-11-08T19:07:33+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/train-collision-egypt-giza-death-toll-injured-b3081246.html",
+          "title": "At least seven dead and more than 100 injured after two trains collide in Egypt",
+          "published": "2026-11-08T17:27:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/cairo-egypt-train-collision-9.7414207?cmp=rss",
+          "title": "At least 7 killed, more than 100 injured after trains collide in Egypt",
+          "published": "2026-11-08T17:16:10+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/at-least-four-dead-88-injured-as-two-trains-collide-south-of-cairo",
+          "title": "At least seven dead, more than 100 injured as two trains collide south of Cairo",
+          "published": "2026-11-08T15:48:20+00:00"
+        }
+      ],
+      "consensus": 6.5
+    },
     {
       "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
       "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
@@ -172,40 +212,6 @@
           "url": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
           "title": "Europe will be represented at US-mediated Ukraine talks in Abu Dhabi: France",
           "published": "2026-11-08T13:13:00+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Egypt: 7 dead and dozens injured after two trains collide south of Cairo",
-      "url": "http://www.africanews.com/2026/11/08/egypt-4-dead-and-dozens-injured-after-two-trains-collide-south-of-cairo/",
-      "source": "Africanews",
-      "published": "2026-11-08T19:07:33+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-          "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-          "published": "2026-11-08T17:35:13+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/train-collision-egypt-giza-death-toll-injured-b3081246.html",
-          "title": "At least seven dead and more than 100 injured after two trains collide in Egypt",
-          "published": "2026-11-08T17:27:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/cairo-egypt-train-collision-9.7414207?cmp=rss",
-          "title": "At least 7 killed, more than 100 injured after trains collide in Egypt",
-          "published": "2026-11-08T17:16:10+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/at-least-four-dead-88-injured-as-two-trains-collide-south-of-cairo",
-          "title": "At least seven dead, more than 100 injured as two trains collide south of Cairo",
-          "published": "2026-11-08T15:48:20+00:00"
         }
       ],
       "consensus": 5.0
@@ -239,20 +245,26 @@
       "consensus": 4.5
     },
     {
-      "title": "More than seven dead and 110 injured in train collision in Egypt",
-      "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
-      "source": "ABC Australia",
-      "published": "2026-11-08T19:20:50+00:00",
-      "score": 2,
+      "title": "Train collision in Egypt kills at least 7, injures dozens, health ministry says",
+      "url": "https://www.channelnewsasia.com/world/train-collision-in-egypt-kills-least-7-injures-dozens-health-ministry-says-6534371",
+      "source": "CNA",
+      "published": "2026-11-08T19:47:49+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
-          "title": "Seven killed, 112 injured in train collision in Egypt",
-          "published": "2026-11-08T16:31:54+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/egypt-train-collision-giza-to-fayoum-crash-updates-november-8-2026/article71681077.ece",
+          "title": "Train collision in Egypt's Giza kills four, injures 88 others: Health Ministry",
+          "published": "2026-11-08T15:11:59+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
+          "title": "Train collision in Egypt kills 7, injures 112",
+          "published": "2026-11-08T14:56:42+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 3.0
     },
     {
       "title": "Democrats set to target Elon Musk and Stephen Miller probes after midterm rout",
@@ -309,20 +321,20 @@
       "consensus": 2.5
     },
     {
-      "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
-      "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
-      "source": "NPR World",
-      "published": "2026-11-08T16:46:15+00:00",
+      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+      "source": "The Guardian",
+      "published": "2026-11-08T17:53:59+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261108-new-zealand-election-produces-no-clear-winner-as-smaller-parties-make-record-gains",
-          "title": "New Zealand's knife-edge parliamentary election delivers no clear winner",
-          "published": "2026-11-08T03:01:54+00:00"
+          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
+          "title": "Gadi Eisenkot receives mandate to form government",
+          "published": "2026-11-08T16:58:11+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -373,6 +385,40 @@
       "consensus": 8.0
     },
     {
+      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "source": "The Guardian",
+      "published": "2026-11-08T14:26:14+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-gadi-eisenkot-netanyahu-b3081156.html",
+          "title": "Israel’s president picks Netanyahu rival Gadi Eisenkot to form government",
+          "published": "2026-11-08T08:47:03+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israeli-president-picks-gadi-eisenkot-netanyahu-rival-to-try-to-form-government/article71679477.ece",
+          "title": "Israeli President picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+          "published": "2026-11-08T05:40:16+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/",
+          "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+          "published": "2026-11-07T23:07:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/gadi-eisenkot-form-government-israel-9.7413714?cmp=rss",
+          "title": "Israel's president asks Gadi Eisenkot, Netanyahu's rival, to form new government",
+          "published": "2026-11-07T19:46:03+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
+    {
       "title": "Gaza: Heavy rain inundates thousands of tents",
       "url": "https://www.france24.com/en/gaza-heavy-rain-inundates-thousands-of-tents",
       "source": "France24",
@@ -405,40 +451,6 @@
         }
       ],
       "consensus": 6.0
-    },
-    {
-      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
-      "source": "The Guardian",
-      "published": "2026-11-08T14:26:14+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-gadi-eisenkot-netanyahu-b3081156.html",
-          "title": "Israel’s president picks Netanyahu rival Gadi Eisenkot to form government",
-          "published": "2026-11-08T08:47:03+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-president-picks-gadi-eisenkot-netanyahu-rival-to-try-to-form-government/article71679477.ece",
-          "title": "Israeli President picks Gadi Eisenkot, Netanyahu rival, to try to form government",
-          "published": "2026-11-08T05:40:16+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/",
-          "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
-          "published": "2026-11-07T23:07:00+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3373671/israels-president-taps-eisenkot-form-government-setback-netanyahu",
-          "title": "Israel’s president taps Eisenkot to form government, in setback for Netanyahu",
-          "published": "2026-11-07T20:05:19+00:00"
-        }
-      ],
-      "consensus": 5.5
     },
     {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
@@ -526,10 +538,10 @@
           "published": "2026-11-07T20:18:18+00:00"
         },
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/gadi-eisenkot-form-government-israel-9.7413714?cmp=rss",
-          "title": "Israel's president asks Gadi Eisenkot, Netanyahu's rival, to form new government",
-          "published": "2026-11-07T19:46:03+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3373671/israels-president-taps-eisenkot-form-government-setback-netanyahu",
+          "title": "Israel’s president taps Eisenkot to form government, in setback for Netanyahu",
+          "published": "2026-11-07T20:05:19+00:00"
         }
       ],
       "consensus": 3.5
@@ -599,6 +611,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+      "source": "NPR World",
+      "published": "2026-11-08T16:46:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261108-new-zealand-election-produces-no-clear-winner-as-smaller-parties-make-record-gains",
+          "title": "New Zealand's knife-edge parliamentary election delivers no clear winner",
+          "published": "2026-11-08T03:01:54+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans",
@@ -676,22 +704,6 @@
           "url": "https://www.independent.co.uk/news/world/middle-east/saudi-armaco-building-damage-attack-b3081179.html",
           "title": "Suspected Houthi attack damages Aramco tower in Riyadh’s financial district",
           "published": "2026-11-08T11:18:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Strong earthquake rocks central Japan, injuring at least 22",
-      "url": "https://www.abc.net.au/news/2026-11-08/japan-earthquake-aichi-prefecture-at-least-22-injured/107361392",
-      "source": "ABC Australia",
-      "published": "2026-11-08T10:10:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/strong-earthquake-strikes-japan/article71680450.ece",
-          "title": "Strong earthquake shakes central Japan, shattering store windows, injuring at least 22",
-          "published": "2026-11-08T05:42:49+00:00"
         }
       ],
       "consensus": 2.5
@@ -825,26 +837,10 @@
       "consensus": 2.5
     },
     {
-      "title": "Cornell faculty vote no confidence in university's leadership",
-      "url": "https://www.cbc.ca/news/world/cornell-university-leadership-no-confience-9.7413319?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-07T01:46:19+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/cornell-gang-rape-no-confidence-vote-6532296",
-          "title": "Cornell faculty vote no-confidence in university leadership over alleged gang rape",
-          "published": "2026-11-06T23:48:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-      "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-06T14:46:03+00:00",
+      "title": "Kenyan cult leader sentenced to 200 years for Shakahola forest deaths",
+      "url": "https://www.rfi.fr/en/africa/20261106-kenyan-cult-leader-sentenced-to-200-years-for-shakahola-forest-deaths",
+      "source": "RFI English",
+      "published": "2026-11-06T14:38:10+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -871,38 +867,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
-      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:53:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
-          "title": "Gadi Eisenkot receives mandate to form government",
-          "published": "2026-11-08T16:58:11+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Train collision in Egypt's Giza kills four, injures 88 others: Health Ministry",
-      "url": "https://www.thehindu.com/news/international/egypt-train-collision-giza-to-fayoum-crash-updates-november-8-2026/article71681077.ece",
-      "source": "The Hindu",
-      "published": "2026-11-08T15:11:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-          "title": "Train collision in Egypt kills 7, injures 112",
-          "published": "2026-11-08T14:56:42+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Crash of Indonesian water-bombing helicopter kills crew member",
@@ -1079,6 +1043,54 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
+      "url": "http://www.africanews.com/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure/",
+      "source": "Africanews",
+      "published": "2026-11-07T21:45:36+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure",
+          "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
+          "published": "2026-11-07T21:45:27+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Switzerland: Giant banner targets Big Tech outside data centre site",
+      "url": "http://www.africanews.com/2026/11/06/switzerland-giant-banner-targets-big-tech-outside-data-centre-site/",
+      "source": "Africanews",
+      "published": "2026-11-06T17:25:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/switzerland-giant-banner-targets-big-tech-outside-data-centre-site",
+          "title": "Switzerland: Giant banner targets Big Tech outside data centre site",
+          "published": "2026-11-06T17:25:04+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Spain: Vintage cars hit the streets of Almería for annual rally",
+      "url": "http://www.africanews.com/2026/11/06/spain-vintage-cars-hit-the-streets-of-almeria-for-annual-rally/",
+      "source": "Africanews",
+      "published": "2026-11-06T16:38:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/spain-vintage-cars-hit-the-streets-of-almeria-for-annual-rally",
+          "title": "Spain: Vintage cars hit the streets of Almería for annual rally",
+          "published": "2026-11-06T16:38:26+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1204,31 +1216,31 @@
         "price": 1.11,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.68,
+        "change_percent": -0.69,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
-        "price": 1.34,
+        "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.75,
+        "change_percent": -0.77,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.36,
+        "price": 158.39,
         "currency": "JPY",
-        "change": 0.71,
-        "change_percent": 0.45,
+        "change": 0.74,
+        "change_percent": 0.47,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 75815.76,
+        "price": 75833.63,
         "currency": "USD",
-        "change": 62.05,
-        "change_percent": 0.08,
+        "change": 79.92,
+        "change_percent": 0.11,
         "name": "Bitcoin"
       }
     ],
@@ -1521,9 +1533,30 @@
   "web": {
     "tech": [
       {
+        "title": "How I Fight AI Brain Fry",
+        "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+        "score": 4,
+        "source": "Hacker News",
+        "published": "2026-11-08T19:37:42+00:00"
+      },
+      {
+        "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+        "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+        "score": 25,
+        "source": "Hacker News",
+        "published": "2026-11-08T19:20:32+00:00"
+      },
+      {
+        "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+        "url": "https://duxlabs.dev/",
+        "score": 21,
+        "source": "Hacker News",
+        "published": "2026-11-08T19:08:51+00:00"
+      },
+      {
         "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
         "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
-        "score": 27,
+        "score": 46,
         "source": "Hacker News",
         "published": "2026-11-08T18:43:07+00:00"
       },
@@ -1538,14 +1571,21 @@
       {
         "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
         "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-        "score": 161,
+        "score": 222,
         "source": "Hacker News",
         "published": "2026-11-08T18:16:07+00:00"
       },
       {
+        "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+        "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+        "score": 29,
+        "source": "Hacker News",
+        "published": "2026-11-08T17:20:29+00:00"
+      },
+      {
         "title": "A Little Snitch for Windows",
         "url": "https://packethound.app/",
-        "score": 35,
+        "score": 42,
         "source": "Hacker News",
         "published": "2026-11-08T17:16:07+00:00"
       },
@@ -1561,7 +1601,7 @@
         "title": "Unattended reboots with encrypted disks",
         "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
         "comments_url": "https://lobste.rs/s/urg4yu/unattended_reboots_with_encrypted_disks",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-08T16:58:03.605000+00:00"
       },
@@ -1574,16 +1614,9 @@
         "published": "2026-11-08T16:30:47.059000+00:00"
       },
       {
-        "title": "UK House of Lords to propose mandatory CSAM detection software on smartphones",
-        "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
-        "score": 47,
-        "source": "Hacker News",
-        "published": "2026-11-08T15:57:37+00:00"
-      },
-      {
         "title": "I'm not a fan of Deno's security model (2024)",
         "url": "https://goldstein.lol/posts/deno-security/",
-        "score": 44,
+        "score": 52,
         "source": "Hacker News",
         "published": "2026-11-08T14:42:38+00:00"
       },
@@ -1599,7 +1632,7 @@
         "title": "systemd loves Rust",
         "url": "https://amutable.com/blog/systemd-loves-rust",
         "comments_url": "https://lobste.rs/s/62loik/systemd_loves_rust",
-        "score": 23,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:55:05.530000+00:00"
       },
@@ -1610,39 +1643,9 @@
         "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:53:34.868000+00:00"
-      },
-      {
-        "title": "How to prove equations using diagrams, part 1",
-        "url": "https://www.epatters.org/post/e-graphs-1/",
-        "score": 36,
-        "source": "Hacker News",
-        "published": "2026-11-08T12:51:38+00:00"
-      },
-      {
-        "title": "NetBSD 11 desktop on a Raspberry Pi 4",
-        "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
-        "comments_url": "https://lobste.rs/s/rv1icj/netbsd_11_desktop_on_raspberry_pi_4",
-        "score": 15,
-        "source": "Lobste.rs",
-        "published": "2026-11-08T12:07:39.271000+00:00"
-      },
-      {
-        "title": "JIT bitmap text rendering for microcontrollers",
-        "url": "https://linebender.org/blog/jit-bitmap-text/",
-        "score": 80,
-        "source": "Hacker News",
-        "published": "2026-11-08T10:42:15+00:00"
       }
     ],
     "reddit": [
-      {
-        "title": "Putin Seizes Three More Japan Tobacco Businesses, Bringing Takeover to $3.7 Billion",
-        "url": "https://united24media.com/war-in-ukraine/putin-seizes-three-more-japan-tobacco-businesses-bringing-takeover-to-37-billion-24169",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xqvpmi/putin_seizes_three_more_japan_tobacco_businesses/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-08T10:48:42+00:00"
-      },
       {
         "title": "UK developer creates script to email Sam Altman about his unused RAM every day",
         "url": "https://www.dexerto.com/entertainment/developer-creates-script-to-email-sam-altman-about-his-unused-ram-every-day-3425821/",
@@ -1650,6 +1653,14 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-08T17:06:17+00:00"
+      },
+      {
+        "title": "Putin Seizes Three More Japan Tobacco Businesses, Bringing Takeover to $3.7 Billion",
+        "url": "https://united24media.com/war-in-ukraine/putin-seizes-three-more-japan-tobacco-businesses-bringing-takeover-to-37-billion-24169",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xqvpmi/putin_seizes_three_more_japan_tobacco_businesses/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-08T10:48:42+00:00"
       },
       {
         "title": "Teens with authoritarian parents tend to hold more antisocial beliefs, study finds",
@@ -1692,6 +1703,14 @@
         "published": "2026-11-08T15:00:45+00:00"
       },
       {
+        "title": "An ‘America First’ Approach to Famine",
+        "url": "https://www.theatlantic.com/health/2026/11/famine-somalia-trump-aid/689295/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xr19j8/an_america_first_approach_to_famine/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-08T15:40:13+00:00"
+      },
+      {
         "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
         "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
@@ -1708,12 +1727,12 @@
         "published": "2026-11-08T12:32:48+00:00"
       },
       {
-        "title": "An ‘America First’ Approach to Famine",
-        "url": "https://www.theatlantic.com/health/2026/11/famine-somalia-trump-aid/689295/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xr19j8/an_america_first_approach_to_famine/",
+        "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+        "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xr4wwy/nvidia_ceo_jensen_huang_faces_bipartisan/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-08T15:40:13+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-08T18:11:57+00:00"
       },
       {
         "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
@@ -1724,28 +1743,12 @@
         "published": "2026-11-08T12:37:14+00:00"
       },
       {
-        "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
-        "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xr4wwy/nvidia_ceo_jensen_huang_faces_bipartisan/",
+        "title": "Macron has secret escape plan if protesters storm Élysée Palace, media reports",
+        "url": "https://newsukraine.rbc.ua/news/macron-has-secret-escape-plan-if-protesters-1794085301.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr12yp/macron_has_secret_escape_plan_if_protesters_storm/",
         "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-08T18:11:57+00:00"
-      },
-      {
-        "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-        "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xqwlp3/polish_gunman_who_killed_6_people_in_krakow_has/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-08T11:46:21+00:00"
-      },
-      {
-        "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
-        "url": "https://www.jahonline.org/article/S1054-139X(26)00358-7/fulltext",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xqpcsm/looksmaxxing_is_increasingly_becoming_a_subject/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-08T04:05:51+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-08T15:31:52+00:00"
       },
       {
         "title": "Situation Report: The US Midterms As Seen from Beijing, Moscow, and Tehran",
@@ -1754,6 +1757,14 @@
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-08T14:05:14+00:00"
+      },
+      {
+        "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
+        "url": "https://www.jahonline.org/article/S1054-139X(26)00358-7/fulltext",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xqpcsm/looksmaxxing_is_increasingly_becoming_a_subject/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-08T04:05:51+00:00"
       }
     ]
   }

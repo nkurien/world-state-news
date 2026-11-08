@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T16:30:51.457671+00:00",
+  "last_updated": "2026-11-08T17:01:04.613645+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 584
+      "ms": 228
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 386
+      "ms": 144
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 263
+      "ms": 294
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 145
+      "ms": 326
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 277
+      "ms": 330
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 221
+      "ms": 390
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 533
+      "ms": 485
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 621
+      "ms": 246
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 182
+      "ms": 121
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 258
+      "ms": 235
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 673
+      "ms": 617
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 467
+      "ms": 329
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 145
+      "ms": 133
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 242
+      "ms": 172
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 376
+      "ms": 457
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 41,
       "error": null,
-      "ms": 243
+      "ms": 255
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 733
+      "ms": 494
     },
     "Semafor": {
       "ok": true,
       "count": 214,
       "error": null,
-      "ms": 695
+      "ms": 452
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 693
+      "ms": 726
     },
     "Straits Times": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 540
+      "ms": 282
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 108
+      "ms": 91
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 320
+      "ms": 157
     },
     "The Independent": {
       "ok": true,
-      "count": 33,
+      "count": 36,
       "error": null,
-      "ms": 179
+      "ms": 482
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 279
+      "ms": 174
     }
   },
   "breaking": [
@@ -205,6 +205,66 @@
       "consensus": 4.5
     },
     {
+      "title": "Collision of two trains in Egypt kills at least four",
+      "url": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+      "source": "The Guardian",
+      "published": "2026-11-08T16:38:57+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/train-collision-egypt-giza-death-toll-injured-b3081246.html",
+          "title": "At least four dead and 88 injured after two trains collide in Egypt",
+          "published": "2026-11-08T16:23:33+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/at-least-four-dead-88-injured-as-two-trains-collide-south-of-cairo",
+          "title": "At least four dead, 88 injured as two trains collide south of Cairo",
+          "published": "2026-11-08T15:48:20+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/08/egypt-4-dead-and-dozens-injured-after-two-trains-collide-south-of-cairo/",
+          "title": "Egypt: 4 dead and dozens injured after two trains collide south of Cairo",
+          "published": "2026-11-08T15:45:12+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+      "source": "NPR World",
+      "published": "2026-11-08T16:46:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261108-new-zealand-election-produces-no-clear-winner-as-smaller-parties-make-record-gains",
+          "title": "New Zealand's knife-edge parliamentary election delivers no clear winner",
+          "published": "2026-11-08T03:01:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Four killed, 88 injured in train collision in Egypt",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-08T16:31:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/egypt-train-collision-giza-to-fayoum-crash-updates-november-8-2026/article71681077.ece",
+          "title": "Train collision in Egypt's Giza kills four, injures 88 others: Health Ministry",
+          "published": "2026-11-08T15:11:59+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Tenerife’s Jesus De Miguel honoured in tearful tribute by teammates, fans",
       "url": "https://www.aljazeera.com/sports/2026/11/8/tenerifes-jesus-de-miguel-honoured-in-tearful-tribute-by-teammates-fans?traffic_source=rss",
       "source": "Al Jazeera",
@@ -251,54 +311,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "At least 21 dead as small boat sinks off Senegal",
-      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-08T13:32:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-          "published": "2026-11-08T10:01:49+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "At least four dead and 88 injured after two trains collide in Egypt",
-      "url": "https://www.independent.co.uk/news/world/africa/train-collision-egypt-giza-death-toll-injured-b3081246.html",
-      "source": "The Independent",
-      "published": "2026-11-08T16:16:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/at-least-four-dead-88-injured-as-two-trains-collide-south-of-cairo",
-          "title": "At least four dead, 88 injured as two trains collide south of Cairo",
-          "published": "2026-11-08T15:48:20+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Train collision in Egypt's Giza kills four, injures 88 others: Health Ministry",
-      "url": "https://www.thehindu.com/news/international/egypt-train-collision-giza-to-fayoum-crash-updates-november-8-2026/article71681077.ece",
-      "source": "The Hindu",
-      "published": "2026-11-08T15:11:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-          "title": "Train collision in Egypt kills 4, injures 88",
-          "published": "2026-11-08T14:56:42+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -493,28 +505,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Houthi attack damages Aramco building in Riyadh’s financial district",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3373700/saudi-aramco-building-riyadh-damaged-attempted-attack",
-      "source": "SCMP",
-      "published": "2026-11-08T11:34:24+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-armaco-building-damage-attack-b3081179.html",
-          "title": "Suspected Houthi attack damages Aramco tower in Riyadh’s financial district",
-          "published": "2026-11-08T11:18:23+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261108-yemen-s-houthis-claim-attack-on-aramco-building-in-riyadh-s-financial-district",
-          "title": "Yemen's Houthis claim attack on Aramco building in Riyadh's financial district",
-          "published": "2026-11-08T08:11:54+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Trump offers press secretary role to UFC CEO Dana White",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dana-white-ufc-press-secretary-b3081071.html",
       "source": "The Independent",
@@ -625,6 +615,22 @@
       "consensus": 3.0
     },
     {
+      "title": "At least 21 dead as small boat sinks off Senegal",
+      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-08T13:32:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+          "published": "2026-11-08T10:01:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Zaporizhzhia nuclear plant relying on generators again after losing external power supply",
       "url": "https://www.thehindu.com/news/international/zaporizhzhia-nuclear-plant-relying-on-generators-again-after-losing-external-power-supply/article71680948.ece",
       "source": "The Hindu",
@@ -636,6 +642,22 @@
           "url": "https://www.themoscowtimes.com/2026/11/08/zaporizhzhia-nuclear-plant-relying-on-generators-again-after-losing-internal-power-supply-a94202",
           "title": "Zaporizhzhia Nuclear Plant Relying on Generators Again After Losing Internal Power Supply",
           "published": "2026-11-08T08:50:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Houthi attack damages Aramco building in Riyadh’s financial district",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373700/saudi-aramco-building-riyadh-damaged-attempted-attack",
+      "source": "SCMP",
+      "published": "2026-11-08T11:34:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/saudi-armaco-building-damage-attack-b3081179.html",
+          "title": "Suspected Houthi attack damages Aramco tower in Riyadh’s financial district",
+          "published": "2026-11-08T11:18:23+00:00"
         }
       ],
       "consensus": 2.5
@@ -801,22 +823,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Wave of bomb threats target Irish media outlets and more European flights",
-      "url": "https://www.politico.eu/article/bomb-threats-target-irish-media-and-more-european-flights/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-06T16:50:31+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032612/europe-flights-hoaxes",
-          "title": "European flights and broadcasters are targeted with another wave of bomb threats",
-          "published": "2026-11-06T15:21:31+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Kenyan cult leader sentenced to 200 years for Shakahola forest deaths",
       "url": "https://www.rfi.fr/en/africa/20261106-kenyan-cult-leader-sentenced-to-200-years-for-shakahola-forest-deaths",
       "source": "RFI English",
@@ -908,38 +914,6 @@
           "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-riyadh-financial-district-aramco-tower-6534071",
           "title": "Riyadh financial district targeted, Aramco skyscraper damaged",
           "published": "2026-11-08T09:14:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Rugby League World Cup: Jillaroos hold off Fiji challenge to make final",
-      "url": "https://www.rnz.co.nz/news/sport/2442211/rugby-league-world-cup-jillaroos-hold-off-fiji-challenge-to-make-final",
-      "source": "RNZ",
-      "published": "2026-11-08T10:57:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-08/rugby-league-world-cup-jillaroos-fiji-bulikula-semi-final/107361332",
-          "title": "Wounded Jillaroos into World Cup final after Fiji smackdown",
-          "published": "2026-11-08T10:05:46+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Briton among six dead after gunman opens fire in Kraków market square",
-      "url": "https://www.theguardian.com/world/2026/nov/07/krakow-poland-shooting-market-square-deaths-gunman",
-      "source": "The Guardian",
-      "published": "2026-11-08T09:30:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/07/video-shows-people-fleeing-as-gunman-opens-fire-in-krakow-poland",
-          "title": "Video shows people fleeing as gunman opens fire in Kraków, Poland",
-          "published": "2026-11-07T19:15:23+00:00"
         }
       ],
       "consensus": 2.0
@@ -1052,6 +1026,38 @@
           "url": "https://www.euronews.com/video/2026/11/07/ukraine-russian-strikes-hit-kyiv-region-damaging-infrastructure",
           "title": "Ukraine: Russian strikes hit Kyiv region, damaging infrastructure",
           "published": "2026-11-07T21:45:27+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Switzerland: Giant banner targets Big Tech outside data centre site",
+      "url": "http://www.africanews.com/2026/11/06/switzerland-giant-banner-targets-big-tech-outside-data-centre-site/",
+      "source": "Africanews",
+      "published": "2026-11-06T17:25:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/switzerland-giant-banner-targets-big-tech-outside-data-centre-site",
+          "title": "Switzerland: Giant banner targets Big Tech outside data centre site",
+          "published": "2026-11-06T17:25:04+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Spain: Vintage cars hit the streets of Almería for annual rally",
+      "url": "http://www.africanews.com/2026/11/06/spain-vintage-cars-hit-the-streets-of-almeria-for-annual-rally/",
+      "source": "Africanews",
+      "published": "2026-11-06T16:38:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/06/spain-vintage-cars-hit-the-streets-of-almeria-for-annual-rally",
+          "title": "Spain: Vintage cars hit the streets of Almería for annual rally",
+          "published": "2026-11-06T16:38:26+00:00"
         }
       ],
       "consensus": 1.5
@@ -1201,10 +1207,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 75911.2,
+        "price": 75684.13,
         "currency": "USD",
-        "change": 157.49,
-        "change_percent": 0.21,
+        "change": -69.58,
+        "change_percent": -0.09,
         "name": "Bitcoin"
       }
     ],
@@ -1274,6 +1280,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Dem 2028ers: Don’t mess this up",
+          "url": "https://www.politico.com/newsletters/playbook/2026/11/08/dem-2028ers-dont-mess-this-up-01155518",
+          "published": "2026-11-08T16:51:05+00:00",
+          "snippet": ""
+        },
+        {
           "title": "Trump brings in a ‘wartime consigliere’",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/07/what-trumps-miller-move-means-01155123",
           "published": "2026-11-07T15:56:12+00:00",
@@ -1283,12 +1295,6 @@
           "title": "Clyburn’s digits are out for 2028",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/06/clyburns-digits-are-out-for-2028-01153523",
           "published": "2026-11-06T11:27:13+00:00",
-          "snippet": ""
-        },
-        {
-          "title": "Democrats’ slow Bern",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/05/democrats-slow-bern-01151191",
-          "published": "2026-11-05T11:14:48+00:00",
           "snippet": ""
         }
       ]
@@ -1497,37 +1503,54 @@
   "web": {
     "tech": [
       {
+        "title": "Unattended reboots with encrypted disks",
+        "url": "https://jmmv.dev/2026/11/zkeys-intro.html",
+        "comments_url": "https://lobste.rs/s/urg4yu/unattended_reboots_with_encrypted_disks",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-08T16:58:03.605000+00:00"
+      },
+      {
+        "title": "Don't Make a Human Do What AI Is Amazing At",
+        "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+        "comments_url": "https://lobste.rs/s/hjgr1u/don_t_make_human_do_what_ai_is_amazing_at",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-08T16:52:59.195000+00:00"
+      },
+      {
+        "title": "\"RAM Altman\"= Linux script emailing Altman daily on how much RAM left on your PC",
+        "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+        "score": 5,
+        "source": "Hacker News",
+        "published": "2026-11-08T16:48:06+00:00"
+      },
+      {
+        "title": "SFLC.in Statement Regarding the Takedown Requests Against Its X Account and Posts",
+        "url": "https://sflc.in/sflc-in-statement-regarding-the-takedown-requests-against-its-x-account-and-posts/",
+        "comments_url": "https://lobste.rs/s/smx0fn/sflc_statement_regarding_takedown",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-08T16:30:47.059000+00:00"
+      },
+      {
         "title": "Tesla Hasn't Had a Successful New Product Launch Since JB Straubel Stepped Down",
         "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
-        "score": 67,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-08T16:07:42+00:00"
       },
       {
-        "title": "I Have Never Seen a Game Fail Because the Artists Were Too Slow",
-        "url": "https://www.productionalchemist.com/p/inever-seen-a-game-fail-because-artists-too-slow",
-        "score": 19,
-        "source": "Hacker News",
-        "published": "2026-11-08T15:44:17+00:00"
-      },
-      {
-        "title": "Scrine – Joyscroll books. Read any book one sentence at a time",
-        "url": "https://scrine.io/",
-        "score": 4,
-        "source": "Hacker News",
-        "published": "2026-11-08T15:35:50+00:00"
-      },
-      {
         "title": "OpenAI raises $11B at a $1.25T valuation",
         "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
-        "score": 72,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-08T14:49:23+00:00"
       },
       {
         "title": "I'm not a fan of Deno's security model (2024)",
         "url": "https://goldstein.lol/posts/deno-security/",
-        "score": 13,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-08T14:42:38+00:00"
       },
@@ -1535,7 +1558,7 @@
         "title": "Following breadcrumbs in code - What accidentally committed Ad-Hoc logs reveal about developer comprehension",
         "url": "https://link.springer.com/article/10.1007/s10664-026-10988-z",
         "comments_url": "https://lobste.rs/s/b6ebju/following_breadcrumbs_code_what",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-08T13:21:22.648000+00:00"
       },
@@ -1543,7 +1566,7 @@
         "title": "systemd loves Rust",
         "url": "https://amutable.com/blog/systemd-loves-rust",
         "comments_url": "https://lobste.rs/s/62loik/systemd_loves_rust",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:55:05.530000+00:00"
       },
@@ -1551,7 +1574,7 @@
         "title": "A bit about email",
         "url": "https://maurycyz.com/misc/email/",
         "comments_url": "https://lobste.rs/s/jnz4v5/bit_about_email",
-        "score": 12,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:53:34.868000+00:00"
       },
@@ -1559,53 +1582,37 @@
         "title": "NetBSD 11 desktop on a Raspberry Pi 4",
         "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
         "comments_url": "https://lobste.rs/s/rv1icj/netbsd_11_desktop_on_raspberry_pi_4",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:07:39.271000+00:00"
       },
       {
         "title": "Person of Interest",
         "url": "https://krthr.co/person-of-interest/",
-        "score": 220,
+        "score": 227,
         "source": "Hacker News",
         "published": "2026-11-08T11:23:28+00:00"
       },
       {
         "title": "JIT bitmap text rendering for microcontrollers",
         "url": "https://linebender.org/blog/jit-bitmap-text/",
-        "score": 60,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-08T10:42:15+00:00"
       },
       {
         "title": "Writing as a thinking tool",
         "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
-        "score": 76,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-08T10:41:52+00:00"
       },
       {
         "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
         "url": "https://github.com/synchopate/llama-modchip",
-        "score": 156,
+        "score": 178,
         "source": "Hacker News",
         "published": "2026-11-08T10:22:04+00:00"
-      },
-      {
-        "title": "Introducing Project Steadfast",
-        "url": "https://noteflakes.com/articles/2026-11-07-introducing-project-steadfast",
-        "comments_url": "https://lobste.rs/s/5cavvx/introducing_project_steadfast",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-08T09:09:24.240000+00:00"
-      },
-      {
-        "title": "Nspawn 3.0: A Docker-compatible Engine API for systemd-nspawn containers",
-        "url": "https://blog.nspawn.org/posts/nspawn-3-0-a-docker-compatible-engine-api-for-systemd-nspawn-containers/",
-        "comments_url": "https://lobste.rs/s/lh0qbr/nspawn_3_0_docker_compatible_engine_api",
-        "score": 10,
-        "source": "Lobste.rs",
-        "published": "2026-11-08T08:41:38.183000+00:00"
       }
     ],
     "reddit": [
@@ -1626,20 +1633,20 @@
         "published": "2026-11-08T10:48:42+00:00"
       },
       {
-        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
-        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-08T12:15:22+00:00"
-      },
-      {
         "title": "Teens with authoritarian parents tend to hold more antisocial beliefs, study finds",
         "url": "https://www.psypost.org/teens-with-authoritarian-parents-tend-to-hold-more-antisocial-beliefs-study-finds/",
         "comments_url": "https://www.reddit.com/r/science/comments/1xqzyam/teens_with_authoritarian_parents_tend_to_hold/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-08T14:41:37+00:00"
+      },
+      {
+        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
+        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-08T12:15:22+00:00"
       },
       {
         "title": "Russia using own version of Starlink for military comms over Ukraine, Kyiv says",
@@ -1666,20 +1673,20 @@
         "published": "2026-11-08T12:39:27+00:00"
       },
       {
-        "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
-        "url": "https://www.jahonline.org/article/S1054-139X(26)00358-7/fulltext",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xqpcsm/looksmaxxing_is_increasingly_becoming_a_subject/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-08T04:05:51+00:00"
-      },
-      {
         "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
         "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xqwlp3/polish_gunman_who_killed_6_people_in_krakow_has/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-08T11:46:21+00:00"
+      },
+      {
+        "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
+        "url": "https://www.jahonline.org/article/S1054-139X(26)00358-7/fulltext",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xqpcsm/looksmaxxing_is_increasingly_becoming_a_subject/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-08T04:05:51+00:00"
       },
       {
         "title": "Hackers Claim Leaked Rosstat Records Reveal Up to 450,000 Russian War Deaths",
@@ -1698,6 +1705,14 @@
         "published": "2026-11-08T11:39:24+00:00"
       },
       {
+        "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling",
+        "url": "https://kyivindependent.com/zelensky-says-oleshky-ceasefire-shows-russia-can-halt-fighting-but-putin-is-unwilling/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr0dgt/zelensky_says_oleshky_ceasefire_shows_russia_can/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-08T15:00:45+00:00"
+      },
+      {
         "title": "Romania entered the Guinness World Record for the largest simultaneous plantation of trees with over 2500 volunteers.",
         "url": "https://www.digi24.ro/stiri/romania-a-intrat-in-cartea-recordurilor-cu-cea-mai-mare-plantare-de-copaci-din-lume-au-participat-peste-2-500-de-voluntari-4026331",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xqtmts/romania_entered_the_guinness_world_record_for_the/",
@@ -1714,20 +1729,12 @@
         "published": "2026-11-07T14:12:39+00:00"
       },
       {
-        "title": "New research suggests that current heatwaves are no match for what's to come. Future heatwaves will be longer and more extreme than anything experienced so far.",
-        "url": "https://www.nature.com/articles/s41467-026-76809-5",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xqhllm/new_research_suggests_that_current_heatwaves_are/",
+        "title": "Situation Report: The US Midterms As Seen from Beijing, Moscow, and Tehran",
+        "url": "https://www.opforjournal.com/p/situation-report-the-us-midterms",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xqz6lp/situation_report_the_us_midterms_as_seen_from/",
         "score": null,
-        "source": "/r/science",
-        "published": "2026-11-07T21:36:05+00:00"
-      },
-      {
-        "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling",
-        "url": "https://kyivindependent.com/zelensky-says-oleshky-ceasefire-shows-russia-can-halt-fighting-but-putin-is-unwilling/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr0dgt/zelensky_says_oleshky_ceasefire_shows_russia_can/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-08T15:00:45+00:00"
+        "source": "/r/geopolitics",
+        "published": "2026-11-08T14:05:14+00:00"
       }
     ]
   }

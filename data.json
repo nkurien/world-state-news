@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T20:30:56.661301+00:00",
+  "last_updated": "2026-11-08T21:01:00.577184+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 322
+      "ms": 429
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 215
+      "ms": 301
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 180
+      "ms": 189
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 181
+      "ms": 222
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 289
+      "ms": 244
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 233
+      "ms": 499
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 497
+      "ms": 517
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 301
+      "ms": 372
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 139
+      "ms": 230
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 158
+      "ms": 189
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 379
+      "ms": 698
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 496
+      "ms": 224
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 168
+      "ms": 206
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 646
+      "ms": 281
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 155
+      "ms": 180
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 325
+      "ms": 369
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 436
+      "ms": 815
     },
     "Semafor": {
       "ok": true,
       "count": 214,
       "error": null,
-      "ms": 430
+      "ms": 487
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 629
+      "ms": 682
     },
     "Straits Times": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 335
+      "ms": 306
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 86
+      "ms": 170
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 193
+      "ms": 239
     },
     "The Independent": {
       "ok": true,
-      "count": 34,
+      "count": 35,
       "error": null,
-      "ms": 427
+      "ms": 227
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 141
+      "ms": 167
     }
   },
   "breaking": [
@@ -217,6 +217,28 @@
       "consensus": 5.0
     },
     {
+      "title": "Migrant boat sinks off Senegal, killing at least 34 people, authorities say",
+      "url": "https://www.france24.com/en/africa/20261108-migrant-boat-sinks-off-senegal-killing-at-least-34-people-authorities-say",
+      "source": "France24",
+      "published": "2026-11-08T20:40:33+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+          "published": "2026-11-08T10:01:49+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/migrant-boat-sinks-off-senegal-death-toll/article71680824.ece",
+          "title": "Migrant boat sinks off Senegal, 21 killed: authorities",
+          "published": "2026-11-08T09:34:52+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Train collision in Egypt kills at least 7, injures dozens, health ministry says",
       "url": "https://www.channelnewsasia.com/world/train-collision-in-egypt-kills-least-7-injures-dozens-health-ministry-says-6534371",
       "source": "CNA",
@@ -277,42 +299,26 @@
       "consensus": 2.5
     },
     {
-      "title": "Pope Leo leaves Uruguay and heads to most fraught stop of his tour in Milei’s Argentina",
-      "url": "https://www.scmp.com/news/world/americas/article/3373717/pope-leo-leaves-uruguay-and-heads-most-fraught-stop-his-tour-mileis-argentina",
-      "source": "SCMP",
-      "published": "2026-11-08T17:53:30+00:00",
+      "title": "Trump vows comeback as bitter showdown with Congress looms",
+      "url": "https://www.channelnewsasia.com/world/trump-vows-comeback-bitter-showdown-congress-looms-6534601",
+      "source": "CNA",
+      "published": "2026-11-08T20:37:26+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6033992/after-a-successful-trip-to-uruguay-pope-leo-heads-to-argentina",
-          "title": "After a successful trip to Uruguay, Pope Leo heads to Argentina",
-          "published": "2026-11-08T16:30:16+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
-      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:53:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
-          "title": "Gadi Eisenkot receives mandate to form government",
-          "published": "2026-11-08T16:58:11+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-vows-comeback-as-bitter-showdown-with-congress-looms/article71681120.ece",
+          "title": "Trump vows comeback as bitter showdown with Congress looms",
+          "published": "2026-11-08T16:50:05+00:00"
         }
       ],
       "consensus": 2.0
     },
     {
-      "title": "Poland treats fatal mass shooting as 'terrorist offence'",
-      "url": "https://www.abc.net.au/news/2026-11-09/poland-treating-mass-shooting-as-terrorist-offence/107362106",
-      "source": "ABC Australia",
-      "published": "2026-11-08T20:25:36+00:00",
+      "title": "Pope Leo XIV ends his visit to Uruguay with a tribute to women before departing to Argentina",
+      "url": "https://www.euronews.com/2026/11/08/pope-leo-xiv-ends-his-visit-to-uruguay-with-a-tribute-to-women-before-departing-to-argenti",
+      "source": "Euronews",
+      "published": "2026-11-08T20:55:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -440,34 +446,6 @@
       "consensus": 6.0
     },
     {
-      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
-      "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-      "source": "The Guardian",
-      "published": "2026-11-07T01:55:11+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/paraguay-president-ousted-and-placed-under-house-arrest-successor-sworn-in-6532536",
-          "title": "Paraguay president ousted and placed under house arrest, successor sworn in",
-          "published": "2026-11-07T01:46:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/paraguay-ousted-president-arrest-warrant-9.7413118?cmp=rss",
-          "title": "Ousted Paraguayan president placed under house arrest",
-          "published": "2026-11-07T00:17:06+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/05/paraguayan-president-resigns-amid-bank-collapse-leaving-3m-people-without-access-to-bank-a",
-          "title": "Ousted Paraguayan president placed under house arrest after impeachment",
-          "published": "2026-11-05T18:49:20+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
       "title": "Iran executes 3 more men over January protests, judiciary says",
       "url": "https://www.scmp.com/news/world/middle-east/article/3373716/iran-executes-3-more-men-over-january-protests-judiciary-says",
       "source": "SCMP",
@@ -540,6 +518,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
+      "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+      "source": "The Guardian",
+      "published": "2026-11-07T01:55:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/paraguay-president-ousted-and-placed-under-house-arrest-successor-sworn-in-6532536",
+          "title": "Paraguay president ousted and placed under house arrest, successor sworn in",
+          "published": "2026-11-07T01:46:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/paraguay-ousted-president-arrest-warrant-9.7413118?cmp=rss",
+          "title": "Ousted Paraguayan president placed under house arrest",
+          "published": "2026-11-07T00:17:06+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
       "url": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -582,6 +582,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Pope Leo leaves Uruguay and heads to most fraught stop of his tour in Milei’s Argentina",
+      "url": "https://www.scmp.com/news/world/americas/article/3373717/pope-leo-leaves-uruguay-and-heads-most-fraught-stop-his-tour-mileis-argentina",
+      "source": "SCMP",
+      "published": "2026-11-08T17:53:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6033992/after-a-successful-trip-to-uruguay-pope-leo-heads-to-argentina",
+          "title": "After a successful trip to Uruguay, Pope Leo heads to Argentina",
+          "published": "2026-11-08T16:30:16+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
@@ -680,22 +696,6 @@
       "consensus": 2.5
     },
     {
-      "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-      "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-      "source": "Euronews",
-      "published": "2026-11-08T10:01:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/migrant-boat-sinks-off-senegal-death-toll/article71680824.ece",
-          "title": "Migrant boat sinks off Senegal, 21 killed: authorities",
-          "published": "2026-11-08T09:34:52+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Israel president taps Eisenkot to form new government",
       "url": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
       "source": "CNA",
@@ -755,22 +755,6 @@
           "url": "https://www.thehindu.com/news/international/italian-foreign-minister-says-pro-russian-hackers-targeted-him-over-ukraine-support/article71678639.ece",
           "title": "Italian Foreign Minister says pro-Russian hackers targeted him over Ukraine support",
           "published": "2026-11-07T14:39:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Pope Leo begins South America tour in 'fairly good shape' after cancer treatment",
-      "url": "http://www.africanews.com/2026/11/07/pope-leo-begins-south-america-tour-in-fairly-good-shape-after-cancer-treatment/",
-      "source": "Africanews",
-      "published": "2026-11-07T13:43:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/pope-leo-begins-south-america-tour-in-fairly-good-shape-6532451",
-          "title": "Pope Leo begins South America tour in 'fairly good shape'",
-          "published": "2026-11-06T23:58:45+00:00"
         }
       ],
       "consensus": 2.5
@@ -854,6 +838,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+      "source": "The Guardian",
+      "published": "2026-11-08T17:53:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
+          "title": "Gadi Eisenkot receives mandate to form government",
+          "published": "2026-11-08T16:58:11+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Crash of Indonesian water-bombing helicopter kills crew member",
@@ -1216,18 +1216,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 158.33,
+        "price": 158.35,
         "currency": "JPY",
-        "change": 0.68,
-        "change_percent": 0.43,
+        "change": 0.69,
+        "change_percent": 0.44,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 75802.46,
+        "price": 75684.87,
         "currency": "USD",
-        "change": 48.75,
-        "change_percent": 0.06,
+        "change": -68.84,
+        "change_percent": -0.09,
         "name": "Bitcoin"
       }
     ],
@@ -1520,23 +1520,30 @@
   "web": {
     "tech": [
       {
+        "title": "Nvidia Board of Directors Is Investigating Jensen Huang",
+        "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+        "score": 92,
+        "source": "Hacker News",
+        "published": "2026-11-08T20:26:43+00:00"
+      },
+      {
         "title": "How I Fight AI Brain Fry",
         "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-        "score": 25,
+        "score": 57,
         "source": "Hacker News",
         "published": "2026-11-08T19:37:42+00:00"
       },
       {
         "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
         "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-        "score": 61,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-08T19:20:32+00:00"
       },
       {
         "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
         "url": "https://duxlabs.dev/",
-        "score": 46,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-08T19:08:51+00:00"
       },
@@ -1551,21 +1558,21 @@
       {
         "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
         "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-        "score": 293,
+        "score": 346,
         "source": "Hacker News",
         "published": "2026-11-08T18:16:07+00:00"
       },
       {
         "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
         "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
-        "score": 66,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-08T17:20:29+00:00"
       },
       {
         "title": "A Little Snitch for Windows",
         "url": "https://packethound.app/",
-        "score": 50,
+        "score": 56,
         "source": "Hacker News",
         "published": "2026-11-08T17:16:07+00:00"
       },
@@ -1576,13 +1583,6 @@
         "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-08T17:12:00.379000+00:00"
-      },
-      {
-        "title": "A field guide to CAPTCHA types and how they break",
-        "url": "https://github.com/vsmutok/FuckCaptcha",
-        "score": 31,
-        "source": "Hacker News",
-        "published": "2026-11-08T17:09:55+00:00"
       },
       {
         "title": "Unattended reboots with encrypted disks",
@@ -1603,7 +1603,7 @@
       {
         "title": "I'm not a fan of Deno's security model (2024)",
         "url": "https://goldstein.lol/posts/deno-security/",
-        "score": 57,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-08T14:42:38+00:00"
       },
@@ -1619,7 +1619,7 @@
         "title": "systemd loves Rust",
         "url": "https://amutable.com/blog/systemd-loves-rust",
         "comments_url": "https://lobste.rs/s/62loik/systemd_loves_rust",
-        "score": 25,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:55:05.530000+00:00"
       },
@@ -1682,20 +1682,12 @@
         "published": "2026-11-08T08:09:46+00:00"
       },
       {
-        "title": "An ‘America First’ Approach to Famine",
-        "url": "https://www.theatlantic.com/health/2026/11/famine-somalia-trump-aid/689295/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xr19j8/an_america_first_approach_to_famine/",
+        "title": "NVIDIA CEO Admits Infidelity With Suspected Chinese Spy",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xr86kx/nvidia_ceo_admits_infidelity_with_suspected/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-08T15:40:13+00:00"
-      },
-      {
-        "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling",
-        "url": "https://kyivindependent.com/zelensky-says-oleshky-ceasefire-shows-russia-can-halt-fighting-but-putin-is-unwilling/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr0dgt/zelensky_says_oleshky_ceasefire_shows_russia_can/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-08T15:00:45+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-08T20:25:13+00:00"
       },
       {
         "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
@@ -1706,20 +1698,28 @@
         "published": "2026-11-08T18:11:57+00:00"
       },
       {
+        "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling",
+        "url": "https://kyivindependent.com/zelensky-says-oleshky-ceasefire-shows-russia-can-halt-fighting-but-putin-is-unwilling/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr0dgt/zelensky_says_oleshky_ceasefire_shows_russia_can/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-08T15:00:45+00:00"
+      },
+      {
+        "title": "An ‘America First’ Approach to Famine",
+        "url": "https://www.theatlantic.com/health/2026/11/famine-somalia-trump-aid/689295/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xr19j8/an_america_first_approach_to_famine/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-08T15:40:13+00:00"
+      },
+      {
         "title": "Hackers Claim Leaked Rosstat Records Reveal Up to 450,000 Russian War Deaths",
         "url": "https://www.kyivpost.com/post/89484",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xqxe29/hackers_claim_leaked_rosstat_records_reveal_up_to/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-08T12:32:48+00:00"
-      },
-      {
-        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
-        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-08T12:15:22+00:00"
       },
       {
         "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
@@ -1730,12 +1730,12 @@
         "published": "2026-11-08T12:37:14+00:00"
       },
       {
-        "title": "Ukraine hits key bridge on 'highway of death' linking mainland Russia to occupied regions",
-        "url": "https://kyivindependent.com/ukraine-war-latest-ukraine-hits-key-bridge-on-highway-of-death-linking-mainland-russia-to-occupied-regions/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr7a8w/ukraine_hits_key_bridge_on_highway_of_death/",
+        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
+        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-08T19:48:28+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-08T12:15:22+00:00"
       },
       {
         "title": "Macron has secret escape plan if protesters storm Élysée Palace, media reports",
@@ -1746,12 +1746,12 @@
         "published": "2026-11-08T15:31:52+00:00"
       },
       {
-        "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
-        "url": "https://www.jahonline.org/article/S1054-139X(26)00358-7/fulltext",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xqpcsm/looksmaxxing_is_increasingly_becoming_a_subject/",
+        "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",
+        "url": "https://www.nytimes.com/2026/11/08/technology/nvidia-investigation-jensen-huang-china.html?smid=nytcore-ios-share",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xr7tzk/nvidia_opens_investigation_into_jensen_huangs/",
         "score": null,
-        "source": "/r/science",
-        "published": "2026-11-08T04:05:51+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-08T20:10:24+00:00"
       }
     ]
   }

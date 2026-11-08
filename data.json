@@ -1,160 +1,194 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-08T19:01:00.940872+00:00",
+  "last_updated": "2026-11-08T19:30:50.473519+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 441
+      "ms": 401
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 403
+      "ms": 590
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 92
+      "ms": 226
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 258
+      "ms": 140
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 376
+      "ms": 205
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 248
+      "ms": 245
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 130
+      "ms": 521
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 391
+      "ms": 615
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 158
+      "ms": 182
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 155
+      "ms": 177
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 405
+      "ms": 880
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 220
+      "ms": 287
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 199
+      "ms": 483
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 144
+      "ms": 279
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 449
+      "ms": 222
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 404
+      "ms": 402
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 572
+      "ms": 733
     },
     "Semafor": {
       "ok": true,
       "count": 214,
       "error": null,
-      "ms": 610
+      "ms": 728
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 521
+      "ms": 460
     },
     "Straits Times": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 294
+      "ms": 283
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 219
+      "ms": 107
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 312
+      "ms": 372
     },
     "The Independent": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 243
+      "ms": 155
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 248
+      "ms": 287
     }
   },
   "breaking": [
     {
-      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
-      "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-08T17:35:13+00:00",
+      "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+      "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+      "source": "NPR World",
+      "published": "2026-11-08T19:25:30+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
+          "title": "Europe will take part in US-mediated Ukraine talks in Abu Dhabi, French FM says",
+          "published": "2026-11-08T14:16:31+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/europe-will-be-represented-at-us-mediated-ukraine-talks-in-abu-dhabi-france/article71681017.ece",
+          "title": "Europe will be represented at U.S.-mediated Ukraine talks in Abu Dhabi: France",
+          "published": "2026-11-08T13:56:07+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
+          "title": "Europe will be represented at US-mediated Ukraine talks in Abu Dhabi: France",
+          "published": "2026-11-08T13:13:00+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Egypt: 7 dead and dozens injured after two trains collide south of Cairo",
+      "url": "http://www.africanews.com/2026/11/08/egypt-4-dead-and-dozens-injured-after-two-trains-collide-south-of-cairo/",
+      "source": "Africanews",
+      "published": "2026-11-08T19:07:33+00:00",
       "score": 5,
       "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+          "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+          "published": "2026-11-08T17:35:13+00:00"
+        },
         {
           "source": "The Independent",
           "url": "https://www.independent.co.uk/news/world/africa/train-collision-egypt-giza-death-toll-injured-b3081246.html",
@@ -170,14 +204,8 @@
         {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/08/at-least-four-dead-88-injured-as-two-trains-collide-south-of-cairo",
-          "title": "At least four dead, 88 injured as two trains collide south of Cairo",
+          "title": "At least seven dead, more than 100 injured as two trains collide south of Cairo",
           "published": "2026-11-08T15:48:20+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/08/egypt-4-dead-and-dozens-injured-after-two-trains-collide-south-of-cairo/",
-          "title": "Egypt: 4 dead and dozens injured after two trains collide south of Cairo",
-          "published": "2026-11-08T15:45:12+00:00"
         }
       ],
       "consensus": 5.0
@@ -209,6 +237,22 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "More than seven dead and 110 injured in train collision in Egypt",
+      "url": "https://www.abc.net.au/news/2026-11-09/train-collision-egypt-giza/107361794",
+      "source": "ABC Australia",
+      "published": "2026-11-08T19:20:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/four-killed-88-injured-in-train-collision-in-egypt?traffic_source=rss",
+          "title": "Seven killed, 112 injured in train collision in Egypt",
+          "published": "2026-11-08T16:31:54+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Democrats set to target Elon Musk and Stephen Miller probes after midterm rout",
@@ -265,22 +309,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
-      "url": "https://www.france24.com/en/ukraine-russian-strikes-leave-hundreds-of-thousands-without-power",
-      "source": "France24",
-      "published": "2026-11-08T16:59:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
-          "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
-          "published": "2026-11-08T12:20:17+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
       "url": "https://www.npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
       "source": "NPR World",
@@ -295,22 +323,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
-      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
-      "source": "The Guardian",
-      "published": "2026-11-08T17:53:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
-          "title": "Gadi Eisenkot receives mandate to form government",
-          "published": "2026-11-08T16:58:11+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -361,46 +373,6 @@
       "consensus": 8.0
     },
     {
-      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
-      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
-      "source": "The Guardian",
-      "published": "2026-11-08T14:26:14+00:00",
-      "score": 6,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-gadi-eisenkot-netanyahu-b3081156.html",
-          "title": "Israel’s president picks Netanyahu rival Gadi Eisenkot to form government",
-          "published": "2026-11-08T08:47:03+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-president-picks-gadi-eisenkot-netanyahu-rival-to-try-to-form-government/article71679477.ece",
-          "title": "Israeli President picks Gadi Eisenkot, Netanyahu rival, to try to form government",
-          "published": "2026-11-08T05:40:16+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/",
-          "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
-          "published": "2026-11-07T23:07:00+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3373671/israels-president-taps-eisenkot-form-government-setback-netanyahu",
-          "title": "Israel’s president taps Eisenkot to form government, in setback for Netanyahu",
-          "published": "2026-11-07T20:05:19+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/gadi-eisenkot-form-government-israel-9.7413714?cmp=rss",
-          "title": "Israel's president asks Gadi Eisenkot, Netanyahu's rival, to form new government",
-          "published": "2026-11-07T19:46:03+00:00"
-        }
-      ],
-      "consensus": 7.0
-    },
-    {
       "title": "Gaza: Heavy rain inundates thousands of tents",
       "url": "https://www.france24.com/en/gaza-heavy-rain-inundates-thousands-of-tents",
       "source": "France24",
@@ -435,6 +407,40 @@
       "consensus": 6.0
     },
     {
+      "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+      "source": "The Guardian",
+      "published": "2026-11-08T14:26:14+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-election-gadi-eisenkot-netanyahu-b3081156.html",
+          "title": "Israel’s president picks Netanyahu rival Gadi Eisenkot to form government",
+          "published": "2026-11-08T08:47:03+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israeli-president-picks-gadi-eisenkot-netanyahu-rival-to-try-to-form-government/article71679477.ece",
+          "title": "Israeli President picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+          "published": "2026-11-08T05:40:16+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/08/world/politics/israel-president-gadi-eisenkot-government/",
+          "title": "Israeli president picks Gadi Eisenkot, Netanyahu rival, to try to form government",
+          "published": "2026-11-07T23:07:00+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3373671/israels-president-taps-eisenkot-form-government-setback-netanyahu",
+          "title": "Israel’s president taps Eisenkot to form government, in setback for Netanyahu",
+          "published": "2026-11-07T20:05:19+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
+    {
       "title": "Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts",
       "url": "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
       "source": "The Guardian",
@@ -463,34 +469,6 @@
       "consensus": 5.0
     },
     {
-      "title": "Europe will take part in US-mediated Ukraine talks in Abu Dhabi, French FM says",
-      "url": "https://www.france24.com/en/europe/20261108-europe-will-take-part-us-mediated-ukraine-peace-talks-abu-dhabi-french-fm-says",
-      "source": "France24",
-      "published": "2026-11-08T14:16:31+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/europe-will-be-represented-in-abu-dhabi-talks-on-ukraine-french-foreign-minister-jean-noel-barrot-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "Europe will be represented in Abu Dhabi talks on Ukraine, French foreign minister says",
-          "published": "2026-11-08T14:03:28+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/europe-will-be-represented-at-us-mediated-ukraine-talks-in-abu-dhabi-france/article71681017.ece",
-          "title": "Europe will be represented at U.S.-mediated Ukraine talks in Abu Dhabi: France",
-          "published": "2026-11-08T13:56:07+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/europe-us-mediated-ukraine-russia-talks-abu-dhabi-6534261",
-          "title": "Europe will be represented at US-mediated Ukraine talks in Abu Dhabi: France",
-          "published": "2026-11-08T13:13:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Paraguay's ousted President charged with crimes linked to collapse of major bank",
       "url": "https://www.thehindu.com/news/international/paraguays-ousted-president-charged-with-crimes-linked-to-collapse-of-major-bank/article71680452.ece",
       "source": "The Hindu",
@@ -508,28 +486,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
           "title": "Paraguay's former president charged after bank collapse",
           "published": "2026-11-07T19:17:22+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Pope Leo begins South America tour in 'fairly good shape' after cancer treatment",
-      "url": "http://www.africanews.com/2026/11/07/pope-leo-begins-south-america-tour-in-fairly-good-shape-after-cancer-treatment/",
-      "source": "Africanews",
-      "published": "2026-11-07T13:43:14+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/pope-leo-begins-south-america-tour-in-fairly-good-shape-6532451",
-          "title": "Pope Leo begins South America tour in 'fairly good shape'",
-          "published": "2026-11-06T23:58:45+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
-          "title": "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
-          "published": "2026-11-06T19:13:06+00:00"
         }
       ],
       "consensus": 4.0
@@ -555,6 +511,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Israel president taps Eisenkot to form new government",
+      "url": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
+      "source": "CNA",
+      "published": "2026-11-08T01:30:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
+          "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
+          "published": "2026-11-07T20:18:18+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/gadi-eisenkot-form-government-israel-9.7413714?cmp=rss",
+          "title": "Israel's president asks Gadi Eisenkot, Netanyahu's rival, to form new government",
+          "published": "2026-11-07T19:46:03+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
@@ -671,22 +649,6 @@
       "consensus": 2.5
     },
     {
-      "title": "At least 21 dead as small boat sinks off Senegal",
-      "url": "https://www.aljazeera.com/news/2026/11/8/at-least-21-dead-as-small-boat-sinks-off-senegal?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-08T13:32:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
-          "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
-          "published": "2026-11-08T10:01:49+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Zaporizhzhia nuclear plant relying on generators again after losing external power supply",
       "url": "https://www.thehindu.com/news/international/zaporizhzhia-nuclear-plant-relying-on-generators-again-after-losing-external-power-supply/article71680948.ece",
       "source": "The Hindu",
@@ -735,17 +697,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Israel president taps Eisenkot to form new government",
-      "url": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
-      "source": "CNA",
-      "published": "2026-11-08T01:30:00+00:00",
+      "title": "At least 21 dead after migrant boat capsizes off Senegal, authorities say",
+      "url": "https://www.euronews.com/2026/11/08/at-least-21-dead-after-migrant-boat-capsizes-off-senegal-authorities-say",
+      "source": "Euronews",
+      "published": "2026-11-08T10:01:49+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/07/g-s1-152536/netanyahu-israel-government-eisenkot-herzog",
-          "title": "Israel's president taps opposition candidate, not Netanyahu, to form a government",
-          "published": "2026-11-07T20:18:18+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/migrant-boat-sinks-off-senegal-death-toll/article71680824.ece",
+          "title": "Migrant boat sinks off Senegal, 21 killed: authorities",
+          "published": "2026-11-08T09:34:52+00:00"
         }
       ],
       "consensus": 2.5
@@ -794,6 +756,22 @@
           "url": "https://www.thehindu.com/news/international/italian-foreign-minister-says-pro-russian-hackers-targeted-him-over-ukraine-support/article71678639.ece",
           "title": "Italian Foreign Minister says pro-Russian hackers targeted him over Ukraine support",
           "published": "2026-11-07T14:39:21+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Pope Leo begins South America tour in 'fairly good shape' after cancer treatment",
+      "url": "http://www.africanews.com/2026/11/07/pope-leo-begins-south-america-tour-in-fairly-good-shape-after-cancer-treatment/",
+      "source": "Africanews",
+      "published": "2026-11-07T13:43:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/pope-leo-begins-south-america-tour-in-fairly-good-shape-6532451",
+          "title": "Pope Leo begins South America tour in 'fairly good shape'",
+          "published": "2026-11-06T23:58:45+00:00"
         }
       ],
       "consensus": 2.5
@@ -895,6 +873,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Gadi Eisenkot reaches out to Netanyahu allies as he strives to form government",
+      "url": "https://www.theguardian.com/world/2026/nov/08/gadi-eisenkot-netanyahu-allies-form-israel-government",
+      "source": "The Guardian",
+      "published": "2026-11-08T17:53:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/gadi-eisenkot-receives-mandate-to-form-government",
+          "title": "Gadi Eisenkot receives mandate to form government",
+          "published": "2026-11-08T16:58:11+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Train collision in Egypt's Giza kills four, injures 88 others: Health Ministry",
       "url": "https://www.thehindu.com/news/international/egypt-train-collision-giza-to-fayoum-crash-updates-november-8-2026/article71681077.ece",
       "source": "The Hindu",
@@ -904,7 +898,7 @@
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/africa/article/3373713/train-collision-egypt-kills-4-injures-88",
-          "title": "Train collision in Egypt kills 4, injures 88",
+          "title": "Train collision in Egypt kills 7, injures 112",
           "published": "2026-11-08T14:56:42+00:00"
         }
       ],
@@ -1210,31 +1204,31 @@
         "price": 1.11,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.69,
+        "change_percent": -0.68,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
-        "price": 1.33,
+        "price": 1.34,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.8,
+        "change_percent": -0.75,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.35,
+        "price": 158.36,
         "currency": "JPY",
-        "change": 0.7,
+        "change": 0.71,
         "change_percent": 0.45,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 75807.12,
+        "price": 75815.76,
         "currency": "USD",
-        "change": 53.41,
-        "change_percent": 0.07,
+        "change": 62.05,
+        "change_percent": 0.08,
         "name": "Bitcoin"
       }
     ],
@@ -1429,6 +1423,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Why Is Everyone Connecting Fridges to the Internet?",
+          "url": "https://www.theatlantic.com/technology/2026/11/fridge-hacks-europe-supermarkets/689328/?utm_source=feed",
+          "published": "2026-11-08T19:19:00+00:00",
+          "snippet": "Supermarkets are going digital—and getting hacked."
+        },
+        {
           "title": "On <em>SNL</em>, the Struggle (For Power) Was Real",
           "url": "https://www.theatlantic.com/culture/2026/11/saturday-night-live-james-talarico-cold-open/689344/?utm_source=feed",
           "published": "2026-11-08T17:59:58+00:00",
@@ -1439,12 +1439,6 @@
           "url": "https://www.theatlantic.com/magazine/2026/12/gretel-ehrlich-poem-for-the-watershed/689025/?utm_source=feed",
           "published": "2026-11-08T17:00:00+00:00",
           "snippet": "A poem"
-        },
-        {
-          "title": "The Democrats’ Fight Over Israel Is Just Beginning",
-          "url": "https://www.theatlantic.com/politics/2026/11/michigan-democrats-jewish-muslim-israel/689321/?utm_source=feed",
-          "published": "2026-11-08T15:59:46+00:00",
-          "snippet": "Divisions over Israel broke open in Michigan, and they will continue when the party controls Congress."
         }
       ]
     },
@@ -1527,24 +1521,31 @@
   "web": {
     "tech": [
       {
+        "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+        "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+        "score": 27,
+        "source": "Hacker News",
+        "published": "2026-11-08T18:43:07+00:00"
+      },
+      {
         "title": "How to prove equations using diagrams, part 3",
         "url": "https://www.epatters.org/post/e-graphs-3/",
         "comments_url": "https://lobste.rs/s/dr5zrz/how_prove_equations_using_diagrams_part_3",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-08T18:23:35.426000+00:00"
       },
       {
         "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
         "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-        "score": 84,
+        "score": 161,
         "source": "Hacker News",
         "published": "2026-11-08T18:16:07+00:00"
       },
       {
         "title": "A Little Snitch for Windows",
         "url": "https://packethound.app/",
-        "score": 23,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-08T17:16:07+00:00"
       },
@@ -1555,13 +1556,6 @@
         "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-08T17:12:00.379000+00:00"
-      },
-      {
-        "title": "A field guide to CAPTCHA types and how they break",
-        "url": "https://github.com/vsmutok/FuckCaptcha",
-        "score": 20,
-        "source": "Hacker News",
-        "published": "2026-11-08T17:09:55+00:00"
       },
       {
         "title": "Unattended reboots with encrypted disks",
@@ -1582,14 +1576,14 @@
       {
         "title": "UK House of Lords to propose mandatory CSAM detection software on smartphones",
         "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
-        "score": 19,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-08T15:57:37+00:00"
       },
       {
         "title": "I'm not a fan of Deno's security model (2024)",
         "url": "https://goldstein.lol/posts/deno-security/",
-        "score": 40,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-08T14:42:38+00:00"
       },
@@ -1613,14 +1607,14 @@
         "title": "A bit about email",
         "url": "https://maurycyz.com/misc/email/",
         "comments_url": "https://lobste.rs/s/jnz4v5/bit_about_email",
-        "score": 19,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:53:34.868000+00:00"
       },
       {
         "title": "How to prove equations using diagrams, part 1",
         "url": "https://www.epatters.org/post/e-graphs-1/",
-        "score": 31,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-08T12:51:38+00:00"
       },
@@ -1628,14 +1622,14 @@
         "title": "NetBSD 11 desktop on a Raspberry Pi 4",
         "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
         "comments_url": "https://lobste.rs/s/rv1icj/netbsd_11_desktop_on_raspberry_pi_4",
-        "score": 13,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-08T12:07:39.271000+00:00"
       },
       {
         "title": "JIT bitmap text rendering for microcontrollers",
         "url": "https://linebender.org/blog/jit-bitmap-text/",
-        "score": 78,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-08T10:42:15+00:00"
       }
@@ -1666,20 +1660,20 @@
         "published": "2026-11-08T14:41:37+00:00"
       },
       {
-        "title": "Russia using own version of Starlink for military comms over Ukraine, Kyiv says",
-        "url": "https://www.defensenews.com/industry/techwatch/2026/11/06/russia-using-own-version-of-starlink-for-military-comms-over-ukraine-kyiv-says/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xqtcci/russia_using_own_version_of_starlink_for_military/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-08T08:09:46+00:00"
-      },
-      {
         "title": "Europe must stockpile critical raw materials, Germany's Merz says",
         "url": "https://www.reuters.com/world/china/europe-must-stockpile-critical-raw-materials-germanys-merz-says-2026-11-05/",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xqxtee/europe_must_stockpile_critical_raw_materials/",
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-08T12:56:45+00:00"
+      },
+      {
+        "title": "Russia using own version of Starlink for military comms over Ukraine, Kyiv says",
+        "url": "https://www.defensenews.com/industry/techwatch/2026/11/06/russia-using-own-version-of-starlink-for-military-comms-over-ukraine-kyiv-says/",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xqtcci/russia_using_own_version_of_starlink_for_military/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-08T08:09:46+00:00"
       },
       {
         "title": "‘That Stops When I’m Governor’: Dem Texas Governor-Elect Warns Big Tech",
@@ -1690,20 +1684,20 @@
         "published": "2026-11-08T12:39:27+00:00"
       },
       {
-        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
-        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-08T12:15:22+00:00"
-      },
-      {
         "title": "Zelensky says Oleshky ceasefire shows Russia can halt fighting but Putin is unwilling",
         "url": "https://kyivindependent.com/zelensky-says-oleshky-ceasefire-shows-russia-can-halt-fighting-but-putin-is-unwilling/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xr0dgt/zelensky_says_oleshky_ceasefire_shows_russia_can/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-08T15:00:45+00:00"
+      },
+      {
+        "title": "Norway is being kicked out of the ice hockey championship’s top division to make room for the Russian U20 national team",
+        "url": "https://swedenherald.com/article/russia-could-replace-norway-in-world-juniors-after-cas-ruling-sweden-says-move-is-unfair",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xqx3bf/norway_is_being_kicked_out_of_the_ice_hockey/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-08T12:15:22+00:00"
       },
       {
         "title": "Hackers Claim Leaked Rosstat Records Reveal Up to 450,000 Russian War Deaths",
@@ -1714,12 +1708,12 @@
         "published": "2026-11-08T12:32:48+00:00"
       },
       {
-        "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
-        "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xqwlp3/polish_gunman_who_killed_6_people_in_krakow_has/",
+        "title": "An ‘America First’ Approach to Famine",
+        "url": "https://www.theatlantic.com/health/2026/11/famine-somalia-trump-aid/689295/?utm_source=reddit&amp;utm_campaign=the-atlantic&amp;utm_medium=social&amp;utm_content=edit-promo",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xr19j8/an_america_first_approach_to_famine/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-08T11:46:21+00:00"
+        "source": "/r/geopolitics",
+        "published": "2026-11-08T15:40:13+00:00"
       },
       {
         "title": "Egypt announces new Mediterranean gas field discovery estimated at 200 billion cubic feet",
@@ -1728,6 +1722,22 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-08T12:37:14+00:00"
+      },
+      {
+        "title": "Nvidia CEO Jensen Huang faces bipartisan congressional scrutiny over reported China spy link",
+        "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xr4wwy/nvidia_ceo_jensen_huang_faces_bipartisan/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-08T18:11:57+00:00"
+      },
+      {
+        "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
+        "url": "https://apnews.com/article/poland-shooting-krakow-market-dead-076b972f107df14a1f71e12a74d4d8e5",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xqwlp3/polish_gunman_who_killed_6_people_in_krakow_has/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-08T11:46:21+00:00"
       },
       {
         "title": "Looksmaxxing is increasingly becoming a subject of clinical concern. A new study examines its growing prevalence among adolescent boys and young men, highlighting potential links to body dysmorphic disorder, psychological distress, and harmful appearance-modification practices.",
@@ -1744,22 +1754,6 @@
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-08T14:05:14+00:00"
-      },
-      {
-        "title": "British troops will be allowed to fire back at Russian forces if attacked in mission — London and Paris pressing ahead with preparations for the \"Multinational Force-Ukraine\" (MNF-U)",
-        "url": "https://news.sky.com/story/british-troops-will-be-allowed-to-fire-back-at-russian-forces-if-attacked-in-mission-13607272",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xq7b3d/british_troops_will_be_allowed_to_fire_back_at/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-07T14:12:39+00:00"
-      },
-      {
-        "title": "Uyghurs facing deportation by Thailand say they will be ‘like slaves’ in China",
-        "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xqzdw1/uyghurs_facing_deportation_by_thailand_say_they/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-08T14:14:56+00:00"
       }
     ]
   }

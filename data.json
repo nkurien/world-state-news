@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-09T14:01:02.889021+00:00",
+  "last_updated": "2026-11-09T14:30:53.957958+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 352
+      "ms": 421
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 175
+      "ms": 204
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 123
+      "ms": 210
     },
     "BBC News": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 190
+      "ms": 91
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 175
+      "ms": 578
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 144
+      "ms": 379
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 248
+      "ms": 139
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 382
+      "ms": 311
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 159
+      "ms": 139
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 242
+      "ms": 139
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 812
+      "ms": 282
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 272
+      "ms": 222
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 125
+      "ms": 305
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 331
+      "ms": 203
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 236
+      "ms": 146
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 158
+      "ms": 333
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 783
+      "ms": 858
     },
     "Semafor": {
       "ok": true,
       "count": 210,
       "error": null,
-      "ms": 953
+      "ms": 364
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 604
+      "ms": 629
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 201
+      "ms": 352
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 123
+      "ms": 118
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 281
+      "ms": 188
     },
     "The Independent": {
       "ok": true,
-      "count": 42,
+      "count": 41,
       "error": null,
-      "ms": 240
+      "ms": 169
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 199
+      "ms": 287
     }
   },
   "breaking": [
+    {
+      "title": "Krakow shooting suspect dies in hospital",
+      "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-suspect-death-b3081437.html",
+      "source": "The Independent",
+      "published": "2026-11-09T14:08:34+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
+          "title": "Krakow shooting suspect has died in hospital, police say",
+          "published": "2026-11-09T11:56:25+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-09/krakow-shooter-dies-in-hospital/107366174",
+          "title": "Gunman dies in hospital after killing six and injuring 15 in Krakow shooting",
+          "published": "2026-11-09T11:38:58+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/krakow-shooting-suspect-dies-poland-police/article71681652.ece",
+          "title": "Krakow shooting suspect dies: Poland police",
+          "published": "2026-11-09T11:26:32+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
+          "published": "2026-11-09T06:53:00+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
     {
       "title": "Egypt: Seven dead, 125 injured in collision between two trains",
       "url": "http://www.africanews.com/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains/",
@@ -189,40 +223,6 @@
       "consensus": 6.0
     },
     {
-      "title": "Krakow shooting suspect has died in hospital, police say",
-      "url": "https://www.bbc.co.uk/news/articles/c6y434dw8319o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-09T11:56:25+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/krakow-shooting-suspect-dies-poland-police/article71681652.ece",
-          "title": "Krakow shooting suspect dies: Poland police",
-          "published": "2026-11-09T11:26:32+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead",
-          "title": "Kraków shooting suspect who killed six has died, Polish police say",
-          "published": "2026-11-09T10:22:54+00:00"
-        },
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/krakow-mass-shooting-suspect-has-died-in-hospital-police-in-poland-say/a-79895626?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Krakow mass shooting suspect has died in hospital, police in Poland say",
-          "published": "2026-11-09T06:53:00+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/krakow-shooting-suspect-death-b3081437.html",
-          "title": "Krakow shooting suspect dies in hospital",
-          "published": "2026-11-09T06:37:11+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
-    {
       "title": "EU sends 2 senior officials to Ukraine talks in Abu Dhabi",
       "url": "https://www.politico.eu/article/ukraine-europe-abu-dhabi-talks-officials-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
@@ -251,38 +251,10 @@
       "consensus": 5.0
     },
     {
-      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-09T13:10:32+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-09T12:41:25+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
-          "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
-          "published": "2026-11-09T04:39:48+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Deportation policy ‘might have been too tough’, says Trump, as Miller starts chief of staff role – live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-09T13:36:12+00:00",
+      "published": "2026-11-09T13:56:09+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -296,6 +268,28 @@
           "url": "https://www.thehindu.com/news/international/trump-in-cbs-interview-says-deportation-policy-was-too-tough/article71681250.ece",
           "title": "Trump, in CBS interview, says deportation policy was ‘too tough’",
           "published": "2026-11-08T23:21:21+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-09T13:10:32+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
+          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-09T12:41:25+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
       "consensus": 3.5
@@ -355,19 +349,13 @@
       "url": "https://www.bbc.co.uk/news/articles/ck0j0j87959eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-09T08:49:17+00:00",
-      "score": 6,
+      "score": 5,
       "other_sources": [
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/trump-only-kidding-about-dana-white-press-secretary-role?traffic_source=rss",
           "title": "Trump ‘only kidding’ about Dana White press secretary role",
           "published": "2026-11-09T08:18:00+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-dana-white-press-secretary",
-          "title": "Trump says he was ‘only kidding’ about making UFC’s Dana White next press secretary",
-          "published": "2026-11-09T01:10:55+00:00"
         },
         {
           "source": "SCMP",
@@ -388,7 +376,29 @@
           "published": "2026-11-08T21:24:29+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 6.5
+    },
+    {
+      "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
+      "source": "The Hindu",
+      "published": "2026-11-09T07:48:39+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/nvidia-investigation-ceo-jensen-huang-foreign-intelligence-9.7414358?cmp=rss",
+          "title": "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
+          "published": "2026-11-08T21:14:15+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-probes-whether-ceo-jensen-huang-was-target-foreign-spying-he-admits-affair-6534611",
+          "title": "Nvidia probes whether CEO Jensen Huang was target of foreign spying as he admits affair",
+          "published": "2026-11-08T20:16:00+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
@@ -525,22 +535,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
-      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
-      "source": "The Hindu",
-      "published": "2026-11-09T07:48:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/nvidia-investigation-ceo-jensen-huang-foreign-intelligence-9.7414358?cmp=rss",
-          "title": "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
-          "published": "2026-11-08T21:14:15+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "What to know about upcoming peace talks involving Russian, Ukrainian and U.S. officials",
       "url": "https://www.thehindu.com/news/international/russia-ukraine-us-peace-talks-in-abu-dhabi-on-november-10-2026/article71681520.ece",
       "source": "The Hindu",
@@ -589,22 +583,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-      "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-      "source": "The Guardian",
-      "published": "2026-11-09T00:25:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-probes-whether-ceo-jensen-huang-was-target-foreign-spying-he-admits-affair-6534611",
-          "title": "Nvidia probes whether CEO Jensen Huang was target of foreign spying as he admits affair",
-          "published": "2026-11-08T20:16:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Democrats set to target Elon Musk and Stephen Miller probes after midterm rout",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-stephen-miller-democrats-midterms-congress-b3081311.html",
       "source": "The Independent",
@@ -637,22 +615,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump offers UFC boss White House press secretary role: 'Dana, please take the job!'",
-      "url": "https://www.euronews.com/2026/11/08/trump-offers-ufc-boss-press-secretary-role-dana-please-take-the-job",
-      "source": "Euronews",
-      "published": "2026-11-08T07:04:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-says-he-wants-ufc-chief-dana-white-for-white-house-press-secretary/article71679478.ece",
-          "title": "Trump offers UFC boss press secretary post, urges criminal probes of Democrats",
-          "published": "2026-11-08T05:50:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Israel president taps Eisenkot to form new government",
       "url": "https://www.channelnewsasia.com/world/israel-president-taps-eisenkot-form-new-government-6533711",
       "source": "CNA",
@@ -669,10 +631,10 @@
       "consensus": 2.5
     },
     {
-      "title": "Kenyan cult leader sentenced to 200 years for Shakahola forest deaths",
-      "url": "https://www.rfi.fr/en/africa/20261106-kenyan-cult-leader-sentenced-to-200-years-for-shakahola-forest-deaths",
-      "source": "RFI English",
-      "published": "2026-11-06T14:38:10+00:00",
+      "title": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+      "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+      "source": "The Guardian",
+      "published": "2026-11-06T15:08:43+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -1019,39 +981,71 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Argentina: Pope Leo XIV welcomed by Javier Milei for historic visit",
+      "url": "http://www.africanews.com/2026/11/09/argentina-pope-leo-xiv-welcomed-by-javier-milei-for-historic-visit/",
+      "source": "Africanews",
+      "published": "2026-11-09T07:53:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/09/argentina-pope-leo-xiv-welcomed-by-javier-milei-for-historic-visit",
+          "title": "Argentina: Pope Leo XIV welcomed by Javier Milei for historic visit",
+          "published": "2026-11-09T07:52:54+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Netherlands: Sea of red fills Amsterdam streets in Gaza protest",
+      "url": "http://www.africanews.com/2026/11/08/netherlands-sea-of-red-fills-amsterdam-streets-in-gaza-protest/",
+      "source": "Africanews",
+      "published": "2026-11-08T22:19:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/08/netherlands-sea-of-red-fills-amsterdam-streets-in-gaza-protest",
+          "title": "Netherlands: Sea of red fills Amsterdam streets in Gaza protest",
+          "published": "2026-11-08T22:18:56+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7376.86,
+      "price": 7434.2,
       "currency": "USD",
-      "change": 23.13,
-      "change_percent": 0.31,
+      "change": 57.34,
+      "change_percent": 0.78,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.55,
+      "price": 138.48,
       "currency": "GBP",
-      "change": 0.15,
-      "change_percent": 0.11,
+      "change": 0.08,
+      "change_percent": 0.06,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 24579.42,
+      "price": 24775.78,
       "currency": "USD",
-      "change": 264.42,
-      "change_percent": 1.09,
+      "change": 196.36,
+      "change_percent": 0.8,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10758.68,
+      "price": 10752.52,
       "currency": "GBP",
-      "change": 84.74,
-      "change_percent": 0.79,
+      "change": 78.58,
+      "change_percent": 0.74,
       "name": "FTSE 100"
     }
   ],
@@ -1059,34 +1053,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7376.86,
+        "price": 7434.2,
         "currency": "USD",
-        "change": 23.13,
-        "change_percent": 0.31,
+        "change": 57.34,
+        "change_percent": 0.78,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10758.68,
+        "price": 10752.52,
         "currency": "GBP",
-        "change": 84.74,
-        "change_percent": 0.79,
+        "change": 78.58,
+        "change_percent": 0.74,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 51285.73,
+        "price": 51821.04,
         "currency": "USD",
-        "change": -237.37,
-        "change_percent": -0.46,
+        "change": 535.31,
+        "change_percent": 1.04,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24579.42,
+        "price": 24775.78,
         "currency": "USD",
-        "change": 264.42,
-        "change_percent": 1.09,
+        "change": 196.36,
+        "change_percent": 0.8,
         "name": "NASDAQ Composite"
       },
       {
@@ -1099,44 +1093,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26140.02,
+        "price": 26161.25,
         "currency": "EUR",
-        "change": 319.66,
-        "change_percent": 1.24,
+        "change": 340.89,
+        "change_percent": 1.32,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8219.33,
+        "price": 8224.65,
         "currency": "EUR",
-        "change": 80.33,
-        "change_percent": 0.99,
+        "change": 85.65,
+        "change_percent": 1.05,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4133.2,
+        "price": 4136.8,
         "currency": "USD",
-        "change": 58.3,
-        "change_percent": 1.43,
+        "change": 61.9,
+        "change_percent": 1.52,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.8,
+        "price": 52.74,
         "currency": "USD",
-        "change": 0.86,
-        "change_percent": 1.65,
+        "change": 0.8,
+        "change_percent": 1.54,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.65,
+        "price": 93.27,
         "currency": "USD",
-        "change": -4.67,
-        "change_percent": -4.75,
+        "change": -5.05,
+        "change_percent": -5.14,
         "name": "Brent Crude"
       },
       {
@@ -1144,7 +1138,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.55,
+        "change_percent": 0.49,
         "name": "EUR/USD"
       },
       {
@@ -1152,81 +1146,81 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.48,
+        "change_percent": 0.46,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.9,
+        "price": 157.93,
         "currency": "JPY",
-        "change": -0.53,
-        "change_percent": -0.33,
+        "change": -0.5,
+        "change_percent": -0.31,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74586.12,
+        "price": 74439.29,
         "currency": "USD",
-        "change": -133.7,
-        "change_percent": -0.18,
+        "change": -280.53,
+        "change_percent": -0.38,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 530.61,
+        "price": 545.03,
         "currency": "USD",
-        "change": -5.32,
-        "change_percent": -0.99,
+        "change": 14.42,
+        "change_percent": 2.72,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 342.37,
+        "price": 345.38,
         "currency": "USD",
-        "change": -1.8,
-        "change_percent": -0.52,
+        "change": 3.01,
+        "change_percent": 0.88,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 186.64,
+        "price": 173.34,
         "currency": "USD",
-        "change": 5.04,
-        "change_percent": 2.78,
+        "change": -13.3,
+        "change_percent": -7.13,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 284.78,
+        "price": 293.14,
         "currency": "USD",
-        "change": 2.21,
-        "change_percent": 0.78,
+        "change": 8.36,
+        "change_percent": 2.94,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 259.3,
+        "price": 270.05,
         "currency": "USD",
-        "change": -0.91,
-        "change_percent": -0.35,
+        "change": 10.75,
+        "change_percent": 4.15,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 358.22,
+        "price": 360.83,
         "currency": "USD",
-        "change": 14.53,
-        "change_percent": 4.23,
+        "change": 2.61,
+        "change_percent": 0.73,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 610.15,
+        "price": 632.36,
         "currency": "USD",
-        "change": 5.07,
-        "change_percent": 0.84,
+        "change": 22.21,
+        "change_percent": 3.64,
         "name": "Meta"
       }
     ]
@@ -1338,12 +1332,6 @@
       "column": "global",
       "entries": [
         {
-          "title": "Alleged Chinese spy linked to Nvidia chief pitched AI chips deals to investors",
-          "url": "https://www.ft.com/content/5d8c1e1d-6ce0-4eb4-9f5c-722fa5c4841d?syn-25a6b1a6=1",
-          "published": "2026-11-09T13:50:36+00:00",
-          "snippet": "Alice Huang boasted of having access to Nvidia GPUs and her connection to Alibaba in bid to secure investment for major data centre project"
-        },
-        {
           "title": "US stocks set for gains after AI rout",
           "url": "https://www.ft.com/content/b8644327-86e7-4d1c-a71f-3fb1d552723b?syn-25a6b1a6=1",
           "published": "2026-11-09T13:50:17+00:00",
@@ -1354,6 +1342,12 @@
           "url": "https://www.ft.com/video/96ba7925-b9a5-4fba-8975-a438414a89bc?syn-25a6b1a6=1",
           "published": "2026-11-09T13:11:26+00:00",
           "snippet": "Does the scale of their victory mean they have the country’s backing, or just that Republicans were unpopular?"
+        },
+        {
+          "title": "The Democrats’ partial return to tariff sanity",
+          "url": "https://www.ft.com/content/a86de4ff-f3de-4156-8ffa-bde10783d8b1?syn-25a6b1a6=1",
+          "published": "2026-11-09T12:31:02+00:00",
+          "snippet": "The new masters of Congress may be content with reversing Donald Trump’s duties on Canada"
         }
       ]
     },
@@ -1463,7 +1457,7 @@
       {
         "title": "Children of Men: The Future Is a Mirror for the Present",
         "url": "https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/",
-        "score": 16,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-09T13:27:01+00:00"
       },
@@ -1471,7 +1465,7 @@
         "title": "What is malloc doing, anyway?",
         "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
         "comments_url": "https://lobste.rs/s/l75lxf/what_is_malloc_doing_anyway",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-09T13:19:22.814000+00:00"
       },
@@ -1479,7 +1473,7 @@
         "title": "A C++ Quicksort Faster Than std::sort",
         "url": "https://tiki.li/blog/about_blqsort",
         "comments_url": "https://lobste.rs/s/qi2lni/c_quicksort_faster_than_std_sort",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-09T12:55:38.018000+00:00"
       },
@@ -1487,14 +1481,14 @@
         "title": "Horible public key tricks",
         "url": "https://maurycyz.com/projects/badcert/",
         "comments_url": "https://lobste.rs/s/txkq8s/horible_public_key_tricks",
-        "score": 11,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-09T12:55:11.209000+00:00"
       },
       {
         "title": "Humans will never again create a project like Wikipedia",
         "url": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-        "score": 134,
+        "score": 202,
         "source": "Hacker News",
         "published": "2026-11-09T12:30:20+00:00"
       },
@@ -1502,14 +1496,14 @@
         "title": "Let’s Talk About Why all This OT Stuff is Connected",
         "url": "https://tisiphone.net/2026/11/08/lets-talk-about-why-all-this-ot-stuff-is-connected/",
         "comments_url": "https://lobste.rs/s/jxigk6/let_s_talk_about_why_all_this_ot_stuff_is",
-        "score": 6,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-09T12:22:39.664000+00:00"
       },
       {
         "title": "Fold Epic Paper Airplanes",
         "url": "https://www.foldableflight.com",
-        "score": 187,
+        "score": 237,
         "source": "Hacker News",
         "published": "2026-11-09T12:19:22+00:00"
       },
@@ -1533,44 +1527,46 @@
         "title": "A Critique of GPUI",
         "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
         "comments_url": "https://lobste.rs/s/kcyhhj/critique_gpui",
-        "score": 9,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-09T11:48:19.999000+00:00"
       },
       {
-        "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
-        "url": "https://github.com/samir-sarwar/samir-vllm",
-        "score": 45,
-        "source": "Hacker News",
-        "published": "2026-11-09T11:36:55+00:00"
-      },
-      {
         "title": "What is malloc doing, anyway?",
         "url": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
-        "score": 42,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-09T11:31:05+00:00"
       },
       {
-        "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
-        "url": "https://zenodo.org/records/23682548",
-        "score": 23,
-        "source": "Hacker News",
-        "published": "2026-11-09T11:30:27+00:00"
-      },
-      {
         "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
         "url": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
-        "score": 62,
+        "score": 65,
         "source": "Hacker News",
         "published": "2026-11-09T10:11:47+00:00"
       },
       {
         "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
         "url": "https://arxiv.org/abs/2610.14162",
-        "score": 134,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-09T07:20:37+00:00"
+      },
+      {
+        "title": "How Much Energy Does Building Distro Packages Use",
+        "url": "https://www.wezm.net/v2/posts/2026/distro-energy-use/",
+        "comments_url": "https://lobste.rs/s/ezjewj/how_much_energy_does_building_distro",
+        "score": 56,
+        "source": "Lobste.rs",
+        "published": "2026-11-09T06:44:59.077000+00:00"
+      },
+      {
+        "title": "Microsecond accurate NTP with a Raspberry Pi and PPS GPS(2021)",
+        "url": "https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/",
+        "comments_url": "https://lobste.rs/s/jdsu1z/microsecond_accurate_ntp_with_raspberry",
+        "score": 4,
+        "source": "Lobste.rs",
+        "published": "2026-11-09T06:25:20.579000+00:00"
       }
     ],
     "reddit": [
@@ -1623,14 +1619,6 @@
         "published": "2026-11-09T00:12:23+00:00"
       },
       {
-        "title": "NVIDIA CEO Admits Infidelity With Suspected Chinese Spy",
-        "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xr86kx/nvidia_ceo_admits_infidelity_with_suspected/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-08T20:25:13+00:00"
-      },
-      {
         "title": "Ukraine will likely 'end up with a little bit different shape' after war, Trump tells 60 Minutes",
         "url": "https://kyivindependent.com/ukraine-will-likely-end-up-with-a-little-bit-different-shape-after-war-trump-tells-60-minutes/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xrl6mi/ukraine_will_likely_end_up_with_a_little_bit/",
@@ -1647,12 +1635,12 @@
         "published": "2026-11-09T07:40:27+00:00"
       },
       {
-        "title": "Flock, maker of controversial license plate readers, starts to give campaign cash to local politicians",
-        "url": "https://chicago.suntimes.com/the-watchdogs/2026/11/06/flock-license-plate-readers-illinois-campaign-contributions-sheriff-mayor",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xrisbg/flock_maker_of_controversial_license_plate/",
+        "title": "NVIDIA CEO Admits Infidelity With Suspected Chinese Spy",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xr86kx/nvidia_ceo_admits_infidelity_with_suspected/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-09T04:54:15+00:00"
+        "published": "2026-11-08T20:25:13+00:00"
       },
       {
         "title": "Krakow square attacker dies in hospital. The gunman died in the early hours of Monday, officials said",
@@ -1663,6 +1651,22 @@
         "published": "2026-11-09T08:21:11+00:00"
       },
       {
+        "title": "Christine Lagarde: Some Americans do not want Europe to succeed. Progress is made in terms of Draghi's reforms, but the massive train has not yet left the station",
+        "url": "https://streamable.com/wo8nok",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xrsjp4/christine_lagarde_some_americans_do_not_want/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-09T14:07:08+00:00"
+      },
+      {
+        "title": "Flock, maker of controversial license plate readers, starts to give campaign cash to local politicians",
+        "url": "https://chicago.suntimes.com/the-watchdogs/2026/11/06/flock-license-plate-readers-illinois-campaign-contributions-sheriff-mayor",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xrisbg/flock_maker_of_controversial_license_plate/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-09T04:54:15+00:00"
+      },
+      {
         "title": "‘A global political awakening’: how gen Z protests are sweeping the world",
         "url": "https://www.theguardian.com/world/2026/nov/06/gen-z-protests-sweeping-the-world?referring_host=Reddit&amp;utm_campaign=guardianacct",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xrmdi5/a_global_political_awakening_how_gen_z_protests/",
@@ -1671,28 +1675,20 @@
         "published": "2026-11-09T08:27:51+00:00"
       },
       {
+        "title": "AMD admits GPU driver bug is writing data continuously, wearing out SSDs — Radeon owner claims External Events Utility used up 1% of SSD health every month for over a year, company promises a fix soon",
+        "url": "https://www.tomshardware.com/pc-components/gpu-drivers/amd-adrenalin-bug-could-be-writing-data-continuously-wearing-out-ssds-radeon-owner-claims-external-events-utility-used-up-1-percent-of-ssd-health-every-month-for-over-a-year",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xrrhg7/amd_admits_gpu_driver_bug_is_writing_data/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-09T13:20:40+00:00"
+      },
+      {
         "title": "Sandu Says Moldova Buys No Russian Gas After Decades of Moscow’s “Energy Blackmail”",
         "url": "https://united24media.com/world/sandu-says-moldova-buys-no-russian-gas-after-decades-of-moscows-energy-blackmail-24188",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xrpbje/sandu_says_moldova_buys_no_russian_gas_after/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-09T11:30:28+00:00"
-      },
-      {
-        "title": "Putin may not want peace, warns Norwegian leader who spoke to him",
-        "url": "https://www.politico.eu/article/vladimir-putin-peace-norway-jonas-gahr-store-russia-ukraine-war/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xrib27/putin_may_not_want_peace_warns_norwegian_leader/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-09T04:27:51+00:00"
-      },
-      {
-        "title": "Huawei says it’s made a 100 percent Chinese PC",
-        "url": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xrn67u/huawei_says_its_made_a_100_percent_chinese_pc/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-09T09:19:46+00:00"
       }
     ]
   }

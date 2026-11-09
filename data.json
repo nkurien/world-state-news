@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-09T20:30:52.578244+00:00",
+  "last_updated": "2026-11-09T21:01:06.458480+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 403
+      "ms": 278
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 289
+      "ms": 229
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 155
+      "ms": 152
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 97
+      "ms": 402
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 162
+      "ms": 281
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 234
+      "ms": 236
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 469
+      "ms": 494
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 404
+      "ms": 344
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 208
+      "ms": 218
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 104
+      "ms": 215
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 383
+      "ms": 566
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 741
+      "ms": 242
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 285
+      "ms": 148
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 205
+      "ms": 198
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 103
+      "ms": 134
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 160
+      "ms": 348
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 853
+      "ms": 631
     },
     "Semafor": {
       "ok": true,
       "count": 208,
       "error": null,
-      "ms": 463
+      "ms": 505
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 431
+      "ms": 626
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 286
+      "ms": 178
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 68
+      "ms": 201
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 211
+      "ms": 265
     },
     "The Independent": {
       "ok": true,
-      "count": 63,
+      "count": 65,
       "error": null,
-      "ms": 144
+      "ms": 150
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 260
+      "ms": 212
     }
   },
   "breaking": [
@@ -247,6 +247,34 @@
       "consensus": 6.5
     },
     {
+      "title": "Pete Hegseth faces impeachment effort as Republican lawmaker moves to force vote – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-09T20:52:19+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/hegaseth-impeachment-motion-thomas-massie-9.7415356?cmp=rss",
+          "title": "U.S. House Republican moves to force vote on impeaching Pete Hegseth",
+          "published": "2026-11-09T20:24:23+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+          "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+          "published": "2026-11-09T20:23:14+00:00"
+        },
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-09/republican-lawmaker-moves-to-impeach-defense-secretary-pete-hegseth.html",
+          "title": "Republican lawmaker moves to force vote on Pete Hegseth impeachment",
+          "published": "2026-11-09T19:56:32+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
       "title": "France accuses Iran of supermarket fridge hacking",
       "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -275,50 +303,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Who’s who for Europe at the Ukraine talks in Abu Dhabi",
-      "url": "https://www.politico.eu/article/whos-who-europe-ukraine-talks-abu-dhabi-russia-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-09T17:41:56+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
-          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
-          "published": "2026-11-08T19:25:30+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/europe-will-be-represented-at-us-mediated-ukraine-talks-in-abu-dhabi-france/article71681017.ece",
-          "title": "Europe will be represented at U.S.-mediated Ukraine talks in Abu Dhabi: France",
-          "published": "2026-11-08T13:56:07+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "U.S. House Republican moves to force vote on impeaching Pete Hegseth",
-      "url": "https://www.cbc.ca/news/world/hegaseth-impeachment-motion-thomas-massie-9.7415356?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-09T20:24:23+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/09/donald-trump-stephen-miller-immigration-midterms-iran-qatar-economy-latest-news-updates",
-          "title": "Pete Hegseth faces impeachment effort as Republican lawmaker moves to force vote – US politics live",
-          "published": "2026-11-09T20:17:10+00:00"
-        },
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-09/republican-lawmaker-moves-to-impeach-defense-secretary-pete-hegseth.html",
-          "title": "Republican lawmaker moves to force vote on Pete Hegseth impeachment",
-          "published": "2026-11-09T19:56:32+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
       "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -341,85 +325,73 @@
       "consensus": 3.0
     },
     {
-      "title": "Türkiye steel factory blast kills 10",
-      "url": "https://www.channelnewsasia.com/world/turkiye-steel-factory-blast-kills-10-6536806",
+      "title": "France says Iran behind 'unprecedented' cyberattacks on fridges",
+      "url": "https://www.channelnewsasia.com/world/france-iran-supermarket-fridge-cyberattacks-6536986",
       "source": "CNA",
-      "published": "2026-11-09T18:17:23+00:00",
+      "published": "2026-11-09T20:57:17+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-          "title": "Turkey steel factory blast kills at least 16 people",
-          "published": "2026-11-09T18:04:01+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261109-iran-revolutionary-guards-behind-cyberattacks-on-supermarket-fridges-says-french-fm-barrot",
+          "title": "🔴 Iran's Revolutionary Guards behind cyberattacks on supermarket fridges, says French FM",
+          "published": "2026-11-09T16:44:44+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "Meghan Markle pulls out of Brussels speech after dad’s arrest over child sex abuse images",
-      "url": "https://www.scmp.com/news/world/europe/article/3373846/meghan-markle-pulls-out-brussels-speech-after-dads-arrest-over-child-sex-abuse-images",
-      "source": "SCMP",
-      "published": "2026-11-09T17:53:50+00:00",
+      "title": "Judge clears way for Lindsay Clancy to face potential 2nd trial",
+      "url": "https://www.cbc.ca/news/world/massachusetts-judge-clancy-trial-9.7415418?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-09T20:49:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/home-news/meghan-harry-thomas-markle-arrest-b3081926.html",
-          "title": "Meghan pulls out of child safety speech with Harry after father’s arrest",
-          "published": "2026-11-09T17:50:26+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/lindsay-clancy-judge-retrial",
+          "title": "Judge clears way for Lindsay Clancy to be retried on murder charges",
+          "published": "2026-11-09T20:42:22+00:00"
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Houthi rebels say at least 44 people killed in air strike near Yemeni capital",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital",
+      "source": "SCMP",
+      "published": "2026-11-09T20:49:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/houthi-rebels-say-at-least-44-killed-in-airstrike-near-yemeni-capital/article71683574.ece",
+          "title": "Houthi rebels say at least 44 killed in airstrike near Yemeni capital",
+          "published": "2026-11-09T15:57:20+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "world": [
-    {
-      "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
-      "source": "El País",
-      "published": "2026-11-09T16:14:28+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-09T12:41:25+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-          "published": "2026-11-09T10:53:22+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-          "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-          "published": "2026-11-09T07:10:11+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Nvidia shares slump amid investigation into CEO Jensen Huang",
       "url": "https://www.aljazeera.com/economy/2026/11/9/nvidia-shares-slump-amid-investigation-into-ceo-jensen-huang?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-09T16:00:10+00:00",
-      "score": 4,
+      "score": 6,
       "other_sources": [
         {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/business/nvidia-shares-ceo-jensen-huang-probe-9.7414655?cmp=rss",
           "title": "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
           "published": "2026-11-09T13:47:52+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
+          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-09T12:41:25+00:00"
         },
         {
           "source": "CNA",
@@ -432,9 +404,15 @@
           "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
           "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
           "published": "2026-11-09T00:25:28+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 7.5
     },
     {
       "title": "At least 39 die after Europe-bound migrant boat sinks off Senegal",
@@ -463,6 +441,28 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "Who’s who for Europe at the Ukraine talks in Abu Dhabi",
+      "url": "https://www.politico.eu/article/whos-who-europe-ukraine-talks-abu-dhabi-russia-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-09T17:41:56+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
+          "published": "2026-11-08T19:25:30+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/europe-will-be-represented-at-us-mediated-ukraine-talks-in-abu-dhabi-france/article71681017.ece",
+          "title": "Europe will be represented at U.S.-mediated Ukraine talks in Abu Dhabi: France",
+          "published": "2026-11-08T13:56:07+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Woman, 3 children killed in Gaza after sand embankment collapses onto tents",
@@ -553,6 +553,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Turkey steel factory blast kills at least 17 people",
+      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-09T20:42:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/turkiye-steel-factory-blast-kills-10-6536806",
+          "title": "Türkiye steel factory blast kills 10",
+          "published": "2026-11-09T18:17:23+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russia's leading independent newspaper closes after eviction",
       "url": "https://www.bbc.co.uk/news/videos/cvrlylj9r11go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -564,6 +580,22 @@
           "url": "https://www.cbc.ca/news/world/novoya-gazeta-russia-media-newspaper-closes-putin-9.7414787?cmp=rss",
           "title": "Russia's top independent newspaper closes under relentless government pressure",
           "published": "2026-11-09T15:16:15+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Meghan Markle pulls out of Brussels speech after dad’s arrest over child sex abuse images",
+      "url": "https://www.scmp.com/news/world/europe/article/3373846/meghan-markle-pulls-out-brussels-speech-after-dads-arrest-over-child-sex-abuse-images",
+      "source": "SCMP",
+      "published": "2026-11-09T17:53:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/home-news/meghan-harry-thomas-markle-arrest-b3081926.html",
+          "title": "Meghan pulls out of child safety speech with Harry after father’s arrest",
+          "published": "2026-11-09T17:50:26+00:00"
         }
       ],
       "consensus": 2.5
@@ -612,22 +644,6 @@
           "url": "https://www.thehindu.com/news/international/south-africas-anc-suffers-worst-election-result-as-decline-continues/article71681148.ece",
           "title": "South Africa's ANC suffers worst election result as decline continues",
           "published": "2026-11-08T17:06:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Shock and grief in Poland after weekend mass shooting",
-      "url": "https://www.france24.com/en/video/20261109-shock-and-grief-in-poland-after-weekend-mass-shooting",
-      "source": "France24",
-      "published": "2026-11-09T15:31:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/poland-in-shock-mass-shooting-shatters-sense-security-6534516",
-          "title": "Poland in shock as mass shooting shatters sense of security",
-          "published": "2026-11-08T18:08:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -767,22 +783,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Fraternity suspended as Ohio State investigates video of men engulfed in flames",
-      "url": "https://www.independent.co.uk/news/world/americas/ohio-state-fraternity-suspended-video-fire-b3082006.html",
-      "source": "The Independent",
-      "published": "2026-11-09T20:20:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/09/ohio-state-sae-fire-suspension",
-          "title": "Ohio State fraternity suspended after viral video shows two men on fire",
-          "published": "2026-11-09T19:03:45+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Olympic judo champion Teddy Riner joins race for French presidency",
       "url": "https://www.rfi.fr/en/france/20261109-olympic-judo-champion-teddy-riner-joins-race-for-french-presidency",
       "source": "RFI English",
@@ -826,6 +826,22 @@
           "url": "https://www.channelnewsasia.com/world/trump-says-he-highly-unlikely-order-iran-strikes-if-talks-progress-6534521",
           "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
           "published": "2026-11-08T21:05:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
+      "source": "El País",
+      "published": "2026-11-09T16:14:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
+          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
+          "published": "2026-11-09T10:53:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -1069,31 +1085,15 @@
         }
       ],
       "consensus": 1.5
-    },
-    {
-      "title": "Philippines: 'Trump out!' Women rally ahead of ASEAN summit",
-      "url": "http://www.africanews.com/2026/11/09/philippines-trump-out-women-rally-ahead-of-asean-summit/",
-      "source": "Africanews",
-      "published": "2026-11-09T11:11:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/09/philippines-trump-out-women-rally-ahead-of-asean-summit",
-          "title": "Philippines: 'Trump out!' Women rally ahead of ASEAN summit",
-          "published": "2026-11-09T11:11:27+00:00"
-        }
-      ],
-      "consensus": 1.5
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7571.94,
+      "price": 7554.73,
       "currency": "USD",
-      "change": 195.08,
-      "change_percent": 2.64,
+      "change": 177.87,
+      "change_percent": 2.41,
       "name": "S&P 500"
     },
     {
@@ -1106,10 +1106,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 25336.62,
+      "price": 25267.45,
       "currency": "USD",
-      "change": 757.2,
-      "change_percent": 3.08,
+      "change": 688.03,
+      "change_percent": 2.8,
       "name": "NASDAQ Composite"
     },
     {
@@ -1125,10 +1125,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7571.94,
+        "price": 7554.73,
         "currency": "USD",
-        "change": 195.08,
-        "change_percent": 2.64,
+        "change": 177.87,
+        "change_percent": 2.41,
         "name": "S&P 500"
       },
       {
@@ -1141,18 +1141,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52477.24,
+        "price": 52406.31,
         "currency": "USD",
-        "change": 1191.51,
-        "change_percent": 2.32,
+        "change": 1120.58,
+        "change_percent": 2.18,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 25336.62,
+        "price": 25267.45,
         "currency": "USD",
-        "change": 757.2,
-        "change_percent": 3.08,
+        "change": 688.03,
+        "change_percent": 2.8,
         "name": "NASDAQ Composite"
       },
       {
@@ -1183,26 +1183,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4152.0,
+        "price": 4150.0,
         "currency": "USD",
-        "change": 77.1,
-        "change_percent": 1.89,
+        "change": 75.1,
+        "change_percent": 1.84,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 53.43,
+        "price": 53.38,
         "currency": "USD",
-        "change": 1.49,
-        "change_percent": 2.86,
+        "change": 1.44,
+        "change_percent": 2.78,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.09,
+        "price": 92.85,
         "currency": "USD",
-        "change": -6.23,
-        "change_percent": -6.34,
+        "change": -5.47,
+        "change_percent": -5.56,
         "name": "Brent Crude"
       },
       {
@@ -1218,81 +1218,81 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.61,
+        "change_percent": 0.64,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.84,
+        "price": 157.88,
         "currency": "JPY",
-        "change": -0.59,
-        "change_percent": -0.37,
+        "change": -0.54,
+        "change_percent": -0.34,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74688.11,
+        "price": 74718.25,
         "currency": "USD",
-        "change": -31.71,
-        "change_percent": -0.04,
+        "change": -1.57,
+        "change_percent": 0.0,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 547.13,
+        "price": 545.38,
         "currency": "USD",
-        "change": 16.52,
-        "change_percent": 3.11,
+        "change": 14.77,
+        "change_percent": 2.78,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 350.97,
+        "price": 350.79,
         "currency": "USD",
-        "change": 8.6,
-        "change_percent": 2.51,
+        "change": 8.42,
+        "change_percent": 2.46,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 178.11,
+        "price": 178.91,
         "currency": "USD",
-        "change": -8.53,
-        "change_percent": -4.57,
+        "change": -7.73,
+        "change_percent": -4.14,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 289.74,
+        "price": 288.35,
         "currency": "USD",
-        "change": 4.96,
-        "change_percent": 1.74,
+        "change": 3.57,
+        "change_percent": 1.25,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 268.64,
+        "price": 267.32,
         "currency": "USD",
-        "change": 9.34,
-        "change_percent": 3.6,
+        "change": 8.02,
+        "change_percent": 3.09,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 381.24,
+        "price": 378.7,
         "currency": "USD",
-        "change": 23.02,
-        "change_percent": 6.43,
+        "change": 20.48,
+        "change_percent": 5.72,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 646.59,
+        "price": 641.72,
         "currency": "USD",
-        "change": 36.44,
-        "change_percent": 5.97,
+        "change": 31.57,
+        "change_percent": 5.17,
         "name": "Meta"
       }
     ]
@@ -1429,22 +1429,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "The Color and Lights of Diwali 2026",
+          "url": "https://www.theatlantic.com/photography/2026/11/photos-lights-diwali-2026/689348/?utm_source=feed",
+          "published": "2026-11-09T20:44:30+00:00",
+          "snippet": "Hindus, Buddhists, Jains, Sikhs, and others around the world are celebrating the five-day festival of Diwali. Observers offer prayers and use fireworks,..."
+        },
+        {
+          "title": "Pete Hegseth Lashes Out",
+          "url": "https://www.theatlantic.com/ideas/2026/11/hegseth-war-college-curriculum/689351/?utm_source=feed",
+          "published": "2026-11-09T20:32:00+00:00",
+          "snippet": "The defense secretary wants military educators to pursue politics, not war."
+        },
+        {
           "title": "An Electoral Mess in Mississippi",
           "url": "https://www.theatlantic.com/politics/2026/11/mississippi-voters-senate-election-experian/689345/?utm_source=feed",
           "published": "2026-11-09T19:22:18+00:00",
           "snippet": "Tens of thousands of voters in the state were shifted to “inactive” status."
-        },
-        {
-          "title": "How to Be an Ethical Russophile",
-          "url": "https://www.theatlantic.com/books/2026/11/ethical-russophile-russia-carrere-kolkhoz/688945/?utm_source=feed",
-          "published": "2026-11-09T19:00:00+00:00",
-          "snippet": "In his new memoir, Emmanuel Carrère wonders if he can both oppose the war in Ukraine and love Russia."
-        },
-        {
-          "title": "How Ugly Metro Sweaters Became Chic",
-          "url": "https://www.theatlantic.com/culture/2026/11/metro-fashion-is-cool-now/689323/?utm_source=feed",
-          "published": "2026-11-09T18:01:00+00:00",
-          "snippet": "Public-transit fashion is having a moment."
         }
       ]
     },
@@ -1527,37 +1527,44 @@
   "web": {
     "tech": [
       {
+        "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+        "score": 25,
+        "source": "Hacker News",
+        "published": "2026-11-09T20:04:55+00:00"
+      },
+      {
         "title": "USPS now offers official ZIP Code boundary polygons",
         "url": "https://postalpro.usps.com/zcb",
-        "score": 26,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-09T19:58:59+00:00"
       },
       {
         "title": "CUI – Native UI components for C",
         "url": "https://yappologistic.github.io/CUI/",
-        "score": 41,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-09T19:35:16+00:00"
       },
       {
         "title": "Claude Fable 5.2 and Mythos 5.2",
         "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-        "score": 534,
+        "score": 635,
         "source": "Hacker News",
         "published": "2026-11-09T18:56:29+00:00"
       },
       {
         "title": "E-means: 10x faster k-means at equal loss",
         "url": "https://e-means.github.io/",
-        "score": 65,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-09T18:45:43+00:00"
       },
       {
         "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
         "url": "https://meowdisplay.app/",
-        "score": 39,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-09T18:39:22+00:00"
       },
@@ -1565,7 +1572,7 @@
         "title": "Microsoft are rejecting your mail",
         "url": "https://www.mythic-beasts.com/blog/2026/11/09/microsoft-are-rejecting-your-mail/",
         "comments_url": "https://lobste.rs/s/ynik5s/microsoft_are_rejecting_your_mail",
-        "score": 13,
+        "score": 18,
         "source": "Lobste.rs",
         "published": "2026-11-09T18:36:47.508000+00:00"
       },
@@ -1573,35 +1580,35 @@
         "title": "Sure mate, buy me a bloody coffee",
         "url": "https://peateasea.de/sure-mate-buy-me-a-bloody-coffee/",
         "comments_url": "https://lobste.rs/s/eeclwg/sure_mate_buy_me_bloody_coffee",
-        "score": 9,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-09T18:35:57.491000+00:00"
       },
       {
         "title": "DeepX claims inference up to 100B parameters at less than 5 W",
         "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
-        "score": 80,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-09T18:33:58+00:00"
       },
       {
         "title": "Infineon marks innovation milestone with 300mm power silicon carbide wafer",
         "url": "https://www.infineon.com/press-release/2026/infpr202611-028",
-        "score": 51,
+        "score": 60,
         "source": "Hacker News",
         "published": "2026-11-09T18:25:01+00:00"
       },
       {
         "title": "Our Smallest, Most Efficient Model: Muse Ember",
         "url": "https://research.meta.ai/blog/muse-ember",
-        "score": 139,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-09T17:58:46+00:00"
       },
       {
         "title": "Show HN: Every satellite that passed over any place this week, and its photos",
         "url": "https://www.watched.earth",
-        "score": 79,
+        "score": 105,
         "source": "Hacker News",
         "published": "2026-11-09T17:51:31+00:00"
       },
@@ -1616,7 +1623,7 @@
       {
         "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
         "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-        "score": 364,
+        "score": 385,
         "source": "Hacker News",
         "published": "2026-11-09T16:00:45+00:00"
       },
@@ -1624,17 +1631,9 @@
         "title": "Terminal2Shell: Critical flaw grants instant shell access on every major OS",
         "url": "https://terminal2shell.com/",
         "comments_url": "https://lobste.rs/s/vghqe8/terminal2shell_critical_flaw_grants",
-        "score": 38,
+        "score": 42,
         "source": "Lobste.rs",
         "published": "2026-11-09T15:41:50.359000+00:00"
-      },
-      {
-        "title": "Playing classical music on a classic PC with GentleOS",
-        "url": "https://www.youtube.com/watch?v=Vp16LLOvegw",
-        "comments_url": "https://lobste.rs/s/xf23r4/playing_classical_music_on_classic_pc",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-09T14:55:11.414000+00:00"
       }
     ],
     "reddit": [
@@ -1647,20 +1646,20 @@
         "published": "2026-11-09T14:23:48+00:00"
       },
       {
-        "title": "Scientists made a plant-based coating for paper coffee cups to replace the plastic lining. In tests, regular plastic-lined cups broke down and shed particles that could put microplastics in your drink, while the new coating held up even in boiling water, uses less paper, and is easier to recycle.",
-        "url": "https://uwaterloo.ca/news/science/black-coffee-hold-plastic",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xrpfr2/scientists_made_a_plantbased_coating_for_paper/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-09T11:37:02+00:00"
-      },
-      {
         "title": "France accuses Iran of supermarket fridge cyberattack",
         "url": "https://www.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xrw43z/france_accuses_iran_of_supermarket_fridge/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-09T16:24:28+00:00"
+      },
+      {
+        "title": "Scientists made a plant-based coating for paper coffee cups to replace the plastic lining. In tests, regular plastic-lined cups broke down and shed particles that could put microplastics in your drink, while the new coating held up even in boiling water, uses less paper, and is easier to recycle.",
+        "url": "https://uwaterloo.ca/news/science/black-coffee-hold-plastic",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xrpfr2/scientists_made_a_plantbased_coating_for_paper/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-09T11:37:02+00:00"
       },
       {
         "title": "Germany threatens to block EU’s next budget unless all 27 states help close Ukraine’s 70-billion-euro funding gap",
@@ -1703,20 +1702,20 @@
         "published": "2026-11-09T16:01:32+00:00"
       },
       {
+        "title": "A study of 4,800 AI-generated images found that ChatGPT depicted dairy farms as idyllic pastures in 100% of cases and pig farms in 99%. When automatic prompt rewriting was bypassed, 60% of dairy farm images and 96% of pig farm images depicted intensive indoor farming instead.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0160791X26002551",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xs14qs/a_study_of_4800_aigenerated_images_found_that/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-09T19:27:12+00:00"
+      },
+      {
         "title": "Russell Brand sentenced to more than 10 years in prison for rape and sexual assault",
         "url": "https://www.theguardian.com/news/2026/nov/09/russell-brand-sentenced-rape-sexual-assault",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xrtfu8/russell_brand_sentenced_to_more_than_10_years_in/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-09T14:43:37+00:00"
-      },
-      {
-        "title": "Brother of Viktor Orbán taken into custody",
-        "url": "https://mti.hu/hirek/2026/11/09/magyar-peter-sajtoinformaciok-szerint-orizetbe-vettek-orban-viktor-testveret",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xro5xo/brother_of_viktor_orbán_taken_into_custody/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-09T10:21:42+00:00"
       },
       {
         "title": "House Republicans demand answers from Nvidia CEO over reported Chinese spy ties",
@@ -1735,6 +1734,14 @@
         "published": "2026-11-09T12:14:18+00:00"
       },
       {
+        "title": "Brother of Viktor Orbán taken into custody",
+        "url": "https://mti.hu/hirek/2026/11/09/magyar-peter-sajtoinformaciok-szerint-orizetbe-vettek-orban-viktor-testveret",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xro5xo/brother_of_viktor_orbán_taken_into_custody/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-09T10:21:42+00:00"
+      },
+      {
         "title": "Rubio sees little hope of diplomatic breakthrough to Mideast deadlock amid 'outrageous' Iranian demands",
         "url": "https://www.cnbc.com/2026/11/09/us-iran-war-trump-hormuz.html",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xrq866/rubio_sees_little_hope_of_diplomatic_breakthrough/",
@@ -1749,14 +1756,6 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-09T13:20:40+00:00"
-      },
-      {
-        "title": "A study of 4,800 AI-generated images found that ChatGPT depicted dairy farms as idyllic pastures in 100% of cases and pig farms in 99%. When automatic prompt rewriting was bypassed, 60% of dairy farm images and 96% of pig farm images depicted intensive indoor farming instead.",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0160791X26002551",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xs14qs/a_study_of_4800_aigenerated_images_found_that/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-09T19:27:12+00:00"
       }
     ]
   }

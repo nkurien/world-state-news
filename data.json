@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-09T06:30:51.701179+00:00",
+  "last_updated": "2026-11-09T06:43:18.473881+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 273
+      "ms": 277
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 299
+      "ms": 291
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 213
+      "ms": 198
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 233
+      "ms": 197
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 185
+      "ms": 229
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 260
+      "ms": 118
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 523
+      "ms": 483
     },
     "El País": {
       "ok": true,
       "count": 55,
       "error": null,
-      "ms": 391
+      "ms": 393
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 74
+      "ms": 177
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 245
+      "ms": 173
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 367
+      "ms": 290
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 693
+      "ms": 233
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 326
+      "ms": 163
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 165
+      "ms": 152
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 83
+      "ms": 226
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 305
+      "ms": 103
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 660
+      "ms": 647
     },
     "Semafor": {
       "ok": true,
       "count": 215,
       "error": null,
-      "ms": 509
+      "ms": 479
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 744
+      "ms": 457
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 334
+      "ms": 351
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 189
+      "ms": 91
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 286
+      "ms": 294
     },
     "The Independent": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 212
+      "ms": 101
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 226
+      "ms": 155
     }
   },
   "breaking": [
@@ -201,18 +201,46 @@
       "consensus": 9.5
     },
     {
-      "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
-      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
-      "source": "The Hindu",
-      "published": "2026-11-09T06:18:09+00:00",
+      "title": "What we know about Nvidia CEO Jensen Huang's affair with suspected Chinese spy",
+      "url": "https://www.abc.net.au/news/2026-11-09/nvidia-ceo-jensen-huang-affair-with-suspected-chinese-spy/107362878",
+      "source": "ABC Australia",
+      "published": "2026-11-09T05:30:36+00:00",
       "score": 5,
       "other_sources": [
         {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
-          "title": "Nvidia investigates whether CEO Jensen Huang was targeted by Chinese spy following alleged affair",
+          "title": "Nvidia investigates whether its own CEO Jensen Huang over affair with alleged Chinese spy",
           "published": "2026-11-09T04:39:48+00:00"
         },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
+          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T22:54:37+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair?traffic_source=rss",
+          "title": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+          "published": "2026-11-08T22:16:10+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
+        }
+      ],
+      "consensus": 6.5
+    },
+    {
+      "title": "Nvidia investigating reports that CEO Jensen Huang was targeted by Chinese intelligence",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-investigating-reports-that-ceo-jensen-huang-was-targeted-by-chinese-intelligence/article71681239.ece",
+      "source": "The Hindu",
+      "published": "2026-11-09T06:18:09+00:00",
+      "score": 4,
+      "other_sources": [
         {
           "source": "France24",
           "url": "https://www.france24.com/en/technology/20261108-nvidia-jensen-huang-chinese-intelligence-probe",
@@ -232,29 +260,7 @@
           "published": "2026-11-08T20:16:00+00:00"
         }
       ],
-      "consensus": 6.0
-    },
-    {
-      "title": "How Nvidia came to investigate its CEO's affair with suspected Chinese spy",
-      "url": "https://www.abc.net.au/news/2026-11-09/nvidia-ceo-jensen-huang-affair-with-suspected-chinese-spy/107362878",
-      "source": "ABC Australia",
-      "published": "2026-11-09T05:30:36+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T22:54:37+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
-        }
-      ],
-      "consensus": 4.0
+      "consensus": 5.0
     },
     {
       "title": "Alcaraz downs Shelton to win Paris Masters for first time",
@@ -323,6 +329,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
+      "url": "https://www.japantimes.co.jp/business/2026/11/09/tech/nvidia-board-spying-ceo-affair/",
+      "source": "Japan Times",
+      "published": "2026-11-09T06:35:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
+          "title": "Nvidia CEO’s affair sparks Chinese espionage probe",
+          "published": "2026-11-08T23:58:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Pope tells Argentina’s Milei leaders should know limits of power",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/pope-tells-argentinas-milei-leaders-should-know-limits-of-power?traffic_source=rss",
       "source": "Al Jazeera",
@@ -334,22 +356,6 @@
           "url": "https://www.scmp.com/news/world/americas/article/3373717/pope-leo-leaves-uruguay-and-heads-most-fraught-stop-his-tour-mileis-argentina",
           "title": "Pope Leo tells Argentina’s Milei that leaders must know limits of power",
           "published": "2026-11-08T17:53:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Eisenkot gets chance to form Israeli government after vote",
-      "url": "https://www.japantimes.co.jp/news/2026/11/09/world/politics/eisenkot-israeli-government-vote/",
-      "source": "Japan Times",
-      "published": "2026-11-09T03:37:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/eisenkot-gets-nod-to-form-government",
-          "title": "Eisenkot gets nod to form Israeli government",
-          "published": "2026-11-08T22:41:08+00:00"
         }
       ],
       "consensus": 2.5
@@ -541,6 +547,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Russia hits power stations in Ukraine, vessel in Black Sea",
+      "url": "https://www.thehindu.com/news/international/russia-hits-power-stations-in-ukraine-vessel-in-black-sea/article71681628.ece",
+      "source": "The Hindu",
+      "published": "2026-11-09T06:35:01+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/08/russia-says-hit-power-substations-in-ukraine-and-3-ships-in-black-sea-a94203",
+          "title": "Russia Says Hit Power Substations in Ukraine and 3 Ships in Black Sea",
+          "published": "2026-11-08T17:03:11+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "What to know about upcoming peace talks involving Russian, Ukrainian and U.S. officials",
       "url": "https://www.thehindu.com/news/international/russia-ukraine-us-peace-talks-in-abu-dhabi-on-november-10-2026/article71681520.ece",
       "source": "The Hindu",
@@ -589,6 +611,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Eisenkot gets chance to form Israeli government after vote",
+      "url": "https://www.japantimes.co.jp/news/2026/11/09/world/politics/eisenkot-israeli-government-vote/",
+      "source": "Japan Times",
+      "published": "2026-11-09T03:37:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/eisenkot-gets-nod-to-form-government",
+          "title": "Eisenkot gets nod to form Israeli government",
+          "published": "2026-11-08T22:41:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "South Africa’s ANC suffers worst-ever local elections result",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/south-africas-anc-suffers-worst-ever-local-elections-result?traffic_source=rss",
       "source": "Al Jazeera",
@@ -600,22 +638,6 @@
           "url": "http://www.africanews.com/2026/11/08/coalition-building-begins-as-anc-suffers-major-blow-in-south-africa-local-elections/",
           "title": "Coalition building begins as ANC suffers major blow in South Africa local elections",
           "published": "2026-11-08T18:27:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia CEO’s affair engulfs AI giant in Chinese spying probe",
-      "url": "https://www.japantimes.co.jp/business/2026/11/09/tech/nvidia-board-spying-ceo-affair/",
-      "source": "Japan Times",
-      "published": "2026-11-09T02:46:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/8/nvidia-ceos-affair-sparks-chinese-espionage-probe?traffic_source=rss",
-          "title": "Nvidia CEO’s affair sparks Chinese espionage probe",
-          "published": "2026-11-08T23:58:53+00:00"
         }
       ],
       "consensus": 2.5
@@ -712,22 +734,6 @@
           "url": "https://www.cbc.ca/news/world/krakow-shooting-attack-far-right-9.7414042?cmp=rss",
           "title": "Poland in mourning after deadly mass shooting in Krakow",
           "published": "2026-11-08T13:30:13+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zaporizhzhia nuclear plant relying on generators again after losing external power supply",
-      "url": "https://www.thehindu.com/news/international/zaporizhzhia-nuclear-plant-relying-on-generators-again-after-losing-external-power-supply/article71680948.ece",
-      "source": "The Hindu",
-      "published": "2026-11-08T12:57:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/08/zaporizhzhia-nuclear-plant-relying-on-generators-again-after-losing-internal-power-supply-a94202",
-          "title": "Zaporizhzhia Nuclear Plant Relying on Generators Again After Losing Internal Power Supply",
-          "published": "2026-11-08T08:50:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -1139,10 +1145,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58688.86,
+        "price": 58750.45,
         "currency": "JPY",
-        "change": 1254.09,
-        "change_percent": 2.18,
+        "change": 1315.68,
+        "change_percent": 2.29,
         "name": "Nikkei 225"
       },
       {
@@ -1165,26 +1171,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4127.9,
+        "price": 4120.1,
         "currency": "USD",
-        "change": 53.0,
-        "change_percent": 1.3,
+        "change": 45.2,
+        "change_percent": 1.11,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.75,
+        "price": 52.51,
         "currency": "USD",
-        "change": 0.81,
-        "change_percent": 1.56,
+        "change": 0.56,
+        "change_percent": 1.08,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 96.77,
+        "price": 96.79,
         "currency": "USD",
-        "change": -1.55,
-        "change_percent": -1.58,
+        "change": -1.53,
+        "change_percent": -1.56,
         "name": "Brent Crude"
       },
       {
@@ -1192,7 +1198,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.22,
         "name": "EUR/USD"
       },
       {
@@ -1205,18 +1211,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 158.27,
+        "price": 158.22,
         "currency": "JPY",
-        "change": -0.16,
-        "change_percent": -0.1,
+        "change": -0.21,
+        "change_percent": -0.13,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74236.67,
+        "price": 73985.06,
         "currency": "USD",
-        "change": -483.15,
-        "change_percent": -0.65,
+        "change": -734.76,
+        "change_percent": -0.98,
         "name": "Bitcoin"
       }
     ],
@@ -1519,7 +1525,7 @@
       {
         "title": "Apple capped engineers at a $200 daily AI budget",
         "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget#story-1",
-        "score": 23,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-09T05:30:11+00:00"
       },
@@ -1534,7 +1540,7 @@
       {
         "title": "A Critique of GPUI",
         "url": "https://blog.zortax.de/posts/a-critique-of-gpui",
-        "score": 60,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-09T03:51:10+00:00"
       },
@@ -1556,21 +1562,21 @@
       {
         "title": "RIP, Harvest",
         "url": "https://aphyr.com/posts/427-rip-harvest",
-        "score": 268,
+        "score": 277,
         "source": "Hacker News",
         "published": "2026-11-09T01:58:21+00:00"
       },
       {
         "title": "Unlocking any car from X brand in most of the world",
         "url": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-        "score": 208,
+        "score": 215,
         "source": "Hacker News",
         "published": "2026-11-09T00:10:50+00:00"
       },
       {
         "title": "I'm not convinced the AI bubble exists",
         "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
-        "score": 149,
+        "score": 155,
         "source": "Hacker News",
         "published": "2026-11-08T23:44:36+00:00"
       },
@@ -1585,21 +1591,21 @@
       {
         "title": "Chimera Vocal Synth",
         "url": "https://chimera-vocal-synth.vercel.app/",
-        "score": 165,
+        "score": 168,
         "source": "Hacker News",
         "published": "2026-11-08T22:36:03+00:00"
       },
       {
         "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
         "url": "https://ketchup3d.github.io/app/",
-        "score": 364,
+        "score": 371,
         "source": "Hacker News",
         "published": "2026-11-08T22:35:35+00:00"
       },
       {
         "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
         "url": "https://nvidianews.nvidia.com/news/a-message-to-our-company",
-        "score": 507,
+        "score": 518,
         "source": "Hacker News",
         "published": "2026-11-08T22:20:09+00:00"
       },
@@ -1718,20 +1724,20 @@
         "published": "2026-11-08T21:42:12+00:00"
       },
       {
-        "title": "The Covid-19 pandemic caused stress that sped up biological aging at the DNA level, especially in adolescents aged 14–16, who showed the strongest link between perceived pandemic stress—especially social isolation—and faster epigenetic aging, unlike children or adults",
-        "url": "https://www.mpg.de/27071988/covid-related-stress-causes-adolescents-to-age-faster-epigenetically",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xr3lsc/the_covid19_pandemic_caused_stress_that_sped_up/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-08T17:18:08+00:00"
-      },
-      {
         "title": "Ukraine and Russia are taking the war underground as drones saturate the battlefield",
         "url": "https://www.france24.com/en/europe/20261103-ukraine-and-russia-are-taking-the-war-underground-as-drones-saturate-the-battlefield",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xrda0g/ukraine_and_russia_are_taking_the_war_underground/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-09T00:12:34+00:00"
+      },
+      {
+        "title": "The Covid-19 pandemic caused stress that sped up biological aging at the DNA level, especially in adolescents aged 14–16, who showed the strongest link between perceived pandemic stress—especially social isolation—and faster epigenetic aging, unlike children or adults",
+        "url": "https://www.mpg.de/27071988/covid-related-stress-causes-adolescents-to-age-faster-epigenetically",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xr3lsc/the_covid19_pandemic_caused_stress_that_sped_up/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-08T17:18:08+00:00"
       },
       {
         "title": "Nvidia Opens Investigation Into Jensen Huang’s Relationship With Chinese Spy",

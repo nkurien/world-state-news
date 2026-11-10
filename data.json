@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T04:00:59.805130+00:00",
+  "last_updated": "2026-11-10T04:30:51.288348+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 497
+      "ms": 259
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 354
+      "ms": 567
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 283
+      "ms": 340
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 309
+      "ms": 324
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 364
+      "ms": 166
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 424
+      "ms": 203
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 1063
+      "ms": 376
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 469
+      "ms": 580
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 279
+      "ms": 427
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 148
+      "ms": 314
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 468
+      "ms": 467
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 290
+      "ms": 348
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 290
+      "ms": 267
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 343
+      "ms": 306
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 90
+      "ms": 121
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 493
+      "ms": 273
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 877
+      "ms": 913
     },
     "Semafor": {
       "ok": true,
       "count": 215,
       "error": null,
-      "ms": 678
+      "ms": 818
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 610
+      "ms": 603
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 293
+      "ms": 304
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 221
+      "ms": 183
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 493
+      "ms": 354
     },
     "The Independent": {
       "ok": true,
-      "count": 78,
+      "count": 79,
       "error": null,
-      "ms": 284
+      "ms": 255
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 260
+      "ms": 302
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-10T03:58:13+00:00",
-      "score": 7,
+      "score": 9,
       "other_sources": [
         {
           "source": "The Hindu",
@@ -186,13 +186,25 @@
           "published": "2026-11-09T23:37:00+00:00"
         },
         {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
+          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-09T12:41:25+00:00"
+        },
+        {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
           "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
           "published": "2026-11-09T04:39:48+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
-      "consensus": 8.5
+      "consensus": 10.5
     },
     {
       "title": "France blames Iran for cyberattack on supermarket fridges",
@@ -235,58 +247,40 @@
       "consensus": 7.5
     },
     {
-      "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
-      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy/article71684853.ece",
+      "title": "Comedian Russell Brand sentenced to more than a decade in prison",
+      "url": "https://www.thehindu.com/news/international/comedian-russell-brand-sentenced-to-more-than-a-decade-in-prison/article71683300.ece",
       "source": "The Hindu",
-      "published": "2026-11-10T03:28:53+00:00",
-      "score": 6,
+      "published": "2026-11-10T02:48:12+00:00",
+      "score": 4,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-sued-chinese-spy-6537296",
-          "title": "Nvidia, CEO Jensen Huang sued over disclosures related to suspected Chinese spy",
-          "published": "2026-11-09T23:15:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
+          "title": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
+          "published": "2026-11-09T15:29:33+00:00"
         },
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
-          "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
-          "published": "2026-11-09T16:14:28+00:00"
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+          "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+          "published": "2026-11-09T14:36:54+00:00"
         },
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-09T12:41:25+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cq3989nkzn3ko?at_medium=RSS&at_campaign=rss",
-          "title": "What do we know about Nvidia CEO’s affair with a suspected Chinese spy?",
-          "published": "2026-11-09T07:10:11+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/uk-london-sentencing-russell-brand-9.7414601?cmp=rss",
+          "title": "Russell Brand sentenced to more than 10 years in prison on convictions for rape, sexual assaults",
+          "published": "2026-11-09T14:32:48+00:00"
         }
       ],
-      "consensus": 7.0
+      "consensus": 5.0
     },
     {
-      "title": "Trump says Iran war is 'effectively over' militarily with further strikes unlikely",
+      "title": "Trump says more US attacks on Iran 'highly unlikely'",
       "url": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-10T02:38:00+00:00",
-      "score": 3,
+      "published": "2026-11-10T04:09:16+00:00",
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/9/trump-calls-iran-war-effectively-over-after-talks-with-qatar-pm?traffic_source=rss",
-          "title": "After meeting Qatar PM, Trump calls Iran war ‘effectively over’ militarily",
-          "published": "2026-11-09T22:31:19+00:00"
-        },
         {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/trump-says-resumption-of-war-with-iran-highly-unlikely/article71683793.ece",
@@ -294,7 +288,7 @@
           "published": "2026-11-09T16:46:11+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 2.5
     },
     {
       "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific",
@@ -345,44 +339,16 @@
       "consensus": 2.0
     },
     {
-      "title": "Chinese biotech giant WuXi AppTec’s shares jump after Pentagon blacklist reversal",
-      "url": "https://www.scmp.com/business/companies/article/3373875/chinese-biotech-giant-wuxi-apptecs-shares-jump-after-pentagon-blacklist-reversal",
-      "source": "SCMP",
-      "published": "2026-11-10T04:00:30+00:00",
+      "title": "Aigner und die ganz große Koalition",
+      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/aigner-und-die-ganz-grose-koalition/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-10T04:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     }
   ],
   "world": [
-    {
-      "title": "Comedian Russell Brand sentenced to more than a decade in prison",
-      "url": "https://www.thehindu.com/news/international/comedian-russell-brand-sentenced-to-more-than-a-decade-in-prison/article71683300.ece",
-      "source": "The Hindu",
-      "published": "2026-11-10T02:48:12+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
-          "title": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
-          "published": "2026-11-09T15:29:33+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
-          "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
-          "published": "2026-11-09T14:36:54+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/uk-london-sentencing-russell-brand-9.7414601?cmp=rss",
-          "title": "Russell Brand sentenced to more than 10 years in prison on convictions for rape, sexual assaults",
-          "published": "2026-11-09T14:32:48+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
     {
       "title": "US Defense Secretary Hegseth faces expected impeachment vote this week",
       "url": "https://www.france24.com/en/us-defense-secretary-hegseth-faces-expected-impeachment-vote-this-week",
@@ -600,6 +566,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy/article71684853.ece",
+      "source": "The Hindu",
+      "published": "2026-11-10T03:28:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
+          "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
+          "published": "2026-11-09T16:14:28+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Judge sets summer 2028 trial for the man accused of killing Charlie Kirk",
       "url": "https://www.thehindu.com/news/international/judge-sets-summer-2028-trial-for-the-man-accused-of-killing-charlie-kirk/article71684852.ece",
       "source": "The Hindu",
@@ -771,22 +753,6 @@
           "url": "https://www.independent.co.uk/news/uk/home-news/meghan-harry-thomas-markle-arrest-b3081926.html",
           "title": "Meghan pulls out of child safety speech with Harry after father’s arrest",
           "published": "2026-11-09T17:50:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Who’s who for Europe at the Ukraine talks in Abu Dhabi",
-      "url": "https://www.politico.eu/article/whos-who-europe-ukraine-talks-abu-dhabi-russia-war/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-09T17:41:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
-          "title": "Europe to join U.S.-brokered Ukraine talks in Abu Dhabi, defying Kremlin objections",
-          "published": "2026-11-08T19:25:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -1084,6 +1050,22 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
+      "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
+      "source": "NPR World",
+      "published": "2026-11-09T06:20:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/paraguays-bank-collapse-hits-millions",
+          "title": "Paraguay's bank collapse hits millions",
+          "published": "2026-11-08T22:47:54+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "tickers": [
@@ -1115,7 +1097,7 @@
       "symbol": "^FTSE",
       "price": 10782.87,
       "currency": "GBP",
-      "change": 108.93,
+      "change": 108.97,
       "change_percent": 1.02,
       "name": "FTSE 100"
     }
@@ -1134,15 +1116,15 @@
         "symbol": "^FTSE",
         "price": 10782.87,
         "currency": "GBP",
-        "change": 108.93,
+        "change": 108.97,
         "change_percent": 1.02,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 52389.75,
+        "price": 52389.8,
         "currency": "USD",
-        "change": 1104.02,
+        "change": 1104.1,
         "change_percent": 2.15,
         "name": "Dow Jones"
       },
@@ -1156,10 +1138,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 59916.0,
+        "price": 59976.46,
         "currency": "JPY",
-        "change": 1140.5,
-        "change_percent": 1.94,
+        "change": 1200.96,
+        "change_percent": 2.04,
         "name": "Nikkei 225"
       },
       {
@@ -1182,26 +1164,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4118.2,
+        "price": 4122.8,
         "currency": "USD",
-        "change": 3.7,
-        "change_percent": 0.09,
+        "change": 8.3,
+        "change_percent": 0.2,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.95,
+        "price": 53.07,
         "currency": "USD",
-        "change": 0.25,
-        "change_percent": 0.48,
+        "change": 0.38,
+        "change_percent": 0.72,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.49,
+        "price": 91.75,
         "currency": "USD",
-        "change": -1.08,
-        "change_percent": -1.17,
+        "change": -0.82,
+        "change_percent": -0.89,
         "name": "Brent Crude"
       },
       {
@@ -1217,23 +1199,23 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.01,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.95,
+        "price": 157.99,
         "currency": "JPY",
-        "change": 0.05,
-        "change_percent": 0.03,
+        "change": 0.09,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74448.49,
+        "price": 74747.83,
         "currency": "USD",
-        "change": -805.37,
-        "change_percent": -1.07,
+        "change": -506.03,
+        "change_percent": -0.67,
         "name": "Bitcoin"
       }
     ],
@@ -1403,6 +1385,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "China’s trade surplus exceeds $1tn for first 10 months of year",
+          "url": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1",
+          "published": "2026-11-10T03:09:14+00:00",
+          "snippet": "Balance is on course for new annual record that would intensify tensions with trade partners"
+        },
+        {
           "title": "Honda pins growth hopes on hybrids with $3bn US investment",
           "url": "https://www.ft.com/content/5f2aab2e-9c12-4aa1-a628-b6d021a07fd7?syn-25a6b1a6=1",
           "published": "2026-11-10T02:24:28+00:00",
@@ -1413,12 +1401,6 @@
           "url": "https://www.ft.com/content/7fb4b61c-b707-4683-b4ec-2bc6f277dd05?syn-25a6b1a6=1",
           "published": "2026-11-10T01:30:07+00:00",
           "snippet": "Also, an inauspicious Diwali for the markets"
-        },
-        {
-          "title": "Japan can tell the world what really matters when prepping",
-          "url": "https://www.ft.com/content/559a8eeb-0e91-4920-8321-5066f81ea015?syn-25a6b1a6=1",
-          "published": "2026-11-10T00:47:30+00:00",
-          "snippet": "Telling people to stock up is one thing but the Japanese know that building a stockpile of civil credibility requires greater effort"
         }
       ]
     },
@@ -1536,7 +1518,7 @@
       {
         "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
         "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-        "score": 25,
+        "score": 43,
         "source": "Hacker News",
         "published": "2026-11-10T03:20:06+00:00"
       },
@@ -1551,14 +1533,14 @@
       {
         "title": "Locating the source of a mysterious beep",
         "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-        "score": 42,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-10T00:10:46+00:00"
       },
       {
         "title": "Horible public key tricks",
         "url": "https://maurycyz.com/projects/badcert/",
-        "score": 55,
+        "score": 69,
         "source": "Hacker News",
         "published": "2026-11-10T00:07:17+00:00"
       },
@@ -1571,16 +1553,9 @@
         "published": "2026-11-09T23:25:03.114000+00:00"
       },
       {
-        "title": "Fable 5.2 one-shotted my nephew's dream game",
-        "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-        "score": 240,
-        "source": "Hacker News",
-        "published": "2026-11-09T23:08:13+00:00"
-      },
-      {
         "title": "Exact – a new cross platform UI framework",
         "url": "https://github.com/expo/exact",
-        "score": 76,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-09T22:59:13+00:00"
       },
@@ -1604,7 +1579,7 @@
         "title": "Two apps one process",
         "url": "https://andersmurphy.com/2026/11/09/two-apps-one-process.html",
         "comments_url": "https://lobste.rs/s/sifkms/two_apps_one_process",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-09T22:14:10.148000+00:00"
       },
@@ -1619,14 +1594,14 @@
       {
         "title": "USPS now offers official ZIP Code boundary polygons",
         "url": "https://postalpro.usps.com/zcb",
-        "score": 528,
+        "score": 543,
         "source": "Hacker News",
         "published": "2026-11-09T19:58:59+00:00"
       },
       {
         "title": "E-means: Outperforming k-means in one-tenth the epochs",
         "url": "https://e-means.github.io/",
-        "score": 302,
+        "score": 312,
         "source": "Hacker News",
         "published": "2026-11-09T18:45:43+00:00"
       },
@@ -1634,9 +1609,17 @@
         "title": "Microsoft are rejecting your mail",
         "url": "https://www.mythic-beasts.com/blog/2026/11/09/microsoft-are-rejecting-your-mail/",
         "comments_url": "https://lobste.rs/s/ynik5s/microsoft_are_rejecting_your_mail",
-        "score": 43,
+        "score": 45,
         "source": "Lobste.rs",
         "published": "2026-11-09T18:36:47.508000+00:00"
+      },
+      {
+        "title": "Sure mate, buy me a bloody coffee",
+        "url": "https://peateasea.de/sure-mate-buy-me-a-bloody-coffee/",
+        "comments_url": "https://lobste.rs/s/eeclwg/sure_mate_buy_me_bloody_coffee",
+        "score": 42,
+        "source": "Lobste.rs",
+        "published": "2026-11-09T18:35:57.491000+00:00"
       }
     ],
     "reddit": [
@@ -1729,20 +1712,20 @@
         "published": "2026-11-09T14:43:37+00:00"
       },
       {
-        "title": "France says Iran's Guards behind cyberattacks on fridges | France on Monday said Iran's Revolutionary Guards were behind \"unprecedented\" cyberattacks on supermarket fridges in the country last month, vowing sanctions on a European level against Tehran.",
-        "url": "https://www.france24.com/en/live-news/20261109-france-says-iran-s-guards-behind-cyberattacks-on-fridges",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xryj9z/france_says_irans_guards_behind_cyberattacks_on/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-09T17:52:50+00:00"
-      },
-      {
         "title": "America's school buses are becoming AI-powered ticket machines, generating millions from drivers who fail to stop",
         "url": "https://www.techspot.com/news/114489-america-school-buses-becoming-ai-powered-ticket-machines.html",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xrsyal/americas_school_buses_are_becoming_aipowered/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-09T14:23:48+00:00"
+      },
+      {
+        "title": "France says Iran's Guards behind cyberattacks on fridges | France on Monday said Iran's Revolutionary Guards were behind \"unprecedented\" cyberattacks on supermarket fridges in the country last month, vowing sanctions on a European level against Tehran.",
+        "url": "https://www.france24.com/en/live-news/20261109-france-says-iran-s-guards-behind-cyberattacks-on-fridges",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xryj9z/france_says_irans_guards_behind_cyberattacks_on/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-09T17:52:50+00:00"
       },
       {
         "title": "Ukraine says intercepted call shows Russian commander using African recruit as 'human shield'",

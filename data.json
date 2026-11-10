@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T19:01:04.885792+00:00",
+  "last_updated": "2026-11-10T19:30:52.486579+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 395
+      "ms": 315
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 373
+      "ms": 212
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 244
+      "ms": 226
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 79
+      "ms": 253
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 95
+      "ms": 348
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 168
+      "ms": 279
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 442
+      "ms": 666
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 386
+      "ms": 396
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 217
+      "ms": 216
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 119
+      "ms": 140
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 419
+      "ms": 713
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 318
+      "ms": 324
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 368
+      "ms": 554
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 159
+      "ms": 215
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 225
+      "ms": 380
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 45,
       "error": null,
-      "ms": 344
+      "ms": 417
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 687
+      "ms": 644
     },
     "Semafor": {
       "ok": true,
-      "count": 239,
+      "count": 240,
       "error": null,
-      "ms": 502
+      "ms": 532
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 440
+      "ms": 559
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 242
+      "ms": 353
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 213
+      "ms": 123
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 277
+      "ms": 236
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 72,
       "error": null,
-      "ms": 169
+      "ms": 191
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 206
+      "ms": 204
     }
   },
   "breaking": [
@@ -205,6 +205,28 @@
       "consensus": 5.0
     },
     {
+      "title": "Where US military forces are stationed in UK and Europe after planes pulled over Iran threat",
+      "url": "https://www.independent.co.uk/news/world/europe/us-troops-uk-europe-military-bases-b3082620.html",
+      "source": "The Independent",
+      "published": "2026-11-10T19:00:12+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/us-military-aircraft-pulled-from-second-uk-base-after-iran-threat/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "US military aircraft pulled from second UK base after ‘Iran threat’",
+          "published": "2026-11-10T11:48:31+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/10/world/us-uk-base-evacuated-iran/",
+          "title": "U.S. aircraft evacuated from second U.K. base due to Iran threat, WSJ reports",
+          "published": "2026-11-10T06:49:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
       "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
       "source": "The Guardian",
@@ -227,32 +249,10 @@
       "consensus": 3.5
     },
     {
-      "title": "‘It’s a farce’: Hegseth slams impeachment effort",
-      "url": "https://www.france24.com/en/video/20261110-it-s-a-farce-hegseth-slams-impeachment-effort",
-      "source": "France24",
-      "published": "2026-11-10T16:10:11+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cwm24249dezmo?at_medium=RSS&at_campaign=rss",
-          "title": "'It's a farce': Hegseth's defiant response to impeachment effort",
-          "published": "2026-11-10T15:40:43+00:00"
-        },
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-10/pete-hegseth-on-impeachment-effort-it-is-a-farce-and-its-a-stunt-and-everybody-knows-it.html",
-          "title": "Pete Hegseth on impeachment effort: ‘It is a farce and everybody knows it’",
-          "published": "2026-11-10T14:40:05+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
       "title": "Pete Hegseth defiant in wake of Republican’s impeachment effort as House prepares for key vote – US politics live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-10T18:37:39+00:00",
+      "published": "2026-11-10T19:10:09+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -297,20 +297,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
-      "url": "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-10T16:07:51+00:00",
+      "title": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia's future",
+      "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-chinese-san-francisco-fbi-b3082662.html",
+      "source": "The Independent",
+      "published": "2026-11-10T17:43:16+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-11/bulgaria-deadly-pile-up-highway/107371178",
-          "title": "Twelve dead, 50 injured in Bulgarian motorway pile-up in heavy fog",
-          "published": "2026-11-10T15:56:26+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
+          "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
+          "published": "2026-11-09T04:39:48+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -365,7 +365,7 @@
       "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
       "source": "Africanews",
       "published": "2026-11-10T13:18:48+00:00",
-      "score": 4,
+      "score": 5,
       "other_sources": [
         {
           "source": "The Moscow Times",
@@ -384,31 +384,15 @@
           "url": "https://www.channelnewsasia.com/world/united-states-talks-russia-ukraine-abu-dhabi-6538206",
           "title": "US-mediated talks with Russia and Ukraine to start in Abu Dhabi",
           "published": "2026-11-10T04:47:06+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "US moves aircraft from UK base amid reported Iran threat",
-      "url": "https://www.abc.net.au/news/2026-11-11/us-aircaft-evated-from-second-uk-airbase-for-iran-threat/107370924",
-      "source": "ABC Australia",
-      "published": "2026-11-10T14:15:32+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/us-military-aircraft-pulled-from-second-uk-base-after-iran-threat/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "US military aircraft pulled from second UK base after ‘Iran threat’",
-          "published": "2026-11-10T11:48:31+00:00"
         },
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/10/world/us-uk-base-evacuated-iran/",
-          "title": "U.S. aircraft evacuated from second U.K. base due to Iran threat, WSJ reports",
-          "published": "2026-11-10T06:49:00+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "published": "2026-11-08T22:41:35+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 6.5
     },
     {
       "title": "Comedian Russell Brand sentenced to more than a decade in prison",
@@ -477,6 +461,28 @@
       "consensus": 3.5
     },
     {
+      "title": "‘It’s a farce’: Hegseth slams impeachment effort",
+      "url": "https://www.france24.com/en/video/20261110-it-s-a-farce-hegseth-slams-impeachment-effort",
+      "source": "France24",
+      "published": "2026-11-10T16:10:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cwm24249dezmo?at_medium=RSS&at_campaign=rss",
+          "title": "'It's a farce': Hegseth's defiant response to impeachment effort",
+          "published": "2026-11-10T15:40:43+00:00"
+        },
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-10/pete-hegseth-on-impeachment-effort-it-is-a-farce-and-its-a-stunt-and-everybody-knows-it.html",
+          "title": "Pete Hegseth on impeachment effort: ‘It is a farce and everybody knows it’",
+          "published": "2026-11-10T14:40:05+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "California voters reject measure to tax the wealth of billionaires",
       "url": "https://www.france24.com/en/video/20261110-california-voters-reject-measure-to-tax-the-wealth-of-billionaires",
       "source": "France24",
@@ -499,26 +505,20 @@
       "consensus": 3.0
     },
     {
-      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
-      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
-      "source": "NPR World",
-      "published": "2026-11-10T10:58:18+00:00",
-      "score": 3,
+      "title": "Twelve dead after motorway pile-ups in Bulgaria fog",
+      "url": "https://www.bbc.co.uk/news/articles/ckx2q2velpjjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-10T16:07:51+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
-          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
-          "published": "2026-11-10T09:57:22+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "published": "2026-11-08T22:41:35+00:00"
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-11/bulgaria-deadly-pile-up-highway/107371178",
+          "title": "Twelve dead, 50 injured in Bulgarian motorway pile-up in heavy fog",
+          "published": "2026-11-10T15:56:26+00:00"
         }
       ],
-      "consensus": 3.0
+      "consensus": 2.5
     },
     {
       "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
@@ -676,22 +676,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss",
           "title": "DR Congo sentences 66 soldiers to death for being 'cowards'",
           "published": "2026-11-10T08:39:05+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "France blames Iran for cyberattack on supermarket fridges",
-      "url": "https://www.thehindu.com/news/international/france-blames-iran-for-cyberattack-on-supermarket-fridges/article71684836.ece",
-      "source": "The Hindu",
-      "published": "2026-11-10T07:36:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/france-iran-cyberattack-accusation-9.7415031?cmp=rss",
-          "title": "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
-          "published": "2026-11-09T17:00:36+00:00"
         }
       ],
       "consensus": 2.5
@@ -863,6 +847,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "source": "NPR World",
+      "published": "2026-11-10T10:58:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
+          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
+          "published": "2026-11-10T09:57:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Loke resigns after Malaysia court clears Najib to start house arrest",
       "url": "https://www.scmp.com/week-asia/people/article/3373950/malaysia-court-clears-najib-begin-house-arrest",
       "source": "SCMP",
@@ -1007,19 +1007,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Progressives confront their limited leverage as they take on Democratic leaders",
-      "url": "https://www.semafor.com/article/11/10/2026/progressives-confront-their-limited-leverage-as-they-take-on-democratic-leaders",
-      "source": "Semafor",
-      "published": "2026-11-10T19:00:06+00:00",
+      "title": "IVF patient fears Catholic takeover will affect quest to become a mum",
+      "url": "https://www.abc.net.au/news/2026-11-11/concerns-ivf-egg-collections-calvary-hospital-takeover/107367364",
+      "source": "ABC Australia",
+      "published": "2026-11-10T19:29:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "GOP-led Epstein committee clears Trump of wrongdoing - but details government’s failings",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/epstein-trump-cleared-investigation-congress-b3082643.html",
-      "source": "The Independent",
-      "published": "2026-11-10T18:58:42+00:00",
+      "title": "Schiff makes calls on potential leadership bid",
+      "url": "https://www.semafor.com/article/11/10/2026/schiff-makes-calls-on-potential-leadership-bid",
+      "source": "Semafor",
+      "published": "2026-11-10T19:28:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1028,10 +1028,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7499.45,
+      "price": 7506.84,
       "currency": "USD",
-      "change": -50.49,
-      "change_percent": -0.67,
+      "change": -43.1,
+      "change_percent": -0.57,
       "name": "S&P 500"
     },
     {
@@ -1044,10 +1044,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24957.44,
+      "price": 24986.67,
       "currency": "USD",
-      "change": -295.69,
-      "change_percent": -1.17,
+      "change": -266.47,
+      "change_percent": -1.06,
       "name": "NASDAQ Composite"
     },
     {
@@ -1063,10 +1063,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7499.45,
+        "price": 7506.84,
         "currency": "USD",
-        "change": -50.49,
-        "change_percent": -0.67,
+        "change": -43.1,
+        "change_percent": -0.57,
         "name": "S&P 500"
       },
       {
@@ -1079,18 +1079,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52149.26,
+        "price": 52204.09,
         "currency": "USD",
-        "change": -240.49,
-        "change_percent": -0.46,
+        "change": -185.66,
+        "change_percent": -0.35,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24957.44,
+        "price": 24986.67,
         "currency": "USD",
-        "change": -295.69,
-        "change_percent": -1.17,
+        "change": -266.47,
+        "change_percent": -1.06,
         "name": "NASDAQ Composite"
       },
       {
@@ -1121,26 +1121,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4035.4,
+        "price": 4038.0,
         "currency": "USD",
-        "change": -79.1,
-        "change_percent": -1.92,
+        "change": -76.5,
+        "change_percent": -1.86,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.27,
+        "price": 51.39,
         "currency": "USD",
-        "change": -1.43,
-        "change_percent": -2.71,
+        "change": -1.3,
+        "change_percent": -2.47,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.53,
+        "price": 91.28,
         "currency": "USD",
-        "change": -1.04,
-        "change_percent": -1.12,
+        "change": -1.29,
+        "change_percent": -1.39,
         "name": "Brent Crude"
       },
       {
@@ -1156,81 +1156,81 @@
         "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.77,
+        "change_percent": -0.74,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.81,
+        "price": 158.84,
         "currency": "JPY",
-        "change": 0.91,
-        "change_percent": 0.58,
+        "change": 0.94,
+        "change_percent": 0.6,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73380.91,
+        "price": 73339.88,
         "currency": "USD",
-        "change": -1872.95,
-        "change_percent": -2.49,
+        "change": -1913.98,
+        "change_percent": -2.54,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 534.03,
+        "price": 534.86,
         "currency": "USD",
-        "change": -11.15,
-        "change_percent": -2.05,
+        "change": -10.32,
+        "change_percent": -1.89,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 348.08,
+        "price": 348.5,
         "currency": "USD",
-        "change": -2.61,
-        "change_percent": -0.74,
+        "change": -2.19,
+        "change_percent": -0.62,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 167.87,
+        "price": 167.73,
         "currency": "USD",
-        "change": -10.8,
-        "change_percent": -6.04,
+        "change": -10.94,
+        "change_percent": -6.12,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 286.78,
+        "price": 287.24,
         "currency": "USD",
-        "change": -1.37,
-        "change_percent": -0.48,
+        "change": -0.91,
+        "change_percent": -0.32,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 269.81,
+        "price": 270.38,
         "currency": "USD",
-        "change": 2.88,
-        "change_percent": 1.08,
+        "change": 3.45,
+        "change_percent": 1.29,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 377.02,
+        "price": 377.83,
         "currency": "USD",
-        "change": -1.03,
-        "change_percent": -0.27,
+        "change": -0.22,
+        "change_percent": -0.06,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 639.3,
+        "price": 641.44,
         "currency": "USD",
-        "change": -2.07,
-        "change_percent": -0.32,
+        "change": 0.07,
+        "change_percent": 0.01,
         "name": "Meta"
       }
     ]
@@ -1267,22 +1267,22 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "What does the DOJ’s post-midterms exodus mean for MAGA?",
+          "url": "https://theweek.com/politics/justice-department-doj-resignations-democrats-majority",
+          "published": "2026-11-10T19:22:22+00:00",
+          "snippet": "The Justice Department is losing some of its highest-profile leaders ahead of a Democratic majority in Washington"
+        },
+        {
+          "title": "6 homes with glorious fall foliage",
+          "url": "https://theweek.com/culture-life/property/6-homes-with-glorious-fall-foliage",
+          "published": "2026-11-10T19:05:10+00:00",
+          "snippet": "Featuring a house in the Berkshires that has a cupola with 360-degree treetop views and an 80-acre Oregon estate with a restored barn and riding arena"
+        },
+        {
           "title": "The best fantasy TV series ever imagined",
           "url": "https://theweek.com/culture-life/tv-radio/the-best-fantasy-tv-series-of-all-time-buffy-charmed-true-blood-game-of-thrones",
           "published": "2026-11-10T18:14:44+00:00",
           "snippet": "‘Buffy the Vampire Slayer’ and ‘Game of Thrones’ bookend the finest fantasy offerings"
-        },
-        {
-          "title": "Video games: A pair of new cinematic adventures",
-          "url": "https://theweek.com/culture-life/games/video-games-a-pair-of-new-cinematic-adventures",
-          "published": "2026-11-10T17:56:23+00:00",
-          "snippet": "Phantom Blade Zero, a Chinese fantasy game and Silver Pines, a new survival horror game"
-        },
-        {
-          "title": "Will Democratic victories be good for Wall Street?",
-          "url": "https://theweek.com/politics/will-democratic-victories-boost-wall-street",
-          "published": "2026-11-10T17:32:00+00:00",
-          "snippet": "AI stocks drop, but traders hope for stable economy after midterms"
         }
       ]
     },
@@ -1342,22 +1342,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "US affordability tracker: the data that will define the rest of Trump’s presidency — and the 2028 election",
+          "url": "https://www.ft.com/content/71dccbca-4a1f-485a-9790-28cc527cdb82?syn-25a6b1a6=1",
+          "published": "2026-11-10T19:15:11+00:00",
+          "snippet": "The FT is tracking changes to the cost of living that will affect American voters"
+        },
+        {
+          "title": "Weil partners approve plan to shut down law firm",
+          "url": "https://www.ft.com/content/7088e087-c688-485a-8e8d-efb6b75bc571?syn-25a6b1a6=1",
+          "published": "2026-11-10T19:11:51+00:00",
+          "snippet": "Dissolution of nearly century-old firm formalised after a series of defections plunged it into crisis"
+        },
+        {
           "title": "Treasuries slide as ‘hot’ inflation sparks bets on Fed rate rise",
           "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
           "published": "2026-11-10T18:53:50+00:00",
           "snippet": "Two-year government bond yields soar most since 2024 as October consumer price growth tops forecasts"
-        },
-        {
-          "title": "Battle to reclaim the Republican Party",
-          "url": "https://www.ft.com/content/0948dbc1-d5cb-4b41-adce-880ea1bf97b9?syn-25a6b1a6=1",
-          "published": "2026-11-10T18:15:50+00:00",
-          "snippet": "The choice is America First without Trump or a swing to a broader pragmatism"
-        },
-        {
-          "title": "UK fraudster who invented ‘too good to be true’ takeover bid given suspended sentence",
-          "url": "https://www.ft.com/content/ebef64b5-103c-46ba-b3b0-546634f74323?syn-25a6b1a6=1",
-          "published": "2026-11-10T18:13:21+00:00",
-          "snippet": "Christopher Woolcott created a cast of characters in a bid to profit from a rise in Touchstone Exploration’s shares"
         }
       ]
     },
@@ -1468,42 +1468,42 @@
         "title": "Thoughts on AI Coding",
         "url": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
         "comments_url": "https://lobste.rs/s/y4djcr/thoughts_on_ai_coding",
-        "score": 2,
+        "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-10T18:27:33.347000+00:00"
       },
       {
-        "title": "Work at the Frontier: AI's effect on freelance work",
-        "url": "https://openai.com/index/ai-effect-on-freelance-work",
-        "score": 15,
+        "title": "Starlink Mini 2",
+        "url": "https://starlink.com/mini-2",
+        "score": 66,
         "source": "Hacker News",
-        "published": "2026-11-10T18:02:54+00:00"
+        "published": "2026-11-10T18:22:32+00:00"
       },
       {
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-        "score": 47,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-10T18:02:02+00:00"
       },
       {
         "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
         "url": "https://github.com/GoogleChrome/modern-web-guidance",
-        "score": 35,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-10T18:01:15+00:00"
       },
       {
         "title": "Val Town is winding down",
         "url": "https://blog.val.town/winding-down",
-        "score": 91,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-10T17:31:14+00:00"
       },
       {
         "title": "AMD's Zen 6 Family: Feeding the Beast",
         "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-        "score": 67,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-10T17:02:32+00:00"
       },
@@ -1511,7 +1511,7 @@
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
         "comments_url": "https://lobste.rs/s/fdnic2/synaptics_patent_claims_stop_work_on",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:57:25.851000+00:00"
       },
@@ -1519,7 +1519,7 @@
         "title": ".name grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
         "comments_url": "https://lobste.rs/s/vkkbwo/name_grandfathered",
-        "score": 56,
+        "score": 66,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:52:12.273000+00:00"
       },
@@ -1527,21 +1527,21 @@
         "title": "Weird licenses and the new open source",
         "url": "https://dustri.org/b/weird-licenses-and-the-new-open-source.html",
         "comments_url": "https://lobste.rs/s/kqjcnb/weird_licenses_new_open_source",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:49:51.594000+00:00"
       },
       {
         "title": ".name Grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
-        "score": 336,
+        "score": 373,
         "source": "Hacker News",
         "published": "2026-11-10T16:37:44+00:00"
       },
       {
         "title": "Blender 5.3 released with Gaussian Splat support",
         "url": "https://www.blender.org/download/releases/5-3/",
-        "score": 276,
+        "score": 295,
         "source": "Hacker News",
         "published": "2026-11-10T16:15:43+00:00"
       },
@@ -1549,28 +1549,28 @@
         "title": "Announcing .NET 11",
         "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
         "comments_url": "https://lobste.rs/s/zingk1/announcing_net_11",
-        "score": 13,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:03:21.955000+00:00"
       },
       {
         "title": "Smart home devices should work without the internet",
         "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-        "score": 242,
+        "score": 301,
         "source": "Hacker News",
         "published": "2026-11-10T15:25:20+00:00"
       },
       {
         "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
         "url": "https://tinyvalencia.com/",
-        "score": 81,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-10T15:12:16+00:00"
       },
       {
         "title": "The Hardest Tarball?",
         "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-        "score": 123,
+        "score": 126,
         "source": "Hacker News",
         "published": "2026-11-10T15:00:39+00:00"
       }
@@ -1583,14 +1583,6 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-10T13:44:46+00:00"
-      },
-      {
-        "title": "Science Has Finally Shown That Your Cat Meows to Demand That You Fix Their World. Animal behaviorists introduced a problem into the lives of 38 pet cats – and observed the cats were four times more shouty when their favorite lackeys were around.",
-        "url": "https://www.sciencealert.com/science-has-finally-shown-that-your-cat-meows-to-demand-that-you-fix-their-world",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xst326/science_has_finally_shown_that_your_cat_meows_to/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-10T17:32:18+00:00"
       },
       {
         "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
@@ -1617,12 +1609,12 @@
         "published": "2026-11-10T13:58:36+00:00"
       },
       {
-        "title": "Drinking fluoridated tap water for decades does not appear to cause cognitive decline in later life. A study of nearly 2,500 older adults in Ireland, which has fluoridated public water since 1964, found no link between lifetime fluoride exposure and scores on two tests used to screen for dementia.",
-        "url": "https://neurosciencenews.com/water-fluoride-cognition-aging-32396/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xskwyv/drinking_fluoridated_tap_water_for_decades_does/",
+        "title": "UK could rejoin EU within four years, Barnier suggests",
+        "url": "https://www.independent.co.uk/news/uk/politics/uk-rejoin-eu-four-years-barnier-brexit-b3081201.html",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xsrmek/uk_could_rejoin_eu_within_four_years_barnier/",
         "score": null,
-        "source": "/r/science",
-        "published": "2026-11-10T11:51:09+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-10T16:37:34+00:00"
       },
       {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
@@ -1633,12 +1625,12 @@
         "published": "2026-11-10T15:54:12+00:00"
       },
       {
-        "title": "UK could rejoin EU within four years, Barnier suggests",
-        "url": "https://www.independent.co.uk/news/uk/politics/uk-rejoin-eu-four-years-barnier-brexit-b3081201.html",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsrmek/uk_could_rejoin_eu_within_four_years_barnier/",
+        "title": "Drinking fluoridated tap water for decades does not appear to cause cognitive decline in later life. A study of nearly 2,500 older adults in Ireland, which has fluoridated public water since 1964, found no link between lifetime fluoride exposure and scores on two tests used to screen for dementia.",
+        "url": "https://neurosciencenews.com/water-fluoride-cognition-aging-32396/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xskwyv/drinking_fluoridated_tap_water_for_decades_does/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T16:37:34+00:00"
+        "source": "/r/science",
+        "published": "2026-11-10T11:51:09+00:00"
       },
       {
         "title": "Netanyahu said calling Trump 'every day' to push him to resume Iran war",
@@ -1673,14 +1665,6 @@
         "published": "2026-11-10T15:32:12+00:00"
       },
       {
-        "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",
-        "url": "https://kyivindependent.com/exclusive-zelenskys-ex-chief-of-staff-yermak-ran-troubling-back-channel-with-trumps-susie-wiles-2/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xss67g/zelenskys_exchief_of_staff_yermak_ran_troubling/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T16:58:02+00:00"
-      },
-      {
         "title": "Operation Migrant: Inside the Russian smuggling scheme moving Middle Easterners and Africans into the EU",
         "url": "https://theins.press/en/inv/299252",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xst1se/operation_migrant_inside_the_russian_smuggling/",
@@ -1689,12 +1673,28 @@
         "published": "2026-11-10T17:30:54+00:00"
       },
       {
+        "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",
+        "url": "https://kyivindependent.com/exclusive-zelenskys-ex-chief-of-staff-yermak-ran-troubling-back-channel-with-trumps-susie-wiles-2/",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xss67g/zelenskys_exchief_of_staff_yermak_ran_troubling/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-10T16:58:02+00:00"
+      },
+      {
         "title": "Rubio Threatens ‘Tremendous Damage’ to ICC Unless Court Bows to US Demands",
         "url": "https://www.kyivpost.com/post/89614",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsj9tg/rubio_threatens_tremendous_damage_to_icc_unless/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-10T10:13:37+00:00"
+      },
+      {
+        "title": "Record 1.1 Million Russians Head Abroad in Three Months Amid Fears of Putin’s New Mobilization",
+        "url": "https://united24media.com/war-in-ukraine/record-11-million-russians-head-abroad-in-three-months-amid-fears-of-putins-new-mobilization-24239",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsqjrw/record_11_million_russians_head_abroad_in_three/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T15:57:28+00:00"
       }
     ]
   }

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T06:01:08.564146+00:00",
+  "last_updated": "2026-11-10T06:30:52.093013+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 378
+      "ms": 302
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 249
+      "ms": 480
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 132
+      "ms": 338
     },
     "BBC News": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 254
+      "ms": 77
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 204
+      "ms": 267
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 251
+      "ms": 351
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 606
+      "ms": 295
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 432
+      "ms": 631
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 121
+      "ms": 72
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 78
+      "ms": 258
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 1393
+      "ms": 596
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 414
+      "ms": 327
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 114
+      "ms": 386
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 112
+      "ms": 346
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 146
+      "ms": 163
     },
     "RNZ": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 305
+      "ms": 298
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 492
+      "ms": 868
     },
     "Semafor": {
       "ok": true,
       "count": 215,
       "error": null,
-      "ms": 492
+      "ms": 825
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 652
+      "ms": 533
     },
     "Straits Times": {
       "ok": true,
-      "count": 49,
+      "count": 50,
       "error": null,
-      "ms": 324
+      "ms": 362
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 190
+      "ms": 255
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 301
+      "ms": 318
     },
     "The Independent": {
       "ok": true,
       "count": 78,
       "error": null,
-      "ms": 238
+      "ms": 171
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 245
+      "ms": 348
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-10T03:58:13+00:00",
-      "score": 9,
+      "score": 7,
       "other_sources": [
         {
           "source": "The Hindu",
@@ -186,25 +186,13 @@
           "published": "2026-11-09T23:37:00+00:00"
         },
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
-          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-09T12:41:25+00:00"
-        },
-        {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
           "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
           "published": "2026-11-09T04:39:48+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
-      "consensus": 10.5
+      "consensus": 8.5
     },
     {
       "title": "France blames Iran for cyberattack on supermarket fridges",
@@ -247,12 +235,18 @@
       "consensus": 7.5
     },
     {
-      "title": "Ukraine peace talks in Abu Dhabi to test Russia's willingness to negotiate",
-      "url": "https://www.rfi.fr/en/international/20261110-ukraine-peace-talks-in-abu-dhabi-to-test-russia-s-willingness-to-negotiate",
-      "source": "RFI English",
-      "published": "2026-11-10T05:44:05+00:00",
-      "score": 3,
+      "title": "Live: Ukraine, Russia and US to resume peace talks in Abu Dhabi",
+      "url": "https://www.france24.com/en/europe/20261110-live-ukraine-russia-and-us-to-resume-peace-talks-in-abu-dhabi",
+      "source": "France24",
+      "published": "2026-11-10T06:09:26+00:00",
+      "score": 5,
       "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261110-ukraine-peace-talks-in-abu-dhabi-to-test-russia-s-willingness-to-negotiate",
+          "title": "Ukraine peace talks in Abu Dhabi to test Russia's willingness to negotiate",
+          "published": "2026-11-10T05:44:05+00:00"
+        },
         {
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/united-states-talks-russia-ukraine-abu-dhabi-6538206",
@@ -264,9 +258,15 @@
           "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
           "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
           "published": "2026-11-08T22:41:35+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160",
+          "title": "U.S.-Mediated Ukraine Peace Talks to Resume in Abu Dhabi Next Week",
+          "published": "2026-11-03T08:55:00+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 5.0
     },
     {
       "title": "UFC chief Dana White declines Donald Trump's White House job offer",
@@ -289,6 +289,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Meghan pulls out of Brussels child safety speech after father's arrest",
+      "url": "https://www.independent.co.uk/news/uk/home-news/meghan-markle-brussels-speech-cancelled-b3082158.html",
+      "source": "The Independent",
+      "published": "2026-11-10T06:26:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3373846/meghan-markle-pulls-out-brussels-speech-after-dads-arrest-over-child-sex-abuse-images",
+          "title": "Meghan Markle pulls out of Brussels speech following father’s US arrest",
+          "published": "2026-11-09T17:53:50+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Victorian One Nation candidate dumped over Hitler comments",
+      "url": "https://www.abc.net.au/news/2026-11-10/vic-one-nation-preston-candidate-guardiani-dumped/107368834",
+      "source": "ABC Australia",
+      "published": "2026-11-10T06:02:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/10/one-nation-dumps-franco-guardiani-praised-hitler-victoria-elections-ntwnfb",
+          "title": "One Nation dumps Victorian election candidate who praised Adolf Hitler as ‘GOAT’",
+          "published": "2026-11-10T04:44:32+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Trump says more US attacks on Iran 'highly unlikely'",
@@ -318,38 +350,6 @@
           "url": "https://www.france24.com/en/americas/20261109-republican-congressman-launches-impeachment-bid-against-pentagon-chief-hegseth",
           "title": "Republican congressman launches impeachment bid against Pentagon chief Hegseth",
           "published": "2026-11-09T19:32:26+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific",
-      "url": "https://www.japantimes.co.jp/news/2026/11/10/asia-pacific/taiwan-china-area-denial-pacific/",
-      "source": "Japan Times",
-      "published": "2026-11-10T03:46:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific",
-          "title": "Taiwan says China is conducting 'area denial' drills in Western Pacific",
-          "published": "2026-11-10T02:29:01+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "California voters reject proposed one-time tax on billionaires' wealth",
-      "url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
-      "source": "France24",
-      "published": "2026-11-10T03:19:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
-          "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
-          "published": "2026-11-10T02:54:54+00:00"
         }
       ],
       "consensus": 2.0
@@ -435,6 +435,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy/article71684853.ece",
+      "source": "The Hindu",
+      "published": "2026-11-10T03:28:53+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-sued-chinese-spy-6537296",
+          "title": "Nvidia, CEO Jensen Huang sued over disclosures related to suspected Chinese spy",
+          "published": "2026-11-09T23:15:00+00:00"
+        },
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
+          "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
+          "published": "2026-11-09T16:14:28+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "U.K. writer M. John Harrison wins Booker for AI-tinged apocalyptic novel",
       "url": "https://www.thehindu.com/books/books-authors/uk-author-m-john-harrison-wins-booker-prize-for-the-end-of-everything/article71684119.ece",
       "source": "The Hindu",
@@ -452,6 +474,28 @@
           "url": "https://www.france24.com/en/europe/20261109-uk-writer-m-john-harrison-wins-booker-prize-for-ai-tinged-apocalyptic-novel",
           "title": "UK writer M. John Harrison wins Booker Prize for AI-tinged apocalyptic novel",
           "published": "2026-11-09T22:09:55+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-09T23:51:22+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-ceo-jensen-huang-affair-spy-investigation-b3081353.html",
+          "title": "Nvidia launches investigation after CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-09T12:41:25+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
       "consensus": 3.5
@@ -583,49 +627,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Nvidia, CEO Huang sued over disclosures related to suspected Chinese spy",
-      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-ceo-huang-sued-over-disclosures-related-to-suspected-chinese-spy/article71684853.ece",
-      "source": "The Hindu",
-      "published": "2026-11-10T03:28:53+00:00",
+      "title": "'Cruise for life' ship seized in Singapore",
+      "url": "https://www.bbc.co.uk/news/articles/cqr7y7myer53o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-10T01:49:06+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-09/alice-huang-the-suspected-chinese-spy-at-the-center-of-the-nvidia-controversy.html",
-          "title": "Alice Huang, the suspected Chinese spy at the center of the Nvidia controversy",
-          "published": "2026-11-09T16:14:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Pope meets survivors of clergy abuse in Argentina as it reckons with legacy and ongoing cases",
-      "url": "https://www.thehindu.com/news/international/pope-meets-survivors-of-clergy-abuse-in-argentina-as-it-reckons-with-legacy-and-ongoing-cases/article71684800.ece",
-      "source": "The Hindu",
-      "published": "2026-11-10T02:00:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina?traffic_source=rss",
-          "title": "Pope meets with clergy abuse survivors in Argentina",
-          "published": "2026-11-09T22:14:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US Supreme Court allows border wall in Big Bend National Park to proceed",
-      "url": "https://www.aljazeera.com/news/2026/11/9/us-supreme-court-allows-border-wall-in-big-bend-national-park-to-proceed?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-09T23:15:19+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/supreme-court-big-bend-border-wall-approval-b3082050.html",
-          "title": "Supreme Court greenlights Trump's controversial Big Bend border wall construction",
-          "published": "2026-11-09T22:04:49+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/forever-cruise-ship-seized-in-singapore-as-passengers-remain-in-cambodia",
+          "title": "‘Forever cruise’ ship seized in Singapore as passengers remain in Cambodia",
+          "published": "2026-11-09T12:40:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -658,22 +670,6 @@
           "url": "https://www.cbc.ca/books/m-john-harrison-2026-booker-prize-the-end-of-everything-9.7415530?cmp=rss",
           "title": "2026 Booker Prize goes to post-apocalyptic, sci-fi novel The End of Everything",
           "published": "2026-11-09T22:13:56+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Hungarian police reportedly detain brother of ex-PM Viktor Orban",
-      "url": "https://www.aljazeera.com/news/2026/11/9/hungarian-police-reportedly-detain-brother-of-ex-pm-viktor-orban?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-09T22:13:29+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3373823/police-detain-brother-hungarys-ex-pm-orban",
-          "title": "Police detain brother of Hungary’s ex-PM Orban",
-          "published": "2026-11-09T12:00:33+00:00"
         }
       ],
       "consensus": 2.5
@@ -722,22 +718,6 @@
           "url": "https://www.cbc.ca/news/world/novoya-gazeta-russia-media-newspaper-closes-putin-9.7414787?cmp=rss",
           "title": "Russia's top independent newspaper closes under relentless government pressure",
           "published": "2026-11-09T15:16:15+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Meghan Markle pulls out of Brussels speech following father’s US arrest",
-      "url": "https://www.scmp.com/news/world/europe/article/3373846/meghan-markle-pulls-out-brussels-speech-after-dads-arrest-over-child-sex-abuse-images",
-      "source": "SCMP",
-      "published": "2026-11-09T17:53:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/home-news/meghan-harry-thomas-markle-arrest-b3081926.html",
-          "title": "Meghan pulls out of child safety speech with Harry after father’s arrest",
-          "published": "2026-11-09T17:50:26+00:00"
         }
       ],
       "consensus": 2.5
@@ -877,6 +857,54 @@
       "consensus": 2.5
     },
     {
+      "title": "Russia hits power stations in Ukraine, vessel in Black Sea",
+      "url": "https://www.thehindu.com/news/international/russia-hits-power-stations-in-ukraine-vessel-in-black-sea/article71681628.ece",
+      "source": "The Hindu",
+      "published": "2026-11-09T11:30:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/08/russia-says-hit-power-substations-in-ukraine-and-3-ships-in-black-sea-a94203",
+          "title": "Russia Says Hit Power Substations in Ukraine and 3 Ships in Black Sea",
+          "published": "2026-11-08T17:03:11+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific",
+      "url": "https://www.japantimes.co.jp/news/2026/11/10/asia-pacific/taiwan-china-area-denial-pacific/",
+      "source": "Japan Times",
+      "published": "2026-11-10T03:46:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific",
+          "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific",
+          "published": "2026-11-10T02:29:01+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "California voters reject proposed one-time tax on billionaires' wealth",
+      "url": "https://www.france24.com/en/americas/20261110-california-voters-reject-proposed-one-time-tax-on-billionaires-wealth",
+      "source": "France24",
+      "published": "2026-11-10T03:19:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/09/california-tax-billionaires-prop-40",
+          "title": "California voters fail to pass proposed one-time tax on billionaires’ wealth",
+          "published": "2026-11-10T02:54:54+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Australia to adopt ‘mandatory’ AI safeguards",
       "url": "https://www.straitstimes.com/asia/australianz/australia-to-adopt-mandatory-ai-safeguards",
       "source": "Straits Times",
@@ -888,38 +916,6 @@
           "url": "https://www.channelnewsasia.com/world/australia-tightens-ai-overnight-rules-openai-breach-6537776",
           "title": "Australia to adopt 'mandatory' AI safeguards",
           "published": "2026-11-10T01:32:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-10T00:09:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160",
-          "title": "U.S.-Mediated Ukraine Peace Talks to Resume in Abu Dhabi Next Week",
-          "published": "2026-11-03T08:55:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
-      "url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-09T23:46:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261109-what-to-expect-as-russia-ukraine-and-us-hold-trilateral-talks-in-abu-dhabi",
-          "title": "What to expect as Russia, Ukraine and the US hold trilateral talks in Abu Dhabi",
-          "published": "2026-11-09T21:46:23+00:00"
         }
       ],
       "consensus": 2.0
@@ -1067,6 +1063,22 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Argentina: Pope Leo XIV urges Milei's government to protect the most vulnerable",
+      "url": "https://www.euronews.com/2026/11/09/argentina-pope-leo-xiv-urges-mileis-government-to-protect-the-most-vulnerable",
+      "source": "Euronews",
+      "published": "2026-11-09T18:54:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/09/argentina-pope-leo-xiv-receives-warm-welcome-in-claypole/",
+          "title": "Argentina: Pope Leo XIV receives warm welcome in Claypole",
+          "published": "2026-11-09T17:03:44+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1139,10 +1151,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 60731.39,
+        "price": 60369.78,
         "currency": "JPY",
-        "change": 1955.89,
-        "change_percent": 3.33,
+        "change": 1594.28,
+        "change_percent": 2.71,
         "name": "Nikkei 225"
       },
       {
@@ -1165,26 +1177,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4131.8,
+        "price": 4132.1,
         "currency": "USD",
-        "change": 17.3,
-        "change_percent": 0.42,
+        "change": 17.6,
+        "change_percent": 0.43,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 53.32,
+        "price": 53.29,
         "currency": "USD",
-        "change": 0.63,
-        "change_percent": 1.19,
+        "change": 0.6,
+        "change_percent": 1.13,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.7,
+        "price": 91.54,
         "currency": "USD",
-        "change": -0.87,
-        "change_percent": -0.94,
+        "change": -1.03,
+        "change_percent": -1.11,
         "name": "Brent Crude"
       },
       {
@@ -1192,7 +1204,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.08,
+        "change_percent": 0.11,
         "name": "EUR/USD"
       },
       {
@@ -1200,23 +1212,23 @@
         "price": 1.34,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.01,
+        "change_percent": 0.04,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.04,
+        "price": 158.0,
         "currency": "JPY",
-        "change": 0.14,
-        "change_percent": 0.09,
+        "change": 0.1,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74650.47,
+        "price": 74572.76,
         "currency": "USD",
-        "change": -603.39,
-        "change_percent": -0.8,
+        "change": -681.1,
+        "change_percent": -0.91,
         "name": "Bitcoin"
       }
     ],
@@ -1386,22 +1398,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "EU on track to add Montenegro in 2028 despite national vetoes, says Ireland",
+          "url": "https://www.ft.com/content/bdeff514-60bf-4a2b-bc60-b4d6d5b7a6c7?syn-25a6b1a6=1",
+          "published": "2026-11-10T06:00:09+00:00",
+          "snippet": "Also in this newsletter: Are European companies able to feed their AI models enough data?"
+        },
+        {
+          "title": "Britain throws weight behind idea for new subsea data link to Norway",
+          "url": "https://www.ft.com/content/b2319b74-f4e7-4fc9-bac4-34eb43f47ba4?syn-25a6b1a6=1",
+          "published": "2026-11-10T06:00:09+00:00",
+          "snippet": "Feasibility study into proposed UK-Norway digital corridor comes at a time of increasing foreign threats to infrastructure"
+        },
+        {
           "title": "FirstFT: FBI is ‘looking into’ Nvidia’s Huang, Trump says",
           "url": "https://www.ft.com/content/6e4100c2-a69e-4f42-a99d-64c056d8592d?syn-25a6b1a6=1",
           "published": "2026-11-10T05:31:40+00:00",
           "snippet": "Also in today’s newsletter: UK-Russia ties and Iran war talks"
-        },
-        {
-          "title": "China’s trade surplus exceeds $1tn for first 10 months of year",
-          "url": "https://www.ft.com/content/a267d321-a489-4426-940e-1e4be712dc09?syn-25a6b1a6=1",
-          "published": "2026-11-10T05:03:06+00:00",
-          "snippet": "Balance is on course for annual record that would intensify tensions with trade partners"
-        },
-        {
-          "title": "AI’s affair to remember",
-          "url": "https://www.ft.com/content/4bf7b037-7ef1-4421-b298-7c2ecf4bf870?syn-25a6b1a6=1",
-          "published": "2026-11-10T05:00:29+00:00",
-          "snippet": "Nvidia’s boardroom crisis raises questions about the future of the company that has become the bank of AI"
         }
       ]
     },
@@ -1509,9 +1521,23 @@
   "web": {
     "tech": [
       {
+        "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+        "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+        "score": 19,
+        "source": "Hacker News",
+        "published": "2026-11-10T06:01:08+00:00"
+      },
+      {
+        "title": "Your TV can see through walls",
+        "url": "https://maurycyz.com/projects/fading/",
+        "score": 18,
+        "source": "Hacker News",
+        "published": "2026-11-10T05:24:45+00:00"
+      },
+      {
         "title": "Ultorg: The User Interface for Relational Databases",
         "url": "https://www.ultorg.com/",
-        "score": 12,
+        "score": 18,
         "source": "Hacker News",
         "published": "2026-11-10T03:59:39+00:00"
       },
@@ -1519,21 +1545,21 @@
         "title": "You should try Gleam",
         "url": "https://nchagnet.eu/blog/you-should-try-gleam",
         "comments_url": "https://lobste.rs/s/4yqgpu/you_should_try_gleam",
-        "score": 1,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-10T03:33:27.517000+00:00"
       },
       {
         "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
         "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-        "score": 75,
+        "score": 94,
         "source": "Hacker News",
         "published": "2026-11-10T03:20:06+00:00"
       },
       {
         "title": "Formalizing CPython",
         "url": "https://broyojo.com/python-formalization/",
-        "score": 21,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-10T01:56:48+00:00"
       },
@@ -1548,14 +1574,14 @@
       {
         "title": "Locating the source of a mysterious beep",
         "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-        "score": 87,
+        "score": 101,
         "source": "Hacker News",
         "published": "2026-11-10T00:10:46+00:00"
       },
       {
         "title": "Horible public key tricks",
         "url": "https://maurycyz.com/projects/badcert/",
-        "score": 95,
+        "score": 109,
         "source": "Hacker News",
         "published": "2026-11-10T00:07:17+00:00"
       },
@@ -1568,16 +1594,9 @@
         "published": "2026-11-09T23:25:03.114000+00:00"
       },
       {
-        "title": "Fable 5.2 one-shotted my nephew's dream game",
-        "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-        "score": 292,
-        "source": "Hacker News",
-        "published": "2026-11-09T23:08:13+00:00"
-      },
-      {
         "title": "Exact – a new cross platform UI framework",
         "url": "https://github.com/expo/exact",
-        "score": 99,
+        "score": 101,
         "source": "Hacker News",
         "published": "2026-11-09T22:59:13+00:00"
       },
@@ -1612,13 +1631,6 @@
         "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-09T21:45:49.846000+00:00"
-      },
-      {
-        "title": "USPS now offers official ZIP Code boundary polygons",
-        "url": "https://postalpro.usps.com/zcb",
-        "score": 573,
-        "source": "Hacker News",
-        "published": "2026-11-09T19:58:59+00:00"
       }
     ],
     "reddit": [

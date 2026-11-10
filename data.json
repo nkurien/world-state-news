@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T07:47:38.501505+00:00",
+  "last_updated": "2026-11-10T08:00:59.756395+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 698
+      "ms": 356
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 266
+      "ms": 255
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 170
+      "ms": 322
     },
     "BBC News": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 416
+      "ms": 253
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 325
+      "ms": 242
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 210
+      "ms": 222
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 511
+      "ms": 536
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 537
+      "ms": 343
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 191
+      "ms": 90
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 408
+      "ms": 197
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 458
+      "ms": 298
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 378
+      "ms": 311
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 362
+      "ms": 289
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 961
+      "ms": 161
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 494
+      "ms": 252
     },
     "RNZ": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 537
+      "ms": 347
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 812
+      "ms": 570
     },
     "Semafor": {
       "ok": true,
       "count": 215,
       "error": null,
-      "ms": 802
+      "ms": 495
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 619
+      "ms": 635
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 464
+      "ms": 315
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 105
+      "ms": 227
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 451
+      "ms": 204
     },
     "The Independent": {
       "ok": true,
-      "count": 75,
+      "count": 74,
       "error": null,
-      "ms": 167
+      "ms": 185
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 292
+      "ms": 204
     }
   },
   "breaking": [
@@ -153,8 +153,14 @@
       "url": "https://www.thehindu.com/news/international/trump-says-fbi-looking-into-nvidia-ceo-jensen-huangs-affair-with-chinese-agent/article71684773.ece",
       "source": "The Hindu",
       "published": "2026-11-10T07:01:09+00:00",
-      "score": 5,
+      "score": 6,
       "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+          "published": "2026-11-10T03:58:13+00:00"
+        },
         {
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-donald-trump-chinese-spy-6537361",
@@ -180,35 +186,7 @@
           "published": "2026-11-08T21:03:56+00:00"
         }
       ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
-      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
-      "source": "The Guardian",
-      "published": "2026-11-10T07:30:15+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-          "published": "2026-11-10T03:58:13+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy",
-          "title": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy",
-          "published": "2026-11-10T00:22:00+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-          "published": "2026-11-09T10:53:22+00:00"
-        }
-      ],
-      "consensus": 4.0
+      "consensus": 7.0
     },
     {
       "title": "Teddy Riner announces candidacy for French presidential elections",
@@ -231,6 +209,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
+      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
+      "source": "The Guardian",
+      "published": "2026-11-10T07:30:15+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261110-nvidia-shares-slide-as-board-probes-ceo-over-affair-with-alleged-chinese-spy",
+          "title": "Nvidia shares slide as board probes CEO over affair with alleged Chinese spy",
+          "published": "2026-11-10T00:22:00+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
+          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
+          "published": "2026-11-09T10:53:22+00:00"
+        }
+      ],
+      "consensus": 3.0
     },
     {
       "title": "California voters reject one-off billionaire wealth tax US media predicts",
@@ -553,28 +553,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
-      "url": "http://www.africanews.com/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province/",
-      "source": "Africanews",
-      "published": "2026-11-09T22:02:23+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province",
-          "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
-          "published": "2026-11-09T22:02:16+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3373832/turkey-steel-factory-blast-kills-6",
-          "title": "Explosion rips through steel plant in Turkey, killing at least 17",
-          "published": "2026-11-09T13:12:03+00:00"
-        }
-      ],
-      "consensus": 3.0
     },
     {
       "title": "Victorian One Nation candidate dumped over Hitler comments",
@@ -951,22 +929,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Okinawa governor calls for review of US forces pact after murder of Japanese woman",
-      "url": "https://www.channelnewsasia.com/east-asia/japan-okinawa-review-united-states-forces-pact-murder-6535351",
-      "source": "CNA",
-      "published": "2026-11-09T07:13:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/okinawa-governor-calls-for-review-of-us-forces-pact-after-murder",
-          "title": "Okinawa governor calls for review of US forces pact after murder",
-          "published": "2026-11-09T04:47:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
       "url": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
       "source": "NPR World",
@@ -981,6 +943,22 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
+      "url": "http://www.africanews.com/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province/",
+      "source": "Africanews",
+      "published": "2026-11-09T22:02:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/09/turkey-steel-plant-explosion-kills-17-in-izmir-province",
+          "title": "Turkey: Steel plant explosion kills 17 in Izmir province",
+          "published": "2026-11-09T22:02:16+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
       "title": "Poland: Tusk and Nawrocki honour six victims of Kraków shooting",
@@ -1061,6 +1039,15 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "China’s EV exports surge 145% as Iran war drives up overseas demand",
+      "url": "https://www.scmp.com/business/china-evs/article/3373912/chinas-ev-exports-surge-145-iran-war-drives-overseas-demand",
+      "source": "SCMP",
+      "published": "2026-11-10T08:00:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1092,8 +1079,8 @@
       "symbol": "^FTSE",
       "price": 10782.87,
       "currency": "GBP",
-      "change": 108.97,
-      "change_percent": 1.02,
+      "change": 0.0,
+      "change_percent": 0.0,
       "name": "FTSE 100"
     }
   ],
@@ -1111,8 +1098,8 @@
         "symbol": "^FTSE",
         "price": 10782.87,
         "currency": "GBP",
-        "change": 108.97,
-        "change_percent": 1.02,
+        "change": 0.0,
+        "change_percent": 0.0,
         "name": "FTSE 100"
       },
       {
@@ -1159,26 +1146,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4126.0,
+        "price": 4121.0,
         "currency": "USD",
-        "change": 11.5,
-        "change_percent": 0.28,
+        "change": 6.5,
+        "change_percent": 0.16,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.81,
+        "price": 52.77,
         "currency": "USD",
-        "change": 0.12,
-        "change_percent": 0.23,
+        "change": 0.07,
+        "change_percent": 0.14,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.09,
+        "price": 91.07,
         "currency": "USD",
-        "change": -1.48,
-        "change_percent": -1.6,
+        "change": -1.5,
+        "change_percent": -1.62,
         "name": "Brent Crude"
       },
       {
@@ -1186,7 +1173,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.24,
         "name": "EUR/USD"
       },
       {
@@ -1194,23 +1181,23 @@
         "price": 1.35,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.09,
+        "change_percent": 0.07,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 157.88,
+        "price": 158.0,
         "currency": "JPY",
-        "change": -0.02,
-        "change_percent": -0.01,
+        "change": 0.1,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 74851.66,
+        "price": 74680.9,
         "currency": "USD",
-        "change": -402.2,
-        "change_percent": -0.53,
+        "change": -572.96,
+        "change_percent": -0.76,
         "name": "Bitcoin"
       }
     ],
@@ -1506,28 +1493,28 @@
         "title": "Building a networking switch ASIC chip",
         "url": "https://essenceia.github.io/projects/expresso/",
         "comments_url": "https://lobste.rs/s/n8reli/building_networking_switch_asic_chip",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-10T07:39:39.567000+00:00"
       },
       {
         "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
         "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
-        "score": 133,
+        "score": 148,
         "source": "Hacker News",
         "published": "2026-11-10T06:01:08+00:00"
       },
       {
         "title": "Your TV can see through walls",
         "url": "https://maurycyz.com/projects/fading/",
-        "score": 58,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-10T05:24:45+00:00"
       },
       {
         "title": "Ultorg: The User Interface for Relational Databases",
         "url": "https://www.ultorg.com/",
-        "score": 38,
+        "score": 40,
         "source": "Hacker News",
         "published": "2026-11-10T03:59:39+00:00"
       },
@@ -1542,14 +1529,14 @@
       {
         "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
         "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
-        "score": 115,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-10T03:20:06+00:00"
       },
       {
         "title": "Formalizing CPython",
         "url": "https://broyojo.com/python-formalization/",
-        "score": 44,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-10T01:56:48+00:00"
       },
@@ -1557,21 +1544,21 @@
         "title": "Blunt Banhammer Blocks Basic Bots Ballistically",
         "url": "https://shkspr.mobi/blog/2026/11/blunt-banhammer-blocks-basic-bots-ballistically/",
         "comments_url": "https://lobste.rs/s/bubqox/blunt_banhammer_blocks_basic_bots",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-10T00:48:20.266000+00:00"
       },
       {
         "title": "Locating the source of a mysterious beep",
         "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
-        "score": 130,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-10T00:10:46+00:00"
       },
       {
         "title": "Horible public key tricks",
         "url": "https://maurycyz.com/projects/badcert/",
-        "score": 130,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-10T00:07:17+00:00"
       },
@@ -1690,6 +1677,14 @@
         "published": "2026-11-09T11:37:02+00:00"
       },
       {
+        "title": "CAS judge visited Moscow before ruling on Russia’s return to international hockey",
+        "url": "https://unn.ua/en/amp/cas-judge-visited-moscow-before-ruling-on-russias-return-to-international-hockey",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xsc0js/cas_judge_visited_moscow_before_ruling_on_russias/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-10T03:05:29+00:00"
+      },
+      {
         "title": "France accuses Iran of supermarket fridge cyberattack",
         "url": "https://www.cnn.com/2026/11/09/europe/france-accuses-iran-of-fridge-cyberattack-intl?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xrw43z/france_accuses_iran_of_supermarket_fridge/",
@@ -1704,14 +1699,6 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-09T14:43:37+00:00"
-      },
-      {
-        "title": "CAS judge visited Moscow before ruling on Russia’s return to international hockey",
-        "url": "https://unn.ua/en/amp/cas-judge-visited-moscow-before-ruling-on-russias-return-to-international-hockey",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsc0js/cas_judge_visited_moscow_before_ruling_on_russias/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T03:05:29+00:00"
       },
       {
         "title": "Ukraine says intercepted call shows Russian commander using African recruit as 'human shield'",

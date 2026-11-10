@@ -1,153 +1,235 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T18:01:07.577315+00:00",
+  "last_updated": "2026-11-10T18:31:28.060426+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 456
+      "ms": 344
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 292
+      "ms": 505
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 258
+      "ms": 279
     },
     "BBC News": {
       "ok": true,
-      "count": 28,
+      "count": 31,
       "error": null,
-      "ms": 277
+      "ms": 276
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 196
+      "ms": 299
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 301
+      "ms": 400
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 706
+      "ms": 620
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 478
+      "ms": 661
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 202
+      "ms": 69
     },
     "France24": {
-      "ok": false,
-      "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
-      "ms": 3383
+      "ok": true,
+      "count": 24,
+      "error": null,
+      "ms": 324
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 477
+      "ms": 221
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 407
+      "ms": 352
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 372
+      "ms": 125
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 182
+      "ms": 122
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 339
+      "ms": 351
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 245
+      "ms": 483
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 616
+      "ms": 738
     },
     "Semafor": {
       "ok": true,
       "count": 238,
       "error": null,
-      "ms": 647
+      "ms": 824
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 868
+      "ms": 825
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 361
+      "ms": 325
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 177
+      "ms": 199
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 297
+      "ms": 397
     },
     "The Independent": {
       "ok": true,
       "count": 76,
       "error": null,
-      "ms": 258
+      "ms": 275
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 230
+      "ms": 365
     }
   },
   "breaking": [
+    {
+      "title": "US skips UN human rights review, drawing criticism",
+      "url": "https://www.channelnewsasia.com/world/us-un-human-rights-review-meeting-postponed-6540346",
+      "source": "CNA",
+      "published": "2026-11-10T18:27:13+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373992/us-again-fails-show-un-its-human-rights-review",
+          "title": "US again fails to show at UN for its human rights review",
+          "published": "2026-11-10T17:17:51+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-un-human-rights-review-b3082347.html",
+          "title": "Donald Trump delivers ultimate snub to UN by making US first country to totally boycott human rights review",
+          "published": "2026-11-10T11:40:48+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+      "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
+      "source": "The Guardian",
+      "published": "2026-11-10T16:59:04+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261110-us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi",
+          "title": "US-mediated talks on ending Russia-Ukraine war begin in Abu Dhabi",
+          "published": "2026-11-10T13:29:45+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal/article71685183.ece",
+          "title": "U.S.-mediated talks on ending war between Russia, Ukraine begin in Abu Dhabi",
+          "published": "2026-11-10T10:05:16+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "‘It’s a farce’: Hegseth slams impeachment effort",
+      "url": "https://www.france24.com/en/video/20261110-it-s-a-farce-hegseth-slams-impeachment-effort",
+      "source": "France24",
+      "published": "2026-11-10T16:10:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cwm24249dezmo?at_medium=RSS&at_campaign=rss",
+          "title": "'It's a farce': Hegseth's defiant response to impeachment effort",
+          "published": "2026-11-10T15:40:43+00:00"
+        },
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-10/pete-hegseth-on-impeachment-effort-it-is-a-farce-and-its-a-stunt-and-everybody-knows-it.html",
+          "title": "Pete Hegseth on impeachment effort: ‘It is a farce and everybody knows it’",
+          "published": "2026-11-10T14:40:05+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Pete Hegseth defiant in wake of Republican’s impeachment effort as House prepares for key vote – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-10T18:14:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/hegseth-impeachment-house-vote-defence-trump-massie-6540321",
+          "title": "Defiant Hegseth blasts impeachment effort ahead of House vote",
+          "published": "2026-11-10T17:32:17+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
     {
       "title": "Anthropic targets $1.4 trillion valuation in massive stock market debut",
       "url": "https://www.aljazeera.com/economy/2026/11/10/anthropic-targets-1-4-trillion-valuation-in-massive-stock-market-debut?traffic_source=rss",
@@ -165,17 +247,17 @@
       "consensus": 2.5
     },
     {
-      "title": "US again fails to show at UN for its human rights review",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3373992/us-again-fails-show-un-its-human-rights-review",
-      "source": "SCMP",
-      "published": "2026-11-10T17:17:51+00:00",
+      "title": "US Pentagon chief Pete Hegseth calls impeachment moves 'a farce'",
+      "url": "https://www.france24.com/en/video/20261110-us-pentagon-chief-pete-hegseth-calls-impeachment-moves-a-farce",
+      "source": "France24",
+      "published": "2026-11-10T16:43:39+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-un-human-rights-review-b3082347.html",
-          "title": "Donald Trump delivers ultimate snub to UN by making US first country to totally boycott human rights review",
-          "published": "2026-11-10T11:40:48+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/pentagon-chief-hegseth-calls-moves-to-impeach-him-a-farce-that-will-fail/article71686563.ece",
+          "title": "Pentagon chief Hegseth calls moves to impeach him a farce that will fail",
+          "published": "2026-11-10T14:06:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -197,81 +279,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
-      "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
-      "source": "The Guardian",
-      "published": "2026-11-10T15:39:26+00:00",
+      "title": "Israel's new parliament sworn in as leaders compete to form government",
+      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-10T17:03:16+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/lewis-hamilton-visits-rafah-crossing-to-witness-gaza-aid-efforts?traffic_source=rss",
-          "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
-          "published": "2026-11-10T15:21:11+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Deadly Egypt train crash prompts calls for political accountability",
-      "url": "https://www.aljazeera.com/news/2026/11/10/deadly-egypt-train-collision-prompts-calls-for-political-accountability?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-10T15:22:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/09/deadly-train-crash-reignites-calls-for-overhaul-of-egypts-railway-network/",
-          "title": "Deadly train crash reignites calls for overhaul of Egypt's railway network",
-          "published": "2026-11-09T14:53:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Judge orders psychiatric exam for Thomas Markle in child abuse images case",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-meghan-markle-court-b3082520.html",
-      "source": "The Independent",
-      "published": "2026-11-10T15:06:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-judge-orders-psychiatric-exam-for-meghan-markles-father/article71685753.ece",
-          "title": "U.S. judge orders psychiatric exam for Meghan Markle's father",
-          "published": "2026-11-10T10:33:36+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia's future",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-chinese-san-francisco-fbi-b3082662.html",
-      "source": "The Independent",
-      "published": "2026-11-10T17:43:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
-          "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
-          "published": "2026-11-09T04:39:48+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Iran denies role in fridge hack, France summons ambassador",
-      "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-10T15:57:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/france-iran-fridges-hacked-cyber-attack-b3082446.html",
-          "title": "France summons Iran ambassador after vowing to 'punish' fridge hackers",
-          "published": "2026-11-10T14:25:20+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261110-new-israel-parliament-to-be-sworn-in-as-eisenkot-works-to-form-new-govt",
+          "title": "New Israel parliament to be sworn in as Eisenkot works to form new govt",
+          "published": "2026-11-10T11:22:39+00:00"
         }
       ],
       "consensus": 2.0
@@ -425,28 +443,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
-      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
-      "source": "NPR World",
-      "published": "2026-11-10T10:58:18+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal/article71685183.ece",
-          "title": "U.S.-mediated talks on ending war between Russia, Ukraine begin in Abu Dhabi",
-          "published": "2026-11-10T10:05:16+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
-          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
-          "published": "2026-11-10T09:57:22+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Qantas to cut 850 jobs and outsource much of the work to India",
       "url": "https://www.independent.co.uk/news/world/australasia/qantas-job-cuts-australia-india-accenture-ai-b3082173.html",
       "source": "The Independent",
@@ -467,6 +463,76 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "California voters reject measure to tax the wealth of billionaires",
+      "url": "https://www.france24.com/en/video/20261110-california-voters-reject-measure-to-tax-the-wealth-of-billionaires",
+      "source": "France24",
+      "published": "2026-11-10T11:20:09+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/california-proposition-40-billionaire-tax-b3082216.html",
+          "title": "Tech billionaires dodge massive wealth tax as California voters decisively reject controversial Proposition",
+          "published": "2026-11-10T08:59:49+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/10/california-voters-reject-one-off-billionaire-wealth-tax-us-media-predicts",
+          "title": "California voters reject one-off billionaire wealth tax US media predicts",
+          "published": "2026-11-10T07:11:16+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+      "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
+      "source": "The Guardian",
+      "published": "2026-11-10T15:39:26+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/lewis-hamilton-visits-rafah-crossing-to-witness-gaza-aid-efforts?traffic_source=rss",
+          "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
+          "published": "2026-11-10T15:21:11+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Deadly Egypt train crash prompts calls for political accountability",
+      "url": "https://www.aljazeera.com/news/2026/11/10/deadly-egypt-train-collision-prompts-calls-for-political-accountability?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-10T15:22:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/09/deadly-train-crash-reignites-calls-for-overhaul-of-egypts-railway-network/",
+          "title": "Deadly train crash reignites calls for overhaul of Egypt's railway network",
+          "published": "2026-11-09T14:53:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Judge orders psychiatric exam for Thomas Markle in child abuse images case",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-meghan-markle-court-b3082520.html",
+      "source": "The Independent",
+      "published": "2026-11-10T15:06:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-judge-orders-psychiatric-exam-for-meghan-markles-father/article71685753.ece",
+          "title": "U.S. judge orders psychiatric exam for Meghan Markle's father",
+          "published": "2026-11-10T10:33:36+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Activist Greta Thunberg arrives at UN climate talks in Turkey",
@@ -501,6 +567,22 @@
       "consensus": 2.5
     },
     {
+      "title": "French students block dozens of schools, vow more protests",
+      "url": "https://www.france24.com/en/video/20261110-french-students-block-dozens-of-schools-vow-more-protests",
+      "source": "France24",
+      "published": "2026-11-10T13:29:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/french-students-block-dozens-schools-6539126",
+          "title": "French students block dozens of schools",
+          "published": "2026-11-10T11:08:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "French judo star Teddy Riner announces run for presidency",
       "url": "http://www.africanews.com/2026/11/09/french-judo-star-teddy-riner-announces-run-for-presidency/",
       "source": "Africanews",
@@ -512,6 +594,22 @@
           "url": "https://www.rfi.fr/en/france/20261109-olympic-judo-champion-teddy-riner-joins-race-for-french-presidency",
           "title": "Olympic judo champion Teddy Riner joins race for French presidency",
           "published": "2026-11-09T17:44:42+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Dana White: UFC chief declines Trump’s White House job offer",
+      "url": "https://www.france24.com/en/video/20261110-dana-white-ufc-chief-declines-trump-s-white-house-job-offer",
+      "source": "France24",
+      "published": "2026-11-10T11:39:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/ufc-chief-dana-white-declines-donald-trumps-white-house-job-offer/article71684961.ece",
+          "title": "UFC chief Dana White declines Donald Trump's White House job offer",
+          "published": "2026-11-10T07:47:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -613,22 +711,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Turkey steel factory blast kills at least 17 people",
-      "url": "https://www.bbc.co.uk/news/articles/cq2d6d5z9y5jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-09T20:42:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/turkiye-steel-factory-blast-kills-10-6536806",
-          "title": "Türkiye steel factory blast kills 10",
-          "published": "2026-11-09T18:17:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "South Africa's ANC records worst-ever result in 'catastrophic' local election",
       "url": "https://www.rfi.fr/en/africa/20261109-south-africa-s-anc-slumps-to-worst-ever-election-result",
       "source": "RFI English",
@@ -667,17 +749,17 @@
       "consensus": 2.5
     },
     {
-      "title": "'It's a farce': Hegseth's defiant response to impeachment effort",
-      "url": "https://www.bbc.co.uk/news/videos/cwm24249dezmo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-10T15:40:43+00:00",
+      "title": "Iran denies role in fridge hack, France summons ambassador",
+      "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-10T15:57:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-10/pete-hegseth-on-impeachment-effort-it-is-a-farce-and-its-a-stunt-and-everybody-knows-it.html",
-          "title": "Pete Hegseth on impeachment effort: ‘It is a farce and everybody knows it’",
-          "published": "2026-11-10T14:40:05+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-iran-fridges-hacked-cyber-attack-b3082446.html",
+          "title": "France summons Iran ambassador after vowing to 'punish' fridge hackers",
+          "published": "2026-11-10T14:25:20+00:00"
         }
       ],
       "consensus": 2.0
@@ -742,6 +824,22 @@
           "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
           "title": "Trump says Iran war ‘effectively over’ as Tehran denies planned talks",
           "published": "2026-11-10T10:04:58+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "source": "NPR World",
+      "published": "2026-11-10T10:58:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
+          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
+          "published": "2026-11-10T09:57:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -891,64 +989,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Josh Hawley mocked over his plan for a 1-hour ‘fast’ and prayer session at the Capitol",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/josh-hawley-fasting-prayer-session-midterms-b3082663.html",
-      "source": "The Independent",
-      "published": "2026-11-10T17:52:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Joe Biden swarmed by protesters during surprise Dublin visit to support Hunter",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/joe-biden-dublin-arrests-hunter-event-b3082651.html",
-      "source": "The Independent",
-      "published": "2026-11-10T17:51:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "L’Europe a besoin de Nvidia et il faudra plus qu’un scandale d’espionnage pour que ça change",
-      "url": "https://www.politico.eu/article/leurope-a-besoin-de-nvidia-et-il-faudra-plus-quun-scandale-despionnage-pour-que-ca-change/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-10T17:41:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pete Hegseth dismisses Republican’s impeachment effort against him as ‘a political spectacle’ – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-10T17:39:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "After fridge hacks, home appliances could be next, EU cyber chief warns",
-      "url": "https://www.scmp.com/news/world/europe/article/3373993/after-fridge-hacks-home-appliances-could-be-next-eu-cyber-chief-warns",
+      "title": "UK court overturns Trinidad and Tobago law criminalising gay sex",
+      "url": "https://www.scmp.com/news/world/americas/article/3373994/uk-court-overturns-trinidad-and-tobago-law-criminalising-gay-sex",
       "source": "SCMP",
-      "published": "2026-11-10T17:36:36+00:00",
+      "published": "2026-11-10T18:27:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "COP31 electric power target sparks row over cutting fossil fuel use",
-      "url": "https://www.abc.net.au/news/2026-11-11/cop31-electrification-turkiye-australia/107371196",
-      "source": "ABC Australia",
-      "published": "2026-11-10T17:33:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "5 ways Spain’s conservatives plan to put the country on a new course",
-      "url": "https://www.politico.eu/article/5-ways-spain-conservatives-new-course-pp-alberto-nunez-feijoo/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-10T17:32:41+00:00",
+      "title": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
+      "url": "https://www.france24.com/en/americas/20261110-filming-amongst-body-bags-new-colombian-president-s-comms-campaign-sparks-backlash",
+      "source": "France24",
+      "published": "2026-11-10T18:18:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -957,10 +1010,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7486.3,
+      "price": 7491.9,
       "currency": "USD",
-      "change": -63.64,
-      "change_percent": -0.84,
+      "change": -58.04,
+      "change_percent": -0.77,
       "name": "S&P 500"
     },
     {
@@ -973,10 +1026,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24901.8,
+      "price": 24927.18,
       "currency": "USD",
-      "change": -351.34,
-      "change_percent": -1.39,
+      "change": -325.96,
+      "change_percent": -1.29,
       "name": "NASDAQ Composite"
     },
     {
@@ -992,10 +1045,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7486.3,
+        "price": 7491.9,
         "currency": "USD",
-        "change": -63.64,
-        "change_percent": -0.84,
+        "change": -58.04,
+        "change_percent": -0.77,
         "name": "S&P 500"
       },
       {
@@ -1008,18 +1061,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52088.31,
+        "price": 52110.67,
         "currency": "USD",
-        "change": -301.44,
-        "change_percent": -0.58,
+        "change": -279.08,
+        "change_percent": -0.53,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24901.8,
+        "price": 24927.18,
         "currency": "USD",
-        "change": -351.34,
-        "change_percent": -1.39,
+        "change": -325.96,
+        "change_percent": -1.29,
         "name": "NASDAQ Composite"
       },
       {
@@ -1050,10 +1103,10 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4028.5,
+        "price": 4027.7,
         "currency": "USD",
-        "change": -86.0,
-        "change_percent": -2.09,
+        "change": -86.8,
+        "change_percent": -2.11,
         "name": "Gold"
       },
       {
@@ -1061,15 +1114,15 @@
         "price": 51.23,
         "currency": "USD",
         "change": -1.46,
-        "change_percent": -2.77,
+        "change_percent": -2.78,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.83,
+        "price": 91.69,
         "currency": "USD",
-        "change": -0.74,
-        "change_percent": -0.8,
+        "change": -0.88,
+        "change_percent": -0.95,
         "name": "Brent Crude"
       },
       {
@@ -1077,7 +1130,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.53,
+        "change_percent": -0.5,
         "name": "EUR/USD"
       },
       {
@@ -1085,81 +1138,81 @@
         "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.83,
+        "change_percent": -0.79,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.81,
+        "price": 158.79,
         "currency": "JPY",
-        "change": 0.91,
-        "change_percent": 0.58,
+        "change": 0.89,
+        "change_percent": 0.57,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73208.02,
+        "price": 73347.52,
         "currency": "USD",
-        "change": -2045.84,
-        "change_percent": -2.72,
+        "change": -1906.34,
+        "change_percent": -2.53,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 530.86,
+        "price": 532.9,
         "currency": "USD",
-        "change": -14.32,
-        "change_percent": -2.63,
+        "change": -12.28,
+        "change_percent": -2.25,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 347.68,
+        "price": 348.2,
         "currency": "USD",
-        "change": -3.01,
-        "change_percent": -0.86,
+        "change": -2.49,
+        "change_percent": -0.71,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 167.66,
+        "price": 168.06,
         "currency": "USD",
-        "change": -11.0,
-        "change_percent": -6.16,
+        "change": -10.61,
+        "change_percent": -5.94,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 286.31,
+        "price": 286.08,
         "currency": "USD",
-        "change": -1.84,
-        "change_percent": -0.64,
+        "change": -2.07,
+        "change_percent": -0.72,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 268.6,
+        "price": 268.79,
         "currency": "USD",
-        "change": 1.67,
-        "change_percent": 0.63,
+        "change": 1.86,
+        "change_percent": 0.7,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 375.87,
+        "price": 377.52,
         "currency": "USD",
-        "change": -2.19,
-        "change_percent": -0.58,
+        "change": -0.53,
+        "change_percent": -0.14,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 640.6,
+        "price": 638.63,
         "currency": "USD",
-        "change": -0.77,
-        "change_percent": -0.12,
+        "change": -2.74,
+        "change_percent": -0.43,
         "name": "Meta"
       }
     ]
@@ -1196,6 +1249,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "The best fantasy TV series ever imagined",
+          "url": "https://theweek.com/culture-life/tv-radio/the-best-fantasy-tv-series-of-all-time-buffy-charmed-true-blood-game-of-thrones",
+          "published": "2026-11-10T18:14:44+00:00",
+          "snippet": "‘Buffy the Vampire Slayer’ and ‘Game of Thrones’ bookend the finest fantasy offerings"
+        },
+        {
           "title": "Video games: A pair of new cinematic adventures",
           "url": "https://theweek.com/culture-life/games/video-games-a-pair-of-new-cinematic-adventures",
           "published": "2026-11-10T17:56:23+00:00",
@@ -1206,12 +1265,6 @@
           "url": "https://theweek.com/politics/will-democratic-victories-boost-wall-street",
           "published": "2026-11-10T17:32:00+00:00",
           "snippet": "AI stocks drop, but traders hope for stable economy after midterms"
-        },
-        {
-          "title": "David Szalay’s 6 favorite books",
-          "url": "https://theweek.com/culture-life/books/david-szalays-6-favorite-books",
-          "published": "2026-11-10T17:29:53+00:00",
-          "snippet": "The Booker Prize-winning author recommends works by William Faulkner, Han Kang, and Sheila Heti"
         }
       ]
     },
@@ -1271,22 +1324,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "The Nvidia investor’s guide to (maybe) losing your CEO",
-          "url": "https://www.ft.com/content/c31c88c5-935c-42fb-bad0-408325a1de0b?syn-25a6b1a6=1",
-          "published": "2026-11-10T17:30:13+00:00",
-          "snippet": "Without Jensen Huang as chief, the company would probably shed some of its dominant market share and its generous pricing power"
+          "title": "Battle to reclaim the Republican Party",
+          "url": "https://www.ft.com/content/0948dbc1-d5cb-4b41-adce-880ea1bf97b9?syn-25a6b1a6=1",
+          "published": "2026-11-10T18:15:50+00:00",
+          "snippet": "The choice is America First without Trump or a swing to a broader pragmatism"
         },
         {
-          "title": "Defiant Hegseth defends Iran war as he faces impeachment vote",
-          "url": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
-          "published": "2026-11-10T17:28:03+00:00",
-          "snippet": "US defence secretary battles to save his job following Republicans’ defeat in midterm elections"
+          "title": "UK fraudster who invented ‘too good to be true’ takeover bid given suspended sentence",
+          "url": "https://www.ft.com/content/ebef64b5-103c-46ba-b3b0-546634f74323?syn-25a6b1a6=1",
+          "published": "2026-11-10T18:13:21+00:00",
+          "snippet": "Christopher Woolcott created a cast of characters in a bid to profit from a rise in Touchstone Exploration’s shares"
         },
         {
-          "title": "Higher-than-expected October inflation sparks Treasury sell-off",
-          "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-          "published": "2026-11-10T17:19:05+00:00",
-          "snippet": "Monthly figure of 0.4% prompts traders to increase bets on Federal Reserve rate before year end"
+          "title": "Labour and the Tories draw battle lines on welfare",
+          "url": "https://www.ft.com/content/3527cf9e-3980-4ccd-a90f-04df0fedce5a?syn-25a6b1a6=1",
+          "published": "2026-11-10T17:49:10+00:00",
+          "snippet": "Parties present sharply different ideas on tackling youth inactivity"
         }
       ]
     },
@@ -1295,6 +1348,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "Jensen Huang’s Apology May Be the Only Correct Use of AI",
+          "url": "https://www.theatlantic.com/newsletters/2026/11/jensen-huang-ai-apology-nvidia/689366/?utm_source=feed",
+          "published": "2026-11-10T18:08:00+00:00",
+          "snippet": "There are some things in life, like writing an apology email for derailing both national security and one’s marriage, that nobody wants to do."
+        },
         {
           "title": "Why Pete Hegseth Faces Impeachment",
           "url": "https://www.theatlantic.com/national-security/2026/11/pete-hegseth-thomas-massie-impeachment/689353/?utm_source=feed",
@@ -1306,12 +1365,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/trump-hate-legacy/689362/?utm_source=feed",
           "published": "2026-11-10T17:00:35+00:00",
           "snippet": "And he has, in turn, also corroded the soul of his party."
-        },
-        {
-          "title": "Can Democrats Hold Trump Accountable?",
-          "url": "https://www.theatlantic.com/politics/2026/11/democrats-trump-investigations-corruption/689354/?utm_source=feed",
-          "published": "2026-11-10T16:51:36+00:00",
-          "snippet": "They’re preparing investigations on numerous fronts, but the president knows how to stonewall."
         }
       ]
     },
@@ -1394,9 +1447,45 @@
   "web": {
     "tech": [
       {
+        "title": "Thoughts on AI Coding",
+        "url": "https://danielbmarkham.com/blog/thoughts-on-ai-coding",
+        "comments_url": "https://lobste.rs/s/y4djcr/thoughts_on_ai_coding",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-10T18:27:33.347000+00:00"
+      },
+      {
+        "title": "Work at the Frontier: AI's effect on freelance work",
+        "url": "https://openai.com/index/ai-effect-on-freelance-work",
+        "score": 8,
+        "source": "Hacker News",
+        "published": "2026-11-10T18:02:54+00:00"
+      },
+      {
+        "title": "Synaptics patent claims stop work on DisplayLink drivers",
+        "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+        "score": 11,
+        "source": "Hacker News",
+        "published": "2026-11-10T18:02:02+00:00"
+      },
+      {
+        "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance",
+        "score": 13,
+        "source": "Hacker News",
+        "published": "2026-11-10T18:01:15+00:00"
+      },
+      {
+        "title": "Val Town is winding down",
+        "url": "https://blog.val.town/winding-down",
+        "score": 49,
+        "source": "Hacker News",
+        "published": "2026-11-10T17:31:14+00:00"
+      },
+      {
         "title": "AMD's Zen 6 Family: Feeding the Beast",
         "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-        "score": 30,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-10T17:02:32+00:00"
       },
@@ -1404,7 +1493,7 @@
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
         "comments_url": "https://lobste.rs/s/fdnic2/synaptics_patent_claims_stop_work_on",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:57:25.851000+00:00"
       },
@@ -1412,7 +1501,7 @@
         "title": ".name grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
         "comments_url": "https://lobste.rs/s/vkkbwo/name_grandfathered",
-        "score": 28,
+        "score": 42,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:52:12.273000+00:00"
       },
@@ -1427,14 +1516,14 @@
       {
         "title": ".name Grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
-        "score": 204,
+        "score": 289,
         "source": "Hacker News",
         "published": "2026-11-10T16:37:44+00:00"
       },
       {
         "title": "Blender 5.3 released with Gaussian Splat support",
         "url": "https://www.blender.org/download/releases/5-3/",
-        "score": 213,
+        "score": 254,
         "source": "Hacker News",
         "published": "2026-11-10T16:15:43+00:00"
       },
@@ -1442,69 +1531,30 @@
         "title": "Announcing .NET 11",
         "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
         "comments_url": "https://lobste.rs/s/zingk1/announcing_net_11",
-        "score": 10,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:03:21.955000+00:00"
       },
       {
         "title": "Smart home devices should work without the internet",
         "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-        "score": 128,
+        "score": 181,
         "source": "Hacker News",
         "published": "2026-11-10T15:25:20+00:00"
       },
       {
         "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
         "url": "https://tinyvalencia.com/",
-        "score": 55,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-10T15:12:16+00:00"
       },
       {
         "title": "The Hardest Tarball?",
         "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-        "score": 109,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-10T15:00:39+00:00"
-      },
-      {
-        "title": "Beyond the compiler: Making IBM i run modified native code - Program Validation Value",
-        "url": "https://blog.silentsignal.eu/2026/11/10/Beyond-the-compiler-Making-IBM-i-run-modified-native-code-PVV/",
-        "comments_url": "https://lobste.rs/s/kymztn/beyond_compiler_making_ibm_i_run_modified",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-10T14:48:26.696000+00:00"
-      },
-      {
-        "title": "A faster Easter date function",
-        "url": "https://www.benjoffe.com/fast-easter",
-        "comments_url": "https://lobste.rs/s/alijyg/faster_easter_date_function",
-        "score": 7,
-        "source": "Lobste.rs",
-        "published": "2026-11-10T14:36:45.331000+00:00"
-      },
-      {
-        "title": "Nest Thermostat in 2026",
-        "url": "https://artificially-awesome.com/posts/nest/",
-        "comments_url": "https://lobste.rs/s/9krhza/nest_thermostat_2026",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-10T14:10:39.925000+00:00"
-      },
-      {
-        "title": "The hardest tarball",
-        "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-        "comments_url": "https://lobste.rs/s/t7qkjb/hardest_tarball",
-        "score": 26,
-        "source": "Lobste.rs",
-        "published": "2026-11-10T13:47:03.168000+00:00"
-      },
-      {
-        "title": "Ableton Live 13",
-        "url": "https://www.ableton.com/en/live/",
-        "score": 153,
-        "source": "Hacker News",
-        "published": "2026-11-10T12:58:04+00:00"
       }
     ],
     "reddit": [
@@ -1549,14 +1599,6 @@
         "published": "2026-11-10T13:58:36+00:00"
       },
       {
-        "title": "Netanyahu said calling Trump 'every day' to push him to resume Iran war",
-        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-said-calling-trump-every-day-to-push-him-to-resume-iran-war/#openwebComments",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsa9mc/netanyahu_said_calling_trump_every_day_to_push/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T01:41:13+00:00"
-      },
-      {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
         "url": "https://geographical.co.uk/news/north-korean-workers-are-on-sale-to-russian-companies-in-forced-labour-programme-report-reveals",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xsqgl7/north_korean_workers_are_on_sale_to_russian/",
@@ -1573,6 +1615,22 @@
         "published": "2026-11-10T16:37:34+00:00"
       },
       {
+        "title": "Netanyahu said calling Trump 'every day' to push him to resume Iran war",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-said-calling-trump-every-day-to-push-him-to-resume-iran-war/#openwebComments",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsa9mc/netanyahu_said_calling_trump_every_day_to_push/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-10T01:41:13+00:00"
+      },
+      {
+        "title": "Science Has Finally Shown That Your Cat Meows to Demand That You Fix Their World. Animal behaviorists introduced a problem into the lives of 38 pet cats – and observed the cats were four times more shouty when their favorite lackeys were around.",
+        "url": "https://www.sciencealert.com/science-has-finally-shown-that-your-cat-meows-to-demand-that-you-fix-their-world",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xst326/science_has_finally_shown_that_your_cat_meows_to/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-10T17:32:18+00:00"
+      },
+      {
         "title": "Macron couple brings new lawsuit against US podcaster Candace Owens because she still claims Macron's wife is transgender.",
         "url": "https://www.lemonde.fr/en/international/article/2026/11/10/france-s-macrons-bring-new-lawsuit-against-us-right-wing-podcaster-candace-owens_6776695_4.html",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xso3ok/macron_couple_brings_new_lawsuit_against_us/",
@@ -1581,12 +1639,12 @@
         "published": "2026-11-10T14:20:42+00:00"
       },
       {
-        "title": "Rubio Threatens ‘Tremendous Damage’ to ICC Unless Court Bows to US Demands",
-        "url": "https://www.kyivpost.com/post/89614",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsj9tg/rubio_threatens_tremendous_damage_to_icc_unless/",
+        "title": "Croatian Prime Minister Plenkovic labels patient's death at Zagreb psychiatric hospital a murder",
+        "url": "https://siol.net/novice/svet/plenkovic-smrt-pacienta-v-zagrebski-psihiatricni-bolnisnici-oznacil-za-umor-705940",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xssuhi/croatian_prime_minister_plenkovic_labels_patients/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-10T10:13:37+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-10T17:23:03+00:00"
       },
       {
         "title": "The EU’s Historic Enlargement Begins",
@@ -1597,6 +1655,14 @@
         "published": "2026-11-10T15:32:12+00:00"
       },
       {
+        "title": "Rubio Threatens ‘Tremendous Damage’ to ICC Unless Court Bows to US Demands",
+        "url": "https://www.kyivpost.com/post/89614",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsj9tg/rubio_threatens_tremendous_damage_to_icc_unless/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T10:13:37+00:00"
+      },
+      {
         "title": "Putin won't back down until Trump gets tough, warns U.S. defense expert",
         "url": "https://tvpworld.com/96400758/putin-wont-back-down-until-trump-gets-tough-warns-us-defense-expert",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xshq8q/putin_wont_back_down_until_trump_gets_tough_warns/",
@@ -1605,28 +1671,12 @@
         "published": "2026-11-10T08:34:00+00:00"
       },
       {
-        "title": "Russian lawmakers move to start fining ordinary citizens for ‘discrediting traditional values’",
-        "url": "https://novayagazeta.eu/en/articles/2026/11/10/russian-lawmakers-move-to-start-fining-ordinary-citizens-for-discrediting-traditional-values-en-news",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsj0fa/russian_lawmakers_move_to_start_fining_ordinary/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T09:57:58+00:00"
-      },
-      {
-        "title": "Data hacked from Russia's own statistics agency suggests more than 400,000 Russians have died in the war in Ukraine, a toll Moscow treats as a state secret.",
-        "url": "https://www.theguardian.com/world/2026/nov/09/russians-killed-ukraine-war-leaked-data",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsilyh/data_hacked_from_russias_own_statistics_agency/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-10T09:31:59+00:00"
-      },
-      {
-        "title": "Exclusive | U.S. Aircraft Evacuated From Second U.K. Base Due to Iran Threat",
-        "url": "https://www.wsj.com/world/middle-east/u-s-aircraft-evacuated-from-second-u-k-base-due-to-iran-threat-835a8b58",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsf9jq/exclusive_us_aircraft_evacuated_from_second_uk/",
+        "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",
+        "url": "https://kyivindependent.com/exclusive-zelenskys-ex-chief-of-staff-yermak-ran-troubling-back-channel-with-trumps-susie-wiles-2/",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xss67g/zelenskys_exchief_of_staff_yermak_ran_troubling/",
         "score": null,
         "source": "/r/geopolitics",
-        "published": "2026-11-10T05:59:39+00:00"
+        "published": "2026-11-10T16:58:02+00:00"
       }
     ]
   }

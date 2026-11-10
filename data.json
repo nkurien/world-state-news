@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T20:30:55.925231+00:00",
+  "last_updated": "2026-11-10T21:01:03.052602+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 126
+      "ms": 388
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 284
+      "ms": 353
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 223
+      "ms": 182
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 141
+      "ms": 154
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 231
+      "ms": 421
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 220
+      "ms": 189
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 330
+      "ms": 152
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 304
+      "ms": 443
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 296
+      "ms": 106
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 212
+      "ms": 217
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 518
+      "ms": 423
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 438
+      "ms": 339
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 98
+      "ms": 202
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 232
+      "ms": 237
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 218
+      "ms": 441
     },
     "RNZ": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 157
+      "ms": 441
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 790
+      "ms": 675
     },
     "Semafor": {
       "ok": true,
       "count": 240,
       "error": null,
-      "ms": 907
+      "ms": 553
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 680
+      "ms": 525
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 210
+      "ms": 369
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 144
+      "ms": 137
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 329
+      "ms": 285
     },
     "The Independent": {
       "ok": true,
-      "count": 72,
+      "count": 69,
       "error": null,
-      "ms": 302
+      "ms": 216
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 192
+      "ms": 330
     }
   },
   "breaking": [
@@ -195,6 +195,34 @@
       "consensus": 8.0
     },
     {
+      "title": "Meghan's father Thomas Markle detained for allegedly cutting off ankle monitor, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-10T20:53:33+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/meghan-markle-father-thomas-markle-child-sexual-abuse-charges-9.7416922?cmp=rss",
+          "title": "Meghan Markle's father cut off ankle monitor days after arrest, U.S. officials say",
+          "published": "2026-11-10T20:45:39+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3373999/thomas-markle-father-meghan-cut-ankle-monitor-days-after-arrest",
+          "title": "Thomas Markle, father of Meghan, cut off ankle monitor days after arrest",
+          "published": "2026-11-10T20:44:24+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/meghan-markle-father-thomas-arrested-fbi/article71675624.ece",
+          "title": "FBI arrests Thomas Markle, father of Meghan, over child sexual abuse material",
+          "published": "2026-11-10T10:42:27+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "U.S. boycotts U.N. human rights review for second year running",
       "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
       "source": "NPR World",
@@ -223,6 +251,50 @@
       "consensus": 5.0
     },
     {
+      "title": "US soldier arrested in UK on suspicion of spying for Russia",
+      "url": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-10T20:41:53+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928?cmp=rss",
+          "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
+          "published": "2026-11-10T20:21:11+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3373997/senior-us-soldier-arrested-uk-over-suspected-espionage-russia",
+          "title": "Senior US soldier arrested in UK over suspected espionage for Russia",
+          "published": "2026-11-10T20:20:35+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "F1 champion Lewis Hamilton visits Gaza border",
+      "url": "https://www.aljazeera.com/news/2026/11/10/f1-champion-lewis-hamilton-visits-gaza-border?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-10T20:14:34+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/10/lewis-hamilton-visits-egypts-rafah-border-to-highlight-humanitarian-efforts-for-war-torn-g/",
+          "title": "Lewis Hamilton visits Egypt’s Rafah border to highlight humanitarian efforts for war-torn Gaza",
+          "published": "2026-11-10T19:55:47+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
+          "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+          "published": "2026-11-10T15:39:26+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "UK children's author David Walliams accused of sex assault, grooming teens",
       "url": "https://www.channelnewsasia.com/world/david-walliams-sexual-assault-uk-comedian-author-6540531",
       "source": "CNA",
@@ -245,26 +317,10 @@
       "consensus": 3.5
     },
     {
-      "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
-      "url": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-10T20:21:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3373997/senior-us-soldier-arrested-uk-over-suspected-espionage-russia",
-          "title": "Senior US soldier arrested in UK over suspected espionage for Russia",
-          "published": "2026-11-10T20:20:35+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Jim Jordan, Trump ally and Maga firebrand, to lead House Republicans as minority leader next year - live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-10T20:13:50+00:00",
+      "published": "2026-11-10T20:34:43+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -291,69 +347,22 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "UK counter-terrorism police arrest senior US soldier with alleged links to Russia",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/10/uk-counter-terrorism-police-arrest-member-of-us-army-in-gloucestershire",
-      "source": "The Guardian",
-      "published": "2026-11-10T20:12:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
-          "published": "2026-11-10T19:35:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Lifesavers to trial AI tool to detect rip currents",
-      "url": "https://www.abc.net.au/news/2026-11-11/rip-detecting-ai-tool-being-trialled-nsw-beaches/107368710",
-      "source": "ABC Australia",
-      "published": "2026-11-10T20:24:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
     {
-      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
-      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
-      "source": "NPR World",
-      "published": "2026-11-10T10:58:18+00:00",
-      "score": 4,
+      "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
+      "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
+      "source": "Africanews",
+      "published": "2026-11-10T13:18:48+00:00",
+      "score": 5,
       "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
-          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
-          "published": "2026-11-10T09:57:22+00:00"
-        },
         {
           "source": "The Moscow Times",
           "url": "https://www.themoscowtimes.com/2026/11/10/russia-and-ukraine-hold-new-round-of-us-mediated-peace-talks-in-abu-dhabi-a94216",
           "title": "Russia and Ukraine Hold New Round of U.S.-Mediated Peace Talks in Abu Dhabi",
           "published": "2026-11-10T08:35:00+00:00"
         },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "published": "2026-11-08T22:41:35+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
-      "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
-      "source": "Africanews",
-      "published": "2026-11-10T13:18:48+00:00",
-      "score": 3,
-      "other_sources": [
         {
           "source": "RFI English",
           "url": "https://www.rfi.fr/en/international/20261110-ukraine-peace-talks-in-abu-dhabi-to-test-russia-s-willingness-to-negotiate",
@@ -365,9 +374,15 @@
           "url": "https://www.channelnewsasia.com/world/united-states-talks-russia-ukraine-abu-dhabi-6538206",
           "title": "US-mediated talks with Russia and Ukraine to start in Abu Dhabi",
           "published": "2026-11-10T04:47:06+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "published": "2026-11-08T22:41:35+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 6.5
     },
     {
       "title": "Comedian Russell Brand sentenced to more than a decade in prison",
@@ -491,38 +506,6 @@
           "url": "https://www.thehindu.com/news/international/pentagon-chief-hegseth-calls-moves-to-impeach-him-a-farce-that-will-fail/article71686563.ece",
           "title": "Pentagon chief Hegseth calls moves to impeach him a farce that will fail",
           "published": "2026-11-10T14:06:43+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
-      "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
-      "source": "The Guardian",
-      "published": "2026-11-10T15:39:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/lewis-hamilton-visits-rafah-crossing-to-witness-gaza-aid-efforts?traffic_source=rss",
-          "title": "Lewis Hamilton visits Rafah crossing to witness Gaza aid efforts",
-          "published": "2026-11-10T15:21:11+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Deadly Egypt train crash prompts calls for political accountability",
-      "url": "https://www.aljazeera.com/news/2026/11/10/deadly-egypt-train-collision-prompts-calls-for-political-accountability?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-10T15:22:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/09/deadly-train-crash-reignites-calls-for-overhaul-of-egypts-railway-network/",
-          "title": "Deadly train crash reignites calls for overhaul of Egypt's railway network",
-          "published": "2026-11-09T14:53:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -688,22 +671,6 @@
       "consensus": 2.5
     },
     {
-      "title": "South Africa's ANC records worst-ever result in 'catastrophic' local election",
-      "url": "https://www.rfi.fr/en/africa/20261109-south-africa-s-anc-slumps-to-worst-ever-election-result",
-      "source": "RFI English",
-      "published": "2026-11-09T15:45:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/08/anc-leads-south-africas-local-polls-but-records-all-time-election-low-final-results/",
-          "title": "ANC leads South Africa's local polls but records all-time election low: final results",
-          "published": "2026-11-08T14:07:48+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Egypt: Seven dead, 125 injured in collision between two trains",
       "url": "http://www.africanews.com/2026/11/09/egypt-seven-dead-125-injured-in-collision-between-two-trains/",
       "source": "Africanews",
@@ -726,17 +693,49 @@
       "consensus": 2.5
     },
     {
-      "title": "Thomas Markle, Meghan’s father, cut off his ankle monitor, DoJ says",
-      "url": "https://www.theguardian.com/us-news/2026/nov/10/thomas-markle-ankle-monitor",
-      "source": "The Guardian",
-      "published": "2026-11-10T20:08:10+00:00",
+      "title": "Meghan Markle’s father Thomas cut off his ankle monitor, DOJ says",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-cut-off-ankle-monitor-doj-b3082722.html",
+      "source": "The Independent",
+      "published": "2026-11-10T20:42:19+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-cut-off-ankle-monitor-doj-b3082722.html",
-          "title": "Meghan Markle’s father Thomas cut off his ankle monitor, DOJ says",
-          "published": "2026-11-10T19:50:44+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/10/thomas-markle-ankle-monitor",
+          "title": "Thomas Markle, Meghan’s father, cut off his ankle monitor, DoJ says",
+          "published": "2026-11-10T20:08:10+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "UK counter-terrorism police arrest senior US soldier with alleged links to Russia",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/10/uk-counter-terrorism-police-arrest-member-of-us-army-in-gloucestershire",
+      "source": "The Guardian",
+      "published": "2026-11-10T20:12:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "British counterterrorism police arrest US soldier accused of spying on behalf of Russia",
+          "published": "2026-11-10T19:35:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Alleged spy plot targeting CEO Jensen Huang raises questions about Nvidia's future",
+      "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-chinese-san-francisco-fbi-b3082662.html",
+      "source": "The Independent",
+      "published": "2026-11-10T17:43:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/nvidia-investigates-whether-ceo-jensen-huang-was-targeted-by-chinese-spy-following-alleged",
+          "title": "Nvidia investigates its own CEO Jensen Huang over affair with alleged Chinese spy",
+          "published": "2026-11-09T04:39:48+00:00"
         }
       ],
       "consensus": 2.0
@@ -822,6 +821,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "source": "NPR World",
+      "published": "2026-11-10T10:58:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
+          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
+          "published": "2026-11-10T09:57:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Loke resigns after Malaysia court clears Najib to start house arrest",
       "url": "https://www.scmp.com/week-asia/people/article/3373950/malaysia-court-clears-najib-begin-house-arrest",
       "source": "SCMP",
@@ -881,22 +896,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/taiwan-says-china-is-conducting-area-denial-drills-in-western-pacific",
           "title": "Taiwan says China is conducting ‘area denial’ drills in Western Pacific",
           "published": "2026-11-10T02:29:01+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Judge denies motion to dismiss Lindsay Clancy's murder case",
-      "url": "https://www.bbc.co.uk/news/articles/ck1l3le7q29vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-09T23:28:53+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/lindsay-clancy-denied-retrial-b3082048.html",
-          "title": "Lindsay Clancy's motion to dismiss murder charges is denied by judge",
-          "published": "2026-11-09T21:54:31+00:00"
         }
       ],
       "consensus": 2.0
@@ -966,28 +965,46 @@
       "consensus": 1.5
     },
     {
-      "title": "US soldier arrested in Britain on suspicion of assisting Russian intelligence",
-      "url": "https://www.france24.com/en/europe/20261110-us-soldier-arrested-in-britain-on-suspicion-of-assisting-russian-intelligence",
-      "source": "France24",
-      "published": "2026-11-10T20:23:04+00:00",
+      "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
+      "url": "https://www.politico.eu/article/nvidia-hires-wachtell-lipton-for-jensen-huang-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-10T20:58:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Jim Jordan elected House Republican leader after crushing midterm defeat",
-      "url": "https://www.scmp.com/news/us/politics/article/3373998/jim-jordan-elected-house-republican-leader-after-crushing-midterm-defeat",
+      "title": "Review finds Bendigo hospital did not follow procedure for brain deaths",
+      "url": "https://www.abc.net.au/news/2026-11-11/bendigo-hospital-brain-deaths-organ-donation-families-rushed/107371332",
+      "source": "ABC Australia",
+      "published": "2026-11-10T20:55:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Simeon Brown, Barbara Edmonds frontrunners for Finance Minister, business leaders say",
+      "url": "https://www.rnz.co.nz/news/business/2530618/simeon-brown-barbara-edmonds-frontrunners-for-finance-minister-business-leaders-say",
+      "source": "RNZ",
+      "published": "2026-11-10T20:51:47+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China mocks US ‘congratulations’ over Dominican closure of Chinese-run factory",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374000/china-mocks-us-congratulations-over-dominican-closure-chinese-run-factory",
       "source": "SCMP",
-      "published": "2026-11-10T20:21:24+00:00",
+      "published": "2026-11-10T20:49:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What the hack? Europeans face growing psyops and cyberattacks",
-      "url": "https://www.france24.com/en/tv-shows/the-debate/20261110-what-the-hack-europeans-face-growing-psyops-and-cyberattacks",
-      "source": "France24",
-      "published": "2026-11-10T20:19:22+00:00",
+      "title": "Israel's parliament sworn in as Eisenkot tries to forge a government",
+      "url": "https://www.channelnewsasia.com/world/israel-parliament-sworn-in-eisenkot-netanyahu-6540601",
+      "source": "CNA",
+      "published": "2026-11-10T20:48:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -996,10 +1013,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7515.39,
+      "price": 7521.11,
       "currency": "USD",
-      "change": -34.55,
-      "change_percent": -0.46,
+      "change": -28.83,
+      "change_percent": -0.38,
       "name": "S&P 500"
     },
     {
@@ -1012,10 +1029,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 25042.61,
+      "price": 25065.88,
       "currency": "USD",
-      "change": -210.53,
-      "change_percent": -0.83,
+      "change": -187.26,
+      "change_percent": -0.74,
       "name": "NASDAQ Composite"
     },
     {
@@ -1031,10 +1048,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7515.39,
+        "price": 7521.11,
         "currency": "USD",
-        "change": -34.55,
-        "change_percent": -0.46,
+        "change": -28.83,
+        "change_percent": -0.38,
         "name": "S&P 500"
       },
       {
@@ -1047,18 +1064,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52205.27,
+        "price": 52233.32,
         "currency": "USD",
-        "change": -184.48,
-        "change_percent": -0.35,
+        "change": -156.43,
+        "change_percent": -0.3,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 25042.61,
+        "price": 25065.88,
         "currency": "USD",
-        "change": -210.53,
-        "change_percent": -0.83,
+        "change": -187.26,
+        "change_percent": -0.74,
         "name": "NASDAQ Composite"
       },
       {
@@ -1089,34 +1106,34 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4040.4,
+        "price": 4042.9,
         "currency": "USD",
-        "change": -74.1,
-        "change_percent": -1.8,
+        "change": -71.6,
+        "change_percent": -1.74,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.52,
+        "price": 51.57,
         "currency": "USD",
-        "change": -1.17,
-        "change_percent": -2.22,
+        "change": -1.12,
+        "change_percent": -2.13,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.98,
+        "price": 91.94,
         "currency": "USD",
-        "change": -0.59,
-        "change_percent": -0.64,
+        "change": -0.63,
+        "change_percent": -0.68,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
         "price": 1.12,
         "currency": "USD",
-        "change": 0.0,
-        "change_percent": -0.45,
+        "change": -0.01,
+        "change_percent": -0.46,
         "name": "EUR/USD"
       },
       {
@@ -1124,81 +1141,81 @@
         "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.73,
+        "change_percent": -0.75,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.78,
+        "price": 158.81,
         "currency": "JPY",
-        "change": 0.88,
-        "change_percent": 0.56,
+        "change": 0.91,
+        "change_percent": 0.58,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73582.71,
+        "price": 73756.43,
         "currency": "USD",
-        "change": -1671.15,
-        "change_percent": -2.22,
+        "change": -1497.43,
+        "change_percent": -1.99,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 533.21,
+        "price": 533.16,
         "currency": "USD",
-        "change": -11.97,
+        "change": -12.02,
         "change_percent": -2.2,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 348.73,
+        "price": 348.51,
         "currency": "USD",
-        "change": -1.96,
-        "change_percent": -0.56,
+        "change": -2.18,
+        "change_percent": -0.62,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 168.3,
+        "price": 168.8,
         "currency": "USD",
-        "change": -10.37,
-        "change_percent": -5.8,
+        "change": -9.87,
+        "change_percent": -5.53,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 287.74,
+        "price": 287.38,
         "currency": "USD",
-        "change": -0.41,
-        "change_percent": -0.14,
+        "change": -0.77,
+        "change_percent": -0.27,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 271.79,
+        "price": 270.87,
         "currency": "USD",
-        "change": 4.86,
-        "change_percent": 1.82,
+        "change": 3.94,
+        "change_percent": 1.48,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 377.81,
+        "price": 379.78,
         "currency": "USD",
-        "change": -0.24,
-        "change_percent": -0.06,
+        "change": 1.73,
+        "change_percent": 0.46,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 644.78,
+        "price": 641.39,
         "currency": "USD",
-        "change": 3.41,
-        "change_percent": 0.53,
+        "change": 0.02,
+        "change_percent": 0.0,
         "name": "Meta"
       }
     ]
@@ -1235,7 +1252,7 @@
       "column": "briefings",
       "entries": [
         {
-          "title": "What does the DOJ’s post-midterms exodus mean for MAGA?",
+          "title": "What does the Department of Justice’s post-midterms exodus mean for MAGA?",
           "url": "https://theweek.com/politics/justice-department-doj-resignations-democrats-majority",
           "published": "2026-11-10T19:22:22+00:00",
           "snippet": "The Justice Department is losing some of its highest-profile leaders ahead of a Democratic majority in Washington"
@@ -1433,26 +1450,19 @@
   "web": {
     "tech": [
       {
-        "title": "Online learning on the programmable dataplane (2022)",
-        "url": "https://theses.gla.ac.uk/83235/3/2022SimpsonPhD.pdf",
-        "comments_url": "https://lobste.rs/s/tj73bq/online_learning_on_programmable",
-        "score": 1,
+        "title": "Memory Safety Bugs in Rust Standard Library",
+        "url": "https://forge-blog.github.io/posts/rust-std-memory-safety/",
+        "comments_url": "https://lobste.rs/s/plreds/memory_safety_bugs_rust_standard_library",
+        "score": 2,
         "source": "Lobste.rs",
-        "published": "2026-11-10T20:22:46.844000+00:00"
+        "published": "2026-11-10T19:44:50.546000+00:00"
       },
       {
         "title": "What objective is reasoning solving?",
         "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/",
-        "score": 22,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-10T19:25:14+00:00"
-      },
-      {
-        "title": "Saltline: First-person shooter built by Fable 5.2",
-        "url": "https://claude.ai/artifact/BGY1SztrAYcJQHSsnHHGmp",
-        "score": 25,
-        "source": "Hacker News",
-        "published": "2026-11-10T19:14:38+00:00"
       },
       {
         "title": "Large-Scale Measurement and Real-World Mitigation of Web Browser Fingerprinting in the Wild",
@@ -1465,49 +1475,42 @@
       {
         "title": "A comprehensive study of how fingerprintable users are",
         "url": "https://fingerprinting.study/",
-        "score": 20,
+        "score": 30,
         "source": "Hacker News",
         "published": "2026-11-10T19:03:54+00:00"
       },
       {
-        "title": "Starlink Mini 2",
-        "url": "https://starlink.com/mini-2",
-        "score": 144,
-        "source": "Hacker News",
-        "published": "2026-11-10T18:22:32+00:00"
-      },
-      {
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-        "score": 140,
+        "score": 163,
         "source": "Hacker News",
         "published": "2026-11-10T18:02:02+00:00"
       },
       {
         "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
         "url": "https://github.com/GoogleChrome/modern-web-guidance",
-        "score": 113,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-10T18:01:15+00:00"
       },
       {
-        "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
-        "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
-        "score": 80,
+        "title": "An Open Field Guide to Inference Engineering",
+        "url": "https://docs.modelplane.ai/guides/inference-guide",
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-10T17:55:07+00:00"
       },
       {
         "title": "Val Town is winding down",
         "url": "https://blog.val.town/winding-down",
-        "score": 169,
+        "score": 191,
         "source": "Hacker News",
         "published": "2026-11-10T17:31:14+00:00"
       },
       {
         "title": "AMD's Zen 6 Family: Feeding the Beast",
         "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-        "score": 109,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-10T17:02:32+00:00"
       },
@@ -1515,7 +1518,7 @@
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
         "comments_url": "https://lobste.rs/s/fdnic2/synaptics_patent_claims_stop_work_on",
-        "score": 11,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:57:25.851000+00:00"
       },
@@ -1523,7 +1526,7 @@
         "title": ".name grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
         "comments_url": "https://lobste.rs/s/vkkbwo/name_grandfathered",
-        "score": 80,
+        "score": 86,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:52:12.273000+00:00"
       },
@@ -1531,16 +1534,31 @@
         "title": "Weird licenses and the new open source",
         "url": "https://dustri.org/b/weird-licenses-and-the-new-open-source.html",
         "comments_url": "https://lobste.rs/s/kqjcnb/weird_licenses_new_open_source",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:49:51.594000+00:00"
       },
       {
         "title": ".name Grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
-        "score": 454,
+        "score": 492,
         "source": "Hacker News",
         "published": "2026-11-10T16:37:44+00:00"
+      },
+      {
+        "title": "Blender 5.3 released with Gaussian Splat support",
+        "url": "https://www.blender.org/download/releases/5-3/",
+        "score": 344,
+        "source": "Hacker News",
+        "published": "2026-11-10T16:15:43+00:00"
+      },
+      {
+        "title": "Announcing .NET 11",
+        "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
+        "comments_url": "https://lobste.rs/s/zingk1/announcing_net_11",
+        "score": 16,
+        "source": "Lobste.rs",
+        "published": "2026-11-10T16:03:21.955000+00:00"
       }
     ],
     "reddit": [
@@ -1561,12 +1579,12 @@
         "published": "2026-11-10T10:17:18+00:00"
       },
       {
-        "title": "EU Warns SpaceX It Risks Losing Trust Over Failure to Fulfil Starlink Agreements",
-        "url": "https://militarnyi.com/en/news/eu-warns-spacex-it-risks-losing-trust-over-failure-to-fulfil-starlink-agreements/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsl3nl/eu_warns_spacex_it_risks_losing_trust_over/",
+        "title": "UK could rejoin EU within four years, Barnier suggests",
+        "url": "https://www.independent.co.uk/news/uk/politics/uk-rejoin-eu-four-years-barnier-brexit-b3081201.html",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xsrmek/uk_could_rejoin_eu_within_four_years_barnier/",
         "score": null,
         "source": "/r/europe",
-        "published": "2026-11-10T12:00:51+00:00"
+        "published": "2026-11-10T16:37:34+00:00"
       },
       {
         "title": "US demands a seat for Europe at Ukraine peace talks – POLITICO",
@@ -1575,14 +1593,6 @@
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-10T13:58:36+00:00"
-      },
-      {
-        "title": "UK could rejoin EU within four years, Barnier suggests",
-        "url": "https://www.independent.co.uk/news/uk/politics/uk-rejoin-eu-four-years-barnier-brexit-b3081201.html",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsrmek/uk_could_rejoin_eu_within_four_years_barnier/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T16:37:34+00:00"
       },
       {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
@@ -1601,6 +1611,14 @@
         "published": "2026-11-10T11:51:09+00:00"
       },
       {
+        "title": "Soviet Nostalgia Is a Geopolitical Dead End",
+        "url": "https://foreignpolicy.com/2026/11/03/soviet-ukraine-russia-realism-history-nostalgia/",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsvc0y/soviet_nostalgia_is_a_geopolitical_dead_end/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-10T18:55:46+00:00"
+      },
+      {
         "title": "Croatian Prime Minister Plenkovic labels patient's death at Zagreb psychiatric hospital a murder",
         "url": "https://siol.net/novice/svet/plenkovic-smrt-pacienta-v-zagrebski-psihiatricni-bolnisnici-oznacil-za-umor-705940",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xssuhi/croatian_prime_minister_plenkovic_labels_patients/",
@@ -1609,20 +1627,12 @@
         "published": "2026-11-10T17:23:03+00:00"
       },
       {
-        "title": "Netanyahu said calling Trump 'every day' to push him to resume Iran war",
-        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-said-calling-trump-every-day-to-push-him-to-resume-iran-war/#openwebComments",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsa9mc/netanyahu_said_calling_trump_every_day_to_push/",
+        "title": "Russia Now Strikes Ukraine’s Grid Almost Every Night to Leave Families Without Power, Heat, and Water Before Winter",
+        "url": "https://united24media.com/war-in-ukraine/russia-now-strikes-ukraines-grid-almost-every-night-to-leave-families-without-power-heat-and-water-before-winter-24240",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xsraql/russia_now_strikes_ukraines_grid_almost_every/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T01:41:13+00:00"
-      },
-      {
-        "title": "Soviet Nostalgia Is a Geopolitical Dead End",
-        "url": "https://foreignpolicy.com/2026/11/03/soviet-ukraine-russia-realism-history-nostalgia/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsvc0y/soviet_nostalgia_is_a_geopolitical_dead_end/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T18:55:46+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-10T16:25:25+00:00"
       },
       {
         "title": "Macron couple brings new lawsuit against US podcaster Candace Owens because she still claims Macron's wife is transgender.",
@@ -1633,6 +1643,14 @@
         "published": "2026-11-10T14:20:42+00:00"
       },
       {
+        "title": "Netanyahu said calling Trump 'every day' to push him to resume Iran war",
+        "url": "https://www.timesofisrael.com/liveblog_entry/netanyahu-said-calling-trump-every-day-to-push-him-to-resume-iran-war/#openwebComments",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xsa9mc/netanyahu_said_calling_trump_every_day_to_push/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-10T01:41:13+00:00"
+      },
+      {
         "title": "Operation Migrant: Inside the Russian smuggling scheme moving Middle Easterners and Africans into the EU",
         "url": "https://theins.press/en/inv/299252",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xst1se/operation_migrant_inside_the_russian_smuggling/",
@@ -1641,12 +1659,12 @@
         "published": "2026-11-10T17:30:54+00:00"
       },
       {
-        "title": "Russia Now Strikes Ukraine’s Grid Almost Every Night to Leave Families Without Power, Heat, and Water Before Winter",
-        "url": "https://united24media.com/war-in-ukraine/russia-now-strikes-ukraines-grid-almost-every-night-to-leave-families-without-power-heat-and-water-before-winter-24240",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsraql/russia_now_strikes_ukraines_grid_almost_every/",
+        "title": "There Are Likely More Spies at AI Companies, Says Security Executive Lisa Thiergart",
+        "url": "https://www.theinformation.com/articles/likely-spies-ai-companies-says-security-executive-lisa-thiergart",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xsuc18/there_are_likely_more_spies_at_ai_companies_says/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T16:25:25+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-10T18:18:37+00:00"
       },
       {
         "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",

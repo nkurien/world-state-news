@@ -1,174 +1,208 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-10T18:31:28.060426+00:00",
+  "last_updated": "2026-11-10T19:01:04.885792+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 344
+      "ms": 395
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 505
+      "ms": 373
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 279
+      "ms": 244
     },
     "BBC News": {
       "ok": true,
-      "count": 31,
+      "count": 32,
       "error": null,
-      "ms": 276
+      "ms": 79
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 299
+      "ms": 95
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 400
+      "ms": 168
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 620
+      "ms": 442
     },
     "El País": {
       "ok": true,
-      "count": 56,
+      "count": 57,
       "error": null,
-      "ms": 661
+      "ms": 386
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 69
+      "ms": 217
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 324
+      "ms": 119
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 221
+      "ms": 419
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 352
+      "ms": 318
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 125
+      "ms": 368
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 122
+      "ms": 159
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 351
+      "ms": 225
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 483
+      "ms": 344
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 738
+      "ms": 687
     },
     "Semafor": {
       "ok": true,
-      "count": 238,
+      "count": 239,
       "error": null,
-      "ms": 824
+      "ms": 502
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 825
+      "ms": 440
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 325
+      "ms": 242
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 199
+      "ms": 213
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 397
+      "ms": 277
     },
     "The Independent": {
       "ok": true,
-      "count": 76,
+      "count": 74,
       "error": null,
-      "ms": 275
+      "ms": 169
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 365
+      "ms": 206
     }
   },
   "breaking": [
     {
-      "title": "US skips UN human rights review, drawing criticism",
-      "url": "https://www.channelnewsasia.com/world/us-un-human-rights-review-meeting-postponed-6540346",
-      "source": "CNA",
-      "published": "2026-11-10T18:27:13+00:00",
-      "score": 3,
+      "title": "UK children’s author David Walliams accused of grooming minors",
+      "url": "https://www.aljazeera.com/news/2026/11/10/uk-comedian-and-childrens-author-david-walliams-accused-of-grooming-minors?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-10T18:42:14+00:00",
+      "score": 4,
       "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/david-williams-accused-9.7416549?cmp=rss",
+          "title": "David Walliams, U.K. comedian and author, accused of preying on teenage girls",
+          "published": "2026-11-10T18:19:11+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-11/david-walliams-accused-of-grooming-teenage-girls/107370934",
+          "title": "Children's book author and TV star David Walliams accused of grooming girls",
+          "published": "2026-11-10T16:08:42+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3373989/uk-childrens-author-david-walliams-accused-sexual-misconduct",
+          "title": "UK children’s author David Walliams accused of sexual assault – denies claims",
+          "published": "2026-11-10T15:12:41+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
+    {
+      "title": "U.S. boycotts U.N. human rights review for second year running",
+      "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
+      "source": "NPR World",
+      "published": "2026-11-10T18:53:34+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/10/trump-administration-again-boycotts-un-human-rights-review?traffic_source=rss",
+          "title": "Trump administration again boycotts UN human rights review",
+          "published": "2026-11-10T18:29:56+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-un-human-rights-review-meeting-postponed-6540346",
+          "title": "US skips UN human rights review, drawing criticism",
+          "published": "2026-11-10T18:27:13+00:00"
+        },
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3373992/us-again-fails-show-un-its-human-rights-review",
           "title": "US again fails to show at UN for its human rights review",
           "published": "2026-11-10T17:17:51+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-un-human-rights-review-b3082347.html",
-          "title": "Donald Trump delivers ultimate snub to UN by making US first country to totally boycott human rights review",
-          "published": "2026-11-10T11:40:48+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 5.0
     },
     {
       "title": "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
@@ -218,7 +252,7 @@
       "title": "Pete Hegseth defiant in wake of Republican’s impeachment effort as House prepares for key vote – US politics live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-10T18:14:35+00:00",
+      "published": "2026-11-10T18:37:39+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -277,22 +311,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Israel's new parliament sworn in as leaders compete to form government",
-      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-10T17:03:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261110-new-israel-parliament-to-be-sworn-in-as-eisenkot-works-to-form-new-govt",
-          "title": "New Israel parliament to be sworn in as Eisenkot works to form new govt",
-          "published": "2026-11-10T11:22:39+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -347,7 +365,7 @@
       "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
       "source": "Africanews",
       "published": "2026-11-10T13:18:48+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "The Moscow Times",
@@ -366,15 +384,9 @@
           "url": "https://www.channelnewsasia.com/world/united-states-talks-russia-ukraine-abu-dhabi-6538206",
           "title": "US-mediated talks with Russia and Ukraine to start in Abu Dhabi",
           "published": "2026-11-10T04:47:06+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "published": "2026-11-08T22:41:35+00:00"
         }
       ],
-      "consensus": 6.5
+      "consensus": 5.0
     },
     {
       "title": "US moves aircraft from UK base amid reported Iran threat",
@@ -482,6 +494,28 @@
           "url": "https://www.euronews.com/2026/11/10/california-voters-reject-one-off-billionaire-wealth-tax-us-media-predicts",
           "title": "California voters reject one-off billionaire wealth tax US media predicts",
           "published": "2026-11-10T07:11:16+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+      "source": "NPR World",
+      "published": "2026-11-10T10:58:18+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
+          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
+          "published": "2026-11-10T09:57:22+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "published": "2026-11-08T22:41:35+00:00"
         }
       ],
       "consensus": 3.0
@@ -695,22 +729,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Post-apocalyptic science fiction novel wins 2026 Booker Prize",
-      "url": "https://www.rnz.co.nz/life/books/post-apocalyptic-science-fiction-novel-wins-2026-booker-prize",
-      "source": "RNZ",
-      "published": "2026-11-09T22:19:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/books/m-john-harrison-2026-booker-prize-the-end-of-everything-9.7415530?cmp=rss",
-          "title": "2026 Booker Prize goes to post-apocalyptic, sci-fi novel The End of Everything",
-          "published": "2026-11-09T22:13:56+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "South Africa's ANC records worst-ever result in 'catastrophic' local election",
       "url": "https://www.rfi.fr/en/africa/20261109-south-africa-s-anc-slumps-to-worst-ever-election-result",
       "source": "RFI English",
@@ -747,6 +765,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Israel's new parliament sworn in as leaders compete to form government",
+      "url": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-10T17:03:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261110-new-israel-parliament-to-be-sworn-in-as-eisenkot-works-to-form-new-govt",
+          "title": "New Israel parliament to be sworn in as Eisenkot works to form new govt",
+          "published": "2026-11-10T11:22:39+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Iran denies role in fridge hack, France summons ambassador",
@@ -824,22 +858,6 @@
           "url": "https://www.euronews.com/2026/11/10/trump-says-iran-war-effectively-over-as-tehran-denies-planned-talks",
           "title": "Trump says Iran war ‘effectively over’ as Tehran denies planned talks",
           "published": "2026-11-10T10:04:58+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
-      "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
-      "source": "NPR World",
-      "published": "2026-11-10T10:58:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/talks-between-russia-and-ukraine-begin-in-abu-dhabi-9.7416014?cmp=rss",
-          "title": "Russia, Ukraine engage in 4-hour session on first day of U.S.-mediated talks in Abu Dhabi",
-          "published": "2026-11-10T09:57:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -989,19 +1007,19 @@
       "consensus": 1.5
     },
     {
-      "title": "UK court overturns Trinidad and Tobago law criminalising gay sex",
-      "url": "https://www.scmp.com/news/world/americas/article/3373994/uk-court-overturns-trinidad-and-tobago-law-criminalising-gay-sex",
-      "source": "SCMP",
-      "published": "2026-11-10T18:27:05+00:00",
+      "title": "Progressives confront their limited leverage as they take on Democratic leaders",
+      "url": "https://www.semafor.com/article/11/10/2026/progressives-confront-their-limited-leverage-as-they-take-on-democratic-leaders",
+      "source": "Semafor",
+      "published": "2026-11-10T19:00:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
-      "url": "https://www.france24.com/en/americas/20261110-filming-amongst-body-bags-new-colombian-president-s-comms-campaign-sparks-backlash",
-      "source": "France24",
-      "published": "2026-11-10T18:18:30+00:00",
+      "title": "GOP-led Epstein committee clears Trump of wrongdoing - but details government’s failings",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/epstein-trump-cleared-investigation-congress-b3082643.html",
+      "source": "The Independent",
+      "published": "2026-11-10T18:58:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1010,10 +1028,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7491.9,
+      "price": 7499.45,
       "currency": "USD",
-      "change": -58.04,
-      "change_percent": -0.77,
+      "change": -50.49,
+      "change_percent": -0.67,
       "name": "S&P 500"
     },
     {
@@ -1026,10 +1044,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24927.18,
+      "price": 24957.44,
       "currency": "USD",
-      "change": -325.96,
-      "change_percent": -1.29,
+      "change": -295.69,
+      "change_percent": -1.17,
       "name": "NASDAQ Composite"
     },
     {
@@ -1045,10 +1063,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7491.9,
+        "price": 7499.45,
         "currency": "USD",
-        "change": -58.04,
-        "change_percent": -0.77,
+        "change": -50.49,
+        "change_percent": -0.67,
         "name": "S&P 500"
       },
       {
@@ -1061,18 +1079,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52110.67,
+        "price": 52149.26,
         "currency": "USD",
-        "change": -279.08,
-        "change_percent": -0.53,
+        "change": -240.49,
+        "change_percent": -0.46,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24927.18,
+        "price": 24957.44,
         "currency": "USD",
-        "change": -325.96,
-        "change_percent": -1.29,
+        "change": -295.69,
+        "change_percent": -1.17,
         "name": "NASDAQ Composite"
       },
       {
@@ -1103,26 +1121,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4027.7,
+        "price": 4035.4,
         "currency": "USD",
-        "change": -86.8,
-        "change_percent": -2.11,
+        "change": -79.1,
+        "change_percent": -1.92,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.23,
+        "price": 51.27,
         "currency": "USD",
-        "change": -1.46,
-        "change_percent": -2.78,
+        "change": -1.43,
+        "change_percent": -2.71,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.69,
+        "price": 91.53,
         "currency": "USD",
-        "change": -0.88,
-        "change_percent": -0.95,
+        "change": -1.04,
+        "change_percent": -1.12,
         "name": "Brent Crude"
       },
       {
@@ -1130,7 +1148,7 @@
         "price": 1.12,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.5,
+        "change_percent": -0.45,
         "name": "EUR/USD"
       },
       {
@@ -1138,81 +1156,81 @@
         "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.79,
+        "change_percent": -0.77,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.79,
+        "price": 158.81,
         "currency": "JPY",
-        "change": 0.89,
-        "change_percent": 0.57,
+        "change": 0.91,
+        "change_percent": 0.58,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73347.52,
+        "price": 73380.91,
         "currency": "USD",
-        "change": -1906.34,
-        "change_percent": -2.53,
+        "change": -1872.95,
+        "change_percent": -2.49,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 532.9,
+        "price": 534.03,
         "currency": "USD",
-        "change": -12.28,
-        "change_percent": -2.25,
+        "change": -11.15,
+        "change_percent": -2.05,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 348.2,
+        "price": 348.08,
         "currency": "USD",
-        "change": -2.49,
-        "change_percent": -0.71,
+        "change": -2.61,
+        "change_percent": -0.74,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 168.06,
+        "price": 167.87,
         "currency": "USD",
-        "change": -10.61,
-        "change_percent": -5.94,
+        "change": -10.8,
+        "change_percent": -6.04,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 286.08,
+        "price": 286.78,
         "currency": "USD",
-        "change": -2.07,
-        "change_percent": -0.72,
+        "change": -1.37,
+        "change_percent": -0.48,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 268.79,
+        "price": 269.81,
         "currency": "USD",
-        "change": 1.86,
-        "change_percent": 0.7,
+        "change": 2.88,
+        "change_percent": 1.08,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 377.52,
+        "price": 377.02,
         "currency": "USD",
-        "change": -0.53,
-        "change_percent": -0.14,
+        "change": -1.03,
+        "change_percent": -0.27,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 638.63,
+        "price": 639.3,
         "currency": "USD",
-        "change": -2.74,
-        "change_percent": -0.43,
+        "change": -2.07,
+        "change_percent": -0.32,
         "name": "Meta"
       }
     ]
@@ -1324,6 +1342,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Treasuries slide as ‘hot’ inflation sparks bets on Fed rate rise",
+          "url": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
+          "published": "2026-11-10T18:53:50+00:00",
+          "snippet": "Two-year government bond yields soar most since 2024 as October consumer price growth tops forecasts"
+        },
+        {
           "title": "Battle to reclaim the Republican Party",
           "url": "https://www.ft.com/content/0948dbc1-d5cb-4b41-adce-880ea1bf97b9?syn-25a6b1a6=1",
           "published": "2026-11-10T18:15:50+00:00",
@@ -1334,12 +1358,6 @@
           "url": "https://www.ft.com/content/ebef64b5-103c-46ba-b3b0-546634f74323?syn-25a6b1a6=1",
           "published": "2026-11-10T18:13:21+00:00",
           "snippet": "Christopher Woolcott created a cast of characters in a bid to profit from a rise in Touchstone Exploration’s shares"
-        },
-        {
-          "title": "Labour and the Tories draw battle lines on welfare",
-          "url": "https://www.ft.com/content/3527cf9e-3980-4ccd-a90f-04df0fedce5a?syn-25a6b1a6=1",
-          "published": "2026-11-10T17:49:10+00:00",
-          "snippet": "Parties present sharply different ideas on tackling youth inactivity"
         }
       ]
     },
@@ -1457,35 +1475,35 @@
       {
         "title": "Work at the Frontier: AI's effect on freelance work",
         "url": "https://openai.com/index/ai-effect-on-freelance-work",
-        "score": 8,
+        "score": 15,
         "source": "Hacker News",
         "published": "2026-11-10T18:02:54+00:00"
       },
       {
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
-        "score": 11,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-10T18:02:02+00:00"
       },
       {
         "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
         "url": "https://github.com/GoogleChrome/modern-web-guidance",
-        "score": 13,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-10T18:01:15+00:00"
       },
       {
         "title": "Val Town is winding down",
         "url": "https://blog.val.town/winding-down",
-        "score": 49,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-10T17:31:14+00:00"
       },
       {
         "title": "AMD's Zen 6 Family: Feeding the Beast",
         "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast",
-        "score": 50,
+        "score": 67,
         "source": "Hacker News",
         "published": "2026-11-10T17:02:32+00:00"
       },
@@ -1493,7 +1511,7 @@
         "title": "Synaptics patent claims stop work on DisplayLink drivers",
         "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
         "comments_url": "https://lobste.rs/s/fdnic2/synaptics_patent_claims_stop_work_on",
-        "score": 5,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:57:25.851000+00:00"
       },
@@ -1501,7 +1519,7 @@
         "title": ".name grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
         "comments_url": "https://lobste.rs/s/vkkbwo/name_grandfathered",
-        "score": 42,
+        "score": 56,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:52:12.273000+00:00"
       },
@@ -1516,14 +1534,14 @@
       {
         "title": ".name Grandfathered",
         "url": "https://neil.fraser.name/news/2026/11/10/",
-        "score": 289,
+        "score": 336,
         "source": "Hacker News",
         "published": "2026-11-10T16:37:44+00:00"
       },
       {
         "title": "Blender 5.3 released with Gaussian Splat support",
         "url": "https://www.blender.org/download/releases/5-3/",
-        "score": 254,
+        "score": 276,
         "source": "Hacker News",
         "published": "2026-11-10T16:15:43+00:00"
       },
@@ -1531,28 +1549,28 @@
         "title": "Announcing .NET 11",
         "url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/",
         "comments_url": "https://lobste.rs/s/zingk1/announcing_net_11",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-10T16:03:21.955000+00:00"
       },
       {
         "title": "Smart home devices should work without the internet",
         "url": "https://docodethatmatters.com/home-automation-overnight-success/",
-        "score": 181,
+        "score": 242,
         "source": "Hacker News",
         "published": "2026-11-10T15:25:20+00:00"
       },
       {
         "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
         "url": "https://tinyvalencia.com/",
-        "score": 70,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-10T15:12:16+00:00"
       },
       {
         "title": "The Hardest Tarball?",
         "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
-        "score": 120,
+        "score": 123,
         "source": "Hacker News",
         "published": "2026-11-10T15:00:39+00:00"
       }
@@ -1567,12 +1585,12 @@
         "published": "2026-11-10T13:44:46+00:00"
       },
       {
-        "title": "Drinking fluoridated tap water for decades does not appear to cause cognitive decline in later life. A study of nearly 2,500 older adults in Ireland, which has fluoridated public water since 1964, found no link between lifetime fluoride exposure and scores on two tests used to screen for dementia.",
-        "url": "https://neurosciencenews.com/water-fluoride-cognition-aging-32396/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xskwyv/drinking_fluoridated_tap_water_for_decades_does/",
+        "title": "Science Has Finally Shown That Your Cat Meows to Demand That You Fix Their World. Animal behaviorists introduced a problem into the lives of 38 pet cats – and observed the cats were four times more shouty when their favorite lackeys were around.",
+        "url": "https://www.sciencealert.com/science-has-finally-shown-that-your-cat-meows-to-demand-that-you-fix-their-world",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xst326/science_has_finally_shown_that_your_cat_meows_to/",
         "score": null,
         "source": "/r/science",
-        "published": "2026-11-10T11:51:09+00:00"
+        "published": "2026-11-10T17:32:18+00:00"
       },
       {
         "title": "Nvidia and Jensen Huang sued by shareholders over affair with alleged Chinese spy",
@@ -1599,6 +1617,14 @@
         "published": "2026-11-10T13:58:36+00:00"
       },
       {
+        "title": "Drinking fluoridated tap water for decades does not appear to cause cognitive decline in later life. A study of nearly 2,500 older adults in Ireland, which has fluoridated public water since 1964, found no link between lifetime fluoride exposure and scores on two tests used to screen for dementia.",
+        "url": "https://neurosciencenews.com/water-fluoride-cognition-aging-32396/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xskwyv/drinking_fluoridated_tap_water_for_decades_does/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-10T11:51:09+00:00"
+      },
+      {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
         "url": "https://geographical.co.uk/news/north-korean-workers-are-on-sale-to-russian-companies-in-forced-labour-programme-report-reveals",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xsqgl7/north_korean_workers_are_on_sale_to_russian/",
@@ -1621,14 +1647,6 @@
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-10T01:41:13+00:00"
-      },
-      {
-        "title": "Science Has Finally Shown That Your Cat Meows to Demand That You Fix Their World. Animal behaviorists introduced a problem into the lives of 38 pet cats – and observed the cats were four times more shouty when their favorite lackeys were around.",
-        "url": "https://www.sciencealert.com/science-has-finally-shown-that-your-cat-meows-to-demand-that-you-fix-their-world",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xst326/science_has_finally_shown_that_your_cat_meows_to/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-10T17:32:18+00:00"
       },
       {
         "title": "Macron couple brings new lawsuit against US podcaster Candace Owens because she still claims Macron's wife is transgender.",
@@ -1655,28 +1673,28 @@
         "published": "2026-11-10T15:32:12+00:00"
       },
       {
-        "title": "Rubio Threatens ‘Tremendous Damage’ to ICC Unless Court Bows to US Demands",
-        "url": "https://www.kyivpost.com/post/89614",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsj9tg/rubio_threatens_tremendous_damage_to_icc_unless/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-10T10:13:37+00:00"
-      },
-      {
-        "title": "Putin won't back down until Trump gets tough, warns U.S. defense expert",
-        "url": "https://tvpworld.com/96400758/putin-wont-back-down-until-trump-gets-tough-warns-us-defense-expert",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xshq8q/putin_wont_back_down_until_trump_gets_tough_warns/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T08:34:00+00:00"
-      },
-      {
         "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",
         "url": "https://kyivindependent.com/exclusive-zelenskys-ex-chief-of-staff-yermak-ran-troubling-back-channel-with-trumps-susie-wiles-2/",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xss67g/zelenskys_exchief_of_staff_yermak_ran_troubling/",
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-10T16:58:02+00:00"
+      },
+      {
+        "title": "Operation Migrant: Inside the Russian smuggling scheme moving Middle Easterners and Africans into the EU",
+        "url": "https://theins.press/en/inv/299252",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xst1se/operation_migrant_inside_the_russian_smuggling/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-10T17:30:54+00:00"
+      },
+      {
+        "title": "Rubio Threatens ‘Tremendous Damage’ to ICC Unless Court Bows to US Demands",
+        "url": "https://www.kyivpost.com/post/89614",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsj9tg/rubio_threatens_tremendous_damage_to_icc_unless/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T10:13:37+00:00"
       }
     ]
   }

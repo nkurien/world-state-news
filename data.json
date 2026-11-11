@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-11T07:30:52.509130+00:00",
+  "last_updated": "2026-11-11T08:01:05.368178+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 234
+      "ms": 654
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 201
+      "ms": 592
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 140
+      "ms": 296
     },
     "BBC News": {
       "ok": true,
       "count": 38,
       "error": null,
-      "ms": 220
+      "ms": 202
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 199
+      "ms": 331
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 149
+      "ms": 274
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 230
+      "ms": 1019
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 504
+      "ms": 669
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 189
+      "ms": 173
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 218
+      "ms": 355
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 404
+      "ms": 1388
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 259
+      "ms": 239
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 222
+      "ms": 273
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 140
+      "ms": 157
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 170
+      "ms": 309
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 302
+      "ms": 671
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 562
+      "ms": 831
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 405
+      "ms": 951
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 555
+      "ms": 854
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 306
+      "ms": 582
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 439
+      "ms": 427
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 235
+      "ms": 429
     },
     "The Independent": {
       "ok": true,
-      "count": 73,
+      "count": 74,
       "error": null,
-      "ms": 169
+      "ms": 301
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 202
+      "ms": 473
     }
   },
   "breaking": [
@@ -189,10 +189,54 @@
       "consensus": 7.0
     },
     {
+      "title": "US soldier arrested in England on suspicion of spying for Russia",
+      "url": "https://www.euronews.com/2026/11/11/us-soldier-arrested-in-england-on-suspicion-of-spying-for-russia",
+      "source": "Euronews",
+      "published": "2026-11-11T07:54:52+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928?cmp=rss",
+          "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
+          "published": "2026-11-10T20:21:11+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
+          "title": "US Army soldier suspected of spying for Russia arrested in UK",
+          "published": "2026-11-10T20:20:04+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "US Treasury chief Bessent moved to military base over alleged Iran threats",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374046/us-treasury-chief-bessent-moved-military-base-after-iran-threats",
+      "source": "SCMP",
+      "published": "2026-11-11T07:45:52+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-sources-say-6541196",
+          "title": "US Treasury chief Bessent moved to military base after Iranian threats, sources say",
+          "published": "2026-11-11T05:10:36+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats-reports-say/article71688103.ece",
+          "title": "U.S. Treasury chief Bessent moved to military base after Iranian threats, reports say",
+          "published": "2026-11-11T02:52:13+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Immigration arrests go on unabated despite Trump's misgivings after GOP's midterm wipeout",
       "url": "https://www.thehindu.com/news/international/immigration-arrests-go-on-unabated-despite-trumps-misgivings-after-gops-midterm-wipeout/article71688665.ece",
       "source": "The Hindu",
-      "published": "2026-11-11T07:07:51+00:00",
+      "published": "2026-11-11T07:37:32+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -203,6 +247,38 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Chinese university buys Nvidia AI H200 chips despite US ban, records show",
+      "url": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-11T07:26:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show",
+          "title": "PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+          "published": "2026-11-11T05:33:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Disaster warning systems race to keep pace with galloping climate risks",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/11/climate-change/disaster-warning-systems-climate/",
+      "source": "Japan Times",
+      "published": "2026-11-11T07:46:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/disaster-warning-systems-race-to-keep-pace-with-galloping-climate-risks",
+          "title": "Disaster warning systems race to keep pace with galloping climate risks",
+          "published": "2026-11-11T02:08:47+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Behind Bangladesh’s garment boom, workers cut food, healthcare as wages fall short",
@@ -221,60 +297,10 @@
       "consensus": 2.0
     },
     {
-      "title": "JR East to introduce touchless ticket gates in spring 2028",
-      "url": "https://www.japantimes.co.jp/business/2026/11/11/companies/jr-east-ticket-gate/",
-      "source": "Japan Times",
-      "published": "2026-11-11T05:15:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/jr-east-to-launch-walk-through-ticket-gates-at-40-stations-in-2028",
-          "title": "JR East to launch walk-through ticket gates at 40 stations in 2028",
-          "published": "2026-11-10T11:10:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "US Treasury chief Bessent moved to military base after Iranian threats, sources say",
-      "url": "https://www.channelnewsasia.com/world/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-sources-say-6541196",
-      "source": "CNA",
-      "published": "2026-11-11T05:10:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-treasury-chief-bessent-moved-to-military-base-after-iranian-threats-reports-say/article71688103.ece",
-          "title": "U.S. Treasury chief Bessent moved to military base after Iranian threats, reports say",
-          "published": "2026-11-11T02:52:13+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Teddy Riner candidacy 'illustrative of this hunger for an alternative' to Le Pen or Mélenchon",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261111-teddy-riner-candidacy-illustrative-of-this-hunger-for-an-alternative-to-le-pen-or-m%C3%A9lenchon",
-      "source": "France24",
-      "published": "2026-11-11T07:25:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China’s cutthroat car market, Southeast Asia’s electric vehicle boom: 7 EV reads",
-      "url": "https://www.scmp.com/business/china-evs/article/3374044/chinas-cutthroat-car-market-southeast-asias-electric-vehicle-boom-7-ev-reads",
+      "title": "How China’s ‘two-for-one’ diplomatic threat forced Japan’s Takaichi to back down",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374025/how-chinas-two-one-diplomatic-threat-forced-japans-takaichi-back-down",
       "source": "SCMP",
-      "published": "2026-11-11T07:24:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Want to win an AFLW flag? Club culture matters, data shows",
-      "url": "https://www.abc.net.au/news/2026-11-11/aflw-club-culture-on-field-success-aflpa/107370004",
-      "source": "ABC Australia",
-      "published": "2026-11-11T07:22:39+00:00",
+      "published": "2026-11-11T08:00:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -368,40 +394,6 @@
       "consensus": 7.0
     },
     {
-      "title": "US Republicans block efforts to impeach US Defence Secretary Pete Hegseth over Iran war",
-      "url": "https://www.euronews.com/2026/11/11/us-republicans-block-efforts-to-impeach-us-defence-secretary-pete-hegseth-over-iran-war",
-      "source": "Euronews",
-      "published": "2026-11-11T04:29:30+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-          "published": "2026-11-11T03:26:42+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-republicans-derail-bid-to-impeach-hegseth/article71687959.ece",
-          "title": "U.S. Republicans derail bid to impeach Hegseth",
-          "published": "2026-11-11T01:30:55+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-house-representatives-block-path-impeach-defense-secretary-pete-hegseth-6540901",
-          "title": "US House blocks bid to impeach Defense Secretary Hegseth",
-          "published": "2026-11-10T23:29:00+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/11/world/politics/us-house-impeach-hegseth/",
-          "title": "U.S. House blocks path to impeach Defense Secretary Hegseth",
-          "published": "2026-11-10T23:26:00+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
-    {
       "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
       "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -462,6 +454,34 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "US Republicans block efforts to impeach US Defence Secretary Pete Hegseth over Iran war",
+      "url": "https://www.euronews.com/2026/11/11/us-republicans-block-efforts-to-impeach-us-defence-secretary-pete-hegseth-over-iran-war",
+      "source": "Euronews",
+      "published": "2026-11-11T04:29:30+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+          "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+          "published": "2026-11-11T03:26:42+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-republicans-derail-bid-to-impeach-hegseth/article71687959.ece",
+          "title": "U.S. Republicans derail bid to impeach Hegseth",
+          "published": "2026-11-11T01:30:55+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-house-representatives-block-path-impeach-defense-secretary-pete-hegseth-6540901",
+          "title": "US House blocks bid to impeach Defense Secretary Hegseth",
+          "published": "2026-11-10T23:29:00+00:00"
+        }
+      ],
+      "consensus": 4.5
     },
     {
       "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – as it happened",
@@ -567,22 +587,6 @@
           "url": "https://www.cbc.ca/news/business/anthropic-ipo-9.7416077?cmp=rss",
           "title": "Anthropic eyes $1 trillion US valuation in hotly anticipated IPO that's a key test for AI market",
           "published": "2026-11-10T14:20:09+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
-      "url": "https://www.cbc.ca/news/world/us-soldier-arrest-suspicion-espionage-russia-9.7416928?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-10T20:21:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3373997/senior-us-soldier-arrested-uk-over-suspected-espionage-russia",
-          "title": "Senior US soldier arrested in UK over suspected espionage for Russia",
-          "published": "2026-11-10T20:20:35+00:00"
         }
       ],
       "consensus": 2.5
@@ -732,22 +736,6 @@
       "consensus": 2.5
     },
     {
-      "title": "'Cruise for life' ship seized in Singapore",
-      "url": "https://www.bbc.co.uk/news/articles/cqr7y7myer53o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-10T01:49:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/forever-cruise-ship-seized-in-singapore-as-passengers-remain-in-cambodia",
-          "title": "‘Forever cruise’ ship seized in Singapore as passengers remain in Cambodia",
-          "published": "2026-11-09T12:40:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
       "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
       "source": "Euronews",
@@ -797,6 +785,22 @@
           "url": "https://www.straitstimes.com/asia/former-pakistan-pm-imran-khan-back-in-jail-after-medical-treatment-sources-say",
           "title": "Former Pakistan PM Imran Khan back in jail after medical treatment, sources say",
           "published": "2026-11-11T05:38:45+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "JR East to introduce touchless ticket gates in spring 2028",
+      "url": "https://www.japantimes.co.jp/business/2026/11/11/companies/jr-east-ticket-gate/",
+      "source": "Japan Times",
+      "published": "2026-11-11T05:15:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/jr-east-to-launch-walk-through-ticket-gates-at-40-stations-in-2028",
+          "title": "JR East to launch walk-through ticket gates at 40 stations in 2028",
+          "published": "2026-11-10T11:10:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -978,37 +982,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Court hears man allegedly murdered woman after she banned him from local pool",
-      "url": "https://www.abc.net.au/news/2026-11-11/merril-kelly-trial-quambatook-alleged-murder-brian-barnes/107370070",
-      "source": "ABC Australia",
-      "published": "2026-11-11T07:18:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Child abuse survivor: extension of abuser's jail sentence still 'falls short'",
-      "url": "https://www.abc.net.au/news/2026-11-11/child-abuse-survivor-criticises-jail-sentence-extension/107374674",
-      "source": "ABC Australia",
-      "published": "2026-11-11T07:16:48+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "20 years ago, Hong Kong bid farewell to the old Central Star Ferry pier – SCMP archive",
-      "url": "https://www.scmp.com/news/hong-kong/transport/article/3374020/20-years-ago-hong-kong-bid-farewell-old-central-star-ferry-pier-scmp-archive",
-      "source": "SCMP",
-      "published": "2026-11-11T07:15:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Anthony Loke to focus on party duties and backing Malaysia PM Anwar after Transport Ministry exit",
-      "url": "https://www.straitstimes.com/asia/se-asia/anthony-loke-to-focus-on-party-duties-and-backing-malaysia-pm-anwar-after-transport-ministry-exit",
+      "title": "Gardenia KL says tests show its products are safe following consumer complaints",
+      "url": "https://www.straitstimes.com/asia/se-asia/gardenia-kl-says-tests-show-its-products-are-safe-following-consumer-complaints",
       "source": "Straits Times",
-      "published": "2026-11-11T07:14:00+00:00",
+      "published": "2026-11-11T07:58:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Iran producing 50 missiles per month despite crippled industry",
+      "url": "https://www.japantimes.co.jp/news/2026/11/11/world/iran-50-missiles-month-industry/",
+      "source": "Japan Times",
+      "published": "2026-11-11T07:57:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Students run for safety after fireworks set off inside French school",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/students-run-for-safety-after-fireworks-set-off-inside-french-school?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-11T07:55:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "DNA confirms pack of four grizzly bears killed mother and daughter in rare predatory attack in Canada",
+      "url": "https://www.independent.co.uk/news/world/americas/grizzly-bear-attack-bella-coola-b3082897.html",
+      "source": "The Independent",
+      "published": "2026-11-11T07:54:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "DV survivor 'disgusted' to learn of perpetrator's release",
+      "url": "https://www.abc.net.au/news/2026-11-11/dv-survivor-learns-of-perpetrator-release-through-media/107373214",
+      "source": "ABC Australia",
+      "published": "2026-11-11T07:51:16+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1110,26 +1123,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4071.4,
+        "price": 4067.6,
         "currency": "USD",
-        "change": 41.2,
-        "change_percent": 1.02,
+        "change": 37.4,
+        "change_percent": 0.93,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 53.08,
+        "price": 52.96,
         "currency": "USD",
-        "change": 1.85,
-        "change_percent": 3.62,
+        "change": 1.73,
+        "change_percent": 3.39,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.02,
+        "price": 92.14,
         "currency": "USD",
-        "change": 0.53,
-        "change_percent": 0.58,
+        "change": 0.65,
+        "change_percent": 0.71,
         "name": "Brent Crude"
       },
       {
@@ -1145,7 +1158,7 @@
         "price": 1.33,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": -0.11,
         "name": "GBP/USD"
       },
       {
@@ -1158,10 +1171,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 73792.85,
+        "price": 73963.91,
         "currency": "USD",
-        "change": 83.98,
-        "change_percent": 0.11,
+        "change": 255.04,
+        "change_percent": 0.35,
         "name": "Bitcoin"
       }
     ],
@@ -1331,22 +1344,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "FirstFT: Anthropic bankers prepare to increase IPO valuation to $1.5tn",
-          "url": "https://www.ft.com/content/cb451a27-481d-4106-b40f-4a83e3e361fd?syn-25a6b1a6=1",
-          "published": "2026-11-11T05:31:36+00:00",
-          "snippet": "Also in today’s newsletter: Nvidia spy scandal and Franco-German nuclear defence"
+          "title": "Oil traders give peace a chance (but should they?)",
+          "url": "https://www.ft.com/content/aa40cb43-4d0f-4f3c-a7aa-fbc2606f5719?syn-25a6b1a6=1",
+          "published": "2026-11-11T06:30:01+00:00",
+          "snippet": "Plus Chris Waller, inflation hawk"
         },
         {
-          "title": "Europe’s struggle to compete with China ramps up",
-          "url": "https://www.ft.com/content/efe5f679-ff24-48da-b47e-dcb57494750f?syn-25a6b1a6=1",
-          "published": "2026-11-11T05:13:03+00:00",
-          "snippet": "Some companies are thriving, but many are protesting against ‘dumping’"
+          "title": "Brussels to unveil new Big Tech rules despite vow to slash red tape",
+          "url": "https://www.ft.com/content/121bc0d0-f486-4c4c-a5e9-d4c5dc609fe4?syn-25a6b1a6=1",
+          "published": "2026-11-11T06:00:02+00:00",
+          "snippet": "Also in this newsletter: US steps up pressure on EU support for Airbus"
         },
         {
-          "title": "‘Treasure trove’ of manufacturing data to power German AI",
-          "url": "https://www.ft.com/content/65c4793e-343b-4fe7-921a-f7150b080a0c",
-          "published": "2026-11-11T05:12:31+00:00",
-          "snippet": "Mittelstand companies’ years of accumulated experience could provide them with an edge"
+          "title": "One weird trick AI labs could use to save the world",
+          "url": "https://www.ft.com/content/412c9ea6-c54a-4520-879b-10c32992cf6b",
+          "published": "2026-11-11T06:00:02+00:00",
+          "snippet": "An antitrust loophole you can trust?"
         }
       ]
     },
@@ -1454,6 +1467,14 @@
   "web": {
     "tech": [
       {
+        "title": "Revisiting Leander v Sweden and Big Brother Watch",
+        "url": "https://berthub.eu/articles/posts/revisiting-leander-and-big-brother/",
+        "comments_url": "https://lobste.rs/s/7ehnxt/revisiting_leander_v_sweden_big_brother",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-11T07:49:21.886000+00:00"
+      },
+      {
         "title": "Programming Was Never Just Code",
         "url": "https://www.youtube.com/watch?v=jZeI0tM_HfI",
         "comments_url": "https://lobste.rs/s/9ccmys/programming_was_never_just_code",
@@ -1472,28 +1493,28 @@
       {
         "title": "Greg Kurtzer's Ginux is now a userspace kernel",
         "url": "https://github.com/gmkurtzer/ginux",
-        "score": 41,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-11T05:25:54+00:00"
       },
       {
         "title": "Protecting SSH Keys with macOS Secure Enclave",
         "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-        "score": 106,
+        "score": 130,
         "source": "Hacker News",
         "published": "2026-11-11T04:28:57+00:00"
       },
       {
         "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
         "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
-        "score": 72,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-11T02:57:08+00:00"
       },
       {
         "title": "A great old-timey game-programming hack (2013)",
         "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-        "score": 116,
+        "score": 121,
         "source": "Hacker News",
         "published": "2026-11-11T01:56:31+00:00"
       },
@@ -1525,16 +1546,9 @@
         "title": "Go Turns 17",
         "url": "https://go.dev/blog/17years",
         "comments_url": "https://lobste.rs/s/idktfu/go_turns_17",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-10T22:47:26.672000+00:00"
-      },
-      {
-        "title": "Tracking Anthropic-discovered vulnerabilities",
-        "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
-        "score": 385,
-        "source": "Hacker News",
-        "published": "2026-11-10T22:17:56+00:00"
       },
       {
         "title": "Finding a vulnerability in Star Wars Episode I: Racer",
@@ -1547,14 +1561,14 @@
       {
         "title": "Apple has new Mac app coming to make running local AI models easy",
         "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-        "score": 173,
+        "score": 184,
         "source": "Hacker News",
         "published": "2026-11-10T21:25:03+00:00"
       },
       {
         "title": "Six Math Essentials",
         "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
-        "score": 215,
+        "score": 223,
         "source": "Hacker News",
         "published": "2026-11-10T20:58:44+00:00"
       },
@@ -1562,20 +1576,12 @@
         "title": "I deleted all my SSH keys",
         "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
         "comments_url": "https://lobste.rs/s/sdtcvv/i_deleted_all_my_ssh_keys",
-        "score": 24,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-10T20:49:23.641000+00:00"
       }
     ],
     "reddit": [
-      {
-        "title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
-        "url": "https://www.theguardian.com/world/2026/nov/04/canada-bans-russian-players-junior-ice-hockey-championships-ukraine-war",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt5m36/canada_joins_coalition_refusing_to_play_ice/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-11T02:07:44+00:00"
-      },
       {
         "title": "Alice Huang reportedly instrumental in securing over $7.5 billion of Nvidia AI GPU imports during three-year relationship with Jensen Huang — helped move 240,000 banned chips into China, mostly H100 and H200",
         "url": "https://www.tomshardware.com/tech-industry/policy/alice-huang-reportedly-instrumental-in-securing-over-usd7-5-billion-of-nvidia-ai-gpu-imports-during-three-year-relationship-with-jensen-huang-helped-move-240-000-banned-chips-into-china-mostly-h100-and-h200",
@@ -1591,6 +1597,14 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-11T00:28:15+00:00"
+      },
+      {
+        "title": "Zelensky: Putin Will Return in 1, 2 or 5 Years if Ukraine Gives Up Donbas",
+        "url": "https://www.kyivpost.com/post/89676",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsn9k4/zelensky_putin_will_return_in_1_2_or_5_years_if/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T13:44:46+00:00"
       },
       {
         "title": "UK could rejoin EU within four years, Barnier suggests",
@@ -1617,12 +1631,52 @@
         "published": "2026-11-10T16:25:25+00:00"
       },
       {
+        "title": "UK court overturns Trinidad and Tobago law criminalising homosexual sex",
+        "url": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt114p/uk_court_overturns_trinidad_and_tobago_law/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T22:41:27+00:00"
+      },
+      {
+        "title": "US Army member arrested in UK over suspected Russia espionage",
+        "url": "https://www.lbc.co.uk/article/us-army-member-arrested-uk-russia-espionage-5HjdmDM_2/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsvgyl/us_army_member_arrested_in_uk_over_suspected/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T19:00:54+00:00"
+      },
+      {
+        "title": "U.K. Lawmakers Call for Ban on Camming, 'E-pimping'",
+        "url": "https://avn.com/news/legal/u-k-lawmakers-call-for-ban-on-camming-e-pimping-182593",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xtb6of/uk_lawmakers_call_for_ban_on_camming_epimping/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-11T07:05:11+00:00"
+      },
+      {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
         "url": "https://geographical.co.uk/news/north-korean-workers-are-on-sale-to-russian-companies-in-forced-labour-programme-report-reveals",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xsqgl7/north_korean_workers_are_on_sale_to_russian/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-10T15:54:12+00:00"
+      },
+      {
+        "title": "Eisenkot unveils agenda to reverse Netanyahu’s policies as Israel's new parliament is sworn in",
+        "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-knesset-68e96ea53ad8614f1e2aa6a546c64ad9",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsygxc/eisenkot_unveils_agenda_to_reverse_netanyahus/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T20:57:37+00:00"
+      },
+      {
+        "title": "Zelenskiy says he is very happy with messages he was getting ​from the US envoys on diplomatic efforts in terms of moving towards a resolution of the more than ‌4-1/2-year-old war with Russia",
+        "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-he-is-pleased-with-messages-us-envoys-diplomatic-efforts-2026-11-10/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt7h9z/zelenskiy_says_he_is_very_happy_with_messages_he/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-11T03:39:02+00:00"
       },
       {
         "title": "US demands a seat for Europe at Ukraine peace talks – POLITICO",
@@ -1647,46 +1701,6 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-10T17:30:54+00:00"
-      },
-      {
-        "title": "Psychology’s tools for measuring masculinity lean heavily negative. A review of 65 questionnaires from the past 50 years found 78% focus mainly on bad behaviors and harm. This matters because the good side of being a man is rarely measured, and harm-only messaging may push men away from health help.",
-        "url": "https://www.psypost.org/psychologys-tools-for-measuring-masculinity-lean-heavily-toward-the-negative-review-finds/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xswi47/psychologys_tools_for_measuring_masculinity_lean/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-10T19:40:30+00:00"
-      },
-      {
-        "title": "INTERVIEW Swedish Foreign Minister: Focus on Helping Ukraine, Not Who Sits at Talks That Are Going Nowhere",
-        "url": "https://balticsentinel.eu/8581056/interview-swedish-foreign-minister-focus-on-helping-ukraine-not-who-sits-at-talks-that-are-going-nowhere",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xsvxws/interview_swedish_foreign_minister_focus_on/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T19:18:54+00:00"
-      },
-      {
-        "title": "Croatian Prime Minister Plenkovic labels patient's death at Zagreb psychiatric hospital a murder",
-        "url": "https://siol.net/novice/svet/plenkovic-smrt-pacienta-v-zagrebski-psihiatricni-bolnisnici-oznacil-za-umor-705940",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xssuhi/croatian_prime_minister_plenkovic_labels_patients/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T17:23:03+00:00"
-      },
-      {
-        "title": "Macron couple brings new lawsuit against US podcaster Candace Owens because she still claims Macron's wife is transgender.",
-        "url": "https://www.lemonde.fr/en/international/article/2026/11/10/france-s-macrons-bring-new-lawsuit-against-us-right-wing-podcaster-candace-owens_6776695_4.html",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xso3ok/macron_couple_brings_new_lawsuit_against_us/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-10T14:20:42+00:00"
-      },
-      {
-        "title": "U.K. Lawmakers Call for Ban on Camming, 'E-pimping'",
-        "url": "https://avn.com/news/legal/u-k-lawmakers-call-for-ban-on-camming-e-pimping-182593",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xtb6of/uk_lawmakers_call_for_ban_on_camming_epimping/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T07:05:11+00:00"
       }
     ]
   }

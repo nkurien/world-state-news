@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-11T08:30:52.345015+00:00",
+  "last_updated": "2026-11-11T09:01:05.291300+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 220
+      "ms": 389
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 267
+      "ms": 301
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 215
+      "ms": 237
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 368
+      "ms": 158
     },
     "CBC World": {
       "ok": true,
@@ -36,115 +36,115 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 218
+      "ms": 368
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 401
+      "ms": 406
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 220
+      "ms": 474
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 187
+      "ms": 161
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 297
+      "ms": 238
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 576
+      "ms": 714
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 364
+      "ms": 352
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 308
+      "ms": 222
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 203
+      "ms": 278
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 317
+      "ms": 213
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 440
+      "ms": 383
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 860
+      "ms": 724
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 949
+      "ms": 593
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 526
+      "ms": 616
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 191
+      "ms": 266
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 127
+      "ms": 141
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 224
+      "ms": 319
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 72,
       "error": null,
-      "ms": 296
+      "ms": 206
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 185
+      "ms": 287
     }
   },
   "breaking": [
@@ -183,10 +183,38 @@
       "consensus": 6.0
     },
     {
-      "title": "US Treasury chief Scott Bessent moves to military base after Iranian threats",
+      "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
+      "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
+      "source": "The Hindu",
+      "published": "2026-11-11T08:53:03+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-chinese-singapore-ceo-beijing-b3082906.html",
+          "title": "Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec",
+          "published": "2026-11-11T07:57:26+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
+          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
+          "published": "2026-11-10T20:16:37+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
+          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
+          "published": "2026-11-09T10:53:22+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "US Treasury chief Scott Bessent is reportedly latest Trump official to move to military base",
       "url": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
       "source": "The Guardian",
-      "published": "2026-11-11T08:09:34+00:00",
+      "published": "2026-11-11T08:22:50+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -214,7 +242,7 @@
       "title": "UK arrests US soldier suspected of spying for Russia",
       "url": "https://www.channelnewsasia.com/world/uk-arrests-us-soldier-suspected-russia-spy-6542476",
       "source": "CNA",
-      "published": "2026-11-11T08:24:10+00:00",
+      "published": "2026-11-11T08:24:00+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -231,44 +259,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Alice Huang, who reportedly had an affair with Nvidia CEO, is a Chinese banker turned tech exec",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-chinese-singapore-ceo-beijing-b3082906.html",
-      "source": "The Independent",
-      "published": "2026-11-11T07:57:26+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
-          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
-          "published": "2026-11-10T20:16:37+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/09/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-          "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-          "published": "2026-11-09T10:53:22+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Immigration arrests go on unabated despite Trump's misgivings after GOP's midterm wipeout",
-      "url": "https://www.thehindu.com/news/international/immigration-arrests-go-on-unabated-despite-trumps-misgivings-after-gops-midterm-wipeout/article71688665.ece",
-      "source": "The Hindu",
-      "published": "2026-11-11T08:13:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-gop-stephen-miller-los-angeles-united-states-b3082848.html",
-          "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
-          "published": "2026-11-11T05:03:03+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "World leaders begin talks at Cop31 climate conference but big names missing",
@@ -312,16 +302,32 @@
         {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/pla-linked-chinese-university-bought-nvidia-h200-chips-despite-us-blacklist-records-show",
-          "title": "PLA-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
           "published": "2026-11-11T05:33:58+00:00"
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Disaster warning systems race to keep pace with galloping climate risks",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/11/climate-change/disaster-warning-systems-climate/",
+      "source": "Japan Times",
+      "published": "2026-11-11T07:46:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/disaster-warning-systems-race-to-keep-pace-with-galloping-climate-risks",
+          "title": "Disaster warning systems race to keep pace with galloping climate risks",
+          "published": "2026-11-11T02:08:47+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "world": [
     {
-      "title": "Live: Ukraine, Russia hold second day of US-mediated talks in Abu Dhabi",
+      "title": "Live: Ukraine, Russia begin second day of US-mediated talks in Abu Dhabi",
       "url": "https://www.france24.com/en/europe/20261111-live-ukraine-russia-hold-second-day-of-us-mediated-talks-in-abu-dhabi",
       "source": "France24",
       "published": "2026-11-11T03:22:45+00:00",
@@ -513,6 +519,28 @@
       "consensus": 4.0
     },
     {
+      "title": "US judge says Trump’s US$10 billion BBC defamation case can proceed",
+      "url": "https://www.channelnewsasia.com/world/us-judge-trump-bbc-defamation-case-jan-6-6541491",
+      "source": "CNA",
+      "published": "2026-11-11T02:22:19+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm93rpy6lx0do?at_medium=RSS&at_campaign=rss",
+          "title": "Judge allows Trump's $10bn defamation case against BBC to proceed",
+          "published": "2026-11-11T01:18:09+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-judge-says-trumps-10-billion-bbc-defamation-case-can-proceed/article71688097.ece",
+          "title": "U.S. judge says Trump’s $10 billion BBC defamation case can proceed",
+          "published": "2026-11-11T00:36:19+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "U.S. boycotts U.N. human rights review for second year running",
       "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
       "source": "NPR World",
@@ -533,6 +561,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Immigration arrests go on unabated despite Trump's misgivings after GOP's midterm wipeout",
+      "url": "https://www.thehindu.com/news/international/immigration-arrests-go-on-unabated-despite-trumps-misgivings-after-gops-midterm-wipeout/article71688665.ece",
+      "source": "The Hindu",
+      "published": "2026-11-11T08:13:07+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/donald-trump-gop-stephen-miller-los-angeles-united-states-b3082848.html",
+          "title": "Immigration arrests go on unabated despite Trump's misgivings after the GOP's midterm wipeout",
+          "published": "2026-11-11T05:03:03+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Tech consultant sentenced to 16 years to life in stabbing death of Cash App founder Bob Lee",
@@ -562,22 +606,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/joe-biden-dublin-arrests-hunter-event-b3082651.html",
           "title": "Joe Biden swarmed by protesters during surprise Dublin visit to support Hunter",
           "published": "2026-11-10T19:01:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "‘Everything and everyone we love is at stake’: Thunberg slams COP31 talks",
-      "url": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-11T00:24:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/greta-thunberg-un-climate-talks-turkey-b3082781.html",
-          "title": "Greta Thunberg issues urgent warning at UN climate talks: 'Everything we love is at stake'",
-          "published": "2026-11-10T22:12:52+00:00"
         }
       ],
       "consensus": 2.5
@@ -765,22 +793,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Disaster warning systems race to keep pace with galloping climate risks",
-      "url": "https://www.japantimes.co.jp/environment/2026/11/11/climate-change/disaster-warning-systems-climate/",
-      "source": "Japan Times",
-      "published": "2026-11-11T07:46:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/disaster-warning-systems-race-to-keep-pace-with-galloping-climate-risks",
-          "title": "Disaster warning systems race to keep pace with galloping climate risks",
-          "published": "2026-11-11T02:08:47+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Behind Bangladesh’s garment boom, workers cut food, healthcare as wages fall short",
       "url": "https://www.japantimes.co.jp/news/2026/11/11/asia-pacific/bangladesh-garment-worker-wages/",
       "source": "Japan Times",
@@ -861,22 +873,6 @@
       "consensus": 2.0
     },
     {
-      "title": "US judge says Trump’s US$10 billion BBC defamation case can proceed",
-      "url": "https://www.channelnewsasia.com/world/us-judge-trump-bbc-defamation-case-jan-6-6541491",
-      "source": "CNA",
-      "published": "2026-11-11T02:22:19+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-judge-says-trumps-10-billion-bbc-defamation-case-can-proceed/article71688097.ece",
-          "title": "U.S. judge says Trump’s $10 billion BBC defamation case can proceed",
-          "published": "2026-11-11T00:36:19+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "UK children's author David Walliams accused of sex assault, grooming teens",
       "url": "https://www.channelnewsasia.com/world/david-walliams-sexual-assault-uk-comedian-author-6540531",
       "source": "CNA",
@@ -904,22 +900,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/france-iran-fridges-hacked-cyber-attack-b3082446.html",
           "title": "France summons Iran ambassador after vowing to 'punish' fridge hackers",
           "published": "2026-11-10T14:25:20+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Bangladesh prosecutor says ex-PM Hasina will be executed if she returns",
-      "url": "https://www.thehindu.com/news/international/bangladesh-prosecutor-says-ex-pm-hasina-will-be-executed-if-she-returns/article71686077.ece",
-      "source": "The Hindu",
-      "published": "2026-11-10T13:37:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-prosecutor-says-ex-pm-hasina-will-be-executed-if-she-returns",
-          "title": "Bangladesh prosecutor says ex-PM Hasina will be executed if she returns",
-          "published": "2026-11-10T09:19:32+00:00"
         }
       ],
       "consensus": 2.0
@@ -973,55 +953,73 @@
       "consensus": 1.5
     },
     {
-      "title": "As an ageing mainland China takes to AI, Hong Kong must catch up",
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3373456/ageing-mainland-china-takes-ai-hong-kong-must-catch",
+      "title": "How Hong Kong can double asset holdings: target world’s ‘patient’ capital, FSDC advises",
+      "url": "https://www.scmp.com/business/banking-finance/article/3374049/how-hong-kong-can-double-asset-holdings-target-worlds-patient-capital-fsdc-advises",
       "source": "SCMP",
-      "published": "2026-11-11T08:30:27+00:00",
+      "published": "2026-11-11T09:00:24+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "China’s graft crackdown sends drugmakers to doctors’ AI apps",
-      "url": "https://www.straitstimes.com/asia/east-asia/chinas-graft-crackdown-sends-drugmakers-to-doctors-ai-apps",
-      "source": "Straits Times",
-      "published": "2026-11-11T08:25:21+00:00",
+      "title": "Emmanuel and Brigitte Macron file new lawsuit in US against right-wing influencer",
+      "url": "https://www.rfi.fr/en/france/20261111-emmanuel-and-brigitte-macron-file-new-lawsuit-in-us-against-right-wing-influencer",
+      "source": "RFI English",
+      "published": "2026-11-11T08:59:26+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Breaking: Victorian Liberals dump Williamstown candidate over offensive comments",
-      "url": "https://www.abc.net.au/news/2026-11-11/victorian-liberals-dump-williamstown-candidate-paul-lindemann/107375112",
-      "source": "ABC Australia",
-      "published": "2026-11-11T08:23:35+00:00",
+      "title": "Burnham hails approval for two huge windfarm projects as ‘power under British control’ – UK politics live",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/11/andy-burnham-kemi-badenoch-pmqs-cop31-windfarms-europe-brexit-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-11T08:55:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Nvidia CEO Jensen Huang’s affair: everything you need to know",
-      "url": "https://www.scmp.com/news/article/3374047/nvidia-ceo-jensen-huangs-affair-everything-you-need-know",
-      "source": "SCMP",
-      "published": "2026-11-11T08:20:27+00:00",
+      "title": "U.S. loses grip on $121 billion mobile gaming sector to China",
+      "url": "https://www.japantimes.co.jp/business/2026/11/11/tech/us-mobile-gaming-china/",
+      "source": "Japan Times",
+      "published": "2026-11-11T08:55:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Iranian women take part in IRGC military training in Tehran",
-      "url": "https://www.euronews.com/video/2026/11/11/iranian-women-take-part-in-irgc-military-training-in-tehran",
-      "source": "Euronews",
-      "published": "2026-11-11T08:16:25+00:00",
+      "title": "Ukraine’s Zelenskyy ‘happy’ with US envoys’ approach as Russia talks enter second day – Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-11T08:44:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Three dead and at least three critically injured after minivan ploughs into pedestrians in Los Angeles",
-      "url": "https://www.independent.co.uk/news/world/americas/los-angeles-minivan-crash-us-b3082832.html",
-      "source": "The Independent",
-      "published": "2026-11-11T08:14:38+00:00",
+      "title": "Amid concerns over internal opposition within LDP, Koizumi pledges support for Takaichi",
+      "url": "https://www.japantimes.co.jp/news/2026/11/11/japan/politics/koizumi-obuchi-ldp/",
+      "source": "Japan Times",
+      "published": "2026-11-11T08:44:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jonathan Ross ‘horrified’ by David Walliams and Russell Brand revelations",
+      "url": "https://www.theguardian.com/tv-and-radio/2026/nov/11/jonathan-ross-david-walliams-russell-brand-revelations",
+      "source": "The Guardian",
+      "published": "2026-11-11T08:43:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Want to live on the moon? NASA opens recruitment for Artemis programme",
+      "url": "https://www.france24.com/en/want-to-live-moon-nasa-opens-recruitment-for-artemis-programme",
+      "source": "France24",
+      "published": "2026-11-11T08:42:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1038,10 +1036,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 141.84,
+      "price": 141.96,
       "currency": "GBP",
-      "change": 1.48,
-      "change_percent": 1.05,
+      "change": 1.6,
+      "change_percent": 1.14,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1054,10 +1052,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10837.82,
+      "price": 10820.73,
       "currency": "GBP",
-      "change": 86.23,
-      "change_percent": 0.8,
+      "change": 69.14,
+      "change_percent": 0.64,
       "name": "FTSE 100"
     }
   ],
@@ -1073,17 +1071,17 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10837.82,
+        "price": 10820.73,
         "currency": "GBP",
-        "change": 86.23,
-        "change_percent": 0.8,
+        "change": 69.14,
+        "change_percent": 0.64,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 52231.9,
+        "price": 52231.89,
         "currency": "USD",
-        "change": -157.9,
+        "change": -157.91,
         "change_percent": -0.3,
         "name": "Dow Jones"
       },
@@ -1105,52 +1103,52 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26633.7,
+        "price": 26628.79,
         "currency": "EUR",
-        "change": 286.25,
-        "change_percent": 1.09,
+        "change": 281.34,
+        "change_percent": 1.07,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8334.0,
+        "price": 8340.61,
         "currency": "EUR",
-        "change": 55.41,
-        "change_percent": 0.67,
+        "change": 62.02,
+        "change_percent": 0.75,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 4064.9,
+        "price": 4065.0,
         "currency": "USD",
-        "change": 34.7,
+        "change": 34.8,
         "change_percent": 0.86,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 52.95,
+        "price": 52.98,
         "currency": "USD",
-        "change": 1.73,
-        "change_percent": 3.38,
+        "change": 1.76,
+        "change_percent": 3.44,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.0,
+        "price": 91.87,
         "currency": "USD",
-        "change": 0.51,
-        "change_percent": 0.56,
+        "change": 0.38,
+        "change_percent": 0.42,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
-        "price": 1.11,
+        "price": 1.12,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.19,
+        "change_percent": -0.13,
         "name": "EUR/USD"
       },
       {
@@ -1158,23 +1156,23 @@
         "price": 1.33,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.19,
+        "change_percent": -0.17,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.89,
+        "price": 158.86,
         "currency": "JPY",
-        "change": 0.19,
-        "change_percent": 0.12,
+        "change": 0.16,
+        "change_percent": 0.1,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73714.37,
+        "price": 73606.01,
         "currency": "USD",
-        "change": 5.49,
-        "change_percent": 0.01,
+        "change": -102.87,
+        "change_percent": -0.14,
         "name": "Bitcoin"
       }
     ],
@@ -1344,6 +1342,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Andy Burnham heads to COP as critics question his climate credentials",
+          "url": "https://www.ft.com/content/1c3e9030-51e6-49f2-8203-2e7a53f710c8?syn-25a6b1a6=1",
+          "published": "2026-11-11T08:46:23+00:00",
+          "snippet": "Policy experts and campaigners say PM often pays lip service to green issues but rarely makes them a political priority"
+        },
+        {
           "title": "Oil traders give peace a chance (but should they?)",
           "url": "https://www.ft.com/content/aa40cb43-4d0f-4f3c-a7aa-fbc2606f5719?syn-25a6b1a6=1",
           "published": "2026-11-11T06:30:01+00:00",
@@ -1354,12 +1358,6 @@
           "url": "https://www.ft.com/content/121bc0d0-f486-4c4c-a5e9-d4c5dc609fe4?syn-25a6b1a6=1",
           "published": "2026-11-11T06:00:02+00:00",
           "snippet": "Also in this newsletter: US steps up pressure on EU support for Airbus"
-        },
-        {
-          "title": "One weird trick AI labs could use to save the world",
-          "url": "https://www.ft.com/content/412c9ea6-c54a-4520-879b-10c32992cf6b",
-          "published": "2026-11-11T06:00:02+00:00",
-          "snippet": "An antitrust loophole you can trust?"
         }
       ]
     },
@@ -1461,7 +1459,8 @@
           "published": "2026-11-02T11:00:00+00:00",
           "snippet": "A growing number of startups are editing powerful Chinese open-weight models for Western businesses that are concerned about censorship and security."
         }
-      ]
+      ],
+      "stale": true
     }
   ],
   "web": {
@@ -1493,28 +1492,28 @@
       {
         "title": "Greg Kurtzer's Ginux is now a userspace kernel",
         "url": "https://github.com/gmkurtzer/ginux",
-        "score": 50,
+        "score": 54,
         "source": "Hacker News",
         "published": "2026-11-11T05:25:54+00:00"
       },
       {
         "title": "Protecting SSH Keys with macOS Secure Enclave",
         "url": "https://gatezh.com/posts/macos-secure-enclave-ssh-keys/",
-        "score": 153,
+        "score": 166,
         "source": "Hacker News",
         "published": "2026-11-11T04:28:57+00:00"
       },
       {
         "title": "To deter bioterrorism, U.S. imposes new rules on ordering synthetic DNA",
         "url": "https://www.science.org/content/article/deter-bioterrorism-u-s-imposes-new-rules-ordering-synthetic-dna",
-        "score": 80,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-11T02:57:08+00:00"
       },
       {
         "title": "A great old-timey game-programming hack (2013)",
         "url": "https://blog.moertel.com/posts/2013-12-14-great-old-timey-game-programming-hack.html",
-        "score": 131,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-11T01:56:31+00:00"
       },
@@ -1546,7 +1545,7 @@
         "title": "Go Turns 17",
         "url": "https://go.dev/blog/17years",
         "comments_url": "https://lobste.rs/s/idktfu/go_turns_17",
-        "score": 13,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-10T22:47:26.672000+00:00"
       },
@@ -1561,14 +1560,14 @@
       {
         "title": "Apple has new Mac app coming to make running local AI models easy",
         "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
-        "score": 195,
+        "score": 208,
         "source": "Hacker News",
         "published": "2026-11-10T21:25:03+00:00"
       },
       {
         "title": "Six Math Essentials",
         "url": "https://teorth.github.io/tao-web/six-math-essentials.html",
-        "score": 226,
+        "score": 234,
         "source": "Hacker News",
         "published": "2026-11-10T20:58:44+00:00"
       },
@@ -1576,7 +1575,7 @@
         "title": "I deleted all my SSH keys",
         "url": "https://blog.infected.systems/posts/2026-11-03-i-deleted-all-my-ssh-keys/",
         "comments_url": "https://lobste.rs/s/sdtcvv/i_deleted_all_my_ssh_keys",
-        "score": 28,
+        "score": 31,
         "source": "Lobste.rs",
         "published": "2026-11-10T20:49:23.641000+00:00"
       }
@@ -1599,12 +1598,12 @@
         "published": "2026-11-11T00:28:15+00:00"
       },
       {
-        "title": "Zelensky: Putin Will Return in 1, 2 or 5 Years if Ukraine Gives Up Donbas",
-        "url": "https://www.kyivpost.com/post/89676",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsn9k4/zelensky_putin_will_return_in_1_2_or_5_years_if/",
+        "title": "UK court overturns Trinidad and Tobago law criminalising homosexual sex",
+        "url": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt114p/uk_court_overturns_trinidad_and_tobago_law/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-10T13:44:46+00:00"
+        "published": "2026-11-10T22:41:27+00:00"
       },
       {
         "title": "UK could rejoin EU within four years, Barnier suggests",
@@ -1623,12 +1622,12 @@
         "published": "2026-11-10T18:55:46+00:00"
       },
       {
-        "title": "UK court overturns Trinidad and Tobago law criminalising homosexual sex",
-        "url": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt114p/uk_court_overturns_trinidad_and_tobago_law/",
+        "title": "Belgrade chief prosecutor suspected of breaking the law, abuse of power",
+        "url": "https://n1info.rs/english/news/belgrade-chief-prosecutor-suspected-of-breaking-the-law-abuse-of-power/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xtbqqf/belgrade_chief_prosecutor_suspected_of_breaking/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-10T22:41:27+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-11T07:39:35+00:00"
       },
       {
         "title": "Russia Now Strikes Ukraine’s Grid Almost Every Night to Leave Families Without Power, Heat, and Water Before Winter",
@@ -1639,6 +1638,14 @@
         "published": "2026-11-10T16:25:25+00:00"
       },
       {
+        "title": "Zelensky: Putin Will Return in 1, 2 or 5 Years if Ukraine Gives Up Donbas",
+        "url": "https://www.kyivpost.com/post/89676",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsn9k4/zelensky_putin_will_return_in_1_2_or_5_years_if/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T13:44:46+00:00"
+      },
+      {
         "title": "US Army member arrested in UK over suspected Russia espionage",
         "url": "https://www.lbc.co.uk/article/us-army-member-arrested-uk-russia-espionage-5HjdmDM_2/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsvgyl/us_army_member_arrested_in_uk_over_suspected/",
@@ -1647,12 +1654,12 @@
         "published": "2026-11-10T19:00:54+00:00"
       },
       {
-        "title": "Eisenkot unveils agenda to reverse Netanyahu’s policies as Israel's new parliament is sworn in",
-        "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-knesset-68e96ea53ad8614f1e2aa6a546c64ad9",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsygxc/eisenkot_unveils_agenda_to_reverse_netanyahus/",
+        "title": "Russia must have no say over NATO deployments, Lithuanian FM says amid Abu Dhabi talks",
+        "url": "https://www.lrt.lt/en/news-in-english/19/3110211/russia-must-have-no-say-over-nato-deployments-lithuanian-fm-says-amid-abu-dhabi-talks",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtbum0/russia_must_have_no_say_over_nato_deployments/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-10T20:57:37+00:00"
+        "published": "2026-11-11T07:46:20+00:00"
       },
       {
         "title": "North Korean workers are ‘on sale’ to Russian companies in forced labour programme, report reveals",
@@ -1663,20 +1670,20 @@
         "published": "2026-11-10T15:54:12+00:00"
       },
       {
+        "title": "Eisenkot unveils agenda to reverse Netanyahu’s policies as Israel's new parliament is sworn in",
+        "url": "https://apnews.com/article/israel-election-netanyahu-eisenkot-knesset-68e96ea53ad8614f1e2aa6a546c64ad9",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xsygxc/eisenkot_unveils_agenda_to_reverse_netanyahus/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-10T20:57:37+00:00"
+      },
+      {
         "title": "Zelenskiy says he is very happy with messages he was getting ​from the US envoys on diplomatic efforts in terms of moving towards a resolution of the more than ‌4-1/2-year-old war with Russia",
         "url": "https://www.reuters.com/world/ukraines-zelenskiy-says-he-is-pleased-with-messages-us-envoys-diplomatic-efforts-2026-11-10/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xt7h9z/zelenskiy_says_he_is_very_happy_with_messages_he/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-11T03:39:02+00:00"
-      },
-      {
-        "title": "Belgrade chief prosecutor suspected of breaking the law, abuse of power",
-        "url": "https://n1info.rs/english/news/belgrade-chief-prosecutor-suspected-of-breaking-the-law-abuse-of-power/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xtbqqf/belgrade_chief_prosecutor_suspected_of_breaking/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T07:39:35+00:00"
       },
       {
         "title": "US demands a seat for Europe at Ukraine peace talks – POLITICO",
@@ -1693,14 +1700,6 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-10T17:30:54+00:00"
-      },
-      {
-        "title": "Zelensky’s ex-chief of staff Yermak ran 'troubling' back-channel with Trump's Susie Wiles",
-        "url": "https://kyivindependent.com/exclusive-zelenskys-ex-chief-of-staff-yermak-ran-troubling-back-channel-with-trumps-susie-wiles-2/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xss67g/zelenskys_exchief_of_staff_yermak_ran_troubling/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-10T16:58:02+00:00"
       }
     ]
   }

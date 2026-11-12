@@ -1,153 +1,391 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-12T14:01:02.994195+00:00",
+  "last_updated": "2026-11-12T14:30:54.838598+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 343
+      "ms": 399
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 630
+      "ms": 595
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 271
+      "ms": 228
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 116
+      "ms": 294
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 183
+      "ms": 263
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 332
+      "ms": 311
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 11,
+      "count": 12,
       "error": null,
-      "ms": 453
+      "ms": 403
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 556
+      "ms": 660
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 95
+      "ms": 265
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 303
+      "ms": 3248
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 871
+      "ms": 318
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 391
+      "ms": 475
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 279
+      "ms": 356
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 333
+      "ms": 329
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 550
+      "ms": 343
     },
     "RNZ": {
       "ok": true,
-      "count": 50,
+      "count": 49,
       "error": null,
-      "ms": 423
+      "ms": 534
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 831
+      "ms": 778
     },
     "Semafor": {
       "ok": true,
-      "count": 274,
+      "count": 276,
       "error": null,
-      "ms": 990
+      "ms": 862
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 592
+      "ms": 500
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 321
+      "ms": 442
     },
     "The Guardian": {
       "ok": true,
-      "count": 45,
+      "count": 44,
       "error": null,
-      "ms": 195
+      "ms": 228
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 358
+      "ms": 564
     },
     "The Independent": {
       "ok": true,
-      "count": 92,
+      "count": 91,
       "error": null,
-      "ms": 253
+      "ms": 150
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 254
+      "ms": 313
     }
   },
   "breaking": [
+    {
+      "title": "Nvidia CEO Jensen Huang resigns over affair scandal after stock price plunges",
+      "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-resigns-chinese-spy-affairs-b3083664.html",
+      "source": "The Independent",
+      "published": "2026-11-12T14:23:50+00:00",
+      "score": 8,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/nvidia-ceo-jensen-huang-resigns-amid-scandal/article71694271.ece",
+          "title": "Nvidia CEO Jensen Huang resigns in big blow to AI boom",
+          "published": "2026-11-12T14:18:07+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/12/2026/jensen-huang-resigns-as-nvidia-ceo",
+          "title": "Jensen Huang resigns as Nvidia CEO",
+          "published": "2026-11-12T14:14:00+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+          "title": "Nvidia CEO Jensen Huang resigns over scandal and is replaced by CFO Colette Kress on interim basis – follow live",
+          "published": "2026-11-12T14:07:59+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261112-nvidia-ceo-jensen-huang-to-step-down-after-affair",
+          "title": "🔴 Nvidia CEO Jensen Huang to step down after affair",
+          "published": "2026-11-12T14:07:56+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-ceo-jensen-huang-resigns-6546526",
+          "title": "Nvidia CEO Jensen Huang resigns in big blow to AI boom",
+          "published": "2026-11-12T14:01:00+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo?traffic_source=rss",
+          "title": "Nvidia CEO Jensen Huang steps down amid spy scandal and market loss",
+          "published": "2026-11-12T13:55:07+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cqz0k70990zpo?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: The latest in the Jensen Huang Nvidia scandal",
+          "published": "2026-11-12T12:42:44+00:00"
+        }
+      ],
+      "consensus": 9.5
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-12T14:27:30+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/israeli-strike-on-gaza-hospital-kills-six-people-9.7418729?cmp=rss",
+          "title": "Israeli strike on a Gaza hospital kills 6 people, including surgeon, health authorities say",
+          "published": "2026-11-12T09:53:34+00:00"
+        },
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+          "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+          "published": "2026-11-12T09:29:30+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-france-hamas-benjamin-netanyahu-b3083703.html",
+          "title": "Israeli strike on Gaza hospital kills 6, and other Mideast news",
+          "published": "2026-11-12T09:21:54+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says/article71692179.ece",
+          "title": "Israeli strike on southern Gaza hospital kills six, health authorities say",
+          "published": "2026-11-12T06:49:51+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
+    {
+      "title": "Ukraine says Starlink communications disrupted as US envoys meet Putin",
+      "url": "https://www.abc.net.au/news/2026-11-13/ukraine-elon-musk-starlink-access-disrupted/107380578",
+      "source": "ABC Australia",
+      "published": "2026-11-12T14:06:03+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates",
+          "title": "US envoys meet Putin as Zelenskyy says Starlink disrupted for Ukraine’s military again - Europe live",
+          "published": "2026-11-12T14:04:59+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+          "published": "2026-11-12T12:14:51+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss",
+          "title": "US envoys meet Putin in Moscow to discuss Russia-Ukraine war",
+          "published": "2026-11-12T09:01:24+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Death toll in New York building collapse rises to 8",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
+      "source": "SCMP",
+      "published": "2026-11-12T13:43:09+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/brooklyn-building-collapse-updates/article71692198.ece",
+          "title": "New York building collapse: At least 8 people dead as rescuers dig through rubble",
+          "published": "2026-11-12T13:19:14+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
+          "title": "New York: Deadly building collapse in Brooklyn",
+          "published": "2026-11-12T11:18:05+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/new-york-fire-brooklyn-building-collapse-9.7418579?cmp=rss",
+          "title": "Death toll climbs to 8 in Brooklyn building collapse",
+          "published": "2026-11-11T23:42:52+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-12T12:56:55+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/press-review/20261112-scott-colom-makes-history-in-mississippi-as-first-black-senator-in-more-than-140-years",
+          "title": "Scott Colom makes history in Mississippi as first Black senator in more than 140 years",
+          "published": "2026-11-12T10:50:31+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/mississippi-elects-first-black-senator-since-1874?traffic_source=rss",
+          "title": "Mississippi elects first Black Senator since 1874",
+          "published": "2026-11-12T08:12:40+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/mississippi-elects-democrat-scott-colom-as-states-first-black-us-senator-since-reconstruction/article71692151.ece",
+          "title": "Mississippi elects Democrat Scott Colom as state's first Black U.S. senator since Reconstruction",
+          "published": "2026-11-12T01:47:50+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+      "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
+      "source": "NPR World",
+      "published": "2026-11-12T12:15:48+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/12/democrat-scott-colom-wins-mississippi-senate-seat-in-historic-upset",
+          "title": "Democrat Scott Colom wins Mississippi Senate seat in historic upset",
+          "published": "2026-11-12T08:42:23+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/mississippi-senate-scott-colom-democrat-us-midterms-6544221",
+          "title": "Democrat Colom wins Mississippi Senate seat, becomes state's first Black senator since 1874",
+          "published": "2026-11-12T00:11:00+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Indonesia's VP resigns as his eligibility and academic credentials are questioned",
+      "url": "https://www.npr.org/2026/11/12/g-s1-153190/indonesias-vp-resigns-as-his-eligibility-and-academic-credentials-are-questioned",
+      "source": "NPR World",
+      "published": "2026-11-12T14:22:50+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/indonesias-vice-president-resigns-as-eligibility-and-academic-credentials-are-questioned/article71692540.ece",
+          "title": "Indonesia's Vice President resigns as eligibility and academic credentials are questioned",
+          "published": "2026-11-12T10:06:07+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/indonesia-vice-president-resigns-9.7418723?cmp=rss",
+          "title": "Indonesia's vice-president resigns after academic credentials questioned",
+          "published": "2026-11-12T09:57:39+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
+      "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html",
+      "source": "The Independent",
+      "published": "2026-11-12T11:43:06+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261112-nvidia-board-weighing-up-whether-or-not-to-oust-ceo-jensen-huang",
+          "title": "Nvidia board weighing up whether or not to oust CEO Jensen Huang",
+          "published": "2026-11-12T11:01:58+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece",
+          "title": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
+          "published": "2026-11-12T05:26:15+00:00"
+        }
+      ],
+      "consensus": 3.5
+    }
+  ],
+  "world": [
     {
       "title": "Russia attacks Ukraine hours after Abu Dhabi peace talks end",
       "url": "https://www.politico.eu/article/russia-and-ukraine-trade-strikes-as-peace-talks-end-with-little-progress/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -189,192 +427,6 @@
       "consensus": 7.0
     },
     {
-      "title": "Nvidia CEO Jensen Huang resigns over affair scandal after stock price plunges",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-resigns-chinese-spy-affairs-b3083664.html",
-      "source": "The Independent",
-      "published": "2026-11-12T13:56:32+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo?traffic_source=rss",
-          "title": "AI titan Jensen Huang out as Nvidia CEO",
-          "published": "2026-11-12T13:55:07+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-          "title": "Nvidia CEO Jensen Huang resigns over scandal and is replaced by CFO Colette Kress on interim basis – follow live",
-          "published": "2026-11-12T13:53:29+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cqz0k70990zpo?at_medium=RSS&at_campaign=rss",
-          "title": "Watch: The latest in the Jensen Huang Nvidia scandal",
-          "published": "2026-11-12T12:42:44+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/megaspeed-to-cooperate-with-us-probe-into-nvidia-ceo-jensen-huang-scandal/article71693276.ece",
-          "title": "Megaspeed to cooperate with U.S. probe into Nvidia CEO Jensen Huang scandal",
-          "published": "2026-11-12T11:21:36+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T12:56:55+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/tv-shows/press-review/20261112-scott-colom-makes-history-in-mississippi-as-first-black-senator-in-more-than-140-years",
-          "title": "Scott Colom makes history in Mississippi as first Black senator in more than 140 years",
-          "published": "2026-11-12T10:50:31+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/mississippi-elects-first-black-senator-since-1874?traffic_source=rss",
-          "title": "Mississippi elects first Black Senator since 1874",
-          "published": "2026-11-12T08:12:40+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/mississippi-elects-democrat-scott-colom-as-states-first-black-us-senator-since-reconstruction/article71692151.ece",
-          "title": "Mississippi elects Democrat Scott Colom as state's first Black U.S. senator since Reconstruction",
-          "published": "2026-11-12T01:47:50+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/mississippi-senate-scott-colom-democrat-us-midterms-6544221",
-          "title": "Democrat Colom wins Mississippi Senate seat, becomes state's first Black senator since 1874",
-          "published": "2026-11-12T00:11:00+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T12:26:01+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/israeli-strike-on-gaza-hospital-kills-six-people-9.7418729?cmp=rss",
-          "title": "Israeli strike on a Gaza hospital kills 6 people, including surgeon, health authorities say",
-          "published": "2026-11-12T09:53:34+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
-          "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
-          "published": "2026-11-12T09:29:30+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-france-hamas-benjamin-netanyahu-b3083703.html",
-          "title": "Israeli strike on Gaza hospital kills 6, and other Mideast news",
-          "published": "2026-11-12T09:21:54+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says/article71692179.ece",
-          "title": "Israeli strike on southern Gaza hospital kills six, health authorities say",
-          "published": "2026-11-12T06:49:51+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Death toll in New York building collapse rises to 8",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374250/death-toll-new-york-building-collapse-rises-8",
-      "source": "SCMP",
-      "published": "2026-11-12T13:43:09+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261112-new-york-deadly-building-collapse-in-brooklyn",
-          "title": "New York: Deadly building collapse in Brooklyn",
-          "published": "2026-11-12T11:18:05+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/new-york-fire-brooklyn-building-collapse-9.7418579?cmp=rss",
-          "title": "Death toll climbs to 8 in Brooklyn building collapse",
-          "published": "2026-11-11T23:42:52+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "US envoys meet Putin as Zelenskyy says Starlink disrupted for Ukraine’s military again - Europe live",
-      "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-12T13:51:51+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-          "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-          "published": "2026-11-12T12:14:51+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss",
-          "title": "US envoys meet Putin in Moscow to discuss Russia-Ukraine war",
-          "published": "2026-11-12T09:01:24+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html",
-      "source": "The Independent",
-      "published": "2026-11-12T11:43:06+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/tv-shows/business/20261112-nvidia-board-weighing-up-whether-or-not-to-oust-ceo-jensen-huang",
-          "title": "Nvidia board weighing up whether or not to oust CEO Jensen Huang",
-          "published": "2026-11-12T11:01:58+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece",
-          "title": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
-          "published": "2026-11-12T05:26:15+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Father of South Carolina infant who survived being buried alive charged with attempted murder",
-      "url": "https://www.theguardian.com/us-news/2026/nov/12/father-charged-bury-child-alive-south-carolina",
-      "source": "The Guardian",
-      "published": "2026-11-12T13:24:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/baby-found-buried-alive-south-carolina-9.7418243?cmp=rss",
-          "title": "Father of baby who was rescued after being buried alive is charged with attempted murder",
-          "published": "2026-11-11T19:28:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    }
-  ],
-  "world": [
-    {
       "title": "Watch moment Pete Hegseth reprimanded by guard at Tomb of Unknown Soldier",
       "url": "https://www.independent.co.uk/tv/news/hegseth-reprimanded-tomb-of-unknown-soldier-video-b3083696.html",
       "source": "The Independent",
@@ -403,26 +455,32 @@
       "consensus": 5.0
     },
     {
-      "title": "Millions join Spain's first general strike in 14 years as anger over housing leads to clashes",
-      "url": "https://www.france24.com/en/video/20261112-millions-join-spain-s-first-general-strike-in-14-years-as-anger-over-housing-leads-to-clashes",
-      "source": "France24",
-      "published": "2026-11-12T10:33:28+00:00",
-      "score": 3,
+      "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
+      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-nvidia-ceo-affair-jensen-huang-photos-b3083237.html",
+      "source": "The Independent",
+      "published": "2026-11-11T15:34:04+00:00",
+      "score": 4,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/11/2026/housing-woes-fuel-a-general-strike-in-spain",
-          "title": "Housing woes fuel a general strike in Spain",
-          "published": "2026-11-11T12:00:53+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
+          "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
+          "published": "2026-11-11T08:53:03+00:00"
         },
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/spains-first-general-strike-in-14-years-brings-clashing-social-and-political-desires-to-the-fore/article71688857.ece",
-          "title": "Spain’s first general strike in 14 years brings clashing social and political desires to the fore",
-          "published": "2026-11-11T08:23:52+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
+          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
+          "published": "2026-11-10T20:16:37+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
+          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
+          "published": "2026-11-09T23:11:24+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 5.0
     },
     {
       "title": "Missing teen found alive after 6 days in the Australian woodlands",
@@ -447,28 +505,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
-      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-nvidia-ceo-affair-jensen-huang-photos-b3083237.html",
-      "source": "The Independent",
-      "published": "2026-11-11T15:34:04+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
-          "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
-          "published": "2026-11-11T08:53:03+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
-          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
-          "published": "2026-11-09T23:11:24+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "Kenya discharges last Ebola patient, 42-day countdown to 'Ebola-free' begins",
       "url": "https://www.france24.com/en/video/20261112-kenya-discharges-last-ebola-patient-42-day-countdown-to-ebola-free-begins",
       "source": "France24",
@@ -486,28 +522,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
           "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
           "published": "2026-11-11T12:53:11+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Xi says Taiwan 'reunification' must happen as history cannot be stopped",
-      "url": "https://www.thehindu.com/news/international/chinas-xi-says-taiwan-reunification-must-happen-as-history-cannot-be-stopped/article71692573.ece",
-      "source": "The Hindu",
-      "published": "2026-11-12T09:29:25+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/xi-jinping-says-taiwan-reunification-with-china-must-happen?traffic_source=rss",
-          "title": "Xi Jinping says Taiwan ‘reunification’ with China must happen",
-          "published": "2026-11-12T08:34:45+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-says-taiwan-reunification-must-happen-as-history-cannot-be-stopped",
-          "title": "China’s Xi says Taiwan ‘reunification’ must happen as tide of history cannot be stopped",
-          "published": "2026-11-12T04:18:59+00:00"
         }
       ],
       "consensus": 3.5
@@ -557,17 +571,17 @@
       "consensus": 3.5
     },
     {
-      "title": "Brooklyn building collapse kills at least 8 and injures 17 as search continues",
-      "url": "https://www.theguardian.com/us-news/2026/nov/12/brooklyn-building-collapse-nyc",
-      "source": "The Guardian",
-      "published": "2026-11-12T13:08:15+00:00",
+      "title": "Trump says US does not ‘need a deal with Iran’",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
+      "source": "SCMP",
+      "published": "2026-11-12T14:17:38+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/new-york-brooklyn-building-collapse-several-injured-6544236",
-          "title": "Building collapse in Brooklyn kills at least two, injures more than 10",
-          "published": "2026-11-12T03:49:00+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
+          "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf",
+          "published": "2026-11-12T07:38:05+00:00"
         }
       ],
       "consensus": 2.5
@@ -600,22 +614,6 @@
           "url": "https://www.aljazeera.com/news/2026/11/12/pakistan-releases-two-sisters-of-ex-pm-imran-khan-from-jail?traffic_source=rss",
           "title": "Pakistan releases two sisters of ex-PM Imran Khan from jail",
           "published": "2026-11-12T12:12:17+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
-      "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
-      "source": "NPR World",
-      "published": "2026-11-12T12:15:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/12/democrat-scott-colom-wins-mississippi-senate-seat-in-historic-upset",
-          "title": "Democrat Scott Colom wins Mississippi Senate seat in historic upset",
-          "published": "2026-11-12T08:42:23+00:00"
         }
       ],
       "consensus": 2.5
@@ -685,22 +683,6 @@
       "consensus": 2.5
     },
     {
-      "title": "China says US ‘fabricating’ Nvidia spy claims to justify tech ‘blockade’",
-      "url": "https://www.aljazeera.com/news/2026/11/12/china-says-us-fabricating-nvidia-spy-claims-to-justify-tech-blockade?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-12T10:49:41+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261112-china-accuses-us-fabricating-nvidia-spy-claims-to-push-tech-blockade",
-          "title": "China accuses US of 'fabricating' Nvidia spy claims to push tech 'blockade'",
-          "published": "2026-11-12T09:40:41+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "U.S. Envoys Arrive at Kremlin for Talks with Putin on Ukraine",
       "url": "https://www.themoscowtimes.com/2026/11/12/us-envoys-arrive-at-kremlin-for-talks-with-putin-on-ukraine-a94236",
       "source": "The Moscow Times",
@@ -712,22 +694,6 @@
           "url": "https://www.channelnewsasia.com/world/us-envoys-arrive-in-moscow-latest-round-ukrainian-peace-talks-putin-6545326",
           "title": "US envoys arrive in Moscow for latest round of Ukrainian peace talks with Putin",
           "published": "2026-11-12T07:25:47+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Indonesia's Vice President resigns as eligibility and academic credentials are questioned",
-      "url": "https://www.thehindu.com/news/international/indonesias-vice-president-resigns-as-eligibility-and-academic-credentials-are-questioned/article71692540.ece",
-      "source": "The Hindu",
-      "published": "2026-11-12T10:06:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/indonesia-vice-president-resigns-9.7418723?cmp=rss",
-          "title": "Indonesia's vice-president resigns after academic credentials questioned",
-          "published": "2026-11-12T09:57:39+00:00"
         }
       ],
       "consensus": 2.5
@@ -797,6 +763,22 @@
       "consensus": 2.5
     },
     {
+      "title": "New York City building collapse kills two people and injures 17",
+      "url": "https://www.independent.co.uk/news/world/americas/new-york-brooklyn-building-collapsed-today-flatbush-b3083586.html",
+      "source": "The Independent",
+      "published": "2026-11-12T07:25:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/new-york-brooklyn-building-collapse-several-injured-6544236",
+          "title": "Building collapse in Brooklyn kills at least two, injures more than 10",
+          "published": "2026-11-12T03:49:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Ukraine and Russia agree to large-scale prisoner exchange after second day of talks",
       "url": "https://www.independent.co.uk/news/world/europe/ukraine-prisoners-russia-exchange-peace-talks-b3083557.html",
       "source": "The Independent",
@@ -808,22 +790,6 @@
           "url": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
           "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
           "published": "2026-11-11T13:30:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
-      "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
-      "source": "Straits Times",
-      "published": "2026-11-12T02:20:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
-          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
-          "published": "2026-11-10T20:16:37+00:00"
         }
       ],
       "consensus": 2.5
@@ -862,22 +828,6 @@
           "url": "https://www.thehindu.com/news/international/russia-ukraine-agree-to-prisoner-swap-at-us-brokered-talks/article71689267.ece",
           "title": "Russia, Ukraine agree to major prisoner swap after U.S.-brokered talks in Abu Dhabi",
           "published": "2026-11-11T12:27:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia scandal rocks White House as report reveals Trump was ‘warned’ about CEO’s affair months ago",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html",
-      "source": "The Independent",
-      "published": "2026-11-11T21:41:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/11/2026/white-house-hit-by-intensified-scrutiny-over-knowledge-of-nvidia-ceos-affair",
-          "title": "White House scrutiny intensifies over Nvidia CEO’s affair",
-          "published": "2026-11-11T12:00:22+00:00"
         }
       ],
       "consensus": 2.5
@@ -979,22 +929,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump ally Jim Jordan elected U.S. House Republican leader after midterm election rout",
-      "url": "https://www.thehindu.com/news/international/trump-ally-jim-jordan-elected-us-house-republican-leader-after-midterm-election-rout/article71688105.ece",
-      "source": "The Hindu",
-      "published": "2026-11-11T02:45:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/04/2026/johnson-out-as-house-republican-leader",
-          "title": "Johnson out as House Republican leader after GOP rout",
-          "published": "2026-11-04T19:01:51+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Lewis Hamilton visits Egypt’s Rafah border to highlight humanitarian efforts for war-torn Gaza",
       "url": "http://www.africanews.com/2026/11/10/lewis-hamilton-visits-egypts-rafah-border-to-highlight-humanitarian-efforts-for-war-torn-g/",
       "source": "Africanews",
@@ -1022,22 +956,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-8-times",
           "title": "Alice Huang, Chinese woman accused of spying on Nvidia chief, entered Taiwan 8 times",
           "published": "2026-11-12T04:53:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T11:21:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261112-who-is-jensen-huang-nvidia-chief-under-scrutiny-over-affair-and-spying-reports",
-          "title": "Who is Jensen Huang? Nvidia chief under scrutiny over affair and spying reports",
-          "published": "2026-11-12T10:28:26+00:00"
         }
       ],
       "consensus": 2.0
@@ -1073,39 +991,151 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Xi says Taiwan 'reunification' must happen as history cannot be stopped",
+      "url": "https://www.thehindu.com/news/international/chinas-xi-says-taiwan-reunification-must-happen-as-history-cannot-be-stopped/article71692573.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T09:29:25+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-says-taiwan-reunification-must-happen-as-history-cannot-be-stopped",
+          "title": "China’s Xi says Taiwan ‘reunification’ must happen as tide of history cannot be stopped",
+          "published": "2026-11-12T04:18:59+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Chinese AI firms rush to secure Nvidia chip capacity as spy scandal stirs fear of U.S. curbs",
+      "url": "https://www.thehindu.com/sci-tech/technology/chinese-ai-firms-rush-to-secure-nvidia-chip-capacity-as-spy-scandal-stirs-fear-of-us-curbs/article71692635.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T09:13:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/china-ai-nvidia-spy-us-chip-curbs/",
+          "title": "Chinese AI firms rush to secure Nvidia chip capacity as scandal stirs fear of curbs",
+          "published": "2026-11-12T07:27:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "G7 Foreign Ministers say China's actions east of Taiwan threaten stability",
+      "url": "https://www.thehindu.com/news/international/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692205.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T07:18:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability",
+          "title": "G-7 foreign ministers say China’s actions east of Taiwan threaten stability",
+          "published": "2026-11-12T02:18:56+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "US says China agreed importance of leader-level talks to advance denuclearisation",
+      "url": "https://www.channelnewsasia.com/world/us-marco-rubio-china-wang-yi-denuclearisation-talks-6544651",
+      "source": "CNA",
+      "published": "2026-11-12T03:20:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinas-foreign-minister-says-call-with-rubio-was-positive-and-constructive",
+          "title": "US says China agreed importance of leader-level talks to advance denuclearisation",
+          "published": "2026-11-11T18:13:52+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
+      "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
+      "source": "The Guardian",
+      "published": "2026-11-11T19:00:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+          "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+          "published": "2026-11-11T14:56:11+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
+      "url": "http://www.africanews.com/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records/",
+      "source": "Africanews",
+      "published": "2026-11-12T11:50:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records",
+          "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
+          "published": "2026-11-12T11:50:32+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Peru: Pope Leo XIV returns to his adopted homeland on historic visit",
+      "url": "http://www.africanews.com/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit/",
+      "source": "Africanews",
+      "published": "2026-11-12T09:08:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit",
+          "title": "Peru: Pope Leo XIV returns to his adopted homeland on historic visit",
+          "published": "2026-11-12T09:07:55+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7619.38,
+      "price": 7566.38,
       "currency": "USD",
-      "change": 98.45,
-      "change_percent": 1.31,
+      "change": -53.0,
+      "change_percent": -0.7,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 142.02,
+      "price": 141.92,
       "currency": "GBP",
-      "change": -0.74,
-      "change_percent": -0.52,
+      "change": -0.84,
+      "change_percent": -0.59,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 25466.19,
+      "price": 25115.47,
       "currency": "USD",
-      "change": 400.31,
-      "change_percent": 1.6,
+      "change": -350.72,
+      "change_percent": -1.38,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10833.62,
+      "price": 10848.69,
       "currency": "GBP",
-      "change": -1.85,
-      "change_percent": -0.02,
+      "change": 13.22,
+      "change_percent": 0.12,
       "name": "FTSE 100"
     }
   ],
@@ -1113,34 +1143,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7619.38,
+        "price": 7566.38,
         "currency": "USD",
-        "change": 98.45,
-        "change_percent": 1.31,
+        "change": -53.0,
+        "change_percent": -0.7,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10833.62,
+        "price": 10848.69,
         "currency": "GBP",
-        "change": -1.85,
-        "change_percent": -0.02,
+        "change": 13.22,
+        "change_percent": 0.12,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 52486.49,
+        "price": 52586.1,
         "currency": "USD",
-        "change": 254.59,
-        "change_percent": 0.49,
+        "change": 99.61,
+        "change_percent": 0.19,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 25466.19,
+        "price": 25115.47,
         "currency": "USD",
-        "change": 400.31,
-        "change_percent": 1.6,
+        "change": -350.72,
+        "change_percent": -1.38,
         "name": "NASDAQ Composite"
       },
       {
@@ -1153,44 +1183,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26715.17,
+        "price": 26779.93,
         "currency": "EUR",
-        "change": 52.4,
-        "change_percent": 0.2,
+        "change": 117.16,
+        "change_percent": 0.44,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8357.7,
+        "price": 8368.87,
         "currency": "EUR",
-        "change": 24.83,
-        "change_percent": 0.3,
+        "change": 36.0,
+        "change_percent": 0.43,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3898.4,
+        "price": 3911.4,
         "currency": "USD",
-        "change": -102.1,
-        "change_percent": -2.55,
+        "change": -89.1,
+        "change_percent": -2.23,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 50.14,
+        "price": 50.45,
         "currency": "USD",
-        "change": -1.86,
-        "change_percent": -3.58,
+        "change": -1.55,
+        "change_percent": -2.97,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.66,
+        "price": 93.2,
         "currency": "USD",
-        "change": 0.9,
-        "change_percent": 0.97,
+        "change": 0.44,
+        "change_percent": 0.47,
         "name": "Brent Crude"
       },
       {
@@ -1198,7 +1228,7 @@
         "price": 1.11,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.04,
+        "change_percent": 0.07,
         "name": "EUR/USD"
       },
       {
@@ -1206,81 +1236,81 @@
         "price": 1.33,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.07,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.68,
+        "price": 159.66,
         "currency": "JPY",
-        "change": -0.03,
-        "change_percent": -0.02,
+        "change": -0.04,
+        "change_percent": -0.03,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 72476.8,
+        "price": 71897.42,
         "currency": "USD",
-        "change": -1448.39,
-        "change_percent": -1.96,
+        "change": -2027.77,
+        "change_percent": -2.74,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 521.12,
+        "price": 522.49,
         "currency": "USD",
-        "change": -12.03,
-        "change_percent": -2.26,
+        "change": 1.36,
+        "change_percent": 0.26,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 355.63,
+        "price": 358.69,
         "currency": "USD",
-        "change": 7.12,
-        "change_percent": 2.04,
+        "change": 3.33,
+        "change_percent": 0.94,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 173.73,
+        "price": 150.87,
         "currency": "USD",
-        "change": 4.93,
-        "change_percent": 2.92,
+        "change": -22.86,
+        "change_percent": -13.16,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 293.45,
+        "price": 295.55,
         "currency": "USD",
-        "change": 6.07,
-        "change_percent": 2.11,
+        "change": 2.1,
+        "change_percent": 0.72,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 266.17,
+        "price": 268.81,
         "currency": "USD",
-        "change": -4.7,
-        "change_percent": -1.74,
+        "change": 2.64,
+        "change_percent": 0.99,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 390.84,
+        "price": 387.12,
         "currency": "USD",
-        "change": 11.06,
-        "change_percent": 2.91,
+        "change": -3.7,
+        "change_percent": -0.95,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 628.77,
+        "price": 626.57,
         "currency": "USD",
-        "change": -12.62,
-        "change_percent": -1.97,
+        "change": -2.2,
+        "change_percent": -0.35,
         "name": "Meta"
       }
     ]
@@ -1394,20 +1424,20 @@
         {
           "title": "Ukraine says Starlink restrictions are back as US envoys land in Moscow",
           "url": "https://www.ft.com/content/6cd890f1-2e4d-468a-807f-529f45e1678e?syn-25a6b1a6=1",
-          "published": "2026-11-12T12:46:59+00:00",
+          "published": "2026-11-12T14:29:01+00:00",
           "snippet": "Army struggles to intercept Russian jet-powered drones, just as Steve Witkoff and Jared Kushner meet Vladimir Putin"
         },
         {
-          "title": "Britain’s Brexit towns are being left behind again",
-          "url": "https://www.ft.com/content/ac85c171-d2d6-4fa1-ab51-b36e3f271748?syn-25a6b1a6=1",
-          "published": "2026-11-12T12:40:46+00:00",
-          "snippet": "Burnham’s strategy will lead to growth in major cities and their regions — but not in every postcode"
+          "title": "Jensen Huang is gone. Will the AI industry pay the price?",
+          "url": "https://www.ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4?syn-25a6b1a6=1",
+          "published": "2026-11-12T14:22:30+00:00",
+          "snippet": "Nvidia chief’s fall could unravel the web of financial dependencies that helped fuel the AI boom"
         },
         {
-          "title": "Migration to rich countries falls under strict visa rules",
-          "url": "https://www.ft.com/content/9ef2ed1e-5a67-4b28-8939-0c8e07ac6444?syn-25a6b1a6=1",
-          "published": "2026-11-12T12:30:50+00:00",
-          "snippet": "Inflows drop for second consecutive year as governments bring in tougher rules for workers, students and refugees, OECD finds"
+          "title": "China warns US not to use Nvidia scandal as pretext for tech curbs",
+          "url": "https://www.ft.com/content/66e7337e-3696-4259-84f4-57533bc185bd?syn-25a6b1a6=1",
+          "published": "2026-11-12T14:17:47+00:00",
+          "snippet": "Beijing accuses US of fabricating ‘espionage narratives’ that ultimately forced resignation of co-founder Jensen Huang"
         }
       ]
     },
@@ -1417,22 +1447,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "What I Learned at a Drunk-Math Party",
+          "url": "https://www.theatlantic.com/technology/2026/11/drunk-math-party/689364/?utm_source=feed",
+          "published": "2026-11-12T14:00:00+00:00",
+          "snippet": "AI might be taking over mathematics research, but there is reason for hope when it comes to the uniquely human love of numbers."
+        },
+        {
           "title": "How Far Some Chatbot Users Will Go to Save Their AI Companions",
           "url": "https://www.theatlantic.com/technology/2026/11/people-keeping-ai-partners-alive/689380/?utm_source=feed",
           "published": "2026-11-12T13:48:37+00:00",
           "snippet": "When updates threatened the existence of their AI companions, some dedicated users took matters into their own hands."
         },
         {
-          "title": "Jensen Huang’s Icarus Complex",
+          "title": "The Rise and Fall of Jensen Huang",
           "url": "https://www.theatlantic.com/technology/2026/11/jensen-huangs-icarus-complex/689393/?utm_source=feed",
           "published": "2026-11-12T13:40:36+00:00",
-          "snippet": "His rise and fall has been spectacular."
-        },
-        {
-          "title": "The CEO, the Spy, and a Crisis for AI",
-          "url": "https://www.theatlantic.com/podcasts/2026/11/the-jensen-huang-crisis-for-ai/689392/?utm_source=feed",
-          "published": "2026-11-12T13:32:28+00:00",
-          "snippet": "“This may be the craziest story in the AI era since ChatGPT launched.”"
+          "snippet": "A $5.7 trillion face-plant"
         }
       ]
     },
@@ -1515,9 +1545,23 @@
   "web": {
     "tech": [
       {
+        "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+        "url": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+        "score": 51,
+        "source": "Hacker News",
+        "published": "2026-11-12T13:56:38+00:00"
+      },
+      {
+        "title": "Jensen Huang resigns as Nvidia CEO immediately",
+        "url": "https://www.reuters.com/live/nvidia-live-board-meets-fate-ceo-jensen-huang-after-affair-reports-2026-11-12/",
+        "score": 115,
+        "source": "Hacker News",
+        "published": "2026-11-12T13:56:11+00:00"
+      },
+      {
         "title": "NVIDIA Announces CEO Transition",
         "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-        "score": 105,
+        "score": 473,
         "source": "Hacker News",
         "published": "2026-11-12T13:52:29+00:00"
       },
@@ -1525,7 +1569,7 @@
         "title": "The entirety of \"Let Over Lambda\" is now freely available online",
         "url": "https://letoverlambda.com/",
         "comments_url": "https://lobste.rs/s/ooshl8/entirety_let_over_lambda_is_now_freely",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-12T12:44:34.403000+00:00"
       },
@@ -1533,7 +1577,7 @@
         "title": "Adapting CPython for yk",
         "url": "https://tratt.net/laurie/blog/2026/adapting_cpython_for_yk.html",
         "comments_url": "https://lobste.rs/s/gejy85/adapting_cpython_for_yk",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-12T12:29:56.716000+00:00"
       },
@@ -1548,7 +1592,7 @@
       {
         "title": "Anthropic IPO",
         "url": "https://ipo.anthropic.com/us/",
-        "score": 215,
+        "score": 251,
         "source": "Hacker News",
         "published": "2026-11-12T11:46:41+00:00"
       },
@@ -1556,21 +1600,21 @@
         "title": "Hijacking Samsung TV Smart Hub Ads",
         "url": "https://dvratil.cz/2026/11/hijacking-samsung-tv-smart-hub-ads/",
         "comments_url": "https://lobste.rs/s/2drgwh/hijacking_samsung_tv_smart_hub_ads",
-        "score": 13,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-12T11:08:45.506000+00:00"
       },
       {
         "title": "Researchers discover rare star system that emits radio signals every 8 minutes",
         "url": "https://www.curtin.edu.au/news/media-release/researchers-discover-rare-star-system-that-emits-radio-signals-every-eight-minutes/",
-        "score": 32,
+        "score": 42,
         "source": "Hacker News",
         "published": "2026-11-12T10:46:20+00:00"
       },
       {
         "title": "Why Writing Correct Software Is Hard",
         "url": "https://pron.github.io/posts/correctness-and-complexity",
-        "score": 152,
+        "score": 173,
         "source": "Hacker News",
         "published": "2026-11-12T10:28:26+00:00"
       },
@@ -1578,7 +1622,7 @@
         "title": "Hello Baochip",
         "url": "https://ratfactor.com/cards/hello-baochip",
         "comments_url": "https://lobste.rs/s/3gw2f4/hello_baochip",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-12T10:09:16.380000+00:00"
       },
@@ -1591,16 +1635,9 @@
         "published": "2026-11-12T08:19:41.011000+00:00"
       },
       {
-        "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
-        "url": "https://www.getlazarus.org/forums/topic/17/",
-        "score": 82,
-        "source": "Hacker News",
-        "published": "2026-11-12T05:49:34+00:00"
-      },
-      {
         "title": "Critical RCE Vulnerability in Apache HTTP Server",
         "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-        "score": 282,
+        "score": 292,
         "source": "Hacker News",
         "published": "2026-11-12T02:11:11+00:00"
       },
@@ -1608,23 +1645,16 @@
         "title": "The Myth of Neutral Code",
         "url": "https://foss.life/notes/2026/the-myth-of-neutral-code/",
         "comments_url": "https://lobste.rs/s/sc7qkv/myth_neutral_code",
-        "score": 25,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-11T23:59:09.304000+00:00"
       },
       {
         "title": "93% of paint splatters are valid Perl programs (2019)",
         "url": "https://www.mcmillen.dev/sigbovik/",
-        "score": 497,
+        "score": 508,
         "source": "Hacker News",
         "published": "2026-11-11T22:34:23+00:00"
-      },
-      {
-        "title": "Nvidia is preparing to oust Jensen Huang",
-        "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-        "score": 1153,
-        "source": "Hacker News",
-        "published": "2026-11-11T22:31:06+00:00"
       }
     ],
     "reddit": [
@@ -1637,20 +1667,12 @@
         "published": "2026-11-12T10:01:48+00:00"
       },
       {
-        "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
-        "url": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xu1goo/after_democrats_midterm_wins_palantir_ceo_alex/",
+        "title": "Nvidia CEO Jensen Huang Resigns After Multiple Affairs, Including With Alleged Chinese Spy",
+        "url": "https://variety.com/2026/biz/news/nvidia-ceo-jensen-huang-resigns-affairs-alleged-chinese-spy-1236945653/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xudbn0/nvidia_ceo_jensen_huang_resigns_after_multiple/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-12T02:52:08+00:00"
-      },
-      {
-        "title": "Starshield speed restrictions return, hampering efforts to intercept Russian drones, Zelensky says",
-        "url": "https://kyivindependent.com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xua5z5/starshield_speed_restrictions_return_hampering/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-12T11:15:27+00:00"
+        "published": "2026-11-12T13:53:37+00:00"
       },
       {
         "title": "Sleeping in a warmer bedroom during the summer is associated with poorer sleep quality and feeling less focused and productive the next day, according to new research.",
@@ -1661,20 +1683,12 @@
         "published": "2026-11-12T11:51:04+00:00"
       },
       {
-        "title": "‘Unsustainable and unaffordable:’ USS George H.W. Bush families confront Navy leaders over Iran mission",
-        "url": "https://www.ms.now/news/navy-iran-war-uss-bush-hung-cao-military-families-town-hall",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xu5zgm/unsustainable_and_unaffordable_uss_george_hw_bush/",
+        "title": "Starshield speed restrictions return, hampering efforts to intercept Russian drones, Zelensky says",
+        "url": "https://kyivindependent.com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xua5z5/starshield_speed_restrictions_return_hampering/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-12T06:56:20+00:00"
-      },
-      {
-        "title": "Trump helped Russia double diesel exports, but US received not a single shipment – FT",
-        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062493/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuajou/trump_helped_russia_double_diesel_exports_but_us/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-12T11:37:20+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-12T11:15:27+00:00"
       },
       {
         "title": "Zelenskiy says Starshield speed limited again, hampering Ukraine's defences",
@@ -1683,6 +1697,30 @@
         "score": null,
         "source": "/r/geopolitics",
         "published": "2026-11-12T13:02:37+00:00"
+      },
+      {
+        "title": "‘Unsustainable and unaffordable:’ USS George H.W. Bush families confront Navy leaders over Iran mission",
+        "url": "https://www.ms.now/news/navy-iran-war-uss-bush-hung-cao-military-families-town-hall",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xu5zgm/unsustainable_and_unaffordable_uss_george_hw_bush/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-12T06:56:20+00:00"
+      },
+      {
+        "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+        "url": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xu1goo/after_democrats_midterm_wins_palantir_ceo_alex/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-12T02:52:08+00:00"
+      },
+      {
+        "title": "Trump helped Russia double diesel exports, but US received not a single shipment – FT",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062493/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuajou/trump_helped_russia_double_diesel_exports_but_us/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-12T11:37:20+00:00"
       },
       {
         "title": "Ukraine again records Starshield speed restrictions — Zelenskyy",
@@ -1725,28 +1763,20 @@
         "published": "2026-11-11T22:36:18+00:00"
       },
       {
-        "title": "State Dept. official took Mediterranean trip paid for by tech billionaire",
-        "url": "https://www.washingtonpost.com/technology/2026/11/11/state-dept-official-took-mediterranean-trip-paid-by-tech-billionaire/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xtys4s/state_dept_official_took_mediterranean_trip_paid/",
+        "title": "New York forces T-Mobile to remove 50GB cap that throttled low-income home internet users to 600Kbps",
+        "url": "https://www.techspot.com/news/114531-new-york-forces-t-mobile-remove-50gb-cap.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xub697/new_york_forces_tmobile_to_remove_50gb_cap_that/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-12T00:43:05+00:00"
+        "published": "2026-11-12T12:11:23+00:00"
       },
       {
-        "title": "BMI alone gets obesity wrong for millions, study finds. It misses obesity in 5-9% of adults and wrongly labels up to 3% as obese. A newer method that adds waist measurements and checks for organ problems was better at telling healthy people apart from those with harmful body fat.",
-        "url": "https://www.theguardian.com/society/2026/nov/11/bmi-alternative-obesity-diagnosis-body-mass-index",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xts0d1/bmi_alone_gets_obesity_wrong_for_millions_study/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-11T20:01:03+00:00"
-      },
-      {
-        "title": "Vucic: I would completely ignore the presidential election",
-        "url": "https://n1info.rs/english/news/vucic-i-would-completely-ignore-the-presidential-election/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xu7g7u/vucic_i_would_completely_ignore_the_presidential/",
+        "title": "Hungary to Ratify the Istanbul Convention and Scrap Orban Era ‘Fetal Heartbeat’ Decree",
+        "url": "https://telex.hu/belfold/2026/11/12/magyar-peter-bejelentette-hogy-kezdemenyezik-az-isztambuli-egyezmeny-ratifikaciojat?",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xua16n/hungary_to_ratify_the_istanbul_convention_and/",
         "score": null,
         "source": "/r/europe",
-        "published": "2026-11-12T08:27:23+00:00"
+        "published": "2026-11-12T11:07:39+00:00"
       }
     ]
   }

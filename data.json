@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-12T03:50:59.380819+00:00",
+  "last_updated": "2026-11-12T04:00:57.905047+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 230
+      "ms": 560
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 597
+      "ms": 559
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 229
+      "ms": 282
     },
     "BBC News": {
       "ok": true,
       "count": 29,
       "error": null,
-      "ms": 338
+      "ms": 372
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 308
+      "ms": 341
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 235
+      "ms": 181
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 239
+      "ms": 900
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 752
+      "ms": 594
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 172
+      "ms": 227
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 217
+      "ms": 289
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 476
+      "ms": 649
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 476
+      "ms": 346
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 391
+      "ms": 484
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 1032
+      "ms": 182
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 184
+      "ms": 248
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 237
+      "ms": 323
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 736
+      "ms": 688
     },
     "Semafor": {
       "ok": true,
       "count": 276,
       "error": null,
-      "ms": 1033
+      "ms": 921
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 870
+      "ms": 731
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 156
+      "ms": 348
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 142
+      "ms": 262
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 502
+      "ms": 401
     },
     "The Independent": {
       "ok": true,
       "count": 75,
       "error": null,
-      "ms": 319
+      "ms": 342
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 222
+      "ms": 396
     }
   },
   "breaking": [
@@ -152,7 +152,7 @@
       "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
       "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-12T02:09:08+00:00",
+      "published": "2026-11-12T04:00:30+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -175,6 +175,28 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Building collapse in Brooklyn kills at least two, injures more than 10",
+      "url": "https://www.channelnewsasia.com/world/new-york-brooklyn-building-collapse-several-injured-6544236",
+      "source": "CNA",
+      "published": "2026-11-12T03:49:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+          "title": "Building collapse in Brooklyn kills two, injures more than a dozen",
+          "published": "2026-11-12T03:31:08+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+          "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+          "published": "2026-11-12T01:51:00+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
@@ -216,6 +238,28 @@
           "url": "https://www.abc.net.au/news/2026-11-12/missing-teenager-william-found-gippsland-bush/107372518",
           "title": "Joyful mum says teen found after six days missing in bush is 'grounded for life'",
           "published": "2026-11-12T01:04:31+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
+      "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
+      "source": "France24",
+      "published": "2026-11-12T02:31:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+          "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+          "published": "2026-11-11T16:08:20+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
+          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
+          "published": "2026-11-11T14:28:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -265,95 +309,23 @@
       "consensus": 3.0
     },
     {
-      "title": "COP31: Climate action must continue even if 'US is not here', Pacific leaders say",
-      "url": "https://www.rnz.co.nz/news/pacific/2558037/cop31-climate-action-must-continue-even-if-us-is-not-here-pacific-leaders-say",
-      "source": "RNZ",
-      "published": "2026-11-12T03:34:31+00:00",
+      "title": "Famed ocean liner sunk to become world’s biggest artificial reef",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374147/famed-ocean-liner-sunk-become-worlds-biggest-artificial-reef",
+      "source": "SCMP",
+      "published": "2026-11-12T03:55:51+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/environment/2026/11/12/climate-change/conflict-climate-action-cop31/",
-          "title": "Conflict must not distract from climate action, leaders warn COP31",
-          "published": "2026-11-12T02:19:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
-      "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece",
-      "source": "The Hindu",
-      "published": "2026-11-12T02:24:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html",
-          "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
-          "published": "2026-11-11T23:44:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
-      "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
-      "source": "Straits Times",
-      "published": "2026-11-12T02:20:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
-          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
-          "published": "2026-11-10T20:16:37+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
+          "title": "Historic US ocean liner sinks near Florida to become world’s largest artificial reef",
+          "published": "2026-11-12T03:07:16+00:00"
         }
       ],
       "consensus": 2.5
     }
   ],
   "world": [
-    {
-      "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
-      "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
-      "source": "The Guardian",
-      "published": "2026-11-11T17:03:43+00:00",
-      "score": 6,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
-          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
-          "published": "2026-11-11T14:28:00+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
-          "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
-          "published": "2026-11-10T13:18:48+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/10/russia-and-ukraine-hold-new-round-of-us-mediated-peace-talks-in-abu-dhabi-a94216",
-          "title": "Russia and Ukraine Hold New Round of U.S.-Mediated Peace Talks in Abu Dhabi",
-          "published": "2026-11-10T08:35:00+00:00"
-        },
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261110-ukraine-peace-talks-in-abu-dhabi-to-test-russia-s-willingness-to-negotiate",
-          "title": "Ukraine peace talks in Abu Dhabi to test Russia's willingness to negotiate",
-          "published": "2026-11-10T05:44:05+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
-          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
-          "published": "2026-11-08T22:41:35+00:00"
-        }
-      ],
-      "consensus": 7.5
-    },
     {
       "title": "Hoax bomb threats target schools across Italy, UK and Ireland",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
@@ -469,6 +441,68 @@
       "consensus": 6.0
     },
     {
+      "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
+      "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
+      "source": "The Guardian",
+      "published": "2026-11-11T17:03:43+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
+          "title": "Russia, Ukraine and US resume peace talks in Abu Dhabi amid fresh attacks",
+          "published": "2026-11-10T13:18:48+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/10/russia-and-ukraine-hold-new-round-of-us-mediated-peace-talks-in-abu-dhabi-a94216",
+          "title": "Russia and Ukraine Hold New Round of U.S.-Mediated Peace Talks in Abu Dhabi",
+          "published": "2026-11-10T08:35:00+00:00"
+        },
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261110-ukraine-peace-talks-in-abu-dhabi-to-test-russia-s-willingness-to-negotiate",
+          "title": "Ukraine peace talks in Abu Dhabi to test Russia's willingness to negotiate",
+          "published": "2026-11-10T05:44:05+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/us-to-hold-trilateral-ukraine-talks-in-uae",
+          "title": "US, Russia, and Ukraine to hold talks in Abu Dhabi",
+          "published": "2026-11-08T22:41:35+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
+    {
+      "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
+      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-nvidia-ceo-affair-jensen-huang-photos-b3083237.html",
+      "source": "The Independent",
+      "published": "2026-11-11T15:34:04+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
+          "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
+          "published": "2026-11-11T08:53:03+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
+          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
+          "published": "2026-11-10T20:16:37+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
+          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
+          "published": "2026-11-09T23:11:24+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "Trump defends Iran war in Veterans Day address",
       "url": "https://www.thehindu.com/news/international/usa-president-donald-trump-veterans-day-address-iran-war/article71691407.ece",
       "source": "The Hindu",
@@ -497,28 +531,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-      "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-11T22:34:43+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Iran classes Argentina navy, air force as 'terrorist organizations'",
-          "published": "2026-11-11T11:24:00+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/asia/iran-designates-argentinas-navy-and-air-force-terrorist-organizations-6542056",
-          "title": "Iran designates Argentina's navy and air force as 'terrorist organizations'",
-          "published": "2026-11-11T06:38:45+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "Judge rules Trump’s $10bn BBC defamation suit can proceed",
       "url": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
       "source": "Al Jazeera",
@@ -536,28 +548,6 @@
           "url": "https://www.thehindu.com/news/international/us-judge-says-trumps-10-billion-bbc-defamation-case-can-proceed/article71688097.ece",
           "title": "U.S. judge says Trump’s $10 billion BBC defamation case can proceed",
           "published": "2026-11-11T00:36:19+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
-      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-nvidia-ceo-affair-jensen-huang-photos-b3083237.html",
-      "source": "The Independent",
-      "published": "2026-11-11T15:34:04+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
-          "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
-          "published": "2026-11-11T08:53:03+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
-          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
-          "published": "2026-11-09T23:11:24+00:00"
         }
       ],
       "consensus": 4.0
@@ -629,17 +619,33 @@
       "consensus": 3.5
     },
     {
-      "title": "New York building collapse kills one person and injures 12",
-      "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T02:33:12+00:00",
+      "title": "COP31: Climate action must continue even if 'US is not here', Pacific leaders say",
+      "url": "https://www.rnz.co.nz/news/pacific/2558037/cop31-climate-action-must-continue-even-if-us-is-not-here-pacific-leaders-say",
+      "source": "RNZ",
+      "published": "2026-11-12T03:34:31+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-12/new-york-brooklyn-building-collapse-rescue/107376940",
-          "title": "People trapped in wreckage as New York building collapse kills two",
-          "published": "2026-11-12T00:50:09+00:00"
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/12/climate-change/conflict-climate-action-cop31/",
+          "title": "Conflict must not distract from climate action, leaders warn COP31",
+          "published": "2026-11-12T02:19:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
+      "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T02:24:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html",
+          "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
+          "published": "2026-11-11T23:44:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -662,6 +668,22 @@
           "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
           "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
           "published": "2026-11-11T22:07:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+      "url": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-11T22:34:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/iran-classes-argentina-navy-air-force-as-terrorist-organizations/a-79916290?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Iran classes Argentina navy, air force as 'terrorist organizations'",
+          "published": "2026-11-11T11:24:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -939,17 +961,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Live: US envoys to meet Putin and Zelensky after Abu Dhabi talks",
-      "url": "https://www.france24.com/en/europe/20261112-live-us-envoys-to-meet-putin-and-zelensky-after-abu-dhabi-talks",
-      "source": "France24",
-      "published": "2026-11-12T02:31:55+00:00",
+      "title": "Survivor pulled from rubble of deadly building collapse in New York",
+      "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-12T02:33:12+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
-          "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
-          "published": "2026-11-11T16:08:20+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/brooklyn-building-collapse-flatbush-nyc-b3083495.html",
+          "title": "New York City building collapse leaves people trapped in rubble",
+          "published": "2026-11-11T22:47:14+00:00"
         }
       ],
       "consensus": 2.0
@@ -1030,22 +1052,6 @@
           "url": "https://www.straitstimes.com/asia/former-pakistan-pm-imran-khan-back-in-jail-after-medical-treatment-sources-say",
           "title": "Former Pakistan PM Imran Khan back in jail after medical treatment, sources say",
           "published": "2026-11-11T05:38:45+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Dozens injured in South Korea after bus crashes into 32 vehicles",
-      "url": "https://www.thehindu.com/news/international/bus-crashes-into-32-vehicles-in-seongnam-south-korea-on-november-11-2026/article71688192.ece",
-      "source": "The Hindu",
-      "published": "2026-11-11T03:02:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/nine-seriously-injured-in-south-korea-bus-crash-involving-32-vehicles",
-          "title": "Nine seriously injured in South Korea bus crash involving 32 vehicles",
-          "published": "2026-11-11T02:19:03+00:00"
         }
       ],
       "consensus": 2.0
@@ -1169,10 +1175,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 61324.16,
+        "price": 61248.02,
         "currency": "JPY",
-        "change": 75.57,
-        "change_percent": 0.12,
+        "change": -0.57,
+        "change_percent": 0.0,
         "name": "Nikkei 225"
       },
       {
@@ -1195,26 +1201,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3983.6,
+        "price": 3988.4,
         "currency": "USD",
-        "change": -16.9,
-        "change_percent": -0.42,
+        "change": -12.1,
+        "change_percent": -0.3,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.45,
+        "price": 51.54,
         "currency": "USD",
-        "change": -0.55,
-        "change_percent": -1.06,
+        "change": -0.46,
+        "change_percent": -0.89,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.72,
+        "price": 91.77,
         "currency": "USD",
-        "change": -1.04,
-        "change_percent": -1.12,
+        "change": -0.99,
+        "change_percent": -1.07,
         "name": "Brent Crude"
       },
       {
@@ -1235,18 +1241,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.72,
+        "price": 159.74,
         "currency": "JPY",
-        "change": 0.01,
-        "change_percent": 0.01,
+        "change": 0.03,
+        "change_percent": 0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73679.55,
+        "price": 73742.76,
         "currency": "USD",
-        "change": -245.64,
-        "change_percent": -0.33,
+        "change": -182.43,
+        "change_percent": -0.25,
         "name": "Bitcoin"
       }
     ],
@@ -1541,14 +1547,14 @@
       {
         "title": "Lean Grimoire",
         "url": "https://terrytao.wordpress.com/2026/11/11/lean-grimoire/",
-        "score": 10,
+        "score": 11,
         "source": "Hacker News",
         "published": "2026-11-12T02:36:48+00:00"
       },
       {
         "title": "Critical RCE Vulnerability in Apache HTTP Server",
         "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-        "score": 28,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-12T02:11:11+00:00"
       },
@@ -1563,28 +1569,28 @@
       {
         "title": "A general purpose Apple Silicon layer for x86-64 PCs",
         "url": "https://github.com/tylertms/Stela",
-        "score": 71,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-11T23:02:38+00:00"
       },
       {
         "title": "93% of paint splatters are valid Perl programs (2019)",
         "url": "https://www.mcmillen.dev/sigbovik/",
-        "score": 225,
+        "score": 230,
         "source": "Hacker News",
         "published": "2026-11-11T22:34:23+00:00"
       },
       {
         "title": "Nvidia is preparing to oust Jensen Huang",
         "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-        "score": 657,
+        "score": 677,
         "source": "Hacker News",
         "published": "2026-11-11T22:31:06+00:00"
       },
       {
         "title": "Lock Your GitHub Actions",
         "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-        "score": 169,
+        "score": 170,
         "source": "Hacker News",
         "published": "2026-11-11T22:16:41+00:00"
       },
@@ -1592,21 +1598,21 @@
         "title": "How I accidentally became a millionaire",
         "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
         "comments_url": "https://lobste.rs/s/lnau2d/how_i_accidentally_became_millionaire",
-        "score": 46,
+        "score": 49,
         "source": "Lobste.rs",
         "published": "2026-11-11T21:53:24.946000+00:00"
       },
       {
         "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
         "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-        "score": 446,
+        "score": 453,
         "source": "Hacker News",
         "published": "2026-11-11T21:24:35+00:00"
       },
       {
         "title": "Emacs in the Age of Magic",
         "url": "https://commandlinesystems.com/magic.txt",
-        "score": 164,
+        "score": 165,
         "source": "Hacker News",
         "published": "2026-11-11T20:26:32+00:00"
       },
@@ -1629,7 +1635,7 @@
       {
         "title": "The Utah Teapot",
         "url": "https://graphics.cs.utah.edu/teapot/",
-        "score": 93,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-11T19:45:10+00:00"
       },
@@ -1748,6 +1754,14 @@
         "published": "2026-11-11T11:03:31+00:00"
       },
       {
+        "title": "After Democrats’ midterm wins, Palantir CEO Alex Karp now says he’s a ‘progressive’",
+        "url": "https://www.washingtonpost.com/technology/2026/11/11/after-democrats-midterm-wins-palantir-ceo-alex-karp-now-says-hes-progressive/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xu1goo/after_democrats_midterm_wins_palantir_ceo_alex/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-12T02:52:08+00:00"
+      },
+      {
         "title": "Reddit resisted giving users' personal data to the U.S. government over critical ICE posts",
         "url": "https://this.weekinsecurity.com/reddit-resisted-giving-users-personal-data-to-the-us-government-about-critical-ice-posts/",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xtoaur/reddit_resisted_giving_users_personal_data_to_the/",
@@ -1762,14 +1776,6 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-11T14:16:14+00:00"
-      },
-      {
-        "title": "Russian ambassador to US dies, foreign ministry says",
-        "url": "https://edition.cnn.com/2026/11/11/europe/russian-ambassador-to-us-dies-intl",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtmua5/russian_ambassador_to_us_dies_foreign_ministry/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-11T16:50:47+00:00"
       }
     ]
   }

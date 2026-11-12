@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-12T09:01:02.525401+00:00",
+  "last_updated": "2026-11-12T09:30:51.141279+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 456
+      "ms": 303
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 526
+      "ms": 366
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 268
+      "ms": 214
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 265
+      "ms": 125
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 239
+      "ms": 360
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 180
+      "ms": 260
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 34
+      "ms": 586
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 721
+      "ms": 428
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 193
+      "ms": 129
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 3340
+      "ms": 188
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 355
+      "ms": 314
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 380
+      "ms": 349
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 491
+      "ms": 257
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 748
+      "ms": 239
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 949
+      "ms": 236
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 212
+      "ms": 299
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 851
+      "ms": 547
     },
     "Semafor": {
       "ok": true,
       "count": 276,
       "error": null,
-      "ms": 944
+      "ms": 585
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 563
+      "ms": 649
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 407
+      "ms": 305
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 101
+      "ms": 83
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 421
+      "ms": 315
     },
     "The Independent": {
       "ok": true,
-      "count": 77,
+      "count": 78,
       "error": null,
-      "ms": 173
+      "ms": 175
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 372
+      "ms": 331
     }
   },
   "breaking": [
@@ -205,10 +205,32 @@
       "consensus": 4.5
     },
     {
-      "title": "Pope Leo XIV welcomed by millions on return to his second home Peru",
-      "url": "https://www.euronews.com/2026/11/12/pope-leo-xiv-welcomed-by-millions-on-return-to-his-second-home-peru",
+      "title": "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+      "url": "https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital",
+      "source": "NPR World",
+      "published": "2026-11-12T09:29:30+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+          "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+          "published": "2026-11-12T09:00:15+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says/article71692179.ece",
+          "title": "Israeli strike on southern Gaza hospital kills six, health authorities say",
+          "published": "2026-11-12T06:49:51+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Peru: Pope Leo XIV returns to his adopted homeland on historic visit",
+      "url": "https://www.euronews.com/video/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit",
       "source": "Euronews",
-      "published": "2026-11-12T09:00:13+00:00",
+      "published": "2026-11-12T09:07:55+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -271,26 +293,10 @@
       "consensus": 3.0
     },
     {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T09:00:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-strike-on-southern-gaza-hospital-kills-five-gaza-civil-defence-says/article71692179.ece",
-          "title": "Israeli strike on southern Gaza hospital kills six, health authorities say",
-          "published": "2026-11-12T06:49:51+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
       "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
       "source": "The Guardian",
-      "published": "2026-11-12T08:42:39+00:00",
+      "published": "2026-11-12T09:11:33+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -517,6 +523,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
+      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-nvidia-ceo-affair-jensen-huang-photos-b3083237.html",
+      "source": "The Independent",
+      "published": "2026-11-11T15:34:04+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
+          "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
+          "published": "2026-11-11T08:53:03+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
+          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
+          "published": "2026-11-10T20:16:37+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Missing Australian teen found alive after six days lost in bushland: ‘He’s never leaving the house again’",
       "url": "https://www.independent.co.uk/news/world/australasia/australia-victoria-bushland-teen-william-b3083555.html",
       "source": "The Independent",
@@ -627,22 +655,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Ukraine-Russia war latest: Moscow and Kyiv exchange attacks as Trump envoys arrive for talks with Putin",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-ballistic-missile-moscow-kyiv-b3083543.html",
-      "source": "The Independent",
-      "published": "2026-11-12T08:21:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-envoys-arrive-in-moscow-latest-round-ukrainian-peace-talks-putin-6545326",
-          "title": "US envoys arrive in Moscow for latest round of Ukrainian peace talks with Putin",
-          "published": "2026-11-12T07:25:47+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Surgeon among six killed in Israeli air strike on Gaza hospital",
       "url": "https://www.abc.net.au/news/2026-11-12/deadly-israeli-air-strike-nasser-hospital-gaza/107379926",
       "source": "ABC Australia",
@@ -654,22 +666,6 @@
           "url": "https://www.independent.co.uk/news/world/middle-east/israel-attack-nasser-hospital-gaza-dead-b3083591.html",
           "title": "Doctor among six Palestinians killed in Israeli airstrike on Gaza hospital",
           "published": "2026-11-12T07:31:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US envoys in Moscow for meeting with Putin following talks in Abu Dhabi",
-      "url": "https://www.independent.co.uk/news/world/europe/vladimir-putin-jared-kushner-donald-trump-abu-dhabi-moscow-b3083633.html",
-      "source": "The Independent",
-      "published": "2026-11-12T08:05:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
-          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
-          "published": "2026-11-11T14:28:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -771,22 +767,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
-      "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
-      "source": "Straits Times",
-      "published": "2026-11-12T02:20:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/alice-huang-nvidia-9.7416909?cmp=rss",
-          "title": "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
-          "published": "2026-11-10T20:16:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
       "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
       "source": "Africanews",
@@ -804,6 +784,22 @@
           "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
           "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
           "published": "2026-11-11T22:07:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Nvidia scandal rocks White House as report reveals Trump was ‘warned’ about CEO’s affair months ago",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html",
+      "source": "The Independent",
+      "published": "2026-11-11T21:41:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/11/2026/white-house-hit-by-intensified-scrutiny-over-knowledge-of-nvidia-ceos-affair",
+          "title": "White House scrutiny intensifies over Nvidia CEO’s affair",
+          "published": "2026-11-11T12:00:22+00:00"
         }
       ],
       "consensus": 2.5
@@ -852,6 +848,22 @@
           "url": "https://www.rfi.fr/en/environment/20261111-un-chief-urges-world-leaders-to-tackle-fossil-fuels-at-cop31",
           "title": "UN chief urges world leaders to tackle fossil fuels at COP31",
           "published": "2026-11-11T01:16:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-11T16:08:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
+          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
+          "published": "2026-11-11T14:28:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -1092,10 +1104,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 142.31,
+      "price": 142.36,
       "currency": "GBP",
-      "change": -0.45,
-      "change_percent": -0.32,
+      "change": -0.4,
+      "change_percent": -0.28,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1108,10 +1120,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10850.25,
+      "price": 10862.44,
       "currency": "GBP",
-      "change": 14.78,
-      "change_percent": 0.14,
+      "change": 26.97,
+      "change_percent": 0.25,
       "name": "FTSE 100"
     }
   ],
@@ -1127,10 +1139,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10850.25,
+        "price": 10862.44,
         "currency": "GBP",
-        "change": 14.78,
-        "change_percent": 0.14,
+        "change": 26.97,
+        "change_percent": 0.25,
         "name": "FTSE 100"
       },
       {
@@ -1159,44 +1171,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26935.48,
+        "price": 26938.38,
         "currency": "EUR",
-        "change": 272.71,
-        "change_percent": 1.02,
+        "change": 275.61,
+        "change_percent": 1.03,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8387.4,
+        "price": 8394.82,
         "currency": "EUR",
-        "change": 54.53,
-        "change_percent": 0.65,
+        "change": 61.95,
+        "change_percent": 0.74,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3945.5,
+        "price": 3936.4,
         "currency": "USD",
-        "change": -55.0,
-        "change_percent": -1.37,
+        "change": -64.1,
+        "change_percent": -1.6,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.06,
+        "price": 50.95,
         "currency": "USD",
-        "change": -0.94,
-        "change_percent": -1.8,
+        "change": -1.06,
+        "change_percent": -2.03,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.01,
+        "price": 92.71,
         "currency": "USD",
-        "change": 0.25,
-        "change_percent": 0.27,
+        "change": -0.05,
+        "change_percent": -0.05,
         "name": "Brent Crude"
       },
       {
@@ -1204,7 +1216,7 @@
         "price": 1.11,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.05,
+        "change_percent": 0.07,
         "name": "EUR/USD"
       },
       {
@@ -1212,7 +1224,7 @@
         "price": 1.33,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.04,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
@@ -1225,10 +1237,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 73422.72,
+        "price": 73379.48,
         "currency": "USD",
-        "change": -502.47,
-        "change_percent": -0.68,
+        "change": -545.71,
+        "change_percent": -0.74,
         "name": "Bitcoin"
       }
     ],
@@ -1524,35 +1536,35 @@
         "title": "Global coordination requirements for 2038-class rollover events",
         "url": "https://www.itu.int/pub/T-TUT-ICTS-2026-6",
         "comments_url": "https://lobste.rs/s/vwta8g/global_coordination_requirements_for",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-12T08:19:41.011000+00:00"
       },
       {
-        "title": "Humble Bundle just killed most of their security through vibecoding",
-        "url": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
-        "score": 209,
-        "source": "Hacker News",
-        "published": "2026-11-12T06:52:48+00:00"
-      },
-      {
         "title": "I'm Working on a FOSS Linux Pinbal Simulation Engine",
         "url": "https://www.getlazarus.org/forums/topic/17/",
-        "score": 32,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-12T05:49:34+00:00"
       },
       {
+        "title": "Darling Development Update – Q4 2026",
+        "url": "https://blog.darlinghq.org/2026/11/08/development-update-q4-2026/",
+        "score": 26,
+        "source": "Hacker News",
+        "published": "2026-11-12T04:32:31+00:00"
+      },
+      {
         "title": "Bad ideas that aren't bad anymore",
         "url": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
-        "score": 48,
+        "score": 57,
         "source": "Hacker News",
         "published": "2026-11-12T03:18:13+00:00"
       },
       {
         "title": "Critical RCE Vulnerability in Apache HTTP Server",
         "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-        "score": 176,
+        "score": 187,
         "source": "Hacker News",
         "published": "2026-11-12T02:11:11+00:00"
       },
@@ -1560,28 +1572,28 @@
         "title": "The Myth of Neutral Code",
         "url": "https://foss.life/notes/2026/the-myth-of-neutral-code/",
         "comments_url": "https://lobste.rs/s/sc7qkv/myth_neutral_code",
-        "score": 12,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-11T23:59:09.304000+00:00"
       },
       {
         "title": "93% of paint splatters are valid Perl programs (2019)",
         "url": "https://www.mcmillen.dev/sigbovik/",
-        "score": 405,
+        "score": 413,
         "source": "Hacker News",
         "published": "2026-11-11T22:34:23+00:00"
       },
       {
         "title": "Nvidia is preparing to oust Jensen Huang",
         "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-        "score": 974,
+        "score": 995,
         "source": "Hacker News",
         "published": "2026-11-11T22:31:06+00:00"
       },
       {
         "title": "Lock Your GitHub Actions",
         "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-        "score": 243,
+        "score": 250,
         "source": "Hacker News",
         "published": "2026-11-11T22:16:41+00:00"
       },
@@ -1589,14 +1601,14 @@
         "title": "How I accidentally became a millionaire",
         "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
         "comments_url": "https://lobste.rs/s/lnau2d/how_i_accidentally_became_millionaire",
-        "score": 95,
+        "score": 103,
         "source": "Lobste.rs",
         "published": "2026-11-11T21:53:24.946000+00:00"
       },
       {
         "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
         "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-        "score": 543,
+        "score": 548,
         "source": "Hacker News",
         "published": "2026-11-11T21:24:35+00:00"
       },
@@ -1620,7 +1632,7 @@
         "title": "eMudhra Statement on Recent Certificate Security Incident",
         "url": "https://emudhra.com/en/post/certificate-security-incident",
         "comments_url": "https://lobste.rs/s/pfscsm/emudhra_statement_on_recent_certificate",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-11T19:19:58.174000+00:00"
       },
@@ -1628,7 +1640,7 @@
         "title": "For the first time, a C++ standard failed to pass the national bodies",
         "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/",
         "comments_url": "https://lobste.rs/s/lrpb0m/for_first_time_c_standard_failed_pass",
-        "score": 20,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-11T18:49:35.129000+00:00"
       }
@@ -1643,12 +1655,12 @@
         "published": "2026-11-12T02:52:08+00:00"
       },
       {
-        "title": "Canada's Port of Churchill Is Shipping Grain to Europe Again as Canada Looks Beyond the U.S.",
-        "url": "https://www.culturealberta.com/articles/manitobas-port-of-churchill-is-shipping-grain-to-europe-again-as-canada-looks-beyond-the-us",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtyjza/canadas_port_of_churchill_is_shipping_grain_to/",
+        "title": "Russia's largest oil refinery slammed by drones in 8-hour attack 2,500 km from Ukraine",
+        "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xu70wy/russias_largest_oil_refinery_slammed_by_drones_in/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-12T00:32:27+00:00"
+        "published": "2026-11-12T08:00:31+00:00"
       },
       {
         "title": "BMI alone gets obesity wrong for millions, study finds. It misses obesity in 5-9% of adults and wrongly labels up to 3% as obese. A newer method that adds waist measurements and checks for organ problems was better at telling healthy people apart from those with harmful body fat.",
@@ -1675,12 +1687,12 @@
         "published": "2026-11-12T06:56:20+00:00"
       },
       {
-        "title": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
-        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xttfxb/millions_of_spaniards_stage_first_general_strike/",
+        "title": "Canada's Port of Churchill Is Shipping Grain to Europe Again as Canada Looks Beyond the U.S.",
+        "url": "https://www.culturealberta.com/articles/manitobas-port-of-churchill-is-shipping-grain-to-europe-again-as-canada-looks-beyond-the-us",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtyjza/canadas_port_of_churchill_is_shipping_grain_to/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T20:57:35+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-12T00:32:27+00:00"
       },
       {
         "title": "Men and women can score the same on average in hiring tests, yet men still get hired more. A simulation study finds that because men's scores are more spread out, strict cutoffs like \"top 10% only\" pick more men. One scenario gave a 60% male workforce. This may explain workplace gender gaps.",
@@ -1691,36 +1703,20 @@
         "published": "2026-11-11T19:54:58+00:00"
       },
       {
+        "title": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
+        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xttfxb/millions_of_spaniards_stage_first_general_strike/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-11T20:57:35+00:00"
+      },
+      {
         "title": "Lithuania asked Taiwan’s Vilnius office to change its name, blaming the EU for lack of support against China.",
         "url": "https://www.lrt.lt/en/news-in-english/19/3109087/lithuania-asked-taiwan-s-vilnius-office-to-change-its-name-report-says",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xu4xms/lithuania_asked_taiwans_vilnius_office_to_change/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-12T05:54:38+00:00"
-      },
-      {
-        "title": "Japanese Ex-Adult Film Star Mao Hamasaki Wakes Up in Hospital After Manager Claims She Was 'Drugged While Working'",
-        "url": "https://www.medicaldaily.co.uk/mao-hamasaki-hospitalised-alleged-spiked-drink-hong-kong-1760160",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xu6fq4/japanese_exadult_film_star_mao_hamasaki_wakes_up/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-12T07:23:25+00:00"
-      },
-      {
-        "title": "Russia's largest oil refinery slammed by drones in 8-hour attack 2,500 km from Ukraine",
-        "url": "https://kyivindependent.com/russias-largest-oil-refinery-slammed-by-drones-in-8-hr-attack-2-500-km-from-ukraine/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xu70wy/russias_largest_oil_refinery_slammed_by_drones_in/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-12T08:00:31+00:00"
-      },
-      {
-        "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-        "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-11T22:09:03+00:00"
       },
       {
         "title": "'Ukraine's future is within the European Union' — Irish PM aims to open all EU negotiation clusters for Kyiv by end of year",
@@ -1731,12 +1727,12 @@
         "published": "2026-11-11T23:12:36+00:00"
       },
       {
-        "title": "Magyar: Serbia and its new leadership can count on Hungary",
-        "url": "https://n1info.rs/english/news/magyar-serbia-and-its-new-leadership-can-count-on-hungary/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xthn60/magyar_serbia_and_its_new_leadership_can_count_on/",
+        "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+        "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T13:23:47+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-11T22:09:03+00:00"
       },
       {
         "title": "Exclusive | Nvidia is Preparing to Oust CEO Jensen Huang",
@@ -1753,6 +1749,22 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-11T16:34:13+00:00"
+      },
+      {
+        "title": "Sweden amends constitution to allow revoking citizenship of dual nationals",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/11/sweden-amends-constitution-to-allow-revoking-citizenship-of-dual-nationals_6778020_4.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtngp2/sweden_amends_constitution_to_allow_revoking/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-11T17:12:59+00:00"
+      },
+      {
+        "title": "As newborn vitamin K nonreceipt in the US climbed from 3.1% to 6.8% over eight years, researchers found infants missing the shot face significantly higher risks of severe bleeding and mortality during their birth hospitalization.",
+        "url": "https://jamanetwork.com/journals/jama/fullarticle/2856300?guestAccessKey=ba1b2c0d-d9ac-402b-a249-30212fc97f5b",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xtrjk2/as_newborn_vitamin_k_nonreceipt_in_the_us_climbed/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-11T19:43:26+00:00"
       }
     ]
   }

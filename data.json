@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-11T23:30:47.078191+00:00",
+  "last_updated": "2026-11-12T00:01:05.728925+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 254
+      "ms": 339
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 166
+      "ms": 230
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 172
+      "ms": 184
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 136
+      "ms": 141
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 338
+      "ms": 333
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 267
+      "ms": 225
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 602
+      "ms": 482
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 342
+      "ms": 334
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 122
+      "ms": 105
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 195
+      "ms": 372
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 305
+      "ms": 457
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 166
+      "ms": 353
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 225
+      "ms": 128
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 519
+      "ms": 1338
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 180
+      "ms": 778
     },
     "RNZ": {
       "ok": true,
-      "count": 46,
+      "count": 47,
       "error": null,
-      "ms": 275
+      "ms": 597
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 646
+      "ms": 700
     },
     "Semafor": {
       "ok": true,
       "count": 279,
       "error": null,
-      "ms": 410
+      "ms": 507
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 635
+      "ms": 710
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 268
+      "ms": 393
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 219
+      "ms": 176
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 168
+      "ms": 166
     },
     "The Independent": {
       "ok": true,
       "count": 72,
       "error": null,
-      "ms": 430
+      "ms": 223
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 187
+      "ms": 160
     }
   },
   "breaking": [
@@ -239,6 +239,50 @@
       "consensus": 4.0
     },
     {
+      "title": "Democrat Scott Colom wins Mississippi Senate race in surprise victory for party",
+      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-11T23:52:30+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261111-democrat-scott-colom-wins-historic-senate-race-in-mississippi",
+          "title": "Democrat Scott Colom wins historic Senate race in Mississippi",
+          "published": "2026-11-11T23:47:50+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
+          "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
+          "published": "2026-11-11T23:05:34+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Nvidia preparing to oust Jensen Huang after affairs, WSJ says",
+      "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/",
+      "source": "Japan Times",
+      "published": "2026-11-11T23:24:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
+          "title": "Nvidia board preparing to oust CEO Huang: WSJ",
+          "published": "2026-11-11T23:12:38+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-jensen-huang-oust-ceo-6544031",
+          "title": "Nvidia is preparing to oust CEO Jensen Huang: Report",
+          "published": "2026-11-11T22:50:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Russia and Ukraine agree to biggest prisoner swap yet at Abu Dhabi peace summit",
       "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-prisoner-swap-trump-envoy-kushner-witkoff-b3083499.html",
       "source": "The Independent",
@@ -261,38 +305,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Democrat Scott Colom wins Mississippi Senate race in surprise victory for party",
-      "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-11T23:24:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
-          "title": "Democrat Scott Colom wins closely watched US Senate race in Mississippi",
-          "published": "2026-11-11T23:05:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia board preparing to oust CEO Huang: WSJ",
-      "url": "https://www.semafor.com/article/11/11/2026/nvidia-board-preparing-to-oust-ceo-huang-wsj",
-      "source": "Semafor",
-      "published": "2026-11-11T23:12:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-jensen-huang-oust-ceo-6544031",
-          "title": "Nvidia is preparing to oust CEO Jensen Huang: Report",
-          "published": "2026-11-11T22:50:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Hegseth and aides scolded by guard for laughing at Tomb of the Unknown Soldier",
       "url": "https://www.theguardian.com/us-news/2026/nov/11/hegseth-scolded-tomb-unknown-soldier",
       "source": "The Guardian",
@@ -309,17 +321,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Nvidia scandal rocks White House as report reveals Trump was ‘warned’ about CEO’s affair months ago",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html",
-      "source": "The Independent",
-      "published": "2026-11-11T21:41:34+00:00",
+      "title": "Human torso found in sofa in Sydney bushland prompts homicide investigation",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/12/human-torso-found-sydneys-lower-north-shore-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-11T22:57:33+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/11/2026/white-house-hit-by-intensified-scrutiny-over-knowledge-of-nvidia-ceos-affair",
-          "title": "White House scrutiny intensifies over Nvidia CEO’s affair",
-          "published": "2026-11-11T12:00:22+00:00"
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-12/human-remains-torso-found-in-sofa-in-sydney-bushland-lane-cove/107376074",
+          "title": "Human remains found inside sofa dumped in Sydney bushland",
+          "published": "2026-11-11T20:58:49+00:00"
         }
       ],
       "consensus": 2.5
@@ -331,14 +343,8 @@
       "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
       "source": "The Guardian",
       "published": "2026-11-11T17:03:43+00:00",
-      "score": 6,
+      "score": 5,
       "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
-          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
-          "published": "2026-11-11T14:28:00+00:00"
-        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/10/talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi/",
@@ -364,7 +370,7 @@
           "published": "2026-11-08T22:41:35+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 6.0
     },
     {
       "title": "Who is Alice Huang? The alleged spy at center of Nvidia CEO affair scandal",
@@ -589,6 +595,44 @@
       "consensus": 3.5
     },
     {
+      "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+      "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
+      "source": "Africanews",
+      "published": "2026-11-11T22:54:35+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
+          "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
+          "published": "2026-11-11T22:54:27+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
+          "published": "2026-11-11T22:07:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Nvidia scandal rocks White House as report reveals Trump was ‘warned’ about CEO’s affair months ago",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html",
+      "source": "The Independent",
+      "published": "2026-11-11T21:41:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/11/2026/white-house-hit-by-intensified-scrutiny-over-knowledge-of-nvidia-ceos-affair",
+          "title": "White House scrutiny intensifies over Nvidia CEO’s affair",
+          "published": "2026-11-11T12:00:22+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "General strike over housing brings out hundreds of thousands in Spain",
       "url": "https://www.france24.com/en/general-strike-over-housing-brings-out-hundreds-of-thousands-in-spain",
       "source": "France24",
@@ -616,22 +660,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/us-politics/biden-cancer-second-term-2024-memoir-b3083336.html",
           "title": "Joe Biden says he wouldn’t have run for second term in 2024 if he knew he had cancer",
           "published": "2026-11-11T16:57:08+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Father charged with attempted murder after baby buried alive rescued in South Carolina",
-      "url": "https://www.cbc.ca/news/world/baby-found-buried-alive-south-carolina-9.7418243?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-11T19:28:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c8e391xzg6z2o?at_medium=RSS&at_campaign=rss",
-          "title": "Missing 11-month-old baby rescued after being buried alive in a crate in South Carolina",
-          "published": "2026-11-11T18:10:57+00:00"
         }
       ],
       "consensus": 2.5
@@ -717,17 +745,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Spain: General strike over housing costs before national election",
-      "url": "https://www.france24.com/en/spain-general-strike-over-housing-costs-before-national-election",
-      "source": "France24",
-      "published": "2026-11-11T15:54:40+00:00",
+      "title": "US envoys to meet Putin and Zelenskyy separately - as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-11T16:08:20+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
-          "title": "Spain's workers hold a general strike over housing costs before national election",
-          "published": "2026-11-11T09:54:54+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-ukraine-abu-dhabi-talks-us-putin-6543276",
+          "title": "US envoys to meet Putin after Ukraine talks in Abu Dhabi",
+          "published": "2026-11-11T14:28:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -875,22 +903,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-      "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
-      "source": "Euronews",
-      "published": "2026-11-11T22:54:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-          "published": "2026-11-11T22:07:37+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
@@ -1165,26 +1177,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3987.5,
+        "price": 3987.6,
         "currency": "USD",
-        "change": -13.0,
+        "change": -12.9,
         "change_percent": -0.32,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 51.45,
+        "price": 51.34,
         "currency": "USD",
-        "change": -0.55,
-        "change_percent": -1.06,
+        "change": -0.67,
+        "change_percent": -1.28,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.44,
+        "price": 92.45,
         "currency": "USD",
-        "change": -0.32,
-        "change_percent": -0.34,
+        "change": -0.31,
+        "change_percent": -0.33,
         "name": "Brent Crude"
       },
       {
@@ -1192,7 +1204,7 @@
         "price": 1.11,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.62,
+        "change_percent": -0.64,
         "name": "EUR/USD"
       },
       {
@@ -1200,23 +1212,23 @@
         "price": 1.33,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.52,
+        "change_percent": -0.54,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.7,
+        "price": 159.68,
         "currency": "JPY",
-        "change": 1.0,
-        "change_percent": 0.63,
+        "change": 0.98,
+        "change_percent": 0.62,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 73723.34,
+        "price": 73951.48,
         "currency": "USD",
-        "change": 14.46,
-        "change_percent": 0.02,
+        "change": 242.6,
+        "change_percent": 0.33,
         "name": "Bitcoin"
       }
     ],
@@ -1386,6 +1398,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Scott Colom wins historic Senate race in Mississippi",
+          "url": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
+          "published": "2026-11-11T23:49:57+00:00",
+          "snippet": "Democrat becomes the first Black man to represent the state since Reconstruction era"
+        },
+        {
           "title": "Nvidia board set to meet after revelations Huang had affair with top company executive",
           "url": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
           "published": "2026-11-11T22:56:26+00:00",
@@ -1396,12 +1414,6 @@
           "url": "https://www.ft.com/content/377d2ae5-112f-411f-bfc1-5e498948cb7b?syn-25a6b1a6=1",
           "published": "2026-11-11T21:26:48+00:00",
           "snippet": "US oil company invokes investment treaty to challenge Brussels’ green regulations and seek suspension of timing requirements"
-        },
-        {
-          "title": "Ukraine peace talks end with prisoner swap but no breakthrough",
-          "url": "https://www.ft.com/content/39254048-0d84-47b8-bb97-4b9d9e1f2b92?syn-25a6b1a6=1",
-          "published": "2026-11-11T21:09:30+00:00",
-          "snippet": "Discussions involving Kyiv as well as Russia and the US focus on postwar security guarantees"
         }
       ]
     },
@@ -1411,10 +1423,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "Trump Is Conspicuously Playing Dumb About Jensen Huang",
+          "title": "Trump’s Stance on Jensen Huang Is a Tell",
           "url": "https://www.theatlantic.com/newsletters/2026/11/trump-jensen-huang-affair-ignorance-national-security/689390/?utm_source=feed",
           "published": "2026-11-11T23:06:00+00:00",
-          "snippet": "The president’s decision to feign ignorance about the scandal shows once again that he doesn’t care that much about national security."
+          "snippet": "The president’s decision to feign ignorance about the Nvidia scandal shows once again that he doesn’t care that much about national security."
         },
         {
           "title": "Democrats Should Cut a Deal With Trump",
@@ -1509,23 +1521,37 @@
   "web": {
     "tech": [
       {
+        "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+        "url": "https://github.com/tylertms/Stela",
+        "score": 12,
+        "source": "Hacker News",
+        "published": "2026-11-11T23:02:38+00:00"
+      },
+      {
         "title": "Nvidia prepares to fire CEO Jensen Huang, WSJ reports",
         "url": "https://twitter.com/watcherguru/status/2120645607866188008",
-        "score": 39,
+        "score": 119,
         "source": "Hacker News",
         "published": "2026-11-11T22:36:35+00:00"
       },
       {
         "title": "93% of Paint Splatters Are Valid Perl Programs (2019)",
         "url": "https://www.mcmillen.dev/sigbovik/",
-        "score": 33,
+        "score": 56,
         "source": "Hacker News",
         "published": "2026-11-11T22:34:23+00:00"
       },
       {
+        "title": "Nvidia is preparing to oust Jensen Huang",
+        "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+        "score": 307,
+        "source": "Hacker News",
+        "published": "2026-11-11T22:31:06+00:00"
+      },
+      {
         "title": "Lock Your GitHub Actions",
         "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-        "score": 49,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-11T22:16:41+00:00"
       },
@@ -1533,28 +1559,28 @@
         "title": "How I accidentally became a millionaire",
         "url": "https://lyra.horse/blog/2026/11/disinformation-machine/",
         "comments_url": "https://lobste.rs/s/lnau2d/how_i_accidentally_became_millionaire",
-        "score": 10,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-11T21:53:24.946000+00:00"
       },
       {
         "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
         "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-        "score": 233,
+        "score": 279,
         "source": "Hacker News",
         "published": "2026-11-11T21:24:35+00:00"
       },
       {
         "title": "Emacs in the Age of Magic",
         "url": "https://commandlinesystems.com/magic.txt",
-        "score": 107,
+        "score": 123,
         "source": "Hacker News",
         "published": "2026-11-11T20:26:32+00:00"
       },
       {
         "title": "Huawei releases MACaQ, its internal quantizer for local inference",
         "url": "https://github.com/huawei-csl/MACaQ",
-        "score": 40,
+        "score": 46,
         "source": "Hacker News",
         "published": "2026-11-11T20:23:57+00:00"
       },
@@ -1569,7 +1595,7 @@
       {
         "title": "The Utah Teapot",
         "url": "https://graphics.cs.utah.edu/teapot/",
-        "score": 43,
+        "score": 51,
         "source": "Hacker News",
         "published": "2026-11-11T19:45:10+00:00"
       },
@@ -1584,7 +1610,7 @@
       {
         "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
         "url": "https://termsheetplease.com/",
-        "score": 144,
+        "score": 153,
         "source": "Hacker News",
         "published": "2026-11-11T19:12:16+00:00"
       },
@@ -1592,41 +1618,26 @@
         "title": "For the first time, a C++ standard failed to pass the national bodies",
         "url": "https://herecomesthemoon.net/2026/11/cpp26-failed-the-national-bodies/",
         "comments_url": "https://lobste.rs/s/lrpb0m/for_first_time_c_standard_failed_pass",
-        "score": 10,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-11T18:49:35.129000+00:00"
       },
       {
         "title": "Gemini Decisions API",
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-        "score": 197,
+        "score": 218,
         "source": "Hacker News",
         "published": "2026-11-11T18:32:42+00:00"
-      },
-      {
-        "title": "AWS emulator",
-        "url": "https://github.com/aws/aws-emulator",
-        "score": 570,
-        "source": "Hacker News",
-        "published": "2026-11-11T18:21:38+00:00"
-      },
-      {
-        "title": "Lock your GitHub Actions",
-        "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-        "comments_url": "https://lobste.rs/s/v3uidx/lock_your_github_actions",
-        "score": 12,
-        "source": "Lobste.rs",
-        "published": "2026-11-11T18:16:01.014000+00:00"
       }
     ],
     "reddit": [
       {
-        "title": "Reddit resisted giving users' personal data to the U.S. government over critical ICE posts",
-        "url": "https://this.weekinsecurity.com/reddit-resisted-giving-users-personal-data-to-the-us-government-about-critical-ice-posts/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xtoaur/reddit_resisted_giving_users_personal_data_to_the/",
+        "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
+        "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-11T17:42:50+00:00"
+        "published": "2026-11-11T22:09:03+00:00"
       },
       {
         "title": "Ukraine Rejects US Plan to Redraw Donbas Borders to Give Putin Symbolic Victory",
@@ -1661,28 +1672,20 @@
         "published": "2026-11-11T15:22:04+00:00"
       },
       {
-        "title": "Coffee gets the bowels moving and may reduce constipation: regular coffee drinkers have more muscle contractions in the colon, a wider variety of gut bacteria and a more acidic small intestine, finds a study of 61 healthy adults, 50 of whom swallowed a wireless sensor capsule to track their gut.",
-        "url": "https://www.eurekalert.org/news-releases/1151101",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xtfinl/coffee_gets_the_bowels_moving_and_may_reduce/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-11T11:35:36+00:00"
-      },
-      {
-        "title": "Jensen Huang Said to Have Had Relationship With Nvidia Executive Who Reports to Him",
-        "url": "https://www.nytimes.com/2026/11/11/technology/jensen-huang-nvidia-affair.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xtv8dn/jensen_huang_said_to_have_had_relationship_with/",
+        "title": "Reddit resisted giving users' personal data to the U.S. government over critical ICE posts",
+        "url": "https://this.weekinsecurity.com/reddit-resisted-giving-users-personal-data-to-the-us-government-about-critical-ice-posts/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xtoaur/reddit_resisted_giving_users_personal_data_to_the/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-11T22:09:03+00:00"
+        "published": "2026-11-11T17:42:50+00:00"
       },
       {
-        "title": "Today is Poland's Independence Day",
-        "url": "https://i.redd.it/zvs819mfty0i1.jpeg",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xtez8x/today_is_polands_independence_day/",
+        "title": "Exclusive | Nvidia is Preparing to Oust CEO Jensen Huang",
+        "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad?st=9fAvF1&amp;reflink=article_imessage_share",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xtvw5q/exclusive_nvidia_is_preparing_to_oust_ceo_jensen/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T11:03:31+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-11T22:36:18+00:00"
       },
       {
         "title": "Men and women can score the same on average in hiring tests, yet men still get hired more. A simulation study finds that because men's scores are more spread out, strict cutoffs like \"top 10% only\" pick more men. One scenario gave a 60% male workforce. This may explain workplace gender gaps.",
@@ -1701,28 +1704,36 @@
         "published": "2026-11-11T17:12:59+00:00"
       },
       {
+        "title": "Today is Poland's Independence Day",
+        "url": "https://i.redd.it/zvs819mfty0i1.jpeg",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xtez8x/today_is_polands_independence_day/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-11T11:03:31+00:00"
+      },
+      {
+        "title": "Coffee gets the bowels moving and may reduce constipation: regular coffee drinkers have more muscle contractions in the colon, a wider variety of gut bacteria and a more acidic small intestine, finds a study of 61 healthy adults, 50 of whom swallowed a wireless sensor capsule to track their gut.",
+        "url": "https://www.eurekalert.org/news-releases/1151101",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xtfinl/coffee_gets_the_bowels_moving_and_may_reduce/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-11T11:35:36+00:00"
+      },
+      {
+        "title": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
+        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xttfxb/millions_of_spaniards_stage_first_general_strike/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-11T20:57:35+00:00"
+      },
+      {
         "title": "Russian ambassador to US dies, foreign ministry says",
         "url": "https://edition.cnn.com/2026/11/11/europe/russian-ambassador-to-us-dies-intl",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtmua5/russian_ambassador_to_us_dies_foreign_ministry/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-11T16:50:47+00:00"
-      },
-      {
-        "title": "Preliminary study of 22 adults aged 21–35 found that long-term vaping was linked to declining lung function over 12 months, with those vaping 30 or more times daily showing a 240ml greater reduction in exhaled air volume, potentially increasing COPD risk",
-        "url": "https://bmjgroup.com/preliminary-findings-link-long-term-vaping-to-persistent-changes-in-lung-function/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xtme3y/preliminary_study_of_22_adults_aged_2135_found/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-11T16:34:13+00:00"
-      },
-      {
-        "title": "North Korea releases revised constitution defining South Korea as separate state",
-        "url": "https://www.koreajoongangdaily.com/korea/north-korea-unveils-revised-constitution-reflecting-two-hostile-states-policy/12967144",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtel08/north_korea_releases_revised_constitution/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-11T10:39:38+00:00"
       },
       {
         "title": "Europe’s strategic bet on US technology for air superiority is unravelling",
@@ -1733,12 +1744,12 @@
         "published": "2026-11-11T19:20:38+00:00"
       },
       {
-        "title": "Millions of Spaniards stage first general strike in 14 years as anger rages over housing",
-        "url": "https://www.reuters.com/business/world-at-work/workers-across-spain-stage-first-general-strike-14-years-anger-over-housing-2026-11-11/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xttfxb/millions_of_spaniards_stage_first_general_strike/",
+        "title": "North Korea releases revised constitution defining South Korea as separate state",
+        "url": "https://www.koreajoongangdaily.com/korea/north-korea-unveils-revised-constitution-reflecting-two-hostile-states-policy/12967144",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xtel08/north_korea_releases_revised_constitution/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-11T20:57:35+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-11T10:39:38+00:00"
       }
     ]
   }

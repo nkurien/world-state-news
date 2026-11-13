@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T09:30:52.035927+00:00",
+  "last_updated": "2026-11-13T10:00:56.735225+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 206
+      "ms": 175
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 420
+      "ms": 307
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 248
+      "ms": 271
     },
     "BBC News": {
       "ok": true,
-      "count": 33,
+      "count": 20,
       "error": null,
-      "ms": 223
+      "ms": 129
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 325
+      "ms": 231
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 257
+      "ms": 233
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 475
+      "ms": 269
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 642
+      "ms": 339
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 246
+      "ms": 123
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 273
+      "ms": 84
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 761
+      "ms": 328
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 437
+      "ms": 389
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 158
+      "ms": 308
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 320
+      "ms": 380
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 206
+      "ms": 291
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 424
+      "ms": 199
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 684
+      "ms": 811
     },
     "Semafor": {
       "ok": true,
       "count": 275,
       "error": null,
-      "ms": 815
+      "ms": 990
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 537
+      "ms": 506
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 339
+      "ms": 208
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 141
+      "ms": 268
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 309
+      "ms": 187
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 71,
       "error": null,
-      "ms": 228
+      "ms": 203
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 253
+      "ms": 201
     }
   },
   "breaking": [
@@ -195,6 +195,28 @@
       "consensus": 8.0
     },
     {
+      "title": "Iran says it struck U.S. military radar in Bahrain",
+      "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T09:42:57+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+          "title": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
+          "published": "2026-11-13T09:39:16+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+          "title": "Iran says it targeted US radar site in Bahrain",
+          "published": "2026-11-13T03:17:27+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Jensen Huang quits Nvidia as scandal rocks AI giant",
       "url": "http://www.africanews.com/2026/11/13/jensen-huang-quits-nvidia-as-scandal-rocks-ai-giant/",
       "source": "Africanews",
@@ -221,66 +243,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "Who is Colette Kress? Nvidia's new interim CEO following Jensen Huang’s exit",
-      "url": "https://www.thehindu.com/news/international/who-is-nvidia-new-interim-ceo-colette-kress-after-jensen-huang-exit/article71696530.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T06:34:22+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
-          "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit?",
-          "published": "2026-11-13T03:02:06+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/colette-kress-nvidia-interim-ceo-replacing-jensen-huang-6548251",
-          "title": "Who is Colette Kress, the interim CEO replacing Jensen Huang at Nvidia",
-          "published": "2026-11-13T02:56:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "China stages unannounced Pacific drills in ‘silent intimidation’ push: Taiwan officials",
-      "url": "https://www.japantimes.co.jp/news/2026/11/13/asia-pacific/politics/china-silent-intimidation/",
-      "source": "Japan Times",
-      "published": "2026-11-13T08:35:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/china-stages-unannounced-pacific-drills-in-silent-intimidation-of-taiwan-officials-say/article71696589.ece",
-          "title": "China stages unannounced Pacific drills in ‘silent intimidation’ of Taiwan, officials say",
-          "published": "2026-11-13T05:17:12+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/china-stages-unannounced-pacific-drills-in-silent-intimidation-of-taiwan-officials-say",
-          "title": "China stages unannounced Pacific drills in 'silent intimidation' of Taiwan, officials say",
-          "published": "2026-11-13T04:09:00+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
-      "title": "🔴 Live: Microsoft 'not aware of any malicious activity' behind global Outlook outage",
-      "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
-      "source": "France24",
-      "published": "2026-11-13T09:18:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
-          "title": "Microsoft Outage LIVE: Microsoft outage enters second day; company says not aware of malicious activity",
-          "published": "2026-11-13T08:27:29+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "Indigenous rights in Australia ‘embarrassing’: UN envoy",
@@ -315,20 +277,52 @@
       "consensus": 2.5
     },
     {
-      "title": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
-      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
-      "source": "The Guardian",
-      "published": "2026-11-13T06:34:59+00:00",
+      "title": "Malaysia weighing how to aid AirAsia without risking public funds, ex-minister says",
+      "url": "https://www.japantimes.co.jp/business/2026/11/13/companies/malaysia-airasia-aid/",
+      "source": "Japan Times",
+      "published": "2026-11-13T09:16:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/12/2026/the-us-is-set-to-further-curb-ai-tech-exports-to-china",
-          "title": "Nvidia scandal sparks calls for export curbs",
-          "published": "2026-11-12T11:47:44+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-weighing-how-to-aid-airasia-without-risking-public-funds-ex-minister-says",
+          "title": "Malaysia weighing how to aid AirAsia without risking public funds, ex-minister says",
+          "published": "2026-11-13T06:15:00+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
+    },
+    {
+      "title": "US lawmakers summon Nvidia ex-CEO after affair with suspected spy",
+      "url": "https://www.channelnewsasia.com/world/us-lawmakers-summon-nvidia-ex-ceo-jensen-huang-spy-affair-6548891",
+      "source": "CNA",
+      "published": "2026-11-13T08:09:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/nvidias-former-ceo-jensen-huang-summoned-to-testify-before-us-lawmakers-senator/article71696780.ece",
+          "title": "U.S. lawmakers summon Nvidia former CEO after affair with suspected spy",
+          "published": "2026-11-13T07:44:03+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Two Iranian men planned ‘violent attack’ in UK while spying on journalists and lawyer",
+      "url": "https://www.independent.co.uk/news/uk/crime/iranian-spies-mostafa-sepahvand-farhad-javadi-manesh-b3083860.html",
+      "source": "The Independent",
+      "published": "2026-11-13T07:05:01+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "UK court convicts 2 Iranian men of spying on journalists",
+          "published": "2026-11-12T15:23:00+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -337,7 +331,7 @@
       "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-nasser-hospital-11-killed-6547556",
       "source": "CNA",
       "published": "2026-11-12T21:46:17+00:00",
-      "score": 7,
+      "score": 6,
       "other_sources": [
         {
           "source": "France24",
@@ -350,12 +344,6 @@
           "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
           "title": "Israeli strike on Gaza hospital deadliest since election",
           "published": "2026-11-12T18:32:12+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-          "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-          "published": "2026-11-12T16:54:12+00:00"
         },
         {
           "source": "CBC World",
@@ -376,97 +364,7 @@
           "published": "2026-11-12T06:49:51+00:00"
         }
       ],
-      "consensus": 8.0
-    },
-    {
-      "title": "Mississippi elects first black senator in nearly 150 years",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T03:21:25+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261112-mississippi-elects-democrat-scott-colom-as-first-black-senator-since-19th-century",
-          "title": "Mississippi elects Democrat Scott Colom as first black senator since 19th century",
-          "published": "2026-11-12T16:34:21+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/12/mississippi-elects-first-black-us-senator-since-post-civil-war-reconstruction/",
-          "title": "Mississippi elects first Black US Senator since post-Civil War Reconstruction",
-          "published": "2026-11-12T14:47:53+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-          "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-          "published": "2026-11-12T12:56:55+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/mississippi-elects-democrat-scott-colom-as-states-first-black-us-senator-since-reconstruction/article71692151.ece",
-          "title": "Mississippi elects Democrat Scott Colom as state's first Black U.S. senator since Reconstruction",
-          "published": "2026-11-12T01:47:50+00:00"
-        }
-      ],
-      "consensus": 6.5
-    },
-    {
-      "title": "Watch moment Pete Hegseth reprimanded by guard at Tomb of Unknown Soldier",
-      "url": "https://www.independent.co.uk/tv/news/hegseth-reprimanded-tomb-of-unknown-soldier-video-b3083696.html",
-      "source": "The Independent",
-      "published": "2026-11-12T09:58:02+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-defence-secretary-hegseth-staff-reprimanded-by-guard-at-tomb-of-the-unknown-soldier/article71692421.ece",
-          "title": "U.S. Defence Secretary Hegseth, staff reprimanded by guard at Tomb of the Unknown Soldier",
-          "published": "2026-11-12T05:41:22+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/hegseth-veterans-day-arlington-tomb-laughter-guard-yells-9.7418661?cmp=rss",
-          "title": "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
-          "published": "2026-11-12T01:14:10+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
-          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-          "published": "2026-11-11T21:43:35+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Trump says US doesn't need Iran deal",
-      "url": "https://www.semafor.com/article/11/12/2026/trump-says-us-doesnt-need-iran-deal",
-      "source": "Semafor",
-      "published": "2026-11-12T22:24:38+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-says-us-does-not-need-a-deal-with-iran/article71695103.ece",
-          "title": "Trump says U.S. does not ‘need a deal with Iran’",
-          "published": "2026-11-12T17:32:11+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-us-iran-war-deal-vance-6547086",
-          "title": "Trump says US does not 'need a deal with Iran'",
-          "published": "2026-11-12T16:50:36+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374257/trump-says-us-does-not-need-deal-iran",
-          "title": "Trump rejects need for Iran deal, directs Vance to focus on US",
-          "published": "2026-11-12T14:17:38+00:00"
-        }
-      ],
-      "consensus": 4.5
+      "consensus": 7.0
     },
     {
       "title": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
@@ -497,6 +395,50 @@
       "consensus": 4.5
     },
     {
+      "title": "Mississippi elects first black senator in nearly 150 years",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-13T03:21:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261112-mississippi-elects-democrat-scott-colom-as-first-black-senator-since-19th-century",
+          "title": "Mississippi elects Democrat Scott Colom as first black senator since 19th century",
+          "published": "2026-11-12T16:34:21+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/12/mississippi-elects-first-black-us-senator-since-post-civil-war-reconstruction/",
+          "title": "Mississippi elects first Black US Senator since post-Civil War Reconstruction",
+          "published": "2026-11-12T14:47:53+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Who is Colette Kress? Nvidia's new interim CEO following Jensen Huang’s exit",
+      "url": "https://www.thehindu.com/news/international/who-is-nvidia-new-interim-ceo-colette-kress-after-jensen-huang-exit/article71696530.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T06:34:22+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
+          "title": "Who is Colette Kress, interim Nvidia CEO after Jensen Huang exit?",
+          "published": "2026-11-13T03:02:06+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/colette-kress-nvidia-interim-ceo-replacing-jensen-huang-6548251",
+          "title": "Who is Colette Kress, the interim CEO replacing Jensen Huang at Nvidia",
+          "published": "2026-11-13T02:56:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
       "url": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss",
       "source": "Al Jazeera",
@@ -514,6 +456,50 @@
           "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
           "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
           "published": "2026-11-13T03:04:16+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Trump says US doesn't need Iran deal",
+      "url": "https://www.semafor.com/article/11/12/2026/trump-says-us-doesnt-need-iran-deal",
+      "source": "Semafor",
+      "published": "2026-11-12T22:24:38+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-says-us-does-not-need-a-deal-with-iran/article71695103.ece",
+          "title": "Trump says U.S. does not ‘need a deal with Iran’",
+          "published": "2026-11-12T17:32:11+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-us-iran-war-deal-vance-6547086",
+          "title": "Trump says US does not 'need a deal with Iran'",
+          "published": "2026-11-12T16:50:36+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Hegseth pins medal on soldier who reprimanded his group for laughing at Tomb of the Unknown Soldier",
+      "url": "https://www.independent.co.uk/news/world/americas/hegseth-medal-tomb-of-the-unknown-soldier-b3084131.html",
+      "source": "The Independent",
+      "published": "2026-11-12T19:59:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
+          "title": "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
+          "published": "2026-11-12T18:14:30+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+          "published": "2026-11-11T21:43:35+00:00"
         }
       ],
       "consensus": 3.5
@@ -563,6 +549,28 @@
       "consensus": 3.5
     },
     {
+      "title": "China stages unannounced Pacific drills in ‘silent intimidation’ of Taiwan, officials say",
+      "url": "https://www.thehindu.com/news/international/china-stages-unannounced-pacific-drills-in-silent-intimidation-of-taiwan-officials-say/article71696589.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T09:46:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/13/asia-pacific/politics/china-silent-intimidation/",
+          "title": "China stages unannounced Pacific drills in ‘silent intimidation’ push: Taiwan officials",
+          "published": "2026-11-13T08:35:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/china-stages-unannounced-pacific-drills-in-silent-intimidation-of-taiwan-officials-say",
+          "title": "China stages unannounced Pacific drills in 'silent intimidation' of Taiwan, officials say",
+          "published": "2026-11-13T04:09:00+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
       "url": "https://www.thehindu.com/news/international/europe-pushes-for-seat-at-ukraine-peace-talks-but-lacks-unified-voice/article71696911.ece",
       "source": "The Hindu",
@@ -574,38 +582,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html",
           "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
           "published": "2026-11-13T05:20:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Iran says it struck U.S. military radar in Bahrain",
-      "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T04:59:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
-          "title": "Iran says it targeted US radar site in Bahrain",
-          "published": "2026-11-13T03:17:27+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "From ocean legend to undersea reef: Why has the SS United States been sunk?",
-      "url": "https://www.aljazeera.com/news/2026/11/13/from-ocean-legend-to-undersea-reef-why-has-the-ss-united-states-been-sunk?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T04:39:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c3x298n87rn2o?at_medium=RSS&at_campaign=rss",
-          "title": "Famed ship SS United States deliberately sunk off Florida coast to become a reef",
-          "published": "2026-11-12T04:03:13+00:00"
         }
       ],
       "consensus": 2.5
@@ -654,22 +630,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3374266/white-house-discussing-howard-lutnicks-future-commerce-secretary-sources-say",
           "title": "White House discussing Howard Lutnick’s future as commerce secretary, sources say",
           "published": "2026-11-12T20:19:33+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Hegseth pins medal on soldier who reprimanded his group for laughing at Tomb of the Unknown Soldier",
-      "url": "https://www.independent.co.uk/news/world/americas/hegseth-medal-tomb-of-the-unknown-soldier-b3084131.html",
-      "source": "The Independent",
-      "published": "2026-11-12T19:59:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
-          "title": "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
-          "published": "2026-11-12T18:14:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -739,122 +699,20 @@
       "consensus": 2.5
     },
     {
-      "title": "South Sudan and UN failed to heed massacre warnings-Amnesty International",
-      "url": "http://www.africanews.com/2026/11/12/south-sudan-and-un-failed-to-heed-massacre-warnings-amnesty-international/",
-      "source": "Africanews",
-      "published": "2026-11-12T10:01:27+00:00",
+      "title": "U.S. Defence Secretary Hegseth, staff reprimanded by guard at Tomb of the Unknown Soldier",
+      "url": "https://www.thehindu.com/news/international/us-defence-secretary-hegseth-staff-reprimanded-by-guard-at-tomb-of-the-unknown-soldier/article71692421.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T05:41:22+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/un-peacekeepers-failed-to-protect-civilians-before-south-sudan-massacre-amnesty/article71691406.ece",
-          "title": "UN peacekeepers failed to protect civilians before South Sudan massacre: Amnesty",
-          "published": "2026-11-11T23:49:01+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/hegseth-veterans-day-arlington-tomb-laughter-guard-yells-9.7418661?cmp=rss",
+          "title": "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
+          "published": "2026-11-12T01:14:10+00:00"
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Missing teen found alive after 6 days in the Australian woodlands",
-      "url": "https://www.cbc.ca/news/world/missing-teen-found-australia-9.7418731?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-12T09:54:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
-          "title": "Australian teen missing in bush for six days rescued alive",
-          "published": "2026-11-12T02:40:18+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-      "url": "http://www.africanews.com/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march/",
-      "source": "Africanews",
-      "published": "2026-11-11T22:54:35+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/11/spain-clashes-erupt-in-barcelona-after-peaceful-general-strike-march",
-          "title": "Spain: Clashes erupt in Barcelona after peaceful general strike march",
-          "published": "2026-11-11T22:54:27+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
-          "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
-          "published": "2026-11-11T22:07:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Kenya discharges last Ebola patient, begins 42-day countdown to being declared Ebola-free",
-      "url": "http://www.africanews.com/2026/11/11/kenya-discharges-last-ebola-patient-begins-42-day-countdown-to-being-declared-ebola-free/",
-      "source": "Africanews",
-      "published": "2026-11-11T15:44:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
-          "title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
-          "published": "2026-11-11T12:53:11+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Malaysia weighing how to aid AirAsia without risking public funds, ex-minister says",
-      "url": "https://www.japantimes.co.jp/business/2026/11/13/companies/malaysia-airasia-aid/",
-      "source": "Japan Times",
-      "published": "2026-11-13T09:16:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-weighing-how-to-aid-airasia-without-risking-public-funds-ex-minister-says",
-          "title": "Malaysia weighing how to aid AirAsia without risking public funds, ex-minister says",
-          "published": "2026-11-13T06:15:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "US lawmakers summon Nvidia ex-CEO after affair with suspected spy",
-      "url": "https://www.channelnewsasia.com/world/us-lawmakers-summon-nvidia-ex-ceo-jensen-huang-spy-affair-6548891",
-      "source": "CNA",
-      "published": "2026-11-13T08:09:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nvidias-former-ceo-jensen-huang-summoned-to-testify-before-us-lawmakers-senator/article71696780.ece",
-          "title": "U.S. lawmakers summon Nvidia former CEO after affair with suspected spy",
-          "published": "2026-11-13T07:44:03+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Two Iranian men planned ‘violent attack’ in UK while spying on journalists and lawyer",
-      "url": "https://www.independent.co.uk/news/uk/crime/iranian-spies-mostafa-sepahvand-farhad-javadi-manesh-b3083860.html",
-      "source": "The Independent",
-      "published": "2026-11-13T07:05:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/uk-court-convicts-2-iranian-men-of-spying-on-journalists/a-79931583?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "UK court convicts 2 Iranian men of spying on journalists",
-          "published": "2026-11-12T15:23:00+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "China’s access to Nvidia chips in doubt as curbs gain traction in U.S. Congress",
@@ -889,38 +747,6 @@
       "consensus": 2.0
     },
     {
-      "title": "U.S., Ukraine say Europe to join Russia talks as Putin sticks to hardline stance",
-      "url": "https://www.thehindu.com/news/international/us-ukraine-say-europe-to-join-russia-talks-as-putin-sticks-to-hardline-stance/article71696395.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T03:28:43+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/russia-central-asia/article/3374265/putin-indicates-he-will-not-compromise-ukraine-meeting-us-envoys",
-          "title": "US, Ukraine say Europe to join Russia talks as Putin holds firm",
-          "published": "2026-11-12T19:05:17+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Search for British woman missing from Tui cruise in Atlantic called off",
-      "url": "https://www.bbc.co.uk/news/articles/cmy0enrkwkklo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-12T21:27:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/british-woman-missing-cruise-ship-atlantic-b3083643.html",
-          "title": "Desperate search for British woman missing after ‘falling from cruise ship’ in Atlantic",
-          "published": "2026-11-12T12:02:49+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "One dead, four wounded in downtown Washington shooting: police",
       "url": "https://www.channelnewsasia.com/world/one-dead-four-wounded-in-downtown-washington-shooting-police-6547186",
       "source": "CNA",
@@ -937,33 +763,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Alice Huang, accused of spying on Nvidia chief, entered Taiwan eight times in 2024-25: Official",
-      "url": "https://www.thehindu.com/news/international/chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-eight-times/article71692694.ece",
-      "source": "The Hindu",
-      "published": "2026-11-12T11:28:01+00:00",
+      "title": "New guidance issued for prostate cancer screening in the US: Here is what you need to know",
+      "url": "https://www.independent.co.uk/news/health/prostate-cancer-testing-screening-guidelines-b3083888.html",
+      "source": "The Independent",
+      "published": "2026-11-12T15:39:08+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-8-times",
-          "title": "Alice Huang, Chinese woman accused of spying on Nvidia chief, entered Taiwan 8 times",
-          "published": "2026-11-12T04:53:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Ex-member of radical Marxist group scales balcony, escapes house arrest in Argentina",
-      "url": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
-      "source": "The Guardian",
-      "published": "2026-11-11T19:00:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
-          "title": "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-          "published": "2026-11-11T14:56:11+00:00"
+          "source": "Spiegel",
+          "url": "https://www.spiegel.de/international/germany/new-information-in-the-nazi-database-what-you-need-to-know-about-the-ss-a-f7e09472-e9da-4b11-9846-87f1778116e3#ref=rss",
+          "title": "New Information in the Nazi Database: What You Need to Know About the SS",
+          "published": "2026-07-08T06:54:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -1017,37 +827,148 @@
       "consensus": 1.5
     },
     {
-      "title": "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery",
-      "url": "https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250",
-      "source": "The Moscow Times",
-      "published": "2026-11-13T09:26:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+      "url": "http://www.africanews.com/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike/",
+      "source": "Africanews",
+      "published": "2026-11-12T16:10:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/gaza-devastation-inside-nasser-hospital-after-deadly-israeli-strike",
+          "title": "Gaza: Devastation inside Nasser Hospital after deadly Israeli strike",
+          "published": "2026-11-12T16:10:23+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "No need to rush decision on Transport Minister Anthony Loke’s resignation, says Malaysia PM Anwar",
-      "url": "https://www.straitstimes.com/asia/se-asia/no-need-to-rush-decision-on-transport-minister-anthony-lokes-resignation-says-malaysia-pm-anwar",
-      "source": "Straits Times",
-      "published": "2026-11-13T09:26:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Russia: Soldier killed in car explosion in Saint Petersburg",
+      "url": "http://www.africanews.com/2026/11/12/russia-soldier-killed-in-car-explosion-in-saint-petersburg/",
+      "source": "Africanews",
+      "published": "2026-11-12T14:58:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/russia-soldier-killed-in-car-explosion-in-saint-petersburg",
+          "title": "Russia: Soldier killed in car explosion in Saint Petersburg",
+          "published": "2026-11-12T14:57:59+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Hong Kong to exempt medical device imports for personal use from new regulation",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374348/hong-kong-exempt-medical-device-imports-personal-use-new-regulation",
+      "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
+      "url": "http://www.africanews.com/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records/",
+      "source": "Africanews",
+      "published": "2026-11-12T14:28:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records",
+          "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
+          "published": "2026-11-12T11:50:32+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Could Nvidia scandal put Malaysia’s AI boom in US crosshairs?",
+      "url": "https://www.scmp.com/week-asia/economics/article/3374351/could-nvidia-scandal-put-malaysias-ai-boom-us-crosshairs",
       "source": "SCMP",
-      "published": "2026-11-13T09:24:45+00:00",
+      "published": "2026-11-13T10:00:17+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-      "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+      "title": "Algeria test-fires apparent Chinese YJ-12 supersonic missile in Mediterranean drill",
+      "url": "https://www.scmp.com/news/china/military/article/3374321/algeria-test-fires-apparent-chinese-yj-12-supersonic-missile-mediterranean-drill",
+      "source": "SCMP",
+      "published": "2026-11-13T10:00:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'One of the biggest outages ever': Disruption to Microsoft services enters second day",
+      "url": "https://www.france24.com/en/video/20261113-one-of-the-biggest-outages-ever-disruption-to-microsoft-services-enters-second-day",
+      "source": "France24",
+      "published": "2026-11-13T09:59:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "What we know about the global Microsoft outage",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-13T09:59:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ex-Nvidia boss Jensen Huang ‘going through hell’ - and most upset about hurting his family, Trump says",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-trump-nvidia-affair-china-b3084369.html",
+      "source": "The Independent",
+      "published": "2026-11-13T09:56:19+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Prisoner who bolted from brother's funeral caught after months on the run",
+      "url": "https://www.abc.net.au/news/2026-11-13/victorian-prison-escapee-orijol-rukaj-arrested-queensland/107384066",
+      "source": "ABC Australia",
+      "published": "2026-11-13T09:50:47+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Teachers working without new certificates face up to 2 years’ jail, HK$50,000 fine",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3374353/teachers-working-without-new-certificates-face-2-years-jail-hk50000-fine",
+      "source": "SCMP",
+      "published": "2026-11-13T09:50:21+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘I’m in the trenches’: The payroll processor on her own front line",
+      "url": "https://www.semafor.com/article/11/13/2026/im-in-the-trenches-the-payroll-processor-on-her-own-front-line",
+      "source": "Semafor",
+      "published": "2026-11-13T09:45:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "With every rainfall, Gaza risks losing access to power and healthcare",
+      "url": "https://www.aljazeera.com/news/2026/11/13/with-every-rainfall-gaza-risks-losing-access-to-power-and-healthcare?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-13T09:43:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Nvidia scandal: Howard Lutnick under pressure over alleged lack of action",
+      "url": "https://www.theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "source": "The Guardian",
+      "published": "2026-11-13T09:41:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China eyes supercomputing capabilities in space",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-eyes-supercomputing-capabilities-in-space",
       "source": "Straits Times",
-      "published": "2026-11-13T09:24:09+00:00",
+      "published": "2026-11-13T09:40:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1064,10 +985,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 142.51,
+      "price": 142.74,
       "currency": "GBP",
-      "change": -0.65,
-      "change_percent": -0.45,
+      "change": -0.42,
+      "change_percent": -0.29,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1080,10 +1001,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10883.15,
+      "price": 10886.48,
       "currency": "GBP",
-      "change": 20.06,
-      "change_percent": 0.18,
+      "change": 23.39,
+      "change_percent": 0.22,
       "name": "FTSE 100"
     }
   ],
@@ -1099,10 +1020,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10883.15,
+        "price": 10886.48,
         "currency": "GBP",
-        "change": 20.06,
-        "change_percent": 0.18,
+        "change": 23.39,
+        "change_percent": 0.22,
         "name": "FTSE 100"
       },
       {
@@ -1131,44 +1052,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26731.57,
+        "price": 26775.66,
         "currency": "EUR",
-        "change": -40.31,
-        "change_percent": -0.15,
+        "change": 3.78,
+        "change_percent": 0.01,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8361.66,
+        "price": 8363.89,
         "currency": "EUR",
-        "change": 0.3,
-        "change_percent": 0.0,
+        "change": 2.53,
+        "change_percent": 0.03,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3901.2,
+        "price": 3900.9,
         "currency": "USD",
-        "change": 15.9,
-        "change_percent": 0.41,
+        "change": 15.6,
+        "change_percent": 0.4,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 49.98,
+        "price": 49.91,
         "currency": "USD",
-        "change": -0.08,
-        "change_percent": -0.16,
+        "change": -0.15,
+        "change_percent": -0.3,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 95.99,
+        "price": 95.77,
         "currency": "USD",
-        "change": 0.17,
-        "change_percent": 0.18,
+        "change": -0.05,
+        "change_percent": -0.05,
         "name": "Brent Crude"
       },
       {
@@ -1176,7 +1097,7 @@
         "price": 1.11,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.04,
+        "change_percent": 0.02,
         "name": "EUR/USD"
       },
       {
@@ -1184,23 +1105,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": -0.02,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.89,
+        "price": 159.87,
         "currency": "JPY",
-        "change": 0.05,
-        "change_percent": 0.03,
+        "change": 0.02,
+        "change_percent": 0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 68875.66,
+        "price": 69047.21,
         "currency": "USD",
-        "change": -2496.11,
-        "change_percent": -3.5,
+        "change": -2324.56,
+        "change_percent": -3.26,
         "name": "Bitcoin"
       }
     ],
@@ -1295,6 +1216,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Cheesy seeded scones recipe",
+          "url": "https://theweek.com/culture-life/food-drink/cheesy-seeded-scones-recipe",
+          "published": "2026-11-13T09:48:21+00:00",
+          "snippet": "Nutty, gut-friendly snack that’s delicious served warm"
+        },
+        {
           "title": "The week’s best photos",
           "url": "https://theweek.com/photos/the-weeks-best-photos-november-13-2026",
           "published": "2026-11-13T09:00:00+00:00",
@@ -1305,12 +1232,6 @@
           "url": "https://theweek.com/culture-life/books/the-best-of-agatha-christies-books-roger-ackroyd-murder-orient-express-abc-murders-and-then-there-were-none",
           "published": "2026-11-13T07:00:00+00:00",
           "snippet": "The Queen of Mystery is the master of the whodunit"
-        },
-        {
-          "title": "A changing tide in Trinidad and Tobago",
-          "url": "https://theweek.com/world-news/trinidad-and-tobago-throws-out-anti-gay-laws",
-          "published": "2026-11-13T00:11:01+00:00",
-          "snippet": "Activist wins 10-year battle to finally overturn colonial-era laws on same-sex intimacy"
         }
       ]
     },
@@ -1370,22 +1291,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Microsoft races to restore services after global outage",
+          "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
+          "published": "2026-11-13T09:42:01+00:00",
+          "snippet": "Issue affecting Outlook, Teams and other services not caused by ‘malicious or cyber activity’, company says"
+        },
+        {
+          "title": "Milburn’s welfare overhaul brings flashbacks to universal credit rollout",
+          "url": "https://www.ft.com/content/b3b8d2ff-dce0-4865-83af-72af77f96a8e?syn-25a6b1a6=1",
+          "published": "2026-11-13T09:30:08+00:00",
+          "snippet": "Labour’s benefits-reform plans must not become subordinate to party’s other objectives"
+        },
+        {
           "title": "Chinese AI sell-off deepens over fears of tougher Nvidia chip restrictions",
           "url": "https://www.ft.com/content/0d4e93e4-895e-4ae0-a01b-833a3ed440a8?syn-25a6b1a6=1",
           "published": "2026-11-13T09:07:28+00:00",
           "snippet": "Ousted chief executive Jensen Huang had supported keeping sales open to China"
-        },
-        {
-          "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-          "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-          "published": "2026-11-13T09:04:06+00:00",
-          "snippet": "IEA analysts warn it will take months to rebuild stockpiles depleted by conflict"
-        },
-        {
-          "title": "Onitsuka Tiger owner Asics shares slide as sales growth slows",
-          "url": "https://www.ft.com/content/ea89a373-5f42-413c-8aef-4556be883939?syn-25a6b1a6=1",
-          "published": "2026-11-13T08:16:05+00:00",
-          "snippet": "Analysts fear athleisure’s standout performer may miss annual targets"
         }
       ]
     },
@@ -1487,8 +1408,7 @@
           "published": "2026-11-05T11:00:00+00:00",
           "snippet": "Micron Technology union representatives gesture during a protest outside of the Micron facility demanding greater profit shares and better bonuses, in Taoyuan..."
         }
-      ],
-      "stale": true
+      ]
     }
   ],
   "web": {
@@ -1497,24 +1417,24 @@
         "title": "How Not to Build a Music Player",
         "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
         "comments_url": "https://lobste.rs/s/lh9pwf/how_not_build_music_player",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-13T09:16:28.886000+00:00"
       },
       {
         "title": "The Dawn of the Data Intelligence Engineer",
         "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
-        "score": 7,
+        "score": 13,
         "source": "Hacker News",
         "published": "2026-11-13T09:08:18+00:00"
       },
       {
-        "title": "Steadfast Update I - The Baseline",
-        "url": "https://noteflakes.com/articles/2026-11-13-steadfast-update-1",
-        "comments_url": "https://lobste.rs/s/9qf0xv/steadfast_update_i_baseline",
-        "score": 0,
+        "title": "e-means: 10x faster k-means at equal loss",
+        "url": "https://e-means.github.io/",
+        "comments_url": "https://lobste.rs/s/rnmylu/e_means_10x_faster_k_means_at_equal_loss",
+        "score": 1,
         "source": "Lobste.rs",
-        "published": "2026-11-13T07:31:32.276000+00:00"
+        "published": "2026-11-13T08:37:31.574000+00:00"
       },
       {
         "title": "SSA from bytecode: imperative pearl",
@@ -1527,28 +1447,28 @@
       {
         "title": "Microsoft Outlook/365 still down after 12 hours",
         "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
-        "score": 204,
+        "score": 252,
         "source": "Hacker News",
         "published": "2026-11-13T05:08:23+00:00"
       },
       {
         "title": "IceWM",
         "url": "https://ice-wm.org/",
-        "score": 155,
+        "score": 165,
         "source": "Hacker News",
         "published": "2026-11-13T04:54:53+00:00"
       },
       {
         "title": "Switcher (2004)",
         "url": "https://folklore.org/Switcher.html",
-        "score": 93,
+        "score": 95,
         "source": "Hacker News",
         "published": "2026-11-13T03:14:59+00:00"
       },
       {
         "title": "Brave Search API now accepts agentic payments via the x402 protocol",
         "url": "https://brave.com/blog/search-api-agentic-payments/",
-        "score": 92,
+        "score": 100,
         "source": "Hacker News",
         "published": "2026-11-13T03:08:08+00:00"
       },
@@ -1588,14 +1508,14 @@
         "title": "JIT bitmap text rendering for microcontrollers",
         "url": "https://linebender.org/blog/jit-bitmap-text/",
         "comments_url": "https://lobste.rs/s/a3elxr/jit_bitmap_text_rendering_for",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-13T00:16:10.741000+00:00"
       },
       {
         "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
         "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-        "score": 236,
+        "score": 248,
         "source": "Hacker News",
         "published": "2026-11-12T23:06:17+00:00"
       },
@@ -1603,7 +1523,7 @@
         "title": "Let’s Write a PostScript Interpreter",
         "url": "https://beyondloom.com/blog/postscript.html",
         "comments_url": "https://lobste.rs/s/8kdcdd/let_s_write_postscript_interpreter",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-12T22:17:32.646000+00:00"
       }
@@ -1618,12 +1538,12 @@
         "published": "2026-11-13T05:49:00+00:00"
       },
       {
-        "title": "Ukraine says US intentionally restricted Starshield to pressure Kyiv, FT reports",
-        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xunrqe/ukraine_says_us_intentionally_restricted/",
+        "title": "‘War will resume immediately’: Putin threatens Europe as Trump envoys push Ukraine talks",
+        "url": "https://www.ynetnews.com/article/skgfraxcfe",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuyd0n/war_will_resume_immediately_putin_threatens/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-12T20:28:30+00:00"
+        "published": "2026-11-13T04:26:11+00:00"
       },
       {
         "title": "Scientists have found a warning signal in the blood that could flag ovarian cancer at its earliest, precancerous stage, before a tumour even forms. The disease is usually caught late, after it has spread. The RNA marker was raised in women with tiny precancerous growths in the fallopian tubes.",
@@ -1634,12 +1554,12 @@
         "published": "2026-11-12T20:49:24+00:00"
       },
       {
-        "title": "Russian and Belarusian athletes are banned from international ski competitions in Norway this winter.",
-        "url": "https://www.vg.no/nyheter/i/aGw21L/opplysninger-til-vg-russiske-utoevere-faar-ikke-konkurrere-i-norge",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xumpb4/russian_and_belarusian_athletes_are_banned_from/",
+        "title": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
+        "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out/?cst=50ac15026c86526aafd8c2eef5c8be1ba7a44ee264069a9fdb5679d0f7a9e3b7",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xv2dzn/europes_selfstyled_pacifists_are_helping_putin/",
         "score": null,
         "source": "/r/europe",
-        "published": "2026-11-12T19:47:44+00:00"
+        "published": "2026-11-13T08:20:25+00:00"
       },
       {
         "title": "Mexican Prosecutor Who Helped C.I.A. Secretly Operate in His State Flees to the U.S.",
@@ -1650,20 +1570,20 @@
         "published": "2026-11-13T01:17:09+00:00"
       },
       {
-        "title": "‘War will resume immediately’: Putin threatens Europe as Trump envoys push Ukraine talks",
-        "url": "https://www.ynetnews.com/article/skgfraxcfe",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuyd0n/war_will_resume_immediately_putin_threatens/",
+        "title": "Ukraine says US intentionally restricted Starshield to pressure Kyiv, FT reports",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xunrqe/ukraine_says_us_intentionally_restricted/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-13T04:26:11+00:00"
+        "published": "2026-11-12T20:28:30+00:00"
       },
       {
-        "title": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
-        "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out/?cst=50ac15026c86526aafd8c2eef5c8be1ba7a44ee264069a9fdb5679d0f7a9e3b7",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xv2dzn/europes_selfstyled_pacifists_are_helping_putin/",
+        "title": "Russian and Belarusian athletes are banned from international ski competitions in Norway this winter.",
+        "url": "https://www.vg.no/nyheter/i/aGw21L/opplysninger-til-vg-russiske-utoevere-faar-ikke-konkurrere-i-norge",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xumpb4/russian_and_belarusian_athletes_are_banned_from/",
         "score": null,
         "source": "/r/europe",
-        "published": "2026-11-13T08:20:25+00:00"
+        "published": "2026-11-12T19:47:44+00:00"
       },
       {
         "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
@@ -1690,14 +1610,6 @@
         "published": "2026-11-12T21:01:01+00:00"
       },
       {
-        "title": "Finland to restrict entry of Russian athletes",
-        "url": "https://www.sportsnet.ca/more/article/finland-to-restrict-entry-of-russian-athletes/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xupj1m/finland_to_restrict_entry_of_russian_athletes/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-12T21:38:23+00:00"
-      },
-      {
         "title": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption",
         "url": "https://www.reuters.com/world/us/trump-says-vance-should-focus-domestic-corruption-we-dont-need-deal-with-iran-2026-11-12/",
         "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xun0pg/trump_says_us_does_not_need_iran_deal_directs/",
@@ -1714,20 +1626,28 @@
         "published": "2026-11-13T02:16:10+00:00"
       },
       {
+        "title": "Ukraine Says 100% of Missions Are Failing Under Starshield Restrictions—SpaceX Denies Any Changes",
+        "url": "https://united24media.com/world/ukraine-says-100-of-missions-are-failing-under-starshield-restrictions-spacex-denies-any-changes-24337",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv35dg/ukraine_says_100_of_missions_are_failing_under/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T09:09:04+00:00"
+      },
+      {
+        "title": "Microsoft outage impact: Over 430 mn users hit, Outlook down, and billions lost in productivity",
+        "url": "https://www.firstpost.com/explainers/microsoft-outage-impact-millions-of-users-outlook-down-and-billions-lost-in-productivity-14059752.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv2e1f/microsoft_outage_impact_over_430_mn_users_hit/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T08:20:31+00:00"
+      },
+      {
         "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
         "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xusd3p/massive_microsoft_365_outage_disrupts_outlook/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-12T23:37:54+00:00"
-      },
-      {
-        "title": "Jensen Huang Had A Third Affair—With Another Nvidia Employee",
-        "url": "https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xunjfl/jensen_huang_had_a_third_affairwith_another/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-12T20:19:32+00:00"
       }
     ]
   }

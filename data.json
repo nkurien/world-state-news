@@ -1,160 +1,166 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T16:30:51.594626+00:00",
+  "last_updated": "2026-11-13T17:01:03.765593+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 229
+      "ms": 343
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 204
+      "ms": 446
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 174
+      "ms": 330
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 148
+      "ms": 343
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 341
+      "ms": 446
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 327
+      "ms": 297
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 299
+      "ms": 313
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 339
+      "ms": 563
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 156
+      "ms": 182
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 174
+      "ms": 1317
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 337
+      "ms": 581
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 279
+      "ms": 255
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 282
+      "ms": 266
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 466
+      "ms": 175
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 134
+      "ms": 268
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 297
+      "ms": 405
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 877
+      "ms": 972
     },
     "Semafor": {
       "ok": true,
       "count": 271,
       "error": null,
-      "ms": 468
+      "ms": 753
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 601
+      "ms": 791
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 401
+      "ms": 511
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 105
+      "ms": 358
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 169
+      "ms": 374
     },
     "The Independent": {
       "ok": true,
-      "count": 63,
+      "count": 62,
       "error": null,
-      "ms": 427
+      "ms": 258
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 187
+      "ms": 314
     }
   },
   "breaking": [
     {
-      "title": "Iran says it struck U.S. military radar in Bahrain",
-      "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T15:51:14+00:00",
-      "score": 4,
+      "title": "Iran targeted US radar system in Bahrain",
+      "url": "https://www.channelnewsasia.com/world/iran-us-radar-system-bahrain-strike-guards-6550196",
+      "source": "CNA",
+      "published": "2026-11-13T16:30:02+00:00",
+      "score": 6,
       "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
+          "title": "Iran says it struck U.S. military radar in Bahrain",
+          "published": "2026-11-13T15:51:14+00:00"
+        },
         {
           "source": "Deutsche Welle",
           "url": "https://www.dw.com/en/iran-targeted-us-radar-system-in-bahrain/a-79942640?maca=en-rss-en-world-4025-xml-mrss",
@@ -172,9 +178,15 @@
           "url": "http://www.africanews.com/2026/11/13/iran-showcases-missiles-as-military-targets-us-army-radar-in-bahrain/",
           "title": "Iran showcases missiles as military targets US army radar in Bahrain",
           "published": "2026-11-13T11:10:49+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
+          "title": "US denies IRGC destroyed American radar in Bahrain after attack on southern Iran",
+          "published": "2026-11-13T09:39:16+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 6.0
     },
     {
       "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
@@ -205,6 +217,28 @@
       "consensus": 5.0
     },
     {
+      "title": "Microsoft Outage LIVE: Microsoft begins restoring Outlook, Teams and other services after global outage",
+      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T16:12:34+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
+          "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
+          "published": "2026-11-13T14:56:42+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+          "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
+          "published": "2026-11-13T11:18:01+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
       "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
       "source": "Al Jazeera",
@@ -227,39 +261,17 @@
       "consensus": 4.0
     },
     {
-      "title": "Microsoft Outage LIVE: Microsoft begins restoring Outlook, Teams and other services after global outage",
-      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T15:31:26+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports",
-          "title": "Microsoft scrambles to fix global outage affecting Teams and Outlook",
-          "published": "2026-11-13T14:56:42+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
-          "title": "Microsoft outage live: Outlook, Teams recover as disruptions continue",
-          "published": "2026-11-13T11:18:01+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Breaking: UK police launch investigation into David Walliams",
-      "url": "https://www.abc.net.au/news/2026-11-14/uk-police-launch-investigation-into-david-walliams/107385506",
-      "source": "ABC Australia",
-      "published": "2026-11-13T16:20:15+00:00",
+      "title": "Met police launch investigation into David Walliams allegations",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+      "source": "The Guardian",
+      "published": "2026-11-13T16:36:21+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
-          "title": "Met police launch investigation into David Walliams allegations",
-          "published": "2026-11-13T16:07:59+00:00"
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-14/uk-police-launch-investigation-into-david-walliams/107385506",
+          "title": "UK police launch investigation into David Walliams",
+          "published": "2026-11-13T16:20:15+00:00"
         }
       ],
       "consensus": 2.5
@@ -314,34 +326,6 @@
     }
   ],
   "world": [
-    {
-      "title": "Fallout from Nvidia scandal spreads as Huang resigns",
-      "url": "https://www.france24.com/en/video/20261113-fallout-from-nvidia-scandal-spreads-as-huang-resigns",
-      "source": "France24",
-      "published": "2026-11-13T10:56:22+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nvidia-ceo-jensen-huang-resigns-amid-scandal/article71694271.ece",
-          "title": "Nvidia CEO Jensen Huang resigns amid spy scandal",
-          "published": "2026-11-13T07:23:01+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-resigns-chinese-spy-affairs-b3083664.html",
-          "title": "Nvidia CEO Jensen Huang resigns over affair with suspected Chinese spy putting tech firm’s future in question",
-          "published": "2026-11-12T16:56:35+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
     {
       "title": "Israeli strike on Gaza hospital deadliest since election",
       "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-nasser-hospital-11-killed-6547556",
@@ -421,6 +405,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Nvidia CEO Jensen Huang resigns amid spy scandal",
+      "url": "https://www.thehindu.com/news/international/nvidia-ceo-jensen-huang-resigns-amid-scandal/article71694271.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T07:23:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-ceo-beijing-malaysia-b3084263.html",
+          "title": "What we know after Jensen Huang resigns as Nvidia CEO",
+          "published": "2026-11-13T03:58:51+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
+          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
+          "published": "2026-11-09T23:11:24+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "U.S. Defence Secretary Hegseth, staff reprimanded by guard at Tomb of the Unknown Soldier",
       "url": "https://www.thehindu.com/news/international/us-defence-secretary-hegseth-staff-reprimanded-by-guard-at-tomb-of-the-unknown-soldier/article71692421.ece",
       "source": "The Hindu",
@@ -460,50 +466,6 @@
           "url": "https://www.abc.net.au/news/2026-11-13/un-special-rapporteur-on-indigenous-rights-report-findings/107372310",
           "title": "'Embarrassing' state of Indigenous rights must be addressed, UN expert says",
           "published": "2026-11-13T06:37:06+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Trump says US doesn't need Iran deal",
-      "url": "https://www.semafor.com/article/11/12/2026/trump-says-us-doesnt-need-iran-deal",
-      "source": "Semafor",
-      "published": "2026-11-12T22:24:38+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/trump-says-us-does-not-need-a-deal-with-iran/article71695103.ece",
-          "title": "Trump says U.S. does not ‘need a deal with Iran’",
-          "published": "2026-11-12T17:32:11+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-us-iran-war-deal-vance-6547086",
-          "title": "Trump says US does not 'need a deal with Iran'",
-          "published": "2026-11-12T16:50:36+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "No compromise with Ukraine, Putin indicates to U.S. envoys during talks",
-      "url": "https://www.thehindu.com/news/international/us-envoys-meet-putin-at-kremlin-following-ukraine-talks-in-abu-dhabi/article71694418.ece",
-      "source": "The Hindu",
-      "published": "2026-11-12T17:44:19+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/putin-russia-ukraine-war-deal-us-talks-6547041",
-          "title": "Putin suggests no Ukraine compromise in meeting with US envoys",
-          "published": "2026-11-12T16:25:24+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
-          "title": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
-          "published": "2026-11-12T15:26:34+00:00"
         }
       ],
       "consensus": 3.5
@@ -665,17 +627,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Guinea opens illegal gold mining trial, 1,200 people arrested",
-      "url": "https://www.france24.com/en/video/20261113-guinea-opens-illegal-gold-mining-trial-1-200-people-arrested",
-      "source": "France24",
-      "published": "2026-11-13T10:28:40+00:00",
+      "title": "Trump says US doesn't need Iran deal",
+      "url": "https://www.semafor.com/article/11/12/2026/trump-says-us-doesnt-need-iran-deal",
+      "source": "Semafor",
+      "published": "2026-11-12T22:24:38+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/12/trial-of-more-than-1200-people-accused-of-illegal-gold-mining-opens-in-conakry/",
-          "title": "Trial of more than 1,200 people accused of illegal gold mining opens in Conakry",
-          "published": "2026-11-12T14:43:33+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-says-us-does-not-need-a-deal-with-iran/article71695103.ece",
+          "title": "Trump says U.S. does not ‘need a deal with Iran’",
+          "published": "2026-11-12T17:32:11+00:00"
         }
       ],
       "consensus": 2.5
@@ -692,6 +654,22 @@
           "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
           "title": "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
           "published": "2026-11-12T18:14:30+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "No compromise with Ukraine, Putin indicates to U.S. envoys during talks",
+      "url": "https://www.thehindu.com/news/international/us-envoys-meet-putin-at-kremlin-following-ukraine-talks-in-abu-dhabi/article71694418.ece",
+      "source": "The Hindu",
+      "published": "2026-11-12T17:44:19+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks",
+          "title": "U.S. envoys meet with Putin in the Kremlin after Ukraine talks in Abu Dhabi",
+          "published": "2026-11-12T15:26:34+00:00"
         }
       ],
       "consensus": 2.5
@@ -905,22 +883,6 @@
       "consensus": 2.0
     },
     {
-      "title": "What we know after Jensen Huang resigns as Nvidia CEO",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-ceo-beijing-malaysia-b3084263.html",
-      "source": "The Independent",
-      "published": "2026-11-13T03:58:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair",
-          "title": "Thursday briefing: What we do (and don’t) know about Alice Huang and the Nvidia affair",
-          "published": "2026-11-12T06:43:31+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "One dead, four wounded in downtown Washington shooting: police",
       "url": "https://www.channelnewsasia.com/world/one-dead-four-wounded-in-downtown-washington-shooting-police-6547186",
       "source": "CNA",
@@ -1017,10 +979,28 @@
       "consensus": 1.5
     },
     {
-      "title": "Ex-Labour MP accused of sexual harassment joins Plaid Cymru",
-      "url": "https://www.politico.eu/article/ex-labour-mp-accused-sexual-harassment-joins-plaid-cymru/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-13T16:24:21+00:00",
+      "title": "More live news, more conversations, more Europe: Euronews reinvents itself for its new season",
+      "url": "https://www.euronews.com/2026/11/13/more-live-news-more-conversations-more-europe-euronews-reinvents-itself-for-its-new-season",
+      "source": "Euronews",
+      "published": "2026-11-13T16:56:28+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "November 13 Paris attacks: Eleven years later, France pays tribute to victims",
+      "url": "https://www.france24.com/en/november-13-paris-attacks-eleven-years-later-france-pays-tribute-to-victims",
+      "source": "France24",
+      "published": "2026-11-13T16:47:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Crossing Afghanistan along the 'highway of death'",
+      "url": "https://www.france24.com/en/tv-shows/revisited/20261113-crossing-afghanistan-along-the-highway-of-death",
+      "source": "France24",
+      "published": "2026-11-13T16:47:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1029,34 +1009,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7527.12,
+      "price": 7517.95,
       "currency": "USD",
-      "change": -65.28,
-      "change_percent": -0.86,
+      "change": -74.45,
+      "change_percent": -0.98,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 141.58,
+      "price": 141.76,
       "currency": "GBP",
-      "change": -1.58,
-      "change_percent": -1.1,
+      "change": -1.4,
+      "change_percent": -0.98,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 24987.53,
+      "price": 24966.19,
       "currency": "USD",
-      "change": -378.56,
-      "change_percent": -1.49,
+      "change": -399.91,
+      "change_percent": -1.58,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10905.35,
+      "price": 10902.56,
       "currency": "GBP",
-      "change": 42.26,
-      "change_percent": 0.39,
+      "change": 39.47,
+      "change_percent": 0.36,
       "name": "FTSE 100"
     }
   ],
@@ -1064,34 +1044,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7527.12,
+        "price": 7517.95,
         "currency": "USD",
-        "change": -65.28,
-        "change_percent": -0.86,
+        "change": -74.45,
+        "change_percent": -0.98,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10905.35,
+        "price": 10902.56,
         "currency": "GBP",
-        "change": 42.26,
-        "change_percent": 0.39,
+        "change": 39.47,
+        "change_percent": 0.36,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 52226.38,
+        "price": 52126.81,
         "currency": "USD",
-        "change": -70.71,
-        "change_percent": -0.14,
+        "change": -170.28,
+        "change_percent": -0.33,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24987.53,
+        "price": 24966.19,
         "currency": "USD",
-        "change": -378.56,
-        "change_percent": -1.49,
+        "change": -399.91,
+        "change_percent": -1.58,
         "name": "NASDAQ Composite"
       },
       {
@@ -1104,44 +1084,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26740.05,
+        "price": 26749.95,
         "currency": "EUR",
-        "change": -31.83,
-        "change_percent": -0.12,
+        "change": -21.93,
+        "change_percent": -0.08,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8372.82,
+        "price": 8368.91,
         "currency": "EUR",
-        "change": 11.46,
-        "change_percent": 0.14,
+        "change": 7.55,
+        "change_percent": 0.09,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3881.5,
+        "price": 3883.8,
         "currency": "USD",
-        "change": -3.8,
-        "change_percent": -0.1,
+        "change": -1.5,
+        "change_percent": -0.04,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 48.95,
+        "price": 48.94,
         "currency": "USD",
-        "change": -1.11,
-        "change_percent": -2.23,
+        "change": -1.12,
+        "change_percent": -2.25,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 96.49,
+        "price": 96.0,
         "currency": "USD",
-        "change": 0.67,
-        "change_percent": 0.7,
+        "change": 0.18,
+        "change_percent": 0.19,
         "name": "Brent Crude"
       },
       {
@@ -1149,7 +1129,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.18,
+        "change_percent": -0.19,
         "name": "EUR/USD"
       },
       {
@@ -1157,81 +1137,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.1,
+        "change_percent": -0.17,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.86,
+        "price": 159.91,
         "currency": "JPY",
-        "change": 0.02,
-        "change_percent": 0.01,
+        "change": 0.07,
+        "change_percent": 0.04,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 68616.24,
+        "price": 68570.69,
         "currency": "USD",
-        "change": -2755.53,
-        "change_percent": -3.86,
+        "change": -2801.08,
+        "change_percent": -3.92,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 523.04,
+        "price": 522.06,
         "currency": "USD",
-        "change": 0.04,
-        "change_percent": 0.01,
+        "change": -0.94,
+        "change_percent": -0.18,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 358.44,
+        "price": 357.63,
         "currency": "USD",
-        "change": 3.56,
-        "change_percent": 1.0,
+        "change": 2.75,
+        "change_percent": 0.77,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 160.23,
+        "price": 159.97,
         "currency": "USD",
-        "change": -5.96,
-        "change_percent": -3.59,
+        "change": -6.22,
+        "change_percent": -3.75,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 294.25,
+        "price": 293.9,
         "currency": "USD",
-        "change": -4.45,
-        "change_percent": -1.49,
+        "change": -4.8,
+        "change_percent": -1.61,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 264.7,
+        "price": 264.31,
         "currency": "USD",
-        "change": -2.74,
-        "change_percent": -1.02,
+        "change": -3.13,
+        "change_percent": -1.17,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 390.08,
+        "price": 389.95,
         "currency": "USD",
-        "change": -7.37,
-        "change_percent": -1.85,
+        "change": -7.5,
+        "change_percent": -1.89,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 632.02,
+        "price": 631.02,
         "currency": "USD",
-        "change": 8.41,
-        "change_percent": 1.35,
+        "change": 7.41,
+        "change_percent": 1.19,
         "name": "Meta"
       }
     ]
@@ -1343,22 +1323,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-          "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-          "published": "2026-11-13T15:42:48+00:00",
-          "snippet": "IEA analysts warn it will take months to rebuild stockpiles depleted by US-Iran war"
+          "title": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
+          "url": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
+          "published": "2026-11-13T16:51:52+00:00",
+          "snippet": "Salvo from US Treasury secretary risks stoking tensions within Trump administration over Nvidia scandal"
         },
         {
-          "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
-          "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-          "published": "2026-11-13T15:36:00+00:00",
-          "snippet": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over"
+          "title": "Prevention is better than cure for the UK’s social ills",
+          "url": "https://www.ft.com/content/5b83fe51-4ce2-4a26-a9ca-7a7653eaba9a?syn-25a6b1a6=1",
+          "published": "2026-11-13T16:15:26+00:00",
+          "snippet": "A little-noticed Budget provision could be transformative"
         },
         {
-          "title": "China drops bid for future COP as climate science battle heats up",
-          "url": "https://www.ft.com/content/3cc097d4-00af-4ece-8c86-d1bc9af7664d?syn-25a6b1a6=1",
-          "published": "2026-11-13T15:33:15+00:00",
-          "snippet": "EU presses Beijing to back the speedy publication of crucial reports from the Intergovernmental Panel on Climate Change"
+          "title": "German coalition disagreements hold up ECB jobs deal",
+          "url": "https://www.ft.com/content/bcfa33cc-535a-4692-ae5f-39e144b78799?syn-25a6b1a6=1",
+          "published": "2026-11-13T16:15:25+00:00",
+          "snippet": "Chancellor and his finance minister have yet to agree on a candidate for one of three central bank executive board vacancies"
         }
       ]
     },
@@ -1466,30 +1446,52 @@
   "web": {
     "tech": [
       {
+        "title": "Probabilistic data structures in Go",
+        "url": "https://antonz.org/probabilistic-data-structures/",
+        "comments_url": "https://lobste.rs/s/xca2qj/probabilistic_data_structures_go",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-13T16:03:44.210000+00:00"
+      },
+      {
         "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
         "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
-        "score": 40,
+        "score": 88,
         "source": "Hacker News",
         "published": "2026-11-13T15:52:04+00:00"
       },
       {
+        "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+        "url": "https://text.npr.org/nx-s1-6029408",
+        "score": 45,
+        "source": "Hacker News",
+        "published": "2026-11-13T15:29:10+00:00"
+      },
+      {
         "title": "Palmfrets, Minnesota guitarist's invention, strikes a new chord",
         "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
-        "score": 16,
+        "score": 26,
         "source": "Hacker News",
         "published": "2026-11-13T15:08:07+00:00"
       },
       {
+        "title": "EU Digital Identity Wallet rollout: every EU state on one board",
+        "url": "https://myid.ie/business/eu-digital-wallet-tracker/",
+        "score": 55,
+        "source": "Hacker News",
+        "published": "2026-11-13T14:58:07+00:00"
+      },
+      {
         "title": "U.S. October PPI Rises 6.5% YoY, Highest in Nearly Four Years",
         "url": "https://news.ycombinator.com/item?id=50484421",
-        "score": 91,
+        "score": 129,
         "source": "Hacker News",
         "published": "2026-11-13T14:53:32+00:00"
       },
       {
         "title": "A technical vision for the Haskell ecosystem",
         "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
-        "score": 43,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-13T14:43:12+00:00"
       },
@@ -1497,14 +1499,14 @@
         "title": "Beating the frontier on NetHack",
         "url": "https://antithesis.com/blog/2026/nethack/",
         "comments_url": "https://lobste.rs/s/kb3fs1/beating_frontier_on_nethack",
-        "score": 9,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-13T14:34:57.818000+00:00"
       },
       {
         "title": "Lonewolf 0.3 – A standalone XMPP server written in Rust",
         "url": "https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0",
-        "score": 29,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-13T14:28:40+00:00"
       },
@@ -1517,23 +1519,16 @@
         "published": "2026-11-13T14:27:43.582000+00:00"
       },
       {
-        "title": "US university students tell surveillance cameras to Flock off",
-        "url": "https://www.theguardian.com/technology/ng-interactive/2026/nov/13/universities-drop-flock-camera-contracts",
-        "score": 62,
-        "source": "Hacker News",
-        "published": "2026-11-13T14:11:56+00:00"
-      },
-      {
         "title": "Why Zig over C for Systems Programming",
         "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
-        "score": 106,
+        "score": 132,
         "source": "Hacker News",
         "published": "2026-11-13T14:01:13+00:00"
       },
       {
         "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
         "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-        "score": 314,
+        "score": 322,
         "source": "Hacker News",
         "published": "2026-11-13T12:10:24+00:00"
       },
@@ -1541,7 +1536,7 @@
         "title": "Terminal borders that don't cost a cell",
         "url": "https://www.joshka.net/cell-borders/",
         "comments_url": "https://lobste.rs/s/akdy9z/terminal_borders_don_t_cost_cell",
-        "score": 22,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-13T12:03:19.804000+00:00"
       },
@@ -1549,7 +1544,7 @@
         "title": "The need for at least a third option",
         "url": "https://blog.ovalerio.net/archives/3359",
         "comments_url": "https://lobste.rs/s/9oq6fr/need_for_at_least_third_option",
-        "score": 19,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-13T11:36:44.546000+00:00"
       },
@@ -1560,21 +1555,6 @@
         "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-13T11:33:56.470000+00:00"
-      },
-      {
-        "title": "Running a law firm on Free software (2026 edition)",
-        "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-        "comments_url": "https://lobste.rs/s/ezl1sa/running_law_firm_on_free_software_2026",
-        "score": 11,
-        "source": "Lobste.rs",
-        "published": "2026-11-13T11:20:32.309000+00:00"
-      },
-      {
-        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-        "url": "https://status.claude.com/incidents/nn11wk485zfn",
-        "score": 415,
-        "source": "Hacker News",
-        "published": "2026-11-13T10:18:13+00:00"
       }
     ],
     "reddit": [
@@ -1611,20 +1591,12 @@
         "published": "2026-11-13T11:17:01+00:00"
       },
       {
-        "title": "Trump says he’d consider it a defeat if Iranian regime not toppled by end of his term",
-        "url": "https://www.timesofisrael.com/trump-says-hed-consider-it-a-defeat-if-iranian-regime-not-toppled-by-end-of-his-term/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xvb99r/trump_says_hed_consider_it_a_defeat_if_iranian/",
+        "title": "Mexican Prosecutor Who Helped C.I.A. Secretly Operate in His State Flees to the U.S.",
+        "url": "https://www.nytimes.com/2026/11/12/world/americas/mexico-prosecutor-cia-us.html?unlocked_article_code=1.P1E.b6kO.u7KIB7dRdJ1N&amp;smid=url-share",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xuujvl/mexican_prosecutor_who_helped_cia_secretly/",
         "score": null,
         "source": "/r/geopolitics",
-        "published": "2026-11-13T15:46:07+00:00"
-      },
-      {
-        "title": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims — thousands of employees rally, calling for reinstatement on internal forum",
-        "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xv8ixq/broken_and_shattered_nvidia_ceo_jensen_huang/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-13T13:56:22+00:00"
+        "published": "2026-11-13T01:17:09+00:00"
       },
       {
         "title": "‘Out of the question’: Polish PM says Europe will not accept security deal dictated by US or Moscow",
@@ -1635,20 +1607,28 @@
         "published": "2026-11-13T15:06:52+00:00"
       },
       {
-        "title": "Microsoft outage impact: Over 430 mn users hit, Outlook down, and billions lost in productivity",
-        "url": "https://www.firstpost.com/explainers/microsoft-outage-impact-millions-of-users-outlook-down-and-billions-lost-in-productivity-14059752.html",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv2e1f/microsoft_outage_impact_over_430_mn_users_hit/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-13T08:20:31+00:00"
-      },
-      {
         "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
         "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails?CMP=Share_AndroidApp_Other",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv97xe/russia_strikes_hospital_in_central_kyiv_after/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-13T14:24:41+00:00"
+      },
+      {
+        "title": "‘Broken and shattered’ Nvidia CEO Jensen Huang surrendered during resignation meeting, report claims — thousands of employees rally, calling for reinstatement on internal forum",
+        "url": "https://www.tomshardware.com/tech-industry/broken-and-shattered-nvidia-ceo-jensen-huang-surrendered-during-resignation-meeting-report-claims-thousands-of-employees-rally-calling-for-reinstatement-on-internal-forum",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xv8ixq/broken_and_shattered_nvidia_ceo_jensen_huang/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-13T13:56:22+00:00"
+      },
+      {
+        "title": "Microsoft outage impact: Over 430 mn users hit, Outlook down, and billions lost in productivity",
+        "url": "https://www.firstpost.com/explainers/microsoft-outage-impact-millions-of-users-outlook-down-and-billions-lost-in-productivity-14059752.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv2e1f/microsoft_outage_impact_over_430_mn_users_hit/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T08:20:31+00:00"
       },
       {
         "title": "Finland, Norway Block Visas for Russian Athletes",
@@ -1667,36 +1647,36 @@
         "published": "2026-11-13T11:26:34+00:00"
       },
       {
+        "title": "Nvidia's Jensen Huang scandal brings China's spy networks into view",
+        "url": "https://www.abc.net.au/news/2026-11-13/nvidia-scandal-china-spy-network/107381704",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xuvrst/nvidias_jensen_huang_scandal_brings_chinas_spy/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-13T02:16:10+00:00"
+      },
+      {
+        "title": "Moscow car explosion injures former aide to pro-Russian Ukrainian politician",
+        "url": "https://www.cnn.com/2026/11/13/europe/moscow-car-explosion-ukrainian-politician-injured-intl?utm_medium=social&amp;utm_campaign=missions&amp;utm_source=reddit",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xv99x0/moscow_car_explosion_injures_former_aide_to/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-13T14:26:52+00:00"
+      },
+      {
+        "title": "Trump says US does not need Iran deal, directs Vance to focus on domestic corruption",
+        "url": "https://www.reuters.com/world/us/trump-says-vance-should-focus-domestic-corruption-we-dont-need-deal-with-iran-2026-11-12/",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xun0pg/trump_says_us_does_not_need_iran_deal_directs/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-12T19:59:36+00:00"
+      },
+      {
         "title": "Microsoft says attempts to fix global outage not going 'as expected'",
         "url": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xuzvn8/microsoft_says_attempts_to_fix_global_outage_not/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-13T05:49:00+00:00"
-      },
-      {
-        "title": "Mexican Prosecutor Who Helped C.I.A. Secretly Operate in His State Flees to the U.S.",
-        "url": "https://www.nytimes.com/2026/11/12/world/americas/mexico-prosecutor-cia-us.html?unlocked_article_code=1.P1E.b6kO.u7KIB7dRdJ1N&amp;smid=url-share",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xuujvl/mexican_prosecutor_who_helped_cia_secretly/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-13T01:17:09+00:00"
-      },
-      {
-        "title": "Trump: 'I want to get Cuba done' before leaving office",
-        "url": "https://www.politico.com/news/2026/11/12/trump-cuban-done-before-leaving-office-01163875",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv2768/trump_i_want_to_get_cuba_done_before_leaving/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-13T08:08:28+00:00"
-      },
-      {
-        "title": "Europe’s self-styled pacifists are helping Putin freeze Ukrainians in their homes",
-        "url": "https://euobserver.com/248586/europes-self-styled-pacifists-are-helping-putin-freeze-ukrainians-out/?cst=50ac15026c86526aafd8c2eef5c8be1ba7a44ee264069a9fdb5679d0f7a9e3b7",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xv2dzn/europes_selfstyled_pacifists_are_helping_putin/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-13T08:20:25+00:00"
       }
     ]
   }

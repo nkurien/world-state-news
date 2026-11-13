@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T19:30:53.044186+00:00",
+  "last_updated": "2026-11-13T20:00:57.944817+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 361
+      "ms": 239
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 308
+      "ms": 250
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 249
+      "ms": 187
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 427
+      "ms": 228
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 485
+      "ms": 209
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 280
+      "ms": 382
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 639
+      "ms": 80
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 567
+      "ms": 354
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 196
+      "ms": 195
     },
     "France24": {
-      "ok": false,
-      "count": 0,
-      "error": "404 Client Error: Not Found for url: https://www.france24.com/en/rss",
-      "ms": 3392
+      "ok": true,
+      "count": 24,
+      "error": null,
+      "ms": 173
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 773
+      "ms": 376
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 349
+      "ms": 226
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 182
+      "ms": 340
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 181
+      "ms": 186
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 336
+      "ms": 228
     },
     "RNZ": {
       "ok": true,
-      "count": 41,
+      "count": 39,
       "error": null,
-      "ms": 524
+      "ms": 292
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 710
+      "ms": 639
     },
     "Semafor": {
       "ok": true,
       "count": 273,
       "error": null,
-      "ms": 764
+      "ms": 421
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 685
+      "ms": 588
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 383
+      "ms": 267
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 311
+      "ms": 112
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 314
+      "ms": 226
     },
     "The Independent": {
       "ok": true,
-      "count": 58,
+      "count": 56,
       "error": null,
-      "ms": 245
+      "ms": 169
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 300
+      "ms": 212
     }
   },
   "breaking": [
+    {
+      "title": "Microsoft 'deeply sorry' for global outage, reports 'broad recovery' of services",
+      "url": "https://www.abc.net.au/news/2026-11-14/microsoft-says-sorry-for-global-outage-and-details-recovery/107385540",
+      "source": "ABC Australia",
+      "published": "2026-11-13T19:34:44+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/microsoft-outage-recovery-deeply-sorry-outlook-teams-6550421",
+          "title": "Microsoft 'deeply sorry' as outage triggers global chaos",
+          "published": "2026-11-13T19:18:00+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
+          "title": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
+          "published": "2026-11-13T18:43:24+00:00"
+        },
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services",
+          "title": "Global Microsoft outage knocks out Outlook and other services",
+          "published": "2026-11-13T12:34:23+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "Turkiye, Qatar sign mutual defence agreement, Turkish presidency says",
       "url": "https://www.thehindu.com/news/international/turkiye-qatar-sign-mutual-defence-agreement-turkish-presidency-says/article71699542.ece",
@@ -165,10 +193,10 @@
       "consensus": 2.5
     },
     {
-      "title": "U.K. police launch sex offence investigation into children’s author and comedian David Walliams",
-      "url": "https://www.cbc.ca/news/entertainment/david-walliams-investigation-9.7420901?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-13T18:13:17+00:00",
+      "title": "Police launch investigation into David Walliams over alleged serious sexual offences",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/13/david-walliams-allegations-met-police-investigation",
+      "source": "The Guardian",
+      "published": "2026-11-13T18:53:28+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -195,22 +223,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Microsoft 'deeply sorry' as outage triggers global chaos",
-      "url": "https://www.channelnewsasia.com/world/microsoft-outage-recovery-deeply-sorry-outlook-teams-6550421",
-      "source": "CNA",
-      "published": "2026-11-13T19:18:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/article/3374408/microsoft-deeply-sorry-global-outage-says-issue-not-caused-cyber-or-ai-agents",
-          "title": "Microsoft ‘deeply sorry’ for global outage, says issue not caused by cyber or AI agents",
-          "published": "2026-11-13T18:43:24+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
@@ -245,19 +257,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Democrats detail ‘must-have’ victories in 2027 after taking control of Congress",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/congress-democrat-agenda-stock-trading-ban-senate-b3084775.html",
-      "source": "The Independent",
-      "published": "2026-11-13T19:17:06+00:00",
+      "title": "NSW growers reveal the tough calls made before this year's harvest",
+      "url": "https://www.abc.net.au/news/2026-11-14/nsw-farmers-harvest-after-dry-start-to-season/107356750",
+      "source": "ABC Australia",
+      "published": "2026-11-13T20:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Bessent blames Lutnick’s commerce department over delay blacklisting China-linked data firm – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-      "source": "The Guardian",
-      "published": "2026-11-13T19:16:46+00:00",
+      "title": "The challenge of holding the Quad together",
+      "url": "https://www.thehindu.com/opinion/op-ed/the-challenge-of-holding-the-quad-together/article71698092.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T19:57:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -303,56 +315,6 @@
         }
       ],
       "consensus": 6.0
-    },
-    {
-      "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
-      "url": "https://www.cbc.ca/news/world/united-nations-nuclear-watchdog-iaea-iran-9.7420465?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-13T14:05:45+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-          "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-          "published": "2026-11-13T12:28:28+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
-          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-          "published": "2026-11-13T10:11:01+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
-          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-          "published": "2026-11-13T09:24:09+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Europe seeks seat at Ukraine peace talks but lacks unified voice",
-      "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T15:43:39+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/europe-pushes-for-seat-at-ukraine-peace-talks-but-lacks-unified-voice/article71696911.ece",
-          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
-          "published": "2026-11-13T10:13:51+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html",
-          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
-          "published": "2026-11-13T05:20:30+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "US commerce secretary in the spotlight over Nvidia scandal",
@@ -427,23 +389,45 @@
       "consensus": 4.0
     },
     {
-      "title": "Indigenous rights in Australia 'embarrassing': UN envoy",
-      "url": "https://www.channelnewsasia.com/world/indigenous-rights-in-australia-embarrassing-un-envoy-6549216",
-      "source": "CNA",
-      "published": "2026-11-13T10:39:42+00:00",
+      "title": "UN nuclear watchdog increasingly concerned about Iranian enrichment plant, report says",
+      "url": "https://www.cbc.ca/news/world/united-nations-nuclear-watchdog-iaea-iran-9.7420465?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-13T14:05:45+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australianz/indigenous-rights-in-australia-embarrassing-un-envoy",
-          "title": "Indigenous rights in Australia ‘embarrassing’: UN envoy",
-          "published": "2026-11-13T08:00:00+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
+          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
+          "published": "2026-11-13T10:11:01+00:00"
         },
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-13/un-special-rapporteur-on-indigenous-rights-report-findings/107372310",
-          "title": "'Embarrassing' state of Indigenous rights must be addressed, UN expert says",
-          "published": "2026-11-13T06:37:06+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
+          "published": "2026-11-13T09:24:09+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Hegseth pins medal on soldier who reprimanded his group for laughing at Tomb of the Unknown Soldier",
+      "url": "https://www.independent.co.uk/news/world/americas/hegseth-medal-tomb-of-the-unknown-soldier-b3084131.html",
+      "source": "The Independent",
+      "published": "2026-11-12T19:59:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
+          "title": "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
+          "published": "2026-11-12T18:14:30+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
+          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
+          "published": "2026-11-11T21:43:35+00:00"
         }
       ],
       "consensus": 3.5
@@ -541,6 +525,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Midterms: What does the 'blue tsunami' mean for US media?",
+      "url": "https://www.france24.com/en/tv-shows/scoop/20261113-what-does-the-blue-tsunami-mean-for-us-media",
+      "source": "France24",
+      "published": "2026-11-13T14:22:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/06/2026/what-does-the-blue-tsunami-mean-for-inflation",
+          "title": "What does the Blue Tsunami mean for inflation?",
+          "published": "2026-11-09T12:30:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "China warns against fresh US chip curbs",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/china-warns-against-fresh-us-chip-curbs?traffic_source=rss",
       "source": "Al Jazeera",
@@ -589,33 +589,17 @@
       "consensus": 2.5
     },
     {
-      "title": "You haven’t got mail: Global Microsoft outage disrupts services",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/13-11-sv-microsoft-global-outage?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T12:40:11+00:00",
+      "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
+      "url": "https://www.thehindu.com/news/international/europe-pushes-for-seat-at-ukraine-peace-talks-but-lacks-unified-voice/article71696911.ece",
+      "source": "The Hindu",
+      "published": "2026-11-13T10:13:51+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services",
-          "title": "Global Microsoft outage knocks out Outlook and other services",
-          "published": "2026-11-13T12:34:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
-      "source": "The Guardian",
-      "published": "2026-11-13T10:45:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-13/ex-nsw-liberal-mp-rory-amon-guilty-sexual-assault-13yo-boy/107384336",
-          "title": "Ex-NSW Liberal MP guilty of raping 13yo boy",
-          "published": "2026-11-13T06:15:59+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html",
+          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
+          "published": "2026-11-13T05:20:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -648,22 +632,6 @@
           "url": "https://www.cbc.ca/news/world/israeli-strike-on-gaza-hospital-kills-six-people-9.7418729?cmp=rss",
           "title": "Israeli strike on a Gaza hospital kills 6 people, including surgeon, health authorities say",
           "published": "2026-11-12T09:53:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Hegseth pins medal on soldier who reprimanded his group for laughing at Tomb of the Unknown Soldier",
-      "url": "https://www.independent.co.uk/news/world/americas/hegseth-medal-tomb-of-the-unknown-soldier-b3084131.html",
-      "source": "The Independent",
-      "published": "2026-11-12T19:59:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-pentagon-hegseth-arlington-controversy-medal-9.7419227?cmp=rss",
-          "title": "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
-          "published": "2026-11-12T18:14:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -712,22 +680,6 @@
           "url": "https://www.euronews.com/2026/11/12/democrat-scott-colom-wins-mississippi-senate-seat-in-historic-upset",
           "title": "Democrat Scott Colom wins Mississippi Senate seat in historic upset",
           "published": "2026-11-12T08:42:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
-      "url": "https://www.cbc.ca/news/world/hegseth-veterans-day-arlington-tomb-laughter-guard-yells-9.7418661?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-12T01:14:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss",
-          "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
-          "published": "2026-11-11T21:43:35+00:00"
         }
       ],
       "consensus": 2.5
@@ -792,6 +744,22 @@
           "url": "https://www.straitstimes.com/asia/germanys-merz-asks-trump-for-no-surprises-from-putin-talks",
           "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
           "published": "2026-11-13T13:19:32+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Indigenous rights in Australia 'embarrassing': UN envoy",
+      "url": "https://www.channelnewsasia.com/world/indigenous-rights-in-australia-embarrassing-un-envoy-6549216",
+      "source": "CNA",
+      "published": "2026-11-13T10:39:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australianz/indigenous-rights-in-australia-embarrassing-un-envoy",
+          "title": "Indigenous rights in Australia ‘embarrassing’: UN envoy",
+          "published": "2026-11-13T08:00:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -957,19 +925,37 @@
       "consensus": 1.5
     },
     {
-      "title": "Trump bought up Nvidia stock as he decided on policy that would benefit chipmaker",
-      "url": "https://www.theguardian.com/us-news/2026/nov/13/trump-nvidia-stock-jensen-huang-us-china",
-      "source": "The Guardian",
-      "published": "2026-11-13T19:09:05+00:00",
+      "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-13T19:53:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Moa Point treatment plant restarts after months of repairs",
-      "url": "https://www.rnz.co.nz/news/regional/2587775/moa-point-treatment-plant-restarts-after-months-of-repairs",
-      "source": "RNZ",
-      "published": "2026-11-13T19:07:45+00:00",
+      "title": "Australia, Philippines to ink defence deal amid South China Sea tensions",
+      "url": "https://www.abc.net.au/news/2026-11-14/major-defence-deal-astralia-philippines-clashes-china/107381694",
+      "source": "ABC Australia",
+      "published": "2026-11-13T19:48:45+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "The Downfall of AI’s ‘Rock Star’ Boss, Ukraine: Who speak for Europe? Protests & Presidents",
+      "url": "https://www.france24.com/en/tv-shows/the-world-this-week/20261113-the-downfall-of-ai-s-rock-star-boss-ukraine-who-speak-for-europe-protests-presidents",
+      "source": "France24",
+      "published": "2026-11-13T19:46:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Chris Van Hollen rules out 2028 presidential bid as challenge to take Senate leadership gains support – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+      "source": "The Guardian",
+      "published": "2026-11-13T19:40:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -978,10 +964,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7552.78,
+      "price": 7553.72,
       "currency": "USD",
-      "change": -39.62,
-      "change_percent": -0.52,
+      "change": -38.68,
+      "change_percent": -0.51,
       "name": "S&P 500"
     },
     {
@@ -994,9 +980,9 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 25127.3,
+      "price": 25126.84,
       "currency": "USD",
-      "change": -238.8,
+      "change": -239.26,
       "change_percent": -0.94,
       "name": "NASDAQ Composite"
     },
@@ -1013,10 +999,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7552.78,
+        "price": 7553.72,
         "currency": "USD",
-        "change": -39.62,
-        "change_percent": -0.52,
+        "change": -38.68,
+        "change_percent": -0.51,
         "name": "S&P 500"
       },
       {
@@ -1029,17 +1015,17 @@
       },
       {
         "symbol": "^DJI",
-        "price": 52297.5,
+        "price": 52318.19,
         "currency": "USD",
-        "change": 0.41,
-        "change_percent": 0.0,
+        "change": 21.1,
+        "change_percent": 0.04,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 25127.3,
+        "price": 25126.84,
         "currency": "USD",
-        "change": -238.8,
+        "change": -239.26,
         "change_percent": -0.94,
         "name": "NASDAQ Composite"
       },
@@ -1071,26 +1057,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3884.3,
+        "price": 3877.9,
         "currency": "USD",
-        "change": -1.0,
-        "change_percent": -0.03,
+        "change": -7.4,
+        "change_percent": -0.19,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 48.98,
+        "price": 48.77,
         "currency": "USD",
-        "change": -1.09,
-        "change_percent": -2.17,
+        "change": -1.29,
+        "change_percent": -2.58,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 95.95,
+        "price": 95.77,
         "currency": "USD",
-        "change": 0.13,
-        "change_percent": 0.14,
+        "change": -0.05,
+        "change_percent": -0.05,
         "name": "Brent Crude"
       },
       {
@@ -1098,7 +1084,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.26,
+        "change_percent": -0.29,
         "name": "EUR/USD"
       },
       {
@@ -1106,12 +1092,12 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.17,
+        "change_percent": -0.19,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.73,
+        "price": 159.74,
         "currency": "JPY",
         "change": -0.11,
         "change_percent": -0.07,
@@ -1119,68 +1105,68 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 68978.69,
+        "price": 68959.76,
         "currency": "USD",
-        "change": -2393.08,
-        "change_percent": -3.35,
+        "change": -2412.01,
+        "change_percent": -3.38,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 524.82,
+        "price": 524.98,
         "currency": "USD",
-        "change": 1.82,
-        "change_percent": 0.35,
+        "change": 1.98,
+        "change_percent": 0.38,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 357.97,
+        "price": 357.13,
         "currency": "USD",
-        "change": 3.09,
-        "change_percent": 0.87,
+        "change": 2.25,
+        "change_percent": 0.63,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 162.26,
+        "price": 162.75,
         "currency": "USD",
-        "change": -3.93,
-        "change_percent": -2.36,
+        "change": -3.44,
+        "change_percent": -2.07,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 295.15,
+        "price": 294.97,
         "currency": "USD",
-        "change": -3.55,
-        "change_percent": -1.19,
+        "change": -3.73,
+        "change_percent": -1.25,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 265.58,
+        "price": 265.34,
         "currency": "USD",
-        "change": -1.86,
-        "change_percent": -0.7,
+        "change": -2.1,
+        "change_percent": -0.79,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 391.4,
+        "price": 391.73,
         "currency": "USD",
-        "change": -6.05,
-        "change_percent": -1.52,
+        "change": -5.72,
+        "change_percent": -1.44,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 640.27,
+        "price": 640.81,
         "currency": "USD",
-        "change": 16.66,
-        "change_percent": 2.67,
+        "change": 17.2,
+        "change_percent": 2.76,
         "name": "Meta"
       }
     ]
@@ -1217,6 +1203,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Trump is threatening to investigate the investigators. Can he do that?",
+          "url": "https://theweek.com/politics/trump-threatening-investigate-the-investigators",
+          "published": "2026-11-13T19:45:53+00:00",
+          "snippet": "Congressional Democrats say they will do oversight despite White House threats"
+        },
+        {
           "title": "Apple has a hidden ‘gray list’ of words it won’t autocomplete",
           "url": "https://theweek.com/tech/apple-hidden-list-gray-words-autocomplete",
           "published": "2026-11-13T17:50:14+00:00",
@@ -1227,12 +1219,6 @@
           "url": "https://theweek.com/personal-finance/3-signs-its-time-to-change-banks",
           "published": "2026-11-13T16:58:42+00:00",
           "snippet": "Loyalty can cost you"
-        },
-        {
-          "title": "The chips are down: where does Nvidia go from here?",
-          "url": "https://theweek.com/business/the-chips-are-down-where-does-nvidia-go-from-here",
-          "published": "2026-11-13T14:32:09+00:00",
-          "snippet": "The disaster for the chipmaker may be ‘just beginning’"
         }
       ]
     },
@@ -1292,22 +1278,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+          "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
+          "published": "2026-11-13T19:45:14+00:00",
+          "snippet": "IEA analysts warn it will take months to rebuild stockpiles depleted by US-Iran war"
+        },
+        {
+          "title": "US securities watchdog plans to loosen rules for executive pay disclosure",
+          "url": "https://www.ft.com/content/de634392-47bd-4a21-938a-77620aeb3d17?syn-25a6b1a6=1",
+          "published": "2026-11-13T19:20:46+00:00",
+          "snippet": "Only CEOs and CFOs would be required to disclose pay packages under Securities and Exchange Commission’s proposal"
+        },
+        {
           "title": "US Treasuries set for worst week since Trump’s ‘liberation day’",
           "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
           "published": "2026-11-13T19:06:08+00:00",
           "snippet": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over"
-        },
-        {
-          "title": "Microsoft outage exposes global reliance on core tech providers",
-          "url": "https://www.ft.com/content/f385935b-2bb4-4e34-8127-16517e8ceecb?syn-25a6b1a6=1",
-          "published": "2026-11-13T18:55:13+00:00",
-          "snippet": "Impact of global incident affects users ranging from banks and governments to county sheriffs and pharmacies"
-        },
-        {
-          "title": "Microsoft says services experiencing ‘broad recovery’ after global outage",
-          "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-          "published": "2026-11-13T18:25:15+00:00",
-          "snippet": "German government says it ‘anticipates a very big impact’ on economy"
         }
       ]
     },
@@ -1317,10 +1303,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "The Writers Who Tried to Reconstruct the Past",
+          "title": "Rebuilding a World That Never Existed",
           "url": "https://www.theatlantic.com/newsletters/2026/11/books-briefing-writers-reconstruct-past-lamela/689429/?utm_source=feed",
           "published": "2026-11-13T19:10:00+00:00",
-          "snippet": "Their attempts might be doomed to fail, but that doesn’t mean they aren’t noble, or even beautiful."
+          "snippet": "Attempts to reconstruct the past might be doomed to fail, but that doesn’t mean they aren’t noble, or even beautiful."
         },
         {
           "title": "Silicon Valley’s Chaos Moment",
@@ -1415,80 +1401,88 @@
   "web": {
     "tech": [
       {
-        "title": "FM-1 Workbench",
-        "url": "https://open.m-vave.com/fm1-workbench",
-        "score": 3,
-        "source": "Hacker News",
-        "published": "2026-11-13T19:14:02+00:00"
+        "title": "Kildall's algorithm",
+        "url": "https://bike.github.io/posts/kildall.html",
+        "comments_url": "https://lobste.rs/s/1nmzz6/kildall_s_algorithm",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-13T19:34:28.227000+00:00"
       },
       {
-        "title": "The avalanche that hit math is coming for AI development",
-        "url": "https://www.dwarkesh.com/p/rsi",
-        "score": 21,
+        "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+        "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+        "score": 5,
         "source": "Hacker News",
-        "published": "2026-11-13T18:39:42+00:00"
+        "published": "2026-11-13T19:24:47+00:00"
+      },
+      {
+        "title": "FM-1 Workbench",
+        "url": "https://open.m-vave.com/fm1-workbench",
+        "score": 37,
+        "source": "Hacker News",
+        "published": "2026-11-13T19:14:02+00:00"
       },
       {
         "title": "Pointer Provenance in Rust vs C++",
         "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/",
         "comments_url": "https://lobste.rs/s/xmtjzq/pointer_provenance_rust_vs_c",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-13T18:37:30.823000+00:00"
       },
       {
         "title": "Models can now transmit viruses in weight-space",
         "url": "https://www.alphaxiv.org/abs/2611.weight-space-misfolding",
-        "score": 40,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-13T18:33:35+00:00"
       },
       {
         "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
         "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
-        "score": 12,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-13T18:23:49+00:00"
       },
       {
         "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
         "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
-        "score": 64,
+        "score": 100,
         "source": "Hacker News",
         "published": "2026-11-13T18:18:37+00:00"
       },
       {
         "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
         "url": "https://isometricsf.com/",
-        "score": 43,
+        "score": 58,
         "source": "Hacker News",
         "published": "2026-11-13T17:58:37+00:00"
       },
       {
         "title": "After 600 experiments, here's what I discovered about JEPA world models",
         "url": "https://haddyalchaer.com/jepa",
-        "score": 94,
+        "score": 118,
         "source": "Hacker News",
         "published": "2026-11-13T17:55:28+00:00"
       },
       {
         "title": "OpenAI disbands its robotics team as its general models start running robots",
         "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
-        "score": 43,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-13T17:55:23+00:00"
       },
       {
         "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
         "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-        "score": 174,
+        "score": 188,
         "source": "Hacker News",
         "published": "2026-11-13T17:30:10+00:00"
       },
       {
         "title": "LibreOffice actually works 365 days a year",
         "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-        "score": 538,
+        "score": 605,
         "source": "Hacker News",
         "published": "2026-11-13T17:09:58+00:00"
       },
@@ -1496,31 +1490,23 @@
         "title": "Probabilistic data structures in Go",
         "url": "https://antonz.org/probabilistic-data-structures/",
         "comments_url": "https://lobste.rs/s/xca2qj/probabilistic_data_structures_go",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-13T16:03:44.210000+00:00"
       },
       {
         "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
         "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
-        "score": 60,
+        "score": 69,
         "source": "Hacker News",
         "published": "2026-11-13T15:08:07+00:00"
       },
       {
         "title": "A technical vision for the Haskell ecosystem",
         "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
-        "score": 131,
+        "score": 137,
         "source": "Hacker News",
         "published": "2026-11-13T14:43:12+00:00"
-      },
-      {
-        "title": "Beating the frontier on NetHack",
-        "url": "https://antithesis.com/blog/2026/nethack/",
-        "comments_url": "https://lobste.rs/s/kb3fs1/beating_frontier_on_nethack",
-        "score": 15,
-        "source": "Lobste.rs",
-        "published": "2026-11-13T14:34:57.818000+00:00"
       }
     ],
     "reddit": [
@@ -1581,14 +1567,6 @@
         "published": "2026-11-13T09:09:04+00:00"
       },
       {
-        "title": "Finland, Norway Block Visas for Russian Athletes",
-        "url": "https://www.kyivpost.com/post/89996",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xv6zbn/finland_norway_block_visas_for_russian_athletes/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-13T12:47:35+00:00"
-      },
-      {
         "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
         "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails?CMP=Share_AndroidApp_Other",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv97xe/russia_strikes_hospital_in_central_kyiv_after/",
@@ -1597,20 +1575,28 @@
         "published": "2026-11-13T14:24:41+00:00"
       },
       {
-        "title": "Microsoft says attempts to fix global outage not going 'as expected'",
-        "url": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xuzvn8/microsoft_says_attempts_to_fix_global_outage_not/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-13T05:49:00+00:00"
-      },
-      {
         "title": "Regret is rare among transgender youth who started hormone therapy, according to the largest study of its kind. Of 376 young people surveyed about 5 years after starting estrogen or testosterone, 96.8% said it was the right decision, only 2.7% regretted it, and 82.7% were still taking hormones.",
         "url": "https://www.psypost.org/regret-is-rare-among-transgender-youth-who-began-hormone-therapy-according-to-largest-study-of-its-kind/",
         "comments_url": "https://www.reddit.com/r/science/comments/1xvfvlp/regret_is_rare_among_transgender_youth_who/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-13T18:37:17+00:00"
+      },
+      {
+        "title": "Finland, Norway Block Visas for Russian Athletes",
+        "url": "https://www.kyivpost.com/post/89996",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xv6zbn/finland_norway_block_visas_for_russian_athletes/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-13T12:47:35+00:00"
+      },
+      {
+        "title": "Microsoft says attempts to fix global outage not going 'as expected'",
+        "url": "https://www.bbc.com/news/live/cq5y10ge3dp3t",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xuzvn8/microsoft_says_attempts_to_fix_global_outage_not/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-13T05:49:00+00:00"
       },
       {
         "title": "‘Bring Back THE Boss’: Nvidia Employees requesting for Jensen Huang’s Return",
@@ -1637,12 +1623,12 @@
         "published": "2026-11-13T15:25:40+00:00"
       },
       {
-        "title": "Paid sexual exchanges are far more common among young adults than once thought, new study suggests",
-        "url": "https://www.psypost.org/paid-sexual-exchanges-are-far-more-common-among-young-adults-than-once-thought-new-study-suggests/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xv7zed/paid_sexual_exchanges_are_far_more_common_among/",
+        "title": "Before His Ouster, Jensen Huang Belittled the Executive Replacing Him",
+        "url": "https://www.wsj.com/tech/jensen-huang-colette-kress-nvidia-ceo-eb289097?st=qAuWt6&amp;reflink=desktopwebshare_permalink",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xvdhsg/before_his_ouster_jensen_huang_belittled_the/",
         "score": null,
-        "source": "/r/science",
-        "published": "2026-11-13T13:33:04+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-13T17:09:39+00:00"
       }
     ]
   }

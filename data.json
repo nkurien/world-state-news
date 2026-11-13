@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T22:30:48.329603+00:00",
+  "last_updated": "2026-11-13T23:01:02.534985+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 360
+      "ms": 187
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 364
+      "ms": 156
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 208
+      "ms": 167
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 192
+      "ms": 583
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 247
+      "ms": 370
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 123
+      "ms": 318
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 444
+      "ms": 491
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 439
+      "ms": 292
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 233
+      "ms": 159
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 782
+      "ms": 183
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 392
+      "ms": 376
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 236
+      "ms": 1582
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 264
+      "ms": 108
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 138
+      "ms": 133
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 329
+      "ms": 132
     },
     "RNZ": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 204
+      "ms": 1707
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 573
+      "ms": 1081
     },
     "Semafor": {
       "ok": true,
-      "count": 275,
+      "count": 271,
       "error": null,
-      "ms": 582
+      "ms": 373
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 476
+      "ms": 596
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 192
+      "ms": 325
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 135
+      "ms": 425
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 278
+      "ms": 144
     },
     "The Independent": {
       "ok": true,
       "count": 54,
       "error": null,
-      "ms": 167
+      "ms": 391
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 208
+      "ms": 170
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
       "source": "The Hindu",
       "published": "2026-11-13T22:20:10+00:00",
-      "score": 4,
+      "score": 6,
       "other_sources": [
         {
           "source": "The Guardian",
@@ -163,46 +163,52 @@
         },
         {
           "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Tanker collides with cruise ship on Mississippi near New Orleans",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
           "published": "2026-11-13T21:31:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/tanker-hits-river-cruise-ship-near-new-orleans-port-6550576",
+          "title": "Tanker hits river cruise ship near New Orleans port",
+          "published": "2026-11-13T21:09:00+00:00"
         },
         {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
           "title": "Rescue underway in New Orleans after tanker hits river cruise boat",
           "published": "2026-11-13T21:06:41+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Flights grounded across U.S. due to outage affecting air traffic control, FAA says",
-      "url": "https://www.cbc.ca/news/world/livestory/faa-grounds-all-flights-united-states-air-traffic-control-live-updates-9.7421404?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-13T22:18:32+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-          "title": "Flights grounded at all US airports due to air traffic control ‘communication issue’, transport secretary says – live",
-          "published": "2026-11-13T22:14:56+00:00"
         },
         {
           "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
-          "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
-          "published": "2026-11-13T21:33:43+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261113-us-flight-authority-orders-national-ground-stop-over-air-traffic-control-communication-issue",
-          "title": "🔴 US flight authority orders national ground stop over air traffic control 'communication issue'",
-          "published": "2026-11-13T21:29:31+00:00"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
+          "title": "Miracle on the Mississippi: everyone safe after tanker hits and sinks New Orleans cruise",
+          "published": "2026-11-13T20:49:15+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 7.0
+    },
+    {
+      "title": "FAA issues rare nationwide ground stop",
+      "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+      "source": "Semafor",
+      "published": "2026-11-13T22:52:27+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+          "title": "Nationwide FAA ground stop: nearly 7,000 flights delayed or canceled at airports across the US",
+          "published": "2026-11-13T22:22:51+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
+          "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
+          "published": "2026-11-13T22:02:07+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
@@ -227,10 +233,42 @@
       "consensus": 3.5
     },
     {
-      "title": "All departing US flights grounded due to communication problem",
+      "title": "US flight outage live updates: FAA grounds thousands of flights as Trump administration looks for cause of nationwide delays",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
+      "source": "The Guardian",
+      "published": "2026-11-13T22:39:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
+          "title": "FAA grounds US flights nationwide after ‘communication issue’",
+          "published": "2026-11-13T21:32:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US air force responds to suspected drone activity at RAF Lakenheath",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
+      "source": "The Guardian",
+      "published": "2026-11-13T22:31:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-air-force-responds-suspected-drone-activity-over-uk-airbase-6550596",
+          "title": "US air force responds to suspected drone activity over UK airbase",
+          "published": "2026-11-13T21:35:15+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "All departing US flights grounded due to communications problem",
       "url": "https://www.channelnewsasia.com/world/us-grounds-departing-flights-communication-problem-6550736",
       "source": "CNA",
-      "published": "2026-11-13T22:21:58+00:00",
+      "published": "2026-11-13T22:21:00+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -243,49 +281,17 @@
       "consensus": 2.5
     },
     {
-      "title": "New Orleans boat crash: tanker collides with river cruise ship carrying more than 130 people – latest updates",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
-      "source": "The Guardian",
-      "published": "2026-11-13T22:14:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/tanker-hits-river-cruise-ship-near-new-orleans-port-6550576",
-          "title": "Tanker hits river cruise ship near New Orleans port",
-          "published": "2026-11-13T21:09:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US air force responds to suspected drone activity over UK airbase",
-      "url": "https://www.channelnewsasia.com/world/us-air-force-responds-suspected-drone-activity-over-uk-airbase-6550596",
-      "source": "CNA",
-      "published": "2026-11-13T21:35:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/13/us-air-force-responds-to-suspected-drone-activity-at-raf-lakenheath",
-          "title": "US air force responds to suspected drone activity at RAF Lakenheath",
-          "published": "2026-11-13T21:01:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Tanker collides with New Orleans river cruise carrying 129 passengers, rescue operation underway",
-      "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-      "source": "Euronews",
-      "published": "2026-11-13T21:04:32+00:00",
+      "title": "Flights grounded across U.S. due to outage affecting air traffic control, FAA says",
+      "url": "https://www.cbc.ca/news/world/livestory/faa-grounds-all-flights-united-states-air-traffic-control-live-updates-9.7421404?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-13T22:18:32+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374410/tanker-hits-new-orleans-cruise-boat-carrying-129-passengers",
-          "title": "Tanker hits New Orleans cruise boat carrying 129 passengers",
-          "published": "2026-11-13T20:49:15+00:00"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+          "title": "Flights grounded across US due to ‘extraordinary circumstances’, FAA says",
+          "published": "2026-11-13T21:33:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -651,6 +657,22 @@
       "consensus": 2.5
     },
     {
+      "title": "New Orleans boat crash live: all passengers and crew found alive in ‘miracle on the Mississippi’",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/new-orleans-cruise-liner-tanker-crash-live-updates",
+      "source": "The Guardian",
+      "published": "2026-11-13T22:44:36+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html",
+          "title": "‘Miracle on the Mississippi’: All passengers accounted for after New Orleans riverboat crash, officials say",
+          "published": "2026-11-13T22:31:11+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "US Congress widens Nvidia probe, seeking testimony from Jensen Huang and Trump officials",
       "url": "https://www.scmp.com/news/china/diplomacy/article/3374412/us-congress-widens-nvidia-probe-seeking-testimony-jensen-huang-and-trump-officials",
       "source": "SCMP",
@@ -907,62 +929,53 @@
       "consensus": 1.5
     },
     {
-      "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
-      "url": "http://www.africanews.com/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium/",
+      "title": "Jensen Huang quits Nvidia as scandal rocks AI giant",
+      "url": "http://www.africanews.com/2026/11/13/jensen-huang-quits-nvidia-as-scandal-rocks-ai-giant/",
       "source": "Africanews",
-      "published": "2026-11-13T08:11:36+00:00",
+      "published": "2026-11-13T08:37:26+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium",
-          "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
-          "published": "2026-11-13T08:11:29+00:00"
+          "url": "https://www.euronews.com/2026/11/12/nvidias-jensen-huang-resigns-over-relationship-with-suspected-chinese-spy",
+          "title": "Jensen Huang quits Nvidia after 33 years amid alleged Chinese spy scandal",
+          "published": "2026-11-12T14:07:53+00:00"
         }
       ],
       "consensus": 1.5
     },
     {
-      "title": "New Orleans crash updates: 32 passengers taken to hospital after tanker slams into riverboat carrying 129 people",
-      "url": "https://www.independent.co.uk/news/world/americas/new-orleans-crash-boat-tanker-rescue-b3084821.html",
-      "source": "The Independent",
-      "published": "2026-11-13T22:17:37+00:00",
+      "title": "In a crowded fall, ‘Nintendo Switch Sports Resort’ is a casual gem",
+      "url": "https://www.japantimes.co.jp/life/2026/11/14/digital/switch-2-sports-resort-nintendo-golf-tennis/",
+      "source": "Japan Times",
+      "published": "2026-11-13T23:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Hungary seizes $19.5m in cash found buried in forests amid graft inquiry",
-      "url": "https://www.theguardian.com/world/2026/nov/13/hungary-seizes-195m-in-cash-found-buried-in-forests-amid-graft-inquiry",
-      "source": "The Guardian",
-      "published": "2026-11-13T22:12:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Massive rescue effort underway after tanker crashes into New Orleans riverboat with 129 passengers on board",
-      "url": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html",
-      "source": "The Independent",
-      "published": "2026-11-13T22:06:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Flag football takes flight as young Aussie athletes compete in China",
-      "url": "https://www.abc.net.au/news/2026-11-14/qld-nfl-flag-football-growth-australian-competes-china/107352096",
+      "title": "Police seeking witnesses after violent home invasion in Canberra",
+      "url": "https://www.abc.net.au/news/2026-11-14/police-call-witnesses-hackett-home-invasion/107385772",
       "source": "ABC Australia",
-      "published": "2026-11-13T22:02:58+00:00",
+      "published": "2026-11-13T22:52:22+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "LIVE: FAA issues nationwide ground stop after communications outage in US",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T22:02:07+00:00",
+      "title": "Melbourne's 'liveable city' reputation questioned after fatal stabbing",
+      "url": "https://www.abc.net.au/news/2026-11-14/melbourne-crime-fears-challenge-liveability-reputation/107381360",
+      "source": "ABC Australia",
+      "published": "2026-11-13T22:49:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Fierce backlash erupts after Google tried to force its AI into school classrooms",
+      "url": "https://www.independent.co.uk/news/world/americas/google-gemini-schools-search-artificial-intelligence-b3084686.html",
+      "source": "The Independent",
+      "published": "2026-11-13T22:44:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1112,10 +1125,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 68225.05,
+        "price": 68135.49,
         "currency": "USD",
-        "change": -3146.72,
-        "change_percent": -4.41,
+        "change": -3236.28,
+        "change_percent": -4.53,
         "name": "Bitcoin"
       }
     ],
@@ -1285,22 +1298,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "US Treasuries record worst week since Trump’s ‘liberation day’",
-          "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-          "published": "2026-11-13T22:12:03+00:00",
-          "snippet": "Higher than expected inflation and hawkish remarks by Fed officials have stung investors who bet a global bond rout was over"
+          "title": "US aviation regulator grounds all departing flights",
+          "url": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+          "published": "2026-11-13T23:00:26+00:00",
+          "snippet": "Airports across the country ordered by Federal Aviation Administration to halt all take-offs"
         },
         {
-          "title": "Amazon revives deal with troubled data centre venture backed by Rick Perry",
-          "url": "https://www.ft.com/content/692fbfe8-da52-42c0-b436-9c4aff21fbdb?syn-25a6b1a6=1",
-          "published": "2026-11-13T20:40:40+00:00",
-          "snippet": "Tech giant agrees to be Fermi’s anchor tenant after failed talks and boardroom turmoil sent data centre group’s shares south"
+          "title": "Reform UK pays for Nigel Farage’s security despite £5mn gift",
+          "url": "https://www.ft.com/content/a088c380-216e-4fc3-8b76-483504fd18c2?syn-25a6b1a6=1",
+          "published": "2026-11-13T22:52:09+00:00",
+          "snippet": "Party leader had claimed that undeclared donation from crypto billionaire was needed to ensure his protection"
         },
         {
-          "title": "Microsoft says services experiencing ‘broad recovery’ after global outage",
-          "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-          "published": "2026-11-13T20:17:46+00:00",
-          "snippet": "German government says it ‘anticipates a very big impact’ on economy"
+          "title": "US military responds to ‘suspicious drone activity’ at UK air base",
+          "url": "https://www.ft.com/content/cf902a58-b694-4357-b1b0-07cf8e36c94e?syn-25a6b1a6=1",
+          "published": "2026-11-13T22:30:00+00:00",
+          "snippet": "RAF Lakenheath incident is fourth recent security alert related to a UK air base being used by the American military"
         }
       ]
     },
@@ -1408,23 +1421,37 @@
   "web": {
     "tech": [
       {
+        "title": "Claude Meetings",
+        "url": "https://claude.com/resources/articles/claude-meetings",
+        "score": 19,
+        "source": "Hacker News",
+        "published": "2026-11-13T22:39:15+00:00"
+      },
+      {
+        "title": "National Weather Service reports nationwide radar website outage amid FAA stop",
+        "url": "https://www.news9.com/oklahoma-city-news/national-weather-service-reports-nationwide-radar-website-outage",
+        "score": 34,
+        "source": "Hacker News",
+        "published": "2026-11-13T22:16:11+00:00"
+      },
+      {
         "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
         "url": "https://orcasairband.com/",
-        "score": 15,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-13T22:04:24+00:00"
       },
       {
         "title": "All US airports are currently ground stopped",
         "url": "https://twitter.com/flightradar24/status/2121347654714077605",
-        "score": 85,
+        "score": 107,
         "source": "Hacker News",
         "published": "2026-11-13T21:06:52+00:00"
       },
       {
         "title": "FAA Issues National Ground Stop",
         "url": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&advn=111",
-        "score": 705,
+        "score": 871,
         "source": "Hacker News",
         "published": "2026-11-13T21:05:53+00:00"
       },
@@ -1432,21 +1459,14 @@
         "title": "Someone's impersonating this blog",
         "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
         "comments_url": "https://lobste.rs/s/wqml56/someone_s_impersonating_this_blog",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-13T20:39:53.682000+00:00"
       },
       {
-        "title": "Big tech is here to let us down",
-        "url": "https://blog.jsweeting.me/big-tech-is-here-to-let-us-down",
-        "score": 146,
-        "source": "Hacker News",
-        "published": "2026-11-13T20:20:30+00:00"
-      },
-      {
         "title": "Live-migration support in FreeBSD and bhyve coming",
         "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-        "score": 36,
+        "score": 42,
         "source": "Hacker News",
         "published": "2026-11-13T19:58:42+00:00"
       },
@@ -1461,28 +1481,28 @@
       {
         "title": "Found: A protein that drives ageing without unleashing inflammation",
         "url": "https://www.nature.com/articles/d41586-026-03638-3",
-        "score": 59,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-13T19:25:21+00:00"
       },
       {
         "title": "Perplexity Decider v1.3: Training, eval, and use cases",
         "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-        "score": 70,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-13T19:24:47+00:00"
       },
       {
         "title": "FM-1 Workbench",
         "url": "https://open.m-vave.com/fm1-workbench",
-        "score": 123,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-13T19:14:02+00:00"
       },
       {
         "title": "$11.4M in Nvidia hardware vanishes during shipment from CA to TX",
         "url": "https://www.freightwaves.com/news/11-4-million-in-nvidia-hardware-vanishes-during-shipment-from-california-to-texas",
-        "score": 217,
+        "score": 242,
         "source": "Hacker News",
         "published": "2026-11-13T18:40:44+00:00"
       },
@@ -1490,28 +1510,21 @@
         "title": "Pointer Provenance in Rust vs C++",
         "url": "https://sofiabelen.github.io/projects/pointer-provenance-in-rust-vs-cpp/",
         "comments_url": "https://lobste.rs/s/xmtjzq/pointer_provenance_rust_vs_c",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-13T18:37:30.823000+00:00"
       },
       {
-        "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
-        "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
-        "score": 48,
-        "source": "Hacker News",
-        "published": "2026-11-13T18:23:49+00:00"
-      },
-      {
         "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
         "url": "https://isometricsf.com/",
-        "score": 114,
+        "score": 125,
         "source": "Hacker News",
         "published": "2026-11-13T17:58:37+00:00"
       },
       {
         "title": "After 600 experiments, here's what I discovered about JEPA world models",
         "url": "https://haddyalchaer.com/jepa",
-        "score": 182,
+        "score": 190,
         "source": "Hacker News",
         "published": "2026-11-13T17:55:28+00:00"
       }
@@ -1574,12 +1587,20 @@
         "published": "2026-11-13T11:17:01+00:00"
       },
       {
-        "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
-        "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails?CMP=Share_AndroidApp_Other",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv97xe/russia_strikes_hospital_in_central_kyiv_after/",
+        "title": "Investigators found nearly 6.5 billion forints (about 17 million €) in cash buried in forests, stored in warehouses, and kept in safes in connection with a corruption investigation linked to former Hungarian minister Miklós Seszták.",
+        "url": "https://telex.hu/gazdasag/2026/11/13/sesztak-miklos-nvvh-nyomozas-akciok-keszpenzt-talaltak-elasva",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xvhvo1/investigators_found_nearly_65_billion_forints/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-13T19:53:24+00:00"
+      },
+      {
+        "title": "All US departing flights grounded by aviation officials",
+        "url": "https://www.rte.ie/news/world/2026/1113/1599187-us-flights/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvkfqn/all_us_departing_flights_grounded_by_aviation/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-13T14:24:41+00:00"
+        "published": "2026-11-13T21:33:52+00:00"
       },
       {
         "title": "Microsoft's massive M365 outage stretches past 15 hours as its fixes keep failing",
@@ -1590,12 +1611,28 @@
         "published": "2026-11-13T12:15:06+00:00"
       },
       {
-        "title": "Investigators found nearly 6.5 billion forints (about 17 million €) in cash buried in forests, stored in warehouses, and kept in safes in connection with a corruption investigation linked to former Hungarian minister Miklós Seszták.",
-        "url": "https://telex.hu/gazdasag/2026/11/13/sesztak-miklos-nvvh-nyomozas-akciok-keszpenzt-talaltak-elasva",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xvhvo1/investigators_found_nearly_65_billion_forints/",
+        "title": "Finland, Norway Block Visas for Russian Athletes",
+        "url": "https://www.kyivpost.com/post/89996",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xv6zbn/finland_norway_block_visas_for_russian_athletes/",
         "score": null,
         "source": "/r/europe",
-        "published": "2026-11-13T19:53:24+00:00"
+        "published": "2026-11-13T12:47:35+00:00"
+      },
+      {
+        "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+        "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails?CMP=Share_AndroidApp_Other",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv97xe/russia_strikes_hospital_in_central_kyiv_after/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T14:24:41+00:00"
+      },
+      {
+        "title": "USA issues Ground Stop",
+        "url": "https://www.cnn.com/2026/11/13/us/faa-nationwide-ground-stop",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvkuhk/usa_issues_ground_stop/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T21:50:28+00:00"
       },
       {
         "title": "Finland shuts down Russia's NATO exit fantasy. 'No way,' says Finland over 'absolutely outrageous' Russian demands",
@@ -1612,30 +1649,6 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-13T13:56:22+00:00"
-      },
-      {
-        "title": "All US departing flights grounded by aviation officials",
-        "url": "https://www.rte.ie/news/world/2026/1113/1599187-us-flights/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvkfqn/all_us_departing_flights_grounded_by_aviation/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-13T21:33:52+00:00"
-      },
-      {
-        "title": "Ukraine Says 100% of Missions Are Failing Under Starshield Restrictions—SpaceX Denies Any Changes",
-        "url": "https://united24media.com/world/ukraine-says-100-of-missions-are-failing-under-starshield-restrictions-spacex-denies-any-changes-24337",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xv35dg/ukraine_says_100_of_missions_are_failing_under/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-13T09:09:04+00:00"
-      },
-      {
-        "title": "Finland, Norway Block Visas for Russian Athletes",
-        "url": "https://www.kyivpost.com/post/89996",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xv6zbn/finland_norway_block_visas_for_russian_athletes/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-13T12:47:35+00:00"
       }
     ]
   }

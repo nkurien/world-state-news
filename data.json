@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-13T11:00:59.497057+00:00",
+  "last_updated": "2026-11-13T11:30:51.559106+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 236
+      "ms": 380
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 230
+      "ms": 282
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 274
+      "ms": 168
     },
     "BBC News": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 450
+      "ms": 207
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 504
+      "ms": 280
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 233
+      "ms": 212
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 1262
+      "ms": 605
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 309
+      "ms": 970
     },
     "Euronews": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 232
+      "ms": 221
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 293
+      "ms": 253
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 354
+      "ms": 451
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 175
+      "ms": 389
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 79
+      "ms": 77
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 273
+      "ms": 133
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 133
+      "ms": 210
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 255
+      "ms": 612
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 836
+      "ms": 691
     },
     "Semafor": {
       "ok": true,
-      "count": 272,
+      "count": 273,
       "error": null,
-      "ms": 499
+      "ms": 506
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 506
+      "ms": 674
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 2451
+      "ms": 408
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 212
+      "ms": 167
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 161
+      "ms": 322
     },
     "The Independent": {
       "ok": true,
-      "count": 75,
+      "count": 74,
       "error": null,
-      "ms": 154
+      "ms": 199
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 159
+      "ms": 289
     }
   },
   "breaking": [
@@ -289,6 +289,38 @@
       "consensus": 3.0
     },
     {
+      "title": "Iran showcases missiles as military targets US army radar in Bahrain",
+      "url": "http://www.africanews.com/2026/11/13/iran-showcases-missiles-as-military-targets-us-army-radar-in-bahrain/",
+      "source": "Africanews",
+      "published": "2026-11-13T11:10:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
+          "title": "Iran says it struck U.S. military radar in Bahrain",
+          "published": "2026-11-13T09:42:57+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Microsoft's global outage extends into 2nd day, company not aware of malicious activity",
+      "url": "https://www.cbc.ca/news/world/microsoft-outage-friday-activity-9.7420313?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-13T10:55:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/technology/20261113-major-microsoft-outlook-outage-disrupts-services-in-74-countries",
+          "title": "🔴 Live: Microsoft 'not aware of any malicious activity' behind global Outlook outage",
+          "published": "2026-11-13T09:18:23+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "The SS United States has been sunk. Here’s how life will take over the world’s largest artificial reef",
       "url": "https://www.independent.co.uk/news/world/americas/ss-united-states-sinking-artificial-reef-wreck-b3084432.html",
       "source": "The Independent",
@@ -303,38 +335,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
-      "url": "https://www.thehindu.com/news/international/europe-pushes-for-seat-at-ukraine-peace-talks-but-lacks-unified-voice/article71696911.ece",
-      "source": "The Hindu",
-      "published": "2026-11-13T10:13:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html",
-          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
-          "published": "2026-11-13T05:20:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-      "url": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
-      "source": "CNA",
-      "published": "2026-11-13T10:11:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
-          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-          "published": "2026-11-13T09:24:09+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -343,14 +343,8 @@
       "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-nasser-hospital-11-killed-6547556",
       "source": "CNA",
       "published": "2026-11-12T21:46:17+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3374264/israeli-strike-gaza-hospital-kills-11-deadliest-attack-election",
-          "title": "Israeli strike on Gaza hospital deadliest since election",
-          "published": "2026-11-12T18:32:12+00:00"
-        },
         {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/israeli-strike-on-gaza-hospital-kills-six-people-9.7418729?cmp=rss",
@@ -370,7 +364,7 @@
           "published": "2026-11-12T06:49:51+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 4.5
     },
     {
       "title": "What have the talks with Russia and the US in Abu Dhabi achieved for Ukraine?",
@@ -421,28 +415,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "US Senator Chris Van Hollen seeks to lead Democrats: Who is he?",
-      "url": "https://www.aljazeera.com/news/2026/11/13/who-is-us-senator-chris-van-hollen?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T04:28:45+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader",
-          "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
-          "published": "2026-11-13T04:16:44+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
-          "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
-          "published": "2026-11-13T03:04:16+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Trump says US doesn't need Iran deal",
@@ -511,6 +483,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Former NSW Liberal MP Rory Amon found guilty of raping 13-year-old boy",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/13/former-nsw-liberal-mp-rory-amon-found-guilty-of-raping-13-year-old-boy",
+      "source": "The Guardian",
+      "published": "2026-11-13T10:45:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-13/ex-nsw-liberal-mp-rory-amon-guilty-sexual-assault-13yo-boy/107384336",
+          "title": "Ex-NSW Liberal MP guilty of raping 13yo boy",
+          "published": "2026-11-13T06:15:59+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Guinea opens illegal gold mining trial, 1,200 people arrested",
       "url": "https://www.france24.com/en/video/20261113-guinea-opens-illegal-gold-mining-trial-1-200-people-arrested",
       "source": "France24",
@@ -543,17 +531,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Iran says it struck U.S. military radar in Bahrain",
-      "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
+      "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
+      "url": "https://www.thehindu.com/news/international/europe-pushes-for-seat-at-ukraine-peace-talks-but-lacks-unified-voice/article71696911.ece",
       "source": "The Hindu",
-      "published": "2026-11-13T09:42:57+00:00",
+      "published": "2026-11-13T10:13:51+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/irgc-says-it-destroyed-us-radar-in-bahrain-after-attack-on-southern-iran",
-          "title": "IRGC says it destroyed US radar in Bahrain after attack on southern Iran",
-          "published": "2026-11-13T09:39:16+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/europe-ukraine-european-union-kaja-kallas-vladimir-putin-b3084274.html",
+          "title": "Europe pushes for seat at Ukraine peace talks but lacks unified voice",
+          "published": "2026-11-13T05:20:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -570,22 +558,6 @@
           "url": "https://www.japantimes.co.jp/sports/2026/11/13/basketball/nba/cunningham-52-pistons-wizards/",
           "title": "Cunningham scores 52 as Pistons win double-OT thriller against Wizards",
           "published": "2026-11-13T03:50:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US envoys shuttle between Putin and Zelenskyy",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/aje-onl-nf_us-envoys-shuttle-between-putin-and-zelenskyy-121126?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-13T04:12:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-witkoff-kushner-putin-zelenskyy-talks-9.7418799?cmp=rss",
-          "title": "U.S. envoys talk to Zelenskyy in Dublin, after prior sitdown with Putin in Moscow",
-          "published": "2026-11-12T14:48:39+00:00"
         }
       ],
       "consensus": 2.5
@@ -671,22 +643,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Who is Alice Huang, the alleged Chinese spy linked to Nvidia's Jensen Huang?",
-      "url": "https://www.euronews.com/2026/11/12/who-is-alice-huang-the-alleged-chinese-spy-linked-to-nvidias-jensen-huang",
-      "source": "Euronews",
-      "published": "2026-11-12T14:51:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-alleged-chinese-spy-at-centre-of-nvidia-firestorm-said-to-be-in-beijing",
-          "title": "Alice Huang, alleged Chinese spy at centre of Nvidia firestorm, said to be in Beijing",
-          "published": "2026-11-12T02:20:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
       "url": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
       "source": "NPR World",
@@ -717,6 +673,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
+      "url": "https://www.channelnewsasia.com/world/iaea-un-report-concern-iran-nuclear-plant-6549176",
+      "source": "CNA",
+      "published": "2026-11-13T10:11:01+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/iaea-increasingly-concerned-about-iranian-enrichment-plant-its-report-says",
+          "title": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
+          "published": "2026-11-13T09:24:09+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Europeans overwhelmingly back creation of EU army amid fears of war with Russia",
@@ -815,6 +787,22 @@
       "consensus": 2.0
     },
     {
+      "title": "US senator Chris Van Hollen to challenge Chuck Schumer for Senate majority leader",
+      "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader",
+      "source": "Euronews",
+      "published": "2026-11-13T04:16:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+          "title": "Chris Van Hollen says he will run for Senate majority leader, challenging fellow Democrat Chuck Schumer – as it happened",
+          "published": "2026-11-13T03:04:16+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "One dead, four wounded in downtown Washington shooting: police",
       "url": "https://www.channelnewsasia.com/world/one-dead-four-wounded-in-downtown-washington-shooting-police-6547186",
       "source": "CNA",
@@ -861,6 +849,22 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+      "url": "http://www.africanews.com/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa/",
+      "source": "Africanews",
+      "published": "2026-11-13T11:00:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa",
+          "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+          "published": "2026-11-13T10:46:23+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
       "title": "Portugal: Humanoid robots take centre stage at Web Summit 2026",
@@ -943,62 +947,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
-      "url": "http://www.africanews.com/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records/",
-      "source": "Africanews",
-      "published": "2026-11-12T14:28:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/12/slovenia-red-bull-human-catapult-sets-two-guinness-world-records",
-          "title": "Slovenia: Red Bull human catapult sets two Guinness World Records",
-          "published": "2026-11-12T11:50:32+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Jensen Huang’s exit tests Nvidia’s supply chain clout, ability to bankroll AI buildout",
-      "url": "https://www.scmp.com/tech/big-tech/article/3374357/jensen-huangs-exit-tests-nvidias-supply-chain-clout-ability-bankroll-ai-buildout",
-      "source": "SCMP",
-      "published": "2026-11-13T11:00:10+00:00",
+      "title": "Nigeria election body to comply with presidential candidate ruling",
+      "url": "https://www.semafor.com/article/11/13/2026/nigeria-election-body-to-comply-with-candidate-ruling",
+      "source": "Semafor",
+      "published": "2026-11-13T11:24:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "How a new ‘green energy corridor’ from the Caspian Sea could help Eastern Europe kick fossil fuels",
-      "url": "https://www.euronews.com/2026/11/13/how-a-new-green-energy-corridor-from-the-caspian-sea-could-help-eastern-europe-kick-fossil",
-      "source": "Euronews",
-      "published": "2026-11-13T10:56:07+00:00",
+      "title": "Spectacular try helps England to Wheelchair Rugby League World Cup glory",
+      "url": "https://www.abc.net.au/news/2026-11-13/england-beats-france-in-wheelchair-rugby-league-final/107384352",
+      "source": "ABC Australia",
+      "published": "2026-11-13T11:21:43+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Peruvians flock to see Pope Leo XIV in city he served as bishop",
-      "url": "https://www.france24.com/en/video/20261113-peruvians-flock-to-see-pope-leo-xiv-in-city-he-served-as-bishop",
-      "source": "France24",
-      "published": "2026-11-13T10:55:09+00:00",
+      "title": "COVID-era Wuhan party boss under investigation, says China's anti-graft watchdog",
+      "url": "https://www.straitstimes.com/asia/covid-era-wuhan-party-boss-under-investigation-says-chinas-anti-graft-watchdog",
+      "source": "Straits Times",
+      "published": "2026-11-13T11:19:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Microsoft faces a major Outlook outage: ‘no signs of a cyberattack’",
-      "url": "https://www.france24.com/en/video/20261113-microsoft-faces-a-major-outlook-outage-no-signs-of-a-cyberattack",
-      "source": "France24",
-      "published": "2026-11-13T10:53:41+00:00",
+      "title": "Live: Microsoft struggles to restore services as outage hits global users",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/live-microsoft-struggles-to-restore-services-as-outage-hits-global-users?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-13T11:18:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What we know about the global Microsoft outage",
-      "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-13T10:53:40+00:00",
+      "title": "Man charged after seven women sexually assaulted in 30 minutes on UK campus",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/13/man-charged-women-sexually-assaulted-huddersfield-university",
+      "source": "The Guardian",
+      "published": "2026-11-13T11:17:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1031,10 +1019,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10891.62,
+      "price": 10877.59,
       "currency": "GBP",
-      "change": 28.53,
-      "change_percent": 0.26,
+      "change": 14.5,
+      "change_percent": 0.13,
       "name": "FTSE 100"
     }
   ],
@@ -1050,10 +1038,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10891.62,
+        "price": 10877.59,
         "currency": "GBP",
-        "change": 28.53,
-        "change_percent": 0.26,
+        "change": 14.5,
+        "change_percent": 0.13,
         "name": "FTSE 100"
       },
       {
@@ -1082,44 +1070,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26820.76,
+        "price": 26798.01,
         "currency": "EUR",
-        "change": 48.88,
-        "change_percent": 0.18,
+        "change": 26.13,
+        "change_percent": 0.1,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8374.52,
+        "price": 8363.41,
         "currency": "EUR",
-        "change": 13.16,
-        "change_percent": 0.16,
+        "change": 2.05,
+        "change_percent": 0.02,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3894.8,
+        "price": 3896.4,
         "currency": "USD",
-        "change": 9.5,
-        "change_percent": 0.24,
+        "change": 11.1,
+        "change_percent": 0.29,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 49.84,
+        "price": 49.88,
         "currency": "USD",
-        "change": -0.22,
-        "change_percent": -0.45,
+        "change": -0.19,
+        "change_percent": -0.38,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 95.73,
+        "price": 95.76,
         "currency": "USD",
-        "change": -0.09,
-        "change_percent": -0.09,
+        "change": -0.06,
+        "change_percent": -0.06,
         "name": "Brent Crude"
       },
       {
@@ -1127,7 +1115,7 @@
         "price": 1.11,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.06,
+        "change_percent": -0.02,
         "name": "EUR/USD"
       },
       {
@@ -1135,23 +1123,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.89,
+        "price": 159.93,
         "currency": "JPY",
-        "change": 0.04,
-        "change_percent": 0.03,
+        "change": 0.08,
+        "change_percent": 0.05,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 69240.23,
+        "price": 69217.32,
         "currency": "USD",
-        "change": -2131.54,
-        "change_percent": -2.99,
+        "change": -2154.45,
+        "change_percent": -3.02,
         "name": "Bitcoin"
       }
     ],
@@ -1221,6 +1209,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Seditious kicks",
+          "url": "https://www.politico.com/newsletters/playbook/2026/11/13/seditious-kicks-01164554",
+          "published": "2026-11-13T11:12:06+00:00",
+          "snippet": ""
+        },
+        {
           "title": "Veep stakes",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/12/veep-stakes-01161972",
           "published": "2026-11-12T11:15:07+00:00",
@@ -1230,12 +1224,6 @@
           "title": "The tech right pivots left",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/11/the-tech-right-pivots-left-01160648",
           "published": "2026-11-11T11:08:30+00:00",
-          "snippet": ""
-        },
-        {
-          "title": "The new Democratic powerbrokers",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/10/the-new-democratic-powerbrokers-01158018",
-          "published": "2026-11-10T11:15:34+00:00",
           "snippet": ""
         }
       ]
@@ -1321,22 +1309,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "FirstFT: Microsoft races to restore software services",
-          "url": "https://www.ft.com/content/fcbd27c8-aa10-455f-8917-afcb897e6eaf?syn-25a6b1a6=1",
-          "published": "2026-11-13T10:46:13+00:00",
-          "snippet": "Also in today’s newsletter: the downfall of Jensen Huang and how Israel lost the US"
-        },
-        {
           "title": "Microsoft races to restore services after global outage",
           "url": "https://www.ft.com/content/025b2769-bca8-4a74-b9f5-5d7ad7da32c7?syn-25a6b1a6=1",
-          "published": "2026-11-13T09:42:01+00:00",
+          "published": "2026-11-13T11:28:25+00:00",
           "snippet": "Issue affecting Outlook, Teams and other services not caused by ‘malicious or cyber activity’, company says"
         },
         {
-          "title": "Milburn’s welfare overhaul brings flashbacks to universal credit rollout",
-          "url": "https://www.ft.com/content/b3b8d2ff-dce0-4865-83af-72af77f96a8e?syn-25a6b1a6=1",
-          "published": "2026-11-13T09:30:08+00:00",
-          "snippet": "Labour’s benefits-reform plans must not become subordinate to party’s other objectives"
+          "title": "RedBird explores listing for new AC Milan holding company",
+          "url": "https://www.ft.com/content/3d0d58ba-600f-427c-ab22-553cd8a1dcc8?syn-25a6b1a6=1",
+          "published": "2026-11-13T11:10:00+00:00",
+          "snippet": "Investment firm founder Gerry Cardinale creates entity to house sports and entertainment investments in northern Italian city"
+        },
+        {
+          "title": "Re-energised Atlantic grouping will be swifter than Nato, says UK",
+          "url": "https://www.ft.com/content/2500879f-9849-45e8-8e22-082e9fa53228?syn-25a6b1a6=1",
+          "published": "2026-11-13T11:05:03+00:00",
+          "snippet": "The Joint Expeditionary Force is little known outside defence circles, but the mounting Russian threat to the High North and Baltic Sea regions has given it..."
         }
       ]
     },
@@ -1444,6 +1432,14 @@
   "web": {
     "tech": [
       {
+        "title": "Running a law firm on Free software (2026 edition)",
+        "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+        "comments_url": "https://lobste.rs/s/ezl1sa/running_law_firm_on_free_software_2026",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-13T11:20:32.309000+00:00"
+      },
+      {
         "title": "Myths in R2Land",
         "url": "https://trufae.substack.com/p/myths-in-r2land",
         "comments_url": "https://lobste.rs/s/3q4npg/myths_r2land",
@@ -1452,24 +1448,16 @@
         "published": "2026-11-13T10:55:43.044000+00:00"
       },
       {
-        "title": "How I Ended Up Turning a 22-Year-Old PostgreSQL Type-Confusion Primitive into RCE (CVE-2026-6460)",
-        "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/",
-        "comments_url": "https://lobste.rs/s/nlpvck/how_i_ended_up_turning_22_year_old",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-13T10:25:27.038000+00:00"
-      },
-      {
         "title": "Claude Is Down",
         "url": "https://status.claude.com/history",
-        "score": 64,
+        "score": 101,
         "source": "Hacker News",
         "published": "2026-11-13T10:20:09+00:00"
       },
       {
         "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
         "url": "https://status.claude.com/incidents/nn11wk485zfn",
-        "score": 135,
+        "score": 192,
         "source": "Hacker News",
         "published": "2026-11-13T10:18:13+00:00"
       },
@@ -1477,14 +1465,14 @@
         "title": "How Not to Build a Music Player",
         "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player",
         "comments_url": "https://lobste.rs/s/lh9pwf/how_not_build_music_player",
-        "score": 12,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-13T09:16:28.886000+00:00"
       },
       {
         "title": "The Dawn of the Data Intelligence Engineer",
         "url": "https://motherduck.com/blog/the-data-intelligence-engineer/",
-        "score": 33,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-13T09:08:18+00:00"
       },
@@ -1507,21 +1495,21 @@
       {
         "title": "IceWM",
         "url": "https://ice-wm.org/",
-        "score": 194,
+        "score": 206,
         "source": "Hacker News",
         "published": "2026-11-13T04:54:53+00:00"
       },
       {
         "title": "Switcher (2004)",
         "url": "https://folklore.org/Switcher.html",
-        "score": 101,
+        "score": 102,
         "source": "Hacker News",
         "published": "2026-11-13T03:14:59+00:00"
       },
       {
         "title": "Brave Search API now accepts agentic payments via the x402 protocol",
         "url": "https://brave.com/blog/search-api-agentic-payments/",
-        "score": 111,
+        "score": 119,
         "source": "Hacker News",
         "published": "2026-11-13T03:08:08+00:00"
       },
@@ -1529,9 +1517,17 @@
         "title": "Contra \"Glue work considered harmful\"",
         "url": "https://sunshowers.io/posts/glue-work/",
         "comments_url": "https://lobste.rs/s/f6u0cg/contra_glue_work_considered_harmful",
-        "score": 17,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-13T02:36:05.139000+00:00"
+      },
+      {
+        "title": "Announcing the GraphQL over HTTP specification",
+        "url": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+        "comments_url": "https://lobste.rs/s/klmtb1/announcing_graphql_over_http",
+        "score": 6,
+        "source": "Lobste.rs",
+        "published": "2026-11-13T01:16:15.589000+00:00"
       },
       {
         "title": "Building my own ADS-B receiver",
@@ -1548,13 +1544,6 @@
         "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-13T00:16:10.741000+00:00"
-      },
-      {
-        "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
-        "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
-        "score": 264,
-        "source": "Hacker News",
-        "published": "2026-11-12T23:06:17+00:00"
       }
     ],
     "reddit": [
@@ -1607,12 +1596,12 @@
         "published": "2026-11-13T08:20:31+00:00"
       },
       {
-        "title": "‘War will resume immediately’: Putin threatens Europe as Trump envoys push Ukraine talks",
-        "url": "https://www.ynetnews.com/article/skgfraxcfe",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuyd0n/war_will_resume_immediately_putin_threatens/",
+        "title": "Nvidia's Jensen Huang scandal brings China's spy networks into view",
+        "url": "https://www.abc.net.au/news/2026-11-13/nvidia-scandal-china-spy-network/107381704",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xuvrst/nvidias_jensen_huang_scandal_brings_chinas_spy/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-13T04:26:11+00:00"
+        "source": "/r/geopolitics",
+        "published": "2026-11-13T02:16:10+00:00"
       },
       {
         "title": "Microsoft struggling to restore service as global outage affects Outlook and Teams",
@@ -1631,20 +1620,12 @@
         "published": "2026-11-12T19:59:36+00:00"
       },
       {
-        "title": "Nvidia's Jensen Huang scandal brings China's spy networks into view",
-        "url": "https://www.abc.net.au/news/2026-11-13/nvidia-scandal-china-spy-network/107381704",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xuvrst/nvidias_jensen_huang_scandal_brings_chinas_spy/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-13T02:16:10+00:00"
-      },
-      {
-        "title": "Ukraine says US intentionally restricted Starshield to pressure Kyiv, FT reports",
-        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xunrqe/ukraine_says_us_intentionally_restricted/",
+        "title": "‘War will resume immediately’: Putin threatens Europe as Trump envoys push Ukraine talks",
+        "url": "https://www.ynetnews.com/article/skgfraxcfe",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xuyd0n/war_will_resume_immediately_putin_threatens/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-12T20:28:30+00:00"
+        "published": "2026-11-13T04:26:11+00:00"
       },
       {
         "title": "More than 60% of Germany’s female soldiers report harassment or abuse",
@@ -1671,12 +1652,20 @@
         "published": "2026-11-12T23:37:54+00:00"
       },
       {
-        "title": "Jensen Huang resigns as Nvidia CEO",
-        "url": "https://www.dw.com/en/nvidia-ceo-jensen-huang-resigns/a-79931658",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xueeax/jensen_huang_resigns_as_nvidia_ceo/",
+        "title": "Ukraine says US intentionally restricted Starshield to pressure Kyiv, FT reports",
+        "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062582/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xunrqe/ukraine_says_us_intentionally_restricted/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-12T14:37:07+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-12T20:28:30+00:00"
+      },
+      {
+        "title": "Children (0-11 years) who visit parks and playgrounds at least once a week may have better mental health and social development as they grow up, as researchers found they have, on average, 16.5% better scores on their mental health assessments compared to those who visited less than once a week",
+        "url": "https://news.exeter.ac.uk/faculty-of-health-and-life-sciences/going-to-the-park-at-least-once-a-week-can-improve-childrens-mental-health/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xuhqt6/children_011_years_who_visit_parks_and/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-12T16:45:37+00:00"
       }
     ]
   }

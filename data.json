@@ -1,158 +1,192 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-14T22:30:54.695604+00:00",
+  "last_updated": "2026-11-14T23:01:01.173828+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 391
+      "ms": 377
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 360
+      "ms": 269
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 193
+      "ms": 187
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 195
+      "ms": 2469
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 222
+      "ms": 261
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 253
+      "ms": 479
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 224
+      "ms": 672
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 465
+      "ms": 364
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 136
+      "ms": 195
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 136
+      "ms": 211
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 493
+      "ms": 343
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 535
+      "ms": 223
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 344
+      "ms": 239
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 260
+      "ms": 163
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 2325
+      "ms": 249
     },
     "RNZ": {
       "ok": true,
-      "count": 32,
+      "count": 33,
       "error": null,
-      "ms": 271
+      "ms": 337
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 515
+      "ms": 867
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 569
+      "ms": 524
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 859
+      "ms": 590
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 383
+      "ms": 269
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 180
+      "ms": 168
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 239
+      "ms": 152
     },
     "The Independent": {
       "ok": true,
-      "count": 33,
+      "count": 31,
       "error": null,
-      "ms": 216
+      "ms": 185
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 233
+      "ms": 131
     }
   },
   "breaking": [
     {
+      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-14T20:23:06+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
+          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+          "published": "2026-11-14T02:12:12+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+          "published": "2026-11-13T21:31:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+          "published": "2026-11-13T21:06:41+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "published": "2026-11-13T21:04:32+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
+    {
       "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
       "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-14T20:41:45+00:00",
+      "published": "2026-11-14T22:37:25+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -172,34 +206,6 @@
           "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
           "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
           "published": "2026-11-14T10:48:19+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-14T20:23:06+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
-          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-          "published": "2026-11-14T02:12:12+00:00"
-        },
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
-          "published": "2026-11-13T21:31:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
-          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
-          "published": "2026-11-13T21:06:41+00:00"
         }
       ],
       "consensus": 5.0
@@ -227,6 +233,22 @@
       "consensus": 3.5
     },
     {
+      "title": "SpaceX’s Starship returns to launch pad from orbit in victory for company",
+      "url": "https://www.theguardian.com/science/2026/nov/14/spacex-starship-double-catch",
+      "source": "The Guardian",
+      "published": "2026-11-14T22:35:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
+          "title": "SpaceX’s Starship returns from orbit and is captured by launch pad arms in a dramatic first",
+          "published": "2026-11-14T22:32:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Evacuation zone lifted after bomb found at Illinois ethanol plant",
       "url": "https://www.theguardian.com/us-news/2026/nov/14/peoria-illinois-evacuation-bomb",
       "source": "The Guardian",
@@ -243,28 +265,28 @@
       "consensus": 2.0
     },
     {
-      "title": "Ronaldo-less Portugal thrashed 4-1 by Denmark in the Nations League",
-      "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
+      "title": "SpaceX rocket orbits Earth then returns to launch pad in a world-first",
+      "url": "https://www.abc.net.au/news/2026-11-15/spacex-rocket-returns-to-launch-pad-after-orbitting-earth/107387168",
+      "source": "ABC Australia",
+      "published": "2026-11-14T22:34:32+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Cyber protection of critical infrastructure is 'priority work' but taking at least a year",
+      "url": "https://www.rnz.co.nz/news/political/2605865/cyber-protection-of-critical-infrastructure-is-priority-work-but-taking-at-least-a-year",
+      "source": "RNZ",
+      "published": "2026-11-14T22:29:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Palestinian stories set for major presence at 2027 Oscars",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/palestinian-stories-set-for-major-presence-at-2027-oscars?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-14T22:00:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Commentary: Extreme weather risk is scaring big firms away from poor countries",
-      "url": "https://www.channelnewsasia.com/commentary/climate-change-big-corporates-avoid-investments-in-poor-countries-6548911",
-      "source": "CNA",
-      "published": "2026-11-14T22:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Affluent LA residents living by the iconic Hollywood sign are fed up with tourists. Now they’re suing",
-      "url": "https://www.independent.co.uk/news/world/americas/hollywood-sign-tourists-residents-lawsuit-b3085058.html",
-      "source": "The Independent",
-      "published": "2026-11-14T21:49:26+00:00",
+      "published": "2026-11-14T22:28:47+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -352,34 +374,6 @@
       "consensus": 5.5
     },
     {
-      "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
-      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
-      "source": "Euronews",
-      "published": "2026-11-14T06:56:20+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece",
-          "title": "U.S. flights resume after hours-long outage as FAA lifts nationwide ground stop",
-          "published": "2026-11-14T02:41:10+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-lift-nationwide-ground-stop-flights-travel-chaos-6551041",
-          "title": "US lifts nationwide ground stop, allowing flights to resume after hours of travel chaos",
-          "published": "2026-11-14T01:40:00+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
-          "title": "US flight departures resume after FAA lifts nationwide ground stop",
-          "published": "2026-11-13T21:33:43+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Iran says it struck U.S. military radar in Bahrain",
       "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
       "source": "The Hindu",
@@ -402,23 +396,23 @@
       "consensus": 4.0
     },
     {
-      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
-      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
-      "source": "France24",
-      "published": "2026-11-14T13:15:42+00:00",
+      "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
+      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
+      "source": "Euronews",
+      "published": "2026-11-14T06:56:20+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
-          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
-          "published": "2026-11-14T03:09:21+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece",
+          "title": "U.S. flights resume after hours-long outage as FAA lifts nationwide ground stop",
+          "published": "2026-11-14T02:41:10+00:00"
         },
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-          "published": "2026-11-13T21:04:32+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374411/flights-stopped-across-us-due-extraordinary-circumstances-faa-says",
+          "title": "US flight departures resume after FAA lifts nationwide ground stop",
+          "published": "2026-11-13T21:33:43+00:00"
         }
       ],
       "consensus": 3.5
@@ -489,6 +483,22 @@
           "url": "https://www.thehindu.com/news/international/myanmar-airstrike-on-displaced-persons-camp-kills-12-say-witnesses/article71701720.ece",
           "title": "Myanmar airstrike on displaced persons camp kills 12, say witnesses",
           "published": "2026-11-14T13:01:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+      "source": "France24",
+      "published": "2026-11-14T13:15:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
+          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
+          "published": "2026-11-14T03:09:21+00:00"
         }
       ],
       "consensus": 2.5
@@ -862,6 +872,42 @@
       "consensus": 1.5
     },
     {
+      "title": "Te Mata Peak closed after person found dead",
+      "url": "https://www.rnz.co.nz/news/community/2607856/te-mata-peak-closed-after-person-found-dead",
+      "source": "RNZ",
+      "published": "2026-11-14T22:28:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Flood' of weka sightings in Dunedin becomes a trickle",
+      "url": "https://www.rnz.co.nz/news/environment/2607793/flood-of-weka-sightings-in-dunedin-becomes-a-trickle",
+      "source": "RNZ",
+      "published": "2026-11-14T22:18:41+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Diabetes patients battle blame, shame and judgement over medical condition",
+      "url": "https://www.rnz.co.nz/news/health/2607776/diabetes-patients-battle-blame-shame-and-judgement-over-medical-condition",
+      "source": "RNZ",
+      "published": "2026-11-14T22:18:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "MetService warns of heavy rain, severe gales across South Island",
+      "url": "https://www.rnz.co.nz/news/weather/2607775/metservice-warns-of-heavy-rain-severe-gales-across-south-island",
+      "source": "RNZ",
+      "published": "2026-11-14T22:17:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
       "url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -871,64 +917,28 @@
       "consensus": 1.0
     },
     {
-      "title": "US flights resume after ageing technology blamed for outage",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/us-flights-resume-after-ageing-technology-blamed-for-outage?traffic_source=rss",
+      "title": "Ronaldo-less Portugal thrashed 4-1 by Denmark in the Nations League",
+      "url": "https://www.aljazeera.com/sports/2026/11/14/ronaldo-less-portugal-thrashed-4-1-by-denmark-in-the-nations-league?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-14T21:36:19+00:00",
+      "published": "2026-11-14T22:00:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "SpaceX successfully carries out first-ever spaceship catch",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-      "source": "SCMP",
-      "published": "2026-11-14T21:32:46+00:00",
+      "title": "Commentary: Extreme weather risk is scaring big firms away from poor countries",
+      "url": "https://www.channelnewsasia.com/commentary/climate-change-big-corporates-avoid-investments-in-poor-countries-6548911",
+      "source": "CNA",
+      "published": "2026-11-14T22:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "New study shows what does and doesn't work for ADHD kids",
-      "url": "https://www.rnz.co.nz/news/health/2604813/new-study-shows-what-does-and-doesn-t-work-for-adhd-kids",
-      "source": "RNZ",
-      "published": "2026-11-14T21:30:26+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "For Bangladesh and others, climate disasters should not add to debt burdens",
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3374115/bangladesh-and-others-climate-disasters-should-not-add-debt-burdens",
-      "source": "SCMP",
-      "published": "2026-11-14T21:30:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Amid the Xi-Trump clamour, can Apec revive the business of cooperation?",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3374048/amid-xi-trump-clamour-can-apec-revive-business-cooperation",
-      "source": "SCMP",
-      "published": "2026-11-14T21:30:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Carpenter leads Chelsea to victory against Manchester City",
-      "url": "https://www.abc.net.au/news/2026-11-15/ellie-carpenter-helps-chelsea-get-win-over-mary-fowler-man-city/107387146",
-      "source": "ABC Australia",
-      "published": "2026-11-14T21:29:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Cyber protection of critical infrastructure is 'priority work' but taking at least a year",
-      "url": "https://www.rnz.co.nz/news/political/2605865/cyber-protection-of-critical-infrastructure-is-priority-work-but-taking-at-least-a-year",
-      "source": "RNZ",
-      "published": "2026-11-14T21:19:51+00:00",
+      "title": "Affluent LA residents living by the iconic Hollywood sign are fed up with tourists. Now they’re suing",
+      "url": "https://www.independent.co.uk/news/world/americas/hollywood-sign-tourists-residents-lawsuit-b3085058.html",
+      "source": "The Independent",
+      "published": "2026-11-14T21:49:26+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1078,10 +1088,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 64080.0,
+        "price": 63656.61,
         "currency": "USD",
-        "change": -4158.21,
-        "change_percent": -6.09,
+        "change": -4581.6,
+        "change_percent": -6.71,
         "name": "Bitcoin"
       }
     ],
@@ -1251,10 +1261,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "SpaceX catches returning Starship rocket in monumental breakthrough",
+          "title": "SpaceX catches returning Starship rocket in breakthrough for Musk",
           "url": "https://www.ft.com/content/ce7c8ab1-8337-4c32-8494-5142ec1697dd?syn-25a6b1a6=1",
-          "published": "2026-11-14T22:09:58+00:00",
-          "snippet": "Elon Musk’s company takes big step forward in plan to send reusable manned rockets to Mars"
+          "published": "2026-11-14T22:33:56+00:00",
+          "snippet": "Successful landing of upper stage is key to founder’s aim of sending reusable manned rockets to Mars"
         },
         {
           "title": "How Trump’s midterm gerrymandering flopped",
@@ -1374,80 +1384,81 @@
   "web": {
     "tech": [
       {
+        "title": "How will we make senior developers?",
+        "url": "https://www.infoworld.com/article/4244077/how-will-we-make-senior-developers.html",
+        "comments_url": "https://lobste.rs/s/qjixzx/how_will_we_make_senior_developers",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-14T22:50:51.488000+00:00"
+      },
+      {
         "title": "SpaceX Catches the Starship to end Flight 15",
         "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-        "score": 317,
+        "score": 399,
         "source": "Hacker News",
         "published": "2026-11-14T21:22:24+00:00"
       },
       {
         "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
         "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-        "score": 134,
+        "score": 152,
         "source": "Hacker News",
         "published": "2026-11-14T18:56:47+00:00"
       },
       {
         "title": "A Family Tree of Software Job Titles",
         "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-        "score": 144,
+        "score": 163,
         "source": "Hacker News",
         "published": "2026-11-14T17:45:19+00:00"
       },
       {
         "title": "Lovable apps expose passport details and more than 200K private messages",
         "url": "https://www.crissyfield.de/research/lovable-en/",
-        "score": 513,
+        "score": 546,
         "source": "Hacker News",
         "published": "2026-11-14T17:43:10+00:00"
-      },
-      {
-        "title": "Will we put data centers in space?",
-        "url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
-        "score": 42,
-        "source": "Hacker News",
-        "published": "2026-11-14T17:35:33+00:00"
       },
       {
         "title": "Let Me Let You Own Your Data",
         "url": "https://www.willett.io/posts/data/",
         "comments_url": "https://lobste.rs/s/fllb0m/let_me_let_you_own_your_data",
-        "score": 18,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-14T16:08:27.850000+00:00"
       },
       {
         "title": "PyPI's redesigned project pages with clearer security signals are now live",
         "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-        "score": 177,
+        "score": 184,
         "source": "Hacker News",
         "published": "2026-11-14T15:40:52+00:00"
       },
       {
         "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
         "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-        "score": 122,
+        "score": 132,
         "source": "Hacker News",
         "published": "2026-11-14T15:04:15+00:00"
       },
       {
         "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
         "url": "https://gitlab.com/snipedbywifi/terminactory",
-        "score": 121,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-14T14:05:54+00:00"
       },
       {
         "title": "KDE: The documentary [video]",
         "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-        "score": 330,
+        "score": 340,
         "source": "Hacker News",
         "published": "2026-11-14T13:43:28+00:00"
       },
       {
         "title": "Advancing science and engineering with Antigravity's /teamwork",
         "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-        "score": 140,
+        "score": 146,
         "source": "Hacker News",
         "published": "2026-11-14T13:20:43+00:00"
       },
@@ -1455,7 +1466,7 @@
         "title": "Solving the fox game",
         "url": "http://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
         "comments_url": "https://lobste.rs/s/q81fi4/solving_fox_game",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-14T10:32:33.001000+00:00"
       },
@@ -1534,12 +1545,12 @@
         "published": "2026-11-14T16:38:52+00:00"
       },
       {
-        "title": "Canada’s response to US flight chaos reignites anger over Trump’s taunts",
-        "url": "https://www.rawstory.com/faa-2678399030/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw6b8h/canadas_response_to_us_flight_chaos_reignites/",
+        "title": "Johnson says ‘we don’t really need any investigation’ on FAA ground stop",
+        "url": "https://thehill.com/policy/transportation/6220851-mike-johnson-faa-ground-stop/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwelwa/johnson_says_we_dont_really_need_any/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T16:18:39+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-14T22:04:08+00:00"
       },
       {
         "title": "60 Air Traffic Controllers Reject Transportation Secretary’s Ground Stop Explanation",
@@ -1550,44 +1561,20 @@
         "published": "2026-11-14T17:49:12+00:00"
       },
       {
+        "title": "Canada’s response to US flight chaos reignites anger over Trump’s taunts",
+        "url": "https://www.rawstory.com/faa-2678399030/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw6b8h/canadas_response_to_us_flight_chaos_reignites/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-14T16:18:39+00:00"
+      },
+      {
         "title": "Zelenskyy accuses SpaceX of lying about Starshield – and says US floated Donbas-for-Nato deal | Ukraine",
         "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw4hdr/zelenskyy_accuses_spacex_of_lying_about/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-14T15:01:42+00:00"
-      },
-      {
-        "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
-        "url": "https://www.politico.eu/article/european-citizens-overwhelmingly-back-creation-of-an-eu-army-survey-finds/",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xvzpyq/european_citizens_overwhelmingly_back_creation_of/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-14T11:00:09+00:00"
-      },
-      {
-        "title": "Russia demands that NATO return to its 1997 borders and stop supporting Ukraine",
-        "url": "https://newsukraine.rbc.ua/news/russia-demands-that-nato-return-to-its-1997-1794637666.html",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvxyay/russia_demands_that_nato_return_to_its_1997/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T09:07:12+00:00"
-      },
-      {
-        "title": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
-        "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw56u8/ecuadorian_fishermen_who_survived_us_boat_strikes/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T15:31:40+00:00"
-      },
-      {
-        "title": "Mystery Drones Breach US F-35 Fighter Base in Britain, Forcing American Troops Into Shelters",
-        "url": "https://united24media.com/world/mystery-drones-breach-us-f-35-fighter-base-in-britain-forcing-american-troops-into-shelters-24370",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw0p2e/mystery_drones_breach_us_f35_fighter_base_in/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T11:58:41+00:00"
       },
       {
         "title": "Scientists built an electric comb that regrew nearly 98% of lost hair in balding mice in just 28 days, beating minoxidil (about 70%) and finasteride (about 50%). Its teeth send gentle electric pulses into the skin and push two gene therapies deep into hair follicles to restart growth.",
@@ -1598,12 +1585,36 @@
         "published": "2026-11-14T21:32:24+00:00"
       },
       {
-        "title": "Rubio warns ICC against ‘quoting laws to men with swords’",
-        "url": "https://www.timesofisrael.com/rubio-warns-icc-against-quoting-laws-to-men-with-swords/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvw6g0/rubio_warns_icc_against_quoting_laws_to_men_with/",
+        "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
+        "url": "https://www.politico.eu/article/european-citizens-overwhelmingly-back-creation-of-an-eu-army-survey-finds/",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xvzpyq/european_citizens_overwhelmingly_back_creation_of/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-14T11:00:09+00:00"
+      },
+      {
+        "title": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
+        "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw56u8/ecuadorian_fishermen_who_survived_us_boat_strikes/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-14T07:17:31+00:00"
+        "published": "2026-11-14T15:31:40+00:00"
+      },
+      {
+        "title": "Russia demands that NATO return to its 1997 borders and stop supporting Ukraine",
+        "url": "https://newsukraine.rbc.ua/news/russia-demands-that-nato-return-to-its-1997-1794637666.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvxyay/russia_demands_that_nato_return_to_its_1997/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-14T09:07:12+00:00"
+      },
+      {
+        "title": "Israeli intelligence warns of Iranian plot to target Trump, top US officials with drones .",
+        "url": "https://www.israelhayom.com/2026/11/14/israeli-intelligence-warns-of-iranian-plot-to-target-trump-top-us-officials-with-drones/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwe37o/israeli_intelligence_warns_of_iranian_plot_to/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-14T21:40:44+00:00"
       }
     ]
   }

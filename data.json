@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-14T20:45:48.080937+00:00",
+  "last_updated": "2026-11-14T21:00:59.705050+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 105
+      "ms": 515
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 127
+      "ms": 693
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 170
+      "ms": 201
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 45
+      "ms": 258
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 164
+      "ms": 311
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 148
+      "ms": 197
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 347
+      "ms": 760
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 216
+      "ms": 702
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 52
+      "ms": 146
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 123
+      "ms": 298
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 742
+      "ms": 323
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 326
+      "ms": 528
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 99
+      "ms": 168
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 143
+      "ms": 226
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 178
+      "ms": 236
     },
     "RNZ": {
       "ok": true,
-      "count": 32,
+      "count": 33,
       "error": null,
-      "ms": 66
+      "ms": 537
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 476
+      "ms": 831
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 552
+      "ms": 942
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 523
+      "ms": 862
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 172
+      "ms": 345
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 114
+      "ms": 131
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 62
+      "ms": 298
     },
     "The Independent": {
       "ok": true,
-      "count": 35,
+      "count": 33,
       "error": null,
-      "ms": 162
+      "ms": 280
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 78
+      "ms": 318
     }
   },
   "breaking": [
+    {
+      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-14T20:23:06+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
+          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+          "published": "2026-11-14T02:12:12+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+          "published": "2026-11-13T21:31:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+          "published": "2026-11-13T21:06:41+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "published": "2026-11-13T21:04:32+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
     {
       "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
       "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
@@ -177,34 +211,6 @@
       "consensus": 5.0
     },
     {
-      "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-      "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-14T20:23:06+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
-          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-          "published": "2026-11-14T02:12:12+00:00"
-        },
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
-          "published": "2026-11-13T21:31:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
-          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
-          "published": "2026-11-13T21:06:41+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
       "title": "Philippines wins Eurovision Asia, making history",
       "url": "https://www.abc.net.au/news/2026-11-15/eurovision-asia-2026-song-contest-debuts-in-bangkok-thailand/107381792",
       "source": "ABC Australia",
@@ -225,6 +231,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "SpaceX's Starship set for return to Earth after failed booster catch",
+      "url": "https://www.france24.com/en/spacex-starship-set-for-return-to-earth-after-failed-booster-catch",
+      "source": "France24",
+      "published": "2026-11-14T20:51:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/spacex-starship-launch-booster-recovery-aborted-6551391",
+          "title": "SpaceX's Starship enters Earth's orbit, but booster catch aborted",
+          "published": "2026-11-14T05:46:00+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "US officials say copper wire replacement caused national ground stop",
@@ -289,15 +311,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Insiders predict Jensen Huang ‘will have a second act’ as resurfaced images show him embracing alleged Chinese spy",
-      "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-spy-photos-nvidia-comeback-b3085040.html",
-      "source": "The Independent",
-      "published": "2026-11-14T20:35:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -432,28 +445,6 @@
       "consensus": 4.0
     },
     {
-      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
-      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
-      "source": "France24",
-      "published": "2026-11-14T13:15:42+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
-          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
-          "published": "2026-11-14T03:09:21+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-          "published": "2026-11-13T21:04:32+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "U.S. Air Force captain arrested in Okinawa for alleged drunk driving",
       "url": "https://www.japantimes.co.jp/news/2026/11/14/japan/crime-legal/okinawa-us-captain-arrest/",
       "source": "Japan Times",
@@ -509,6 +500,22 @@
           "url": "https://www.thehindu.com/news/international/myanmar-airstrike-on-displaced-persons-camp-kills-12-say-witnesses/article71701720.ece",
           "title": "Myanmar airstrike on displaced persons camp kills 12, say witnesses",
           "published": "2026-11-14T13:01:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+      "source": "France24",
+      "published": "2026-11-14T13:15:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
+          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
+          "published": "2026-11-14T03:09:21+00:00"
         }
       ],
       "consensus": 2.5
@@ -898,10 +905,37 @@
       "consensus": 1.5
     },
     {
+      "title": "Veteran broadcaster Kim Hill is back in your ears, but there's one thing she hates",
+      "url": "https://www.rnz.co.nz/life/people/veteran-broadcaster-kim-hill-is-back-in-your-ears-but-there-s-one-thing-she-hates",
+      "source": "RNZ",
+      "published": "2026-11-14T20:53:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "New study shows what does and doesn't work for ADHD kids",
+      "url": "https://www.rnz.co.nz/news/health/2604813/new-study-shows-what-does-and-doesn-t-work-for-adhd-kids",
+      "source": "RNZ",
+      "published": "2026-11-14T20:39:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Ocean that once covered Flinders Ranges preserved Earth's earliest life",
       "url": "https://www.abc.net.au/news/2026-11-15/flinders-ranges-ocean-ediacaran-fossils-research-earth-life/107377008",
       "source": "ABC Australia",
       "published": "2026-11-14T20:36:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Insiders predict Jensen Huang ‘will have a second act’ as resurfaced images show him embracing alleged Chinese spy",
+      "url": "https://www.independent.co.uk/news/world/americas/jensen-huang-spy-photos-nvidia-comeback-b3085040.html",
+      "source": "The Independent",
+      "published": "2026-11-14T20:35:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -938,33 +972,6 @@
       "url": "https://www.abc.net.au/news/2026-11-15/nsw-bondi-terror-attack-hero-ahmed-al-ahmed-one-year-on/107379802",
       "source": "ABC Australia",
       "published": "2026-11-14T20:18:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Macron says limiting Ukraine aid would pave way to 'another war'",
-      "url": "https://www.france24.com/en/europe/20261114-macron-says-limiting-ukraine-aid-would-pave-way-to-another-war",
-      "source": "France24",
-      "published": "2026-11-14T20:15:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "India’s Assam state demolishes homes of 132 Muslim families",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/14-11-sv-assam-muslim-families-evicted-demolition-drive?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T20:14:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hoffman delivers best Alpine World Cup finish in 27 years",
-      "url": "https://www.abc.net.au/news/2026-11-15/madison-hoffman-fis-world-cup-levi-eighth-place-slalom/107387056",
-      "source": "ABC Australia",
-      "published": "2026-11-14T20:08:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1114,10 +1121,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 65437.93,
+        "price": 64800.43,
         "currency": "USD",
-        "change": -2800.28,
-        "change_percent": -4.1,
+        "change": -3437.78,
+        "change_percent": -5.04,
         "name": "Bitcoin"
       }
     ],
@@ -1412,28 +1419,28 @@
       {
         "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
         "url": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-        "score": 79,
+        "score": 89,
         "source": "Hacker News",
         "published": "2026-11-14T18:56:47+00:00"
       },
       {
         "title": "A Family Tree of Software Job Titles",
         "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-        "score": 85,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-14T17:45:19+00:00"
       },
       {
         "title": "Lovable apps expose passport details and more than 200K private messages",
         "url": "https://www.crissyfield.de/research/lovable-en/",
-        "score": 367,
+        "score": 397,
         "source": "Hacker News",
         "published": "2026-11-14T17:43:10+00:00"
       },
       {
         "title": "Will we put data centers in space?",
         "url": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
-        "score": 20,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-14T17:35:33+00:00"
       },
@@ -1441,49 +1448,42 @@
         "title": "Let Me Let You Own Your Data",
         "url": "https://www.willett.io/posts/data/",
         "comments_url": "https://lobste.rs/s/fllb0m/let_me_let_you_own_your_data",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-14T16:08:27.850000+00:00"
       },
       {
         "title": "PyPI's redesigned project pages with clearer security signals are now live",
         "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-        "score": 157,
+        "score": 160,
         "source": "Hacker News",
         "published": "2026-11-14T15:40:52+00:00"
       },
       {
         "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
         "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-        "score": 92,
+        "score": 99,
         "source": "Hacker News",
         "published": "2026-11-14T15:04:15+00:00"
       },
       {
-        "title": "Demystifying phone unlocking tools: A technical overview",
-        "url": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
-        "score": 32,
-        "source": "Hacker News",
-        "published": "2026-11-14T14:44:28+00:00"
-      },
-      {
         "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
         "url": "https://gitlab.com/snipedbywifi/terminactory",
-        "score": 110,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-14T14:05:54+00:00"
       },
       {
         "title": "KDE: The documentary [video]",
         "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-        "score": 285,
+        "score": 297,
         "source": "Hacker News",
         "published": "2026-11-14T13:43:28+00:00"
       },
       {
         "title": "Advancing science and engineering with Antigravity's /teamwork",
         "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-        "score": 120,
+        "score": 126,
         "source": "Hacker News",
         "published": "2026-11-14T13:20:43+00:00"
       },
@@ -1507,7 +1507,7 @@
         "title": "When is a class a “commodity” and when does it depend on the instructor?",
         "url": "https://statmodeling.stat.columbia.edu/2026/11/13/when-is-a-class-a-commodity-and-when-does-it-depend-on-the-instructor/",
         "comments_url": "https://lobste.rs/s/j4sj0c/when_is_class_commodity_when_does_it",
-        "score": 2,
+        "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-14T09:57:57.014000+00:00"
       },
@@ -1515,9 +1515,17 @@
         "title": "What happened to 3com?",
         "url": "https://dfarq.homeip.net/what-happened-to-3com/",
         "comments_url": "https://lobste.rs/s/pgmw6b/what_happened_3com",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-14T05:46:40.915000+00:00"
+      },
+      {
+        "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+        "url": "https://arxiv.org/abs/2605.29713",
+        "comments_url": "https://lobste.rs/s/0aungk/little_book_generative_ai_foundations",
+        "score": 7,
+        "source": "Lobste.rs",
+        "published": "2026-11-14T04:51:14.032000+00:00"
       }
     ],
     "reddit": [
@@ -1594,20 +1602,20 @@
         "published": "2026-11-14T11:00:09+00:00"
       },
       {
-        "title": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
-        "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw56u8/ecuadorian_fishermen_who_survived_us_boat_strikes/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T15:31:40+00:00"
-      },
-      {
         "title": "60 Air Traffic Controllers Reject Transportation Secretary’s Ground Stop Explanation",
         "url": "https://www.mensjournal.com/news/60-air-traffic-controllers-reject-transportation-secretarys-ground-stop-explanation",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xw8k7k/60_air_traffic_controllers_reject_transportation/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-14T17:49:12+00:00"
+      },
+      {
+        "title": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
+        "url": "https://www.theguardian.com/us-news/2026/nov/14/ecuadorian-fishermen-lawsuit-trump-boat-strike",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw56u8/ecuadorian_fishermen_who_survived_us_boat_strikes/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-14T15:31:40+00:00"
       },
       {
         "title": "Mystery Drones Breach US F-35 Fighter Base in Britain, Forcing American Troops Into Shelters",

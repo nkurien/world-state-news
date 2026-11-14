@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-14T10:00:54.448662+00:00",
+  "last_updated": "2026-11-14T10:30:47.273533+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 436
+      "ms": 253
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 332
+      "ms": 579
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 212
+      "ms": 228
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 418
+      "ms": 212
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 274
+      "ms": 63
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 329
+      "ms": 207
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 240
+      "ms": 484
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 446
+      "ms": 776
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 167
+      "ms": 181
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 91
+      "ms": 169
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 397
+      "ms": 581
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 245
+      "ms": 379
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 144
+      "ms": 184
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 131
+      "ms": 308
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 134
+      "ms": 273
     },
     "RNZ": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 444
+      "ms": 372
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 850
+      "ms": 801
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 567
+      "ms": 850
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 484
+      "ms": 527
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 255
+      "ms": 290
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 207
+      "ms": 153
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 222
+      "ms": 340
     },
     "The Independent": {
       "ok": true,
-      "count": 49,
+      "count": 48,
       "error": null,
-      "ms": 166
+      "ms": 730
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 232
+      "ms": 302
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
       "source": "Euronews",
       "published": "2026-11-14T09:00:58+00:00",
-      "score": 4,
+      "score": 5,
       "other_sources": [
         {
           "source": "BBC News",
@@ -172,6 +172,46 @@
           "url": "https://www.japantimes.co.jp/news/2026/11/14/asia-pacific/politics/trump-xi-putin-trilateral-apec/",
           "title": "Trump to raise nuclear-arms cuts with Putin and Xi at historic trilateral summit",
           "published": "2026-11-14T00:23:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/trump-to-hold-summit-with-xi-putin-in-shenzhen-on-thursday-ny-post-reports",
+          "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
+          "published": "2026-11-13T21:39:14+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
+    {
+      "title": "Microsoft says services fully restored after hourslong global outage",
+      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-says-consumer-products-services-recovered-still-monitoring-enterprise-services/article71701075.ece",
+      "source": "The Hindu",
+      "published": "2026-11-14T09:58:34+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+          "title": "Microsoft says services fully restored after day-long global outage",
+          "published": "2026-11-14T06:42:27+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
+          "title": "Microsoft says all services 'fully recovered' after global outage",
+          "published": "2026-11-14T06:07:56+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/11/14/microsoft-outage-recovered/",
+          "title": "Microsoft says services fully restored after outage roiled world",
+          "published": "2026-11-14T04:53:00+00:00"
+        },
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services",
+          "title": "Global Microsoft outage knocks out Outlook and other services",
+          "published": "2026-11-13T12:34:23+00:00"
         }
       ],
       "consensus": 4.5
@@ -237,22 +277,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Microsoft Outage updates: Global outage ends after tech giant restores services across all affected systems",
-      "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outlook-outage-status-microsoft-365-services-live-updates-november-14-2026/article71700692.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T08:41:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services",
-          "title": "Global Microsoft outage knocks out Outlook and other services",
-          "published": "2026-11-13T12:34:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Former Nvidia CEO Huang had a relationship with a second employee, sources say",
       "url": "https://www.japantimes.co.jp/business/2026/11/14/huang-second-employee-relationship/",
       "source": "Japan Times",
@@ -269,19 +293,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Wearing briefs boosts erectile dysfunction risk, finds 26,000-man study in China",
-      "url": "https://www.scmp.com/news/china/science/article/3374313/wearing-briefs-boosts-erectile-dysfunction-risk-finds-26000-man-study-china",
-      "source": "SCMP",
-      "published": "2026-11-14T10:00:05+00:00",
+      "title": "Melaka state election: Polls close with 70.1% voter turnout by 5pm, says Election Commission",
+      "url": "https://www.straitstimes.com/asia/se-asia/melaka-state-election-polls-close-with-70-1-voter-turnout-by-5pm-says-election-commission",
+      "source": "Straits Times",
+      "published": "2026-11-14T10:22:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
-      "url": "https://www.politico.eu/article/finland-rejects-reported-russian-demand-to-leave-nato-as-part-of-peace-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-14T09:57:48+00:00",
+      "title": "France's school principals say threats and violence have become unbearable",
+      "url": "https://www.france24.com/en/france-s-school-principals-say-threats-and-violence-have-become-unbearable",
+      "source": "France24",
+      "published": "2026-11-14T10:17:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -335,40 +359,6 @@
       "consensus": 8.0
     },
     {
-      "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
-      "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
-      "source": "The Guardian",
-      "published": "2026-11-14T03:11:28+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
-          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-          "published": "2026-11-14T02:12:12+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html",
-          "title": "‘Miracle on the Mississippi’: All passengers accounted for after New Orleans riverboat crash, officials say",
-          "published": "2026-11-14T00:30:41+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
-          "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-          "published": "2026-11-13T23:40:45+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-          "published": "2026-11-13T21:04:32+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
-    {
       "title": "Iran says it struck U.S. military radar in Bahrain",
       "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
       "source": "The Hindu",
@@ -397,26 +387,54 @@
       "consensus": 5.0
     },
     {
-      "title": "Microsoft says services fully restored after day-long global outage",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-14T06:42:27+00:00",
+      "title": "All passengers and crew accounted for after New Orleans boat crash in ‘miracle on the Mississippi’",
+      "url": "https://www.theguardian.com/us-news/2026/nov/13/mississippi-river-crash-new-orleans",
+      "source": "The Guardian",
+      "published": "2026-11-14T03:11:28+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
+          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+          "published": "2026-11-14T02:12:12+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/new-orleans-river-boat-crash-129-passengers-b3084807.html",
+          "title": "‘Miracle on the Mississippi’: All passengers accounted for after New Orleans riverboat crash, officials say",
+          "published": "2026-11-14T00:30:41+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+          "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+          "published": "2026-11-13T23:40:45+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
+      "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
+      "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
+      "source": "CNA",
+      "published": "2026-11-14T03:09:21+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/technology/20261114-microsoft-says-consumer-products-fully-recovered-business-services-improving",
-          "title": "Microsoft says all services 'fully recovered' after global outage",
-          "published": "2026-11-14T06:07:56+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+          "published": "2026-11-13T21:06:41+00:00"
         },
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/11/14/microsoft-outage-recovered/",
-          "title": "Microsoft says services fully restored after outage roiled world",
-          "published": "2026-11-14T04:53:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "published": "2026-11-13T21:04:32+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 4.0
     },
     {
       "title": "Microsoft ‘deeply sorry’ for global outage that could have billion-dollar impact on Australia",
@@ -463,38 +481,6 @@
       "consensus": 3.0
     },
     {
-      "title": "Trump, Xi and Putin to hold first three-way summit in China",
-      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T04:55:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/trump-to-hold-summit-with-xi-putin-in-shenzhen-on-thursday-ny-post-reports",
-          "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
-          "published": "2026-11-13T21:39:14+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "German spies granted sweeping new powers",
-      "url": "https://www.aljazeera.com/news/2026/11/14/german-spies-granted-sweeping-new-powers?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T04:41:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
-          "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
-          "published": "2026-11-13T15:42:52+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Alice Huang: report",
       "url": "https://www.thehindu.com/news/international/former-nvidia-ceo-jensen-huang-misled-top-lawyer-on-affair-with-alice-huang-report/article71700767.ece",
       "source": "The Hindu",
@@ -506,22 +492,6 @@
           "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
           "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
           "published": "2026-11-08T21:03:56+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
-      "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
-      "source": "CNA",
-      "published": "2026-11-14T03:09:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
-          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
-          "published": "2026-11-13T21:06:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -911,62 +881,89 @@
       "consensus": 1.5
     },
     {
-      "title": "Jensen Huang quits Nvidia as scandal rocks AI giant",
-      "url": "http://www.africanews.com/2026/11/13/jensen-huang-quits-nvidia-as-scandal-rocks-ai-giant/",
+      "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
+      "url": "http://www.africanews.com/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium/",
       "source": "Africanews",
-      "published": "2026-11-13T08:37:26+00:00",
+      "published": "2026-11-13T08:11:36+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/12/nvidias-jensen-huang-resigns-over-relationship-with-suspected-chinese-spy",
-          "title": "Jensen Huang quits Nvidia after 33 years amid alleged Chinese spy scandal",
-          "published": "2026-11-12T14:07:53+00:00"
+          "url": "https://www.euronews.com/video/2026/11/13/peru-pope-leo-xiv-leads-youth-prayer-vigil-at-limas-national-stadium",
+          "title": "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
+          "published": "2026-11-13T08:11:29+00:00"
         }
       ],
       "consensus": 1.5
     },
     {
-      "title": "UN climate chief urges speed as COP31 confronts fossil fuel divide",
-      "url": "https://www.straitstimes.com/asia/un-climate-chief-urges-speed-as-cop31-confronts-fossil-fuel-divide",
-      "source": "Straits Times",
-      "published": "2026-11-14T09:49:20+00:00",
+      "title": "No Indians onboard in carrier involved in Mississippi mishap",
+      "url": "https://www.thehindu.com/news/international/no-indians-onboard-in-carrier-involved-in-mississippi-mishap/article71701456.ece",
+      "source": "The Hindu",
+      "published": "2026-11-14T10:24:04+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "India PM Modi’s office summons telecoms secretary over use of fake court orders, officials say",
-      "url": "https://www.straitstimes.com/asia/south-asia/india-pm-modis-office-summons-telecoms-secretary-over-use-of-fake-court-orders-officials-say",
-      "source": "Straits Times",
-      "published": "2026-11-14T09:45:00+00:00",
+      "title": "France protests for fifth Saturday against living costs and heavy-handed policing",
+      "url": "https://www.france24.com/en/france-protests-for-fifth-saturday-against-living-costs-and-heavy-handed-policing",
+      "source": "France24",
+      "published": "2026-11-14T10:15:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Migrant caravan heads to US from Mexico after Democrats’ midterm win",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/migrant-caravan-heads-to-us-from-mexico-after-democrats-midterm-win?traffic_source=rss",
+      "title": "US nationwide flight ground stop: \"Our routers got overloaded with data\"",
+      "url": "https://www.france24.com/en/us-nationwide-flight-ground-stop-our-routers-got-overloaded-with-data",
+      "source": "France24",
+      "published": "2026-11-14T10:14:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Noel Fielding ‘horrified and deeply disturbed’ by Russell Brand’s crimes",
+      "url": "https://www.theguardian.com/news/2026/nov/14/noel-fielding-horrified-deeply-disturbed-russell-brand-crimes",
+      "source": "The Guardian",
+      "published": "2026-11-14T10:14:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Two men reportedly use crowbar to get in to Northland Woolworths",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2600076/two-men-reportedly-use-crowbar-to-get-in-to-northland-woolworths",
+      "source": "RNZ",
+      "published": "2026-11-14T10:10:19+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Sabalenka crashes out of season-ending WTA Finals after losing to Svitolina",
+      "url": "https://www.aljazeera.com/sports/2026/11/14/aryna-sabalenka-elina-svitolina-wta-finals-indian-wells-semifinals-tennis?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-14T09:43:54+00:00",
+      "published": "2026-11-14T10:03:12+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Netanyahu may fall, but his far-right legacy in Israel is going nowhere",
-      "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-may-fall-but-his-far-right-legacy-in-israel-is-going-nowhere?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T09:43:27+00:00",
+      "title": "How Chinese custom ‘chong xi,’ or ‘clashing with joy,’ can counteract misfortune",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3374438/how-chinese-custom-chong-xi-or-clashing-joy-can-counteract-misfortune",
+      "source": "SCMP",
+      "published": "2026-11-14T10:00:52+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "ASEAN states sign Digital Economy Framework Agreement, which kicks in from early 2027",
-      "url": "https://www.straitstimes.com/asia/se-asia/asean-states-sign-digital-economy-framework-agreement-which-kicks-in-from-early-2027",
-      "source": "Straits Times",
-      "published": "2026-11-14T09:29:34+00:00",
+      "title": "Guardian to follow lives of eight young people in their search for work",
+      "url": "https://www.theguardian.com/business/2026/nov/14/guardian-young-people-search-for-work",
+      "source": "The Guardian",
+      "published": "2026-11-14T10:00:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1116,10 +1113,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 67322.52,
+        "price": 67218.8,
         "currency": "USD",
-        "change": -915.69,
-        "change_percent": -1.34,
+        "change": -1019.41,
+        "change_percent": -1.49,
         "name": "Bitcoin"
       }
     ],
@@ -1406,12 +1403,19 @@
           "published": "2026-11-09T08:30:00+00:00",
           "snippet": "Startups like MiniMax and Moonshot are setting up U.S. outposts, but massive pay gaps, weaker prestige, and national security tensions make luring talent away..."
         }
-      ],
-      "stale": true
+      ]
     }
   ],
   "web": {
     "tech": [
+      {
+        "title": "goliath32.com - Creating a self booting ZIP archive",
+        "url": "https://goliath32.com/blog/ziphead.html",
+        "comments_url": "https://lobste.rs/s/ebahfz/goliath32_com_creating_self_booting_zip",
+        "score": 3,
+        "source": "Lobste.rs",
+        "published": "2026-11-14T10:01:58.119000+00:00"
+      },
       {
         "title": "When is a class a “commodity” and when does it depend on the instructor?",
         "url": "https://statmodeling.stat.columbia.edu/2026/11/13/when-is-a-class-a-commodity-and-when-does-it-depend-on-the-instructor/",
@@ -1447,7 +1451,7 @@
       {
         "title": "Monkey Island: all 13 versions side by side",
         "url": "https://monkeyisland.pages.dev/",
-        "score": 101,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-14T04:23:30+00:00"
       },
@@ -1462,66 +1466,58 @@
       {
         "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
         "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-        "score": 559,
+        "score": 585,
         "source": "Hacker News",
         "published": "2026-11-14T02:52:59+00:00"
       },
       {
         "title": "Ggml v1.0.0",
         "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
-        "score": 260,
+        "score": 267,
         "source": "Hacker News",
         "published": "2026-11-14T02:28:29+00:00"
       },
       {
         "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
         "url": "https://unsloth.ai/docs/models/qwen3.8",
-        "score": 143,
+        "score": 146,
         "source": "Hacker News",
         "published": "2026-11-14T00:06:04+00:00"
       },
       {
         "title": "What happened to 3Com?",
         "url": "https://dfarq.homeip.net/what-happened-to-3com/",
-        "score": 140,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-13T23:48:59+00:00"
       },
       {
         "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
         "url": "https://grounds.top/",
-        "score": 144,
+        "score": 148,
         "source": "Hacker News",
         "published": "2026-11-13T23:17:39+00:00"
       },
       {
         "title": "Terminal borders that don't cost a cell",
         "url": "https://www.joshka.net/cell-borders/",
-        "score": 250,
+        "score": 261,
         "source": "Hacker News",
         "published": "2026-11-13T23:06:40+00:00"
       },
       {
+        "title": "How Not to Build a Music Player",
+        "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+        "score": 115,
+        "source": "Hacker News",
+        "published": "2026-11-13T23:04:30+00:00"
+      },
+      {
         "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
         "url": "https://orcasairband.com/",
-        "score": 261,
+        "score": 264,
         "source": "Hacker News",
         "published": "2026-11-13T22:04:24+00:00"
-      },
-      {
-        "title": "FAA issues national ground stop – lifted 4.5 hours later",
-        "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-        "score": 1540,
-        "source": "Hacker News",
-        "published": "2026-11-13T21:05:53+00:00"
-      },
-      {
-        "title": "Someone's impersonating this blog",
-        "url": "https://mattbee.mataroa.blog/p/someones-impersonating-this-blog/",
-        "comments_url": "https://lobste.rs/s/wqml56/someone_s_impersonating_this_blog",
-        "score": 23,
-        "source": "Lobste.rs",
-        "published": "2026-11-13T20:39:53.682000+00:00"
       }
     ],
     "reddit": [
@@ -1582,6 +1578,14 @@
         "published": "2026-11-13T23:20:08+00:00"
       },
       {
+        "title": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
+        "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xvwocj/bomb_threats_against_european_flights_likely_a/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-14T07:48:11+00:00"
+      },
+      {
         "title": "Investigators found nearly 6.5 billion forints (about 17 million €) in cash buried in forests, stored in warehouses, and kept in safes in connection with a corruption investigation linked to former Hungarian minister Miklós Seszták.",
         "url": "https://telex.hu/gazdasag/2026/11/13/sesztak-miklos-nvvh-nyomozas-akciok-keszpenzt-talaltak-elasva",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xvhvo1/investigators_found_nearly_65_billion_forints/",
@@ -1606,28 +1610,20 @@
         "published": "2026-11-14T06:24:44+00:00"
       },
       {
-        "title": "Denmark began offering pregnant women an RSV vaccine in October 2025, and 72% of those eligible took it. That winter, hospital admissions for RSV in babies under 6 months fell by 75%, from an average of 1,128 to just 296. That is more than 800 babies kept out of a hospital bed in a single season.",
-        "url": "https://www.nature.com/articles/d41586-026-03573-3",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xv5kf0/denmark_began_offering_pregnant_women_an_rsv/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-13T11:35:29+00:00"
-      },
-      {
-        "title": "Bomb threats against European flights ‘likely a coordinated campaign of disruption’, Ireland says – as it happened",
-        "url": "https://www.theguardian.com/world/live/2026/nov/06/high-alert-hoax-bomb-threats-france-air-lingus-belgium-pope-leo-europe-live",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xvwocj/bomb_threats_against_european_flights_likely_a/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-14T07:48:11+00:00"
-      },
-      {
         "title": "Hungary Finds $20 Million Cash Stash in Probe on Orban Minister",
         "url": "https://www.bloomberg.com/news/articles/2026-11-13/hungary-finds-20-million-cash-stash-in-probe-on-orban-minister?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDYxMDI0MCwiZXhwIjoxNzk1MjE1MDQwLCJhcnRpY2xlSWQiOiJUT0dJTVBUOTZPU1AwMCIsImJjb25uZWN0SWQiOiIxQ0QwREYzMjE2NEE0MEUyQUM2NkM2NzUwODc4ODEzNSJ9.LOf5pBLwouK_bTh7b4Hl7Q4Spx0oIAM0j4z1QSdrPOY&amp;utm_source=reddit&amp;utm_medium=social&amp;utm_content=business&amp;utm_campaign=giftlink",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xvmhnv/hungary_finds_20_million_cash_stash_in_probe_on/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-13T22:59:15+00:00"
+      },
+      {
+        "title": "Denmark began offering pregnant women an RSV vaccine in October 2025, and 72% of those eligible took it. That winter, hospital admissions for RSV in babies under 6 months fell by 75%, from an average of 1,128 to just 296. That is more than 800 babies kept out of a hospital bed in a single season.",
+        "url": "https://www.nature.com/articles/d41586-026-03573-3",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xv5kf0/denmark_began_offering_pregnant_women_an_rsv/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-13T11:35:29+00:00"
       },
       {
         "title": "Russia demands Finland withdraw from NATO, German newspaper Bild reports | According to the proposal, Russia would retain all of the Ukrainian territories it currently occupies and would gain the entire Donbass region.",

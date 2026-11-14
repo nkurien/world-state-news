@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-14T15:31:01.346973+00:00",
+  "last_updated": "2026-11-14T16:01:00.731044+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 76
+      "ms": 497
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 120
+      "ms": 462
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 116
+      "ms": 234
     },
     "BBC News": {
       "ok": true,
-      "count": 27,
+      "count": 28,
       "error": null,
-      "ms": 143
+      "ms": 239
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 241
+      "ms": 251
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 142
+      "ms": 314
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 222
+      "ms": 608
     },
     "El País": {
       "ok": true,
       "count": 56,
       "error": null,
-      "ms": 226
+      "ms": 616
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 49
+      "ms": 275
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 121
+      "ms": 292
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 476
+      "ms": 386
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 265
+      "ms": 330
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 293
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 192
+      "ms": 205
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 110
+      "ms": 198
     },
     "RNZ": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 103
+      "ms": 456
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 597
+      "ms": 675
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 585
+      "ms": 733
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 533
+      "ms": 656
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 163
+      "ms": 458
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 115
+      "ms": 141
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 97
+      "ms": 345
     },
     "The Independent": {
       "ok": true,
-      "count": 43,
+      "count": 38,
       "error": null,
-      "ms": 185
+      "ms": 219
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 140
+      "ms": 312
     }
   },
   "breaking": [
@@ -195,6 +195,46 @@
       "consensus": 8.0
     },
     {
+      "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+      "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-14T15:53:55+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/asia/china/donald-trump-vladimir-putin-xi-jinping-shenzhen-meeting-b3084953.html",
+          "title": "Trump to meet Putin and Xi in China next week for historic meeting, White House confirms",
+          "published": "2026-11-14T11:24:56+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+          "title": "Trump, Xi and Putin to meet in China, White House says",
+          "published": "2026-11-14T09:00:58+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
+          "title": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
+          "published": "2026-11-14T05:09:23+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/trump-xi-and-putin-plan-an-unprecedented-joint-meeting-apec-summit-china/article71700699.ece",
+          "title": "Trump, Xi and Putin plan unprecedented joint meeting on sidelines of APEC in China: officials",
+          "published": "2026-11-14T04:29:53+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/trump-to-hold-summit-with-xi-putin-in-shenzhen-on-thursday-ny-post-reports",
+          "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
+          "published": "2026-11-13T21:39:14+00:00"
+        }
+      ],
+      "consensus": 6.5
+    },
+    {
       "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
       "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -229,28 +269,6 @@
       "consensus": 6.5
     },
     {
-      "title": "U.S. proposes Ukraine cede territory in exchange for joining NATO: Zelensky",
-      "url": "https://www.thehindu.com/news/international/us-proposes-ukraine-cede-territory-in-exchange-for-joining-nato-zelensky/article71701653.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T12:37:48+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-proposes-ukraine-cede-territory-in-exchange-joining-nato-zelenskyy-6551616",
-          "title": "US proposes Ukraine cede territory in exchange for joining NATO: Zelenskyy",
-          "published": "2026-11-14T11:11:00+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
-          "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
-          "published": "2026-11-14T10:30:04+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Mass evacuations after bomb found at Illinois ethanol plant",
       "url": "https://www.independent.co.uk/news/world/americas/crime/peoria-bomb-threat-illinois-biourja-renewables-b3084992.html",
       "source": "The Independent",
@@ -283,35 +301,28 @@
       "consensus": 2.0
     },
     {
-      "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
-      "url": "https://www.channelnewsasia.com/asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says-6551711",
-      "source": "CNA",
-      "published": "2026-11-14T12:35:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says",
-          "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
-          "published": "2026-11-14T11:14:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Trump blames US ground stop outage on ‘old broken stuff’ while Democrats demand answers over airport chaos",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-blames-ground-stop-old-equipment-b3084980.html",
-      "source": "The Independent",
-      "published": "2026-11-14T15:19:42+00:00",
+      "title": "Jerusalem Daily: Israeli forces occupy Palestinian-American’s home",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/jerusalem-daily-israeli-forces-occupy-palestinian-americans-home?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-14T15:36:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Quad Summit likely to be held in Manila on November 17, sources say",
-      "url": "https://www.thehindu.com/news/international/quad-summit-likely-to-be-held-in-manila-on-november-17-sources-say/article71702178.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T15:18:18+00:00",
+      "title": "ASEAN to defer decision on Myanmar’s return at upcoming summit",
+      "url": "https://www.straitstimes.com/asia/se-asia/asean-to-defer-decision-on-myanmars-return-at-upcoming-summit",
+      "source": "Straits Times",
+      "published": "2026-11-14T15:35:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Andy Burnham says UK has ‘lost more than we gained’ through Brexit",
+      "url": "https://www.theguardian.com/world/2026/nov/14/andy-burnham-says-uk-lost-more-than-we-gained-brexit",
+      "source": "The Guardian",
+      "published": "2026-11-14T15:34:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -417,40 +428,6 @@
       "consensus": 7.0
     },
     {
-      "title": "Trump to meet Putin and Xi in China next week for historic meeting, White House confirms",
-      "url": "https://www.independent.co.uk/asia/china/donald-trump-vladimir-putin-xi-jinping-shenzhen-meeting-b3084953.html",
-      "source": "The Independent",
-      "published": "2026-11-14T11:24:56+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
-          "title": "Trump, Xi and Putin to meet in China, White House says",
-          "published": "2026-11-14T09:00:58+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-          "published": "2026-11-14T05:52:31+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261114-china-to-host-first-ever-trilateral-meeting-between-trump-xi-and-putin-next-week-us-says",
-          "title": "China to host first-ever trilateral meeting between Trump, Xi and Putin next week",
-          "published": "2026-11-14T05:09:23+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/trump-to-hold-summit-with-xi-putin-in-shenzhen-on-thursday-ny-post-reports",
-          "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
-          "published": "2026-11-13T21:39:14+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
-    {
       "title": "Iran says it struck U.S. military radar in Bahrain",
       "url": "https://www.thehindu.com/news/international/iran-says-it-struck-us-military-radar-in-bahrain/article71696537.ece",
       "source": "The Hindu",
@@ -499,6 +476,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "U.S. proposes Ukraine cede territory in exchange for joining NATO: Zelensky",
+      "url": "https://www.thehindu.com/news/international/us-proposes-ukraine-cede-territory-in-exchange-for-joining-nato-zelensky/article71701653.ece",
+      "source": "The Hindu",
+      "published": "2026-11-14T12:37:48+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-proposes-ukraine-cede-territory-in-exchange-joining-nato-zelenskyy-6551616",
+          "title": "US proposes Ukraine cede territory in exchange for joining NATO: Zelenskyy",
+          "published": "2026-11-14T11:11:00+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+          "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+          "published": "2026-11-14T10:30:04+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "U.S. Air Force captain arrested in Okinawa for alleged drunk driving",
@@ -703,6 +702,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
+      "url": "https://www.channelnewsasia.com/asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says-6551711",
+      "source": "CNA",
+      "published": "2026-11-14T12:35:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says",
+          "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
+          "published": "2026-11-14T11:14:22+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Musk ordered to preserve records on Ukraine’s Starlink access by Democratic US senators",
@@ -929,10 +944,55 @@
       "consensus": 1.5
     },
     {
+      "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
+      "url": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-14T15:42:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Andy Burnham accuses Tories of ‘burning bridges’ with EU over Brexit",
+      "url": "https://www.independent.co.uk/news/uk/politics/andy-burnham-eu-brexit-labour-b3084959.html",
+      "source": "The Independent",
+      "published": "2026-11-14T15:29:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump blames US ground stop outage on ‘old broken stuff’ while Democrats demand answers over airport chaos",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-blames-ground-stop-old-equipment-b3084980.html",
+      "source": "The Independent",
+      "published": "2026-11-14T15:19:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Quad Summit likely to be held in Manila on November 17, sources say",
+      "url": "https://www.thehindu.com/news/international/quad-summit-likely-to-be-held-in-manila-on-november-17-sources-say/article71702178.ece",
+      "source": "The Hindu",
+      "published": "2026-11-14T15:18:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Zelensky Escalates Criticism of SpaceX Over Speed Caps",
       "url": "https://www.themoscowtimes.com/2026/11/14/zelensky-a94262",
       "source": "The Moscow Times",
       "published": "2026-11-14T15:16:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "NASA’s Voyager 1 to hit new space distance record of one light-day",
+      "url": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-14T15:14:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -951,60 +1011,6 @@
       "url": "https://www.aljazeera.com/economy/2026/11/14/canadas-stelco-to-recall-175-workers-after-government-pressure?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-14T15:06:52+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "How a US extradition bid over Hamas allegations put a wealthy activist before a Spanish court",
-      "url": "https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court",
-      "source": "The Guardian",
-      "published": "2026-11-14T15:00:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why US Democrats are expected to keep Schumer and Jeffries in power",
-      "url": "https://www.aljazeera.com/news-analysis/2026/11/14/why-us-democrats-are-expected-to-keep-schumer-and-jeffries-in-power?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T14:57:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "DR Congo, Rwanda clash over Francophonie leadership as Macron seeks compromise",
-      "url": "https://www.france24.com/en/africa/20261114-dr-congo-rwanda-clash-over-francophonie-leadership-as-macron-seeks-compromise",
-      "source": "France24",
-      "published": "2026-11-14T14:54:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bangladesh garment-makers threaten to quit wage talks",
-      "url": "https://www.straitstimes.com/asia/bangladesh-garment-makers-threaten-to-quit-wage-talks",
-      "source": "Straits Times",
-      "published": "2026-11-14T14:50:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Empower conference: officials and youth discuss peace and security",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/14/empower-conference-officials-and-youth-discuss-peace-and-security?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T14:49:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Zelensky refuses to concede Donbas as he warns US security plan could empower Putin",
-      "url": "https://www.independent.co.uk/news/world/europe/donbas-russia-ukraine-zelensky-putin-b3084982.html",
-      "source": "The Independent",
-      "published": "2026-11-14T14:48:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1154,10 +1160,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 65088.35,
+        "price": 65668.62,
         "currency": "USD",
-        "change": -3149.86,
-        "change_percent": -4.62,
+        "change": -2569.59,
+        "change_percent": -3.77,
         "name": "Bitcoin"
       }
     ],
@@ -1352,6 +1358,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Measles Is Once Again Endemic in the U.S.",
+          "url": "https://www.theatlantic.com/health/2026/11/measles-elimination-status-endemic-kennedy/689450/?utm_source=feed",
+          "published": "2026-11-14T16:00:56+00:00",
+          "snippet": "RFK Jr. didn’t start this crisis, but he owns it now."
+        },
+        {
           "title": "What a New Congress Could Mean For Hegseth",
           "url": "https://www.theatlantic.com/national/2026/11/congress-hegseth-washington-week/689449/?utm_source=feed",
           "published": "2026-11-14T15:11:53+00:00",
@@ -1362,12 +1374,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/scott-colom-mississippi-democrats/689443/?utm_source=feed",
           "published": "2026-11-14T15:00:00+00:00",
           "snippet": "His Senate victory is the result of decades of work across generations."
-        },
-        {
-          "title": "10 Questions to Determine Whether Your Partner Is a Spy",
-          "url": "https://www.theatlantic.com/newsletters/2026/11/jensen-huang-partner-quiz-spy/689448/?utm_source=feed",
-          "published": "2026-11-14T12:00:00+00:00",
-          "snippet": "Here’s how to make sure you aren’t being honeypotted."
         }
       ]
     },
@@ -1450,6 +1456,13 @@
   "web": {
     "tech": [
       {
+        "title": "PyPI's redesigned project pages with clearer security signals are now live",
+        "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+        "score": 3,
+        "source": "Hacker News",
+        "published": "2026-11-14T15:40:52+00:00"
+      },
+      {
         "title": "Perses",
         "url": "https://perses.dev/",
         "comments_url": "https://lobste.rs/s/14wyzy/perses",
@@ -1460,56 +1473,56 @@
       {
         "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
         "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-        "score": 42,
+        "score": 52,
         "source": "Hacker News",
         "published": "2026-11-14T14:09:25+00:00"
       },
       {
         "title": "Show HN: Agweb – a browser for agents that stays out of your way",
         "url": "https://github.com/paul-nameless/agweb",
-        "score": 19,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-14T14:08:12+00:00"
       },
       {
         "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
         "url": "https://github.com/FURSOY/fursoy-cpu",
-        "score": 11,
+        "score": 15,
         "source": "Hacker News",
         "published": "2026-11-14T14:06:34+00:00"
       },
       {
         "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
         "url": "https://gitlab.com/snipedbywifi/terminactory",
-        "score": 31,
+        "score": 46,
         "source": "Hacker News",
         "published": "2026-11-14T14:05:54+00:00"
       },
       {
         "title": "Italy fines Meta $887M over Android users' data access",
         "url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-        "score": 54,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-14T13:48:06+00:00"
       },
       {
         "title": "KDE: The Documentary on Free Software [video]",
         "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-        "score": 24,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-14T13:43:28+00:00"
       },
       {
         "title": "Advancing science and engineering with Antigravity's /teamwork",
         "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-        "score": 27,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-14T13:20:43+00:00"
       },
       {
         "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
         "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-        "score": 143,
+        "score": 163,
         "source": "Hacker News",
         "published": "2026-11-14T12:45:45+00:00"
       },
@@ -1517,7 +1530,7 @@
         "title": "Solving the fox game",
         "url": "http://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
         "comments_url": "https://lobste.rs/s/q81fi4/solving_fox_game",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-14T10:32:33.001000+00:00"
       },
@@ -1525,7 +1538,7 @@
         "title": "goliath32.com - Creating a self booting ZIP archive",
         "url": "https://goliath32.com/blog/ziphead.html",
         "comments_url": "https://lobste.rs/s/ebahfz/goliath32_com_creating_self_booting_zip",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-14T10:01:58.119000+00:00"
       },
@@ -1541,7 +1554,7 @@
         "title": "What happened to 3com?",
         "url": "https://dfarq.homeip.net/what-happened-to-3com/",
         "comments_url": "https://lobste.rs/s/pgmw6b/what_happened_3com",
-        "score": 14,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-14T05:46:40.915000+00:00"
       },
@@ -1552,17 +1565,17 @@
         "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-14T04:51:14.032000+00:00"
-      },
-      {
-        "title": "You could have invented transformers from memory",
-        "url": "https://alexwang.ai/posts/associative-memory/",
-        "comments_url": "https://lobste.rs/s/u2h9as/you_could_have_invented_transformers",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-14T04:49:47.565000+00:00"
       }
     ],
     "reddit": [
+      {
+        "title": "The Biden administration created Direct File, a program of free online tax filing that exists in all other advanced economies. In doing so, it overcame a traditional US government reliance on contractors and opposition of the tax preparation industry. Trump and Musk destroyed it upon taking office.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.70224",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xw4kor/the_biden_administration_created_direct_file_a/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-14T15:05:35+00:00"
+      },
       {
         "title": "CNN Aviation Analyst Says ‘It’s Just Too Much of a Coincidence’ FAA Rolled Out New AI Traffic Tool Right Before Nationwide Ground Stop",
         "url": "https://www.mediaite.com/media/news/cnn-aviation-analyst-says-its-just-too-much-of-a-coincidence-faa-rolled-out-new-ai-traffic-tool-right-before-nationwide-comms-outage/?utm_source=mediaite_smartnews_redirect",
@@ -1572,12 +1585,12 @@
         "published": "2026-11-14T05:33:00+00:00"
       },
       {
-        "title": "Russia demands that NATO return to its 1997 borders and stop supporting Ukraine",
-        "url": "https://newsukraine.rbc.ua/news/russia-demands-that-nato-return-to-its-1997-1794637666.html",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvxyay/russia_demands_that_nato_return_to_its_1997/",
+        "title": "US proposed Ukraine cedes Donbas in exchange for joining NATO, Zelensky says",
+        "url": "https://www.france24.com/en/europe/20261114-us-negotiators-suggest-ukraine-cedes-territory-in-exchange-for-nato-membership",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvzor3/us_proposed_ukraine_cedes_donbas_in_exchange_for/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-14T09:07:12+00:00"
+        "published": "2026-11-14T10:58:13+00:00"
       },
       {
         "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
@@ -1588,28 +1601,12 @@
         "published": "2026-11-14T11:00:09+00:00"
       },
       {
-        "title": "The Biden administration created Direct File, a program of free online tax filing that exists in all other advanced economies. In doing so, it overcame a traditional US government reliance on contractors and opposition of the tax preparation industry. Trump and Musk destroyed it upon taking office.",
-        "url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.70224",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xw4kor/the_biden_administration_created_direct_file_a/",
+        "title": "Russia demands that NATO return to its 1997 borders and stop supporting Ukraine",
+        "url": "https://newsukraine.rbc.ua/news/russia-demands-that-nato-return-to-its-1997-1794637666.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvxyay/russia_demands_that_nato_return_to_its_1997/",
         "score": null,
-        "source": "/r/science",
-        "published": "2026-11-14T15:05:35+00:00"
-      },
-      {
-        "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-        "url": "https://bbc.com/news/articles/cwvg2l312ylqo",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xw060e/us_has_floated_ukraine_ceding_donbas_for_nato/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-14T11:26:53+00:00"
-      },
-      {
-        "title": "Most new parents have intrusive thoughts about their baby being harmed. Research found 95% of birthing parents reported intrusive thoughts about accidental harm. Over half (54%) reported intrusions about intentionally harming their baby.",
-        "url": "https://www.unsw.edu.au/newsroom/news/2026/11/new-parents-intrusive-thoughts-about-baby-harm",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xw0tx8/most_new_parents_have_intrusive_thoughts_about/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-14T12:05:24+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-14T09:07:12+00:00"
       },
       {
         "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal broke",
@@ -1636,14 +1633,6 @@
         "published": "2026-11-14T07:17:31+00:00"
       },
       {
-        "title": "Zelensky Says Starshield Restrictions Persist as 105 US Lawmakers Demand Answers",
-        "url": "https://www.kyivpost.com/post/90089",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvu57y/zelensky_says_starshield_restrictions_persist_as/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T05:19:46+00:00"
-      },
-      {
         "title": "Will we ever get the truth for the Microsoft outage?",
         "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xvzktn/will_we_ever_get_the_truth_for_the_microsoft/",
@@ -1652,12 +1641,12 @@
         "published": "2026-11-14T10:51:14+00:00"
       },
       {
-        "title": "Pope Leo XIV denounces 'machismo' and demands women be protected in an emotional return to Peru",
-        "url": "https://apnews.com/article/peru-pope-abuse-amazon-indigenous-e6ed62d2f8937c7d3d857f01dad925c2",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvmms9/pope_leo_xiv_denounces_machismo_and_demands_women/",
+        "title": "Zelensky Says Starshield Restrictions Persist as 105 US Lawmakers Demand Answers",
+        "url": "https://www.kyivpost.com/post/90089",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvu57y/zelensky_says_starshield_restrictions_persist_as/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-13T23:05:20+00:00"
+        "published": "2026-11-14T05:19:46+00:00"
       },
       {
         "title": "NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs",
@@ -1668,12 +1657,28 @@
         "published": "2026-11-14T03:45:49+00:00"
       },
       {
+        "title": "Pope Leo XIV denounces 'machismo' and demands women be protected in an emotional return to Peru",
+        "url": "https://apnews.com/article/peru-pope-abuse-amazon-indigenous-e6ed62d2f8937c7d3d857f01dad925c2",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xvmms9/pope_leo_xiv_denounces_machismo_and_demands_women/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-13T23:05:20+00:00"
+      },
+      {
         "title": "Mystery Drones Breach US F-35 Fighter Base in Britain, Forcing American Troops Into Shelters",
         "url": "https://united24media.com/world/mystery-drones-breach-us-f-35-fighter-base-in-britain-forcing-american-troops-into-shelters-24370",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xw0p2e/mystery_drones_breach_us_f35_fighter_base_in/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-14T11:58:41+00:00"
+      },
+      {
+        "title": "Outage at HR platform Workday locks millions of employees out of their account",
+        "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xw0nu6/outage_at_hr_platform_workday_locks_millions_of/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-14T11:56:36+00:00"
       },
       {
         "title": "Zelenskyy: SpaceX claims Starshield restrictions are technical issues",

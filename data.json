@@ -1,160 +1,166 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-15T17:30:48.918993+00:00",
+  "last_updated": "2026-11-15T18:01:05.280034+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 341
+      "ms": 219
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 178
+      "ms": 522
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 221
+      "ms": 248
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 210
+      "ms": 154
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 361
+      "ms": 277
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 284
+      "ms": 144
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 514
+      "ms": 143
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 286
+      "ms": 645
     },
     "Euronews": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 196
+      "ms": 298
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 219
+      "ms": 289
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 723
+      "ms": 442
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 251
+      "ms": 387
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 141
+      "ms": 111
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 136
+      "ms": 208
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 144
+      "ms": 224
     },
     "RNZ": {
       "ok": true,
-      "count": 39,
+      "count": 40,
       "error": null,
-      "ms": 329
+      "ms": 345
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 593
+      "ms": 731
     },
     "Semafor": {
       "ok": true,
-      "count": 211,
+      "count": 212,
       "error": null,
-      "ms": 358
+      "ms": 787
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 626
+      "ms": 935
     },
     "Straits Times": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 309
+      "ms": 246
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 178
+      "ms": 141
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 145
+      "ms": 373
     },
     "The Independent": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 200
+      "ms": 184
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 211
+      "ms": 332
     }
   },
   "breaking": [
     {
-      "title": "Iran claims drone attack on US military base in Bahrain",
-      "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
-      "source": "France24",
-      "published": "2026-11-15T15:29:22+00:00",
-      "score": 7,
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "source": "The Guardian",
+      "published": "2026-11-15T17:36:09+00:00",
+      "score": 6,
       "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/iran-claims-drone-attack-on-us-military-base-in-bahrain",
+          "title": "Iran claims drone attack on US military base in Bahrain",
+          "published": "2026-11-15T15:29:22+00:00"
+        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
@@ -168,12 +174,6 @@
           "published": "2026-11-15T13:02:10+00:00"
         },
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/iran-targets-us-military-radar-in-bahrain-in-retaliatory-drone-strikes?traffic_source=rss",
-          "title": "Iran targets US military radar in Bahrain in ‘retaliatory’ drone strikes",
-          "published": "2026-11-15T12:15:51+00:00"
-        },
-        {
           "source": "Japan Times",
           "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-us-attack/",
           "title": "Bahrain issues first threat alerts since September as Iran says it attacked U.S. base",
@@ -184,43 +184,31 @@
           "url": "https://www.channelnewsasia.com/world/bahrain-alert-threat-iran-attacks-us-base-6552596",
           "title": "Bahrain issues first threat alerts since September as Iran says it attacked US base",
           "published": "2026-11-15T06:05:00+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
-          "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
-          "published": "2026-11-13T13:52:11+00:00"
         }
       ],
-      "consensus": 8.0
+      "consensus": 6.5
     },
     {
-      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
-      "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
-      "source": "France24",
-      "published": "2026-11-15T16:41:48+00:00",
-      "score": 4,
+      "title": "Trump breaks silence on nationwide ground stop, demands more money for FAA infrastructure from Congress",
+      "url": "https://www.cbc.ca/news/world/trump-faa-ground-stop-9.7422814?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-15T17:27:08+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "Israel kills Hamas commander in Gaza strike",
-          "published": "2026-11-15T09:43:15+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374509/trump-breaks-silence-us-ground-stop-demands-more-money-congress",
+          "title": "Trump breaks silence on US ground stop, demands more money from Congress",
+          "published": "2026-11-15T15:00:00+00:00"
         },
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "published": "2026-11-15T08:17:41+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-military-says-it-struck-senior-member-hamas-military-wing-6552271",
-          "title": "Israeli military says it struck senior member of Hamas military wing",
-          "published": "2026-11-15T02:30:10+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+          "title": "FAA lifts rare nationwide ground stop",
+          "published": "2026-11-14T02:06:24+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 3.5
     },
     {
       "title": "Australia and Philippines sign new defence pact amid South China Sea tensions",
@@ -267,6 +255,28 @@
       "consensus": 3.0
     },
     {
+      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
+      "url": "https://www.france24.com/en/middle-east/20261115-israel-kills-senior-member-of-hamas-s-military-wing-in-gaza-strike",
+      "source": "France24",
+      "published": "2026-11-15T16:41:48+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "Israel kills Hamas commander in Gaza strike",
+          "published": "2026-11-15T09:43:15+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "published": "2026-11-15T08:17:41+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Czechs rally against plan to switch funding of public media",
       "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -299,33 +309,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Respiratory illnesses rise in Gaza with worst to come as winter floods arrive, WHO says",
-      "url": "https://www.thehindu.com/news/international/respiratory-illnesses-rise-in-gaza-with-worst-to-come-as-winter-floods-arrive-who-says/article71705676.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T17:21:47+00:00",
+      "title": "Pope Leo visits high Andes, testing recovery from lung cancer surgery",
+      "url": "https://www.scmp.com/news/world/americas/article/3374515/pope-leo-visits-high-andes-testing-recovery-lung-cancer-surgery",
+      "source": "SCMP",
+      "published": "2026-11-15T17:29:17+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/respiratory-illness-gaza-floods-who/",
-          "title": "Respiratory illnesses rise in Gaza with worst to come as winter floods arrive, WHO says",
-          "published": "2026-11-15T09:34:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
-      "url": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
-      "source": "The Guardian",
-      "published": "2026-11-15T15:40:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/15/two-aircraft-collide-at-miami-international-airport",
-          "title": "Two aircraft collide at Miami International Airport",
-          "published": "2026-11-15T11:59:43+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/pope-visits-high-andes-testing-cancer-recovery-6553246",
+          "title": "Pope visits high Andes, testing cancer recovery",
+          "published": "2026-11-15T17:28:46+00:00"
         }
       ],
       "consensus": 2.0
@@ -437,50 +431,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-      "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T02:12:12+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
-          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
-          "published": "2026-11-13T21:06:41+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-          "published": "2026-11-13T21:04:32+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Australia crush New Zealand to win fourth Women’s Rugby League World Cup",
-      "url": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-15T12:21:28+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "RNZ",
-          "url": "https://www.rnz.co.nz/news/sport/2610905/kiwis-crushed-by-kangaroos-in-rugby-league-world-cup-final",
-          "title": "Kiwis crushed by Kangaroos in Rugby League World Cup final",
-          "published": "2026-11-15T10:38:23+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-15/chapman-hat-trick-jillaroos-win-rugby-league-world-cup/107387698",
-          "title": "Chapman hat-trick fires Jillaroos to Rugby League World Cup glory",
-          "published": "2026-11-15T07:25:02+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Jordan sentences 3 men to death over deadly church attack",
@@ -693,17 +643,17 @@
       "consensus": 2.5
     },
     {
-      "title": "U.S. flights resume after hours-long outage as FAA lifts nationwide ground stop",
-      "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T02:41:10+00:00",
+      "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+      "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-13T21:06:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "published": "2026-11-13T21:04:32+00:00"
         }
       ],
       "consensus": 2.5
@@ -723,6 +673,70 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Respiratory illnesses rise in Gaza with worst to come as winter floods arrive, WHO says",
+      "url": "https://www.thehindu.com/news/international/respiratory-illnesses-rise-in-gaza-with-worst-to-come-as-winter-floods-arrive-who-says/article71705676.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T17:21:47+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/respiratory-illness-gaza-floods-who/",
+          "title": "Respiratory illnesses rise in Gaza with worst to come as winter floods arrive, WHO says",
+          "published": "2026-11-15T09:34:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Two planes collide on taxiway at Miami airport one day after national grounding",
+      "url": "https://www.theguardian.com/us-news/2026/nov/15/miami-airport-planes-collide",
+      "source": "The Guardian",
+      "published": "2026-11-15T15:40:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/two-aircraft-collide-at-miami-international-airport",
+          "title": "Two aircraft collide at Miami International Airport",
+          "published": "2026-11-15T11:59:43+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Megaspeed says Alice Huang left company in August 2025",
+      "url": "https://www.thehindu.com/news/international/megaspeed-says-alice-huang-left-company-in-august-2025/article71704620.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T13:12:32+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/megaspeed-says-alice-huang-left/",
+          "title": "Megaspeed says Alice Huang left firm in August 2025",
+          "published": "2026-11-15T12:20:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Kiwis crushed by Kangaroos in Rugby League World Cup final",
+      "url": "https://www.rnz.co.nz/news/sport/2610905/kiwis-crushed-by-kangaroos-in-rugby-league-world-cup-final",
+      "source": "RNZ",
+      "published": "2026-11-15T10:38:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-15/chapman-hat-trick-jillaroos-win-rugby-league-world-cup/107387698",
+          "title": "Chapman hat-trick fires Jillaroos to Rugby League World Cup glory",
+          "published": "2026-11-15T07:25:02+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
@@ -885,91 +899,73 @@
       "consensus": 1.5
     },
     {
-      "title": "Pope Leo visits high Andes, testing recovery from lung cancer surgery",
-      "url": "https://www.scmp.com/news/world/americas/article/3374515/pope-leo-visits-high-andes-testing-recovery-lung-cancer-surgery",
-      "source": "SCMP",
-      "published": "2026-11-15T17:29:17+00:00",
+      "title": "‘Silicon Valley’ showrunner on how the HBO comedy predicted today’s tech drama",
+      "url": "https://www.semafor.com/article/11/13/2026/silicon-valley-showrunner-on-how-the-hbo-comedy-predicted-todays-silicon-valley-drama",
+      "source": "Semafor",
+      "published": "2026-11-15T17:57:28+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
-      "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
-      "source": "France24",
-      "published": "2026-11-15T17:05:14+00:00",
+      "title": "El Niño could last until May 2027, raising drought fears in Northern Marianas",
+      "url": "https://www.rnz.co.nz/news/pacific/2619342/el-nino-could-last-until-may-2027-raising-drought-fears-in-northern-marianas",
+      "source": "RNZ",
+      "published": "2026-11-15T17:47:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Burnham pledges early intervention and ‘benefits backstop’ to tackle youth jobs crisis",
-      "url": "https://www.theguardian.com/society/2026/nov/15/no-free-lunch-milburn-mcfadden-kuenssberg-uk-benefits-youth-unemployment-neet",
-      "source": "The Guardian",
-      "published": "2026-11-15T17:04:55+00:00",
+      "title": "COP31 hears 1.5°C overshoot not an option for Pacific",
+      "url": "https://www.rnz.co.nz/news/pacific/2591454/cop31-hears-1-point-5-degreesc-overshoot-not-an-option-for-pacific",
+      "source": "RNZ",
+      "published": "2026-11-15T17:43:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "How did over 2,000 migrants reach the Canaries in just 48 hours?",
-      "url": "https://www.france24.com/en/how-did-over-2-000-migrants-reach-the-canaries-in-just-48-hours",
-      "source": "France24",
-      "published": "2026-11-15T16:58:40+00:00",
+      "title": "What do we do with the works of problematic people?",
+      "url": "https://www.rnz.co.nz/life/culture/what-do-we-do-with-the-works-of-problematic-pop-culture-figures",
+      "source": "RNZ",
+      "published": "2026-11-15T17:43:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "UN aims to halve global food waste by 2030 in fight against climate change",
-      "url": "https://www.rfi.fr/en/environment/20261115-un-aims-to-halve-global-food-waste-by-2030-in-fight-against-climate-change-cop-31",
-      "source": "RFI English",
-      "published": "2026-11-15T16:56:00+00:00",
+      "title": "All Whites complete series sweep of India with big win in Christchurch",
+      "url": "https://www.rnz.co.nz/news/sport/2608993/all-whites-complete-series-sweep-of-india-with-big-win-at-te-kaha",
+      "source": "RNZ",
+      "published": "2026-11-15T17:42:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Planned asylum seeker detention centre next to Oxfordshire sewage works criticised",
-      "url": "https://www.theguardian.com/uk-news/2026/nov/15/planned-asylum-seeker-detention-centre-next-to-oxfordshire-sewage-works-criticised",
-      "source": "The Guardian",
-      "published": "2026-11-15T16:47:39+00:00",
+      "title": "India clinch series after collapse derails Black Caps' chase",
+      "url": "https://www.rnz.co.nz/news/sport/2618810/cricket-india-clinch-odi-series-after-dramatic-collapse-derails-black-caps-chase",
+      "source": "RNZ",
+      "published": "2026-11-15T17:42:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Somalia: We would not have recovered without the international community",
-      "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/11/15/somalia-we-would-not-have-recovered-without-the-international-community?traffic_source=rss",
+      "title": "Nearly 1,500 migrants reach Spain’s Canary Islands in one day",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/nearly-1500-migrants-reach-spains-canary-islands-in-one-day?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-15T16:47:36+00:00",
+      "published": "2026-11-15T17:39:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Czechs stage huge rally against public-media funding overhaul",
-      "url": "https://www.channelnewsasia.com/world/czechs-stage-huge-rally-against-public-media-funding-overhaul-6553231",
-      "source": "CNA",
-      "published": "2026-11-15T16:46:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "LIVE: Spain vs England – UEFA Nations League",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/15/live-spain-vs-england-uefa-nations-league?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-15T16:45:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hundreds of thousands of Czechs protest in Prague over media freedom",
-      "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
-      "source": "The Guardian",
-      "published": "2026-11-15T16:40:04+00:00",
+      "title": "Under pressure, Lutnick joins Trump in China",
+      "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china",
+      "source": "Semafor",
+      "published": "2026-11-15T17:34:36+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1119,10 +1115,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 64810.02,
+        "price": 64471.36,
         "currency": "USD",
-        "change": 690.24,
-        "change_percent": 1.08,
+        "change": 351.58,
+        "change_percent": 0.55,
         "name": "Bitcoin"
       }
     ],
@@ -1417,7 +1413,7 @@
       {
         "title": "The Atheist Bible",
         "url": "https://suchanek.name/texts/atheism/",
-        "score": 7,
+        "score": 16,
         "source": "Hacker News",
         "published": "2026-11-15T16:05:53+00:00"
       },
@@ -1425,49 +1421,49 @@
         "title": "All AI-generated code should be Open Source",
         "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
         "comments_url": "https://lobste.rs/s/ek4fkg/all_ai_generated_code_should_be_open",
-        "score": 0,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-15T16:04:01.325000+00:00"
       },
       {
         "title": "Emacs Is My Browser",
         "url": "https://joshblais.com/blog/emacs-as-my-browser/",
-        "score": 48,
+        "score": 67,
         "source": "Hacker News",
         "published": "2026-11-15T15:21:21+00:00"
       },
       {
         "title": "All AI-generated code should be Open Source",
         "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-        "score": 444,
+        "score": 537,
         "source": "Hacker News",
         "published": "2026-11-15T14:46:58+00:00"
       },
       {
         "title": "The Hypertext Transfer Protocol Status Code 483 (I'm Not a Freezer)",
         "url": "https://datatracker.ietf.org/doc/draft-banffy-httpbis-not-a-freezer/",
-        "score": 62,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-15T14:31:52+00:00"
       },
       {
         "title": "Things That Turbo Pascal Is Smaller Than (2011)",
         "url": "https://prog21.dadgum.com/116.html",
-        "score": 92,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-15T13:44:16+00:00"
       },
       {
         "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
         "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
-        "score": 222,
+        "score": 232,
         "source": "Hacker News",
         "published": "2026-11-15T13:15:22+00:00"
       },
       {
         "title": "A NES emulator written in Odin",
         "url": "https://lucypero.com/lucynes.html",
-        "score": 59,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-15T12:51:47+00:00"
       },
@@ -1475,7 +1471,7 @@
         "title": "Memory management in 40 major C projects, a survey",
         "url": "https://theconsensus.dev/p/2026/11/08/c-memory-management-survey.html",
         "comments_url": "https://lobste.rs/s/vdxevp/memory_management_40_major_c_projects",
-        "score": 17,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-15T12:50:03.456000+00:00"
       },
@@ -1483,36 +1479,29 @@
         "title": "A NES emulator written in Odin",
         "url": "https://lucypero.com/lucynes.html",
         "comments_url": "https://lobste.rs/s/dtjgmc/nes_emulator_written_odin",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-15T12:37:33.463000+00:00"
       },
       {
         "title": "Understanding Positional Embeddings in Modern LLMs",
         "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-        "score": 113,
+        "score": 124,
         "source": "Hacker News",
         "published": "2026-11-15T12:14:06+00:00"
-      },
-      {
-        "title": "Lutnick Pushed to Weaken Chip Rules That Overlap with His Family Business",
-        "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
-        "score": 227,
-        "source": "Hacker News",
-        "published": "2026-11-15T11:40:51+00:00"
       },
       {
         "title": "cursor:pointer on buttons",
         "url": "https://blog.kizu.dev/cursors/",
         "comments_url": "https://lobste.rs/s/h8tghc/cursor_pointer_on_buttons",
-        "score": 19,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-15T09:15:40.744000+00:00"
       },
       {
         "title": "Why did some Apollo missions carry a grenade launcher?",
         "url": "https://space.stackexchange.com/questions/37775",
-        "score": 151,
+        "score": 158,
         "source": "Hacker News",
         "published": "2026-11-15T09:06:43+00:00"
       },
@@ -1523,6 +1512,14 @@
         "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-15T08:05:45.227000+00:00"
+      },
+      {
+        "title": "FreeBSD bhyve Live Migration: Moving VMs Between Hosts",
+        "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+        "comments_url": "https://lobste.rs/s/hiayul/freebsd_bhyve_live_migration_moving_vms",
+        "score": 14,
+        "source": "Lobste.rs",
+        "published": "2026-11-15T06:44:44.316000+00:00"
       }
     ],
     "reddit": [
@@ -1567,20 +1564,20 @@
         "published": "2026-11-15T04:54:40+00:00"
       },
       {
-        "title": "Ukraine reportedly strikes Russian military airfield in Astrakhan Oblast, at least 30 explosions heard",
-        "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-military-airfield-in-astrakhan-oblast-at-least-30-explosions-heard/",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwv38i/ukraine_reportedly_strikes_russian_military/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-15T13:08:39+00:00"
-      },
-      {
         "title": "Harming Wild Animals Is Linked To Intimate Partner Violence",
         "url": "https://faunalytics.org/harming-wild-animals-is-linked-to-intimate-partner-violence/",
         "comments_url": "https://www.reddit.com/r/science/comments/1xwxys5/harming_wild_animals_is_linked_to_intimate/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-15T15:15:38+00:00"
+      },
+      {
+        "title": "Ukraine reportedly strikes Russian military airfield in Astrakhan Oblast, at least 30 explosions heard",
+        "url": "https://kyivindependent.com/ukraine-reportedly-strikes-russian-military-airfield-in-astrakhan-oblast-at-least-30-explosions-heard/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwv38i/ukraine_reportedly_strikes_russian_military/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-15T13:08:39+00:00"
       },
       {
         "title": "Russian GRU attempted a failed explosion and arson attack against Estonian Threod Systems building.",
@@ -1591,20 +1588,20 @@
         "published": "2026-11-15T13:14:01+00:00"
       },
       {
-        "title": "Dead last in the EU: Germany has grown the least of any EU country over the past 10 years",
-        "url": "https://i.redd.it/qbllwlr3ir1i1.jpeg",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xwt9v9/dead_last_in_the_eu_germany_has_grown_the_least/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-15T11:31:34+00:00"
-      },
-      {
         "title": "A CRISPR therapy that edits genes inside the body, with no need to remove a patient's cells, is still working four years after treatment. It switches off a liver gene behind a rare disease that causes painful, dangerous swelling, and is poised to be the first of its kind to win FDA approval.",
         "url": "https://www.nature.com/articles/d41586-026-03705-9",
         "comments_url": "https://www.reddit.com/r/science/comments/1xwt6d5/a_crispr_therapy_that_edits_genes_inside_the_body/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-15T11:25:44+00:00"
+      },
+      {
+        "title": "Dead last in the EU: Germany has grown the least of any EU country over the past 10 years",
+        "url": "https://i.redd.it/qbllwlr3ir1i1.jpeg",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xwt9v9/dead_last_in_the_eu_germany_has_grown_the_least/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-15T11:31:34+00:00"
       },
       {
         "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
@@ -1623,12 +1620,12 @@
         "published": "2026-11-15T12:22:56+00:00"
       },
       {
-        "title": "Judge Allows DRAM Supply Conspiracy Suit Against Samsung, SK Hynix, Micron to Proceed",
-        "url": "https://news.lavx.hu/article/judge-allows-dram-supply-conspiracy-suit-against-samsung-sk-hynix-micron-to-proceed",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xwud04/judge_allows_dram_supply_conspiracy_suit_against/",
+        "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests — email warning system fails, 40 first responders deployed for triage, four hospitalized",
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwynlx/microsoft_365_outage_leads_to_chlorine_gas/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-15T12:31:56+00:00"
+        "published": "2026-11-15T15:44:25+00:00"
       },
       {
         "title": "A new study found that men who use anabolic steroids are more than 3 times as likely to require prescription medication for long-term erectile dysfunction and need higher doses compared to non-users.",
@@ -1639,12 +1636,12 @@
         "published": "2026-11-15T13:38:07+00:00"
       },
       {
-        "title": "EU forces board suspected Russian shadow fleet tanker in Mediterranean, Kallas says",
-        "url": "https://www.euronews.com/2026/11/15/eu-forces-board-suspected-russian-shadow-fleet-tanker-in-mediterranean-kallas-says",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwsnxf/eu_forces_board_suspected_russian_shadow_fleet/",
+        "title": "Judge Allows DRAM Supply Conspiracy Suit Against Samsung, SK Hynix, Micron to Proceed",
+        "url": "https://news.lavx.hu/article/judge-allows-dram-supply-conspiracy-suit-against-samsung-sk-hynix-micron-to-proceed",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwud04/judge_allows_dram_supply_conspiracy_suit_against/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-15T10:54:49+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-15T12:31:56+00:00"
       }
     ]
   }

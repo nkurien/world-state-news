@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-15T22:01:01.039485+00:00",
+  "last_updated": "2026-11-15T22:30:50.149779+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 338
+      "ms": 244
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 343
+      "ms": 603
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 319
+      "ms": 238
     },
     "BBC News": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 277
+      "ms": 227
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 324
+      "ms": 85
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 321
+      "ms": 293
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 636
+      "ms": 201
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 505
+      "ms": 631
     },
     "Euronews": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 171
+      "ms": 186
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 371
+      "ms": 151
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 508
+      "ms": 673
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 286
+      "ms": 436
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 440
+      "ms": 405
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 358
+      "ms": 261
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 259
+      "ms": 267
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 327
+      "ms": 392
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 693
+      "ms": 744
     },
     "Semafor": {
       "ok": true,
       "count": 212,
       "error": null,
-      "ms": 634
+      "ms": 796
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 735
+      "ms": 638
     },
     "Straits Times": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 404
+      "ms": 308
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 246
+      "ms": 143
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 289
+      "ms": 302
     },
     "The Independent": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 251
+      "ms": 177
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 257
+      "ms": 386
     }
   },
   "breaking": [
@@ -177,17 +177,23 @@
       "consensus": 5.0
     },
     {
-      "title": "Estonia to close border crossings with Russia after alleged arson attack",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-15T20:31:18+00:00",
-      "score": 3,
+      "title": "Estonia to close all border crossings with Russia after attack on drone maker",
+      "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
+      "source": "The Guardian",
+      "published": "2026-11-15T22:17:09+00:00",
+      "score": 4,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
-          "title": "Estonia to close all border crossings with Russia after attack on drone maker",
-          "published": "2026-11-15T18:23:12+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
+          "title": "Estonia to close border crossings with Russia after alleged arson attack",
+          "published": "2026-11-15T20:31:18+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261115-estonia-to-close-russian-border-crossings-after-sabotage-attempt-at-drone-factory",
+          "title": "Estonia to close Russian border crossings after 'sabotage' attempt at drone factory",
+          "published": "2026-11-15T17:05:14+00:00"
         },
         {
           "source": "Politico EU",
@@ -196,7 +202,29 @@
           "published": "2026-11-15T14:32:13+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 4.5
+    },
+    {
+      "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
+      "source": "The Guardian",
+      "published": "2026-11-15T22:28:02+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/australia-canada-italy-and-the-uk-urge-israel-to-allow-aid-into-gaza?traffic_source=rss",
+          "title": "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+          "published": "2026-11-15T22:06:38+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374519/australia-uk-canada-and-italy-urge-israel-allow-rapid-gaza-aid-access",
+          "title": "Australia, UK, Canada and Italy urge Israel to allow ‘rapid’ Gaza aid access",
+          "published": "2026-11-15T21:43:53+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Jordan sentences three men to death over deadly church attack in Karak",
@@ -243,22 +271,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/16/australia-uk-canada-italy-urge-israel-critical-aid-gaza-winter-ntwnfb",
-      "source": "The Guardian",
-      "published": "2026-11-15T21:57:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3374519/australia-uk-canada-and-italy-urge-israel-allow-rapid-gaza-aid-access",
-          "title": "Australia, UK, Canada and Italy urge Israel to allow ‘rapid’ Gaza aid access",
-          "published": "2026-11-15T21:43:53+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Czechs rally against plan to switch funding of public media",
       "url": "https://www.bbc.co.uk/news/articles/cm8e0knr7604o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -291,10 +303,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Luxon says wait for votes could have taken 5 weeks without enrolment changes",
-      "url": "https://www.rnz.co.nz/news/political/2625484/luxon-says-wait-for-votes-could-have-taken-5-weeks-without-enrolment-changes",
-      "source": "RNZ",
-      "published": "2026-11-15T21:57:54+00:00",
+      "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+      "url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-15T22:24:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -530,22 +542,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Francophonie summit opens in Cambodia overshadowed by African tensions",
-      "url": "http://www.africanews.com/2026/11/15/francophonie-summit-opens-in-cambodia-overshadowed-by-african-tensions/",
-      "source": "Africanews",
-      "published": "2026-11-15T14:10:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261115-francophone-summit-opens-in-cambodia-overshadowed-by-tensions-in-africa",
-          "title": "Francophone summit opens in Cambodia, overshadowed by tensions in Africa",
-          "published": "2026-11-15T12:06:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Senior Hamas commander who helped oversee Oct. 7 attack killed in Israeli strike in Gaza",
       "url": "https://www.cbc.ca/news/world/hamas-killed-gaza-israel-9.7422641?cmp=rss",
       "source": "CBC World",
@@ -754,22 +750,6 @@
       "consensus": 2.0
     },
     {
-      "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
-      "url": "https://www.channelnewsasia.com/asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says-6551711",
-      "source": "CNA",
-      "published": "2026-11-14T12:35:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says",
-          "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
-          "published": "2026-11-14T11:14:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "U.S. Treasury Secretary frustrated by Commerce Department's inaction on Nvidia chips",
       "url": "https://www.cbc.ca/news/world/bessent-lutnick-nvidia-chips-exports-9.7421237?cmp=rss",
       "source": "CBC World",
@@ -850,6 +830,85 @@
       "consensus": 1.5
     },
     {
+      "title": "Turkey: Six-metre Trojan Horse spills plastic waste at COP31",
+      "url": "http://www.africanews.com/2026/11/13/turkey-six-metre-trojan-horse-spills-plastic-waste-at-cop31/",
+      "source": "Africanews",
+      "published": "2026-11-13T13:36:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/13/turkey-six-metre-trojan-horse-spills-plastic-waste-at-cop31",
+          "title": "Turkey: Six-metre Trojan Horse spills plastic waste at COP31",
+          "published": "2026-11-13T13:36:10+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Mexican journalist who reported on missing persons found dead in Acapulco",
+      "url": "https://www.scmp.com/news/world/americas/article/3374520/mexican-journalist-who-reported-missing-persons-found-dead-acapulco",
+      "source": "SCMP",
+      "published": "2026-11-15T22:23:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "What's behind the big rise in ACC claims being rejected?",
+      "url": "https://www.rnz.co.nz/news/health/2625195/what-s-behind-the-big-rise-in-acc-claims-being-rejected",
+      "source": "RNZ",
+      "published": "2026-11-15T22:17:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Tropical Cyclone Xavier to bring damaging winds to Northern Cook Islands",
+      "url": "https://www.rnz.co.nz/news/pacific/2620097/tropical-cyclone-xavier-to-bring-damaging-winds-to-northern-cook-islands",
+      "source": "RNZ",
+      "published": "2026-11-15T22:15:12+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kroupi on target as France beat Turkey to reach Nations League quarters",
+      "url": "https://www.france24.com/en/sport/20261115-kroupi-on-target-as-france-beat-turkey-to-reach-nations-league-quarters",
+      "source": "France24",
+      "published": "2026-11-15T22:13:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "What to expect from Trump and Xi's upcoming meeting in China",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6038814/what-to-expect-from-trump-and-xis-upcoming-meeting-in-china",
+      "source": "NPR World",
+      "published": "2026-11-15T22:11:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Sydney Sweeney has great jeans. Who made them? (Psst: Workers)",
+      "url": "https://www.npr.org/2026/11/15/nx-s1-6013327/sydney-sweeney-jeans-american-eagle-garment-industry",
+      "source": "NPR World",
+      "published": "2026-11-15T22:07:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Prince Harry tells Ukrainians they are ‘going to win war’ on surprise trip to Lviv",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/15/prince-harry-ukraine-war-surprise-trip-invictus-games",
+      "source": "The Guardian",
+      "published": "2026-11-15T22:00:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Serbia’s ex-foreign minister Vuk Jeremic on China’s rise in a ‘geopolitical recession’",
       "url": "https://www.scmp.com/news/china/diplomacy/article/3374485/serbias-ex-foreign-minister-vuk-jeremic-chinas-rise-geopolitical-recession",
       "source": "SCMP",
@@ -859,91 +918,37 @@
       "consensus": 1.0
     },
     {
+      "title": "Commentary: Jensen Huang’s downfall will accelerate US-China ‘great decoupling’",
+      "url": "https://www.channelnewsasia.com/commentary/nvidia-jensen-huang-affair-us-china-ai-tech-decoupling-6552516",
+      "source": "CNA",
+      "published": "2026-11-15T22:00:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Commentary: Microsoft discovers AI can’t keep the email going",
+      "url": "https://www.channelnewsasia.com/commentary/commentary-microsoft-discovers-ai-cant-keep-email-going-6552846",
+      "source": "CNA",
+      "published": "2026-11-15T21:59:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Luxon says wait for votes could have taken 5 weeks without enrolment changes",
+      "url": "https://www.rnz.co.nz/news/political/2625484/luxon-says-wait-for-votes-could-have-taken-5-weeks-without-enrolment-changes",
+      "source": "RNZ",
+      "published": "2026-11-15T21:57:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
       "url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-15T21:47:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pope Leo wants justice for Amazon rainforest campaigners as South American tour comes to an end",
-      "url": "https://www.independent.co.uk/news/world/americas/pope-leo-south-america-tour-amazon-rainforest-b3085327.html",
-      "source": "The Independent",
-      "published": "2026-11-15T21:42:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Estonia will shut border with Russia over attempted sabotage attack",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-donbas-nato-trump-putin-zelensky-b3085186.html",
-      "source": "The Independent",
-      "published": "2026-11-15T21:32:52+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "What's behind the big rise in ACC claims being rejected?",
-      "url": "https://www.rnz.co.nz/news/health/2625195/what-s-behind-the-big-rise-in-acc-claims-being-rejected",
-      "source": "RNZ",
-      "published": "2026-11-15T21:31:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "5 steps China, US and Russia could take at Apec to defuse nuclear risk",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3374204/5-steps-china-us-and-russia-could-take-apec-defuse-nuclear-risk",
-      "source": "SCMP",
-      "published": "2026-11-15T21:30:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Serko's loss shrinks as business travel holds up",
-      "url": "https://www.rnz.co.nz/news/business/2624970/serko-s-loss-shrinks-as-business-travel-holds-up",
-      "source": "RNZ",
-      "published": "2026-11-15T21:23:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US Treasury chief wants answers soon from Nvidia",
-      "url": "https://www.channelnewsasia.com/world/us-treasury-chief-wants-answers-soon-nvidia-6553411",
-      "source": "CNA",
-      "published": "2026-11-15T21:19:20+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Yemen’s Houthis unilaterally release 600 war detainees",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/yemens-houthis-unilaterally-release-600-war-detainees?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-15T21:19:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Black Friday deals: Five things to watch out for",
-      "url": "https://www.rnz.co.nz/news/business/2623644/black-friday-deals-five-things-to-watch-out-for",
-      "source": "RNZ",
-      "published": "2026-11-15T21:16:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "NZ expects bigger role in US-led space security network",
-      "url": "https://www.rnz.co.nz/news/political/2624701/nz-expects-bigger-role-in-us-led-space-security-network",
-      "source": "RNZ",
-      "published": "2026-11-15T21:11:03+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1072,7 +1077,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.26,
+        "change_percent": -0.27,
         "name": "EUR/USD"
       },
       {
@@ -1080,23 +1085,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.12,
+        "change_percent": -0.15,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.62,
+        "price": 159.65,
         "currency": "JPY",
-        "change": -0.23,
-        "change_percent": -0.14,
+        "change": -0.2,
+        "change_percent": -0.12,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64936.98,
+        "price": 65151.13,
         "currency": "USD",
-        "change": 817.2,
-        "change_percent": 1.27,
+        "change": 1031.35,
+        "change_percent": 1.61,
         "name": "Bitcoin"
       }
     ],
@@ -1266,22 +1271,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "EU banking watchdog veers away from single deposit insurance scheme",
+          "url": "https://www.ft.com/content/016ce22d-1e09-4f1d-a7e6-9acf183e757f?syn-25a6b1a6=1",
+          "published": "2026-11-15T22:07:45+00:00",
+          "snippet": "Chair of European Banking Authority working on alternative ways to free up more cross-border lending"
+        },
+        {
+          "title": "Estonia to close border with Russia after second alleged sabotage attempt",
+          "url": "https://www.ft.com/content/4dbb2c30-1649-4d0f-b1b6-3ca91c64e250?syn-25a6b1a6=1",
+          "published": "2026-11-15T20:58:12+00:00",
+          "snippet": "Tallinn accuses Russian military intelligence unit GRU of being behind a failed explosion at dronemaker"
+        },
+        {
           "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
           "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1",
           "published": "2026-11-15T19:03:41+00:00",
           "snippet": "Tech supporters lobby chipmaker’s board to reinstate former CEO after he resigned following affair with alleged Chinese spy"
-        },
-        {
-          "title": "Young Britons out of work or training for a year to be guaranteed jobs",
-          "url": "https://www.ft.com/content/7fa20d99-0085-445d-95c9-b2cfe80cd8e1?syn-25a6b1a6=1",
-          "published": "2026-11-15T18:52:51+00:00",
-          "snippet": "Work and pensions secretary lays out plan to address ‘lost generation’ ahead of changes to unemployment support"
-        },
-        {
-          "title": "Viktor Orbán’s party reels from $20mn hidden cash discovery",
-          "url": "https://www.ft.com/content/f05cfe6d-758e-4b14-b150-acc9f3fc9321?syn-25a6b1a6=1",
-          "published": "2026-11-15T18:44:15+00:00",
-          "snippet": "Hungarian police said money was recovered in forests, barns and warehouses as part of investigation into former prime minister’s ally"
         }
       ]
     },
@@ -1389,6 +1394,13 @@
   "web": {
     "tech": [
       {
+        "title": "Old Bitly Links Are Being Hijacked",
+        "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+        "score": 5,
+        "source": "Hacker News",
+        "published": "2026-11-15T22:11:43+00:00"
+      },
+      {
         "title": "clice v1.0 Released: Welcome to Modern C++",
         "url": "https://www.ykiko.me/en/articles/2105384023094834022/",
         "comments_url": "https://lobste.rs/s/9haygb/clice_v1_0_released_welcome_modern_c",
@@ -1399,16 +1411,9 @@
       {
         "title": "Your Agent Will Pick the Hackable One",
         "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
-        "score": 22,
-        "source": "Hacker News",
-        "published": "2026-11-15T21:10:39+00:00"
-      },
-      {
-        "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
-        "url": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
         "score": 39,
         "source": "Hacker News",
-        "published": "2026-11-15T20:37:28+00:00"
+        "published": "2026-11-15T21:10:39+00:00"
       },
       {
         "title": "Blog: Preventing Cross-Service UDP Loops in QUIC",
@@ -1421,7 +1426,7 @@
       {
         "title": "WebGL Flight Simulator with seed generated terrain",
         "url": "https://baron.by.dai.studio/",
-        "score": 7,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-15T20:20:05+00:00"
       },
@@ -1429,9 +1434,16 @@
         "title": "A Family Tree of Software Job Titles",
         "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
         "comments_url": "https://lobste.rs/s/6tmcin/family_tree_software_job_titles",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-15T20:00:46.503000+00:00"
+      },
+      {
+        "title": "Handwriting, as a Font",
+        "url": "https://ductus.sorenblank.com",
+        "score": 28,
+        "source": "Hacker News",
+        "published": "2026-11-15T19:42:13+00:00"
       },
       {
         "title": "Rust Declarative Macros: Organization, Scoping, and Common Use-Cases",
@@ -1452,52 +1464,44 @@
       {
         "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
         "url": "https://bruceroettgers.eu/blog/protomaps/",
-        "score": 30,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-15T19:26:22+00:00"
       },
       {
         "title": "Eclipse Mosquitto – An open source MQTT broker",
         "url": "https://github.com/eclipse-mosquitto/mosquitto",
-        "score": 44,
+        "score": 49,
         "source": "Hacker News",
         "published": "2026-11-15T18:36:40+00:00"
       },
       {
         "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
         "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
-        "score": 231,
+        "score": 254,
         "source": "Hacker News",
         "published": "2026-11-15T18:36:10+00:00"
       },
       {
         "title": "A short explainer on how El Niño works [video]",
         "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
-        "score": 115,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-15T18:23:21+00:00"
       },
       {
         "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
         "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-        "score": 98,
+        "score": 108,
         "source": "Hacker News",
         "published": "2026-11-15T17:53:31+00:00"
       },
       {
         "title": "Clice v1.0 Released: Welcome to Modern C++",
         "url": "https://ykiko.me/en/articles/2105384023094834022/",
-        "score": 52,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-15T17:22:32+00:00"
-      },
-      {
-        "title": "All AI-generated code should be Open Source",
-        "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
-        "comments_url": "https://lobste.rs/s/ek4fkg/all_ai_generated_code_should_be_open",
-        "score": 21,
-        "source": "Lobste.rs",
-        "published": "2026-11-15T16:04:01.325000+00:00"
       }
     ],
     "reddit": [
@@ -1558,28 +1562,12 @@
         "published": "2026-11-15T10:20:34+00:00"
       },
       {
-        "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal — Mark Stevens sold 4.2 million shares without a trading plan",
-        "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xww9xh/nvidia_board_director_cashed_out_1_billion_in/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-15T14:03:42+00:00"
-      },
-      {
         "title": "First drug that destroys testosterone receptors shrinks prostate tumours and eases pain in early trial",
         "url": "https://doi.org/10.1200/JCO-25-02995",
         "comments_url": "https://www.reddit.com/r/science/comments/1xx2hox/first_drug_that_destroys_testosterone_receptors/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-15T18:14:38+00:00"
-      },
-      {
-        "title": "Estonia prepares to close border with Russia after sabotage attacks",
-        "url": "https://news.err.ee/1610196794/estonia-prepares-to-close-border-with-russia-after-sabotage-attacks",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwyapl/estonia_prepares_to_close_border_with_russia/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-15T15:29:33+00:00"
       },
       {
         "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
@@ -1590,6 +1578,30 @@
         "published": "2026-11-15T20:21:16+00:00"
       },
       {
+        "title": "Nvidia board director cashed out $1 billion in stock before Jensen Huang scandal — Mark Stevens sold 4.2 million shares without a trading plan",
+        "url": "https://www.tomshardware.com/tech-industry/nvidia-board-director-cashed-out-usd1-billion-in-stock-before-jensen-huang-scandal-mark-stevens-sold-4-2-million-shares-without-a-trading-plan",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xww9xh/nvidia_board_director_cashed_out_1_billion_in/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-15T14:03:42+00:00"
+      },
+      {
+        "title": "Estonia prepares to close border with Russia after sabotage attacks",
+        "url": "https://news.err.ee/1610196794/estonia-prepares-to-close-border-with-russia-after-sabotage-attacks",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwyapl/estonia_prepares_to_close_border_with_russia/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-15T15:29:33+00:00"
+      },
+      {
+        "title": "A CRISPR therapy that edits genes inside the body, with no need to remove a patient's cells, is still working four years after treatment. It switches off a liver gene behind a rare disease that causes painful, dangerous swelling, and is poised to be the first of its kind to win FDA approval.",
+        "url": "https://www.nature.com/articles/d41586-026-03705-9",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xwt6d5/a_crispr_therapy_that_edits_genes_inside_the_body/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-15T11:25:44+00:00"
+      },
+      {
         "title": "Democrats, Independents and Republicans all became more supportive of universal basic income when told about a benefit that matched their own values, a study of 2,024 US adults found. Hearing that it promotes equality raised support across party lines among people who care about equality.",
         "url": "https://www.psypost.org/the-right-message-can-shift-support-for-universal-basic-income-across-party-lines/",
         "comments_url": "https://www.reddit.com/r/science/comments/1xx55b2/democrats_independents_and_republicans_all_became/",
@@ -1598,28 +1610,20 @@
         "published": "2026-11-15T20:00:10+00:00"
       },
       {
-        "title": "U.S. Figures Iran Still Has up to 2,500 Missiles, Countering Trump Assertions",
-        "url": "https://www.wsj.com/world/middle-east/u-s-figures-iran-still-has-up-to-2-500-missiles-countering-trump-assertions-4c6f4d67?st=WTcJHi&amp;reflink=desktopwebshare_permalink",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xwlev6/us_figures_iran_still_has_up_to_2500_missiles/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-15T03:38:55+00:00"
-      },
-      {
-        "title": "A new study found that men who use anabolic steroids are more than 3 times as likely to require prescription medication for long-term erectile dysfunction and need higher doses compared to non-users.",
-        "url": "https://www.psypost.org/steroid-users-face-triple-the-risk-of-long-term-erectile-dysfunction/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xwvpfb/a_new_study_found_that_men_who_use_anabolic/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-15T13:38:07+00:00"
-      },
-      {
         "title": "Pentagon stalls Ukraine's license to produce Patriot air defense missiles, undermining efforts to protect cities from Russian missile strikes",
         "url": "https://euromaidanpress.com/2026/11/15/pentagon-stalls-ukraines-license-to-produce-patriot-air-defense-missiles/",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xx3z2m/pentagon_stalls_ukraines_license_to_produce/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-15T19:13:15+00:00"
+      },
+      {
+        "title": "Russia massively strikes Ukrainian energy as Starshield limits hamper interceptions",
+        "url": "https://newsukraine.rbc.ua/news/russia-massively-strikes-ukrainian-energy-1794744024.html",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xx4hpg/russia_massively_strikes_ukrainian_energy_as/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-15T19:33:54+00:00"
       }
     ]
   }

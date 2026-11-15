@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-15T09:30:49.131974+00:00",
+  "last_updated": "2026-11-15T10:01:06.196970+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 257
+      "ms": 147
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 134
+      "ms": 79
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 165
+      "ms": 105
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 213
+      "ms": 46
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 214
+      "ms": 155
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 164
+      "ms": 95
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 379
+      "ms": 91
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 709
+      "ms": 138
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 111
+      "ms": 95
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 80
+      "ms": 94
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 382
+      "ms": 403
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 312
+      "ms": 184
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 213
+      "ms": 101
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 163
+      "ms": 538
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 221
+      "ms": 145
     },
     "RNZ": {
       "ok": true,
       "count": 38,
       "error": null,
-      "ms": 224
+      "ms": 56
     },
     "SCMP": {
-      "ok": true,
-      "count": 50,
-      "error": null,
-      "ms": 857
+      "ok": false,
+      "count": 0,
+      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
+      "ms": 3093
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 951
+      "ms": 522
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 557
+      "ms": 314
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 309
+      "ms": 174
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 315
+      "ms": 66
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 226
+      "ms": 148
     },
     "The Independent": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 120
+      "ms": 126
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 247
+      "ms": 137
     }
   },
   "breaking": [
-    {
-      "title": "Ukraine-Russia war latest: Zelensky says US floated Donbas proposal for Nato membership as he challenges SpaceX’s Starshield claims",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starship-b3085121.html",
-      "source": "The Independent",
-      "published": "2026-11-15T08:09:29+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/us-ukraine-ceding-donbas-nato/",
-          "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership",
-          "published": "2026-11-14T23:34:00+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "published": "2026-11-14T22:37:25+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-          "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-          "published": "2026-11-14T15:14:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
     {
       "title": "Jordan sentences three men to death over church attack",
       "url": "https://www.thehindu.com/news/international/jordan-sentences-three-men-to-death-over-church-attack/article71704395.ece",
@@ -199,39 +171,83 @@
       "consensus": 4.0
     },
     {
-      "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-      "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T07:24:53+00:00",
+      "title": "South Sudan postpones first general election from December to February",
+      "url": "http://www.africanews.com/2026/11/15/south-sudan-postpones-first-general-election-from-december-to-february/",
+      "source": "Africanews",
+      "published": "2026-11-15T08:55:00+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
-          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-          "published": "2026-11-14T23:52:00+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/south-sudan-postpones-first-national-elections-until-february/article71701304.ece",
+          "title": "South Sudan postpones first national elections until February",
+          "published": "2026-11-14T09:10:07+00:00"
         },
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-          "title": "SpaceX successfully carries out first-ever spaceship catch",
-          "published": "2026-11-14T21:32:46+00:00"
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/africa/20261114-south-sudan-postpones-first-national-elections-until-february",
+          "title": "South Sudan postpones first national elections until February",
+          "published": "2026-11-14T09:00:26+00:00"
         }
       ],
-      "consensus": 3.0
+      "consensus": 4.0
     },
     {
-      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-15T08:17:41+00:00",
-      "score": 2,
+      "title": "Israel kills Hamas commander in Gaza strike",
+      "url": "https://www.politico.eu/article/israel-kills-hamas-commander-in-gaza-strike/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-15T09:43:15+00:00",
+      "score": 3,
       "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+          "published": "2026-11-15T08:17:41+00:00"
+        },
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
           "title": "Israeli air strike kills senior Hamas commander in Gaza",
           "published": "2026-11-15T01:00:42+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
+      "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
+      "source": "The Guardian",
+      "published": "2026-11-15T08:56:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/south-korea-ai-test-cheating/",
+          "title": "South Korea probes top exam scorer after AI cheating confession",
+          "published": "2026-11-15T06:55:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/top-scorer-on-south-korean-tax-exam-confesses-to-cheating-with-ai",
+          "title": "Top scorer on South Korean tax exam confesses to cheating with AI",
+          "published": "2026-11-15T04:34:21+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Iran says it targets US radar in Bahrain. What do we know?",
+      "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-15T09:41:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/13/iran-us-radar-bahrain-sirik-hormuz",
+          "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+          "published": "2026-11-13T13:52:11+00:00"
         }
       ],
       "consensus": 2.5
@@ -253,10 +269,26 @@
       "consensus": 2.5
     },
     {
+      "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
+      "url": "https://www.thehindu.com/news/international/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province/article71704331.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T07:54:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
+          "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
+          "published": "2026-11-15T02:59:06+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Live: New Zealand Kiwis v Australia Kangaroos - Rugby League World Cup final",
       "url": "https://www.rnz.co.nz/news/sport/2610905/live-new-zealand-kiwis-v-australia-kangaroos-rugby-league-world-cup-final",
       "source": "RNZ",
-      "published": "2026-11-15T09:16:20+00:00",
+      "published": "2026-11-15T09:28:38+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -264,38 +296,6 @@
           "url": "https://www.abc.net.au/news/2026-11-15/chapman-hat-trick-jillaroos-win-rugby-league-world-cup/107387698",
           "title": "Chapman hat-trick fires Jillaroos to Rugby League World Cup glory",
           "published": "2026-11-15T07:25:02+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Drone ownership ban comes into force in Beijing over security concerns",
-      "url": "https://www.straitstimes.com/asia/east-asia/drone-ownership-ban-comes-into-force-in-beijing-over-security-concerns",
-      "source": "Straits Times",
-      "published": "2026-11-15T07:20:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/beijing-drone-ban/",
-          "title": "Drone ownership ban comes into force in Beijing over security concerns",
-          "published": "2026-11-15T06:50:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "South Korea probes top exam scorer after AI cheating confession",
-      "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/south-korea-ai-test-cheating/",
-      "source": "Japan Times",
-      "published": "2026-11-15T06:55:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/top-scorer-on-south-korean-tax-exam-confesses-to-cheating-with-ai",
-          "title": "Top scorer on South Korean tax exam confesses to cheating with AI",
-          "published": "2026-11-15T04:34:21+00:00"
         }
       ],
       "consensus": 2.0
@@ -437,22 +437,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
-      "url": "https://www.thehindu.com/news/international/saudi-led-coalition-intercepts-missiles-towards-riyadh-drones-in-eastern-province/article71704331.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T07:54:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
-          "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-          "published": "2026-11-15T02:59:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "NATO to skip a leaders' summit in Albania next year as high-level meetings are scaled back",
       "url": "https://www.thehindu.com/news/international/nato-to-skip-a-leaders-summit-in-albania-next-year-as-high-level-meetings-are-scaled-back/article71704174.ece",
       "source": "The Hindu",
@@ -549,22 +533,6 @@
       "consensus": 2.5
     },
     {
-      "title": "South Sudan postpones first national elections until February",
-      "url": "https://www.thehindu.com/news/international/south-sudan-postpones-first-national-elections-until-february/article71701304.ece",
-      "source": "The Hindu",
-      "published": "2026-11-14T09:10:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/africa/20261114-south-sudan-postpones-first-national-elections-until-february",
-          "title": "South Sudan postpones first national elections until February",
-          "published": "2026-11-14T09:00:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Airlines expect to return to full schedules by Sunday night after US nationwide ground stop, FAA says",
       "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
       "source": "Euronews",
@@ -576,6 +544,22 @@
           "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
           "title": "FAA lifts rare nationwide ground stop",
           "published": "2026-11-14T02:06:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Alice Huang: report",
+      "url": "https://www.thehindu.com/news/international/former-nvidia-ceo-jensen-huang-misled-top-lawyer-on-affair-with-alice-huang-report/article71700767.ece",
+      "source": "The Hindu",
+      "published": "2026-11-14T04:32:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
       "consensus": 2.5
@@ -629,6 +613,54 @@
       "consensus": 2.5
     },
     {
+      "title": "Ukraine-Russia war latest: Zelensky says US floated Donbas proposal for Nato membership as he challenges SpaceX’s Starshield claims",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starship-b3085121.html",
+      "source": "The Independent",
+      "published": "2026-11-15T08:09:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published": "2026-11-14T22:37:25+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+      "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T07:24:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
+          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+          "published": "2026-11-14T23:52:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Drone ownership ban comes into force in Beijing over security concerns",
+      "url": "https://www.straitstimes.com/asia/east-asia/drone-ownership-ban-comes-into-force-in-beijing-over-security-concerns",
+      "source": "Straits Times",
+      "published": "2026-11-15T07:20:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/beijing-drone-ban/",
+          "title": "Drone ownership ban comes into force in Beijing over security concerns",
+          "published": "2026-11-15T06:50:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Bahrain issues first threat alerts since September as Iran says it attacked U.S. base",
       "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-us-attack/",
       "source": "Japan Times",
@@ -672,22 +704,6 @@
           "url": "https://www.thehindu.com/sci-tech/energy-and-environment/nations-grapple-with-loss-of-15c-target-at-un-climate-summit/article71704051.ece",
           "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
           "published": "2026-11-15T03:38:13+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Top scorer in South Korea’s tax accountant exam admits to AI-assisted cheating",
-      "url": "https://www.straitstimes.com/asia/east-asia/top-scorer-in-south-koreas-tax-accountant-exam-admits-to-ai-assisted-cheating",
-      "source": "Straits Times",
-      "published": "2026-11-15T03:22:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3374467/top-tax-accountant-exam-scorer-south-korea-admits-using-ai-cheat",
-          "title": "Top tax accountant exam scorer in South Korea admits to using AI to cheat",
-          "published": "2026-11-15T03:05:05+00:00"
         }
       ],
       "consensus": 2.0
@@ -789,6 +805,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Cape Verde heads to the polls in presidential election",
+      "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+      "source": "Euronews",
+      "published": "2026-11-15T09:45:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
+          "title": "Cape verde presidential election: Neves seeks second term",
+          "published": "2026-11-13T15:42:29+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
       "title": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
       "url": "http://www.africanews.com/2026/11/13/uk-christmas-at-kew-2026-unveils-spectacular-light-trail-in-london/",
       "source": "Africanews",
@@ -885,64 +917,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Hongkongers face chilliest days of the season as cold front brings wind and rain",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374486/hongkongers-face-chilliest-days-season-cold-front-brings-wind-and-rain",
-      "source": "SCMP",
-      "published": "2026-11-15T09:27:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-      "url": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
+      "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+      "url": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-15T09:26:37+00:00",
+      "published": "2026-11-15T09:57:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What forced the US to ground all planes? A router switch, we now know",
-      "url": "https://www.aljazeera.com/news/2026/11/15/what-forced-the-us-to-ground-all-planes-a-router-switch-we-now-know?traffic_source=rss",
+      "title": "Black Caps fail to fire as India win fifth ODI",
+      "url": "https://www.rnz.co.nz/news/sport/2608764/black-caps-fail-to-fire-as-india-win-fifth-odi",
+      "source": "RNZ",
+      "published": "2026-11-15T09:52:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Protesters condemn US policies as ASEAN summit begins in Manila",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-15T09:17:49+00:00",
+      "published": "2026-11-15T09:49:43+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "‘Israeli soldiers dragged me out of my West Bank home then beat and spat on me in nightmare six-hour ordeal’",
-      "url": "https://www.independent.co.uk/news/world/middle-east/palestinian-journalist-abused-west-bank-israel-soldiers-b3084519.html",
-      "source": "The Independent",
-      "published": "2026-11-15T09:16:10+00:00",
+      "title": "Iran strikes Bahrain base, repeats path to U.S. deal remains open",
+      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-base-us-deal/",
+      "source": "Japan Times",
+      "published": "2026-11-15T09:49:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump rages at judge holding up DC golf course – but remains silent on flight chaos",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-judge-ana-reyes-dc-golf-course-b3085079.html",
-      "source": "The Independent",
-      "published": "2026-11-15T09:02:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Volume of illegal tobacco shrinks after years of rapid growth",
-      "url": "https://www.abc.net.au/news/2026-11-15/illicit-tobacco-market-shrinks/107387590",
-      "source": "ABC Australia",
-      "published": "2026-11-15T09:00:30+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China calls for AI cooperation with the US ahead of Shenzhen Apec summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374484/china-calls-ai-cooperation-us-ahead-shenzhen-apec-summit",
-      "source": "SCMP",
-      "published": "2026-11-15T09:00:10+00:00",
+      "title": "SpaceX makes rocketry history by recapturing massive reusable rocketship",
+      "url": "https://www.france24.com/en/spacex-makes-rocketry-history-by-recapturing-massive-reusable-rocketship",
+      "source": "France24",
+      "published": "2026-11-15T09:42:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1092,10 +1106,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 65556.69,
+        "price": 65304.2,
         "currency": "USD",
-        "change": 1436.91,
-        "change_percent": 2.24,
+        "change": 1184.42,
+        "change_percent": 1.85,
         "name": "Bitcoin"
       }
     ],
@@ -1396,10 +1410,17 @@
         "published": "2026-11-15T09:15:40.744000+00:00"
       },
       {
+        "title": "Why did some Apollo missions carry a grenade launcher?",
+        "url": "https://space.stackexchange.com/questions/37775",
+        "score": 8,
+        "source": "Hacker News",
+        "published": "2026-11-15T09:06:43+00:00"
+      },
+      {
         "title": "Anthropomorphic Software",
         "url": "https://aspiz.uk/wiki/AnthropomorphicSoftware",
         "comments_url": "https://lobste.rs/s/ofic7z/anthropomorphic_software",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-15T08:05:45.227000+00:00"
       },
@@ -1422,21 +1443,21 @@
       {
         "title": "Disk encryption on NetBSD – achieving secrecy",
         "url": "https://netbsd.org/~nia/disk-encrypt/",
-        "score": 23,
+        "score": 28,
         "source": "Hacker News",
         "published": "2026-11-15T05:29:54+00:00"
       },
       {
         "title": "Kiri – The Modern Container Runtime",
         "url": "https://runkiri.com/",
-        "score": 41,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-15T04:40:41+00:00"
       },
       {
         "title": "Show HN: Gawain – Require type hints on all Python variables",
         "url": "https://github.com/matheuzgomes/gawain",
-        "score": 47,
+        "score": 51,
         "source": "Hacker News",
         "published": "2026-11-15T04:39:25+00:00"
       },
@@ -1451,7 +1472,7 @@
       {
         "title": "My favourite modern NES games",
         "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-        "score": 75,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-15T02:41:25+00:00"
       },
@@ -1459,7 +1480,7 @@
         "title": "25 of my favourite modern NES games",
         "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
         "comments_url": "https://lobste.rs/s/w9j7xs/25_my_favourite_modern_nes_games",
-        "score": 20,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-15T02:40:40.008000+00:00"
       },
@@ -1467,7 +1488,7 @@
         "title": "Reintroducing Spaces",
         "url": "https://dholms.leaflet.pub/3mu3p3ldwrc26",
         "comments_url": "https://lobste.rs/s/dwd6xu/reintroducing_spaces",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-15T02:34:44.343000+00:00"
       },
@@ -1482,23 +1503,16 @@
       {
         "title": "Court denies motion to dismiss DRAM price fixing case",
         "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-        "score": 130,
+        "score": 147,
         "source": "Hacker News",
         "published": "2026-11-15T01:18:36+00:00"
       },
       {
         "title": "How did Woz write the Apple 1 BASIC before building the computer?",
         "url": "https://retrocomputing.stackexchange.com/questions/17957",
-        "score": 208,
+        "score": 218,
         "source": "Hacker News",
         "published": "2026-11-14T22:22:49+00:00"
-      },
-      {
-        "title": "SpaceX catches the Starship to end Flight 15",
-        "url": "https://www.spacex.com/launches/starship-flight-15",
-        "score": 1189,
-        "source": "Hacker News",
-        "published": "2026-11-14T21:22:24+00:00"
       }
     ],
     "reddit": [
@@ -1543,20 +1557,20 @@
         "published": "2026-11-15T03:38:55+00:00"
       },
       {
-        "title": "Johnson says ‘we don’t really need any investigation’ on FAA ground stop",
-        "url": "https://thehill.com/policy/transportation/6220851-mike-johnson-faa-ground-stop/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xwelwa/johnson_says_we_dont_really_need_any/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-14T22:04:08+00:00"
-      },
-      {
         "title": "In a randomized trial of 255 children with ADHD, stimulant medication cut classroom rule-breaking by 61% and behavioral therapy cut it by 37%, but common classroom accommodations like extra time, frequent breaks, standing desks and quiet spaces did not improve behavior or quiz scores.",
         "url": "https://www.eurekalert.org/news-releases/1151884",
         "comments_url": "https://www.reddit.com/r/science/comments/1xwe32y/in_a_randomized_trial_of_255_children_with_adhd/",
         "score": null,
         "source": "/r/science",
         "published": "2026-11-14T21:40:35+00:00"
+      },
+      {
+        "title": "Johnson says ‘we don’t really need any investigation’ on FAA ground stop",
+        "url": "https://thehill.com/policy/transportation/6220851-mike-johnson-faa-ground-stop/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwelwa/johnson_says_we_dont_really_need_any/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-14T22:04:08+00:00"
       },
       {
         "title": "The Biden administration created Direct File, a program of free online tax filing that exists in all other advanced economies. In doing so, it overcame a traditional US government reliance on contractors and opposition of the tax preparation industry. Trump and Musk destroyed it upon taking office.",
@@ -1583,6 +1597,14 @@
         "published": "2026-11-15T04:33:14+00:00"
       },
       {
+        "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
+        "url": "https://www.bbc.com/news/articles/ckjwj03w4w0qo",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xwpvm0/hungarian_authorities_uncover_20m_during_probe_of/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-15T07:58:14+00:00"
+      },
+      {
         "title": "Nvidia deliberately kept GPU prices high through circular financing deals, report claims",
         "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xwaeah/nvidia_deliberately_kept_gpu_prices_high_through/",
@@ -1599,14 +1621,6 @@
         "published": "2026-11-14T11:00:09+00:00"
       },
       {
-        "title": "Ukraine’s FREYJA Anti-Ballistic Missile Ready as Denmark Completes Radar Component",
-        "url": "https://www.kyivpost.com/post/90129",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwfl42/ukraines_freyja_antiballistic_missile_ready_as/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-14T22:48:51+00:00"
-      },
-      {
         "title": "France among five major powers to represent EU in Ukraine talks",
         "url": "https://www.france24.com/en/europe/20261113-europe-to-send-diplomats-from-across-the-continent-to-ukraine-peace-talks",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xwclb5/france_among_five_major_powers_to_represent_eu_in/",
@@ -1615,12 +1629,12 @@
         "published": "2026-11-14T20:35:00+00:00"
       },
       {
-        "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
-        "url": "https://www.bbc.com/news/articles/ckjwj03w4w0qo",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xwpvm0/hungarian_authorities_uncover_20m_during_probe_of/",
+        "title": "Ukraine’s FREYJA Anti-Ballistic Missile Ready as Denmark Completes Radar Component",
+        "url": "https://www.kyivpost.com/post/90129",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwfl42/ukraines_freyja_antiballistic_missile_ready_as/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-15T07:58:14+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-14T22:48:51+00:00"
       }
     ]
   }

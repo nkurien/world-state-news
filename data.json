@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-15T08:01:00.412773+00:00",
+  "last_updated": "2026-11-15T08:30:50.485916+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 135
+      "ms": 488
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 200
+      "ms": 311
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 212
+      "ms": 440
     },
     "BBC News": {
       "ok": true,
-      "count": 23,
+      "count": 20,
       "error": null,
-      "ms": 55
+      "ms": 278
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 262
+      "ms": 491
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 175
+      "ms": 404
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 44
+      "ms": 554
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 328
+      "ms": 578
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 300
+      "ms": 157
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 384
+      "ms": 230
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 235
+      "ms": 415
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 251
+      "ms": 404
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 255
+      "ms": 446
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 93
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 249
+      "ms": 381
     },
     "RNZ": {
       "ok": true,
       "count": 38,
       "error": null,
-      "ms": 385
+      "ms": 314
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 507
+      "ms": 801
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 931
+      "ms": 698
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 726
+      "ms": 672
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 224
+      "ms": 508
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 219
+      "ms": 264
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 152
+      "ms": 286
     },
     "The Independent": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 86
+      "ms": 195
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 149
+      "ms": 259
     }
   },
   "breaking": [
+    {
+      "title": "Ukraine-Russia war latest: Zelensky says US floated Donbas proposal for Nato membership as he challenges SpaceX’s Starshield claims",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-starship-b3085121.html",
+      "source": "The Independent",
+      "published": "2026-11-15T08:09:29+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/us-ukraine-ceding-donbas-nato/",
+          "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership",
+          "published": "2026-11-14T23:34:00+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published": "2026-11-14T22:37:25+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
+          "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
+          "published": "2026-11-14T15:14:00+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
     {
       "title": "Bahrain issues first threat alerts since September as Iran says it attacked U.S. base",
       "url": "https://www.japantimes.co.jp/news/2026/11/15/world/iran-bahrain-us-attack/",
@@ -177,28 +205,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Benjamin Netanyahu calls for Israeli unity government, Eisenkot dismisses ‘tricks’",
-      "url": "https://www.thehindu.com/news/international/benjamin-netanyahu-calls-for-israeli-unity-government-eisenkot-dismisses-tricks/article71704005.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T05:21:13+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss",
-          "title": "Netanyahu sends plea to Eisenkot for unity government",
-          "published": "2026-11-15T01:33:11+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
-          "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
-          "published": "2026-11-14T20:35:22+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "U.S. suggested Kyiv cede land to Russia in exchange for joining NATO, says Zelenskyy",
       "url": "https://www.thehindu.com/news/international/us-suggested-kyiv-cede-land-to-russia-in-exchange-for-joining-nato-says-zelenskyy/article71704053.ece",
       "source": "The Hindu",
@@ -219,6 +225,44 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+      "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T07:24:53+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
+          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
+          "published": "2026-11-14T23:52:00+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
+          "title": "SpaceX successfully carries out first-ever spaceship catch",
+          "published": "2026-11-14T21:32:46+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-15T08:17:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/israeli-air-strike-kills-senior-hamas-commander-in-gaza?traffic_source=rss",
+          "title": "Israeli air strike kills senior Hamas commander in Gaza",
+          "published": "2026-11-15T01:00:42+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Australia dispatch Kiwi Ferns to retain Rugby League World Cup women's crown",
@@ -267,31 +311,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Philippines, Australia sign updated defence agreement",
-      "url": "https://www.channelnewsasia.com/world/philippines-australia-sign-updated-defence-agreement-6552726",
-      "source": "CNA",
-      "published": "2026-11-15T06:38:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china",
-          "title": "Philippines, Australia sign defence pact with eye on China",
-          "published": "2026-11-15T04:49:33+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Sudden ice, high costs: are China’s Arctic shipping ambitions at risk after traffic surge?",
-      "url": "https://www.scmp.com/economy/china-economy/article/3374355/sudden-ice-high-costs-are-chinas-arctic-shipping-ambitions-risk-after-traffic-surge",
-      "source": "SCMP",
-      "published": "2026-11-15T08:00:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -364,32 +383,26 @@
       "consensus": 5.5
     },
     {
-      "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership",
-      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/us-ukraine-ceding-donbas-nato/",
-      "source": "Japan Times",
-      "published": "2026-11-14T23:34:00+00:00",
-      "score": 4,
+      "title": "Benjamin Netanyahu calls for Israeli unity government, Eisenkot dismisses ‘tricks’",
+      "url": "https://www.thehindu.com/news/international/benjamin-netanyahu-calls-for-israeli-unity-government-eisenkot-dismisses-tricks/article71704005.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T05:21:13+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "published": "2026-11-14T22:37:25+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/netanyahu-sends-plea-to-eisenkot-for-unity-government?traffic_source=rss",
+          "title": "Netanyahu sends plea to Eisenkot for unity government",
+          "published": "2026-11-15T01:33:11+00:00"
         },
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-          "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-          "published": "2026-11-14T15:14:00+00:00"
-        },
-        {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
-          "published": "2026-11-14T10:48:19+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261114-netanyahu-renews-call-for-israeli-government-unity-as-eisenkot-dismisses-tricks",
+          "title": "Netanyahu renews call for Israeli unity government as Eisenkot dismisses 'tricks'",
+          "published": "2026-11-14T20:35:22+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 4.0
     },
     {
       "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
@@ -456,28 +469,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-      "url": "https://www.thehindu.com/news/international/spacexs-starship-returns-from-orbit-and-is-captured-by-launch-pad-arms-in-a-dramatic-first/article71703046.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T07:24:53+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
-          "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-          "published": "2026-11-14T23:52:00+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-          "title": "SpaceX successfully carries out first-ever spaceship catch",
-          "published": "2026-11-14T21:32:46+00:00"
-        }
-      ],
-      "consensus": 3.0
     },
     {
       "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province",
@@ -656,6 +647,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Philippines, Australia sign updated defence agreement",
+      "url": "https://www.channelnewsasia.com/world/philippines-australia-sign-updated-defence-agreement-6552726",
+      "source": "CNA",
+      "published": "2026-11-15T06:38:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china",
+          "title": "Philippines, Australia sign defence pact with eye on China",
+          "published": "2026-11-15T04:49:33+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
       "url": "https://www.channelnewsasia.com/sustainability/nations-grapple-loss-15degc-target-un-climate-summit-6552556",
       "source": "CNA",
@@ -763,22 +770,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/us-air-force-captain-arrested-for-alleged-drink-driving-in-okinawa",
           "title": "US Air Force captain arrested for alleged drink driving in Okinawa",
           "published": "2026-11-14T08:10:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Musk ordered to preserve records on Ukraine’s Starlink access by Democratic US senators",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374425/musk-ordered-preserve-records-ukraines-starlink-access-democratic-us-senators",
-      "source": "SCMP",
-      "published": "2026-11-14T05:31:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democratic-us-senators-order-musk-to-preserve-records-on-ukraine-starlink-access/article71700765.ece",
-          "title": "Democratic U.S. senators order Musk to preserve records on Ukraine Starlink access",
-          "published": "2026-11-14T03:24:31+00:00"
         }
       ],
       "consensus": 2.0
@@ -896,64 +887,73 @@
       "consensus": 1.5
     },
     {
-      "title": "Cape Verde could make election history with first female president",
-      "url": "https://www.france24.com/en/africa/20261115-cape-verde-could-make-election-history-with-first-female-president",
-      "source": "France24",
-      "published": "2026-11-15T07:56:14+00:00",
+      "title": "Homophobic graffiti sprayed on Sydney MP's office under investigation",
+      "url": "https://www.abc.net.au/news/2026-11-15/nsw-police-investigate-homophobic-graffiti-alex-greenwich-office/107387850",
+      "source": "ABC Australia",
+      "published": "2026-11-15T08:15:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "ASEAN reaffirms engagement with Myanmar, seeks to advance peace plan",
-      "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/asean-manila-summit-myanmar/",
-      "source": "Japan Times",
-      "published": "2026-11-15T07:43:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan stun Brazil 3-2 in stoppage time as Ancelotti, Raphinha sent off",
-      "url": "https://www.aljazeera.com/sports/2026/11/15/japan-stun-brazil-3-2-in-stoppage-time-as-ancelotti-raphinha-sent-off?traffic_source=rss",
+      "title": "Jordan sentences three men to death by hanging after deadly church attack",
+      "url": "https://www.aljazeera.com/news/2026/11/15/jordan-sentences-three-men-to-death-by-hanging-after-deadly-church-attack?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-15T07:30:21+00:00",
+      "published": "2026-11-15T08:15:04+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "NZ Nurses Organisation claim Auckland hospital patients unable to vote",
-      "url": "https://www.rnz.co.nz/news/health/2610730/nz-nurses-organisation-claim-auckland-hospital-patients-unable-to-vote",
-      "source": "RNZ",
-      "published": "2026-11-15T07:27:20+00:00",
+      "title": "Geopolitics won’t affect Interpol assembly, ‘inevitable’ police cooperation: Joe Chow",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374483/geopolitics-wont-affect-interpol-assembly-inevitable-police-cooperation-joe-chow",
+      "source": "SCMP",
+      "published": "2026-11-15T08:09:50+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Albanese stands by Ukraine but won't rule out photo with Putin",
-      "url": "https://www.abc.net.au/news/2026-11-15/albanese-will-not-rule-out-apec-photo-with-putin/107387814",
+      "title": "Elderly woman found dead after blaze in cluttered Wong Tai Sin flat",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3374482/elderly-woman-found-dead-after-blaze-cluttered-wong-tai-sin-flat",
+      "source": "SCMP",
+      "published": "2026-11-15T08:08:49+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather",
+      "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-15T08:07:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jillaroos' World Cup win is more of the same old story",
+      "url": "https://www.abc.net.au/news/2026-11-15/womens-rugby-league-world-cup-final-australia-new-zealand/107387716",
       "source": "ABC Australia",
-      "published": "2026-11-15T07:23:36+00:00",
+      "published": "2026-11-15T08:04:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Weekend deaths push WA road toll to grim record high",
-      "url": "https://www.abc.net.au/news/2026-11-15/wa-road-toll-rises-record-high/107387756",
-      "source": "ABC Australia",
-      "published": "2026-11-15T07:20:15+00:00",
+      "title": "China’s upgraded VT-4B export tank gets fourth-gen Type 100 tech ahead of Zhuhai show",
+      "url": "https://www.scmp.com/news/china/military/article/3374478/chinas-upgraded-vt-4b-export-tank-gets-fourth-gen-type-100-tech-ahead-zhuhai-show",
+      "source": "SCMP",
+      "published": "2026-11-15T08:01:49+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Cambodian PM Hun Manet calls for Francophone mediation network amid border tensions",
-      "url": "https://www.straitstimes.com/asia/se-asia/cambodian-pm-hun-manet-calls-for-francophone-mediation-network-amid-border-tensions",
-      "source": "Straits Times",
-      "published": "2026-11-15T07:15:00+00:00",
+      "title": "Sudden ice, high costs: are China’s Arctic shipping ambitions at risk after traffic surge?",
+      "url": "https://www.scmp.com/economy/china-economy/article/3374355/sudden-ice-high-costs-are-chinas-arctic-shipping-ambitions-risk-after-traffic-surge",
+      "source": "SCMP",
+      "published": "2026-11-15T08:00:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1103,10 +1103,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 63926.06,
+        "price": 64552.84,
         "currency": "USD",
-        "change": -193.72,
-        "change_percent": -0.3,
+        "change": 433.06,
+        "change_percent": 0.68,
         "name": "Bitcoin"
       }
     ],
@@ -1201,22 +1201,22 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "A sunny winter break in wild Madeira",
+          "url": "https://theweek.com/culture-life/travel/a-sunny-winter-break-in-wild-madeira",
+          "published": "2026-11-15T08:00:00+00:00",
+          "snippet": "Plus Narnia’s roots in Northern Ireland and Belgium’s beautiful city of design"
+        },
+        {
+          "title": "The wineries and ancient wonders of Ningxia",
+          "url": "https://theweek.com/culture-life/travel/the-wineries-and-ancient-wonders-of-ningxia",
+          "published": "2026-11-15T08:00:00+00:00",
+          "snippet": "Impressive landscapes of a relatively unvisited region of northern China"
+        },
+        {
           "title": "Iran: will Trump resume the war?",
           "url": "https://theweek.com/world-news/iran-will-trump-resume-the-war",
           "published": "2026-11-15T07:20:00+00:00",
           "snippet": "There are few attractive options for the embattled president to extract himself from a wildly unpopular conflict"
-        },
-        {
-          "title": "Cop31: a bleak outlook?",
-          "url": "https://theweek.com/environment/cop31-a-bleak-outlook",
-          "published": "2026-11-15T07:05:00+00:00",
-          "snippet": "Annual climate conference comes as cost of living concerns have pushed the environment down the agenda in many participating countries"
-        },
-        {
-          "title": "After the euphoria: what now for the Democrats?",
-          "url": "https://theweek.com/politics/after-the-euphoria-what-now-for-the-democrats",
-          "published": "2026-11-14T07:15:00+00:00",
-          "snippet": "The midterm elections have upended the balance of power in Washington D.C. – but rebuke of Trump must not be mistaken for endorsement of the opposition"
         }
       ]
     },
@@ -1393,11 +1393,20 @@
           "published": "2026-11-09T08:30:00+00:00",
           "snippet": "Startups like MiniMax and Moonshot are setting up U.S. outposts, but massive pay gaps, weaker prestige, and national security tensions make luring talent away..."
         }
-      ]
+      ],
+      "stale": true
     }
   ],
   "web": {
     "tech": [
+      {
+        "title": "Anthropomorphic Software",
+        "url": "https://aspiz.uk/wiki/AnthropomorphicSoftware",
+        "comments_url": "https://lobste.rs/s/ofic7z/anthropomorphic_software",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-15T08:05:45.227000+00:00"
+      },
       {
         "title": "FreeBSD bhyve Live Migration: Moving VMs Between Hosts",
         "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
@@ -1417,23 +1426,16 @@
       {
         "title": "Disk encryption on NetBSD – achieving secrecy",
         "url": "https://netbsd.org/~nia/disk-encrypt/",
-        "score": 7,
+        "score": 11,
         "source": "Hacker News",
         "published": "2026-11-15T05:29:54+00:00"
       },
       {
         "title": "Show HN: Gawain – Require type hints on all Python variables",
         "url": "https://github.com/matheuzgomes/gawain",
-        "score": 37,
+        "score": 42,
         "source": "Hacker News",
         "published": "2026-11-15T04:39:25+00:00"
-      },
-      {
-        "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
-        "url": "https://github.com/Tthanh2k6/turbo-browser-mcp",
-        "score": 29,
-        "source": "Hacker News",
-        "published": "2026-11-15T04:09:11+00:00"
       },
       {
         "title": "Periodic-Oriented Programming for FIRST Robotics",
@@ -1446,7 +1448,7 @@
       {
         "title": "My favourite modern NES games",
         "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
-        "score": 45,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-15T02:41:25+00:00"
       },
@@ -1454,7 +1456,7 @@
         "title": "25 of my favourite modern NES games",
         "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
         "comments_url": "https://lobste.rs/s/w9j7xs/25_my_favourite_modern_nes_games",
-        "score": 13,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-15T02:40:40.008000+00:00"
       },
@@ -1469,7 +1471,7 @@
       {
         "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
         "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-        "score": 204,
+        "score": 211,
         "source": "Hacker News",
         "published": "2026-11-15T02:00:54+00:00"
       },
@@ -1477,35 +1479,35 @@
         "title": "Parsing nested lists in BQN",
         "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
         "comments_url": "https://lobste.rs/s/nbjckz/parsing_nested_lists_bqn",
-        "score": 6,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-15T01:59:26.268000+00:00"
       },
       {
         "title": "Court denies motion to dismiss DRAM price fixing case",
         "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-        "score": 79,
+        "score": 97,
         "source": "Hacker News",
         "published": "2026-11-15T01:18:36+00:00"
       },
       {
         "title": "How did Woz write the Apple 1 BASIC before building the computer?",
         "url": "https://retrocomputing.stackexchange.com/questions/17957",
-        "score": 194,
+        "score": 199,
         "source": "Hacker News",
         "published": "2026-11-14T22:22:49+00:00"
       },
       {
         "title": "SpaceX catches the Starship to end Flight 15",
         "url": "https://www.spacex.com/launches/starship-flight-15",
-        "score": 1110,
+        "score": 1138,
         "source": "Hacker News",
         "published": "2026-11-14T21:22:24+00:00"
       },
       {
         "title": "A family tree of software job titles",
         "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-        "score": 281,
+        "score": 293,
         "source": "Hacker News",
         "published": "2026-11-14T17:45:19+00:00"
       }
@@ -1592,6 +1594,14 @@
         "published": "2026-11-15T04:33:14+00:00"
       },
       {
+        "title": "Nvidia deliberately kept GPU prices high through circular financing deals, report claims",
+        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwaeah/nvidia_deliberately_kept_gpu_prices_high_through/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-14T19:02:48+00:00"
+      },
+      {
         "title": "Ukraine’s FREYJA Anti-Ballistic Missile Ready as Denmark Completes Radar Component",
         "url": "https://www.kyivpost.com/post/90129",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwfl42/ukraines_freyja_antiballistic_missile_ready_as/",
@@ -1600,12 +1610,12 @@
         "published": "2026-11-14T22:48:51+00:00"
       },
       {
-        "title": "Nvidia deliberately kept GPU prices high through circular financing deals, report claims",
-        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xwaeah/nvidia_deliberately_kept_gpu_prices_high_through/",
+        "title": "Finland rejects ‘outrageous’ reported Russian demand to leave NATO",
+        "url": "https://tvpworld.com/96477712/finland-calls-reported-russian-nato-exit-demand-outrageous",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xwpcck/finland_rejects_outrageous_reported_russian/",
         "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-14T19:02:48+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-15T07:24:05+00:00"
       },
       {
         "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
@@ -1622,14 +1632,6 @@
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-14T20:35:00+00:00"
-      },
-      {
-        "title": "Iran Attacks Bahrain as Conflict Escalates",
-        "url": "https://www.wsj.com/world/middle-east/iran-attacks-bahrain-as-conflict-escalates-62ffd1b3",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xwn6p9/iran_attacks_bahrain_as_conflict_escalates/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-15T05:16:19+00:00"
       }
     ]
   }

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-15T03:30:47.733784+00:00",
+  "last_updated": "2026-11-15T04:01:07.415852+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 381
+      "ms": 116
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 276
+      "ms": 46
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 352
+      "ms": 40
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 279
+      "ms": 36
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 218
+      "ms": 80
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 247
+      "ms": 93
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 675
+      "ms": 122
     },
     "El País": {
       "ok": true,
-      "count": 56,
+      "count": 51,
       "error": null,
-      "ms": 405
+      "ms": 205
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 144
+      "ms": 302
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 160
+      "ms": 119
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 340
+      "ms": 287
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 182
+      "ms": 261
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 268
+      "ms": 100
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 142
+      "ms": 151
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 76
+      "ms": 152
     },
     "RNZ": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 364
+      "ms": 51
     },
     "SCMP": {
-      "ok": true,
-      "count": 50,
-      "error": null,
-      "ms": 603
+      "ok": false,
+      "count": 0,
+      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
+      "ms": 3126
     },
     "Semafor": {
       "ok": true,
       "count": 269,
       "error": null,
-      "ms": 513
+      "ms": 539
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 606
+      "ms": 297
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 294
+      "ms": 126
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 216
+      "ms": 106
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 249
+      "ms": 95
     },
     "The Independent": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 175
+      "ms": 209
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 207
+      "ms": 114
     }
   },
   "breaking": [
@@ -152,7 +152,7 @@
       "title": "Benjamin Netanyahu calls for Israeli unity government, Eisenkot dismisses ‘tricks’",
       "url": "https://www.thehindu.com/news/international/benjamin-netanyahu-calls-for-israeli-unity-government-eisenkot-dismisses-tricks/article71704005.ece",
       "source": "The Hindu",
-      "published": "2026-11-15T02:29:30+00:00",
+      "published": "2026-11-15T03:33:46+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -225,44 +225,37 @@
       "consensus": 2.5
     },
     {
-      "title": "Top scorer in South Korea’s tax accountant exam admits to AI-assisted cheating",
-      "url": "https://www.straitstimes.com/asia/east-asia/top-scorer-in-south-koreas-tax-accountant-exam-admits-to-ai-assisted-cheating",
-      "source": "Straits Times",
-      "published": "2026-11-15T03:22:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3374467/top-tax-accountant-exam-scorer-south-korea-admits-using-ai-cheat",
-          "title": "Top tax accountant exam scorer in South Korea admits to using AI to cheat",
-          "published": "2026-11-15T03:05:05+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "Anthony Albanese apologises for hot-mic gaffe after Coalition criticises ‘locker-room talk’",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/15/anthony-albanese-apologises-for-hot-mic-gaffe-after-coalition-criticises-locker-room-talk",
+      "source": "The Guardian",
+      "published": "2026-11-15T03:49:21+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Liberals announce plans for teen prison bootcamp for young offenders",
-      "url": "https://www.abc.net.au/news/2026-11-15/dhurringile-liberals-jess-wilson-crime-bootcamp/107387262",
+      "title": "Monkey attacks woman inside residential complex in India",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/monkey-attacks-woman-inside-residential-complex-in-india?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-15T03:39:39+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Central coast man in critical condition after 'blue sky' lightning strike",
+      "url": "https://www.abc.net.au/news/2026-11-15/ettalong-lightning-strike-man-in-critical-condition/107387304",
       "source": "ABC Australia",
-      "published": "2026-11-15T03:18:48+00:00",
+      "published": "2026-11-15T03:31:47+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Malaysia probing alleged Nvidia AI chip diversion since April 2025: Home Minister",
-      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-probing-alleged-nvidia-ai-chip-diversion-since-april-2025-home-minister",
-      "source": "Straits Times",
-      "published": "2026-11-15T03:06:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "UBS unveils new West Kowloon hub to tap Greater Bay Area wealth",
-      "url": "https://www.scmp.com/business/companies/article/3374426/ubs-unveils-new-west-kowloon-hub-tap-greater-bay-area-wealth",
-      "source": "SCMP",
-      "published": "2026-11-15T03:00:10+00:00",
+      "title": "Italian artist reimagines Madonna paintings to expose Gaza’s pain",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/aje-onl-nf_italian-artist-rips-madonna-painting-to-reveal-gaza-141126?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-15T03:30:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -310,38 +303,38 @@
       "consensus": 7.5
     },
     {
-      "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership",
-      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/us-ukraine-ceding-donbas-nato/",
-      "source": "Japan Times",
-      "published": "2026-11-14T23:34:00+00:00",
+      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
+      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
+      "source": "France24",
+      "published": "2026-11-14T13:15:42+00:00",
       "score": 5,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "published": "2026-11-14T22:37:25+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
+          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
+          "published": "2026-11-14T03:09:21+00:00"
         },
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3374450/zelensky-says-us-floated-idea-ukraine-ceding-donbas-nato-membership",
-          "title": "Zelensky says US floated idea of Ukraine ceding Donbas for Nato membership",
-          "published": "2026-11-14T15:14:00+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
+          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+          "published": "2026-11-14T02:12:12+00:00"
         },
         {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
-          "published": "2026-11-14T10:48:19+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
+          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+          "published": "2026-11-13T21:06:41+00:00"
         },
         {
           "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
-          "title": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
-          "published": "2026-11-14T10:35:08+00:00"
+          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
+          "published": "2026-11-13T21:04:32+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 6.0
     },
     {
       "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
@@ -378,60 +371,54 @@
       "consensus": 5.5
     },
     {
-      "title": "USA: All passengers survive after tanker hits docked river cruise ship in New Orleans",
-      "url": "https://www.france24.com/en/usa-all-passengers-survive-after-tanker-hits-docked-river-cruise-ship-in-new-orleans",
-      "source": "France24",
-      "published": "2026-11-14T13:15:42+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/tanker-cruise-boat-collision-us-new-orleans-6551141",
-          "title": "Tanker hits docked river cruise boat in New Orleans, but no fatalities",
-          "published": "2026-11-14T03:09:21+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/new-orleans-usa-tanker-ship-river-cruise-crash-updates/article71699607.ece",
-          "title": "All passengers, crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-          "published": "2026-11-14T02:12:12+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/tanker-hits-cruise-boat-new-orleans-mississippi-river-9.7421309?cmp=rss",
-          "title": "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
-          "published": "2026-11-13T21:06:41+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "New Orleans port sues for control of China-linked tanker that crashed into cruise ship",
-      "url": "https://www.cbc.ca/news/world/new-orleans-tanker-cruise-ship-chinese-ownership-sue-9.7422329?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-14T20:08:07+00:00",
+      "title": "U.S. floated idea of Ukraine ceding Donbas for NATO membership",
+      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/us-ukraine-ceding-donbas-nato/",
+      "source": "Japan Times",
+      "published": "2026-11-14T23:34:00+00:00",
       "score": 4,
       "other_sources": [
         {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
-          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
-          "published": "2026-11-14T19:14:33+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "published": "2026-11-14T22:37:25+00:00"
         },
         {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
-          "published": "2026-11-13T21:31:00+00:00"
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/us-suggested-ukraine-could-give-up-donbas-for-nato-membership-zelenskyy-says/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "US suggested Ukraine could give up Donbas for NATO membership, Zelenskyy says",
+          "published": "2026-11-14T10:48:19+00:00"
         },
         {
           "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-          "title": "'Miracle on the Mississippi': All passengers rescued after tanker collides with cruise ship in New Orleans",
-          "published": "2026-11-13T21:04:32+00:00"
+          "url": "https://www.euronews.com/2026/11/14/us-floats-ukraine-ceding-land-to-russia-in-exchange-for-nato-membership-zelenskyy",
+          "title": "US floats Ukraine ceding land to Russia in exchange for NATO membership: Zelenskyy",
+          "published": "2026-11-14T10:35:08+00:00"
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
+      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
+      "source": "Euronews",
+      "published": "2026-11-14T06:56:20+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece",
+          "title": "U.S. flights resume after hours-long outage as FAA lifts nationwide ground stop",
+          "published": "2026-11-14T02:41:10+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+          "title": "FAA lifts rare nationwide ground stop",
+          "published": "2026-11-14T02:06:24+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Iran says it struck U.S. military radar in Bahrain",
@@ -473,6 +460,28 @@
           "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
           "title": "Philippines wins first Eurovision Song Contest Asia",
           "published": "2026-11-14T18:17:58+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "New Orleans port sues for control of China-linked tanker that crashed into cruise ship",
+      "url": "https://www.cbc.ca/news/world/new-orleans-tanker-cruise-ship-chinese-ownership-sue-9.7422329?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-14T20:08:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+          "published": "2026-11-14T19:14:33+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Tanker collides with cruise ship on Mississippi in New Orleans",
+          "published": "2026-11-13T21:31:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -532,22 +541,6 @@
       "consensus": 2.5
     },
     {
-      "title": "US blames system upgrade for longest nationwide FAA ground stop since 9/11",
-      "url": "https://www.aljazeera.com/news/2026/11/14/us-blames-system-upgrade-for-longest-nationwide-faa-ground-stop-since-9?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-14T18:02:53+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "U.S. proposes Ukraine cede territory in exchange for joining NATO: Zelensky",
       "url": "https://www.thehindu.com/news/international/us-proposes-ukraine-cede-territory-in-exchange-for-joining-nato-zelensky/article71701653.ece",
       "source": "The Hindu",
@@ -575,22 +568,6 @@
           "url": "https://www.rfi.fr/en/africa/20261114-south-sudan-postpones-first-national-elections-until-february",
           "title": "South Sudan postpones first national elections until February",
           "published": "2026-11-14T09:00:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Passengers continue to face delays and cancellations after US lifts nationwide ground stop",
-      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
-      "source": "Euronews",
-      "published": "2026-11-14T06:56:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/all-departing-us-flights-grounded-due-to-communication-outage/article71700667.ece",
-          "title": "U.S. flights resume after hours-long outage as FAA lifts nationwide ground stop",
-          "published": "2026-11-14T02:41:10+00:00"
         }
       ],
       "consensus": 2.5
@@ -676,6 +653,22 @@
       "consensus": 2.5
     },
     {
+      "title": "U.S. suggested Kyiv cede land to Russia in exchange for joining NATO, says Zelenskyy",
+      "url": "https://www.thehindu.com/news/international/us-suggested-kyiv-cede-land-to-russia-in-exchange-for-joining-nato-says-zelenskyy/article71704053.ece",
+      "source": "The Hindu",
+      "published": "2026-11-15T03:36:45+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-suggested-kyiv-cede-land-russia-in-exchange-joining-nato-zelenskyy-says-6551616",
+          "title": "US suggested Kyiv cede land to Russia in exchange for joining NATO, Zelenskyy says",
+          "published": "2026-11-14T11:11:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Global powers converge on Manila as ASEAN summit kicks off",
       "url": "https://www.straitstimes.com/asia/se-asia/global-powers-converge-on-manila-as-asean-summit-kicks-off",
       "source": "Straits Times",
@@ -687,22 +680,6 @@
           "url": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/politics/asean-manila-summit/",
           "title": "Global powers converge on Manila as ASEAN summit kicks off",
           "published": "2026-11-14T23:55:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "SpaceX pulls off first-ever spaceship ‘catch’",
-      "url": "https://www.japantimes.co.jp/news/2026/11/15/world/science-health/spacex-first-spaceship-catch/",
-      "source": "Japan Times",
-      "published": "2026-11-14T23:52:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374463/spacex-successfully-carries-out-first-ever-spaceship-catch",
-          "title": "SpaceX successfully carries out first-ever spaceship catch",
-          "published": "2026-11-14T21:32:46+00:00"
         }
       ],
       "consensus": 2.0
@@ -751,22 +728,6 @@
           "url": "https://www.straitstimes.com/asia/se-asia/asean-not-easing-myanmar-approach-blocs-special-envoy-says",
           "title": "ASEAN not easing Myanmar approach, bloc's special envoy says",
           "published": "2026-11-14T11:14:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Musk ordered to preserve records on Ukraine’s Starlink access by Democratic US senators",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374425/musk-ordered-preserve-records-ukraines-starlink-access-democratic-us-senators",
-      "source": "SCMP",
-      "published": "2026-11-14T05:31:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democratic-us-senators-order-musk-to-preserve-records-on-ukraine-starlink-access/article71700765.ece",
-          "title": "Democratic U.S. senators order Musk to preserve records on Ukraine Starlink access",
-          "published": "2026-11-14T03:24:31+00:00"
         }
       ],
       "consensus": 2.0
@@ -916,10 +877,37 @@
       "consensus": 1.5
     },
     {
-      "title": "Nations grapple with loss of 1.5C target at UN climate summit",
+      "title": "Nations grapple with loss of 1.5°C target at UN climate summit",
       "url": "https://www.thehindu.com/sci-tech/energy-and-environment/nations-grapple-with-loss-of-15c-target-at-un-climate-summit/article71704051.ece",
       "source": "The Hindu",
-      "published": "2026-11-15T03:24:58+00:00",
+      "published": "2026-11-15T03:38:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Top scorer in South Korea’s tax accountant exam admits to AI-assisted cheating",
+      "url": "https://www.straitstimes.com/asia/east-asia/top-scorer-in-south-koreas-tax-accountant-exam-admits-to-ai-assisted-cheating",
+      "source": "Straits Times",
+      "published": "2026-11-15T03:22:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Liberals announce plans for teen prison bootcamp for young offenders",
+      "url": "https://www.abc.net.au/news/2026-11-15/dhurringile-liberals-jess-wilson-crime-bootcamp/107387262",
+      "source": "ABC Australia",
+      "published": "2026-11-15T03:18:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Malaysia probing alleged Nvidia AI chip diversion since April 2025: Home Minister",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-probing-alleged-nvidia-ai-chip-diversion-since-april-2025-home-minister",
+      "source": "Straits Times",
+      "published": "2026-11-15T03:06:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -929,15 +917,6 @@
       "url": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-15T02:59:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "U.S. must respect India’s right to defend itself, maintain zero tolerance towards terrorism: Blinken",
-      "url": "https://www.thehindu.com/news/international/us-must-respect-indias-right-to-defend-itself-maintain-zero-tolerance-towards-terrorism-blinken/article71703984.ece",
-      "source": "The Hindu",
-      "published": "2026-11-15T02:58:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1114,10 +1093,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 64871.4,
+        "price": 64822.02,
         "currency": "USD",
-        "change": 751.62,
-        "change_percent": 1.17,
+        "change": 702.24,
+        "change_percent": 1.1,
         "name": "Bitcoin"
       }
     ],
@@ -1413,7 +1392,7 @@
         "title": "Periodic-Oriented Programming for FIRST Robotics",
         "url": "https://bvisness.me/periodic-oriented-programming/",
         "comments_url": "https://lobste.rs/s/bwjt1b/periodic_oriented_programming_for_first",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-15T03:16:42.257000+00:00"
       },
@@ -1421,17 +1400,9 @@
         "title": "25 of my favourite modern NES games",
         "url": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
         "comments_url": "https://lobste.rs/s/w9j7xs/25_my_favourite_modern_nes_games",
-        "score": 3,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-15T02:40:40.008000+00:00"
-      },
-      {
-        "title": "WebGL Flight Simulator with seed generated terrain",
-        "url": "https://baron.by.dai.studio/",
-        "comments_url": "https://lobste.rs/s/tjwnpb/webgl_flight_simulator_with_seed",
-        "score": 0,
-        "source": "Lobste.rs",
-        "published": "2026-11-15T02:39:31.267000+00:00"
       },
       {
         "title": "Reintroducing Spaces",
@@ -1444,7 +1415,7 @@
       {
         "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
         "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-        "score": 58,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-15T02:00:54+00:00"
       },
@@ -1452,42 +1423,42 @@
         "title": "Parsing nested lists in BQN",
         "url": "https://saltysylvi.github.io/blog/parsing-nested-lists-in-bqn.html",
         "comments_url": "https://lobste.rs/s/nbjckz/parsing_nested_lists_bqn",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-15T01:59:26.268000+00:00"
       },
       {
         "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
         "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-        "score": 269,
+        "score": 306,
         "source": "Hacker News",
         "published": "2026-11-14T22:26:30+00:00"
       },
       {
         "title": "How did Woz write the Apple 1 BASIC before building the computer?",
         "url": "https://retrocomputing.stackexchange.com/questions/17957",
-        "score": 132,
+        "score": 136,
         "source": "Hacker News",
         "published": "2026-11-14T22:22:49+00:00"
       },
       {
         "title": "SpaceX catches the Starship to end Flight 15",
         "url": "https://www.spacex.com/launches/starship-flight-15",
-        "score": 848,
+        "score": 870,
         "source": "Hacker News",
         "published": "2026-11-14T21:22:24+00:00"
       },
       {
         "title": "A family tree of software job titles",
         "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-        "score": 232,
+        "score": 239,
         "source": "Hacker News",
         "published": "2026-11-14T17:45:19+00:00"
       },
       {
         "title": "Lovable apps expose passport details and more than 200K private messages",
         "url": "https://www.crissyfield.de/research/lovable-en/",
-        "score": 691,
+        "score": 698,
         "source": "Hacker News",
         "published": "2026-11-14T17:43:10+00:00"
       },
@@ -1502,23 +1473,31 @@
       {
         "title": "PyPI's redesigned project pages with clearer security signals are now live",
         "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-        "score": 215,
+        "score": 218,
         "source": "Hacker News",
         "published": "2026-11-14T15:40:52+00:00"
       },
       {
         "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
         "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-        "score": 194,
+        "score": 197,
         "source": "Hacker News",
         "published": "2026-11-14T15:04:15+00:00"
       },
       {
         "title": "KDE: The documentary [video]",
         "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-        "score": 402,
+        "score": 407,
         "source": "Hacker News",
         "published": "2026-11-14T13:43:28+00:00"
+      },
+      {
+        "title": "Solving the fox game",
+        "url": "http://blog.sesse.net/blog/tech/2026-11-13-19-51_solving_the_fox_game.html",
+        "comments_url": "https://lobste.rs/s/q81fi4/solving_fox_game",
+        "score": 18,
+        "source": "Lobste.rs",
+        "published": "2026-11-14T10:32:33.001000+00:00"
       }
     ],
     "reddit": [
@@ -1563,6 +1542,14 @@
         "published": "2026-11-14T11:26:53+00:00"
       },
       {
+        "title": "U.S. Figures Iran Still Has up to 2,500 Missiles, Countering Trump Assertions",
+        "url": "https://www.wsj.com/world/middle-east/u-s-figures-iran-still-has-up-to-2-500-missiles-countering-trump-assertions-4c6f4d67?st=WTcJHi&amp;reflink=desktopwebshare_permalink",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xwlev6/us_figures_iran_still_has_up_to_2500_missiles/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-15T03:38:55+00:00"
+      },
+      {
         "title": "Johnson says ‘we don’t really need any investigation’ on FAA ground stop",
         "url": "https://thehill.com/policy/transportation/6220851-mike-johnson-faa-ground-stop/",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xwelwa/johnson_says_we_dont_really_need_any/",
@@ -1587,14 +1574,6 @@
         "published": "2026-11-14T15:05:35+00:00"
       },
       {
-        "title": "Nvidia deliberately kept GPU prices high through circular financing deals, report claims",
-        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xwaeah/nvidia_deliberately_kept_gpu_prices_high_through/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-14T19:02:48+00:00"
-      },
-      {
         "title": "In a randomized trial of 255 children with ADHD, stimulant medication cut classroom rule-breaking by 61% and behavioral therapy cut it by 37%, but common classroom accommodations like extra time, frequent breaks, standing desks and quiet spaces did not improve behavior or quiz scores.",
         "url": "https://www.eurekalert.org/news-releases/1151884",
         "comments_url": "https://www.reddit.com/r/science/comments/1xwe32y/in_a_randomized_trial_of_255_children_with_adhd/",
@@ -1603,12 +1582,12 @@
         "published": "2026-11-14T21:40:35+00:00"
       },
       {
-        "title": "Zelenskyy accuses SpaceX of lying about Starshield – and says US floated Donbas-for-Nato deal",
-        "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy?referring_host=Reddit&amp;utm_campaign=guardianacct",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xw6l0j/zelenskyy_accuses_spacex_of_lying_about/",
+        "title": "Nvidia deliberately kept GPU prices high through circular financing deals, report claims",
+        "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xwaeah/nvidia_deliberately_kept_gpu_prices_high_through/",
         "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-14T16:29:52+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-14T19:02:48+00:00"
       },
       {
         "title": "Ukraine’s FREYJA Anti-Ballistic Missile Ready as Denmark Completes Radar Component",
@@ -1619,20 +1598,20 @@
         "published": "2026-11-14T22:48:51+00:00"
       },
       {
+        "title": "Zelenskyy accuses SpaceX of lying about Starshield – and says US floated Donbas-for-Nato deal",
+        "url": "https://www.theguardian.com/world/2026/nov/14/spacex-not-honest-slowing-starshield-elon-musk-volodymyr-zelenskyy?referring_host=Reddit&amp;utm_campaign=guardianacct",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xw6l0j/zelenskyy_accuses_spacex_of_lying_about/",
+        "score": null,
+        "source": "/r/europe",
+        "published": "2026-11-14T16:29:52+00:00"
+      },
+      {
         "title": "European citizens overwhelmingly back creation of an EU army, survey finds",
         "url": "https://www.politico.eu/article/european-citizens-overwhelmingly-back-creation-of-an-eu-army-survey-finds/",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xvzpyq/european_citizens_overwhelmingly_back_creation_of/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-14T11:00:09+00:00"
-      },
-      {
-        "title": "Thousands more flights canceled as Duffy warns the FAA's aging system could fail again",
-        "url": "https://www.yahoo.com/news/us/live/faa-ground-stop-latest-updates-duffy-blames-contractor-l3harris-thousands-more-flights-canceled-saturday-no-sign-of-cyberattack-161329174.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xw6t73/thousands_more_flights_canceled_as_duffy_warns/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-14T16:38:52+00:00"
       },
       {
         "title": "Canada’s response to US flight chaos reignites anger over Trump’s taunts",

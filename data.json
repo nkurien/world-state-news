@@ -1,42 +1,42 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T11:01:01.140007+00:00",
+  "last_updated": "2026-11-16T11:30:52.861105+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 363
+      "ms": 500
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 188
+      "ms": 372
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 173
+      "ms": 163
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 195
+      "ms": 279
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 75
+      "ms": 277
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 159
+      "ms": 89
     },
     "Deutsche Welle": {
       "ok": true,
@@ -48,106 +48,134 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 276
+      "ms": 506
     },
     "Euronews": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 82
+      "ms": 112
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 98
+      "ms": 298
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 625
+      "ms": 526
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 203
+      "ms": 287
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 362
+      "ms": 261
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 133
+      "ms": 301
     },
     "RFI English": {
       "ok": true,
-      "count": 21,
+      "count": 22,
       "error": null,
-      "ms": 269
+      "ms": 389
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 284
+      "ms": 447
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 521
+      "ms": 638
     },
     "Semafor": {
       "ok": true,
       "count": 216,
       "error": null,
-      "ms": 360
+      "ms": 637
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 443
+      "ms": 702
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 260
+      "ms": 322
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 179
+      "ms": 94
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 131
+      "ms": 257
     },
     "The Independent": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 378
+      "ms": 169
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 225
+      "ms": 233
     }
   },
   "breaking": [
+    {
+      "title": "Two mass shootings in South Africa leave 17 dead",
+      "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-16T10:57:48+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/south-africa-mass-shootings-jeffsville-pietermaritzburg-b3085492.html",
+          "title": "At least 17 dead in two mass shootings in South Africa",
+          "published": "2026-11-16T09:17:25+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/16/gunmen-kill-17-in-two-separate-shootings-in-south-africa/",
+          "title": "Gunmen kill 17 in two separate shootings in South Africa",
+          "published": "2026-11-16T09:11:18+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/south-africa-police-probe-two-weekend-shootings-that-left-17-dead/article71707200.ece",
+          "title": "South Africa police probe two weekend shootings that left 17 dead",
+          "published": "2026-11-16T08:49:29+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "Xi, Trump and Putin to discuss 'world peace' at Shenzhen summit, China says",
       "url": "https://www.france24.com/en/asia-pacific/20261116-xi-trump-putin-discuss-world-peace-shenzhen-summit-china-says",
@@ -177,28 +205,6 @@
       "consensus": 4.5
     },
     {
-      "title": "At least 17 dead in two mass shootings in South Africa",
-      "url": "https://www.independent.co.uk/news/world/africa/south-africa-mass-shootings-jeffsville-pietermaritzburg-b3085492.html",
-      "source": "The Independent",
-      "published": "2026-11-16T09:17:25+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/16/gunmen-kill-17-in-two-separate-shootings-in-south-africa/",
-          "title": "Gunmen kill 17 in two separate shootings in South Africa",
-          "published": "2026-11-16T09:11:18+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/south-africa-police-probe-two-weekend-shootings-that-left-17-dead/article71707200.ece",
-          "title": "South Africa police probe two weekend shootings that left 17 dead",
-          "published": "2026-11-16T08:49:29+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "Estonia to Close Border Crossings With Russia After Foiled Sabotage Attempt",
       "url": "https://www.themoscowtimes.com/2026/11/16/estonia-to-close-border-crossings-with-russia-after-foiled-sabotage-attempt-a94269",
       "source": "The Moscow Times",
@@ -216,28 +222,6 @@
           "url": "https://www.theguardian.com/world/2026/nov/15/estonia-to-close-all-border-crossings-with-russia-after-attack-on-drone-maker",
           "title": "Estonia to close all border crossings with Russia after attack on drone maker",
           "published": "2026-11-15T22:17:09+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "EU nations to unveil Rwanda deal for migrant return hub",
-      "url": "https://www.japantimes.co.jp/news/2026/11/16/world/politics/eu-migrant-return-hub-rwanda/",
-      "source": "Japan Times",
-      "published": "2026-11-16T08:02:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/european-union-nations-to-unveil-rwanda-deal-for-migrant-return-hub/article71706988.ece",
-          "title": "European Union nations to unveil Rwanda deal for migrant return hub",
-          "published": "2026-11-16T07:01:36+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
-          "title": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
-          "published": "2026-11-16T06:07:22+00:00"
         }
       ],
       "consensus": 3.5
@@ -303,26 +287,36 @@
       "consensus": 2.5
     },
     {
-      "title": "Neves wins second term as Cape Verde's president: provisional results",
-      "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
-      "source": "RFI English",
-      "published": "2026-11-16T08:24:09+00:00",
-      "score": 3,
+      "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
+      "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-16T11:17:34+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
-          "published": "2026-11-15T09:45:23+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
-          "title": "Cape verde presidential election: Neves seeks second term",
-          "published": "2026-11-13T15:42:29+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/africa/20261116-eu-nations-to-unveil-rwanda-deal-for-migrant-return-hub",
+          "title": "Five EU nations set to announce migrant deportation centre deal with Rwanda",
+          "published": "2026-11-16T06:07:22+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
+    },
+    {
+      "title": "U.S. airports slowly return to normal after three days of disruption",
+      "url": "https://www.japantimes.co.jp/news/2026/11/16/world/us-airports-returning-normal-disruption/",
+      "source": "Japan Times",
+      "published": "2026-11-16T11:03:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-airports-expected-return-normal-after-three-days-disruption-6553621",
+          "title": "US airports expected to return to normal after three days of disruption",
+          "published": "2026-11-15T23:47:00+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -405,26 +399,48 @@
       "consensus": 4.0
     },
     {
-      "title": "Thai police probe transformer blast after Phuket shophouse fire kills 11",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374573/thai-police-probe-transformer-blast-after-phuket-shophouse-fire-kills-11",
-      "source": "SCMP",
-      "published": "2026-11-16T07:43:24+00:00",
+      "title": "Drug kingpin Miguel Ángel Félix Gallardo, the ‘boss of bosses,’ dies at 80",
+      "url": "https://english.elpais.com/international/2026-11-16/drug-kingpin-miguel-angel-felix-gallardo-the-boss-of-bosses-dies-at-80.html",
+      "source": "El País",
+      "published": "2026-11-16T07:35:09+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/shophouse-fire-kills-at-least-11-in-phuket?traffic_source=rss",
-          "title": "Shophouse fire kills at least 11 in Phuket",
-          "published": "2026-11-16T03:51:43+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+          "title": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+          "published": "2026-11-16T03:21:56+00:00"
         },
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/fire-in-phuket-shophouse-kills-11-injures-16-police-say",
-          "title": "Fire in Phuket shophouse kills 11 injures 16, police say",
-          "published": "2026-11-16T03:04:30+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
+          "title": "Mexican drug trade 'boss of bosses' Miguel Angel Felix Gallardo dies at 80",
+          "published": "2026-11-15T22:48:31+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 3.0
+    },
+    {
+      "title": "Neves wins second term as Cape Verde's president: provisional results",
+      "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
+      "source": "RFI English",
+      "published": "2026-11-16T08:24:09+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
+          "published": "2026-11-15T09:45:23+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
+          "title": "Cape verde presidential election: Neves seeks second term",
+          "published": "2026-11-13T15:42:29+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Russia out of IIHF World Junior Ice Hockey as Canada refuses entry",
@@ -539,17 +555,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Steering failure preceded New Orleans cruise ship collision, says NTSB",
-      "url": "https://www.bbc.co.uk/news/articles/c65y131w1534o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-15T22:57:27+00:00",
+      "title": "Steering problem on tanker in New Orleans caused ship collision",
+      "url": "https://www.channelnewsasia.com/world/us-new-orleans-tanker-cruise-ship-collision-6553551",
+      "source": "CNA",
+      "published": "2026-11-15T22:55:37+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-new-orleans-tanker-cruise-ship-collision-6553551",
-          "title": "Steering problem on tanker in New Orleans caused ship collision",
-          "published": "2026-11-15T22:55:37+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ck4gn4y77m40o?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Cruise ship overturns after collision with tanker in New Orleans",
+          "published": "2026-11-14T19:14:33+00:00"
         }
       ],
       "consensus": 2.5
@@ -715,17 +731,33 @@
       "consensus": 2.0
     },
     {
-      "title": "Drug kingpin Miguel Ángel Félix Gallardo, the ‘boss of bosses,’ dies at 80",
-      "url": "https://english.elpais.com/international/2026-11-16/drug-kingpin-miguel-angel-felix-gallardo-the-boss-of-bosses-dies-at-80.html",
-      "source": "El País",
-      "published": "2026-11-16T07:35:09+00:00",
+      "title": "EU nations to unveil Rwanda deal for migrant return hub",
+      "url": "https://www.japantimes.co.jp/news/2026/11/16/world/politics/eu-migrant-return-hub-rwanda/",
+      "source": "Japan Times",
+      "published": "2026-11-16T08:02:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
-          "title": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
-          "published": "2026-11-16T03:21:56+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/european-union-nations-to-unveil-rwanda-deal-for-migrant-return-hub/article71706988.ece",
+          "title": "European Union nations to unveil Rwanda deal for migrant return hub",
+          "published": "2026-11-16T07:01:36+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Thai police probe transformer blast after Phuket shophouse fire kills 11",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374573/thai-police-probe-transformer-blast-after-phuket-shophouse-fire-kills-11",
+      "source": "SCMP",
+      "published": "2026-11-16T07:43:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/fire-in-phuket-shophouse-kills-11-injures-16-police-say",
+          "title": "Fire in Phuket shophouse kills 11 injures 16, police say",
+          "published": "2026-11-16T03:04:30+00:00"
         }
       ],
       "consensus": 2.0
@@ -843,22 +875,6 @@
       "consensus": 2.0
     },
     {
-      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
-      "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-15T13:37:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/technology/2026/nov/15/ai-cheating-south-korea-college-entrance-exam",
-          "title": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
-          "published": "2026-11-15T08:56:11+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "UK: London's Santa School trains Father Christmas performers for 2026",
       "url": "http://www.africanews.com/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026/",
       "source": "Africanews",
@@ -939,37 +955,28 @@
       "consensus": 1.5
     },
     {
-      "title": "Miliband defends 2015 interview with Russell Brand, saying he was ‘taking him on’ not endorsing him – UK politics live",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
-      "source": "The Guardian",
-      "published": "2026-11-16T10:59:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Europe’s top soccer bodies face EU antitrust complaint",
-      "url": "https://www.politico.eu/article/uefa-efc-face-eu-antitrust-complaint/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "title": "Brussels will present plan for €45B Ukraine loan backed by EU budget",
+      "url": "https://www.politico.eu/article/brussels-plan-e45b-ukraine-loan-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
-      "published": "2026-11-16T10:59:00+00:00",
+      "published": "2026-11-16T11:30:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Francophonie summit postpones new leader vote amid DR Congo-Rwanda dispute",
-      "url": "https://www.france24.com/en/africa/20261116-francophonie-summit-postpones-new-leader-vote-amid-dr-congo-rwanda-dispute",
+      "title": "Le Pen says she was wrong to oppose dual citizenship, same-sex marriage",
+      "url": "https://www.politico.eu/article/marine-le-pen-dual-citizenship-same-sex-marriage-le-pen-lifts-opposition-to/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-16T11:26:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Canary Islands struggle to cope after massive influx of migrants",
+      "url": "https://www.france24.com/en/video/20261116-canary-islands-struggle-to-cope-after-massive-influx-of-migrants",
       "source": "France24",
-      "published": "2026-11-16T10:51:40+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "UN-backed talks consider possible rules on lethal autonomous weapons",
-      "url": "https://www.thehindu.com/news/international/un-backed-talks-consider-possible-rules-on-lethal-autonomous-weapons/article71707403.ece",
-      "source": "The Hindu",
-      "published": "2026-11-16T10:46:40+00:00",
+      "published": "2026-11-16T11:24:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -986,10 +993,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 141.76,
+      "price": 141.87,
       "currency": "GBP",
-      "change": 0.0,
-      "change_percent": 0.0,
+      "change": 0.11,
+      "change_percent": 0.08,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1002,10 +1009,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10935.64,
+      "price": 10934.24,
       "currency": "GBP",
-      "change": 33.08,
-      "change_percent": 0.3,
+      "change": 31.68,
+      "change_percent": 0.29,
       "name": "FTSE 100"
     }
   ],
@@ -1021,10 +1028,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10935.64,
+        "price": 10934.24,
         "currency": "GBP",
-        "change": 33.08,
-        "change_percent": 0.3,
+        "change": 31.68,
+        "change_percent": 0.29,
         "name": "FTSE 100"
       },
       {
@@ -1053,17 +1060,17 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26714.69,
+        "price": 26718.08,
         "currency": "EUR",
-        "change": -35.26,
-        "change_percent": -0.13,
+        "change": -31.87,
+        "change_percent": -0.12,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8377.15,
+        "price": 8376.98,
         "currency": "EUR",
-        "change": 8.24,
+        "change": 8.07,
         "change_percent": 0.1,
         "name": "CAC 40"
       }
@@ -1071,26 +1078,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3873.3,
+        "price": 3878.9,
         "currency": "USD",
-        "change": -13.0,
-        "change_percent": -0.33,
+        "change": -7.4,
+        "change_percent": -0.19,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.59,
+        "price": 47.76,
         "currency": "USD",
-        "change": -1.53,
-        "change_percent": -3.12,
+        "change": -1.37,
+        "change_percent": -2.78,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 95.41,
+        "price": 95.2,
         "currency": "USD",
-        "change": -0.43,
-        "change_percent": -0.45,
+        "change": -0.64,
+        "change_percent": -0.67,
         "name": "Brent Crude"
       },
       {
@@ -1098,7 +1105,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.18,
+        "change_percent": -0.16,
         "name": "EUR/USD"
       },
       {
@@ -1106,23 +1113,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.17,
+        "change_percent": -0.13,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.65,
+        "price": 159.6,
         "currency": "JPY",
-        "change": -0.03,
-        "change_percent": -0.02,
+        "change": -0.09,
+        "change_percent": -0.05,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64544.84,
+        "price": 64633.77,
         "currency": "USD",
-        "change": -769.71,
-        "change_percent": -1.18,
+        "change": -680.78,
+        "change_percent": -1.04,
         "name": "Bitcoin"
       }
     ],
@@ -1192,6 +1199,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Van Hollen says yes, he can",
+          "url": "https://www.politico.com/newsletters/playbook/2026/11/16/van-hollen-says-yes-he-can-01167108",
+          "published": "2026-11-16T11:06:39+00:00",
+          "snippet": ""
+        },
+        {
           "title": "The new empire of the ‘good Murdochs’",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/15/the-new-empire-of-the-good-murdochs-01166686",
           "published": "2026-11-15T16:55:50+00:00",
@@ -1201,12 +1214,6 @@
           "title": "Dems decamp to Denver",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/14/dems-decamp-to-denver-01166605",
           "published": "2026-11-14T16:39:51+00:00",
-          "snippet": ""
-        },
-        {
-          "title": "Seditious kicks",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/13/seditious-kicks-01164554",
-          "published": "2026-11-13T11:12:06+00:00",
           "snippet": ""
         }
       ]
@@ -1292,22 +1299,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Burnham’s EU candour is clever politics",
-          "url": "https://www.ft.com/content/45f7ffdb-7e92-493e-a118-a331baa169b2?syn-25a6b1a6=1",
-          "published": "2026-11-16T09:30:02+00:00",
-          "snippet": "Pro-European rhetoric could unify Labour’s coalition and prevent the Conservatives from making inroads into the ranks of the young and successful"
+          "title": "FirstFT: Jensen Huang talks about Nvidia comeback with allies",
+          "url": "https://www.ft.com/content/0f30a230-4d66-481b-a4fd-3a4ed0c45855?syn-25a6b1a6=1",
+          "published": "2026-11-16T11:01:07+00:00",
+          "snippet": "Also in today’s newsletter: IPOs struggle and Trump’s summit with Xi and Putin"
         },
         {
-          "title": "Burnham promises to expose ‘Emperor’s new clothes’ of Brexit",
-          "url": "https://www.ft.com/content/f3564bae-f3b8-4d55-be4b-3d0930d6f948?syn-25a6b1a6=1",
-          "published": "2026-11-16T09:14:01+00:00",
-          "snippet": "Prime minister will tell a City of London audience he is prepared for a national discussion about a longer-term accord with Europe"
+          "title": "EU renews push for global AI rules after midterms weaken Trump",
+          "url": "https://www.ft.com/content/f2ea4f22-32ba-4795-971d-2a4bbb0143fb?syn-25a6b1a6=1",
+          "published": "2026-11-16T10:37:38+00:00",
+          "snippet": "Brussels hopes an international deal is more attainable after voters’ rebuke to US president"
         },
         {
-          "title": "Hong Kong developer New World’s shares tumble 40% on $3.2bn rights issue plan",
-          "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
-          "published": "2026-11-16T08:59:48+00:00",
-          "snippet": "Ailing property group to offer new stock at 80% discount as it moves to slash debts"
+          "title": "Ukraine strikes Crimean Bridge in record drone attack",
+          "url": "https://www.ft.com/content/cf57a196-bcbc-4605-a977-73fa0498aeed?syn-25a6b1a6=1",
+          "published": "2026-11-16T10:29:11+00:00",
+          "snippet": "Russia’s defence ministry said it intercepted or destroyed largest number of drones since beginning of war in past 24 hours"
         }
       ]
     },
@@ -1326,7 +1333,7 @@
           "title": "Awesome",
           "url": "https://www.theatlantic.com/technology/2026/11/spacex-starship-catch/689453/?utm_source=feed",
           "published": "2026-11-16T01:52:00+00:00",
-          "snippet": "The future of space travel looks very cool."
+          "snippet": "The future of space exploration is here."
         },
         {
           "title": "An Astute <em>SNL </em>Sketch About Who Deals With Aging Parents",
@@ -1342,6 +1349,12 @@
       "column": "tech",
       "entries": [
         {
+          "title": "Obituaries",
+          "url": "https://stratechery.com/2026/obituaries/",
+          "published": "2026-11-16T11:02:49+00:00",
+          "snippet": "The demise of Jensen Huang was the end of a great many things, including Nvidia's long-term prospects, the AI bubble, and the exceptional way in which the U.S...."
+        },
+        {
           "title": "2026.46: The End of Jensen",
           "url": "https://stratechery.com/2026/the-end-of-jensen/",
           "published": "2026-11-13T18:00:00+00:00",
@@ -1352,12 +1365,6 @@
           "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
           "published": "2026-11-13T03:47:52+00:00",
           "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery"
-        },
-        {
-          "title": "An Interview With Roblox CEO David Baszucki About Aggregating Play",
-          "url": "https://stratechery.com/2026/an-interview-with-roblox-ceo-david-baszucki-about-aggregating-play/",
-          "published": "2026-11-12T11:00:00+00:00",
-          "snippet": "An interview with Roblox CEO David Baszucki about how AI is transforming game creation, and why that opens up huge opportunities to both enable developers and..."
         }
       ]
     },
@@ -1392,6 +1399,12 @@
       "column": "tech",
       "entries": [
         {
+          "title": "The small African lab sounding the alarm on AI bioweapons",
+          "url": "https://restofworld.org/2026/ghana-ai-lab-minohealth-bioweapons-threat-dna-synthesis-regulation/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+          "published": "2026-11-16T11:00:23+00:00",
+          "snippet": "Photograph showing Georgina an AI Engineer building and working on the user interface of the new model Moremi."
+        },
+        {
           "title": "How Jensen Huang’s exit from Nvidia impacts China’s AI supply chain",
           "url": "https://restofworld.org/2026/jensen-huang-nvidia-exit-china-ai-chip-impact/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "published": "2026-11-13T16:24:10+00:00",
@@ -1402,12 +1415,6 @@
           "url": "https://restofworld.org/2026/ai-government-ethics-bias-risk/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
           "published": "2026-11-12T11:00:00+00:00",
           "snippet": "In her new book “Reboot: AI and the Race to Save Democracy,” writer Beth Simone Noveck warns that while AI can increase efficiency, predictive models pose..."
-        },
-        {
-          "title": "Chinese AI firms want Silicon Valley’s top minds. Poaching them won’t be easy",
-          "url": "https://restofworld.org/2026/chinese-ai-labs-hire-silicon-valley-engineers-openai-anthropic/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
-          "published": "2026-11-09T08:30:00+00:00",
-          "snippet": "Startups like MiniMax and Moonshot are setting up U.S. outposts, but massive pay gaps, weaker prestige, and national security tensions make luring talent away..."
         }
       ]
     }
@@ -1415,24 +1422,39 @@
   "web": {
     "tech": [
       {
+        "title": "Programming a language",
+        "url": "https://nrinaudo.github.io/articles/pl.html",
+        "comments_url": "https://lobste.rs/s/aavjsr/programming_language",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-16T11:24:12.119000+00:00"
+      },
+      {
+        "title": "Coffeehouses and the Rise of Science [pdf]",
+        "url": "https://www.monirbounadi.com/Bounadi_JMP.pdf",
+        "score": 15,
+        "source": "Hacker News",
+        "published": "2026-11-16T11:03:16+00:00"
+      },
+      {
         "title": "you won't win at copyright",
         "url": "https://ingrids.space/posts/you-wont-win-at-copyright/",
         "comments_url": "https://lobste.rs/s/emdfap/you_won_t_win_at_copyright",
-        "score": 6,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-16T08:30:13.468000+00:00"
       },
       {
         "title": "“…and the proof is checked in Lean”",
         "url": "https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/",
-        "score": 28,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-16T07:38:19+00:00"
       },
       {
         "title": "How to make almost anything",
         "url": "https://pub.cba.mit.edu/863.26/site/",
-        "score": 324,
+        "score": 355,
         "source": "Hacker News",
         "published": "2026-11-16T05:50:37+00:00"
       },
@@ -1440,7 +1462,7 @@
         "title": "Universal XSS in uBlock Origin from website-driven element picker",
         "url": "https://iter.ca/post/ubo-uxss/",
         "comments_url": "https://lobste.rs/s/x0ykkw/universal_xss_ublock_origin_from_website",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-16T05:12:27.923000+00:00"
       },
@@ -1448,7 +1470,7 @@
         "title": "Migrating from GitHub to Codeberg",
         "url": "https://yorickpeterse.com/articles/migrating-from-github-to-codeberg/",
         "comments_url": "https://lobste.rs/s/rhoopo/migrating_from_github_codeberg",
-        "score": 18,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-16T05:10:34.395000+00:00"
       },
@@ -1456,7 +1478,7 @@
         "title": "Announcing Hegel-clj",
         "url": "https://aphyr.com/posts/428-announcing-hegel-clj",
         "comments_url": "https://lobste.rs/s/ydzo2o/announcing_hegel_clj",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-16T04:12:25.212000+00:00"
       },
@@ -1464,21 +1486,21 @@
         "title": "Paint in the memory of other programs",
         "url": "https://citrons.xyz/journal/2026-04-13",
         "comments_url": "https://lobste.rs/s/thiekk/paint_memory_other_programs",
-        "score": 24,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-16T03:37:36.159000+00:00"
       },
       {
         "title": "Qwen4-Max",
         "url": "https://qwen.ai/blog?id=qwen4-max",
-        "score": 552,
+        "score": 576,
         "source": "Hacker News",
         "published": "2026-11-16T02:14:44+00:00"
       },
       {
         "title": "Universal XSS in uBlock Origin from website-driven element picker",
         "url": "https://iter.ca/post/ubo-uxss/",
-        "score": 394,
+        "score": 405,
         "source": "Hacker News",
         "published": "2026-11-16T02:04:48+00:00"
       },
@@ -1494,14 +1516,14 @@
         "title": "beer.drv.drv.drv",
         "url": "https://fzakaria.com/2026/11/14/beer-drv-drv-drv",
         "comments_url": "https://lobste.rs/s/md0vco/beer_drv_drv_drv",
-        "score": 14,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-16T00:47:28.450000+00:00"
       },
       {
         "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
         "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-        "score": 162,
+        "score": 165,
         "source": "Hacker News",
         "published": "2026-11-16T00:21:54+00:00"
       },
@@ -1512,21 +1534,6 @@
         "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-16T00:14:56.995000+00:00"
-      },
-      {
-        "title": "What's Next for Nvidia?",
-        "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-        "score": 276,
-        "source": "Hacker News",
-        "published": "2026-11-15T23:55:55+00:00"
-      },
-      {
-        "title": "This Month in Redox - October 2026",
-        "url": "https://www.redox-os.org/news/this-month-261031/",
-        "comments_url": "https://lobste.rs/s/yervw7/this_month_redox_october_2026",
-        "score": 11,
-        "source": "Lobste.rs",
-        "published": "2026-11-15T23:05:45.490000+00:00"
       }
     ],
     "reddit": [
@@ -1571,12 +1578,12 @@
         "published": "2026-11-15T19:10:42+00:00"
       },
       {
-        "title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
-        "url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxbrep/eisenkot_says_netanyahu_cant_remain_israel_pm/",
+        "title": "Putin Wants to Split Europe and Revive Cold War-Era Spheres of Influence",
+        "url": "https://united24media.com/war-in-ukraine/putin-wants-to-split-europe-and-revive-cold-war-era-spheres-of-influence-24383",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xxjw08/putin_wants_to_split_europe_and_revive_cold/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-16T00:47:17+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-16T08:09:55+00:00"
       },
       {
         "title": "Only 20% of European digital services run on European infrastructure, says Mistral's CEO",
@@ -1603,20 +1610,12 @@
         "published": "2026-11-15T19:31:00+00:00"
       },
       {
-        "title": "Putin Wants to Split Europe and Revive Cold War-Era Spheres of Influence",
-        "url": "https://united24media.com/war-in-ukraine/putin-wants-to-split-europe-and-revive-cold-war-era-spheres-of-influence-24383",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xxjw08/putin_wants_to_split_europe_and_revive_cold/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-16T08:09:55+00:00"
-      },
-      {
-        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-        "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xx5oe5/zelensky_urges_us_and_musk_to_lift_starlink/",
+        "title": "Eisenkot says Netanyahu can’t remain Israel PM amid alleged vote meddling",
+        "url": "https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxbrep/eisenkot_says_netanyahu_cant_remain_israel_pm/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-15T20:21:16+00:00"
+        "published": "2026-11-16T00:47:17+00:00"
       },
       {
         "title": "‘We’re in complete shock’: Small-town Polish bakery named world’s third-best",
@@ -1627,20 +1626,12 @@
         "published": "2026-11-15T22:30:42+00:00"
       },
       {
-        "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
-        "url": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xxh1wn/fda_rejects_closely_watched_lung_cancer_drug_from/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T05:18:34+00:00"
-      },
-      {
-        "title": "Lula said Brazil “learned an extraordinary lesson” after U.S. President Donald Trump imposed massive tariffs: “Instead of crying or begging the American government to have pity on Brazil, we decided to look for other partners to sell to and buy from\"",
-        "url": "https://clashreport.com/world/articles/lula-says-u-s-tariffs-cut-american-share-of-brazil-s-trade-to-9-2-jq718fowfvp",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xx1yye/lula_said_brazil_learned_an_extraordinary_lesson/",
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xx5oe5/zelensky_urges_us_and_musk_to_lift_starlink/",
         "score": null,
         "source": "/r/worldnews",
-        "published": "2026-11-15T17:54:26+00:00"
+        "published": "2026-11-15T20:21:16+00:00"
       },
       {
         "title": "French 2027 presidential election: Marine Le Pen embraces her intention to abandon Ukraine by ending French aid",
@@ -1649,6 +1640,22 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-16T08:56:45+00:00"
+      },
+      {
+        "title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
+        "url": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xxh1wn/fda_rejects_closely_watched_lung_cancer_drug_from/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-16T05:18:34+00:00"
+      },
+      {
+        "title": "Ukrainian drone attacks 'neutralized' 55% of Russia's oil refining capacity, Zelensky says",
+        "url": "https://kyivindependent.com/ukrainian-drone-attacks-neutralized-55-of-russias-oil-refining-capacity-zelensky-says/",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxk6re/ukrainian_drone_attacks_neutralized_55_of_russias/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-16T08:29:23+00:00"
       }
     ]
   }

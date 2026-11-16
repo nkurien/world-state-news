@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-16T17:30:57.962718+00:00",
+  "last_updated": "2026-11-16T18:01:04.031808+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 259
+      "ms": 428
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 142
+      "ms": 390
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 195
+      "ms": 211
     },
     "BBC News": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 112
+      "ms": 226
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 248
+      "ms": 169
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 261
+      "ms": 194
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null,
-      "ms": 216
+      "ms": 460
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 596
+      "ms": 587
     },
     "Euronews": {
       "ok": true,
       "count": 39,
       "error": null,
-      "ms": 323
+      "ms": 303
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 253
+      "ms": 152
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 464
+      "ms": 497
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 458
+      "ms": 406
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 88
+      "ms": 159
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 345
+      "ms": 210
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 162
+      "ms": 280
     },
     "RNZ": {
       "ok": true,
-      "count": 41,
+      "count": 43,
       "error": null,
-      "ms": 398
+      "ms": 424
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 858
+      "ms": 773
     },
     "Semafor": {
       "ok": true,
-      "count": 213,
+      "count": 209,
       "error": null,
-      "ms": 744
+      "ms": 640
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 606
+      "ms": 695
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 489
+      "ms": 458
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 216
+      "ms": 125
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 302
+      "ms": 417
     },
     "The Independent": {
       "ok": true,
-      "count": 53,
+      "count": 55,
       "error": null,
-      "ms": 297
+      "ms": 259
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 398
+      "ms": 403
     }
   },
   "breaking": [
@@ -183,6 +183,40 @@
       "consensus": 6.5
     },
     {
+      "title": "British actor Robert Pattinson named as the new James Bond",
+      "url": "https://www.rnz.co.nz/life/screens/movies/british-actor-robert-robert-pattinson-named-as-the-new-james-bond",
+      "source": "RNZ",
+      "published": "2026-11-16T17:29:58+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
+          "title": "Robert Pattinson: British actor will be the next James Bond",
+          "published": "2026-11-16T16:39:36+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374641/robert-pattinson-named-7th-james-bond-taking-over-daniel-craig",
+          "title": "Robert Pattinson is named the 7th James Bond, taking over from Daniel Craig",
+          "published": "2026-11-16T16:19:54+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-17/robert-pattinson-named-as-new-james-bond/107392892",
+          "title": "British actor Robert Pattinson named as new James Bond",
+          "published": "2026-11-16T15:39:07+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/james-bond-new-actor-robert-pattinson-6556216",
+          "title": "British actor Robert Pattinson named as new James Bond",
+          "published": "2026-11-16T15:39:00+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
+    {
       "title": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
       "url": "https://www.scmp.com/news/us/article/3374640/trump-floats-kim-meeting-china-says-hell-discuss-ukraine-xi-and-putin",
       "source": "SCMP",
@@ -217,32 +251,38 @@
       "consensus": 5.5
     },
     {
-      "title": "Robert Pattinson: British actor will be the next James Bond",
-      "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
-      "source": "France24",
-      "published": "2026-11-16T16:39:36+00:00",
-      "score": 4,
+      "title": "'I have been found guilty': French actor Gérard Depardieu withdraws appeal of sexual assault conviction",
+      "url": "https://www.cbc.ca/news/entertainment/depardieu-sexual-assault-conviction-appeal-withdrawn-9.7423721?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-16T17:56:22+00:00",
+      "score": 5,
       "other_sources": [
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/culture/2026-11-16/robert-pattinson-chosen-be-the-next-james-bond.html",
-          "title": "Robert Pattinson lands role as the next James Bond",
-          "published": "2026-11-16T16:23:58+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
+          "title": "French film star Depardieu drops appeal against sexual conviction",
+          "published": "2026-11-16T15:51:39+00:00"
         },
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-17/robert-pattinson-named-as-new-james-bond/107392892",
-          "title": "British actor Robert Pattinson named as new James Bond",
-          "published": "2026-11-16T15:39:07+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
+          "title": "Gérard Depardieu drops appeal against sexual assault conviction",
+          "published": "2026-11-16T13:40:56+00:00"
         },
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/james-bond-new-actor-robert-pattinson-6556216",
-          "title": "British actor Robert Pattinson named as new James Bond",
-          "published": "2026-11-16T15:39:00+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction",
+          "title": "Gérard Depardieu drops appeal against sexual assault conviction",
+          "published": "2026-11-16T12:10:22+00:00"
+        },
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/france/20261116-french-actor-depardieu-withdraws-appeal-against-conviction-for-sexual-assault",
+          "title": "French actor Depardieu withdraws appeal against conviction for sexual assault",
+          "published": "2026-11-16T11:19:17+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 4.5
     },
     {
       "title": "Judge sets Lindsay Clancy retrial for March in killings of her three children",
@@ -337,34 +377,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "French film star Depardieu drops appeal against sexual conviction",
-      "url": "https://www.france24.com/en/video/20261116-french-film-star-depardieu-drops-appeal-against-sexual-conviction",
-      "source": "France24",
-      "published": "2026-11-16T15:51:39+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
-          "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-          "published": "2026-11-16T13:40:56+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/film/2026/nov/16/gerard-depardieu-drops-appeal-against-sexual-assault-conviction",
-          "title": "Gérard Depardieu drops appeal against sexual assault conviction",
-          "published": "2026-11-16T12:10:22+00:00"
-        },
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/france/20261116-french-actor-depardieu-withdraws-appeal-against-conviction-for-sexual-assault",
-          "title": "French actor Depardieu withdraws appeal against conviction for sexual assault",
-          "published": "2026-11-16T11:19:17+00:00"
-        }
-      ],
-      "consensus": 3.0
     }
   ],
   "world": [
@@ -467,6 +479,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
+      "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-16T17:36:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
+          "published": "2026-11-16T16:32:00+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Saudi Arabia dismisses commander of anti-Houthi coalition: state media",
@@ -667,6 +695,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Pakistan’s jailed ex-leader Imran Khan appeals for urgent medical care",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3374647/pakistans-jailed-ex-leader-imran-khan-appeals-urgent-medical-care",
+      "source": "SCMP",
+      "published": "2026-11-16T17:50:13+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/pakistan-ex-pm-imran-khan-appeals-for-urgent-medical-help-says-he-may-not-return-alive",
+          "title": "Pakistan ex-PM Imran Khan appeals for urgent medical help, says he 'may not return alive'",
+          "published": "2026-11-16T12:39:43+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Prince William and Princess Catherine play street cricket with locals in Mumbai",
       "url": "https://www.euronews.com/video/2026/11/16/prince-william-and-princess-catherine-play-street-cricket-with-locals-in-mumbai",
       "source": "Euronews",
@@ -678,22 +722,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/prince-william-india-britain-mumbai-new-delhi-b3085395.html",
           "title": "Britain's Prince William and Princess Catherine arrive in India for 3-day visit",
           "published": "2026-11-16T04:45:31+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Former Pakistan PM Imran Khan warns he may not 'return alive', seeks medical treatment for himself, wife",
-      "url": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-warns-he-may-not-return-alive-seeks-medical-treatment-for-himself-wife/article71708296.ece",
-      "source": "The Hindu",
-      "published": "2026-11-16T13:50:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/pakistan-ex-pm-imran-khan-appeals-for-urgent-medical-help-says-he-may-not-return-alive",
-          "title": "Pakistan ex-PM Imran Khan appeals for urgent medical help, says he 'may not return alive'",
-          "published": "2026-11-16T12:39:43+00:00"
         }
       ],
       "consensus": 2.0
@@ -891,64 +919,46 @@
       "consensus": 1.5
     },
     {
-      "title": "'Heroes have flaws': Sam Altman says he has personal empathy for Jensen Huang",
-      "url": "https://www.semafor.com/article/11/16/2026/altman-says-he-has-personal-empathy-for-jensen-huang",
-      "source": "Semafor",
-      "published": "2026-11-16T17:29:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Cop31 negotiators unveil draft deal as fossil fuel divisions persist",
-      "url": "https://www.rfi.fr/en/international/20261116-cop31-negotiators-unveil-draft-deal-as-fossil-fuel-divisions-persist",
-      "source": "RFI English",
-      "published": "2026-11-16T17:25:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump is taking his Qatar-gifted plane to Asia but doubts remain if security has been ‘maxed out’: report",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-qatar-jet-china-philippines-security-b3085840.html",
+      "title": "What is happening in Sudan? The civil war the world forgot",
+      "url": "https://www.independent.co.uk/news/world/africa/sudan-civil-war-belligerents-causes-b3085458.html",
       "source": "The Independent",
-      "published": "2026-11-16T17:24:15+00:00",
+      "published": "2026-11-16T17:49:24+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Iran deploys army to stronghold of Iran-backed Kataib Hezbollah",
-      "url": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
+      "title": "Israeli court upholds detention of Palestinian land activist Ghassan Najjar",
+      "url": "https://www.aljazeera.com/news/2026/11/16/israeli-court-upholds-detention-of-palestinian-land-activist-ghassan-najjar?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-16T17:18:14+00:00",
+      "published": "2026-11-16T17:49:16+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Ticking timebomb': Breast cancer survivor launches petition for mandatory tissue reporting",
-      "url": "https://www.rnz.co.nz/news/health/2633532/ticking-timebomb-breast-cancer-survivor-launches-petition-for-mandatory-tissue-reporting",
-      "source": "RNZ",
-      "published": "2026-11-16T17:17:57+00:00",
+      "title": "Trump says ‘would not mind’ Huang being reinstated at Nvidia",
+      "url": "https://www.thehindu.com/news/international/trump-says-would-not-mind-huang-being-reinstated-at-nvidia/article71709259.ece",
+      "source": "The Hindu",
+      "published": "2026-11-16T17:49:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "LIVE: Germany vs Netherlands – UEFA Nations League",
-      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-16T17:15:12+00:00",
+      "title": "Nvidia scandal, AI anger, Beijing’s mockery: 7 US-China relations reads",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374513/nvidia-scandal-ai-anger-beijings-mockery-7-us-china-relations-reads",
+      "source": "SCMP",
+      "published": "2026-11-16T17:47:31+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "EU imposes fresh sanctions on Russia's banks, oil sector and business elite",
-      "url": "https://www.rfi.fr/en/international/20261116-eu-imposes-fresh-sanctions-on-russia-s-banks-oil-sector-and-business-elite",
-      "source": "RFI English",
-      "published": "2026-11-16T17:12:14+00:00",
+      "title": "‘Near-Philistine’: fury greets Shakespeare Institute plan to leave Stratford-upon-Avon",
+      "url": "https://www.theguardian.com/education/2026/nov/16/near-philistine-fury-shakespeare-institute-plan-leave-stratford-upon-avon-edgbaston",
+      "source": "The Guardian",
+      "published": "2026-11-16T17:45:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -957,25 +967,34 @@
       "title": "Brand statement from prison claiming his innocence ‘appalling’ and could breach rules, says No 10 – UK politics live",
       "url": "https://www.theguardian.com/politics/live/2026/nov/16/ed-miliband-russell-brand-andy-burnham-brexit-eu-milburn-review-young-people-employment-uk-politics-latest-news",
       "source": "The Guardian",
-      "published": "2026-11-16T17:11:21+00:00",
+      "published": "2026-11-16T17:43:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump says Jensen Huang returning to Nvidia ‘certainly isn’t a bad idea’ as he downplays Chinese spy allegation",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-ceo-b3085766.html",
-      "source": "The Independent",
-      "published": "2026-11-16T17:10:45+00:00",
+      "title": "Trump defends commerce secretary Lutnick for allegedly slow-walking Nvidia chip export restrictions – live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/16/donald-trump-asia-visit-democrats-republicans-elizabeth-warren-faa-air-disruption-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-16T17:43:16+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump Media faces possible US$1 billion debt repayment as stock nears record lows",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows",
-      "source": "SCMP",
-      "published": "2026-11-16T17:09:46+00:00",
+      "title": "Italian schools hit by new wave of bomb and poison threats",
+      "url": "https://www.euronews.com/2026/11/16/italian-schools-hit-by-new-wave-of-bomb-and-poison-threats",
+      "source": "Euronews",
+      "published": "2026-11-16T17:41:21+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Don't count on getting the inheritance you expect",
+      "url": "https://www.rnz.co.nz/news/personal-finance/2633621/don-t-count-on-getting-the-inheritance-you-expect",
+      "source": "RNZ",
+      "published": "2026-11-16T17:36:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -984,10 +1003,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7451.76,
+      "price": 7443.0,
       "currency": "USD",
-      "change": -109.91,
-      "change_percent": -1.45,
+      "change": -118.67,
+      "change_percent": -1.57,
       "name": "S&P 500"
     },
     {
@@ -1000,10 +1019,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24615.29,
+      "price": 24589.33,
       "currency": "USD",
-      "change": -520.98,
-      "change_percent": -2.07,
+      "change": -546.94,
+      "change_percent": -2.18,
       "name": "NASDAQ Composite"
     },
     {
@@ -1019,10 +1038,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7451.76,
+        "price": 7443.0,
         "currency": "USD",
-        "change": -109.91,
-        "change_percent": -1.45,
+        "change": -118.67,
+        "change_percent": -1.57,
         "name": "S&P 500"
       },
       {
@@ -1035,18 +1054,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 51902.29,
+        "price": 51836.82,
         "currency": "USD",
-        "change": -445.26,
-        "change_percent": -0.85,
+        "change": -510.73,
+        "change_percent": -0.98,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24615.29,
+        "price": 24589.33,
         "currency": "USD",
-        "change": -520.98,
-        "change_percent": -2.07,
+        "change": -546.94,
+        "change_percent": -2.18,
         "name": "NASDAQ Composite"
       },
       {
@@ -1077,26 +1096,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3870.8,
+        "price": 3860.5,
         "currency": "USD",
-        "change": -15.5,
-        "change_percent": -0.4,
+        "change": -25.8,
+        "change_percent": -0.66,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.06,
+        "price": 47.01,
         "currency": "USD",
-        "change": -2.06,
-        "change_percent": -4.19,
+        "change": -2.12,
+        "change_percent": -4.31,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.27,
+        "price": 93.02,
         "currency": "USD",
-        "change": -2.57,
-        "change_percent": -2.68,
+        "change": -2.82,
+        "change_percent": -2.94,
         "name": "Brent Crude"
       },
       {
@@ -1104,7 +1123,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.14,
+        "change_percent": -0.18,
         "name": "EUR/USD"
       },
       {
@@ -1112,81 +1131,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.11,
+        "change_percent": -0.13,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.53,
+        "price": 159.47,
         "currency": "JPY",
-        "change": -0.16,
-        "change_percent": -0.1,
+        "change": -0.21,
+        "change_percent": -0.13,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64832.04,
+        "price": 64761.94,
         "currency": "USD",
-        "change": -482.51,
-        "change_percent": -0.74,
+        "change": -552.61,
+        "change_percent": -0.85,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 522.32,
+        "price": 520.98,
         "currency": "USD",
-        "change": -1.56,
-        "change_percent": -0.3,
+        "change": -2.9,
+        "change_percent": -0.55,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 352.99,
+        "price": 353.22,
         "currency": "USD",
-        "change": -3.28,
-        "change_percent": -0.92,
+        "change": -3.05,
+        "change_percent": -0.86,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 156.95,
+        "price": 156.04,
         "currency": "USD",
-        "change": -5.9,
-        "change_percent": -3.62,
+        "change": -6.81,
+        "change_percent": -4.18,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 286.47,
+        "price": 286.57,
         "currency": "USD",
-        "change": -9.3,
-        "change_percent": -3.14,
+        "change": -9.2,
+        "change_percent": -3.11,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 258.28,
+        "price": 258.46,
         "currency": "USD",
-        "change": -8.38,
-        "change_percent": -3.14,
+        "change": -8.2,
+        "change_percent": -3.07,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 378.32,
+        "price": 378.65,
         "currency": "USD",
-        "change": -11.9,
-        "change_percent": -3.05,
+        "change": -11.57,
+        "change_percent": -2.96,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 626.47,
+        "price": 625.65,
         "currency": "USD",
-        "change": -15.22,
-        "change_percent": -2.37,
+        "change": -16.04,
+        "change_percent": -2.5,
         "name": "Meta"
       }
     ]
@@ -1298,22 +1317,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "UK short-term borrowing costs hit three-year high",
-          "url": "https://www.ft.com/content/aad29fc8-1b1b-4b7a-9e60-99989887ad89?syn-25a6b1a6=1",
-          "published": "2026-11-16T17:27:58+00:00",
-          "snippet": "Two-year gilt yield breaches 5% on strong economic data and hawkish messaging from Bank of England"
+          "title": "Pattinson. Robert Pattinson: Amazon unveils the next James Bond",
+          "url": "https://www.ft.com/content/29fb712d-776e-42f9-a639-4ffdce7d652e?syn-25a6b1a6=1",
+          "published": "2026-11-16T17:54:24+00:00",
+          "snippet": "Hollywood heavyweight earns licence to thrill as new stewards of spy franchise bet on a proven box office star"
         },
         {
-          "title": "Warsh says AI boom could help sustain ‘substantially higher’ US growth",
-          "url": "https://www.ft.com/content/0431ca7c-5bef-4ffa-a4bd-aa29354eb691?syn-25a6b1a6=1",
-          "published": "2026-11-16T17:26:53+00:00",
-          "snippet": "Innovation sparked by the technology has potential to support level of GDP above long-run average without stoking inflation"
+          "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+          "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1",
+          "published": "2026-11-16T17:48:50+00:00",
+          "snippet": "Co-founder of chipmaker resigned following extramarital affair with executive at Singapore-based customer"
         },
         {
-          "title": "US tech stocks slide amid Nvidia fallout",
-          "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
-          "published": "2026-11-16T17:22:21+00:00",
-          "snippet": "Tech-heavy Nasdaq 100 fell more than 2 per cent in afternoon trading"
+          "title": "Polish central bank freezes top court payments in escalating row with Tusk",
+          "url": "https://www.ft.com/content/112b35e9-9864-4d7b-8ece-c71f07c876ca?syn-25a6b1a6=1",
+          "published": "2026-11-16T17:43:40+00:00",
+          "snippet": "Government accuses opposition-led NBP of playing politics in stand-off over constitutional judges"
         }
       ]
     },
@@ -1421,10 +1440,32 @@
   "web": {
     "tech": [
       {
+        "title": "On Leaving Swift for Rust",
+        "url": "https://www.prux.org/posts/goodbye-swift-hello-rust/",
+        "comments_url": "https://lobste.rs/s/6t3oi4/on_leaving_swift_for_rust",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-16T17:56:45.490000+00:00"
+      },
+      {
+        "title": "Grazing sheep in fields with solar arrays",
+        "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+        "score": 34,
+        "source": "Hacker News",
+        "published": "2026-11-16T17:27:46+00:00"
+      },
+      {
+        "title": "Jiff 1.0: A datetime library for Rust",
+        "url": "https://burntsushi.net/jiff/",
+        "score": 46,
+        "source": "Hacker News",
+        "published": "2026-11-16T16:53:39+00:00"
+      },
+      {
         "title": "Janet Reno was talking about my friend Coolio (computer criminal)",
         "url": "https://michael.bacarella.com/2026/11/16/janet-reno-vs-my-friend-coolio/",
         "comments_url": "https://lobste.rs/s/urcrqe/janet_reno_was_talking_about_my_friend",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-16T16:43:58.790000+00:00"
       },
@@ -1432,21 +1473,14 @@
         "title": "Quality IMAP, Part 1: Your Mailbox Is A Database",
         "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-1/",
         "comments_url": "https://lobste.rs/s/gm4vao/quality_imap_part_1_your_mailbox_is",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-16T16:25:38.928000+00:00"
       },
       {
-        "title": "Generative AI Usage in the Games Industry",
-        "url": "https://www.gameworkers.co.uk/ai-manifesto/",
-        "score": 20,
-        "source": "Hacker News",
-        "published": "2026-11-16T15:59:48+00:00"
-      },
-      {
-        "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
+        "title": "Nvidia was in trouble before the Jensen Huang mess",
         "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-        "score": 100,
+        "score": 135,
         "source": "Hacker News",
         "published": "2026-11-16T15:24:09+00:00"
       },
@@ -1454,7 +1488,7 @@
         "title": "Enabling the parallel frontend on nightly",
         "url": "https://blog.rust-lang.org/2026/11/16/enabling-parallel-frontend-on-nightly/",
         "comments_url": "https://lobste.rs/s/8eivbk/enabling_parallel_frontend_on_nightly",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-16T15:22:38.857000+00:00"
       },
@@ -1462,36 +1496,29 @@
         "title": "Local Mirror for FreeBSD pkgbase",
         "url": "https://blog.feld.me/posts/2026/11/local-mirror-for-freebsd-pkgbase/",
         "comments_url": "https://lobste.rs/s/tebwei/local_mirror_for_freebsd_pkgbase",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-16T14:47:48.457000+00:00"
-      },
-      {
-        "title": "The Active Directory Era Is Finally Over",
-        "url": "https://infisical.com/blog/active-directory-machine-identity",
-        "score": 45,
-        "source": "Hacker News",
-        "published": "2026-11-16T14:15:31+00:00"
       },
       {
         "title": "Squircles",
         "url": "https://linebender.org/wiki/curves/squircle/",
         "comments_url": "https://lobste.rs/s/iihw5u/squircles",
-        "score": 22,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-16T13:56:54.181000+00:00"
       },
       {
         "title": "What is w2rt6byl5nf1opmc-a.com?",
         "url": "https://jack.cab/blog/siterate",
-        "score": 275,
+        "score": 282,
         "source": "Hacker News",
         "published": "2026-11-16T13:51:38+00:00"
       },
       {
-        "title": "Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings",
+        "title": "Many of Amazon’s Black Friday and Cyber Monday “deals” offered no savings",
         "url": "http://groundworkcollaborative.org/news/amazons-decoy-deals-groundwork-investigation-reveals-nearly-1-in-3-black-friday-and-cyber-monday-deals-advertised-by-amazon-offered-no-savings-to-shoppers-nearly-1-in-10-w/",
-        "score": 449,
+        "score": 507,
         "source": "Hacker News",
         "published": "2026-11-16T13:39:07+00:00"
       },
@@ -1507,7 +1534,7 @@
         "title": "What is w2rt6byl5nf1opmc-a[.]com?",
         "url": "https://jack.cab/blog/siterate.html",
         "comments_url": "https://lobste.rs/s/dgvb5g/what_is_w2rt6byl5nf1opmc_com",
-        "score": 24,
+        "score": 28,
         "source": "Lobste.rs",
         "published": "2026-11-16T13:02:11.963000+00:00"
       },
@@ -1515,24 +1542,16 @@
         "title": "NoisyTCP",
         "url": "https://www.openwall.com/lists/oss-security/2026/11/15/2",
         "comments_url": "https://lobste.rs/s/uegnml/noisytcp",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-16T12:50:29.137000+00:00"
       },
       {
         "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
         "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-        "score": 214,
+        "score": 228,
         "source": "Hacker News",
         "published": "2026-11-16T11:39:31+00:00"
-      },
-      {
-        "title": "Programming a language",
-        "url": "https://nrinaudo.github.io/articles/pl.html",
-        "comments_url": "https://lobste.rs/s/aavjsr/programming_language",
-        "score": 9,
-        "source": "Lobste.rs",
-        "published": "2026-11-16T11:24:12.119000+00:00"
       }
     ],
     "reddit": [
@@ -1601,20 +1620,20 @@
         "published": "2026-11-16T08:09:55+00:00"
       },
       {
+        "title": "I went to a math class at Caltech. The professor no longer grades homework because everyone's using AI.",
+        "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xxr8bg/i_went_to_a_math_class_at_caltech_the_professor/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-16T14:48:40+00:00"
+      },
+      {
         "title": "French 2027 presidential election: Marine Le Pen embraces her intention to abandon Ukraine by ending French aid",
         "url": "https://www.lemonde.fr/politique/article/2026/11/16/presidentielle-2027-marine-le-pen-assume-sa-volonte-d-abandonner-l-ukraine-en-mettant-fin-aux-aides-francaises_6811338_823448.html",
         "comments_url": "https://www.reddit.com/r/europe/comments/1xxml9a/french_2027_presidential_election_marine_le_pen/",
         "score": null,
         "source": "/r/europe",
         "published": "2026-11-16T11:01:51+00:00"
-      },
-      {
-        "title": "The neo-Nazi organization Núcleo Nacional, forced to cease its activity and close its headquarters after 14 members were arrested and weapons were found at the home of its spokesperson",
-        "url": "https://www.elconstitucional.es/en/national/the-neo-nazi-organization-nucleo-nacional-forced-to-cease-its-activity-and-close-its-headquarters-after-14-members-were-arrested-and-weapons-were-found-at-the-home-of-its-spokesperson_10104_102.html",
-        "comments_url": "https://www.reddit.com/r/europe/comments/1xxpegf/the_neonazi_organization_núcleo_nacional_forced/",
-        "score": null,
-        "source": "/r/europe",
-        "published": "2026-11-16T13:30:45+00:00"
       },
       {
         "title": "Ukrainian drone attacks 'neutralized' 55% of Russia's oil refining capacity, Zelensky says",
@@ -1625,14 +1644,6 @@
         "published": "2026-11-16T08:29:23+00:00"
       },
       {
-        "title": "French troops deployed in Ukraine on secret mission",
-        "url": "https://www.yahoo.com/news/world/articles/french-troops-deployed-ukraine-secret-114844500.html?guccounter=1",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxodce/french_troops_deployed_in_ukraine_on_secret/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-16T12:41:02+00:00"
-      },
-      {
         "title": "Boeing-Lockheed rocket fails, 40 Amazon satellites lost",
         "url": "https://www.dw.com/en/rocket-from-boeing-lockheed-firm-fails-mid-flight-destroys-payload-of-amazon-satellites/a-79953931",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxrgar/boeinglockheed_rocket_fails_40_amazon_satellites/",
@@ -1641,20 +1652,28 @@
         "published": "2026-11-16T14:57:32+00:00"
       },
       {
-        "title": "I went to a math class at Caltech. The professor no longer grades homework because everyone's using AI.",
-        "url": "https://www.businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xxr8bg/i_went_to_a_math_class_at_caltech_the_professor/",
+        "title": "The neo-Nazi organization Núcleo Nacional, forced to cease its activity and close its headquarters after 14 members were arrested and weapons were found at the home of its spokesperson",
+        "url": "https://www.elconstitucional.es/en/national/the-neo-nazi-organization-nucleo-nacional-forced-to-cease-its-activity-and-close-its-headquarters-after-14-members-were-arrested-and-weapons-were-found-at-the-home-of-its-spokesperson_10104_102.html",
+        "comments_url": "https://www.reddit.com/r/europe/comments/1xxpegf/the_neonazi_organization_núcleo_nacional_forced/",
         "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T14:48:40+00:00"
+        "source": "/r/europe",
+        "published": "2026-11-16T13:30:45+00:00"
       },
       {
-        "title": "Trump, Putin and Xi set for historic summit as Ukraine stays sidelined",
-        "url": "https://tvpworld.com/96501984/trump-putin-and-xi-to-meet-in-china-on-november-19",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xxlzwg/trump_putin_and_xi_set_for_historic_summit_as/",
+        "title": "French troops deployed in Ukraine on secret mission",
+        "url": "https://www.yahoo.com/news/world/articles/french-troops-deployed-ukraine-secret-114844500.html?guccounter=1",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xxodce/french_troops_deployed_in_ukraine_on_secret/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-16T10:25:57+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-16T12:41:02+00:00"
+      },
+      {
+        "title": "Lutnick Pushed to Weaken Chip Rules That Overlap With His Family Business",
+        "url": "https://www.nytimes.com/2026/11/15/us/politics/trump-lutnick-ai-chips-nvidia-cantor-fitzgerald.html",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xxpoml/lutnick_pushed_to_weaken_chip_rules_that_overlap/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-16T13:43:56+00:00"
       }
     ]
   }

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T05:01:00.423596+00:00",
+  "last_updated": "2026-11-17T05:30:56.970779+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 145
+      "ms": 471
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 398
+      "ms": 415
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 115
+      "ms": 277
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 74
+      "ms": 1079
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 110
+      "ms": 1104
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 152
+      "ms": 1083
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 204
+      "ms": 1710
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 169
+      "ms": 909
     },
     "Euronews": {
-      "ok": true,
-      "count": 40,
-      "error": null,
-      "ms": 221
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3737
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 56
+      "ms": 252
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 315
+      "ms": 808
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 307
+      "ms": 1070
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 220
+      "ms": 163
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 155
+      "ms": 380
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 228
+      "ms": 1056
     },
     "RNZ": {
       "ok": true,
-      "count": 47,
+      "count": 46,
       "error": null,
-      "ms": 398
+      "ms": 1872
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 606
+      "ms": 839
     },
     "Semafor": {
       "ok": true,
       "count": 232,
       "error": null,
-      "ms": 598
+      "ms": 871
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 491
+      "ms": 1029
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 237
+      "ms": 1194
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 190
+      "ms": 453
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 153
+      "ms": 147
     },
     "The Independent": {
       "ok": true,
-      "count": 64,
+      "count": 65,
       "error": null,
-      "ms": 104
+      "ms": 580
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 133
+      "ms": 397
     }
   },
   "breaking": [
@@ -200,28 +200,6 @@
           "url": "https://www.channelnewsasia.com/entertainment/james-bond-new-actor-robert-pattinson-6556216",
           "title": "British actor Robert Pattinson named as new James Bond",
           "published": "2026-11-16T15:39:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "UEFA backs France’s Diallo to stand against Infantino in FIFA election",
-      "url": "https://www.japantimes.co.jp/sports/2026/11/17/soccer/uefa-fifa-infantino-diallo/",
-      "source": "Japan Times",
-      "published": "2026-11-17T02:18:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
-          "title": "UEFA backs Diallo to challenge Infantino for FIFA presidency",
-          "published": "2026-11-16T20:20:02+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/uefa-backs-france-s-diallo-to-stand-against-infantino-in-fifa-election",
-          "title": "UEFA backs France's Diallo to stand against Infantino in FIFA election",
-          "published": "2026-11-16T19:40:39+00:00"
         }
       ],
       "consensus": 4.0
@@ -297,20 +275,36 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump says Kim Jong Un may join him, Putin and Xi for first-ever super summit",
-      "url": "https://www.independent.co.uk/asia/southeast-asia/trump-manila-kim-jong-un-xi-putin-summit-b3086101.html",
-      "source": "The Independent",
-      "published": "2026-11-17T02:28:21+00:00",
+      "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
+      "url": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/horns-drones-shenzhen-trump-apec/",
+      "source": "Japan Times",
+      "published": "2026-11-17T04:09:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss",
-          "title": "Trump departs for ASEAN on summit with Xi and Putin",
-          "published": "2026-11-16T23:42:03+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/horns-and-drones-banned-as-shenzhen-hushes-for-trump-and-apec",
+          "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
+          "published": "2026-11-17T02:29:53+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
+    },
+    {
+      "title": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
+      "url": "https://www.thehindu.com/news/international/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace/article71710315.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T03:48:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace",
+          "title": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
+          "published": "2026-11-17T02:39:39+00:00"
+        }
+      ],
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -371,29 +365,23 @@
       "consensus": 4.5
     },
     {
-      "title": "Trump says he may meet North Korea’s Kim in China as top regime official visits Moscow",
-      "url": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/kim-trump-apec-russia/",
+      "title": "UEFA backs France’s Diallo to stand against Infantino in FIFA election",
+      "url": "https://www.japantimes.co.jp/sports/2026/11/17/soccer/uefa-fifa-infantino-diallo/",
       "source": "Japan Times",
-      "published": "2026-11-16T23:06:00+00:00",
-      "score": 4,
+      "published": "2026-11-17T02:18:00+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
-          "title": "Putin could meet North Korea’s Kim if he also heads to China for Apec summit",
-          "published": "2026-11-16T21:34:56+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
+          "title": "UEFA backs Diallo to challenge Infantino for FIFA presidency",
+          "published": "2026-11-16T20:20:02+00:00"
         },
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-says-he-might-meet-north-koreas-kim-jong-un-in-china-6556341",
-          "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
-          "published": "2026-11-16T16:26:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/trump-says-he-might-meet-with-north-koreas-kim-jong-un-in-china",
-          "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
-          "published": "2026-11-16T14:54:43+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/uefa-backs-france-s-diallo-to-stand-against-infantino-in-fifa-election",
+          "title": "UEFA backs France's Diallo to stand against Infantino in FIFA election",
+          "published": "2026-11-16T19:40:39+00:00"
         }
       ],
       "consensus": 4.0
@@ -416,28 +404,6 @@
           "url": "https://www.cbc.ca/news/world/lindsay-clancy-court-trial-9.7423387?cmp=rss",
           "title": "Lindsay Clancy will be retried in March for the killing of her 3 children",
           "published": "2026-11-16T15:16:21+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Israeli opposition accuses Netanyahu of attempted ‘coup’",
-      "url": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-16T20:00:07+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup/article71709115.ece",
-          "title": "Israeli opposition chiefs denounce Netanyahu over ‘attempted coup’",
-          "published": "2026-11-16T16:35:18+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup",
-          "title": "Israeli opposition chiefs denounce Netanyahu over 'attempted coup'",
-          "published": "2026-11-16T08:58:46+00:00"
         }
       ],
       "consensus": 4.0
@@ -553,26 +519,20 @@
       "consensus": 3.5
     },
     {
-      "title": "Australian MP Helen Haines leaves hospital after losing both legs in car attack",
-      "url": "https://www.cbc.ca/news/world/helen-haines-australia-mp-9.7423190?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-16T11:19:54+00:00",
-      "score": 3,
+      "title": "Trump says Kim Jong Un may join him, Putin and Xi for first-ever super summit",
+      "url": "https://www.independent.co.uk/asia/southeast-asia/trump-manila-kim-jong-un-xi-putin-summit-b3086101.html",
+      "source": "The Independent",
+      "published": "2026-11-17T02:28:21+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-leaves-hospital-car-attack-b3085393.html",
-          "title": "Australian lawmaker Helen Haines leaves hospital nearly a month after car-ramming attack",
-          "published": "2026-11-16T07:18:37+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack",
-          "title": "Australian MP Helen Haines leaves hospital after losing both legs in alleged car attack",
-          "published": "2026-11-16T06:42:33+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss",
+          "title": "Trump departs for ASEAN on summit with Xi and Putin",
+          "published": "2026-11-16T23:42:03+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "Nuclear accident risk in Ukraine rising this winter, atomic safety regulators say",
@@ -639,22 +599,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
-      "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
-      "source": "Straits Times",
-      "published": "2026-11-16T21:54:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
-          "title": "Trump says he could meet with North Korean leader Kim Jong-un in China",
-          "published": "2026-11-16T15:53:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "US to curb China's access to AI chips as Trump heads to Asia",
       "url": "https://www.channelnewsasia.com/world/us-curb-chinas-access-ai-chips-trump-heads-asia-6556726",
       "source": "CNA",
@@ -666,22 +610,6 @@
           "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
           "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
           "published": "2026-11-16T17:36:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
-      "url": "https://www.scmp.com/news/us/article/3374640/trump-floats-kim-meeting-china-says-hell-discuss-ukraine-xi-and-putin",
-      "source": "SCMP",
-      "published": "2026-11-16T16:08:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
-          "title": "Trump, Xi and Putin to meet in China, White House says",
-          "published": "2026-11-14T09:00:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -703,18 +631,28 @@
       "consensus": 2.5
     },
     {
+      "title": "Australian MP Helen Haines leaves hospital after losing both legs in car attack",
+      "url": "https://www.cbc.ca/news/world/helen-haines-australia-mp-9.7423190?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-16T11:19:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-leaves-hospital-car-attack-b3085393.html",
+          "title": "Australian lawmaker Helen Haines leaves hospital nearly a month after car-ramming attack",
+          "published": "2026-11-16T07:18:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Neves wins second term as Cape Verde's president: provisional results",
       "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
       "source": "RFI English",
       "published": "2026-11-16T08:24:09+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
-          "published": "2026-11-15T09:45:23+00:00"
-        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
@@ -757,54 +695,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Airlines expect to return to full schedules by Sunday night after US nationwide ground stop, FAA says",
-      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
-      "source": "Euronews",
-      "published": "2026-11-14T06:56:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
-      "url": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/horns-drones-shenzhen-trump-apec/",
-      "source": "Japan Times",
-      "published": "2026-11-17T04:09:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/horns-and-drones-banned-as-shenzhen-hushes-for-trump-and-apec",
-          "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
-          "published": "2026-11-17T02:29:53+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
-      "url": "https://www.thehindu.com/news/international/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace/article71710315.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T03:48:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace",
-          "title": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
-          "published": "2026-11-17T02:39:39+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Japan scrambles fighters after suspected Russian military planes enter airspace",
       "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/russia-japan-airspace-violation-defense/",
       "source": "Japan Times",
@@ -832,6 +722,22 @@
           "url": "https://www.scmp.com/news/china/diplomacy/article/3374622/groundbreaking-no-yalta-20-what-expect-when-xi-putin-and-trump-meet",
           "title": "Groundbreaking but no Yalta 2.0: what to expect when Xi, Putin and Trump meet",
           "published": "2026-11-16T14:00:06+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
+      "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
+      "source": "Straits Times",
+      "published": "2026-11-16T21:54:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
+          "title": "Putin could meet North Korea’s Kim if he also heads to China for Apec summit",
+          "published": "2026-11-16T21:34:56+00:00"
         }
       ],
       "consensus": 2.0
@@ -869,6 +775,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
+      "url": "https://www.channelnewsasia.com/world/trump-says-he-might-meet-north-koreas-kim-jong-un-in-china-6556341",
+      "source": "CNA",
+      "published": "2026-11-16T16:26:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/trump-says-he-might-meet-with-north-koreas-kim-jong-un-in-china",
+          "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
+          "published": "2026-11-16T14:54:43+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
       "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
       "source": "NPR World",
@@ -901,117 +823,109 @@
       "consensus": 2.0
     },
     {
-      "title": "US airports slowly return to normal after three days of disruption",
-      "url": "http://www.africanews.com/2026/11/16/us-airports-slowly-return-to-normal-after-three-days-of-disruption/",
-      "source": "Africanews",
-      "published": "2026-11-16T16:36:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/16/us-airports-slowly-return-to-normal-after-three-days-of-disruption-caused-by-take-off-ban",
-          "title": "US airports slowly return to normal after three days of disruption caused by take-off ban",
-          "published": "2026-11-16T12:11:16+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Nearly 2,200 migrants arrive in Canary Islands over course of two days",
-      "url": "http://www.africanews.com/2026/11/16/nearly-2200-migrants-arrive-in-canary-islands-over-course-of-two-days/",
-      "source": "Africanews",
-      "published": "2026-11-16T08:53:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/16/more-than-2000-migrants-arrive-in-spains-canary-islands-in-two-days",
-          "title": "More than 2,000 migrants arrive in Spain’s Canary Islands in two days",
-          "published": "2026-11-16T07:10:36+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "UK: London's Santa School trains Father Christmas performers for 2026",
-      "url": "http://www.africanews.com/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026/",
-      "source": "Africanews",
-      "published": "2026-11-15T17:13:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026",
-          "title": "UK: London's Santa School trains Father Christmas performers for 2026",
-          "published": "2026-11-15T17:13:11+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
-      "url": "http://www.africanews.com/2026/11/13/uk-christmas-at-kew-2026-unveils-spectacular-light-trail-in-london/",
-      "source": "Africanews",
-      "published": "2026-11-13T14:46:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/13/uk-christmas-at-kew-2026-unveils-spectacular-light-trail-in-london",
-          "title": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
-          "published": "2026-11-13T14:46:52+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "North Macedonia: Kriva Palanka seeks help over 1,000 free-roaming cows",
-      "url": "http://www.africanews.com/2026/11/13/north-macedonia-kriva-palanka-seeks-help-over-1000-free-roaming-cows/",
-      "source": "Africanews",
-      "published": "2026-11-13T14:04:19+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/13/north-macedonia-kriva-palanka-seeks-help-over-1000-free-roaming-cows",
-          "title": "North Macedonia: Kriva Palanka seeks help over 1,000 free-roaming cows",
-          "published": "2026-11-13T14:04:11+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Breaking: Teacher who had 13yo student's baby jailed for multiple sexual offences",
-      "url": "https://www.abc.net.au/news/2026-11-17/mandurah-teacher-sentenced-after-having-students-baby/106205970",
-      "source": "ABC Australia",
-      "published": "2026-11-17T04:54:35+00:00",
+      "title": "Papua New Guinea's prime minister says Taiwan does not operate there anymore",
+      "url": "https://www.straitstimes.com/asia/papua-new-guineas-prime-minister-says-taiwan-does-not-operate-there-anymore",
+      "source": "Straits Times",
+      "published": "2026-11-17T05:29:51+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "A wound that won't heal: Family desperate for answers after death in police custody",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2641816/a-wound-that-won-t-heal-family-desperate-for-answers-after-death-in-police-custody",
+      "title": "Teen shot dead after stabbing stranger 'very much enjoyed' extremist content",
+      "url": "https://www.abc.net.au/news/2026-11-17/james-hollands-enjoyed-extremist-content-inquest-told/107395226",
+      "source": "ABC Australia",
+      "published": "2026-11-17T05:19:41+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Takaichi and ASEAN leaders agree to boost energy and supply chain cooperation",
+      "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/politics/takaichi-asean-summits-economy/",
+      "source": "Japan Times",
+      "published": "2026-11-17T05:17:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "ASEAN Summit LIVE updates: PM Modi to participate in ASEAN-India Summit; Quad meeting likely after Trump arrives",
+      "url": "https://www.thehindu.com/news/international/asean-india-summit-manila-november-2026-quad-live-updates-pm-modi-trump-meeting-latest-news/article71710382.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T05:16:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Malaysia arrests man who mistook teen girl for mouse deer and shot her",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374691/malaysia-arrests-man-who-mistook-teen-girl-mouse-deer-and-shot-her",
+      "source": "SCMP",
+      "published": "2026-11-17T05:11:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan may revise loan guarantee rules to secure funds for U.S. investments",
+      "url": "https://www.japantimes.co.jp/business/2026/11/17/economy/japan-nexi-loan-easing/",
+      "source": "Japan Times",
+      "published": "2026-11-17T05:11:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "US presses UN agency over Taiwan flight restrictions, China hits back",
+      "url": "https://www.straitstimes.com/asia/us-presses-un-agency-over-taiwan-flight-restrictions-china-hits-back",
+      "source": "Straits Times",
+      "published": "2026-11-17T05:09:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Missing swimmer's whānau 'truly grateful for the aroha that has surrounded' them as search continues",
+      "url": "https://www.rnz.co.nz/news/community/2642103/missing-swimmer-s-whanau-truly-grateful-for-the-aroha-that-has-surrounded-them-as-search-continues",
       "source": "RNZ",
-      "published": "2026-11-17T04:54:20+00:00",
+      "published": "2026-11-17T05:08:33+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Power cuts in Kyiv as vital bridges struck in massive Russian ballistic missile attack",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
-      "source": "The Independent",
-      "published": "2026-11-17T04:47:22+00:00",
+      "title": "US airbase Kadena gets F-15EX fighters but no upper hand against China, analysts say",
+      "url": "https://www.scmp.com/news/china/military/article/3374690/us-airbase-kadena-gets-f-15ex-fighters-no-upper-hand-against-china-analysts-say",
+      "source": "SCMP",
+      "published": "2026-11-17T05:08:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "PNG to propose three-child limit to slow surging population",
-      "url": "https://www.abc.net.au/news/2026-11-17/png-policy-aims-to-limit-families-to-three-children/107385842",
-      "source": "ABC Australia",
-      "published": "2026-11-17T04:45:51+00:00",
+      "title": "The Red Crabs of Christmas Island",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T05:08:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan proposes Asia oil security task force at ASEAN summit",
+      "url": "https://www.straitstimes.com/asia/se-asia/japan-proposes-asia-oil-security-task-force-at-asean-summit",
+      "source": "Straits Times",
+      "published": "2026-11-17T05:07:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Will the EU’s next Russia sanctions bite?",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/will-the-eus-next-russia-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-17T05:05:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1087,10 +1001,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 59053.75,
+        "price": 58841.17,
         "currency": "JPY",
-        "change": -608.27,
-        "change_percent": -1.02,
+        "change": -820.85,
+        "change_percent": -1.38,
         "name": "Nikkei 225"
       },
       {
@@ -1113,18 +1027,18 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3875.8,
+        "price": 3881.5,
         "currency": "USD",
-        "change": 22.8,
-        "change_percent": 0.59,
+        "change": 28.5,
+        "change_percent": 0.74,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.46,
+        "price": 47.58,
         "currency": "USD",
-        "change": 0.6,
-        "change_percent": 1.28,
+        "change": 0.72,
+        "change_percent": 1.54,
         "name": "Silver"
       },
       {
@@ -1140,7 +1054,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.09,
+        "change_percent": 0.12,
         "name": "EUR/USD"
       },
       {
@@ -1148,23 +1062,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": 0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.22,
+        "price": 159.18,
         "currency": "JPY",
-        "change": -0.18,
-        "change_percent": -0.11,
+        "change": -0.22,
+        "change_percent": -0.14,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64905.68,
+        "price": 64958.06,
         "currency": "USD",
-        "change": 77.31,
-        "change_percent": 0.12,
+        "change": 129.68,
+        "change_percent": 0.2,
         "name": "Bitcoin"
       }
     ],
@@ -1334,22 +1248,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Nasdaq 100 sinks 2.7% in gloomy start to pivotal week for AI trade",
-          "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
-          "published": "2026-11-17T02:29:11+00:00",
-          "snippet": "US chip stocks fall as Nvidia sustains fresh bout of selling pressure"
+          "title": "Nvidia’s imperial palace intrigue",
+          "url": "https://www.ft.com/content/36bf11fe-19a9-4a5f-9c0b-9d06885a8aba?syn-25a6b1a6=1",
+          "published": "2026-11-17T05:00:26+00:00",
+          "snippet": "Jensen Huang exercised tight personal control over his company, and the risks of that approach are now clear"
         },
         {
-          "title": "India mulls lifting capital gains tax for foreign investors",
-          "url": "https://www.ft.com/content/32fbce84-6361-4e60-851a-e0cdac9a5ae7?syn-25a6b1a6=1",
-          "published": "2026-11-17T01:30:03+00:00",
-          "snippet": "Also, exports surge despite geopolitical troubles"
+          "title": "‘Nobody got back to me’: on the frontline of the UK’s youth jobs crisis",
+          "url": "https://www.ft.com/content/83968c32-1002-407f-b5d5-fcd46f5fcf94?syn-25a6b1a6=1",
+          "published": "2026-11-17T05:00:25+00:00",
+          "snippet": "A west London youth club trying to bridge the gap between school and work for teenagers without family contacts"
         },
         {
-          "title": "Burnham delays plans to set out options for UK’s long-term ties with EU",
-          "url": "https://www.ft.com/content/d6a8f196-fe95-4480-9c36-283b79b7cf33?syn-25a6b1a6=1",
-          "published": "2026-11-16T23:37:09+00:00",
-          "snippet": "PM uses set-piece City of London speech to ease disquiet over starting a debate on potentially rejoining the bloc"
+          "title": "Jay-Z backed music rights firm raises nearly $700mn to expand portfolio",
+          "url": "https://www.ft.com/content/3b51a260-2e6c-452e-a109-ea7c1fe85b3a?syn-25a6b1a6=1",
+          "published": "2026-11-17T05:00:25+00:00",
+          "snippet": "Fundraising is the latest to be backed by a securitisation of music royalties as investors look for steady yields outside of traditional markets"
         }
       ]
     },
@@ -1459,28 +1373,21 @@
       {
         "title": "If an App Asks for Full Disk Access or System and App Protection Override",
         "url": "https://support.apple.com/en-us/149699",
-        "score": 52,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-17T02:17:04+00:00"
       },
       {
-        "title": "Mem Is Shutting Down",
-        "url": "https://get.mem.ai/blog/mem-is-shutting-down",
-        "score": 36,
-        "source": "Hacker News",
-        "published": "2026-11-17T02:13:41+00:00"
-      },
-      {
         "title": "Running coding agents without handing them my credentials",
         "url": "https://blog.antonio.cx/running-agents-with-lend",
-        "score": 69,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-17T01:18:56+00:00"
       },
       {
         "title": "Why 3dfx 1 cards had such a washed out color output?",
         "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-        "score": 43,
+        "score": 56,
         "source": "Hacker News",
         "published": "2026-11-17T00:16:24+00:00"
       },
@@ -1495,14 +1402,14 @@
       {
         "title": "Optimizely compromised, served malware on Zoom, GitLab",
         "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-        "score": 191,
+        "score": 212,
         "source": "Hacker News",
         "published": "2026-11-16T23:00:34+00:00"
       },
       {
         "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
         "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-        "score": 384,
+        "score": 403,
         "source": "Hacker News",
         "published": "2026-11-16T22:58:20+00:00"
       },
@@ -1510,7 +1417,7 @@
         "title": "Improving the Wii U's Wii Mode",
         "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
         "comments_url": "https://lobste.rs/s/sz6o8w/improving_wii_u_s_wii_mode",
-        "score": 16,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-16T22:39:54.319000+00:00"
       },
@@ -1525,21 +1432,21 @@
       {
         "title": "BugMeNot has closed",
         "url": "https://www.bugmenot.com/",
-        "score": 414,
+        "score": 422,
         "source": "Hacker News",
         "published": "2026-11-16T21:32:17+00:00"
       },
       {
         "title": "OpenCode Browse",
         "url": "https://opencode.ai/product/browse",
-        "score": 176,
+        "score": 181,
         "source": "Hacker News",
         "published": "2026-11-16T21:20:37+00:00"
       },
       {
         "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
         "url": "https://www.cs.cmu.edu/learn/",
-        "score": 1015,
+        "score": 1056,
         "source": "Hacker News",
         "published": "2026-11-16T20:43:36+00:00"
       },
@@ -1553,7 +1460,7 @@
       {
         "title": "Chemistry is Actually Geometry",
         "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-        "score": 164,
+        "score": 172,
         "source": "Hacker News",
         "published": "2026-11-16T20:22:18+00:00"
       },
@@ -1564,9 +1471,25 @@
         "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-16T19:19:20.113000+00:00"
+      },
+      {
+        "title": "How Rust Changed Me As A Developer",
+        "url": "https://blog.startifact.com/posts/how-rust-changed-me/",
+        "comments_url": "https://lobste.rs/s/s7mejx/how_rust_changed_me_as_developer",
+        "score": 19,
+        "source": "Lobste.rs",
+        "published": "2026-11-16T18:17:29.216000+00:00"
       }
     ],
     "reddit": [
+      {
+        "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
+        "url": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy9znd/us_proposes_blocking_employers_from_sponsoring/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-17T03:32:18+00:00"
+      },
       {
         "title": "US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
         "url": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
@@ -1574,14 +1497,6 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-16T23:09:01+00:00"
-      },
-      {
-        "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
-        "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T22:20:02+00:00"
       },
       {
         "title": "When gut bacteria run out of fiber, they can start eating the protective mucus lining of the gut instead, producing potentially harmful compounds, a study in mice found. Eating fiber and hard-to-digest plant proteins steers gut bacteria toward making beneficial compounds.",
@@ -1616,12 +1531,12 @@
         "published": "2026-11-17T01:00:56+00:00"
       },
       {
-        "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
-        "url": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy9znd/us_proposes_blocking_employers_from_sponsoring/",
+        "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+        "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/",
         "score": null,
         "source": "/r/technology",
-        "published": "2026-11-17T03:32:18+00:00"
+        "published": "2026-11-16T22:20:02+00:00"
       },
       {
         "title": "Kids and teens both think giving trophies only to winners makes people try harder and feel more special than participation trophies. But only teens saw a dark side: nearly all predicted winners-only trophies would lead to more cheating and runners risking injury to win, a new study finds.",
@@ -1632,6 +1547,14 @@
         "published": "2026-11-16T20:00:10+00:00"
       },
       {
+        "title": "An MIT study found that older adults have significantly weaker waves of cerebrospinal fluid during sleep, potentially impairing the brain’s waste-clearing processes. The decline was linked to reduced deep-sleep brain waves and vascular changes, rather than simply sleeping fewer hours.",
+        "url": "https://www.nature.com/articles/s43587-026-01270-4",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xy8pbz/an_mit_study_found_that_older_adults_have/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-17T02:29:45+00:00"
+      },
+      {
         "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
         "url": "https://www.barrons.com/articles/jensen-huang-nvidia-stock-trust-grat-estate-tax-357c1fd3",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xy0zz2/jensen_huang_passed_billions_in_nvidia_stock_to/",
@@ -1640,12 +1563,12 @@
         "published": "2026-11-16T20:56:03+00:00"
       },
       {
-        "title": "An MIT study found that older adults have significantly weaker waves of cerebrospinal fluid during sleep, potentially impairing the brain’s waste-clearing processes. The decline was linked to reduced deep-sleep brain waves and vascular changes, rather than simply sleeping fewer hours.",
-        "url": "https://www.nature.com/articles/s43587-026-01270-4",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xy8pbz/an_mit_study_found_that_older_adults_have/",
+        "title": "Musically trained children score higher on tests of intelligence, working memory, and reading. Studies have reported improvements in executive functioning, reading comprehension, language abilities, and academic performance among children who received musical training.",
+        "url": "https://www.psypost.org/musically-trained-children-score-higher-on-tests-of-intelligence-working-memory-and-reading/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xxo4c6/musically_trained_children_score_higher_on_tests/",
         "score": null,
         "source": "/r/science",
-        "published": "2026-11-17T02:29:45+00:00"
+        "published": "2026-11-16T12:28:17+00:00"
       },
       {
         "title": "Why Israel Is Losing America",
@@ -1664,14 +1587,6 @@
         "published": "2026-11-16T19:31:25+00:00"
       },
       {
-        "title": "Musically trained children score higher on tests of intelligence, working memory, and reading. Studies have reported improvements in executive functioning, reading comprehension, language abilities, and academic performance among children who received musical training.",
-        "url": "https://www.psypost.org/musically-trained-children-score-higher-on-tests-of-intelligence-working-memory-and-reading/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xxo4c6/musically_trained_children_score_higher_on_tests/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-16T12:28:17+00:00"
-      },
-      {
         "title": "Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit",
         "url": "https://www.neowin.net/news/users-admins-report-new-microsoft-365-outage-with-exchange-outlook-exccel-hit/",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xy3aqe/users_admins_report_new_microsoft_365_outage_with/",
@@ -1680,12 +1595,12 @@
         "published": "2026-11-16T22:26:53+00:00"
       },
       {
-        "title": "Britain could face Ireland genocide claim under new definition",
-        "url": "https://www.telegraph.co.uk/news/2026/11/15/britain-could-face-ireland-genocide-claim-under-new-definit/",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xxyuxt/britain_could_face_ireland_genocide_claim_under/",
+        "title": "Scientists who lean more on AI tools to write grant applications tend to pitch less original ideas that look more like what was funded the year before. Yet at the NIH, these AI-assisted proposals were more likely to win funding, and led to slightly more papers but not more highly cited ones.",
+        "url": "https://www.psypost.org/scientists-who-use-ai-propose-less-distinctive-ideas-for-federal-research-grants/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xy6lfz/scientists_who_lean_more_on_ai_tools_to_write/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-16T19:35:58+00:00"
+        "source": "/r/science",
+        "published": "2026-11-17T00:49:55+00:00"
       }
     ]
   }

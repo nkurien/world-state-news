@@ -1,42 +1,42 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T19:30:56.243319+00:00",
+  "last_updated": "2026-11-17T20:01:04.040023+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 414
+      "ms": 376
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 303
+      "ms": 184
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 238
+      "ms": 89
     },
     "BBC News": {
       "ok": true,
-      "count": 24,
+      "count": 25,
       "error": null,
-      "ms": 263
+      "ms": 397
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 273
+      "ms": 180
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 193
+      "ms": 345
     },
     "Deutsche Welle": {
       "ok": true,
@@ -48,13 +48,13 @@
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 414
+      "ms": 270
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 162
+      "ms": 165
     },
     "France24": {
       "ok": true,
@@ -66,88 +66,116 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 508
+      "ms": 357
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 304
+      "ms": 297
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 111
+      "ms": 274
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 187
+      "ms": 435
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 128
+      "ms": 227
     },
     "RNZ": {
       "ok": true,
-      "count": 48,
+      "count": 49,
       "error": null,
-      "ms": 415
+      "ms": 443
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 615
+      "ms": 583
     },
     "Semafor": {
       "ok": true,
-      "count": 254,
+      "count": 256,
       "error": null,
-      "ms": 517
+      "ms": 401
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 647
+      "ms": 565
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 363
+      "ms": 269
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 166
+      "ms": 153
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 274
+      "ms": 159
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 75,
       "error": null,
-      "ms": 216
+      "ms": 356
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 248
+      "ms": 159
     }
   },
   "breaking": [
+    {
+      "title": "U.K. sanctions Israeli companies involved in building illegal settlements in West Bank",
+      "url": "https://www.cbc.ca/news/world/united-kingdom-israel-west-bank-construction-companies-settlements-9.7425375?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-17T19:27:10+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "published": "2026-11-17T18:27:27+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/uk-sanctions-israeli-companies-building-west-bank-settlements/article71713186.ece",
+          "title": "U.K. sanctions Israeli companies building West Bank settlements",
+          "published": "2026-11-17T18:11:03+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/uk/politics/west-bank-sanctions-uk-ed-miliband-b3086280.html",
+          "title": "UK announces new sanctions against firms building West Bank settlements",
+          "published": "2026-11-17T10:41:08+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
       "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
@@ -205,34 +233,6 @@
       "consensus": 5.0
     },
     {
-      "title": "UK sanctions firms over Israeli West Bank settlements",
-      "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T18:27:27+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/uk-sanctions-israeli-companies-building-west-bank-settlements/article71713186.ece",
-          "title": "U.K. sanctions Israeli companies building West Bank settlements",
-          "published": "2026-11-17T18:11:03+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/17/ed-miliband-israel-west-bank-settlements-sanctions",
-          "title": "Ed Miliband announces first sanctions on Israeli firms working in West Bank",
-          "published": "2026-11-17T12:18:08+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/uk/politics/west-bank-sanctions-uk-ed-miliband-b3086280.html",
-          "title": "UK announces new sanctions against firms building West Bank settlements",
-          "published": "2026-11-17T10:41:08+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
       "url": "https://www.thehindu.com/news/international/ukraine-strikes-major-russian-bridge-with-drones-and-missiles-as-aerial-attacks-escalate/article71713178.ece",
       "source": "The Hindu",
@@ -253,6 +253,122 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T17:37:04+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
+          "published": "2026-11-17T16:03:34+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
+          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
+          "published": "2026-11-17T14:43:52+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Can a robot pianist upstage a human musician?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/can-a-robot-pianist-upstage-a-human-musician?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T19:43:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/17/53-fingered-robot-pianist-and-human-musician-perform-chopin-together",
+          "title": "53-fingered robot pianist and human musician perform Chopin together",
+          "published": "2026-11-17T08:21:50+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "NSA claims temporary internal network outage caused by ‘scheduled routine maintenance’ – live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-17T19:39:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage?traffic_source=rss",
+          "title": "NSA attributes US network outage to routine ‘maintenance’ activities",
+          "published": "2026-11-17T19:03:14+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Grand Theft Auto 6 is out at midnight - here is what you need to know",
+      "url": "https://www.rnz.co.nz/life/screens/games/grand-theft-auto-6-is-out-this-week-and-here-is-everything-you-need-to-know",
+      "source": "RNZ",
+      "published": "2026-11-17T19:25:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Spiegel",
+          "url": "https://www.spiegel.de/international/germany/new-information-in-the-nazi-database-what-you-need-to-know-about-the-ss-a-f7e09472-e9da-4b11-9846-87f1778116e3#ref=rss",
+          "title": "New Information in the Nazi Database: What You Need to Know About the SS",
+          "published": "2026-07-08T06:54:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    }
+  ],
+  "world": [
+    {
+      "title": "Fresh unrest in Bangladesh as garment workers protest, block highways for higher wages",
+      "url": "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T14:18:29+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
+          "title": "Bangladesh garment workers clash with police in fresh wage protest",
+          "published": "2026-11-17T11:15:09+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/bangladesh-garment-workers-police-clash-in-fresh-wage-protest",
+          "title": "Bangladesh garment workers, police clash in fresh wage protest",
+          "published": "2026-11-17T09:28:00+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Mother bear on the loose prompts Japanese city north of Tokyo to shut schools",
+      "url": "https://www.straitstimes.com/asia/east-asia/mother-bear-on-the-loose-prompts-japanese-city-north-of-tokyo-to-shut-schools",
+      "source": "Straits Times",
+      "published": "2026-11-17T10:00:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/east-asia/article/3374732/japanese-city-shuts-schools-amid-hunt-mother-bear-loose",
+          "title": "Japanese city shuts schools amid hunt for mother bear on the loose",
+          "published": "2026-11-17T09:14:37+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/bear-loose-maebashi/",
+          "title": "Mother bear on the loose prompts city in Gunma Prefecture to shut schools",
+          "published": "2026-11-17T09:12:00+00:00"
+        }
+      ],
+      "consensus": 3.0
     },
     {
       "title": "Mozambique opposition leader goes on trial on terrorism charges",
@@ -303,89 +419,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Gina Raimondo criticizes Trump admin chip policy",
-      "url": "https://www.semafor.com/article/11/17/2026/gina-raimondo-criticizes-trump-admin-chip-policy",
-      "source": "Semafor",
-      "published": "2026-11-17T19:24:21+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    }
-  ],
-  "world": [
-    {
-      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
-      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
-      "source": "Euronews",
-      "published": "2026-11-17T16:10:42+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
-          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
-          "published": "2026-11-17T15:44:54+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
-          "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
-          "published": "2026-11-17T15:13:57+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
-          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
-          "published": "2026-11-17T14:43:52+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "Fresh unrest in Bangladesh as garment workers protest, block highways for higher wages",
-      "url": "https://www.thehindu.com/news/international/fresh-unrest-in-bangladesh-as-garment-workers-protest-block-highways-for-higher-wages/article71711657.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T14:18:29+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/south-asia/article/3374768/bangladesh-garment-workers-clash-police-fresh-wage-protest",
-          "title": "Bangladesh garment workers clash with police in fresh wage protest",
-          "published": "2026-11-17T11:15:09+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/bangladesh-garment-workers-police-clash-in-fresh-wage-protest",
-          "title": "Bangladesh garment workers, police clash in fresh wage protest",
-          "published": "2026-11-17T09:28:00+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
-      "title": "Mother bear on the loose prompts Japanese city north of Tokyo to shut schools",
-      "url": "https://www.straitstimes.com/asia/east-asia/mother-bear-on-the-loose-prompts-japanese-city-north-of-tokyo-to-shut-schools",
-      "source": "Straits Times",
-      "published": "2026-11-17T10:00:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/east-asia/article/3374732/japanese-city-shuts-schools-amid-hunt-mother-bear-loose",
-          "title": "Japanese city shuts schools amid hunt for mother bear on the loose",
-          "published": "2026-11-17T09:14:37+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/bear-loose-maebashi/",
-          "title": "Mother bear on the loose prompts city in Gunma Prefecture to shut schools",
-          "published": "2026-11-17T09:12:00+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
       "title": "The Latest: Trump arrives in Philippines to kick off three-day Asia trip",
       "url": "https://www.independent.co.uk/news/world/americas/donald-trump-manila-philippines-kim-jong-un-vladimir-putin-b3086525.html",
       "source": "The Independent",
@@ -397,22 +430,6 @@
           "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
           "title": "Trump arrives in Philippines to kick off Asia trip",
           "published": "2026-11-17T10:43:55+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US senators demand FAA pause upgrades linked to nationwide ground stop",
-      "url": "https://www.aljazeera.com/news/2026/11/17/us-senators-demand-faa-pause-upgrades-linked-to-nationwide-ground-stop?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T14:57:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -626,17 +643,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T17:37:04+00:00",
+      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "source": "Euronews",
+      "published": "2026-11-17T16:10:42+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
-          "published": "2026-11-17T16:03:34+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
+          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+          "published": "2026-11-17T15:44:54+00:00"
         }
       ],
       "consensus": 2.0
@@ -786,22 +803,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
-      "source": "The Independent",
-      "published": "2026-11-16T23:37:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-          "published": "2026-11-16T21:13:02+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
       "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
       "source": "NPR World",
@@ -866,64 +867,64 @@
       "consensus": 1.5
     },
     {
-      "title": "More trees to be axed from parklands as MotoGP legal challenge continues",
-      "url": "https://www.abc.net.au/news/2026-11-18/more-trees-to-be-removed-for-adelaide-motogp/107394108",
+      "title": "Live: Nvidia set to announce earning as Jensen Huang speaks",
+      "url": "https://www.abc.net.au/news/2026-11-18/asx-markets-business-live-news-nvidia/107396692",
       "source": "ABC Australia",
-      "published": "2026-11-17T19:19:56+00:00",
+      "published": "2026-11-17T19:56:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Not working well': Wayne Brown calls for MMP rethink after China visit",
-      "url": "https://www.rnz.co.nz/news/political/2650034/not-working-well-wayne-brown-calls-for-mmp-rethink-after-china-visit",
+      "title": "US scolds Ukraine over deep strikes ahead of fresh Russia peace talks",
+      "url": "https://www.politico.eu/article/us-scold-ukraine-strikes-russia-peace-talks-elbridge-colby/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-17T19:53:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Smith's next move confirmed after LIV Golf collapse",
+      "url": "https://www.abc.net.au/news/2026-11-18/cameron-smith-next-move-confirmed-after-liv-golf-collapse/107397132",
+      "source": "ABC Australia",
+      "published": "2026-11-17T19:53:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Over 50% of homes in some districts face moderate to high flood risk",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2647104/over-50-percent-of-homes-in-some-districts-face-moderate-to-high-flood-risk",
       "source": "RNZ",
-      "published": "2026-11-17T19:13:47+00:00",
+      "published": "2026-11-17T19:50:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Fossil-fuel industry accused of violating Colorado law over not disclosing drilling chemicals",
-      "url": "https://www.theguardian.com/environment/2026/nov/17/fossil-fuel-industry-colorado",
-      "source": "The Guardian",
-      "published": "2026-11-17T19:12:15+00:00",
+      "title": "Could pollution help save an endangered frog population near Canberra?",
+      "url": "https://www.abc.net.au/news/2026-11-18/researchers-suspect-pollution-helped-endangered-frogs/107394814",
+      "source": "ABC Australia",
+      "published": "2026-11-17T19:49:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "More than 100,000 take part in France pay protests",
-      "url": "https://www.aljazeera.com/news/2026/11/17/more-than-100000-take-part-in-france-pay-protests?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T19:09:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "OT boss prepared for Tom Phillips inquiry in mock press conference",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2646497/ot-boss-prepared-for-tom-phillips-inquiry-in-mock-press-conference",
-      "source": "RNZ",
-      "published": "2026-11-17T19:09:22+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US-China AI race causing global ‘alarm,’ UN's top tech enovy says",
-      "url": "https://www.semafor.com/article/11/17/2026/uns-top-tech-envoy-says-us-china-ai-race-causing-global-alarm",
+      "title": "Hyundai will start delivering Waymos in December in autonomous push",
+      "url": "https://www.semafor.com/article/11/17/2026/hyundai-will-start-delivering-waymos-in-december-in-autonomous-push",
       "source": "Semafor",
-      "published": "2026-11-17T19:08:24+00:00",
+      "published": "2026-11-17T19:49:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "India captain faces 'good headache' finalising Test pace quartet",
-      "url": "https://www.rnz.co.nz/news/sport/2647508/gill-faces-good-headache-as-india-line-up-pace-quartet-to-take-on-black-caps-in-wellington",
-      "source": "RNZ",
-      "published": "2026-11-17T19:07:58+00:00",
+      "title": "Shenzhen summit of Xi, Trump and Putin was Brazil’s Lula’s idea, Carney claims",
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3374801/shenzhen-summit-xi-trump-and-putin-was-brazils-lulas-idea-carney-claims",
+      "source": "SCMP",
+      "published": "2026-11-17T19:49:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -932,10 +933,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7329.11,
+      "price": 7301.1,
       "currency": "USD",
-      "change": -87.48,
-      "change_percent": -1.18,
+      "change": -115.49,
+      "change_percent": -1.56,
       "name": "S&P 500"
     },
     {
@@ -948,10 +949,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24247.39,
+      "price": 24156.83,
       "currency": "USD",
-      "change": -262.37,
-      "change_percent": -1.07,
+      "change": -352.93,
+      "change_percent": -1.44,
       "name": "NASDAQ Composite"
     },
     {
@@ -967,10 +968,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7329.11,
+        "price": 7301.1,
         "currency": "USD",
-        "change": -87.48,
-        "change_percent": -1.18,
+        "change": -115.49,
+        "change_percent": -1.56,
         "name": "S&P 500"
       },
       {
@@ -983,18 +984,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50786.69,
+        "price": 50591.46,
         "currency": "USD",
-        "change": -821.48,
-        "change_percent": -1.59,
+        "change": -1016.71,
+        "change_percent": -1.97,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24247.39,
+        "price": 24156.83,
         "currency": "USD",
-        "change": -262.37,
-        "change_percent": -1.07,
+        "change": -352.93,
+        "change_percent": -1.44,
         "name": "NASDAQ Composite"
       },
       {
@@ -1025,26 +1026,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3859.9,
+        "price": 3850.9,
         "currency": "USD",
-        "change": 6.9,
-        "change_percent": 0.18,
+        "change": -2.1,
+        "change_percent": -0.05,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.39,
+        "price": 47.16,
         "currency": "USD",
-        "change": 0.53,
-        "change_percent": 1.13,
+        "change": 0.31,
+        "change_percent": 0.65,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.16,
+        "price": 92.83,
         "currency": "USD",
-        "change": 0.72,
-        "change_percent": 0.78,
+        "change": 0.39,
+        "change_percent": 0.42,
         "name": "Brent Crude"
       },
       {
@@ -1052,7 +1053,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.15,
+        "change_percent": 0.14,
         "name": "EUR/USD"
       },
       {
@@ -1060,81 +1061,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.2,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.34,
+        "price": 159.31,
         "currency": "JPY",
-        "change": -0.05,
-        "change_percent": -0.03,
+        "change": -0.08,
+        "change_percent": -0.05,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 63649.1,
+        "price": 63662.25,
         "currency": "USD",
-        "change": -1179.28,
-        "change_percent": -1.82,
+        "change": -1166.12,
+        "change_percent": -1.8,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 506.27,
+        "price": 505.71,
         "currency": "USD",
-        "change": -11.72,
-        "change_percent": -2.26,
+        "change": -12.28,
+        "change_percent": -2.37,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 350.48,
+        "price": 349.91,
         "currency": "USD",
-        "change": -2.3,
-        "change_percent": -0.65,
+        "change": -2.87,
+        "change_percent": -0.81,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 153.58,
+        "price": 152.22,
         "currency": "USD",
-        "change": -2.56,
-        "change_percent": -1.64,
+        "change": -3.92,
+        "change_percent": -2.51,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 280.41,
+        "price": 279.73,
         "currency": "USD",
-        "change": -3.31,
-        "change_percent": -1.17,
+        "change": -4.0,
+        "change_percent": -1.41,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 256.6,
+        "price": 256.09,
         "currency": "USD",
-        "change": -1.15,
-        "change_percent": -0.45,
+        "change": -1.66,
+        "change_percent": -0.64,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 379.8,
+        "price": 378.31,
         "currency": "USD",
-        "change": 0.06,
-        "change_percent": 0.02,
+        "change": -1.44,
+        "change_percent": -0.38,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 620.13,
+        "price": 617.65,
         "currency": "USD",
-        "change": -6.27,
-        "change_percent": -1.0,
+        "change": -8.76,
+        "change_percent": -1.4,
         "name": "Meta"
       }
     ]
@@ -1171,6 +1172,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Retail: How prices got personal",
+          "url": "https://theweek.com/business/retail/retail-how-prices-got-personal",
+          "published": "2026-11-17T19:38:27+00:00",
+          "snippet": "Companies are adjusting prices based on individual data, raising controversy"
+        },
+        {
           "title": "Film reviews: ‘Fatherland’ and ‘Club Kid’",
           "url": "https://theweek.com/culture-life/film/fatherland-and-club-kid",
           "published": "2026-11-17T19:13:25+00:00",
@@ -1181,12 +1188,6 @@
           "url": "https://theweek.com/education/closures-budget-cuts-loom-us-schools-shed-students",
           "published": "2026-11-17T18:49:19+00:00",
           "snippet": "A baby bust and deportations have led to empty classrooms"
-        },
-        {
-          "title": "Why do some Democrats want to jettison Jeffries and Schumer?",
-          "url": "https://theweek.com/politics/democrats-jeffries-schumer-party-leadership",
-          "published": "2026-11-17T17:30:52+00:00",
-          "snippet": "After major wins across the country, a growing group of party members says it’s time for a change in leaders"
         }
       ]
     },
@@ -1246,6 +1247,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "US tech stocks slide ahead of Nvidia results",
+          "url": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+          "published": "2026-11-17T20:00:38+00:00",
+          "snippet": "Nasdaq 100 down 1.4% after volatile run of trading"
+        },
+        {
           "title": "UK government backs call for separate youth welfare system",
           "url": "https://www.ft.com/content/05aee3d8-9231-425a-b6d7-1849fcb99cad?syn-25a6b1a6=1",
           "published": "2026-11-17T18:49:10+00:00",
@@ -1256,12 +1263,6 @@
           "url": "https://www.ft.com/content/c7ef0eb8-c9c5-46ef-b65d-c0ceaf111717?syn-25a6b1a6=1",
           "published": "2026-11-17T18:44:10+00:00",
           "snippet": "Far-right presidential frontrunner faces criticism over the feasibility and cost of her pension plans"
-        },
-        {
-          "title": "Up to one-fifth of UK ‘global talent’ visa holders earn too little to pay income tax",
-          "url": "https://www.ft.com/content/9df61a66-6b1c-4bda-93fc-91ad2f3baef1?syn-25a6b1a6=1",
-          "published": "2026-11-17T18:39:30+00:00",
-          "snippet": "Government advisers express concern at their findings about migration route aimed at international high-flyers"
         }
       ]
     },
@@ -1270,6 +1271,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "Why My Family Is Suing to Stop Trump’s Arch",
+          "url": "https://www.theatlantic.com/culture/2026/11/kennedy-trump-arch-arlington/689478/?utm_source=feed",
+          "published": "2026-11-17T19:41:00+00:00",
+          "snippet": "The 250-foot structure would dishonor the veterans buried at Arlington National Cemetery, including my father, Robert F. Kennedy, and his brothers."
+        },
         {
           "title": "Long Wave",
           "url": "https://www.theatlantic.com/books/2026/11/daisy-johnson-long-wave/689456/?utm_source=feed",
@@ -1281,12 +1288,6 @@
           "url": "https://www.theatlantic.com/books/2026/11/sarah-j-maas-acotar-second-screen-reading/689474/?utm_source=feed",
           "published": "2026-11-17T18:45:00+00:00",
           "snippet": "Sarah J. Maas’s ACOTAR books aren’t meant to be consumed in the same way as best sellers of the past."
-        },
-        {
-          "title": "The Iran War Has Slipped Into a Dangerous Limbo",
-          "url": "https://www.theatlantic.com/national-security/2026/11/iran-war-trump-limbo/689471/?utm_source=feed",
-          "published": "2026-11-17T17:14:16+00:00",
-          "snippet": "President Trump has decided to pursue neither strikes nor talks, leaving the United States and Iran in an unstable standoff."
         }
       ]
     },
@@ -1369,45 +1370,59 @@
   "web": {
     "tech": [
       {
+        "title": "jQuery 4.1.0",
+        "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+        "score": 9,
+        "source": "Hacker News",
+        "published": "2026-11-17T19:50:40+00:00"
+      },
+      {
+        "title": "350 years ago, this man discovered that light has a finite speed",
+        "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+        "score": 30,
+        "source": "Hacker News",
+        "published": "2026-11-17T19:25:27+00:00"
+      },
+      {
         "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
         "url": "https://starsling.dev",
-        "score": 10,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-17T19:01:43+00:00"
       },
       {
         "title": "Solid 2.0",
         "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
-        "score": 26,
+        "score": 57,
         "source": "Hacker News",
         "published": "2026-11-17T18:56:17+00:00"
       },
       {
-        "title": "Introducing GPT-6.2 Astra and Sol",
-        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "comments_url": "https://lobste.rs/s/nozx6d/introducing_gpt_6_2_astra_sol",
-        "score": 0,
+        "title": "Sarasa Gothic Mono",
+        "url": "https://picaq.github.io/sarasa",
+        "comments_url": "https://lobste.rs/s/de02yg/sarasa_gothic_mono",
+        "score": 2,
         "source": "Lobste.rs",
-        "published": "2026-11-17T18:35:05.751000+00:00"
+        "published": "2026-11-17T18:47:39.099000+00:00"
+      },
+      {
+        "title": "Purism Launches Librem 5 v2, a RISC-V Phone to Empower People",
+        "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/",
+        "score": 23,
+        "source": "Hacker News",
+        "published": "2026-11-17T18:34:10+00:00"
       },
       {
         "title": "Phrack 73 Released",
         "url": "https://phrack.org/issues/73/introduction_md",
-        "score": 22,
+        "score": 66,
         "source": "Hacker News",
         "published": "2026-11-17T18:31:25+00:00"
       },
       {
-        "title": "Advancing computer-use agents for healthcare teams",
-        "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/",
-        "score": 8,
-        "source": "Hacker News",
-        "published": "2026-11-17T18:26:05+00:00"
-      },
-      {
         "title": "MAI Code 2 and Code 2 Flash",
         "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-        "score": 76,
+        "score": 110,
         "source": "Hacker News",
         "published": "2026-11-17T18:25:13+00:00"
       },
@@ -1415,28 +1430,28 @@
         "title": "Automatic Checking of Compiler Correctness with E-Graphs",
         "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
         "comments_url": "https://lobste.rs/s/hode45/automatic_checking_compiler",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-17T18:18:12.198000+00:00"
       },
       {
         "title": "Apple Services Down",
         "url": "https://developer.apple.com/system-status/",
-        "score": 258,
+        "score": 356,
         "source": "Hacker News",
         "published": "2026-11-17T17:47:14+00:00"
       },
       {
         "title": "GPT‑6.2 Astra and Sol",
         "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "score": 584,
+        "score": 667,
         "source": "Hacker News",
         "published": "2026-11-17T17:46:43+00:00"
       },
       {
         "title": "Who Builds the Machines That Build the Machines?",
         "url": "https://read.corematter.com/p/section-232-us-machine-tools",
-        "score": 29,
+        "score": 40,
         "source": "Hacker News",
         "published": "2026-11-17T17:45:39+00:00"
       },
@@ -1452,7 +1467,7 @@
         "title": "Making Games in Go: Entity Component System (ECS)",
         "url": "https://threedots.tech/post/making-games-in-go-ecs/",
         "comments_url": "https://lobste.rs/s/zoarxd/making_games_go_entity_component_system",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-17T17:18:53.833000+00:00"
       },
@@ -1460,24 +1475,9 @@
         "title": "C’s designated initializers give us named arguments",
         "url": "https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/",
         "comments_url": "https://lobste.rs/s/kktn5b/c_s_designated_initializers_give_us_named",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-17T15:58:44.322000+00:00"
-      },
-      {
-        "title": "NSA Internal Network Down",
-        "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
-        "score": 279,
-        "source": "Hacker News",
-        "published": "2026-11-17T15:50:48+00:00"
-      },
-      {
-        "title": "How to Bypass Rust's Orphan Rule",
-        "url": "https://edvong.com/bypass-orphan-rule/",
-        "comments_url": "https://lobste.rs/s/oj87qu/how_bypass_rust_s_orphan_rule",
-        "score": 14,
-        "source": "Lobste.rs",
-        "published": "2026-11-17T15:35:36.402000+00:00"
       }
     ],
     "reddit": [

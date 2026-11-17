@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T10:31:01.552130+00:00",
+  "last_updated": "2026-11-17T11:01:03.689455+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 220
+      "ms": 273
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 234
+      "ms": 546
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 50
+      "ms": 389
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 32
+      "ms": 446
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 149
+      "ms": 371
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 106
+      "ms": 266
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 209
+      "ms": 933
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 387
+      "ms": 702
     },
     "Euronews": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 39
+      "ms": 275
     },
     "France24": {
-      "ok": false,
-      "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
-      "ms": 3136
+      "ok": true,
+      "count": 24,
+      "error": null,
+      "ms": 194
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 344
+      "ms": 1179
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 187
+      "ms": 383
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 60
+      "ms": 203
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 542
+      "ms": 306
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 388
+      "ms": 357
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 105
+      "ms": 567
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 766
+      "ms": 829
     },
     "Semafor": {
       "ok": true,
       "count": 234,
       "error": null,
-      "ms": 422
+      "ms": 947
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 301
+      "ms": 792
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 251
+      "ms": 644
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 137
+      "ms": 433
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 190
+      "ms": 473
     },
     "The Independent": {
       "ok": true,
-      "count": 72,
+      "count": 71,
       "error": null,
-      "ms": 119
+      "ms": 471
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 147
+      "ms": 417
     }
   },
   "breaking": [
@@ -181,6 +181,56 @@
         }
       ],
       "consensus": 6.0
+    },
+    {
+      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
+      "url": "https://www.france24.com/en/video/20261117-third-us-aircraft-carrier-arrives-in-the-middle-east-as-iran-targets-bahrain",
+      "source": "France24",
+      "published": "2026-11-17T10:46:27+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
+          "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
+          "published": "2026-11-17T02:32:44+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
+          "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
+          "published": "2026-11-16T23:37:27+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+          "published": "2026-11-16T21:13:02+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
+      "title": "Trump arrives in Philippines to kick off Asia trip",
+      "url": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+      "source": "NPR World",
+      "published": "2026-11-17T10:43:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261117-trump-arrives-in-philippines-to-kick-off-asia-trip",
+          "title": "Trump arrives in Philippines to kick off Asia trip",
+          "published": "2026-11-17T10:21:23+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/trump-to-kick-off-asia-trip-with-quad-talks-in-manila-ahead-of-china-visit",
+          "title": "Trump to kick off Asia trip with Quad talks in Manila ahead of China visit",
+          "published": "2026-11-17T01:29:55+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Will President Trump meet Kim Jong Un?",
@@ -227,6 +277,38 @@
       "consensus": 3.0
     },
     {
+      "title": "Saudi Arabia replaces military commander after Yemen setbacks",
+      "url": "https://www.france24.com/en/video/20261117-saudi-arabia-replaces-military-commander-after-yemen-setbacks",
+      "source": "France24",
+      "published": "2026-11-17T10:44:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/after-yemen-setback-saudi-arabia-replaces-military-commander/article71709122.ece",
+          "title": "After Yemen setback, Saudi Arabia replaces military commander",
+          "published": "2026-11-16T16:45:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Kim Jong Un tours ski resort with wife and daughter",
+      "url": "https://www.euronews.com/video/2026/11/17/kim-jong-un-tours-ski-resort-with-wife-and-daughter",
+      "source": "Euronews",
+      "published": "2026-11-17T10:30:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/kim-jong-un-tours-north-korea-ski-resort-with-daughter-ju-ae?traffic_source=rss",
+          "title": "Kim Jong Un tours North Korea ski resort with daughter Ju Ae",
+          "published": "2026-11-17T09:12:38+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "ASEAN Summit LIVE updates: President Trump arrives in Manila to hold discussions with Quad leaders",
       "url": "https://www.thehindu.com/news/international/asean-india-summit-manila-november-2026-quad-live-updates-pm-modi-trump-meeting-latest-news/article71710382.ece",
       "source": "The Hindu",
@@ -241,95 +323,9 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Iran claims drone attack on US radar system at Sheikh Isa air base in Bahrain",
-      "url": "https://www.euronews.com/2026/11/17/iran-claims-drone-attack-on-us-radar-system-at-sheikh-isa-air-base-in-bahrain",
-      "source": "Euronews",
-      "published": "2026-11-17T10:11:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar?traffic_source=rss",
-          "title": "Bahrain thwarts drone attack; Iran claims targeting US radar",
-          "published": "2026-11-17T07:35:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
-      "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-      "source": "NPR World",
-      "published": "2026-11-17T09:50:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-          "published": "2026-11-17T09:27:41+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "CNA Explains: Why is the US targeting Southeast Asia in its bid to curb China's access to AI chips?",
-      "url": "https://www.channelnewsasia.com/asia/us-ai-chips-china-southeast-asia-data-centres-6558256",
-      "source": "CNA",
-      "published": "2026-11-17T08:48:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
-          "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
-          "published": "2026-11-16T17:36:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "South Korea cheating scandal: Are AI smart glasses a threat to exams?",
-      "url": "https://www.aljazeera.com/news/2026/11/17/south-korea-cheating-scandal-are-ai-smart-glasses-a-threat-to-exams?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T08:15:32+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-tightens-exam-security-after-ai-cheating-scandal",
-          "title": "South Korea tightens exam security after AI cheating scandal",
-          "published": "2026-11-17T08:15:00+00:00"
-        }
-      ],
-      "consensus": 2.5
     }
   ],
   "world": [
-    {
-      "title": "Lindsay Clancy to face March retrial in deaths of her 3 children",
-      "url": "https://www.channelnewsasia.com/world/lindsay-clancy-face-march-retrial-in-deaths-her-3-children-6556776",
-      "source": "CNA",
-      "published": "2026-11-16T21:37:10+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-          "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
-          "published": "2026-11-16T19:30:30+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/lindsay-clancy-court-trial-9.7423387?cmp=rss",
-          "title": "Lindsay Clancy will be retried in March for the killing of her 3 children",
-          "published": "2026-11-16T15:16:21+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
     {
       "title": "DR Congo Ebola outbreak still out of control six months on, Africa CDC warns",
       "url": "https://www.rfi.fr/en/africa/20261116-ebola-crisis-at-6-monthsi",
@@ -419,28 +415,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
-      "source": "SCMP",
-      "published": "2026-11-17T02:32:44+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
-          "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
-          "published": "2026-11-16T23:37:27+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-          "published": "2026-11-16T21:13:02+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
       "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -463,6 +437,70 @@
       "consensus": 3.5
     },
     {
+      "title": "Iran claims drone attack on US radar system at Sheikh Isa air base in Bahrain",
+      "url": "https://www.euronews.com/2026/11/17/iran-claims-drone-attack-on-us-radar-system-at-sheikh-isa-air-base-in-bahrain",
+      "source": "Euronews",
+      "published": "2026-11-17T10:11:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/bahrain-thwarts-drone-attack-iran-claims-targeting-us-military-radar?traffic_source=rss",
+          "title": "Bahrain thwarts drone attack; Iran claims targeting US radar",
+          "published": "2026-11-17T07:35:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Russia downs over 1,400 Ukrainian drones as Kyiv hits a key bridge in Crimea",
+      "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+      "source": "NPR World",
+      "published": "2026-11-17T09:50:45+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+          "title": "Ukraine hits key Crimea bridge with drones",
+          "published": "2026-11-16T23:13:06+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "CNA Explains: Why is the US targeting Southeast Asia in its bid to curb China's access to AI chips?",
+      "url": "https://www.channelnewsasia.com/asia/us-ai-chips-china-southeast-asia-data-centres-6558256",
+      "source": "CNA",
+      "published": "2026-11-17T08:48:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
+          "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
+          "published": "2026-11-16T17:36:06+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "South Korea cheating scandal: Are AI smart glasses a threat to exams?",
+      "url": "https://www.aljazeera.com/news/2026/11/17/south-korea-cheating-scandal-are-ai-smart-glasses-a-threat-to-exams?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T08:15:32+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-tightens-exam-security-after-ai-cheating-scandal",
+          "title": "South Korea tightens exam security after AI cheating scandal",
+          "published": "2026-11-17T08:15:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "What to know about the online banking delays affecting major U.S. banks",
       "url": "https://www.thehindu.com/sci-tech/technology/what-to-know-about-the-online-banking-delays-affecting-major-us-banks/article71710293.ece",
       "source": "The Hindu",
@@ -474,6 +512,22 @@
           "url": "https://www.abc.net.au/news/2026-11-17/online-banking-delays-us-banks/107395034",
           "title": "What to know about the online banking delays affecting major US banks",
           "published": "2026-11-17T04:32:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Malaysia and France upgrade ties, strengthen cooperation in defence and rare earths",
+      "url": "https://www.channelnewsasia.com/asia/malaysia-france-strengthen-cooperation-defence-rare-earths-6558151",
+      "source": "CNA",
+      "published": "2026-11-17T07:11:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261117-macron-malaysia-france-defence-rare-earths-trade-energy",
+          "title": "France and Malaysia upgrade ties and announce rare earths, defence cooperation deals",
+          "published": "2026-11-17T03:40:31+00:00"
         }
       ],
       "consensus": 2.5
@@ -527,6 +581,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
+      "url": "https://www.france24.com/en/tv-shows/a-propos/20261116-europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+      "source": "France24",
+      "published": "2026-11-16T22:07:47+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/article71707080.ece",
+          "title": "Europe hunts for Palantir alternatives as Militaries seek to limit U.S. dependence",
+          "published": "2026-11-16T08:17:28+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
       "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
       "source": "Straits Times",
@@ -538,6 +608,22 @@
           "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
           "title": "Trump says he could meet with North Korean leader Kim Jong-un in China",
           "published": "2026-11-16T15:53:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Lindsay Clancy to face March retrial in deaths of her 3 children",
+      "url": "https://www.channelnewsasia.com/world/lindsay-clancy-face-march-retrial-in-deaths-her-3-children-6556776",
+      "source": "CNA",
+      "published": "2026-11-16T21:37:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/lindsay-clancy-court-trial-9.7423387?cmp=rss",
+          "title": "Lindsay Clancy will be retried in March for the killing of her 3 children",
+          "published": "2026-11-16T15:16:21+00:00"
         }
       ],
       "consensus": 2.5
@@ -570,22 +656,6 @@
           "url": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup",
           "title": "Israeli opposition chiefs denounce Netanyahu over 'attempted coup'",
           "published": "2026-11-16T08:58:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears",
-      "url": "https://www.thehindu.com/news/international/eu-accuses-russia-of-stalling-ukraine-peace-talks-to-target-power-plants-as-winter-nears/article71707737.ece",
-      "source": "The Hindu",
-      "published": "2026-11-16T11:48:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-kaja-kallas-brussels-europe-b3085569.html",
-          "title": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears",
-          "published": "2026-11-16T10:20:59+00:00"
         }
       ],
       "consensus": 2.5
@@ -645,17 +715,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump arrives in Manila for Quad talks ahead of China visit",
-      "url": "https://www.channelnewsasia.com/asia/trump-arrives-in-manila-quad-talks-ahead-china-visit-6557351",
-      "source": "CNA",
-      "published": "2026-11-17T09:03:00+00:00",
+      "title": "Donald Trump poses with Quad leaders ahead of meeting in Manila before heading to China",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374740/donald-trump-arrives-manila-speak-asean-summit-heading-china",
+      "source": "SCMP",
+      "published": "2026-11-17T09:36:45+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/trump-to-kick-off-asia-trip-with-quad-talks-in-manila-ahead-of-china-visit",
-          "title": "Trump to kick off Asia trip with Quad talks in Manila ahead of China visit",
-          "published": "2026-11-17T01:29:55+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/asia/trump-arrives-in-manila-quad-talks-ahead-china-visit-6557351",
+          "title": "Trump arrives in Manila for Quad talks ahead of China visit",
+          "published": "2026-11-17T09:03:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -672,6 +742,22 @@
           "url": "https://english.elpais.com/international/2026-11-16/drug-kingpin-miguel-angel-felix-gallardo-the-boss-of-bosses-dies-at-80.html",
           "title": "Drug kingpin Miguel Ángel Félix Gallardo, the ‘boss of bosses,’ dies at 80",
           "published": "2026-11-16T07:35:09+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Ukraine strikes Crimean bridge in ‘unprecedented operation,’ Zelenskyy says",
+      "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-17T08:51:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
+          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
+          "published": "2026-11-17T08:31:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -709,22 +795,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Fiona the hippo receiving care after eating visitor’s hat at Cincinnati Zoo",
-      "url": "https://www.independent.co.uk/news/world/americas/cincinnati-zoo-fiona-hippo-hat-baby-born-b3086163.html",
-      "source": "The Independent",
-      "published": "2026-11-17T07:45:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/fiona-hippo-eats-hat-cincinnati",
-          "title": "Fiona the hippo under veterinary care after eating hat at Cincinnati zoo",
-          "published": "2026-11-17T01:18:28+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
       "url": "https://www.japantimes.co.jp/news/2026/11/17/asia-pacific/politics/horns-drones-shenzhen-trump-apec/",
       "source": "Japan Times",
@@ -736,6 +806,22 @@
           "url": "https://www.straitstimes.com/asia/horns-and-drones-banned-as-shenzhen-hushes-for-trump-and-apec",
           "title": "Horns and drones banned as Shenzhen hushes for Trump and APEC",
           "published": "2026-11-17T02:29:53+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "OpenAI sued by California over Hugging Face attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-16T23:12:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261116-rogue-ai-california-sues-openai-over-hugging-face-and-other-cyberattacks",
+          "title": "Rogue AI: California sues OpenAI over Hugging Face and other cyberattacks",
+          "published": "2026-11-16T21:27:15+00:00"
         }
       ],
       "consensus": 2.0
@@ -837,91 +923,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Mexico keen to strengthen cooperation with China, president says",
-      "url": "https://www.straitstimes.com/asia/mexico-keen-to-strengthen-cooperation-with-china-president-says",
-      "source": "Straits Times",
-      "published": "2026-11-17T10:24:53+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China and Vietnam should ‘weather the storm together’, Xi tells Lam in Shenzhen",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374763/china-and-vietnam-should-weather-storm-together-xi-tells-lam-shenzhen",
+      "title": "Taiwan tracks 2 Russian warplanes off eastern coast ahead of Apec summit",
+      "url": "https://www.scmp.com/news/china/politics/article/3374750/taiwan-tracks-2-russian-warplanes-eastern-coast-ahead-apec-summit",
       "source": "SCMP",
-      "published": "2026-11-17T10:23:36+00:00",
+      "published": "2026-11-17T11:00:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Japan offers ASEAN nations access to energy storage",
-      "url": "https://www.thehindu.com/news/international/japan-offers-asean-nations-access-to-energy-storage/article71711080.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T10:20:55+00:00",
+      "title": "Record revenues, over 60 deaths, and little oversight: Democrats target Trump’s immigration jails",
+      "url": "https://english.elpais.com/usa/2026-11-17/record-revenues-over-60-deaths-and-little-oversight-democrats-target-trumps-immigration-jails.html",
+      "source": "El País",
+      "published": "2026-11-17T10:55:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Pakistan, Iran stress sustained engagement, coordination for regional stability",
-      "url": "https://www.thehindu.com/news/international/pakistan-iran-stress-sustained-engagement-coordination-for-regional-stability/article71711296.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T10:20:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Free meals for all at charitable China noodle shop spark concerns from nearby eateries",
-      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3374760/free-meals-all-charitable-china-noodle-shop-spark-concerns-nearby-eateries",
+      "title": "Bundle up: Hong Kong temperatures to plunge to 15 degrees as cold front hits on Friday",
+      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374766/bundle-hong-kong-temperatures-plunge-15-degrees-cold-front-hits-friday",
       "source": "SCMP",
-      "published": "2026-11-17T10:19:06+00:00",
+      "published": "2026-11-17T10:55:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "One dead after military jet crashes in Serbia",
-      "url": "https://www.independent.co.uk/news/world/europe/serbia-belgrade-plane-crash-jet-b3086275.html",
-      "source": "The Independent",
-      "published": "2026-11-17T10:18:48+00:00",
+      "title": "Magnitude 5.7 quake strikes east of Arthur's Pass",
+      "url": "https://www.rnz.co.nz/news/emergency/2644964/magnitude-5-point-7-quake-strikes-east-of-arthur-s-pass",
+      "source": "RNZ",
+      "published": "2026-11-17T10:54:40+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Iran looms over Trump’s China trip",
-      "url": "https://www.semafor.com/article/11/17/2026/iran-looms-over-trumps-china-trip",
-      "source": "Semafor",
-      "published": "2026-11-17T10:16:21+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Jeffries starts a glide path to the speakership",
-      "url": "https://www.semafor.com/article/11/17/2026/jeffries-starts-a-glide-path-to-the-speakership",
-      "source": "Semafor",
-      "published": "2026-11-17T10:15:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Germany poised to nominate Brunnermeier as ECB chief economist",
-      "url": "https://www.politico.eu/article/germany-set-to-nominate-markus-brunnermeier-ecb-chief-economist/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-17T10:15:28+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea – Europe live",
-      "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-17T10:12:24+00:00",
+      "title": "China and Canada agree fresh tariff reliefs as thaw continues with Xi-Carney meeting",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting",
+      "source": "SCMP",
+      "published": "2026-11-17T10:54:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -938,10 +979,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 139.36,
+      "price": 139.4,
       "currency": "GBP",
-      "change": -1.72,
-      "change_percent": -1.22,
+      "change": -1.68,
+      "change_percent": -1.19,
       "name": "FTSE All-World ETF"
     },
     {
@@ -954,10 +995,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10795.18,
+      "price": 10809.19,
       "currency": "GBP",
-      "change": -86.37,
-      "change_percent": -0.79,
+      "change": -72.36,
+      "change_percent": -0.66,
       "name": "FTSE 100"
     }
   ],
@@ -973,10 +1014,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10795.18,
+        "price": 10809.19,
         "currency": "GBP",
-        "change": -86.37,
-        "change_percent": -0.79,
+        "change": -72.36,
+        "change_percent": -0.66,
         "name": "FTSE 100"
       },
       {
@@ -1005,44 +1046,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26370.58,
+        "price": 26396.61,
         "currency": "EUR",
-        "change": -228.06,
-        "change_percent": -0.86,
+        "change": -202.03,
+        "change_percent": -0.76,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8272.38,
+        "price": 8291.5,
         "currency": "EUR",
-        "change": -79.62,
-        "change_percent": -0.95,
+        "change": -60.5,
+        "change_percent": -0.72,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3859.4,
+        "price": 3857.3,
         "currency": "USD",
-        "change": 6.4,
-        "change_percent": 0.17,
+        "change": 4.3,
+        "change_percent": 0.11,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.27,
+        "price": 47.34,
         "currency": "USD",
-        "change": 0.41,
-        "change_percent": 0.87,
+        "change": 0.48,
+        "change_percent": 1.02,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.51,
+        "price": 92.73,
         "currency": "USD",
-        "change": 0.07,
-        "change_percent": 0.08,
+        "change": 0.29,
+        "change_percent": 0.31,
         "name": "Brent Crude"
       },
       {
@@ -1050,7 +1091,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.0,
+        "change_percent": -0.06,
         "name": "EUR/USD"
       },
       {
@@ -1058,23 +1099,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.03,
+        "change_percent": -0.02,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.04,
+        "price": 159.15,
         "currency": "JPY",
-        "change": -0.36,
-        "change_percent": -0.22,
+        "change": -0.24,
+        "change_percent": -0.15,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64151.89,
+        "price": 64107.95,
         "currency": "USD",
-        "change": -676.49,
-        "change_percent": -1.04,
+        "change": -720.43,
+        "change_percent": -1.11,
         "name": "Bitcoin"
       }
     ],
@@ -1175,16 +1216,16 @@
           "snippet": "Spend a few days exploring the South African capital and its nature-filled surroundings"
         },
         {
-          "title": "Longer estrogen exposure may help women’s brain health",
-          "url": "https://theweek.com/health/longer-estrogen-exposure-may-help-womens-brain-health",
-          "published": "2026-11-17T07:00:00+00:00",
-          "snippet": "The hormone can affect blood flow to the brain"
-        },
-        {
           "title": "Russia’s last independent newspaper shutters amid Kremlin pressure",
           "url": "https://theweek.com/world-news/russia-last-independent-newspaper-novaya-gazeta-closes-kremlin",
           "published": "2026-11-17T07:00:00+00:00",
           "snippet": "Novaya Gazeta had been reporting on Russia for over 30 years"
+        },
+        {
+          "title": "Longer estrogen exposure may help women’s brain health",
+          "url": "https://theweek.com/health/longer-estrogen-exposure-may-help-womens-brain-health",
+          "published": "2026-11-17T07:00:00+00:00",
+          "snippet": "The hormone can affect blood flow to the brain"
         }
       ]
     },
@@ -1244,22 +1285,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Berlin picks ECB board nominee, paving way for Spanish presidency",
+          "url": "https://www.ft.com/content/10fd3d24-04b1-40a2-93d3-8b64023cc869?syn-25a6b1a6=1",
+          "published": "2026-11-17T10:48:11+00:00",
+          "snippet": "Choice of Markus Brunnermeier will consolidate deal with France in which Spain’s Pablo Hernández de Cos would lead central bank"
+        },
+        {
+          "title": "Milburn review to show whether UK really wants to reform its welfare state",
+          "url": "https://www.ft.com/content/f569092c-ec94-4b79-9832-3f74dd94c19f?syn-25a6b1a6=1",
+          "published": "2026-11-17T10:43:55+00:00",
+          "snippet": "Former minister will set out plan to cut sickness benefits to under-25s while pouring billions of pounds into employment support"
+        },
+        {
           "title": "FirstFT: Leak of 15mn Deutsche Bank files exposes systemic failures",
           "url": "https://www.ft.com/content/e3364118-7282-4faa-9686-e56e854dab7d?syn-25a6b1a6=1",
           "published": "2026-11-17T10:17:43+00:00",
           "snippet": "Also in today’s newsletter: Xi and Canada’s Carney slash tariffs"
-        },
-        {
-          "title": "Berlin picks ECB board nominee, paving way for Spanish presidency",
-          "url": "https://www.ft.com/content/10fd3d24-04b1-40a2-93d3-8b64023cc869?syn-25a6b1a6=1",
-          "published": "2026-11-17T10:10:30+00:00",
-          "snippet": "Choice of Markus Brunnermeier will consolidate deal with France in which Spain’s Pablo Hernández de Cos would lead central bank"
-        },
-        {
-          "title": "Brussels raises Eurozone growth forecasts as AI boom drives exports",
-          "url": "https://www.ft.com/content/ce0f66b9-703d-4e04-b046-bf04a3d9209a?syn-25a6b1a6=1",
-          "published": "2026-11-17T10:06:29+00:00",
-          "snippet": "But latest forecasts highlight diverging fortunes of bloc’s biggest economies, with GDP projections for France halved"
         }
       ]
     },
@@ -1294,6 +1335,12 @@
       "column": "tech",
       "entries": [
         {
+          "title": "Apple Permissions Update, The New App Paradigm, My iPhone Duo Review",
+          "url": "https://stratechery.com/2026/apple-permissions-update-the-new-app-paradigm-my-iphone-duo-review/",
+          "published": "2026-11-17T11:00:00+00:00",
+          "snippet": "Apple doesn't ruin the Mac, but they don't fix the agent problem, raising questions if they can think outside the app paradigm. Then, my iPhone Duo review."
+        },
+        {
           "title": "Obituaries",
           "url": "https://stratechery.com/2026/obituaries/",
           "published": "2026-11-16T11:02:49+00:00",
@@ -1304,12 +1351,6 @@
           "url": "https://stratechery.com/2026/the-end-of-jensen/",
           "published": "2026-11-13T18:00:00+00:00",
           "snippet": "The best Stratechery content from the week of November 9, 2026, including the shocking demise of Jensen Huang; enterprise, consumer and Intel; and professional..."
-        },
-        {
-          "title": "Sharp Tech on Video: Nvidia After Jensen Huang, Ominous News for American AI, D.C. Gets Its Revenge",
-          "url": "https://stratechery.com/2026/sharp-tech-on-video-nvidia-after-jensen-huang-ominous-news-for-american-ai-d-c-gets-its-revenge/",
-          "published": "2026-11-13T03:47:52+00:00",
-          "snippet": "Sharp Tech is, for the first time, available on video. You have three ways to consume it: YouTube, Spotify, and here on Stratechery"
         }
       ]
     },
@@ -1367,6 +1408,13 @@
   "web": {
     "tech": [
       {
+        "title": "How the Claude Code team thinks about verification",
+        "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+        "score": 6,
+        "source": "Hacker News",
+        "published": "2026-11-17T10:20:40+00:00"
+      },
+      {
         "title": "The Patterns We Don't Name",
         "url": "https://www.youtube.com/watch?v=OkKmP9oATjk",
         "comments_url": "https://lobste.rs/s/aboglj/patterns_we_don_t_name",
@@ -1375,18 +1423,10 @@
         "published": "2026-11-17T09:40:53.902000+00:00"
       },
       {
-        "title": "Test/verification technique effectiveness with Astra",
-        "url": "https://danluu.com/astra-testing/",
-        "comments_url": "https://lobste.rs/s/79tvnr/test_verification_technique",
-        "score": 0,
-        "source": "Lobste.rs",
-        "published": "2026-11-17T09:37:15.071000+00:00"
-      },
-      {
         "title": "Github Redesign (2019)",
         "url": "https://tonsky.me/blog/github-redesign/",
         "comments_url": "https://lobste.rs/s/kseyz1/github_redesign_2019",
-        "score": 5,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-17T09:28:18.950000+00:00"
       },
@@ -1394,21 +1434,21 @@
         "title": "Redict is deprecated",
         "url": "https://redict.io/posts/2026-11-17-redict-deprecated/",
         "comments_url": "https://lobste.rs/s/z4rhlt/redict_is_deprecated",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-17T08:20:30.125000+00:00"
       },
       {
         "title": "If an App Asks for Full Disk Access or System and App Protection Override",
         "url": "https://support.apple.com/en-us/149699",
-        "score": 131,
+        "score": 133,
         "source": "Hacker News",
         "published": "2026-11-17T02:17:04+00:00"
       },
       {
         "title": "Why 3dfx 1 cards had such a washed out color output?",
         "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-        "score": 141,
+        "score": 149,
         "source": "Hacker News",
         "published": "2026-11-17T00:16:24+00:00"
       },
@@ -1416,16 +1456,24 @@
         "title": "Software is breaking down at a systemic level",
         "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
         "comments_url": "https://lobste.rs/s/wifhdc/software_is_breaking_down_at_systemic",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-16T23:37:19.764000+00:00"
       },
       {
         "title": "Optimizely compromised, served malware on Zoom, GitLab",
         "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-        "score": 354,
+        "score": 371,
         "source": "Hacker News",
         "published": "2026-11-16T23:00:34+00:00"
+      },
+      {
+        "title": "Pixels on a screen",
+        "url": "https://whitebeard.blog/posts/pixels-on-a-screen/",
+        "comments_url": "https://lobste.rs/s/jwjsio/pixels_on_screen",
+        "score": 6,
+        "source": "Lobste.rs",
+        "published": "2026-11-16T23:00:20.544000+00:00"
       },
       {
         "title": "Improving the Wii U's Wii Mode",
@@ -1446,38 +1494,30 @@
       {
         "title": "BugMeNot has closed",
         "url": "https://www.bugmenot.com/",
-        "score": 549,
+        "score": 562,
         "source": "Hacker News",
         "published": "2026-11-16T21:32:17+00:00"
       },
       {
         "title": "OpenCode Browse",
         "url": "https://opencode.ai/product/browse",
-        "score": 258,
+        "score": 265,
         "source": "Hacker News",
         "published": "2026-11-16T21:20:37+00:00"
       },
       {
         "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
         "url": "https://www.cs.cmu.edu/learn/",
-        "score": 1543,
+        "score": 1580,
         "source": "Hacker News",
         "published": "2026-11-16T20:43:36+00:00"
       },
       {
         "title": "Chemistry is Actually Geometry",
         "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-        "score": 232,
+        "score": 235,
         "source": "Hacker News",
         "published": "2026-11-16T20:22:18+00:00"
-      },
-      {
-        "title": "Where did the ACK go?",
-        "url": "https://yashgarg.dev/posts/where-did-the-ack-go/",
-        "comments_url": "https://lobste.rs/s/n5jtzr/where_did_ack_go",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-16T19:19:20.113000+00:00"
       }
     ],
     "reddit": [
@@ -1514,20 +1554,20 @@
         "published": "2026-11-16T12:24:29+00:00"
       },
       {
-        "title": "Kids and teens both think giving trophies only to winners makes people try harder and feel more special than participation trophies. But only teens saw a dark side: nearly all predicted winners-only trophies would lead to more cheating and runners risking injury to win, a new study finds.",
-        "url": "https://www.psypost.org/new-study-finds-children-and-teens-reason-differently-about-participation-trophies/",
-        "comments_url": "https://www.reddit.com/r/science/comments/1xxzimw/kids_and_teens_both_think_giving_trophies_only_to/",
-        "score": null,
-        "source": "/r/science",
-        "published": "2026-11-16T20:00:10+00:00"
-      },
-      {
         "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
         "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/",
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-17T01:00:56+00:00"
+      },
+      {
+        "title": "Kids and teens both think giving trophies only to winners makes people try harder and feel more special than participation trophies. But only teens saw a dark side: nearly all predicted winners-only trophies would lead to more cheating and runners risking injury to win, a new study finds.",
+        "url": "https://www.psypost.org/new-study-finds-children-and-teens-reason-differently-about-participation-trophies/",
+        "comments_url": "https://www.reddit.com/r/science/comments/1xxzimw/kids_and_teens_both_think_giving_trophies_only_to/",
+        "score": null,
+        "source": "/r/science",
+        "published": "2026-11-16T20:00:10+00:00"
       },
       {
         "title": "Trump says Kim Jong Un may join him, Putin and Xi for first-ever super summit",
@@ -1552,14 +1592,6 @@
         "score": null,
         "source": "/r/technology",
         "published": "2026-11-16T22:20:02+00:00"
-      },
-      {
-        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-        "url": "https://www.bbc.com/news/articles/c6m25zg88k45o",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xy9hb2/zelensky_urges_us_and_musk_to_lift_starlink/",
-        "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-17T03:07:25+00:00"
       },
       {
         "title": "Scientists who lean more on AI tools to write grant applications tend to pitch less original ideas that look more like what was funded the year before. Yet at the NIH, these AI-assisted proposals were more likely to win funding, and led to slightly more papers but not more highly cited ones.",
@@ -1600,6 +1632,14 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-16T18:44:17+00:00"
+      },
+      {
+        "title": "Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit",
+        "url": "https://www.neowin.net/news/users-admins-report-new-microsoft-365-outage-with-exchange-outlook-exccel-hit/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy3aqe/users_admins_report_new_microsoft_365_outage_with/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-16T22:26:53+00:00"
       }
     ]
   }

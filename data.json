@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T21:31:02.293832+00:00",
+  "last_updated": "2026-11-17T22:01:06.422750+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 276
+      "ms": 203
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 267
+      "ms": 473
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 156
+      "ms": 281
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 277
+      "ms": 57
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 305
+      "ms": 283
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 152
+      "ms": 198
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 501
+      "ms": 276
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 422
+      "ms": 450
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 43
+      "ms": 219
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 183
+      "ms": 243
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 246
+      "ms": 600
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 249
+      "ms": 430
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 96
+      "ms": 95
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 447
+      "ms": 328
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 163
+      "ms": 320
     },
     "RNZ": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 215
+      "ms": 435
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 677
+      "ms": 879
     },
     "Semafor": {
       "ok": true,
-      "count": 260,
+      "count": 261,
       "error": null,
-      "ms": 503
+      "ms": 927
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 538
+      "ms": 873
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 271
+      "ms": 176
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 88
+      "ms": 135
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 227
+      "ms": 373
     },
     "The Independent": {
       "ok": true,
-      "count": 79,
+      "count": 80,
       "error": null,
-      "ms": 152
+      "ms": 201
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 177
+      "ms": 600
     }
   },
   "breaking": [
+    {
+      "title": "Moment Russian military plane crashes in Siberia, killing 19",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/moment-russian-military-plane-crashes-in-siberia-killing-19?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T21:25:43+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/military-aircraft-crashes-in-siberia-killing-all-19-onboard-russian-state-media-6560391",
+          "title": "Military aircraft crashes in Siberia, killing all 19 onboard: Russian state media",
+          "published": "2026-11-17T21:08:55+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+          "title": "Russian military plane crashes killing all 19 on board",
+          "published": "2026-11-17T21:06:11+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
+          "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
+          "published": "2026-11-17T20:21:46+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "Australia sanctions individuals and company involved in illegal West Bank settlements",
       "url": "https://www.theguardian.com/world/2026/nov/18/australia-sanctions-construction-company-west-bank-settlement-expansion-ntwnfb",
@@ -177,28 +205,6 @@
       "consensus": 5.0
     },
     {
-      "title": "Military aircraft crashes in Siberia, killing all 19 onboard: Russian state media",
-      "url": "https://www.channelnewsasia.com/world/military-aircraft-crashes-in-siberia-killing-all-19-onboard-russian-state-media-6560391",
-      "source": "CNA",
-      "published": "2026-11-17T21:08:55+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-          "title": "Russian military plane crashes killing all 19 on board",
-          "published": "2026-11-17T21:06:11+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-drone-strikes-putin-zelensky-crimea-b3086122.html",
-          "title": "Ukraine-Russia war latest: Russian military plane crashes in Siberia killing all 19 on board",
-          "published": "2026-11-17T20:21:46+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Jensen Huang says he'd be honoured to return to Nvidia as CEO",
       "url": "https://www.france24.com/en/tv-shows/business/20261117-jensen-huang-says-he-d-be-honoured-to-return-to-nvidia-as-ceo",
       "source": "France24",
@@ -216,28 +222,6 @@
           "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
           "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
           "published": "2026-11-17T16:30:10+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Nvidia's Huang signals willingness to return as CEO; board creates national security panel",
-      "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-honoured-return-ceo-6560071",
-      "source": "CNA",
-      "published": "2026-11-17T18:50:07+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/business/jensen-huang-congress-nvidia-exports-9.7424742?cmp=rss",
-          "title": "Former Nvidia CEO Jensen Huang signals willingness to return as CEO",
-          "published": "2026-11-17T13:30:31+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
-          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
-          "published": "2026-11-08T21:03:56+00:00"
         }
       ],
       "consensus": 3.5
@@ -268,7 +252,7 @@
       "title": "NSA claims temporary internal network outage caused by ‘scheduled routine maintenance’ – live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-17T21:14:21+00:00",
+      "published": "2026-11-17T21:45:14+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -281,39 +265,77 @@
       "consensus": 2.5
     },
     {
-      "title": "Dead Melbourne Cup racehorse found dumped in Sydney waste facility",
-      "url": "https://www.euronews.com/2026/11/17/dead-melbourne-cup-racehorse-found-dumped-in-sydney-waste-facility",
-      "source": "Euronews",
-      "published": "2026-11-17T21:10:32+00:00",
+      "title": "UK hands NATO-assigned American soldier accused of Russia spying to US",
+      "url": "https://www.channelnewsasia.com/world/uk-hands-nato-assigned-american-soldier-accused-russia-spying-us-6560421",
+      "source": "CNA",
+      "published": "2026-11-17T21:38:53+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/sport/dead-melbourne-cup-racehorse-found-dumped-bin-6558391",
-          "title": "Dead Melbourne Cup racehorse found dumped in bin",
-          "published": "2026-11-17T08:47:07+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/uk-hands-nato-assigned-us-soldier-accused-of-russia-spying-to-us-military?traffic_source=rss",
+          "title": "UK hands NATO-assigned US soldier accused of Russia spying to US military",
+          "published": "2026-11-17T21:35:24+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T21:04:00+00:00",
+      "title": "Grand Theft Auto VI nominated for game of the year, even though it isn't out yet",
+      "url": "https://www.cbc.ca/news/entertainment/game-of-the-year-9.7425430?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-17T21:35:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-loses-measles-free-states-mexico-bolivia-6560296",
-          "title": "US loses measles elimination status after nearly three decades; Mexico, Bolivia also lose designation",
-          "published": "2026-11-17T20:32:48+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-culture-wars-gta-6-release-b3086666.html",
+          "title": "Fox News is already starting the culture wars over the new Grand Theft Auto VI",
+          "published": "2026-11-17T18:30:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US, Mexico and Bolivia lose measles-free status as deaths mount",
+      "url": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount",
+      "source": "France24",
+      "published": "2026-11-17T21:30:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374799/us-loses-measles-free-status-vaccinations-fall-cases-and-deaths-mount",
+          "title": "US loses measles-free status as vaccinations fall, cases and deaths mount",
+          "published": "2026-11-17T17:18:13+00:00"
         }
       ],
       "consensus": 2.5
     }
   ],
   "world": [
+    {
+      "title": "Nvidia's Huang signals willingness to return as CEO; board creates national security panel",
+      "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-honoured-return-ceo-6560071",
+      "source": "CNA",
+      "published": "2026-11-17T18:50:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/business/jensen-huang-congress-nvidia-exports-9.7424742?cmp=rss",
+          "title": "Former Nvidia CEO Jensen Huang signals willingness to return as CEO",
+          "published": "2026-11-17T13:30:31+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
     {
       "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
       "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
@@ -381,6 +403,38 @@
       "consensus": 3.0
     },
     {
+      "title": "Dead Melbourne Cup racehorse found dumped in Sydney waste facility",
+      "url": "https://www.euronews.com/2026/11/17/dead-melbourne-cup-racehorse-found-dumped-in-sydney-waste-facility",
+      "source": "Euronews",
+      "published": "2026-11-17T21:10:32+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/sport/dead-melbourne-cup-racehorse-found-dumped-bin-6558391",
+          "title": "Dead Melbourne Cup racehorse found dumped in bin",
+          "published": "2026-11-17T08:47:07+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US loses measles elimination status after 26 years amid record case numbers",
+      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T21:04:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-loses-measles-free-states-mexico-bolivia-6560296",
+          "title": "US loses measles elimination status after nearly three decades; Mexico, Bolivia also lose designation",
+          "published": "2026-11-17T20:32:48+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Can a robot pianist upstage a human musician?",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/can-a-robot-pianist-upstage-a-human-musician?traffic_source=rss",
       "source": "Al Jazeera",
@@ -424,22 +478,6 @@
           "url": "http://www.africanews.com/2026/11/17/mozambique-opposition-leader-venancio-mondlane-goes-on-trial-in-high-stakes-terrorism-case/",
           "title": "Mozambique opposition leader Venâncio Mondlane goes on trial in high-stakes terrorism case",
           "published": "2026-11-17T13:06:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Fox News is already starting the culture wars over the new Grand Theft Auto VI",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-culture-wars-gta-6-release-b3086666.html",
-      "source": "The Independent",
-      "published": "2026-11-17T18:30:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/in-photos-grand-theft-auto-vi-ads-hit-the-streets-9.7424918?cmp=rss",
-          "title": "IN PHOTOS | Grand Theft Auto VI ads hit the streets",
-          "published": "2026-11-17T18:13:40+00:00"
         }
       ],
       "consensus": 2.5
@@ -829,6 +867,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
+      "source": "The Independent",
+      "published": "2026-11-16T23:37:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+          "published": "2026-11-16T21:13:02+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
       "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
       "source": "NPR World",
@@ -893,46 +947,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Spy or not, Alice Huang was a useful pawn",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3374470/spy-or-not-alice-huang-was-useful-pawn",
+      "title": "Shenzhen – once a fishing village, now China’s ‘Robot Valley’ – takes the Apec stage",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3374765/shenzhen-once-fishing-village-now-chinas-robot-valley-takes-apec-stage",
       "source": "SCMP",
-      "published": "2026-11-17T21:30:07+00:00",
+      "published": "2026-11-17T22:00:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "🔴Israeli parliament elects Eisenkot ally Matan Kahana as new Knesset speaker",
-      "url": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker",
-      "source": "France24",
-      "published": "2026-11-17T21:26:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bears handed grudge match for Perth's first NRL game",
-      "url": "https://www.abc.net.au/news/2026-11-18/bears-handed-grudge-match-for-perth-first-nrl-game/107397324",
-      "source": "ABC Australia",
-      "published": "2026-11-17T21:25:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T21:24:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Landmark review recommends major shake-up to Australia's surrogacy laws",
-      "url": "https://www.abc.net.au/news/2026-11-18/new-surrogacy-laws-alrc-report/107376594",
-      "source": "ABC Australia",
-      "published": "2026-11-17T21:22:30+00:00",
+      "title": "Kiwis snatch three world aerobic titles, led by one 12-year-old",
+      "url": "https://www.rnz.co.nz/life/wellbeing/kiwis-snatch-three-world-aerobic-titles-led-by-one-12-year-old",
+      "source": "RNZ",
+      "published": "2026-11-17T21:54:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1034,26 +1061,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3852.1,
+        "price": 3852.2,
         "currency": "USD",
-        "change": -0.9,
+        "change": -0.8,
         "change_percent": -0.02,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.2,
+        "price": 47.31,
         "currency": "USD",
-        "change": 0.34,
-        "change_percent": 0.73,
+        "change": 0.45,
+        "change_percent": 0.96,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.96,
+        "price": 93.08,
         "currency": "USD",
-        "change": 0.52,
-        "change_percent": 0.56,
+        "change": 0.64,
+        "change_percent": 0.69,
         "name": "Brent Crude"
       },
       {
@@ -1061,7 +1088,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.07,
+        "change_percent": 0.06,
         "name": "EUR/USD"
       },
       {
@@ -1069,23 +1096,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.14,
+        "change_percent": 0.13,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.4,
+        "price": 159.34,
         "currency": "JPY",
-        "change": 0.0,
-        "change_percent": 0.0,
+        "change": -0.05,
+        "change_percent": -0.03,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64549.76,
+        "price": 64228.37,
         "currency": "USD",
-        "change": -278.61,
-        "change_percent": -0.43,
+        "change": -600.0,
+        "change_percent": -0.93,
         "name": "Bitcoin"
       }
     ],
@@ -1378,52 +1405,67 @@
   "web": {
     "tech": [
       {
+        "title": "Nimony: The next version of Nim",
+        "url": "https://nimony.org/",
+        "comments_url": "https://lobste.rs/s/jm8vk1/nimony_next_version_nim",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-17T21:56:09.955000+00:00"
+      },
+      {
         "title": "Java4Shell: Write once, RCE everywhere",
         "url": "https://calif.io/java4shell/",
         "comments_url": "https://lobste.rs/s/g0bf9i/java4shell_write_once_rce_everywhere",
-        "score": 6,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-17T21:16:11.291000+00:00"
       },
       {
         "title": "Java4Shell: RCE in OpenJDK when processing Base64",
         "url": "https://calif.io/java4shell/",
-        "score": 19,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-17T21:11:28+00:00"
       },
       {
         "title": "Web Browser Engineering (2021)",
         "url": "https://browser.engineering/",
-        "score": 65,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-17T20:01:35+00:00"
       },
       {
         "title": "jQuery 4.1.0",
         "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-        "score": 137,
+        "score": 166,
         "source": "Hacker News",
         "published": "2026-11-17T19:50:40+00:00"
       },
       {
         "title": "Effects of a Nuclear Detonation in Low Earth Orbit",
         "url": "https://arxiv.org/abs/2611.09827",
-        "score": 24,
+        "score": 37,
         "source": "Hacker News",
         "published": "2026-11-17T19:46:57+00:00"
       },
       {
-        "title": "350 years ago, this man discovered that light has a finite speed",
+        "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
         "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
-        "score": 124,
+        "score": 151,
         "source": "Hacker News",
         "published": "2026-11-17T19:25:27+00:00"
       },
       {
+        "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+        "url": "https://starsling.dev",
+        "score": 32,
+        "source": "Hacker News",
+        "published": "2026-11-17T19:01:43+00:00"
+      },
+      {
         "title": "Solid 2.0",
         "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
-        "score": 129,
+        "score": 145,
         "source": "Hacker News",
         "published": "2026-11-17T18:56:17+00:00"
       },
@@ -1438,14 +1480,14 @@
       {
         "title": "Phrack 73 Released",
         "url": "https://phrack.org/issues/73/introduction_md",
-        "score": 148,
+        "score": 179,
         "source": "Hacker News",
         "published": "2026-11-17T18:31:25+00:00"
       },
       {
         "title": "MAI Code 2 and Code 2 Flash",
         "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-        "score": 192,
+        "score": 206,
         "source": "Hacker News",
         "published": "2026-11-17T18:25:13+00:00"
       },
@@ -1453,39 +1495,23 @@
         "title": "Automatic Checking of Compiler Correctness with E-Graphs",
         "url": "https://stng.substack.com/p/automatic-checking-of-compiler-correctness",
         "comments_url": "https://lobste.rs/s/hode45/automatic_checking_compiler",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-17T18:18:12.198000+00:00"
       },
       {
         "title": "Apple Services Down",
         "url": "https://developer.apple.com/system-status/",
-        "score": 513,
+        "score": 538,
         "source": "Hacker News",
         "published": "2026-11-17T17:47:14+00:00"
       },
       {
         "title": "GPT‑6.2 Astra and Sol",
         "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "score": 849,
+        "score": 907,
         "source": "Hacker News",
         "published": "2026-11-17T17:46:43+00:00"
-      },
-      {
-        "title": "Phrack 73",
-        "url": "https://phrack.org/issues/73/introduction_md.html",
-        "comments_url": "https://lobste.rs/s/xu4ajj/phrack_73",
-        "score": 20,
-        "source": "Lobste.rs",
-        "published": "2026-11-17T17:40:32.622000+00:00"
-      },
-      {
-        "title": "Making Games in Go: Entity Component System (ECS)",
-        "url": "https://threedots.tech/post/making-games-in-go-ecs/",
-        "comments_url": "https://lobste.rs/s/zoarxd/making_games_go_entity_component_system",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-17T17:18:53.833000+00:00"
       }
     ],
     "reddit": [

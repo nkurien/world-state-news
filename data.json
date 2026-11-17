@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T17:55:07.477472+00:00",
+  "last_updated": "2026-11-17T18:01:11.391892+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 190
+      "ms": 138
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 112
+      "ms": 264
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 180
+      "ms": 54
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 197
+      "ms": 39
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 201
+      "ms": 85
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 182
+      "ms": 137
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 111
+      "ms": 79
     },
     "El País": {
       "ok": true,
-      "count": 60,
+      "count": 58,
       "error": null,
-      "ms": 227
+      "ms": 990
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 46
+      "ms": 76
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 115
+      "ms": 50
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 454
+      "ms": 462
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 258
+      "ms": 197
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 115
+      "ms": 66
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 135
+      "ms": 481
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 176
+      "ms": 85
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 95
+      "ms": 91
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 500
+      "ms": 921
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 578
+      "ms": 467
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 515
+      "ms": 355
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 139
+      "ms": 149
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 93
+      "ms": 168
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 90
+      "ms": 409
     },
     "The Independent": {
       "ok": true,
-      "count": 79,
+      "count": 77,
       "error": null,
-      "ms": 170
+      "ms": 196
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 154
+      "ms": 175
     }
   },
   "breaking": [
@@ -183,6 +183,34 @@
       "consensus": 6.5
     },
     {
+      "title": "Ex-Nvidia CEO Jensen Huang acknowledges ‘mistakes,’ signals interest in return if company chooses",
+      "url": "https://www.thehindu.com/news/international/ex-nvidia-ceo-jensen-huang-acknowledges-mistakes-signals-interest-in-return-if-company-chooses/article71713348.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T17:54:16+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-congress-nvidia-ceo-affair-b3086532.html",
+          "title": "Ex-Nvidia CEO Jensen Huang to appear before Congress as spy scandal intensifies",
+          "published": "2026-11-17T16:02:30+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/business/jensen-huang-congress-nvidia-exports-9.7424742?cmp=rss",
+          "title": "Former Nvidia CEO Jensen Huang signals willingness to return as CEO",
+          "published": "2026-11-17T13:30:31+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/08/2026/nvidia-ceo-jensen-huang-admits-to-affair-with-suspected-chinese-spy",
+          "title": "Nvidia CEO Jensen Huang admits to affair with suspected Chinese spy",
+          "published": "2026-11-08T21:03:56+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "UK sanctions firms over Israeli West Bank settlements",
       "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -211,34 +239,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
-      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
-      "source": "Euronews",
-      "published": "2026-11-17T16:10:42+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
-          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
-          "published": "2026-11-17T15:44:54+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
-          "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
-          "published": "2026-11-17T15:13:57+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
-          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
-          "published": "2026-11-17T14:43:52+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
       "url": "https://www.thehindu.com/news/international/ukraine-strikes-major-russian-bridge-with-drones-and-missiles-as-aerial-attacks-escalate/article71713178.ece",
       "source": "The Hindu",
@@ -261,55 +261,61 @@
       "consensus": 4.0
     },
     {
+      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "source": "Euronews",
+      "published": "2026-11-17T16:10:42+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
+          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+          "published": "2026-11-17T15:44:54+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
+          "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+          "published": "2026-11-17T15:13:57+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T17:37:04+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
+          "published": "2026-11-17T16:03:34+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
+          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
+          "published": "2026-11-17T14:43:52+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Jensen Huang says he would be ‘honored’ to return to Nvidia as CEO",
       "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-jensen-huang-statement",
       "source": "The Guardian",
       "published": "2026-11-17T17:35:26+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
         {
           "source": "Semafor",
           "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
           "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
           "published": "2026-11-17T16:30:10+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/business/jensen-huang-congress-nvidia-exports-9.7424742?cmp=rss",
-          "title": "Former Nvidia CEO Jensen Huang signals willingness to return as CEO",
-          "published": "2026-11-17T13:30:31+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T16:56:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss",
-          "title": "‘Unprecedented’ Ukraine attack on Crimean bridge",
-          "published": "2026-11-17T13:29:27+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ex-Nvidia CEO Jensen Huang to appear before Congress as spy scandal intensifies",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-congress-nvidia-ceo-affair-b3086532.html",
-      "source": "The Independent",
-      "published": "2026-11-17T16:02:30+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
-          "title": "Nvidia CEO is in Congress’ sights after spy scandal",
-          "published": "2026-11-09T23:11:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -375,6 +381,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T16:56:38+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss",
+          "title": "‘Unprecedented’ Ukraine attack on Crimean bridge",
+          "published": "2026-11-17T13:29:27+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "US senators demand FAA pause upgrades linked to nationwide ground stop",
@@ -599,22 +621,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T17:37:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
-          "published": "2026-11-17T16:03:34+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "‘China question’: Nvidia crisis and new US chip curbs split Washington and Silicon Valley",
@@ -866,10 +872,46 @@
       "consensus": 1.0
     },
     {
+      "title": "Category 5 Cyclone Xavier batters Northern Cook Islands with gusts up to 295km/h",
+      "url": "https://www.rnz.co.nz/news/pacific/2648447/category-5-cyclone-xavier-batters-northern-cook-islands-with-gusts-up-to-295km-h",
+      "source": "RNZ",
+      "published": "2026-11-17T17:49:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Iran targets Bahrain, slams 'fabricated' dirty-bomb report",
+      "url": "https://www.thehindu.com/news/international/iran-targets-bahrain-slams-fabricated-dirty-bomb-report/article71713177.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T17:46:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Has empire shaped today’s world?",
       "url": "https://www.aljazeera.com/video/doha-debates/2026/11/17/has-empire-shaped-todays-world?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-17T17:45:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Prince William’s presents Earthshot Prize winners with $1.3M each in Mumbai",
+      "url": "https://www.independent.co.uk/news/world/europe/prince-william-india-bhutan-france-narendra-modi-b3086653.html",
+      "source": "The Independent",
+      "published": "2026-11-17T17:44:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Bangladesh connects first nuclear power plant to national grid",
+      "url": "https://www.thehindu.com/news/international/bangladesh-connects-first-nuclear-power-plant-to-national-grid/article71713171.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T17:44:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -891,51 +933,15 @@
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
-    },
-    {
-      "title": "Democrat Mary Peltola closes in on victory in closely watched US Senate race in Alaska – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-17T17:41:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Teen accused of beating homeless man to death and leaving shoe prints on his face",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/new-orleans-teen-homeless-man-death-b3086600.html",
-      "source": "The Independent",
-      "published": "2026-11-17T17:38:24+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "NATO allies to discuss U.S. troop levels with Pentagon strategy chief",
-      "url": "https://www.thehindu.com/news/international/nato-allies-to-discuss-us-troop-levels-with-pentagon-strategy-chief/article71713184.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T17:37:34+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Jensen Huang breaks his silence after Nvidia exit, says he is open to returning",
-      "url": "https://english.elpais.com/economy-and-business/2026-11-17/jensen-huang-breaks-his-silence-after-nvidia-exit-says-he-is-open-to-returning.html",
-      "source": "El País",
-      "published": "2026-11-17T17:35:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7334.98,
+      "price": 7331.6,
       "currency": "USD",
-      "change": -81.61,
-      "change_percent": -1.1,
+      "change": -84.99,
+      "change_percent": -1.15,
       "name": "S&P 500"
     },
     {
@@ -948,10 +954,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24247.33,
+      "price": 24232.65,
       "currency": "USD",
-      "change": -262.43,
-      "change_percent": -1.07,
+      "change": -277.11,
+      "change_percent": -1.13,
       "name": "NASDAQ Composite"
     },
     {
@@ -967,10 +973,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7334.98,
+        "price": 7331.6,
         "currency": "USD",
-        "change": -81.61,
-        "change_percent": -1.1,
+        "change": -84.99,
+        "change_percent": -1.15,
         "name": "S&P 500"
       },
       {
@@ -983,18 +989,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50869.54,
+        "price": 50844.83,
         "currency": "USD",
-        "change": -738.63,
-        "change_percent": -1.43,
+        "change": -763.34,
+        "change_percent": -1.48,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24247.33,
+        "price": 24232.65,
         "currency": "USD",
-        "change": -262.43,
-        "change_percent": -1.07,
+        "change": -277.11,
+        "change_percent": -1.13,
         "name": "NASDAQ Composite"
       },
       {
@@ -1025,26 +1031,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3868.6,
+        "price": 3867.9,
         "currency": "USD",
-        "change": 15.6,
-        "change_percent": 0.4,
+        "change": 14.9,
+        "change_percent": 0.39,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.48,
+        "price": 47.44,
         "currency": "USD",
-        "change": 0.62,
-        "change_percent": 1.33,
+        "change": 0.58,
+        "change_percent": 1.23,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.27,
+        "price": 93.17,
         "currency": "USD",
-        "change": 0.83,
-        "change_percent": 0.9,
+        "change": 0.73,
+        "change_percent": 0.79,
         "name": "Brent Crude"
       },
       {
@@ -1073,68 +1079,68 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 63788.34,
+        "price": 63733.35,
         "currency": "USD",
-        "change": -1040.04,
-        "change_percent": -1.6,
+        "change": -1095.03,
+        "change_percent": -1.69,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 500.6,
+        "price": 500.87,
         "currency": "USD",
-        "change": -17.39,
-        "change_percent": -3.36,
+        "change": -17.12,
+        "change_percent": -3.31,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 350.65,
+        "price": 350.41,
         "currency": "USD",
-        "change": -2.13,
-        "change_percent": -0.6,
+        "change": -2.37,
+        "change_percent": -0.67,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 153.68,
+        "price": 153.69,
         "currency": "USD",
-        "change": -2.46,
-        "change_percent": -1.58,
+        "change": -2.45,
+        "change_percent": -1.57,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 281.76,
+        "price": 281.45,
         "currency": "USD",
-        "change": -1.96,
-        "change_percent": -0.69,
+        "change": -2.27,
+        "change_percent": -0.8,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 257.15,
+        "price": 257.14,
         "currency": "USD",
-        "change": -0.6,
+        "change": -0.61,
         "change_percent": -0.23,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 380.3,
+        "price": 379.88,
         "currency": "USD",
-        "change": 0.56,
-        "change_percent": 0.15,
+        "change": 0.14,
+        "change_percent": 0.04,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 619.19,
+        "price": 618.76,
         "currency": "USD",
-        "change": -7.22,
-        "change_percent": -1.15,
+        "change": -7.65,
+        "change_percent": -1.22,
         "name": "Meta"
       }
     ]
@@ -1246,22 +1252,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "UK imposes sanctions on companies building West Bank settlements",
+          "url": "https://www.ft.com/content/e4c46beb-b0bc-4d4b-afab-5682eddc8ed0?syn-25a6b1a6=1",
+          "published": "2026-11-17T17:58:08+00:00",
+          "snippet": "Eight Israeli property development and architectural firms blacklisted"
+        },
+        {
           "title": "US tech stocks slide ahead of Nvidia results",
           "url": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
-          "published": "2026-11-17T17:22:50+00:00",
-          "snippet": "Nasdaq 100 down 0.9% after volatile run of trading"
+          "published": "2026-11-17T17:56:57+00:00",
+          "snippet": "Nasdaq 100 down 1.1% after volatile run of trading"
         },
         {
-          "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104bn",
-          "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf?syn-25a6b1a6=1",
-          "published": "2026-11-17T17:06:32+00:00",
-          "snippet": "US chipmaker changed its reporting methods as revenues booked through the city-state surged 70 per cent"
-        },
-        {
-          "title": "TPG nears take-private deal for payments group Bill Holdings",
-          "url": "https://www.ft.com/content/629eb12c-f200-486d-8c63-32e2ebf3d97e?syn-25a6b1a6=1",
-          "published": "2026-11-17T17:02:10+00:00",
-          "snippet": "Payment automation firm put itself up for sale after market value plunged more than 80% from peak"
+          "title": "Marine Le Pen floats lowering France’s retirement age to as low as 60",
+          "url": "https://www.ft.com/content/c7ef0eb8-c9c5-46ef-b65d-c0ceaf111717?syn-25a6b1a6=1",
+          "published": "2026-11-17T17:32:42+00:00",
+          "snippet": "Far-right presidential frontrunner faces criticism over the feasibility and cost of her pension plans"
         }
       ]
     },
@@ -1371,7 +1377,7 @@
       {
         "title": "GPT‑6.2 Astra and Sol",
         "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "score": 73,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-17T17:46:43+00:00"
       },
@@ -1379,7 +1385,7 @@
         "title": "Phrack 73",
         "url": "https://phrack.org/issues/73/introduction_md.html",
         "comments_url": "https://lobste.rs/s/xu4ajj/phrack_73",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-17T17:40:32.622000+00:00"
       },
@@ -1394,14 +1400,14 @@
       {
         "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
         "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
-        "score": 27,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-17T17:13:57+00:00"
       },
       {
         "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
         "url": "https://github.com/RunanywhereAI/trnrt",
-        "score": 13,
+        "score": 14,
         "source": "Hacker News",
         "published": "2026-11-17T16:01:04+00:00"
       },
@@ -1416,7 +1422,7 @@
       {
         "title": "NSA Internal Network Down",
         "url": "https://www.reuters.com/technology/highly-classified-us-national-security-communications-network-is-down-cnn-2026-11-17/",
-        "score": 144,
+        "score": 153,
         "source": "Hacker News",
         "published": "2026-11-17T15:50:48+00:00"
       },
@@ -1424,7 +1430,7 @@
         "title": "How to Bypass Rust's Orphan Rule",
         "url": "https://edvong.com/bypass-orphan-rule/",
         "comments_url": "https://lobste.rs/s/oj87qu/how_bypass_rust_s_orphan_rule",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-17T15:35:36.402000+00:00"
       },
@@ -1439,7 +1445,7 @@
       {
         "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
         "url": "https://alloyhtml.com/example.html",
-        "score": 95,
+        "score": 97,
         "source": "Hacker News",
         "published": "2026-11-17T15:07:09+00:00"
       },
@@ -1454,7 +1460,7 @@
       {
         "title": "What is the best harness for each model?",
         "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-        "score": 180,
+        "score": 183,
         "source": "Hacker News",
         "published": "2026-11-17T14:53:43+00:00"
       },
@@ -1470,7 +1476,7 @@
         "title": "Actual curl rewrites in rust",
         "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
         "comments_url": "https://lobste.rs/s/1dj9w1/actual_curl_rewrites_rust",
-        "score": 41,
+        "score": 43,
         "source": "Lobste.rs",
         "published": "2026-11-17T13:37:05.550000+00:00"
       },

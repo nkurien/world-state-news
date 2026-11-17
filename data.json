@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T16:01:07.743432+00:00",
+  "last_updated": "2026-11-17T16:31:05.462850+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 311
+      "ms": 307
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 313
+      "ms": 249
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 358
+      "ms": 199
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 214
+      "ms": 149
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 244
+      "ms": 462
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 359
+      "ms": 156
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 1429
+      "ms": 122
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 419
+      "ms": 397
     },
     "Euronews": {
       "ok": true,
-      "count": 41,
+      "count": 42,
       "error": null,
-      "ms": 152
+      "ms": 44
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 147
+      "ms": 120
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 1011
+      "ms": 463
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 233
+      "ms": 255
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 128
+      "ms": 119
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 239
+      "ms": 563
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 139
+      "ms": 181
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 455
+      "ms": 159
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 704
+      "ms": 537
     },
     "Semafor": {
       "ok": true,
       "count": 248,
       "error": null,
-      "ms": 536
+      "ms": 482
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 636
+      "ms": 450
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 315
+      "ms": 155
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 195
+      "ms": 103
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 268
+      "ms": 208
     },
     "The Independent": {
       "ok": true,
       "count": 78,
       "error": null,
-      "ms": 131
+      "ms": 189
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 180
+      "ms": 206
     }
   },
   "breaking": [
+    {
+      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "source": "Euronews",
+      "published": "2026-11-17T16:10:42+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
+          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+          "published": "2026-11-17T15:44:54+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/trump-warns-iran-over-reported-dirty-bomb-threat-plans-against-washington?traffic_source=rss",
+          "title": "Trump warns Iran over reported ‘dirty bomb’ threat plans against Washington",
+          "published": "2026-11-17T15:13:57+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
+          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
+          "published": "2026-11-17T14:43:52+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
     {
       "title": "UK sanctions firms over Israeli West Bank settlements",
       "url": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
@@ -177,34 +205,6 @@
       "consensus": 4.5
     },
     {
-      "title": "‘Unprecedented’ Ukraine attack on Crimean bridge",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T13:29:27+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-          "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-          "published": "2026-11-17T13:01:11+00:00"
-        },
-        {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "Ukraine strikes Crimean bridge in ‘unprecedented operation,’ Zelenskyy says",
-          "published": "2026-11-17T08:51:35+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
-          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
-          "published": "2026-11-17T08:31:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Mozambique opposition leader goes on trial for terrorism over deadly election protests",
       "url": "https://www.bbc.co.uk/news/articles/crq5vl1l6z2po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -225,50 +225,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "U.S. blocks China’s remote access to AI chips after Nvidia scandal; China slams move",
-      "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T13:31:09+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
-          "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
-          "published": "2026-11-16T17:36:06+00:00"
-        },
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
-          "published": "2026-11-16T16:32:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
-      "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
-      "source": "France24",
-      "published": "2026-11-17T15:44:54+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
-          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
-          "published": "2026-11-17T14:43:52+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-says-takes-very-seriously-possible-iran-threat-washington-6559151",
-          "title": "Trump says takes ‘very seriously’ possible Iran threat to Washington",
-          "published": "2026-11-17T12:42:24+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "The Latest: Trump arrives in Philippines to kick off three-day Asia trip",
@@ -318,7 +274,7 @@
       "title": "Ex-Nvidia CEO Jensen Huang to appear before Congress as spy scandal intensifies",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-congress-nvidia-ceo-affair-b3086532.html",
       "source": "The Independent",
-      "published": "2026-11-17T15:46:36+00:00",
+      "published": "2026-11-17T16:02:30+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -326,6 +282,38 @@
           "url": "https://www.semafor.com/article/11/09/2026/nvidia-ceo-is-in-congress-sights-after-spy-scandal",
           "title": "Nvidia CEO is in Congress’ sights after spy scandal",
           "published": "2026-11-09T23:11:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US senators demand FAA pause upgrades linked to nationwide ground stop",
+      "url": "https://www.aljazeera.com/news/2026/11/17/us-senators-demand-faa-pause-upgrades-linked-to-nationwide-ground-stop?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T14:57:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+          "title": "FAA lifts rare nationwide ground stop",
+          "published": "2026-11-14T02:06:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "APEC summit: What Trump, Xi and Putin want",
+      "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-17T14:25:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+          "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+          "published": "2026-11-17T12:20:57+00:00"
         }
       ],
       "consensus": 2.5
@@ -359,6 +347,28 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "US loses measles elimination status after 26 years amid record case numbers",
+      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T16:26:22+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/us-measles-outbreak-elimination-status",
+          "title": "US loses measles elimination status amid worst outbreak since 1991",
+          "published": "2026-11-17T16:16:24+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/us-officially-loses-measles-free-status-after-26-years-amid-outbreak?traffic_source=rss",
+          "title": "US officially loses measles-free status after 26 years amid outbreak",
+          "published": "2026-11-17T16:07:53+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
@@ -405,17 +415,17 @@
       "consensus": 3.0
     },
     {
-      "title": "US senators demand FAA pause upgrades linked to nationwide ground stop",
-      "url": "https://www.aljazeera.com/news/2026/11/17/us-senators-demand-faa-pause-upgrades-linked-to-nationwide-ground-stop?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T14:57:33+00:00",
+      "title": "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T16:07:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/unprecedented-ukraine-attack-on-crimean-bridge?traffic_source=rss",
+          "title": "‘Unprecedented’ Ukraine attack on Crimean bridge",
+          "published": "2026-11-17T13:29:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -437,22 +447,6 @@
       "consensus": 2.5
     },
     {
-      "title": "APEC summit: What Trump, Xi and Putin want",
-      "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-17T14:25:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
-          "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
-          "published": "2026-11-17T12:20:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Guinea jails more than 220 people in deadly crackdown on illegal gold mining",
       "url": "http://www.africanews.com/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
       "source": "Africanews",
@@ -464,6 +458,38 @@
           "url": "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808?maca=en-rss-en-world-4025-xml-mrss",
           "title": "Guinea jails 200 in wildcat gold mining crackdown",
           "published": "2026-11-17T12:30:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Ukraine strikes major Crimean bridge as aerial attacks escalate",
+      "url": "https://www.abc.net.au/news/2026-11-18/ukraine-damages-crimean-bridge-in-major-strike/107396824",
+      "source": "ABC Australia",
+      "published": "2026-11-17T13:46:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
+          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
+          "published": "2026-11-17T09:50:45+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "U.S. blocks China’s remote access to AI chips after Nvidia scandal; China slams move",
+      "url": "https://www.thehindu.com/news/international/us-blocks-chinas-remote-access-to-ai-chips-after-nvidia-scandal-china-slams-move/article71711869.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T13:31:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
+          "published": "2026-11-16T16:32:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -517,22 +543,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Ukraine strikes major Russian bridge in Crimea with drones and missiles",
-      "url": "https://www.france24.com/en/video/20261117-ukraine-strikes-major-russian-bridge-in-crimea-with-drones-and-missiles",
-      "source": "France24",
-      "published": "2026-11-17T12:17:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-          "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-          "published": "2026-11-17T09:50:45+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Ukraine, Russia hit key bridges ahead of Putin-Xi-Trump summit",
       "url": "https://www.france24.com/en/video/20261117-ukraine-russia-hit-key-bridges-ahead-of-putin-xi-trump-summit",
       "source": "France24",
@@ -560,6 +570,22 @@
           "url": "https://www.thehindu.com/news/international/after-yemen-setback-saudi-arabia-replaces-military-commander/article71709122.ece",
           "title": "After Yemen setback, Saudi Arabia replaces military commander",
           "published": "2026-11-16T16:45:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "CNA Explains: Why is the US targeting Southeast Asia in its bid to curb China's access to AI chips?",
+      "url": "https://www.channelnewsasia.com/asia/us-ai-chips-china-southeast-asia-data-centres-6558256",
+      "source": "CNA",
+      "published": "2026-11-17T08:48:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-china-ai-nvidia-9.7423734?cmp=rss",
+          "title": "U.S. further restricts China's access to AI chips in wake of Nvidia scandal",
+          "published": "2026-11-16T17:36:06+00:00"
         }
       ],
       "consensus": 2.5
@@ -608,22 +634,6 @@
           "url": "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece",
           "title": "Ukraine hits Russia's Crimea bridge in 1,300-drone barrage",
           "published": "2026-11-16T09:12:33+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-      "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T01:26:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-warns-he-may-not-return-alive-seeks-medical-treatment-for-himself-wife/article71708296.ece",
-          "title": "Former Pakistan PM Imran Khan warns he may not 'return alive', seeks medical treatment for himself, wife",
-          "published": "2026-11-16T13:50:38+00:00"
         }
       ],
       "consensus": 2.5
@@ -688,44 +698,6 @@
           "url": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup",
           "title": "Israeli opposition chiefs denounce Netanyahu over 'attempted coup'",
           "published": "2026-11-16T08:58:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Neves wins second term as Cape Verde's president: provisional results",
-      "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
-      "source": "RFI English",
-      "published": "2026-11-16T08:24:09+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
-          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
-          "published": "2026-11-15T09:45:23+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
-          "title": "Cape verde presidential election: Neves seeks second term",
-          "published": "2026-11-13T15:42:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Iran attacks US military base in Bahrain as talks stall",
-      "url": "https://www.semafor.com/article/11/15/2026/iran-attacks-bahrain-as-talks-stall",
-      "source": "Semafor",
-      "published": "2026-11-15T22:34:29+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
-          "title": "Iran launches drone attacks against US military base in Bahrain",
-          "published": "2026-11-15T18:03:56+00:00"
         }
       ],
       "consensus": 2.5
@@ -843,6 +815,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Ukraine strikes Crimean bridge in ‘unprecedented operation,’ Zelenskyy says",
+      "url": "https://www.politico.eu/article/russian-missiles-hit-two-major-kyiv-bridges/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-17T08:51:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
+          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
+          "published": "2026-11-17T08:31:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
       "url": "https://www.thehindu.com/news/international/tokyo-lodges-protest-after-aircraft-believed-to-be-russian-violate-japan-airspace/article71710315.ece",
       "source": "The Hindu",
@@ -886,6 +874,22 @@
           "url": "https://www.semafor.com/article/11/15/2026/trump-to-meet-xi-and-putin-in-china",
           "title": "Trump to meet Xi and Putin in China",
           "published": "2026-11-15T22:38:54+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Neves wins second term as Cape Verde's president: provisional results",
+      "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
+      "source": "RFI English",
+      "published": "2026-11-16T08:24:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
+          "published": "2026-11-15T09:45:23+00:00"
         }
       ],
       "consensus": 2.0
@@ -939,37 +943,28 @@
       "consensus": 1.5
     },
     {
-      "title": "Democrat Mary Peltola closes in on victory in closely watched US Senate race in Alaska – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
+      "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
+      "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
+      "source": "Semafor",
+      "published": "2026-11-17T16:30:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jusqu’où peut aller David Lisnard ?",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/jusquou-peut-aller-david-lisnard/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-17T16:26:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Zelenskyy urges allies to send air defence deliveries without delay as Russia intensifies attacks – Europe live",
+      "url": "https://www.theguardian.com/world/live/2026/nov/17/europe-ukraine-russia-crimea-kerch-bridge-attack-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-17T15:50:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "California daycare gave kids ‘sleeping gummies’ for nap time, lawsuit alleges",
-      "url": "https://www.independent.co.uk/news/world/americas/california-lawsuit-daycare-melatonin-b3086440.html",
-      "source": "The Independent",
-      "published": "2026-11-17T15:49:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Burnham makes Milburn head of unit to implement new jobs and welfare approach for young people – live",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/17/alan-milburn-youth-unempolyment-neets-economy-welfare-brexit-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-17T15:49:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Serbia's student-backed MPs take seats in parliament after election win",
-      "url": "https://www.france24.com/en/video/20261117-serbia-s-student-backed-mps-take-seats-in-parliament-after-election-win",
-      "source": "France24",
-      "published": "2026-11-17T15:48:34+00:00",
+      "published": "2026-11-17T16:24:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -978,34 +973,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7335.05,
+      "price": 7328.1,
       "currency": "USD",
-      "change": -81.54,
-      "change_percent": -1.1,
+      "change": -88.49,
+      "change_percent": -1.19,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.02,
+      "price": 138.2,
       "currency": "GBP",
-      "change": -3.06,
-      "change_percent": -2.17,
+      "change": -2.88,
+      "change_percent": -2.04,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 24214.78,
+      "price": 24200.78,
       "currency": "USD",
-      "change": -294.98,
-      "change_percent": -1.2,
+      "change": -308.98,
+      "change_percent": -1.26,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10716.27,
+      "price": 10703.07,
       "currency": "GBP",
-      "change": -165.28,
-      "change_percent": -1.52,
+      "change": -178.48,
+      "change_percent": -1.64,
       "name": "FTSE 100"
     }
   ],
@@ -1013,34 +1008,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7335.05,
+        "price": 7328.1,
         "currency": "USD",
-        "change": -81.54,
-        "change_percent": -1.1,
+        "change": -88.49,
+        "change_percent": -1.19,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10716.27,
+        "price": 10703.07,
         "currency": "GBP",
-        "change": -165.28,
-        "change_percent": -1.52,
+        "change": -178.48,
+        "change_percent": -1.64,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50875.89,
+        "price": 50804.75,
         "currency": "USD",
-        "change": -732.28,
-        "change_percent": -1.42,
+        "change": -803.42,
+        "change_percent": -1.56,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24214.78,
+        "price": 24200.78,
         "currency": "USD",
-        "change": -294.98,
-        "change_percent": -1.2,
+        "change": -308.98,
+        "change_percent": -1.26,
         "name": "NASDAQ Composite"
       },
       {
@@ -1053,44 +1048,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26100.5,
+        "price": 26064.86,
         "currency": "EUR",
-        "change": -498.14,
-        "change_percent": -1.87,
+        "change": -533.78,
+        "change_percent": -2.01,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8239.29,
+        "price": 8220.58,
         "currency": "EUR",
-        "change": -112.71,
-        "change_percent": -1.35,
+        "change": -131.42,
+        "change_percent": -1.57,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3878.2,
+        "price": 3869.2,
         "currency": "USD",
-        "change": 25.2,
-        "change_percent": 0.65,
+        "change": 16.2,
+        "change_percent": 0.42,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.53,
+        "price": 47.52,
         "currency": "USD",
         "change": 0.67,
-        "change_percent": 1.43,
+        "change_percent": 1.42,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 93.15,
+        "price": 93.33,
         "currency": "USD",
-        "change": 0.71,
-        "change_percent": 0.77,
+        "change": 0.89,
+        "change_percent": 0.96,
         "name": "Brent Crude"
       },
       {
@@ -1098,7 +1093,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.09,
+        "change_percent": 0.17,
         "name": "EUR/USD"
       },
       {
@@ -1106,81 +1101,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.12,
+        "change_percent": 0.21,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.27,
+        "price": 159.25,
         "currency": "JPY",
-        "change": -0.13,
-        "change_percent": -0.08,
+        "change": -0.14,
+        "change_percent": -0.09,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64079.87,
+        "price": 63793.05,
         "currency": "USD",
-        "change": -748.5,
-        "change_percent": -1.15,
+        "change": -1035.32,
+        "change_percent": -1.6,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 501.18,
+        "price": 498.63,
         "currency": "USD",
-        "change": -16.81,
-        "change_percent": -3.25,
+        "change": -19.36,
+        "change_percent": -3.74,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 352.06,
+        "price": 352.12,
         "currency": "USD",
-        "change": -0.71,
-        "change_percent": -0.2,
+        "change": -0.65,
+        "change_percent": -0.19,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 153.65,
+        "price": 154.23,
         "currency": "USD",
-        "change": -2.49,
-        "change_percent": -1.59,
+        "change": -1.91,
+        "change_percent": -1.22,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 281.24,
+        "price": 280.49,
         "currency": "USD",
-        "change": -2.49,
-        "change_percent": -0.88,
+        "change": -3.23,
+        "change_percent": -1.14,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 255.98,
+        "price": 254.83,
         "currency": "USD",
-        "change": -1.77,
-        "change_percent": -0.69,
+        "change": -2.92,
+        "change_percent": -1.13,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 379.39,
+        "price": 379.73,
         "currency": "USD",
-        "change": -0.35,
-        "change_percent": -0.09,
+        "change": -0.01,
+        "change_percent": 0.0,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 618.32,
+        "price": 616.4,
         "currency": "USD",
-        "change": -8.09,
-        "change_percent": -1.29,
+        "change": -10.01,
+        "change_percent": -1.6,
         "name": "Meta"
       }
     ]
@@ -1217,6 +1212,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Jeff Shaara’s 6 favorite books",
+          "url": "https://theweek.com/culture-life/books/jeff-shaaras-6-favorite-civil-war-books",
+          "published": "2026-11-17T16:02:01+00:00",
+          "snippet": "The best-selling author recommends five memoirs and a novel that perfectly capture the American Civil War"
+        },
+        {
           "title": "Book reviews: ‘All in Your Head: Illness as Identity, Trauma as Fashion, and the Desire to Be Disordered’ and ‘Sleuth-Hound: The Case of the Real Sherlock Holmes’",
           "url": "https://theweek.com/culture-life/books/book-reviews-all-in-your-head-illness-as-identity-trauma-as-fashion-and-the-desire-to-be-disordered-and-sleuth-hound-the-case-of-the-real-sherlock-holmes",
           "published": "2026-11-17T15:35:17+00:00",
@@ -1227,12 +1228,6 @@
           "url": "https://theweek.com/culture-life/food-drink/a-foodies-guide-to-glasgow",
           "published": "2026-11-17T15:34:22+00:00",
           "snippet": "From intricate small plates to hearty Scottish fare, these are the best restaurants in the city"
-        },
-        {
-          "title": "Data centers: A big loser of the midterms",
-          "url": "https://theweek.com/tech/data-centers-big-loser-midterms",
-          "published": "2026-11-17T15:18:56+00:00",
-          "snippet": "People across the nation made their disdain for data centers known"
         }
       ]
     },
@@ -1292,22 +1287,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "How Paris and Berlin sealed the ECB succession",
-          "url": "https://www.ft.com/content/d83f2a71-aea1-4654-a89a-84ad203f6646?syn-25a6b1a6=1",
-          "published": "2026-11-17T15:29:57+00:00",
-          "snippet": "Spain’s Pablo Hernández de Cos appears set to take over presidency after winning French and German backing"
+          "title": "Jensen Huang says he is prepared to return as Nvidia CEO",
+          "url": "https://www.ft.com/content/e265542c-25d9-4a82-8cb7-e4a4b641cdda?syn-25a6b1a6=1",
+          "published": "2026-11-17T16:27:30+00:00",
+          "snippet": "First public remarks since revelations over extramarital affairs forced co-founder to resign"
         },
         {
-          "title": "Labour’s reforms risk harming job market for Britain’s young, says Milburn review",
-          "url": "https://www.ft.com/content/05aee3d8-9231-425a-b6d7-1849fcb99cad?syn-25a6b1a6=1",
-          "published": "2026-11-17T15:25:16+00:00",
-          "snippet": "Changes ‘count for nothing if there are no jobs for young people to go to’, warns former cabinet minister"
+          "title": "US tech stocks slide ahead of Nvidia results",
+          "url": "https://www.ft.com/content/4a3b9892-67c6-4177-8503-80c0a5eb3b60?syn-25a6b1a6=1",
+          "published": "2026-11-17T16:24:57+00:00",
+          "snippet": "Nasdaq 100 down 1% after volatile run of trading"
         },
         {
-          "title": "Fed’s Lisa Cook refuses to attend hearing convened by Trump",
-          "url": "https://www.ft.com/content/ac8fe697-a48d-4b0a-b556-46ae5463a6e4?syn-25a6b1a6=1",
-          "published": "2026-11-17T15:15:35+00:00",
-          "snippet": "Central bank governor says attending ‘unfair’ proceedings would endanger the ‘institution’s unique status and independence’"
+          "title": "Ukraine destroys section of Crimea bridge in fierce exchange",
+          "url": "https://www.ft.com/content/eb8031c0-a96a-4408-b762-b92ff0402f82?syn-25a6b1a6=1",
+          "published": "2026-11-17T16:24:55+00:00",
+          "snippet": "Part of key Russian road crossing collapses and parallel rail bridge damaged while Moscow hits infrastructure in Ukrainian capital"
         }
       ]
     },
@@ -1316,6 +1311,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "Getting Out of Trump’s Wars",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/getting-out-of-trumps-wars/689047/?utm_source=feed",
+          "published": "2026-11-17T16:00:00+00:00",
+          "snippet": "“If you break it, you buy it” is no good when it comes to military conflicts, says former Army Ranger, Representative Jason Crow."
+        },
         {
           "title": "Xi’s Heavy-Handedness May Be Backfiring",
           "url": "https://www.theatlantic.com/international/2026/11/apec-china-us-xi-jinping/689462/?utm_source=feed",
@@ -1327,12 +1328,6 @@
           "url": "https://www.theatlantic.com/science/2026/11/salmon-farming/689418/?utm_source=feed",
           "published": "2026-11-17T14:31:38+00:00",
           "snippet": "More people than ever want to eat the fish, but salmon farmers are closing in on their limits."
-        },
-        {
-          "title": "‘Yankee Go Home’",
-          "url": "https://www.theatlantic.com/international/2026/11/venezuela-maduro-oil-earthquake-intervention/689113/?utm_source=feed",
-          "published": "2026-11-17T14:00:00+00:00",
-          "snippet": "Photographs of post-Maduro Venezuela"
         }
       ]
     },
@@ -1415,41 +1410,42 @@
   "web": {
     "tech": [
       {
+        "title": "C’s designated initializers give us named arguments",
+        "url": "https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/",
+        "comments_url": "https://lobste.rs/s/kktn5b/c_s_designated_initializers_give_us_named",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-17T15:58:44.322000+00:00"
+      },
+      {
+        "title": "Highly classified US national security communications network goes down",
+        "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+        "score": 83,
+        "source": "Hacker News",
+        "published": "2026-11-17T15:38:28+00:00"
+      },
+      {
         "title": "How to Bypass Rust's Orphan Rule",
         "url": "https://edvong.com/bypass-orphan-rule/",
         "comments_url": "https://lobste.rs/s/oj87qu/how_bypass_rust_s_orphan_rule",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-17T15:35:36.402000+00:00"
-      },
-      {
-        "title": "A.I. Just Blew Up a Key Tenet of Computer Science",
-        "url": "https://www.nytimes.com/2026/11/06/science/ai-exponential-time-hypothesis.html",
-        "score": 17,
-        "source": "Hacker News",
-        "published": "2026-11-17T15:33:48+00:00"
       },
       {
         "title": "Steve Jobs Core Animation demo from WWDC 2007",
         "url": "https://lucas.love/100/058",
         "comments_url": "https://lobste.rs/s/yqmfzq/steve_jobs_core_animation_demo_from_wwdc",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-17T15:23:20.434000+00:00"
       },
       {
         "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
         "url": "https://alloyhtml.com/example.html",
-        "score": 31,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-17T15:07:09+00:00"
-      },
-      {
-        "title": "Pentagon fails 9th financial audit in a row",
-        "url": "https://thehill.com/policy/defense/6224597-pentagon-fails-ninth-audit/",
-        "score": 52,
-        "source": "Hacker News",
-        "published": "2026-11-17T15:02:53+00:00"
       },
       {
         "title": "MySQL Development as it Happens, Part 2 -Vector Indexes",
@@ -1462,14 +1458,14 @@
       {
         "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
         "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-        "score": 18,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-17T14:53:43+00:00"
       },
       {
         "title": "We don't need more apps. We need better open source",
         "url": "https://jordankrueger.com/blog/better-open-source-not-more-apps/",
-        "score": 170,
+        "score": 230,
         "source": "Hacker News",
         "published": "2026-11-17T14:45:36+00:00"
       },
@@ -1477,29 +1473,22 @@
         "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
         "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
         "comments_url": "https://lobste.rs/s/qmofba/critical_red_hat_quay_flaw_lets_attackers",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-17T14:38:24.970000+00:00"
       },
       {
         "title": "Loopholes Are for Assholes",
         "url": "https://actsofvolition.com/2026/11/loopholes-are-for-assholes/",
-        "score": 87,
+        "score": 129,
         "source": "Hacker News",
         "published": "2026-11-17T14:20:32+00:00"
-      },
-      {
-        "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-        "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-        "score": 114,
-        "source": "Hacker News",
-        "published": "2026-11-17T14:19:59+00:00"
       },
       {
         "title": "Actual curl rewrites in rust",
         "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
         "comments_url": "https://lobste.rs/s/1dj9w1/actual_curl_rewrites_rust",
-        "score": 22,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-17T13:37:05.550000+00:00"
       },
@@ -1507,14 +1496,14 @@
         "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
         "url": "https://arxiv.org/abs/2607.02512",
         "comments_url": "https://lobste.rs/s/qkalae/program_as_weights_programming_paradigm",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-17T12:55:46.415000+00:00"
       },
       {
         "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
         "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-        "score": 614,
+        "score": 672,
         "source": "Hacker News",
         "published": "2026-11-17T11:45:51+00:00"
       },
@@ -1525,6 +1514,14 @@
         "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-17T11:03:52.548000+00:00"
+      },
+      {
+        "title": "Github Redesign (2019)",
+        "url": "https://tonsky.me/blog/github-redesign/",
+        "comments_url": "https://lobste.rs/s/kseyz1/github_redesign_2019",
+        "score": 22,
+        "source": "Lobste.rs",
+        "published": "2026-11-17T09:28:18.950000+00:00"
       }
     ],
     "reddit": [
@@ -1553,6 +1550,14 @@
         "published": "2026-11-17T11:12:12+00:00"
       },
       {
+        "title": "Highly classified US national security communications network goes down, sources say",
+        "url": "https://edition.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down?Date=20261117&amp;Profile=cnn&amp;utm_content=1794929923&amp;utm_medium=social&amp;utm_source=threads",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xynqfm/highly_classified_us_national_security/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-17T15:43:50+00:00"
+      },
+      {
         "title": "AI music company claims copyright over musician's own recording, gets her YouTube video removed",
         "url": "https://www.techspot.com/news/114585-ai-music-company-claims-copyright-over-musician-own.html",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xyi3bu/ai_music_company_claims_copyright_over_musicians/",
@@ -1561,12 +1566,12 @@
         "published": "2026-11-17T11:29:38+00:00"
       },
       {
-        "title": "Kremlin reportedly tells lawmakers to prepare for ‘victory’ in Ukraine and soldiers’ return home",
-        "url": "https://novayagazeta.eu/en/articles/2026/11/16/kremlin-reportedly-tells-lawmakers-to-prepare-for-victory-in-ukraine-and-soldiers-return-home-en-news",
-        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xyg4yl/kremlin_reportedly_tells_lawmakers_to_prepare_for/",
+        "title": "French troops are now operating in Ukraine",
+        "url": "https://www.lemonde.fr/en/international/article/2026/11/16/french-troops-are-now-operating-in-ukraine_6782174_4.html",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xymjlh/french_troops_are_now_operating_in_ukraine/",
         "score": null,
-        "source": "/r/worldnews",
-        "published": "2026-11-17T09:32:13+00:00"
+        "source": "/r/geopolitics",
+        "published": "2026-11-17T14:57:21+00:00"
       },
       {
         "title": "Leaked Files Show Deutsche Bank Protected Russian Profits Despite Warnings",
@@ -1575,6 +1580,14 @@
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-17T11:49:32+00:00"
+      },
+      {
+        "title": "Kremlin reportedly tells lawmakers to prepare for ‘victory’ in Ukraine and soldiers’ return home",
+        "url": "https://novayagazeta.eu/en/articles/2026/11/16/kremlin-reportedly-tells-lawmakers-to-prepare-for-victory-in-ukraine-and-soldiers-return-home-en-news",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xyg4yl/kremlin_reportedly_tells_lawmakers_to_prepare_for/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-17T09:32:13+00:00"
       },
       {
         "title": "Trump effigies burn in Philippines ahead of Asia summits",
@@ -1593,14 +1606,6 @@
         "published": "2026-11-17T11:17:29+00:00"
       },
       {
-        "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
-        "url": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy9znd/us_proposes_blocking_employers_from_sponsoring/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-17T03:32:18+00:00"
-      },
-      {
         "title": "Leaked bill could allow Ohio data centers to seize land. A leaked Ohio bill could allow data centers to qualify as \"public utilities,\" giving them the ability to seize private property.",
         "url": "https://www.news5cleveland.com/news/politics/ohio-politics/leaked-bill-could-allow-ohio-data-centers-to-seize-land",
         "comments_url": "https://www.reddit.com/r/technology/comments/1xygq7s/leaked_bill_could_allow_ohio_data_centers_to/",
@@ -1609,20 +1614,12 @@
         "published": "2026-11-17T10:09:03+00:00"
       },
       {
-        "title": "French troops are now operating in Ukraine",
-        "url": "https://www.lemonde.fr/en/international/article/2026/11/16/french-troops-are-now-operating-in-ukraine_6782174_4.html",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xymjlh/french_troops_are_now_operating_in_ukraine/",
+        "title": "U.S. proposes blocking employers from sponsoring foreign workers for the same or similar jobs within 2 years of laying off American workers.",
+        "url": "https://www.washingtonpost.com/immigration/2026/11/16/trump-administration-proposes-restrictions-employer-sponsored-green-cards/",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy9znd/us_proposes_blocking_employers_from_sponsoring/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-17T14:57:21+00:00"
-      },
-      {
-        "title": "It's time for an elected President of Europe with a single Foreign Minister, says Dutch Volt Leader Laurens Dassen. \"Europe can fill the gap that America leaves behind and take on the leadership of the free world\"",
-        "url": "https://streamable.com/9tq947",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xykj23/its_time_for_an_elected_president_of_europe_with/",
-        "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-17T13:32:10+00:00"
+        "source": "/r/technology",
+        "published": "2026-11-17T03:32:18+00:00"
       },
       {
         "title": "Trump says Kim Jong Un may join him, Putin and Xi for first-ever super summit",
@@ -1633,20 +1630,20 @@
         "published": "2026-11-17T03:17:25+00:00"
       },
       {
+        "title": "It's time for an elected President of Europe with a single Foreign Minister, says Dutch Volt Leader Laurens Dassen. \"Europe can fill the gap that America leaves behind and take on the leadership of the free world\"",
+        "url": "https://streamable.com/9tq947",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xykj23/its_time_for_an_elected_president_of_europe_with/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-17T13:32:10+00:00"
+      },
+      {
         "title": "US intel indicates Iran developing plans to potentially detonate a dirty bomb in Washington, sources say",
         "url": "https://www.cnn.com/2026/11/16/politics/us-intelligence-iran-dirty-bomb",
         "comments_url": "https://www.reddit.com/r/worldnews/comments/1xy4avz/us_intel_indicates_iran_developing_plans_to/",
         "score": null,
         "source": "/r/worldnews",
         "published": "2026-11-16T23:09:01+00:00"
-      },
-      {
-        "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
-        "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-17T01:00:56+00:00"
       }
     ]
   }

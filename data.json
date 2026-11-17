@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T20:30:50.299267+00:00",
+  "last_updated": "2026-11-17T21:01:08.444803+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 283
+      "ms": 365
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 297
+      "ms": 412
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 147
+      "ms": 157
     },
     "BBC News": {
       "ok": true,
-      "count": 25,
+      "count": 27,
       "error": null,
-      "ms": 108
+      "ms": 302
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 117
+      "ms": 335
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 348
+      "ms": 359
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 636
+      "ms": 785
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 456
+      "ms": 685
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 333
+      "ms": 144
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 166
+      "ms": 138
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 375
+      "ms": 443
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 229
+      "ms": 372
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 46
+      "ms": 444
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 491
+      "ms": 125
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 102
+      "ms": 187
     },
     "RNZ": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 193
+      "ms": 505
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 569
+      "ms": 754
     },
     "Semafor": {
       "ok": true,
       "count": 257,
       "error": null,
-      "ms": 457
+      "ms": 775
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 433
+      "ms": 898
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 418
+      "ms": 201
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 543
+      "ms": 781
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 243
+      "ms": 432
     },
     "The Independent": {
       "ok": true,
-      "count": 76,
+      "count": 79,
       "error": null,
-      "ms": 95
+      "ms": 244
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 253
+      "ms": 338
     }
   },
   "breaking": [
@@ -199,10 +199,32 @@
       "consensus": 3.5
     },
     {
+      "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+      "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T20:44:54+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody",
+          "title": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+          "published": "2026-11-17T20:30:57+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/11/kremlin-denies-having-ties-to-american-soldier-arrested-in-uk-for-spying-a94229",
+          "title": "Kremlin Denies Having Ties to American Soldier Arrested in U.K. for Spying",
+          "published": "2026-11-11T13:52:44+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "NSA claims temporary internal network outage caused by ‘scheduled routine maintenance’ – live",
       "url": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-17T20:23:22+00:00",
+      "published": "2026-11-17T20:53:50+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -210,6 +232,22 @@
           "url": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage?traffic_source=rss",
           "title": "NSA attributes US network outage to routine ‘maintenance’ activities",
           "published": "2026-11-17T19:03:14+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US loses measles elimination status after nearly three decades; Mexico, Bolivia also lose designation",
+      "url": "https://www.channelnewsasia.com/world/us-loses-measles-free-states-mexico-bolivia-6560296",
+      "source": "CNA",
+      "published": "2026-11-17T20:32:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+          "title": "US loses measles elimination status after 26 years amid record case numbers",
+          "published": "2026-11-17T17:10:03+00:00"
         }
       ],
       "consensus": 2.5
@@ -261,38 +299,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Fox News is already starting the culture wars over the new Grand Theft Auto VI",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-culture-wars-gta-6-release-b3086666.html",
-      "source": "The Independent",
-      "published": "2026-11-17T18:30:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/in-photos-grand-theft-auto-vi-ads-hit-the-streets-9.7424918?cmp=rss",
-          "title": "IN PHOTOS | Grand Theft Auto VI ads hit the streets",
-          "published": "2026-11-17T18:13:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-      "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T18:24:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
-          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
-          "published": "2026-11-17T16:30:10+00:00"
-        }
-      ],
-      "consensus": 2.5
     }
   ],
   "world": [
@@ -319,17 +325,17 @@
       "consensus": 4.0
     },
     {
-      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
-      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
-      "source": "Euronews",
-      "published": "2026-11-17T16:10:42+00:00",
+      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T17:37:04+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
-          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
-          "published": "2026-11-17T15:44:54+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
+          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
+          "published": "2026-11-17T16:03:34+00:00"
         },
         {
           "source": "The Independent",
@@ -383,6 +389,38 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Fox News is already starting the culture wars over the new Grand Theft Auto VI",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/fox-news-culture-wars-gta-6-release-b3086666.html",
+      "source": "The Independent",
+      "published": "2026-11-17T18:30:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/in-photos-grand-theft-auto-vi-ads-hit-the-streets-9.7424918?cmp=rss",
+          "title": "IN PHOTOS | Grand Theft Auto VI ads hit the streets",
+          "published": "2026-11-17T18:13:40+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+      "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T18:24:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
+          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
+          "published": "2026-11-17T16:30:10+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Ex-Nvidia CEO Jensen Huang acknowledges ‘mistakes,’ signals interest in return if company chooses",
@@ -657,17 +695,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-      "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T17:37:04+00:00",
+      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
+      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "source": "Euronews",
+      "published": "2026-11-17T16:10:42+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington",
-          "title": "Trump claims US is ‘looking into’ Iranian bomb plot in Washington despite ‘no credible threats’",
-          "published": "2026-11-17T16:03:34+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261117-trump-says-he-takes-possible-iran-bomb-threat-to-washington-very-seriously",
+          "title": "Trump says he takes possible Iran bomb threat to Washington 'very seriously'",
+          "published": "2026-11-17T15:44:54+00:00"
         }
       ],
       "consensus": 2.0
@@ -817,22 +855,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
-      "source": "The Independent",
-      "published": "2026-11-16T23:37:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-          "published": "2026-11-16T21:13:02+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
       "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
       "source": "NPR World",
@@ -897,37 +919,28 @@
       "consensus": 1.5
     },
     {
-      "title": "So You Are owner outraged by treatment of dead horse's remains",
-      "url": "https://www.abc.net.au/news/2026-11-18/so-you-are-owner-outraged-by-treatment-of-remains/107397186",
-      "source": "ABC Australia",
-      "published": "2026-11-17T20:28:04+00:00",
+      "title": "US strikes targets in Qeshm Island after Iranian mines hit five ships in Hormuz",
+      "url": "https://www.euronews.com/2026/11/17/us-strikes-targets-in-qeshm-island-after-iranian-mines-hit-five-ships-in-hormuz",
+      "source": "Euronews",
+      "published": "2026-11-17T20:54:43+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Australia hits the godmother of Israel's settler movement with sanctions",
-      "url": "https://www.abc.net.au/news/2026-11-18/founder-of-israeli-settler-organisation-sanctioned/107397140",
-      "source": "ABC Australia",
-      "published": "2026-11-17T20:27:07+00:00",
+      "title": "What’s behind the ANC’s decline in South Africa?",
+      "url": "https://www.aljazeera.com/video/inside-story/2026/11/17/whats-behind-the-ancs-decline-in-south-africa?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T20:47:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump in Asia ahead of talks with Russian and Chinese presidents",
-      "url": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T20:25:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump nominates Chris LaNeve as army chief after Hegseth fired predecessor",
-      "url": "https://www.theguardian.com/us-news/2026/nov/17/chris-laneve-army-chief-staff",
+      "title": "Markwayne Mullin defends private-jet trip to football game as millions hit by flight delays",
+      "url": "https://www.theguardian.com/us-news/2026/nov/17/markwayne-mullin-private-jet-football",
       "source": "The Guardian",
-      "published": "2026-11-17T20:21:58+00:00",
+      "published": "2026-11-17T20:45:48+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -936,10 +949,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7323.82,
+      "price": 7340.84,
       "currency": "USD",
-      "change": -92.77,
-      "change_percent": -1.25,
+      "change": -75.75,
+      "change_percent": -1.02,
       "name": "S&P 500"
     },
     {
@@ -952,10 +965,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24236.37,
+      "price": 24328.38,
       "currency": "USD",
-      "change": -273.39,
-      "change_percent": -1.12,
+      "change": -181.38,
+      "change_percent": -0.74,
       "name": "NASDAQ Composite"
     },
     {
@@ -971,10 +984,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7323.82,
+        "price": 7340.84,
         "currency": "USD",
-        "change": -92.77,
-        "change_percent": -1.25,
+        "change": -75.75,
+        "change_percent": -1.02,
         "name": "S&P 500"
       },
       {
@@ -987,18 +1000,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50704.83,
+        "price": 50761.92,
         "currency": "USD",
-        "change": -903.34,
-        "change_percent": -1.75,
+        "change": -846.25,
+        "change_percent": -1.64,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24236.37,
+        "price": 24328.38,
         "currency": "USD",
-        "change": -273.39,
-        "change_percent": -1.12,
+        "change": -181.38,
+        "change_percent": -0.74,
         "name": "NASDAQ Composite"
       },
       {
@@ -1029,26 +1042,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3849.0,
+        "price": 3848.6,
         "currency": "USD",
-        "change": -4.0,
-        "change_percent": -0.1,
+        "change": -4.4,
+        "change_percent": -0.11,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.12,
+        "price": 47.08,
         "currency": "USD",
-        "change": 0.26,
-        "change_percent": 0.56,
+        "change": 0.22,
+        "change_percent": 0.46,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.68,
+        "price": 92.83,
         "currency": "USD",
-        "change": 0.24,
-        "change_percent": 0.26,
+        "change": 0.39,
+        "change_percent": 0.42,
         "name": "Brent Crude"
       },
       {
@@ -1064,81 +1077,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.17,
+        "change_percent": 0.15,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.35,
+        "price": 159.34,
         "currency": "JPY",
-        "change": -0.04,
+        "change": -0.05,
         "change_percent": -0.03,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 63908.9,
+        "price": 64011.07,
         "currency": "USD",
-        "change": -919.47,
-        "change_percent": -1.42,
+        "change": -817.31,
+        "change_percent": -1.26,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 505.59,
+        "price": 506.24,
         "currency": "USD",
-        "change": -12.4,
-        "change_percent": -2.39,
+        "change": -11.75,
+        "change_percent": -2.27,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 350.59,
+        "price": 351.91,
         "currency": "USD",
-        "change": -2.19,
-        "change_percent": -0.62,
+        "change": -0.87,
+        "change_percent": -0.25,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 153.52,
+        "price": 155.46,
         "currency": "USD",
-        "change": -2.62,
-        "change_percent": -1.68,
+        "change": -0.68,
+        "change_percent": -0.44,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 279.92,
+        "price": 280.2,
         "currency": "USD",
-        "change": -3.8,
-        "change_percent": -1.34,
+        "change": -3.52,
+        "change_percent": -1.24,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 257.22,
+        "price": 257.89,
         "currency": "USD",
-        "change": -0.53,
-        "change_percent": -0.21,
+        "change": 0.14,
+        "change_percent": 0.05,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 379.02,
+        "price": 380.11,
         "currency": "USD",
-        "change": -0.72,
-        "change_percent": -0.19,
+        "change": 0.37,
+        "change_percent": 0.1,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 621.71,
+        "price": 618.87,
         "currency": "USD",
-        "change": -4.7,
-        "change_percent": -0.75,
+        "change": -7.54,
+        "change_percent": -1.2,
         "name": "Meta"
       }
     ]
@@ -1373,37 +1386,45 @@
   "web": {
     "tech": [
       {
-        "title": "Web Browser Engineering",
+        "title": "sudo L7: Can Coding Agents Act Like Staff Engineers?",
+        "url": "https://surgehq.ai/blog/sudo-l7",
+        "comments_url": "https://lobste.rs/s/qzwhjw/sudo_l7_can_coding_agents_act_like_staff",
+        "score": 0,
+        "source": "Lobste.rs",
+        "published": "2026-11-17T20:32:07.165000+00:00"
+      },
+      {
+        "title": "Web Browser Engineering (2021)",
         "url": "https://browser.engineering/",
-        "score": 16,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-17T20:01:35+00:00"
       },
       {
         "title": "jQuery 4.1.0",
         "url": "https://github.com/jquery/jquery/releases/tag/4.1.0",
-        "score": 52,
+        "score": 95,
         "source": "Hacker News",
         "published": "2026-11-17T19:50:40+00:00"
       },
       {
         "title": "350 years ago, this man discovered that light has a finite speed",
         "url": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
-        "score": 65,
+        "score": 99,
         "source": "Hacker News",
         "published": "2026-11-17T19:25:27+00:00"
       },
       {
         "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
         "url": "https://starsling.dev",
-        "score": 24,
+        "score": 27,
         "source": "Hacker News",
         "published": "2026-11-17T19:01:43+00:00"
       },
       {
         "title": "Solid 2.0",
         "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold/",
-        "score": 79,
+        "score": 108,
         "source": "Hacker News",
         "published": "2026-11-17T18:56:17+00:00"
       },
@@ -1416,23 +1437,16 @@
         "published": "2026-11-17T18:47:39.099000+00:00"
       },
       {
-        "title": "Purism Launches Librem 5 v2, a RISC-V Phone to Empower People",
-        "url": "https://puri.sm/posts/purism-launches-librem-5-v2-a-risc-v-phone-to-empower-people/",
-        "score": 38,
-        "source": "Hacker News",
-        "published": "2026-11-17T18:34:10+00:00"
-      },
-      {
         "title": "Phrack 73 Released",
         "url": "https://phrack.org/issues/73/introduction_md",
-        "score": 93,
+        "score": 121,
         "source": "Hacker News",
         "published": "2026-11-17T18:31:25+00:00"
       },
       {
         "title": "MAI Code 2 and Code 2 Flash",
         "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
-        "score": 142,
+        "score": 171,
         "source": "Hacker News",
         "published": "2026-11-17T18:25:13+00:00"
       },
@@ -1447,21 +1461,21 @@
       {
         "title": "Apple Services Down",
         "url": "https://developer.apple.com/system-status/",
-        "score": 428,
+        "score": 473,
         "source": "Hacker News",
         "published": "2026-11-17T17:47:14+00:00"
       },
       {
         "title": "GPT‑6.2 Astra and Sol",
         "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-        "score": 722,
+        "score": 786,
         "source": "Hacker News",
         "published": "2026-11-17T17:46:43+00:00"
       },
       {
         "title": "Who Builds the Machines That Build the Machines?",
         "url": "https://read.corematter.com/p/section-232-us-machine-tools",
-        "score": 48,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-17T17:45:39+00:00"
       },
@@ -1469,7 +1483,7 @@
         "title": "Phrack 73",
         "url": "https://phrack.org/issues/73/introduction_md.html",
         "comments_url": "https://lobste.rs/s/xu4ajj/phrack_73",
-        "score": 11,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-17T17:40:32.622000+00:00"
       },
@@ -1477,7 +1491,7 @@
         "title": "Making Games in Go: Entity Component System (ECS)",
         "url": "https://threedots.tech/post/making-games-in-go-ecs/",
         "comments_url": "https://lobste.rs/s/zoarxd/making_games_go_entity_component_system",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-17T17:18:53.833000+00:00"
       }

@@ -1,138 +1,138 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T08:30:58.336370+00:00",
+  "last_updated": "2026-11-17T08:31:32.094307+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 238
+      "ms": 164
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 173
+      "ms": 344
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 232
+      "ms": 163
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 143
+      "ms": 260
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 175
+      "ms": 137
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 316
+      "ms": 277
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 444
+      "ms": 206
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 405
+      "ms": 377
     },
     "Euronews": {
       "ok": true,
       "count": 39,
       "error": null,
-      "ms": 100
+      "ms": 53
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 474
+      "ms": 92
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 375
+      "ms": 493
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 331
+      "ms": 361
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 130
+      "ms": 107
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 518
+      "ms": 249
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 452
+      "ms": 263
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 288
+      "ms": 205
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 654
+      "ms": 827
     },
     "Semafor": {
       "ok": true,
       "count": 232,
       "error": null,
-      "ms": 455
+      "ms": 907
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 731
+      "ms": 535
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 301
+      "ms": 283
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 80
+      "ms": 382
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 193
+      "ms": 238
     },
     "The Independent": {
       "ok": true,
@@ -144,7 +144,7 @@
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 297
+      "ms": 223
     }
   },
   "breaking": [
@@ -212,7 +212,7 @@
         {
           "source": "France24",
           "url": "https://www.france24.com/en/asia-pacific/20261117-macron-malaysia-france-defence-rare-earths-trade-energy",
-          "title": "Macron visits Malaysia as France seeks closer defence and rare earths ties",
+          "title": "Macron visits Malaysia as France seeks closer defence, rare earths ties",
           "published": "2026-11-17T03:40:31+00:00"
         }
       ],
@@ -451,6 +451,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+      "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T01:26:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-warns-he-may-not-return-alive-seeks-medical-treatment-for-himself-wife/article71708296.ece",
+          "title": "Former Pakistan PM Imran Khan warns he may not 'return alive', seeks medical treatment for himself, wife",
+          "published": "2026-11-16T13:50:38+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/pakistan-ex-pm-imran-khan-appeals-for-urgent-medical-help-says-he-may-not-return-alive",
+          "title": "Pakistan ex-PM Imran Khan appeals for urgent medical help, says he 'may not return alive'",
+          "published": "2026-11-16T12:39:43+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
       "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
       "source": "Straits Times",
@@ -544,22 +566,6 @@
           "url": "https://www.france24.com/en/uefa-backs-france-s-diallo-to-stand-against-infantino-in-fifa-election",
           "title": "UEFA backs France's Diallo to stand against Infantino in FIFA election",
           "published": "2026-11-16T19:40:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-      "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T01:26:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-warns-he-may-not-return-alive-seeks-medical-treatment-for-himself-wife/article71708296.ece",
-          "title": "Former Pakistan PM Imran Khan warns he may not 'return alive', seeks medical treatment for himself, wife",
-          "published": "2026-11-16T13:50:38+00:00"
         }
       ],
       "consensus": 2.5
@@ -843,22 +849,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Pakistan’s jailed ex-leader Imran Khan appeals for urgent medical care",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3374647/pakistans-jailed-ex-leader-imran-khan-appeals-urgent-medical-care",
-      "source": "SCMP",
-      "published": "2026-11-16T17:50:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/pakistan-ex-pm-imran-khan-appeals-for-urgent-medical-help-says-he-may-not-return-alive",
-          "title": "Pakistan ex-PM Imran Khan appeals for urgent medical help, says he 'may not return alive'",
-          "published": "2026-11-16T12:39:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Trump says he might meet with North Korea's Kim Jong Un in China",
       "url": "https://www.channelnewsasia.com/world/trump-says-he-might-meet-north-koreas-kim-jong-un-in-china-6556341",
       "source": "CNA",
@@ -980,6 +970,15 @@
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
+    },
+    {
+      "title": "Head of China’s Baidu warns of AI ‘bubble’ ahead of APEC talks",
+      "url": "https://www.thehindu.com/news/international/head-of-chinas-baidu-warns-of-ai-bubble-ahead-of-apec-talks/article71710928.ece",
+      "source": "The Hindu",
+      "published": "2026-11-17T08:15:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -993,10 +992,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 139.62,
+      "price": 139.59,
       "currency": "GBP",
-      "change": -1.46,
-      "change_percent": -1.03,
+      "change": -1.49,
+      "change_percent": -1.06,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1009,10 +1008,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10805.2,
+      "price": 10804.38,
       "currency": "GBP",
-      "change": -76.35,
-      "change_percent": -0.7,
+      "change": -77.17,
+      "change_percent": -0.71,
       "name": "FTSE 100"
     }
   ],
@@ -1028,10 +1027,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10805.2,
+        "price": 10804.38,
         "currency": "GBP",
-        "change": -76.35,
-        "change_percent": -0.7,
+        "change": -77.17,
+        "change_percent": -0.71,
         "name": "FTSE 100"
       },
       {
@@ -1060,44 +1059,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 26379.75,
+        "price": 26380.27,
         "currency": "EUR",
-        "change": -218.89,
+        "change": -218.37,
         "change_percent": -0.82,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8315.26,
+        "price": 8310.84,
         "currency": "EUR",
-        "change": -36.74,
-        "change_percent": -0.44,
+        "change": -41.16,
+        "change_percent": -0.49,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3868.0,
+        "price": 3869.2,
         "currency": "USD",
-        "change": 15.0,
-        "change_percent": 0.39,
+        "change": 16.2,
+        "change_percent": 0.42,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.4,
+        "price": 47.42,
         "currency": "USD",
-        "change": 0.54,
-        "change_percent": 1.14,
+        "change": 0.56,
+        "change_percent": 1.2,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.04,
+        "price": 92.06,
         "currency": "USD",
-        "change": -0.4,
-        "change_percent": -0.43,
+        "change": -0.38,
+        "change_percent": -0.41,
         "name": "Brent Crude"
       },
       {
@@ -1120,16 +1119,16 @@
         "symbol": "JPY=X",
         "price": 159.2,
         "currency": "JPY",
-        "change": -0.19,
+        "change": -0.2,
         "change_percent": -0.12,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64357.19,
+        "price": 64310.03,
         "currency": "USD",
-        "change": -471.18,
-        "change_percent": -0.73,
+        "change": -518.35,
+        "change_percent": -0.8,
         "name": "Bitcoin"
       }
     ],
@@ -1476,7 +1475,7 @@
         "title": "Improving the Wii U's Wii Mode",
         "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
         "comments_url": "https://lobste.rs/s/sz6o8w/improving_wii_u_s_wii_mode",
-        "score": 26,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-16T22:39:54.319000+00:00"
       },

@@ -1,187 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-17T05:30:56.970779+00:00",
+  "last_updated": "2026-11-17T06:00:58.892308+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 471
+      "ms": 200
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 415
+      "ms": 239
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 277
+      "ms": 264
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 1079
+      "ms": 302
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1104
+      "ms": 175
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1083
+      "ms": 418
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 1710
+      "ms": 516
     },
     "El País": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 909
+      "ms": 314
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3737
+      "ok": true,
+      "count": 40,
+      "error": null,
+      "ms": 181
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 252
+      "ms": 196
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 808
+      "ms": 839
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 1070
+      "ms": 293
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 163
+      "ms": 169
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 380
+      "ms": 165
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 1056
+      "ms": 194
     },
     "RNZ": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 1872
+      "ms": 341
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 839
+      "ms": 527
     },
     "Semafor": {
       "ok": true,
       "count": 232,
       "error": null,
-      "ms": 871
+      "ms": 391
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1029
+      "ms": 639
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 1194
+      "ms": 359
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 453
+      "ms": 98
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 147
+      "ms": 138
     },
     "The Independent": {
       "ok": true,
       "count": 65,
       "error": null,
-      "ms": 580
+      "ms": 140
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 397
+      "ms": 171
     }
   },
   "breaking": [
-    {
-      "title": "Ukraine hits Crimea Bridge halting traffic on key crossing to Russia",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-crimea-bridge-drone-strike-kerch-russia-putin-b3086104.html",
-      "source": "The Independent",
-      "published": "2026-11-17T02:40:55+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
-          "title": "Ukraine hits key Crimea bridge with drones",
-          "published": "2026-11-16T23:13:06+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
-          "title": "Ukraine hits Kerch bridge between Russia and occupied Crimea",
-          "published": "2026-11-16T12:45:09+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage-6554831",
-          "title": "Ukraine hits Russia's Crimea bridge in 1,300-drone barrage",
-          "published": "2026-11-16T09:24:00+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece",
-          "title": "Ukraine hits Russia's Crimea bridge in 1,300-drone barrage",
-          "published": "2026-11-16T09:12:33+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Robert Pattinson as James Bond throws out the 007 playbook",
       "url": "https://www.abc.net.au/news/2026-11-17/how-robert-pattinson-went-from-twilight-to-james-bond/107393970",
@@ -205,26 +171,20 @@
       "consensus": 4.0
     },
     {
-      "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
-      "source": "SCMP",
-      "published": "2026-11-17T02:32:44+00:00",
-      "score": 3,
+      "title": "The Red Crabs of Christmas Island",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-17T05:08:08+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
-          "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
-          "published": "2026-11-16T23:37:27+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
-          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
-          "published": "2026-11-16T21:13:02+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/16/millions-of-red-crabs-begin-annual-migration-on-australias-christmas-island",
+          "title": "Millions of red crabs begin annual migration on Australia’s Christmas Island",
+          "published": "2026-11-16T11:18:41+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "What to know about the online banking delays affecting major US banks",
@@ -252,24 +212,8 @@
         {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/france-malaysia-eye-defence-rare-earths-cooperation-during-macron-visit-to-kuala-lumpur",
-          "title": "France, Malaysia eye defence, rare earths cooperation during Macron visit to Kuala Lumpur",
+          "title": "Malaysia and France upgrade ties, strengthen cooperation in defence and rare earths",
           "published": "2026-11-17T03:19:48+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
-      "url": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T02:52:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/11/17/tech/us-china-nvidia-ai-chips/",
-          "title": "U.S. moves to curb China’s remote access to Nvidia’s AI chips",
-          "published": "2026-11-16T23:20:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -305,6 +249,24 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Number of Hong Kong students in US down 27% over past 10 years",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3374698/number-hong-kong-students-us-down-27-over-past-10-years",
+      "source": "SCMP",
+      "published": "2026-11-17T05:59:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
+      "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T05:57:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -335,6 +297,34 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "Ukraine hits Crimea Bridge halting traffic on key crossing to Russia",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-crimea-bridge-drone-strike-kerch-russia-putin-b3086104.html",
+      "source": "The Independent",
+      "published": "2026-11-17T02:40:55+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261116-ukraine-hits-key-crimea-bridge-with-drones",
+          "title": "Ukraine hits key Crimea bridge with drones",
+          "published": "2026-11-16T23:13:06+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/16/ukraine-drone-kerch-bridge-russia-occupied-crimea",
+          "title": "Ukraine hits Kerch bridge between Russia and occupied Crimea",
+          "published": "2026-11-16T12:45:09+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/ukraine-hits-russias-crimea-bridge-in-1300-drone-barrage/article71707251.ece",
+          "title": "Ukraine hits Russia's Crimea bridge in 1,300-drone barrage",
+          "published": "2026-11-16T09:12:33+00:00"
+        }
+      ],
+      "consensus": 4.5
     },
     {
       "title": "'I have been found guilty': French actor Gérard Depardieu withdraws appeal of sexual assault conviction",
@@ -453,6 +443,50 @@
       "consensus": 4.0
     },
     {
+      "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3374663/third-us-aircraft-carrier-reaches-middle-east-trump-weighs-iran-options",
+      "source": "SCMP",
+      "published": "2026-11-17T02:32:44+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-war-jd-vance-trump-aircraft-carrier-middle-east-b3085980.html",
+          "title": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
+          "published": "2026-11-16T23:37:27+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/16/aircraft-middle-east-trump-military",
+          "title": "Third US aircraft carrier brings thousands more troops to Middle East",
+          "published": "2026-11-16T21:13:02+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
+      "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
+      "source": "Straits Times",
+      "published": "2026-11-16T21:54:50+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
+          "title": "Putin could meet North Korea’s Kim if he also heads to China for Apec summit",
+          "published": "2026-11-16T21:34:56+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/trump-says-he-could-meet-with-north-korean-leader-kim-jong-un-in-china",
+          "title": "Trump says he could meet with North Korean leader Kim Jong-un in China",
+          "published": "2026-11-16T15:53:58+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Trump says 'would not mind' Huang being reinstated at Nvidia",
       "url": "https://www.channelnewsasia.com/world/trump-says-would-not-mind-huang-being-reinstated-nvidia-6556746",
       "source": "CNA",
@@ -497,23 +531,45 @@
       "consensus": 3.5
     },
     {
-      "title": "Estonia to close Russia border crossings after attempted drone factory arson attack",
-      "url": "https://www.bbc.co.uk/news/articles/cqp83nk673reo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-16T14:22:36+00:00",
+      "title": "Robert Pattinson: British actor will be the next James Bond",
+      "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
+      "source": "France24",
+      "published": "2026-11-16T16:39:36+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/16/estonia-to-close-border-crossings-with-russia-after-foiled-sabotage-attempt-a94269",
-          "title": "Estonia to Close Border Crossings With Russia After Foiled Sabotage Attempt",
-          "published": "2026-11-16T10:44:32+00:00"
+          "source": "El País",
+          "url": "https://english.elpais.com/culture/2026-11-16/robert-pattinson-chosen-be-the-next-james-bond.html",
+          "title": "Robert Pattinson lands role as the next James Bond",
+          "published": "2026-11-16T16:23:58+00:00"
         },
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/estonia-to-close-russian-border-crossings-after-attempted-arson-attack/article71706831.ece",
-          "title": "Estonia to close Russian border crossings after attempted arson attack",
-          "published": "2026-11-16T05:52:02+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3374641/robert-pattinson-named-7th-james-bond-taking-over-daniel-craig",
+          "title": "Robert Pattinson named next James Bond after Daniel Craig",
+          "published": "2026-11-16T16:19:54+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Australian MP Helen Haines leaves hospital after losing both legs in car attack",
+      "url": "https://www.cbc.ca/news/world/helen-haines-australia-mp-9.7423190?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-16T11:19:54+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-leaves-hospital-car-attack-b3085393.html",
+          "title": "Australian lawmaker Helen Haines leaves hospital nearly a month after car-ramming attack",
+          "published": "2026-11-16T07:18:37+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/australian-mp-helen-haines-leaves-hospital-after-losing-both-legs-in-alleged-car-attack",
+          "title": "Australian MP Helen Haines leaves hospital after losing both legs in alleged car attack",
+          "published": "2026-11-16T06:42:33+00:00"
         }
       ],
       "consensus": 3.5
@@ -530,6 +586,22 @@
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss",
           "title": "Trump departs for ASEAN on summit with Xi and Putin",
           "published": "2026-11-16T23:42:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+      "url": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-17T01:26:01+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-warns-he-may-not-return-alive-seeks-medical-treatment-for-himself-wife/article71708296.ece",
+          "title": "Former Pakistan PM Imran Khan warns he may not 'return alive', seeks medical treatment for himself, wife",
+          "published": "2026-11-16T13:50:38+00:00"
         }
       ],
       "consensus": 2.5
@@ -615,6 +687,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Israeli opposition chiefs denounce Netanyahu over ‘attempted coup’",
+      "url": "https://www.thehindu.com/news/international/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup/article71709115.ece",
+      "source": "The Hindu",
+      "published": "2026-11-16T16:35:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/israeli-opposition-chiefs-denounce-netanyahu-over-attempted-coup",
+          "title": "Israeli opposition chiefs denounce Netanyahu over 'attempted coup'",
+          "published": "2026-11-16T08:58:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
+      "url": "https://www.scmp.com/news/us/article/3374640/trump-floats-kim-meeting-china-says-hell-discuss-ukraine-xi-and-putin",
+      "source": "SCMP",
+      "published": "2026-11-16T16:08:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/14/trump-xi-and-putin-to-meet-in-china-white-house-says",
+          "title": "Trump, Xi and Putin to meet in China, White House says",
+          "published": "2026-11-14T09:00:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "EU accuses Russia of stalling Ukraine peace talks to target power plants as winter nears",
       "url": "https://www.thehindu.com/news/international/eu-accuses-russia-of-stalling-ukraine-peace-talks-to-target-power-plants-as-winter-nears/article71707737.ece",
       "source": "The Hindu",
@@ -631,28 +735,18 @@
       "consensus": 2.5
     },
     {
-      "title": "Australian MP Helen Haines leaves hospital after losing both legs in car attack",
-      "url": "https://www.cbc.ca/news/world/helen-haines-australia-mp-9.7423190?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-16T11:19:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/australasia/helen-haines-leaves-hospital-car-attack-b3085393.html",
-          "title": "Australian lawmaker Helen Haines leaves hospital nearly a month after car-ramming attack",
-          "published": "2026-11-16T07:18:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Neves wins second term as Cape Verde's president: provisional results",
       "url": "https://www.rfi.fr/en/africa/20261116-neves-wins-second-term-as-cape-verde-s-president-provisional-results",
       "source": "RFI English",
       "published": "2026-11-16T08:24:09+00:00",
-      "score": 2,
+      "score": 3,
       "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/15/cape-verde-heads-to-the-polls-in-presidential-election",
+          "title": "Cape Verde's President José Maria Neves re-elected, provisional election results show",
+          "published": "2026-11-15T09:45:23+00:00"
+        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/13/cape-verde-presidential-election-neves-seeks-second-term/",
@@ -695,6 +789,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Airlines expect to return to full schedules by Sunday night after US nationwide ground stop, FAA says",
+      "url": "https://www.euronews.com/2026/11/14/passengers-continue-to-face-delays-and-cancellations-after-us-lifts-nationwide-ground-stop",
+      "source": "Euronews",
+      "published": "2026-11-14T06:56:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
+          "title": "FAA lifts rare nationwide ground stop",
+          "published": "2026-11-14T02:06:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Japan scrambles fighters after suspected Russian military planes enter airspace",
       "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/russia-japan-airspace-violation-defense/",
       "source": "Japan Times",
@@ -704,7 +814,7 @@
         {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/east-asia/japan-scrambles-jets-after-two-suspected-russian-aircraft-enter-airspace",
-          "title": "Japan scrambles jets after two suspected Russian aircraft enter airspace",
+          "title": "Japan scrambles jets after suspected Russian planes enter airspace",
           "published": "2026-11-17T02:35:50+00:00"
         }
       ],
@@ -727,17 +837,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Russia's Putin could meet North Korean leader if he also comes to APEC summit, Interfax quotes Kremlin",
-      "url": "https://www.straitstimes.com/asia/russias-putin-could-meet-north-korean-leader-if-he-also-comes-to-apec-summit-interfax-quotes-kremlin",
-      "source": "Straits Times",
-      "published": "2026-11-16T21:54:50+00:00",
+      "title": "California sues OpenAI over Hugging Face attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-16T23:12:24+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/china/diplomacy/article/3374652/putin-could-meet-north-koreas-kim-if-he-also-heads-china-apec-summit",
-          "title": "Putin could meet North Korea’s Kim if he also heads to China for Apec summit",
-          "published": "2026-11-16T21:34:56+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261116-rogue-ai-california-sues-openai-over-hugging-face-and-other-cyberattacks",
+          "title": "Rogue AI: California sues OpenAI over \"Hugging Face\" and other cyberattacks",
+          "published": "2026-11-16T21:27:15+00:00"
         }
       ],
       "consensus": 2.0
@@ -754,22 +864,6 @@
           "url": "https://www.straitstimes.com/asia/pakistan-ex-pm-imran-khan-appeals-for-urgent-medical-help-says-he-may-not-return-alive",
           "title": "Pakistan ex-PM Imran Khan appeals for urgent medical help, says he 'may not return alive'",
           "published": "2026-11-16T12:39:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Robert Pattinson: British actor will be the next James Bond",
-      "url": "https://www.france24.com/en/video/20261116-robert-pattinson-british-actor-will-be-the-next-james-bond",
-      "source": "France24",
-      "published": "2026-11-16T16:39:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/culture/2026-11-16/robert-pattinson-chosen-be-the-next-james-bond.html",
-          "title": "Robert Pattinson lands role as the next James Bond",
-          "published": "2026-11-16T16:23:58+00:00"
         }
       ],
       "consensus": 2.0
@@ -823,109 +917,90 @@
       "consensus": 2.0
     },
     {
-      "title": "Papua New Guinea's prime minister says Taiwan does not operate there anymore",
-      "url": "https://www.straitstimes.com/asia/papua-new-guineas-prime-minister-says-taiwan-does-not-operate-there-anymore",
-      "source": "Straits Times",
-      "published": "2026-11-17T05:29:51+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "US airports slowly return to normal after three days of disruption",
+      "url": "http://www.africanews.com/2026/11/16/us-airports-slowly-return-to-normal-after-three-days-of-disruption/",
+      "source": "Africanews",
+      "published": "2026-11-16T16:36:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/16/us-airports-slowly-return-to-normal-after-three-days-of-disruption-caused-by-take-off-ban",
+          "title": "US airports slowly return to normal after three days of disruption caused by take-off ban",
+          "published": "2026-11-16T12:11:16+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Teen shot dead after stabbing stranger 'very much enjoyed' extremist content",
-      "url": "https://www.abc.net.au/news/2026-11-17/james-hollands-enjoyed-extremist-content-inquest-told/107395226",
-      "source": "ABC Australia",
-      "published": "2026-11-17T05:19:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Nearly 2,200 migrants arrive in Canary Islands over course of two days",
+      "url": "http://www.africanews.com/2026/11/16/nearly-2200-migrants-arrive-in-canary-islands-over-course-of-two-days/",
+      "source": "Africanews",
+      "published": "2026-11-16T08:53:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/16/more-than-2000-migrants-arrive-in-spains-canary-islands-in-two-days",
+          "title": "More than 2,000 migrants arrive in Spain’s Canary Islands in two days",
+          "published": "2026-11-16T07:10:36+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Takaichi and ASEAN leaders agree to boost energy and supply chain cooperation",
-      "url": "https://www.japantimes.co.jp/news/2026/11/17/japan/politics/takaichi-asean-summits-economy/",
-      "source": "Japan Times",
-      "published": "2026-11-17T05:17:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "UK: London's Santa School trains Father Christmas performers for 2026",
+      "url": "http://www.africanews.com/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026/",
+      "source": "Africanews",
+      "published": "2026-11-15T17:13:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/15/uk-londons-santa-school-trains-father-christmas-performers-for-2026",
+          "title": "UK: London's Santa School trains Father Christmas performers for 2026",
+          "published": "2026-11-15T17:13:11+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "ASEAN Summit LIVE updates: PM Modi to participate in ASEAN-India Summit; Quad meeting likely after Trump arrives",
-      "url": "https://www.thehindu.com/news/international/asean-india-summit-manila-november-2026-quad-live-updates-pm-modi-trump-meeting-latest-news/article71710382.ece",
-      "source": "The Hindu",
-      "published": "2026-11-17T05:16:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
+      "url": "http://www.africanews.com/2026/11/13/uk-christmas-at-kew-2026-unveils-spectacular-light-trail-in-london/",
+      "source": "Africanews",
+      "published": "2026-11-13T14:46:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/13/uk-christmas-at-kew-2026-unveils-spectacular-light-trail-in-london",
+          "title": "UK: Christmas at Kew 2026 unveils spectacular light trail in London",
+          "published": "2026-11-13T14:46:52+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Malaysia arrests man who mistook teen girl for mouse deer and shot her",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374691/malaysia-arrests-man-who-mistook-teen-girl-mouse-deer-and-shot-her",
-      "source": "SCMP",
-      "published": "2026-11-17T05:11:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "North Macedonia: Kriva Palanka seeks help over 1,000 free-roaming cows",
+      "url": "http://www.africanews.com/2026/11/13/north-macedonia-kriva-palanka-seeks-help-over-1000-free-roaming-cows/",
+      "source": "Africanews",
+      "published": "2026-11-13T14:04:19+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/13/north-macedonia-kriva-palanka-seeks-help-over-1000-free-roaming-cows",
+          "title": "North Macedonia: Kriva Palanka seeks help over 1,000 free-roaming cows",
+          "published": "2026-11-13T14:04:11+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Japan may revise loan guarantee rules to secure funds for U.S. investments",
-      "url": "https://www.japantimes.co.jp/business/2026/11/17/economy/japan-nexi-loan-easing/",
-      "source": "Japan Times",
-      "published": "2026-11-17T05:11:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US presses UN agency over Taiwan flight restrictions, China hits back",
-      "url": "https://www.straitstimes.com/asia/us-presses-un-agency-over-taiwan-flight-restrictions-china-hits-back",
-      "source": "Straits Times",
-      "published": "2026-11-17T05:09:48+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Missing swimmer's whānau 'truly grateful for the aroha that has surrounded' them as search continues",
-      "url": "https://www.rnz.co.nz/news/community/2642103/missing-swimmer-s-whanau-truly-grateful-for-the-aroha-that-has-surrounded-them-as-search-continues",
-      "source": "RNZ",
-      "published": "2026-11-17T05:08:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US airbase Kadena gets F-15EX fighters but no upper hand against China, analysts say",
-      "url": "https://www.scmp.com/news/china/military/article/3374690/us-airbase-kadena-gets-f-15ex-fighters-no-upper-hand-against-china-analysts-say",
-      "source": "SCMP",
-      "published": "2026-11-17T05:08:21+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The Red Crabs of Christmas Island",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/the-red-crabs-of-christmas-island?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-17T05:08:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan proposes Asia oil security task force at ASEAN summit",
-      "url": "https://www.straitstimes.com/asia/se-asia/japan-proposes-asia-oil-security-task-force-at-asean-summit",
-      "source": "Straits Times",
-      "published": "2026-11-17T05:07:30+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Will the EU’s next Russia sanctions bite?",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/will-the-eus-next-russia-sanctions-bite/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-17T05:05:00+00:00",
+      "title": "US releases details of Megaspeed probe, says investigation began in 2024",
+      "url": "https://www.channelnewsasia.com/business/us-megaspeed-probe-jensen-huang-nvidia-2024-6557971",
+      "source": "CNA",
+      "published": "2026-11-17T05:56:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1001,10 +1076,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58841.17,
+        "price": 59058.3,
         "currency": "JPY",
-        "change": -820.85,
-        "change_percent": -1.38,
+        "change": -603.72,
+        "change_percent": -1.01,
         "name": "Nikkei 225"
       },
       {
@@ -1027,26 +1102,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3881.5,
+        "price": 3887.4,
         "currency": "USD",
-        "change": 28.5,
-        "change_percent": 0.74,
+        "change": 34.4,
+        "change_percent": 0.89,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 47.58,
+        "price": 47.79,
         "currency": "USD",
-        "change": 0.72,
-        "change_percent": 1.54,
+        "change": 0.93,
+        "change_percent": 1.99,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.7,
+        "price": 91.66,
         "currency": "USD",
-        "change": -0.74,
-        "change_percent": -0.8,
+        "change": -0.78,
+        "change_percent": -0.84,
         "name": "Brent Crude"
       },
       {
@@ -1054,7 +1129,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.12,
+        "change_percent": 0.15,
         "name": "EUR/USD"
       },
       {
@@ -1062,23 +1137,23 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.05,
+        "change_percent": 0.08,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.18,
+        "price": 159.09,
         "currency": "JPY",
-        "change": -0.22,
-        "change_percent": -0.14,
+        "change": -0.3,
+        "change_percent": -0.19,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 64958.06,
+        "price": 64742.21,
         "currency": "USD",
-        "change": 129.68,
-        "change_percent": 0.2,
+        "change": -86.17,
+        "change_percent": -0.13,
         "name": "Bitcoin"
       }
     ],
@@ -1371,23 +1446,16 @@
   "web": {
     "tech": [
       {
-        "title": "If an App Asks for Full Disk Access or System and App Protection Override",
-        "url": "https://support.apple.com/en-us/149699",
-        "score": 61,
-        "source": "Hacker News",
-        "published": "2026-11-17T02:17:04+00:00"
-      },
-      {
         "title": "Running coding agents without handing them my credentials",
         "url": "https://blog.antonio.cx/running-agents-with-lend",
-        "score": 77,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-17T01:18:56+00:00"
       },
       {
         "title": "Why 3dfx 1 cards had such a washed out color output?",
         "url": "https://twitter.com/id_aa_carmack/status/2122478083319992513",
-        "score": 56,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-17T00:16:24+00:00"
       },
@@ -1395,21 +1463,21 @@
         "title": "Software is breaking down at a systemic level",
         "url": "https://www.breck-mckye.com/blog/2026/11/software-is-breaking-down-at-a-systemic-level/",
         "comments_url": "https://lobste.rs/s/wifhdc/software_is_breaking_down_at_systemic",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-16T23:37:19.764000+00:00"
       },
       {
         "title": "Optimizely compromised, served malware on Zoom, GitLab",
         "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-        "score": 212,
+        "score": 233,
         "source": "Hacker News",
         "published": "2026-11-16T23:00:34+00:00"
       },
       {
         "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
         "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-        "score": 403,
+        "score": 426,
         "source": "Hacker News",
         "published": "2026-11-16T22:58:20+00:00"
       },
@@ -1417,7 +1485,7 @@
         "title": "Improving the Wii U's Wii Mode",
         "url": "https://garyodernichts.blogspot.com/2026/11/improving-wii-us-wii-mode.html",
         "comments_url": "https://lobste.rs/s/sz6o8w/improving_wii_u_s_wii_mode",
-        "score": 17,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-16T22:39:54.319000+00:00"
       },
@@ -1432,35 +1500,35 @@
       {
         "title": "BugMeNot has closed",
         "url": "https://www.bugmenot.com/",
-        "score": 422,
+        "score": 435,
         "source": "Hacker News",
         "published": "2026-11-16T21:32:17+00:00"
       },
       {
         "title": "OpenCode Browse",
         "url": "https://opencode.ai/product/browse",
-        "score": 181,
+        "score": 193,
         "source": "Hacker News",
         "published": "2026-11-16T21:20:37+00:00"
       },
       {
+        "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+        "url": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+        "score": 104,
+        "source": "Hacker News",
+        "published": "2026-11-16T20:48:08+00:00"
+      },
+      {
         "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
         "url": "https://www.cs.cmu.edu/learn/",
-        "score": 1056,
+        "score": 1108,
         "source": "Hacker News",
         "published": "2026-11-16T20:43:36+00:00"
       },
       {
-        "title": "Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force",
-        "url": "https://news.ycombinator.com/item?id=50522776",
-        "score": 35,
-        "source": "Hacker News",
-        "published": "2026-11-16T20:29:48+00:00"
-      },
-      {
         "title": "Chemistry is Actually Geometry",
         "url": "https://chillphysicsenjoyer.substack.com/p/chemistry-is-actually-geometry",
-        "score": 172,
+        "score": 182,
         "source": "Hacker News",
         "published": "2026-11-16T20:22:18+00:00"
       },
@@ -1468,7 +1536,7 @@
         "title": "Where did the ACK go?",
         "url": "https://yashgarg.dev/posts/where-did-the-ack-go/",
         "comments_url": "https://lobste.rs/s/n5jtzr/where_did_ack_go",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-16T19:19:20.113000+00:00"
       },
@@ -1479,6 +1547,14 @@
         "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-16T18:17:29.216000+00:00"
+      },
+      {
+        "title": "On Leaving Swift for Rust",
+        "url": "https://www.prux.org/posts/goodbye-swift-hello-rust/",
+        "comments_url": "https://lobste.rs/s/6t3oi4/on_leaving_swift_for_rust",
+        "score": 11,
+        "source": "Lobste.rs",
+        "published": "2026-11-16T17:56:45.490000+00:00"
       }
     ],
     "reddit": [
@@ -1523,22 +1599,6 @@
         "published": "2026-11-17T03:17:25+00:00"
       },
       {
-        "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
-        "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-17T01:00:56+00:00"
-      },
-      {
-        "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
-        "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T22:20:02+00:00"
-      },
-      {
         "title": "Kids and teens both think giving trophies only to winners makes people try harder and feel more special than participation trophies. But only teens saw a dark side: nearly all predicted winners-only trophies would lead to more cheating and runners risking injury to win, a new study finds.",
         "url": "https://www.psypost.org/new-study-finds-children-and-teens-reason-differently-about-participation-trophies/",
         "comments_url": "https://www.reddit.com/r/science/comments/1xxzimw/kids_and_teens_both_think_giving_trophies_only_to/",
@@ -1553,6 +1613,22 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-17T02:29:45+00:00"
+      },
+      {
+        "title": "Elderly people are buying Teslas for the 'full self-driving.' This is a problem",
+        "url": "https://www.fastcompany.com/91641371/elderly-people-are-buying-tesla-for-full-self-driving-this-is-a-problem",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy6u6v/elderly_people_are_buying_teslas_for_the_full/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-17T01:00:56+00:00"
+      },
+      {
+        "title": "United Airlines says it has a widespread system outage just days after nationwide ground stop",
+        "url": "https://apnews.com/article/united-airlines-outage-5a5e5f75bb07f11ffb8750901f0076ff",
+        "comments_url": "https://www.reddit.com/r/technology/comments/1xy34m2/united_airlines_says_it_has_a_widespread_system/",
+        "score": null,
+        "source": "/r/technology",
+        "published": "2026-11-16T22:20:02+00:00"
       },
       {
         "title": "Jensen Huang Passed Billions in Nvidia Stock to His Heirs Months Before His Downfall",
@@ -1571,28 +1647,12 @@
         "published": "2026-11-16T12:28:17+00:00"
       },
       {
-        "title": "Why Israel Is Losing America",
-        "url": "https://www.foreignaffairs.com/israel/why-israel-losing-america",
-        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xxt514/why_israel_is_losing_america/",
+        "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+        "url": "https://www.bbc.com/news/articles/c6m25zg88k45o",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xy9hb2/zelensky_urges_us_and_musk_to_lift_starlink/",
         "score": null,
-        "source": "/r/geopolitics",
-        "published": "2026-11-16T16:02:33+00:00"
-      },
-      {
-        "title": "Chase and other major banks hit by online outages",
-        "url": "https://www.businessinsider.com/chase-other-major-banks-hit-by-online-outages-2026-11",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xxyqfz/chase_and_other_major_banks_hit_by_online_outages/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T19:31:25+00:00"
-      },
-      {
-        "title": "Users, admins report new Microsoft 365 outage with Exchange, Outlook, Excel, hit",
-        "url": "https://www.neowin.net/news/users-admins-report-new-microsoft-365-outage-with-exchange-outlook-exccel-hit/",
-        "comments_url": "https://www.reddit.com/r/technology/comments/1xy3aqe/users_admins_report_new_microsoft_365_outage_with/",
-        "score": null,
-        "source": "/r/technology",
-        "published": "2026-11-16T22:26:53+00:00"
+        "source": "/r/worldnews",
+        "published": "2026-11-17T03:07:25+00:00"
       },
       {
         "title": "Scientists who lean more on AI tools to write grant applications tend to pitch less original ideas that look more like what was funded the year before. Yet at the NIH, these AI-assisted proposals were more likely to win funding, and led to slightly more papers but not more highly cited ones.",
@@ -1601,6 +1661,22 @@
         "score": null,
         "source": "/r/science",
         "published": "2026-11-17T00:49:55+00:00"
+      },
+      {
+        "title": "Ukrainian forces reportedly strike Crimean Bridge after Russian missiles hit Kyiv bridges",
+        "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/?-v4=",
+        "comments_url": "https://www.reddit.com/r/worldnews/comments/1xy6pyt/ukrainian_forces_reportedly_strike_crimean_bridge/",
+        "score": null,
+        "source": "/r/worldnews",
+        "published": "2026-11-17T00:55:50+00:00"
+      },
+      {
+        "title": "Why Israel Is Losing America",
+        "url": "https://www.foreignaffairs.com/israel/why-israel-losing-america",
+        "comments_url": "https://www.reddit.com/r/geopolitics/comments/1xxt514/why_israel_is_losing_america/",
+        "score": null,
+        "source": "/r/geopolitics",
+        "published": "2026-11-16T16:02:33+00:00"
       }
     ]
   }

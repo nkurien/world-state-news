@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-18T14:31:06.125993+00:00",
+  "last_updated": "2026-11-18T15:01:15.265075+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 80
+      "ms": 406
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 212
+      "ms": 330
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 79
+      "ms": 78
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 37
+      "ms": 169
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 154
+      "ms": 178
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 163
+      "ms": 371
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 123
+      "ms": 713
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 222
+      "ms": 426
     },
     "Euronews": {
       "ok": true,
-      "count": 44,
+      "count": 45,
       "error": null,
-      "ms": 144
+      "ms": 65
     },
     "France24": {
-      "ok": true,
-      "count": 24,
-      "error": null,
-      "ms": 120
+      "ok": false,
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
+      "ms": 3256
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 512
+      "ms": 464
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 245
+      "ms": 5636
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 95
+      "ms": 173
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 255
+      "ms": 130
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 124
+      "ms": 263
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 79
+      "ms": 254
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 574
+      "ms": 582
     },
     "Semafor": {
       "ok": true,
       "count": 289,
       "error": null,
-      "ms": 586
+      "ms": 512
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 241
+      "ms": 518
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 172
+      "ms": 367
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 95
+      "ms": 153
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 97
+      "ms": 219
     },
     "The Independent": {
       "ok": true,
-      "count": 71,
+      "count": 68,
       "error": null,
-      "ms": 190
+      "ms": 209
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 110
+      "ms": 182
     }
   },
   "breaking": [
@@ -153,19 +153,13 @@
       "url": "https://www.independent.co.uk/asia/china/trump-xi-jinping-china-putin-summit-b3087133.html",
       "source": "The Independent",
       "published": "2026-11-18T13:40:32+00:00",
-      "score": 7,
+      "score": 6,
       "other_sources": [
         {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/18/trump-arrives-in-china-for-unprecedented-trilateral-encounter-with-xi-and-putin",
           "title": "Trump arrives in China for unprecedented trilateral encounter with Xi and Putin",
           "published": "2026-11-18T12:31:39+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261118-trump-arrives-in-china-ahead-of-trilateral-summit-with-putin-and-xi",
-          "title": "Trump arrives in China ahead of trilateral summit with Putin and Xi",
-          "published": "2026-11-18T11:46:25+00:00"
         },
         {
           "source": "Al Jazeera",
@@ -192,75 +186,13 @@
           "published": "2026-11-18T05:13:10+00:00"
         }
       ],
-      "consensus": 7.5
-    },
-    {
-      "title": "Democrat Mary Peltola wins US Senate race in Alaska",
-      "url": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-us-senate-race-in-alaska",
-      "source": "France24",
-      "published": "2026-11-18T11:55:09+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democrat-peltola-wins-in-alaska-securing-56-44-us-senate-majority/article71714710.ece",
-          "title": "Democrat Peltola wins in Alaska, securing 56-44 U.S. Senate majority",
-          "published": "2026-11-18T06:39:20+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/18/democrat-mary-peltola-unseats-republican-and-flips-us-senate-seat-in-tight-race-in-alaska",
-          "title": "Democrat Mary Peltola unseats Republican and flips US Senate seat in tight race in Alaska",
-          "published": "2026-11-18T06:18:02+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-midterms-mary-peltola-alaska-win-senate-majority-6561306",
-          "title": "Democrat Mary Peltola flips Alaska Senate seat",
-          "published": "2026-11-18T04:20:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095?cmp=rss",
-          "title": "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
-          "published": "2026-11-18T03:56:54+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Israeli parliament elects speaker backed by Netanyahu opponents",
-      "url": "https://www.france24.com/en/video/20261118-israeli-parliament-elects-speaker-backed-by-netanyahu-opponents",
-      "source": "France24",
-      "published": "2026-11-18T11:33:01+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-parliament-elects-new-knesset-speaker-backed-by-netanyahus-opponents/article71714379.ece",
-          "title": "Israeli Parliament elects new Knesset Speaker backed by Netanyahu's opponents",
-          "published": "2026-11-18T08:30:58+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/18/israeli-parliament-elects-eisenkot-ally-as-new-knesset-speaker/",
-          "title": "Israeli parliament elects Eisenkot ally as new Knesset speaker",
-          "published": "2026-11-18T07:15:37+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
-          "title": "Israeli parliament elects new speaker backed by Netanyahu’s opponents",
-          "published": "2026-11-17T22:30:17+00:00"
-        }
-      ],
-      "consensus": 5.0
+      "consensus": 6.5
     },
     {
       "title": "Apec summit live: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
       "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
       "source": "The Guardian",
-      "published": "2026-11-18T14:02:36+00:00",
+      "published": "2026-11-18T14:28:18+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -270,16 +202,16 @@
           "published": "2026-11-18T12:21:51+00:00"
         },
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261118-all-eyes-on-talks-with-putin-xi-as-trump-arrives-at-apec-summit",
-          "title": "'All eyes on talks with Putin, Xi' as Trump arrives at APEC summit",
-          "published": "2026-11-18T10:09:10+00:00"
-        },
-        {
           "source": "Deutsche Welle",
           "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-xml-mrss",
           "title": "APEC summit: What Trump, Xi and Putin want",
           "published": "2026-11-18T05:39:00+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/15/2026/trump-to-meet-xi-and-putin-in-china",
+          "title": "Trump to meet Xi and Putin in China",
+          "published": "2026-11-15T22:38:54+00:00"
         }
       ],
       "consensus": 4.5
@@ -313,34 +245,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
-      "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
-      "source": "Euronews",
-      "published": "2026-11-18T12:05:26+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261118-rubio-says-zero-information-that-us-tech-outages-are-linked",
-          "title": "Rubio says 'zero' information that US tech outages are linked",
-          "published": "2026-11-18T11:39:21+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/marco-rubio-says-zero-information-that-us-outages-are-linked-or-caused-by-a-malign-actor/article71714357.ece",
-          "title": "Marco Rubio says ‘zero’ information that U.S. outages are linked or caused by a malign actor",
-          "published": "2026-11-18T08:29:07+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-          "title": "Rubio says US not 'under systemic attack' after series of tech outages",
-          "published": "2026-11-18T04:57:06+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Iran strikes U.S. air base in Kuwait, targets Bahrain amid wider Gulf attacks",
       "url": "https://www.thehindu.com/news/international/iran-army-says-it-targeted-us-military-base-in-kuwait/article71715048.ece",
       "source": "The Hindu",
@@ -363,17 +267,77 @@
       "consensus": 4.0
     },
     {
-      "title": "Mary Peltola’s Alaska win ‘a gift for all America’, says Schumer – US politics live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
+      "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
       "source": "The Guardian",
-      "published": "2026-11-18T14:14:15+00:00",
+      "published": "2026-11-18T14:46:49+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+          "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
+          "published": "2026-11-18T12:05:26+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/marco-rubio-says-zero-information-that-us-outages-are-linked-or-caused-by-a-malign-actor/article71714357.ece",
+          "title": "Marco Rubio says ‘zero’ information that U.S. outages are linked or caused by a malign actor",
+          "published": "2026-11-18T08:29:07+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+      "url": "https://www.npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+      "source": "NPR World",
+      "published": "2026-11-18T12:14:28+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-midterms-mary-peltola-alaska-win-senate-majority-6561306",
+          "title": "Democrat Mary Peltola flips Alaska Senate seat",
+          "published": "2026-11-18T04:20:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095?cmp=rss",
+          "title": "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
+          "published": "2026-11-18T03:56:54+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
+      "url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-18T14:27:00+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters?traffic_source=rss",
-          "title": "Why Democrat Mary Peltola’s US Senate win in Alaska matters",
-          "published": "2026-11-18T09:38:50+00:00"
+          "url": "https://www.aljazeera.com/news/2026/11/18/icj-to-rule-on-rohingya-genocide-case-what-to-expect?traffic_source=rss",
+          "title": "ICJ to rule on Rohingya genocide case: What to expect",
+          "published": "2026-11-18T12:11:47+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "White House pulls Trump’s FDA nominee on eve of key Senate vote",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-heidi-overton-fda-rfk-jr-b3087172.html",
+      "source": "The Independent",
+      "published": "2026-11-18T13:35:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/white-house-pulls-overtons-fda-nomination",
+          "title": "White House pulls Overton's FDA nomination",
+          "published": "2026-11-18T09:52:55+00:00"
         }
       ],
       "consensus": 2.5
@@ -459,6 +423,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Israeli Parliament elects new Knesset Speaker backed by Netanyahu's opponents",
+      "url": "https://www.thehindu.com/news/international/israeli-parliament-elects-new-knesset-speaker-backed-by-netanyahus-opponents/article71714379.ece",
+      "source": "The Hindu",
+      "published": "2026-11-18T08:30:58+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/18/israeli-parliament-elects-eisenkot-ally-as-new-knesset-speaker/",
+          "title": "Israeli parliament elects Eisenkot ally as new Knesset speaker",
+          "published": "2026-11-18T07:15:37+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
+          "title": "Israeli parliament elects new speaker backed by Netanyahu’s opponents",
+          "published": "2026-11-17T22:30:17+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Visiting Vice City? The Kiwi gamers taking annual leave for Grand Theft Auto VI",
       "url": "https://www.rnz.co.nz/life/screens/games/visiting-vice-city-the-kiwi-gamers-taking-annual-leave-for-grand-theft-auto-vi",
       "source": "RNZ",
@@ -503,38 +489,6 @@
       "consensus": 3.5
     },
     {
-      "title": "A tarmac hug with Xi and a handshake with Putin, how Trump began his China visit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3374951/tarmac-hug-xi-and-handshake-putin-how-trump-began-his-china-visit",
-      "source": "SCMP",
-      "published": "2026-11-18T14:12:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/15/2026/trump-to-meet-xi-and-putin-in-china",
-          "title": "Trump to meet Xi and Putin in China",
-          "published": "2026-11-15T22:38:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "White House pulls Trump’s FDA nominee on eve of key Senate vote",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-heidi-overton-fda-rfk-jr-b3087172.html",
-      "source": "The Independent",
-      "published": "2026-11-18T13:35:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/white-house-pulls-overtons-fda-nomination",
-          "title": "White House pulls Overton's FDA nomination",
-          "published": "2026-11-18T09:52:55+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Returning the favour, Xi personally welcomes Trump ahead of high-stakes Apec talks",
       "url": "https://www.scmp.com/news/china/diplomacy/article/3374931/returning-favour-xi-personally-welcomes-trump-ahead-high-stakes-apec-talks",
       "source": "SCMP",
@@ -562,22 +516,6 @@
           "url": "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
           "title": "Xi Jinping greets Trump with a hug and red carpet at Shenzhen airport",
           "published": "2026-11-18T10:18:32+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "EU proposes new US$49 billion Ukraine loan for 2027",
-      "url": "https://www.scmp.com/news/world/europe/article/3374925/eu-proposes-new-us49-billion-ukraine-loan-2027",
-      "source": "SCMP",
-      "published": "2026-11-18T11:45:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261118-eu-proposes-new-%E2%82%AC45-billion-ukraine-loan-to-be-repaid-by-russia",
-          "title": "EU proposes new €45 billion Ukraine loan to be repaid by Russia",
-          "published": "2026-11-18T10:42:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -615,22 +553,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Banks, flights, email… What’s behind series of US tech outages?",
-      "url": "https://www.france24.com/en/video/20261118-banks-flights-email-what-s-behind-series-of-us-tech-outages",
-      "source": "France24",
-      "published": "2026-11-18T10:49:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/18/microsoft-flights-banks-and-now-the-nsa-a-week-of-tech-outages-in-the-us?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "Microsoft, flights, banks and now the NSA: a week of tech outages in the US",
-          "published": "2026-11-18T02:37:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
       "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -647,33 +569,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Guinea jails more than 220 people in deadly crackdown on illegal gold mining",
-      "url": "http://www.africanews.com/2026/11/17/guinea-jails-more-than-220-people-in-deadly-crackdown-on-illegal-gold-mining/",
-      "source": "Africanews",
-      "published": "2026-11-18T09:23:24+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/guinea-jails-200-in-wildcat-gold-mining-crackdown/a-79968808?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Guinea jails 200 in wildcat gold mining crackdown",
-          "published": "2026-11-17T12:30:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Myanmar-linked arsenic pollution prompts clean water scramble in Thailand",
-      "url": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss",
+      "title": "Why Democrat Mary Peltola’s US Senate win in Alaska matters",
+      "url": "https://www.aljazeera.com/news/2026/11/18/why-democrat-mary-peltolas-us-senate-win-in-alaska-matters?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-18T09:10:21+00:00",
+      "published": "2026-11-18T09:38:50+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/thailand-orders-clean-water-for-thousands-facing-arsenic-pollution",
-          "title": "Thailand orders clean water for thousands facing arsenic pollution",
-          "published": "2026-11-18T06:53:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/democrat-mary-peltola-unseats-republican-and-flips-us-senate-seat-in-tight-race-in-alaska",
+          "title": "Democrat Mary Peltola unseats Republican and flips US Senate seat in tight race in Alaska",
+          "published": "2026-11-18T06:18:02+00:00"
         }
       ],
       "consensus": 2.5
@@ -743,22 +649,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Ex-Nvidia CEO Jensen Huang acknowledges ‘mistakes,’ signals interest in return if company chooses",
-      "url": "https://www.thehindu.com/news/international/ex-nvidia-ceo-jensen-huang-acknowledges-mistakes-signals-interest-in-return-if-company-chooses/article71713348.ece",
-      "source": "The Hindu",
-      "published": "2026-11-18T00:33:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-congress-nvidia-ceo-affair-b3086532.html",
-          "title": "Ex-Nvidia CEO Jensen Huang to appear before Congress as spy scandal intensifies",
-          "published": "2026-11-17T16:02:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Jeff Bezos says he was ‘heavily involved’ in casting Robert Pattinson as James Bond",
       "url": "https://www.semafor.com/article/11/17/2026/jeff-bezos-says-he-was-heavily-involved-in-casting-robert-pattinson-as-james-bond",
       "source": "Semafor",
@@ -770,22 +660,6 @@
           "url": "https://www.channelnewsasia.com/commentary/james-bond-robert-pattinson-villain-movie-6558496",
           "title": "Commentary: Robert Pattinson is James Bond. Finding the right villain will be harder",
           "published": "2026-11-17T21:59:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US loses measles elimination status after 26 years amid record case numbers",
-      "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-17T21:04:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-loses-measles-free-states-mexico-bolivia-6560296",
-          "title": "US loses measles elimination status after nearly three decades; Mexico, Bolivia also lose designation",
-          "published": "2026-11-17T20:32:48+00:00"
         }
       ],
       "consensus": 2.5
@@ -805,38 +679,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Radio Ebola: DR Congo children fight myths over the airwaves as outbreak reaches six months",
-      "url": "https://www.independent.co.uk/news/world/africa/ebola-congo-six-months-radio-children-b3086362.html",
-      "source": "The Independent",
-      "published": "2026-11-17T14:29:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/16/congo-struggles-to-tame-ebola-outbreak-six-months-into-response/",
-          "title": "Congo struggles to tame ebola outbreak six months into response",
-          "published": "2026-11-16T15:26:35+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Turkish pro-opposition broadcaster taken off air after police raid",
-      "url": "https://www.france24.com/en/video/20261118-turkish-pro-opposition-broadcaster-taken-off-air-after-police-raid",
-      "source": "France24",
-      "published": "2026-11-18T10:51:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/17/police-raid-turkish-pro-opposition-broadcaster-sozcu-tv-carry-out-arrests",
-          "title": "Police raid Turkish pro-opposition broadcaster Sözcü TV, carry out arrests",
-          "published": "2026-11-17T07:53:59+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Philippine police file criminal complaints against Thomas Markle",
@@ -919,20 +761,121 @@
       "consensus": 2.0
     },
     {
-      "title": "Trump warns Iran over allegations of dirty bomb threat to Washington",
-      "url": "https://www.euronews.com/2026/11/17/trump-warns-iran-over-allegations-of-dirty-bomb-threat-to-washington",
+      "title": "Congressional watchdog gets AI chatbots to plan terror attacks against America in alarming test",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/ai-chatbots-terrorist-attacks-report-b3087193.html",
+      "source": "The Independent",
+      "published": "2026-11-18T14:50:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "North Korean enrichment facility extension ‘externally complete’: IAEA",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3374948/north-korean-enrichment-facility-extension-externally-complete-iaea",
+      "source": "SCMP",
+      "published": "2026-11-18T14:50:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "House Democrats begin leadership elections, with Hakeem Jeffries poised to clinch Speaker nomination – live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-18T14:47:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Burnham urges Badenoch to withdraw ‘crass’ comment defending disability cuts on grounds ‘amputees run marathons’ – UK politics live",
+      "url": "https://www.theguardian.com/politics/live/2026/nov/18/shabana-mahmood-andy-burnham-kemi-badenoch-pmqs-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-18T14:43:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘Plume’ of decomposing garbage, gas prompts emergency health order for LA county residents",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/los-angeles-landfill-explosion-housing",
+      "source": "The Guardian",
+      "published": "2026-11-18T14:40:29+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Explainer-Untangling Yemen's complex civil war",
+      "url": "https://www.straitstimes.com/asia/explainer-untangling-yemens-complex-civil-war",
+      "source": "Straits Times",
+      "published": "2026-11-18T14:40:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Strain-specific Ebola vaccines to be trialled in DRC, WHO announces",
+      "url": "https://www.rfi.fr/en/africa/20261118-strain-specific-ebola-vaccines-to-be-trialled-in-drc-who-announces",
+      "source": "RFI English",
+      "published": "2026-11-18T14:38:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "GTA 6 countdown begins as billboards go up from Tokyo to Sydney",
+      "url": "https://www.euronews.com/video/2026/11/18/gta-6-countdown-begins-as-billboards-go-up-from-tokyo-to-sydney",
       "source": "Euronews",
-      "published": "2026-11-17T16:10:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/iran-dirty-bomb-plot-washington-trump-b3086216.html",
-          "title": "Trump says US is taking alleged ‘dirty bomb’ threat seriously as Washington DC residents wonder if they are safe",
-          "published": "2026-11-17T14:43:52+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "published": "2026-11-18T14:38:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Why Qeshm island is important to Iran as Trump launches new strikes",
+      "url": "https://www.independent.co.uk/news/world/middle-east/qeshm-island-iran-war-us-trump-strikes-bahrain-b3087082.html",
+      "source": "The Independent",
+      "published": "2026-11-18T14:34:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Karoline Leavitt begs the White House to speak out on all the tech outages",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/karoline-leavitt-white-house-tech-outages-b3087129.html",
+      "source": "The Independent",
+      "published": "2026-11-18T14:32:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Pete Hegseth’s monthly Pentagon prayer service features pastor who says women shouldn’t vote",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/hegseth-pentagon-prayer-service-pastor-doug-wilson-b3087216.html",
+      "source": "The Independent",
+      "published": "2026-11-18T14:31:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "India: Online censorship grows after 'Cockroach' protests",
+      "url": "https://www.dw.com/en/india-online-censorship-grows-after-cockroach-protests/a-79976982?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-18T14:28:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
+      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+      "source": "The Guardian",
+      "published": "2026-11-18T14:27:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "Hamburg tribunal confirms it will deliver its Sea Lion order on November 28",
@@ -962,46 +905,10 @@
       "consensus": 1.0
     },
     {
-      "title": "Burnham and Badenoch clash over welfare cuts for young at PMQs – UK politics live",
-      "url": "https://www.theguardian.com/politics/live/2026/nov/18/shabana-mahmood-andy-burnham-kemi-badenoch-pmqs-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-18T14:17:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
       "title": "Slovenia Halts Tourist Visas for Russian Citizens",
       "url": "https://www.themoscowtimes.com/2026/11/18/slovenia-halts-tourist-visas-for-russian-citizens-a94301",
       "source": "The Moscow Times",
       "published": "2026-11-18T14:16:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Kyiv pleads with Trump and Xi to pressure Putin as Moscow reaches military deal with Beijing",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-trump-putin-zelensky-b3086877.html",
-      "source": "The Independent",
-      "published": "2026-11-18T14:14:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Baku, Tbilisi and Astana join forces to expand Middle Corridor as Belgian firms eye investment",
-      "url": "https://www.euronews.com/2026/11/18/baku-tbilisi-and-astana-join-forces-to-expand-middle-corridor-as-belgian-firms-eye-investm",
-      "source": "Euronews",
-      "published": "2026-11-18T14:14:22+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Labour faces double North Sea blow over fossil fuel projects",
-      "url": "https://www.theguardian.com/business/2026/nov/18/sse-threatens-to-close-yorkshire-gas-storage-site-unless-ministers-intervene",
-      "source": "The Guardian",
-      "published": "2026-11-18T14:12:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1010,34 +917,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7360.9,
+      "price": 7354.98,
       "currency": "USD",
-      "change": 20.37,
-      "change_percent": 0.28,
+      "change": 14.45,
+      "change_percent": 0.2,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.66,
+      "price": 137.98,
       "currency": "GBP",
-      "change": 0.8,
-      "change_percent": 0.58,
+      "change": 0.12,
+      "change_percent": 0.09,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 24513.44,
+      "price": 24505.75,
       "currency": "USD",
-      "change": 185.06,
-      "change_percent": 0.76,
+      "change": 177.37,
+      "change_percent": 0.73,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10636.88,
+      "price": 10614.99,
       "currency": "GBP",
-      "change": -52.99,
-      "change_percent": -0.5,
+      "change": -74.88,
+      "change_percent": -0.7,
       "name": "FTSE 100"
     }
   ],
@@ -1045,34 +952,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7360.9,
+        "price": 7354.98,
         "currency": "USD",
-        "change": 20.37,
-        "change_percent": 0.28,
+        "change": 14.45,
+        "change_percent": 0.2,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10636.88,
+        "price": 10614.99,
         "currency": "GBP",
-        "change": -52.99,
-        "change_percent": -0.5,
+        "change": -74.88,
+        "change_percent": -0.7,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50562.32,
+        "price": 50489.08,
         "currency": "USD",
-        "change": -197.1,
-        "change_percent": -0.39,
+        "change": -270.34,
+        "change_percent": -0.53,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24513.44,
+        "price": 24505.75,
         "currency": "USD",
-        "change": 185.06,
-        "change_percent": 0.76,
+        "change": 177.37,
+        "change_percent": 0.73,
         "name": "NASDAQ Composite"
       },
       {
@@ -1085,44 +992,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25934.82,
+        "price": 25907.18,
         "currency": "EUR",
-        "change": -110.55,
-        "change_percent": -0.42,
+        "change": -138.19,
+        "change_percent": -0.53,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8195.68,
+        "price": 8191.79,
         "currency": "EUR",
-        "change": -21.1,
-        "change_percent": -0.26,
+        "change": -24.99,
+        "change_percent": -0.3,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3778.9,
+        "price": 3771.9,
         "currency": "USD",
-        "change": -85.3,
-        "change_percent": -2.21,
+        "change": -92.3,
+        "change_percent": -2.39,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 45.46,
+        "price": 45.15,
         "currency": "USD",
-        "change": -1.9,
-        "change_percent": -4.01,
+        "change": -2.21,
+        "change_percent": -4.66,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.0,
+        "price": 89.04,
         "currency": "USD",
-        "change": -0.37,
-        "change_percent": -0.41,
+        "change": -1.33,
+        "change_percent": -1.47,
         "name": "Brent Crude"
       },
       {
@@ -1130,7 +1037,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.27,
+        "change_percent": -0.22,
         "name": "EUR/USD"
       },
       {
@@ -1138,81 +1045,81 @@
         "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.37,
+        "change_percent": -0.35,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.36,
+        "price": 159.24,
         "currency": "JPY",
-        "change": -0.04,
-        "change_percent": -0.03,
+        "change": -0.16,
+        "change_percent": -0.1,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 63958.58,
+        "price": 63740.89,
         "currency": "USD",
-        "change": -917.22,
-        "change_percent": -1.41,
+        "change": -1134.92,
+        "change_percent": -1.75,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 507.81,
+        "price": 505.93,
         "currency": "USD",
-        "change": 1.57,
-        "change_percent": 0.31,
+        "change": -0.31,
+        "change_percent": -0.06,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 352.35,
+        "price": 355.76,
         "currency": "USD",
-        "change": 0.44,
-        "change_percent": 0.13,
+        "change": 3.85,
+        "change_percent": 1.09,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 158.01,
+        "price": 154.83,
         "currency": "USD",
-        "change": 2.55,
-        "change_percent": 1.64,
+        "change": -0.63,
+        "change_percent": -0.41,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 283.0,
+        "price": 284.02,
         "currency": "USD",
-        "change": 2.8,
-        "change_percent": 1.0,
+        "change": 3.82,
+        "change_percent": 1.37,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 261.12,
+        "price": 264.06,
         "currency": "USD",
-        "change": 3.23,
-        "change_percent": 1.25,
+        "change": 6.18,
+        "change_percent": 2.39,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 386.71,
+        "price": 385.65,
         "currency": "USD",
-        "change": 6.6,
-        "change_percent": 1.74,
+        "change": 5.54,
+        "change_percent": 1.46,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 617.51,
+        "price": 619.34,
         "currency": "USD",
-        "change": -1.36,
-        "change_percent": -0.22,
+        "change": 0.47,
+        "change_percent": 0.08,
         "name": "Meta"
       }
     ]
@@ -1324,6 +1231,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "UK plans to resist EU request to match tariffs on Chinese goods",
+          "url": "https://www.ft.com/content/6b278daf-6fdf-4951-af8a-227f25c4e0b7?syn-25a6b1a6=1",
+          "published": "2026-11-18T14:52:49+00:00",
+          "snippet": "Move reduces chance Britain will be able to access subsidies and contracts under ‘Made in Europe’ rules"
+        },
+        {
           "title": "Ukraine’s ‘flying modems’ helped take down Putin’s bridge",
           "url": "https://www.ft.com/content/65c5684a-f532-4601-9878-8fa2efe8d8f8?syn-25a6b1a6=1",
           "published": "2026-11-18T14:12:43+00:00",
@@ -1333,13 +1246,7 @@
           "title": "Behind the Deutsche Bank investigation. You asked, we answered",
           "url": "https://www.ft.com/deutsche-q&a?syn-25a6b1a6=1",
           "published": "2026-11-18T13:24:59+00:00",
-          "snippet": "Dan McCrum, FT investigative reporter and Olaf Storbeck, Frankfurt bureau chief reveal replied to questions on how the story was uncovered"
-        },
-        {
-          "title": "Xi greets Trump with hug ahead of historic summit with Putin",
-          "url": "https://www.ft.com/content/ae7d1b27-b892-48d6-ad47-41128a4b53a1?syn-25a6b1a6=1",
-          "published": "2026-11-18T13:09:53+00:00",
-          "snippet": "US and Chinese leaders to meet Russia’s Vladimir Putin to cap week of high-profile diplomacy"
+          "snippet": "Dan McCrum, FT investigative reporter and Olaf Storbeck, Frankfurt bureau chief replied to questions on how the story was uncovered"
         }
       ]
     },
@@ -1447,24 +1354,47 @@
   "web": {
     "tech": [
       {
+        "title": "For the things we can only do together - Bonfire 1.1 Release",
+        "url": "https://bonfirenetworks.org/posts/for-the-things-we-can-only-do-together/",
+        "comments_url": "https://lobste.rs/s/4j15up/for_things_we_can_only_do_together_bonfire",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-18T14:58:05.376000+00:00"
+      },
+      {
+        "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+        "url": "https://energy-based-reasoners.github.io/",
+        "comments_url": "https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-18T14:45:20.832000+00:00"
+      },
+      {
+        "title": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
+        "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+        "score": 20,
+        "source": "Hacker News",
+        "published": "2026-11-18T14:43:52+00:00"
+      },
+      {
         "title": "Java4Shell is a reason to use Java",
         "url": "https://mccue.dev/pages/11-18-26-java4shell",
         "comments_url": "https://lobste.rs/s/a1uff5/java4shell_is_reason_use_java",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-18T14:21:42.798000+00:00"
       },
       {
         "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
         "url": "https://www.sas.upenn.edu/~jesusfv/Peer_Review.pdf",
-        "score": 21,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-18T13:51:03+00:00"
       },
       {
         "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
         "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-        "score": 126,
+        "score": 170,
         "source": "Hacker News",
         "published": "2026-11-18T13:18:02+00:00"
       },
@@ -1472,7 +1402,7 @@
         "title": "Windows 11 collects data on which coding agents and dev tools you use",
         "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
         "comments_url": "https://lobste.rs/s/cwxmdw/windows_11_collects_data_on_which_coding",
-        "score": 11,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-18T11:57:46.756000+00:00"
       },
@@ -1480,21 +1410,21 @@
         "title": "Solid 2.0",
         "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold",
         "comments_url": "https://lobste.rs/s/dpvrbv/solid_2_0",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-18T11:21:43.807000+00:00"
       },
       {
         "title": "Show HN: Type Fighter 2",
         "url": "https://typefighter2.com/",
-        "score": 30,
+        "score": 43,
         "source": "Hacker News",
         "published": "2026-11-18T11:11:53+00:00"
       },
       {
         "title": "Energy-Based Reasoners: 385x more efficient inference",
         "url": "https://energy-based-reasoners.github.io/",
-        "score": 181,
+        "score": 197,
         "source": "Hacker News",
         "published": "2026-11-18T09:29:32+00:00"
       },
@@ -1502,7 +1432,7 @@
         "title": "Codeberg's domain suddenly disappeared from their account, site is unreachable",
         "url": "https://social.anoxinon.de/@Codeberg/117636454915265360",
         "comments_url": "https://lobste.rs/s/spmgsd/codeberg_s_domain_suddenly_disappeared",
-        "score": 108,
+        "score": 119,
         "source": "Lobste.rs",
         "published": "2026-11-18T08:51:09.576000+00:00"
       },
@@ -1525,7 +1455,7 @@
       {
         "title": "Why is Gemini 4 Carbon taking so long?",
         "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
-        "score": 191,
+        "score": 201,
         "source": "Hacker News",
         "published": "2026-11-18T04:14:04+00:00"
       },
@@ -1536,28 +1466,6 @@
         "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-18T02:54:59.376000+00:00"
-      },
-      {
-        "title": "ID.me terms required for IRS sign-in",
-        "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-        "score": 414,
-        "source": "Hacker News",
-        "published": "2026-11-18T00:51:45+00:00"
-      },
-      {
-        "title": "Google's AI answers reducing search traffic by 40%",
-        "url": "https://revscope.co/blog/search-seo-geo-2026/",
-        "score": 568,
-        "source": "Hacker News",
-        "published": "2026-11-18T00:17:58+00:00"
-      },
-      {
-        "title": "jQuery 4.1.0 Released",
-        "url": "https://blog.jquery.com/2026/11/17/jquery-4-1-0-and-3-8-0-released-passing-the-torch/",
-        "comments_url": "https://lobste.rs/s/tp2qnr/jquery_4_1_0_released",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-18T00:17:39.353000+00:00"
       }
     ],
     "reddit": [

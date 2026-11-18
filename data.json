@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-18T19:01:06.816495+00:00",
+  "last_updated": "2026-11-18T19:31:01.629019+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 617
+      "ms": 241
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 276
+      "ms": 364
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 176
+      "ms": 182
     },
     "BBC News": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 367
+      "ms": 213
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 92
+      "ms": 209
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1483
+      "ms": 301
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 723
+      "ms": 614
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 614
+      "ms": 491
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3216
+      "ok": true,
+      "count": 45,
+      "error": null,
+      "ms": 140
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 175
+      "ms": 340
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 807
+      "ms": 444
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 536
+      "ms": 338
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 138
+      "ms": 130
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 762
+      "ms": 129
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 269
+      "ms": 214
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 1087
+      "ms": 320
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 759
+      "ms": 655
     },
     "Semafor": {
       "ok": true,
       "count": 293,
       "error": null,
-      "ms": 768
+      "ms": 573
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 537
+      "ms": 1949
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 359
+      "ms": 473
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 785
+      "ms": 93
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 213
+      "ms": 264
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 76,
       "error": null,
-      "ms": 266
+      "ms": 181
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 222
+      "ms": 231
     }
   },
   "breaking": [
@@ -156,6 +156,12 @@
       "score": 10,
       "other_sources": [
         {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/hakeem-jeffries-moves-closer-to-becoming-first-black-us-house-speaker",
+          "title": "Hakeem Jeffries moves closer to becoming first Black US House speaker",
+          "published": "2026-11-18T17:44:05+00:00"
+        },
+        {
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/hakeem-jeffries-democrats-leader-us-house-first-black-speaker-6563476",
           "title": "US Democrats nominate Jeffries to be first Black House speaker",
@@ -166,12 +172,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
           "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
           "published": "2026-11-18T17:34:23+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/hakeem-jeffries-house-speaker-nomination",
-          "title": "Democrats nominate Hakeem Jeffries as first Black House speaker despite progressives’ concerns",
-          "published": "2026-11-18T17:24:01+00:00"
         },
         {
           "source": "The Hindu",
@@ -217,7 +217,7 @@
       "url": "https://www.independent.co.uk/asia/china/trump-xi-jinping-china-putin-summit-b3087133.html",
       "source": "The Independent",
       "published": "2026-11-18T18:15:41+00:00",
-      "score": 5,
+      "score": 6,
       "other_sources": [
         {
           "source": "Africanews",
@@ -230,6 +230,12 @@
           "url": "https://www.channelnewsasia.com/world/vladimir-putin-slams-sanctions-trump-xi-apec-summit-6562146",
           "title": "Putin slams sanctions ahead of summit with Trump, Xi",
           "published": "2026-11-18T09:47:00+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/18/xi-and-putin-meet-ahead-of-planned-summit-with-trump",
+          "title": "Xi and Putin meet ahead of planned summit with Trump",
+          "published": "2026-11-18T08:50:18+00:00"
         },
         {
           "source": "The Hindu",
@@ -303,6 +309,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Israeli forces launch new military operation in central Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-18T18:12:42+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
+          "title": "Israel begins new military operation in Gaza",
+          "published": "2026-11-18T16:12:30+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire",
+          "title": "Israeli military launches new operation on central Gaza despite ceasefire",
+          "published": "2026-11-18T16:01:27+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Singer Julio Iglesias faces Spanish High Court investigation into alleged sexual misconduct",
       "url": "https://www.independent.co.uk/news/world/europe/spanish-high-court-madrid-univision-enrique-iglesias-b3087421.html",
       "source": "The Independent",
@@ -325,55 +353,39 @@
       "consensus": 3.5
     },
     {
-      "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
-      "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
-      "source": "The Guardian",
-      "published": "2026-11-18T17:48:24+00:00",
+      "title": "Waymo pulls driverless taxis off US highways after California ban",
+      "url": "https://www.euronews.com/2026/11/18/waymo-pulls-driverless-taxis-off-us-highways-after-california-ban",
+      "source": "Euronews",
+      "published": "2026-11-18T16:55:30+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261118-xi-welcomes-trump-to-china-ahead-of-high-stakes-putin-meeting",
-          "title": "Xi welcomes Trump to China ahead of high-stakes Putin meeting",
-          "published": "2026-11-18T14:52:39+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/waymo-us-freeway-ban-california-b3086935.html",
+          "title": "Waymo pulls self-driving taxis from all US freeways following California ban",
+          "published": "2026-11-18T08:58:47+00:00"
         },
         {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/xi-jinping-donald-trump-china-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "Xi personally welcomes Trump to China for high-stakes summit",
-          "published": "2026-11-18T10:54:33+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
+          "title": "Waymo pulls driverless taxis from all US freeways",
+          "published": "2026-11-18T03:07:22+00:00"
         }
       ],
       "consensus": 3.0
     },
     {
-      "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
-      "url": "https://www.channelnewsasia.com/world/israel-army-launches-ground-operation-in-hamas-controlled-area-gaza-6563626",
-      "source": "CNA",
-      "published": "2026-11-18T18:51:11+00:00",
+      "title": "Flights, banks, emails: What we know about a U.S. wave of tech outages",
+      "url": "https://www.cbc.ca/news/world/tech-outages-united-states-flights-emails-banking-9.7426436?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-18T19:20:46+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line",
-          "title": "Gazans flee shelters as Israeli army launches ground operation beyond Yellow Line",
-          "published": "2026-11-18T16:03:21+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Israeli forces launch new military operation in central Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-18T18:12:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza",
-          "title": "Israel begins new military operation in Gaza",
-          "published": "2026-11-18T16:12:30+00:00"
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/18/microsoft-flights-banks-and-now-the-nsa-a-week-of-tech-outages-in-the-us?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "Microsoft, flights, banks and now the NSA: a week of tech outages in the US",
+          "published": "2026-11-18T02:37:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -385,7 +397,7 @@
       "url": "https://www.france24.com/en/video/20261118-us-strikes-iranian-island-after-tehran-targets-bahrain",
       "source": "France24",
       "published": "2026-11-18T14:43:25+00:00",
-      "score": 4,
+      "score": 5,
       "other_sources": [
         {
           "source": "The Hindu",
@@ -404,9 +416,15 @@
           "url": "https://www.channelnewsasia.com/world/us-strikes-iran-qeshm-island-gulf-alert-6560721",
           "title": "Gulf nations attacked after US strikes Iranian island",
           "published": "2026-11-18T03:19:00+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/17/us-strikes-targets-in-qeshm-island-after-iranian-mines-hit-five-ships-in-hormuz",
+          "title": "US strikes targets in Qeshm Island after Iranian mines hit five ships in Hormuz",
+          "published": "2026-11-17T20:54:43+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 5.5
     },
     {
       "title": "Xi and Putin Blast Western 'Protectionism,' Sanctions as Trump Lands in China",
@@ -475,23 +493,45 @@
       "consensus": 4.0
     },
     {
-      "title": "Waymo pulls self-driving taxis from all US freeways following California ban",
-      "url": "https://www.independent.co.uk/news/world/americas/waymo-us-freeway-ban-california-b3086935.html",
-      "source": "The Independent",
-      "published": "2026-11-18T08:58:47+00:00",
+      "title": "Democrat Mary Peltola wins Alaska Senate race in historic victory",
+      "url": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-alaska-senate-race-in-historic-victory",
+      "source": "France24",
+      "published": "2026-11-18T14:00:28+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
-          "title": "Waymo pulls driverless taxis from all US freeways",
-          "published": "2026-11-18T03:07:22+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/democrat-mary-peltola-unseats-republican-and-flips-us-senate-seat-in-tight-race-in-alaska",
+          "title": "Democrat Mary Peltola unseats Republican and flips US Senate seat in tight race in Alaska",
+          "published": "2026-11-18T06:18:02+00:00"
         },
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/waymo-pauses-robotaxi-rides-us-freeways-after-california-ban-6560726",
-          "title": "Waymo pauses robotaxi rides on US freeways after California ban",
-          "published": "2026-11-18T00:17:00+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095?cmp=rss",
+          "title": "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
+          "published": "2026-11-18T03:56:54+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
+      "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
+      "source": "Euronews",
+      "published": "2026-11-18T12:05:26+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/marco-rubio-says-zero-information-that-us-outages-are-linked-or-caused-by-a-malign-actor/article71714357.ece",
+          "title": "Marco Rubio says ‘zero’ information that U.S. outages are linked or caused by a malign actor",
+          "published": "2026-11-18T08:29:07+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+          "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+          "published": "2026-11-18T04:57:06+00:00"
         }
       ],
       "consensus": 3.5
@@ -519,6 +559,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
+      "url": "https://www.channelnewsasia.com/world/israel-army-launches-ground-operation-in-hamas-controlled-area-gaza-6563626",
+      "source": "CNA",
+      "published": "2026-11-18T18:51:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line",
+          "title": "Gazans flee shelters as Israeli army launches ground operation beyond Yellow Line",
+          "published": "2026-11-18T16:03:21+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Grand Theft Auto 6 is a masterpiece, say critics",
       "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -530,6 +586,22 @@
           "url": "https://www.rnz.co.nz/life/screens/games/grand-theft-auto-vi-the-biggest-game-of-a-generation-was-worth-the-wait",
           "title": "'ve been up since midnight playing Grand Theft Auto 6 - here's what we think",
           "published": "2026-11-18T17:29:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Xi and Putin reaffirm their alliance on the eve of the first three-way summit with Trump",
+      "url": "https://en.mercopress.com/2026/11/18/xi-and-putin-reaffirm-their-alliance-on-the-eve-of-the-first-three-way-summit-with-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-18T17:25:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/chinas-xi-jinping-and-putin-hold-talks-in-shenzhen-on-eve-of-three-way-summit-with-trump",
+          "title": "China's Xi and Russia's Putin hold talks on eve of three-way summit with Trump",
+          "published": "2026-11-18T05:32:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -599,22 +671,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Democrat Mary Peltola wins Alaska Senate race in historic victory",
-      "url": "https://www.france24.com/en/video/20261118-democrat-mary-peltola-wins-alaska-senate-race-in-historic-victory",
-      "source": "France24",
-      "published": "2026-11-18T14:00:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/democrat-peltola-wins-alaska-senate-seat-9.7426095?cmp=rss",
-          "title": "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
-          "published": "2026-11-18T03:56:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "White House pulls Trump’s FDA nominee on eve of key Senate vote",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-heidi-overton-fda-rfk-jr-b3087172.html",
       "source": "The Independent",
@@ -626,6 +682,38 @@
           "url": "https://www.semafor.com/article/11/17/2026/white-house-pulls-overtons-fda-nomination",
           "title": "White House pulls Overton's FDA nomination",
           "published": "2026-11-18T09:52:55+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Returning the favour, Xi personally welcomes Trump ahead of high-stakes Apec talks",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3374931/returning-favour-xi-personally-welcomes-trump-ahead-high-stakes-apec-talks",
+      "source": "SCMP",
+      "published": "2026-11-18T12:33:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/xi-jinping-donald-trump-china-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "Xi personally welcomes Trump to China for high-stakes summit",
+          "published": "2026-11-18T10:54:33+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Xi greets Trump at Shenzhen at airport in rare move",
+      "url": "https://www.japantimes.co.jp/news/2026/11/18/asia-pacific/china-xi-trump-greet-shenzhen/",
+      "source": "Japan Times",
+      "published": "2026-11-18T12:16:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/18/xi-jinping-greets-trump-with-a-hug-and-red-carpet-at-shenzhen-airport",
+          "title": "Xi Jinping greets Trump with a hug and red carpet at Shenzhen airport",
+          "published": "2026-11-18T10:18:32+00:00"
         }
       ],
       "consensus": 2.5
@@ -711,17 +799,17 @@
       "consensus": 2.5
     },
     {
-      "title": "NASA’s Voyager 1 reaches one light-day from Earth on November 18: What does it mean?",
-      "url": "https://www.thehindu.com/sci-tech/science/voyager-1-reaches-one-light-day-from-earth-on-november-18-what-it-means-nasa-latest-news/article71704297.ece",
+      "title": "Nvidia Board does not intend to reinstate Jensen Huang as CEO: Chairperson",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-board-does-not-intend-to-reinstate-jensen-huang-as-ceo-chairperson/article71714330.ece",
       "source": "The Hindu",
-      "published": "2026-11-18T05:00:29+00:00",
+      "published": "2026-11-18T03:59:19+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/science-tech/2026-11-17/the-odyssey-of-voyager-1-a-chat-with-the-cosmos-one-light-day-from-earth.html",
-          "title": "The odyssey of ‘Voyager 1’: A chat with the cosmos one light-day from Earth",
-          "published": "2026-11-17T13:35:14+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/business/nvidia-earnings-jensen-huang-9.7425620?cmp=rss",
+          "title": "No plans to reinstate CEO Jensen Huang, Nvidia chair tells investors",
+          "published": "2026-11-17T22:56:59+00:00"
         }
       ],
       "consensus": 2.5
@@ -807,6 +895,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+      "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+      "source": "The Guardian",
+      "published": "2026-11-18T17:48:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261118-xi-welcomes-trump-to-china-ahead-of-high-stakes-putin-meeting",
+          "title": "Xi welcomes Trump to China ahead of high-stakes Putin meeting",
+          "published": "2026-11-18T14:52:39+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Philippine police file criminal complaints against Thomas Markle, father of Meghan",
       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374906/philippine-police-file-criminal-complaints-against-thomas-markle",
       "source": "SCMP",
@@ -887,100 +991,55 @@
       "consensus": 2.0
     },
     {
-      "title": "Ex-Tory defectors barred from shaping Reform’s immigration policy, says Zia Yusuf",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/ex-tory-defectors-barred-from-shaping-reform-uks-immigration-policy-says-yusuf",
-      "source": "The Guardian",
-      "published": "2026-11-18T18:50:40+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The leave campaign has been resurrected, so how does Burnham respond?",
-      "url": "https://www.theguardian.com/politics/2026/nov/18/pro-brexit-stay-out-same-playbook-analysis",
-      "source": "The Guardian",
-      "published": "2026-11-18T18:48:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Survivalist warns against wearing 'death cloth' in Tasmanian outdoors",
-      "url": "https://www.abc.net.au/news/2026-11-19/wilderness-survivalist-warns-against-wearing-cotton/107398154",
+      "title": "English press revels in Sandpapergate, likens Cummins to Bill Clinton",
+      "url": "https://www.abc.net.au/news/2026-11-19/sandpapergate-cameron-bancroft-article-makes-headlines-in-uk/107401658",
       "source": "ABC Australia",
-      "published": "2026-11-18T18:45:18+00:00",
+      "published": "2026-11-18T19:26:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Trump’s team warn Putin that time is running out to secure peace deal",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-trump-putin-zelensky-b3086877.html",
-      "source": "The Independent",
-      "published": "2026-11-18T18:45:14+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Burnham considering cuts to national insurance to create more youth jobs",
-      "url": "https://www.theguardian.com/society/2026/nov/18/burnham-cuts-national-insurance-youth-jobs-milburn-report",
+      "title": "Heavy rain and snow predicted in California as ‘atmospheric river’ moves across state",
+      "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
       "source": "The Guardian",
-      "published": "2026-11-18T18:43:37+00:00",
+      "published": "2026-11-18T19:18:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "El Salvador’s Bukele says his troops destroyed gang leader’s mansion in Haiti",
-      "url": "https://www.scmp.com/news/world/americas/article/3374964/el-salvadors-bukele-says-his-troops-destroyed-gang-leaders-mansion-haiti",
-      "source": "SCMP",
-      "published": "2026-11-18T18:34:47+00:00",
+      "title": "EU to reject UK talks on longer-term ties pending clarity from Burnham on next steps",
+      "url": "https://www.theguardian.com/politics/2026/nov/18/eu-uk-reset-summit-talks-burnham-brexit",
+      "source": "The Guardian",
+      "published": "2026-11-18T19:17:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Pacific groups hail US court ruling against deep-sea mining plans",
-      "url": "https://www.rnz.co.nz/news/pacific/2674632/pacific-groups-hail-us-court-ruling-against-deep-sea-mining-plans",
-      "source": "RNZ",
-      "published": "2026-11-18T18:34:32+00:00",
+      "title": "FAA administrator urges ‘lay off’ Sean Duffy for the flight stoppage: ‘Blame me’",
+      "url": "https://www.theguardian.com/world/2026/nov/18/faa-sean-duffy-flight-stoppage",
+      "source": "The Guardian",
+      "published": "2026-11-18T19:14:38+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump gets unusual welcome from China’s Xi and is all smiles with Putin – as tech outages trigger panic at home",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-putin-xi-meeting-cyberattacks-analysis-b3087424.html",
-      "source": "The Independent",
-      "published": "2026-11-18T18:34:28+00:00",
+      "title": "US defense secretary announces agreement with Venezuela against threats from ‘foreign actors’",
+      "url": "https://english.elpais.com/international/2026-11-18/us-defense-secretary-announces-agreement-with-venezuela-against-threats-from-foreign-actors.html",
+      "source": "El País",
+      "published": "2026-11-18T19:10:03+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'It's a disgrace': Pike River families on 16-year wait",
-      "url": "https://www.rnz.co.nz/news/regional/2671615/it-s-a-disgrace-pike-river-families-on-16-year-wait",
-      "source": "RNZ",
-      "published": "2026-11-18T18:33:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "What it takes for Australian music to build home-grown audiences",
-      "url": "https://www.abc.net.au/news/2026-11-19/the-long-road-for-australian-composers-to-make-their-music-heard/107378784",
-      "source": "ABC Australia",
-      "published": "2026-11-18T18:30:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "People with disability call for improved accessibility at music festivals",
-      "url": "https://www.abc.net.au/news/2026-11-19/people-with-disability-seek-better-music-festival-accessibility/107377402",
-      "source": "ABC Australia",
-      "published": "2026-11-18T18:30:00+00:00",
+      "title": "Markwayne Mullin defends move to take government plane to football game amid flight stoppage – US politics live",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-18T19:04:50+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -989,10 +1048,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7339.95,
+      "price": 7326.35,
       "currency": "USD",
-      "change": -0.58,
-      "change_percent": -0.01,
+      "change": -14.18,
+      "change_percent": -0.19,
       "name": "S&P 500"
     },
     {
@@ -1005,10 +1064,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24486.24,
+      "price": 24446.91,
       "currency": "USD",
-      "change": 157.85,
-      "change_percent": 0.65,
+      "change": 118.53,
+      "change_percent": 0.49,
       "name": "NASDAQ Composite"
     },
     {
@@ -1024,10 +1083,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7339.95,
+        "price": 7326.35,
         "currency": "USD",
-        "change": -0.58,
-        "change_percent": -0.01,
+        "change": -14.18,
+        "change_percent": -0.19,
         "name": "S&P 500"
       },
       {
@@ -1040,18 +1099,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50298.02,
+        "price": 50172.06,
         "currency": "USD",
-        "change": -461.4,
-        "change_percent": -0.91,
+        "change": -587.36,
+        "change_percent": -1.16,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24486.24,
+        "price": 24446.91,
         "currency": "USD",
-        "change": 157.85,
-        "change_percent": 0.65,
+        "change": 118.53,
+        "change_percent": 0.49,
         "name": "NASDAQ Composite"
       },
       {
@@ -1082,26 +1141,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3741.6,
+        "price": 3731.9,
         "currency": "USD",
-        "change": -122.6,
-        "change_percent": -3.17,
+        "change": -132.3,
+        "change_percent": -3.42,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 45.18,
+        "price": 44.99,
         "currency": "USD",
-        "change": -2.18,
-        "change_percent": -4.6,
+        "change": -2.37,
+        "change_percent": -5.0,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.5,
+        "price": 89.01,
         "currency": "USD",
-        "change": -1.87,
-        "change_percent": -2.07,
+        "change": -1.36,
+        "change_percent": -1.5,
         "name": "Brent Crude"
       },
       {
@@ -1109,7 +1168,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.23,
+        "change_percent": -0.28,
         "name": "EUR/USD"
       },
       {
@@ -1117,81 +1176,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.47,
+        "change_percent": -0.51,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
         "price": 159.37,
         "currency": "JPY",
-        "change": -0.04,
+        "change": -0.03,
         "change_percent": -0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 62949.02,
+        "price": 62784.34,
         "currency": "USD",
-        "change": -1926.79,
-        "change_percent": -2.97,
+        "change": -2091.47,
+        "change_percent": -3.22,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 509.4,
+        "price": 507.89,
         "currency": "USD",
-        "change": 3.16,
-        "change_percent": 0.62,
+        "change": 1.65,
+        "change_percent": 0.33,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 353.47,
+        "price": 352.5,
         "currency": "USD",
-        "change": 1.56,
-        "change_percent": 0.44,
+        "change": 0.59,
+        "change_percent": 0.17,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 152.16,
+        "price": 151.71,
         "currency": "USD",
-        "change": -3.3,
-        "change_percent": -2.12,
+        "change": -3.75,
+        "change_percent": -2.42,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 283.61,
+        "price": 284.07,
         "currency": "USD",
-        "change": 3.41,
-        "change_percent": 1.22,
+        "change": 3.88,
+        "change_percent": 1.38,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 267.01,
+        "price": 267.4,
         "currency": "USD",
-        "change": 9.12,
-        "change_percent": 3.54,
+        "change": 9.51,
+        "change_percent": 3.69,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 385.33,
+        "price": 382.99,
         "currency": "USD",
-        "change": 5.22,
-        "change_percent": 1.37,
+        "change": 2.88,
+        "change_percent": 0.76,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 616.75,
+        "price": 614.9,
         "currency": "USD",
-        "change": -2.12,
-        "change_percent": -0.34,
+        "change": -3.97,
+        "change_percent": -0.64,
         "name": "Meta"
       }
     ]
@@ -1303,22 +1362,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Putin’s delusions of a ‘new Yalta’",
-          "url": "https://www.ft.com/content/e4198781-9e89-4195-b20e-c21b1dd6aaf1?syn-25a6b1a6=1",
-          "published": "2026-11-18T17:50:09+00:00",
-          "snippet": "Russia’s leader cannot be rewarded for aggression with another carve-up of Europe"
+          "title": "Hybrid theory prevailed at the FT Alphaville Pub Quiz in New York City",
+          "url": "https://www.ft.com/content/877e946c-606c-4f8c-baa1-ea07b0f67e4c",
+          "published": "2026-11-18T18:43:49+00:00",
+          "snippet": "Meanwhile, Jane Street takes a tumble. How would you have fared?"
         },
         {
-          "title": "US tech stocks oscillate after Nvidia results",
-          "url": "https://www.ft.com/content/f085b811-fc20-425f-88d8-9f98e178636a?syn-25a6b1a6=1",
-          "published": "2026-11-18T17:45:12+00:00",
-          "snippet": "Chip group raises forecast and new chief says ‘it’s business as usual’ after news of Huang’s affairs triggered sell-off"
+          "title": "BAE set to cut more than 1,000 jobs",
+          "url": "https://www.ft.com/content/21e2a744-8e9d-4470-9978-f7d88c10c0fb?syn-25a6b1a6=1",
+          "published": "2026-11-18T18:43:39+00:00",
+          "snippet": "UK’s largest defence contractor responds to government demand for ‘greater speed and efficiency’"
         },
         {
-          "title": "Israeli attorney-general freezes key West Bank settlement project",
-          "url": "https://www.ft.com/content/22b7656c-5cce-4711-b3d9-e1939a68bb56?syn-25a6b1a6=1",
-          "published": "2026-11-18T17:28:53+00:00",
-          "snippet": "E1 scheme, seen as barrier to viable Palestinian state, is halted until new government sworn in"
+          "title": "Russian oligarch offers ex-wife 1% of her £2.2bn divorce demand",
+          "url": "https://www.ft.com/content/88e0019a-b49b-4c20-bef2-3f504b94e313?syn-25a6b1a6=1",
+          "published": "2026-11-18T18:40:47+00:00",
+          "snippet": "Vladimir Potanin accused of hiding some of his fortune as Britain’s biggest divorce trial opens in London"
         }
       ]
     },
@@ -1327,6 +1386,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "After the Blue Wave, What Comes Next?",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/david-frum-show-neera-tanden-post-blue-wave/689490/?utm_source=feed",
+          "published": "2026-11-18T19:00:00+00:00",
+          "snippet": "Neera Tanden on building a broader coalition, resisting factionalism, and confronting Trump"
+        },
         {
           "title": "What on Earth Is Going On?",
           "url": "https://www.theatlantic.com/ideas/2026/11/major-server-outage-response/689486/?utm_source=feed",
@@ -1338,12 +1403,6 @@
           "url": "https://www.theatlantic.com/technology/2026/11/anthropic-winner-ai-race/689479/?utm_source=feed",
           "published": "2026-11-18T15:32:17+00:00",
           "snippet": "The company leading us into an age of anxiety is set for a trillion-dollar valuation."
-        },
-        {
-          "title": "How Jared Kushner Sparked a Revolution in the Balkans",
-          "url": "https://www.theatlantic.com/magazine/2027/01/albania-kushner-flamingo-revolution/689407/?utm_source=feed",
-          "published": "2026-11-18T15:30:00+00:00",
-          "snippet": "Protests over his luxury development on the Mediterranean coast have morphed into a revolt against Albania’s political elite."
         }
       ]
     },
@@ -1426,9 +1485,16 @@
   "web": {
     "tech": [
       {
+        "title": "Genie 4 is now available",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+        "score": 42,
+        "source": "Hacker News",
+        "published": "2026-11-18T18:49:51+00:00"
+      },
+      {
         "title": "The Magic of Partial Evaluation",
         "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
-        "score": 7,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-18T18:29:03+00:00"
       },
@@ -1436,9 +1502,16 @@
         "title": "Why Fibonacci?",
         "url": "https://www.evilgeniuslabs.org/why-fibonacci",
         "comments_url": "https://lobste.rs/s/46nwql/why_fibonacci",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-18T18:28:22.187000+00:00"
+      },
+      {
+        "title": "Scottish HTTP Codes",
+        "url": "https://underwood.network/http/scots.html",
+        "score": 44,
+        "source": "Hacker News",
+        "published": "2026-11-18T18:26:19+00:00"
       },
       {
         "title": "Faster CI with Orchestrated Pytest Workers",
@@ -1452,14 +1525,14 @@
         "title": "IPv6 delegation, an unusually subtle failure mode",
         "url": "https://savyasacheejha.com/posts/why-odhcpd/",
         "comments_url": "https://lobste.rs/s/inj0dn/ipv6_delegation_unusually_subtle",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-18T17:52:22.985000+00:00"
       },
       {
         "title": "Advancing chip design with OpenAI models",
         "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-        "score": 20,
+        "score": 40,
         "source": "Hacker News",
         "published": "2026-11-18T17:45:47+00:00"
       },
@@ -1467,21 +1540,21 @@
         "title": "The Magic of Partial Evaluation",
         "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
         "comments_url": "https://lobste.rs/s/silxsl/magic_partial_evaluation",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-18T17:30:14.649000+00:00"
       },
       {
         "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
         "url": "https://news.ycombinator.com/item?id=50549188",
-        "score": 17,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-18T17:26:28+00:00"
       },
       {
         "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
         "url": "https://news.ycombinator.com/item?id=50548660",
-        "score": 14,
+        "score": 21,
         "source": "Hacker News",
         "published": "2026-11-18T16:53:42+00:00"
       },
@@ -1489,21 +1562,21 @@
         "title": "How I made a custom game engine for Satelital",
         "url": "https://spectralorbit.com/blog/satelital_game_engine",
         "comments_url": "https://lobste.rs/s/eklpkn/how_i_made_custom_game_engine_for",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-18T16:39:00.327000+00:00"
       },
       {
         "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
         "url": "https://rshekhar.com/voyager/",
-        "score": 65,
+        "score": 75,
         "source": "Hacker News",
         "published": "2026-11-18T16:18:51+00:00"
       },
       {
         "title": "Seven new models at scalable price-performance",
         "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-        "score": 235,
+        "score": 267,
         "source": "Hacker News",
         "published": "2026-11-18T16:08:24+00:00"
       },
@@ -1518,24 +1591,9 @@
       {
         "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
         "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
-        "score": 131,
+        "score": 137,
         "source": "Hacker News",
         "published": "2026-11-18T16:06:21+00:00"
-      },
-      {
-        "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
-        "url": "https://exitpath-ruddy.vercel.app/",
-        "score": 55,
-        "source": "Hacker News",
-        "published": "2026-11-18T16:04:43+00:00"
-      },
-      {
-        "title": "Accelerating development for massive Git repositories",
-        "url": "https://developers.googleblog.com/en/accelerating-development-for-massive-git-repositories/",
-        "comments_url": "https://lobste.rs/s/0ajpus/accelerating_development_for_massive",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-18T16:00:07.744000+00:00"
       }
     ],
     "reddit": [

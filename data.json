@@ -1,165 +1,195 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-19T10:01:40.268671+00:00",
+  "last_updated": "2026-11-19T10:30:57.336481+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 138
+      "ms": 232
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 159
+      "ms": 358
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 167
+      "ms": 122
     },
     "BBC News": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 40
+      "ms": 127
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 172
+      "ms": 224
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 148
+      "ms": 262
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null,
-      "ms": 43
+      "ms": 352
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 250
+      "ms": 429
     },
     "Euronews": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 48
+      "ms": 81
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 75
+      "ms": 411
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 271
+      "ms": 389
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 30399
+      "ms": 381
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 130
+      "ms": 53
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 255
+      "ms": 720
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 149
+      "ms": 200
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 94
+      "ms": 463
     },
     "SCMP": {
-      "ok": false,
-      "count": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
-      "ms": 3173
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 684
     },
     "Semafor": {
       "ok": true,
       "count": 294,
       "error": null,
-      "ms": 595
+      "ms": 604
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 258
+      "ms": 701
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 199
+      "ms": 303
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 125
+      "ms": 195
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 144
+      "ms": 316
     },
     "The Independent": {
       "ok": true,
       "count": 72,
       "error": null,
-      "ms": 147
+      "ms": 161
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 114
+      "ms": 260
     }
   },
   "breaking": [
     {
-      "title": "Trump, Xi, Putin begin historic meeting with Ukraine war on agenda",
-      "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-19T09:49:18+00:00",
-      "score": 5,
+      "title": "APEC Summit: Trump, Putin, Xi hold 'historic' meeting",
+      "url": "https://www.france24.com/en/video/20261119-apec-summit-trump-putin-xi-hold-historic-meeting",
+      "source": "France24",
+      "published": "2026-11-19T10:19:42+00:00",
+      "score": 15,
       "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/trump-xi-putin-historic-meeting-9.7427718?cmp=rss",
+          "title": "Trump, Xi, Putin begin historic meeting with Ukraine war on agenda",
+          "published": "2026-11-19T09:49:18+00:00"
+        },
         {
           "source": "El País",
           "url": "https://english.elpais.com/international/2026-11-19/xi-trump-and-putin-begin-historic-trilateral-meeting-in-shenzhen.html",
           "title": "Xi, Trump and Putin begin historic trilateral meeting in Shenzhen",
           "published": "2026-11-19T09:11:07+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
+          "title": "Xi, Trump, Putin exchange greetings before historic China summit",
+          "published": "2026-11-19T08:19:11+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307",
+          "title": "Trump, Xi, Putin Hold Historic Meeting With Ukraine War on Agenda",
+          "published": "2026-11-19T06:54:00+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/asia/china/trump-xi-putin-apec-summit-china-ukraine-iran-b3087171.html",
+          "title": "What Xi and Putin really hope to gain from historic summit with Trump as the world’s attention turns to China",
+          "published": "2026-11-19T06:34:21+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-summit-china-xi-putin-6564716",
+          "title": "Trump says historic summit with Xi, Putin already a 'win' before event",
+          "published": "2026-11-19T04:12:00+00:00"
         },
         {
           "source": "Straits Times",
@@ -168,33 +198,57 @@
           "published": "2026-11-18T23:05:12+00:00"
         },
         {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/18/2026/putin-eyes-benefit-in-meeting-trump-xi-at-apec",
+          "title": "Putin eyes ‘benefit' in meeting Trump, Xi at APEC",
+          "published": "2026-11-18T22:26:43+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
+          "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
+          "published": "2026-11-18T17:48:24+00:00"
+        },
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+          "published": "2026-11-18T11:57:10+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/18/xi-and-putin-meet-at-apec-summit-ahead-of-trilateral-talks-with-trump/",
+          "title": "Xi and Putin meet at APEC summit ahead of trilateral talks with Trump",
+          "published": "2026-11-18T10:44:03+00:00"
+        },
+        {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
           "title": "BBC correspondents discuss historic Trump, Xi and Putin meeting",
           "published": "2026-11-18T08:33:32+00:00"
         },
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/17/trump-to-raise-ukraine-war-in-talks-with-xi-and-putin-at-apec/",
-          "title": "Trump to raise Ukraine war in talks with Xi and Putin at APEC",
-          "published": "2026-11-17T09:30:59+00:00"
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "APEC summit: What Trump, Xi and Putin want",
+          "published": "2026-11-18T05:39:00+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/18/chinas-xi-jinping-and-putin-hold-talks-in-shenzhen-on-eve-of-three-way-summit-with-trump",
+          "title": "China's Xi and Russia's Putin hold talks on eve of three-way summit with Trump",
+          "published": "2026-11-18T05:32:27+00:00"
         }
       ],
-      "consensus": 6.5
+      "consensus": 15.5
     },
     {
       "title": "Xi Jinping, Donald Trump and Vladimir Putin begin unprecedented summit in China",
       "url": "https://www.france24.com/en/xi-jinping-donald-trump-and-vladimir-putin-begin-unprecedented-summit-in-china",
       "source": "France24",
       "published": "2026-11-19T09:07:17+00:00",
-      "score": 6,
+      "score": 5,
       "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
-          "title": "Xi, Trump, Putin exchange greetings before historic China summit",
-          "published": "2026-11-19T08:19:11+00:00"
-        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/19/china-xi-trump-and-putin-gather-ahead-of-trilateral-summit/",
@@ -220,63 +274,7 @@
           "published": "2026-11-15T22:38:54+00:00"
         }
       ],
-      "consensus": 6.5
-    },
-    {
-      "title": "Watch: Trump, Putin and Xi sit down for historic three-way talks",
-      "url": "https://www.euronews.com/2026/11/19/watch-trump-putin-and-xi-sit-down-for-historic-three-way-talks",
-      "source": "Euronews",
-      "published": "2026-11-19T09:20:23+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
-          "title": "🔴 Historic three-way summit between Trump, Xi and Putin starts in Shenzhen, China",
-          "published": "2026-11-19T08:30:40+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/videos/watch-trump-xi-and-putin-to-hold-historic-trilateral-talks-in-china-on-apec-sidelines/article71718808.ece",
-          "title": "Watch: Trump, Xi and Putin to hold historic trilateral talks in China on APEC sidelines",
-          "published": "2026-11-19T05:39:56+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/18/trump-putin-and-xi-meet-ahead-of-historic-three-way-talks-in-china/",
-          "title": "Trump,  Putin, and Xi meet ahead of historic three-way talks in China",
-          "published": "2026-11-18T15:33:22+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c9n70gd320mpo?at_medium=RSS&at_campaign=rss",
-          "title": "Steve Rosenberg: Historic talks with Xi and Trump are a coup for Putin",
-          "published": "2026-11-18T10:53:21+00:00"
-        }
-      ],
       "consensus": 5.0
-    },
-    {
-      "title": "Albanese tells Putin to end Ukraine war 'now'",
-      "url": "https://www.abc.net.au/news/2026-11-19/albanese-tells-putin-to-end-ukraine-war-now/107406348",
-      "source": "ABC Australia",
-      "published": "2026-11-19T09:36:33+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307",
-          "title": "U.S., China Can Help End Ukraine War, Trump Tells Xi Before Trilateral With Putin",
-          "published": "2026-11-19T06:54:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/trump-says-historic-summit-with-xi-putin-already-a-win-before-event",
-          "title": "US, China can help end Ukraine war, Trump tells Xi before trilateral with Putin",
-          "published": "2026-11-19T06:42:36+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "North Korea expanding uranium enrichment facility, UN nuclear watchdog says",
@@ -301,70 +299,90 @@
       "consensus": 4.0
     },
     {
-      "title": "Xi-Trump-Putin trilateral meeting LIVE: Ukraine strikes Crimean bridge again as Trump says U.S., China want to help end war",
-      "url": "https://www.thehindu.com/news/international/donald-trump-xi-jinping-vladimir-putin-trilateral-meeting-in-shenzhen-live-updates-november-19-2026/article71718525.ece",
+      "title": "Musk says he feels 'pretty foolish' for failed U.S. election spending",
+      "url": "https://www.thehindu.com/news/international/musk-says-he-feels-pretty-foolish-for-failed-us-election-spending/article71718696.ece",
       "source": "The Hindu",
-      "published": "2026-11-19T08:51:09+00:00",
+      "published": "2026-11-19T09:00:25+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-strike-crimean-bridge-6565221",
-          "title": "Ukraine strikes Crimean Bridge for third time in a week ahead of US-China-Russia summit",
-          "published": "2026-11-19T07:38:31+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/elon-musk-says-he-feels-pretty-foolish-about-us-midterm-spending?traffic_source=rss",
+          "title": "Elon Musk says he feels ‘pretty foolish’ about US midterm spending",
+          "published": "2026-11-19T04:46:18+00:00"
         },
         {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
-          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
-          "published": "2026-11-17T08:31:00+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
+          "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+          "published": "2026-11-19T02:59:06+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 4.0
     },
     {
-      "title": "Europe left out in the cold as Trump, Xi and Putin meet in China",
-      "url": "https://www.rfi.fr/en/international/20261119-europe-left-out-in-the-cold-as-trump-xi-and-putin-meet-in-china",
-      "source": "RFI English",
-      "published": "2026-11-19T07:45:39+00:00",
-      "score": 3,
+      "title": "Crimea bridge has been attacked again, says Russian-installed governor",
+      "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
+      "source": "The Guardian",
+      "published": "2026-11-19T10:03:42+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china",
-          "title": "Apec summit as it happened: Xi welcomes Trump on China visit as Putin claims Europe in ‘humiliating decline’",
-          "published": "2026-11-18T17:48:24+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-          "published": "2026-11-18T11:57:10+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/crimea-bridge-attacked-9.7427374?cmp=rss",
+          "title": "Crimea bridge attacked again, Russian governor says",
+          "published": "2026-11-19T00:10:00+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
-      "title": "Mideast crisis ‘largest threat’ to energy security ever: IEA",
-      "url": "https://www.channelnewsasia.com/world/middle-east-crisis-energy-security-iran-war-us-6565096",
-      "source": "CNA",
-      "published": "2026-11-19T07:10:42+00:00",
-      "score": 3,
+      "title": "Trump calls for nuclear arms reduction at APEC summit",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/trump-calls-for-nuclear-arms-reduction-at-apec-summit?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-19T10:03:27+00:00",
+      "score": 2,
       "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/west-asia-crisis-largest-threat-to-energy-security-ever-iea/article71718854.ece",
-          "title": "West Asia crisis 'largest threat' to energy security ever: IEA",
-          "published": "2026-11-19T06:50:38+00:00"
-        },
         {
           "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
-          "title": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
-          "published": "2026-11-19T05:11:59+00:00"
+          "url": "https://www.france24.com/en/video/20261119-apec-summit-trump-seeks-nuclear-arms-cuts-but-few-concrete-results-expected",
+          "title": "APEC summit: Trump seeks nuclear arms cuts, but few concrete results expected",
+          "published": "2026-11-19T07:47:21+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
+    },
+    {
+      "title": "South Korea's top court overturns charges against ex-prime minister for his role in martial law",
+      "url": "https://www.cbc.ca/news/world/south-korea-overturns-charges-against-ex-prime-minister-9.7427717?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-19T09:50:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-koreas-supreme-court-orders-retrial-for-ex-pm-han-over-his-role-in-martial-law-attempt",
+          "title": "South Korea's Supreme Court orders retrial for ex-PM Han over his role in martial law attempt",
+          "published": "2026-11-19T09:40:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Albanese tells Putin to end Ukraine war 'now'",
+      "url": "https://www.abc.net.au/news/2026-11-19/albanese-tells-putin-to-end-ukraine-war-now/107406348",
+      "source": "ABC Australia",
+      "published": "2026-11-19T09:36:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/trump-says-historic-summit-with-xi-putin-already-a-win-before-event",
+          "title": "US, China can help end Ukraine war, Trump tells Xi before trilateral with Putin",
+          "published": "2026-11-19T06:42:36+00:00"
+        }
+      ],
+      "consensus": 2.5
     }
   ],
   "world": [
@@ -373,14 +391,8 @@
       "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-18T21:13:06+00:00",
-      "score": 7,
+      "score": 6,
       "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/us-democrats-nominate-jeffries-to-be-first-black-house-speaker",
-          "title": "US Democrats nominate Jeffries to be first Black House speaker",
-          "published": "2026-11-18T19:58:23+00:00"
-        },
         {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/18/hakeem-jeffries-moves-closer-to-becoming-first-black-us-house-speaker",
@@ -412,7 +424,7 @@
           "published": "2026-11-18T15:49:48+00:00"
         }
       ],
-      "consensus": 8.0
+      "consensus": 7.0
     },
     {
       "title": "Grand Theft Auto VI launches to rave reviews after 13-year wait",
@@ -441,28 +453,6 @@
         }
       ],
       "consensus": 5.0
-    },
-    {
-      "title": "Musk says he feels 'pretty foolish' for failed U.S. election spending",
-      "url": "https://www.thehindu.com/news/international/musk-says-he-feels-pretty-foolish-for-failed-us-election-spending/article71718696.ece",
-      "source": "The Hindu",
-      "published": "2026-11-19T05:18:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/19/elon-musk-says-he-feels-pretty-foolish-about-us-midterm-spending?traffic_source=rss",
-          "title": "Elon Musk says he feels ‘pretty foolish’ about US midterm spending",
-          "published": "2026-11-19T04:46:18+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-          "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-          "published": "2026-11-19T02:59:06+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "Florida pastor convicted of U.S. charges related to assassination of Haitian President Jovenel Moise",
@@ -509,23 +499,45 @@
       "consensus": 4.0
     },
     {
-      "title": "Historic trilateral summit between leaders of the US, China and Russia begins",
-      "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
-      "source": "Euronews",
-      "published": "2026-11-19T06:33:02+00:00",
+      "title": "Mideast crisis ‘largest threat’ to energy security ever: IEA",
+      "url": "https://www.channelnewsasia.com/world/middle-east-crisis-energy-security-iran-war-us-6565096",
+      "source": "CNA",
+      "published": "2026-11-19T07:10:42+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/west-asia-crisis-largest-threat-to-energy-security-ever-iea/article71718854.ece",
+          "title": "West Asia crisis 'largest threat' to energy security ever: IEA",
+          "published": "2026-11-19T06:50:38+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261119-middle-east-crisis-energy-security-iea",
+          "title": "Middle East crisis poses 'largest threat' to energy security in history, warns IEA",
+          "published": "2026-11-19T05:11:59+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "World Court to rule whether Myanmar committed genocide against Rohingya",
+      "url": "https://www.channelnewsasia.com/asia/myanmar-genocide-case-rohingya-international-court-justice-icj-un-6564571",
+      "source": "CNA",
+      "published": "2026-11-19T04:10:00+00:00",
       "score": 3,
       "other_sources": [
         {
           "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting",
-          "title": "Live: Trump says leaders of US, China and Russia are 'making history' at Shenzhen summit",
-          "published": "2026-11-19T01:47:04+00:00"
+          "url": "https://www.france24.com/en/asia-pacific/20261119-top-un-court-to-rule-if-myanmar-s-rohingya-crackdown-was-genocide",
+          "title": "Top UN court to rule if Myanmar committed genocide against Rohingya minority",
+          "published": "2026-11-19T03:07:23+00:00"
         },
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
-          "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
-          "published": "2026-11-18T11:57:06+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj",
+          "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
+          "published": "2026-11-15T06:00:05+00:00"
         }
       ],
       "consensus": 3.5
@@ -548,28 +560,6 @@
           "url": "https://english.elpais.com/international/2026-11-18/us-defense-secretary-announces-agreement-with-venezuela-against-threats-from-foreign-actors.html",
           "title": "US defense secretary announces agreement with Venezuela against threats from ‘foreign actors’",
           "published": "2026-11-18T19:10:03+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-18T22:34:56+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
-          "title": "Israeli army launches ground operation in Hamas-controlled area of Gaza",
-          "published": "2026-11-18T19:55:15+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israel-army-launches-ground-operation-in-hamas-controlled-area-gaza-6563626",
-          "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
-          "published": "2026-11-18T18:51:11+00:00"
         }
       ],
       "consensus": 3.5
@@ -673,6 +663,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Trump meets Putin and Xi as trilateral US, Russia, China talks begin",
+      "url": "https://www.aljazeera.com/news/2026/11/19/trump-meets-putin-and-xi-ahead-of-us-russia-china-trilateral-talks?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-19T08:32:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3374977/world-leaders-gather-talk-trade-and-investment-apec-chinas-tech-hub-shenzhen",
+          "title": "Xi tells Trump, Putin: China, Russia, US should maintain regular talks to manage differences",
+          "published": "2026-11-19T01:32:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Riyadh skyscraper damaged as Saudi Arabia reports new Houthi attacks",
       "url": "https://www.channelnewsasia.com/world/saudi-arabia-skyscraper-damaged-yemen-houthi-attacks-6564561",
       "source": "CNA",
@@ -721,6 +727,54 @@
       "consensus": 2.5
     },
     {
+      "title": "Ukraine strikes Crimean Bridge for third time in a week ahead of US-China-Russia summit",
+      "url": "https://www.channelnewsasia.com/world/ukraine-russia-strike-crimean-bridge-6565221",
+      "source": "CNA",
+      "published": "2026-11-19T07:38:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
+          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
+          "published": "2026-11-17T08:31:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Historic trilateral summit between leaders of the US, China and Russia begins",
+      "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
+      "source": "Euronews",
+      "published": "2026-11-19T06:33:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6044067/former-u-s-ambassador-on-trumps-joint-summit-with-leaders-of-china-and-russia",
+          "title": "Former U.S. ambassador on Trump's joint summit with leaders of China and Russia",
+          "published": "2026-11-18T11:57:06+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Van Gogh painting sells for record US$190.4 million after dispute",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375017/van-gogh-painting-sells-record-us1904-million-after-dispute",
+      "source": "SCMP",
+      "published": "2026-11-19T05:45:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+          "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+          "published": "2026-11-19T00:49:19+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "ICJ to rule on Rohingya genocide case against Myanmar: What’s at stake?",
       "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar-whats-at-stake?traffic_source=rss",
       "source": "Al Jazeera",
@@ -732,22 +786,6 @@
           "url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-world-4025-xml-mrss",
           "title": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
           "published": "2026-11-18T14:27:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "World Court to rule whether Myanmar committed genocide against Rohingya",
-      "url": "https://www.channelnewsasia.com/asia/myanmar-genocide-case-rohingya-international-court-justice-icj-un-6564571",
-      "source": "CNA",
-      "published": "2026-11-19T04:10:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/15/myanmar-rohingya-genocide-icj",
-          "title": "World’s top court to rule if Myanmar committed genocide against Rohingya",
-          "published": "2026-11-15T06:00:05+00:00"
         }
       ],
       "consensus": 2.5
@@ -780,22 +818,6 @@
           "url": "https://www.thehindu.com/sci-tech/health/why-the-us-lost-its-measles-elimination-status-explained/article71714981.ece",
           "title": "Why did the U.S. lose its measles elimination status? | Explained",
           "published": "2026-11-18T08:40:36+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Crimea bridge attacked again, Russian governor says",
-      "url": "https://www.cbc.ca/news/world/crimea-bridge-attacked-9.7427374?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-19T00:10:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine",
-          "title": "Crimea bridge has been attacked again, says Russian-installed governor",
-          "published": "2026-11-18T23:27:37+00:00"
         }
       ],
       "consensus": 2.5
@@ -1009,6 +1031,38 @@
       "consensus": 2.5
     },
     {
+      "title": "NASA’s Voyager 1 reaches one light-day from Earth on November 18: What does it mean?",
+      "url": "https://www.thehindu.com/sci-tech/science/voyager-1-reaches-one-light-day-from-earth-on-november-18-what-it-means-nasa-latest-news/article71704297.ece",
+      "source": "The Hindu",
+      "published": "2026-11-18T05:00:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/science-tech/2026-11-17/the-odyssey-of-voyager-1-a-chat-with-the-cosmos-one-light-day-from-earth.html",
+          "title": "The odyssey of ‘Voyager 1’: A chat with the cosmos one light-day from Earth",
+          "published": "2026-11-17T13:35:14+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "South Korea court orders retrial of ex-PM Han in 2024 martial law case",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375086/south-korea-court-orders-retrial-ex-pm-han-2024-martial-law-case",
+      "source": "SCMP",
+      "published": "2026-11-19T10:11:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-court-orders-retrial-of-ex-pm-han-in-martial-law-case",
+          "title": "South Korea court orders retrial of ex-PM Han in martial law case",
+          "published": "2026-11-19T09:58:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "South Korea’s Lee hopes reopening talks with North Korea could lead to lasting peace",
       "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/south-korea-lee-north-korea-peace/",
       "source": "Japan Times",
@@ -1055,54 +1109,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "What Xi and Putin really hope to gain from historic summit with Trump as the world’s attention turns to China",
-      "url": "https://www.independent.co.uk/asia/china/trump-xi-putin-apec-summit-china-ukraine-iran-b3087171.html",
-      "source": "The Independent",
-      "published": "2026-11-19T06:34:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "APEC summit: What Trump, Xi and Putin want",
-          "published": "2026-11-18T05:39:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Is the AI bubble bursting just as Anthropic goes public?",
-      "url": "https://www.dw.com/en/is-the-ai-bubble-bursting-just-as-anthropic-goes-public/a-79896537?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-19T05:58:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-          "title": "Simon Jack: Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-          "published": "2026-11-18T21:28:08+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Japan PM Takaichi spoke with Putin at APEC summit",
-      "url": "https://www.channelnewsasia.com/east-asia/japan-pm-takaichi-putin-talks-china-apec-summit-6564581",
-      "source": "CNA",
-      "published": "2026-11-19T03:53:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/japan-says-pm-takaichi-putin-held-talks-at-apec-summit-in-china",
-          "title": "Japan says PM Takaichi, Putin held talks at APEC summit in China",
-          "published": "2026-11-19T03:30:17+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "tickers": [
@@ -1116,10 +1122,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 139.3,
+      "price": 139.22,
       "currency": "GBP",
-      "change": 1.38,
-      "change_percent": 1.0,
+      "change": 1.3,
+      "change_percent": 0.94,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1132,9 +1138,9 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10528.64,
+      "price": 10529.41,
       "currency": "GBP",
-      "change": -22.53,
+      "change": -21.76,
       "change_percent": -0.21,
       "name": "FTSE 100"
     }
@@ -1151,9 +1157,9 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10528.64,
+        "price": 10529.41,
         "currency": "GBP",
-        "change": -22.53,
+        "change": -21.76,
         "change_percent": -0.21,
         "name": "FTSE 100"
       },
@@ -1183,44 +1189,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25824.83,
+        "price": 25825.75,
         "currency": "EUR",
-        "change": 88.59,
-        "change_percent": 0.34,
+        "change": 89.51,
+        "change_percent": 0.35,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8171.49,
+        "price": 8175.65,
         "currency": "EUR",
-        "change": 24.66,
-        "change_percent": 0.3,
+        "change": 28.82,
+        "change_percent": 0.35,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3731.0,
+        "price": 3732.6,
         "currency": "USD",
-        "change": -10.9,
-        "change_percent": -0.29,
+        "change": -9.3,
+        "change_percent": -0.25,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 45.12,
+        "price": 45.27,
         "currency": "USD",
-        "change": 0.07,
-        "change_percent": 0.15,
+        "change": 0.22,
+        "change_percent": 0.48,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.37,
+        "price": 89.65,
         "currency": "USD",
-        "change": 0.2,
-        "change_percent": 0.22,
+        "change": 0.48,
+        "change_percent": 0.54,
         "name": "Brent Crude"
       },
       {
@@ -1228,31 +1234,31 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.15,
+        "change_percent": 0.22,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
-        "price": 1.31,
+        "price": 1.32,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": 0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.88,
+        "price": 159.92,
         "currency": "JPY",
-        "change": 0.61,
-        "change_percent": 0.38,
+        "change": 0.64,
+        "change_percent": 0.4,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 63750.43,
+        "price": 63765.96,
         "currency": "USD",
-        "change": 763.14,
-        "change_percent": 1.21,
+        "change": 778.67,
+        "change_percent": 1.24,
         "name": "Bitcoin"
       }
     ],
@@ -1397,6 +1403,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Bangladesh, an underappreciated success, faces an economic crisis",
+          "url": "https://www.economist.com/leaders/2026/11/19/bangladesh-an-underappreciated-success-faces-an-economic-crisis",
+          "published": "2026-11-19T09:51:47+00:00",
+          "snippet": "A newish government must fix the country’s banks"
+        },
+        {
           "title": "Deeper collusion between hostile powers threatens the West",
           "url": "https://www.economist.com/leaders/2026/11/19/deeper-collusion-between-hostile-powers-threatens-the-west",
           "published": "2026-11-19T08:31:05+00:00",
@@ -1407,12 +1419,6 @@
           "url": "https://www.economist.com/leaders/2026/11/18/america-must-get-serious-about-chinese-chip-spying",
           "published": "2026-11-18T19:10:41+00:00",
           "snippet": "The Jensen Huang affair exposes an AI underworld"
-        },
-        {
-          "title": "China's emissions are falling. Thank self-interest",
-          "url": "https://www.economist.com/leaders/2026/11/12/chinas-emissions-are-falling-thank-self-interest",
-          "published": "2026-11-12T14:08:53+00:00",
-          "snippet": "And its technology is helping others fight climate change, too"
         }
       ]
     },
@@ -1421,6 +1427,12 @@
       "name": "Financial Times",
       "column": "global",
       "entries": [
+        {
+          "title": "Air strike hits Saudi sovereign wealth fund headquarters",
+          "url": "https://www.ft.com/content/05ed47a5-7cc1-402f-ad0d-826ba09a05c8?syn-25a6b1a6=1",
+          "published": "2026-11-19T09:41:38+00:00",
+          "snippet": "Attack on powerful Public Investment Fund follows near-daily barrages on the kingdom by Houthi rebels"
+        },
         {
           "title": "Live US midterm elections results",
           "url": "https://www.ft.com/content/ca8ba515-592b-4c1d-a1d0-d8b2a94ccd30?syn-25a6b1a6=1",
@@ -1432,12 +1444,6 @@
           "url": "https://www.ft.com/content/5edb7461-40b5-456d-9fda-928227b7028e?syn-25a6b1a6=1",
           "published": "2026-11-19T09:30:08+00:00",
           "snippet": "Ambitious overhaul of police forces across England and Wales outlined by home secretary rests on shaky foundations"
-        },
-        {
-          "title": "UniCredit agrees deal with Berlin on Commerzbank takeover",
-          "url": "https://www.ft.com/content/0c6bb979-bc3f-4368-86fc-a0306fd52d78?syn-25a6b1a6=1",
-          "published": "2026-11-19T09:27:50+00:00",
-          "snippet": "Move clears major obstacle for Italian lender to take control of Germany’s second-largest bank after two-year battle"
         }
       ]
     },
@@ -1545,18 +1551,33 @@
   "web": {
     "tech": [
       {
+        "title": "PHP 8.6 Release Announcement",
+        "url": "https://www.php.net/releases/8.6/en.php",
+        "comments_url": "https://lobste.rs/s/xn50o0/php_8_6_release_announcement",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-19T10:17:55.143000+00:00"
+      },
+      {
         "title": "What's New in PHP 8.6",
         "url": "https://www.php.net/releases/8.6/en.php",
-        "score": 23,
+        "score": 40,
         "source": "Hacker News",
         "published": "2026-11-19T09:27:15+00:00"
       },
       {
         "title": "SSD prices will start going down the second half of next year",
         "url": "https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html",
-        "score": 42,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-19T09:05:34+00:00"
+      },
+      {
+        "title": "Do not buy RAM, compress",
+        "url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+        "score": 9,
+        "source": "Hacker News",
+        "published": "2026-11-19T08:56:47+00:00"
       },
       {
         "title": "Validating a High-Performance Cloud Object Store with Lightweight Formal Methods",
@@ -1569,7 +1590,7 @@
       {
         "title": "Distributed, high-performance blob storage on SQLite",
         "url": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
-        "score": 26,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-19T08:39:45+00:00"
       },
@@ -1582,24 +1603,16 @@
         "published": "2026-11-19T08:37:13.161000+00:00"
       },
       {
-        "title": "Traffic mix matters",
-        "url": "https://brooker.co.za/blog/2026/11/18/workload-mix.html",
-        "comments_url": "https://lobste.rs/s/akg5in/traffic_mix_matters",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T07:33:44.868000+00:00"
-      },
-      {
         "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
         "url": "https://kapteko.com/15-million-webservers/",
-        "score": 136,
+        "score": 153,
         "source": "Hacker News",
         "published": "2026-11-19T05:56:36+00:00"
       },
       {
         "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
         "url": "https://verialabs.com/ruby2shell/",
-        "score": 98,
+        "score": 119,
         "source": "Hacker News",
         "published": "2026-11-19T05:09:11+00:00"
       },
@@ -1622,14 +1635,14 @@
       {
         "title": "Multiple vulnerabilities in Regexp and String case conversion",
         "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-        "score": 259,
+        "score": 270,
         "source": "Hacker News",
         "published": "2026-11-18T23:52:50+00:00"
       },
       {
         "title": "Anthropic prices initial public offering",
         "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "score": 223,
+        "score": 234,
         "source": "Hacker News",
         "published": "2026-11-18T23:30:09+00:00"
       },
@@ -1644,16 +1657,9 @@
       {
         "title": "LLM assisted reverse engineering",
         "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-        "score": 209,
+        "score": 215,
         "source": "Hacker News",
         "published": "2026-11-18T22:29:13+00:00"
-      },
-      {
-        "title": "Gemini 4 Neon",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-        "score": 825,
-        "source": "Hacker News",
-        "published": "2026-11-18T21:34:07+00:00"
       }
     ],
     "reddit": [

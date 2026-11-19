@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-19T01:30:58.627117+00:00",
+  "last_updated": "2026-11-19T02:00:59.199355+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 141
+      "ms": 399
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 183
+      "ms": 382
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 118
+      "ms": 211
     },
     "BBC News": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 86
+      "ms": 131
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 165
+      "ms": 80
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 103
+      "ms": 207
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 52
+      "ms": 34
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 167
+      "ms": 517
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 198
+      "ms": 223
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 98
+      "ms": 123
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 253
+      "ms": 530
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 243
+      "ms": 319
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 168
+      "ms": 236
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 192
+      "ms": 118
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 135
+      "ms": 351
     },
     "RNZ": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 92
+      "ms": 567
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 892
+      "ms": 595
     },
     "Semafor": {
       "ok": true,
       "count": 295,
       "error": null,
-      "ms": 585
+      "ms": 574
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 278
+      "ms": 558
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 131
+      "ms": 305
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 68
+      "ms": 209
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 179
+      "ms": 331
     },
     "The Independent": {
       "ok": true,
       "count": 77,
       "error": null,
-      "ms": 134
+      "ms": 164
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 123
+      "ms": 303
     }
   },
   "breaking": [
@@ -207,6 +207,28 @@
       "consensus": 10.5
     },
     {
+      "title": "Anthropic is said to price IPO above range at $83 per share",
+      "url": "https://www.japantimes.co.jp/business/2026/11/19/tech/anthropic-ipo-83-per-share/",
+      "source": "Japan Times",
+      "published": "2026-11-19T01:38:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/business/anthropic-ipo-share-price-nasdaq-9.7426856?cmp=rss",
+          "title": "Anthropic prices IPO at $83 US per share, valuing AI giant at $1.51 trillion US",
+          "published": "2026-11-18T23:58:12+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
+          "title": "Anthropic sets share price at $83 for stock market debut, above expected range",
+          "published": "2026-11-18T21:39:15+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Crimean Bridge attacked again, Russian official says",
       "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -229,39 +251,17 @@
       "consensus": 3.5
     },
     {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-18T22:34:56+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
-          "title": "Israeli army launches ground operation in Hamas-controlled area of Gaza",
-          "published": "2026-11-18T19:55:15+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israel-army-launches-ground-operation-in-hamas-controlled-area-gaza-6563626",
-          "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
-          "published": "2026-11-18T18:51:11+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Trump’s transportation secretary blames contractor for nationwide FAA ground stop – live",
-      "url": "https://www.theguardian.com/us-news/live/2026/nov/18/donald-trump-mary-peltola-alaska-hakeem-jeffries-democrats-republicans-congress-house-senate-midterms-latest-news-updates",
-      "source": "The Guardian",
-      "published": "2026-11-19T01:10:32+00:00",
+      "title": "When is the AFL draft and how does it work? Here's what you need to know",
+      "url": "https://www.abc.net.au/news/2026-11-19/afl-draft-2026-everything-you-need-to-know-guide-time-picks/107398510",
+      "source": "ABC Australia",
+      "published": "2026-11-19T01:47:37+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/13/2026/faa-issues-rare-nationwide-ground-stop",
-          "title": "FAA lifts rare nationwide ground stop",
-          "published": "2026-11-14T02:06:24+00:00"
+          "source": "Spiegel",
+          "url": "https://www.spiegel.de/international/germany/new-information-in-the-nazi-database-what-you-need-to-know-about-the-ss-a-f7e09472-e9da-4b11-9846-87f1778116e3#ref=rss",
+          "title": "New Information in the Nazi Database: What You Need to Know About the SS",
+          "published": "2026-07-08T06:54:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -299,36 +299,29 @@
       "consensus": 2.5
     },
     {
-      "title": "Florida pastor convicted of U.S. charges in 2021 killing of Haitian president",
-      "url": "https://www.cbc.ca/news/world/florida-pastor-haiti-president-assassination-9.7427251?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-18T22:46:17+00:00",
+      "title": "Governments warn Java flaw leaves computer systems open to hackers",
+      "url": "https://www.japantimes.co.jp/news/2026/11/19/world/governments-java-computer-hackers/",
+      "source": "Japan Times",
+      "published": "2026-11-19T01:32:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
-          "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
-          "published": "2026-11-18T22:31:41+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/governments-warn-java-flaw-leaves-computer-systems-open-to-hackers",
+          "title": "Governments warn Java flaw leaves computer systems open to hackers",
+          "published": "2026-11-18T17:15:07+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
-      "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
-      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
-      "source": "The Guardian",
-      "published": "2026-11-18T22:34:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/eu-proposes-45-billion-euro-ukraine-loan-2027-6563706",
-          "title": "EU proposes 45-billion-euro Ukraine loan for 2027",
-          "published": "2026-11-18T20:06:52+00:00"
-        }
-      ],
-      "consensus": 2.5
+      "title": "Hong Kong MTR Island line disrupted by second signalling fault in 2 days",
+      "url": "https://www.scmp.com/news/hong-kong/transport/article/3374981/hong-kong-mtr-island-line-disrupted-second-signalling-fault-2-days",
+      "source": "SCMP",
+      "published": "2026-11-19T01:53:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -523,28 +516,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-18T13:04:48+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/bahrain-kuwait-attacked-after-us-strikes-iranian-island/article71714916.ece",
-          "title": "Bahrain, Kuwait attacked after U.S. strikes Iranian island",
-          "published": "2026-11-18T08:37:27+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/gulf-us-strikes-iran-island/",
-          "title": "Gulf nations on alert after U.S. strikes Iranian island",
-          "published": "2026-11-18T04:56:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Marco Rubio says no evidence recent tech outages in US are linked or 'nefarious'",
       "url": "https://www.euronews.com/2026/11/18/marco-rubio-says-no-evidence-recent-tech-outages-in-us-are-linked-or-nefarious",
       "source": "Euronews",
@@ -609,6 +580,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Florida pastor convicted of U.S. charges in 2021 killing of Haitian president",
+      "url": "https://www.cbc.ca/news/world/florida-pastor-haiti-president-assassination-9.7427251?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-18T22:46:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
+          "title": "Florida pastor found guilty over 2021 assassination of Haitian president",
+          "published": "2026-11-18T22:31:41+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "EU proposes €45bn loan for Ukraine to avert cash crisis and boost defences",
+      "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+      "source": "The Guardian",
+      "published": "2026-11-18T22:34:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/eu-proposes-45-billion-euro-ukraine-loan-2027-6563706",
+          "title": "EU proposes 45-billion-euro Ukraine loan for 2027",
+          "published": "2026-11-18T20:06:52+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Pew Research: Islam on track to become world’s largest religion by 2035",
@@ -718,6 +721,22 @@
           "url": "https://www.semafor.com/article/11/17/2026/white-house-pulls-overtons-fda-nomination",
           "title": "White House pulls Overton's FDA nomination",
           "published": "2026-11-18T09:52:55+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+      "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-18T13:04:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bahrain-kuwait-attacked-after-us-strikes-iranian-island/article71714916.ece",
+          "title": "Bahrain, Kuwait attacked after U.S. strikes Iranian island",
+          "published": "2026-11-18T08:37:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -835,6 +854,22 @@
       "consensus": 2.5
     },
     {
+      "title": "China warns US of retaliation over new AI chip restrictions",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-of-retaliation-over-new-ai-chip-restrictions",
+      "source": "Straits Times",
+      "published": "2026-11-18T02:00:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
+          "title": "China threatens retaliation against US chip curbs",
+          "published": "2026-11-17T22:58:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "U.K. sanctions Israeli companies involved in building illegal settlements in West Bank",
       "url": "https://www.cbc.ca/news/world/united-kingdom-israel-west-bank-construction-companies-settlements-9.7425375?cmp=rss",
       "source": "CBC World",
@@ -851,6 +886,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Israel launches ground operation in central Gaza as dozens flee",
+      "url": "https://www.japantimes.co.jp/news/2026/11/19/world/israel-ground-operation-gaza/",
+      "source": "Japan Times",
+      "published": "2026-11-19T01:27:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israel-army-launches-ground-operation-in-hamas-controlled-area-gaza-6563626",
+          "title": "Israel army launches ground operation in Hamas-controlled area of Gaza",
+          "published": "2026-11-18T18:51:11+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Magnitude 5.7 quake jolts Kumamoto Prefecture, but no tsunami warning issued",
       "url": "https://www.japantimes.co.jp/news/2026/11/19/japan/kumamoto-quake-no-tsunami-warning/",
       "source": "Japan Times",
@@ -862,6 +913,22 @@
           "url": "https://www.straitstimes.com/asia/east-asia/5-7-magnitude-quake-strikes-japans-kumamoto-prefecture-no-tsunami-warning-issued",
           "title": "5.7-magnitude quake strikes Japan’s Kumamoto prefecture, no tsunami warning issued",
           "published": "2026-11-18T22:29:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-18T22:34:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza",
+          "title": "Israeli army launches ground operation in Hamas-controlled area of Gaza",
+          "published": "2026-11-18T19:55:15+00:00"
         }
       ],
       "consensus": 2.0
@@ -931,82 +998,37 @@
       "consensus": 2.0
     },
     {
-      "title": "Treason or not, betraying one’s country won’t be tolerated",
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3374219/treason-or-not-betraying-ones-country-wont-be-tolerated",
-      "source": "SCMP",
-      "published": "2026-11-19T01:30:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Israel launches ground operation in central Gaza as dozens flee",
-      "url": "https://www.japantimes.co.jp/news/2026/11/19/world/israel-ground-operation-gaza/",
-      "source": "Japan Times",
-      "published": "2026-11-19T01:27:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why a trio of experts alleges Jeffrey Epstein did not die by suicide",
-      "url": "https://www.aljazeera.com/news/2026/11/19/why-a-trio-of-experts-alleges-jeffrey-epstein-did-not-die-by-suicide?traffic_source=rss",
+      "title": "Hegseth unveils new US-Venezuela military deal",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-19T01:17:08+00:00",
+      "published": "2026-11-19T01:48:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Brisbane council approves sale of land to shopping precinct developer",
-      "url": "https://www.abc.net.au/news/2026-11-19/brisbane-city-council-sells-part-of-carpark-to-private-developer/107402836",
+      "title": "Breaking: Five men taken into custody in relation to fatal drive-by shooting",
+      "url": "https://www.abc.net.au/news/2026-11-19/qld-logan-drive-by-shooting-men-taken-into-custody/107403362",
       "source": "ABC Australia",
-      "published": "2026-11-19T01:16:16+00:00",
+      "published": "2026-11-19T01:47:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Charges dismissed against boxer Floyd Mayweather Jr. over bad check in Las Vegas",
-      "url": "https://www.independent.co.uk/news/world/europe/las-vegas-gold-clark-county-associated-press-mike-tyson-b3087615.html",
-      "source": "The Independent",
-      "published": "2026-11-19T01:16:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Operation Vivaldi: Ukraine melds man and machine to repel Russians",
-      "url": "https://www.japantimes.co.jp/news/2026/11/19/world/operation-vivaldi-ukraine-russia/",
+      "title": "Nagoya animation festival celebrates human-made art",
+      "url": "https://www.japantimes.co.jp/culture/2026/11/19/film/aniaff-nagoya-animation-festival/",
       "source": "Japan Times",
-      "published": "2026-11-19T01:15:00+00:00",
+      "published": "2026-11-19T01:45:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Settler rams into Palestinians at multiple locations in central Israel",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/settler-rams-into-palestinians-at-multiple-locations-in-central-israel?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-19T01:13:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pre-Christmas rate hike unlikely as unemployment rate jumps to highest level in five years",
-      "url": "https://www.theguardian.com/business/2026/nov/19/unemployment-rate-jumps-highest-level-five-years-job-figures",
-      "source": "The Guardian",
-      "published": "2026-11-19T01:12:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan PM Takaichi spoke with Russia’s Putin at APEC summit: Foreign ministry",
-      "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-spoke-with-russias-putin-at-apec-summit-foreign-ministry",
-      "source": "Straits Times",
-      "published": "2026-11-19T01:12:00+00:00",
+      "title": "US senators push for stronger military space ties with NZ",
+      "url": "https://www.rnz.co.nz/news/business/2680366/us-senators-push-for-stronger-military-space-ties-with-nz",
+      "source": "RNZ",
+      "published": "2026-11-19T01:44:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1082,10 +1104,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 59461.54,
+        "price": 59052.45,
         "currency": "JPY",
-        "change": 437.26,
-        "change_percent": 0.74,
+        "change": 28.17,
+        "change_percent": 0.05,
         "name": "Nikkei 225"
       },
       {
@@ -1108,10 +1130,10 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3750.5,
+        "price": 3754.6,
         "currency": "USD",
-        "change": 8.6,
-        "change_percent": 0.23,
+        "change": 12.7,
+        "change_percent": 0.34,
         "name": "Gold"
       },
       {
@@ -1124,10 +1146,10 @@
       },
       {
         "symbol": "BZ=F",
-        "price": 89.42,
+        "price": 89.81,
         "currency": "USD",
-        "change": 0.25,
-        "change_percent": 0.28,
+        "change": 0.64,
+        "change_percent": 0.72,
         "name": "Brent Crude"
       },
       {
@@ -1135,7 +1157,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.02,
+        "change_percent": -0.05,
         "name": "EUR/USD"
       },
       {
@@ -1143,23 +1165,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.08,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.34,
+        "price": 159.38,
         "currency": "JPY",
-        "change": 0.06,
-        "change_percent": 0.04,
+        "change": 0.1,
+        "change_percent": 0.07,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 62555.93,
+        "price": 62700.0,
         "currency": "USD",
-        "change": -431.36,
-        "change_percent": -0.68,
+        "change": -287.29,
+        "change_percent": -0.46,
         "name": "Bitcoin"
       }
     ],
@@ -1354,6 +1376,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Everything Is Breaking",
+          "url": "https://www.theatlantic.com/technology/2026/11/why-mass-digital-outages/689501/?utm_source=feed",
+          "published": "2026-11-19T01:32:00+00:00",
+          "snippet": "Three theories that explain the internet outages"
+        },
+        {
           "title": "‘No Take, Only Throw’ Politics",
           "url": "https://www.theatlantic.com/ideas/2026/11/no-take-only-throw-democrats-budget-taxes/689497/?utm_source=feed",
           "published": "2026-11-18T22:35:33+00:00",
@@ -1363,13 +1391,7 @@
           "title": "Jared Kushner’s Undisclosed Investment",
           "url": "https://www.theatlantic.com/politics/2026/11/jared-kushner-affinity-arxis/689488/?utm_source=feed",
           "published": "2026-11-18T21:53:51+00:00",
-          "snippet": "SEC filings reveal the president’s son-in-law is negotiating for peace while profiting from war."
-        },
-        {
-          "title": "Election Denialism Is All but Dead",
-          "url": "https://www.theatlantic.com/ideas/2026/11/election-denialism-end-midterms/689495/?utm_source=feed",
-          "published": "2026-11-18T20:16:00+00:00",
-          "snippet": "Nearly six years after the attack on the Capitol, the Big Lie might finally be ebbing as a defining force in American politics."
+          "snippet": "SEC filings reveal that the president’s son-in-law is negotiating for peace while profiting from war."
         }
       ]
     },
@@ -1452,37 +1474,60 @@
   "web": {
     "tech": [
       {
+        "title": "AI Will Not Make You Rich (2025)",
+        "url": "https://colossus.com/article/ai-will-not-make-you-rich/",
+        "score": 3,
+        "source": "Hacker News",
+        "published": "2026-11-19T01:51:28+00:00"
+      },
+      {
+        "title": "Incidents in the news",
+        "url": "https://surfingcomplexity.blog/2026/11/18/incidents-in-the-news/",
+        "comments_url": "https://lobste.rs/s/gpqw7o/incidents_news",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-19T01:45:23.888000+00:00"
+      },
+      {
+        "title": "Security advisories: multiple vulnerabilities in Regexp and String case conversion",
+        "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+        "comments_url": "https://lobste.rs/s/hsmtyg/security_advisories_multiple",
+        "score": 3,
+        "source": "Lobste.rs",
+        "published": "2026-11-19T01:26:37.275000+00:00"
+      },
+      {
         "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
         "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model/",
-        "score": 40,
+        "score": 68,
         "source": "Hacker News",
         "published": "2026-11-19T00:29:45+00:00"
       },
       {
         "title": "Fable: Written, painted and directed by Claude Fable 5.2",
         "url": "https://claudia.gallery/fable/",
-        "score": 22,
+        "score": 32,
         "source": "Hacker News",
         "published": "2026-11-19T00:18:18+00:00"
       },
       {
         "title": "We need smart people who give a shit",
         "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-        "score": 191,
+        "score": 218,
         "source": "Hacker News",
         "published": "2026-11-18T23:53:49+00:00"
       },
       {
         "title": "Multiple vulnerabilities in Regexp and String case conversion",
         "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-        "score": 55,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-18T23:52:50+00:00"
       },
       {
         "title": "Anthropic prices initial public offering",
         "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-        "score": 36,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-18T23:30:09+00:00"
       },
@@ -1497,14 +1542,14 @@
       {
         "title": "LLM assisted reverse engineering",
         "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-        "score": 52,
+        "score": 63,
         "source": "Hacker News",
         "published": "2026-11-18T22:29:13+00:00"
       },
       {
         "title": "Gemini 4 Neon",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-        "score": 422,
+        "score": 455,
         "source": "Hacker News",
         "published": "2026-11-18T21:34:07+00:00"
       },
@@ -1520,7 +1565,7 @@
         "title": "Stricter checks for uploaded distributions on PyPI",
         "url": "https://blog.pypi.org/posts/2026-11-18-stricter-checks-for-uploaded-sdists/",
         "comments_url": "https://lobste.rs/s/kfpoos/stricter_checks_for_uploaded",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-18T20:00:42.222000+00:00"
       },
@@ -1528,40 +1573,16 @@
         "title": "Upcoming Critical PHP Security Release (18 Nov 2026)",
         "url": "https://www.php.net/index.php#2026-11-18-1",
         "comments_url": "https://lobste.rs/s/zr0hkw/upcoming_critical_php_security_release",
-        "score": 18,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-18T19:44:06.571000+00:00"
       },
       {
         "title": "DaisyRose-27B",
         "url": "https://www.radixark.com/blog/daisyrose-27b",
-        "score": 136,
+        "score": 139,
         "source": "Hacker News",
         "published": "2026-11-18T19:39:16+00:00"
-      },
-      {
-        "title": "Why Fibonacci?",
-        "url": "https://www.evilgeniuslabs.org/why-fibonacci",
-        "comments_url": "https://lobste.rs/s/46nwql/why_fibonacci",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-18T18:28:22.187000+00:00"
-      },
-      {
-        "title": "Faster CI with Orchestrated Pytest Workers",
-        "url": "https://making.close.com/posts/faster-ci-with-orchestrated-pytest-workers/",
-        "comments_url": "https://lobste.rs/s/3kdl1p/faster_ci_with_orchestrated_pytest",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-18T18:13:35.717000+00:00"
-      },
-      {
-        "title": "IPv6 delegation, an unusually subtle failure mode",
-        "url": "https://savyasacheejha.com/posts/why-odhcpd/",
-        "comments_url": "https://lobste.rs/s/inj0dn/ipv6_delegation_unusually_subtle",
-        "score": 12,
-        "source": "Lobste.rs",
-        "published": "2026-11-18T17:52:22.985000+00:00"
       }
     ],
     "reddit": [

@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T01:30:56.252584+00:00",
+  "last_updated": "2026-11-20T02:01:04.793753+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 615
+      "ms": 571
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 618
+      "ms": 117
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 182
+      "ms": 243
     },
     "BBC News": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 116
+      "ms": 276
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 328
+      "ms": 282
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 487
+      "ms": 760
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 514
+      "ms": 68
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 868
+      "ms": 655
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 128
+      "ms": 115
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 159
+      "ms": 76
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 786
+      "ms": 384
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 321
+      "ms": 1001
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 176
+      "ms": 269
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 369
+      "ms": 331
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 157
+      "ms": 76
     },
     "RNZ": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 260
+      "ms": 118
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 906
+      "ms": 728
     },
     "Semafor": {
       "ok": true,
       "count": 286,
       "error": null,
-      "ms": 945
+      "ms": 820
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 774
+      "ms": 616
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 365
+      "ms": 295
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 287
+      "ms": 183
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 375
+      "ms": 155
     },
     "The Independent": {
       "ok": true,
-      "count": 78,
+      "count": 79,
       "error": null,
-      "ms": 327
+      "ms": 251
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 370
+      "ms": 149
     }
   },
   "breaking": [
+    {
+      "title": "Fiona the hippo dies after eating a hat at Cincinnati Zoo",
+      "url": "https://www.abc.net.au/news/2026-11-20/fiona-the-hippo-dies-at-cincinnati-zoo-after-eating-hat/107407952",
+      "source": "ABC Australia",
+      "published": "2026-11-20T00:49:01+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+          "published": "2026-11-19T23:40:29+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+          "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
+          "published": "2026-11-19T22:09:55+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/fiona-the-hippo-dead-hat-cincinnati-zoo-b3088276.html",
+          "title": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
+          "published": "2026-11-19T21:28:46+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
     {
       "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
       "url": "http://www.africanews.com/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv/",
@@ -199,28 +227,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Fiona the hippo dies after eating a hat at Cincinnati Zoo",
-      "url": "https://www.abc.net.au/news/2026-11-20/fiona-the-hippo-dies-at-cincinnati-zoo-after-eating-hat/107407952",
-      "source": "ABC Australia",
-      "published": "2026-11-20T00:49:01+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-          "published": "2026-11-19T23:40:29+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
-          "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
-          "published": "2026-11-19T22:09:55+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "White House fires national cyber director over widespread outages",
       "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
       "source": "France24",
@@ -243,7 +249,7 @@
       "consensus": 3.0
     },
     {
-      "title": "Democrats say law firm gave $11.8m worth of service to Trump administration",
+      "title": "Democrats say law firm gave $11.8m in free services to Trump administration",
       "url": "https://www.aljazeera.com/news/2026/11/20/democrats-say-law-firm-gave-11-8m-worth-of-service-to-trump-administration?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-20T01:10:06+00:00",
@@ -275,36 +281,36 @@
       "consensus": 2.5
     },
     {
-      "title": "Thomas Markle is competent to face child sexual abuse material charges, judge rules",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-fit-for-trial-mentally-competen-b3088332.html",
-      "source": "The Independent",
-      "published": "2026-11-19T22:50:38+00:00",
+      "title": "U.S. religious freedom panel says India is targeting minorities in voter roll revisions",
+      "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-says-india-is-targeting-minorities-in-voter-roll-revisions/article71722894.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T01:37:32+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/thomas-markle-meghan-fit-stand-trial-9.7428903?cmp=rss",
-          "title": "Judge declares Meghan Markle's father fit to face charges related to child sexual abuse images",
-          "published": "2026-11-19T22:20:43+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/us-religious-freedom-panel-says-india-is-targeting-minorities-in-voter-roll-revisions",
+          "title": "US religious freedom panel says India is targeting minorities in voter roll revisions",
+          "published": "2026-11-19T23:45:19+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
-      "title": "World-famous hippo Fiona dies in US days after swallowing visitor’s hat",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375134/world-famous-hippo-fiona-dies-us-days-after-swallowing-visitors-hat",
-      "source": "SCMP",
-      "published": "2026-11-19T22:36:05+00:00",
+      "title": "How did Anthropic's stock market debut unfold?",
+      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-19T23:52:25+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/fiona-the-hippo-dead-hat-cincinnati-zoo-b3088276.html",
-          "title": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
-          "published": "2026-11-19T21:28:46+00:00"
+          "source": "El País",
+          "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
+          "title": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
+          "published": "2026-11-19T18:19:49+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -605,28 +611,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Putin Vows ‘Painful’ Retaliation to Crimean Bridge Attacks",
-      "url": "https://www.themoscowtimes.com/2026/11/19/putin-vows-painful-retaliation-to-crimean-bridge-attacks-a94315",
-      "source": "The Moscow Times",
-      "published": "2026-11-19T13:35:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-          "published": "2026-11-19T13:07:35+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-strike-crimean-bridge-6565221",
-          "title": "Ukraine strikes Crimean Bridge for third time in a week ahead of US-China-Russia summit",
-          "published": "2026-11-19T07:38:31+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Riyadh's tallest building damaged as Saudi reports new Houthi attacks",
       "url": "https://www.thehindu.com/news/international/riyadhs-tallest-building-damaged-as-saudi-reports-new-houthi-attacks/article71721448.ece",
       "source": "The Hindu",
@@ -671,6 +655,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Thomas Markle is competent to face child sexual abuse material charges, judge rules",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-fit-for-trial-mentally-competen-b3088332.html",
+      "source": "The Independent",
+      "published": "2026-11-19T22:50:38+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/thomas-markle-meghan-fit-stand-trial-9.7428903?cmp=rss",
+          "title": "Judge declares Meghan Markle's father fit to face charges related to child sexual abuse images",
+          "published": "2026-11-19T22:20:43+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Major anti-gang offensive in Haiti kills 34 suspected gang members",
       "url": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
       "source": "France24",
@@ -682,6 +682,22 @@
           "url": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid?traffic_source=rss",
           "title": "Haiti police say at least 34 suspected gang members killed in raid",
           "published": "2026-11-19T21:39:39+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Ukraine strikes Crimea bridge for third time in a week in devastating blow to Putin",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-third-crimea-bridge-attack-zelensky-putin-b3087883.html",
+      "source": "The Independent",
+      "published": "2026-11-19T21:00:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/ukraine-russia-strike-crimean-bridge-6565221",
+          "title": "Ukraine strikes Crimean Bridge for third time in a week ahead of US-China-Russia summit",
+          "published": "2026-11-19T07:38:31+00:00"
         }
       ],
       "consensus": 2.5
@@ -885,22 +901,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Fiji declares nationwide disaster as El Nino drought reaches crisis levels",
-      "url": "https://www.rfi.fr/en/environment/20261119-fiji-declares-nationwide-disaster-as-el-nino-drought-reaches-crisis-levels",
-      "source": "RFI English",
-      "published": "2026-11-19T01:37:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australianz/fiji-declares-state-of-disaster-amid-el-nino-driven-drought",
-          "title": "Fiji declares state of disaster amid El Nino-driven drought",
-          "published": "2026-11-19T01:10:08+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Iran strikes U.S. air base in Kuwait, targets Bahrain amid wider Gulf attacks",
       "url": "https://www.thehindu.com/news/international/iran-army-says-it-targeted-us-military-base-in-kuwait/article71715048.ece",
       "source": "The Hindu",
@@ -981,22 +981,6 @@
       "consensus": 2.5
     },
     {
-      "title": "How did Anthropic's stock market debut unfold?",
-      "url": "https://www.bbc.co.uk/news/videos/cwg7l01vg081o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-19T23:52:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-19/anthropic-debuts-with-sharp-gains-in-the-largest-ipo-in-history.html",
-          "title": "Anthropic soars 34% on its stock market debut and nears a valuation of $2 trillion",
-          "published": "2026-11-19T18:19:49+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Four men guilty of sex crimes against woman drugged by husband in UK case with echoes of Pelicot",
       "url": "https://www.channelnewsasia.com/world/four-men-guilty-sex-crimes-against-woman-drugged-husband-in-uk-case-echoes-pelicot-6567281",
       "source": "CNA",
@@ -1029,6 +1013,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Putin Vows ‘Painful’ Retaliation to Crimean Bridge Attacks",
+      "url": "https://www.themoscowtimes.com/2026/11/19/putin-vows-painful-retaliation-to-crimean-bridge-attacks-a94315",
+      "source": "The Moscow Times",
+      "published": "2026-11-19T13:35:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+          "published": "2026-11-19T13:07:35+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "South Korea’s Lee hopes reopening talks with North Korea could lead to lasting peace",
       "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/south-korea-lee-north-korea-peace/",
       "source": "Japan Times",
@@ -1040,22 +1040,6 @@
           "url": "https://www.straitstimes.com/asia/south-koreas-lee-says-hopes-reopening-talks-with-north-korea-could-lead-to-lasting-peace",
           "title": "South Korea's Lee says hopes reopening talks with North Korea could lead to lasting peace",
           "published": "2026-11-19T07:30:12+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Thai floods expose waste pollution in ‘garbage dump’ region",
-      "url": "https://www.straitstimes.com/asia/se-asia/thai-floods-expose-waste-pollution-in-garbage-dump-region",
-      "source": "Straits Times",
-      "published": "2026-11-19T07:45:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/19/asia-pacific/science-health/thai-floods-pollution-garbage-dump/",
-          "title": "Thai floods expose waste pollution in ‘garbage dump’ region",
-          "published": "2026-11-19T07:27:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -1139,6 +1123,22 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "France: Hundreds raise a glass to Beaujolais Nouveau in Lyon",
+      "url": "http://www.africanews.com/2026/11/19/france-hundreds-raise-a-glass-to-beaujolais-nouveau-in-lyon/",
+      "source": "Africanews",
+      "published": "2026-11-19T06:29:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/19/france-hundreds-raise-a-glass-to-beaujolais-nouveau-in-lyon",
+          "title": "France: Hundreds raise a glass to Beaujolais Nouveau in Lyon",
+          "published": "2026-11-19T06:29:05+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1211,10 +1211,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57116.77,
+        "price": 56926.51,
         "currency": "JPY",
-        "change": -2327.44,
-        "change_percent": -3.92,
+        "change": -2517.7,
+        "change_percent": -4.24,
         "name": "Nikkei 225"
       },
       {
@@ -1237,26 +1237,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3588.4,
+        "price": 3571.4,
         "currency": "USD",
-        "change": -97.1,
-        "change_percent": -2.63,
+        "change": -114.1,
+        "change_percent": -3.1,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.11,
+        "price": 41.9,
         "currency": "USD",
-        "change": -2.25,
-        "change_percent": -5.07,
+        "change": -2.46,
+        "change_percent": -5.55,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.65,
+        "price": 90.06,
         "currency": "USD",
-        "change": 0.21,
-        "change_percent": 0.23,
+        "change": 0.62,
+        "change_percent": 0.69,
         "name": "Brent Crude"
       },
       {
@@ -1264,7 +1264,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.01,
+        "change_percent": -0.07,
         "name": "EUR/USD"
       },
       {
@@ -1272,23 +1272,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": -0.07,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.42,
+        "price": 159.28,
         "currency": "JPY",
-        "change": -0.19,
-        "change_percent": -0.12,
+        "change": -0.33,
+        "change_percent": -0.2,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 62360.68,
+        "price": 61453.01,
         "currency": "USD",
-        "change": 455.92,
-        "change_percent": 0.74,
+        "change": -451.75,
+        "change_percent": -0.73,
         "name": "Bitcoin"
       }
     ],
@@ -1383,6 +1383,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Denmark’s real-life Truman Show backfires",
+          "url": "https://theweek.com/culture-life/tv-radio/denmarks-real-life-truman-show-backfires",
+          "published": "2026-11-20T01:33:46+00:00",
+          "snippet": "Reality show panned for duping an aspiring film director into thinking he was making a movie"
+        },
+        {
           "title": "The United Nations aims to curb ‘killer robots’",
           "url": "https://theweek.com/politics/can-the-un-keep-killer-robots-under-control",
           "published": "2026-11-19T19:25:07+00:00",
@@ -1393,12 +1399,6 @@
           "url": "https://theweek.com/politics/who-democrats-investigate-new-congress",
           "published": "2026-11-19T17:57:57+00:00",
           "snippet": "Democrats have promised probes into the Trump administration and his family"
-        },
-        {
-          "title": "Magazine solutions - Nov. 27, 2026",
-          "url": "https://theweek.com/puzzles/magazine-solutions-nov-27-2026",
-          "published": "2026-11-19T17:06:21+00:00",
-          "snippet": "Magazine solutions - Nov. 27, 2026"
         }
       ]
     },
@@ -1458,22 +1458,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "UK and EU poised to finalise deal to ‘reset’ relations",
-          "url": "https://www.ft.com/content/912a7730-2428-4d4c-8dde-9c41a99ab562?syn-25a6b1a6=1",
-          "published": "2026-11-19T22:44:56+00:00",
-          "snippet": "Andy Burnham due to seal accord that will improve British trade with the bloc after dispute resolved with France"
+          "title": "A thaw in India’s ties with Pakistan?",
+          "url": "https://www.ft.com/content/c27362fd-e138-4b32-8875-1e52ce4a4e05?syn-25a6b1a6=1",
+          "published": "2026-11-20T01:30:02+00:00",
+          "snippet": "Plus, Amazon’s $7bn investment"
         },
         {
-          "title": "Australian PM to meet Xi Jinping as iron ore tensions loom",
-          "url": "https://www.ft.com/content/ddbf0f75-047a-421a-87c0-3e60bf42ed22?syn-25a6b1a6=1",
-          "published": "2026-11-19T21:00:10+00:00",
-          "snippet": "Prime Minister Anthony Albanese to hold bilateral talks with China’s president on Friday"
+          "title": "US approved sale of Nvidia and AMD chips to Chinese companies",
+          "url": "https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1",
+          "published": "2026-11-20T00:42:44+00:00",
+          "snippet": "Pentagon believes some of the groups were associated with the People’s Liberation Army"
         },
         {
-          "title": "Law firms that caved to Trump brace for scrutiny from new Congress",
-          "url": "https://www.ft.com/content/4e712188-9dfc-4e2a-b997-3dacde95bf08?syn-25a6b1a6=1",
-          "published": "2026-11-19T20:35:00+00:00",
-          "snippet": "Firms are hiring outside lawyers as Democrats probe deals they struck with the president"
+          "title": "Lenders aim to bar SpaceX from launching $40bn of chips into orbit",
+          "url": "https://www.ft.com/content/33b5643c-2957-4d42-9116-5e34a3c54e29?syn-25a6b1a6=1",
+          "published": "2026-11-20T00:15:12+00:00",
+          "snippet": "Investors in latest semiconductor financing demand legal protection for coveted collateral"
         }
       ]
     },
@@ -1583,28 +1583,28 @@
       {
         "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
         "url": "https://git-aarvin.github.io/mei/",
-        "score": 74,
+        "score": 109,
         "source": "Hacker News",
         "published": "2026-11-19T23:35:35+00:00"
       },
       {
         "title": "Visa, Mastercard and JPMorgan Customer Data Leaked by Hackers",
         "url": "https://www.wsj.com/finance/banking/visa-mastercard-and-jpmorgan-customer-data-leaked-by-hackers-3b5a0f87",
-        "score": 73,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-19T23:32:11+00:00"
       },
       {
         "title": "RegExr: Temporarily Offline",
         "url": "https://regexr.com/",
-        "score": 43,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-19T22:27:07+00:00"
       },
       {
         "title": "Synology Security Advisory",
         "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
-        "score": 97,
+        "score": 102,
         "source": "Hacker News",
         "published": "2026-11-19T22:13:40+00:00"
       },
@@ -1635,7 +1635,7 @@
       {
         "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
         "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
-        "score": 72,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-19T18:47:16+00:00"
       },
@@ -1666,28 +1666,28 @@
       {
         "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
         "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-        "score": 195,
+        "score": 204,
         "source": "Hacker News",
         "published": "2026-11-19T18:35:17+00:00"
       },
       {
         "title": "Claude solves two open problems in the physics of black holes",
         "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-        "score": 374,
+        "score": 390,
         "source": "Hacker News",
         "published": "2026-11-19T17:30:44+00:00"
       },
       {
         "title": "Pancreatic cancer halted by virus injection in three patients",
         "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-        "score": 573,
+        "score": 597,
         "source": "Hacker News",
         "published": "2026-11-19T17:25:33+00:00"
       },
       {
         "title": "Anthropic’s Nasdaq debut",
         "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
-        "score": 895,
+        "score": 917,
         "source": "Hacker News",
         "published": "2026-11-19T17:02:40+00:00"
       }

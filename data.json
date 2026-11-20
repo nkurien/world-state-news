@@ -1,153 +1,203 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T13:01:21.489050+00:00",
+  "last_updated": "2026-11-20T13:31:01.134624+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 232
+      "ms": 153
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 334
+      "ms": 135
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 195
+      "ms": 317
     },
     "BBC News": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 222
+      "ms": 264
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 229
+      "ms": 393
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 125
+      "ms": 277
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 194
+      "ms": 529
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 412
+      "ms": 291
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 47
+      "ms": 111
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 139
+      "ms": 430
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 298
+      "ms": 385
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 364
+      "ms": 281
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 126
+      "ms": 123
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 527
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 202
+      "ms": 423
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 300
+      "ms": 305
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 514
+      "ms": 535
     },
     "Semafor": {
       "ok": true,
-      "count": 289,
+      "count": 284,
       "error": null,
-      "ms": 548
+      "ms": 478
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 511
+      "ms": 772
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 284
+      "ms": 333
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 97
+      "ms": 82
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 240
+      "ms": 208
     },
     "The Independent": {
       "ok": true,
-      "count": 78,
+      "count": 79,
       "error": null,
-      "ms": 196
+      "ms": 159
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 826
+      "ms": 150
     }
   },
   "breaking": [
+    {
+      "title": "White House removes cyber-security chief after series of tech outages",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-20T13:28:32+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/us-appoints-new-cybersecurity-chief-after-series-of-tech-failures?traffic_source=rss",
+          "title": "US appoints new cybersecurity chief after series of tech failures",
+          "published": "2026-11-20T11:26:28+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/white-house-fires-cybersecurity-chief-after-widespread-outages/article71722952.ece",
+          "title": "White House fires cybersecurity chief after widespread outages",
+          "published": "2026-11-20T08:05:47+00:00"
+        },
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "White House replaces cyber security chief after tech outages",
+          "published": "2026-11-20T04:21:00+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Mamdani unveils plan to close Rikers Island, New York’s notorious jail plagued by allegations of abuse, violence and death",
+      "url": "https://english.elpais.com/usa/2026-11-20/mamdani-unveils-plan-to-close-rikers-island-new-yorks-notorious-jail-plagued-by-allegations-of-abuse-violence-and-death.html",
+      "source": "El País",
+      "published": "2026-11-20T12:41:54+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/mamdani-rikers-island-jail-closing-b3088549.html",
+          "title": "Mamdani unveils bold plan to close notorious Rikers Island jail",
+          "published": "2026-11-20T10:23:44+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani",
+          "title": "Zohran Mamdani unveils plan to close Rikers Island jail complex",
+          "published": "2026-11-20T10:00:30+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
     {
       "title": "Malaysia plans to resettle 10,000 Rohingya in Turkiye",
       "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece",
@@ -182,38 +232,6 @@
           "url": "https://www.channelnewsasia.com/world/russia-strike-ukraine-invasion-putin-missile-drone-6568896",
           "title": "Russia pummels Ukraine after Putin vowed 'painful' attack",
           "published": "2026-11-20T09:21:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
-      "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-20T11:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
-          "title": "The U.K. and EU hold a rare summit to strengthen ties",
-          "published": "2026-11-20T09:14:41+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US appoints new cybersecurity chief after series of tech failures",
-      "url": "https://www.aljazeera.com/news/2026/11/20/us-appoints-new-cybersecurity-chief-after-series-of-tech-failures?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-20T11:26:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-          "title": "White House removes cyber-security chief after series of tech outages",
-          "published": "2026-11-20T09:37:59+00:00"
         }
       ],
       "consensus": 2.5
@@ -289,7 +307,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-19T20:07:02+00:00",
-      "score": 11,
+      "score": 10,
       "other_sources": [
         {
           "source": "CBC World",
@@ -340,19 +358,13 @@
           "published": "2026-11-19T11:39:00+00:00"
         },
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/international/2026-11-19/the-uns-top-court-finds-myanmars-military-killed-thousands-of-rohingya-and-subjected-them-to-extreme-violence.html",
-          "title": "The International Court of Justice finds Myanmar committed genocide against the Rohingya",
-          "published": "2026-11-19T11:21:23+00:00"
-        },
-        {
           "source": "RFI English",
           "url": "https://www.rfi.fr/en/international/20261119-myanmar-guilty-of-genocide-against-rohingya-says-top-un-court",
           "title": "Myanmar guilty of genocide against Rohingya, says top UN court",
           "published": "2026-11-19T03:07:41+00:00"
         }
       ],
-      "consensus": 11.5
+      "consensus": 10.5
     },
     {
       "title": "China paints Xi as maker of historic talks with Trump, Putin",
@@ -573,6 +585,22 @@
       "consensus": 2.5
     },
     {
+      "title": "The U.K. and EU hold a rare summit to strengthen ties",
+      "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+      "source": "NPR World",
+      "published": "2026-11-20T09:14:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
+          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
+          "published": "2026-11-20T08:45:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russian strikes damage two bridges in Kyiv: Mayor",
       "url": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
       "source": "The Hindu",
@@ -600,22 +628,6 @@
           "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
           "title": "China threatens retaliation against US chip curbs",
           "published": "2026-11-17T22:58:16+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "White House replaces cyber security chief after tech outages",
-      "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-20T04:21:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375152/white-house-fires-cybersecurity-chief-after-tech-chaos-rattles-us",
-          "title": "White House fires cyber chief after tech chaos rattles US",
-          "published": "2026-11-20T03:04:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -744,38 +756,6 @@
           "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375257/vietnam-scraps-death-sentence-drug-trafficking",
           "title": "Vietnam scraps death sentence for drug trafficking",
           "published": "2026-11-20T11:13:26+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Rare EU-UK summit as Andy Burnham seeks to mend Brexit damage",
-      "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
-      "source": "France24",
-      "published": "2026-11-20T10:42:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
-          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
-          "published": "2026-11-20T08:45:16+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Mamdani unveils bold plan to close notorious Rikers Island jail",
-      "url": "https://www.independent.co.uk/news/world/americas/mamdani-rikers-island-jail-closing-b3088549.html",
-      "source": "The Independent",
-      "published": "2026-11-20T10:23:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani",
-          "title": "Zohran Mamdani unveils plan to close Rikers Island jail complex",
-          "published": "2026-11-20T10:00:30+00:00"
         }
       ],
       "consensus": 2.0
@@ -1021,28 +1001,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-20T12:56:48+00:00",
+      "title": "Why China is unwilling to be the world's next climate leader",
+      "url": "https://www.straitstimes.com/asia/why-china-is-unwilling-to-be-the-worlds-next-climate-leader",
+      "source": "Straits Times",
+      "published": "2026-11-20T13:25:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Himalaya-sized ancient 'supermountains' found beneath Antarctica's ice sheet",
-      "url": "https://www.euronews.com/2026/11/20/himalaya-sized-ancient-supermountains-found-beneath-antarcticas-ice-sheet",
-      "source": "Euronews",
-      "published": "2026-11-20T12:55:05+00:00",
+      "title": "Abu Dhabi court orders freeze on stolen Binance assets amid recovery efforts",
+      "url": "https://www.semafor.com/article/11/20/2026/abu-dhabi-court-orders-freeze-on-stolen-binance-assets-amid-recovery-efforts",
+      "source": "Semafor",
+      "published": "2026-11-20T13:25:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump team drops Alaska senate lawsuit after Democrat easily won the race",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-peltola-alaska-senate-lawsuit-b3088684.html",
+      "title": "Andy Burnham and EU leaders speak after reaching agreement on reset deal – live",
+      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-20T13:24:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "I’ve witnessed nearly 500 Texas executions. The death of Reinaldo Dennes was like no other",
+      "url": "https://www.independent.co.uk/news/world/americas/texas-execution-reinaldo-dennes-huntsville-b3088492.html",
       "source": "The Independent",
-      "published": "2026-11-20T12:48:49+00:00",
+      "published": "2026-11-20T13:24:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Missing two-year-old found in Arizona desert: ‘She was clinging to me so tight’",
+      "url": "https://www.independent.co.uk/news/world/americas/missing-child-vella-campillo-arizona-b3088667.html",
+      "source": "The Independent",
+      "published": "2026-11-20T13:23:49+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1059,10 +1057,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.42,
+      "price": 134.32,
       "currency": "GBP",
-      "change": -3.6,
-      "change_percent": -2.61,
+      "change": -3.7,
+      "change_percent": -2.68,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1075,10 +1073,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10355.09,
+      "price": 10345.37,
       "currency": "GBP",
-      "change": -97.59,
-      "change_percent": -0.93,
+      "change": -107.31,
+      "change_percent": -1.03,
       "name": "FTSE 100"
     }
   ],
@@ -1094,10 +1092,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10355.09,
+        "price": 10345.37,
         "currency": "GBP",
-        "change": -97.59,
-        "change_percent": -0.93,
+        "change": -107.31,
+        "change_percent": -1.03,
         "name": "FTSE 100"
       },
       {
@@ -1126,44 +1124,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24895.52,
+        "price": 24867.89,
         "currency": "EUR",
-        "change": -568.29,
-        "change_percent": -2.23,
+        "change": -595.92,
+        "change_percent": -2.34,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 7948.32,
+        "price": 7940.16,
         "currency": "EUR",
-        "change": -132.42,
-        "change_percent": -1.64,
+        "change": -140.58,
+        "change_percent": -1.74,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3568.6,
+        "price": 3568.1,
         "currency": "USD",
-        "change": -116.9,
-        "change_percent": -3.17,
+        "change": -117.4,
+        "change_percent": -3.19,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.14,
+        "price": 41.81,
         "currency": "USD",
-        "change": -2.22,
-        "change_percent": -5.0,
+        "change": -2.55,
+        "change_percent": -5.75,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.61,
+        "price": 89.23,
         "currency": "USD",
-        "change": 0.17,
-        "change_percent": 0.19,
+        "change": -0.21,
+        "change_percent": -0.23,
         "name": "Brent Crude"
       },
       {
@@ -1171,7 +1169,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.13,
+        "change_percent": 0.24,
         "name": "EUR/USD"
       },
       {
@@ -1179,23 +1177,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.18,
+        "change_percent": 0.23,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.71,
+        "price": 158.63,
         "currency": "JPY",
-        "change": -0.89,
-        "change_percent": -0.56,
+        "change": -0.97,
+        "change_percent": -0.61,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61517.57,
+        "price": 61426.19,
         "currency": "USD",
-        "change": -387.19,
-        "change_percent": -0.63,
+        "change": -478.57,
+        "change_percent": -0.77,
         "name": "Bitcoin"
       }
     ],
@@ -1365,22 +1363,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Russian missile barrage damages Kyiv bridges",
-          "url": "https://www.ft.com/content/d76c0ce7-ba3b-42b3-8efa-7724cc0900d7?syn-25a6b1a6=1",
-          "published": "2026-11-20T11:36:38+00:00",
-          "snippet": "Waves of attacks targeting Ukraine come on heels of trilateral meeting between US, Chinese and Russian leaders"
+          "title": "Burnham’s EU deal in brief",
+          "url": "https://www.ft.com/content/be7924c4-8e29-4630-82f3-f94001765d37?syn-25a6b1a6=1",
+          "published": "2026-11-20T12:45:08+00:00",
+          "snippet": "UK prime minister hopes Friday’s agreement is first step in a much closer post-Brexit relationship"
         },
         {
-          "title": "FirstFT: US approved sale of advanced AI chips to Chinese companies",
-          "url": "https://www.ft.com/content/5fbbe806-37d7-42e4-8235-ce9cbb3f2cdb?syn-25a6b1a6=1",
-          "published": "2026-11-20T11:03:38+00:00",
-          "snippet": "Also in today’s newsletter: tech stocks fall, and pensions eating everything"
+          "title": "New pancreatic cancer drug halts tumour growth in 90% of patients",
+          "url": "https://www.ft.com/content/6f8575e7-48df-4537-8c8d-73433f086e87?syn-25a6b1a6=1",
+          "published": "2026-11-20T12:17:51+00:00",
+          "snippet": "Successful small-scale trial raises hopes that new approach could be extended to other types of the disease"
         },
         {
-          "title": "General strike hits Italy as anger at Meloni grows",
-          "url": "https://www.ft.com/content/ced898eb-d752-414e-aeba-c85ce9717677?syn-25a6b1a6=1",
-          "published": "2026-11-20T11:00:24+00:00",
-          "snippet": "Workers and students protest against rising living costs and crumbling public services as Italian prime minister seeks re-election next year"
+          "title": "How Anthropic’s blockbuster IPO came together",
+          "url": "https://www.ft.com/content/149d497e-0567-4467-bcfb-269b8b8eb157?syn-25a6b1a6=1",
+          "published": "2026-11-20T12:02:46+00:00",
+          "snippet": "Fears about the AI trade did not damp enthusiasm for shares. But can the low-key company preserve its idiosyncratic culture in the glare of public markets?"
         }
       ]
     },
@@ -1390,22 +1388,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "The Worst Way to Judge Your Date",
+          "url": "https://www.theatlantic.com/family/2026/11/split-bill-first-date-debate/689516/?utm_source=feed",
+          "published": "2026-11-20T13:00:00+00:00",
+          "snippet": "Picking up the check isn’t as consequential as many people think."
+        },
+        {
+          "title": "My Week as a Kardashian",
+          "url": "https://www.theatlantic.com/health/2026/11/kardashian-products-week/689363/?utm_source=feed",
+          "published": "2026-11-20T13:00:00+00:00",
+          "snippet": "The Kardashians now have so many brands that approximating their lifestyle is more possible than ever before."
+        },
+        {
           "title": "Hollywood’s Worst Tendencies, in One Movie",
           "url": "https://www.theatlantic.com/culture/2026/11/hunger-games-sunrise-on-the-reaping-movie-review/689509/?utm_source=feed",
           "published": "2026-11-20T12:30:00+00:00",
           "snippet": "The Hunger Games franchise once found meaning in its violent spectacle."
-        },
-        {
-          "title": "Gerrymandering Is Still Bad",
-          "url": "https://www.theatlantic.com/ideas/2026/11/gerrymandering-redistricting-black-voters/689492/?utm_source=feed",
-          "published": "2026-11-20T12:30:00+00:00",
-          "snippet": "The fact that the practice didn’t succeed in thwarting the Black vote this time is not a point in its favor."
-        },
-        {
-          "title": "What War Has Brought Iran’s Opposition",
-          "url": "https://www.theatlantic.com/international/2026/11/iran-opposition-strategic-options/689510/?utm_source=feed",
-          "published": "2026-11-20T12:00:00+00:00",
-          "snippet": "Domestic repression and exile infighting leave few strategic options."
         }
       ]
     },
@@ -1499,7 +1497,7 @@
         "title": "DreamCoder: coding harness and IDE from the author of Mastering Emacs",
         "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
         "comments_url": "https://lobste.rs/s/ocdhli/dreamcoder_coding_harness_ide_from",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-20T11:14:06.928000+00:00"
       },
@@ -1514,7 +1512,7 @@
       {
         "title": "The Making of Oxygene",
         "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
-        "score": 53,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-20T10:41:10+00:00"
       },
@@ -1522,7 +1520,7 @@
         "title": "Removing binder.c",
         "url": "https://lwn.net/Articles/1102982/",
         "comments_url": "https://lobste.rs/s/vo5jve/removing_binder_c",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-20T10:33:36.402000+00:00"
       },
@@ -1530,14 +1528,14 @@
         "title": "Vim Classic 8.3.1 released",
         "url": "https://vim-classic.org/news/vim-8.3.1-released.html",
         "comments_url": "https://lobste.rs/s/kkglbw/vim_classic_8_3_1_released",
-        "score": 16,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-20T10:02:03.889000+00:00"
       },
       {
         "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
         "url": "https://architectlabs.com/blog/frostbite",
-        "score": 205,
+        "score": 246,
         "source": "Hacker News",
         "published": "2026-11-20T10:01:41+00:00"
       },
@@ -1552,21 +1550,21 @@
       {
         "title": "What people are building, discovered through new domains",
         "url": "https://startups.novumsignals.com/",
-        "score": 37,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-20T09:54:33+00:00"
       },
       {
         "title": "UK fridges secured from hackers",
         "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
-        "score": 67,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-20T09:52:20+00:00"
       },
       {
         "title": "If you can't explain something in simple terms, you don't understand it (2017)",
         "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-        "score": 104,
+        "score": 145,
         "source": "Hacker News",
         "published": "2026-11-20T09:43:19+00:00"
       },
@@ -1574,23 +1572,16 @@
         "title": "Announcing jj-musubi: live sync for Jujutsu",
         "url": "https://www.serpentine.com/posts/2026/announcing-jj-musubi/",
         "comments_url": "https://lobste.rs/s/tj1j4b/announcing_jj_musubi_live_sync_for",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-20T09:39:11.806000+00:00"
       },
       {
         "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
         "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
-        "score": 210,
+        "score": 231,
         "source": "Hacker News",
         "published": "2026-11-20T09:13:09+00:00"
-      },
-      {
-        "title": "\"I can tell you wrote this yourself\"",
-        "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-        "score": 255,
-        "source": "Hacker News",
-        "published": "2026-11-20T07:13:21+00:00"
       },
       {
         "title": "Persistent incrementality in Rust",
@@ -1599,6 +1590,13 @@
         "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-20T04:16:34.286000+00:00"
+      },
+      {
+        "title": "FFmpeg 9.1 'Gauss'",
+        "url": "https://ffmpeg.org/download.html#release_9.1",
+        "score": 194,
+        "source": "Hacker News",
+        "published": "2026-11-20T04:02:39+00:00"
       }
     ],
     "reddit": [

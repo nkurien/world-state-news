@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T12:01:14.369961+00:00",
+  "last_updated": "2026-11-20T12:13:51.090938+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 244
+      "ms": 390
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 126
+      "ms": 347
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 70
+      "ms": 156
     },
     "BBC News": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 40
+      "ms": 129
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 63
+      "ms": 219
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 156
+      "ms": 158
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 101
+      "ms": 136
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 400
+      "ms": 1075
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 45
+      "ms": 48
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 214
+      "ms": 69
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 325
+      "ms": 435
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 325
+      "ms": 270
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 81
+      "ms": 98
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 109
+      "ms": 167
     },
     "RFI English": {
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null,
-      "ms": 111
+      "ms": 196
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 135
+      "ms": 395
     },
     "SCMP": {
-      "ok": false,
-      "count": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
-      "ms": 3218
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 686
     },
     "Semafor": {
       "ok": true,
-      "count": 293,
+      "count": 294,
       "error": null,
-      "ms": 597
+      "ms": 550
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 386
+      "ms": 498
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 154
+      "ms": 256
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 187
+      "ms": 110
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 393
+      "ms": 200
     },
     "The Independent": {
       "ok": true,
-      "count": 77,
+      "count": 76,
       "error": null,
-      "ms": 212
+      "ms": 193
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 188
+      "ms": 207
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.euronews.com/2026/11/20/fiona-the-hippo-dies-after-swallowing-a-visitors-hat",
       "source": "Euronews",
       "published": "2026-11-20T09:29:48+00:00",
-      "score": 5,
+      "score": 6,
       "other_sources": [
         {
           "source": "The Independent",
@@ -178,9 +178,15 @@
           "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
           "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
           "published": "2026-11-19T23:40:29+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375134/world-famous-hippo-fiona-dies-us-days-after-swallowing-visitors-hat",
+          "title": "World-famous hippo Fiona dies in US days after swallowing visitor’s hat",
+          "published": "2026-11-19T22:36:05+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 6.5
     },
     {
       "title": "Myanmar calls international court ruling on Rohingya genocide 'unfair'",
@@ -211,6 +217,66 @@
       "consensus": 5.0
     },
     {
+      "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
+      "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-20T11:30:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+          "title": "The U.K. and EU hold a rare summit to strengthen ties",
+          "published": "2026-11-20T09:14:41+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
+          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
+          "published": "2026-11-20T08:45:16+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Malaysia plans to resettle 10,000 Rohingya in Turkiye",
+      "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T10:32:13+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375243/malaysia-plans-resettle-10000-rohingya-turkey",
+          "title": "Malaysia plans to resettle 10,000 Rohingya in Turkey",
+          "published": "2026-11-20T10:00:03+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-says-it-will-resettle-10000-rohingya-refugees-in-turkey",
+          "title": "Malaysia says it will resettle 10,000 Rohingya refugees in Turkey",
+          "published": "2026-11-20T07:50:23+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Russia pummels Ukraine after Putin vowed revenge, killing eight",
+      "url": "https://www.abc.net.au/news/2026-11-20/ukraine-russia-crimea-strikes-bridge-kyiv-power-outage-poland/107411538",
+      "source": "ABC Australia",
+      "published": "2026-11-20T11:58:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-strike-ukraine-invasion-putin-missile-drone-6568896",
+          "title": "Russia pummels Ukraine after Putin vowed 'painful' attack",
+          "published": "2026-11-20T09:21:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "UK says EU reset deal agreed but talks will continue ‘in some areas’ – live",
       "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
       "source": "The Guardian",
@@ -222,38 +288,6 @@
           "url": "https://www.aljazeera.com/news/2026/11/20/eu-and-uk-seal-reset-deal?traffic_source=rss",
           "title": "EU and UK seal reset deal",
           "published": "2026-11-20T11:20:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Trump 'open' to NATO-like security guarantee for Ukraine",
-      "url": "https://www.semafor.com/article/11/20/2026/trump-open-to-giving-kyiv-a-nato-like-security-guarantee",
-      "source": "Semafor",
-      "published": "2026-11-20T11:31:01+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/kushner-trump-open-to-nato-like-security-guarantees-for-ukraine?traffic_source=rss",
-          "title": "Kushner: Trump open to NATO-like security guarantees for Ukraine",
-          "published": "2026-11-20T04:44:53+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "EU and UK hold a rare summit in bid to 'rebuild ties'",
-      "url": "https://www.dw.com/en/eu-and-uk-hold-a-rare-summit-in-bid-to-rebuild-ties/a-80001076?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-20T11:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
-          "title": "The U.K. and EU hold a rare summit to strengthen ties",
-          "published": "2026-11-20T09:14:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -286,22 +320,6 @@
           "url": "http://www.africanews.com/2026/11/19/our-culture-and-identity-deaf-nigerians-fight-to-preserve-indigenous-sign-languages/",
           "title": "'Our culture and identity': Deaf Nigerians fight to preserve indigenous sign languages",
           "published": "2026-11-19T17:02:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Iraqi forces enter stronghold of Iran-backed group under compromise deal",
-      "url": "https://www.channelnewsasia.com/world/iraqi-forces-enter-stronghold-iran-backed-group-under-compromise-deal-6569101",
-      "source": "CNA",
-      "published": "2026-11-20T10:48:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
-          "title": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal",
-          "published": "2026-11-20T08:37:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -525,6 +543,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Iraqi forces enter stronghold of Iran-backed group under compromise deal",
+      "url": "https://www.channelnewsasia.com/world/iraqi-forces-enter-stronghold-iran-backed-group-under-compromise-deal-6569101",
+      "source": "CNA",
+      "published": "2026-11-20T10:48:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261120-iraqi-security-forces-to-deploy-in-hezbollah-stronghold-under-compromise-deal",
+          "title": "Iraqi security forces deploy in Hezbollah stronghold under compromise deal",
+          "published": "2026-11-20T08:37:27+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Outcry as fossil fuels scrubbed from draft UN climate deal",
       "url": "https://www.france24.com/en/video/20261120-outcry-as-fossil-fuels-scrubbed-from-draft-un-climate-deal",
       "source": "France24",
@@ -584,6 +618,22 @@
           "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
           "title": "China threatens retaliation against US chip curbs",
           "published": "2026-11-17T22:58:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "White House replaces cyber security chief after tech outages",
+      "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-20T04:21:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375152/white-house-fires-cybersecurity-chief-after-tech-chaos-rattles-us",
+          "title": "White House fires cyber chief after tech chaos rattles US",
+          "published": "2026-11-20T03:04:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -717,33 +767,33 @@
       "consensus": 2.5
     },
     {
-      "title": "Rare EU-UK summit as Andy Burnham seeks to mend Brexit damage",
-      "url": "https://www.france24.com/en/video/20261120-rare-eu-uk-summit-as-andy-burnham-seeks-to-mend-brexit-damage",
-      "source": "France24",
-      "published": "2026-11-20T10:42:14+00:00",
+      "title": "Nigeria moves to end prison sentences for attempted suicide",
+      "url": "https://www.rfi.fr/en/africa/20261120-nigeria-moves-to-end-prison-sentences-for-attempted-suicide",
+      "source": "RFI English",
+      "published": "2026-11-20T12:07:08+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
-          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
-          "published": "2026-11-20T08:45:16+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
+          "title": "Nigeria moves to end jail terms for attempted suicide",
+          "published": "2026-11-20T06:32:17+00:00"
         }
       ],
       "consensus": 2.0
     },
     {
-      "title": "Malaysia plans to resettle 10,000 Rohingya in Turkiye",
-      "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T10:32:13+00:00",
+      "title": "Vietnam scraps capital punishment for drug trafficking",
+      "url": "https://www.straitstimes.com/asia/se-asia/vietnam-scraps-capital-punishment-for-drug-trafficking",
+      "source": "Straits Times",
+      "published": "2026-11-20T11:28:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-says-it-will-resettle-10000-rohingya-refugees-in-turkey",
-          "title": "Malaysia says it will resettle 10,000 Rohingya refugees in Turkey",
-          "published": "2026-11-20T07:50:23+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375257/vietnam-scraps-death-sentence-drug-trafficking",
+          "title": "Vietnam scraps death sentence for drug trafficking",
+          "published": "2026-11-20T11:13:26+00:00"
         }
       ],
       "consensus": 2.0
@@ -808,6 +858,22 @@
           "url": "https://www.straitstimes.com/asia/se-asia/indonesias-prabowo-chinas-xi-discuss-future-south-china-sea-cooperation",
           "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
           "published": "2026-11-20T06:32:50+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Malaysia’s Negeri Sembilan palace denies asking chief minister to stay in office",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375217/malaysias-negeri-sembilan-palace-denies-asking-chief-minister-stay-office",
+      "source": "SCMP",
+      "published": "2026-11-20T08:18:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/ismail-lasim-to-remain-as-chief-minister-in-malaysias-negeri-sembilan",
+          "title": "Negeri Sembilan chief minister Ismail Lasim to stay on, denies authorising resignation letter",
+          "published": "2026-11-20T06:00:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -989,46 +1055,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Marine Le Pen’s party faces scrutiny over alleged leaks from interior ministry",
-      "url": "https://www.politico.eu/article/marine-le-pen-national-rally-party-alleged-interior-ministry-leaks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-20T11:56:27+00:00",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-20T12:09:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Nato jets scrambled as Poland accuses Russia of ‘intentional provocation’",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-      "source": "The Independent",
-      "published": "2026-11-20T11:49:34+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ex-Head of Russian Youth Patriotism Center Arrested on Embezzlement Charges",
-      "url": "https://www.themoscowtimes.com/2026/11/20/ex-head-of-russian-youth-patriotism-center-arrested-on-embezzlement-charges-a94330",
-      "source": "The Moscow Times",
-      "published": "2026-11-20T11:41:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Some oil giants will now be labeled ‘sustainable’ under EU finance rules",
-      "url": "https://www.politico.eu/article/some-oil-giants-will-now-be-labeled-sustainable-under-eu-finance-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-20T11:38:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "High energy prices reshape global climate debate",
-      "url": "https://www.semafor.com/article/11/20/2026/global-climate-debate-is-changing-amid-concerns-of-high-energy-prices",
+      "title": "Ebola vaccine trials launche amid security concerns",
+      "url": "https://www.semafor.com/article/11/20/2026/ebola-vaccine-trials-launches-amid-security-concerns",
       "source": "Semafor",
-      "published": "2026-11-20T11:34:36+00:00",
+      "published": "2026-11-20T12:09:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1045,10 +1084,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.92,
+      "price": 135.0,
       "currency": "GBP",
-      "change": -3.1,
-      "change_percent": -2.25,
+      "change": -3.02,
+      "change_percent": -2.19,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1061,10 +1100,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10394.29,
+      "price": 10390.04,
       "currency": "GBP",
-      "change": -58.39,
-      "change_percent": -0.56,
+      "change": -62.64,
+      "change_percent": -0.6,
       "name": "FTSE 100"
     }
   ],
@@ -1080,10 +1119,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10394.29,
+        "price": 10390.04,
         "currency": "GBP",
-        "change": -58.39,
-        "change_percent": -0.56,
+        "change": -62.64,
+        "change_percent": -0.6,
         "name": "FTSE 100"
       },
       {
@@ -1112,44 +1151,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25002.14,
+        "price": 24990.04,
         "currency": "EUR",
-        "change": -461.67,
-        "change_percent": -1.81,
+        "change": -473.77,
+        "change_percent": -1.86,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 7976.58,
+        "price": 7975.67,
         "currency": "EUR",
-        "change": -104.16,
-        "change_percent": -1.29,
+        "change": -105.07,
+        "change_percent": -1.3,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3584.8,
+        "price": 3573.0,
         "currency": "USD",
-        "change": -100.7,
-        "change_percent": -2.73,
+        "change": -112.5,
+        "change_percent": -3.05,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.35,
+        "price": 42.16,
         "currency": "USD",
-        "change": -2.0,
-        "change_percent": -4.52,
+        "change": -2.2,
+        "change_percent": -4.97,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.24,
+        "price": 89.41,
         "currency": "USD",
-        "change": -0.2,
-        "change_percent": -0.22,
+        "change": -0.03,
+        "change_percent": -0.03,
         "name": "Brent Crude"
       },
       {
@@ -1157,7 +1196,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.09,
+        "change_percent": -0.06,
         "name": "EUR/USD"
       },
       {
@@ -1165,23 +1204,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.05,
+        "change_percent": 0.08,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.83,
+        "price": 158.79,
         "currency": "JPY",
-        "change": -0.78,
-        "change_percent": -0.49,
+        "change": -0.81,
+        "change_percent": -0.51,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61756.45,
+        "price": 61338.48,
         "currency": "USD",
-        "change": -148.31,
-        "change_percent": -0.24,
+        "change": -566.28,
+        "change_percent": -0.91,
         "name": "Bitcoin"
       }
     ],
@@ -1376,6 +1415,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "What War Has Brought Iran’s Opposition",
+          "url": "https://www.theatlantic.com/international/2026/11/iran-opposition-strategic-options/689510/?utm_source=feed",
+          "published": "2026-11-20T12:00:00+00:00",
+          "snippet": "Domestic repression and exile infighting leave few strategic options."
+        },
+        {
           "title": "The People Are Obviously Demanding More Melania!",
           "url": "https://www.theatlantic.com/newsletters/2026/11/melania-tv-show-melaniaverse/689519/?utm_source=feed",
           "published": "2026-11-20T11:00:00+00:00",
@@ -1386,12 +1431,6 @@
           "url": "https://www.theatlantic.com/technology/2026/11/elon-musk-maga-pivot/689517/?utm_source=feed",
           "published": "2026-11-20T00:51:00+00:00",
           "snippet": "Elon Musk would like to pretend that the past two years didn’t happen."
-        },
-        {
-          "title": "The Limits of Positive Thinking",
-          "url": "https://www.theatlantic.com/politics/2026/11/trump-ai-tech-outages/689512/?utm_source=feed",
-          "published": "2026-11-19T23:34:34+00:00",
-          "snippet": "Trump is acting like there’s no problem. Persistent outages tell a different story."
         }
       ]
     },
@@ -1492,7 +1531,7 @@
       {
         "title": "Why do tech leaders sound so illogical and off-putting?",
         "url": "https://www.theatlantic.com/technology/2026/11/silicon-valley-model-collapse/689505/",
-        "score": 32,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-20T11:13:05+00:00"
       },
@@ -1507,7 +1546,7 @@
       {
         "title": "The Making of Oxygene",
         "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
-        "score": 15,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-20T10:41:10+00:00"
       },
@@ -1530,7 +1569,7 @@
       {
         "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
         "url": "https://architectlabs.com/blog/frostbite",
-        "score": 143,
+        "score": 156,
         "source": "Hacker News",
         "published": "2026-11-20T10:01:41+00:00"
       },
@@ -1543,9 +1582,16 @@
         "published": "2026-11-20T09:58:05.152000+00:00"
       },
       {
+        "title": "What people are building, discovered through new domains",
+        "url": "https://startups.novumsignals.com/",
+        "score": 15,
+        "source": "Hacker News",
+        "published": "2026-11-20T09:54:33+00:00"
+      },
+      {
         "title": "If you can't explain something in simple terms, you don't understand it (2017)",
         "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-        "score": 47,
+        "score": 56,
         "source": "Hacker News",
         "published": "2026-11-20T09:43:19+00:00"
       },
@@ -1558,16 +1604,16 @@
         "published": "2026-11-20T09:39:11.806000+00:00"
       },
       {
-        "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars",
+        "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
         "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
-        "score": 115,
+        "score": 140,
         "source": "Hacker News",
         "published": "2026-11-20T09:13:09+00:00"
       },
       {
         "title": "\"I can tell you wrote this yourself\"",
         "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-        "score": 222,
+        "score": 232,
         "source": "Hacker News",
         "published": "2026-11-20T07:13:21+00:00"
       },
@@ -1578,13 +1624,6 @@
         "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-20T04:16:34.286000+00:00"
-      },
-      {
-        "title": "FFmpeg 9.1 'Gauss'",
-        "url": "https://ffmpeg.org/download.html#release_9.1",
-        "score": 166,
-        "source": "Hacker News",
-        "published": "2026-11-20T04:02:39+00:00"
       }
     ],
     "reddit": [

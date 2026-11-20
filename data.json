@@ -1,199 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T09:01:08.472406+00:00",
+  "last_updated": "2026-11-20T09:30:56.773592+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 627
+      "ms": 365
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 217
+      "ms": 164
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 175
+      "ms": 128
     },
     "BBC News": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 250
+      "ms": 241
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 154
+      "ms": 312
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 114
+      "ms": 283
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 832
+      "ms": 536
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 241
+      "ms": 270
     },
     "Euronews": {
-      "ok": true,
-      "count": 45,
-      "error": null,
-      "ms": 128
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3115
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 62
+      "ms": 351
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 346
+      "ms": 296
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 487
+      "ms": 226
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 303
+      "ms": 81
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 245
+      "ms": 175
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 63
+      "ms": 139
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 144
+      "ms": 365
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 720
+      "ms": 661
     },
     "Semafor": {
       "ok": true,
       "count": 286,
       "error": null,
-      "ms": 834
+      "ms": 376
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 606
+      "ms": 546
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 288
+      "ms": 306
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 306
+      "ms": 405
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 176
+      "ms": 146
     },
     "The Independent": {
       "ok": true,
-      "count": 74,
+      "count": 72,
       "error": null,
-      "ms": 153
+      "ms": 123
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 188
+      "ms": 168
     }
   },
   "breaking": [
-    {
-      "title": "China paints Xi as maker of historic talks with Trump, Putin",
-      "url": "https://www.straitstimes.com/asia/east-asia/china-paints-xi-as-maker-of-historic-talks-with-trump-putin",
-      "source": "Straits Times",
-      "published": "2026-11-20T06:13:00+00:00",
-      "score": 7,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
-          "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
-          "published": "2026-11-19T17:23:29+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/watch-trump-putin-and-xi-sit-down-for-historic-three-way-talks",
-          "title": "Watch: Trump, Putin and Xi sit down for historic three-way talks",
-          "published": "2026-11-19T09:20:23+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
-          "title": "Xi, Trump, Putin exchange greetings before historic China summit",
-          "published": "2026-11-19T08:19:11+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/18/trump-putin-and-xi-meet-ahead-of-historic-three-way-talks-in-china/",
-          "title": "Trump,  Putin, and Xi meet ahead of historic three-way talks in China",
-          "published": "2026-11-18T15:33:22+00:00"
-        },
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
-          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
-          "published": "2026-11-18T11:57:10+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/15/2026/trump-to-meet-xi-and-putin-in-china",
-          "title": "Trump to meet Xi and Putin in China",
-          "published": "2026-11-15T22:38:54+00:00"
-        }
-      ],
-      "consensus": 7.5
-    },
     {
       "title": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
       "url": "https://www.independent.co.uk/news/world/americas/fiona-hippo-cincinnati-zoo-dead-hat-b3088445.html",
@@ -264,11 +218,17 @@
     },
     {
       "title": "Myanmar calls ICJ ruling on genocide 'unfair'",
-      "url": "https://www.straitstimes.com/asia/myanmar-calls-icj-ruling-on-genocide-unfair",
-      "source": "Straits Times",
-      "published": "2026-11-20T08:50:41+00:00",
-      "score": 2,
+      "url": "https://www.thehindu.com/news/international/myanmar-calls-icj-ruling-on-genocide-unfair/article71723709.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T09:21:15+00:00",
+      "score": 3,
       "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/myanmar-calls-icj-ruling-on-genocide-unfair",
+          "title": "Myanmar calls ICJ ruling on genocide 'unfair'",
+          "published": "2026-11-20T08:50:41+00:00"
+        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/19/gambia-pays-tribute-to-rohingya-after-icj-genocide-ruling-against-myanmar/",
@@ -276,23 +236,55 @@
           "published": "2026-11-19T17:20:35+00:00"
         }
       ],
+      "consensus": 3.5
+    },
+    {
+      "title": "The U.K. and EU hold a rare summit to strengthen ties",
+      "url": "https://www.npr.org/2026/11/20/g-s1-154576/uk-eu-summit",
+      "source": "NPR World",
+      "published": "2026-11-20T09:14:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
+          "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
+          "published": "2026-11-20T08:45:16+00:00"
+        }
+      ],
       "consensus": 2.5
     },
     {
-      "title": "Russian strikes damage two bridges in Kyiv: Mayor",
-      "url": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
+      "title": "White House fires cybersecurity chief after widespread outages",
+      "url": "https://www.thehindu.com/news/international/white-house-fires-cybersecurity-chief-after-widespread-outages/article71722952.ece",
       "source": "The Hindu",
-      "published": "2026-11-20T06:52:00+00:00",
+      "published": "2026-11-20T08:05:47+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-          "title": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
-          "published": "2026-11-20T06:50:49+00:00"
+          "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
+          "title": "White House fires national cyber director over widespread outages",
+          "published": "2026-11-20T01:28:47+00:00"
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Nepal PM Balendra Shah to visit India, meet Modi",
+      "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
+      "source": "Straits Times",
+      "published": "2026-11-20T08:55:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
+          "title": "Nepal PM Balendra Shah to visit India on November 22–23",
+          "published": "2026-11-20T07:45:57+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Anthropic registers 17% gain and a market value of nearly $1.8 trillion on stock market debut",
@@ -325,22 +317,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Malaysia’s Negeri Sembilan palace denies asking chief minister to stay in office",
-      "url": "https://www.scmp.com/week-asia/politics/article/3375217/malaysias-negeri-sembilan-palace-denies-asking-chief-minister-stay-office",
-      "source": "SCMP",
-      "published": "2026-11-20T08:18:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/ismail-lasim-to-remain-as-chief-minister-in-malaysias-negeri-sembilan",
-          "title": "Ismail Lasim to remain as chief minister in Malaysia’s Negeri Sembilan",
-          "published": "2026-11-20T06:00:00+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -349,7 +325,7 @@
       "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-19T20:07:02+00:00",
-      "score": 11,
+      "score": 10,
       "other_sources": [
         {
           "source": "CBC World",
@@ -388,12 +364,6 @@
           "published": "2026-11-19T12:29:41+00:00"
         },
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/myanmar-guilty-of-genocide-against-rohingya-un-court-rules",
-          "title": "Myanmar guilty of genocide against Rohingya UN court rules",
-          "published": "2026-11-19T11:59:09+00:00"
-        },
-        {
           "source": "Deutsche Welle",
           "url": "https://www.dw.com/en/myanmar-committed-genocide-against-rohingya-top-un-court-rules/a-79987898?maca=en-rss-en-world-4025-xml-mrss",
           "title": "Myanmar committed genocide against Rohingya, top UN court rules",
@@ -413,6 +383,46 @@
         }
       ],
       "consensus": 11.5
+    },
+    {
+      "title": "China paints Xi as maker of historic talks with Trump, Putin",
+      "url": "https://www.straitstimes.com/asia/east-asia/china-paints-xi-as-maker-of-historic-talks-with-trump-putin",
+      "source": "Straits Times",
+      "published": "2026-11-20T06:13:00+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
+          "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
+          "published": "2026-11-19T17:23:29+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/xi-trump-putin-exchange-greetings-before-historic-china-summit/article71718490.ece",
+          "title": "Xi, Trump, Putin exchange greetings before historic China summit",
+          "published": "2026-11-19T08:19:11+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/18/trump-putin-and-xi-meet-ahead-of-historic-three-way-talks-in-china/",
+          "title": "Trump,  Putin, and Xi meet ahead of historic three-way talks in China",
+          "published": "2026-11-18T15:33:22+00:00"
+        },
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+          "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+          "published": "2026-11-18T11:57:10+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/15/2026/trump-to-meet-xi-and-putin-in-china",
+          "title": "Trump to meet Xi and Putin in China",
+          "published": "2026-11-15T22:38:54+00:00"
+        }
+      ],
+      "consensus": 7.5
     },
     {
       "title": "Florida pastor found guilty over role in assassination of Haitian president",
@@ -443,46 +453,12 @@
       "consensus": 5.0
     },
     {
-      "title": "Democrat Hakeem Jeffries on track to become first Black US House speaker",
-      "url": "http://www.africanews.com/2026/11/19/democrat-hakeem-jeffries-on-track-to-become-first-black-us-house-speaker/",
-      "source": "Africanews",
-      "published": "2026-11-19T10:25:30+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/18/hakeem-jeffries-moves-closer-to-becoming-first-black-us-house-speaker",
-          "title": "Hakeem Jeffries moves closer to becoming first Black US House speaker",
-          "published": "2026-11-18T17:44:05+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/democrats-nominatehakeem-jeffries-for-next-us-house-speaker/article71717202.ece",
-          "title": "Democrats nominate Hakeem Jeffries for next U.S. House speaker",
-          "published": "2026-11-18T17:08:35+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/us-democrats-house-leader-jeffries-9.7426505?cmp=rss",
-          "title": "Hakeem Jeffries poised to become 1st Black U.S. House Speaker, after internal vote by Democrats",
-          "published": "2026-11-18T17:03:55+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
       "url": "http://www.africanews.com/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv/",
       "source": "Africanews",
       "published": "2026-11-19T23:21:26+00:00",
-      "score": 4,
+      "score": 3,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv",
-          "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
-          "published": "2026-11-19T23:21:18+00:00"
-        },
         {
           "source": "France24",
           "url": "https://www.france24.com/en/russian-strikes-on-kyiv-kill-one-damage-dutch-and-austrian-embassies",
@@ -543,6 +519,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Russian strikes damage two bridges in Kyiv: Mayor",
+      "url": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T06:52:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
+          "title": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
+          "published": "2026-11-20T06:50:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "TSMC tightens China AI chip curbs as new US rules close manufacturing loophole, sources say",
       "url": "https://www.straitstimes.com/asia/east-asia/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say",
       "source": "Straits Times",
@@ -570,22 +562,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3375152/white-house-fires-cybersecurity-chief-after-tech-chaos-rattles-us",
           "title": "White House fires cyber chief after tech chaos rattles US",
           "published": "2026-11-20T03:04:01+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "White House fires cybersecurity chief after widespread outages",
-      "url": "https://www.thehindu.com/news/international/white-house-fires-cybersecurity-chief-after-widespread-outages/article71722952.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T02:50:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261120-white-house-fires-national-cyber-director-over-widespread-outages",
-          "title": "White House fires national cyber director over widespread outages",
-          "published": "2026-11-20T01:28:47+00:00"
         }
       ],
       "consensus": 2.5
@@ -735,6 +711,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Democrat Hakeem Jeffries on track to become first Black US House speaker",
+      "url": "http://www.africanews.com/2026/11/19/democrat-hakeem-jeffries-on-track-to-become-first-black-us-house-speaker/",
+      "source": "Africanews",
+      "published": "2026-11-19T10:25:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/us-democrats-house-leader-jeffries-9.7426505?cmp=rss",
+          "title": "Hakeem Jeffries poised to become 1st Black U.S. House Speaker, after internal vote by Democrats",
+          "published": "2026-11-18T17:03:55+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "South Korea's top court overturns charges against ex-prime minister for his role in martial law",
+      "url": "https://www.cbc.ca/news/world/south-korea-overturns-charges-against-ex-prime-minister-9.7427717?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-19T09:50:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-koreas-supreme-court-orders-retrial-for-ex-pm-han-over-his-role-in-martial-law-attempt",
+          "title": "South Korea's Supreme Court orders retrial for ex-PM Han over his role in martial law attempt",
+          "published": "2026-11-19T09:40:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
       "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
       "source": "NPR World",
@@ -767,33 +775,17 @@
       "consensus": 2.5
     },
     {
-      "title": "US and Venezuela restore military cooperation with Hegseth’s surprise visit",
-      "url": "https://en.mercopress.com/2026/11/19/us-and-venezuela-restore-military-cooperation-with-hegseth-s-surprise-visit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-19T03:26:00+00:00",
+      "title": "Malaysia’s Negeri Sembilan palace denies asking chief minister to stay in office",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375217/malaysias-negeri-sembilan-palace-denies-asking-chief-minister-stay-office",
+      "source": "SCMP",
+      "published": "2026-11-20T08:18:09+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/18/us-defence-secretary-announces-military-cooperation-in-surprise-caracas-visit",
-          "title": "US Defense Secretary announces military cooperation in surprise Caracas visit",
-          "published": "2026-11-18T21:02:43+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nepal PM Balendra Shah to visit India, meet Modi",
-      "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
-      "source": "Straits Times",
-      "published": "2026-11-20T08:55:24+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
-          "title": "Nepal PM Balendra Shah to visit India on November 22–23",
-          "published": "2026-11-20T07:45:57+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/ismail-lasim-to-remain-as-chief-minister-in-malaysias-negeri-sembilan",
+          "title": "Ismail Lasim to remain as chief minister in Malaysia’s Negeri Sembilan",
+          "published": "2026-11-20T06:00:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -802,7 +794,7 @@
       "title": "U.S. religious freedom panel says ‘India targeting minorities in voter roll revisions’",
       "url": "https://www.thehindu.com/news/international/us-religious-freedom-panel-says-india-is-targeting-minorities-in-voter-roll-revisions/article71722894.ece",
       "source": "The Hindu",
-      "published": "2026-11-20T03:00:36+00:00",
+      "published": "2026-11-20T08:03:57+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -863,22 +855,6 @@
       "consensus": 2.0
     },
     {
-      "title": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-      "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-      "source": "The Guardian",
-      "published": "2026-11-19T17:13:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/19/us-and-china-want-to-help-end-ukraine-war-trump-says-ahead-of-trilateral-with-russia",
-          "title": "Trilateral summit ends with 'peace declaration' but no mention of Ukraine and Iran",
-          "published": "2026-11-19T06:33:02+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Putin Vows ‘Painful’ Retaliation to Crimean Bridge Attacks",
       "url": "https://www.themoscowtimes.com/2026/11/19/putin-vows-painful-retaliation-to-crimean-bridge-attacks-a94315",
       "source": "The Moscow Times",
@@ -895,135 +871,91 @@
       "consensus": 2.0
     },
     {
-      "title": "Japan: The dark secret behind an island paradise full of rabbits",
-      "url": "http://www.africanews.com/2026/11/20/japan-the-dark-secret-behind-an-island-paradise-full-of-rabbits/",
-      "source": "Africanews",
-      "published": "2026-11-20T08:29:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/20/japan-the-dark-secret-behind-an-island-paradise-full-of-rabbits",
-          "title": "Japan: The dark secret behind an island paradise full of rabbits",
-          "published": "2026-11-20T08:28:27+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Ukraine: Kyiv metro stations become overnight shelters amid air raids",
-      "url": "http://www.africanews.com/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids/",
-      "source": "Africanews",
-      "published": "2026-11-20T08:06:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/20/ukraine-kyiv-metro-stations-become-overnight-shelters-amid-air-raids",
-          "title": "Ukraine: Kyiv metro stations become overnight shelters amid air raids",
-          "published": "2026-11-20T08:06:11+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "US national cyber director ousted following wave of tech outages",
-      "url": "http://www.africanews.com/2026/11/20/us-national-cyber-director-ousted-following-wave-of-tech-outages/",
-      "source": "Africanews",
-      "published": "2026-11-20T07:37:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/white-house-national-cyber-director-fired-after-wave-of-tech-outages",
-          "title": "White House national cyber director fired after wave of tech outages",
-          "published": "2026-11-20T07:03:40+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "At least one dead and dozens missing after migrant boat capsizes off Senegal en route to Spain",
-      "url": "https://www.euronews.com/2026/11/19/at-least-one-dead-and-dozens-missing-after-migrant-boat-capsizes-off-senegal-en-route-to-s",
-      "source": "Euronews",
-      "published": "2026-11-19T20:21:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/19/at-least-one-dead-in-latest-migrant-boat-disaster-off-senegals-coast/",
-          "title": "At least one dead in latest migrant boat disaster off Senegal's coast",
-          "published": "2026-11-19T05:54:19+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "US: Protesters warn of AI bubble as Anthropic makes stock market history",
-      "url": "http://www.africanews.com/2026/11/19/us-protesters-warn-of-ai-bubble-as-anthropic-makes-stock-market-history/",
-      "source": "Africanews",
-      "published": "2026-11-19T17:32:38+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/19/us-protesters-warn-of-ai-bubble-as-anthropic-makes-stock-market-history",
-          "title": "US: Protesters warn of AI bubble as Anthropic makes stock market history",
-          "published": "2026-11-19T17:32:29+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Tackling doubt and distrust: Taiwan cracks down on disinformation ahead of local elections",
-      "url": "https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections",
-      "source": "Straits Times",
-      "published": "2026-11-20T09:00:00+00:00",
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-20T09:30:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Hong Kong plans to impose EV battery levy of HK$6 per kg on suppliers from 2028",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3375222/hong-kong-plans-impose-ev-battery-levy-hk6-kg-suppliers-2028",
+      "title": "Tiger believed to have killed villager in Perak shot dead after attacking wildlife officer",
+      "url": "https://www.straitstimes.com/asia/se-asia/tiger-believed-to-have-killed-villager-in-perak-shot-dead-after-attacking-wildlife-officer",
+      "source": "Straits Times",
+      "published": "2026-11-20T09:25:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "U.K., E.U to announce youth mobility deal, as they discuss closer ties",
+      "url": "https://www.thehindu.com/news/international/uk-european-union-summit-meeting-on-november-20-2026/article71723782.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T09:22:32+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russia pummels Ukraine after Putin vowed 'painful' attack",
+      "url": "https://www.channelnewsasia.com/world/russia-strike-ukraine-invasion-putin-missile-drone-6568896",
+      "source": "CNA",
+      "published": "2026-11-20T09:21:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+      "url": "https://www.thehindu.com/news/international/asian-american-women-feel-impact-of-nvidia-ceo-affair-scandal-spy-accusations/article71723422.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T09:20:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "California investigates Nvidia over whether chip exports ended up in China",
+      "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china",
+      "source": "The Guardian",
+      "published": "2026-11-20T09:18:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘He’s No Spy’: Former Colleagues Open Up About Japanese Journalist Arrested in Russia",
+      "url": "https://www.themoscowtimes.com/2026/11/20/hes-no-spy-former-colleagues-open-up-about-japanese-journalist-arrested-in-russia-2-a94303",
+      "source": "The Moscow Times",
+      "published": "2026-11-20T09:13:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Philippine military rejects Trump’s request for MacArthur-style gold baton",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375228/philippine-military-rejects-trumps-request-macarthur-style-gold-baton",
       "source": "SCMP",
-      "published": "2026-11-20T08:55:31+00:00",
+      "published": "2026-11-20T09:12:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "France probes suspected leaks from interior ministry to far-right National Rally",
-      "url": "https://www.rfi.fr/en/france/20261120-france-probes-suspected-leaks-from-interior-ministry-to-far-right-national-rally",
-      "source": "RFI English",
-      "published": "2026-11-20T08:55:01+00:00",
+      "title": "Pakistan minister visits India for first time since 2025 war",
+      "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-20T09:11:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Why Saturday Night Live’s viral Sister sketch is hitting a nerve with daughters everywhere",
-      "url": "https://www.channelnewsasia.com/women/snl-sister-sketch-viral-women-caregiving-singapore-6568731",
-      "source": "CNA",
-      "published": "2026-11-20T08:55:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why North Korea's Kim Jong Un didn't meet US President Donald Trump, despite the hype",
-      "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-us-donald-trump-meeting-6568771",
-      "source": "CNA",
-      "published": "2026-11-20T08:50:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Myanmar's Rohingya win landmark genocide ruling, but return home remains distant",
-      "url": "https://www.straitstimes.com/asia/myanmars-rohingya-win-landmark-genocide-ruling-but-return-home-remains-distant",
-      "source": "Straits Times",
-      "published": "2026-11-20T08:50:27+00:00",
+      "title": "US sanctions Australian motorcycle gang as Trump continues war on drug trafficking",
+      "url": "https://www.independent.co.uk/news/world/americas/comanchero-motorcycle-gang-sanctions-trump-b3088498.html",
+      "source": "The Independent",
+      "published": "2026-11-20T09:11:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1032,7 +964,16 @@
       "title": "Andy Burnham in Brussels as UK and EU close in on Brexit reset deal – live",
       "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-20T08:50:18+00:00",
+      "published": "2026-11-20T09:10:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China-US-Russia talks, economy concerns, Auto Guangzhou",
+      "url": "https://www.scmp.com/plus/economy/china-economy/article/3375227/china-us-russia-talks-economy-concerns-auto-guangzhou",
+      "source": "SCMP",
+      "published": "2026-11-20T09:04:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1049,10 +990,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 135.38,
+      "price": 135.19,
       "currency": "GBP",
-      "change": -2.64,
-      "change_percent": -1.91,
+      "change": -2.83,
+      "change_percent": -2.05,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1065,10 +1006,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10412.94,
+      "price": 10400.76,
       "currency": "GBP",
-      "change": -39.74,
-      "change_percent": -0.38,
+      "change": -51.92,
+      "change_percent": -0.5,
       "name": "FTSE 100"
     }
   ],
@@ -1084,10 +1025,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10412.94,
+        "price": 10400.76,
         "currency": "GBP",
-        "change": -39.74,
-        "change_percent": -0.38,
+        "change": -51.92,
+        "change_percent": -0.5,
         "name": "FTSE 100"
       },
       {
@@ -1116,44 +1057,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25089.35,
+        "price": 25022.35,
         "currency": "EUR",
-        "change": -374.46,
-        "change_percent": -1.47,
+        "change": -441.46,
+        "change_percent": -1.73,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8005.91,
+        "price": 7998.15,
         "currency": "EUR",
-        "change": -74.83,
-        "change_percent": -0.93,
+        "change": -82.59,
+        "change_percent": -1.02,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3584.2,
+        "price": 3582.5,
         "currency": "USD",
-        "change": -101.3,
-        "change_percent": -2.75,
+        "change": -103.0,
+        "change_percent": -2.79,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.44,
+        "price": 42.35,
         "currency": "USD",
-        "change": -1.92,
-        "change_percent": -4.33,
+        "change": -2.01,
+        "change_percent": -4.53,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.38,
+        "price": 88.45,
         "currency": "USD",
-        "change": -1.06,
-        "change_percent": -1.19,
+        "change": -0.99,
+        "change_percent": -1.11,
         "name": "Brent Crude"
       },
       {
@@ -1161,7 +1102,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.03,
+        "change_percent": 0.0,
         "name": "EUR/USD"
       },
       {
@@ -1169,23 +1110,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.07,
+        "change_percent": 0.12,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.03,
+        "price": 159.02,
         "currency": "JPY",
-        "change": -0.57,
-        "change_percent": -0.36,
+        "change": -0.58,
+        "change_percent": -0.37,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61761.92,
+        "price": 61568.52,
         "currency": "USD",
-        "change": -142.84,
-        "change_percent": -0.23,
+        "change": -336.24,
+        "change_percent": -0.54,
         "name": "Bitcoin"
       }
     ],
@@ -1280,6 +1221,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "The week’s best photos",
+          "url": "https://theweek.com/photos/the-weeks-best-photos-november-20-2026",
+          "published": "2026-11-20T09:00:00+00:00",
+          "snippet": "A curious turtle, a flat-pack Pope, and more"
+        },
+        {
           "title": "Robert Pattinson’s James Bond casting marks Hollywood’s generational pivot",
           "url": "https://theweek.com/culture-life/film/robert-pattinson-james-bond-hollywood-pivot",
           "published": "2026-11-20T07:00:00+00:00",
@@ -1290,12 +1237,6 @@
           "url": "https://theweek.com/health/more-parents-are-refusing-vitamin-k-vaccine-putting-babies-at-risk",
           "published": "2026-11-20T07:00:00+00:00",
           "snippet": "The number of newborns facing life-threatening bleeding is on the rise"
-        },
-        {
-          "title": "Denmark’s real-life Truman Show backfires",
-          "url": "https://theweek.com/culture-life/tv-radio/denmarks-real-life-truman-show-backfires",
-          "published": "2026-11-20T01:33:46+00:00",
-          "snippet": "Reality show panned for duping an aspiring film director into thinking he was making a movie"
         }
       ]
     },
@@ -1355,6 +1296,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Russian missile barrage damages Kyiv bridges",
+          "url": "https://www.ft.com/content/d76c0ce7-ba3b-42b3-8efa-7724cc0900d7?syn-25a6b1a6=1",
+          "published": "2026-11-20T09:17:17+00:00",
+          "snippet": "Waves of attacks targeting Ukraine come on heels of trilateral meeting between US, Chinese and Russian leaders"
+        },
+        {
           "title": "October inflation data keeps BoJ on course for further tightening",
           "url": "https://www.ft.com/content/c95feb1a-f197-4942-bba8-672087f6be74",
           "published": "2026-11-20T08:37:22+00:00",
@@ -1365,12 +1312,6 @@
           "url": "https://www.ft.com/content/6333f2e6-98da-4491-bd2e-30237d7bfbf5?syn-25a6b1a6=1",
           "published": "2026-11-20T08:33:59+00:00",
           "snippet": "Kirsten Davies joins from the Pentagon to succeed Sean Cairncross after string of online outages"
-        },
-        {
-          "title": "Russian missile barrage damages Kyiv bridges",
-          "url": "https://www.ft.com/content/d76c0ce7-ba3b-42b3-8efa-7724cc0900d7?syn-25a6b1a6=1",
-          "published": "2026-11-20T08:05:55+00:00",
-          "snippet": "Waves of attacks targeting Ukraine come on heels of trilateral meeting between US, Chinese and Russian leaders"
         }
       ]
     },
@@ -1480,113 +1421,114 @@
       {
         "title": "\"I can tell you wrote this yourself\"",
         "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-        "score": 76,
+        "score": 103,
         "source": "Hacker News",
         "published": "2026-11-20T07:13:21+00:00"
       },
       {
+        "title": "\"I can tell you wrote this yourself\"",
+        "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+        "comments_url": "https://lobste.rs/s/y8k2n1/i_can_tell_you_wrote_this_yourself",
+        "score": 15,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T07:13:14.302000+00:00"
+      },
+      {
+        "title": "The case of the flaky Dynamo export tests",
+        "url": "https://dev-discuss.pytorch.org/t/debugging-story-the-case-of-the-flaky-dynamo-export-tests/1124",
+        "comments_url": "https://lobste.rs/s/dhvuby/case_flaky_dynamo_export_tests",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T06:51:29.080000+00:00"
+      },
+      {
         "title": "Jujutsu Primer",
         "url": "https://ethanlowman.com/posts/jj-primer/",
-        "score": 96,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-20T05:46:01+00:00"
       },
       {
+        "title": "Persistent incrementality in Rust",
+        "url": "https://rust-glancer.github.io/blog/persistent-incrementality-in-rust/",
+        "comments_url": "https://lobste.rs/s/9bvpac/persistent_incrementality_rust",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T04:16:34.286000+00:00"
+      },
+      {
         "title": "FFmpeg 9.1 'Gauss'",
         "url": "https://ffmpeg.org/download.html#release_9.1",
-        "score": 102,
+        "score": 117,
         "source": "Hacker News",
         "published": "2026-11-20T04:02:39+00:00"
       },
       {
         "title": "PostgreSQL 19",
         "url": "https://www.postgresql.org/docs/release/19.0/",
-        "score": 149,
+        "score": 165,
         "source": "Hacker News",
         "published": "2026-11-20T03:45:45+00:00"
       },
       {
+        "title": "Jujutsu Primer",
+        "url": "https://ethanlowman.com/posts/jj-primer/",
+        "comments_url": "https://lobste.rs/s/i6dn7g/jujutsu_primer",
+        "score": 9,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T03:34:36.153000+00:00"
+      },
+      {
         "title": "Postgres 19 Repack: Faster, Built-In Table Bloat Cleanup",
         "url": "https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/",
-        "score": 86,
+        "score": 90,
         "source": "Hacker News",
         "published": "2026-11-20T02:43:49+00:00"
       },
       {
+        "title": "Garage Door Spam",
+        "url": "https://blog.harrison.page/garage-door-spam/",
+        "comments_url": "https://lobste.rs/s/tr5ghf/garage_door_spam",
+        "score": 7,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T02:41:39.230000+00:00"
+      },
+      {
+        "title": "Farcall, a terminal-ready Rust PC+DOS emulator",
+        "url": "https://www.dialup.net/farcall/",
+        "comments_url": "https://lobste.rs/s/lq9xuw/farcall_terminal_ready_rust_pc_dos",
+        "score": 6,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T02:12:07.853000+00:00"
+      },
+      {
         "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
         "url": "https://github.com/openssl/openssl/pull/33652",
-        "score": 208,
+        "score": 224,
         "source": "Hacker News",
         "published": "2026-11-20T02:01:09+00:00"
       },
       {
         "title": "Vint Cerf on why TCP/IP was never patented",
         "url": "https://seremot.com/p/vint-cerf-on-why-tcpip-was-never",
-        "score": 100,
+        "score": 102,
         "source": "Hacker News",
         "published": "2026-11-20T01:06:12+00:00"
       },
       {
         "title": "Synology Security Advisory",
         "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
-        "score": 139,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-19T22:13:40+00:00"
       },
       {
-        "title": "The New Era of Wikimedia Traffic: Thinking Beyond Pageviews",
-        "url": "https://diff.wikimedia.org/2026/11/19/the-new-era-of-wikimedia-traffic-thinking-beyond-pageviews/",
-        "comments_url": "https://lobste.rs/s/nes79l/new_era_wikimedia_traffic_thinking",
-        "score": 2,
+        "title": "Visualizing a Ledger with pgledger-ui",
+        "url": "https://www.pgrs.net/2026/11/19/visualizing-a-ledger-with-pgledger-ui/",
+        "comments_url": "https://lobste.rs/s/gftix3/visualizing_ledger_with_pgledger_ui",
+        "score": 4,
         "source": "Lobste.rs",
-        "published": "2026-11-19T19:57:08.335000+00:00"
-      },
-      {
-        "title": "OpenRun v1.0 - declarative deployments for internal tools on Docker or Kubernetes",
-        "url": "https://openrun.dev/blog/openrun-1.0/",
-        "comments_url": "https://lobste.rs/s/t9wxzg/openrun_v1_0_declarative_deployments_for",
-        "score": 0,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T18:46:21.046000+00:00"
-      },
-      {
-        "title": "Claude solves two open problems in the physics of black holes",
-        "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-        "score": 490,
-        "source": "Hacker News",
-        "published": "2026-11-19T17:30:44+00:00"
-      },
-      {
-        "title": "Validating a High-Performance Cloud Object Store with Lightweight Formal Methods",
-        "url": "https://dl.acm.org/doi/10.1145/3830418.3843899",
-        "comments_url": "https://lobste.rs/s/zfe21b/validating_high_performance_cloud",
-        "score": 10,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T08:53:43.470000+00:00"
-      },
-      {
-        "title": "Traffic mix matters",
-        "url": "https://brooker.co.za/blog/2026/11/18/workload-mix.html",
-        "comments_url": "https://lobste.rs/s/akg5in/traffic_mix_matters",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T07:33:44.868000+00:00"
-      },
-      {
-        "title": "Incidents in the news",
-        "url": "https://surfingcomplexity.blog/2026/11/18/incidents-in-the-news/",
-        "comments_url": "https://lobste.rs/s/gpqw7o/incidents_news",
-        "score": 8,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T01:45:23.888000+00:00"
-      },
-      {
-        "title": "Security advisories: multiple vulnerabilities in Regexp and String case conversion",
-        "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-        "comments_url": "https://lobste.rs/s/hsmtyg/security_advisories_multiple",
-        "score": 23,
-        "source": "Lobste.rs",
-        "published": "2026-11-19T01:26:37.275000+00:00"
+        "published": "2026-11-19T19:55:10.812000+00:00"
       }
     ],
     "reddit": [

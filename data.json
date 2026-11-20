@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-20T14:30:58.371778+00:00",
+  "last_updated": "2026-11-20T15:01:07.644525+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 315
+      "ms": 221
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 283
+      "ms": 518
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 327
+      "ms": 194
     },
     "BBC News": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 206
+      "ms": 302
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 208
+      "ms": 301
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 277
+      "ms": 638
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 502
+      "ms": 719
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 709
+      "ms": 793
     },
     "Euronews": {
       "ok": true,
-      "count": 44,
+      "count": 45,
       "error": null,
-      "ms": 143
+      "ms": 159
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 260
+      "ms": 191
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 525
+      "ms": 504
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 311
+      "ms": 360
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 299
+      "ms": 223
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 344
+      "ms": 290
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 321
+      "ms": 257
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 480
+      "ms": 651
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 898
+      "ms": 862
     },
     "Semafor": {
       "ok": true,
       "count": 283,
       "error": null,
-      "ms": 924
+      "ms": 912
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 489
+      "ms": 717
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 317
+      "ms": 390
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 154
+      "ms": 142
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 503
+      "ms": 398
     },
     "The Independent": {
       "ok": true,
-      "count": 82,
+      "count": 81,
       "error": null,
-      "ms": 275
+      "ms": 362
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 349
+      "ms": 387
     }
   },
   "breaking": [
+    {
+      "title": "Cincinnati Zoo's famed Fiona the hippo dies days after eating a visitor’s hat",
+      "url": "https://www.france24.com/en/video/20261120-cincinnati-zoo-s-famed-fiona-the-hippo-dies-days-after-eating-a-visitor-s-hat",
+      "source": "France24",
+      "published": "2026-11-20T14:48:52+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/fiona-hippo-cincinnati-zoo-death-memorial-b3088722.html",
+          "title": "Hundreds flock to Cincinnati Zoo to mourn Fiona the hippo after her death from eating a hat",
+          "published": "2026-11-20T14:19:49+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/fiona-the-hippo-dies-after-swallowing-a-visitors-hat",
+          "title": "Fiona the hippo dies after swallowing a visitor's hat",
+          "published": "2026-11-20T09:29:48+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/fiona-hippo-dies-swallowed-hat-cincinnati-zoo-6567356",
+          "title": "Cincinnati Zoo's Fiona the hippo dies after failed effort to remove swallowed hat",
+          "published": "2026-11-20T04:25:00+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+          "published": "2026-11-19T23:40:29+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
     {
       "title": "Myanmar says disappointed by ICJ ruling on Rohingya genocide",
       "url": "https://www.straitstimes.com/asia/myanmar-says-disappointed-by-icj-ruling-on-rohingya-genocide",
@@ -238,22 +272,6 @@
           "url": "https://www.channelnewsasia.com/world/iraqi-forces-enter-stronghold-iran-backed-group-under-compromise-deal-6569101",
           "title": "Iraqi forces enter stronghold of Iran-backed group under compromise deal",
           "published": "2026-11-20T10:48:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russia pummels Ukraine after Putin vowed revenge, killing eight",
-      "url": "https://www.abc.net.au/news/2026-11-20/ukraine-russia-crimea-strikes-bridge-kyiv-power-outage-poland/107411538",
-      "source": "ABC Australia",
-      "published": "2026-11-20T11:58:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russia-strike-ukraine-invasion-putin-missile-drone-6568896",
-          "title": "Russia pummels Ukraine after Putin vowed 'painful' attack",
-          "published": "2026-11-20T09:21:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -435,34 +453,6 @@
       "consensus": 5.0
     },
     {
-      "title": "Fiona the hippo dies after swallowing a visitor's hat",
-      "url": "https://www.euronews.com/2026/11/20/fiona-the-hippo-dies-after-swallowing-a-visitors-hat",
-      "source": "Euronews",
-      "published": "2026-11-20T09:29:48+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/fiona-hippo-cincinnati-zoo-dead-hat-b3088445.html",
-          "title": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
-          "published": "2026-11-20T07:45:45+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/fiona-hippo-dies-swallowed-hat-cincinnati-zoo-6567356",
-          "title": "Cincinnati Zoo's Fiona the hippo dies after failed effort to remove swallowed hat",
-          "published": "2026-11-20T04:25:00+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-          "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-          "published": "2026-11-19T23:40:29+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "Trump, Putin and Xi target UN and ICC in four-point ‘peace declaration’ – but offer no plans to end wars",
       "url": "https://www.independent.co.uk/news/world/donald-trump-vladimir-putin-xi-jinping-un-icc-b3088430.html",
       "source": "The Independent",
@@ -557,6 +547,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Russia pummels Ukraine after Putin vowed revenge, killing eight",
+      "url": "https://www.abc.net.au/news/2026-11-20/ukraine-russia-crimea-strikes-bridge-kyiv-power-outage-poland/107411538",
+      "source": "ABC Australia",
+      "published": "2026-11-20T11:58:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-strike-ukraine-invasion-putin-missile-drone-6568896",
+          "title": "Russia pummels Ukraine after Putin vowed 'painful' attack",
+          "published": "2026-11-20T09:21:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "'Our culture and identity': Deaf Nigerians embrace indigenous sign languages",
       "url": "https://www.france24.com/en/video/20261120-our-culture-and-identity-deaf-nigerians-embrace-indigenous-sign-languages",
       "source": "France24",
@@ -568,22 +574,6 @@
           "url": "http://www.africanews.com/2026/11/19/our-culture-and-identity-deaf-nigerians-fight-to-preserve-indigenous-sign-languages/",
           "title": "'Our culture and identity': Deaf Nigerians fight to preserve indigenous sign languages",
           "published": "2026-11-19T17:02:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Outcry as fossil fuels scrubbed from draft UN climate deal",
-      "url": "https://www.france24.com/en/video/20261120-outcry-as-fossil-fuels-scrubbed-from-draft-un-climate-deal",
-      "source": "France24",
-      "published": "2026-11-20T10:33:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/science/cop31-draft-climate-deal-9.7427790?cmp=rss",
-          "title": "Fossil fuel limits cut from latest draft of UN climate deal",
-          "published": "2026-11-19T13:16:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -632,22 +622,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/andy-burnham-brussels-antonio-costa-brexit-ursula-von-der-leyen-b3088477.html",
           "title": "The UK and EU hold a rare summit to strengthen ties as Burnham seeks to mend Brexit damage",
           "published": "2026-11-20T08:45:16+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russian strikes damage two bridges in Kyiv: Mayor",
-      "url": "https://www.thehindu.com/news/international/russia-missile-strike-on-kyiv-ukraine/article71723381.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T06:52:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261120-live-deadly-russian-attacks-damage-two-bridges-in-kyiv-mayor-says",
-          "title": "🔴 Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
-          "published": "2026-11-20T06:50:49+00:00"
         }
       ],
       "consensus": 2.5
@@ -1037,19 +1011,37 @@
       "consensus": 1.5
     },
     {
-      "title": "Durban's DJ Lag celebrates place on GTA VI soundtrack",
-      "url": "https://www.semafor.com/article/11/20/2026/durbans-dj-lag-celebrates-place-on-gta-vi-soundtrack",
-      "source": "Semafor",
-      "published": "2026-11-20T14:27:39+00:00",
+      "title": "Concrete aims or just symbolism? Trump, Xi and Putin talk nuclear risk but controls stall",
+      "url": "https://www.scmp.com/news/china/military/article/3375268/concrete-aims-or-just-symbolism-trump-xi-and-putin-talk-nuclear-risk-controls-stall",
+      "source": "SCMP",
+      "published": "2026-11-20T15:00:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Depardieu and Houellebecq accused of gang rape on French film set",
-      "url": "https://www.rfi.fr/en/france/20261120-depardieu-and-houellebecq-accused-of-gang-rape-on-french-film-set",
-      "source": "RFI English",
-      "published": "2026-11-20T14:24:55+00:00",
+      "title": "Jamaica's beaches are increasingly off limits to locals",
+      "url": "https://www.france24.com/en/tv-shows/reporters/20261120-jamaica-beaches-off-limits-to-locals-property-developers-hotels",
+      "source": "France24",
+      "published": "2026-11-20T14:55:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "REPLAY: Burnham, Von der Leyen hail 'turning point' in EU-UK relations",
+      "url": "https://www.france24.com/en/video/20261120-replay-burnham-von-der-leyen-hail-turning-point-in-eu-uk-relations",
+      "source": "France24",
+      "published": "2026-11-20T14:45:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU wants ‘closest possible relationship’ with UK after agreeing Brexit reset deal – live",
+      "url": "https://www.theguardian.com/world/live/2026/nov/20/uk-eu-european-union-brexit-deal-andy-burnham-latest-news-updates",
+      "source": "The Guardian",
+      "published": "2026-11-20T14:42:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1058,34 +1050,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7133.71,
+      "price": 7187.38,
       "currency": "USD",
-      "change": -42.12,
-      "change_percent": -0.59,
+      "change": 11.55,
+      "change_percent": 0.16,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.86,
+      "price": 135.14,
       "currency": "GBP",
-      "change": -3.16,
-      "change_percent": -2.29,
+      "change": -2.88,
+      "change_percent": -2.09,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23551.99,
+      "price": 23792.38,
       "currency": "USD",
-      "change": -327.21,
-      "change_percent": -1.37,
+      "change": -86.83,
+      "change_percent": -0.36,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10368.75,
+      "price": 10395.31,
       "currency": "GBP",
-      "change": -83.93,
-      "change_percent": -0.8,
+      "change": -57.37,
+      "change_percent": -0.55,
       "name": "FTSE 100"
     }
   ],
@@ -1093,34 +1085,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7133.71,
+        "price": 7187.38,
         "currency": "USD",
-        "change": -42.12,
-        "change_percent": -0.59,
+        "change": 11.55,
+        "change_percent": 0.16,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10368.75,
+        "price": 10395.31,
         "currency": "GBP",
-        "change": -83.93,
-        "change_percent": -0.8,
+        "change": -57.37,
+        "change_percent": -0.55,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 49072.68,
+        "price": 49532.13,
         "currency": "USD",
-        "change": -24.38,
-        "change_percent": -0.05,
+        "change": 435.07,
+        "change_percent": 0.89,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23551.99,
+        "price": 23792.38,
         "currency": "USD",
-        "change": -327.21,
-        "change_percent": -1.37,
+        "change": -86.83,
+        "change_percent": -0.36,
         "name": "NASDAQ Composite"
       },
       {
@@ -1133,44 +1125,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24938.34,
+        "price": 24983.56,
         "currency": "EUR",
-        "change": -525.47,
-        "change_percent": -2.06,
+        "change": -480.25,
+        "change_percent": -1.89,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 7966.14,
+        "price": 7989.85,
         "currency": "EUR",
-        "change": -114.6,
-        "change_percent": -1.42,
+        "change": -90.89,
+        "change_percent": -1.12,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3581.0,
+        "price": 3572.5,
         "currency": "USD",
-        "change": -104.5,
-        "change_percent": -2.84,
+        "change": -113.0,
+        "change_percent": -3.07,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.01,
+        "price": 42.05,
         "currency": "USD",
-        "change": -2.35,
-        "change_percent": -5.3,
+        "change": -2.31,
+        "change_percent": -5.22,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.67,
+        "price": 88.17,
         "currency": "USD",
-        "change": -0.77,
-        "change_percent": -0.86,
+        "change": -1.27,
+        "change_percent": -1.42,
         "name": "Brent Crude"
       },
       {
@@ -1178,7 +1170,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.15,
+        "change_percent": 0.1,
         "name": "EUR/USD"
       },
       {
@@ -1186,81 +1178,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.17,
+        "change_percent": 0.14,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.76,
+        "price": 158.88,
         "currency": "JPY",
-        "change": -0.84,
-        "change_percent": -0.53,
+        "change": -0.73,
+        "change_percent": -0.45,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61979.16,
+        "price": 61718.12,
         "currency": "USD",
-        "change": 74.4,
-        "change_percent": 0.12,
+        "change": -186.64,
+        "change_percent": -0.3,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 492.12,
+        "price": 502.76,
         "currency": "USD",
-        "change": -6.19,
-        "change_percent": -1.24,
+        "change": 4.46,
+        "change_percent": 0.9,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 352.13,
+        "price": 350.7,
         "currency": "USD",
-        "change": 2.92,
-        "change_percent": 0.84,
+        "change": 1.49,
+        "change_percent": 0.43,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 142.4,
+        "price": 141.97,
         "currency": "USD",
-        "change": -3.58,
-        "change_percent": -2.45,
+        "change": -4.01,
+        "change_percent": -2.75,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 273.55,
+        "price": 282.43,
         "currency": "USD",
-        "change": 0.89,
-        "change_percent": 0.33,
+        "change": 9.76,
+        "change_percent": 3.58,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 251.82,
+        "price": 259.21,
         "currency": "USD",
-        "change": -5.55,
-        "change_percent": -2.16,
+        "change": 1.84,
+        "change_percent": 0.71,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 366.06,
+        "price": 372.75,
         "currency": "USD",
-        "change": -8.35,
-        "change_percent": -2.23,
+        "change": -1.67,
+        "change_percent": -0.44,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 576.72,
+        "price": 586.42,
         "currency": "USD",
-        "change": -19.5,
-        "change_percent": -3.27,
+        "change": -9.8,
+        "change_percent": -1.64,
         "name": "Meta"
       }
     ]
@@ -1297,6 +1289,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "What does Myanmar genocide ruling mean for Rohingya?",
+          "url": "https://theweek.com/law/what-does-myanmar-genocide-ruling-mean-for-rohingya",
+          "published": "2026-11-20T14:40:02+00:00",
+          "snippet": "ICJ cannot enforce its rulings so victims will need global support to gain justice"
+        },
+        {
           "title": "The week’s best photos",
           "url": "https://theweek.com/photos/the-weeks-best-photos-november-20-2026",
           "published": "2026-11-20T09:00:00+00:00",
@@ -1307,12 +1305,6 @@
           "url": "https://theweek.com/culture-life/film/robert-pattinson-james-bond-hollywood-pivot",
           "published": "2026-11-20T07:00:00+00:00",
           "snippet": "The 40-year-old will be the first new Bond since Daniel Craig"
-        },
-        {
-          "title": "More parents are refusing vitamin K shots, putting babies at risk",
-          "url": "https://theweek.com/health/more-parents-are-refusing-vitamin-k-vaccine-putting-babies-at-risk",
-          "published": "2026-11-20T07:00:00+00:00",
-          "snippet": "The number of newborns facing life-threatening bleeding is on the rise"
         }
       ]
     },
@@ -1372,6 +1364,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Betfred blames UK gambling tax rise as it shuts 73 stores",
+          "url": "https://www.ft.com/content/42f825e9-3ee1-4285-8194-3445517e8c14?syn-25a6b1a6=1",
+          "published": "2026-11-20T14:26:34+00:00",
+          "snippet": "Bookmaker makes cuts after last month’s Budget increased levy on slot machines, which have been criticised for being highly addictive"
+        },
+        {
           "title": "France’s de Villepin launches presidential bid in crowded race",
           "url": "https://www.ft.com/content/71d49bc4-76df-4f0b-bb49-5db49b77aceb?syn-25a6b1a6=1",
           "published": "2026-11-20T14:03:35+00:00",
@@ -1381,13 +1379,7 @@
           "title": "Anthropic shares tumble as AI giant swept up in tech sell-off",
           "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1",
           "published": "2026-11-20T14:01:58+00:00",
-          "snippet": "Shares of Claude developer under pressure in pre-market trading a day after blockbuster initial public offering"
-        },
-        {
-          "title": "Maga dealmaking threatens US-brokered peace in the Balkans",
-          "url": "https://www.ft.com/content/bc10dd9a-229f-440b-821e-465864447742?syn-25a6b1a6=1",
-          "published": "2026-11-20T14:00:38+00:00",
-          "snippet": "Thirty years after the Dayton peace accords, US pursues competing interests that risk deepening ethnic tensions in Bosnia"
+          "snippet": "Shares of Claude developer under pressure a day after blockbuster Wall Street debut"
         }
       ]
     },
@@ -1495,17 +1487,47 @@
   "web": {
     "tech": [
       {
+        "title": "Levent Alpoge Claims Proof of Riemann Hypothesis",
+        "url": "https://alpo.ge/remark.pdf",
+        "comments_url": "https://lobste.rs/s/cmifpg/levent_alpoge_claims_proof_riemann",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T14:46:49.946000+00:00"
+      },
+      {
+        "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
+        "url": "https://alpo.ge/remark.pdf",
+        "score": 222,
+        "source": "Hacker News",
+        "published": "2026-11-20T14:16:21+00:00"
+      },
+      {
         "title": "Llms.txt and MCP didn't move the needle",
         "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
-        "score": 9,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-20T14:00:23+00:00"
+      },
+      {
+        "title": "Smart People Who Give a Shit Use Tools",
+        "url": "https://iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools/",
+        "comments_url": "https://lobste.rs/s/twly9y/smart_people_who_give_shit_use_tools",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-20T13:51:10.144000+00:00"
+      },
+      {
+        "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+        "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+        "score": 30,
+        "source": "Hacker News",
+        "published": "2026-11-20T12:16:36+00:00"
       },
       {
         "title": "Lisp Game Jam devlog: Polydraw",
         "url": "https://spritely.institute/news/lisp-game-jam-devlog-polydraw.html",
         "comments_url": "https://lobste.rs/s/irqtic/lisp_game_jam_devlog_polydraw",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-20T11:18:47.299000+00:00"
       },
@@ -1513,22 +1535,14 @@
         "title": "DreamCoder: coding harness and IDE from the author of Mastering Emacs",
         "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
         "comments_url": "https://lobste.rs/s/ocdhli/dreamcoder_coding_harness_ide_from",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-20T11:14:06.928000+00:00"
       },
       {
-        "title": "Crafting Targeted MP4 Fuzzers",
-        "url": "https://atredis.com/blog/2026/11/16/crafting-targeted-mp4-fuzzers/",
-        "comments_url": "https://lobste.rs/s/yd2dkh/crafting_targeted_mp4_fuzzers",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-20T10:52:02.517000+00:00"
-      },
-      {
         "title": "The Making of Oxygene",
         "url": "https://jeanmicheljarre.com/aaa/the-making-of-oxygene",
-        "score": 90,
+        "score": 98,
         "source": "Hacker News",
         "published": "2026-11-20T10:41:10+00:00"
       },
@@ -1536,7 +1550,7 @@
         "title": "Removing binder.c",
         "url": "https://lwn.net/Articles/1102982/",
         "comments_url": "https://lobste.rs/s/vo5jve/removing_binder_c",
-        "score": 17,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-20T10:33:36.402000+00:00"
       },
@@ -1544,14 +1558,14 @@
         "title": "Vim Classic 8.3.1 released",
         "url": "https://vim-classic.org/news/vim-8.3.1-released.html",
         "comments_url": "https://lobste.rs/s/kkglbw/vim_classic_8_3_1_released",
-        "score": 23,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-20T10:02:03.889000+00:00"
       },
       {
         "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
         "url": "https://architectlabs.com/blog/frostbite",
-        "score": 321,
+        "score": 353,
         "source": "Hacker News",
         "published": "2026-11-20T10:01:41+00:00"
       },
@@ -1559,52 +1573,30 @@
         "title": "Visited links are purple",
         "url": "https://dbushell.com/2026/11/16/visited-links/",
         "comments_url": "https://lobste.rs/s/hcahbx/visited_links_are_purple",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-20T09:58:05.152000+00:00"
       },
       {
         "title": "What people are building, discovered through new domains",
         "url": "https://startups.novumsignals.com/",
-        "score": 84,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-20T09:54:33+00:00"
       },
       {
-        "title": "UK fridges secured from hackers",
-        "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
-        "score": 95,
-        "source": "Hacker News",
-        "published": "2026-11-20T09:52:20+00:00"
-      },
-      {
         "title": "If you can't explain something in simple terms, you don't understand it (2017)",
         "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-        "score": 224,
+        "score": 272,
         "source": "Hacker News",
         "published": "2026-11-20T09:43:19+00:00"
       },
       {
         "title": "Signal Is Serious About Protecting Your Privacy",
         "url": "https://signal.org/blog/protecting-your-privacy/",
-        "score": 53,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-20T09:42:16+00:00"
-      },
-      {
-        "title": "Announcing jj-musubi: live sync for Jujutsu",
-        "url": "https://www.serpentine.com/posts/2026/announcing-jj-musubi/",
-        "comments_url": "https://lobste.rs/s/tj1j4b/announcing_jj_musubi_live_sync_for",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-20T09:39:11.806000+00:00"
-      },
-      {
-        "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
-        "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
-        "score": 281,
-        "source": "Hacker News",
-        "published": "2026-11-20T09:13:09+00:00"
       }
     ],
     "reddit": [

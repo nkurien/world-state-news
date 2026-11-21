@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-21T23:01:09.448968+00:00",
+  "last_updated": "2026-11-21T23:30:52.305110+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 293
+      "ms": 409
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 281
+      "ms": 221
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 204
+      "ms": 209
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 111
+      "ms": 256
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 276
+      "ms": 520
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 140
+      "ms": 283
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 476
+      "ms": 239
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 220
+      "ms": 457
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3149
+      "ok": true,
+      "count": 44,
+      "error": null,
+      "ms": 170
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 115
+      "ms": 308
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 376
+      "ms": 724
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 291
+      "ms": 236
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 77
+      "ms": 206
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 268
+      "ms": 557
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 116
+      "ms": 396
     },
     "RNZ": {
       "ok": true,
-      "count": 34,
+      "count": 33,
       "error": null,
-      "ms": 105
+      "ms": 443
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 800
+      "ms": 617
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 872
+      "ms": 536
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 757
+      "ms": 811
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 367
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 222
+      "ms": 163
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 194
+      "ms": 191
     },
     "The Independent": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 114
+      "ms": 194
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 187
+      "ms": 315
     }
   },
   "breaking": [
@@ -209,60 +209,46 @@
       "consensus": 2.5
     },
     {
-      "title": "French police officers jailed for racist violence against black man in landmark ruling",
-      "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
-      "source": "SCMP",
-      "published": "2026-11-21T20:22:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
-          "title": "French police officers convicted of racist assault",
-          "published": "2026-11-21T16:41:49+00:00"
-        }
-      ],
-      "consensus": 2.5
+      "title": "Ukraine: Dashcam captures massive explosion on Lviv street",
+      "url": "https://www.euronews.com/video/2026/11/22/ukraine-dashcam-captures-massive-explosion-on-lviv-street",
+      "source": "Euronews",
+      "published": "2026-11-21T23:05:47+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Russian cargo ship hit by drones in Baltic, Finland tightens security",
-      "url": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
-      "source": "CNA",
-      "published": "2026-11-21T20:19:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece",
-          "title": "Cargo ship bound for Russia's Kaliningrad hit by drones, Finland tightens security",
-          "published": "2026-11-21T16:51:03+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Sarah advertised for a roommate. The love of her life applied",
-      "url": "https://www.abc.net.au/news/2026-11-22/from-roommates-to-soul-mates/107389996",
+      "title": "Bystanders pull male driver from burning car in Canberra",
+      "url": "https://www.abc.net.au/news/2026-11-22/man-critically-injured-in-burning-car-canberra-act/107413750",
       "source": "ABC Australia",
+      "published": "2026-11-21T23:05:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘Armored Trooper VOTOMS: Die Graue Hexe’: Sci-fi franchise gets a stylish reboot",
+      "url": "https://www.japantimes.co.jp/culture/2026/11/22/film/armored-trooper-votoms-die-graue-hexe/",
+      "source": "Japan Times",
       "published": "2026-11-21T23:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Zelensky calls Putin a ‘killer’ as he slams Trump’s ‘friendship’ with Moscow",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-      "source": "The Independent",
-      "published": "2026-11-21T22:42:19+00:00",
+      "title": "A sweet, rolled omelet worthy of a samurai warlord",
+      "url": "https://www.japantimes.co.jp/life/2026/11/22/food-drink/washoku-essentials-datemaki-sweet-omelet-osechi-new-year/",
+      "source": "Japan Times",
+      "published": "2026-11-21T23:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Man found dead on Flinders Island linked to shooting of police officer, Tasmanian authorities say",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say",
-      "source": "The Guardian",
-      "published": "2026-11-21T22:41:36+00:00",
+      "title": "Four people injured after house slides off piles while being relocated",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2728240/four-people-injured-after-house-slides-off-piles-while-being-relocated",
+      "source": "RNZ",
+      "published": "2026-11-21T22:55:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -352,7 +338,7 @@
       "url": "https://www.france24.com/en/endurance-athlete-swims-in-hormuz-strait",
       "source": "France24",
       "published": "2026-11-21T16:02:59+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
         {
           "source": "The Independent",
@@ -365,6 +351,12 @@
           "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
           "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
           "published": "2026-11-21T12:18:46+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
+          "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+          "published": "2026-11-21T12:18:40+00:00"
         }
       ],
       "consensus": 3.5
@@ -387,6 +379,28 @@
           "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375341/indonesia-eu-sign-ambitious-trade-deal",
           "title": "Indonesia, EU sign ‘ambitious’ trade deal",
           "published": "2026-11-21T13:46:13+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T08:10:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
+          "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+          "published": "2026-11-21T07:07:09+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
+          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
+          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 3.5
@@ -480,6 +494,22 @@
       "consensus": 3.0
     },
     {
+      "title": "French police officers jailed for racist violence against black man in landmark ruling",
+      "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
+      "source": "SCMP",
+      "published": "2026-11-21T20:22:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+          "title": "French police officers convicted of racist assault",
+          "published": "2026-11-21T16:41:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
       "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
       "source": "SCMP",
@@ -571,22 +601,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/vladimir-putin-moscow-ukraine-russia-donald-trump-b3089063.html",
           "title": "Russia dusts off its prewar demands as the US raises discussing European security at Ukraine talks",
           "published": "2026-11-21T05:01:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T08:10:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
-          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
-          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -736,6 +750,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Russian cargo ship hit by drones in Baltic, Finland tightens security",
+      "url": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
+      "source": "CNA",
+      "published": "2026-11-21T20:19:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece",
+          "title": "Cargo ship bound for Russia's Kaliningrad hit by drones, Finland tightens security",
+          "published": "2026-11-21T16:51:03+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
       "url": "https://www.france24.com/en/drone-attack-sets-russian-cargo-ship-ablaze-in-gulf-of-finland",
       "source": "France24",
@@ -832,6 +862,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "source": "Euronews",
+      "published": "2026-11-21T09:01:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+          "title": "US declassifies more UFO footage filmed in the Middle East",
+          "published": "2026-11-20T23:15:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
       "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
       "source": "Japan Times",
@@ -896,6 +942,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T00:01:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
+          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
+          "published": "2026-11-20T15:03:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Cost of living protests sweep across Europe",
       "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -910,56 +972,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Malaysia plans to resettle 10,000 Rohingya in Turkiye",
-      "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T10:32:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-says-it-will-resettle-10000-rohingya-refugees-in-turkey",
-          "title": "Malaysia removes post announcing plan to resettle 10,000 Rohingya in Turkey",
-          "published": "2026-11-20T07:50:23+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Indonesia’s Prabowo and China’s Xi discuss future South China Sea cooperation",
-      "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/indonesia-south-china-sea-xi/",
-      "source": "Japan Times",
-      "published": "2026-11-20T08:31:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/indonesias-prabowo-chinas-xi-discuss-future-south-china-sea-cooperation",
-          "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
-          "published": "2026-11-20T06:32:50+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Victorian farmers get creative with book-inspired hay bale sculptures",
-      "url": "https://www.abc.net.au/news/2026-11-22/upper-murray-hay-bale-art-trail-fire-flood-recovery/107390424",
-      "source": "ABC Australia",
-      "published": "2026-11-21T22:33:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Xi’s bay-area vision offers scope for cooperation despite US, Tokyo hurdles: analysts",
-      "url": "https://www.scmp.com/news/hong-kong/politics/article/3375348/xis-bay-area-vision-offers-scope-cooperation-despite-us-tokyo-hurdles-analysts",
-      "source": "SCMP",
-      "published": "2026-11-21T22:30:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1106,10 +1118,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60008.82,
+        "price": 60135.26,
         "currency": "USD",
-        "change": 1206.22,
-        "change_percent": 2.05,
+        "change": 1332.66,
+        "change_percent": 2.27,
         "name": "Bitcoin"
       }
     ],
@@ -1402,16 +1414,31 @@
   "web": {
     "tech": [
       {
+        "title": "Advice for the next 100 Rust GUIs",
+        "url": "https://linebender.org/blog/next-100-guis/",
+        "comments_url": "https://lobste.rs/s/inhlo2/advice_for_next_100_rust_guis",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-21T23:10:07.020000+00:00"
+      },
+      {
         "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
         "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-        "score": 12,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-21T22:09:58+00:00"
       },
       {
+        "title": "Advice for the next 100 Rust GUIs",
+        "url": "https://linebender.org/blog/next-100-guis/",
+        "score": 27,
+        "source": "Hacker News",
+        "published": "2026-11-21T21:17:53+00:00"
+      },
+      {
         "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
         "url": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
-        "score": 11,
+        "score": 13,
         "source": "Hacker News",
         "published": "2026-11-21T21:06:14+00:00"
       },
@@ -1419,21 +1446,21 @@
         "title": "How I Got Postgres into a Single Binary",
         "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
         "comments_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-21T19:32:22.642000+00:00"
       },
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 299,
+        "score": 310,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
       },
       {
         "title": "PostgreSQL Extensions in Go",
         "url": "https://jespino.github.io/gopgext/",
-        "score": 105,
+        "score": 108,
         "source": "Hacker News",
         "published": "2026-11-21T17:08:04+00:00"
       },
@@ -1449,7 +1476,7 @@
         "title": "TODOs JJ Style",
         "url": "https://bwc9876.dev/blog/jj_todo/",
         "comments_url": "https://lobste.rs/s/qxzs4y/todos_jj_style",
-        "score": 33,
+        "score": 35,
         "source": "Lobste.rs",
         "published": "2026-11-21T15:17:18.956000+00:00"
       },
@@ -1457,14 +1484,14 @@
         "title": "My Monitor Was Cutting My Download Speed by 75%",
         "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
         "comments_url": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
-        "score": 68,
+        "score": 69,
         "source": "Lobste.rs",
         "published": "2026-11-21T15:03:28.370000+00:00"
       },
       {
         "title": "Lean verification of the Riemann Hypothesis",
         "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-        "score": 727,
+        "score": 745,
         "source": "Hacker News",
         "published": "2026-11-21T14:36:45+00:00"
       },
@@ -1472,14 +1499,14 @@
         "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
         "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
         "comments_url": "https://lobste.rs/s/fjueso/c_26_is_done_again_trip_report_november",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-21T13:57:53.737000+00:00"
       },
       {
         "title": "Detonating a pile of lead azide",
         "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-        "score": 473,
+        "score": 484,
         "source": "Hacker News",
         "published": "2026-11-21T13:23:14+00:00"
       },
@@ -1487,7 +1514,7 @@
         "title": "Probabilistic data structures in Go, part 2",
         "url": "https://antonz.org/probabilistic-data-structures-2/",
         "comments_url": "https://lobste.rs/s/hcofqi/probabilistic_data_structures_go_part_2",
-        "score": 20,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-21T13:18:02.362000+00:00"
       },
@@ -1495,24 +1522,9 @@
         "title": "Microsoft 365 Outage - Post Incident Report",
         "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
         "comments_url": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
-        "score": 10,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-21T12:22:47.193000+00:00"
-      },
-      {
-        "title": "Changes on freedesktop.org",
-        "url": "https://blog.tenstral.net/2026/11/new-fdo-website.html",
-        "comments_url": "https://lobste.rs/s/p5zsx4/changes_on_freedesktop_org",
-        "score": 8,
-        "source": "Lobste.rs",
-        "published": "2026-11-21T11:41:23.942000+00:00"
-      },
-      {
-        "title": "My monitor was cutting my download speed by 75%",
-        "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-        "score": 424,
-        "source": "Hacker News",
-        "published": "2026-11-21T10:36:32+00:00"
       }
     ],
     "reddit": [

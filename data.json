@@ -1,180 +1,196 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-21T03:01:14.229405+00:00",
+  "last_updated": "2026-11-21T03:30:50.653309+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 110
+      "ms": 327
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 94
+      "ms": 550
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 120
+      "ms": 310
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 33
+      "ms": 444
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 139
+      "ms": 402
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 90
+      "ms": 261
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 91
+      "ms": 502
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 201
+      "ms": 731
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 148
+      "ms": 181
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 88
+      "ms": 212
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 454
+      "ms": 825
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 138
+      "ms": 410
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 142
+      "ms": 283
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 204
+      "ms": 170
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 113
+      "ms": 262
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 344
+      "ms": 549
     },
     "SCMP": {
-      "ok": false,
-      "count": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
-      "ms": 3369
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 873
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 680
+      "ms": 972
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 273
+      "ms": 762
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 128
+      "ms": 378
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 87
+      "ms": 375
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 182
+      "ms": 399
     },
     "The Independent": {
       "ok": true,
-      "count": 70,
+      "count": 71,
       "error": null,
-      "ms": 206
+      "ms": 308
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 74
+      "ms": 353
     }
   },
   "breaking": [
     {
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T00:01:39+00:00",
-      "score": 4,
+      "title": "Trump threatens ‘tremendous tax’ on US firms building AI data centres overseas",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375303/trump-threatens-tremendous-tax-us-firms-building-ai-data-centres-overseas",
+      "source": "SCMP",
+      "published": "2026-11-21T00:48:00+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mamdani-rikers-island-jail-closing-b3088549.html",
-          "title": "New York City’s notorious jail Rikers Island set to ‘finally’ close, Mayor Mamdani unveils",
-          "published": "2026-11-20T16:39:01+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+          "title": "Trump threatens tax on US tech firms building AI data centres abroad",
+          "published": "2026-11-20T21:10:53+00:00"
         },
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
-          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
-          "published": "2026-11-20T15:03:20+00:00"
-        },
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-20/mamdani-unveils-plan-to-close-rikers-island-new-yorks-notorious-jail-plagued-by-allegations-of-abuse-violence-and-death.html",
-          "title": "Mamdani unveils plan to close Rikers Island, New York’s notorious jail plagued by allegations of abuse, violence and death",
-          "published": "2026-11-20T12:41:54+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+          "title": "Trump threatens ban on US firms building AI data centres overseas",
+          "published": "2026-11-20T20:54:12+00:00"
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Three French police officers sentenced over racist assault on Black man",
+      "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-21T03:01:24+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+          "title": "French police officers sentenced for beating of music producer Michel Zecler",
+          "published": "2026-11-20T22:37:09+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer",
+          "title": "French police officers found guilty of racist assault on black music producer",
+          "published": "2026-11-20T22:23:53+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Texas inmate screams during drawn-out execution",
@@ -188,6 +204,22 @@
           "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
           "title": "Texas death-row inmate screams as execution takes more than one hour",
           "published": "2026-11-20T12:42:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+      "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-21T01:12:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375295/denmark-expels-russian-diplomat-over-plot-kill-ukraine-rapper",
+          "title": "Denmark expels Russian diplomat over plot to kill Ukraine rapper",
+          "published": "2026-11-20T18:14:12+00:00"
         }
       ],
       "consensus": 2.5
@@ -241,28 +273,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Bayer to pay $11b over claims weed killer caused cancer",
-      "url": "https://www.abc.net.au/news/2026-11-21/bayer-cancer-settlement-roundup-weed-killer-11-billion/107412544",
-      "source": "ABC Australia",
-      "published": "2026-11-21T03:00:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Gen Z protests sweep Europe over wars, rising costs and climate",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/gen-z-protests-sweep-europe-over-wars-rising-costs-and-climate?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-21T02:49:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
-      "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
-      "source": "CNA",
-      "published": "2026-11-21T02:40:43+00:00",
+      "title": "Japan’s ‘Rabbit Island’ draws tourists with fluffy bunnies and dark wartime past",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375307/japans-rabbit-island-draws-tourists-fluffy-bunnies-and-dark-wartime-past",
+      "source": "SCMP",
+      "published": "2026-11-21T03:25:40+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -302,6 +316,40 @@
         }
       ],
       "consensus": 6.5
+    },
+    {
+      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T00:01:39+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375293/mamdani-unveils-plan-close-new-yorks-notorious-rikers-island-jail",
+          "title": "Mamdani unveils plan to close New York’s notorious Rikers Island jail",
+          "published": "2026-11-20T17:00:43+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/mamdani-rikers-island-jail-closing-b3088549.html",
+          "title": "New York City’s notorious jail Rikers Island set to ‘finally’ close, Mayor Mamdani unveils",
+          "published": "2026-11-20T16:39:01+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
+          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
+          "published": "2026-11-20T15:03:20+00:00"
+        },
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-20/mamdani-unveils-plan-to-close-rikers-island-new-yorks-notorious-jail-plagued-by-allegations-of-abuse-violence-and-death.html",
+          "title": "Mamdani unveils plan to close Rikers Island, New York’s notorious jail plagued by allegations of abuse, violence and death",
+          "published": "2026-11-20T12:41:54+00:00"
+        }
+      ],
+      "consensus": 5.5
     },
     {
       "title": "Trump hails 'fantastic' relationships with China's Xi, Russia's Putin after three-way talks",
@@ -416,28 +464,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Trump threatens to penalize U.S. tech companies that build AI data centres in other countries",
-      "url": "https://www.cbc.ca/news/world/ai-data-centres-us-tech-companies-trump-9.7430426?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-20T21:35:47+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
-          "title": "Trump threatens tax on US tech firms building AI data centres abroad",
-          "published": "2026-11-20T21:10:53+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
-          "title": "Trump threatens ban on US firms building AI data centres overseas",
-          "published": "2026-11-20T20:54:12+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "EU and UK hail 'landmark' deal to rebuild ties at Brussels summit",
       "url": "https://www.channelnewsasia.com/world/burnham-eu-brexit-landmark-deal-brussels-summit-6570481",
       "source": "CNA",
@@ -461,6 +487,28 @@
           "url": "https://www.rfi.fr/en/international/20261120-eu-and-uk-agree-landmark-deal-at-burnham-s-brussels-summit",
           "title": "EU and UK agree 'landmark' deal at Burnham's Brussels summit",
           "published": "2026-11-20T02:00:32+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
+      "url": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T17:39:51+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/20/russia-accuses-estonia-of-erecting-new-iron-curtain-with-border-closure-says-it-will-respond-a94333",
+          "title": "Russia Accuses Estonia of Erecting New Iron Curtain With Border Closure, Says It Will Respond",
+          "published": "2026-11-20T12:33:01+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375264/estonia-close-border-russia-least-6-months-over-foiled-sabotage",
+          "title": "Estonia to close border with Russia for at least 6 months over foiled sabotage",
+          "published": "2026-11-20T11:52:05+00:00"
         }
       ],
       "consensus": 3.5
@@ -508,22 +556,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
-      "url": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T17:39:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/20/russia-accuses-estonia-of-erecting-new-iron-curtain-with-border-closure-says-it-will-respond-a94333",
-          "title": "Russia Accuses Estonia of Erecting New Iron Curtain With Border Closure, Says It Will Respond",
-          "published": "2026-11-20T12:33:01+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "Xi hails ‘complete turnaround’ in ties with Australia as Apec summit wraps up in Shenzhen",
@@ -606,6 +638,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Indian man jailed over US murder plot against Sikh separatist",
+      "url": "https://www.channelnewsasia.com/world/us-india-nikhil-gupta-sentenced-sikh-pannun-6570561",
+      "source": "CNA",
+      "published": "2026-11-20T21:07:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375297/indian-man-jailed-over-us-murder-plot-against-sikh-separatist",
+          "title": "Indian man jailed over US murder plot against Sikh separatist",
+          "published": "2026-11-20T19:27:53+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Anthropic researcher says Claude solved maths’ greatest riddle",
+      "url": "https://www.thehindu.com/sci-tech/technology/anthropic-researcher-says-claude-solved-maths-greatest-riddle/article71725942.ece",
+      "source": "The Hindu",
+      "published": "2026-11-20T18:35:22+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375294/anthropic-researcher-says-claude-has-solved-maths-greatest-riddle",
+          "title": "Anthropic researcher says Claude AI has solved maths’ greatest riddle: Riemann Hypothesis",
+          "published": "2026-11-20T17:55:08+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Nepal PM Balendra Shah to visit India on November 22-23",
       "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
       "source": "The Hindu",
@@ -671,6 +735,22 @@
           "url": "https://www.theguardian.com/global-development/2026/nov/19/everyone-struggled-for-this-justice-tears-in-court-as-rohingya-vindicated-in-myanmar-genocide-ruling",
           "title": "‘Everyone struggled for this justice’: tears in court as Rohingya vindicated in Myanmar genocide ruling",
           "published": "2026-11-19T16:15:52+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Vietnam scraps capital punishment for drug trafficking",
+      "url": "https://www.straitstimes.com/asia/se-asia/vietnam-scraps-capital-punishment-for-drug-trafficking",
+      "source": "Straits Times",
+      "published": "2026-11-20T11:28:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375257/vietnam-scraps-death-sentence-drug-trafficking",
+          "title": "Vietnam scraps death sentence for drug trafficking",
+          "published": "2026-11-20T11:13:26+00:00"
         }
       ],
       "consensus": 2.0
@@ -820,109 +900,82 @@
       "consensus": 1.5
     },
     {
-      "title": "Bangkok Gen Z rally demands education reform and youth participation",
-      "url": "https://www.straitstimes.com/asia/se-asia/bangkok-gen-z-rally-demands-education-reform-and-youth-participation",
-      "source": "Straits Times",
-      "published": "2026-11-21T02:52:00+00:00",
+      "title": "From Hong Kong to Africa: humble bag carries history of migration",
+      "url": "https://www.japantimes.co.jp/news/2026/11/21/world/humble-bag-migration-history/",
+      "source": "Japan Times",
+      "published": "2026-11-21T03:23:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "All 146 Air Niugini plane passengers and crew safe after an emergency landing in Philippines",
-      "url": "https://www.straitstimes.com/asia/se-asia/all-146-air-niugini-plane-passengers-and-crew-safe-after-an-emergency-landing-in-philippines",
-      "source": "Straits Times",
-      "published": "2026-11-21T02:51:00+00:00",
+      "title": "Magnitude-6.8 quake strikes Peru sending residents onto the streets",
+      "url": "https://www.independent.co.uk/news/world/americas/magnitude-6-8-quake-in-peru-s-andean-region-sends-lima-residents-onto-streets-b3089051.html",
+      "source": "The Independent",
+      "published": "2026-11-21T03:22:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "NZ lamb 'complementary' to US production, exporters insist",
-      "url": "https://www.rnz.co.nz/news/country/2720289/nz-lamb-complementary-to-us-production-exporters-insist",
-      "source": "RNZ",
-      "published": "2026-11-21T02:38:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan govt criticised for featuring conspiracy-theory YouTuber in campaign",
-      "url": "https://www.straitstimes.com/asia/east-asia/japan-govt-criticised-for-featuring-conspiracy-theory-youtuber-in-campaign",
-      "source": "Straits Times",
-      "published": "2026-11-21T02:36:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Four people struck by lightning at NSW music festival",
-      "url": "https://www.abc.net.au/news/2026-11-21/four-strawberry-fields-festivalgoers-struck-by-lightning/107412498",
-      "source": "ABC Australia",
-      "published": "2026-11-21T02:23:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Australia-wide rallies warn freebirths will soar under new rules",
-      "url": "https://www.abc.net.au/news/2026-11-21/homebirth-rallies-midwife-insurance-freebirth/107412380",
-      "source": "ABC Australia",
-      "published": "2026-11-21T02:23:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Do you wanna run for president?' Trump floats chief of staff for 2028",
-      "url": "https://www.channelnewsasia.com/world/donald-trump-us-presidency-stephen-miller-6571076",
-      "source": "CNA",
-      "published": "2026-11-21T02:23:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "‘Look at India, they have low interest rates’: Trump says U.S. could achieve 14–15% economic growth",
-      "url": "https://www.thehindu.com/news/international/look-at-india-they-have-low-interest-rates-trump-says-us-could-achieve-1415-economic-growth/article71727140.ece",
+      "title": "Saudi-led coalition says downed 3 Houthi missiles headed for Riyadh",
+      "url": "https://www.thehindu.com/news/international/saudi-led-coalition-says-downed-3-houthi-missiles-headed-for-riyadh/article71727179.ece",
       "source": "The Hindu",
-      "published": "2026-11-21T02:20:19+00:00",
+      "published": "2026-11-21T03:21:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ahead of 2028, a presidential campaign is building behind AOC",
-      "url": "https://www.abc.net.au/news/2026-11-21/alexandria-ocasio-cortez-aoc-possible-2028-presidential-campaign/107389828",
+      "title": "Iran foreign minister wants diplomacy to end war, Trump says terms unacceptable",
+      "url": "https://www.japantimes.co.jp/news/2026/11/21/world/politics/iran-diplomacy-terms-unacceptable/",
+      "source": "Japan Times",
+      "published": "2026-11-21T03:20:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Brazil ex-president Jair Bolsonaro taken to hospital over abdominal pain",
+      "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T03:16:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Mao Shimada grabs lead at Finlandia Trophy after short program",
+      "url": "https://www.japantimes.co.jp/sports/2026/11/21/more-sports/mao-shimada-finlandia-trophy/",
+      "source": "Japan Times",
+      "published": "2026-11-21T03:10:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "The accidental outback publican",
+      "url": "https://www.abc.net.au/news/2026-11-21/outback-publican-accidental-journey-to-tilpa-hotel-ownership-nsw/107403434",
       "source": "ABC Australia",
-      "published": "2026-11-21T02:19:16+00:00",
+      "published": "2026-11-21T03:08:04+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Experts say AI 'spy-tech' has infiltrated Australian uni exams",
-      "url": "https://www.abc.net.au/news/2026-11-21/inside-the-new-high-tech-era-of-exam-cheating-australia/107403692",
+      "title": "Breaking: Cummins to retain captaincy with CA board's 'unanimous' support",
+      "url": "https://www.abc.net.au/news/2026-11-21/cricket-australia-pat-cummins-captaincy-sandpaper-ball-tampering/107412194",
       "source": "ABC Australia",
-      "published": "2026-11-21T02:18:47+00:00",
+      "published": "2026-11-21T03:04:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Young Iranian women risk their lives to join underground ballet network",
-      "url": "https://www.abc.net.au/news/2026-11-21/inside-iran-illegal-underground-dance-ballet-network/107404620",
+      "title": "Breaking: Teenager charged after Sydney shopping centre stabbings",
+      "url": "https://www.abc.net.au/news/2026-11-21/teenager-charged-after-sydney-shopping-centre-stabbings/107412324",
       "source": "ABC Australia",
-      "published": "2026-11-21T02:18:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Cyclone-hit community gets revamped fire station to bolster disaster resilience",
-      "url": "https://www.rnz.co.nz/news/emergencies_local/2720110/cyclone-hit-community-gets-revamped-fire-station-to-bolster-disaster-resilience",
-      "source": "RNZ",
-      "published": "2026-11-21T02:10:45+00:00",
+      "published": "2026-11-21T03:01:38+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1072,10 +1125,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 58450.91,
+        "price": 57860.77,
         "currency": "USD",
-        "change": -351.69,
-        "change_percent": -0.6,
+        "change": -941.83,
+        "change_percent": -1.6,
         "name": "Bitcoin"
       }
     ],
@@ -1371,7 +1424,7 @@
         "title": "Slopstrap: Make your site look hastily vibecoded",
         "url": "https://slopstrap.mikelacher.com/l",
         "comments_url": "https://lobste.rs/s/1n8fzn/slopstrap_make_your_site_look_hastily",
-        "score": 2,
+        "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-21T00:46:40.624000+00:00"
       },
@@ -1386,21 +1439,21 @@
       {
         "title": "Re: Riemann",
         "url": "https://borretti.me/article/re-riemann",
-        "score": 149,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-20T23:42:44+00:00"
       },
       {
         "title": "Sir Brian May adds new dimension to Hera asteroid",
         "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
-        "score": 45,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-20T23:19:44+00:00"
       },
       {
         "title": "NINLIVE: The Nine Inch Nails live archive",
         "url": "https://ninlive.com/",
-        "score": 148,
+        "score": 152,
         "source": "Hacker News",
         "published": "2026-11-20T22:30:47+00:00"
       },
@@ -1415,21 +1468,21 @@
       {
         "title": "Inkling 2 Mini",
         "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-        "score": 734,
+        "score": 762,
         "source": "Hacker News",
         "published": "2026-11-20T20:12:19+00:00"
       },
       {
         "title": "And yet, it moves",
         "url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
-        "score": 102,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-20T20:07:55+00:00"
       },
       {
         "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
         "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-        "score": 123,
+        "score": 133,
         "source": "Hacker News",
         "published": "2026-11-20T20:03:59+00:00"
       },
@@ -1444,28 +1497,28 @@
       {
         "title": "Hurried Announcement: Alessandro Masullo GRH",
         "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-        "score": 1660,
+        "score": 1685,
         "source": "Hacker News",
         "published": "2026-11-20T18:33:14+00:00"
       },
       {
         "title": "We promoted developers into architects without informing them",
         "url": "https://manidoraisamy.com/developer-to-architect.html",
-        "score": 323,
+        "score": 331,
         "source": "Hacker News",
         "published": "2026-11-20T18:17:51+00:00"
       },
       {
         "title": "Vibecoding an inference chip",
         "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
-        "score": 118,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-20T18:15:16+00:00"
       },
       {
         "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
         "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-        "score": 357,
+        "score": 368,
         "source": "Hacker News",
         "published": "2026-11-20T17:21:36+00:00"
       },

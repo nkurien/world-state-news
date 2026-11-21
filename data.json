@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-21T04:30:51.269328+00:00",
+  "last_updated": "2026-11-21T05:01:00.684894+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 381
+      "ms": 320
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 453
+      "ms": 310
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 245
+      "ms": 214
     },
     "BBC News": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 264
+      "ms": 146
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 88
+      "ms": 204
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 302
+      "ms": 372
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 541
+      "ms": 546
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 586
+      "ms": 415
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 165
+      "ms": 154
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 259
+      "ms": 212
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 407
+      "ms": 646
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 340
+      "ms": 210
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 105
+      "ms": 149
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 741
+      "ms": 426
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 100
+      "ms": 240
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 41,
       "error": null,
-      "ms": 353
+      "ms": 357
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 678
+      "ms": 596
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 682
+      "ms": 529
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 673
+      "ms": 577
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 281
+      "ms": 328
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 241
+      "ms": 132
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 321
+      "ms": 222
     },
     "The Independent": {
       "ok": true,
-      "count": 71,
+      "count": 70,
       "error": null,
-      "ms": 157
+      "ms": 191
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 257
+      "ms": 142
     }
   },
   "breaking": [
@@ -171,6 +171,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+      "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-21T04:32:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/saudi-arabia-yemen-houthi-missiles-riyadh-6571176",
+          "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
+          "published": "2026-11-21T03:54:18+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/saudi-led-coalition-says-downed-3-houthi-missiles-headed-for-riyadh/article71727179.ece",
+          "title": "Saudi-led coalition says downed 3 Houthi missiles headed for Riyadh",
+          "published": "2026-11-21T03:21:27+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Three French police officers sentenced over racist assault on Black man",
       "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
       "source": "Al Jazeera",
@@ -191,6 +213,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Honda, Toyota recall 1.6 million US vehicles over airbag rupture risk",
+      "url": "https://www.abc.net.au/news/2026-11-21/honda-toyota-recall-vehicles-over-takata-airbag-rupture-risk/107412768",
+      "source": "ABC Australia",
+      "published": "2026-11-21T04:42:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/11/21/honda-toyota-us-airbag-recall/",
+          "title": "Honda and Toyota recall 1.6 million vehicles over Takata airbag rupture risk",
+          "published": "2026-11-21T00:36:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T04:34:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-21/man-convicted-of-starting-2025-la-palisades-fire/107412326",
+          "title": "Man convicted of starting deadly 2025 LA Palisades Fire",
+          "published": "2026-11-20T23:53:06+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Trump ousts cyber director after tech outages spark criticism",
@@ -225,37 +279,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Labor set for historic defeat at Victorian election, political experts say",
-      "url": "https://www.abc.net.au/news/2026-11-21/victorian-election-final-week/107412434",
-      "source": "ABC Australia",
-      "published": "2026-11-21T04:25:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Vietnam passes law to speed up land expropriation for priority projects",
-      "url": "https://www.straitstimes.com/asia/vietnam-passes-law-to-speed-up-land-expropriation-for-priority-projects",
-      "source": "Straits Times",
-      "published": "2026-11-21T04:20:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Anthropic’s post-debut stumble delivers reality check for AI trade",
-      "url": "https://www.japantimes.co.jp/business/2026/11/21/markets/anthropic-ai-stocks/",
-      "source": "Japan Times",
-      "published": "2026-11-21T04:19:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "States seek to develop new rules to regulate ‘killer robots’ by 2028",
-      "url": "https://www.independent.co.uk/news/world/europe/un-talks-killer-robots-weapons-russia-b3089057.html",
-      "source": "The Independent",
-      "published": "2026-11-21T04:14:55+00:00",
+      "title": "Will political distrust upend South Korea’s bid to tame its ‘imperial presidency’?",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375273/will-political-distrust-upend-south-koreas-bid-tame-its-imperial-presidency",
+      "source": "SCMP",
+      "published": "2026-11-21T05:00:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -457,6 +484,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "A new Nepal, an old neighbour - Balendra Shah's India test on first visit",
+      "url": "https://www.bbc.co.uk/news/articles/c6jre8xd83qgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-20T23:28:17+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
+          "title": "Nepal PM Balendra Shah to visit India on November 22-23",
+          "published": "2026-11-20T17:09:29+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
+          "title": "Nepal PM Balendra Shah to visit India, meet Modi",
+          "published": "2026-11-20T08:55:24+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "EU and UK hail 'landmark' deal to rebuild ties at Brussels summit",
@@ -713,22 +762,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Nepal PM Balendra Shah to visit India on November 22-23",
-      "url": "https://www.thehindu.com/news/national/nepal-pm-balendra-shah-to-visit-india-on-november-2223/article71723493.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T17:09:29+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/nepal-pm-balendra-shah-to-visit-india-meet-modi",
-          "title": "Nepal PM Balendra Shah to visit India, meet Modi",
-          "published": "2026-11-20T08:55:24+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Cost of living protests sweep across Europe",
       "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -943,46 +976,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Rohingya who escaped Myanmar’s genocide tell their stories",
-      "url": "https://www.theguardian.com/world/2026/nov/21/rohingya-who-escaped-myanmars-genocide-tell-their-stories",
+      "title": "Spirit IV ferry docks late again after 'technical issue'",
+      "url": "https://www.abc.net.au/news/2026-11-21/spirit-iv-technical-issue-geelong-delay/107412682",
+      "source": "ABC Australia",
+      "published": "2026-11-21T04:45:41+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Teenager allegedly organised arsons and kidnapping on Signal during Melbourne hospitality wars",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/teenager-allegedly-organised-arsons-and-kidnapping-on-signal-during-melbourne-hospitality-wars-ntwnfb",
       "source": "The Guardian",
-      "published": "2026-11-21T04:00:47+00:00",
+      "published": "2026-11-21T04:44:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "A steadier US-China relationship still leaves Southeast Asia on guard",
-      "url": "https://www.scmp.com/week-asia/opinion/article/3375242/steadier-us-china-relationship-still-leaves-southeast-asia-guard",
-      "source": "SCMP",
-      "published": "2026-11-21T04:00:14+00:00",
+      "title": "As Trump courts Xi and Putin, middle powers make their own moves",
+      "url": "https://www.japantimes.co.jp/news/2026/11/21/japan/politics/trump-xi-putin-middle-powers-analysis/",
+      "source": "Japan Times",
+      "published": "2026-11-21T04:42:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Tanks, drone and anti-drone vehicles spotted at Zhuhai air show site",
-      "url": "https://www.scmp.com/news/china/article/3375197/tanks-drone-and-anti-drone-vehicles-spotted-zhuhai-air-show-site",
-      "source": "SCMP",
-      "published": "2026-11-21T04:00:12+00:00",
+      "title": "Half of Kiwi adults are skipping the dentist",
+      "url": "https://www.rnz.co.nz/news/health/2720451/half-of-kiwi-adults-are-skipping-the-dentist",
+      "source": "RNZ",
+      "published": "2026-11-21T04:41:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Democrat-controlled Congress faces task of reforming Trump’s immigration agenda",
-      "url": "https://english.elpais.com/usa/2026-11-21/democrat-controlled-congress-faces-task-of-reforming-trumps-immigration-agenda.html",
-      "source": "El País",
-      "published": "2026-11-21T04:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "What if the United States voted in 2028 the way it did in the midterms?",
-      "url": "https://english.elpais.com/usa/2026-11-21/what-if-the-united-states-voted-in-2028-the-way-it-did-in-the-midterms.html",
-      "source": "El País",
-      "published": "2026-11-21T04:00:00+00:00",
+      "title": "'He's a killer': Zelensky reacts to Trump calling Putin a friend",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T04:32:50+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1100,10 +1133,10 @@
       },
       {
         "symbol": "BZ=F",
-        "price": 89.95,
+        "price": 89.87,
         "currency": "USD",
-        "change": 0.51,
-        "change_percent": 0.57,
+        "change": 0.43,
+        "change_percent": 0.48,
         "name": "Brent Crude"
       },
       {
@@ -1132,10 +1165,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 55696.38,
+        "price": 56278.91,
         "currency": "USD",
-        "change": -3106.22,
-        "change_percent": -5.28,
+        "change": -2523.69,
+        "change_percent": -4.29,
         "name": "Bitcoin"
       }
     ],
@@ -1305,6 +1338,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Nvidia affair puts Chinese spies in spotlight",
+          "url": "https://www.ft.com/content/77a283dd-b7af-4e72-8d83-9b53ab86f3e0?syn-25a6b1a6=1",
+          "published": "2026-11-21T03:58:46+00:00",
+          "snippet": "Western officials and analysts say China’s Ministry of State Security is formidable in scale and technological capability"
+        },
+        {
           "title": "‘Sandpapergate’ fallout gives Australian cricket a rough time",
           "url": "https://www.ft.com/content/21e99fa9-325d-4294-a459-97393c0d107f?syn-25a6b1a6=1",
           "published": "2026-11-21T01:11:23+00:00",
@@ -1315,12 +1354,6 @@
           "url": "https://www.ft.com/content/e7d36416-9eb7-4479-a217-d593545499df?syn-25a6b1a6=1",
           "published": "2026-11-20T23:16:28+00:00",
           "snippet": "Ruling will help German chemicals group contain legal bills after years of court battles"
-        },
-        {
-          "title": "Nvidia faces US regulator’s probe into its accounting",
-          "url": "https://www.ft.com/content/9b28ed72-aac4-4291-9734-bf60b66645ab?syn-25a6b1a6=1",
-          "published": "2026-11-20T21:58:08+00:00",
-          "snippet": "Securities and Exchange Commission’s investigation adds to difficulties facing chip group after Jensen Huang’s resignation"
         }
       ]
     },
@@ -1428,6 +1461,14 @@
   "web": {
     "tech": [
       {
+        "title": "From Skiplists to B+ Trees: Making Valkey Sorted Sets More Memory Efficient",
+        "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+        "comments_url": "https://lobste.rs/s/ixhrac/from_skiplists_b_trees_making_valkey",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-21T04:31:29.960000+00:00"
+      },
+      {
         "title": "Scaling Git horizontally: how we moved beyond Multi-Raft",
         "url": "https://enroute.sh/blog/scaling-horizontally-how-we-moved-beyond-multi-raft",
         "comments_url": "https://lobste.rs/s/79x708/scaling_git_horizontally_how_we_moved",
@@ -1438,7 +1479,7 @@
       {
         "title": "Clojure will affect the way you think about programming (2017)",
         "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
-        "score": 16,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-21T02:40:39+00:00"
       },
@@ -1446,7 +1487,7 @@
         "title": "Slopstrap: Make your site look hastily vibecoded",
         "url": "https://slopstrap.mikelacher.com/l",
         "comments_url": "https://lobste.rs/s/1n8fzn/slopstrap_make_your_site_look_hastily",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-21T00:46:40.624000+00:00"
       },
@@ -1461,14 +1502,14 @@
       {
         "title": "Sir Brian May adds new dimension to Hera asteroid",
         "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
-        "score": 59,
+        "score": 66,
         "source": "Hacker News",
         "published": "2026-11-20T23:19:44+00:00"
       },
       {
         "title": "NINLIVE: The Nine Inch Nails live archive",
         "url": "https://ninlive.com/",
-        "score": 170,
+        "score": 180,
         "source": "Hacker News",
         "published": "2026-11-20T22:30:47+00:00"
       },
@@ -1476,28 +1517,28 @@
         "title": "Verifying formal models of Raft implementations",
         "url": "https://antithesis.com/blog/2026/verifying-formal-models/",
         "comments_url": "https://lobste.rs/s/4qcr3k/verifying_formal_models_raft",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-20T21:54:45.756000+00:00"
       },
       {
         "title": "Inkling 2 Mini",
         "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-        "score": 802,
+        "score": 829,
         "source": "Hacker News",
         "published": "2026-11-20T20:12:19+00:00"
       },
       {
         "title": "And yet, it moves",
         "url": "https://signoregalilei.com/2026/11/20/and-yet-it-moves/",
-        "score": 116,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-20T20:07:55+00:00"
       },
       {
         "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
         "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
-        "score": 143,
+        "score": 152,
         "source": "Hacker News",
         "published": "2026-11-20T20:03:59+00:00"
       },
@@ -1505,38 +1546,30 @@
         "title": "Internet Archive Staffers Are Unionizing",
         "url": "https://cwa-union.org/news/releases/internet-archive-workers-launch-union-campaign-communications-workers-america",
         "comments_url": "https://lobste.rs/s/o5coeq/internet_archive_staffers_are",
-        "score": 41,
+        "score": 43,
         "source": "Lobste.rs",
         "published": "2026-11-20T18:39:29.070000+00:00"
       },
       {
         "title": "Hurried Announcement: Alessandro Masullo GRH",
         "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-        "score": 1746,
+        "score": 1774,
         "source": "Hacker News",
         "published": "2026-11-20T18:33:14+00:00"
       },
       {
         "title": "We promoted developers into architects without informing them",
         "url": "https://manidoraisamy.com/developer-to-architect.html",
-        "score": 343,
+        "score": 346,
         "source": "Hacker News",
         "published": "2026-11-20T18:17:51+00:00"
       },
       {
-        "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-        "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-        "score": 379,
+        "title": "Vibecoding an inference chip",
+        "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+        "score": 128,
         "source": "Hacker News",
-        "published": "2026-11-20T17:21:36+00:00"
-      },
-      {
-        "title": "Alice v0.6.0",
-        "url": "https://www.alicecaml.org/blog/alice-v0-6-0/",
-        "comments_url": "https://lobste.rs/s/18c0lq/alice_v0_6_0",
-        "score": 15,
-        "source": "Lobste.rs",
-        "published": "2026-11-20T16:44:09.585000+00:00"
+        "published": "2026-11-20T18:15:16+00:00"
       }
     ],
     "reddit": [

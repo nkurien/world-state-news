@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-21T20:30:54.799394+00:00",
+  "last_updated": "2026-11-21T21:01:02.375144+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 190
+      "ms": 445
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 73
+      "ms": 578
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 141
+      "ms": 270
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 425
+      "ms": 201
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 265
+      "ms": 333
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 282
+      "ms": 490
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 506
+      "ms": 286
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 1013
+      "ms": 817
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3156
+      "ok": true,
+      "count": 44,
+      "error": null,
+      "ms": 172
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 142
+      "ms": 82
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 444
+      "ms": 427
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 298
+      "ms": 516
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 150
+      "ms": 124
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 541
+      "ms": 147
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 398
+      "ms": 146
     },
     "RNZ": {
       "ok": true,
-      "count": 33,
+      "count": 35,
       "error": null,
-      "ms": 278
+      "ms": 486
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 585
+      "ms": 789
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 361
+      "ms": 917
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 759
+      "ms": 911
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 446
+      "ms": 347
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 92
+      "ms": 322
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 134
+      "ms": 416
     },
     "The Independent": {
       "ok": true,
-      "count": 42,
+      "count": 40,
       "error": null,
-      "ms": 318
+      "ms": 283
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 294
+      "ms": 297
     }
   },
   "breaking": [
-    {
-      "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-21T17:54:19+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say/article71729327.ece",
-          "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
-          "published": "2026-11-21T16:59:42+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/world-central-kitchen-gaza-strike-b3089195.html",
-          "title": "Israeli strike kills three in car distributing aid in Gaza, witnesses say",
-          "published": "2026-11-21T16:12:41+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/israel-strike-gaza-aid-vehicle-9.7431224?cmp=rss",
-          "title": "Israeli strike kills 3 in vehicle distributing aid in Gaza, witnesses say",
-          "published": "2026-11-21T14:38:36+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Eleven killed as cartel boss El Chapo Isidro’s capture in Mexico sparks burst of violence",
       "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
@@ -196,13 +168,45 @@
           "published": "2026-11-21T17:46:55+00:00"
         },
         {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
+      "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
+      "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
+      "source": "France24",
+      "published": "2026-11-21T20:49:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-22/gadi-eisenkot-invites-benjamin-netanyahu-israeli-coalition-talks/107413714",
+          "title": "Eisenkot invites Netanyahu's party to Israeli coalition talks",
+          "published": "2026-11-21T20:41:17+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "11 killed in burst of violence in northern Mexico after capture of cartel leader Meza Flores",
+      "url": "https://www.thehindu.com/news/international/11-killed-in-burst-of-violence-in-northern-mexico-after-capture-of-cartel-leader-meza-flores/article71729468.ece",
+      "source": "The Hindu",
+      "published": "2026-11-21T20:49:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
           "title": "11 killed in burst of violence in northern Mexico after capture of cartel leader",
           "published": "2026-11-21T16:32:44+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 2.5
     },
     {
       "title": "French police officers jailed for racist violence against black man in landmark ruling",
@@ -232,38 +236,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/gianni-de-gennaro-dead-mafia-italy-b3089121.html",
           "title": "Former Italian police chief found dead amid mafia probe",
           "published": "2026-11-21T13:38:38+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "FBI investigating apparent hack of its criminal database",
-      "url": "https://www.cbc.ca/player/play/9.7431322?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-21T17:36:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
-          "title": "FBI reportedly investigating apparent hack of its criminal database",
-          "published": "2026-11-21T16:35:15+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Donald Trump narrows White House press secretary search to final candidates",
-      "url": "https://www.independent.co.uk/tv/news/donald-trump-news-press-secretary-update-b3089224.html",
-      "source": "The Independent",
-      "published": "2026-11-21T17:33:21+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/katie-zacharia-california-state-bar-investigation-9.7430437?cmp=rss",
-          "title": "Former White House press secretary Katie Zacharia investigated by California state bar",
-          "published": "2026-11-20T21:21:40+00:00"
         }
       ],
       "consensus": 2.5
@@ -299,9 +271,46 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "One Nation rules out deal with Coalition in NSW",
+      "url": "https://www.abc.net.au/news/2026-11-22/no-coalition-with-coalition-for-nsw-one-nation-mike-newman-says/107412396",
+      "source": "ABC Australia",
+      "published": "2026-11-21T20:51:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
+    {
+      "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-21T17:54:19+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israeli-strike-kills-three-in-vehicle-distributing-aid-in-gaza-witnesses-say/article71729327.ece",
+          "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
+          "published": "2026-11-21T16:59:42+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/world-central-kitchen-gaza-strike-b3089195.html",
+          "title": "Israeli strike kills three in car distributing aid in Gaza, witnesses say",
+          "published": "2026-11-21T16:12:41+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/israel-strike-gaza-aid-vehicle-9.7431224?cmp=rss",
+          "title": "Israeli strike kills 3 in vehicle distributing aid in Gaza, witnesses say",
+          "published": "2026-11-21T14:38:36+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
     {
       "title": "Effort to regulate ‘killer robots’ delayed to 2028",
       "url": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -329,7 +338,7 @@
       "url": "https://www.france24.com/en/endurance-athlete-swims-in-hormuz-strait",
       "source": "France24",
       "published": "2026-11-21T16:02:59+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
         {
           "source": "The Independent",
@@ -342,6 +351,12 @@
           "url": "http://www.africanews.com/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll/",
           "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
           "published": "2026-11-21T12:18:46+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/21/strait-of-hormuz-athlete-swims-through-war-zone-to-expose-wars-environmental-toll",
+          "title": "Strait of Hormuz: Athlete swims through war zone to expose war's environmental toll",
+          "published": "2026-11-21T12:18:40+00:00"
         }
       ],
       "consensus": 3.5
@@ -364,6 +379,28 @@
           "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375341/indonesia-eu-sign-ambitious-trade-deal",
           "title": "Indonesia, EU sign ‘ambitious’ trade deal",
           "published": "2026-11-21T13:46:13+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T08:10:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
+          "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+          "published": "2026-11-21T07:07:09+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
+          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
+          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 3.5
@@ -479,6 +516,38 @@
       "consensus": 3.0
     },
     {
+      "title": "FBI investigating apparent hack of its criminal database",
+      "url": "https://www.cbc.ca/player/play/9.7431322?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-21T17:36:13+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+          "title": "FBI reportedly investigating apparent hack of its criminal database",
+          "published": "2026-11-21T16:35:15+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Donald Trump narrows White House press secretary search to final candidates",
+      "url": "https://www.independent.co.uk/tv/news/donald-trump-news-press-secretary-update-b3089224.html",
+      "source": "The Independent",
+      "published": "2026-11-21T17:33:21+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/katie-zacharia-california-state-bar-investigation-9.7430437?cmp=rss",
+          "title": "Former White House press secretary Katie Zacharia investigated by California state bar",
+          "published": "2026-11-20T21:21:40+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russian strike kills two, wounds 60, in Zelenskyy’s hometown",
       "url": "https://www.aljazeera.com/news/2026/11/21/russian-strike-kills-two-wounds-60-in-zelenskyys-hometown?traffic_source=rss",
       "source": "Al Jazeera",
@@ -506,6 +575,22 @@
           "url": "https://www.channelnewsasia.com/world/cop31-fossil-fuel-climate-talks-6571376",
           "title": "Countries race to secure COP31 deal after fossil fuel row",
           "published": "2026-11-21T08:41:45+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Jair Bolsonaro hospitalised with abdominal pain while under house arrest",
+      "url": "https://www.euronews.com/2026/11/21/jair-bolsonaro-hospitalised-with-abdominal-pain-while-under-house-arrest",
+      "source": "Euronews",
+      "published": "2026-11-21T14:35:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/21/former-brazilian-president-jair-bolsonaro-hospitalised-in-brasilia-with-abdominal-pain?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "Former Brazilian President Jair Bolsonaro hospitalised in Brasília with abdominal pain",
+          "published": "2026-11-21T06:25:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -554,22 +639,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/vladimir-putin-moscow-ukraine-russia-donald-trump-b3089063.html",
           "title": "Russia dusts off its prewar demands as the US raises discussing European security at Ukraine talks",
           "published": "2026-11-21T05:01:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T08:10:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
-          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
-          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -799,6 +868,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "source": "Euronews",
+      "published": "2026-11-21T09:01:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+          "title": "US declassifies more UFO footage filmed in the Middle East",
+          "published": "2026-11-20T23:15:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
       "url": "https://www.japantimes.co.jp/news/2026/11/21/world/crime-legal/us-fbi-usda-cyberattacks/",
       "source": "Japan Times",
@@ -879,6 +964,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T00:01:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
+          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
+          "published": "2026-11-20T15:03:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Cost of living protests sweep across Europe",
       "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -893,74 +994,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Malaysia plans to resettle 10,000 Rohingya in Turkiye",
-      "url": "https://www.thehindu.com/news/international/malaysia-plans-to-resettle-10000-rohingya-in-turkiye/article71723939.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T10:32:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/malaysia-says-it-will-resettle-10000-rohingya-refugees-in-turkey",
-          "title": "Malaysia removes post announcing plan to resettle 10,000 Rohingya in Turkey",
-          "published": "2026-11-20T07:50:23+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Indonesia’s Prabowo and China’s Xi discuss future South China Sea cooperation",
-      "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/indonesia-south-china-sea-xi/",
-      "source": "Japan Times",
-      "published": "2026-11-20T08:31:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/indonesias-prabowo-chinas-xi-discuss-future-south-china-sea-cooperation",
-          "title": "Indonesia’s Prabowo, China’s Xi discuss future South China Sea cooperation",
-          "published": "2026-11-20T06:32:50+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Live updates: UFC Qatar - Navajo Stirling v Jiří Procházka",
-      "url": "https://www.rnz.co.nz/news/sport/2725762/live-updates-ufc-qatar-navajo-stirling-v-ji-i-prochazka",
-      "source": "RNZ",
-      "published": "2026-11-21T20:22:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "England thrash All Blacks after Moody faces haka with team",
-      "url": "https://www.abc.net.au/news/2026-11-22/england-beat-nz-all-blacks-former-skipper-lewis-moody-haka-mnd/107413688",
-      "source": "ABC Australia",
-      "published": "2026-11-21T20:20:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "France’s sixth consecutive Saturday of protests draw lower turnout",
-      "url": "https://www.france24.com/en/france/20261121-france-s-sixth-consecutive-saturday-of-protests-draw-lower-turnout",
-      "source": "France24",
-      "published": "2026-11-21T20:20:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Victorian Labor MPs conduct a 'pre-mortem' in political death spiral",
-      "url": "https://www.abc.net.au/news/2026-11-22/victorian-election-analysis-one-week-to-go/107412322",
-      "source": "ABC Australia",
-      "published": "2026-11-21T20:14:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1107,10 +1140,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60332.89,
+        "price": 60346.28,
         "currency": "USD",
-        "change": 1530.29,
-        "change_percent": 2.6,
+        "change": 1543.68,
+        "change_percent": 2.63,
         "name": "Bitcoin"
       }
     ],
@@ -1406,28 +1439,28 @@
         "title": "How I Got Postgres into a Single Binary",
         "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
         "comments_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-21T19:32:22.642000+00:00"
       },
       {
         "title": "Upload2Shell · CVE-2026-125396",
         "url": "https://pwn.ai/upload2shell",
-        "score": 23,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-21T18:29:29+00:00"
       },
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 199,
+        "score": 230,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
       },
       {
         "title": "PostgreSQL Extensions in Go",
         "url": "https://jespino.github.io/gopgext/",
-        "score": 72,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-21T17:08:04+00:00"
       },
@@ -1435,21 +1468,21 @@
         "title": "How 2 Security Research (MLG)",
         "url": "https://www.youtube.com/watch?v=dXQ_9WN6KLQ",
         "comments_url": "https://lobste.rs/s/emymet/how_2_security_research_mlg",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-21T16:57:15.685000+00:00"
       },
       {
         "title": "Verification files for the Lean proof of the Riemann Hypothesis",
         "url": "https://math.mit.edu/~drew/grh/",
-        "score": 53,
+        "score": 60,
         "source": "Hacker News",
         "published": "2026-11-21T15:54:34+00:00"
       },
       {
         "title": "Show HN: Zero C# – C# without a runtime or GC",
         "url": "https://onurgumus.github.io/zero-csharp/index.html",
-        "score": 81,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-21T15:39:09+00:00"
       },
@@ -1457,7 +1490,7 @@
         "title": "TODOs JJ Style",
         "url": "https://bwc9876.dev/blog/jj_todo/",
         "comments_url": "https://lobste.rs/s/qxzs4y/todos_jj_style",
-        "score": 26,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-21T15:17:18.956000+00:00"
       },
@@ -1465,14 +1498,14 @@
         "title": "My Monitor Was Cutting My Download Speed by 75%",
         "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
         "comments_url": "https://lobste.rs/s/qzerls/my_monitor_was_cutting_my_download_speed",
-        "score": 58,
+        "score": 63,
         "source": "Lobste.rs",
         "published": "2026-11-21T15:03:28.370000+00:00"
       },
       {
         "title": "Lean verification of the Riemann Hypothesis",
         "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-        "score": 598,
+        "score": 630,
         "source": "Hacker News",
         "published": "2026-11-21T14:36:45+00:00"
       },
@@ -1480,14 +1513,14 @@
         "title": "C++26 is done (again)! — Trip report: November 2026 ISO C++ standards meeting (Búzios, Brazil)",
         "url": "https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/",
         "comments_url": "https://lobste.rs/s/fjueso/c_26_is_done_again_trip_report_november",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-21T13:57:53.737000+00:00"
       },
       {
         "title": "Detonating a pile of lead azide",
         "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-        "score": 417,
+        "score": 426,
         "source": "Hacker News",
         "published": "2026-11-21T13:23:14+00:00"
       },
@@ -1495,7 +1528,7 @@
         "title": "Probabilistic data structures in Go, part 2",
         "url": "https://antonz.org/probabilistic-data-structures-2/",
         "comments_url": "https://lobste.rs/s/hcofqi/probabilistic_data_structures_go_part_2",
-        "score": 14,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-21T13:18:02.362000+00:00"
       },
@@ -1503,7 +1536,7 @@
         "title": "Microsoft 365 Outage - Post Incident Report",
         "url": "https://tianyin.github.io/misc/pir_microsoft_365_11-12-2026.pdf",
         "comments_url": "https://lobste.rs/s/becitz/microsoft_365_outage_post_incident",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-21T12:22:47.193000+00:00"
       },

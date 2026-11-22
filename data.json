@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T09:31:05.645648+00:00",
+  "last_updated": "2026-11-22T09:52:24.716063+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 210
+      "ms": 558
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 334
+      "ms": 218
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 96
+      "ms": 146
     },
     "BBC News": {
       "ok": true,
-      "count": 29,
+      "count": 28,
       "error": null,
-      "ms": 156
+      "ms": 145
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 206
+      "ms": 163
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 414
+      "ms": 324
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 144
+      "ms": 636
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 437
+      "ms": 1093
     },
     "Euronews": {
-      "ok": true,
-      "count": 43,
-      "error": null,
-      "ms": 41
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3200
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 150
+      "ms": 122
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 312
+      "ms": 360
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 298
+      "ms": 289
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 142
+      "ms": 95
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 201
+      "ms": 405
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 226
+      "ms": 256
     },
     "RNZ": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 84
+      "ms": 278
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 466
+      "ms": 736
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 536
+      "ms": 669
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 602
+      "ms": 740
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 223
+      "ms": 514
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 136
+      "ms": 604
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 251
+      "ms": 185
     },
     "The Independent": {
       "ok": true,
       "count": 36,
       "error": null,
-      "ms": 174
+      "ms": 667
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 273
+      "ms": 280
     }
   },
   "breaking": [
@@ -183,6 +183,50 @@
       "consensus": 5.5
     },
     {
+      "title": "Nations agree to further talks on regulating AI 'killer robots and drones'",
+      "url": "http://www.africanews.com/2026/11/22/nations-agree-to-further-talks-on-regulating-ai-killer-robots-and-drones/",
+      "source": "Africanews",
+      "published": "2026-11-22T08:59:11+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
+          "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+          "published": "2026-11-21T08:08:01+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/united-nations-regulate-ai-killer-robots-weapons-6571256",
+          "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
+          "published": "2026-11-21T05:09:00+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Photos: People rally across France over living costs, public services",
+      "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-22T09:27:48+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/22/world/french-protesters-living-costs-public-services/",
+          "title": "French protesters rally for sixth weekend over living costs, public services",
+          "published": "2026-11-21T23:58:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/france-protests-rising-costs-living-public-services-6571961",
+          "title": "French protesters rally for sixth weekend over living costs, public services",
+          "published": "2026-11-21T17:32:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Russian Cargo Ship Still on Fire off Finland After Attack",
       "url": "https://www.themoscowtimes.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack-a94343",
       "source": "The Moscow Times",
@@ -205,29 +249,7 @@
       "consensus": 3.5
     },
     {
-      "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
-      "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks",
-      "source": "Euronews",
-      "published": "2026-11-22T06:58:01+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/eisenkot-invites-netanyahus-party-for-israeli-coalition-talks/article71729470.ece",
-          "title": "Eisenkot invites Netanyahu’s party for Israeli coalition talks",
-          "published": "2026-11-21T21:14:12+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
-          "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
-          "published": "2026-11-21T20:49:04+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Bodies found, 50 workers missing after Indonesian factory fire",
+      "title": "Bodies found, 36 workers missing after Indonesian factory fire",
       "url": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
       "source": "ABC Australia",
       "published": "2026-11-22T09:23:41+00:00",
@@ -259,22 +281,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Indonesia factory fire kills three, 36 missing",
-      "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T07:46:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-          "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-          "published": "2026-11-22T07:11:17+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
       "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -291,17 +297,17 @@
       "consensus": 2.5
     },
     {
-      "title": "New COP31 draft deal tabled as countries scramble to salvage climate talks",
-      "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
-      "source": "Euronews",
-      "published": "2026-11-22T07:50:54+00:00",
+      "title": "English village votes to \"leave UK\"",
+      "url": "https://www.france24.com/en/english-village-votes-to-leave-uk",
+      "source": "France24",
+      "published": "2026-11-22T09:40:05+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-          "title": "New draft deal aims to avert collapse of talks at COP31 climate summit",
-          "published": "2026-11-22T06:54:06+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/21/suffolk-village-votes-to-leave-the-uk-over-plans-to-house-asylum-seekers-nearby",
+          "title": "Suffolk village votes to ‘leave the UK’ over plans to house asylum seekers nearby",
+          "published": "2026-11-21T18:20:37+00:00"
         }
       ],
       "consensus": 2.0
@@ -313,14 +319,8 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/first-images-of-mexican-cartel-boss-el-chapo-isidro-after-arrest?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-22T04:42:02+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/video-shows-mexican-forces-capturing-el-chapo-isidro-fbi-most-wanted-cartel-boss",
-          "title": "Video shows Mexican forces capturing 'El Chapo Isidro', FBI most-wanted cartel boss",
-          "published": "2026-11-21T20:24:17+00:00"
-        },
         {
           "source": "The Independent",
           "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
@@ -340,7 +340,7 @@
           "published": "2026-11-21T15:00:15+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 4.5
     },
     {
       "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say",
@@ -409,6 +409,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+      "source": "NPR World",
+      "published": "2026-11-21T18:08:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
+          "title": "Capture of cartel leader in northern Mexico sets off gunfight that leaves 11 dead",
+          "published": "2026-11-21T16:32:44+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+          "title": "Mexico captures drug kingpin on FBI’s most wanted list in firefight that left 11 dead",
+          "published": "2026-11-21T14:00:45+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Effort to regulate ‘killer robots’ delayed to 2028",
       "url": "https://www.politico.eu/article/effort-regulate-killer-robots-delayed-until-2028-ai-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
@@ -448,28 +470,6 @@
           "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375341/indonesia-eu-sign-ambitious-trade-deal",
           "title": "Indonesia, EU sign ‘ambitious’ trade deal",
           "published": "2026-11-21T13:46:13+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T08:10:25+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
-          "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
-          "published": "2026-11-21T07:07:09+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
-          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
-          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 3.5
@@ -517,6 +517,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Indonesia factory fire kills three, 36 missing",
+      "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-22T07:46:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
+          "published": "2026-11-22T07:11:17+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "COP31 climate talks close to final deal, summit president says",
@@ -583,22 +599,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
-      "url": "https://www.channelnewsasia.com/world/bahrain-intercept-iran-attack-6572311",
-      "source": "CNA",
-      "published": "2026-11-22T00:47:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
-          "title": "Bahrain says Iranian attack hits industrial facility",
-          "published": "2026-11-21T22:02:03+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "FBI reportedly investigating apparent hack of its criminal database",
       "url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -626,6 +626,22 @@
           "url": "https://www.cbc.ca/news/world/katie-zacharia-california-state-bar-investigation-9.7430437?cmp=rss",
           "title": "Former White House press secretary Katie Zacharia investigated by California state bar",
           "published": "2026-11-20T21:21:40+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Eisenkot invites Netanyahu’s party for Israeli coalition talks",
+      "url": "https://www.thehindu.com/news/international/eisenkot-invites-netanyahus-party-for-israeli-coalition-talks/article71729470.ece",
+      "source": "The Hindu",
+      "published": "2026-11-21T21:14:12+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261121-eisenkot-invites-netanyahu-s-party-for-marathon-israeli-coalition-talks",
+          "title": "Eisenkot invites Netanyahu’s party for ‘marathon’ Israeli coalition talks",
+          "published": "2026-11-21T20:49:04+00:00"
         }
       ],
       "consensus": 2.5
@@ -679,17 +695,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
-      "url": "https://www.npr.org/2026/11/21/g-s1-154914/nations-at-un-talks-on-ai-killer-robots-agree-to-more-talks-but-no-firm-commitment-to-rein-them-in",
-      "source": "NPR World",
-      "published": "2026-11-21T08:08:01+00:00",
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T08:10:25+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/united-nations-regulate-ai-killer-robots-weapons-6571256",
-          "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
-          "published": "2026-11-21T05:09:00+00:00"
+          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
+          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
+          "published": "2026-11-21T02:40:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -823,22 +839,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Mexico captures drug kingpin on FBI's most wanted list",
-      "url": "https://www.channelnewsasia.com/world/mexico-captures-drug-kingpin-fbi-most-wanted-6572391",
-      "source": "CNA",
-      "published": "2026-11-22T02:31:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
-          "title": "Mexico captures drug kingpin on FBI’s most wanted list in firefight that left 11 dead",
-          "published": "2026-11-21T14:00:45+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/world/crime-legal/us-fbi-usda-cyberattacks/",
       "source": "Japan Times",
@@ -871,22 +871,6 @@
       "consensus": 2.0
     },
     {
-      "title": "French protesters rally for sixth weekend over living costs, public services",
-      "url": "https://www.japantimes.co.jp/news/2026/11/22/world/french-protesters-living-costs-public-services/",
-      "source": "Japan Times",
-      "published": "2026-11-21T23:58:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/france-protests-rising-costs-living-public-services-6571961",
-          "title": "French protesters rally for sixth weekend over living costs, public services",
-          "published": "2026-11-21T17:32:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "As Trump basks in summit pomp, China’s Xi strengthens his hand",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/asia-pacific/politics/trump-china-xi-strength-analysis/",
       "source": "Japan Times",
@@ -914,22 +898,6 @@
           "url": "https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece",
           "title": "Cargo ship bound for Russia's Kaliningrad hit by drones, Finland tightens security",
           "published": "2026-11-21T16:51:03+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
-      "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
-      "source": "NPR World",
-      "published": "2026-11-21T18:08:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
-          "title": "Capture of cartel leader in northern Mexico sets off gunfight that leaves 11 dead",
-          "published": "2026-11-21T16:32:44+00:00"
         }
       ],
       "consensus": 2.0
@@ -983,22 +951,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Pentagon declassifies new UFO footage filmed by US military",
-      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
-      "source": "Euronews",
-      "published": "2026-11-21T09:01:41+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
-          "title": "US declassifies more UFO footage filmed in the Middle East",
-          "published": "2026-11-20T23:15:20+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Economic losses from Indonesia fires could reach US$30 billion, research shows",
       "url": "https://www.straitstimes.com/asia/se-asia/economic-losses-from-indonesia-fires-could-reach-us30-billion-research-shows",
       "source": "Straits Times",
@@ -1013,6 +965,47 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+      "url": "https://www.straitstimes.com/asia/se-asia/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar",
+      "source": "Straits Times",
+      "published": "2026-11-21T01:14:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/rohingya-in-bangladesh-welcome-un-courts-genocide-verdict-but-say-they-want-to-go-home-to-myanmar/article71723495.ece",
+          "title": "Rohingya in Bangladesh welcome UN court’s genocide verdict but say they want to go home to Myanmar",
+          "published": "2026-11-20T09:47:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Cost of living protests sweep across Europe",
+      "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-20T16:45:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261120-protesters-join-forces-across-europe-against-high-living-costs",
+          "title": "Cost of living protests set to continue across Europe over weekend",
+          "published": "2026-11-20T13:45:42+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Indonesia searches for 50, recovers 7 body bags after factory fire",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375375/indonesia-searches-50-recovers-7-body-bags-after-factory-fire",
+      "source": "SCMP",
+      "published": "2026-11-22T09:45:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1159,10 +1152,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59823.77,
+        "price": 60691.34,
         "currency": "USD",
-        "change": -269.24,
-        "change_percent": -0.45,
+        "change": 598.33,
+        "change_percent": 1.0,
         "name": "Bitcoin"
       }
     ],
@@ -1458,50 +1451,50 @@
         "title": "The Claude Delusion",
         "url": "https://www.netmeister.org/blog/claude-delusion.html",
         "comments_url": "https://lobste.rs/s/v3m2uj/claude_delusion",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-22T09:21:35.560000+00:00"
       },
       {
+        "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+        "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+        "score": 34,
+        "source": "Hacker News",
+        "published": "2026-11-22T08:57:34+00:00"
+      },
+      {
         "title": "Notes on the discrete Fourier transform (DFT)",
         "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
-        "score": 22,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-22T06:52:25+00:00"
       },
       {
         "title": "Show HN: The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "score": 42,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-22T05:46:30+00:00"
       },
       {
         "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
         "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "score": 444,
+        "score": 462,
         "source": "Hacker News",
         "published": "2026-11-22T04:04:56+00:00"
       },
       {
         "title": "Data Processing Incidents on Inference Providers",
         "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-        "score": 139,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-22T02:14:14+00:00"
-      },
-      {
-        "title": "The Mythology of Conscious AI",
-        "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-        "score": 59,
-        "source": "Hacker News",
-        "published": "2026-11-22T02:10:02+00:00"
       },
       {
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
         "comments_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
-        "score": 24,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-22T02:03:46.531000+00:00"
       },
@@ -1517,14 +1510,14 @@
         "title": "NixOS bring-up on an Alibaba RISC-V board",
         "url": "https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/",
         "comments_url": "https://lobste.rs/s/6jloca/nixos_bring_up_on_alibaba_risc_v_board",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-22T00:30:07.226000+00:00"
       },
       {
         "title": "Sandwich Simulator",
         "url": "https://stulle.app/",
-        "score": 216,
+        "score": 226,
         "source": "Hacker News",
         "published": "2026-11-22T00:07:59+00:00"
       },
@@ -1532,7 +1525,7 @@
         "title": "port scanning for mojang",
         "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
         "comments_url": "https://lobste.rs/s/et5q0q/port_scanning_for_mojang",
-        "score": 25,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-21T23:40:51.912000+00:00"
       },
@@ -1545,13 +1538,6 @@
         "published": "2026-11-21T23:10:07.020000+00:00"
       },
       {
-        "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
-        "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-        "score": 112,
-        "source": "Hacker News",
-        "published": "2026-11-21T22:09:58+00:00"
-      },
-      {
         "title": "How I Got Postgres into a Single Binary",
         "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
         "comments_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
@@ -1562,9 +1548,17 @@
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 455,
+        "score": 458,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
+      },
+      {
+        "title": "How 2 Security Research (MLG)",
+        "url": "https://www.youtube.com/watch?v=dXQ_9WN6KLQ",
+        "comments_url": "https://lobste.rs/s/emymet/how_2_security_research_mlg",
+        "score": 5,
+        "source": "Lobste.rs",
+        "published": "2026-11-21T16:57:15.685000+00:00"
       }
     ],
     "reddit": [

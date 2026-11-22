@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T04:01:00.646800+00:00",
+  "last_updated": "2026-11-22T04:30:53.447389+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 346
+      "ms": 458
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 273
+      "ms": 187
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 249
+      "ms": 213
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 105
+      "ms": 346
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 261
+      "ms": 418
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 310
+      "ms": 216
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 565
+      "ms": 541
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 1184
+      "ms": 350
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 156
+      "ms": 115
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 107
+      "ms": 203
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 420
+      "ms": 369
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 166
+      "ms": 281
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 167
+      "ms": 103
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 128
+      "ms": 140
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 169
+      "ms": 114
     },
     "RNZ": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 311
+      "ms": 374
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 627
+      "ms": 576
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 512
+      "ms": 436
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 618
+      "ms": 756
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 344
+      "ms": 308
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 210
+      "ms": 190
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 215
+      "ms": 154
     },
     "The Independent": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 450
+      "ms": 211
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 161
+      "ms": 137
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-22T03:34:02+00:00",
-      "score": 4,
+      "score": 5,
       "other_sources": [
         {
           "source": "The Hindu",
@@ -172,9 +172,15 @@
           "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
           "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
           "published": "2026-11-21T17:46:55+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
+          "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
+          "published": "2026-11-21T15:00:15+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 6.0
     },
     {
       "title": "Endurance athlete swims Strait of Hormuz despite Iran war",
@@ -221,6 +227,22 @@
       "consensus": 2.5
     },
     {
+      "title": "South Korea Education Minister resigns amid AI cheating scandal",
+      "url": "https://www.thehindu.com/news/international/south-korea-education-minister-resigns-amid-ai-cheating-scandal/article71730601.ece",
+      "source": "The Hindu",
+      "published": "2026-11-22T04:22:45+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-education-chief-resigns-amid-ai-cheating-scandal",
+          "title": "South Korea education chief resigns amid AI cheating scandal",
+          "published": "2026-11-22T04:06:08+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Rescuers say 39 missing after Indonesia factory fire",
       "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece",
       "source": "The Hindu",
@@ -237,37 +259,28 @@
       "consensus": 2.0
     },
     {
-      "title": "Experts call for stronger reef protection as 20% of coral survey sites bleached",
-      "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3375334/experts-call-stronger-reef-protection-20-coral-survey-sites-bleached",
-      "source": "SCMP",
-      "published": "2026-11-22T04:00:12+00:00",
+      "title": "Vietnam amends law to speed land clearance, developer projects",
+      "url": "https://www.straitstimes.com/asia/se-asia/vietnam-amends-law-to-speed-land-clearance-developer-projects",
+      "source": "Straits Times",
+      "published": "2026-11-22T04:29:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Fossil fuels still absent in latest COP31 draft deal",
-      "url": "https://www.channelnewsasia.com/sustainability/cop31-draft-deal-fossil-fuels-6572531",
-      "source": "CNA",
-      "published": "2026-11-22T03:52:18+00:00",
+      "title": "Pardons board notes for Malaysia ex-PM Najib’s house arrest declassified for AGC response: Minister",
+      "url": "https://www.straitstimes.com/asia/se-asia/pardons-board-notes-for-malaysia-ex-pm-najibs-house-arrest-declassified-for-agc-response-minister",
+      "source": "Straits Times",
+      "published": "2026-11-22T04:27:17+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "News in Frames | Living with the wounds of displacement",
-      "url": "https://www.thehindu.com/news/international/news-in-frames-living-withthe-wounds-of-displacement/article71730570.ece",
-      "source": "The Hindu",
-      "published": "2026-11-22T03:43:36+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bellamy to end Storm coaching stint after 2027 NRL season",
-      "url": "https://www.abc.net.au/news/2026-11-22/nrl-craig-bellamy-melbourne-storm-coaching-end-2027-season/107414288",
-      "source": "ABC Australia",
-      "published": "2026-11-22T03:38:37+00:00",
+      "title": "Motorcyclist critically injured after crashing into police car on motorway",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2729433/motorcyclist-critically-injured-after-crashing-into-police-car-on-motorway",
+      "source": "RNZ",
+      "published": "2026-11-22T04:22:53+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -329,28 +342,6 @@
         }
       ],
       "consensus": 5.0
-    },
-    {
-      "title": "Mexico captures top drug lord ‘El Chapo Isidro,’ latest in string of arrests",
-      "url": "https://www.japantimes.co.jp/news/2026/11/22/world/crime-legal/mexico-captures-el-chapo-isidro/",
-      "source": "Japan Times",
-      "published": "2026-11-21T23:52:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
-          "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
-          "published": "2026-11-21T15:00:15+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
-          "published": "2026-11-21T14:20:35+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
@@ -582,22 +573,6 @@
           "url": "https://www.cbc.ca/news/world/katie-zacharia-california-state-bar-investigation-9.7430437?cmp=rss",
           "title": "Former White House press secretary Katie Zacharia investigated by California state bar",
           "published": "2026-11-20T21:21:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russian cargo ship burns in Baltic Sea after drone strike",
-      "url": "https://www.abc.net.au/news/2026-11-22/russian-cargo-ship-burns-in-baltic-sea-after-drone-strike/107413782",
-      "source": "ABC Australia",
-      "published": "2026-11-21T21:52:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/finland-detects-drone-attack-on-russian-cargo-ship-in-baltic/article71728516.ece",
-          "title": "Finland detects drone attack on Russian cargo ship in Baltic",
-          "published": "2026-11-21T13:56:11+00:00"
         }
       ],
       "consensus": 2.5
@@ -843,6 +818,22 @@
       "consensus": 2.0
     },
     {
+      "title": "As Trump basks in summit pomp, China’s Xi strengthens his hand",
+      "url": "https://www.japantimes.co.jp/news/2026/11/22/asia-pacific/politics/trump-china-xi-strength-analysis/",
+      "source": "Japan Times",
+      "published": "2026-11-21T23:54:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/as-trump-basks-in-summit-pomp-chinas-xi-strengthens-his-hand",
+          "title": "As Trump basks in summit pomp, China’s Xi strengthens his hand",
+          "published": "2026-11-21T08:40:38+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Russian cargo ship hit by drones in Baltic, Finland tightens security",
       "url": "https://www.channelnewsasia.com/world/russian-cargo-ship-hit-drones-in-baltic-finland-tightens-security-6571981",
       "source": "CNA",
@@ -982,6 +973,22 @@
           "url": "https://www.scmp.com/news/asia/east-asia/article/3375305/north-koreas-kim-jong-un-visits-school-gear-factories-after-apparent-trump-snub",
           "title": "North Korea’s Kim Jong-un visits school gear factories after apparent Trump snub",
           "published": "2026-11-21T02:10:03+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Economic losses from Indonesia fires could reach US$30 billion, research shows",
+      "url": "https://www.straitstimes.com/asia/se-asia/economic-losses-from-indonesia-fires-could-reach-us30-billion-research-shows",
+      "source": "Straits Times",
+      "published": "2026-11-21T02:10:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/economic-losses-from-indonesia-fires-could-reach-30-billion-research-shows/article71724140.ece",
+          "title": "Economic losses from Indonesia fires could reach $30 billion, research shows",
+          "published": "2026-11-20T11:12:41+00:00"
         }
       ],
       "consensus": 2.0
@@ -1131,10 +1138,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59319.63,
+        "price": 59141.36,
         "currency": "USD",
-        "change": -773.38,
-        "change_percent": -1.29,
+        "change": -951.65,
+        "change_percent": -1.58,
         "name": "Bitcoin"
       }
     ],
@@ -1427,23 +1434,30 @@
   "web": {
     "tech": [
       {
+        "title": "Toyota, Nissan, and Honda to Standardize Parts to Lower Costs",
+        "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+        "score": 4,
+        "source": "Hacker News",
+        "published": "2026-11-22T04:04:56+00:00"
+      },
+      {
         "title": "The Most Popular Car Colors in America",
         "url": "https://www.iseecars.com/most-popular-car-colors-study",
-        "score": 8,
+        "score": 9,
         "source": "Hacker News",
         "published": "2026-11-22T02:47:18+00:00"
       },
       {
         "title": "Data Processing Incidents on Inference Providers",
         "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-        "score": 42,
+        "score": 54,
         "source": "Hacker News",
         "published": "2026-11-22T02:14:14+00:00"
       },
       {
         "title": "The Mythology of Conscious AI",
         "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
-        "score": 11,
+        "score": 15,
         "source": "Hacker News",
         "published": "2026-11-22T02:10:02+00:00"
       },
@@ -1451,14 +1465,14 @@
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
         "comments_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-22T02:03:46.531000+00:00"
       },
       {
         "title": "Leonida – PC Recompilation of the Xbox Version of GTA 6",
         "url": "https://github.com/ItsNotRexed/Leonida",
-        "score": 69,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-22T00:57:26+00:00"
       },
@@ -1481,7 +1495,7 @@
       {
         "title": "Sandwich Simulator",
         "url": "https://stulle.app/",
-        "score": 72,
+        "score": 87,
         "source": "Hacker News",
         "published": "2026-11-22T00:07:59+00:00"
       },
@@ -1489,7 +1503,7 @@
         "title": "port scanning for mojang",
         "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
         "comments_url": "https://lobste.rs/s/et5q0q/port_scanning_for_mojang",
-        "score": 10,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-21T23:40:51.912000+00:00"
       },
@@ -1504,16 +1518,9 @@
       {
         "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
         "url": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-        "score": 83,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-21T22:09:58+00:00"
-      },
-      {
-        "title": "Pandex – Official European Law for AI Agents, over MCP",
-        "url": "https://www.pandex.io",
-        "score": 48,
-        "source": "Hacker News",
-        "published": "2026-11-21T20:47:41+00:00"
       },
       {
         "title": "How I Got Postgres into a Single Binary",
@@ -1526,14 +1533,14 @@
       {
         "title": "Upload2Shell (CVE-2026-125396)",
         "url": "https://pwn.ai/upload2shell",
-        "score": 93,
+        "score": 95,
         "source": "Hacker News",
         "published": "2026-11-21T18:29:29+00:00"
       },
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 386,
+        "score": 397,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
       }

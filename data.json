@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T13:30:53.707579+00:00",
+  "last_updated": "2026-11-22T14:01:00.262564+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 331
+      "ms": 361
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 251
+      "ms": 288
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 156
+      "ms": 185
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 123
+      "ms": 203
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 148
+      "ms": 157
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 321
+      "ms": 176
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 541
+      "ms": 411
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 387
+      "ms": 261
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 143
+      "ms": 231
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 76
+      "ms": 234
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 292
+      "ms": 489
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 218
+      "ms": 305
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 63
+      "ms": 111
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 470
+      "ms": 499
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 52
+      "ms": 243
     },
     "RNZ": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 343
+      "ms": 232
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 521
+      "ms": 804
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 445
+      "ms": 981
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 643
+      "ms": 419
     },
     "Straits Times": {
       "ok": true,
-      "count": 45,
+      "count": 46,
       "error": null,
-      "ms": 331
+      "ms": 285
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 108
+      "ms": 105
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 203
+      "ms": 253
     },
     "The Independent": {
       "ok": true,
-      "count": 37,
+      "count": 34,
       "error": null,
-      "ms": 224
+      "ms": 163
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 169
+      "ms": 143
     }
   },
   "breaking": [
@@ -233,6 +233,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "source": "The Guardian",
+      "published": "2026-11-22T12:54:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
+          "title": "COP31 climate talks break down as European Union and others reject deal",
+          "published": "2026-11-22T05:47:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
       "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
       "source": "France24",
@@ -281,19 +297,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Tencent touts latest AI model Hy4’s performance on independent safety assessment",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3375374/tencent-touts-latest-ai-model-hy4s-performance-independent-safety-assessment",
+      "title": "Chinese J-20’s radar signature could nearly double with 10% stealth coating loss: study",
+      "url": "https://www.scmp.com/news/china/science/article/3375012/chinese-j-20s-radar-signature-could-nearly-double-10-stealth-coating-loss-study",
       "source": "SCMP",
-      "published": "2026-11-22T13:30:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Myanmar calls ASEAN review of peace plan 'unfair and imbalanced'; questions bloc's treatment",
-      "url": "https://www.thehindu.com/news/international/myanmar-calls-asean-review-of-peace-plan-unfair-and-imbalanced-questions-blocs-treatment/article71731357.ece",
-      "source": "The Hindu",
-      "published": "2026-11-22T13:25:30+00:00",
+      "published": "2026-11-22T14:00:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -373,28 +380,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Former Italian police chief found dead",
-      "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
-      "source": "France24",
-      "published": "2026-11-22T10:25:52+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
-          "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
-          "published": "2026-11-21T18:21:02+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gianni-de-gennaro-dead-mafia-italy-b3089121.html",
-          "title": "Former Italian police chief found dead amid mafia probe",
-          "published": "2026-11-21T13:38:38+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Photos: People rally across France over living costs, public services",
       "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services?traffic_source=rss",
       "source": "Al Jazeera",
@@ -461,28 +446,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
-      "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
-      "source": "NPR World",
-      "published": "2026-11-21T18:08:55+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
-          "title": "Capture of cartel leader in northern Mexico sets off gunfight that leaves 11 dead",
-          "published": "2026-11-21T16:32:44+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
-          "title": "Mexico captures drug kingpin on FBI’s most wanted list in firefight that left 11 dead",
-          "published": "2026-11-21T14:00:45+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "EU and Indonesia sign trade deal",
       "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -527,6 +490,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Eleven killed as cartel boss El Chapo Isidro’s capture in Mexico sparks burst of violence",
+      "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
+      "source": "The Independent",
+      "published": "2026-11-21T19:55:32+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
       "title": "Man convicted of starting palisades fire",
       "url": "https://www.france24.com/en/man-convicted-of-starting-palisades-fire",
       "source": "France24",
@@ -549,6 +534,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Former Italian police chief found dead",
+      "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
+      "source": "France24",
+      "published": "2026-11-22T10:25:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+          "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+          "published": "2026-11-21T18:21:02+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Croatia shocked by psychiatric hospital death as protestors demand justice",
       "url": "https://www.independent.co.uk/news/world/europe/croatia-protest-kristian-josip-peris-b3089374.html",
       "source": "The Independent",
@@ -560,22 +561,6 @@
           "url": "https://www.scmp.com/news/world/europe/article/3375351/croatians-demand-justice-over-psychiatric-hospital-death-after-brutal-video-surfaces",
           "title": "Croatians demand justice over psychiatric hospital death after brutal video surfaces",
           "published": "2026-11-21T22:05:10+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "COP31 climate deal in doubt after European Union rejects draft",
-      "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
-      "source": "Euronews",
-      "published": "2026-11-22T07:50:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
-          "title": "COP31 climate talks break down as European Union and others reject deal",
-          "published": "2026-11-22T05:47:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -869,6 +854,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Mexico captures drug kingpin on FBI's most wanted list",
+      "url": "https://www.channelnewsasia.com/world/mexico-captures-drug-kingpin-fbi-most-wanted-6572391",
+      "source": "CNA",
+      "published": "2026-11-22T02:31:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+          "title": "Mexico captures drug kingpin on FBI’s most wanted list in firefight that left 11 dead",
+          "published": "2026-11-21T14:00:45+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/world/crime-legal/us-fbi-usda-cyberattacks/",
       "source": "Japan Times",
@@ -933,17 +934,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Eleven killed as cartel boss El Chapo Isidro’s capture in Mexico sparks burst of violence",
-      "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
-      "source": "The Independent",
-      "published": "2026-11-21T19:55:32+00:00",
+      "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+      "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+      "source": "NPR World",
+      "published": "2026-11-21T18:08:55+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
+          "title": "Capture of cartel leader in northern Mexico sets off gunfight that leaves 11 dead",
+          "published": "2026-11-21T16:32:44+00:00"
         }
       ],
       "consensus": 2.0
@@ -997,17 +998,17 @@
       "consensus": 2.0
     },
     {
-      "title": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
-      "source": "SCMP",
-      "published": "2026-11-21T11:36:40+00:00",
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "source": "Euronews",
+      "published": "2026-11-21T09:01:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/11-dead-over-180-hospitalised-after-drinking-illicit-alcohol-in-india",
-          "title": "11 dead, over 180 hospitalised after drinking illicit alcohol in India",
-          "published": "2026-11-21T07:18:55+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+          "title": "US declassifies more UFO footage filmed in the Middle East",
+          "published": "2026-11-20T23:15:20+00:00"
         }
       ],
       "consensus": 2.0
@@ -1157,10 +1158,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60654.37,
+        "price": 60717.39,
         "currency": "USD",
-        "change": 561.36,
-        "change_percent": 0.93,
+        "change": 624.38,
+        "change_percent": 1.04,
         "name": "Bitcoin"
       }
     ],
@@ -1330,6 +1331,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Climate talks fail after stand-off over fossil fuels",
+          "url": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1",
+          "published": "2026-11-22T13:50:41+00:00",
+          "snippet": "Geopolitical divides laid bare in fracture between Arab group and EU-led coalition"
+        },
+        {
           "title": "South Africa takes the low road after the ANC’s humiliation",
           "url": "https://www.ft.com/content/26ba0881-5865-433e-8389-fa98f0b28e31?syn-25a6b1a6=1",
           "published": "2026-11-22T13:23:33+00:00",
@@ -1340,12 +1347,6 @@
           "url": "https://www.ft.com/content/4dbdecf6-396d-4629-8600-8a55034a9827",
           "published": "2026-11-22T13:00:06+00:00",
           "snippet": "The Shenzhen summit shows the high stakes for Beijing as many in Washington call for tougher measures"
-        },
-        {
-          "title": "Sanctioned Russian vessel ablaze in Finnish waters after drone attack",
-          "url": "https://www.ft.com/content/2c959c95-97a5-4957-9eb2-8436c34ba374?syn-25a6b1a6=1",
-          "published": "2026-11-22T12:24:41+00:00",
-          "snippet": "Finland’s prime minister attributes attack on cargo ship to Ukraine and says ‘war is spilling over into our immediate vicinity’"
         }
       ]
     },
@@ -1355,22 +1356,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Inside the Trump Administration’s Ultra-Processed-Food Fight",
+          "title": "The Relationship That Can Survive Not Talking for Years",
+          "url": "https://www.theatlantic.com/family/2026/11/friends-dark-matter/689541/?utm_source=feed",
+          "published": "2026-11-22T13:30:00+00:00",
+          "snippet": "Something unusual happens when friends reconnect."
+        },
+        {
+          "title": "How ‘Real Food’ Nearly Broke the White House",
           "url": "https://www.theatlantic.com/health/2026/11/ultra-processed-food-definition-wiles-means-kennedy/689536/?utm_source=feed",
           "published": "2026-11-22T13:00:00+00:00",
-          "snippet": "“Real food” nearly broke the White House."
+          "snippet": "Inside the Trump administration’s ultra-processed-food fight"
         },
         {
           "title": "My Apology to American Democracy",
           "url": "https://www.theatlantic.com/ideas/2026/11/doomerism-elections-authoritarianism-trump/689493/?utm_source=feed",
           "published": "2026-11-22T13:00:00+00:00",
           "snippet": "I underestimated voters’ sense of self-respect."
-        },
-        {
-          "title": "What We Don’t Know About the Iran War",
-          "url": "https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=feed",
-          "published": "2026-11-22T12:00:00+00:00",
-          "snippet": "The president is thinking about restarting the conflict while continuing to obscure information about the cost."
         }
       ]
     },
@@ -1453,6 +1454,13 @@
   "web": {
     "tech": [
       {
+        "title": "Prisons get OK to jam contraband phones",
+        "url": "https://arstechnica.com/tech-policy/2026/11/prisons-get-ok-to-jam-contraband-phones-ctia-says-nearby-phones-will-be-jammed-too/",
+        "score": 13,
+        "source": "Hacker News",
+        "published": "2026-11-22T13:00:52+00:00"
+      },
+      {
         "title": "Fixing Google’s Feedburner problem, and caching that half works",
         "url": "https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss",
         "comments_url": "https://lobste.rs/s/nbtm5j/fixing_google_s_feedburner_problem",
@@ -1463,35 +1471,28 @@
       {
         "title": "Notes on the discrete Fourier transform (DFT)",
         "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
-        "score": 41,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-22T06:52:25+00:00"
       },
       {
         "title": "Show HN: The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "score": 68,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-22T05:46:30+00:00"
       },
       {
-        "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
-        "url": "https://github.com/EL4CTEO/fast-anything",
-        "score": 71,
-        "source": "Hacker News",
-        "published": "2026-11-22T04:10:09+00:00"
-      },
-      {
         "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
         "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "score": 692,
+        "score": 727,
         "source": "Hacker News",
         "published": "2026-11-22T04:04:56+00:00"
       },
       {
         "title": "Data Processing Incidents on Inference Providers",
         "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-        "score": 191,
+        "score": 205,
         "source": "Hacker News",
         "published": "2026-11-22T02:14:14+00:00"
       },
@@ -1499,7 +1500,7 @@
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
         "comments_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
-        "score": 47,
+        "score": 49,
         "source": "Lobste.rs",
         "published": "2026-11-22T02:03:46.531000+00:00"
       },
@@ -1507,7 +1508,7 @@
         "title": "GhostScript CVE 2026-125396: \"Upload2Shell\"",
         "url": "https://pwn.ai/upload2shell/research.html",
         "comments_url": "https://lobste.rs/s/n5i1ds/ghostscript_cve_2026_125396",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-22T00:52:23.423000+00:00"
       },
@@ -1522,7 +1523,7 @@
       {
         "title": "Sandwich Simulator",
         "url": "https://stulle.app/",
-        "score": 338,
+        "score": 353,
         "source": "Hacker News",
         "published": "2026-11-22T00:07:59+00:00"
       },
@@ -1530,7 +1531,7 @@
         "title": "port scanning for mojang",
         "url": "https://sipacid.com/blog/port-scanning-for-mojang/",
         "comments_url": "https://lobste.rs/s/et5q0q/port_scanning_for_mojang",
-        "score": 32,
+        "score": 36,
         "source": "Lobste.rs",
         "published": "2026-11-21T23:40:51.912000+00:00"
       },
@@ -1538,7 +1539,7 @@
         "title": "Advice for the next 100 Rust GUIs",
         "url": "https://linebender.org/blog/next-100-guis/",
         "comments_url": "https://lobste.rs/s/inhlo2/advice_for_next_100_rust_guis",
-        "score": 23,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-21T23:10:07.020000+00:00"
       },
@@ -1546,14 +1547,14 @@
         "title": "How I Got Postgres into a Single Binary",
         "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
         "comments_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
-        "score": 18,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-21T19:32:22.642000+00:00"
       },
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 493,
+        "score": 497,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
       },
@@ -1561,7 +1562,7 @@
         "title": "How 2 Security Research (MLG)",
         "url": "https://www.youtube.com/watch?v=dXQ_9WN6KLQ",
         "comments_url": "https://lobste.rs/s/emymet/how_2_security_research_mlg",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-21T16:57:15.685000+00:00"
       }

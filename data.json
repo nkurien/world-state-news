@@ -1,78 +1,78 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T12:01:17.514669+00:00",
+  "last_updated": "2026-11-22T12:30:53.487326+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 230
+      "ms": 486
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 43
+      "ms": 599
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 93
+      "ms": 235
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 32
+      "ms": 250
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 167
+      "ms": 279
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 153
+      "ms": 410
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 189
+      "ms": 484
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 418
+      "ms": 417
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 39
+      "ms": 269
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 82
+      "ms": 115
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 300
+      "ms": 520
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 183
+      "ms": 366
     },
     "NPR World": {
       "ok": true,
@@ -84,77 +84,83 @@
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 94
+      "ms": 230
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 173
+      "ms": 283
     },
     "RNZ": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 57
+      "ms": 444
     },
     "SCMP": {
-      "ok": false,
-      "count": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
-      "ms": 3146
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 827
     },
     "Semafor": {
       "ok": true,
       "count": 278,
       "error": null,
-      "ms": 513
+      "ms": 936
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 324
+      "ms": 639
     },
     "Straits Times": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 206
+      "ms": 497
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 136
+      "ms": 137
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 328
+      "ms": 407
     },
     "The Independent": {
       "ok": true,
-      "count": 36,
+      "count": 37,
       "error": null,
-      "ms": 150
+      "ms": 189
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 144
+      "ms": 280
     }
   },
   "breaking": [
     {
-      "title": "South Korea education minister resigns over exam cheating scandal",
-      "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-22T09:20:45+00:00",
+      "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+      "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+      "source": "The Guardian",
+      "published": "2026-11-22T12:12:08+00:00",
       "score": 5,
       "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+          "title": "South Korea education minister resigns over exam cheating scandal",
+          "published": "2026-11-22T09:20:45+00:00"
+        },
         {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/south-korea-education-minister-resigns-amid-ai-cheating-scandal/article71730601.ece",
@@ -166,12 +172,6 @@
           "url": "https://www.japantimes.co.jp/news/2026/11/22/asia-pacific/politics/south-korea-education-minister-resigns/",
           "title": "South Korea education chief resigns amid AI cheating scandal",
           "published": "2026-11-22T05:19:00+00:00"
-        },
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
-          "title": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
-          "published": "2026-11-22T05:04:39+00:00"
         },
         {
           "source": "Straits Times",
@@ -227,39 +227,71 @@
       "consensus": 3.5
     },
     {
-      "title": "Photos: People rally across France over living costs, public services",
-      "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T09:27:48+00:00",
+      "title": "Former Italian police chief found dead",
+      "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
+      "source": "France24",
+      "published": "2026-11-22T10:25:52+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/22/world/french-protesters-living-costs-public-services/",
-          "title": "French protesters rally for sixth weekend over living costs, public services",
-          "published": "2026-11-21T23:58:00+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375349/former-italian-police-chief-de-gennaro-takes-own-life-amid-mafia-probe",
+          "title": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+          "published": "2026-11-21T18:21:02+00:00"
         },
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/france-protests-rising-costs-living-public-services-6571961",
-          "title": "French protesters rally for sixth weekend over living costs, public services",
-          "published": "2026-11-21T17:32:00+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/gianni-de-gennaro-dead-mafia-italy-b3089121.html",
+          "title": "Former Italian police chief found dead amid mafia probe",
+          "published": "2026-11-21T13:38:38+00:00"
         }
       ],
       "consensus": 3.5
     },
     {
-      "title": "Bodies found, 36 workers missing after Indonesian factory fire",
-      "url": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
-      "source": "ABC Australia",
-      "published": "2026-11-22T09:23:41+00:00",
+      "title": "Indonesia factory hit by deadly blaze: Three killed and 36 missing",
+      "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing",
+      "source": "France24",
+      "published": "2026-11-22T12:11:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
-          "title": "Seven body bags recovered, 50 missing after Indonesian factory fire",
-          "published": "2026-11-22T03:06:00+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
+          "title": "Indonesia factory fire kills three, 36 missing",
+          "published": "2026-11-22T07:46:35+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Russian ship attacked by drone in Baltic Sea off Finland",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-22T11:15:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/finland-detects-drone-attack-on-russian-cargo-ship-in-baltic/article71728516.ece",
+          "title": "Finland detects drone attack on Russian cargo ship in Baltic",
+          "published": "2026-11-21T13:56:11+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Croatia shocked by psychiatric hospital death as protestors demand justice",
+      "url": "https://www.independent.co.uk/news/world/europe/croatia-protest-kristian-josip-peris-b3089374.html",
+      "source": "The Independent",
+      "published": "2026-11-22T10:17:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375351/croatians-demand-justice-over-psychiatric-hospital-death-after-brutal-video-surfaces",
+          "title": "Croatians demand justice over psychiatric hospital death after brutal video surfaces",
+          "published": "2026-11-21T22:05:10+00:00"
         }
       ],
       "consensus": 2.5
@@ -268,7 +300,7 @@
       "title": "Burnham should ‘move on’ from Brexit, says Theresa May, as critics hit out over closer EU ties – UK politics live",
       "url": "https://www.theguardian.com/politics/live/2026/nov/22/andy-burnham-brexit-theresa-may-michael-gove-latest-news-updates",
       "source": "The Guardian",
-      "published": "2026-11-22T11:36:07+00:00",
+      "published": "2026-11-22T12:09:54+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -279,31 +311,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Former Italian police chief found dead",
-      "url": "https://www.france24.com/en/former-italian-police-chief-found-dead",
-      "source": "France24",
-      "published": "2026-11-22T10:25:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gianni-de-gennaro-dead-mafia-italy-b3089121.html",
-          "title": "Former Italian police chief found dead amid mafia probe",
-          "published": "2026-11-21T13:38:38+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Who gets Europe's scrap? Industry fights over future of waste exports",
-      "url": "https://www.rfi.fr/en/international/20261122-who-gets-europe-s-scrap-industry-fights-over-future-of-waste-exports",
-      "source": "RFI English",
-      "published": "2026-11-22T11:53:28+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -312,7 +319,7 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/first-images-of-mexican-cartel-boss-el-chapo-isidro-after-arrest?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-22T04:42:02+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "Euronews",
@@ -331,15 +338,9 @@
           "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
           "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
           "published": "2026-11-21T17:46:55+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
-          "title": "Mexico captures drug cartel boss ‘El Chapo Isidro’ after deadly firefight",
-          "published": "2026-11-21T15:00:15+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 4.5
     },
     {
       "title": "Nations agree to further talks on regulating AI 'killer robots and drones'",
@@ -386,6 +387,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Photos: People rally across France over living costs, public services",
+      "url": "https://www.aljazeera.com/gallery/2026/11/22/photos-people-rally-across-france-over-living-costs-public-services?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-22T09:27:48+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/22/world/french-protesters-living-costs-public-services/",
+          "title": "French protesters rally for sixth weekend over living costs and public services",
+          "published": "2026-11-21T23:58:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/france-protests-rising-costs-living-public-services-6571961",
+          "title": "French protesters rally for sixth weekend over living costs, public services",
+          "published": "2026-11-21T17:32:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
       "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks",
       "source": "Euronews",
@@ -408,28 +431,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Dozens missing as deadly fire hits Indonesian candy factory",
-      "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-22T06:14:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-          "title": "Three killed and dozens missing after fire at Indonesian factory",
-          "published": "2026-11-22T06:05:00+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece",
-          "title": "Fire at Indonesian candy factory leaves 3 dead, dozens unaccounted for",
-          "published": "2026-11-22T04:45:19+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Bahrain says Iran struck industrial site as tankers hit in Hormuz",
       "url": "https://www.japantimes.co.jp/news/2026/11/22/world/bahrain-iran-attack-hormuz/",
       "source": "Japan Times",
@@ -447,6 +448,28 @@
           "url": "https://www.france24.com/en/middle-east/20261122-bahrain-accuses-iran-of-striking-industrial-site-as-tankers-hit-in-hormuz",
           "title": "Bahrain accuses Iran of striking industrial site as tankers hit in Hormuz",
           "published": "2026-11-22T03:24:14+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "EU and Indonesia sign trade deal",
+      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T15:21:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/eu-indonesia-trade-deal-sign-ambitious-6571696",
+          "title": "EU, Indonesia officially sign 'ambitious' trade deal",
+          "published": "2026-11-21T14:05:00+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375341/indonesia-eu-sign-ambitious-trade-deal",
+          "title": "Indonesia, EU sign ‘ambitious’ trade deal",
+          "published": "2026-11-21T13:46:13+00:00"
         }
       ],
       "consensus": 3.5
@@ -496,33 +519,17 @@
       "consensus": 3.0
     },
     {
-      "title": "Russian ship attacked by drone in Baltic Sea off Finland",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/russian-ship-attacked-by-drone-in-baltic-sea-off-finland?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T11:15:27+00:00",
+      "title": "Bodies found, 36 workers missing after Indonesian factory fire",
+      "url": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
+      "source": "ABC Australia",
+      "published": "2026-11-22T09:23:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/finland-detects-drone-attack-on-russian-cargo-ship-in-baltic/article71728516.ece",
-          "title": "Finland detects drone attack on Russian cargo ship in Baltic",
-          "published": "2026-11-21T13:56:11+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "New COP31 draft deal tabled as countries scramble to salvage climate talks",
-      "url": "https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks",
-      "source": "Euronews",
-      "published": "2026-11-22T07:50:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-          "title": "COP31 climate talks on the brink as new draft deal faces scrutiny",
-          "published": "2026-11-22T04:51:35+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
+          "title": "Seven body bags recovered, 50 missing after Indonesian factory fire",
+          "published": "2026-11-22T03:06:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -544,17 +551,33 @@
       "consensus": 2.5
     },
     {
-      "title": "Indonesia factory fire kills three, 36 missing",
-      "url": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T07:46:35+00:00",
+      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+      "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-22T07:12:41+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-          "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
-          "published": "2026-11-22T07:11:17+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375352/paolo-bulgari-italian-jeweller-who-dazzled-stars-and-supermodels-dies-89",
+          "title": "Paolo Bulgari, the Italian jeweller who dazzled stars and supermodels, dies at 89",
+          "published": "2026-11-22T00:57:19+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Dozens missing as deadly fire hits Indonesian candy factory",
+      "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-22T06:14:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece",
+          "title": "Fire at Indonesian candy factory leaves 3 dead, dozens unaccounted for",
+          "published": "2026-11-22T04:45:19+00:00"
         }
       ],
       "consensus": 2.5
@@ -640,17 +663,17 @@
       "consensus": 2.5
     },
     {
-      "title": "EU and Indonesia sign trade deal",
-      "url": "https://www.dw.com/en/eu-and-indonesia-sign-trade-deal/a-80010099?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-21T15:21:00+00:00",
+      "title": "French police officers jailed for racist violence against black man in landmark ruling",
+      "url": "https://www.scmp.com/news/world/europe/article/3375350/french-police-officers-jailed-racist-violence-against-black-man-landmark-ruling",
+      "source": "SCMP",
+      "published": "2026-11-21T20:22:55+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/eu-indonesia-trade-deal-sign-ambitious-6571696",
-          "title": "EU, Indonesia officially sign 'ambitious' trade deal",
-          "published": "2026-11-21T14:05:00+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/a-week-in-france/20261121-french-police-officers-convicted-of-racist-assault",
+          "title": "French police officers convicted of racist assault",
+          "published": "2026-11-21T16:41:49+00:00"
         }
       ],
       "consensus": 2.5
@@ -768,6 +791,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Fire at confectionery factory in Indonesia leaves at least three dead and dozens missing",
+      "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+      "source": "The Guardian",
+      "published": "2026-11-22T07:11:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+          "title": "Three killed and dozens missing after fire at Indonesian factory",
+          "published": "2026-11-22T06:05:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "North Korea delays international marathon until October: tour agency",
       "url": "https://www.thehindu.com/news/international/north-korea-delays-international-marathon-until-october-tour-agency/article71730826.ece",
       "source": "The Hindu",
@@ -811,6 +850,22 @@
           "url": "https://www.channelnewsasia.com/sustainability/cop31-draft-deal-fossil-fuels-6572531",
           "title": "Fossil fuels still missing from latest COP31 draft deal",
           "published": "2026-11-22T03:52:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Mexico captures drug kingpin on FBI's most wanted list",
+      "url": "https://www.channelnewsasia.com/world/mexico-captures-drug-kingpin-fbi-most-wanted-6572391",
+      "source": "CNA",
+      "published": "2026-11-22T02:31:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list",
+          "title": "Mexico captures drug kingpin on FBI’s most wanted list in firefight that left 11 dead",
+          "published": "2026-11-21T14:00:45+00:00"
         }
       ],
       "consensus": 2.0
@@ -912,6 +967,22 @@
       "consensus": 2.0
     },
     {
+      "title": "European Union proposes tax on Big Tech to boost budget",
+      "url": "https://www.thehindu.com/news/international/european-union-proposes-tax-on-big-tech-to-boost-budget/article71728111.ece",
+      "source": "The Hindu",
+      "published": "2026-11-21T12:33:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375333/eu-eyes-tax-big-tech-boost-budget",
+          "title": "EU eyes tax on Big Tech to boost budget",
+          "published": "2026-11-21T11:51:18+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Russian threats ‘less and less hybrid,’ Von der Leyen says after assassination plot in Denmark",
       "url": "https://www.politico.eu/article/russian-threats-less-hybrid-von-der-leyen-says-assassination-plot-ukrainian-rapper-kyivstoner-denmark/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
@@ -928,84 +999,20 @@
       "consensus": 2.0
     },
     {
-      "title": "Pentagon declassifies new UFO footage filmed by US military",
-      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
-      "source": "Euronews",
-      "published": "2026-11-21T09:01:41+00:00",
+      "title": "In India, tainted alcohol leaves 11 dead, over 180 hospitalised",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375332/india-tainted-alcohol-leaves-11-dead-over-180-hospitalised",
+      "source": "SCMP",
+      "published": "2026-11-21T11:36:40+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
-          "title": "US declassifies more UFO footage filmed in the Middle East",
-          "published": "2026-11-20T23:15:20+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/11-dead-over-180-hospitalised-after-drinking-illicit-alcohol-in-india",
+          "title": "11 dead, over 180 hospitalised after drinking illicit alcohol in India",
+          "published": "2026-11-21T07:18:55+00:00"
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Economic losses from Indonesia fires could reach US$30 billion, research shows",
-      "url": "https://www.straitstimes.com/asia/se-asia/economic-losses-from-indonesia-fires-could-reach-us30-billion-research-shows",
-      "source": "Straits Times",
-      "published": "2026-11-21T02:10:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/economic-losses-from-indonesia-fires-could-reach-30-billion-research-shows/article71724140.ece",
-          "title": "Economic losses from Indonesia fires could reach $30 billion, research shows",
-          "published": "2026-11-20T11:12:41+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
-      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T00:01:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
-          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
-          "published": "2026-11-20T15:03:20+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Cost of living protests sweep across Europe",
-      "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-20T16:45:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261120-protesters-join-forces-across-europe-against-high-living-costs",
-          "title": "Cost of living protests set to continue across Europe over weekend",
-          "published": "2026-11-20T13:45:42+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
-      "url": "http://www.africanews.com/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack/",
-      "source": "Africanews",
-      "published": "2026-11-22T10:39:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack",
-          "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
-          "published": "2026-11-22T10:39:01+00:00"
-        }
-      ],
-      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1152,10 +1159,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60999.35,
+        "price": 60668.1,
         "currency": "USD",
-        "change": 906.34,
-        "change_percent": 1.51,
+        "change": 575.09,
+        "change_percent": 0.96,
         "name": "Bitcoin"
       }
     ],
@@ -1350,22 +1357,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "What We Don’t Know About the Iran War",
+          "url": "https://www.theatlantic.com/national-security/2026/11/iran-war-pentagon-information-access/689524/?utm_source=feed",
+          "published": "2026-11-22T12:00:00+00:00",
+          "snippet": "The president is thinking about restarting the conflict while continuing to obscure information about the cost."
+        },
+        {
+          "title": "A Movie About What Happens When the Party’s Over",
+          "url": "https://www.theatlantic.com/newsletters/2026/11/culture-entertainment-recs-club-kid-anna-karenina-nintendo/689511/?utm_source=feed",
+          "published": "2026-11-22T12:00:00+00:00",
+          "snippet": "Culture and entertainment recommendations including Club Kid, the Rothko Chapel, and more"
+        },
+        {
           "title": "What Trump’s Summit in China Reveals",
           "url": "https://www.theatlantic.com/national/2026/11/trump-summit-china-washington-week/689539/?utm_source=feed",
           "published": "2026-11-21T16:18:16+00:00",
           "snippet": "Panelists on Washington Week With The Atlantic joined to discuss the president’s week in China with Xi Jinping and Vladimir Putin."
-        },
-        {
-          "title": "Two Risk-Takers Walk Into a Football Stadium",
-          "url": "https://www.theatlantic.com/culture/2026/11/vikings-49ers-coaching/689538/?utm_source=feed",
-          "published": "2026-11-21T14:05:00+00:00",
-          "snippet": "When the 49ers and Vikings play this weekend, the most nonconformist coaching minds in the NFL will face off."
-        },
-        {
-          "title": "Hollywood Needs a New Pixar",
-          "url": "https://www.theatlantic.com/ideas/2026/11/movies-pixar-animation-media/689535/?utm_source=feed",
-          "published": "2026-11-21T13:00:00+00:00",
-          "snippet": "AI is accelerating culture’s move to YouTube, Roblox, and TikTok. Movie studios can make the move that transformed Disney."
         }
       ]
     },
@@ -1451,42 +1458,49 @@
         "title": "The Claude Delusion",
         "url": "https://www.netmeister.org/blog/claude-delusion.html",
         "comments_url": "https://lobste.rs/s/v3m2uj/claude_delusion",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-22T09:21:35.560000+00:00"
       },
       {
         "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
         "url": "https://arxiv.org/abs/2606.14068",
-        "score": 38,
+        "score": 58,
         "source": "Hacker News",
         "published": "2026-11-22T09:18:36+00:00"
       },
       {
         "title": "Notes on the discrete Fourier transform (DFT)",
         "url": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
-        "score": 35,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-22T06:52:25+00:00"
       },
       {
         "title": "Show HN: The Riemann Proof Handbook",
         "url": "https://github.com/tamnd/riemann-handbook",
-        "score": 59,
+        "score": 64,
         "source": "Hacker News",
         "published": "2026-11-22T05:46:30+00:00"
       },
       {
+        "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+        "url": "https://github.com/EL4CTEO/fast-anything",
+        "score": 56,
+        "source": "Hacker News",
+        "published": "2026-11-22T04:10:09+00:00"
+      },
+      {
         "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
         "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "score": 596,
+        "score": 622,
         "source": "Hacker News",
         "published": "2026-11-22T04:04:56+00:00"
       },
       {
         "title": "Data Processing Incidents on Inference Providers",
         "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
-        "score": 173,
+        "score": 175,
         "source": "Hacker News",
         "published": "2026-11-22T02:14:14+00:00"
       },
@@ -1494,7 +1508,7 @@
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
         "comments_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
-        "score": 33,
+        "score": 38,
         "source": "Lobste.rs",
         "published": "2026-11-22T02:03:46.531000+00:00"
       },
@@ -1517,7 +1531,7 @@
       {
         "title": "Sandwich Simulator",
         "url": "https://stulle.app/",
-        "score": 299,
+        "score": 315,
         "source": "Hacker News",
         "published": "2026-11-22T00:07:59+00:00"
       },
@@ -1541,24 +1555,16 @@
         "title": "How I Got Postgres into a Single Binary",
         "url": "https://progrium.xyz/articles/2026/single-binary-postgres",
         "comments_url": "https://lobste.rs/s/pvylnk/how_i_got_postgres_into_single_binary",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-21T19:32:22.642000+00:00"
       },
       {
         "title": "Inkling-2-Mini in 5.4 GB Memory",
         "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-        "score": 479,
+        "score": 482,
         "source": "Hacker News",
         "published": "2026-11-21T18:02:19+00:00"
-      },
-      {
-        "title": "How 2 Security Research (MLG)",
-        "url": "https://www.youtube.com/watch?v=dXQ_9WN6KLQ",
-        "comments_url": "https://lobste.rs/s/emymet/how_2_security_research_mlg",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-21T16:57:15.685000+00:00"
       }
     ],
     "reddit": [

@@ -1,160 +1,172 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T18:01:08.010532+00:00",
+  "last_updated": "2026-11-22T18:30:54.443416+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 203
+      "ms": 381
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 61
+      "ms": 373
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 175
+      "ms": 218
     },
     "BBC News": {
       "ok": true,
       "count": 29,
       "error": null,
-      "ms": 184
+      "ms": 285
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 262
+      "ms": 537
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 177
+      "ms": 185
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 195
+      "ms": 390
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 227
+      "ms": 589
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 46
+      "ms": 206
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 130
+      "ms": 259
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 209
+      "ms": 496
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 314
+      "ms": 399
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 109
+      "ms": 195
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 169
+      "ms": 186
     },
     "RFI English": {
       "ok": true,
-      "count": 23,
+      "count": 21,
       "error": null,
-      "ms": 108
+      "ms": 184
     },
     "RNZ": {
       "ok": true,
-      "count": 37,
+      "count": 40,
       "error": null,
-      "ms": 110
+      "ms": 291
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 662
+      "ms": 669
     },
     "Semafor": {
       "ok": true,
       "count": 223,
       "error": null,
-      "ms": 558
+      "ms": 723
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 516
+      "ms": 580
     },
     "Straits Times": {
       "ok": true,
-      "count": 45,
+      "count": 43,
       "error": null,
-      "ms": 167
+      "ms": 217
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 95
+      "ms": 109
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 95
+      "ms": 415
     },
     "The Independent": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 141
+      "ms": 163
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 89
+      "ms": 259
     }
   },
   "breaking": [
     {
-      "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
-      "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-22T17:11:00+00:00",
-      "score": 6,
+      "title": "COP31 climate talks collapse as EU and others reject deal",
+      "url": "https://www.rnz.co.nz/news/world/2737626/cop31-climate-talks-collapse-as-eu-and-others-reject-deal",
+      "source": "RNZ",
+      "published": "2026-11-22T18:16:30+00:00",
+      "score": 8,
       "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847?cmp=rss",
+          "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
+          "published": "2026-11-22T17:11:00+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
+          "title": "COP 31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+          "published": "2026-11-22T16:23:23+00:00"
+        },
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
@@ -186,7 +198,7 @@
           "published": "2026-11-22T05:47:00+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 10.0
     },
     {
       "title": "Washington governor slams ‘out of control’ ICE arrests on Seattle airport jetway",
@@ -447,28 +459,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Eleven killed as cartel boss El Chapo Isidro’s capture in Mexico sparks burst of violence",
-      "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
-      "source": "The Independent",
-      "published": "2026-11-21T19:55:32+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
-          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
-          "published": "2026-11-21T14:20:35+00:00"
-        }
-      ],
-      "consensus": 3.0
     },
     {
       "title": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
@@ -823,6 +813,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Eleven killed as cartel boss El Chapo Isidro’s capture in Mexico sparks burst of violence",
+      "url": "https://www.independent.co.uk/news/world/americas/el-chapo-isidro-captured-fbi-sinaloa-trump-b3089155.html",
+      "source": "The Independent",
+      "published": "2026-11-21T19:55:32+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
       "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
       "source": "NPR World",
@@ -951,37 +957,37 @@
       "consensus": 1.5
     },
     {
-      "title": "UN-affiliated athlete swims in dangerous Strait of Hormuz to highlight Iran war's impact on wildlife",
-      "url": "https://www.cbc.ca/news/world/un-endurance-swimmer-strait-of-hormuz-wildlife-impact-9.7431891?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-22T17:57:36+00:00",
+      "title": "Bombed out in last week's history quiz? Let It Go and try again",
+      "url": "https://www.abc.net.au/news/2026-11-23/this-week-in-history-quiz-november-23/107406384",
+      "source": "ABC Australia",
+      "published": "2026-11-22T18:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US seeks answers on Nvidia's sale of chips to China, Bessent says",
-      "url": "https://www.straitstimes.com/asia/us-seeks-answers-on-nvidias-sale-of-chips-to-china-bessent-says",
-      "source": "Straits Times",
-      "published": "2026-11-22T17:52:23+00:00",
+      "title": "I knew I'd be outbid on a property, so I wrote the owner a letter",
+      "url": "https://www.abc.net.au/news/2026-11-23/a-letter-helped-this-single-mum-find-a-home/107299790",
+      "source": "ABC Australia",
+      "published": "2026-11-22T18:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "UK national Andrew Glauberman sentenced for Auckland home improvement scam",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2738957/uk-national-andrew-glauberman-sentenced-for-auckland-home-improvement-scam",
+      "title": "Recipe of the Year winner says finale victory an 'out-of-body experience'",
+      "url": "https://www.abc.net.au/news/2026-11-23/recipe-of-the-year-winner-laura-mclellan-on-top-prize/107397656",
+      "source": "ABC Australia",
+      "published": "2026-11-22T18:30:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "More than a third struggling to put food on the table in Waikato",
+      "url": "https://www.rnz.co.nz/news/regions_waikato/2737520/more-than-a-third-struggling-to-put-food-on-the-table-in-waikato",
       "source": "RNZ",
-      "published": "2026-11-22T17:48:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "KiwiSaver is not working for self-employed people, but what will?",
-      "url": "https://www.rnz.co.nz/news/personal-finance/2738945/kiwisaver-is-not-working-for-self-employed-people-but-what-will",
-      "source": "RNZ",
-      "published": "2026-11-22T17:48:03+00:00",
+      "published": "2026-11-22T18:25:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1131,10 +1137,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60744.82,
+        "price": 60603.76,
         "currency": "USD",
-        "change": 651.81,
-        "change_percent": 1.08,
+        "change": 510.75,
+        "change_percent": 0.85,
         "name": "Bitcoin"
       }
     ],
@@ -1229,16 +1235,16 @@
       "column": "briefings",
       "entries": [
         {
-          "title": "Rhinos and river dolphins in Assam",
-          "url": "https://theweek.com/culture-life/travel/rhinos-and-river-dolphins-in-assam",
-          "published": "2026-11-22T08:00:00+00:00",
-          "snippet": "Plus Lübeck’s rich literary past and a short break in a wartime gun tower"
-        },
-        {
           "title": "A journey into the wild west of Andalusia",
           "url": "https://theweek.com/culture-life/travel/a-journey-into-the-wild-west-of-andalusia",
           "published": "2026-11-22T08:00:00+00:00",
           "snippet": "A ‘refreshingly unspoilt’ destination that is ‘yours for the taking’"
+        },
+        {
+          "title": "Rhinos and river dolphins in Assam",
+          "url": "https://theweek.com/culture-life/travel/rhinos-and-river-dolphins-in-assam",
+          "published": "2026-11-22T08:00:00+00:00",
+          "snippet": "Plus Lübeck’s rich literary past and a short break in a wartime gun tower"
         },
         {
           "title": "Abu Dhabi’s buying spree",
@@ -1427,9 +1433,17 @@
   "web": {
     "tech": [
       {
+        "title": "Calculate radio link placement and node amount for your city's mesh network",
+        "url": "https://meshcoveragecalculator.lalala.ing/",
+        "comments_url": "https://lobste.rs/s/e89tey/calculate_radio_link_placement_node",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-22T18:17:44.770000+00:00"
+      },
+      {
         "title": "Perplexity and Intelligence",
         "url": "https://openai.com/index/perplexity-and-intelligence/",
-        "score": 53,
+        "score": 127,
         "source": "Hacker News",
         "published": "2026-11-22T17:06:27+00:00"
       },
@@ -1437,7 +1451,7 @@
         "title": "We asked [mathematicans about an incomprehensible AI proof of GRH] before it happened (13min38s)",
         "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
         "comments_url": "https://lobste.rs/s/7hzqwh/we_asked_mathematicans_about",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-22T16:37:37.600000+00:00"
       },
@@ -1445,28 +1459,28 @@
         "title": "Falsehoods Programmers Believe About ATProto",
         "url": "https://reiver.link/atproto/falsehoods-programmers-believe/",
         "comments_url": "https://lobste.rs/s/bjoete/falsehoods_programmers_believe_about",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-22T16:37:12.288000+00:00"
       },
       {
         "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
         "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
-        "score": 76,
+        "score": 89,
         "source": "Hacker News",
         "published": "2026-11-22T15:42:40+00:00"
       },
       {
         "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
         "url": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
-        "score": 31,
+        "score": 42,
         "source": "Hacker News",
         "published": "2026-11-22T15:35:24+00:00"
       },
       {
         "title": "Open Social Web Alliance",
         "url": "https://osw-alliance.net/en/",
-        "score": 128,
+        "score": 139,
         "source": "Hacker News",
         "published": "2026-11-22T15:24:32+00:00"
       },
@@ -1481,7 +1495,7 @@
       {
         "title": "Show HN: I built a game where you are an LLM's subagent",
         "url": "https://github.com/gulivan/worker755",
-        "score": 147,
+        "score": 158,
         "source": "Hacker News",
         "published": "2026-11-22T13:56:58+00:00"
       },
@@ -1496,14 +1510,14 @@
       {
         "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
         "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-        "score": 551,
+        "score": 580,
         "source": "Hacker News",
         "published": "2026-11-22T08:57:34+00:00"
       },
       {
         "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
         "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-        "score": 971,
+        "score": 991,
         "source": "Hacker News",
         "published": "2026-11-22T04:04:56+00:00"
       },
@@ -1511,7 +1525,7 @@
         "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced",
         "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
         "comments_url": "https://lobste.rs/s/32rhzb/researcher_plants_2m_canaries_into_ai",
-        "score": 71,
+        "score": 76,
         "source": "Lobste.rs",
         "published": "2026-11-22T02:03:46.531000+00:00"
       },
@@ -1530,13 +1544,6 @@
         "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-22T00:30:07.226000+00:00"
-      },
-      {
-        "title": "Sandwich Simulator",
-        "url": "https://stulle.app/",
-        "score": 459,
-        "source": "Hacker News",
-        "published": "2026-11-22T00:07:59+00:00"
       }
     ],
     "reddit": [

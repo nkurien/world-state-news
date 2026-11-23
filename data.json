@@ -1,160 +1,166 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23T19:01:13.079097+00:00",
+  "last_updated": "2026-11-23T19:31:10.669014+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 94
+      "ms": 242
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 114
+      "ms": 104
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 68
+      "ms": 184
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 61
+      "ms": 193
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 126
+      "ms": 211
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 91
+      "ms": 152
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 60
+      "ms": 155
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 200
+      "ms": 340
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 83
+      "ms": 43
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 51
+      "ms": 102
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 257
+      "ms": 455
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 184
+      "ms": 278
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 101
+      "ms": 177
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 151
+      "ms": 90
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 98
+      "ms": 175
     },
     "RNZ": {
       "ok": true,
-      "count": 46,
+      "count": 47,
       "error": null,
-      "ms": 81
+      "ms": 246
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 3918
+      "ms": 483
     },
     "Semafor": {
       "ok": true,
-      "count": 223,
+      "count": 222,
       "error": null,
-      "ms": 506
+      "ms": 441
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 334
+      "ms": 563
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 133
+      "ms": 270
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3096
+      "ms": 3088
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 92
+      "ms": 252
     },
     "The Independent": {
       "ok": true,
-      "count": 65,
+      "count": 68,
       "error": null,
-      "ms": 176
+      "ms": 162
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 279
+      "ms": 314
     }
   },
   "breaking": [
     {
-      "title": "AI giant Nvidia reinstates Jensen Huang as CEO after spy scandal",
-      "url": "http://www.africanews.com/2026/11/23/ai-giant-nvidia-reinstates-jensen-huang-as-ceo-after-spy-scandal/",
-      "source": "Africanews",
-      "published": "2026-11-23T16:10:54+00:00",
-      "score": 9,
+      "title": "Nvidia re-appoints Jensen Huang as CEO after affair scandal",
+      "url": "https://www.independent.co.uk/tech/nvidia-jensen-huang-ceo-b3089946.html",
+      "source": "The Independent",
+      "published": "2026-11-23T19:04:54+00:00",
+      "score": 8,
       "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/23/ai-giant-nvidia-reinstates-jensen-huang-as-ceo-after-spy-scandal/",
+          "title": "AI giant Nvidia reinstates Jensen Huang as CEO after spy scandal",
+          "published": "2026-11-23T16:10:54+00:00"
+        },
         {
           "source": "El País",
           "url": "https://english.elpais.com/economy-and-business/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo.html",
@@ -180,18 +186,6 @@
           "published": "2026-11-23T15:08:00+00:00"
         },
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
-          "title": "Nvidia reinstates Jensen Huang as CEO after U.S. government input",
-          "published": "2026-11-23T14:38:23+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/tech/nvidia-jensen-huang-ceo-b3089946.html",
-          "title": "Nvidia re-appoints Jensen Huang as CEO after affair scandal",
-          "published": "2026-11-23T14:34:40+00:00"
-        },
-        {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/business/jensen-huang-reinstated-nvidia-9.7432353?cmp=rss",
           "title": "Nvidia reinstates Jensen Huang as CEO",
@@ -204,7 +198,7 @@
           "published": "2026-11-23T14:02:00+00:00"
         }
       ],
-      "consensus": 11.5
+      "consensus": 10.5
     },
     {
       "title": "Why did COP31 climate talks collapse without a deal?",
@@ -309,6 +303,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Thousands flee Manchester concert after unknown substance released",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-flee-manchester-concert-after-unknown-substance-released?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-23T19:07:37+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375481/thousands-evacuated-uk-concert-after-unknown-substance-released",
+          "title": "Thousands evacuated from UK concert after ‘unknown substance’ released",
+          "published": "2026-11-23T09:19:15+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/thousands-evacuated-unknown-substance-released-uk-concert-don-toliver-6574081",
+          "title": "Thousands evacuated after 'unknown substance' released at UK concert",
+          "published": "2026-11-23T08:22:28+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Another country withdraws from the International Criminal Court",
       "url": "https://www.independent.co.uk/news/world/icc-tajikistan-us-international-criminal-court-b3090095.html",
       "source": "The Independent",
@@ -347,33 +363,17 @@
       "consensus": 2.5
     },
     {
-      "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
-      "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-23T18:12:55+00:00",
+      "title": "UK Grand Theft Auto VI hacker gets 7-year sentence",
+      "url": "https://www.scmp.com/news/world/europe/article/3375524/uk-grand-theft-auto-vi-hacker-gets-7-year-sentence",
+      "source": "SCMP",
+      "published": "2026-11-23T17:26:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
-          "title": "India pledges $1.6bn to Nepal in reset of ties",
-          "published": "2026-11-23T13:39:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "U.S. army to detonate unstable, lead-rich explosives, worrying people in Iowa",
-      "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-23T17:52:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo?at_medium=RSS&at_campaign=rss",
-          "title": "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
-          "published": "2026-11-22T18:29:46+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/22/2026/grand-theft-auto-vi-marks-a-turning-point-for-the-series",
+          "title": "‘Grand Theft Auto VI’ marks a turning point for the series",
+          "published": "2026-11-23T01:41:36+00:00"
         }
       ],
       "consensus": 2.5
@@ -565,17 +565,33 @@
       "consensus": 3.5
     },
     {
-      "title": "UK Grand Theft Auto VI hacker gets 7-year sentence",
-      "url": "https://www.scmp.com/news/world/europe/article/3375524/uk-grand-theft-auto-vi-hacker-gets-7-year-sentence",
-      "source": "SCMP",
-      "published": "2026-11-23T17:26:00+00:00",
+      "title": "Trump orders the Army not to detonate bomb-making chemicals in Iowa without court approval",
+      "url": "https://www.independent.co.uk/news/world/americas/army-iowa-trump-washington-b3090172.html",
+      "source": "The Independent",
+      "published": "2026-11-23T18:35:50+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/22/2026/grand-theft-auto-vi-marks-a-turning-point-for-the-series",
-          "title": "‘Grand Theft Auto VI’ marks a turning point for the series",
-          "published": "2026-11-23T01:41:36+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss",
+          "title": "Trump tells U.S. army not to detonate unstable, lead-rich explosives without court approval",
+          "published": "2026-11-23T17:52:57+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "India pledges $1.6bn in flood relief for Nepal as Balendra Shah visits Modi",
+      "url": "https://www.aljazeera.com/news/2026/11/23/india-pledges-1-6bn-in-flood-relief-for-nepal?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-23T18:12:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
+          "title": "India pledges $1.6bn to Nepal in reset of ties",
+          "published": "2026-11-23T13:39:30+00:00"
         }
       ],
       "consensus": 2.5
@@ -672,22 +688,6 @@
           "url": "https://www.japantimes.co.jp/sports/2026/11/23/more-sports/tom-jackson-espn-broncos-dies-tj/",
           "title": "Tom Jackson, former Broncos star linebacker and ESPN broadcaster, dies at 75",
           "published": "2026-11-23T05:27:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ukraine shares video of strikes on Russian ships off Libya",
-      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T11:34:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/23/russian-ships-hit-by-drones-off-libya-coast-what-do-we-know?traffic_source=rss",
-          "title": "Ukraine claims drone strikes on Russian ships off Libya: What do we know?",
-          "published": "2026-11-23T11:10:12+00:00"
         }
       ],
       "consensus": 2.5
@@ -869,22 +869,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Thousands evacuated from UK concert after ‘unknown substance’ released",
-      "url": "https://www.scmp.com/news/world/europe/article/3375481/thousands-evacuated-uk-concert-after-unknown-substance-released",
-      "source": "SCMP",
-      "published": "2026-11-23T09:19:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/thousands-evacuated-unknown-substance-released-uk-concert-don-toliver-6574081",
-          "title": "Thousands evacuated after 'unknown substance' released at UK concert",
-          "published": "2026-11-23T08:22:28+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Boy, 7, pulled alive from rubble 14 hours after Russian strike that killed 11 in residential building",
       "url": "https://www.independent.co.uk/news/world/europe/ukraine-kyiv-dymer-russian-strike-b3089574.html",
       "source": "The Independent",
@@ -1061,19 +1045,28 @@
       "consensus": 1.5
     },
     {
-      "title": "Will share prices now stop falling?",
-      "url": "https://www.rnz.co.nz/news/business/2755377/will-share-prices-now-stop-falling",
-      "source": "RNZ",
-      "published": "2026-11-23T18:51:50+00:00",
+      "title": "Armenian PM unveils draft constitution, key to Azerbaijan peace deal",
+      "url": "https://www.scmp.com/news/world/europe/article/3375528/armenian-pm-unveils-draft-constitution-key-azerbaijan-peace-deal",
+      "source": "SCMP",
+      "published": "2026-11-23T19:27:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Dallas mom shot dead after a car crash on her birthday, cops say",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/dallas-mom-shot-car-crash-birthday-b3090151.html",
-      "source": "The Independent",
-      "published": "2026-11-23T18:50:13+00:00",
+      "title": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+      "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-23T19:20:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Huang reinstatement came at Trump’s behest",
+      "url": "https://www.semafor.com/article/11/23/2026/huang-reinstatement-came-at-trumps-behest",
+      "source": "Semafor",
+      "published": "2026-11-23T19:19:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1082,10 +1075,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7232.23,
+      "price": 7251.89,
       "currency": "USD",
-      "change": 321.84,
-      "change_percent": 4.66,
+      "change": 341.5,
+      "change_percent": 4.94,
       "name": "S&P 500"
     },
     {
@@ -1098,10 +1091,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 24066.44,
+      "price": 24132.66,
       "currency": "USD",
-      "change": 1448.71,
-      "change_percent": 6.41,
+      "change": 1514.93,
+      "change_percent": 6.7,
       "name": "NASDAQ Composite"
     },
     {
@@ -1117,10 +1110,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7232.23,
+        "price": 7251.89,
         "currency": "USD",
-        "change": 321.84,
-        "change_percent": 4.66,
+        "change": 341.5,
+        "change_percent": 4.94,
         "name": "S&P 500"
       },
       {
@@ -1133,18 +1126,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 49618.1,
+        "price": 49716.75,
         "currency": "USD",
-        "change": 1470.77,
-        "change_percent": 3.05,
+        "change": 1569.42,
+        "change_percent": 3.26,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 24066.44,
+        "price": 24132.66,
         "currency": "USD",
-        "change": 1448.71,
-        "change_percent": 6.41,
+        "change": 1514.93,
+        "change_percent": 6.7,
         "name": "NASDAQ Composite"
       },
       {
@@ -1175,26 +1168,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3652.0,
+        "price": 3656.5,
         "currency": "USD",
-        "change": 136.6,
-        "change_percent": 3.89,
+        "change": 141.1,
+        "change_percent": 4.01,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 43.06,
+        "price": 43.2,
         "currency": "USD",
-        "change": 1.99,
-        "change_percent": 4.86,
+        "change": 2.13,
+        "change_percent": 5.19,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.25,
+        "price": 86.72,
         "currency": "USD",
-        "change": -2.7,
-        "change_percent": -3.0,
+        "change": -3.23,
+        "change_percent": -3.59,
         "name": "Brent Crude"
       },
       {
@@ -1202,89 +1195,89 @@
         "price": 1.09,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.74,
+        "change_percent": -0.66,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
         "price": 1.3,
         "currency": "USD",
-        "change": -0.01,
-        "change_percent": -0.42,
+        "change": 0.0,
+        "change_percent": -0.37,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.1,
+        "price": 159.0,
         "currency": "JPY",
-        "change": 0.59,
-        "change_percent": 0.37,
+        "change": 0.49,
+        "change_percent": 0.31,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61347.99,
+        "price": 61368.46,
         "currency": "USD",
-        "change": 185.79,
-        "change_percent": 0.3,
+        "change": 206.26,
+        "change_percent": 0.34,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 495.47,
+        "price": 496.24,
         "currency": "USD",
-        "change": 10.95,
-        "change_percent": 2.26,
+        "change": 11.72,
+        "change_percent": 2.42,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 348.95,
+        "price": 350.13,
         "currency": "USD",
-        "change": 6.39,
-        "change_percent": 1.87,
+        "change": 7.57,
+        "change_percent": 2.21,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 164.12,
+        "price": 165.22,
         "currency": "USD",
-        "change": 38.59,
-        "change_percent": 30.74,
+        "change": 39.69,
+        "change_percent": 31.62,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 283.0,
+        "price": 283.41,
         "currency": "USD",
-        "change": 17.71,
-        "change_percent": 6.68,
+        "change": 18.12,
+        "change_percent": 6.83,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 257.78,
+        "price": 256.95,
         "currency": "USD",
-        "change": 10.96,
-        "change_percent": 4.44,
+        "change": 10.13,
+        "change_percent": 4.11,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 386.25,
+        "price": 387.56,
         "currency": "USD",
-        "change": 40.43,
-        "change_percent": 11.69,
+        "change": 41.74,
+        "change_percent": 12.07,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 597.16,
+        "price": 599.12,
         "currency": "USD",
-        "change": 36.32,
-        "change_percent": 6.48,
+        "change": 38.27,
+        "change_percent": 6.82,
         "name": "Meta"
       }
     ]
@@ -1321,22 +1314,22 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "How did Jensen Huang return to Nvidia so quickly?",
+          "url": "https://theweek.com/tech/how-did-jensen-huang-return-to-nvidia-so-quickly",
+          "published": "2026-11-23T19:19:46+00:00",
+          "snippet": "Trump and tech leaders pushed for Huang’s do-over"
+        },
+        {
+          "title": "The best nonfiction books of the 21st century",
+          "url": "https://theweek.com/culture-life/books/best-nonfiction-books-of-the-21st-century-ehrenreich-mukherjee-kolbert-coates",
+          "published": "2026-11-23T19:15:38+00:00",
+          "snippet": "Gripping true stories of inequality, climate change and cancer"
+        },
+        {
           "title": "6 homes in Oakland, California",
           "url": "https://theweek.com/culture-life/property/6-homes-in-oakland-california",
           "published": "2026-11-23T18:56:31+00:00",
           "snippet": "Featuring a 1932 storybook-style Tudor Revival in a historic neighborhood and a shingled cabin in the trees"
-        },
-        {
-          "title": "US loses measles elimination status",
-          "url": "https://theweek.com/health/us-loses-measles-elimination-status",
-          "published": "2026-11-23T18:32:54+00:00",
-          "snippet": "Anti-vaccine sentiment has resurrected a preventable disease"
-        },
-        {
-          "title": "Lutnick feels the heat over Nvidia scandal",
-          "url": "https://theweek.com/tech/lutnick-feels-the-heat-over-nvidia-scandal",
-          "published": "2026-11-23T18:18:31+00:00",
-          "snippet": "Democrats and members of the Trump administration targeted Commerce Secretary Howard Lutnick in the Nvidia scandal."
         }
       ]
     },
@@ -1397,22 +1390,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "US lawmakers vow to sharpen Huang probes as he returns to Nvidia",
+          "url": "https://www.ft.com/content/6b4e5bfb-d566-4a61-a12c-057881a261b8?syn-25a6b1a6=1",
+          "published": "2026-11-23T19:11:29+00:00",
+          "snippet": "Democrats and Republicans insist tech CEO must testify in public"
+        },
+        {
+          "title": "‘Unthinkable’ for Britain to rejoin EU without referendum, says Burnham",
+          "url": "https://www.ft.com/content/46fa4178-055f-44ca-b043-773428e8e986?syn-25a6b1a6=1",
+          "published": "2026-11-23T19:00:38+00:00",
+          "snippet": "Prime minister insists he does not have a ‘fixed opinion’ about the UK’s future relationship with the bloc"
+        },
+        {
           "title": "Jensen Huang reinstated as Nvidia CEO after Donald Trump intervention",
           "url": "https://www.ft.com/content/20d2ebe3-e945-4659-a122-31bf85a4e4e5?syn-25a6b1a6=1",
           "published": "2026-11-23T18:48:33+00:00",
-          "snippet": "Shares surge 30% after stunning leadership reversal and lead Wall Street higher in broad rally"
-        },
-        {
-          "title": "Nvidia reinstates Jensen Huang as chief executive",
-          "url": "https://www.ft.com/content/08914b05-bbfa-478d-b38a-549acfc1aae6?syn-25a6b1a6=1",
-          "published": "2026-11-23T18:26:20+00:00",
-          "snippet": "Startling reversal of board’s position on disgraced co-founder sends AI giant’s share price soaring"
-        },
-        {
-          "title": "UK government steps up its war against quangos",
-          "url": "https://www.ft.com/content/add25ebd-63ef-4ee0-ac76-204bde4cb2f3?syn-25a6b1a6=1",
-          "published": "2026-11-23T18:05:15+00:00",
-          "snippet": "Louise Haigh says reforming arm’s-length bodies a crucial part in rewiring the state"
+          "snippet": "Interim chief and senior management were unaware of the discussions over the weekend"
         }
       ]
     },
@@ -1520,24 +1513,24 @@
   "web": {
     "tech": [
       {
+        "title": "\"Per ARM's Request, This Site Will Be Discontinued on 4 December 2026\"",
+        "url": "https://arm.jonpalmisc.com/",
+        "score": 80,
+        "source": "Hacker News",
+        "published": "2026-11-23T19:17:55+00:00"
+      },
+      {
         "title": "Let's Meet in the Middle",
         "url": "https://george.mand.is/2026/11/lets-meet-in-the-middle/",
         "comments_url": "https://lobste.rs/s/7fscqs/let_s_meet_middle",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-23T17:59:14.961000+00:00"
       },
       {
-        "title": "How should an LLM see a computer?",
-        "url": "https://www.greptile.com/blog/trex-computer-use",
-        "score": 9,
-        "source": "Hacker News",
-        "published": "2026-11-23T17:19:25+00:00"
-      },
-      {
         "title": "Kagi Mail (public beta)",
         "url": "https://blog.kagi.com/kagi-mail-public-beta",
-        "score": 123,
+        "score": 159,
         "source": "Hacker News",
         "published": "2026-11-23T17:17:01+00:00"
       },
@@ -1550,6 +1543,13 @@
         "published": "2026-11-23T17:15:02.472000+00:00"
       },
       {
+        "title": "Dario is hyping the dangers so OSS models are illegal and *he* stays in control",
+        "url": "https://twitter.com/ylecun/status/2124550037912920090",
+        "score": 138,
+        "source": "Hacker News",
+        "published": "2026-11-23T17:07:26+00:00"
+      },
+      {
         "title": "Sneakernet",
         "url": "https://sneakernet.eu/",
         "comments_url": "https://lobste.rs/s/pdecff/sneakernet",
@@ -1560,7 +1560,7 @@
       {
         "title": "Ladybird is now in alpha",
         "url": "https://ladybird.org/posts/alpha/",
-        "score": 693,
+        "score": 787,
         "source": "Hacker News",
         "published": "2026-11-23T16:13:12+00:00"
       },
@@ -1568,7 +1568,7 @@
         "title": "Ladybird is now in alpha",
         "url": "https://ladybird.org/posts/alpha/",
         "comments_url": "https://lobste.rs/s/h6webg/ladybird_is_now_alpha",
-        "score": 28,
+        "score": 35,
         "source": "Lobste.rs",
         "published": "2026-11-23T16:13:03.376000+00:00"
       },
@@ -1592,45 +1592,37 @@
         "title": "Reverse Engineering a Board Game",
         "url": "https://wuemeli.com/blog/reversing-hitster-game/",
         "comments_url": "https://lobste.rs/s/8g6qyx/reverse_engineering_board_game",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-23T15:01:37.939000+00:00"
       },
       {
         "title": "Nvidia Reinstates Jensen Huang as CEO",
         "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-        "score": 1163,
+        "score": 1271,
         "source": "Hacker News",
         "published": "2026-11-23T14:00:18+00:00"
       },
       {
         "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
         "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
-        "score": 13,
+        "score": 33,
         "source": "Hacker News",
         "published": "2026-11-23T13:42:38+00:00"
       },
       {
         "title": "Win4wine – Run Windows Shell as the Linux Desktop on Wine",
         "url": "https://github.com/mikuta0407/win4wine",
-        "score": 156,
+        "score": 159,
         "source": "Hacker News",
         "published": "2026-11-23T12:28:11+00:00"
       },
       {
         "title": "Nospeaker ─ Make your MacBook's trackpad talk using its haptic motor",
         "url": "https://github.com/os6/nospeaker",
-        "score": 194,
+        "score": 202,
         "source": "Hacker News",
         "published": "2026-11-23T11:31:54+00:00"
-      },
-      {
-        "title": "Quality IMAP, Part 2: Mailbox Concurrency",
-        "url": "https://aerogramme.deuxfleurs.fr/blog/2026-quality-imap-part-2/",
-        "comments_url": "https://lobste.rs/s/lnpwpu/quality_imap_part_2_mailbox_concurrency",
-        "score": 17,
-        "source": "Lobste.rs",
-        "published": "2026-11-23T11:05:08.785000+00:00"
       }
     ],
     "reddit": [

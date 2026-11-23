@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23T01:00:56.520845+00:00",
+  "last_updated": "2026-11-23T01:30:54.517407+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 495
+      "ms": 270
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 153
+      "ms": 487
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 220
+      "ms": 197
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 513
+      "ms": 67
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 466
+      "ms": 244
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 463
+      "ms": 248
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 525
+      "ms": 276
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 456
+      "ms": 622
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 109
+      "ms": 223
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 163
+      "ms": 307
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 692
+      "ms": 460
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 253
+      "ms": 381
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 318
+      "ms": 261
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 145
+      "ms": 209
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 205
+      "ms": 162
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 329
+      "ms": 399
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 636
+      "ms": 755
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 520
+      "ms": 739
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 601
+      "ms": 649
     },
     "Straits Times": {
       "ok": true,
-      "count": 47,
+      "count": 48,
       "error": null,
-      "ms": 297
+      "ms": 228
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 211
+      "ms": 165
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 198
+      "ms": 464
     },
     "The Independent": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 246
+      "ms": 277
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 181
+      "ms": 296
     }
   },
   "breaking": [
@@ -189,45 +189,51 @@
       "consensus": 6.5
     },
     {
-      "title": "Democrats win largest House majority since 1992 with North Carolina seat",
-      "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T22:19:47+00:00",
+      "title": "Ukraine-Russia war latest: Libya condemns suspected Ukrainian drone attack on Russian warship in Benghazi as ‘violation of sovereignty’",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
+      "source": "The Independent",
+      "published": "2026-11-22T23:18:51+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+          "title": "Russian ship attacked near Benghazi in suspected drone attack",
+          "published": "2026-11-22T22:37:45+00:00"
+        },
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+          "published": "2026-11-22T21:33:44+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
+          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
+          "published": "2026-11-22T18:11:30+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
+      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T01:23:43+00:00",
       "score": 3,
       "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat?traffic_source=rss",
+          "title": "Democrats win largest House majority since 1992 with North Carolina seat",
+          "published": "2026-11-22T22:19:47+00:00"
+        },
         {
           "source": "ABC Australia",
           "url": "https://www.abc.net.au/news/2026-11-23/democrats-house-majority-midterm-elections/107415390",
           "title": "Democrats clinch their largest House majority since 1992",
           "published": "2026-11-22T21:41:34+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-          "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-          "published": "2026-11-22T20:26:24+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
-      "url": "https://www.thehindu.com/news/international/israels-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank/article71732544.ece",
-      "source": "The Hindu",
-      "published": "2026-11-22T22:02:28+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
-          "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
-          "published": "2026-11-22T21:29:16+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280",
-          "title": "Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'",
-          "published": "2026-11-22T20:37:28+00:00"
         }
       ],
       "consensus": 4.0
@@ -255,26 +261,42 @@
       "consensus": 3.5
     },
     {
-      "title": "Ukraine-Russia war latest: Libya condemns suspected Ukrainian drone attack on Russian warship in Benghazi as ‘violation of sovereignty’",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-crimea-bridge-attack-putin-zelensky-b3088384.html",
-      "source": "The Independent",
-      "published": "2026-11-22T23:18:51+00:00",
+      "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
+      "url": "https://www.japantimes.co.jp/news/2026/11/23/world/politics/netanyahu-eisenkot-talks-israel-government/",
+      "source": "Japan Times",
+      "published": "2026-11-23T01:26:00+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
-          "title": "Russian ship attacked near Benghazi in suspected drone attack",
-          "published": "2026-11-22T22:37:45+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/netanyahu-eisenkot-parties-end-talks-without-deal-on-forming-israel-government/article71732431.ece",
+          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
+          "published": "2026-11-22T20:32:14+00:00"
         },
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-          "published": "2026-11-22T21:33:44+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/netanyahu-eisenkot-party-israel-government-talks-deal-6573061",
+          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
+          "published": "2026-11-22T14:37:00+00:00"
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
+      "url": "https://www.thehindu.com/news/international/suspected-ukrainian-sea-drones-hit-russian-warship-at-benghazi-naval-base-libyan-officials-say/article71733178.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T01:02:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+          "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+          "published": "2026-11-22T19:41:23+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
@@ -307,22 +329,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Father, daughter detained by ICE at Seattle airport were travelling to family baptism, says lawyer",
-      "url": "https://www.thehindu.com/news/international/father-daughter-detained-by-ice-at-seattle-airport-were-travelling-to-family-baptism-says-lawyer/article71733166.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T00:07:05+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/alaska-airlines-seattle-california-seattletacoma-international-airport-mexico-b3089539.html",
-          "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were travelling to family baptism",
-          "published": "2026-11-22T23:31:53+00:00"
-        }
-      ],
-      "consensus": 2.5
     }
   ],
   "world": [
@@ -331,7 +337,7 @@
       "url": "https://www.thehindu.com/news/international/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
       "source": "The Hindu",
       "published": "2026-11-22T19:35:46+00:00",
-      "score": 7,
+      "score": 8,
       "other_sources": [
         {
           "source": "RNZ",
@@ -368,9 +374,15 @@
           "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
           "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
           "published": "2026-11-22T14:22:44+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
+          "title": "COP31 climate talks break down as European Union and others reject deal",
+          "published": "2026-11-22T05:47:00+00:00"
         }
       ],
-      "consensus": 9.5
+      "consensus": 10.5
     },
     {
       "title": "Three killed and dozens missing after fire at Indonesian factory",
@@ -407,6 +419,28 @@
       "consensus": 6.0
     },
     {
+      "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+      "url": "https://www.thehindu.com/news/international/israels-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank/article71732544.ece",
+      "source": "The Hindu",
+      "published": "2026-11-22T22:02:28+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
+          "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+          "published": "2026-11-22T21:29:16+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280",
+          "title": "Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'",
+          "published": "2026-11-22T20:37:28+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Russia starts towing its ship hit by drones in Baltic, Finland says",
       "url": "https://www.scmp.com/news/world/russia-central-asia/article/3375406/russia-starts-towing-its-ship-hit-drones-baltic-finland-says",
       "source": "SCMP",
@@ -424,28 +458,6 @@
           "url": "https://www.themoscowtimes.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack-a94343",
           "title": "Russia Starts Towing Ship Hit by Drones in Baltic, Finland Says",
           "published": "2026-11-22T16:26:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-22T20:28:09+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya?traffic_source=rss",
-          "title": "Suspected drone attack causes explosion on Russian ship in Libya",
-          "published": "2026-11-22T18:11:30+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344",
-          "title": "Libya’s Eastern Government Suspects Drone Attack Caused Explosion on Russian Ship",
-          "published": "2026-11-22T15:23:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -473,6 +485,66 @@
       "consensus": 3.5
     },
     {
+      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-22T20:28:09+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
+          "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
+          "published": "2026-11-22T20:20:01+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344",
+          "title": "Libya’s Eastern Government Suspects Drone Attack Caused Explosion on Russian Ship",
+          "published": "2026-11-22T15:23:00+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T18:30:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Father, daughter detained by ICE at Seattle airport were travelling to family baptism, says lawyer",
+      "url": "https://www.thehindu.com/news/international/father-daughter-detained-by-ice-at-seattle-airport-were-travelling-to-family-baptism-says-lawyer/article71733166.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T00:07:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/alaska-airlines-seattle-california-seattletacoma-international-airport-mexico-b3089539.html",
+          "title": "Lawyer: Father and daughter detained by ICE at Seattle airport were travelling to family baptism",
+          "published": "2026-11-22T23:31:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "What next after the collapse of global climate talks?",
       "url": "https://www.rnz.co.nz/news/pacific/2746703/what-next-after-the-collapse-of-global-climate-talks",
       "source": "RNZ",
@@ -484,22 +556,6 @@
           "url": "https://www.politico.eu/article/global-climate-talks-have-collapsed-here-is-what-just-happened/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
           "title": "Global climate talks have collapsed. Here’s what just happened.",
           "published": "2026-11-22T17:21:50+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Suspected Ukrainian sea drones hit Russian warship at a Libyan naval base, officials say",
-      "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
-      "source": "SCMP",
-      "published": "2026-11-22T22:46:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
-          "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
-          "published": "2026-11-22T19:41:23+00:00"
         }
       ],
       "consensus": 2.5
@@ -596,22 +652,6 @@
           "url": "https://www.cbc.ca/news/world/russia-ukraine-zelenskyy-hometown-9.7431164?cmp=rss",
           "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
           "published": "2026-11-21T13:26:36+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Cop31 climate talks break down as key deal rejected",
-      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
-      "source": "The Guardian",
-      "published": "2026-11-22T16:14:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
-          "title": "COP31 climate talks break down as European Union and others reject deal",
-          "published": "2026-11-22T05:47:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -745,22 +785,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Estonia to close border with Russia, Moscow decries 'new Iron Curtain'",
-      "url": "https://www.thehindu.com/news/international/estonia-to-close-border-with-russia-moscow-decries-new-iron-curtain/article71725791.ece",
-      "source": "The Hindu",
-      "published": "2026-11-20T17:39:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/20/russia-accuses-estonia-of-erecting-new-iron-curtain-with-border-closure-says-it-will-respond-a94333",
-          "title": "Russia Accuses Estonia of Erecting New Iron Curtain With Border Closure, Says It Will Respond",
-          "published": "2026-11-20T12:33:01+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "China and Russia Release ‘Peace Declaration’ After Trump, Xi, Putin Meeting",
       "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307",
       "source": "The Moscow Times",
@@ -788,22 +812,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3375396/trump-sees-difficulties-ahead-if-chuck-schumer-leads-senate",
           "title": "Trump sees difficulties ahead if Chuck Schumer leads Senate",
           "published": "2026-11-22T16:41:23+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
-      "url": "https://www.thehindu.com/news/international/netanyahu-eisenkot-parties-end-talks-without-deal-on-forming-israel-government/article71732431.ece",
-      "source": "The Hindu",
-      "published": "2026-11-22T20:32:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/netanyahu-eisenkot-party-israel-government-talks-deal-6573061",
-          "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
-          "published": "2026-11-22T14:37:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -905,38 +913,6 @@
       "consensus": 2.0
     },
     {
-      "title": "French protesters rally for sixth weekend over living costs and public services",
-      "url": "https://www.japantimes.co.jp/news/2026/11/22/world/french-protesters-living-costs-public-services/",
-      "source": "Japan Times",
-      "published": "2026-11-21T23:58:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/france-protests-rising-costs-living-public-services-6571961",
-          "title": "French protesters rally for sixth weekend over living costs, public services",
-          "published": "2026-11-21T17:32:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-21T18:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
       "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
       "source": "NPR World",
@@ -1031,6 +1007,47 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
+      "url": "http://www.africanews.com/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack/",
+      "source": "Africanews",
+      "published": "2026-11-22T10:39:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack",
+          "title": "Ukraine: Up to seven feared trapped beneath rubble near Kyiv after Russian attack",
+          "published": "2026-11-22T10:39:01+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Japan: Mascot mania takes over Saitama with 200 colourful characters",
+      "url": "http://www.africanews.com/2026/11/22/japan-mascot-mania-takes-over-saitama-with-200-colourful-characters/",
+      "source": "Africanews",
+      "published": "2026-11-22T09:55:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/22/japan-mascot-mania-takes-over-saitama-with-200-colourful-characters",
+          "title": "Japan: Mascot mania takes over Saitama with 200 colourful characters",
+          "published": "2026-11-22T09:55:23+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Reform of Hong Kong’s sexual offence laws better late than never",
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3375230/reform-hong-kongs-sexual-offence-laws-better-late-never",
+      "source": "SCMP",
+      "published": "2026-11-23T01:30:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1129,26 +1146,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3572.6,
+        "price": 3616.7,
         "currency": "USD",
-        "change": 57.2,
-        "change_percent": 1.63,
+        "change": 101.3,
+        "change_percent": 2.88,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.9,
+        "price": 42.16,
         "currency": "USD",
-        "change": 0.83,
-        "change_percent": 2.01,
+        "change": 1.09,
+        "change_percent": 2.64,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.26,
+        "price": 89.73,
         "currency": "USD",
-        "change": -0.69,
-        "change_percent": -0.77,
+        "change": -0.22,
+        "change_percent": -0.24,
         "name": "Brent Crude"
       },
       {
@@ -1156,7 +1173,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.07,
+        "change_percent": 0.09,
         "name": "EUR/USD"
       },
       {
@@ -1164,23 +1181,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.2,
+        "change_percent": 0.21,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.91,
+        "price": 158.9,
         "currency": "JPY",
-        "change": 0.4,
-        "change_percent": 0.25,
+        "change": 0.39,
+        "change_percent": 0.24,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61144.71,
+        "price": 61061.8,
         "currency": "USD",
-        "change": -17.49,
-        "change_percent": -0.03,
+        "change": -100.39,
+        "change_percent": -0.16,
         "name": "Bitcoin"
       }
     ],
@@ -1473,37 +1490,30 @@
   "web": {
     "tech": [
       {
-        "title": "Nespresso's project to reduce grams of coffee per capsule",
-        "url": "https://alvinbunk.wordpress.com/2026/11/01/nespresso-project-olympus/",
-        "score": 60,
+        "title": "What should AAA game devs do",
+        "url": "https://gamethoughts.bearblog.dev/what-should-aaa-game-devs-do/",
+        "score": 17,
         "source": "Hacker News",
-        "published": "2026-11-22T23:57:45+00:00"
-      },
-      {
-        "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
-        "url": "https://0rwx.com/",
-        "score": 13,
-        "source": "Hacker News",
-        "published": "2026-11-22T23:53:00+00:00"
+        "published": "2026-11-22T23:51:00+00:00"
       },
       {
         "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
         "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-        "score": 122,
+        "score": 141,
         "source": "Hacker News",
         "published": "2026-11-22T23:12:10+00:00"
       },
       {
         "title": "GL.iNet Security Notice 2026-11-20",
         "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
-        "score": 58,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-22T23:06:37+00:00"
       },
       {
         "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
         "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
-        "score": 51,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-22T22:10:58+00:00"
       },
@@ -1511,7 +1521,7 @@
         "title": "GitHub Actions accepts invalid YAML",
         "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
         "comments_url": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
-        "score": 28,
+        "score": 30,
         "source": "Lobste.rs",
         "published": "2026-11-22T21:49:18.929000+00:00"
       },
@@ -1526,28 +1536,28 @@
       {
         "title": "The struggle for freedom: How BSD escaped AT&T licensing",
         "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
-        "score": 38,
+        "score": 43,
         "source": "Hacker News",
         "published": "2026-11-22T21:33:12+00:00"
       },
       {
         "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
         "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "score": 173,
+        "score": 196,
         "source": "Hacker News",
         "published": "2026-11-22T21:01:16+00:00"
       },
       {
         "title": "A miniature San Francisco with live buses, planes and boats",
         "url": "https://smallsf.com/",
-        "score": 126,
+        "score": 136,
         "source": "Hacker News",
         "published": "2026-11-22T20:33:23+00:00"
       },
       {
         "title": "Nyx, the Oldest Internet Service Provider",
         "url": "https://nyx.net/",
-        "score": 89,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-22T20:15:59+00:00"
       },
@@ -1562,14 +1572,14 @@
       {
         "title": "Assume People Are Not Interested in Your Blog Post",
         "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
-        "score": 46,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-22T19:41:30+00:00"
       },
       {
         "title": "What Happened to Silicon Valley?",
         "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-        "score": 390,
+        "score": 412,
         "source": "Hacker News",
         "published": "2026-11-22T19:20:15+00:00"
       },
@@ -1580,6 +1590,13 @@
         "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-22T19:13:26.842000+00:00"
+      },
+      {
+        "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+        "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+        "score": 344,
+        "source": "Hacker News",
+        "published": "2026-11-22T19:10:34+00:00"
       }
     ],
     "reddit": [

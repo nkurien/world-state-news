@@ -1,90 +1,90 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-22T23:38:10.301996+00:00",
+  "last_updated": "2026-11-23T00:01:12.383923+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 343
+      "ms": 207
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 514
+      "ms": 259
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 251
+      "ms": 189
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 394
+      "ms": 58
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 339
+      "ms": 280
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 509
+      "ms": 82
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 287
+      "ms": 51
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 309
+      "ms": 438
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3364
+      "ok": true,
+      "count": 42,
+      "error": null,
+      "ms": 205
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 397
+      "ms": 126
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 735
+      "ms": 404
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 210
+      "ms": 288
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 275
+      "ms": 85
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 672
+      "ms": 260
     },
     "RFI English": {
       "ok": true,
@@ -96,55 +96,55 @@
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 146
+      "ms": 235
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 624
+      "ms": 719
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 369
+      "ms": 907
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 638
+      "ms": 774
     },
     "Straits Times": {
       "ok": true,
-      "count": 43,
+      "count": 46,
       "error": null,
-      "ms": 254
+      "ms": 199
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 137
+      "ms": 382
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 177
+      "ms": 243
     },
     "The Independent": {
       "ok": true,
-      "count": 29,
+      "count": 31,
       "error": null,
-      "ms": 323
+      "ms": 207
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 151
+      "ms": 231
     }
   },
   "breaking": [
@@ -203,6 +203,50 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Israel’s Eisenkot condemns arson attacks by Jewish settlers in West Bank",
+      "url": "https://www.thehindu.com/news/international/israels-eisenkot-condemns-arson-attacks-by-jewish-settlers-in-west-bank/article71732544.ece",
+      "source": "The Hindu",
+      "published": "2026-11-22T22:02:28+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
+          "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
+          "published": "2026-11-22T21:29:16+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280",
+          "title": "Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'",
+          "published": "2026-11-22T20:37:28+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Molly Meldrum, former host of Countdown, dies aged 83",
+      "url": "https://www.rnz.co.nz/life/music/molly-meldrum-former-host-of-countdown-dies-aged-83",
+      "source": "RNZ",
+      "published": "2026-11-22T23:39:44+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+          "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+          "published": "2026-11-22T22:24:56+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-23/molly-meldrum-countdown-host-music-industry-icon-dies/3735358",
+          "title": "Molly Meldrum, the 'most important person in pop', dies aged 83",
+          "published": "2026-11-22T21:53:23+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "What next after the collapse of global climate talks?",
@@ -271,52 +315,20 @@
       "consensus": 3.0
     },
     {
-      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
-      "source": "The Guardian",
-      "published": "2026-11-22T22:24:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-23/molly-meldrum-countdown-host-music-industry-icon-dies/3735358",
-          "title": "Molly Meldrum, the 'most important person in pop', dies aged 83",
-          "published": "2026-11-22T21:53:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
-      "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
-      "source": "France24",
-      "published": "2026-11-22T21:29:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-23/israel-gadi-eisenkot-west-bank-arson-attacks/107415280",
-          "title": "Gadi Eisenkot calls West Bank arson attacks 'Jewish terrorism'",
-          "published": "2026-11-22T20:37:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
-      "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
-      "source": "The Guardian",
-      "published": "2026-11-22T20:55:33+00:00",
+      "title": "Trump sees difficulties ahead if Schumer leads Senate",
+      "url": "https://www.channelnewsasia.com/world/trump-sees-difficulties-ahead-if-schumer-leads-senate-6573116",
+      "source": "CNA",
+      "published": "2026-11-22T21:51:57+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate",
-          "title": "US intelligence chief says Trump’s ‘friend’ label for Putin is ‘entirely appropriate’",
-          "published": "2026-11-22T19:42:04+00:00"
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375396/trump-sees-difficulties-ahead-if-chuck-schumer-leads-senate",
+          "title": "Trump sees difficulties ahead if Chuck Schumer leads Senate",
+          "published": "2026-11-22T16:41:23+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -325,7 +337,7 @@
       "url": "https://www.thehindu.com/news/international/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
       "source": "The Hindu",
       "published": "2026-11-22T19:35:46+00:00",
-      "score": 8,
+      "score": 7,
       "other_sources": [
         {
           "source": "RNZ",
@@ -362,15 +374,9 @@
           "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
           "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
           "published": "2026-11-22T14:22:44+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
-          "title": "COP31 climate talks break down as European Union and others reject deal",
-          "published": "2026-11-22T05:47:00+00:00"
         }
       ],
-      "consensus": 10.5
+      "consensus": 9.5
     },
     {
       "title": "Three killed and dozens missing after fire at Indonesian factory",
@@ -485,6 +491,66 @@
       "consensus": 3.5
     },
     {
+      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T08:10:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/putin-a-killer-zelenskyy-says-after-trump-calls-russian-leader-his-friend",
+          "title": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+          "published": "2026-11-21T07:07:09+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
+          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
+          "published": "2026-11-21T02:40:43+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T18:30:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+      "source": "The Guardian",
+      "published": "2026-11-22T20:55:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate",
+          "title": "US intelligence chief says Trump’s ‘friend’ label for Putin is ‘entirely appropriate’",
+          "published": "2026-11-22T19:42:04+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Ex-U.K. PM Theresa May tells successor to ‘move on’ from Brexit",
       "url": "https://www.thehindu.com/news/international/ex-uk-pm-theresa-may-tells-successor-to-move-on-from-brexit/article71732109.ece",
       "source": "The Hindu",
@@ -565,6 +631,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Cop31 climate talks break down as key deal rejected",
+      "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+      "source": "The Guardian",
+      "published": "2026-11-22T16:14:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/",
+          "title": "COP31 climate talks break down as European Union and others reject deal",
+          "published": "2026-11-22T05:47:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
       "url": "https://www.independent.co.uk/news/world/europe/russia-ship-finland-sparta-attack-b3089367.html",
       "source": "The Independent",
@@ -592,6 +674,22 @@
           "url": "https://www.channelnewsasia.com/world/united-nations-regulate-ai-killer-robots-weapons-6571256",
           "title": "Nations at UN talks on AI killer robots agree to more talks but no firm commitment to rein them in",
           "published": "2026-11-21T05:09:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
+      "url": "https://www.euronews.com/2026/11/22/gadi-eisenkot-invites-netanyahus-likud-party-for-marathon-coalition-talks",
+      "source": "Euronews",
+      "published": "2026-11-22T06:58:01+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/eisenkot-invites-netanyahus-party-for-israeli-coalition-talks/article71729470.ece",
+          "title": "Eisenkot invites Netanyahu’s party for Israeli coalition talks",
+          "published": "2026-11-21T21:14:12+00:00"
         }
       ],
       "consensus": 2.5
@@ -693,22 +791,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
-      "url": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-21T08:10:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/ukraine-russia-volodymyr-zelenskyy-vladimir-putin-6571101",
-          "title": "Zelenskyy says Putin a 'killer' after Trump calls him his 'friend'",
-          "published": "2026-11-21T02:40:43+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Trump threatens to penalise tech companies that build data centres outside the US",
       "url": "https://en.mercopress.com/2026/11/21/trump-threatens-to-penalise-tech-companies-that-build-data-centres-outside-the-us?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "source": "MercoPress",
@@ -755,22 +837,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Trump sees difficulties ahead if Schumer leads Senate",
-      "url": "https://www.channelnewsasia.com/world/trump-sees-difficulties-ahead-if-schumer-leads-senate-6573116",
-      "source": "CNA",
-      "published": "2026-11-22T21:51:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375396/trump-sees-difficulties-ahead-if-chuck-schumer-leads-senate",
-          "title": "Trump sees difficulties ahead if Chuck Schumer leads Senate",
-          "published": "2026-11-22T16:41:23+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Netanyahu, Eisenkot parties end talks without deal on forming Israel government",
@@ -901,22 +967,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-21T18:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
       "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
       "source": "NPR World",
@@ -928,6 +978,22 @@
           "url": "https://www.cbc.ca/news/world/mexico-detains-sinaloa-cartel-boss-el-chapo-isidro-9.7431280?cmp=rss",
           "title": "Capture of cartel leader in northern Mexico sets off gunfight that leaves 11 dead",
           "published": "2026-11-21T16:32:44+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Pentagon declassifies new UFO footage filmed by US military",
+      "url": "https://www.euronews.com/2026/11/21/pentagon-declassifies-new-ufo-footage-filmed-by-us-military",
+      "source": "Euronews",
+      "published": "2026-11-21T09:01:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+          "title": "US declassifies more UFO footage filmed in the Middle East",
+          "published": "2026-11-20T23:15:20+00:00"
         }
       ],
       "consensus": 2.0
@@ -949,58 +1015,52 @@
       "consensus": 2.0
     },
     {
-      "title": "Australian politics live: Tehan says Bowen should resign over Cop; Taylor pays tribute to ‘kind, gentle’ Meldrum",
-      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb",
-      "source": "The Guardian",
-      "published": "2026-11-22T23:29:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+      "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-21T00:01:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032",
+          "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
+          "published": "2026-11-20T15:03:20+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
-      "title": "Trump criticises Schumer amid push for new Democrat leadership in US Senate",
-      "url": "https://www.aljazeera.com/news/2026/11/22/trump-criticises-schumer-amid-push-for-new-democrat-leadership-in-us-senate?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-22T23:22:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Morocco: A surreal sculpture park turns the world upside down",
+      "url": "http://www.africanews.com/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down/",
+      "source": "Africanews",
+      "published": "2026-11-22T22:34:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
+          "title": "Morocco: A surreal sculpture park turns the world upside down",
+          "published": "2026-11-22T22:33:48+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and more remember music industry great",
-      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes",
-      "source": "The Guardian",
-      "published": "2026-11-22T23:17:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Heightened' police presence on Flinders Island after local officer shot",
-      "url": "https://www.abc.net.au/news/2026-11-23/sergeant-michael-preshaw-flinders-island-police-shooting/107415264",
-      "source": "ABC Australia",
-      "published": "2026-11-22T23:14:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "AI will eliminate many jobs - what should your children study now?",
-      "url": "https://www.rnz.co.nz/life/relationships/family/ai-will-eliminate-many-jobs-what-should-your-children-study-now",
-      "source": "RNZ",
-      "published": "2026-11-22T23:09:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Amid ‘sharp rise’ in US expansion, will mainland Chinese brands ditch Hong Kong?",
-      "url": "https://www.scmp.com/business/article/3375371/amid-sharp-rise-us-expansion-will-mainland-chinese-brands-ditch-hong-kong",
-      "source": "SCMP",
-      "published": "2026-11-22T23:00:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+      "url": "http://www.africanews.com/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks/",
+      "source": "Africanews",
+      "published": "2026-11-22T15:52:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks",
+          "title": "West Bank: Four Palestinian villages targeted in suspected settler attacks",
+          "published": "2026-11-22T15:52:31+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1099,26 +1159,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3570.9,
+        "price": 3580.1,
         "currency": "USD",
-        "change": 55.5,
-        "change_percent": 1.58,
+        "change": 64.7,
+        "change_percent": 1.84,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.91,
+        "price": 42.06,
         "currency": "USD",
-        "change": 0.84,
-        "change_percent": 2.03,
+        "change": 0.99,
+        "change_percent": 2.41,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.23,
+        "price": 89.44,
         "currency": "USD",
-        "change": -0.72,
-        "change_percent": -0.8,
+        "change": -0.51,
+        "change_percent": -0.57,
         "name": "Brent Crude"
       },
       {
@@ -1126,7 +1186,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.03,
+        "change_percent": 0.01,
         "name": "EUR/USD"
       },
       {
@@ -1134,23 +1194,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": 0.11,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.83,
+        "price": 159.0,
         "currency": "JPY",
-        "change": -0.77,
-        "change_percent": -0.48,
+        "change": 0.49,
+        "change_percent": 0.31,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61183.92,
+        "price": 61159.09,
         "currency": "USD",
-        "change": 1090.91,
-        "change_percent": 1.82,
+        "change": 1066.08,
+        "change_percent": 1.77,
         "name": "Bitcoin"
       }
     ],
@@ -1445,35 +1505,28 @@
       {
         "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
         "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3",
-        "score": 46,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-22T23:12:10+00:00"
       },
       {
         "title": "GL.iNet Security Notice 2026-11-20",
         "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
-        "score": 17,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-22T23:06:37+00:00"
       },
       {
-        "title": "Do Not Accept",
-        "url": "https://donotaccept.ai/",
-        "score": 27,
-        "source": "Hacker News",
-        "published": "2026-11-22T23:02:20+00:00"
-      },
-      {
-        "title": "The Usefulness of Useless Knowledge [pdf]",
+        "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
         "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
-        "score": 23,
+        "score": 34,
         "source": "Hacker News",
         "published": "2026-11-22T22:10:58+00:00"
       },
       {
         "title": "Agent swarm trying to solve P vs. NP",
         "url": "https://pequalnp.com/",
-        "score": 50,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-22T21:53:45+00:00"
       },
@@ -1481,7 +1534,7 @@
         "title": "GitHub Actions accepts invalid YAML",
         "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
         "comments_url": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
-        "score": 25,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-22T21:49:18.929000+00:00"
       },
@@ -1496,28 +1549,35 @@
       {
         "title": "The struggle for freedom: How BSD escaped AT&T licensing",
         "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
-        "score": 19,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-22T21:33:12+00:00"
       },
       {
+        "title": "Will the first approved psychedelic become a blockbuster?",
+        "url": "https://www.pharmavoice.com/news/race-first-psilocybin-blockbuster-compass-usona/875270/",
+        "score": 14,
+        "source": "Hacker News",
+        "published": "2026-11-22T21:13:10+00:00"
+      },
+      {
         "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
         "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "score": 116,
+        "score": 136,
         "source": "Hacker News",
         "published": "2026-11-22T21:01:16+00:00"
       },
       {
         "title": "A miniature San Francisco with live buses, planes and boats",
         "url": "https://smallsf.com/",
-        "score": 94,
+        "score": 100,
         "source": "Hacker News",
         "published": "2026-11-22T20:33:23+00:00"
       },
       {
         "title": "Nyx, the Oldest Internet Service Provider",
         "url": "https://nyx.net/",
-        "score": 71,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-22T20:15:59+00:00"
       },
@@ -1525,14 +1585,14 @@
         "title": "Gliver completes the Guix desktop",
         "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
         "comments_url": "https://lobste.rs/s/wc8fla/gliver_completes_guix_desktop",
-        "score": 14,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-22T20:10:15.360000+00:00"
       },
       {
         "title": "What Happened to Silicon Valley?",
         "url": "https://www.oreilly.com/radar/what-happened-to-silicon-valley/",
-        "score": 328,
+        "score": 348,
         "source": "Hacker News",
         "published": "2026-11-22T19:20:15+00:00"
       },
@@ -1540,14 +1600,14 @@
         "title": "scriptura: a cozy corner for your scripts",
         "url": "https://alanpearce.eu/post/scriptura/",
         "comments_url": "https://lobste.rs/s/oeamed/scriptura_cozy_corner_for_your_scripts",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-22T19:13:26.842000+00:00"
       },
       {
         "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
         "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
-        "score": 284,
+        "score": 301,
         "source": "Hacker News",
         "published": "2026-11-22T19:10:34+00:00"
       }

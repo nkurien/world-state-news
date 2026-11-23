@@ -1,159 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23T05:01:13.395880+00:00",
+  "last_updated": "2026-11-23T05:30:52.971275+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 301
+      "ms": 474
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 75
+      "ms": 272
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 214
+      "ms": 240
     },
     "BBC News": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 150
+      "ms": 126
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 168
+      "ms": 285
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 155
+      "ms": 326
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 188
+      "ms": 385
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 379
+      "ms": 464
     },
     "Euronews": {
       "ok": true,
-      "count": 42,
+      "count": 43,
       "error": null,
-      "ms": 49
+      "ms": 260
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 136
+      "ms": 78
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 455
+      "ms": 356
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 243
+      "ms": 363
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 126
+      "ms": 288
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 141
+      "ms": 201
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 174
+      "ms": 293
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 71
+      "ms": 495
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 439
+      "ms": 949
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 485
+      "ms": 643
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 525
+      "ms": 577
     },
     "Straits Times": {
       "ok": true,
-      "count": 47,
+      "count": 48,
       "error": null,
-      "ms": 222
+      "ms": 275
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 132
+      "ms": 258
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 244
+      "ms": 355
     },
     "The Independent": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 179
+      "ms": 121
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 136
+      "ms": 220
     }
   },
   "breaking": [
+    {
+      "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO: Report",
+      "url": "https://www.channelnewsasia.com/world/alice-huang-chinese-spy-nvidia-affair-6573671",
+      "source": "CNA",
+      "published": "2026-11-23T05:20:46+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html",
+          "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
+          "published": "2026-11-23T04:09:17+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece",
+          "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, says NYT",
+          "published": "2026-11-23T02:34:35+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
     {
       "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-23T02:59:35+00:00",
-      "score": 4,
+      "score": 3,
       "other_sources": [
         {
           "source": "France24",
@@ -162,47 +184,35 @@
           "published": "2026-11-22T22:37:45+00:00"
         },
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
-          "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-          "published": "2026-11-22T20:20:01+00:00"
-        },
-        {
           "source": "The Moscow Times",
           "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344",
           "title": "Libya’s Eastern Government Suspects Drone Attack Caused Explosion on Russian Ship",
           "published": "2026-11-22T15:23:00+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 3.0
     },
     {
-      "title": "US intelligence chief defends Trump’s comments calling Putin his ‘friend’",
-      "url": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-23T02:23:13+00:00",
-      "score": 3,
+      "title": "Central California concert shooting: Nine people shot; one in critical condition",
+      "url": "https://www.thehindu.com/news/international/central-california-concert-shooting-critical-injury-death-arrest/article71732545.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T05:13:37+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
-          "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
-          "published": "2026-11-22T20:55:33+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate",
-          "title": "US intelligence chief backs Trump calling Putin his ‘friend’",
-          "published": "2026-11-22T19:42:04+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/nine-people-injured-after-gunfire-at-central-california-concert",
+          "title": "Nine people injured after gunfire at central California concert",
+          "published": "2026-11-23T05:00:18+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 2.5
     },
     {
       "title": "Democrats clinch a historic House majority of at least 258 seats, largest since 1992",
       "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-largest-since-1992/article71733328.ece",
       "source": "The Hindu",
-      "published": "2026-11-23T04:43:13+00:00",
+      "published": "2026-11-23T05:11:52+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -247,38 +257,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
-      "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html",
-      "source": "The Independent",
-      "published": "2026-11-23T04:09:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece",
-          "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, says NYT",
-          "published": "2026-11-23T02:34:35+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
-      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T04:05:12+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "title": "What's next after no deal at COP31 climate talks?",
-          "published": "2026-11-22T18:57:24+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Beloved Australian music promoter Molly Meldrum dies aged 83",
       "url": "https://www.straitstimes.com/asia/beloved-australian-music-promoter-molly-meldrum-dies-aged-83",
       "source": "Straits Times",
@@ -290,6 +268,22 @@
           "url": "https://www.rnz.co.nz/life/music/molly-meldrum-former-host-of-countdown-dies-aged-83",
           "title": "Molly Meldrum, former host of Countdown, dies aged 83",
           "published": "2026-11-22T23:39:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
+      "url": "https://www.politico.eu/article/congo-eu-rwanda-deportation-deal-armed-militia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-23T03:00:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/18/2026/european-countries-aim-to-start-deporting-asylum-seekers-to-rwanda",
+          "title": "Rwanda in deportation deal with European countries",
+          "published": "2026-11-18T13:49:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -371,6 +365,34 @@
       "consensus": 6.0
     },
     {
+      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
+      "url": "https://www.thehindu.com/news/international/suspected-ukrainian-sea-drones-hit-russian-warship-at-benghazi-naval-base-libyan-officials-say/article71733178.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T01:02:56+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+          "published": "2026-11-22T21:33:44+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
+          "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
+          "published": "2026-11-22T20:20:01+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
+          "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
+          "published": "2026-11-22T19:41:23+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
       "title": "South Korea's education minister quits over exam cheating chaos",
       "url": "https://www.straitstimes.com/asia/south-koreas-education-minister-quits-over-exam-cheating-chaos",
       "source": "Straits Times",
@@ -399,6 +421,28 @@
       "consensus": 4.5
     },
     {
+      "title": "US intelligence chief defends Trump’s comments calling Putin his ‘friend’",
+      "url": "https://www.aljazeera.com/news/2026/11/23/us-intelligence-chief-defends-trumps-comments-calling-putin-his?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-23T02:23:13+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend",
+          "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+          "published": "2026-11-22T20:55:33+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375403/us-intelligence-chief-says-trumps-friend-label-putin-entirely-appropriate",
+          "title": "US intelligence chief backs Trump calling Putin his ‘friend’",
+          "published": "2026-11-22T19:42:04+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
       "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -419,28 +463,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-      "url": "https://www.thehindu.com/news/international/suspected-ukrainian-sea-drones-hit-russian-warship-at-benghazi-naval-base-libyan-officials-say/article71733178.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T01:02:56+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-          "published": "2026-11-22T21:33:44+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base",
-          "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
-          "published": "2026-11-22T19:41:23+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Russia starts towing ship hit by drones in Baltic, Finland says",
@@ -487,17 +509,55 @@
       "consensus": 3.0
     },
     {
-      "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
-      "url": "https://www.politico.eu/article/congo-eu-rwanda-deportation-deal-armed-militia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-23T03:00:00+00:00",
+      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T18:30:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/cop31-fails-to-agree-on-climate-deal-in-chaotic-finale/article71731651.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T04:05:12+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/18/2026/european-countries-aim-to-start-deporting-asylum-seekers-to-rwanda",
-          "title": "Rwanda in deportation deal with European countries",
-          "published": "2026-11-18T13:49:41+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
+          "title": "What's next after no deal at COP31 climate talks?",
+          "published": "2026-11-22T18:57:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Indonesian police remove 24 body bags from factory fire site",
+      "url": "https://www.aljazeera.com/news/2026/11/23/indonesian-police-remove-24-body-bags-from-factory-fire-site?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-23T02:35:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
+          "title": "Search for Indonesia factory fire missing to resume on Nov 23, police remove 24 body bags",
+          "published": "2026-11-22T03:06:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -816,7 +876,7 @@
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
-          "title": "Russian strikes kill at least 12 in Kyiv region, Ukraine says",
+          "title": "Russian strikes kill at least 14 in Kyiv region, Ukraine says",
           "published": "2026-11-22T18:32:59+00:00"
         }
       ],
@@ -834,22 +894,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
           "title": "Miley Cyrus marries Maxx Morando in California ceremony",
           "published": "2026-11-22T21:22:40+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Search for Indonesia factory fire missing to resume on Monday",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375375/indonesia-searches-50-recovers-7-body-bags-after-factory-fire",
-      "source": "SCMP",
-      "published": "2026-11-22T09:45:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire",
-          "title": "Search for Indonesia factory fire missing to resume on Nov 23, police remove 24 body bags",
-          "published": "2026-11-22T03:06:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -898,38 +942,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/north-korea-may-hold-international-marathon-next-october",
           "title": "North Korea delays international marathon until October: Tour agency",
           "published": "2026-11-22T04:12:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "China slams ‘malicious’ U.S. ban on telecom firms’ phone number access",
-      "url": "https://www.thehindu.com/news/international/china-slams-malicious-us-ban-on-telecom-firms-phone-number-access/article71730683.ece",
-      "source": "The Hindu",
-      "published": "2026-11-22T06:49:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-slams-malicious-us-ban-on-telecom-firms-phone-number-access",
-          "title": "China slams ‘malicious’ US ban on telecom firms’ phone number access",
-          "published": "2026-11-22T06:04:58+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-21T18:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
         }
       ],
       "consensus": 2.0
@@ -1111,26 +1123,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3612.2,
+        "price": 3611.9,
         "currency": "USD",
-        "change": 96.8,
+        "change": 96.5,
         "change_percent": 2.75,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.09,
+        "price": 42.17,
         "currency": "USD",
-        "change": 1.02,
-        "change_percent": 2.5,
+        "change": 1.1,
+        "change_percent": 2.68,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.96,
+        "price": 89.93,
         "currency": "USD",
-        "change": 0.01,
-        "change_percent": 0.01,
+        "change": -0.02,
+        "change_percent": -0.02,
         "name": "Brent Crude"
       },
       {
@@ -1138,7 +1150,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.08,
+        "change_percent": 0.13,
         "name": "EUR/USD"
       },
       {
@@ -1146,23 +1158,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.24,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.99,
+        "price": 158.97,
         "currency": "JPY",
-        "change": 0.48,
-        "change_percent": 0.3,
+        "change": 0.46,
+        "change_percent": 0.29,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61195.36,
+        "price": 61402.01,
         "currency": "USD",
-        "change": 33.17,
-        "change_percent": 0.05,
+        "change": 239.82,
+        "change_percent": 0.39,
         "name": "Bitcoin"
       }
     ],
@@ -1332,22 +1344,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Wall Street set to rebound after AI stock sell-off",
-          "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-          "published": "2026-11-23T04:58:47+00:00",
-          "snippet": "Asian markets declined as South Korean chipmakers shed about 3%"
+          "title": "What happens when bubbles burst",
+          "url": "https://www.ft.com/content/aa71d6bc-bbca-4e95-81b1-20895ac0cb59?syn-25a6b1a6=1",
+          "published": "2026-11-23T05:00:22+00:00",
+          "snippet": "AI enthusiasm has turned into major investor concern that a market might be heading for a fall"
         },
         {
-          "title": "Asian regulators rush to support sagging markets as AI trade falters",
-          "url": "https://www.ft.com/content/69459363-8299-4555-a39c-8980ee6c3590?syn-25a6b1a6=1",
-          "published": "2026-11-23T04:54:47+00:00",
-          "snippet": "Shares of region’s chipmakers and hardware suppliers especially vulnerable to turn in sentiment"
+          "title": "China is winning the car war",
+          "url": "https://www.ft.com/content/d279b04d-1fb7-49c7-a191-d34cf6467681?syn-25a6b1a6=1",
+          "published": "2026-11-23T05:00:13+00:00",
+          "snippet": "Western carmakers have been routed from China as EVs go mainstream. Now they are battling to avoid a similar fate at home"
         },
         {
-          "title": "Will Tata be able to list India’s biggest company?",
-          "url": "https://www.ft.com/content/0f2e8392-8d51-440a-928c-e47402017128?syn-25a6b1a6=1",
-          "published": "2026-11-23T03:36:27+00:00",
-          "snippet": "Bankers say feud between scion and chair makes initial public offering difficult as conglomerate faces pressure from regulators"
+          "title": "Consultants reap public sector boom thanks to AI and cyber security",
+          "url": "https://www.ft.com/content/54b6f97e-7818-4902-9755-63d9a4867a2d?syn-25a6b1a6=1",
+          "published": "2026-11-23T05:00:13+00:00",
+          "snippet": "Spending on external advisers accelerates despite central government’s pledge to cut costs"
         }
       ]
     },
@@ -1455,16 +1467,31 @@
   "web": {
     "tech": [
       {
+        "title": "Marches & Gnats programming challenges",
+        "url": "https://mng.quest/",
+        "comments_url": "https://lobste.rs/s/2zhfms/marches_gnats_programming_challenges",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-23T05:12:52.149000+00:00"
+      },
+      {
+        "title": "A Partial Evaluator for C",
+        "url": "https://phoenix.labri.fr/software/tempo/",
+        "score": 3,
+        "source": "Hacker News",
+        "published": "2026-11-23T04:51:48+00:00"
+      },
+      {
         "title": "XNU Linux: Full OS X GUI Userspace on Linux",
         "url": "https://github.com/AFK-surf/xnulinux",
-        "score": 36,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-23T03:49:24+00:00"
       },
       {
         "title": "The New Docker: Built to Run on Trust",
         "url": "https://www.docker.com/blog/meet-the-new-docker-built-to-run-on-trust/",
-        "score": 11,
+        "score": 19,
         "source": "Hacker News",
         "published": "2026-11-23T03:34:29+00:00"
       },
@@ -1472,7 +1499,7 @@
         "title": "Good morning and welcome to my idea of a new web",
         "url": "https://dave.writersweb.org/index.md",
         "comments_url": "https://lobste.rs/s/l8u1tj/good_morning_welcome_my_idea_new_web",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-23T03:15:06.359000+00:00"
       },
@@ -1487,28 +1514,21 @@
       {
         "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
         "url": "https://spelunkr.tv",
-        "score": 257,
+        "score": 293,
         "source": "Hacker News",
         "published": "2026-11-23T01:13:51+00:00"
       },
       {
-        "title": "What we learned operating auth for 1k APIs",
-        "url": "https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/",
-        "score": 22,
-        "source": "Hacker News",
-        "published": "2026-11-23T01:01:11+00:00"
-      },
-      {
         "title": "GL.iNet Security Notice 2026-11-20",
         "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
-        "score": 135,
+        "score": 139,
         "source": "Hacker News",
         "published": "2026-11-22T23:06:37+00:00"
       },
       {
         "title": "The Usefulness of Useless Knowledge [pdf] (1939)",
         "url": "https://www.ias.edu/sites/default/files/library/UsefulnessHarpers.pdf",
-        "score": 92,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-22T22:10:58+00:00"
       },
@@ -1531,21 +1551,21 @@
       {
         "title": "The struggle for freedom: How BSD escaped AT&T licensing",
         "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
-        "score": 81,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-22T21:33:12+00:00"
       },
       {
         "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
         "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "score": 348,
+        "score": 366,
         "source": "Hacker News",
         "published": "2026-11-22T21:01:16+00:00"
       },
       {
         "title": "A miniature San Francisco with live buses, planes and boats",
         "url": "https://smallsf.com/",
-        "score": 199,
+        "score": 207,
         "source": "Hacker News",
         "published": "2026-11-22T20:33:23+00:00"
       },
@@ -1553,16 +1573,9 @@
         "title": "Gliver completes the Guix desktop",
         "url": "https://dustycloud.org/blog/gliver-completes-the-guix-desktop/",
         "comments_url": "https://lobste.rs/s/wc8fla/gliver_completes_guix_desktop",
-        "score": 31,
+        "score": 32,
         "source": "Lobste.rs",
         "published": "2026-11-22T20:10:15.360000+00:00"
-      },
-      {
-        "title": "Assume People Are Not Interested in Your Blog Post",
-        "url": "https://danielsada.tech/blog/assume-people-are-not-interested-in-your-blog-post/",
-        "score": 109,
-        "source": "Hacker News",
-        "published": "2026-11-22T19:41:30+00:00"
       }
     ],
     "reddit": [

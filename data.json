@@ -1,153 +1,325 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23T08:30:58.280743+00:00",
+  "last_updated": "2026-11-23T09:01:03.435784+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 143
+      "ms": 322
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 172
+      "ms": 400
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 185
+      "ms": 263
     },
     "BBC News": {
       "ok": true,
-      "count": 37,
+      "count": 35,
       "error": null,
-      "ms": 76
+      "ms": 115
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 96
+      "ms": 149
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 164
+      "ms": 268
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 10,
+      "count": 11,
       "error": null,
-      "ms": 455
+      "ms": 402
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 260
+      "ms": 663
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 115
+      "ms": 165
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 87
+      "ms": 119
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 226
+      "ms": 567
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 295
+      "ms": 278
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 197
+      "ms": 626
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 360
+      "ms": 273
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 220
+      "ms": 232
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 80
+      "ms": 457
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 758
+      "ms": 734
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 651
+      "ms": 718
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 472
+      "ms": 505
     },
     "Straits Times": {
       "ok": true,
-      "count": 47,
+      "count": 48,
       "error": null,
-      "ms": 143
+      "ms": 381
     },
     "The Guardian": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 177
+      "ms": 131
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 208
+      "ms": 339
     },
     "The Independent": {
       "ok": true,
-      "count": 35,
+      "count": 33,
       "error": null,
-      "ms": 297
+      "ms": 531
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 178
+      "ms": 255
     }
   },
   "breaking": [
+    {
+      "title": "Drone strikes hit homes and UN premises in Sudan's capital",
+      "url": "http://www.africanews.com/2026/11/23/drone-strikes-hit-homes-and-un-premises-in-sudans-capital/",
+      "source": "Africanews",
+      "published": "2026-11-23T06:43:08+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/drone-strikes-un-building-sudan/",
+          "title": "Drone strikes hit homes, U.N. building in Sudan’s capital",
+          "published": "2026-11-23T06:07:00+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
+          "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
+          "published": "2026-11-23T00:43:36+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-strikes-hit-homes-un-premises-in-sudans-capital/article71731677.ece",
+          "title": "Drone strikes hit homes, UN premises in Sudan's capital",
+          "published": "2026-11-22T14:28:28+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Ukraine sank Russian warship off Libya, Zelenskyy says",
+      "url": "https://www.politico.eu/article/volodymyr-zelenskyy-claims-ukraine-sank-russia-warship-benghazi-libya/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-23T08:45:24+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/zelenskyy-says-ukraine-behind-drone-attacks-on-russian-ships-near-libya?traffic_source=rss",
+          "title": "Zelenskyy says Ukraine behind drone attacks on Russian ships near Libya",
+          "published": "2026-11-23T07:37:09+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
+          "title": "Zelensky says Ukraine sank Russian warship in sea drone attack off Libya",
+          "published": "2026-11-22T22:46:18+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "North Korea's leader highlights 'sovereignty' after rebuffing Trump offer for talks",
+      "url": "https://www.euronews.com/2026/11/23/north-koreas-leader-highlights-sovereignty-after-rebuffing-trump-offer-for-talks",
+      "source": "Euronews",
+      "published": "2026-11-23T06:45:53+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-sovereignty-foreign-relations-6573851",
+          "title": "North Korea leader highlights 'sovereignty' in ties after Trump no-show",
+          "published": "2026-11-23T03:25:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-says-country-seeks-security-not-supremacy",
+          "title": "North Korea’s Kim highlights ‘sovereignty’ in ties after Trump no-show",
+          "published": "2026-11-22T23:45:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+      "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T06:31:51+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
+          "published": "2026-11-23T05:45:12+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
+          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+          "published": "2026-11-23T05:39:11+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Satellite images show Russian warship capsized in Libya after suspected Ukrainian drone strike",
+      "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st",
+      "source": "Euronews",
+      "published": "2026-11-23T07:00:06+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+          "published": "2026-11-22T21:33:44+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
+          "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
+          "published": "2026-11-22T20:20:01+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Ukraine says Russian strikes kill 15 in Kyiv region",
+      "url": "https://www.thehindu.com/news/international/ukraine-says-russian-strikes-kill-several-in-kyiv-region/article71733677.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T06:32:17+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russian-strikes-kill-14-in-kyiv-region-6573721",
+          "title": "Ukraine says Russian strikes kill 14 in Kyiv region",
+          "published": "2026-11-23T02:25:00+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
+          "title": "Russian strikes kill at least 15 in Kyiv region, Ukraine says",
+          "published": "2026-11-22T18:32:59+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Ukraine claims strikes on two Russian ships off Libya",
+      "url": "https://www.japantimes.co.jp/news/2026/11/23/world/libya-drone-attack-russian-ship-ukraine/",
+      "source": "Japan Times",
+      "published": "2026-11-23T08:36:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Thousands evacuated after 'unknown substance' released at UK concert",
+      "url": "https://www.channelnewsasia.com/world/thousands-evacuated-unknown-substance-released-uk-concert-don-toliver-6574081",
+      "source": "CNA",
+      "published": "2026-11-23T08:22:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
+          "title": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
+          "published": "2026-11-23T07:48:31+00:00"
+        }
+      ],
+      "consensus": 2.5
+    }
+  ],
+  "world": [
     {
       "title": "What's next after no deal at COP31 climate talks?",
       "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
@@ -201,156 +373,6 @@
       "consensus": 10.0
     },
     {
-      "title": "Drone strikes hit homes and UN premises in Sudan's capital",
-      "url": "http://www.africanews.com/2026/11/23/drone-strikes-hit-homes-and-un-premises-in-sudans-capital/",
-      "source": "Africanews",
-      "published": "2026-11-23T06:43:08+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/23/world/drone-strikes-un-building-sudan/",
-          "title": "Drone strikes hit homes, U.N. building in Sudan’s capital",
-          "published": "2026-11-23T06:07:00+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
-          "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-          "published": "2026-11-23T00:43:36+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/drone-strikes-hit-homes-un-premises-in-sudans-capital/article71731677.ece",
-          "title": "Drone strikes hit homes, UN premises in Sudan's capital",
-          "published": "2026-11-22T14:28:28+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "North Korea's leader highlights 'sovereignty' after rebuffing Trump offer for talks",
-      "url": "https://www.euronews.com/2026/11/23/north-koreas-leader-highlights-sovereignty-after-rebuffing-trump-offer-for-talks",
-      "source": "Euronews",
-      "published": "2026-11-23T06:45:53+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-sovereignty-foreign-relations-6573851",
-          "title": "North Korea leader highlights 'sovereignty' in ties after Trump no-show",
-          "published": "2026-11-23T03:25:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-says-country-seeks-security-not-supremacy",
-          "title": "North Korea’s Kim highlights ‘sovereignty’ in ties after Trump no-show",
-          "published": "2026-11-22T23:45:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-      "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T06:31:51+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
-          "title": "At least 24 killed and dozens missing in confectionery factory fire in Indonesia",
-          "published": "2026-11-23T05:45:12+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
-          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-          "published": "2026-11-23T05:39:11+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, says NYT",
-      "url": "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T05:36:15+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/alice-huang-chinese-spy-nvidia-affair-6573671",
-          "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO: Report",
-          "published": "2026-11-23T05:20:46+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html",
-          "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
-          "published": "2026-11-23T04:09:17+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Satellite images show Russian warship capsized in Libya after suspected Ukrainian drone strike",
-      "url": "https://www.euronews.com/2026/11/23/satellite-images-show-russian-warship-capsized-in-libya-after-suspected-ukrainian-drone-st",
-      "source": "Euronews",
-      "published": "2026-11-23T07:00:06+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-          "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-          "published": "2026-11-22T21:33:44+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/middle-east/benghazi-naval-base-russian-ship-fire-b3089494.html",
-          "title": "Russian warship sinks at Libya port in suspected Ukrainian drone attack, officials say",
-          "published": "2026-11-22T20:20:01+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
-      "title": "Thousands evacuated after 'unknown substance' released at UK concert",
-      "url": "https://www.channelnewsasia.com/world/thousands-evacuated-unknown-substance-released-uk-concert-don-toliver-6574081",
-      "source": "CNA",
-      "published": "2026-11-23T08:22:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/uk-news/2026/nov/23/manchester-co-op-live-arena-evacuated-tear-gas-don-toliver-concert",
-          "title": "Manchester’s Co-op Live arena evacuated after ‘unknown substance’ released in crowd",
-          "published": "2026-11-23T07:48:31+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ukraine claims responsiblity for drone attacks on Russian ships off Libya",
-      "url": "https://www.aljazeera.com/news/2026/11/23/ukraine-claims-responsiblity-for-drone-attacks-on-russian-ships-off-libya?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-23T08:12:29+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-          "published": "2026-11-23T05:58:22+00:00"
-        }
-      ],
-      "consensus": 2.5
-    }
-  ],
-  "world": [
-    {
       "title": "Three killed and dozens missing after fire at Indonesian factory",
       "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -401,6 +423,50 @@
       "consensus": 4.0
     },
     {
+      "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, says NYT",
+      "url": "https://www.thehindu.com/news/international/alice-huang-in-touch-with-chinese-spy-agency-during-affair-with-nvidia-ceo-says-nyt/article71733237.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T05:36:15+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/alice-huang-chinese-spy-nvidia-affair-6573671",
+          "title": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO: Report",
+          "published": "2026-11-23T05:20:46+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/alice-huang-china-spy-jensen-huang-affair-nvidia-nyt-b3089572.html",
+          "title": "Alice Huang stayed in contact with Chinese spy agency during her affair with Nvidia chief – NYT",
+          "published": "2026-11-23T04:09:17+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Democrats clinch a historic House majority of at least 258 seats, largest since 1992",
+      "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-largest-since-1992/article71733328.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T05:11:52+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375405/us-democrats-clinch-historic-house-majority-least-258-seats-largest-1992",
+          "title": "US Democrats clinch biggest House majority since 1992 with at least 258 seats",
+          "published": "2026-11-22T20:31:01+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/house-seats-democrats-historic-congress-b3089490.html",
+          "title": "Democrats seize historic House majority, clinching at least 258 seats for first time in decades",
+          "published": "2026-11-22T19:38:53+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "South Korea's education minister quits over exam cheating chaos",
       "url": "https://www.straitstimes.com/asia/south-koreas-education-minister-quits-over-exam-cheating-chaos",
       "source": "Straits Times",
@@ -445,64 +511,48 @@
       "consensus": 3.5
     },
     {
-      "title": "Ukraine says Russian strikes kill 15 in Kyiv region",
-      "url": "https://www.thehindu.com/news/international/ukraine-says-russian-strikes-kill-several-in-kyiv-region/article71733677.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T06:32:17+00:00",
+      "title": "Russian ship attacked near Benghazi in suspected drone attack",
+      "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
+      "source": "France24",
+      "published": "2026-11-22T22:37:45+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russian-strikes-kill-14-in-kyiv-region-6573721",
-          "title": "Ukraine says Russian strikes kill 14 in Kyiv region",
-          "published": "2026-11-23T02:25:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security",
+          "title": "Suspected drone strike hits Russian ship at Libya’s Benghazi port, raising regional security concerns",
+          "published": "2026-11-22T17:11:34+00:00"
         },
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375401/russian-strikes-kill-6-kyiv-region-ukraine-says",
-          "title": "Russian strikes kill at least 15 in Kyiv region, Ukraine says",
-          "published": "2026-11-22T18:32:59+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-ship-finland-sparta-attack-b3089367.html",
+          "title": "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
+          "published": "2026-11-22T09:28:44+00:00"
         }
       ],
       "consensus": 3.0
     },
     {
-      "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T02:59:35+00:00",
+      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
+      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-21T18:30:00+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine",
-          "title": "Russian ship attacked near Benghazi in suspected drone attack",
-          "published": "2026-11-22T22:37:45+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+          "published": "2026-11-21T17:46:55+00:00"
         },
         {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344",
-          "title": "Libya’s Eastern Government Suspects Drone Attack Caused Explosion on Russian Ship",
-          "published": "2026-11-22T15:23:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence",
+          "title": "Mexico captures FBI’s most-wanted cartel boss ‘El Chapo Isidro’, triggering violence",
+          "published": "2026-11-21T14:20:35+00:00"
         }
       ],
       "consensus": 3.0
-    },
-    {
-      "title": "Father and daughter travelling to family baptism detained by ICE at Seattle airport",
-      "url": "https://www.independent.co.uk/news/world/americas/ice-seattle-airport-detained-arrest-b3089612.html",
-      "source": "The Independent",
-      "published": "2026-11-23T06:45:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/father-daughter-detained-by-ice-at-seattle-airport-were-travelling-to-family-baptism-says-lawyer/article71733166.ece",
-          "title": "Father, daughter detained by ICE at Seattle airport were travelling to family baptism, says lawyer",
-          "published": "2026-11-23T00:07:05+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "New Zealand rearguard holds India to draw first Test",
@@ -553,22 +603,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Democrats clinch a historic House majority of at least 258 seats, largest since 1992",
-      "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-258-seats-largest-since-1992/article71733328.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T05:11:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/house-seats-democrats-historic-congress-b3089490.html",
-          "title": "Democrats seize historic House majority, clinching at least 258 seats for first time in decades",
-          "published": "2026-11-22T19:38:53+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Russia allegedly tried to kill Ukrainian rapper in Poland and then Denmark",
       "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-rapper-albert-vasiliev-assassination-denmark-poland-b3089573.html",
       "source": "The Independent",
@@ -596,22 +630,6 @@
           "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions",
           "title": "🔴 COP31 ends without deal as EU rejects text for omitting mention of fossil fuels",
           "published": "2026-11-22T12:22:33+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
-      "url": "https://www.politico.eu/article/congo-eu-rwanda-deportation-deal-armed-militia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-23T03:00:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/18/2026/european-countries-aim-to-start-deporting-asylum-seekers-to-rwanda",
-          "title": "Rwanda in deportation deal with European countries",
-          "published": "2026-11-18T13:49:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -660,22 +678,6 @@
           "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank",
           "title": "Israel’s Eisenkot slams ‘Jewish terrorism’ after attacks by settlers in West Bank",
           "published": "2026-11-22T21:29:16+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Midterms: US Democrats secure biggest House majority in decades",
-      "url": "https://www.euronews.com/2026/11/22/midterms-us-democrats-secure-biggest-house-majority-in-decades",
-      "source": "Euronews",
-      "published": "2026-11-22T21:29:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375405/us-democrats-clinch-historic-house-majority-least-258-seats-largest-1992",
-          "title": "US Democrats clinch biggest House majority since 1992 with at least 258 seats",
-          "published": "2026-11-22T20:31:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -740,22 +742,6 @@
           "url": "https://www.cbc.ca/news/world/russia-ukraine-zelenskyy-hometown-9.7431164?cmp=rss",
           "title": "Russian strike on Zelenskyy's hometown in central Ukraine kills 2, wounds 60",
           "published": "2026-11-21T13:26:36+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russian ship burns off Finland after suspected drone attack: ‘War is spilling over’",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ship-finland-sparta-attack-b3089367.html",
-      "source": "The Independent",
-      "published": "2026-11-22T09:28:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/finland-detects-drone-attack-on-russian-cargo-ship-in-baltic/article71728516.ece",
-          "title": "Finland detects drone attack on Russian cargo ship in Baltic",
-          "published": "2026-11-21T13:56:11+00:00"
         }
       ],
       "consensus": 2.5
@@ -953,17 +939,17 @@
       "consensus": 2.0
     },
     {
-      "title": "Mexican special forces arrest drug kingpin 'Chapo Isidro'",
-      "url": "https://www.dw.com/en/mexican-special-forces-arrest-drug-kingpin-chapo-isidro/a-80010745?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-21T18:30:00+00:00",
+      "title": "Miley Cyrus marries rock drummer Maxx Morando in an intimate Palm Springs wedding",
+      "url": "https://www.independent.co.uk/news/world/americas/cyrus-miley-cyrus-palm-springs-california-saint-laurent-b3089561.html",
+      "source": "The Independent",
+      "published": "2026-11-23T01:53:55+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
-          "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
-          "published": "2026-11-21T17:46:55+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo?at_medium=RSS&at_campaign=rss",
+          "title": "Miley Cyrus marries Maxx Morando in California ceremony",
+          "published": "2026-11-22T21:22:40+00:00"
         }
       ],
       "consensus": 2.0
@@ -1031,6 +1017,38 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Brazil: Colourful costumes and dancing take over Copacabana Pride",
+      "url": "http://www.africanews.com/2026/11/23/brazil-colourful-costumes-and-dancing-take-over-copacabana-pride/",
+      "source": "Africanews",
+      "published": "2026-11-23T08:03:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/23/brazil-colourful-costumes-and-dancing-take-over-copacabana-pride",
+          "title": "Brazil: Colourful costumes and dancing take over Copacabana Pride",
+          "published": "2026-11-23T08:02:54+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Morocco: A surreal sculpture park turns the world upside down",
+      "url": "http://www.africanews.com/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down/",
+      "source": "Africanews",
+      "published": "2026-11-22T22:34:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/22/morocco-a-surreal-sculpture-park-turns-the-world-upside-down",
+          "title": "Morocco: A surreal sculpture park turns the world upside down",
+          "published": "2026-11-22T22:33:48+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1044,10 +1062,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.04,
+      "price": 134.18,
       "currency": "GBP",
-      "change": 0.52,
-      "change_percent": 0.39,
+      "change": 0.66,
+      "change_percent": 0.49,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1060,10 +1078,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10368.47,
+      "price": 10387.77,
       "currency": "GBP",
-      "change": 22.13,
-      "change_percent": 0.21,
+      "change": 41.43,
+      "change_percent": 0.4,
       "name": "FTSE 100"
     }
   ],
@@ -1079,10 +1097,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10368.47,
+        "price": 10387.77,
         "currency": "GBP",
-        "change": 22.13,
-        "change_percent": 0.21,
+        "change": 41.43,
+        "change_percent": 0.4,
         "name": "FTSE 100"
       },
       {
@@ -1111,44 +1129,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24885.0,
+        "price": 24946.95,
         "currency": "EUR",
-        "change": 82.22,
-        "change_percent": 0.33,
+        "change": 144.17,
+        "change_percent": 0.58,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 7952.42,
+        "price": 7977.03,
         "currency": "EUR",
-        "change": 24.67,
-        "change_percent": 0.31,
+        "change": 49.28,
+        "change_percent": 0.62,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3602.7,
+        "price": 3611.5,
         "currency": "USD",
-        "change": 87.3,
-        "change_percent": 2.48,
+        "change": 96.1,
+        "change_percent": 2.73,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.07,
+        "price": 42.4,
         "currency": "USD",
-        "change": 1.0,
-        "change_percent": 2.43,
+        "change": 1.33,
+        "change_percent": 3.23,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.47,
+        "price": 89.2,
         "currency": "USD",
-        "change": -0.48,
-        "change_percent": -0.53,
+        "change": -0.75,
+        "change_percent": -0.83,
         "name": "Brent Crude"
       },
       {
@@ -1156,31 +1174,31 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.2,
+        "change_percent": 0.15,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
         "price": 1.31,
         "currency": "USD",
-        "change": 0.0,
-        "change_percent": 0.35,
+        "change": 0.01,
+        "change_percent": 0.39,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.09,
+        "price": 159.15,
         "currency": "JPY",
-        "change": 0.58,
-        "change_percent": 0.36,
+        "change": 0.64,
+        "change_percent": 0.4,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61241.01,
+        "price": 61379.67,
         "currency": "USD",
-        "change": 78.82,
-        "change_percent": 0.13,
+        "change": 217.47,
+        "change_percent": 0.36,
         "name": "Bitcoin"
       }
     ],
@@ -1281,16 +1299,16 @@
           "snippet": "Brachycerine can be produced sustainably and is safe for humans"
         },
         {
-          "title": "A journey into the wild west of Andalusia",
-          "url": "https://theweek.com/culture-life/travel/a-journey-into-the-wild-west-of-andalusia",
-          "published": "2026-11-22T08:00:00+00:00",
-          "snippet": "A ‘refreshingly unspoilt’ destination that is ‘yours for the taking’"
-        },
-        {
           "title": "Rhinos and river dolphins in Assam",
           "url": "https://theweek.com/culture-life/travel/rhinos-and-river-dolphins-in-assam",
           "published": "2026-11-22T08:00:00+00:00",
           "snippet": "Plus Lübeck’s rich literary past and a short break in a wartime gun tower"
+        },
+        {
+          "title": "A journey into the wild west of Andalusia",
+          "url": "https://theweek.com/culture-life/travel/a-journey-into-the-wild-west-of-andalusia",
+          "published": "2026-11-22T08:00:00+00:00",
+          "snippet": "A ‘refreshingly unspoilt’ destination that is ‘yours for the taking’"
         }
       ]
     },
@@ -1350,16 +1368,16 @@
       "column": "global",
       "entries": [
         {
-          "title": "Ukraine sinks Russian warship off coast of Libya",
-          "url": "https://www.ft.com/content/b3f020fc-2617-4432-bced-af2a0b120133?syn-25a6b1a6=1",
-          "published": "2026-11-23T07:45:47+00:00",
-          "snippet": "Volodymyr Zelenskyy described the attack as an ‘exemplary’ sea drone operation"
-        },
-        {
           "title": "Wall Street set to rebound after AI stock sell-off",
           "url": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-          "published": "2026-11-23T07:44:29+00:00",
+          "published": "2026-11-23T08:32:38+00:00",
           "snippet": "Asian markets decline as South Korean chipmakers shed about 3%"
+        },
+        {
+          "title": "Ukraine blows up Russian warship in Libya’s Benghazi naval base",
+          "url": "https://www.ft.com/content/b3f020fc-2617-4432-bced-af2a0b120133?syn-25a6b1a6=1",
+          "published": "2026-11-23T07:45:47+00:00",
+          "snippet": "Volodymyr Zelenskyy described attack as an ‘exemplary’ sea drone operation"
         },
         {
           "title": "South Korean minister says he is too old to tackle AI exam cheating",
@@ -1492,7 +1510,7 @@
         "title": "Signal is Serious About Protecting Your Privacy",
         "url": "https://signal.org/blog/protecting-your-privacy/",
         "comments_url": "https://lobste.rs/s/vldbcn/signal_is_serious_about_protecting_your",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-23T07:44:09.290000+00:00"
       },
@@ -1505,16 +1523,23 @@
         "published": "2026-11-23T05:12:52.149000+00:00"
       },
       {
+        "title": "Yes, 17M lines of Lean is a lot",
+        "url": "https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/",
+        "score": 42,
+        "source": "Hacker News",
+        "published": "2026-11-23T05:00:49+00:00"
+      },
+      {
         "title": "A Partial Evaluator for C",
         "url": "https://phoenix.labri.fr/software/tempo/",
-        "score": 49,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-23T04:51:48+00:00"
       },
       {
         "title": "XNU Linux: Full OS X GUI Userspace on Linux",
         "url": "https://github.com/AFK-surf/xnulinux",
-        "score": 228,
+        "score": 253,
         "source": "Hacker News",
         "published": "2026-11-23T03:49:24+00:00"
       },
@@ -1522,7 +1547,7 @@
         "title": "Good morning and welcome to my idea of a new web",
         "url": "https://dave.writersweb.org/index.md",
         "comments_url": "https://lobste.rs/s/l8u1tj/good_morning_welcome_my_idea_new_web",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-23T03:15:06.359000+00:00"
       },
@@ -1537,21 +1562,21 @@
       {
         "title": "Treemap of the Riemann Hypothesis Lean Proof",
         "url": "https://pengowray.github.io/riemann-zeta-proof-visualizer/",
-        "score": 70,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-23T01:50:23+00:00"
       },
       {
         "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
         "url": "https://spelunkr.tv",
-        "score": 463,
+        "score": 490,
         "source": "Hacker News",
         "published": "2026-11-23T01:13:51+00:00"
       },
       {
         "title": "GL.iNet Security Notice 2026-11-20",
         "url": "https://www.gl-inet.com/en-us/blogs/blog/glinet-security-notice-2026-11-20",
-        "score": 184,
+        "score": 189,
         "source": "Hacker News",
         "published": "2026-11-22T23:06:37+00:00"
       },
@@ -1559,7 +1584,7 @@
         "title": "GitHub Actions accepts invalid YAML",
         "url": "https://yossarian.net/til/post/github-actions-accepts-invalid-yaml/",
         "comments_url": "https://lobste.rs/s/leqwqu/github_actions_accepts_invalid_yaml",
-        "score": 47,
+        "score": 53,
         "source": "Lobste.rs",
         "published": "2026-11-22T21:49:18.929000+00:00"
       },
@@ -1572,16 +1597,9 @@
         "published": "2026-11-22T21:44:04.839000+00:00"
       },
       {
-        "title": "The struggle for freedom: How BSD escaped AT&T licensing",
-        "url": "https://fosscomics.com/posts/16.%20BSD%20Unix%20Part%206%20-%20The%20Struggle%20for%20Freedom/",
-        "score": 110,
-        "source": "Hacker News",
-        "published": "2026-11-22T21:33:12+00:00"
-      },
-      {
         "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
         "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-        "score": 462,
+        "score": 478,
         "source": "Hacker News",
         "published": "2026-11-22T21:01:16+00:00"
       }

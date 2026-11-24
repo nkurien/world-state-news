@@ -1,153 +1,169 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T22:46:50.302541+00:00",
+  "last_updated": "2026-11-24T23:01:07.115884+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 377
+      "ms": 244
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 402
+      "ms": 464
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 168
+      "ms": 116
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 556
+      "ms": 116
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 518
+      "ms": 345
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 189
+      "ms": 154
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 110
+      "ms": 290
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 652
+      "ms": 664
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 151
+      "ms": 72
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 220
+      "ms": 92
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 461
+      "ms": 751
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 382
+      "ms": 312
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 99
+      "ms": 109
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 416
+      "ms": 272
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 201
+      "ms": 198
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 436
+      "ms": 254
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 678
+      "ms": 765
     },
     "Semafor": {
       "ok": true,
       "count": 244,
       "error": null,
-      "ms": 738
+      "ms": 715
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 714
+      "ms": 724
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 190
+      "ms": 193
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3207
+      "ms": 3055
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 318
+      "ms": 252
     },
     "The Independent": {
       "ok": true,
-      "count": 86,
+      "count": 85,
       "error": null,
-      "ms": 138
+      "ms": 215
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 358
+      "ms": 227
     }
   },
   "breaking": [
+    {
+      "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
+      "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T22:55:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
+          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
+          "published": "2026-11-24T21:27:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
     {
       "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
       "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
@@ -208,22 +224,6 @@
           "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-nvidia-comeback-leaves-him-unfireable-and-indebted-to-trump",
           "title": "Jensen Huang's Nvidia comeback leaves him unfireable and indebted to Trump",
           "published": "2026-11-24T13:46:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
-      "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T21:27:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-          "published": "2026-11-24T20:59:59+00:00"
         }
       ],
       "consensus": 2.5
@@ -885,22 +885,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Ukraine shares video of strikes on Russian ships off Libya",
-      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T11:34:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-          "published": "2026-11-23T05:58:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
       "url": "http://www.africanews.com/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges/",
       "source": "Africanews",
@@ -949,28 +933,37 @@
       "consensus": 1.5
     },
     {
+      "title": "Champions League: Real Madrid thrash PSV 5-1 in comeback win as Manchester City held by Napoli",
+      "url": "https://www.france24.com/en/sport/20261124-champions-league-real-madrid-thrash-psv-5-1-in-comeback-win-as-manchester-city-held-by-napoli",
+      "source": "France24",
+      "published": "2026-11-24T22:59:39+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Arsenal and Dortmund draw 1-1 as Gyokeres goes from hero to villain",
+      "url": "https://www.aljazeera.com/sports/2026/11/24/arsenal-and-dortmund-draw-1-1-as-gyokeres-goes-from-hero-to-villain?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T22:50:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Volunteer firefighter in induced coma after tanker caught in blaze",
+      "url": "https://www.abc.net.au/news/2026-11-25/cfa-volunteer-critical-condition-nandaly-fire/107422840",
+      "source": "ABC Australia",
+      "published": "2026-11-24T22:47:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "RNZ investigating potential cyber breach",
       "url": "https://www.rnz.co.nz/news/political/2770474/rnz-investigating-potential-cyber-breach",
       "source": "RNZ",
       "published": "2026-11-24T22:41:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Adelaide festival-goer says lightning strike 'threw me backwards'",
-      "url": "https://www.abc.net.au/news/2026-11-25/seb-young-survives-music-festival-lightning-strike/107423796",
-      "source": "ABC Australia",
-      "published": "2026-11-24T22:40:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "All Black Beauden Barrett reportedly signs deal with Bristol Bears",
-      "url": "https://www.rnz.co.nz/news/sport/2770552/all-black-beauden-barrett-reportedly-signs-deal-with-bristol-bears",
-      "source": "RNZ",
-      "published": "2026-11-24T22:38:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1074,24 +1067,24 @@
         "symbol": "GC=F",
         "price": 3555.1,
         "currency": "USD",
-        "change": -96.3,
-        "change_percent": -2.64,
+        "change": -6.8,
+        "change_percent": -0.19,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
         "price": 40.71,
         "currency": "USD",
-        "change": -2.46,
-        "change_percent": -5.71,
+        "change": -0.07,
+        "change_percent": -0.18,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
         "price": 88.5,
         "currency": "USD",
-        "change": 1.82,
-        "change_percent": 2.1,
+        "change": -0.28,
+        "change_percent": -0.32,
         "name": "Brent Crude"
       },
       {
@@ -1107,23 +1100,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.58,
+        "change_percent": 0.56,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.24,
+        "price": 159.26,
         "currency": "JPY",
-        "change": 0.26,
-        "change_percent": 0.16,
+        "change": 0.27,
+        "change_percent": 0.17,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59991.84,
+        "price": 59859.86,
         "currency": "USD",
-        "change": -1219.31,
-        "change_percent": -1.99,
+        "change": -1351.29,
+        "change_percent": -2.21,
         "name": "Bitcoin"
       }
     ],
@@ -1218,6 +1211,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "The hidden dangers of GYO mushroom kits",
+          "url": "https://theweek.com/environment/the-hidden-dangers-of-gyo-mushroom-kits",
+          "published": "2026-11-24T22:58:25+00:00",
+          "snippet": "Popularity of growing your own food could be helping an invasive species take root in UK woodlands"
+        },
+        {
           "title": "How do Democrats solve a problem like Jensen Huang?",
           "url": "https://theweek.com/politics/democrats-huang-nvidia-ai-trump-congress",
           "published": "2026-11-24T19:19:09+00:00",
@@ -1228,12 +1227,6 @@
           "url": "https://theweek.com/health/can-the-us-conquer-measles-again",
           "published": "2026-11-24T18:09:21+00:00",
           "snippet": "Falling vaccination rates lead to a surge in viral disease"
-        },
-        {
-          "title": "The Week contest: Vampire spies",
-          "url": "https://theweek.com/puzzles/the-week-contest-vampire-spies",
-          "published": "2026-11-24T15:51:59+00:00",
-          "snippet": "The Week contest: Vampire spies"
         }
       ]
     },
@@ -1427,35 +1420,35 @@
       {
         "title": "Heart attack and stroke risk detectable decades in advance",
         "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
-        "score": 38,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-24T21:51:21+00:00"
       },
       {
         "title": "An unclassified CIA system was breached in a cyberattack",
         "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
-        "score": 49,
+        "score": 57,
         "source": "Hacker News",
         "published": "2026-11-24T21:24:27+00:00"
       },
       {
         "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
         "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-        "score": 65,
+        "score": 79,
         "source": "Hacker News",
         "published": "2026-11-24T21:02:22+00:00"
       },
       {
         "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "score": 41,
+        "score": 44,
         "source": "Hacker News",
         "published": "2026-11-24T20:44:15+00:00"
       },
       {
         "title": "Ternary Bonsai 2.5 27B",
         "url": "https://prismml.com/news/bonsai-2-5-27b",
-        "score": 213,
+        "score": 227,
         "source": "Hacker News",
         "published": "2026-11-24T20:08:03+00:00"
       },
@@ -1470,7 +1463,7 @@
       {
         "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
         "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-        "score": 44,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-24T19:40:43+00:00"
       },
@@ -1525,7 +1518,7 @@
       {
         "title": "Active intrusion campaign against Check Point security management servers",
         "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-        "score": 236,
+        "score": 241,
         "source": "Hacker News",
         "published": "2026-11-24T16:32:17+00:00"
       }

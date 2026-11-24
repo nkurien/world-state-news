@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T05:30:51.122577+00:00",
+  "last_updated": "2026-11-24T06:01:05.123814+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 152
+      "ms": 362
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 167
+      "ms": 229
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 175
+      "ms": 161
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 117
+      "ms": 129
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 179
+      "ms": 151
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 351
+      "ms": 186
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 544
+      "ms": 54
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 279
+      "ms": 427
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 129
+      "ms": 3232
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 275
+      "ms": 70
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 670
+      "ms": 389
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 233
+      "ms": 299
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 159
+      "ms": 133
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 385
+      "ms": 520
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 213
+      "ms": 86
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 43,
       "error": null,
-      "ms": 172
+      "ms": 436
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 664
+      "ms": 688
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 361
+      "ms": 442
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 693
+      "ms": 872
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 247
+      "ms": 294
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3163
+      "ms": 3073
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 126
+      "ms": 270
     },
     "The Independent": {
       "ok": true,
       "count": 77,
       "error": null,
-      "ms": 166
+      "ms": 585
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 223
+      "ms": 206
     }
   },
   "breaking": [
@@ -193,6 +193,22 @@
       "consensus": 3.0
     },
     {
+      "title": "US chip curbs will not impact Malaysia’s China ties: Anwar",
+      "url": "https://www.straitstimes.com/asia/se-asia/us-chip-curbs-will-not-impact-malaysias-china-ties-anwar",
+      "source": "Straits Times",
+      "published": "2026-11-24T05:55:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
+          "title": "China threatens retaliation against US chip curbs",
+          "published": "2026-11-17T22:58:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "WHO chief visits Cuba as healthcare system deteriorates",
       "url": "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
       "source": "Al Jazeera",
@@ -204,22 +220,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/who-cuba-visit-healthcare-hospitals-power-outages-b3090247.html",
           "title": "WHO chief visits Cuba amid severe shortages at hospitals and worsening health conditions",
           "published": "2026-11-23T21:58:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Trump administration blacklists Megaspeed cloud company linked to Nvidia scandal",
-      "url": "https://www.cbc.ca/news/world/trump-megaspeed-blacklist-nvidia-9.7433587?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T02:46:04+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-blacklists-megaspeed-chip-firm-linked-nvidia-scandal-6576001",
-          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
-          "published": "2026-11-23T21:57:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -423,6 +423,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Trump administration blacklists Megaspeed cloud company linked to Nvidia scandal",
+      "url": "https://www.cbc.ca/news/world/trump-megaspeed-blacklist-nvidia-9.7433587?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T02:46:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-blacklists-megaspeed-chip-firm-linked-nvidia-scandal-6576001",
+          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+          "published": "2026-11-23T21:57:00+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "UN chief calls for world to agree on AI oversight within a year",
@@ -751,22 +767,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Ukraine shares video of strikes on Russian ships off Libya",
-      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T11:34:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-          "published": "2026-11-23T05:58:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Tanzania: Towering flames engulf beachfront hotels in Zanzibar",
       "url": "http://www.africanews.com/2026/11/23/tanzania-towering-flames-engulf-beachfront-hotels-in-zanzibar/",
       "source": "Africanews",
@@ -831,91 +831,91 @@
       "consensus": 1.5
     },
     {
-      "title": "Hong Kong welcomes 5.1 million visitors in October, up 12% year on year",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375570/hong-kong-welcomes-51-million-visitors-october-12-year-year",
+      "title": "North Korea unveils first AI chatbot, but it won’t answer ‘uncultured questions’",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3375563/north-korea-unveils-first-ai-chatbot-it-wont-answer-uncultured-questions",
       "source": "SCMP",
-      "published": "2026-11-24T05:18:25+00:00",
+      "published": "2026-11-24T06:00:12+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Queensland tungsten mine to supply critical mineral to US military",
-      "url": "https://www.abc.net.au/news/2026-11-24/queensland-tungsten-to-develop-us-military-equipment/107421986",
-      "source": "ABC Australia",
-      "published": "2026-11-24T05:16:17+00:00",
+      "title": "Malaysia’s Anwar rejects claims he is ‘too pro-Chinese’",
+      "url": "https://www.scmp.com/week-asia/people/article/3375435/malaysias-anwar-rejects-claims-he-too-pro-chinese",
+      "source": "SCMP",
+      "published": "2026-11-24T06:00:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Qld health minister says families ‘want answers’ over ambulance delays",
-      "url": "https://www.abc.net.au/news/2026-11-24/qld-health-minister-responds-to-ambulance-ramping-pressures/107421850",
-      "source": "ABC Australia",
-      "published": "2026-11-24T05:12:19+00:00",
+      "title": "ASEAN sec-gen warns of renewed Thai-Cambodian fighting, backs S’pore to conclude South China Sea pact",
+      "url": "https://www.straitstimes.com/asia/se-asia/asean-sec-gen-warns-of-renewed-thai-cambodian-fighting-backs-spore-to-conclude-south-china-sea-pact",
+      "source": "Straits Times",
+      "published": "2026-11-24T06:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Asian stocks react to Huang reinstatement at Nvidia",
-      "url": "https://www.independent.co.uk/news/world/asia/asian-stock-huang-nvidia-b3090338.html",
-      "source": "The Independent",
-      "published": "2026-11-24T05:12:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Seino Holdings works with rivals for better, cleaner transportation",
-      "url": "https://www.japantimes.co.jp/esg-consortium/2026/11/24/seino-holdings-works-with-rivals-for-better-cleaner-transportation/",
-      "source": "Japan Times",
-      "published": "2026-11-24T05:10:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Can Europe stop Trump putting world leaders above the law?",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-stop-trump-putting-world-leaders-above-the-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-24T05:05:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Regretful expenditure': New biometrics system sought after $50m immigration failure",
-      "url": "https://www.rnz.co.nz/news/political/2762762/regretful-expenditure-new-biometrics-system-sought-after-50m-immigration-failure",
+      "title": "RMA expert questions Fonterra's application to dump 22m litres of milk",
+      "url": "https://www.rnz.co.nz/news/environment/2764606/rma-expert-questions-fonterra-s-application-to-dump-22m-litres-of-milk",
       "source": "RNZ",
-      "published": "2026-11-24T05:04:51+00:00",
+      "published": "2026-11-24T05:57:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Minister declares hospital mould-free despite staff concerns",
-      "url": "https://www.abc.net.au/news/2026-11-24/no-mould-at-hospital-despite-years-of-complaints-from-staff/107420382",
+      "title": "Australia's most affordable city masking a 'two-tier' rental system: expert",
+      "url": "https://www.abc.net.au/news/2026-11-24/canberra-most-affordable-rental-market-warnings-two-tier-system/107419486",
       "source": "ABC Australia",
-      "published": "2026-11-24T05:03:38+00:00",
+      "published": "2026-11-24T05:54:32+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Hobart's new $1.23 billion stadium price tag explained",
-      "url": "https://www.abc.net.au/news/2026-11-24/hobart-macquarie-point-stadium-cost-explainer/107421430",
+      "title": "Inside the ‘war room’ that lobbied Donald Trump to bring back Nvidia’s Jensen Huang",
+      "url": "https://www.channelnewsasia.com/world/jensen-huang-nvidia-affair-donald-trump-6577351",
+      "source": "CNA",
+      "published": "2026-11-24T05:53:49+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Whistleblower accuses Suncorp of encouraging claim denials",
+      "url": "https://www.abc.net.au/news/2026-11-24/insurer-suncorp-employs-tactics-to-delay-deny-claims-for-profit/107324104",
       "source": "ABC Australia",
-      "published": "2026-11-24T05:02:20+00:00",
+      "published": "2026-11-24T05:52:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Nvidia’s comeback bet: Why Jensen Huang’s return calmed markets, for now",
-      "url": "https://www.independent.co.uk/news/world/americas/nvidia-donald-trump-ceo-world-new-york-b3090341.html",
-      "source": "The Independent",
-      "published": "2026-11-24T05:01:06+00:00",
+      "title": "Coalition turns against security pact with Vanuatu over net zero clause",
+      "url": "https://www.abc.net.au/news/2026-11-24/opposition-turns-against-vanuatu-nakamal-agreement/107420028",
+      "source": "ABC Australia",
+      "published": "2026-11-24T05:51:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Job losses feared after $20m slashed from Victorian specialist schools",
+      "url": "https://www.abc.net.au/news/2026-11-24/victorian-specialist-schools-saints-college-funding-cut/107420108",
+      "source": "ABC Australia",
+      "published": "2026-11-24T05:51:34+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Driver climbs on car roof after Townsville crash",
+      "url": "https://www.abc.net.au/news/2026-11-24/qld-police-appeal-as-footage-shows-man-on-top-of-car/107422422",
+      "source": "ABC Australia",
+      "published": "2026-11-24T05:46:32+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -991,10 +991,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58715.77,
+        "price": 58784.06,
         "currency": "JPY",
-        "change": 2279.12,
-        "change_percent": 4.04,
+        "change": 2347.41,
+        "change_percent": 4.16,
         "name": "Nikkei 225"
       },
       {
@@ -1017,26 +1017,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3634.3,
+        "price": 3629.5,
         "currency": "USD",
-        "change": -17.1,
-        "change_percent": -0.47,
+        "change": -21.9,
+        "change_percent": -0.6,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.48,
+        "price": 42.24,
         "currency": "USD",
-        "change": -0.7,
-        "change_percent": -1.62,
+        "change": -0.93,
+        "change_percent": -2.15,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 85.96,
+        "price": 86.38,
         "currency": "USD",
-        "change": -0.72,
-        "change_percent": -0.83,
+        "change": -0.3,
+        "change_percent": -0.35,
         "name": "Brent Crude"
       },
       {
@@ -1052,23 +1052,23 @@
         "price": 1.3,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.03,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.13,
+        "price": 159.19,
         "currency": "JPY",
-        "change": 0.14,
-        "change_percent": 0.09,
+        "change": 0.21,
+        "change_percent": 0.13,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60668.49,
+        "price": 60490.3,
         "currency": "USD",
-        "change": -542.66,
-        "change_percent": -0.89,
+        "change": -720.85,
+        "change_percent": -1.18,
         "name": "Bitcoin"
       }
     ],
@@ -1239,22 +1239,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Asian tech stocks surge after Jensen Huang’s return",
-          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-          "published": "2026-11-24T03:46:25+00:00",
-          "snippet": "Region’s markets follow Wall Street higher on Nvidia chief’s reinstatement"
+          "title": "FirstFT: Inside Jensen Huang’s return to power",
+          "url": "https://www.ft.com/content/5fd14979-e239-4eaf-bbfb-cde969afb514?syn-25a6b1a6=1",
+          "published": "2026-11-24T05:31:13+00:00",
+          "snippet": "Also in today’s newsletter: fake explosives and Patriot shipments"
         },
         {
-          "title": "OpenAI engineer possessed dozens of meeting recordings, say US prosecutors",
-          "url": "https://www.ft.com/content/f860152a-6bd6-43f7-8ba1-4a6ae94d6565?syn-25a6b1a6=1",
-          "published": "2026-11-24T01:31:42+00:00",
-          "snippet": "Saudi national is also alleged to have photographed confidential documents"
+          "title": "EU to seek changes to UN climate talks process after COP failure",
+          "url": "https://www.ft.com/content/f01d609c-485d-4d1d-ac0a-5fa1fd5c7612",
+          "published": "2026-11-24T05:00:25+00:00",
+          "snippet": "Acrimony and finger-pointing over the breakdown comes after a year of increasingly extreme climate disasters"
         },
         {
-          "title": "Modi rebukes India Inc",
-          "url": "https://www.ft.com/content/eefd9be8-828e-4a75-a661-b2a4893062e7?syn-25a6b1a6=1",
-          "published": "2026-11-24T01:30:02+00:00",
-          "snippet": "Also, Sebi proposes concessions for foreign portfolio investors"
+          "title": "Disability benefits review to reject tougher rules despite soaring costs",
+          "url": "https://www.ft.com/content/9d384d2f-e0d2-4a69-b377-fb5bc1e7d091?syn-25a6b1a6=1",
+          "published": "2026-11-24T05:00:25+00:00",
+          "snippet": "Government will seek to reconcile recommendations in paper by Sir Stephen Timms with separate report last week by Alan Milburn"
         }
       ]
     },
@@ -1364,21 +1364,21 @@
       {
         "title": "Drone Maps of Salvage Yards",
         "url": "https://salvageyarddrone.wordpress.com/",
-        "score": 25,
+        "score": 30,
         "source": "Hacker News",
         "published": "2026-11-24T04:00:28+00:00"
       },
       {
         "title": "Making a dumb TV just smart enough",
         "url": "https://qsantos.fr/2026/11/19/making-a-dumb-tv-just-smart-enough/",
-        "score": 29,
+        "score": 32,
         "source": "Hacker News",
         "published": "2026-11-24T02:46:54+00:00"
       },
       {
         "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
         "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
-        "score": 131,
+        "score": 149,
         "source": "Hacker News",
         "published": "2026-11-24T02:27:02+00:00"
       },
@@ -1386,7 +1386,7 @@
         "title": "What VP != VNP Means (In 3 Minutes)",
         "url": "https://www.friedgil.com/vpvnp/",
         "comments_url": "https://lobste.rs/s/2k95fs/what_vp_vnp_means_3_minutes",
-        "score": 13,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-24T02:10:30.101000+00:00"
       },
@@ -1424,14 +1424,14 @@
       {
         "title": "Freeing the iPod Nano 5G",
         "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
-        "score": 76,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-23T23:03:13+00:00"
       },
       {
         "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
         "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-        "score": 331,
+        "score": 347,
         "source": "Hacker News",
         "published": "2026-11-23T22:32:29+00:00"
       },
@@ -1454,14 +1454,14 @@
       {
         "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
         "url": "https://www.bored.com/",
-        "score": 180,
+        "score": 186,
         "source": "Hacker News",
         "published": "2026-11-23T21:01:16+00:00"
       },
       {
         "title": "GPUI is getting its own repository",
         "url": "https://github.com/zed-industries/gpui",
-        "score": 199,
+        "score": 207,
         "source": "Hacker News",
         "published": "2026-11-23T20:52:54+00:00"
       },
@@ -1469,7 +1469,7 @@
         "title": "Illiterate Programming",
         "url": "https://deadsimpletech.com/blog/illiterate-programming",
         "comments_url": "https://lobste.rs/s/xxgezw/illiterate_programming",
-        "score": 22,
+        "score": 23,
         "source": "Lobste.rs",
         "published": "2026-11-23T20:45:29.097000+00:00"
       }

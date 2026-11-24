@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T11:30:54.196440+00:00",
+  "last_updated": "2026-11-24T12:01:06.191437+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 236
+      "ms": 238
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 182
+      "ms": 240
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 160
+      "ms": 147
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 347
+      "ms": 313
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 695
+      "ms": 132
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 265
+      "ms": 167
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 608
+      "ms": 557
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 216
+      "ms": 362
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 121
+      "ms": 134
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 373
+      "ms": 123
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 710
+      "ms": 314
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 260
+      "ms": 505
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 419
+      "ms": 77
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 419
+      "ms": 469
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 152
+      "ms": 200
     },
     "RNZ": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 318
+      "ms": 355
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 641
+      "ms": 546
     },
     "Semafor": {
       "ok": true,
-      "count": 227,
+      "count": 230,
       "error": null,
-      "ms": 388
+      "ms": 425
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 615
+      "ms": 675
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 337
+      "ms": 556
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3176
+      "ms": 3144
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 192
+      "ms": 156
     },
     "The Independent": {
       "ok": true,
-      "count": 83,
+      "count": 80,
       "error": null,
-      "ms": 194
+      "ms": 188
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 299
+      "ms": 171
     }
   },
   "breaking": [
@@ -215,45 +215,17 @@
       "consensus": 3.5
     },
     {
-      "title": "North Korea threatens to shut Swiss office over Russian youth camp sanctions",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3375602/north-korea-threatens-shut-swiss-office-over-russian-youth-camp-sanctions",
-      "source": "SCMP",
-      "published": "2026-11-24T08:42:07+00:00",
-      "score": 3,
+      "title": "Inside Trump’s extraordinary push to get Jensen Huang back to Nvidia",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-nvidia-trump-scandal-b3090450.html",
+      "source": "The Independent",
+      "published": "2026-11-24T11:39:23+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/north-korea-switzerland-russia-war-b3090395.html",
-          "title": "North Korea to shut Swiss diplomatic site after sanctions on children’s camp",
-          "published": "2026-11-24T08:10:51+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/politics/north-korea-swiss-diplomatic-office/",
-          "title": "North Korea threatens to close Swiss diplomatic office",
-          "published": "2026-11-24T03:29:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
-      "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
-      "source": "Africanews",
-      "published": "2026-11-24T08:36:03+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
-          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
-          "published": "2026-11-24T08:35:56+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
-          "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
-          "published": "2026-11-23T18:49:19+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/why-us-president-donald-trump-believed-he-needed-to-get-jensen-huang-back-at-nvidia/article71737068.ece",
+          "title": "Why U.S. President Donald Trump believed he needed to get Jensen Huang back at Nvidia",
+          "published": "2026-11-24T07:37:14+00:00"
         }
       ],
       "consensus": 2.5
@@ -305,6 +277,15 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "The DRC reimposes cobalt export ban as prices drop",
+      "url": "https://www.semafor.com/article/11/24/2026/democratic-republic-of-congo-reimposes-cobalt-export-ban",
+      "source": "Semafor",
+      "published": "2026-11-24T12:00:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -313,19 +294,13 @@
       "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
       "source": "The Hindu",
       "published": "2026-11-24T07:10:52+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/23/ai-giant-nvidia-reinstates-jensen-huang-as-ceo-after-spy-scandal/",
           "title": "AI giant Nvidia reinstates Jensen Huang as CEO after spy scandal",
           "published": "2026-11-23T16:10:54+00:00"
-        },
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/economy-and-business/2026-11-23/nvidia-reinstates-jensen-huang-as-ceo.html",
-          "title": "Nvidia reinstates Jensen Huang as CEO",
-          "published": "2026-11-23T15:35:32+00:00"
         },
         {
           "source": "MercoPress",
@@ -340,7 +315,7 @@
           "published": "2026-11-23T14:18:53+00:00"
         }
       ],
-      "consensus": 7.0
+      "consensus": 5.5
     },
     {
       "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
@@ -415,6 +390,28 @@
       "consensus": 4.0
     },
     {
+      "title": "North Korea threatens to shut Swiss office over Russian youth camp sanctions",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375602/north-korea-threatens-shut-swiss-office-over-russian-youth-camp-sanctions",
+      "source": "SCMP",
+      "published": "2026-11-24T08:42:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/north-korea-switzerland-russia-war-b3090395.html",
+          "title": "North Korea to shut Swiss diplomatic site after sanctions on children’s camp",
+          "published": "2026-11-24T08:10:51+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/politics/north-korea-swiss-diplomatic-office/",
+          "title": "North Korea threatens to close Swiss diplomatic office",
+          "published": "2026-11-24T03:29:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Fourth country withdraws from the International Criminal Court after Putin visit",
       "url": "https://www.independent.co.uk/news/world/icc-tajikistan-putin-international-criminal-court-b3090409.html",
       "source": "The Independent",
@@ -459,6 +456,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Jensen Huang returns to Nvidia to applause from staff, no trademark leather jacket in sight",
+      "url": "https://www.scmp.com/tech/tech-war/article/3375539/jensen-huang-returns-nvidia-applause-staff-no-trademark-leather-jacket-sight",
+      "source": "SCMP",
+      "published": "2026-11-24T01:45:37+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "published": "2026-11-24T01:21:41+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
+          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
+          "published": "2026-11-23T21:46:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Sheikh Hasina seeks to return to Bangladesh on Dec 16 on state carrier",
       "url": "https://www.channelnewsasia.com/asia/bangladesh-sheikh-hasina-december-return-6576891",
       "source": "CNA",
@@ -479,6 +498,44 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Why Trump's move to get Jensen Huang reinstated as Nvidia CEO won't end the questions",
+      "url": "https://www.cbc.ca/news/world/trump-jensen-huang-nvidia-china-9.7433543?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T09:00:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo",
+          "title": "Jensen Huang reinstated as Nvidia CEO",
+          "published": "2026-11-23T22:10:10+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
+      "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
+      "source": "Africanews",
+      "published": "2026-11-24T08:36:03+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
+          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
+          "published": "2026-11-24T08:35:56+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
+          "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
+          "published": "2026-11-23T18:49:19+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "US army says detonation of lead explosives in Iowa will proceed",
@@ -508,38 +565,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
           "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
           "published": "2026-11-24T05:33:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Why U.S. President Donald Trump believed he needed to get Jensen Huang back at Nvidia",
-      "url": "https://www.thehindu.com/sci-tech/technology/why-us-president-donald-trump-believed-he-needed-to-get-jensen-huang-back-at-nvidia/article71737068.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T07:37:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-nvidia-jensen-huang-ceo-b3090191.html",
-          "title": "Trump got Jensen Huang back atop Nvidia — US security be damned",
-          "published": "2026-11-23T20:04:40+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia live: Markets surge as Jensen Huang returns as CEO",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/24/nvidia-live-markets-surge-as-jensen-huang-returns-as-ceo?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T06:24:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
-          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
-          "published": "2026-11-23T21:46:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -588,22 +613,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/who-cuba-visit-healthcare-hospitals-power-outages-b3090247.html",
           "title": "WHO chief visits Cuba amid severe shortages at hospitals and worsening health conditions",
           "published": "2026-11-23T21:58:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang returns to Nvidia to applause from staff, no trademark leather jacket in sight",
-      "url": "https://www.scmp.com/tech/tech-war/article/3375539/jensen-huang-returns-nvidia-applause-staff-no-trademark-leather-jacket-sight",
-      "source": "SCMP",
-      "published": "2026-11-24T01:45:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
-          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
-          "published": "2026-11-24T01:21:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -711,22 +720,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Trump made up to $15m after ousted Nvidia boss Jensen Huang reinstated: report",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-jensen-huang-nvidia-shares-b3090466.html",
-      "source": "The Independent",
-      "published": "2026-11-24T09:55:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo",
-          "title": "Jensen Huang reinstated as Nvidia CEO",
-          "published": "2026-11-23T22:10:10+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Gisèle Pelicot ‘deeply shocked’ after nude photos of her used to promote book",
       "url": "https://www.independent.co.uk/news/world/europe/gisele-pelicot-shocked-nude-photos-promote-book-b3090415.html",
       "source": "The Independent",
@@ -807,6 +800,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T11:34:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
       "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
       "source": "Africanews",
@@ -871,89 +880,73 @@
       "consensus": 1.5
     },
     {
-      "title": "China: 5,000 drones illuminate sky over Three Gorges at autumn festival",
-      "url": "http://www.africanews.com/2026/11/23/china-5000-drones-illuminate-sky-over-three-gorges-at-autumn-festival/",
-      "source": "Africanews",
-      "published": "2026-11-23T13:47:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/23/china-5000-drones-illuminate-sky-over-three-gorges-at-autumn-festival",
-          "title": "China: 5,000 drones illuminate sky over Three Gorges at autumn festival",
-          "published": "2026-11-23T13:46:57+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "US envoy casts doubt on Trump’s promise to end US$3.8b Israeli military funding",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375634/us-envoy-casts-doubt-trumps-promise-end-us38b-israeli-military-funding",
+      "title": "Why did China choose a retired diplomat to welcome Sanae Takaichi to Apec?",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375637/why-did-china-choose-retired-diplomat-welcome-sanae-takaichi-apec",
       "source": "SCMP",
-      "published": "2026-11-24T11:27:05+00:00",
+      "published": "2026-11-24T12:00:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "We’re entering a Chinese world",
-      "url": "https://www.semafor.com/article/11/24/2026/were-entering-a-chinese-world",
+      "title": "Chinese cobalt firms race to beat DR Congo’s export ban on key battery material",
+      "url": "https://www.scmp.com/economy/global-economy/article/3375611/chinese-cobalt-firms-race-beat-dr-congos-export-ban-key-battery-material",
+      "source": "SCMP",
+      "published": "2026-11-24T12:00:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Chinese authorities look to halt stock market sell-off",
+      "url": "https://www.semafor.com/article/11/24/2026/chinese-authorities-took-steps-to-stop-stock-market-sell-off",
       "source": "Semafor",
-      "published": "2026-11-24T11:22:51+00:00",
+      "published": "2026-11-24T11:59:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "AFCON: Ten months on, court to rule on 2025 winner",
-      "url": "https://www.france24.com/en/video/20261124-afcon-ten-months-on-court-to-rule-on-2025-winner",
-      "source": "France24",
-      "published": "2026-11-24T11:21:54+00:00",
+      "title": "Bangladesh garment workers clash with police as pay protests shut factories",
+      "url": "https://www.straitstimes.com/asia/bangladesh-garment-workers-clash-with-police-as-pay-protests-shut-factories",
+      "source": "Straits Times",
+      "published": "2026-11-24T11:57:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Ukraine-Russia war latest: Moscow threatens Nato member with ‘open war’ over plans to close border",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-nato-estonia-warship-casualties-map-b3090337.html",
+      "title": "Oil prices near three-month low",
+      "url": "https://www.semafor.com/article/11/24/2026/oil-prices-near-three-month-low",
+      "source": "Semafor",
+      "published": "2026-11-24T11:57:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hiker father dies falling 500 feet from icy mountain after helping son",
+      "url": "https://www.independent.co.uk/news/world/americas/guillermo-alejandro-batres-baden-powell-death-b3090529.html",
       "source": "The Independent",
-      "published": "2026-11-24T11:21:53+00:00",
+      "published": "2026-11-24T11:46:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Oncologist and physicist both win Australia's top science prize",
-      "url": "https://www.abc.net.au/news/science/2026-11-24/2026-prime-minister-prize-for-science/107415808",
+      "title": "'Wake-up call' for Cattle Australia as narrow vote approves levy increase",
+      "url": "https://www.abc.net.au/news/rural/2026-11-24/narrow-vote-approves-cattle-levy-rise/107421838",
       "source": "ABC Australia",
-      "published": "2026-11-24T11:20:50+00:00",
+      "published": "2026-11-24T11:45:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Iraq orders takeover of oilfields in areas under Kurdish control",
-      "url": "https://www.aljazeera.com/news/2026/11/24/iraq-orders-takeover-of-oilfields-in-areas-under-kurdish-control?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T11:19:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Vietnam restaurant blast kills at least six",
-      "url": "https://www.aljazeera.com/news/2026/11/24/vietnam-restaurant-blast-kills-at-least-six?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T11:17:20+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "French astronaut Thomas Pesquet answers kids' space questions",
-      "url": "https://www.france24.com/en/video/20261124-french-astronaut-thomas-pesquet-answers-kids-space-questions",
-      "source": "France24",
-      "published": "2026-11-24T11:08:22+00:00",
+      "title": "Right-wing revolt threatens to bog down EU budget",
+      "url": "https://www.politico.eu/article/right-wing-revolt-threatens-to-bog-down-eu-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-24T11:41:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -970,10 +963,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 136.18,
+      "price": 136.38,
       "currency": "GBP",
-      "change": -1.98,
-      "change_percent": -1.43,
+      "change": -1.78,
+      "change_percent": -1.29,
       "name": "FTSE All-World ETF"
     },
     {
@@ -986,10 +979,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10456.89,
+      "price": 10472.09,
       "currency": "GBP",
-      "change": -23.93,
-      "change_percent": -0.23,
+      "change": -8.73,
+      "change_percent": -0.08,
       "name": "FTSE 100"
     }
   ],
@@ -1005,10 +998,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10456.89,
+        "price": 10472.09,
         "currency": "GBP",
-        "change": -23.93,
-        "change_percent": -0.23,
+        "change": -8.73,
+        "change_percent": -0.08,
         "name": "FTSE 100"
       },
       {
@@ -1037,52 +1030,52 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25127.26,
+        "price": 25174.82,
         "currency": "EUR",
-        "change": -210.01,
-        "change_percent": -0.83,
+        "change": -162.45,
+        "change_percent": -0.64,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8041.9,
+        "price": 8054.94,
         "currency": "EUR",
-        "change": -2.94,
-        "change_percent": -0.04,
+        "change": 10.1,
+        "change_percent": 0.13,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3626.8,
+        "price": 3633.6,
         "currency": "USD",
-        "change": -24.6,
-        "change_percent": -0.67,
+        "change": -17.8,
+        "change_percent": -0.49,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.81,
+        "price": 42.2,
         "currency": "USD",
-        "change": -1.36,
-        "change_percent": -3.16,
+        "change": -0.97,
+        "change_percent": -2.25,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 86.83,
+        "price": 87.02,
         "currency": "USD",
-        "change": 0.15,
-        "change_percent": 0.17,
+        "change": 0.34,
+        "change_percent": 0.39,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
         "price": 1.1,
         "currency": "USD",
-        "change": 0.0,
-        "change_percent": 0.43,
+        "change": 0.01,
+        "change_percent": 0.5,
         "name": "EUR/USD"
       },
       {
@@ -1090,23 +1083,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.28,
+        "change_percent": 0.38,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
         "price": 159.21,
         "currency": "JPY",
-        "change": 0.22,
+        "change": 0.23,
         "change_percent": 0.14,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59796.71,
+        "price": 60299.33,
         "currency": "USD",
-        "change": -1414.44,
-        "change_percent": -2.31,
+        "change": -911.82,
+        "change_percent": -1.49,
         "name": "Bitcoin"
       }
     ],
@@ -1277,22 +1270,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "US tech stocks set to slip after blistering rally",
+          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+          "published": "2026-11-24T11:54:28+00:00",
+          "snippet": "Asian markets rise as investors react to news of Jensen Huang’s reinstatement as Nvidia chief"
+        },
+        {
+          "title": "Russian navy licks its wounds as another warship is sunk",
+          "url": "https://www.ft.com/content/ef3cfa29-4613-426c-9b87-dd76664e6859?syn-25a6b1a6=1",
+          "published": "2026-11-24T11:51:27+00:00",
+          "snippet": "Ukrainian drones have struck Moscow’s warships and freighters in the Black Sea, Baltic and Mediterranean"
+        },
+        {
           "title": "FirstFT: Investors welcome Jensen Huang’s return",
           "url": "https://www.ft.com/content/5fd14979-e239-4eaf-bbfb-cde969afb514?syn-25a6b1a6=1",
           "published": "2026-11-24T11:21:08+00:00",
           "snippet": "Also in today’s newsletter: Britain’s purchase of fake explosives and a $41bn pharma deal"
-        },
-        {
-          "title": "Sanofi strikes $41bn deal as patent cliff looms",
-          "url": "https://www.ft.com/content/94e3ca43-cf90-4566-90df-86dd6a1554b2?syn-25a6b1a6=1",
-          "published": "2026-11-24T11:05:33+00:00",
-          "snippet": "French drugmaker secures two commercial drugs in its hunt for tie-ups to offset falling revenue from Dupixent"
-        },
-        {
-          "title": "US tech stocks set to slip after blistering rally",
-          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-          "published": "2026-11-24T11:04:25+00:00",
-          "snippet": "Asian markets rise as investors react to news of Jensen Huang’s reinstatement as Nvidia chief"
         }
       ]
     },
@@ -1302,22 +1295,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "<em>The Big Bang Theory</em>: A Theory",
+          "url": "https://www.theatlantic.com/culture/2026/11/big-bang-theory-most-streamed/689555/?utm_source=feed",
+          "published": "2026-11-24T12:00:00+00:00",
+          "snippet": "Why a 19-year-old sitcom about the nerdiest of nerds continues to lead the streaming charts"
+        },
+        {
+          "title": "‘Our History Is Better Than Anybody Else’s’",
+          "url": "https://www.theatlantic.com/ideas/2026/11/western-civilization-culture-war/689289/?utm_source=feed",
+          "published": "2026-11-24T12:00:00+00:00",
+          "snippet": "Marco Rubio’s story of Western civilization"
+        },
+        {
           "title": "Jensen Huang and Silicon Valley’s Short-Term Thinking",
           "url": "https://www.theatlantic.com/podcasts/2026/11/ra-nvidia/689551/?utm_source=feed",
           "published": "2026-11-24T01:34:03+00:00",
           "snippet": "The stock market may have rallied, but this scandal is just beginning."
-        },
-        {
-          "title": "The Economy Is a Hostage Situation",
-          "url": "https://www.theatlantic.com/technology/2026/11/ai-hostage-economy-nvidia-huang/689552/?utm_source=feed",
-          "published": "2026-11-23T20:30:51+00:00",
-          "snippet": "America has two choices under Nvidia’s market dominance, and both are bad."
-        },
-        {
-          "title": "A Shameless Valley",
-          "url": "https://www.theatlantic.com/technology/2026/11/silicon-valley-shameless-nvidia/689549/?utm_source=feed",
-          "published": "2026-11-23T19:48:24+00:00",
-          "snippet": "The time it apparently takes to atone for your sins in Silicon Valley: less than two weeks."
         }
       ]
     },
@@ -1402,7 +1395,7 @@
       {
         "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
         "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
-        "score": 6,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-24T11:13:55+00:00"
       },
@@ -1410,14 +1403,14 @@
         "title": "Worshipping at the altar of Brendan Gregg",
         "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
         "comments_url": "https://lobste.rs/s/voxuev/worshipping_at_altar_brendan_gregg",
-        "score": 1,
+        "score": 0,
         "source": "Lobste.rs",
         "published": "2026-11-24T10:50:52.927000+00:00"
       },
       {
         "title": "Worshipping at the Altar of Brendan Gregg",
         "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-        "score": 3,
+        "score": 19,
         "source": "Hacker News",
         "published": "2026-11-24T10:50:14+00:00"
       },
@@ -1425,9 +1418,16 @@
         "title": "Bypassing iOS Safari 60 FPS Limit",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
         "comments_url": "https://lobste.rs/s/pxvmxo/bypassing_ios_safari_60_fps_limit",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-24T10:35:19.962000+00:00"
+      },
+      {
+        "title": "Just a Few Bugs",
+        "url": "https://www.justafewbugs.xyz/",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-24T09:47:59+00:00"
       },
       {
         "title": "There's no reason for software to be slow anymore",
@@ -1440,7 +1440,7 @@
       {
         "title": "2035 Came Early",
         "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-        "score": 320,
+        "score": 347,
         "source": "Hacker News",
         "published": "2026-11-24T06:30:33+00:00"
       },
@@ -1448,28 +1448,28 @@
         "title": "2035 came early",
         "url": "https://fzakaria.com/2026/11/23/2035-came-early",
         "comments_url": "https://lobste.rs/s/rkk6o8/2035_came_early",
-        "score": 22,
+        "score": 28,
         "source": "Lobste.rs",
         "published": "2026-11-24T06:30:15.741000+00:00"
       },
       {
         "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
         "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
-        "score": 113,
+        "score": 120,
         "source": "Hacker News",
         "published": "2026-11-24T05:15:22+00:00"
       },
       {
         "title": "Drone Maps of Salvage Yards",
         "url": "https://salvageyarddrone.wordpress.com/",
-        "score": 101,
+        "score": 103,
         "source": "Hacker News",
         "published": "2026-11-24T04:00:28+00:00"
       },
       {
         "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
         "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
-        "score": 404,
+        "score": 425,
         "source": "Hacker News",
         "published": "2026-11-24T02:27:02+00:00"
       },
@@ -1477,7 +1477,7 @@
         "title": "What VP != VNP Means (In 3 Minutes)",
         "url": "https://www.friedgil.com/vpvnp/",
         "comments_url": "https://lobste.rs/s/2k95fs/what_vp_vnp_means_3_minutes",
-        "score": 27,
+        "score": 28,
         "source": "Lobste.rs",
         "published": "2026-11-24T02:10:30.101000+00:00"
       },
@@ -1493,7 +1493,7 @@
         "title": "Lua for data representation",
         "url": "https://citrons.xyz/journal/2025-07-23",
         "comments_url": "https://lobste.rs/s/ezml41/lua_for_data_representation",
-        "score": 20,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-24T00:22:05.087000+00:00"
       },
@@ -1501,16 +1501,9 @@
         "title": "cgo's pointer check is all over the place",
         "url": "https://theconsensus.dev/p/2026/11/15/cgos-pointer-check.html",
         "comments_url": "https://lobste.rs/s/fgbvtt/cgo_s_pointer_check_is_all_over_place",
-        "score": 10,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-23T23:36:14.289000+00:00"
-      },
-      {
-        "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
-        "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-        "score": 501,
-        "source": "Hacker News",
-        "published": "2026-11-23T22:32:29+00:00"
       }
     ],
     "reddit": [

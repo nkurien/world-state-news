@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T16:01:19.773425+00:00",
+  "last_updated": "2026-11-24T16:30:56.945520+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 301
+      "ms": 601
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 202
+      "ms": 523
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 146
+      "ms": 55
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 127
+      "ms": 52
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 313
+      "ms": 278
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 179
+      "ms": 95
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null,
-      "ms": 345
+      "ms": 295
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 343
+      "ms": 403
     },
     "Euronews": {
-      "ok": true,
-      "count": 45,
-      "error": null,
-      "ms": 42
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3096
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 141
+      "ms": 112
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 531
+      "ms": 566
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 246
+      "ms": 455
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 108
+      "ms": 304
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 106
+      "ms": 191
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 111
+      "ms": 109
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 43,
       "error": null,
-      "ms": 184
+      "ms": 147
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 473
+      "ms": 810
     },
     "Semafor": {
       "ok": true,
       "count": 238,
       "error": null,
-      "ms": 457
+      "ms": 849
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 570
+      "ms": 711
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 187
+      "ms": 223
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3085
+      "ms": 3096
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 180
+      "ms": 482
     },
     "The Independent": {
       "ok": true,
-      "count": 88,
+      "count": 91,
       "error": null,
-      "ms": 434
+      "ms": 266
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 204
+      "ms": 324
     }
   },
   "breaking": [
@@ -281,23 +281,17 @@
       "consensus": 2.5
     },
     {
-      "title": "CAS awards Senegal AFCON title after successful appeal",
-      "url": "https://www.euronews.com/2026/11/24/cas-awards-senegal-afcon-title-after-successful-appeal",
-      "source": "Euronews",
-      "published": "2026-11-24T14:51:39+00:00",
-      "score": 3,
+      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
+      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-of-finland-a94364",
+      "source": "The Moscow Times",
+      "published": "2026-11-24T14:47:26+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/sport/20261124-sports-court-verdict-senegal-appeal-africa-cup-of-nations-title-tuesday",
-          "title": "🔴Senegal regain AFCON title after successful appeal at sport arbitration court",
-          "published": "2026-11-24T14:25:06+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/23/cas-to-publish-verdict-on-senegal-afcon-title-appeal-on-tuesday/",
-          "title": "CAS to publish verdict on Senegal AFCON title appeal on Tuesday",
-          "published": "2026-11-23T14:25:55+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/ukraine-attack-russian-warship-libya-merkury-9.7432215?cmp=rss",
+          "title": "Zelenskyy confirms Ukraine was behind attack on Russian warship off Libya",
+          "published": "2026-11-23T09:47:02+00:00"
         }
       ],
       "consensus": 2.5
@@ -307,14 +301,8 @@
       "url": "http://www.africanews.com/2026/11/24/nvidia-staff-cheer-jensen-huangs-return-as-ceo-after-spy-scandal/",
       "source": "Africanews",
       "published": "2026-11-24T14:14:10+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo",
-          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
-          "published": "2026-11-24T09:17:33+00:00"
-        },
         {
           "source": "The Independent",
           "url": "https://www.independent.co.uk/tech/nvidia-jensen-huang-ceo-b3089946.html",
@@ -355,32 +343,26 @@
       "consensus": 5.5
     },
     {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
-      "url": "https://www.thehindu.com/news/international/zelenskyy-hails-ukraines-attack-on-a-russian-warship-in-libya/article71735901.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T16:57:47+00:00",
-      "score": 4,
+      "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+      "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
+      "source": "NPR World",
+      "published": "2026-11-24T12:12:25+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-          "published": "2026-11-23T10:16:33+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "published": "2026-11-24T01:21:41+00:00"
         },
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/ukraine-attack-russian-warship-libya-merkury-9.7432215?cmp=rss",
-          "title": "Zelenskyy confirms Ukraine was behind attack on Russian warship off Libya",
-          "published": "2026-11-23T09:47:02+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
-          "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
-          "published": "2026-11-23T09:39:00+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
+          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
+          "published": "2026-11-23T21:46:00+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 4.0
     },
     {
       "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
@@ -405,48 +387,26 @@
       "consensus": 4.0
     },
     {
-      "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
-      "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-22T17:11:00+00:00",
+      "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-hails-ukraines-attack-on-a-russian-warship-in-libya/article71735901.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T16:57:47+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
-          "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
-          "published": "2026-11-22T16:20:51+00:00"
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+          "published": "2026-11-23T10:16:33+00:00"
         },
         {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
-          "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
-          "published": "2026-11-22T14:22:44+00:00"
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
+          "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
+          "published": "2026-11-23T09:39:00+00:00"
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "Iran carries out flogging of singer and her team, Iranian website says",
-      "url": "https://www.thehindu.com/news/international/iran-carries-out-flogging-of-singer-and-her-team-iranian-website-says/article71737731.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T10:31:43+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
-          "title": "Iran carries out flogging of singer who performed without hijab",
-          "published": "2026-11-23T18:29:34+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
-          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-          "published": "2026-11-23T18:04:20+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "North Korea threatens to shut Swiss office over Russian youth camp sanctions",
@@ -488,6 +448,28 @@
           "url": "https://www.straitstimes.com/asia/tajikistan-becomes-fourth-country-to-withdraw-from-icc-since-us-diplomatic-push",
           "title": "Tajikistan becomes fourth country to withdraw from ICC since US diplomatic push",
           "published": "2026-11-23T13:22:32+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Iranian singer flogged for performing without hijab",
+      "url": "https://www.independent.co.uk/news/world/middle-east/iran-singer-parastoo-ahmadi-flogged-b3090307.html",
+      "source": "The Independent",
+      "published": "2026-11-24T05:55:18+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/iran-singer-flogging-9.7432912?cmp=rss",
+          "title": "Iranian singer subjected to 74 lashes for performing without her hijab",
+          "published": "2026-11-23T19:32:44+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
+          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+          "published": "2026-11-23T18:04:20+00:00"
         }
       ],
       "consensus": 3.5
@@ -553,38 +535,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Huang returns as Nvidia CEO in sudden reversal after Trump intervention",
-      "url": "https://www.france24.com/en/video/20261124-huang-returns-as-nvidia-ceo-in-sudden-reversal-after-trump-intervention",
-      "source": "France24",
-      "published": "2026-11-24T12:19:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
-          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
-          "published": "2026-11-23T21:46:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
-      "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
-      "source": "NPR World",
-      "published": "2026-11-24T12:12:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
-          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
-          "published": "2026-11-24T01:21:41+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Russia reportedly to launch a nuclear weapon into space",
       "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
       "source": "Semafor",
@@ -637,14 +587,8 @@
       "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
       "source": "Africanews",
       "published": "2026-11-24T08:36:03+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
-          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
-          "published": "2026-11-24T08:35:56+00:00"
-        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
@@ -687,22 +631,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Iranian singer flogged for performing without hijab",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-singer-parastoo-ahmadi-flogged-b3090307.html",
-      "source": "The Independent",
-      "published": "2026-11-24T05:55:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/iran-singer-flogging-9.7432912?cmp=rss",
-          "title": "Iranian singer subjected to 74 lashes for performing without her hijab",
-          "published": "2026-11-23T19:32:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "US chip curbs will not impact Malaysia’s China ties: Anwar",
       "url": "https://www.straitstimes.com/asia/se-asia/us-chip-curbs-will-not-impact-malaysias-china-ties-anwar",
       "source": "Straits Times",
@@ -735,17 +663,33 @@
       "consensus": 2.5
     },
     {
-      "title": "Will use 'all available means' to counter U.S. blockade: Iran",
-      "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece",
+      "title": "Zelenskyy calls for four-way talks with Russia ‘as soon as possible’",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-calls-for-four-way-talks-with-russia-as-soon-as-possible/article71734890.ece",
       "source": "The Hindu",
-      "published": "2026-11-23T17:18:26+00:00",
+      "published": "2026-11-23T15:18:20+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
-          "title": "Iran vows 'every means' to counter US blockade of Hormuz after Trump threat",
-          "published": "2026-11-23T11:34:05+00:00"
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence",
+          "title": "Zelensky calls for EU inclusion in talks with Russia 'as soon as possible'",
+          "published": "2026-11-23T14:32:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
+      "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
+      "source": "Africanews",
+      "published": "2026-11-22T16:20:51+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
+          "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
+          "published": "2026-11-22T14:22:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -768,38 +712,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html",
           "title": "French police officer who shot teenager to stand trial for murder following appeal",
           "published": "2026-11-24T12:01:20+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
-      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-of-finland-a94364",
-      "source": "The Moscow Times",
-      "published": "2026-11-24T14:47:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/footage-of-russian-cargo-ship-hit-by-ukrainian-drone-attack-in-the-gulf-of-finland",
-          "title": "Footage of Russian cargo ship hit by Ukrainian drone attack in the Gulf of Finland",
-          "published": "2026-11-24T08:14:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "'Nothing will ever be the same' for Jensen Huang and Nvidia after his return",
-      "url": "https://www.france24.com/en/tv-shows/press-review/20261124-nothing-will-ever-be-the-same-for-jensen-huang-and-nvidia-after-his-return",
-      "source": "France24",
-      "published": "2026-11-24T11:28:12+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/video-shows-nvidia-employees-give-jensen-huang-a-standing-ovation-on-his-return",
-          "title": "Video shows Nvidia employees give Jensen Huang a standing ovation on his return",
-          "published": "2026-11-24T10:56:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -853,100 +765,119 @@
       "consensus": 2.0
     },
     {
-      "title": "Ukraine shares video of strikes on Russian ships off Libya",
-      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T11:34:10+00:00",
+      "title": "5.6 magnitude earthquake strikes Nepal’s Koshi province close to China border",
+      "url": "https://www.thehindu.com/news/international/earthquake-strikes-nepals-koshi-province-close-to-china-border/article71737092.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T03:41:17+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-          "published": "2026-11-23T05:58:22+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/magnitude-5-3-earthquake-strikes-nepals-koshi-province-emsc",
+          "title": "5.3-magnitude earthquake strikes Nepal’s Koshi province: EMSC",
+          "published": "2026-11-24T02:04:39+00:00"
         }
       ],
       "consensus": 2.0
     },
     {
-      "title": "France: Chefs compete for the world egg mayonnaise championship",
-      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:12:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
-          "title": "France: Chefs compete for the world egg mayonnaise championship",
-          "published": "2026-11-24T14:11:57+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Spain election tracker: Right-wing coalition favourite to win on betting markets as Sanchez falls behind",
+      "url": "https://www.independent.co.uk/news/world/europe/spain-election-poll-tracker-sanchez-b3090796.html",
+      "source": "The Independent",
+      "published": "2026-11-24T16:23:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
-      "source": "Africanews",
-      "published": "2026-11-24T09:19:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire",
-          "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-          "published": "2026-11-24T09:19:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "House Democrat’s investigation into Don Trump Jr.’s investment firm expands with four new letters sent",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/don-trump-jr-1789-capital-investments-investigation-b3090820.html",
+      "source": "The Independent",
+      "published": "2026-11-24T16:22:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
-      "source": "Africanews",
-      "published": "2026-11-24T07:22:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
-          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-          "published": "2026-11-24T07:22:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Ukraine's bid for NATO membership and more air defense remain controversial",
+      "url": "https://www.dw.com/en/ukraine-s-bid-for-nato-membership-and-more-air-defense-remain-controversial/a-80029852?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-24T16:18:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Tanzania: Towering flames engulf beachfront hotels in Zanzibar",
-      "url": "http://www.africanews.com/2026/11/23/tanzania-towering-flames-engulf-beachfront-hotels-in-zanzibar/",
-      "source": "Africanews",
-      "published": "2026-11-23T21:48:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/23/tanzania-towering-flames-engulf-beachfront-hotels-in-zanzibar",
-          "title": "Tanzania: Towering flames engulf beachfront hotels in Zanzibar",
-          "published": "2026-11-23T21:48:46+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Environment Canterbury asks Fonterra for more info on plan to dump 22m litres of raw milk",
+      "url": "https://www.rnz.co.nz/news/business/2767706/environment-canterbury-asks-fonterra-for-more-info-on-plan-to-dump-22m-litres-of-raw-milk",
+      "source": "RNZ",
+      "published": "2026-11-24T16:15:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Belgium: Workers march against spending cuts as living costs rise",
-      "url": "http://www.africanews.com/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise/",
-      "source": "Africanews",
-      "published": "2026-11-23T21:09:53+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise",
-          "title": "Belgium: Workers march against spending cuts as living costs rise",
-          "published": "2026-11-23T21:09:46+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "How does your salary compare - here and in Australia?",
+      "url": "https://www.rnz.co.nz/news/business/2767586/how-does-your-salary-compare-here-and-in-australia",
+      "source": "RNZ",
+      "published": "2026-11-24T16:10:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Families forced into hotels over Thanksgiving after toxic landfill erupts in methane geyser",
+      "url": "https://www.independent.co.uk/news/world/americas/chiquita-canyon-landfill-methane-geyser-b3090801.html",
+      "source": "The Independent",
+      "published": "2026-11-24T16:08:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kadyrov’s Son Granted Serbian Citizenship Under an Alias – FBK",
+      "url": "https://www.themoscowtimes.com/2026/11/24/kadyrovs-son-granted-serbian-citizenship-under-an-alias-fbk-a94363",
+      "source": "The Moscow Times",
+      "published": "2026-11-24T16:07:12+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Arsenal vs Borussia Dortmund LIVE: UEFA Champions League",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/24/arsenal-vs-borussia-dortmund-live-uefa-champions-league?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T16:01:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Consumer calls out Kmart's 'wild double standard' over asbestos sand",
+      "url": "https://www.rnz.co.nz/news/health/2767591/consumer-calls-out-kmart-s-wild-double-standard-over-asbestos-sand",
+      "source": "RNZ",
+      "published": "2026-11-24T16:00:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Wherever I can help': Law dream realised 20 years on",
+      "url": "https://www.rnz.co.nz/news/te-manu-korihi/2767590/wherever-i-can-help-law-dream-realised-20-years-on",
+      "source": "RNZ",
+      "published": "2026-11-24T16:00:54+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Where New Zealanders are travelling as dollar hits 17-year low",
+      "url": "https://www.rnz.co.nz/news/personal-finance/2767583/where-new-zealanders-are-travelling-as-dollar-hits-17-year-low",
+      "source": "RNZ",
+      "published": "2026-11-24T16:00:31+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "Bloom KKCA Academy prepares future-ready learners through project-based education",
@@ -958,10 +889,19 @@
       "consensus": 1.0
     },
     {
-      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-      "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
-      "source": "Euronews",
-      "published": "2026-11-24T15:54:58+00:00",
+      "title": "Palestine Weekly: A night of arson sees Israel ‘Jewish terrorism’ reckoning",
+      "url": "https://www.aljazeera.com/news/2026/11/24/palestine-weekly-a-night-of-arson-sees-israel-jewish-terrorism-reckoning?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T15:56:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Five women killed every hour globally by partner, relative last year: UN",
+      "url": "https://www.aljazeera.com/news/2026/11/24/five-women-killed-every-hour-globally-by-partner-relative-in-2025-un?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T15:55:36+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -974,66 +914,39 @@
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
-    },
-    {
-      "title": "Senegal reclaim Africa Cup of Nations title after 11-month legal fight",
-      "url": "https://www.rfi.fr/en/sports/20261124-top-sports-lawyers-declare-senegal-2025-afcon-champions",
-      "source": "RFI English",
-      "published": "2026-11-24T15:51:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Burnham's EU reset brings back Brexit debate",
-      "url": "https://www.france24.com/en/video/20261124-burnham-s-eu-reset-brings-back-brexit-debate",
-      "source": "France24",
-      "published": "2026-11-24T15:51:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "23 injured after car bomb explodes outside government offices in Colombia",
-      "url": "https://www.independent.co.uk/news/world/americas/colombia-villavicencio-car-bomb-explosion-b3090784.html",
-      "source": "The Independent",
-      "published": "2026-11-24T15:47:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7154.03,
+      "price": 7156.24,
       "currency": "USD",
-      "change": -83.14,
-      "change_percent": -1.15,
+      "change": -80.93,
+      "change_percent": -1.12,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 135.6,
+      "price": 135.26,
       "currency": "GBP",
-      "change": -2.56,
-      "change_percent": -1.85,
+      "change": -2.9,
+      "change_percent": -2.1,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23534.87,
+      "price": 23516.73,
       "currency": "USD",
-      "change": -554.69,
-      "change_percent": -2.3,
+      "change": -572.83,
+      "change_percent": -2.38,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10457.52,
+      "price": 10448.94,
       "currency": "GBP",
-      "change": -23.3,
-      "change_percent": -0.22,
+      "change": -31.88,
+      "change_percent": -0.3,
       "name": "FTSE 100"
     }
   ],
@@ -1041,34 +954,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7154.03,
+        "price": 7156.24,
         "currency": "USD",
-        "change": -83.14,
-        "change_percent": -1.15,
+        "change": -80.93,
+        "change_percent": -1.12,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10457.52,
+        "price": 10448.94,
         "currency": "GBP",
-        "change": -23.3,
-        "change_percent": -0.22,
+        "change": -31.88,
+        "change_percent": -0.3,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 49579.99,
+        "price": 49648.54,
         "currency": "USD",
-        "change": -15.32,
-        "change_percent": -0.03,
+        "change": 53.23,
+        "change_percent": 0.11,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23534.87,
+        "price": 23516.73,
         "currency": "USD",
-        "change": -554.69,
-        "change_percent": -2.3,
+        "change": -572.83,
+        "change_percent": -2.38,
         "name": "NASDAQ Composite"
       },
       {
@@ -1081,44 +994,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25025.17,
+        "price": 24960.76,
         "currency": "EUR",
-        "change": -312.1,
-        "change_percent": -1.23,
+        "change": -376.51,
+        "change_percent": -1.49,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8040.77,
+        "price": 8033.28,
         "currency": "EUR",
-        "change": -4.07,
-        "change_percent": -0.05,
+        "change": -11.56,
+        "change_percent": -0.14,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3580.2,
+        "price": 3563.3,
         "currency": "USD",
-        "change": -71.2,
-        "change_percent": -1.95,
+        "change": -88.1,
+        "change_percent": -2.41,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.0,
+        "price": 40.72,
         "currency": "USD",
-        "change": -2.17,
-        "change_percent": -5.04,
+        "change": -2.45,
+        "change_percent": -5.69,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 86.62,
+        "price": 87.06,
         "currency": "USD",
-        "change": -0.06,
-        "change_percent": -0.07,
+        "change": 0.38,
+        "change_percent": 0.44,
         "name": "Brent Crude"
       },
       {
@@ -1134,81 +1047,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.56,
+        "change_percent": 0.55,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.09,
+        "price": 159.16,
         "currency": "JPY",
-        "change": 0.11,
-        "change_percent": 0.07,
+        "change": 0.18,
+        "change_percent": 0.11,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59615.57,
+        "price": 59466.13,
         "currency": "USD",
-        "change": -1595.58,
-        "change_percent": -2.61,
+        "change": -1745.02,
+        "change_percent": -2.85,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 494.46,
+        "price": 495.61,
         "currency": "USD",
-        "change": 1.96,
-        "change_percent": 0.4,
+        "change": 3.11,
+        "change_percent": 0.63,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 350.37,
+        "price": 351.11,
         "currency": "USD",
-        "change": 1.29,
-        "change_percent": 0.37,
+        "change": 2.03,
+        "change_percent": 0.58,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 151.57,
+        "price": 151.27,
         "currency": "USD",
-        "change": -13.48,
-        "change_percent": -8.17,
+        "change": -13.78,
+        "change_percent": -8.35,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 277.99,
+        "price": 277.0,
         "currency": "USD",
-        "change": -4.12,
-        "change_percent": -1.46,
+        "change": -5.1,
+        "change_percent": -1.81,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 252.59,
+        "price": 251.44,
         "currency": "USD",
-        "change": -2.79,
-        "change_percent": -1.09,
+        "change": -3.94,
+        "change_percent": -1.54,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 379.08,
+        "price": 376.8,
         "currency": "USD",
-        "change": -6.38,
-        "change_percent": -1.66,
+        "change": -8.66,
+        "change_percent": -2.25,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 588.06,
+        "price": 587.88,
         "currency": "USD",
-        "change": -9.54,
-        "change_percent": -1.6,
+        "change": -9.72,
+        "change_percent": -1.63,
         "name": "Meta"
       }
     ]
@@ -1245,25 +1158,24 @@
       "column": "briefings",
       "entries": [
         {
-          "title": "The new Anthropic multibillionaires",
-          "url": "https://theweek.com/tech/the-new-anthropic-multibillionaires",
-          "published": "2026-11-24T14:09:10+00:00",
-          "snippet": "Seven former OpenAI employees now lead one of the world’s most valuable companies"
+          "title": "The Week contest: Vampire spies",
+          "url": "https://theweek.com/puzzles/the-week-contest-vampire-spies",
+          "published": "2026-11-24T15:51:59+00:00",
+          "snippet": "The Week contest: Vampire spies"
         },
         {
-          "title": "Spine-tingling podcasts you may have missed this fall",
-          "url": "https://theweek.com/podcasts/spine-tingling-podcasts-you-may-have-missed-this-fall",
-          "published": "2026-11-24T07:00:00+00:00",
-          "snippet": "These unforgettable audio adventures include a juicy family mystery and an award-winning show’s last season"
+          "title": "Hermione Lee’s 6 favorite books",
+          "url": "https://theweek.com/culture-life/books/hermione-lees-6-favorite-books",
+          "published": "2026-11-24T15:43:53+00:00",
+          "snippet": "The author recommends six books that novelist Anita Brookner also loved"
         },
         {
-          "title": "How did Jensen Huang return to Nvidia so quickly?",
-          "url": "https://theweek.com/tech/how-did-jensen-huang-return-to-nvidia-so-quickly",
-          "published": "2026-11-23T19:19:46+00:00",
-          "snippet": "Trump and tech leaders pushed for Huang’s do-over"
+          "title": "Wealth tax: Does it have a future?",
+          "url": "https://theweek.com/business/economy/wealth-tax-have-future",
+          "published": "2026-11-24T15:34:29+00:00",
+          "snippet": "People have been debating the tax idea for years"
         }
-      ],
-      "stale": true
+      ]
     },
     {
       "id": "guardian_first_edition",
@@ -1322,9 +1234,15 @@
       "column": "global",
       "entries": [
         {
+          "title": "Anthropic falls below IPO price as tech rally fades",
+          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+          "published": "2026-11-24T16:26:16+00:00",
+          "snippet": "Investor relief over reinstatement of Jensen Huang as Nvidia CEO subsides"
+        },
+        {
           "title": "Houthi attack on Saudi sovereign wealth fund HQ injures 11",
           "url": "https://www.ft.com/content/ecdf59b6-c78b-4703-bc26-8d085d7b9d24?syn-25a6b1a6=1",
-          "published": "2026-11-24T15:59:43+00:00",
+          "published": "2026-11-24T16:05:31+00:00",
           "snippet": "Strike on Riyadh’s PIF Tower came as kingdom unveiled first budget since conflict restarted"
         },
         {
@@ -1332,12 +1250,6 @@
           "url": "https://www.ft.com/content/02240d42-ccd8-4b4d-b0e3-49a04c950eea?syn-25a6b1a6=1",
           "published": "2026-11-24T15:55:20+00:00",
           "snippet": "Chen Jining under investigation over suspected ‘severe violations of discipline and laws’"
-        },
-        {
-          "title": "Iraqi government to take control of Kurdish-held oilfields",
-          "url": "https://www.ft.com/content/5b03bc34-79a5-4c90-8b92-17b27b19098e?syn-25a6b1a6=1",
-          "published": "2026-11-24T15:47:33+00:00",
-          "snippet": "Move comes as PM works to assert power over the semi-autonomous Kurdish region and Iran-backed Shia militant groups"
         }
       ]
     },
@@ -1346,6 +1258,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "What It Means to Protect Elections",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/what-it-means-to-protect-elections/689048/?utm_source=feed",
+          "published": "2026-11-24T16:00:00+00:00",
+          "snippet": "The Democratic election lawyer Marc Elias explains why one free and fair election does not end the threat to our democracy."
+        },
         {
           "title": "Was a Drug Lord’s Killing in Ecuador Not What It Seemed?",
           "url": "https://www.theatlantic.com/national-security/2026/11/ecuador-drug-cartel-raid-investigation/689558/?utm_source=feed",
@@ -1357,12 +1275,6 @@
           "url": "https://www.theatlantic.com/magazine/2027/01/edward-gibbon-ancient-rome/689409/?utm_source=feed",
           "published": "2026-11-24T14:00:00+00:00",
           "snippet": "A lonely misfit in his own time, Edward Gibbon found refuge in a bygone empire."
-        },
-        {
-          "title": "The Best Place to Buy Face Wash and Frozen Orange Chicken",
-          "url": "https://www.theatlantic.com/health/2026/11/trader-joes-skin-care/689523/?utm_source=feed",
-          "published": "2026-11-24T12:30:00+00:00",
-          "snippet": "Trader Joe’s has already mastered what the beauty world calls “dupes.”"
         }
       ]
     },
@@ -1397,6 +1309,12 @@
       "column": "tech",
       "entries": [
         {
+          "title": "How to make a lovable city",
+          "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
+          "published": "2026-11-24T16:10:36+00:00",
+          "snippet": "Camillo Sitte made the blueprint for beautiful cities. Here are his five principles."
+        },
+        {
           "title": "The unfair edge of biotech hedge funds",
           "url": "https://www.worksinprogress.news/p/the-unfair-edge-of-biotech-hedge",
           "published": "2026-11-23T16:32:28+00:00",
@@ -1407,12 +1325,6 @@
           "url": "https://www.worksinprogress.news/p/the-trouble-with-serendipity",
           "published": "2026-11-19T13:34:53+00:00",
           "snippet": "Many scientific discoveries didn’t happen the way you think."
-        },
-        {
-          "title": "How should armies fight?",
-          "url": "https://www.worksinprogress.news/p/how-should-armies-fight",
-          "published": "2026-11-17T14:59:30+00:00",
-          "snippet": "A review of The Arms of the Future by Jack Watling."
         }
       ]
     },
@@ -1445,18 +1357,40 @@
   "web": {
     "tech": [
       {
+        "title": "Nightmare mode: simulating disk failures",
+        "url": "https://antithesis.com/blog/2026/nightmare-mode/",
+        "comments_url": "https://lobste.rs/s/xst6fv/nightmare_mode_simulating_disk_failures",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T16:26:44.055000+00:00"
+      },
+      {
+        "title": "Tidal Bans AI-Generated Music",
+        "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+        "score": 28,
+        "source": "Hacker News",
+        "published": "2026-11-24T16:12:38+00:00"
+      },
+      {
         "title": "I checked Clojure's core with Lean and found 17 unreported bugs",
         "url": "https://s.conao3.com/blog/2026/e4f733",
         "comments_url": "https://lobste.rs/s/yyktrz/i_checked_clojure_s_core_with_lean_found_17",
-        "score": 2,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-24T15:22:24.477000+00:00"
+      },
+      {
+        "title": "A training engine for your local model, using your idle compute",
+        "url": "https://github.com/sous-labs/songe",
+        "score": 21,
+        "source": "Hacker News",
+        "published": "2026-11-24T15:03:40+00:00"
       },
       {
         "title": "Security incident on Hex.pm",
         "url": "https://hex.pm/blog/security-incident-on-hexpm",
         "comments_url": "https://lobste.rs/s/rfcgkx/security_incident_on_hex_pm",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-24T14:52:19.552000+00:00"
       },
@@ -1471,14 +1405,14 @@
       {
         "title": "LLM agents work for their parent companies, not for you",
         "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-        "score": 485,
+        "score": 540,
         "source": "Hacker News",
         "published": "2026-11-24T12:40:15+00:00"
       },
       {
         "title": "Who in Washington owns and trades Nvidia stock",
         "url": "https://www.kadoa.com/congress/insights/trump-nvidia",
-        "score": 231,
+        "score": 251,
         "source": "Hacker News",
         "published": "2026-11-24T11:51:05+00:00"
       },
@@ -1493,7 +1427,7 @@
       {
         "title": "Worshipping at the altar of Brendan Gregg",
         "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-        "score": 139,
+        "score": 149,
         "source": "Hacker News",
         "published": "2026-11-24T10:50:14+00:00"
       },
@@ -1508,21 +1442,21 @@
       {
         "title": "Just a Few Bugs",
         "url": "https://www.justafewbugs.xyz/",
-        "score": 80,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-24T09:47:59+00:00"
       },
       {
         "title": "Quad9 pulled their DNS service from France",
         "url": "https://quad9.net/news/blog/quad9-service-deactivation-in-france/",
-        "score": 146,
+        "score": 164,
         "source": "Hacker News",
         "published": "2026-11-24T08:33:14+00:00"
       },
       {
         "title": "2035 came early",
         "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-        "score": 633,
+        "score": 688,
         "source": "Hacker News",
         "published": "2026-11-24T06:30:33+00:00"
       },
@@ -1530,31 +1464,9 @@
         "title": "2035 came early",
         "url": "https://fzakaria.com/2026/11/23/2035-came-early",
         "comments_url": "https://lobste.rs/s/rkk6o8/2035_came_early",
-        "score": 62,
+        "score": 64,
         "source": "Lobste.rs",
         "published": "2026-11-24T06:30:15.741000+00:00"
-      },
-      {
-        "title": "AMD EPYC Zen 6 vs. Zen 1 Performance: 12.1x Geo Mean in Less Than 10 Years",
-        "url": "https://www.phoronix.com/review/amd-epyc-9006-7601",
-        "score": 176,
-        "source": "Hacker News",
-        "published": "2026-11-24T05:15:22+00:00"
-      },
-      {
-        "title": "What VP != VNP Means (In 3 Minutes)",
-        "url": "https://www.friedgil.com/vpvnp/",
-        "comments_url": "https://lobste.rs/s/2k95fs/what_vp_vnp_means_3_minutes",
-        "score": 34,
-        "source": "Lobste.rs",
-        "published": "2026-11-24T02:10:30.101000+00:00"
-      },
-      {
-        "title": "GTA 6 Recomp (Leonida) banned from GitHub while lead dev was in school",
-        "url": "https://github.com/ItsNotRexed/Leonida/issues",
-        "score": 206,
-        "source": "Hacker News",
-        "published": "2026-11-24T02:08:09+00:00"
       }
     ],
     "reddit": [

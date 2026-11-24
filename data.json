@@ -1,267 +1,178 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T02:30:53.852359+00:00",
+  "last_updated": "2026-11-24T03:01:05.880817+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 268
+      "ms": 226
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 224
+      "ms": 358
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 147
+      "ms": 254
     },
     "BBC News": {
       "ok": true,
-      "count": 34,
+      "count": 21,
       "error": null,
-      "ms": 147
+      "ms": 52
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 135
+      "ms": 118
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 329
+      "ms": 226
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 611
+      "ms": 540
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 282
+      "ms": 483
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 102
+      "ms": 85
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 205
+      "ms": 137
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 437
+      "ms": 468
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 263
+      "ms": 240
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 299
+      "ms": 330
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 625
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 179
+      "ms": 98
     },
     "RNZ": {
       "ok": true,
-      "count": 43,
+      "count": 45,
       "error": null,
-      "ms": 333
+      "ms": 996
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 583
+      "ms": 823
     },
     "Semafor": {
       "ok": true,
       "count": 220,
       "error": null,
-      "ms": 350
+      "ms": 544
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 675
+      "ms": 567
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 218
+      "ms": 301
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3200
+      "ms": 3172
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 203
+      "ms": 181
     },
     "The Independent": {
       "ok": true,
       "count": 77,
       "error": null,
-      "ms": 179
+      "ms": 192
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 286
+      "ms": 373
     }
   },
   "breaking": [
     {
-      "title": "US adds Megaspeed, firm at centre of Nvidia scandal, to export control list",
-      "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T00:52:47+00:00",
-      "score": 3,
+      "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
+      "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T01:21:41+00:00",
+      "score": 11,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
-          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-          "published": "2026-11-23T23:16:08+00:00"
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business/2759479/kiwi-stocks-rebound-after-jensen-huang-s-return-to-nvidia",
+          "title": "Kiwi stocks rebound after Jensen Huang's return to Nvidia",
+          "published": "2026-11-23T23:12:58+00:00"
         },
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/us-blacklists-megaspeed-chip-firm-linked-nvidia-scandal-6576001",
-          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
-          "published": "2026-11-23T21:57:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
-      "url": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
-      "source": "France24",
-      "published": "2026-11-24T00:30:11+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/zelenskyy-calls-for-four-way-talks-with-russia-as-soon-as-possible/article71734890.ece",
-          "title": "Zelenskyy calls for four-way talks with Russia ‘as soon as possible’",
-          "published": "2026-11-23T15:18:20+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/23/2026/wall-street-rallies-on-nvidia-ceo-huangs-return",
+          "title": "Wall Street rallies on Nvidia CEO Huang's return",
+          "published": "2026-11-23T22:23:19+00:00"
         },
         {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence",
-          "title": "Zelensky calls for EU inclusion in talks with Russia 'as soon as possible'",
-          "published": "2026-11-23T14:32:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang returns to Nvidia to applause from staff, no trademark leather jacket in sight",
-      "url": "https://www.scmp.com/tech/tech-war/article/3375539/jensen-huang-returns-nvidia-applause-staff-no-trademark-leather-jacket-sight",
-      "source": "SCMP",
-      "published": "2026-11-24T01:45:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
-          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
-          "published": "2026-11-23T21:46:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "US lawmakers criticise Nvidia decision to reinstate Huang as CEO",
-      "url": "https://www.channelnewsasia.com/world/us-lawmakers-criticise-nvidia-decision-reinstate-huang-ceo-6575546",
-      "source": "CNA",
-      "published": "2026-11-24T02:26:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why there's no time to waste for Matildas ahead of World Cup",
-      "url": "https://www.abc.net.au/news/2026-11-24/sam-kerr-matildas-womens-world-cup/107420952",
-      "source": "ABC Australia",
-      "published": "2026-11-24T02:25:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Australians will be able to take social media giants to court for harms",
-      "url": "https://www.abc.net.au/news/2026-11-24/federal-politics-labor-makes-deal-greens-on-digital-duty-of-care/107420982",
-      "source": "ABC Australia",
-      "published": "2026-11-24T02:24:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Chubu Electric faces tough road ahead following data scandal",
-      "url": "https://www.japantimes.co.jp/business/2026/11/24/companies/chubu-electric-regain-trust/",
-      "source": "Japan Times",
-      "published": "2026-11-24T02:18:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Vance, Rubio meet with Qatari PM as uncertainty mounts over Trump's intentions with Iran",
-      "url": "https://www.thehindu.com/news/international/vance-rubio-meet-with-qatari-pmas-uncertainty-mounts-over-trumps-intentions-with-iran/article71737051.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T02:13:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    }
-  ],
-  "world": [
-    {
-      "title": "Jensen Huang reinstated as Nvidia CEO",
-      "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo",
-      "source": "France24",
-      "published": "2026-11-23T22:10:10+00:00",
-      "score": 9,
-      "other_sources": [
+          "source": "France24",
+          "url": "https://www.france24.com/en/tv-shows/business/20261123-jensen-huang-reinstated-as-nvidia-ceo",
+          "title": "Jensen Huang reinstated as Nvidia CEO",
+          "published": "2026-11-23T22:10:10+00:00"
+        },
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/jensen-huang-reinstated-as-nvidia-chief-how-did-we-get-here?traffic_source=rss",
@@ -303,50 +214,116 @@
           "url": "https://www.cbc.ca/news/business/jensen-huang-reinstated-nvidia-9.7432353?cmp=rss",
           "title": "Nvidia reinstates Jensen Huang as CEO",
           "published": "2026-11-23T14:18:53+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
-          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
-          "published": "2026-11-17T16:30:10+00:00"
         }
       ],
-      "consensus": 11.5
+      "consensus": 14.0
     },
     {
-      "title": "Here's what's next after climate talks collapse: Reform, individual action, hope and more heat",
-      "url": "https://www.independent.co.uk/news/world/europe/reform-turkey-michael-mann-copenhagen-paris-b3090279.html",
-      "source": "The Independent",
-      "published": "2026-11-23T23:24:58+00:00",
-      "score": 5,
+      "title": "Trump administration blacklists Megaspeed cloud company linked to Nvidia scandal",
+      "url": "https://www.cbc.ca/news/world/trump-megaspeed-blacklist-nvidia-9.7433587?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T02:46:04+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/us-blacklists-megaspeed-chip-firm-linked-nvidia-scandal-6576001",
+          "title": "US blacklists Megaspeed chip firm linked to Nvidia scandal",
+          "published": "2026-11-23T21:57:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "UN chief calls for world to agree on AI oversight within a year",
+      "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T02:27:19+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year",
+          "title": "'Maintain control': UN chief calls for creation of global AI safety framework within a year",
+          "published": "2026-11-23T19:06:15+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US adds Megaspeed, firm at centre of Nvidia scandal, to export control list",
+      "url": "https://www.aljazeera.com/economy/2026/11/24/us-adds-megaspeed-firm-at-centre-of-nvidia-scandal-to-export-control-list?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T00:52:47+00:00",
+      "score": 2,
       "other_sources": [
         {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo?at_medium=RSS&at_campaign=rss",
-          "title": "What's next after no deal at COP31 climate talks?",
-          "published": "2026-11-23T05:34:39+00:00"
-        },
+          "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+          "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+          "published": "2026-11-23T23:16:08+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+      "url": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+      "source": "France24",
+      "published": "2026-11-24T00:30:11+00:00",
+      "score": 3,
+      "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847?cmp=rss",
-          "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
-          "published": "2026-11-22T17:11:00+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
-          "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
-          "published": "2026-11-22T16:20:51+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/zelenskyy-calls-for-four-way-talks-with-russia-as-soon-as-possible/article71734890.ece",
+          "title": "Zelenskyy calls for four-way talks with Russia ‘as soon as possible’",
+          "published": "2026-11-23T15:18:20+00:00"
         },
         {
           "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
-          "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
-          "published": "2026-11-22T14:22:44+00:00"
+          "url": "https://www.rfi.fr/en/international/20261123-zelensky-calls-for-eu-inclusion-in-talks-with-russia-as-soon-as-possible-nato-defence",
+          "title": "Zelensky calls for EU inclusion in talks with Russia 'as soon as possible'",
+          "published": "2026-11-23T14:32:46+00:00"
         }
       ],
-      "consensus": 6.0
+      "consensus": 2.5
     },
+    {
+      "title": "Jensen Huang returns to Nvidia to applause from staff, no trademark leather jacket in sight",
+      "url": "https://www.scmp.com/tech/tech-war/article/3375539/jensen-huang-returns-nvidia-applause-staff-no-trademark-leather-jacket-sight",
+      "source": "SCMP",
+      "published": "2026-11-24T01:45:37+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
+          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
+          "published": "2026-11-23T21:46:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Malaysia’s Anwar says Beijing ‘extremely reasonable’ in South China Sea talks",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375503/malaysias-anwar-says-beijing-extremely-reasonable-south-china-sea-talks",
+      "source": "SCMP",
+      "published": "2026-11-24T03:00:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Peace in Ukraine won’t end Russian sabotage in Europe, Poland warns",
+      "url": "https://www.politico.eu/article/ukraine-peace-wont-end-russian-sabotage-in-europe-poland-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-24T03:00:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    }
+  ],
+  "world": [
     {
       "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
       "url": "https://www.thehindu.com/news/international/zelenskyy-hails-ukraines-attack-on-a-russian-warship-in-libya/article71735901.ece",
@@ -376,79 +353,45 @@
       "consensus": 5.0
     },
     {
-      "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
-      "url": "https://www.euronews.com/2026/11/23/south-koreas-education-minister-resigns-after-backlash-over-ai-exam-cheating-rules",
-      "source": "Euronews",
-      "published": "2026-11-23T15:35:18+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-koreas-education-minister-quits-over-exam-cheating-chaos",
-          "title": "South Korea's education minister quits over exam cheating chaos",
-          "published": "2026-11-23T00:22:20+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
-          "title": "South Korea education minister resigns over exam cheating scandal",
-          "published": "2026-11-22T09:20:45+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/south-korea-education-minister-resigns-amid-ai-cheating-scandal/article71730601.ece",
-          "title": "South Korea Education Minister resigns amid AI cheating scandal",
-          "published": "2026-11-22T07:13:03+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
-      "source": "SCMP",
-      "published": "2026-11-23T12:52:00+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece",
-          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-          "published": "2026-11-23T06:31:51+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
-          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
-          "published": "2026-11-23T05:39:11+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
-          "title": "Three killed and dozens missing after fire at Indonesian factory",
-          "published": "2026-11-22T14:05:20+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
-      "title": "Fire at Indonesian candy factory leaves 3 dead, dozens of workers missing",
-      "url": "https://www.cbc.ca/news/world/indonesian-candy-factory-fire-9.7431686?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-22T13:17:40+00:00",
+      "title": "Outrage after ICE arrest father and daughter at Seattle airport",
+      "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T22:59:07+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Dozens missing as deadly fire tears through Indonesian candy factory",
-          "published": "2026-11-22T06:14:00+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/seattle-airport-ice-arrest-9.7432394?cmp=rss",
+          "title": "What happened at the Seattle airport? Outrage as ICE arrests man and daughter boarding flight",
+          "published": "2026-11-23T19:00:41+00:00"
         },
         {
           "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece",
-          "title": "Fire at Indonesian candy factory leaves 3 dead, dozens unaccounted for",
-          "published": "2026-11-22T04:45:19+00:00"
+          "url": "https://www.thehindu.com/news/international/father-daughter-detained-by-ice-at-seattle-airport-were-travelling-to-family-baptism-says-lawyer/article71733166.ece",
+          "title": "Father, daughter detained by ICE at Seattle airport were travelling to family baptism, says lawyer",
+          "published": "2026-11-23T00:07:05+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
+      "url": "https://www.cbc.ca/news/world/cop31-talks-collapse-fossil-fuel-9.7431847?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-22T17:11:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
+          "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
+          "published": "2026-11-22T16:20:51+00:00"
+        },
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
+          "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
+          "published": "2026-11-22T14:22:44+00:00"
         }
       ],
       "consensus": 4.0
@@ -476,23 +419,23 @@
       "consensus": 3.5
     },
     {
-      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T15:41:23+00:00",
+      "title": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
+      "url": "https://www.euronews.com/2026/11/23/south-koreas-education-minister-resigns-after-backlash-over-ai-exam-cheating-rules",
+      "source": "Euronews",
+      "published": "2026-11-23T15:35:18+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/russia-warship-drone-attack-merkury-b3089708.html",
-          "title": "Shocking satellite images reveal fate of Russian warship hit by Ukraine drones in Libya",
-          "published": "2026-11-23T09:46:27+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-koreas-education-minister-quits-over-exam-cheating-chaos",
+          "title": "South Korea's education minister quits over exam cheating chaos",
+          "published": "2026-11-23T00:22:20+00:00"
         },
         {
           "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/suspected-ukrainian-sea-drones-hit-russian-warship-at-benghazi-naval-base-libyan-officials-say/article71733178.ece",
-          "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-          "published": "2026-11-23T05:37:13+00:00"
+          "url": "https://www.thehindu.com/news/international/south-korea-education-minister-resigns-amid-ai-cheating-scandal/article71730601.ece",
+          "title": "South Korea Education Minister resigns amid AI cheating scandal",
+          "published": "2026-11-22T07:13:03+00:00"
         }
       ],
       "consensus": 3.5
@@ -564,20 +507,26 @@
       "consensus": 3.5
     },
     {
-      "title": "Kiwi stocks rebound after Jensen Huang's return to Nvidia",
-      "url": "https://www.rnz.co.nz/news/business/2759479/kiwi-stocks-rebound-after-jensen-huang-s-return-to-nvidia",
-      "source": "RNZ",
-      "published": "2026-11-23T23:12:58+00:00",
-      "score": 2,
+      "title": "Indonesia says 24 killed in factory fire, rescuers search for dozens missing",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375508/indonesia-says-24-killed-factory-fire-rescuers-search-dozens-missing",
+      "source": "SCMP",
+      "published": "2026-11-23T12:52:00+00:00",
+      "score": 3,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cq8r7e35mkzlo?at_medium=RSS&at_campaign=rss",
-          "title": "'Biggest U-turn in economic history': Experts react to Jensen Huang's return to Nvidia",
-          "published": "2026-11-23T18:43:00+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/indonesia-banten-factory-fire-death-toll-people-missing/article71733448.ece",
+          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+          "published": "2026-11-23T06:31:51+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/indonesia-says-24-killed-in-factory-blaze-as-rescuers-search-for-dozens-missing",
+          "title": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
+          "published": "2026-11-23T05:39:11+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 3.0
     },
     {
       "title": "Israel's bombardment has turned Gaza into 'toxic wasteland'",
@@ -612,22 +561,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Turkish heiress paid former prince Andrew $1.4m 'bribe', UK court told",
-      "url": "https://www.abc.net.au/news/2026-11-24/ex-prince-andrew-took-bribe-to-help-turkish-heiress-court-told/107419512",
-      "source": "ABC Australia",
-      "published": "2026-11-23T21:07:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375527/uks-former-prince-andrew-took-bribe-help-turkish-heiress-uk-court-told",
-          "title": "Former prince Andrew took ‘bribe’ to help Turkish heiress, UK court told",
-          "published": "2026-11-23T18:35:45+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "UK’s Burnham rules out rejoining EU without referendum, hits back at ex-PMs",
       "url": "https://www.scmp.com/news/world/europe/article/3375526/burnham-ignore-stuck-past-ex-pms-he-hails-uks-eu-reset",
       "source": "SCMP",
@@ -644,7 +577,7 @@
       "consensus": 2.5
     },
     {
-      "title": "UK Grand Theft Auto VI hacker gets 7-year sentence",
+      "title": "Grand Theft Auto VI hacker gets 7-year sentence in UK, but walks free",
       "url": "https://www.scmp.com/news/world/europe/article/3375524/uk-grand-theft-auto-vi-hacker-gets-7-year-sentence",
       "source": "SCMP",
       "published": "2026-11-23T17:26:00+00:00",
@@ -740,6 +673,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Dozens missing as deadly fire tears through Indonesian candy factory",
+      "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-22T06:14:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece",
+          "title": "Fire at Indonesian candy factory leaves 3 dead, dozens unaccounted for",
+          "published": "2026-11-22T04:45:19+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "China and Russia Release ‘Peace Declaration’ After Trump, Xi, Putin Meeting",
       "url": "https://www.themoscowtimes.com/2026/11/19/us-china-can-help-end-ukraine-war-trump-tells-xi-before-trilateral-with-putin-a94307",
       "source": "The Moscow Times",
@@ -820,6 +769,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T11:34:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Australia to treat AI as key foreign policy challenge, warning of risks to democracy",
       "url": "https://www.scmp.com/news/asia/australasia/article/3375502/australia-treat-ai-key-foreign-policy-challenge-warning-risks-democracy",
       "source": "SCMP",
@@ -847,22 +812,6 @@
           "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-vows-to-arrest-hasina-if-she-returns-from-india",
           "title": "Bangladesh vows to arrest ousted leader Hasina if she returns from India",
           "published": "2026-11-23T09:07:47+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Boy, 7, pulled alive from rubble 14 hours after Russian strike that killed 11 in residential building",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-kyiv-dymer-russian-strike-b3089574.html",
-      "source": "The Independent",
-      "published": "2026-11-23T07:40:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
-          "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
-          "published": "2026-11-23T05:33:17+00:00"
         }
       ],
       "consensus": 2.0
@@ -948,46 +897,73 @@
       "consensus": 1.5
     },
     {
-      "title": "US flew surveillance drone over Mexico to help capture top drug lord",
-      "url": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
-      "source": "France24",
-      "published": "2026-11-24T02:09:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Regretful expenditure': New biometrics system sought after $50m immigration failure",
-      "url": "https://www.rnz.co.nz/news/political/2762762/regretful-expenditure-new-biometrics-system-sought-after-50m-immigration-failure",
-      "source": "RNZ",
-      "published": "2026-11-24T02:06:26+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Toughen it up': David Seymour wants answers on RNZ by Christmas",
-      "url": "https://www.rnz.co.nz/news/business/2759290/toughen-it-up-david-seymour-wants-answers-on-rnz-by-christmas",
-      "source": "RNZ",
-      "published": "2026-11-24T02:04:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "5.3-magnitude earthquake strikes Nepal’s Koshi province: EMSC",
-      "url": "https://www.straitstimes.com/asia/south-asia/magnitude-5-3-earthquake-strikes-nepals-koshi-province-emsc",
+      "title": "Sheikh Hasina seeks to return to Bangladesh on December 16 on state carrier",
+      "url": "https://www.straitstimes.com/asia/sheikh-hasina-seeks-to-return-to-bangladesh-on-december-16-on-state-carrier",
       "source": "Straits Times",
-      "published": "2026-11-24T02:04:39+00:00",
+      "published": "2026-11-24T02:57:38+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What Victoria's upper house might look like after the state election",
-      "url": "https://www.abc.net.au/news/2026-11-24/what-victorian-upper-house-will-look-like-after-state-election/107419706",
+      "title": "Jensen Huang’s Nvidia return buoys South Korea, Japan stocks",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375547/jensen-huangs-nvidia-return-buoys-south-korea-japan-stocks",
+      "source": "SCMP",
+      "published": "2026-11-24T02:55:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Adelaide suburb turns wild west when horses escape club",
+      "url": "https://www.abc.net.au/news/2026-11-24/horses-roaming-freely-in-adelaide-western-surburbs/107420804",
       "source": "ABC Australia",
-      "published": "2026-11-24T02:04:18+00:00",
+      "published": "2026-11-24T02:52:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China to launch Shenzhou-24 spaceship with first foreign astronaut",
+      "url": "https://www.straitstimes.com/asia/china-to-launch-shenzhou-24-spaceship-with-first-foreign-astronaut",
+      "source": "Straits Times",
+      "published": "2026-11-24T02:52:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'I owe it to the guys': Jamie Joseph on his long-term Highlanders' deal",
+      "url": "https://www.rnz.co.nz/news/sport/2762488/i-owe-it-to-the-guys-jamie-joseph-on-his-long-term-highlanders-deal",
+      "source": "RNZ",
+      "published": "2026-11-24T02:50:25+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan holds second consular meeting with reporter detained by Russia",
+      "url": "https://www.japantimes.co.jp/news/2026/11/24/japan/society/russia-reporter-second-meeting/",
+      "source": "Japan Times",
+      "published": "2026-11-24T02:39:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Excavator threatens sacred alpine lake in the Himalayas",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/24-11-sv-sheshnag-lake-excavators-kashmir?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T02:35:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Not again': Locals disgusted by skinned animals dumped on West Auckland beach",
+      "url": "https://www.rnz.co.nz/news/regional/2762449/not-again-locals-disgusted-by-skinned-animals-dumped-on-west-auckland-beach",
+      "source": "RNZ",
+      "published": "2026-11-24T02:27:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1063,10 +1039,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58581.67,
+        "price": 58675.79,
         "currency": "JPY",
-        "change": 2145.02,
-        "change_percent": 3.8,
+        "change": 2239.14,
+        "change_percent": 3.97,
         "name": "Nikkei 225"
       },
       {
@@ -1089,26 +1065,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3653.8,
+        "price": 3637.7,
         "currency": "USD",
-        "change": 2.4,
-        "change_percent": 0.07,
+        "change": -13.7,
+        "change_percent": -0.38,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 43.1,
+        "price": 42.67,
         "currency": "USD",
-        "change": -0.07,
-        "change_percent": -0.16,
+        "change": -0.5,
+        "change_percent": -1.17,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 86.37,
+        "price": 86.38,
         "currency": "USD",
-        "change": -0.31,
-        "change_percent": -0.36,
+        "change": -0.3,
+        "change_percent": -0.35,
         "name": "Brent Crude"
       },
       {
@@ -1116,7 +1092,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.11,
+        "change_percent": 0.08,
         "name": "EUR/USD"
       },
       {
@@ -1124,23 +1100,23 @@
         "price": 1.3,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.03,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 158.9,
+        "price": 158.94,
         "currency": "JPY",
-        "change": -0.08,
-        "change_percent": -0.05,
+        "change": -0.04,
+        "change_percent": -0.03,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60555.36,
+        "price": 60112.22,
         "currency": "USD",
-        "change": -655.79,
-        "change_percent": -1.07,
+        "change": -1098.93,
+        "change_percent": -1.8,
         "name": "Bitcoin"
       }
     ],
@@ -1311,6 +1287,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Asian tech stocks surge after Jensen Huang’s return",
+          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
+          "published": "2026-11-24T02:40:25+00:00",
+          "snippet": "Region’s markets follow Wall Street higher on Nvidia chief’s reinstatement"
+        },
+        {
           "title": "OpenAI engineer possessed dozens of meeting recordings, say US prosecutors",
           "url": "https://www.ft.com/content/f860152a-6bd6-43f7-8ba1-4a6ae94d6565?syn-25a6b1a6=1",
           "published": "2026-11-24T01:31:42+00:00",
@@ -1321,12 +1303,6 @@
           "url": "https://www.ft.com/content/eefd9be8-828e-4a75-a661-b2a4893062e7?syn-25a6b1a6=1",
           "published": "2026-11-24T01:30:02+00:00",
           "snippet": "Also, Sebi proposes concessions for foreign portfolio investors"
-        },
-        {
-          "title": "Asian tech stocks surge in wake of Jensen Huang’s return",
-          "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-          "published": "2026-11-24T01:13:10+00:00",
-          "snippet": "Nvidia chief executive’s reinstatement sent Wall Street shares higher"
         }
       ]
     },
@@ -1437,14 +1413,14 @@
         "title": "What VP != VNP Means (In 3 Minutes)",
         "url": "https://www.friedgil.com/vpvnp/",
         "comments_url": "https://lobste.rs/s/2k95fs/what_vp_vnp_means_3_minutes",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-24T02:10:30.101000+00:00"
       },
       {
         "title": "Alcohol use reduces efficacy of immunotherapy by disrupting antitumor immunity",
         "url": "https://www.science.org/doi/10.1126/scisignal.aef1375",
-        "score": 41,
+        "score": 49,
         "source": "Hacker News",
         "published": "2026-11-24T00:53:46+00:00"
       },
@@ -1452,7 +1428,7 @@
         "title": "the algebra of dependent types (2025)",
         "url": "https://dotat.at/@/2025-05-28-types.html",
         "comments_url": "https://lobste.rs/s/n2krd2/algebra_dependent_types_2025",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-24T00:51:41.672000+00:00"
       },
@@ -1460,43 +1436,50 @@
         "title": "Lua for data representation",
         "url": "https://citrons.xyz/journal/2025-07-23",
         "comments_url": "https://lobste.rs/s/ezml41/lua_for_data_representation",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-24T00:22:05.087000+00:00"
+      },
+      {
+        "title": "The Power of GraphQL, Without GraphQL",
+        "url": "https://cobalt27.dev/",
+        "score": 13,
+        "source": "Hacker News",
+        "published": "2026-11-24T00:03:59+00:00"
       },
       {
         "title": "cgo's pointer check is all over the place",
         "url": "https://theconsensus.dev/p/2026/11/15/cgos-pointer-check.html",
         "comments_url": "https://lobste.rs/s/fgbvtt/cgo_s_pointer_check_is_all_over_place",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-23T23:36:14.289000+00:00"
       },
       {
         "title": "The search for a top dark matter candidate",
         "url": "https://www.smithsonianmag.com/science-nature/the-search-for-a-top-dark-matter-candidate-was-losing-hope-then-came-a-potential-signal-will-it-be-enough-to-energize-the-struggling-field-180989923/",
-        "score": 8,
+        "score": 17,
         "source": "Hacker News",
         "published": "2026-11-23T23:12:40+00:00"
       },
       {
         "title": "Freeing the iPod Nano 5G",
         "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
-        "score": 48,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-23T23:03:13+00:00"
       },
       {
         "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
         "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-        "score": 223,
+        "score": 247,
         "source": "Hacker News",
         "published": "2026-11-23T22:32:29+00:00"
       },
       {
         "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
         "url": "https://arxiv.org/abs/2602.20031",
-        "score": 27,
+        "score": 33,
         "source": "Hacker News",
         "published": "2026-11-23T22:29:48+00:00"
       },
@@ -1504,9 +1487,16 @@
         "title": "The Strength of the Record",
         "url": "https://web.archive.org/web/20210329070928/https://opencrux.com/blog/crux-strength-of-the-record.html",
         "comments_url": "https://lobste.rs/s/rz7m8a/strength_record",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-23T22:18:18.413000+00:00"
+      },
+      {
+        "title": "VP ≠ VNP over Every Field",
+        "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+        "score": 264,
+        "source": "Hacker News",
+        "published": "2026-11-23T22:09:10+00:00"
       },
       {
         "title": "Release: Roto v0.14.0",
@@ -1519,32 +1509,16 @@
       {
         "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
         "url": "https://www.bored.com/",
-        "score": 119,
+        "score": 128,
         "source": "Hacker News",
         "published": "2026-11-23T21:01:16+00:00"
       },
       {
         "title": "GPUI is getting its own repository",
         "url": "https://github.com/zed-industries/gpui",
-        "score": 138,
+        "score": 151,
         "source": "Hacker News",
         "published": "2026-11-23T20:52:54+00:00"
-      },
-      {
-        "title": "Illiterate Programming",
-        "url": "https://deadsimpletech.com/blog/illiterate-programming",
-        "comments_url": "https://lobste.rs/s/xxgezw/illiterate_programming",
-        "score": 14,
-        "source": "Lobste.rs",
-        "published": "2026-11-23T20:45:29.097000+00:00"
-      },
-      {
-        "title": "UQ researchers send an unblockable message using gravity",
-        "url": "https://news.uq.edu.au/2026-11-uq-researchers-send-unblockable-message-using-gravity",
-        "comments_url": "https://lobste.rs/s/ht8v1g/uq_researchers_send_unblockable_message",
-        "score": 18,
-        "source": "Lobste.rs",
-        "published": "2026-11-23T20:01:46.598000+00:00"
       }
     ],
     "reddit": [

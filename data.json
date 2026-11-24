@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-23T23:30:55.421800+00:00",
+  "last_updated": "2026-11-24T00:01:06.372997+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 297
+      "ms": 305
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 181
+      "ms": 219
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 117
+      "ms": 248
     },
     "BBC News": {
       "ok": true,
       "count": 34,
       "error": null,
-      "ms": 130
+      "ms": 574
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 286
+      "ms": 241
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 204
+      "ms": 327
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 513
+      "ms": 623
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 368
+      "ms": 483
     },
     "Euronews": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 139
+      "ms": 196
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 158
+      "ms": 188
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 340
+      "ms": 809
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 253
+      "ms": 291
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 77
+      "ms": 206
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 467
+      "ms": 612
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 95
+      "ms": 372
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 43,
       "error": null,
-      "ms": 410
+      "ms": 240
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 651
+      "ms": 772
     },
     "Semafor": {
       "ok": true,
       "count": 221,
       "error": null,
-      "ms": 409
+      "ms": 538
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 675
+      "ms": 703
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 230
+      "ms": 358
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3205
+      "ms": 3163
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 192
+      "ms": 220
     },
     "The Independent": {
       "ok": true,
-      "count": 75,
+      "count": 76,
       "error": null,
-      "ms": 442
+      "ms": 170
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 168
+      "ms": 211
     }
   },
   "breaking": [
@@ -803,22 +803,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Bank apologises after staff learn of layoffs through automated email",
-      "url": "https://www.independent.co.uk/news/world/australasia/nab-banking-australia-redundancies-email-b3089684.html",
-      "source": "The Independent",
-      "published": "2026-11-23T09:05:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/australasia/article/3375458/australian-bank-apologises-after-staff-learn-lay-offs-automated-email",
-          "title": "Australian bank apologises after staff learn of lay-offs via automated email",
-          "published": "2026-11-23T07:55:11+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Central California concert shooting: Nine people shot; one in critical condition",
       "url": "https://www.thehindu.com/news/international/central-california-concert-shooting-critical-injury-death-arrest/article71732545.ece",
       "source": "The Hindu",
@@ -878,6 +862,22 @@
           "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-garment-makers-eye-15-wage-hike-far-short-of-workers-demand",
           "title": "Bangladesh garment makers eye 15% wage hike, far short of workers’ demand",
           "published": "2026-11-23T10:43:02+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T11:34:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -1043,19 +1043,19 @@
       "consensus": 1.5
     },
     {
-      "title": "US says detained Princeton PhD student from China overstayed visa in 2016",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375533/us-says-detained-princeton-phd-student-china-overstayed-visa-2016",
+      "title": "Malaysia’s Anwar says easier to deal with China than US amid tech tensions",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375516/malaysias-anwar-says-easier-deal-china-us-amid-tech-tensions",
       "source": "SCMP",
-      "published": "2026-11-23T23:28:12+00:00",
+      "published": "2026-11-24T00:00:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Breaking: Underworld killer to be released on parole",
-      "url": "https://www.abc.net.au/news/2026-11-24/underworld-killer-to-be-released-on-parole/107419956",
-      "source": "ABC Australia",
-      "published": "2026-11-23T23:16:49+00:00",
+      "title": "What’s at stake and the battlegrounds to watch as Taiwan heads to the polls",
+      "url": "https://www.scmp.com/news/china/politics/article/3375455/whats-stake-and-battlegrounds-watch-taiwan-heads-polls",
+      "source": "SCMP",
+      "published": "2026-11-24T00:00:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1133,8 +1133,8 @@
         "symbol": "^N225",
         "price": 56436.65,
         "currency": "JPY",
-        "change": -3007.55,
-        "change_percent": -5.06,
+        "change": 0.0,
+        "change_percent": 0.0,
         "name": "Nikkei 225"
       },
       {
@@ -1157,26 +1157,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3629.5,
+        "price": 3621.9,
         "currency": "USD",
-        "change": -21.9,
-        "change_percent": -0.6,
+        "change": -29.5,
+        "change_percent": -0.81,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 43.07,
+        "price": 42.81,
         "currency": "USD",
-        "change": -0.1,
-        "change_percent": -0.24,
+        "change": -0.36,
+        "change_percent": -0.85,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 86.74,
+        "price": 86.81,
         "currency": "USD",
-        "change": 0.06,
-        "change_percent": 0.07,
+        "change": 0.13,
+        "change_percent": 0.15,
         "name": "Brent Crude"
       },
       {
@@ -1197,18 +1197,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.0,
+        "price": 158.91,
         "currency": "JPY",
-        "change": 0.48,
-        "change_percent": 0.3,
+        "change": 0.4,
+        "change_percent": 0.25,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61478.11,
+        "price": 61160.79,
         "currency": "USD",
-        "change": 315.92,
-        "change_percent": 0.52,
+        "change": -1.4,
+        "change_percent": 0.0,
         "name": "Bitcoin"
       }
     ],
@@ -1502,16 +1502,39 @@
   "web": {
     "tech": [
       {
+        "title": "homie: a local voice agent for macOS, 0.43s commands from a 4B model",
+        "url": "https://homie-mac.vercel.app/fast",
+        "comments_url": "https://lobste.rs/s/teifll/homie_local_voice_agent_for_macos_0_43s",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-23T23:41:15.131000+00:00"
+      },
+      {
+        "title": "cgo's pointer check is all over the place",
+        "url": "https://theconsensus.dev/p/2026/11/15/cgos-pointer-check.html",
+        "comments_url": "https://lobste.rs/s/fgbvtt/cgo_s_pointer_check_is_all_over_place",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-23T23:36:14.289000+00:00"
+      },
+      {
+        "title": "Freeing the iPod Nano 5G",
+        "url": "https://viktorkrapivin.com/blog/nano5g-priv-prvd",
+        "score": 12,
+        "source": "Hacker News",
+        "published": "2026-11-23T23:03:13+00:00"
+      },
+      {
         "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
         "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
-        "score": 54,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-23T22:32:29+00:00"
       },
       {
         "title": "Levent Alpöge comments on his Riemann Hypothesis proof",
         "url": "https://twitter.com/__alpoge__/status/2124987173439209561",
-        "score": 31,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-23T22:22:56+00:00"
       },
@@ -1526,7 +1549,7 @@
       {
         "title": "VP ≠ VNP over Every Field",
         "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
-        "score": 130,
+        "score": 160,
         "source": "Hacker News",
         "published": "2026-11-23T22:09:10+00:00"
       },
@@ -1534,29 +1557,21 @@
         "title": "Release: Roto v0.14.0",
         "url": "https://community.nlnetlabs.nl/t/release-roto-v0-14-0/3511",
         "comments_url": "https://lobste.rs/s/fygpme/release_roto_v0_14_0",
-        "score": 6,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-23T21:32:07.283000+00:00"
       },
       {
         "title": "Bored.com: Fun, interesting and cool websites to explore when bored",
         "url": "https://www.bored.com/",
-        "score": 58,
+        "score": 65,
         "source": "Hacker News",
         "published": "2026-11-23T21:01:16+00:00"
       },
       {
-        "title": "Bluetooth2Shell: One tap of pairing is all it takes",
-        "url": "https://bluetooth2shell.com/",
-        "comments_url": "https://lobste.rs/s/ik6f4o/bluetooth2shell_one_tap_pairing_is_all_it",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-23T20:57:00.291000+00:00"
-      },
-      {
         "title": "GPUI is getting its own repository",
         "url": "https://github.com/zed-industries/gpui",
-        "score": 61,
+        "score": 78,
         "source": "Hacker News",
         "published": "2026-11-23T20:52:54+00:00"
       },
@@ -1564,14 +1579,14 @@
         "title": "Illiterate Programming",
         "url": "https://deadsimpletech.com/blog/illiterate-programming",
         "comments_url": "https://lobste.rs/s/xxgezw/illiterate_programming",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-23T20:45:29.097000+00:00"
       },
       {
         "title": "Next gaming monitor should still be an OLED",
         "url": "https://www.rockpapershotgun.com/theyre-more-complicated-and-more-expensive-than-lcd-screens-but-your-next-gaming-monitor-should-still-be-an-oled",
-        "score": 8,
+        "score": 16,
         "source": "Hacker News",
         "published": "2026-11-23T20:30:46+00:00"
       },
@@ -1586,7 +1601,7 @@
       {
         "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
         "url": "https://arm.jonpalmisc.com/",
-        "score": 754,
+        "score": 785,
         "source": "Hacker News",
         "published": "2026-11-23T19:17:55+00:00"
       },
@@ -1597,21 +1612,6 @@
         "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-23T17:59:14.961000+00:00"
-      },
-      {
-        "title": "Kagi Mail (public beta)",
-        "url": "https://blog.kagi.com/kagi-mail-public-beta",
-        "score": 314,
-        "source": "Hacker News",
-        "published": "2026-11-23T17:17:01+00:00"
-      },
-      {
-        "title": "Swapping Jolt's sorted collections to a B+tree",
-        "url": "https://yogthos.net/posts/2026-11-23-b+trees.html",
-        "comments_url": "https://lobste.rs/s/wv9nhw/swapping_jolt_s_sorted_collections_b_tree",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-23T17:15:02.472000+00:00"
       }
     ],
     "reddit": [

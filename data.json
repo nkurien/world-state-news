@@ -1,144 +1,144 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T18:30:58.909360+00:00",
+  "last_updated": "2026-11-24T19:01:03.152349+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 304
+      "ms": 331
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 474
+      "ms": 488
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 284
+      "ms": 295
     },
     "BBC News": {
       "ok": true,
       "count": 29,
       "error": null,
-      "ms": 307
+      "ms": 291
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 281
+      "ms": 183
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 2128
+      "ms": 489
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 344
+      "ms": 666
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 635
+      "ms": 680
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 77
+      "ms": 75
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 173
+      "ms": 188
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 683
+      "ms": 342
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 398
+      "ms": 337
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 175
+      "ms": 237
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 128
+      "ms": 160
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 295
+      "ms": 221
     },
     "RNZ": {
       "ok": true,
-      "count": 41,
+      "count": 40,
       "error": null,
-      "ms": 427
+      "ms": 444
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 673
+      "ms": 631
     },
     "Semafor": {
       "ok": true,
       "count": 241,
       "error": null,
-      "ms": 739
+      "ms": 741
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 709
+      "ms": 686
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 299
+      "ms": 520
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3184
+      "ms": 3094
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 429
+      "ms": 261
     },
     "The Independent": {
       "ok": true,
-      "count": 86,
+      "count": 88,
       "error": null,
-      "ms": 254
+      "ms": 289
     },
     "The Moscow Times": {
       "ok": true,
@@ -148,6 +148,34 @@
     }
   },
   "breaking": [
+    {
+      "title": "Senior Hamas security official killed in Israeli drone strikes",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/senior-hamas-security-official-killed-in-israeli-drone-strikes?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T18:20:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece",
+          "title": "Israeli strikes in Gaza kill seven including senior security official",
+          "published": "2026-11-24T16:57:13+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+          "published": "2026-11-24T13:07:03+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israeli-strikes-in-gaza-kill-seven-including-senior-security-official-6578251",
+          "title": "Israeli strikes in Gaza kill seven including senior security official",
+          "published": "2026-11-24T12:29:00+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "UK police arrest two men after break-in at William and Kate's home",
       "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
@@ -221,28 +249,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-24T15:35:53+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
-          "title": "Israeli air strike kills senior Hamas security official in Gaza",
-          "published": "2026-11-24T13:55:11+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-          "published": "2026-11-24T13:28:18+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "French ex-president Sarkozy, wife to be tried over witness tampering",
       "url": "https://www.channelnewsasia.com/world/french-ex-president-sarkozy-wife-be-tried-over-witness-tampering-6579256",
       "source": "CNA",
@@ -260,28 +266,6 @@
           "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
           "title": "France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering",
           "published": "2026-11-24T16:33:12+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Israeli strikes in Gaza kill seven including senior security official",
-      "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T16:57:13+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
-          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
-          "published": "2026-11-24T13:07:03+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-strikes-in-gaza-kill-seven-including-senior-security-official-6578251",
-          "title": "Israeli strikes in Gaza kill seven including senior security official",
-          "published": "2026-11-24T12:29:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -307,6 +291,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Iran rules out talks with U.S. until its seven conditions are met",
+      "url": "https://www.thehindu.com/news/international/iran-rules-out-talks-with-us-until-its-seven-conditions-are-met/article71739875.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T17:36:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/iran-gaza-palestinians-strait-of-hormuz-israeli-b3090524.html",
+          "title": "Iran insists no talks with the US until its 7 conditions are met, and other Mideast news",
+          "published": "2026-11-24T10:34:19+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Ukraine confirms hit on Russian ship in Gulf of Finland, as escalation fears grow",
@@ -509,22 +509,6 @@
       "consensus": 3.0
     },
     {
-      "title": "Iran rules out talks with U.S. until its seven conditions are met",
-      "url": "https://www.thehindu.com/news/international/iran-rules-out-talks-with-us-until-its-seven-conditions-are-met/article71739875.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T17:36:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/iran-gaza-palestinians-strait-of-hormuz-israeli-b3090524.html",
-          "title": "Iran insists no talks with the US until its 7 conditions are met, and other Mideast news",
-          "published": "2026-11-24T10:34:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Hasina to return to Bangladesh on December 16, says Awami League",
       "url": "https://www.thehindu.com/news/international/former-bangladesh-pm-sheikh-hasina-return-to-bangladesh/article71737182.ece",
       "source": "The Hindu",
@@ -536,6 +520,22 @@
           "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
           "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
           "published": "2026-11-24T06:23:01+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T15:35:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+          "published": "2026-11-24T13:28:18+00:00"
         }
       ],
       "consensus": 2.5
@@ -761,6 +761,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Will use 'all available means' to counter U.S. blockade: Iran",
+      "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece",
+      "source": "The Hindu",
+      "published": "2026-11-23T17:18:26+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "title": "Iran vows 'every means' to counter US blockade of Hormuz after Trump threat",
+          "published": "2026-11-23T11:34:05+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
       "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
       "source": "Africanews",
@@ -775,22 +791,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
-      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-24T17:04:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261124-trump-s-role-in-huang-s-nvidia-return-under-scrutiny",
-          "title": "Trump's role in Huang's Nvidia return under scrutiny",
-          "published": "2026-11-24T13:48:17+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Saudi skyscraper hit again, coalition slams 'terrorist attack'",
@@ -911,73 +911,73 @@
       "consensus": 1.5
     },
     {
-      "title": "Despite 'glitch,' BepiColombo spacecraft reaches Mercury after 8 years, space agency says",
-      "url": "https://www.cbc.ca/news/science/bepicolombo-spacecraft-mercury-glitch-9.7434242?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T18:23:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hobart stadium cost political debate still rages, despite its future being assured",
-      "url": "https://www.abc.net.au/news/2026-11-25/hobart-macquarie-point-stadium-cost-analysis/107422832",
+      "title": "Scathing report finds years of poor management of Tasmania's ports",
+      "url": "https://www.abc.net.au/news/2026-11-25/tasports-failures-tasmanian-auditor-general/107421288",
       "source": "ABC Australia",
-      "published": "2026-11-24T18:22:09+00:00",
+      "published": "2026-11-24T18:56:40+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "FBI deputy director quitting Kash Patel in December. He’s third to jump ship",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/fbi-chris-raia-quitting-kash-patel-b3090771.html",
+      "title": "US attorney general dodges questions about Nvidia investigation",
+      "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T18:55:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Powderfinger secure all-star Australian support acts for reunion tour",
+      "url": "https://www.abc.net.au/news/2026-11-25/powderfinger-2027-reunion-tour-dates-tickets-support-acts-lineup/107421410",
+      "source": "ABC Australia",
+      "published": "2026-11-24T18:53:03+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump Cabinet secretary who went ‘too far’ with ‘Jesus’ messages eyes Supreme Court fight",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/brooke-rollins-christian-messages-supreme-court-b3090906.html",
       "source": "The Independent",
-      "published": "2026-11-24T18:18:52+00:00",
+      "published": "2026-11-24T18:51:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Pacific governments step up El Niño response as drought and water crisis deepen",
-      "url": "https://www.rnz.co.nz/news/pacific/2768558/pacific-governments-step-up-el-nino-response-as-drought-and-water-crisis-deepen",
-      "source": "RNZ",
-      "published": "2026-11-24T18:18:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Consumer calls out Kmart's 'wild double standard' over asbestos sand",
-      "url": "https://www.rnz.co.nz/news/health/2767591/consumer-calls-out-kmart-s-wild-double-standard-over-asbestos-sand",
-      "source": "RNZ",
-      "published": "2026-11-24T18:17:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Rudy Giuliani awarded Presidential Medal of Freedom a year after being pardoned for potential crimes",
-      "url": "https://www.cbc.ca/news/world/us-medal-of-freedom-9.7433727?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T18:16:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Putin Says Ukraine Hits Russian Oil Plants Despite Trump's Requests, Promises Retaliation",
-      "url": "https://www.themoscowtimes.com/2026/11/24/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-a94367",
-      "source": "The Moscow Times",
-      "published": "2026-11-24T18:13:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "How Victoria's election landscape could shape One Nation's fortunes",
-      "url": "https://www.abc.net.au/news/2026-11-25/vic-election-one-nation-how-many-seats-could-they-win/107419866",
+      "title": "Weight-loss drug boom could leave Aussies facing falls and fractures",
+      "url": "https://www.abc.net.au/news/2026-11-25/glp1-weight-loss-muscle-loss-bone-fractures/107419818",
       "source": "ABC Australia",
-      "published": "2026-11-24T18:12:54+00:00",
+      "published": "2026-11-24T18:44:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump went after ‘woke’ Harvard. Now the Ivy League school has a class on MAGA",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-harvard-attacks-maga-class-b3090933.html",
+      "source": "The Independent",
+      "published": "2026-11-24T18:41:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Agents of the devil': Outrage in PNG after five women allegedly buried alive over sorcery claims",
+      "url": "https://www.rnz.co.nz/news/pacific/2768470/agents-of-the-devil-outrage-in-png-after-five-women-allegedly-buried-alive-over-sorcery-claims",
+      "source": "RNZ",
+      "published": "2026-11-24T18:35:12+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "US preparing to raise tariffs on China, EU and a dozen other countries",
+      "url": "https://english.elpais.com/economy-and-business/2026-11-24/us-preparing-to-raise-tariffs-on-china-eu-and-a-dozen-other-countries.html",
+      "source": "El País",
+      "published": "2026-11-24T18:33:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -986,10 +986,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7209.77,
+      "price": 7189.44,
       "currency": "USD",
-      "change": -27.4,
-      "change_percent": -0.38,
+      "change": -47.73,
+      "change_percent": -0.66,
       "name": "S&P 500"
     },
     {
@@ -1002,10 +1002,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 23765.74,
+      "price": 23680.68,
       "currency": "USD",
-      "change": -323.82,
-      "change_percent": -1.34,
+      "change": -408.88,
+      "change_percent": -1.7,
       "name": "NASDAQ Composite"
     },
     {
@@ -1021,10 +1021,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7209.77,
+        "price": 7189.44,
         "currency": "USD",
-        "change": -27.4,
-        "change_percent": -0.38,
+        "change": -47.73,
+        "change_percent": -0.66,
         "name": "S&P 500"
       },
       {
@@ -1037,18 +1037,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50035.98,
+        "price": 49921.7,
         "currency": "USD",
-        "change": 440.67,
-        "change_percent": 0.89,
+        "change": 326.39,
+        "change_percent": 0.66,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23765.74,
+        "price": 23680.68,
         "currency": "USD",
-        "change": -323.82,
-        "change_percent": -1.34,
+        "change": -408.88,
+        "change_percent": -1.7,
         "name": "NASDAQ Composite"
       },
       {
@@ -1079,26 +1079,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3560.8,
+        "price": 3556.0,
         "currency": "USD",
-        "change": -90.6,
-        "change_percent": -2.48,
+        "change": -95.4,
+        "change_percent": -2.61,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.77,
+        "price": 40.7,
         "currency": "USD",
-        "change": -2.4,
-        "change_percent": -5.57,
+        "change": -2.47,
+        "change_percent": -5.72,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.02,
+        "price": 88.44,
         "currency": "USD",
-        "change": 1.34,
-        "change_percent": 1.55,
+        "change": 1.76,
+        "change_percent": 2.03,
         "name": "Brent Crude"
       },
       {
@@ -1106,7 +1106,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.61,
+        "change_percent": 0.58,
         "name": "EUR/USD"
       },
       {
@@ -1114,81 +1114,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.62,
+        "change_percent": 0.57,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
         "price": 159.28,
         "currency": "JPY",
-        "change": 0.29,
+        "change": 0.3,
         "change_percent": 0.19,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60087.96,
+        "price": 59793.08,
         "currency": "USD",
-        "change": -1123.19,
-        "change_percent": -1.83,
+        "change": -1418.07,
+        "change_percent": -2.32,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 497.0,
+        "price": 494.44,
         "currency": "USD",
-        "change": 4.5,
-        "change_percent": 0.91,
+        "change": 1.94,
+        "change_percent": 0.39,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 353.42,
+        "price": 352.36,
         "currency": "USD",
-        "change": 4.34,
-        "change_percent": 1.24,
+        "change": 3.28,
+        "change_percent": 0.94,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 153.82,
+        "price": 153.42,
         "currency": "USD",
-        "change": -11.23,
-        "change_percent": -6.8,
+        "change": -11.63,
+        "change_percent": -7.05,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 279.22,
+        "price": 277.9,
         "currency": "USD",
-        "change": -2.88,
-        "change_percent": -1.02,
+        "change": -4.2,
+        "change_percent": -1.49,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 252.57,
+        "price": 251.53,
         "currency": "USD",
-        "change": -2.82,
-        "change_percent": -1.1,
+        "change": -3.85,
+        "change_percent": -1.51,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 384.31,
+        "price": 382.9,
         "currency": "USD",
-        "change": -1.15,
-        "change_percent": -0.3,
+        "change": -2.56,
+        "change_percent": -0.66,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 593.13,
+        "price": 591.86,
         "currency": "USD",
-        "change": -4.47,
-        "change_percent": -0.75,
+        "change": -5.74,
+        "change_percent": -0.96,
         "name": "Meta"
       }
     ]
@@ -1276,6 +1276,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Jensen Huang and the age of impunity",
+          "url": "https://www.economist.com/leaders/2026/11/24/jensen-huang-and-the-age-of-impunity",
+          "published": "2026-11-24T17:56:13+00:00",
+          "snippet": "Silicon Valley and Donald Trump share a disturbing view of power"
+        },
+        {
           "title": "America’s neglect of global science is backfiring",
           "url": "https://www.economist.com/leaders/2026/11/19/americas-neglect-of-global-science-is-backfiring",
           "published": "2026-11-19T14:01:02+00:00",
@@ -1286,12 +1292,6 @@
           "url": "https://www.economist.com/leaders/2026/11/19/can-britannia-rule-the-waves-again",
           "published": "2026-11-19T14:01:02+00:00",
           "snippet": "A risky bet that could transform the nature of sea power"
-        },
-        {
-          "title": "Bangladesh, an underappreciated success, faces an economic crisis",
-          "url": "https://www.economist.com/leaders/2026/11/19/bangladesh-an-underappreciated-success-faces-an-economic-crisis",
-          "published": "2026-11-19T09:51:47+00:00",
-          "snippet": "A newish government must fix the country’s banks"
         }
       ]
     },
@@ -1424,19 +1424,27 @@
   "web": {
     "tech": [
       {
+        "title": "The \"Security Tax\": Reclaiming 30% Performance in WSL 2",
+        "url": "https://tonym.us/wsl2-security-tax-reclaiming-performance",
+        "comments_url": "https://lobste.rs/s/beyzsq/security_tax_reclaiming_30_performance",
+        "score": 0,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T18:45:22.924000+00:00"
+      },
+      {
+        "title": "“Pervert glasses\" named word of the year by Macquarie Dictionary",
+        "url": "https://www.macquariedictionary.com.au/macquarie-dictionary-word-of-the-year-for-2026/",
+        "score": 54,
+        "source": "Hacker News",
+        "published": "2026-11-24T18:21:01+00:00"
+      },
+      {
         "title": "Per Vognsen on the effect of AVX-512 on lexing and parsing",
         "url": "https://mastodon.social/@pervognsen/117668394962974183",
         "comments_url": "https://lobste.rs/s/m7gqr6/per_vognsen_on_effect_avx_512_on_lexing",
-        "score": 1,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:11:49.469000+00:00"
-      },
-      {
-        "title": "AstridVPN: A VPN that doesn't know who you are",
-        "url": "https://astridvpn.com/",
-        "score": 5,
-        "source": "Hacker News",
-        "published": "2026-11-24T18:00:21+00:00"
       },
       {
         "title": "Beyond Linux: A Journey Through the Open Source Ecosystem",
@@ -1455,9 +1463,9 @@
         "published": "2026-11-24T17:19:10.765000+00:00"
       },
       {
-        "title": "Top MIT Physicist: Anthropic Staff Openly Talk About 'Taking over the World'",
+        "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
         "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
-        "score": 95,
+        "score": 146,
         "source": "Hacker News",
         "published": "2026-11-24T17:10:45+00:00"
       },
@@ -1472,7 +1480,7 @@
       {
         "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
         "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-        "score": 151,
+        "score": 167,
         "source": "Hacker News",
         "published": "2026-11-24T16:32:17+00:00"
       },
@@ -1487,28 +1495,28 @@
       {
         "title": "Jetty Pro",
         "url": "http://hypercritical.co/2026/11/23/jetty-pro",
-        "score": 119,
+        "score": 147,
         "source": "Hacker News",
         "published": "2026-11-24T16:23:02+00:00"
       },
       {
         "title": "How to Make a Lovable City",
         "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
-        "score": 60,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-24T16:19:55+00:00"
       },
       {
         "title": "Show HN: Mason – a lightweight Postgres read-replica, built on columnar storage",
         "url": "https://masondata.ai/",
-        "score": 23,
+        "score": 32,
         "source": "Hacker News",
         "published": "2026-11-24T16:11:52+00:00"
       },
       {
         "title": "The KL Divergence Is Never Negative, Except in PyTorch",
         "url": "https://arxiv.org/abs/2611.30835",
-        "score": 43,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-24T15:50:22+00:00"
       },
@@ -1516,23 +1524,16 @@
         "title": "I checked Clojure's core with Lean and found 17 unreported bugs",
         "url": "https://s.conao3.com/blog/2026/e4f733",
         "comments_url": "https://lobste.rs/s/yyktrz/i_checked_clojure_s_core_with_lean_found_17",
-        "score": 15,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-24T15:22:24.477000+00:00"
       },
       {
         "title": "A training engine for your local model, using your idle compute",
         "url": "https://github.com/sous-labs/songe",
-        "score": 78,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-24T15:03:40+00:00"
-      },
-      {
-        "title": "Splitting USB-C: USB 3 and USB 2 on One Port",
-        "url": "https://www.frankchiarulli.com/blog/splitting-usb-c/",
-        "score": 62,
-        "source": "Hacker News",
-        "published": "2026-11-24T14:54:10+00:00"
       }
     ],
     "reddit": [

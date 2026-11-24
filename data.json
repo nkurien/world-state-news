@@ -1,193 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T17:01:13.795865+00:00",
+  "last_updated": "2026-11-24T17:30:55.950092+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 382
+      "ms": 416
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 357
+      "ms": 456
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 128
+      "ms": 213
     },
     "BBC News": {
       "ok": true,
-      "count": 27,
+      "count": 28,
       "error": null,
-      "ms": 64
+      "ms": 548
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 154
+      "ms": 421
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 195
+      "ms": 304
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 574
+      "ms": 392
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 2396
+      "ms": 669
     },
     "Euronews": {
       "ok": true,
-      "count": 45,
+      "count": 44,
       "error": null,
-      "ms": 116
+      "ms": 62
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 1303
+      "ms": 209
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 316
+      "ms": 486
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 889
+      "ms": 397
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 91
+      "ms": 241
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 240
+      "ms": 122
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 233
+      "ms": 236
     },
     "RNZ": {
       "ok": true,
-      "count": 42,
+      "count": 43,
       "error": null,
-      "ms": 1128
+      "ms": 390
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 547
+      "ms": 719
     },
     "Semafor": {
       "ok": true,
       "count": 241,
       "error": null,
-      "ms": 590
+      "ms": 698
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 844
+      "ms": 506
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 356
+      "ms": 399
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3182
+      "ms": 3073
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 232
+      "ms": 305
     },
     "The Independent": {
       "ok": true,
-      "count": 88,
+      "count": 90,
       "error": null,
-      "ms": 215
+      "ms": 190
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 197
+      "ms": 205
     }
   },
   "breaking": [
-    {
-      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-24T15:35:53+00:00",
-      "score": 6,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
-          "title": "Israeli air strike kills senior Hamas security official in Gaza",
-          "published": "2026-11-24T13:55:11+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
-          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
-          "published": "2026-11-24T13:28:18+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
-          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
-          "published": "2026-11-24T13:07:03+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-strikes-in-gaza-kill-seven-including-senior-security-official-6578251",
-          "title": "Israeli strikes in Gaza kill seven including senior security official",
-          "published": "2026-11-24T12:29:00+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece",
-          "title": "Israeli airstrike kills senior Hamas security official in Gaza, Hamas sources say",
-          "published": "2026-11-24T11:10:02+00:00"
-        }
-      ],
-      "consensus": 7.0
-    },
     {
       "title": "UK police arrest two men after break-in at William and Kate's home",
       "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
@@ -212,6 +172,34 @@
           "url": "https://www.abc.net.au/news/2026-11-25/kate-william-prince-of-wales-break-in-anmer-hall/107423242",
           "title": "Two arrested after break-in at Kate and William's estate",
           "published": "2026-11-24T13:23:57+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T15:35:53+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strike-kills-senior-hamas-military-official-in-gaza?traffic_source=rss",
+          "title": "Israeli air strike kills senior Hamas security official in Gaza",
+          "published": "2026-11-24T13:55:11+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+          "published": "2026-11-24T13:28:18+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261124-israeli-strikes-on-gaza-kill-senior-hamas-security-official-and-six-other-people-medics-say",
+          "title": "Israeli strikes on Gaza kill senior Hamas security official and six other people, medics say",
+          "published": "2026-11-24T13:07:03+00:00"
         }
       ],
       "consensus": 5.0
@@ -384,6 +372,28 @@
           "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
           "title": "Jensen Huang’s Nvidia return shakes Washington",
           "published": "2026-11-24T12:04:43+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
+      "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
+      "source": "NPR World",
+      "published": "2026-11-24T12:12:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
+          "published": "2026-11-24T01:21:41+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
+          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
+          "published": "2026-11-23T21:46:00+00:00"
         }
       ],
       "consensus": 4.0
@@ -570,38 +580,6 @@
           "url": "http://www.africanews.com/2026/11/23/zambian-opposition-leader-mundubile-formally-indicted-on-treason-charges/",
           "title": "Zambian opposition leader Mundubile formally indicted on treason charges",
           "published": "2026-11-24T03:45:32+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Huang returns as Nvidia CEO in sudden reversal after Trump intervention",
-      "url": "https://www.france24.com/en/video/20261124-huang-returns-as-nvidia-ceo-in-sudden-reversal-after-trump-intervention",
-      "source": "France24",
-      "published": "2026-11-24T12:19:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/nvidia-wall-street-us-stocks-huang-ceo-shares-6576061",
-          "title": "Wall Street jumps back as Jensen Huang returns as Nvidia CEO",
-          "published": "2026-11-23T21:46:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
-      "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
-      "source": "NPR World",
-      "published": "2026-11-24T12:12:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
-          "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
-          "published": "2026-11-24T01:21:41+00:00"
         }
       ],
       "consensus": 2.5
@@ -907,82 +885,91 @@
       "consensus": 1.5
     },
     {
-      "title": "Yemen’s army says Houthi fighters closing in on government stronghold of Aden",
-      "url": "https://www.france24.com/en/middle-east/20261124-yemen-army-houthi-attack-aden",
-      "source": "France24",
-      "published": "2026-11-24T16:51:30+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "No students will be turned away from re-sitting exam, regardless of NZQA deadline",
-      "url": "https://www.rnz.co.nz/news/education/2767972/no-students-will-be-turned-away-from-re-sitting-exam-regardless-of-nzqa-deadline",
+      "title": "COP31 format needs re-think, former NZ climate ambassadors say",
+      "url": "https://www.rnz.co.nz/news/environment_climate/2768377/cop31-format-needs-re-think-former-nz-climate-ambassadors-say",
       "source": "RNZ",
-      "published": "2026-11-24T16:43:10+00:00",
+      "published": "2026-11-24T17:20:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "The UK and EU link their carbon markets",
-      "url": "https://www.semafor.com/article/11/24/2026/the-uk-and-eu-link-their-carbon-markets",
+      "title": "Todd Blanche erupts over questions about investigations into Jensen Huang: ‘What does that mean? For what?’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/todd-blanche-trump-jensen-huang-nvidia-investigations-b3090873.html",
+      "source": "The Independent",
+      "published": "2026-11-24T17:19:29+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Democrat pariah Haley Stevens is consoling herself at 5-star beach resort after El-Sayed victory",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/haley-stevens-hawaii-vacation-el-sayed-b3090810.html",
+      "source": "The Independent",
+      "published": "2026-11-24T17:14:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Stressed about money and working multiple jobs': The new uni experience",
+      "url": "https://www.rnz.co.nz/news/education/2768278/stressed-about-money-and-working-multiple-jobs-the-new-uni-experience",
+      "source": "RNZ",
+      "published": "2026-11-24T17:12:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kainga Ora wants to sell street of public housing to land bankers",
+      "url": "https://www.rnz.co.nz/news/business/2768277/kainga-ora-wants-to-sell-street-of-public-housing-to-land-bankers",
+      "source": "RNZ",
+      "published": "2026-11-24T17:12:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Cut price: What meat can you make a cheap, hearty meal with these days?",
+      "url": "https://www.rnz.co.nz/news/personal-finance/2768274/cut-price-what-meat-can-you-make-a-cheap-hearty-meal-with-these-days",
+      "source": "RNZ",
+      "published": "2026-11-24T17:12:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "USDA has no plans to probe death of hippo Fiona",
+      "url": "https://www.semafor.com/article/11/24/2026/usda-has-no-plans-to-probe-death-of-hippo-fiona",
       "source": "Semafor",
-      "published": "2026-11-24T16:42:49+00:00",
+      "published": "2026-11-24T17:08:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Gisele Pelicot slams publisher for using nude images from her rape case in book promo",
-      "url": "https://www.scmp.com/news/world/europe/article/3375670/gisele-pelicot-slams-publisher-using-nude-images-her-rape-case-book-promo",
-      "source": "SCMP",
-      "published": "2026-11-24T16:42:33+00:00",
+      "title": "Indonesia names former police chief as treason suspect in presidential wiretapping case",
+      "url": "https://www.euronews.com/2026/11/24/indonesia-names-former-police-chief-as-treason-suspect-in-presidential-wiretapping-case",
+      "source": "Euronews",
+      "published": "2026-11-24T17:07:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "The outlook for the bipartisan reform bill darkens",
-      "url": "https://www.semafor.com/article/11/24/2026/the-outlook-for-the-bipartisan-reform-bill-darkens",
-      "source": "Semafor",
-      "published": "2026-11-24T16:41:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "How Senegal got their AFCON trophy back",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_how-senegal-got-their-afcon-trophy-back-241126?traffic_source=rss",
+      "title": "After Libya, where will Ukraine strike Russia next?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-24T16:41:22+00:00",
+      "published": "2026-11-24T17:05:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-      "url": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-24T16:37:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Climate action doesn't need consensus",
-      "url": "https://www.semafor.com/article/11/24/2026/climate-action-doesnt-need-consensus",
-      "source": "Semafor",
-      "published": "2026-11-24T16:33:56+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering",
-      "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
-      "source": "France24",
-      "published": "2026-11-24T16:33:12+00:00",
+      "title": "Le congrès des maires, passage obligé des candidats",
+      "url": "https://www.politico.eu/podcast/playbook-paris-podcast/le-congres-des-maires-passage-oblige-des-candidats/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-24T17:04:50+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -991,10 +978,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7161.49,
+      "price": 7213.5,
       "currency": "USD",
-      "change": -75.68,
-      "change_percent": -1.05,
+      "change": -23.67,
+      "change_percent": -0.33,
       "name": "S&P 500"
     },
     {
@@ -1007,10 +994,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 23539.88,
+      "price": 23790.73,
       "currency": "USD",
-      "change": -549.68,
-      "change_percent": -2.28,
+      "change": -298.83,
+      "change_percent": -1.24,
       "name": "NASDAQ Composite"
     },
     {
@@ -1026,10 +1013,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7161.49,
+        "price": 7213.5,
         "currency": "USD",
-        "change": -75.68,
-        "change_percent": -1.05,
+        "change": -23.67,
+        "change_percent": -0.33,
         "name": "S&P 500"
       },
       {
@@ -1042,18 +1029,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 49742.95,
+        "price": 49999.98,
         "currency": "USD",
-        "change": 147.64,
-        "change_percent": 0.3,
+        "change": 404.67,
+        "change_percent": 0.82,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23539.88,
+        "price": 23790.73,
         "currency": "USD",
-        "change": -549.68,
-        "change_percent": -2.28,
+        "change": -298.83,
+        "change_percent": -1.24,
         "name": "NASDAQ Composite"
       },
       {
@@ -1084,26 +1071,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3567.7,
+        "price": 3566.4,
         "currency": "USD",
-        "change": -83.7,
-        "change_percent": -2.29,
+        "change": -85.0,
+        "change_percent": -2.33,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.74,
+        "price": 40.83,
         "currency": "USD",
-        "change": -2.43,
-        "change_percent": -5.63,
+        "change": -2.34,
+        "change_percent": -5.43,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.57,
+        "price": 87.89,
         "currency": "USD",
-        "change": 0.89,
-        "change_percent": 1.03,
+        "change": 1.21,
+        "change_percent": 1.4,
         "name": "Brent Crude"
       },
       {
@@ -1111,7 +1098,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.6,
+        "change_percent": 0.61,
         "name": "EUR/USD"
       },
       {
@@ -1119,81 +1106,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.55,
+        "change_percent": 0.59,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.16,
+        "price": 159.27,
         "currency": "JPY",
-        "change": 0.18,
-        "change_percent": 0.11,
+        "change": 0.29,
+        "change_percent": 0.18,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59349.66,
+        "price": 60030.04,
         "currency": "USD",
-        "change": -1861.49,
-        "change_percent": -3.04,
+        "change": -1181.11,
+        "change_percent": -1.93,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 497.11,
+        "price": 501.4,
         "currency": "USD",
-        "change": 4.61,
-        "change_percent": 0.94,
+        "change": 8.9,
+        "change_percent": 1.81,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 351.19,
+        "price": 353.21,
         "currency": "USD",
-        "change": 2.11,
-        "change_percent": 0.6,
+        "change": 4.13,
+        "change_percent": 1.18,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 150.8,
+        "price": 154.15,
         "currency": "USD",
-        "change": -14.25,
-        "change_percent": -8.64,
+        "change": -10.9,
+        "change_percent": -6.6,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 276.96,
+        "price": 278.85,
         "currency": "USD",
-        "change": -5.14,
-        "change_percent": -1.82,
+        "change": -3.25,
+        "change_percent": -1.15,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 251.29,
+        "price": 253.92,
         "currency": "USD",
-        "change": -4.1,
-        "change_percent": -1.61,
+        "change": -1.47,
+        "change_percent": -0.58,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 377.62,
+        "price": 384.29,
         "currency": "USD",
-        "change": -7.84,
-        "change_percent": -2.03,
+        "change": -1.17,
+        "change_percent": -0.3,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 587.59,
+        "price": 593.77,
         "currency": "USD",
-        "change": -10.01,
-        "change_percent": -1.68,
+        "change": -3.83,
+        "change_percent": -0.64,
         "name": "Meta"
       }
     ]
@@ -1331,8 +1318,8 @@
       "column": "global",
       "entries": [
         {
-          "title": "What It Means to Protect Elections",
-          "url": "https://www.theatlantic.com/podcasts/2026/11/what-it-means-to-protect-elections/689048/?utm_source=feed",
+          "title": "What It Means to Secure Elections",
+          "url": "https://www.theatlantic.com/podcasts/2026/11/what-it-means-to-secure-elections/689048/?utm_source=feed",
           "published": "2026-11-24T16:00:00+00:00",
           "snippet": "The Democratic election lawyer Marc Elias explains why one free and fair election does not end the threat to our democracy."
         },
@@ -1429,6 +1416,14 @@
   "web": {
     "tech": [
       {
+        "title": "Go Without Wires: TinyGo on ESP32",
+        "url": "https://www.youtube.com/watch?v=Vi5M-uD2x_U",
+        "comments_url": "https://lobste.rs/s/qrhnbc/go_without_wires_tinygo_on_esp32",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T17:19:10.765000+00:00"
+      },
+      {
         "title": "SeaStore: Redesigning Ceph’s Storage Backend for CPU-Efficient NVMe Performance",
         "url": "https://dl.acm.org/doi/10.1145/3828523.3857112",
         "comments_url": "https://lobste.rs/s/w3zni2/seastore_redesigning_ceph_s_storage",
@@ -1437,9 +1432,9 @@
         "published": "2026-11-24T16:35:47.557000+00:00"
       },
       {
-        "title": "Cyberattack Campaign Compromising Check Point Servers Across 22 Organizations",
+        "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
         "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-        "score": 33,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-24T16:32:17+00:00"
       },
@@ -1454,43 +1449,43 @@
       {
         "title": "Jetty Pro",
         "url": "http://hypercritical.co/2026/11/23/jetty-pro",
-        "score": 23,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-24T16:23:02+00:00"
       },
       {
         "title": "How to Make a Lovable City",
         "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
-        "score": 9,
+        "score": 19,
         "source": "Hacker News",
         "published": "2026-11-24T16:19:55+00:00"
       },
       {
-        "title": "Tidal Bans AI-Generated Music",
-        "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
-        "score": 127,
+        "title": "The KL Divergence Is Never Negative, Except in PyTorch",
+        "url": "https://arxiv.org/abs/2611.30835",
+        "score": 22,
         "source": "Hacker News",
-        "published": "2026-11-24T16:12:38+00:00"
+        "published": "2026-11-24T15:50:22+00:00"
       },
       {
         "title": "I checked Clojure's core with Lean and found 17 unreported bugs",
         "url": "https://s.conao3.com/blog/2026/e4f733",
         "comments_url": "https://lobste.rs/s/yyktrz/i_checked_clojure_s_core_with_lean_found_17",
-        "score": 8,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-24T15:22:24.477000+00:00"
       },
       {
         "title": "A training engine for your local model, using your idle compute",
         "url": "https://github.com/sous-labs/songe",
-        "score": 37,
+        "score": 46,
         "source": "Hacker News",
         "published": "2026-11-24T15:03:40+00:00"
       },
       {
         "title": "Splitting USB-C: USB 3 and USB 2 on One Port",
         "url": "https://www.frankchiarulli.com/blog/splitting-usb-c/",
-        "score": 10,
+        "score": 28,
         "source": "Hacker News",
         "published": "2026-11-24T14:54:10+00:00"
       },
@@ -1513,7 +1508,7 @@
       {
         "title": "LLM agents work for their parent companies, not for you",
         "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-        "score": 580,
+        "score": 618,
         "source": "Hacker News",
         "published": "2026-11-24T12:40:15+00:00"
       },
@@ -1528,17 +1523,9 @@
       {
         "title": "Worshipping at the altar of Brendan Gregg",
         "url": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
-        "score": 160,
+        "score": 168,
         "source": "Hacker News",
         "published": "2026-11-24T10:50:14+00:00"
-      },
-      {
-        "title": "Bypassing iOS Safari 60 FPS Limit",
-        "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "comments_url": "https://lobste.rs/s/pxvmxo/bypassing_ios_safari_60_fps_limit",
-        "score": 9,
-        "source": "Lobste.rs",
-        "published": "2026-11-24T10:35:19.962000+00:00"
       }
     ],
     "reddit": [

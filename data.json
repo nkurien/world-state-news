@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T23:01:07.115884+00:00",
+  "last_updated": "2026-11-24T23:30:59.043642+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 244
+      "ms": 455
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 464
+      "ms": 252
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 116
+      "ms": 249
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 116
+      "ms": 320
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 345
+      "ms": 240
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 154
+      "ms": 546
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 290
+      "ms": 631
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 664
+      "ms": 516
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 72
+      "ms": 101
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 92
+      "ms": 208
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 751
+      "ms": 392
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 312
+      "ms": 420
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 109
+      "ms": 343
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 272
+      "ms": 153
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 198
+      "ms": 146
     },
     "RNZ": {
       "ok": true,
-      "count": 41,
+      "count": 40,
       "error": null,
-      "ms": 254
+      "ms": 324
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 765
+      "ms": 549
     },
     "Semafor": {
       "ok": true,
       "count": 244,
       "error": null,
-      "ms": 715
+      "ms": 640
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 724
+      "ms": 742
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 193
+      "ms": 410
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3055
+      "ms": 3173
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 252
+      "ms": 267
     },
     "The Independent": {
       "ok": true,
-      "count": 85,
+      "count": 86,
       "error": null,
-      "ms": 215
+      "ms": 432
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 227
+      "ms": 338
     }
   },
   "breaking": [
@@ -160,6 +160,22 @@
           "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
           "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
           "published": "2026-11-24T21:27:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Malaysia to repatriate another 6,803 Myanmar nationals despite ICJ genocide ruling",
+      "url": "https://www.thehindu.com/news/international/malaysia-to-repatriate-another-6803-myanmar-nationals-despite-icj-genocide-ruling/article71740198.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T22:36:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/myanmar-anwar-ibrahim-malaysia-kuala-lumpur-min-aung-hlaing-b3090485.html",
+          "title": "Malaysia to repatriate another 6,803 Myanmar nationals despite ICJ genocide ruling",
+          "published": "2026-11-24T09:45:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -259,22 +275,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Senegal reinstated as AFCON 2025 winners",
-      "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners",
-      "source": "France24",
-      "published": "2026-11-24T21:14:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/24/senegal-reinstated-as-afcon-winners-after-cas-rules-against-morocco/",
-          "title": "Senegal reinstated as AFCON winners after CAS rules against Morocco",
-          "published": "2026-11-24T15:22:52+00:00"
-        }
-      ],
-      "consensus": 2.5
     }
   ],
   "world": [
@@ -318,28 +318,6 @@
           "url": "https://www.channelnewsasia.com/business/nvidia-jensen-huang-resignation-return-stocks-6577476",
           "title": "Jensen Huang’s stunning return as Nvidia CEO: A timeline of events",
           "published": "2026-11-24T09:37:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO after U.S. government input",
-      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T07:10:52+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/23/ai-giant-nvidia-reinstates-jensen-huang-as-ceo-after-spy-scandal/",
-          "title": "AI giant Nvidia reinstates Jensen Huang as CEO after spy scandal",
-          "published": "2026-11-23T16:10:54+00:00"
-        },
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-after-assurances-from-the-us-government?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "Nvidia reinstates Jensen Huang as CEO after assurances from the US government",
-          "published": "2026-11-23T15:08:00+00:00"
         }
       ],
       "consensus": 4.0
@@ -521,6 +499,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Senegal reinstated as AFCON 2025 winners",
+      "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners",
+      "source": "France24",
+      "published": "2026-11-24T21:14:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/24/senegal-reinstated-as-afcon-winners-after-cas-rules-against-morocco/",
+          "title": "Senegal reinstated as AFCON winners after CAS rules against Morocco",
+          "published": "2026-11-24T15:22:52+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Car bomb destroys buildings in central Colombian city",
       "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city",
       "source": "France24",
@@ -633,22 +627,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Army says weather conditions favorable for Wednesday detonation of bomb-making material in Iowa",
-      "url": "https://www.independent.co.uk/news/world/americas/donald-trump-middletown-justice-department-national-weather-service-fema-b3090745.html",
-      "source": "The Independent",
-      "published": "2026-11-24T14:57:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/iowa-lead-azide-explosion-explosive-army-9.7432313?cmp=rss",
-          "title": "U.S. army says it will detonate Iowa bomb-making material Wednesday, after court's approval",
-          "published": "2026-11-23T17:52:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Zambia formally indicts opposition leader on treason charges",
       "url": "https://www.rfi.fr/en/africa/20261124-zambia-formally-indicts-opposition-leader-on-treason-charges",
       "source": "RFI English",
@@ -751,17 +729,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Outrage after ICE arrest father and daughter at Seattle airport",
-      "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-23T22:59:07+00:00",
+      "title": "Nvidia reinstates Jensen Huang as CEO after U.S. government input",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T07:10:52+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/seattle-airport-ice-arrest-9.7432394?cmp=rss",
-          "title": "What happened at the Seattle airport? Outrage as ICE arrests man and daughter boarding flight",
-          "published": "2026-11-23T19:00:41+00:00"
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-after-assurances-from-the-us-government?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "Nvidia reinstates Jensen Huang as CEO after assurances from the US government",
+          "published": "2026-11-23T15:08:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -933,37 +911,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Champions League: Real Madrid thrash PSV 5-1 in comeback win as Manchester City held by Napoli",
-      "url": "https://www.france24.com/en/sport/20261124-champions-league-real-madrid-thrash-psv-5-1-in-comeback-win-as-manchester-city-held-by-napoli",
-      "source": "France24",
-      "published": "2026-11-24T22:59:39+00:00",
+      "title": "Home advantage: can Hong Kong turn sports bodies’ arrival into global influence?",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3375669/home-advantage-can-hong-kong-turn-sports-bodies-arrival-global-influence",
+      "source": "SCMP",
+      "published": "2026-11-24T23:30:17+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Arsenal and Dortmund draw 1-1 as Gyokeres goes from hero to villain",
-      "url": "https://www.aljazeera.com/sports/2026/11/24/arsenal-and-dortmund-draw-1-1-as-gyokeres-goes-from-hero-to-villain?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T22:50:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Volunteer firefighter in induced coma after tanker caught in blaze",
-      "url": "https://www.abc.net.au/news/2026-11-25/cfa-volunteer-critical-condition-nandaly-fire/107422840",
+      "title": "Breaking: Ex-prison worker jailed for nine years for raping inmate",
+      "url": "https://www.abc.net.au/news/2026-11-25/enio-screpanti-sentenced-for-prison-rape/107424324",
       "source": "ABC Australia",
-      "published": "2026-11-24T22:47:13+00:00",
+      "published": "2026-11-24T23:25:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "RNZ investigating potential cyber breach",
-      "url": "https://www.rnz.co.nz/news/political/2770474/rnz-investigating-potential-cyber-breach",
+      "title": "Trump-era deportation saga comes to close with Kilmar Abrego Garcia leaving US voluntarily",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/kilmar-abrego-garcia-deported-trump-usa-b3091064.html",
+      "source": "The Independent",
+      "published": "2026-11-24T23:19:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Beau Lamarre-Condon jury retires to consider verdict in double murder trial",
+      "url": "https://www.abc.net.au/news/2026-11-25/beau-lamarre-condon-murder-trial-jury-retires-consider-verdict/107423638",
+      "source": "ABC Australia",
+      "published": "2026-11-24T23:18:31+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hundreds of taonga pounamu heading to China for an international exhibition",
+      "url": "https://www.rnz.co.nz/life/culture/hundreds-of-taonga-pounamu-heading-to-china-for-an-international-exhibition",
       "source": "RNZ",
-      "published": "2026-11-24T22:41:46+00:00",
+      "published": "2026-11-24T23:17:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1065,26 +1052,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3555.1,
+        "price": 3557.6,
         "currency": "USD",
-        "change": -6.8,
-        "change_percent": -0.19,
+        "change": -4.3,
+        "change_percent": -0.12,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.71,
+        "price": 40.83,
         "currency": "USD",
-        "change": -0.07,
-        "change_percent": -0.18,
+        "change": 0.04,
+        "change_percent": 0.11,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.5,
+        "price": 88.39,
         "currency": "USD",
-        "change": -0.28,
-        "change_percent": -0.32,
+        "change": -0.39,
+        "change_percent": -0.44,
         "name": "Brent Crude"
       },
       {
@@ -1092,7 +1079,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.58,
+        "change_percent": 0.54,
         "name": "EUR/USD"
       },
       {
@@ -1100,23 +1087,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.56,
+        "change_percent": 0.55,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.26,
+        "price": 159.27,
         "currency": "JPY",
-        "change": 0.27,
-        "change_percent": 0.17,
+        "change": 0.29,
+        "change_percent": 0.18,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59859.86,
+        "price": 59929.76,
         "currency": "USD",
-        "change": -1351.29,
-        "change_percent": -2.21,
+        "change": -1281.39,
+        "change_percent": -2.09,
         "name": "Bitcoin"
       }
     ],
@@ -1410,45 +1397,60 @@
   "web": {
     "tech": [
       {
+        "title": "Pokemon Childhood Version: A romhack where Mew is under the truck",
+        "url": "https://wheybags.com/blog/pokemon_childhood_version.html",
+        "comments_url": "https://lobste.rs/s/em9zdb/pokemon_childhood_version_romhack_where",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T23:14:50.733000+00:00"
+      },
+      {
         "title": "Why there are still no non-WebKit browsers on iOS",
         "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
         "comments_url": "https://lobste.rs/s/sv2flr/why_there_are_still_no_non_webkit_browsers",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-24T22:28:27.956000+00:00"
       },
       {
+        "title": "Fable 5.2 Tries Less on Some Hard Tasks When a Shortcut Is Available",
+        "url": "https://goodhartlabs.com/blog/fable-5-2-tries-less-on-some-hard-tasks-when-a-shortcut-is-available",
+        "score": 9,
+        "source": "Hacker News",
+        "published": "2026-11-24T22:26:41+00:00"
+      },
+      {
         "title": "Heart attack and stroke risk detectable decades in advance",
         "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
-        "score": 62,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-24T21:51:21+00:00"
       },
       {
         "title": "An unclassified CIA system was breached in a cyberattack",
         "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
-        "score": 57,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-24T21:24:27+00:00"
       },
       {
         "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
         "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-        "score": 79,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-24T21:02:22+00:00"
       },
       {
         "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "score": 44,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-24T20:44:15+00:00"
       },
       {
         "title": "Ternary Bonsai 2.5 27B",
         "url": "https://prismml.com/news/bonsai-2-5-27b",
-        "score": 227,
+        "score": 259,
         "source": "Hacker News",
         "published": "2026-11-24T20:08:03+00:00"
       },
@@ -1463,7 +1465,7 @@
       {
         "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
         "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-        "score": 45,
+        "score": 54,
         "source": "Hacker News",
         "published": "2026-11-24T19:40:43+00:00"
       },
@@ -1471,7 +1473,7 @@
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
         "comments_url": "https://lobste.rs/s/vciex6/9_ux_macintosh_inspired_desktop_for",
-        "score": 10,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:37:29.366000+00:00"
       },
@@ -1479,7 +1481,7 @@
         "title": "Fund browser-grade certificate checking for every TLS client",
         "url": "https://upki.rustls.dev/funding.html",
         "comments_url": "https://lobste.rs/s/mcrzxl/fund_browser_grade_certificate_checking",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:27:49.682000+00:00"
       },
@@ -1487,7 +1489,7 @@
         "title": "Per Vognsen on the effect of AVX-512 on lexing and parsing",
         "url": "https://mastodon.social/@pervognsen/117668394962974183",
         "comments_url": "https://lobste.rs/s/m7gqr6/per_vognsen_on_effect_avx_512_on_lexing",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:11:49.469000+00:00"
       },
@@ -1506,21 +1508,6 @@
         "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-24T17:19:10.765000+00:00"
-      },
-      {
-        "title": "SeaStore: Redesigning Ceph’s Storage Backend for CPU-Efficient NVMe Performance",
-        "url": "https://dl.acm.org/doi/10.1145/3828523.3857112",
-        "comments_url": "https://lobste.rs/s/w3zni2/seastore_redesigning_ceph_s_storage",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-24T16:35:47.557000+00:00"
-      },
-      {
-        "title": "Active intrusion campaign against Check Point security management servers",
-        "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-        "score": 241,
-        "source": "Hacker News",
-        "published": "2026-11-24T16:32:17+00:00"
       }
     ],
     "reddit": [

@@ -1,180 +1,200 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-24T22:01:11.281445+00:00",
+  "last_updated": "2026-11-24T22:30:52.291914+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 70
+      "ms": 415
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 75
+      "ms": 209
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 83
+      "ms": 135
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 36
+      "ms": 104
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 85
+      "ms": 277
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 100
+      "ms": 405
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 57
+      "ms": 556
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 242
+      "ms": 321
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 39
+      "ms": 109
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 61
+      "ms": 158
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 226
+      "ms": 299
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 244
+      "ms": 361
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 94
+      "ms": 203
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 130
+      "ms": 135
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 173
+      "ms": 191
     },
     "RNZ": {
       "ok": true,
-      "count": 40,
+      "count": 39,
       "error": null,
-      "ms": 76
+      "ms": 348
     },
     "SCMP": {
-      "ok": false,
-      "count": 0,
-      "error": "429 Client Error: Too Many Requests for url: https://www.scmp.com/rss/91/feed",
-      "ms": 3154
+      "ok": true,
+      "count": 50,
+      "error": null,
+      "ms": 563
     },
     "Semafor": {
       "ok": true,
-      "count": 242,
+      "count": 244,
       "error": null,
-      "ms": 526
+      "ms": 402
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 323
+      "ms": 708
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 85
+      "ms": 290
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3089
+      "ms": 3138
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 118
+      "ms": 138
     },
     "The Independent": {
       "ok": true,
-      "count": 87,
+      "count": 86,
       "error": null,
-      "ms": 246
+      "ms": 188
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 111
+      "ms": 141
     }
   },
   "breaking": [
     {
-      "title": "Chinese tech giant Huawei found guilty of conspiracy to steal trade secrets",
-      "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T21:43:34+00:00",
-      "score": 4,
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T22:24:23+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-          "published": "2026-11-24T21:32:34+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
-          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
-          "published": "2026-11-24T21:27:44+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-          "published": "2026-11-24T20:59:59+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+          "published": "2026-11-24T21:43:34+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 2.5
+    },
+    {
+      "title": "China investigates Politburo member as corruption purge deepens",
+      "url": "https://www.semafor.com/article/11/24/2026/china-investigates-politburo-member-amid-anti-corruption-purge",
+      "source": "Semafor",
+      "published": "2026-11-24T22:23:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-investigates-politburo-member-chen-jining-state-media-reports",
+          "title": "China investigates Politburo member Chen Jining, state media reports",
+          "published": "2026-11-24T12:26:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
+      "source": "SCMP",
+      "published": "2026-11-24T22:03:22+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
+          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
+          "published": "2026-11-17T16:30:10+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
@@ -188,6 +208,38 @@
           "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-nvidia-comeback-leaves-him-unfireable-and-indebted-to-trump",
           "title": "Jensen Huang's Nvidia comeback leaves him unfireable and indebted to Trump",
           "published": "2026-11-24T13:46:57+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
+      "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T21:27:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
+          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
+          "published": "2026-11-24T20:59:59+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Cameroon separatist leader pleads not guilty at Norway war crimes trial",
+      "url": "http://www.africanews.com/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-at-norway-war-crimes-trial/",
+      "source": "Africanews",
+      "published": "2026-11-24T21:26:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+          "title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
+          "published": "2026-11-24T17:39:18+00:00"
         }
       ],
       "consensus": 2.5
@@ -223,45 +275,31 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "All the recent mass outages in the US as TikTok goes down and CIA hit by cyberattack",
-      "url": "https://www.independent.co.uk/news/world/americas/outages-tiktok-down-cia-cyberattack-b3091019.html",
-      "source": "The Independent",
-      "published": "2026-11-24T21:53:57+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ground stop issued at Chicago O’Hare Airport after system outage",
-      "url": "https://www.independent.co.uk/news/world/americas/chicago-ohare-ground-stop-outage-faa-b3091030.html",
-      "source": "The Independent",
-      "published": "2026-11-24T21:51:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Nvidia, Anthropic end sharply lower as AI selloff resumes",
-      "url": "https://www.channelnewsasia.com/world/stocks-wall-street-nvidia-anthropic-ai-6579601",
-      "source": "CNA",
-      "published": "2026-11-24T21:46:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Drops for Nvidia, Anthropic and other AI stocks drag the markets back down",
-      "url": "https://www.cbc.ca/news/business/stock-market-latest-nvidia-anthropic-ai-stocks-9.7434596?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T21:45:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
+    {
+      "title": "Gisèle Pelicot 'deeply shocked' after nude images from her rape case used in book promotion",
+      "url": "https://www.cbc.ca/news/world/gisele-pelicot-paris-book-9.7434150?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T17:33:45+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375670/gisele-pelicot-slams-publisher-using-nude-images-her-rape-case-book-promo",
+          "title": "Gisele Pelicot slams publisher for using nude images from her rape case in book promo",
+          "published": "2026-11-24T16:42:33+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/gisele-pelicot-shocked-nude-photos-promote-book-b3090415.html",
+          "title": "Gisèle Pelicot ‘deeply shocked’ after nude photos of her used to promote book",
+          "published": "2026-11-24T08:51:44+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
     {
       "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
       "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
@@ -417,6 +455,28 @@
       "consensus": 3.5
     },
     {
+      "title": "North Korea threatens to shut Swiss office over Russian youth camp sanctions",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375602/north-korea-threatens-shut-swiss-office-over-russian-youth-camp-sanctions",
+      "source": "SCMP",
+      "published": "2026-11-24T08:42:07+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/north-korea-switzerland-russia-war-b3090395.html",
+          "title": "North Korea to shut Swiss diplomatic site after sanctions on children’s camp",
+          "published": "2026-11-24T08:10:51+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/politics/north-korea-swiss-diplomatic-office/",
+          "title": "North Korea threatens to close Swiss diplomatic office",
+          "published": "2026-11-24T03:29:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Fourth country withdraws from the International Criminal Court after Putin visit",
       "url": "https://www.independent.co.uk/news/world/icc-tajikistan-putin-international-criminal-court-b3090409.html",
       "source": "The Independent",
@@ -493,6 +553,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Global landmine casualties hit a five-year high, driven by Myanmar, Syria",
+      "url": "https://www.aljazeera.com/news/2026/11/24/global-landmine-casualties-hit-a-five-year-high-driven-by-myanmar-syria?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-24T18:47:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000",
+          "title": "Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000",
+          "published": "2026-11-24T10:46:01+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Iran rules out talks with U.S. until its seven conditions are met",
       "url": "https://www.thehindu.com/news/international/iran-rules-out-talks-with-us-until-its-seven-conditions-are-met/article71739875.ece",
       "source": "The Hindu",
@@ -504,22 +580,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/iran-gaza-palestinians-strait-of-hormuz-israeli-b3090524.html",
           "title": "Iran insists no talks with the US until its 7 conditions are met, and other Mideast news",
           "published": "2026-11-24T10:34:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Gisèle Pelicot 'deeply shocked' after nude images from her rape case used in book promotion",
-      "url": "https://www.cbc.ca/news/world/gisele-pelicot-paris-book-9.7434150?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T17:33:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gisele-pelicot-shocked-nude-photos-promote-book-b3090415.html",
-          "title": "Gisèle Pelicot ‘deeply shocked’ after nude photos of her used to promote book",
-          "published": "2026-11-24T08:51:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -557,6 +617,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-24T15:35:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375657/hamas-security-chief-killed-israeli-air-strike-gaza-city",
+          "title": "Hamas security chief killed in Israeli air strike on Gaza City",
+          "published": "2026-11-24T13:28:18+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Army says weather conditions favorable for Wednesday detonation of bomb-making material in Iowa",
       "url": "https://www.independent.co.uk/news/world/americas/donald-trump-middletown-justice-department-national-weather-service-fema-b3090745.html",
       "source": "The Independent",
@@ -584,6 +660,22 @@
           "url": "http://www.africanews.com/2026/11/23/zambian-opposition-leader-mundubile-formally-indicted-on-treason-charges/",
           "title": "Zambian opposition leader Mundubile formally indicted on treason charges",
           "published": "2026-11-24T03:45:32+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "How Jensen Huang’s Nvidia return could deepen US rift over China chip curbs",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375631/how-jensen-huangs-nvidia-return-could-deepen-us-rift-over-china-chip-curbs",
+      "source": "SCMP",
+      "published": "2026-11-24T14:00:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
+          "title": "Jensen Huang’s Nvidia return shakes Washington",
+          "published": "2026-11-24T12:04:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -659,38 +751,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Iranian singer flogged for performing without hijab",
-      "url": "https://www.independent.co.uk/news/world/middle-east/iran-singer-parastoo-ahmadi-flogged-b3090307.html",
-      "source": "The Independent",
-      "published": "2026-11-24T05:55:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/iran-singer-flogging-9.7432912?cmp=rss",
-          "title": "Iranian singer subjected to 74 lashes for performing without her hijab",
-          "published": "2026-11-23T19:32:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US chip curbs will not impact Malaysia’s China ties: Anwar",
-      "url": "https://www.straitstimes.com/asia/se-asia/us-chip-curbs-will-not-impact-malaysias-china-ties-anwar",
-      "source": "Straits Times",
-      "published": "2026-11-24T05:55:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
-          "title": "China threatens retaliation against US chip curbs",
-          "published": "2026-11-17T22:58:16+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Outrage after ICE arrest father and daughter at Seattle airport",
       "url": "https://www.bbc.co.uk/news/videos/crd910g5x882o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -721,6 +781,38 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Saudi skyscraper hit again, coalition slams 'terrorist attack'",
+      "url": "https://www.channelnewsasia.com/world/saudi-skyscraper-hit-again-coalition-slams-terrorist-attack-6579126",
+      "source": "CNA",
+      "published": "2026-11-24T16:54:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375667/saudi-condemns-terrorist-attack-after-riyadh-skyscraper-hit-twice-week",
+          "title": "Saudi condemns ‘terrorist attack’ after Riyadh skyscraper hit twice in a week",
+          "published": "2026-11-24T15:35:18+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "UK police arrest two men after break-in at William and Kate's home",
+      "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
+      "source": "CNA",
+      "published": "2026-11-24T16:29:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375660/uk-police-arrest-2-men-after-break-prince-williams-norfolk-home",
+          "title": "UK police arrest 2 men after break-in at Prince William’s Norfolk home",
+          "published": "2026-11-24T13:57:29+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "French police officer who shot teenager to face murder trial",
@@ -793,17 +885,17 @@
       "consensus": 2.0
     },
     {
-      "title": "North Korea threatens to close Swiss diplomatic office",
-      "url": "https://www.japantimes.co.jp/news/2026/11/24/asia-pacific/politics/north-korea-swiss-diplomatic-office/",
-      "source": "Japan Times",
-      "published": "2026-11-24T03:29:00+00:00",
+      "title": "Ukraine shares video of strikes on Russian ships off Libya",
+      "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-23T11:34:10+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-to-consider-shutting-down-swiss-diplomatic-office-in-pyongyang-kcna-says",
-          "title": "North Korea to consider shutting down Swiss diplomatic office in Pyongyang, KCNA says",
-          "published": "2026-11-23T22:17:27+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
         }
       ],
       "consensus": 2.0
@@ -857,64 +949,28 @@
       "consensus": 1.5
     },
     {
-      "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-      "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
+      "title": "Chicago O’Hare’s ground stop downgraded to delay stop with some flights paused",
+      "url": "https://www.independent.co.uk/news/world/americas/chicago-ohare-ground-stop-outage-faa-b3091030.html",
       "source": "The Independent",
-      "published": "2026-11-24T21:51:21+00:00",
+      "published": "2026-11-24T22:23:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Colombian president blames ex-FARC rebels for car bomb blast",
-      "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T21:45:42+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump gives Rudy Giuliani nation’s highest civilian honor — behind closed doors",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-rudy-giuliani-medal-of-freedom-ceremony-b3090970.html",
-      "source": "The Independent",
-      "published": "2026-11-24T21:43:23+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Only Donald and Melania Trump could make a turkey pardoning this weird",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-melania-turkey-pardoning-thanksgiving-b3090991.html",
-      "source": "The Independent",
-      "published": "2026-11-24T21:41:57+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Spectacular' showing may linger for beaver supermoon",
-      "url": "https://www.rnz.co.nz/news/science-and-technology/2769735/spectacular-showing-may-linger-for-beaver-supermoon",
-      "source": "RNZ",
-      "published": "2026-11-24T21:40:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Local clubs threaten to break away from Football Queensland",
-      "url": "https://www.abc.net.au/news/2026-11-25/local-clubs-threaten-break-away-football-queensland/107423770",
+      "title": "Indian teen wonder breaks List A record with 200 from 52 balls",
+      "url": "https://www.abc.net.au/news/2026-11-25/indian-teen-vaibhav-sooryavanshi-breaks-list-a-record/107423990",
       "source": "ABC Australia",
-      "published": "2026-11-24T21:37:59+00:00",
+      "published": "2026-11-24T22:22:31+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "How the pōhutukawa went global",
-      "url": "https://www.rnz.co.nz/news/environment/2769719/how-the-pohutukawa-went-global",
-      "source": "RNZ",
-      "published": "2026-11-24T21:33:30+00:00",
+      "title": "Leaked FIFA documents show president Infantino's 96-year private equity plan for World Cup",
+      "url": "https://www.cbc.ca/sports/soccer/fifa-private-equity-plan-leaked-documents-infantino-9.7434682?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-24T22:21:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1016,26 +1072,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3552.5,
+        "price": 3555.1,
         "currency": "USD",
-        "change": -98.9,
-        "change_percent": -2.71,
+        "change": -96.3,
+        "change_percent": -2.64,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.67,
+        "price": 40.71,
         "currency": "USD",
-        "change": -2.5,
-        "change_percent": -5.79,
+        "change": -2.46,
+        "change_percent": -5.71,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.47,
+        "price": 88.5,
         "currency": "USD",
-        "change": 1.79,
-        "change_percent": 2.07,
+        "change": 1.82,
+        "change_percent": 2.1,
         "name": "Brent Crude"
       },
       {
@@ -1043,7 +1099,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.6,
+        "change_percent": 0.56,
         "name": "EUR/USD"
       },
       {
@@ -1051,23 +1107,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.01,
-        "change_percent": 0.53,
+        "change_percent": 0.54,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.2,
+        "price": 159.29,
         "currency": "JPY",
-        "change": 0.22,
-        "change_percent": 0.14,
+        "change": 0.31,
+        "change_percent": 0.2,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59837.0,
+        "price": 59926.49,
         "currency": "USD",
-        "change": -1374.15,
-        "change_percent": -2.24,
+        "change": -1284.66,
+        "change_percent": -2.1,
         "name": "Bitcoin"
       }
     ],
@@ -1263,22 +1319,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "A Better Philosophy of Gift Giving",
+          "title": "Jensen Huang Isn’t Worried. But You Should Be.",
+          "url": "https://www.theatlantic.com/ideas/2026/11/nvidia-stock-market-crisis/689557/?utm_source=feed",
+          "published": "2026-11-24T22:24:33+00:00",
+          "snippet": "The possibility of an AI crash"
+        },
+        {
+          "title": "A Good Gift Is More Ordinary Than You Think",
           "url": "https://www.theatlantic.com/newsletters/2026/11/a-better-philosophy-of-gift-giving/689573/?utm_source=feed",
           "published": "2026-11-24T21:10:00+00:00",
-          "snippet": "A good present can be more ordinary than you might think."
+          "snippet": "A better philosophy of gift-giving can make the holidays more meaningful."
         },
         {
           "title": "The Agents Howard Lutnick Pulled off Their Jobs",
           "url": "https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed",
           "published": "2026-11-24T20:57:17+00:00",
           "snippet": "The commerce secretary reassigned them from safeguarding U.S. computer chips to working on his own security detail."
-        },
-        {
-          "title": "What It Means to Secure Elections",
-          "url": "https://www.theatlantic.com/podcasts/2026/11/what-it-means-to-secure-elections/689048/?utm_source=feed",
-          "published": "2026-11-24T16:00:00+00:00",
-          "snippet": "The Democratic election lawyer Marc Elias explains why one free and fair election does not end the threat to our democracy."
         }
       ]
     },
@@ -1361,23 +1417,45 @@
   "web": {
     "tech": [
       {
-        "title": "Working with AI",
-        "url": "https://www.anthropic.com/research/working-with-ai",
-        "score": 29,
+        "title": "A Deep Dive into JVM Start-up (2025)",
+        "url": "https://inside.java/2025/01/28/jvm-start-up/",
+        "comments_url": "https://lobste.rs/s/7vm8mk/deep_dive_into_jvm_start_up_2025",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T22:05:30.891000+00:00"
+      },
+      {
+        "title": "Heart attack and stroke risk detectable decades in advance",
+        "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
+        "score": 21,
         "source": "Hacker News",
-        "published": "2026-11-24T21:07:38+00:00"
+        "published": "2026-11-24T21:51:21+00:00"
+      },
+      {
+        "title": "An unclassified CIA system was breached in a cyberattack",
+        "url": "https://apnews.com/article/cia-cyberattack-unclassified-system-bfa6d3b02e3b0e2779dfb613c900bd77",
+        "score": 42,
+        "source": "Hacker News",
+        "published": "2026-11-24T21:24:27+00:00"
+      },
+      {
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "score": 45,
+        "source": "Hacker News",
+        "published": "2026-11-24T21:02:22+00:00"
       },
       {
         "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "score": 32,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-24T20:44:15+00:00"
       },
       {
         "title": "Ternary Bonsai 2.5 27B",
         "url": "https://prismml.com/news/bonsai-2-5-27b",
-        "score": 165,
+        "score": 199,
         "source": "Hacker News",
         "published": "2026-11-24T20:08:03+00:00"
       },
@@ -1392,37 +1470,31 @@
       {
         "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
         "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-        "score": 31,
+        "score": 41,
         "source": "Hacker News",
         "published": "2026-11-24T19:40:43+00:00"
-      },
-      {
-        "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2 (multiple CVEs)",
-        "url": "https://grafana.com/grafana/download",
-        "score": 89,
-        "source": "Hacker News",
-        "published": "2026-11-24T19:23:44+00:00"
-      },
-      {
-        "title": "Cloudflare hides shortcomings of the underlying infrastructure",
-        "url": "https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/",
-        "score": 122,
-        "source": "Hacker News",
-        "published": "2026-11-24T19:03:55+00:00"
       },
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
         "comments_url": "https://lobste.rs/s/vciex6/9_ux_macintosh_inspired_desktop_for",
-        "score": 6,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:37:29.366000+00:00"
+      },
+      {
+        "title": "Fund browser-grade certificate checking for every TLS client",
+        "url": "https://upki.rustls.dev/funding.html",
+        "comments_url": "https://lobste.rs/s/mcrzxl/fund_browser_grade_certificate_checking",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-24T18:27:49.682000+00:00"
       },
       {
         "title": "Per Vognsen on the effect of AVX-512 on lexing and parsing",
         "url": "https://mastodon.social/@pervognsen/117668394962974183",
         "comments_url": "https://lobste.rs/s/m7gqr6/per_vognsen_on_effect_avx_512_on_lexing",
-        "score": 18,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-24T18:11:49.469000+00:00"
       },
@@ -1430,7 +1502,7 @@
         "title": "Beyond Linux: A Journey Through the Open Source Ecosystem",
         "url": "https://it-notes.dragas.net/2026/11/17/beyond-linux-a-journey-through-the-open-source-ecosystem/",
         "comments_url": "https://lobste.rs/s/y56k2b/beyond_linux_journey_through_open_source",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-24T17:45:29.085000+00:00"
       },
@@ -1453,24 +1525,9 @@
       {
         "title": "Active intrusion campaign against Check Point security management servers",
         "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-        "score": 232,
+        "score": 236,
         "source": "Hacker News",
         "published": "2026-11-24T16:32:17+00:00"
-      },
-      {
-        "title": "Nightmare mode: simulating disk failures",
-        "url": "https://antithesis.com/blog/2026/nightmare-mode/",
-        "comments_url": "https://lobste.rs/s/xst6fv/nightmare_mode_simulating_disk_failures",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-24T16:26:44.055000+00:00"
-      },
-      {
-        "title": "Jetty Pro",
-        "url": "http://hypercritical.co/2026/11/23/jetty-pro",
-        "score": 228,
-        "source": "Hacker News",
-        "published": "2026-11-24T16:23:02+00:00"
       }
     ],
     "reddit": [

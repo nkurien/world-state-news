@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T22:01:05.316423+00:00",
+  "last_updated": "2026-11-25T22:30:54.083353+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 540
+      "ms": 318
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 400
+      "ms": 356
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 241
+      "ms": 210
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 237
+      "ms": 148
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 371
+      "ms": 129
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 213
+      "ms": 247
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 777
+      "ms": 154
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 543
+      "ms": 499
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 86
+      "ms": 70
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 126
+      "ms": 92
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 365
+      "ms": 326
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 318
+      "ms": 339
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 102
+      "ms": 111
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 1145
+      "ms": 110
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 125
+      "ms": 398
     },
     "RNZ": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 412
+      "ms": 345
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 709
+      "ms": 487
     },
     "Semafor": {
       "ok": true,
-      "count": 271,
+      "count": 274,
       "error": null,
-      "ms": 641
+      "ms": 538
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 707
+      "ms": 856
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 404
+      "ms": 253
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3193
+      "ms": 3089
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 276
+      "ms": 236
     },
     "The Independent": {
       "ok": true,
-      "count": 99,
+      "count": 96,
       "error": null,
-      "ms": 232
+      "ms": 215
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 258
+      "ms": 180
     }
   },
   "breaking": [
-    {
-      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T21:25:14+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
-          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
-          "published": "2026-11-25T21:11:06+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-26/egypt-deadly-fuel-tanker-crash-cairo-highway/107428222",
-          "title": "Fuel tanker crash on major Cairo highway kills at least 30",
-          "published": "2026-11-25T21:04:43+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
-          "title": "At least 30 killed in highway fire in Cairo district",
-          "published": "2026-11-25T19:56:45+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
     {
       "title": "North Korea expels Swiss diplomat in sanctions row",
       "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
@@ -197,6 +169,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
+      "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T22:21:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-26/duran-duran-andy-taylor-dies/107428492",
+          "title": "Breaking: Duran Duran guitarist Andy Taylor dies aged 65",
+          "published": "2026-11-25T21:50:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T22:18:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 30 people",
+          "published": "2026-11-25T22:04:14+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "South Africa's Ramaphosa wins court bid over impeachment report",
@@ -226,22 +230,6 @@
           "url": "https://www.rnz.co.nz/life/screens/tv/top-gear-to-return-in-2028-with-celebrity-chef-gordon-ramsay-as-lead-host",
           "title": "Chef Gordon Ramsay to host new Top Gear series",
           "published": "2026-11-25T19:21:48+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
-      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
-      "source": "Euronews",
-      "published": "2026-11-25T19:20:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
-          "title": "Russia reportedly to launch a nuclear weapon into space",
-          "published": "2026-11-24T12:01:13+00:00"
         }
       ],
       "consensus": 2.5
@@ -279,10 +267,10 @@
       "consensus": 2.0
     },
     {
-      "title": "As US and China battle for AI dominance, small fry figure out what works",
-      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375810/us-and-china-battle-ai-dominance-small-fry-figure-out-what-works",
-      "source": "SCMP",
-      "published": "2026-11-25T22:00:11+00:00",
+      "title": "Tech selloff extends on AI, neocloud jitters",
+      "url": "https://www.semafor.com/article/11/25/2026/tech-selloff-extends-on-ai-neocloud-jitters",
+      "source": "Semafor",
+      "published": "2026-11-25T22:27:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -412,28 +400,6 @@
       "consensus": 3.5
     },
     {
-      "title": "US court finds Chinese tech giant Huawei guilty of fraud",
-      "url": "https://www.semafor.com/article/11/25/2026/us-court-finds-chinese-tech-giant-huawei-guilty-of-fraud",
-      "source": "Semafor",
-      "published": "2026-11-25T12:02:51+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-          "published": "2026-11-24T22:55:50+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
-          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
-          "published": "2026-11-24T21:27:44+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
       "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
       "source": "The Independent",
@@ -456,26 +422,20 @@
       "consensus": 3.5
     },
     {
-      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
-      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T03:03:03+00:00",
-      "score": 3,
+      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
+      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
+      "source": "Euronews",
+      "published": "2026-11-25T19:20:03+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-          "title": "Thomas Markle charged in US for possessing child sex abuse images",
-          "published": "2026-11-25T01:40:42+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-charged-child-sex-abuse-material-b3091071.html",
-          "title": "Thomas Markle indicted in US over possession of child sex abuse material",
-          "published": "2026-11-24T23:31:54+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
+          "title": "Russia reportedly to launch a nuclear weapon into space",
+          "published": "2026-11-24T12:01:13+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
@@ -494,22 +454,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Martha Firestone Ford, former Detroit Lions owner and member of auto giant family, dead at 101",
-      "url": "https://www.cbc.ca/news/canada/windsor/martha-ford-nfl-obit-9.7435464?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T16:40:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
-          "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
-          "published": "2026-11-25T16:15:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Solomon Islands drops China pact, turns to Australia",
       "url": "https://www.semafor.com/article/11/25/2026/solomon-islands-drops-china-pact-turns-to-australia",
       "source": "Semafor",
@@ -521,6 +465,22 @@
           "url": "https://www.channelnewsasia.com/world/australia-solomon-islands-pact-china-6580656",
           "title": "Australia, Solomon Islands sign sweeping pact stymieing China",
           "published": "2026-11-25T04:34:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US court finds Chinese tech giant Huawei guilty of fraud",
+      "url": "https://www.semafor.com/article/11/25/2026/us-court-finds-chinese-tech-giant-huawei-guilty-of-fraud",
+      "source": "Semafor",
+      "published": "2026-11-25T12:02:51+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
+          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
+          "published": "2026-11-24T22:55:50+00:00"
         }
       ],
       "consensus": 2.5
@@ -558,17 +518,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Zambia formally indicts opposition leader on treason charges",
-      "url": "https://www.rfi.fr/en/africa/20261124-zambia-formally-indicts-opposition-leader-on-treason-charges",
-      "source": "RFI English",
-      "published": "2026-11-24T14:05:24+00:00",
+      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
+      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T03:03:03+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/23/zambian-opposition-leader-mundubile-formally-indicted-on-treason-charges/",
-          "title": "Zambian opposition leader Mundubile formally indicted on treason charges",
-          "published": "2026-11-24T03:45:32+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+          "title": "Thomas Markle charged in US for possessing child sex abuse images",
+          "published": "2026-11-25T01:40:42+00:00"
         }
       ],
       "consensus": 2.5
@@ -852,19 +812,37 @@
       "consensus": 1.5
     },
     {
-      "title": "NBC turns to rerun after Macy’s postpones Thanksgiving Day parade for first time",
-      "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
-      "source": "The Independent",
-      "published": "2026-11-25T21:52:26+00:00",
+      "title": "Plan for 200ha kelp farm off NSW coast sparks debate",
+      "url": "https://www.abc.net.au/news/2026-11-26/public-speaks-on-first-commercial-kelp-farm-proposed-for-nsw/107421622",
+      "source": "ABC Australia",
+      "published": "2026-11-25T22:24:31+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Breaking: Duran Duran guitarist Andy Taylor dies aged 65",
-      "url": "https://www.abc.net.au/news/2026-11-26/duran-duran-andy-taylor-dies/107428492",
-      "source": "ABC Australia",
-      "published": "2026-11-25T21:50:58+00:00",
+      "title": "New US export rules threaten Asian AI buildout",
+      "url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout",
+      "source": "Semafor",
+      "published": "2026-11-25T22:23:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "US intelligence suggests Jensen affair was actually amorous",
+      "url": "https://www.semafor.com/article/11/25/2026/us-intelligence-suggests-jensen-affair-was-actually-amorous",
+      "source": "Semafor",
+      "published": "2026-11-25T22:21:34+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Macy's Thanksgiving Parade postponed to Saturday due to expected high winds",
+      "url": "https://www.cbc.ca/news/world/macy-s-thanksgiving-parade-postponed-9.7436280?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T22:21:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -873,61 +851,52 @@
       "title": "Pacifica Pier collapses as massive waves wreak havoc in California",
       "url": "https://www.independent.co.uk/news/world/americas/pacifica-pier-collapse-king-tides-california-b3091784.html",
       "source": "The Independent",
-      "published": "2026-11-25T21:47:37+00:00",
+      "published": "2026-11-25T22:19:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Farmlands appoints new board chair in wake of AgriZeroNZ investment backlash",
-      "url": "https://www.rnz.co.nz/news/country/2787591/farmlands-appoints-new-board-chair-in-wake-of-agrizeronz-investment-backlash",
+      "title": "NBC turns to rerun after Macy’s postpones Thanksgiving Day parade for first time",
+      "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
+      "source": "The Independent",
+      "published": "2026-11-25T22:18:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Man United denied at Sporting as referee overshadows Fernandes double",
+      "url": "https://www.aljazeera.com/sports/2026/11/25/man-united-denied-at-sporting-as-referee-overshadows-fernandes-double?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T22:15:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ukraine-Russia war latest: US approves possible $622m sale of F-16 equipment to Kyiv as Russia bombs capital",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-oil-refineries-casualties-map-b3091150.html",
+      "source": "The Independent",
+      "published": "2026-11-25T22:09:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "AFT Pharmaceutical's half-year net profit more than doubles over year earlier",
+      "url": "https://www.rnz.co.nz/news/business/2788547/aft-pharmaceutical-s-half-year-net-profit-more-than-doubles-over-year-earlier",
       "source": "RNZ",
-      "published": "2026-11-25T21:46:30+00:00",
+      "published": "2026-11-25T22:08:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US stocks fall further as fears over AI intensify",
-      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T21:43:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The floating classroom teaching kids to protect their environment",
-      "url": "https://www.rnz.co.nz/news/pacific/2787420/the-floating-classroom-teaching-kids-to-protect-their-environment",
+      "title": "Mount Maunganui could reopen next month - but will require support from iwi and trust",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2779823/mount-maunganui-could-reopen-next-month-but-will-require-support-from-iwi-and-trust",
       "source": "RNZ",
-      "published": "2026-11-25T21:43:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "French tourist Maëlle Favregros' fatal fall in popular alpine area prompts safety warnings",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2775509/french-tourist-maelle-favregros-fatal-fall-in-popular-alpine-area-prompts-safety-warnings",
-      "source": "RNZ",
-      "published": "2026-11-25T21:41:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Renegades WBBL player bowled without facing a ball",
-      "url": "https://www.abc.net.au/news/2026-11-26/wbbl-deandra-dottin-melbourne-renegades-bowled/107428262",
-      "source": "ABC Australia",
-      "published": "2026-11-25T21:34:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Grand gestures at Apec in Shenzhen. But what about the small things?",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3375592/grand-gestures-apec-shenzhen-what-about-small-things",
-      "source": "SCMP",
-      "published": "2026-11-25T21:30:08+00:00",
+      "published": "2026-11-25T22:08:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1029,26 +998,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3608.8,
+        "price": 3617.8,
         "currency": "USD",
-        "change": 17.7,
-        "change_percent": 0.49,
+        "change": 26.7,
+        "change_percent": 0.74,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.48,
+        "price": 41.67,
         "currency": "USD",
-        "change": 0.23,
-        "change_percent": 0.56,
+        "change": 0.42,
+        "change_percent": 1.01,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.78,
+        "price": 90.82,
         "currency": "USD",
-        "change": 2.0,
-        "change_percent": 2.25,
+        "change": 2.04,
+        "change_percent": 2.3,
         "name": "Brent Crude"
       },
       {
@@ -1056,7 +1025,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.11,
+        "change_percent": 0.13,
         "name": "EUR/USD"
       },
       {
@@ -1064,23 +1033,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.02,
+        "change_percent": -0.01,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.15,
+        "price": 159.14,
         "currency": "JPY",
-        "change": -0.09,
+        "change": -0.1,
         "change_percent": -0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60070.74,
+        "price": 60064.8,
         "currency": "USD",
-        "change": 325.09,
-        "change_percent": 0.54,
+        "change": 319.15,
+        "change_percent": 0.53,
         "name": "Bitcoin"
       }
     ],
@@ -1251,22 +1220,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
+          "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
+          "published": "2026-11-25T22:24:37+00:00",
+          "snippet": "FinCen takes systems offline after detecting unauthorised access amid growing fears over vulnerability of technology systems"
+        },
+        {
+          "title": "Beige Book confirms hot US economy and signs of wage pressure building",
+          "url": "https://www.ft.com/content/fb4f6707-274e-4f93-bcfb-7cce28d4a4ea",
+          "published": "2026-11-25T22:17:53+00:00",
+          "snippet": "The report will help cement the coming December Federal Reserve interest rate rise"
+        },
+        {
           "title": "US stocks close lower in volatile session as AI trade remains under pressure",
           "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
           "published": "2026-11-25T21:26:33+00:00",
           "snippet": "Chip group Nvidia among losers but AI start-up Anthropic a bright spot as shares finish higher"
-        },
-        {
-          "title": "The fund manager’s dilemma over AI",
-          "url": "https://www.ft.com/content/c62ca4c2-dfc4-4943-86a4-fee8fd5a1f4a?syn-25a6b1a6=1",
-          "published": "2026-11-25T18:05:53+00:00",
-          "snippet": "Assessing concentration risks may be more complicated than it seems"
-        },
-        {
-          "title": "UK inflation may peak at lower rate than BoE forecast, says governor",
-          "url": "https://www.ft.com/content/402e640b-8933-4b3c-bb4c-ce12a7994ac6?syn-25a6b1a6=1",
-          "published": "2026-11-25T17:55:48+00:00",
-          "snippet": "But Andrew Bailey refuses to rule out another interest rate increase next month"
         }
       ]
     },
@@ -1377,51 +1346,79 @@
         "title": "Scott Aaronson on recent complexity theory AI achievements",
         "url": "https://scottaaronson.blog/?p=10379",
         "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
-        "score": 1,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-25T21:52:52.967000+00:00"
       },
       {
+        "title": "Much shorter version of GRH Lean verification from Anthropic",
+        "url": "https://github.com/lsernau/grh-lean",
+        "score": 52,
+        "source": "Hacker News",
+        "published": "2026-11-25T21:48:10+00:00"
+      },
+      {
         "title": "Defang Security Incident",
         "url": "https://defang.io/blog/post/security-incident-november-2026/",
-        "score": 10,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-25T21:47:16+00:00"
+      },
+      {
+        "title": "The New York Times tells photographers not to use the latest Photoshop",
+        "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
+        "score": 32,
+        "source": "Hacker News",
+        "published": "2026-11-25T21:18:02+00:00"
       },
       {
         "title": "mockitdown examples - user-interface mockup language like SwiftUI",
         "url": "https://bbogovich.github.io/mockitdown/demos/",
         "comments_url": "https://lobste.rs/s/pceggz/mockitdown_examples_user_interface",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-25T20:46:55.955000+00:00"
       },
       {
+        "title": "Slow Ubuntu security response times",
+        "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+        "score": 35,
+        "source": "Hacker News",
+        "published": "2026-11-25T20:38:00+00:00"
+      },
+      {
         "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
         "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-        "score": 10,
+        "score": 32,
         "source": "Hacker News",
         "published": "2026-11-25T20:35:50+00:00"
+      },
+      {
+        "title": "72-Hour Fasting Can Reset Your Immune System, USC Study Shows",
+        "url": "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/",
+        "score": 24,
+        "source": "Hacker News",
+        "published": "2026-11-25T20:35:39+00:00"
       },
       {
         "title": "Slow Ubuntu security response times",
         "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
         "comments_url": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
-        "score": 17,
+        "score": 23,
         "source": "Lobste.rs",
         "published": "2026-11-25T20:10:24.526000+00:00"
       },
       {
         "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
         "url": "https://scottaaronson.blog/?p=10379",
-        "score": 599,
+        "score": 679,
         "source": "Hacker News",
         "published": "2026-11-25T19:11:27+00:00"
       },
       {
         "title": "Britain's ghost stations",
         "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-        "score": 67,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-25T17:43:46+00:00"
       },
@@ -1429,60 +1426,30 @@
         "title": "Update on a security incident involving 1Password’s backend systems",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
         "comments_url": "https://lobste.rs/s/aulbi2/update_on_security_incident_involving",
-        "score": 22,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-25T17:43:13.558000+00:00"
       },
       {
         "title": "The polynomial Hirsch conjecture is false [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
-        "score": 83,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-25T17:34:34+00:00"
       },
       {
         "title": "1Password Security Incident",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-        "score": 851,
+        "score": 910,
         "source": "Hacker News",
         "published": "2026-11-25T17:18:26+00:00"
       },
       {
         "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
         "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-        "score": 390,
+        "score": 412,
         "source": "Hacker News",
         "published": "2026-11-25T15:14:32+00:00"
-      },
-      {
-        "title": "I checked Clojure's core with Lean and found unreported bugs",
-        "url": "https://s.conao3.com/blog/2026/e4f733",
-        "score": 153,
-        "source": "Hacker News",
-        "published": "2026-11-25T14:56:52+00:00"
-      },
-      {
-        "title": "October in Servo: video captions and inert content",
-        "url": "https://servo.org/blog/2026/11/25/october-in-servo/",
-        "comments_url": "https://lobste.rs/s/tf9ldm/october_servo_video_captions_inert",
-        "score": 27,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T14:31:31.655000+00:00"
-      },
-      {
-        "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
-        "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "score": 402,
-        "source": "Hacker News",
-        "published": "2026-11-25T13:33:07+00:00"
-      },
-      {
-        "title": "Getting old Java phones online again",
-        "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html",
-        "comments_url": "https://lobste.rs/s/7x2mrq/getting_old_java_phones_online_again",
-        "score": 10,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T13:28:55.591000+00:00"
       }
     ],
     "reddit": [

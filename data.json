@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T05:30:53.448275+00:00",
+  "last_updated": "2026-11-25T06:01:05.734773+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 378
+      "ms": 491
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 393
+      "ms": 444
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 281
+      "ms": 414
     },
     "BBC News": {
       "ok": true,
       "count": 37,
       "error": null,
-      "ms": 121
+      "ms": 273
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 249
+      "ms": 434
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 259
+      "ms": 226
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 427
+      "ms": 561
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 525
+      "ms": 570
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 100
+      "ms": 237
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 269
+      "ms": 167
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 728
+      "ms": 630
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 344
+      "ms": 697
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 238
+      "ms": 150
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 168
+      "ms": 146
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 231
+      "ms": 556
     },
     "RNZ": {
       "ok": true,
-      "count": 46,
+      "count": 47,
       "error": null,
-      "ms": 255
+      "ms": 354
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 668
+      "ms": 769
     },
     "Semafor": {
       "ok": true,
       "count": 246,
       "error": null,
-      "ms": 669
+      "ms": 725
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 640
+      "ms": 709
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 356
+      "ms": 426
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3166
+      "ms": 3090
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 331
+      "ms": 394
     },
     "The Independent": {
       "ok": true,
-      "count": 91,
+      "count": 92,
       "error": null,
-      "ms": 223
+      "ms": 228
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 344
+      "ms": 267
     }
   },
   "breaking": [
@@ -189,6 +189,40 @@
       "consensus": 7.5
     },
     {
+      "title": "Huawei guilty in US of stealing trade secrets in landmark case",
+      "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
+      "source": "The Independent",
+      "published": "2026-11-25T05:50:38+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+          "published": "2026-11-25T02:59:27+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
+          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
+          "published": "2026-11-24T22:55:50+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+          "published": "2026-11-24T21:43:34+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
+          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
+          "published": "2026-11-24T21:27:44+00:00"
+        }
+      ],
+      "consensus": 6.5
+    },
+    {
       "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
       "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
       "source": "The Hindu",
@@ -221,6 +255,34 @@
         }
       ],
       "consensus": 6.0
+    },
+    {
+      "title": "Indonesian rescuers search for possibly ‘dozens’ trapped in mine",
+      "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-search-for-possibly-dozens-trapped-in-mine",
+      "source": "Straits Times",
+      "published": "2026-11-25T05:53:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-25/miners-trapped-underground-in-west-java-indonesia/107426126",
+          "title": "Rescuers search for workers trapped in Indonesian mine",
+          "published": "2026-11-25T05:26:20+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/asia/indonesia-search-dozens-trapped-mine-workers-6580561",
+          "title": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
+          "published": "2026-11-25T05:15:00+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/indonesian-rescuers-searching-for-possibly-dozens-trapped-in-mine/article71741002.ece",
+          "title": "Indonesian rescuers searching for possibly ‘dozens’ trapped in mine",
+          "published": "2026-11-25T03:38:07+00:00"
+        }
+      ],
+      "consensus": 4.5
     },
     {
       "title": "Trump awards Rudy Giuliani the Medal of Freedom",
@@ -261,22 +323,6 @@
       "consensus": 2.5
     },
     {
-      "title": "UK warns companies of potential Russian sabotage threat",
-      "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T04:48:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/11/25/companies/uk-russia-sabotage-companies-ukraine/",
-          "title": "U.K. warns of Russian sabotage threat to companies that supply Ukraine",
-          "published": "2026-11-24T23:31:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Israeli strike kills four people in Gaza",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
       "source": "Al Jazeera",
@@ -304,22 +350,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
           "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
           "published": "2026-11-24T21:57:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny show no sign of easing",
-      "url": "https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing",
-      "source": "SCMP",
-      "published": "2026-11-25T03:00:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
-          "title": "Jensen Huang’s Nvidia return shakes Washington",
-          "published": "2026-11-24T12:04:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -386,7 +416,7 @@
         {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut",
-          "title": "China’s Shenzhou-24 space flight takes off with Pakistani national as first foreign astronaut",
+          "title": "China’s Shenzhou-24 docks at space station with Pakistani national as first foreign astronaut",
           "published": "2026-11-25T00:32:52+00:00"
         }
       ],
@@ -425,17 +455,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T02:59:27+00:00",
+      "title": "Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny show no sign of easing",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing",
+      "source": "SCMP",
+      "published": "2026-11-25T03:00:17+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-          "published": "2026-11-24T21:43:34+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
+          "title": "Jensen Huang’s Nvidia return shakes Washington",
+          "published": "2026-11-24T12:04:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -489,6 +519,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Ukraine says attack on Russian ships in Libya was self-defense",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/world/politics/ukraine-russia-ships-libya/",
+      "source": "Japan Times",
+      "published": "2026-11-25T01:08:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
       "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
       "source": "Al Jazeera",
@@ -500,22 +546,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
           "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
           "published": "2026-11-24T17:04:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-      "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T22:55:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
-          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
-          "published": "2026-11-24T21:27:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -585,22 +615,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Car bomb destroys buildings in central Colombian city",
-      "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city",
-      "source": "France24",
-      "published": "2026-11-24T19:27:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/car-bomb-destroys-buildings-in-villavicencio-says-colombian-president-de-la-espriella/article71737324.ece",
-          "title": "Car bomb destroys buildings in Villavicencio, says Colombian President De la Espriella",
-          "published": "2026-11-24T06:02:04+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Iran rules out talks with U.S. until its seven conditions are met",
       "url": "https://www.thehindu.com/news/international/iran-rules-out-talks-with-us-until-its-seven-conditions-are-met/article71739875.ece",
       "source": "The Hindu",
@@ -644,6 +658,22 @@
           "url": "https://www.france24.com/en/video/20261124-senegal-reinstated-as-2025-africa-cup-of-nations-winners",
           "title": "Senegal reinstated as 2025 Africa Cup of Nations winners",
           "published": "2026-11-24T16:16:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Hasina to return to Bangladesh on December 16, says Awami League",
+      "url": "https://www.thehindu.com/news/international/former-bangladesh-pm-sheikh-hasina-return-to-bangladesh/article71737182.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T16:43:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
+          "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+          "published": "2026-11-24T06:23:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -781,22 +811,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
-      "url": "https://www.channelnewsasia.com/asia/indonesia-search-dozens-trapped-mine-workers-6580561",
-      "source": "CNA",
-      "published": "2026-11-25T05:15:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/indonesian-rescuers-searching-for-possibly-dozens-trapped-in-mine/article71741002.ece",
-          "title": "Indonesian rescuers searching for possibly ‘dozens’ trapped in mine",
-          "published": "2026-11-25T03:38:07+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Australia, Solomon Islands sign sweeping pact stymieing China",
@@ -989,6 +1003,22 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "France: Chefs compete for the world egg mayonnaise championship",
+      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
+      "source": "Africanews",
+      "published": "2026-11-24T14:12:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
+          "title": "France: Chefs compete for the world egg mayonnaise championship",
+          "published": "2026-11-24T14:11:57+00:00"
+        }
+      ],
+      "consensus": 1.5
     }
   ],
   "tickers": [
@@ -1061,10 +1091,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 56936.46,
+        "price": 56927.2,
         "currency": "JPY",
-        "change": -1708.17,
-        "change_percent": -2.91,
+        "change": -1717.43,
+        "change_percent": -2.93,
         "name": "Nikkei 225"
       },
       {
@@ -1087,26 +1117,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3547.8,
+        "price": 3525.3,
         "currency": "USD",
-        "change": -14.1,
-        "change_percent": -0.4,
+        "change": -36.6,
+        "change_percent": -1.03,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.56,
+        "price": 40.16,
         "currency": "USD",
-        "change": -0.22,
-        "change_percent": -0.53,
+        "change": -0.62,
+        "change_percent": -1.51,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.4,
+        "price": 87.33,
         "currency": "USD",
-        "change": -1.38,
-        "change_percent": -1.55,
+        "change": -1.45,
+        "change_percent": -1.63,
         "name": "Brent Crude"
       },
       {
@@ -1114,7 +1144,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.16,
+        "change_percent": -0.22,
         "name": "EUR/USD"
       },
       {
@@ -1122,23 +1152,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.19,
+        "change_percent": -0.24,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.45,
+        "price": 159.44,
         "currency": "JPY",
-        "change": 0.21,
-        "change_percent": 0.13,
+        "change": 0.19,
+        "change_percent": 0.12,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59013.61,
+        "price": 59024.19,
         "currency": "USD",
-        "change": -732.04,
-        "change_percent": -1.23,
+        "change": -721.46,
+        "change_percent": -1.21,
         "name": "Bitcoin"
       }
     ],
@@ -1309,22 +1339,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Asian markets lose ground as AI fears return",
-          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-          "published": "2026-11-25T03:52:20+00:00",
-          "snippet": "Tech stocks in Tokyo and Seoul suffer after Wall Street’s Jensen Huang bounce fades"
+          "title": "FirstFT: Trump shelves plans for deals with Russia",
+          "url": "https://www.ft.com/content/6f89d7f9-563e-4c80-b071-e1bfeecbba7b?syn-25a6b1a6=1",
+          "published": "2026-11-25T05:32:11+00:00",
+          "snippet": "Also in today’s newsletter: Jensen Huang’s management style and European industry woes"
         },
         {
-          "title": "China launches first space mission with foreign astronaut",
-          "url": "https://www.ft.com/content/a1d7d4bd-ecd0-4726-8f62-de75ce2b034c?syn-25a6b1a6=1",
-          "published": "2026-11-25T03:28:02+00:00",
-          "snippet": "Pakistani fighter pilot heads for week on Chinese space station in projection of Beijing’s outreach to Islamabad"
+          "title": "Further tightening to come from the ECB to prevent inflation persistence",
+          "url": "https://www.ft.com/content/f805c4ef-be16-4c10-9d62-47a7c6675b5f",
+          "published": "2026-11-25T05:30:02+00:00",
+          "snippet": "Read the November scenario by the FT’s Monetary Policy Radar team"
         },
         {
-          "title": "Will the Nvidia fallout kill off Asia’s data centre boom?",
-          "url": "https://www.ft.com/content/e5df32d1-1801-4d81-b2f5-b83e93377c1c?syn-25a6b1a6=1",
-          "published": "2026-11-25T02:04:15+00:00",
-          "snippet": "Projects that touted chip access to Chinese customers face tighter US scrutiny"
+          "title": "British drone developers hampered by outdated laws, industry warns",
+          "url": "https://www.ft.com/content/7693f1a2-58ec-46e0-b798-bcea394862c0?syn-25a6b1a6=1",
+          "published": "2026-11-25T05:00:32+00:00",
+          "snippet": "New trade body representing the sector says the government’s spending on the technology is falling behind allies"
         }
       ]
     },
@@ -1432,31 +1462,24 @@
   "web": {
     "tech": [
       {
-        "title": "Invisible Wave Hits California, Oregon and Canada as Towns Evacuate",
-        "url": "https://www.abovethenormnews.com/2026/11/24/king-tides-california/",
-        "score": 4,
-        "source": "Hacker News",
-        "published": "2026-11-25T05:19:28+00:00"
-      },
-      {
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 1,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: U.S. Interstate Weather",
         "url": "https://www.interstateweather.com/",
-        "score": 14,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-25T04:35:32+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 10,
+        "score": 21,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
@@ -1471,28 +1494,28 @@
       {
         "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
         "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-        "score": 47,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-25T04:03:33+00:00"
       },
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 36,
+        "score": 46,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
         "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
-        "score": 27,
+        "score": 30,
         "source": "Hacker News",
         "published": "2026-11-25T03:28:06+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 108,
+        "score": 141,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1507,28 +1530,28 @@
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 59,
+        "score": 75,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       },
       {
         "title": "Lua for Data Representation",
         "url": "https://citrons.xyz/journal/2025-07-23",
-        "score": 25,
+        "score": 32,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:12+00:00"
       },
       {
         "title": "I've been drinking wine in my kitchen",
         "url": "https://scottaaronson.blog/?p=10362",
-        "score": 91,
+        "score": 108,
         "source": "Hacker News",
         "published": "2026-11-25T03:02:10+00:00"
       },
       {
         "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
         "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-        "score": 92,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-25T02:34:21+00:00"
       },
@@ -1539,6 +1562,13 @@
         "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-25T02:04:56.581000+00:00"
+      },
+      {
+        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+        "score": 391,
+        "source": "Hacker News",
+        "published": "2026-11-25T01:19:26+00:00"
       }
     ],
     "reddit": [

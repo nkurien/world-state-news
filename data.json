@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T02:01:00.796235+00:00",
+  "last_updated": "2026-11-25T02:30:54.736223+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 173
+      "ms": 436
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 192
+      "ms": 475
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 151
+      "ms": 163
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 284
+      "ms": 368
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 236
+      "ms": 294
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 202
+      "ms": 493
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 774
+      "ms": 641
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 1031
+      "ms": 724
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 143
+      "ms": 129
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 181
+      "ms": 145
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 249
+      "ms": 828
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 220
+      "ms": 321
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 162
+      "ms": 243
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 122
+      "ms": 205
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 125
+      "ms": 145
     },
     "RNZ": {
       "ok": true,
-      "count": 41,
+      "count": 43,
       "error": null,
-      "ms": 133
+      "ms": 402
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 566
+      "ms": 684
     },
     "Semafor": {
       "ok": true,
-      "count": 245,
+      "count": 246,
       "error": null,
-      "ms": 658
+      "ms": 764
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 611
+      "ms": 699
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 305
+      "ms": 277
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3279
+      "ms": 3250
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 176
+      "ms": 334
     },
     "The Independent": {
       "ok": true,
-      "count": 90,
+      "count": 89,
       "error": null,
-      "ms": 210
+      "ms": 285
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 141
+      "ms": 231
     }
   },
   "breaking": [
@@ -205,23 +205,45 @@
       "consensus": 5.0
     },
     {
-      "title": "China’s Shenzhou-24 space flight takes off with Pakistani national as first foreign astronaut",
-      "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T01:17:05+00:00",
+      "title": "Australia signs 'historic' pact with Solomon Islands in blow to China",
+      "url": "https://www.abc.net.au/news/2026-11-25/australia-signs-pact-with-solomon-islands-in-blow-to-china/107424550",
+      "source": "ABC Australia",
+      "published": "2026-11-25T01:22:26+00:00",
       "score": 3,
       "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/australia-solomon-islands-pact-china/",
+          "title": "Australia and Solomon Islands sign sweeping pact stymieing China",
+          "published": "2026-11-25T01:06:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australia-and-solomon-islands-sign-security-pact",
+          "title": "Australia and Solomon Islands sign security pact in blow to China",
+          "published": "2026-11-25T00:02:49+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "China’s Shenzhou-24 space flight launches with first Pakistani national on board",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/china-shenzhou-24-space-pakistan/",
+      "source": "Japan Times",
+      "published": "2026-11-25T02:02:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
+          "title": "China’s Shenzhou-24 space flight takes off with Pakistani national as first foreign astronaut",
+          "published": "2026-11-25T01:17:05+00:00"
+        },
         {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut",
           "title": "China’s Shenzhou-24 space flight takes off with Pakistani national as first foreign astronaut",
           "published": "2026-11-25T00:32:52+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/china/science/article/3375677/chinas-shenzhou-24-spacecraft-lifts-first-foreign-astronaut-board",
-          "title": "China’s Shenzhou-24 spacecraft lifts off with first foreign astronaut on board",
-          "published": "2026-11-25T00:26:33+00:00"
         }
       ],
       "consensus": 3.0
@@ -254,22 +276,6 @@
           "url": "https://www.thehindu.com/news/international/israels-eisenkot-clinches-first-coalition-agreement-in-bid-to-form-government/article71740200.ece",
           "title": "Israel’s Eisenkot clinches first coalition agreement in bid to form government",
           "published": "2026-11-24T22:56:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Australia signs 'historic' pact with Solomon Islands in blow to China",
-      "url": "https://www.abc.net.au/news/2026-11-25/australia-signs-pact-with-solomon-islands-in-blow-to-china/107424550",
-      "source": "ABC Australia",
-      "published": "2026-11-25T01:22:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australia-and-solomon-islands-sign-security-pact",
-          "title": "Australia and Solomon Islands sign security pact in blow to China",
-          "published": "2026-11-25T00:02:49+00:00"
         }
       ],
       "consensus": 2.5
@@ -713,22 +719,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Fourth country withdraws from the International Criminal Court after Putin visit",
-      "url": "https://www.independent.co.uk/news/world/icc-tajikistan-putin-international-criminal-court-b3090409.html",
-      "source": "The Independent",
-      "published": "2026-11-24T08:29:07+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/tajikistan-becomes-fourth-country-to-withdraw-from-international-criminal-court/article71735286.ece",
-          "title": "Tajikistan becomes fourth country to withdraw from International Criminal Court",
-          "published": "2026-11-23T15:32:25+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
       "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
       "source": "Africanews",
@@ -743,6 +733,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "In landmine-ravaged Myanmar, a rebel with an artificial leg vows to fight on",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/myanmar-landmine-artificial-leg/",
+      "source": "Japan Times",
+      "published": "2026-11-25T02:27:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/in-landmine-ravaged-myanmar-a-rebel-with-an-artificial-leg-vows-to-fight-on",
+          "title": "In landmine-ravaged Myanmar, a rebel with an artificial leg vows to fight on",
+          "published": "2026-11-25T01:02:53+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "China’s Huawei convicted in sprawling U.S. criminal trial over Iran business",
@@ -786,7 +792,7 @@
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/middle-east/article/3375667/saudi-condemns-terrorist-attack-after-riyadh-skyscraper-hit-twice-week",
-          "title": "Saudi condemns ‘terrorist attack’ after Riyadh skyscraper hit twice in a week",
+          "title": "Saudi capital’s tallest skyscraper hit again in ‘terrorist attack’",
           "published": "2026-11-24T15:35:18+00:00"
         }
       ],
@@ -927,37 +933,37 @@
       "consensus": 1.5
     },
     {
-      "title": "After Tai Po fire, will Hong Kong’s renovation industry overhaul crush triad activity?",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3375683/after-tai-po-fire-will-hong-kongs-renovation-industry-overhaul-crush-triad-activity",
-      "source": "SCMP",
-      "published": "2026-11-25T02:00:30+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Nvidia board joins Jensen Huang under scrutiny after reinstating embattled CEO",
-      "url": "https://www.channelnewsasia.com/world/nvidia-board-joins-jensen-huang-under-scrutiny-after-reinstating-embattled-ceo-6579411",
-      "source": "CNA",
-      "published": "2026-11-25T01:57:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Inside the Melania Trump-brokered evacuation from Russian occupation",
-      "url": "https://www.abc.net.au/news/2026-11-25/inside-evacuation-of-ukrainian-town-oleshky/107423258",
+      "title": "Protesters demand release of Palestinian activist detained by Israel",
+      "url": "https://www.abc.net.au/news/2026-11-25/protesters-demand-release-of-palestinian-student-activist/107424896",
       "source": "ABC Australia",
-      "published": "2026-11-25T01:55:19+00:00",
+      "published": "2026-11-25T02:26:04+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Gangs swap credit card chips at Japan bathhouse lockers, spending mostly in Hong Kong",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3375681/gangs-swap-credit-card-chips-japan-bathhouse-lockers-spending-mostly-hong-kong",
-      "source": "SCMP",
-      "published": "2026-11-25T01:55:11+00:00",
+      "title": "Conversion practices set to be banned in Tasmania, ending decade-long fight",
+      "url": "https://www.abc.net.au/news/2026-11-25/conversion-practices-banned-legislative-council-tasmania-vote/107396298",
+      "source": "ABC Australia",
+      "published": "2026-11-25T02:21:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Man arrested after joining RNZ staff protest",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2772085/man-arrested-after-joining-rnz-staff-protest",
+      "source": "RNZ",
+      "published": "2026-11-25T02:17:33+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Consistent friendship groups linked to longer lives in dolphin populations",
+      "url": "https://www.abc.net.au/news/2026-11-25/queensland-dolphin-friendships-new-research/107421030",
+      "source": "ABC Australia",
+      "published": "2026-11-25T02:17:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1033,10 +1039,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 56942.13,
+        "price": 56742.82,
         "currency": "JPY",
-        "change": -1702.5,
-        "change_percent": -2.9,
+        "change": -1901.81,
+        "change_percent": -3.24,
         "name": "Nikkei 225"
       },
       {
@@ -1059,26 +1065,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3547.0,
+        "price": 3564.0,
         "currency": "USD",
-        "change": -14.9,
-        "change_percent": -0.42,
+        "change": 2.1,
+        "change_percent": 0.06,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.9,
+        "price": 41.2,
         "currency": "USD",
-        "change": 0.11,
-        "change_percent": 0.28,
+        "change": 0.42,
+        "change_percent": 1.02,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.15,
+        "price": 87.71,
         "currency": "USD",
-        "change": -0.63,
-        "change_percent": -0.71,
+        "change": -1.07,
+        "change_percent": -1.21,
         "name": "Brent Crude"
       },
       {
@@ -1086,7 +1092,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.01,
         "name": "EUR/USD"
       },
       {
@@ -1094,23 +1100,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": -0.03,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.27,
+        "price": 159.26,
         "currency": "JPY",
-        "change": 0.03,
-        "change_percent": 0.02,
+        "change": 0.02,
+        "change_percent": 0.01,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59040.84,
+        "price": 59121.09,
         "currency": "USD",
-        "change": -704.81,
-        "change_percent": -1.18,
+        "change": -624.56,
+        "change_percent": -1.05,
         "name": "Bitcoin"
       }
     ],
@@ -1281,6 +1287,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Will the Nvidia fallout kill off Asia’s data centre boom?",
+          "url": "https://www.ft.com/content/e5df32d1-1801-4d81-b2f5-b83e93377c1c?syn-25a6b1a6=1",
+          "published": "2026-11-25T02:04:15+00:00",
+          "snippet": "Projects that touted chip access to Chinese customers face tighter US scrutiny"
+        },
+        {
           "title": "Shein to pay $100mn to resolve US allegations that it deceived customers",
           "url": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1",
           "published": "2026-11-25T02:00:02+00:00",
@@ -1291,12 +1303,6 @@
           "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
           "published": "2026-11-25T01:41:03+00:00",
           "snippet": "Tech stocks in Tokyo and Seoul suffer after Wall Street’s Jensen Huang bounce fades"
-        },
-        {
-          "title": "AI powers double-digit jump in ‘authorised’ fraud",
-          "url": "https://www.ft.com/content/eb6f11e6-f16a-4a2c-92db-0e4731731018?syn-25a6b1a6=1",
-          "published": "2026-11-25T00:01:10+00:00",
-          "snippet": "‘Industrialised nature’ of scams sees criminals extract £659mn from UK victims in first half of 2026"
         }
       ]
     },
@@ -1404,23 +1410,31 @@
   "web": {
     "tech": [
       {
+        "title": "FRSTPM, a completely useless 80287 instruction?",
+        "url": "https://www.os2museum.com/wp/a-completely-useless-instruction/",
+        "comments_url": "https://lobste.rs/s/qblr8z/frstpm_completely_useless_80287",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-25T02:04:56.581000+00:00"
+      },
+      {
         "title": "Matrix Multiplication is O(n^2.25) [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "score": 38,
+        "score": 97,
         "source": "Hacker News",
         "published": "2026-11-25T01:19:26+00:00"
       },
       {
         "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
         "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-        "score": 20,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-25T00:54:49+00:00"
       },
       {
         "title": "Here in the World: Letters of Albert Camus, 1944–1959",
         "url": "https://literaryreview.co.uk/here-in-the-world",
-        "score": 16,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-25T00:36:43+00:00"
       },
@@ -1444,7 +1458,7 @@
         "title": "Pokemon Childhood Version: A romhack where Mew is under the truck",
         "url": "https://wheybags.com/blog/pokemon_childhood_version.html",
         "comments_url": "https://lobste.rs/s/em9zdb/pokemon_childhood_version_romhack_where",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-24T23:14:50.733000+00:00"
       },
@@ -1452,50 +1466,42 @@
         "title": "Why there are still no non-WebKit browsers on iOS",
         "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
         "comments_url": "https://lobste.rs/s/sv2flr/why_there_are_still_no_non_webkit_browsers",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-24T22:28:27.956000+00:00"
       },
       {
-        "title": "A Deep Dive into JVM Start-up (2025)",
-        "url": "https://inside.java/2025/01/28/jvm-start-up/",
-        "comments_url": "https://lobste.rs/s/7vm8mk/deep_dive_into_jvm_start_up_2025",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-24T22:05:30.891000+00:00"
-      },
-      {
         "title": "Heart attack and stroke risk detectable decades in advance",
         "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
-        "score": 145,
+        "score": 160,
         "source": "Hacker News",
         "published": "2026-11-24T21:51:21+00:00"
       },
       {
         "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
         "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-        "score": 170,
+        "score": 181,
         "source": "Hacker News",
         "published": "2026-11-24T21:02:22+00:00"
       },
       {
         "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "score": 69,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-24T20:44:15+00:00"
       },
       {
         "title": "Ternary Bonsai 2.5 27B",
         "url": "https://prismml.com/news/bonsai-2-5-27b",
-        "score": 343,
+        "score": 353,
         "source": "Hacker News",
         "published": "2026-11-24T20:08:03+00:00"
       },
       {
         "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
         "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-        "score": 66,
+        "score": 69,
         "source": "Hacker News",
         "published": "2026-11-24T19:40:43+00:00"
       },

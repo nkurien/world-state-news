@@ -1,180 +1,186 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T21:30:52.116755+00:00",
+  "last_updated": "2026-11-25T22:01:05.316423+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 315
+      "ms": 540
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 110
+      "ms": 400
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 173
+      "ms": 241
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 136
+      "ms": 237
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 235
+      "ms": 371
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 231
+      "ms": 213
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 373
+      "ms": 777
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 290
+      "ms": 543
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 118
+      "ms": 86
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 220
+      "ms": 126
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 435
+      "ms": 365
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 361
+      "ms": 318
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 76
+      "ms": 102
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 95
+      "ms": 1145
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 223
+      "ms": 125
     },
     "RNZ": {
       "ok": true,
-      "count": 47,
+      "count": 46,
       "error": null,
-      "ms": 175
+      "ms": 412
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 549
+      "ms": 709
     },
     "Semafor": {
       "ok": true,
       "count": 271,
       "error": null,
-      "ms": 333
+      "ms": 641
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 916
+      "ms": 707
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 396
+      "ms": 404
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3069
+      "ms": 3193
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 118
+      "ms": 276
     },
     "The Independent": {
       "ok": true,
-      "count": 100,
+      "count": 99,
       "error": null,
-      "ms": 362
+      "ms": 232
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 177
+      "ms": 258
     }
   },
   "breaking": [
     {
-      "title": "At least 30 killed in massive fire as fuel truck crashes on Cairo highway",
+      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
       "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-25T21:25:14+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
+          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
+          "published": "2026-11-25T21:11:06+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-26/egypt-deadly-fuel-tanker-crash-cairo-highway/107428222",
+          "title": "Fuel tanker crash on major Cairo highway kills at least 30",
+          "published": "2026-11-25T21:04:43+00:00"
+        },
         {
           "source": "Euronews",
           "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
           "title": "At least 30 killed in highway fire in Cairo district",
           "published": "2026-11-25T19:56:45+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375814/massive-blaze-kills-least-30-cairo-egypt-after-fuel-truck-overturns",
-          "title": "Massive blaze kills at least 30 in Cairo, Egypt, after fuel truck overturns",
-          "published": "2026-11-25T19:41:27+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 4.0
     },
     {
       "title": "North Korea expels Swiss diplomat in sanctions row",
       "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-25T19:19:06+00:00",
+      "published": "2026-11-25T21:51:17+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -273,10 +279,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Grand gestures at Apec in Shenzhen. But what about the small things?",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3375592/grand-gestures-apec-shenzhen-what-about-small-things",
+      "title": "As US and China battle for AI dominance, small fry figure out what works",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375810/us-and-china-battle-ai-dominance-small-fry-figure-out-what-works",
       "source": "SCMP",
-      "published": "2026-11-25T21:30:08+00:00",
+      "published": "2026-11-25T22:00:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -450,6 +456,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
+      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T03:03:03+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+          "title": "Thomas Markle charged in US for possessing child sex abuse images",
+          "published": "2026-11-25T01:40:42+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-charged-child-sex-abuse-material-b3091071.html",
+          "title": "Thomas Markle indicted in US over possession of child sex abuse material",
+          "published": "2026-11-24T23:31:54+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
       "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
       "source": "The Hindu",
@@ -525,22 +553,6 @@
           "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
           "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
           "published": "2026-11-25T05:12:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
-      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T03:03:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-          "title": "Thomas Markle charged in US for possessing child sex abuse images",
-          "published": "2026-11-25T01:40:42+00:00"
         }
       ],
       "consensus": 2.5
@@ -840,82 +852,82 @@
       "consensus": 1.5
     },
     {
-      "title": "Copper theft costing SEQ ratepayers a small fortune",
-      "url": "https://www.abc.net.au/news/2026-11-26/copper-theft-costs-greater-brisbane-ratepayers-millions/107427286",
-      "source": "ABC Australia",
-      "published": "2026-11-25T21:25:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Israeli judges recommend prosecutors drop one bribery case against Netanyahu",
-      "url": "https://www.channelnewsasia.com/world/israeli-judges-recommend-prosecutors-drop-one-bribery-case-against-netanyahu-6582791",
-      "source": "CNA",
-      "published": "2026-11-25T21:24:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Colorado city spending $23M to buy two farms for water rights hundreds of miles away",
-      "url": "https://www.independent.co.uk/news/world/americas/aurora-colorado-buying-farms-water-rights-b3091716.html",
-      "source": "The Independent",
-      "published": "2026-11-25T21:16:20+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Macy’s Thanksgiving parade is postponed due to a massive storm for the first time in its 100 year history",
+      "title": "NBC turns to rerun after Macy’s postpones Thanksgiving Day parade for first time",
       "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
       "source": "The Independent",
-      "published": "2026-11-25T21:15:27+00:00",
+      "published": "2026-11-25T21:52:26+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Final Avengers: Doomsday trailer racks up over 500 million views in 1st day",
-      "url": "https://www.cbc.ca/news/entertainment/avengers-doomsday-trailer-9.7436106?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T21:14:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Mount Maunganui could reopen next month - Ratepayers Association",
-      "url": "https://www.rnz.co.nz/news/emergencies_local/2779823/mount-maunganui-could-reopen-next-month-ratepayers-association",
-      "source": "RNZ",
-      "published": "2026-11-25T21:11:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Canada partners with Qatar for consular services to Canadians in Afghanistan",
-      "url": "https://www.cbc.ca/news/politics/canada-qatar-afghanistan-9.7436135?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T21:09:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Americans still plan to hold Trump responsible if gas prices go up in the next six months, poll finds",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/gas-prices-trump-iran-poll-b3091761.html",
-      "source": "The Independent",
-      "published": "2026-11-25T21:09:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "18yo bailed following alleged home invasions, thefts and police pursuit",
-      "url": "https://www.abc.net.au/news/2026-11-26/18-year-old-man-bailed-following-alleged-incidents-mildura/107421218",
+      "title": "Breaking: Duran Duran guitarist Andy Taylor dies aged 65",
+      "url": "https://www.abc.net.au/news/2026-11-26/duran-duran-andy-taylor-dies/107428492",
       "source": "ABC Australia",
-      "published": "2026-11-25T21:06:41+00:00",
+      "published": "2026-11-25T21:50:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Pacifica Pier collapses as massive waves wreak havoc in California",
+      "url": "https://www.independent.co.uk/news/world/americas/pacifica-pier-collapse-king-tides-california-b3091784.html",
+      "source": "The Independent",
+      "published": "2026-11-25T21:47:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Farmlands appoints new board chair in wake of AgriZeroNZ investment backlash",
+      "url": "https://www.rnz.co.nz/news/country/2787591/farmlands-appoints-new-board-chair-in-wake-of-agrizeronz-investment-backlash",
+      "source": "RNZ",
+      "published": "2026-11-25T21:46:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T21:43:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "The floating classroom teaching kids to protect their environment",
+      "url": "https://www.rnz.co.nz/news/pacific/2787420/the-floating-classroom-teaching-kids-to-protect-their-environment",
+      "source": "RNZ",
+      "published": "2026-11-25T21:43:03+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "French tourist Maëlle Favregros' fatal fall in popular alpine area prompts safety warnings",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2775509/french-tourist-maelle-favregros-fatal-fall-in-popular-alpine-area-prompts-safety-warnings",
+      "source": "RNZ",
+      "published": "2026-11-25T21:41:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Renegades WBBL player bowled without facing a ball",
+      "url": "https://www.abc.net.au/news/2026-11-26/wbbl-deandra-dottin-melbourne-renegades-bowled/107428262",
+      "source": "ABC Australia",
+      "published": "2026-11-25T21:34:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Grand gestures at Apec in Shenzhen. But what about the small things?",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3375592/grand-gestures-apec-shenzhen-what-about-small-things",
+      "source": "SCMP",
+      "published": "2026-11-25T21:30:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1017,26 +1029,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3597.6,
+        "price": 3608.8,
         "currency": "USD",
-        "change": 6.5,
-        "change_percent": 0.18,
+        "change": 17.7,
+        "change_percent": 0.49,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.34,
+        "price": 41.48,
         "currency": "USD",
-        "change": 0.09,
-        "change_percent": 0.23,
+        "change": 0.23,
+        "change_percent": 0.56,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.8,
+        "price": 90.78,
         "currency": "USD",
-        "change": 2.02,
-        "change_percent": 2.28,
+        "change": 2.0,
+        "change_percent": 2.25,
         "name": "Brent Crude"
       },
       {
@@ -1044,7 +1056,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.1,
+        "change_percent": 0.11,
         "name": "EUR/USD"
       },
       {
@@ -1052,23 +1064,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": -0.02,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.19,
+        "price": 159.15,
         "currency": "JPY",
-        "change": -0.05,
-        "change_percent": -0.03,
+        "change": -0.09,
+        "change_percent": -0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60290.09,
+        "price": 60070.74,
         "currency": "USD",
-        "change": 544.44,
-        "change_percent": 0.91,
+        "change": 325.09,
+        "change_percent": 0.54,
         "name": "Bitcoin"
       }
     ],
@@ -1362,6 +1374,21 @@
   "web": {
     "tech": [
       {
+        "title": "Scott Aaronson on recent complexity theory AI achievements",
+        "url": "https://scottaaronson.blog/?p=10379",
+        "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-25T21:52:52.967000+00:00"
+      },
+      {
+        "title": "Defang Security Incident",
+        "url": "https://defang.io/blog/post/security-incident-november-2026/",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-25T21:47:16+00:00"
+      },
+      {
         "title": "mockitdown examples - user-interface mockup language like SwiftUI",
         "url": "https://bbogovich.github.io/mockitdown/demos/",
         "comments_url": "https://lobste.rs/s/pceggz/mockitdown_examples_user_interface",
@@ -1370,24 +1397,31 @@
         "published": "2026-11-25T20:46:55.955000+00:00"
       },
       {
+        "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+        "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-25T20:35:50+00:00"
+      },
+      {
         "title": "Slow Ubuntu security response times",
         "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
         "comments_url": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
-        "score": 10,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-25T20:10:24.526000+00:00"
       },
       {
         "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
         "url": "https://scottaaronson.blog/?p=10379",
-        "score": 492,
+        "score": 599,
         "source": "Hacker News",
         "published": "2026-11-25T19:11:27+00:00"
       },
       {
         "title": "Britain's ghost stations",
         "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-        "score": 58,
+        "score": 67,
         "source": "Hacker News",
         "published": "2026-11-25T17:43:46+00:00"
       },
@@ -1395,35 +1429,35 @@
         "title": "Update on a security incident involving 1Password’s backend systems",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
         "comments_url": "https://lobste.rs/s/aulbi2/update_on_security_incident_involving",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-25T17:43:13.558000+00:00"
       },
       {
         "title": "The polynomial Hirsch conjecture is false [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
-        "score": 75,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-25T17:34:34+00:00"
       },
       {
         "title": "1Password Security Incident",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-        "score": 792,
+        "score": 851,
         "source": "Hacker News",
         "published": "2026-11-25T17:18:26+00:00"
       },
       {
         "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
         "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-        "score": 379,
+        "score": 390,
         "source": "Hacker News",
         "published": "2026-11-25T15:14:32+00:00"
       },
       {
         "title": "I checked Clojure's core with Lean and found unreported bugs",
         "url": "https://s.conao3.com/blog/2026/e4f733",
-        "score": 143,
+        "score": 153,
         "source": "Hacker News",
         "published": "2026-11-25T14:56:52+00:00"
       },
@@ -1431,14 +1465,14 @@
         "title": "October in Servo: video captions and inert content",
         "url": "https://servo.org/blog/2026/11/25/october-in-servo/",
         "comments_url": "https://lobste.rs/s/tf9ldm/october_servo_video_captions_inert",
-        "score": 26,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-25T14:31:31.655000+00:00"
       },
       {
         "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
         "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "score": 393,
+        "score": 402,
         "source": "Hacker News",
         "published": "2026-11-25T13:33:07+00:00"
       },
@@ -1449,29 +1483,6 @@
         "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-25T13:28:55.591000+00:00"
-      },
-      {
-        "title": "Optimizing Rustc's next trait solver",
-        "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
-        "comments_url": "https://lobste.rs/s/lyyksp/optimizing_rustc_s_next_trait_solver",
-        "score": 28,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T13:09:22.097000+00:00"
-      },
-      {
-        "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
-        "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 293,
-        "source": "Hacker News",
-        "published": "2026-11-25T11:34:25+00:00"
-      },
-      {
-        "title": "Writing a Turn Based Game Websocket Server in Haskell",
-        "url": "https://blog.gordo.life/2026/04/12/haskell-websockets.html",
-        "comments_url": "https://lobste.rs/s/fxfl8u/writing_turn_based_game_websocket_server",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T10:52:53.581000+00:00"
       }
     ],
     "reddit": [

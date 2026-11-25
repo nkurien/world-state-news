@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T08:30:51.734997+00:00",
+  "last_updated": "2026-11-25T09:01:06.665064+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 305
+      "ms": 411
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 673
+      "ms": 457
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 218
+      "ms": 132
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 134
+      "ms": 241
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 56
+      "ms": 202
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 253
+      "ms": 296
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 232
+      "ms": 405
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 680
+      "ms": 622
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 254
+      "ms": 44
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 294
+      "ms": 187
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 503
+      "ms": 434
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 356
+      "ms": 296
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 426
+      "ms": 582
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 146
+      "ms": 226
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 422
+      "ms": 508
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 116
+      "ms": 233
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 882
+      "ms": 754
     },
     "Semafor": {
       "ok": true,
       "count": 246,
       "error": null,
-      "ms": 995
+      "ms": 722
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 755
+      "ms": 470
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 280
+      "ms": 363
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3066
+      "ms": 3172
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 431
+      "ms": 289
     },
     "The Independent": {
       "ok": true,
-      "count": 92,
+      "count": 89,
       "error": null,
-      "ms": 227
+      "ms": 131
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 298
+      "ms": 236
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.aljazeera.com/news/2026/11/25/rescuers-search-for-dozens-trapped-in-flooded-indonesia-gold-mine?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-25T08:08:57+00:00",
-      "score": 5,
+      "score": 3,
       "other_sources": [
         {
           "source": "Straits Times",
@@ -162,53 +162,13 @@
           "published": "2026-11-25T05:53:00+00:00"
         },
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-25/miners-trapped-underground-in-west-java-indonesia/107426126",
-          "title": "Rescuers search for workers trapped in Indonesian mine",
-          "published": "2026-11-25T05:26:20+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/asia/indonesia-search-dozens-trapped-mine-workers-6580561",
-          "title": "Indonesian rescuers search for possibly 'dozens' trapped in mine",
-          "published": "2026-11-25T05:15:00+00:00"
-        },
-        {
           "source": "The Hindu",
           "url": "https://www.thehindu.com/news/international/indonesian-rescuers-searching-for-possibly-dozens-trapped-in-mine/article71741002.ece",
           "title": "Indonesian rescuers searching for possibly ‘dozens’ trapped in mine",
           "published": "2026-11-25T03:38:07+00:00"
         }
       ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Huawei guilty in US of stealing trade secrets in landmark case",
-      "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
-      "source": "The Independent",
-      "published": "2026-11-25T05:50:38+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-          "published": "2026-11-25T02:59:27+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-          "published": "2026-11-24T22:55:50+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
-          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
-          "published": "2026-11-24T21:27:44+00:00"
-        }
-      ],
-      "consensus": 5.0
+      "consensus": 3.5
     },
     {
       "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
@@ -231,6 +191,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Malaysia sues Google for $220m over harmful content",
+      "url": "https://www.abc.net.au/news/2026-11-25/malaysia-sues-google-for-220-million-over-youtube-content/107427468",
+      "source": "ABC Australia",
+      "published": "2026-11-25T08:46:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/week-asia/politics/article/3375742/malaysian-regulator-sues-google-us146m-over-harmful-online-content",
+          "title": "Malaysian regulator sues Google for US$146m over ‘harmful’ online content",
+          "published": "2026-11-25T08:32:58+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
@@ -265,28 +241,35 @@
       "consensus": 2.5
     },
     {
-      "title": "Women in France face steep financial hurdles to escaping domestic abuse: report",
-      "url": "https://www.rfi.fr/en/france/20261125-women-in-france-face-steep-financial-hurdles-to-escaping-domestic-abuse-report",
-      "source": "RFI English",
-      "published": "2026-11-25T08:27:42+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hong Kong tourist spending hits HK$111 billion in first half of 2026",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375740/hong-kong-tourist-spending-hits-hk111-billion-first-half-2026",
+      "title": "Meta officials meet India’s Congress party to calm social media takedown row",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375747/meta-officials-meet-indias-congress-party-calm-social-media-takedown-row",
       "source": "SCMP",
-      "published": "2026-11-25T08:27:26+00:00",
+      "published": "2026-11-25T08:55:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-sources-say",
+          "title": "Meta officials meet India’s opposition Congress amid protests on content curbs, sources say",
+          "published": "2026-11-25T08:48:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Malaysia government likely to serve full term, PM Anwar aide says",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-government-likely-to-serve-full-term-pm-anwar-aide-says",
+      "source": "Straits Times",
+      "published": "2026-11-25T08:49:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Frustrated Bowen says geopolitical tensions hurt COP consensus",
-      "url": "https://www.abc.net.au/news/2026-11-25/chris-bowen-disappointed-at-cop31-result-geopolitics/107427460",
-      "source": "ABC Australia",
-      "published": "2026-11-25T08:27:07+00:00",
+      "title": "Fight over defense spending in Japan enters final showdown",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/japan/politics/japan-defense-spending-focus/",
+      "source": "Japan Times",
+      "published": "2026-11-25T08:33:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -360,6 +343,34 @@
         }
       ],
       "consensus": 6.0
+    },
+    {
+      "title": "Huawei guilty in US of stealing trade secrets in landmark case",
+      "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
+      "source": "The Independent",
+      "published": "2026-11-25T05:50:38+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+          "published": "2026-11-25T02:59:27+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
+          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
+          "published": "2026-11-24T22:55:50+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
+          "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
+          "published": "2026-11-24T21:27:44+00:00"
+        }
+      ],
+      "consensus": 5.0
     },
     {
       "title": "Trump awards Rudy Giuliani the Medal of Freedom",
@@ -604,22 +615,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Gisèle Pelicot 'deeply shocked' after nude images from her rape case used in book promotion",
-      "url": "https://www.cbc.ca/news/world/gisele-pelicot-paris-book-9.7434150?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-24T17:33:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gisele-pelicot-shocked-nude-photos-promote-book-b3090415.html",
-          "title": "Gisèle Pelicot ‘deeply shocked’ after nude photos of her used to promote book",
-          "published": "2026-11-24T08:51:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Zambia formally indicts opposition leader on treason charges",
       "url": "https://www.rfi.fr/en/africa/20261124-zambia-formally-indicts-opposition-leader-on-treason-charges",
       "source": "RFI English",
@@ -834,6 +829,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Police officer to stand trial for murder over shooting of French teenager Nahel",
+      "url": "https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting",
+      "source": "RFI English",
+      "published": "2026-11-24T14:52:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html",
+          "title": "French police officer who shot teenager to stand trial for murder following appeal",
+          "published": "2026-11-24T12:01:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
       "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-of-finland-a94364",
       "source": "The Moscow Times",
@@ -946,28 +957,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Is Malaysia’s subsidy tsar next to leave Anwar Ibrahim’s cabinet?",
-      "url": "https://www.scmp.com/week-asia/politics/article/3375739/malaysias-subsidy-tsar-next-leave-anwar-ibrahims-cabinet",
-      "source": "SCMP",
-      "published": "2026-11-25T08:23:34+00:00",
+      "title": "Galatasaray defy Israel’s complaint to UEFA over pro-Palestine banners",
+      "url": "https://www.aljazeera.com/sports/2026/11/25/galatasaray-defy-israels-complaint-to-uefa-over-pro-palestine-banners?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T08:53:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Malaysia talks with US on AI chip curbs, tightens controls",
-      "url": "https://www.straitstimes.com/asia/se-asia/malaysia-talks-with-us-on-ai-chip-curbs-tightens-controls",
+      "title": "Malaysia’s passport ‘power’ at an all-time high, but US and Canada pose hurdles",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysias-passport-power-at-an-all-time-high-but-here-is-where-it-hits-a-wall",
       "source": "Straits Times",
-      "published": "2026-11-25T08:23:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Jordan sentences man to death over attack that killed officer",
-      "url": "https://www.straitstimes.com/asia/jordan-sentences-man-to-death-over-attack-that-killed-officer",
-      "source": "Straits Times",
-      "published": "2026-11-25T08:21:29+00:00",
+      "published": "2026-11-25T08:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -984,10 +986,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 135.44,
+      "price": 135.72,
       "currency": "GBP",
-      "change": -0.04,
-      "change_percent": -0.03,
+      "change": 0.24,
+      "change_percent": 0.18,
       "name": "FTSE All-World ETF"
     },
     {
@@ -1000,10 +1002,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10523.62,
+      "price": 10537.21,
       "currency": "GBP",
-      "change": 56.55,
-      "change_percent": 0.54,
+      "change": 70.14,
+      "change_percent": 0.67,
       "name": "FTSE 100"
     }
   ],
@@ -1019,10 +1021,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10523.62,
+        "price": 10537.21,
         "currency": "GBP",
-        "change": 56.55,
-        "change_percent": 0.54,
+        "change": 70.14,
+        "change_percent": 0.67,
         "name": "FTSE 100"
       },
       {
@@ -1051,44 +1053,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25057.43,
+        "price": 25136.36,
         "currency": "EUR",
-        "change": 39.62,
-        "change_percent": 0.16,
+        "change": 118.55,
+        "change_percent": 0.47,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8113.76,
+        "price": 8140.67,
         "currency": "EUR",
-        "change": 73.27,
-        "change_percent": 0.91,
+        "change": 100.18,
+        "change_percent": 1.25,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3528.0,
+        "price": 3564.7,
         "currency": "USD",
-        "change": -33.9,
-        "change_percent": -0.95,
+        "change": -26.4,
+        "change_percent": -0.74,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.06,
+        "price": 40.67,
         "currency": "USD",
-        "change": -0.72,
-        "change_percent": -1.77,
+        "change": -0.58,
+        "change_percent": -1.4,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.24,
+        "price": 88.03,
         "currency": "USD",
-        "change": -1.54,
-        "change_percent": -1.73,
+        "change": -0.75,
+        "change_percent": -0.84,
         "name": "Brent Crude"
       },
       {
@@ -1096,7 +1098,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.23,
+        "change_percent": -0.18,
         "name": "EUR/USD"
       },
       {
@@ -1104,23 +1106,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.31,
+        "change_percent": -0.27,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.42,
+        "price": 159.35,
         "currency": "JPY",
-        "change": 0.18,
-        "change_percent": 0.11,
+        "change": 0.11,
+        "change_percent": 0.07,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59121.02,
+        "price": 59203.52,
         "currency": "USD",
-        "change": -624.63,
-        "change_percent": -1.05,
+        "change": -542.13,
+        "change_percent": -0.91,
         "name": "Bitcoin"
       }
     ],
@@ -1291,22 +1293,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Shein to pay $100mn to resolve US allegations that it deceived customers",
+          "url": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1",
+          "published": "2026-11-25T08:55:32+00:00",
+          "snippet": "Regulators claim cotton that the retailer’s suppliers said was US-grown was harvested in China"
+        },
+        {
+          "title": "North Korea closes Swiss diplomatic office in row over children’s camp",
+          "url": "https://www.ft.com/content/5b320dc9-ff58-4036-9f84-b4cb66cf9556",
+          "published": "2026-11-25T08:27:12+00:00",
+          "snippet": "Sanctions on Songdowon International Children’s Camp were a ‘blatant hostile act’, says Pyongyang"
+        },
+        {
           "title": "Heathrow seeks to pass on £300mn third runway planning costs to passengers",
           "url": "https://www.ft.com/content/800abc68-933a-40f5-be6a-3e2f4a55ff88?syn-25a6b1a6=1",
           "published": "2026-11-25T08:12:51+00:00",
           "snippet": "Airport wants permission from regulator to claw back money through higher traveller charges"
-        },
-        {
-          "title": "Britain’s schoolchildren need AI guidance",
-          "url": "https://www.ft.com/content/c94bb595-e83f-45c6-98d6-d09a3183c13b",
-          "published": "2026-11-25T08:00:02+00:00",
-          "snippet": "Children’s protection charity sets out checklist for use of technology in UK, world’s third-largest AI market"
-        },
-        {
-          "title": "British household energy bills to soar 26% from January",
-          "url": "https://www.ft.com/content/e9dea6f2-dcf8-4ec5-96ec-0415694bf897?syn-25a6b1a6=1",
-          "published": "2026-11-25T07:58:42+00:00",
-          "snippet": "Energy regulator Ofgem says new three-month price cap reflects surge in wholesale cost of gas"
         }
       ]
     },
@@ -1425,7 +1427,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1441,35 +1443,35 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 12,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 82,
+        "score": 95,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 64,
+        "score": 67,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 91,
+        "score": 97,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 299,
+        "score": 328,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1484,21 +1486,21 @@
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 140,
+        "score": 155,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       },
       {
         "title": "Top open problems in mathematics ranked by LLM-assessed importance",
         "url": "https://www.proofatlas.ai/open-problems/",
-        "score": 46,
+        "score": 48,
         "source": "Hacker News",
         "published": "2026-11-25T03:01:36+00:00"
       },
       {
         "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
         "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-        "score": 197,
+        "score": 208,
         "source": "Hacker News",
         "published": "2026-11-25T02:34:21+00:00"
       },
@@ -1513,14 +1515,14 @@
       {
         "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "score": 556,
+        "score": 581,
         "source": "Hacker News",
         "published": "2026-11-25T01:19:26+00:00"
       },
       {
         "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
         "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-        "score": 221,
+        "score": 231,
         "source": "Hacker News",
         "published": "2026-11-25T00:54:49+00:00"
       }

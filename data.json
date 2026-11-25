@@ -1,204 +1,164 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T07:01:01.949759+00:00",
+  "last_updated": "2026-11-25T07:30:56.574250+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 281
+      "ms": 348
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 563
+      "ms": 353
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 150
+      "ms": 252
     },
     "BBC News": {
       "ok": true,
-      "count": 36,
+      "count": 34,
       "error": null,
-      "ms": 346
+      "ms": 283
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 142
+      "ms": 418
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 234
+      "ms": 286
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 50
+      "ms": 728
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 593
+      "ms": 560
     },
     "Euronews": {
       "ok": true,
-      "count": 43,
+      "count": 44,
       "error": null,
-      "ms": 167
+      "ms": 173
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 299
+      "ms": 126
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 750
+      "ms": 536
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 444
+      "ms": 309
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 289
+      "ms": 250
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 158
+      "ms": 707
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 439
+      "ms": 274
     },
     "RNZ": {
       "ok": true,
-      "count": 48,
+      "count": 47,
       "error": null,
-      "ms": 297
+      "ms": 398
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 773
+      "ms": 685
     },
     "Semafor": {
       "ok": true,
       "count": 246,
       "error": null,
-      "ms": 897
+      "ms": 662
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 416
+      "ms": 880
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 172
+      "ms": 504
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3060
+      "ms": 3384
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 384
+      "ms": 203
     },
     "The Independent": {
       "ok": true,
       "count": 94,
       "error": null,
-      "ms": 270
+      "ms": 245
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 320
+      "ms": 218
     }
   },
   "breaking": [
-    {
-      "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
-      "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
-      "source": "RNZ",
-      "published": "2026-11-25T04:27:43+00:00",
-      "score": 6,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
-          "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
-          "published": "2026-11-25T01:37:20+00:00"
-        },
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/business/2026/11/25/tech/huang-nvidia-staff-therapy/",
-          "title": "Huang apologizes to Nvidia staff, says he’s in daily therapy",
-          "published": "2026-11-25T01:18:00+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/chuck-schumer-nvidia-jensen-huang-b3091062.html",
-          "title": "Schumer accuses Nvidia CEO Jensen Huang of illegally selling advanced chips to China",
-          "published": "2026-11-24T23:02:03+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
-          "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
-          "published": "2026-11-24T22:03:22+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
-          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
-          "published": "2026-11-17T16:30:10+00:00"
-        }
-      ],
-      "consensus": 7.5
-    },
     {
       "title": "Huawei guilty in US of stealing trade secrets in landmark case",
       "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
       "source": "The Independent",
       "published": "2026-11-25T05:50:38+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-          "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+          "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
           "published": "2026-11-25T02:59:27+00:00"
         },
         {
@@ -208,19 +168,13 @@
           "published": "2026-11-24T22:55:50+00:00"
         },
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-          "published": "2026-11-24T21:43:34+00:00"
-        },
-        {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/huawei-conspiracy-trade-secrets-ruling-9.7434554?cmp=rss",
           "title": "U.S. jury finds Chinese tech giant Huawei guilty of conspiring to steal trade secrets",
           "published": "2026-11-24T21:27:44+00:00"
         }
       ],
-      "consensus": 6.5
+      "consensus": 5.0
     },
     {
       "title": "Indonesian rescuers search for possibly ‘dozens’ trapped in mine",
@@ -265,7 +219,7 @@
         },
         {
           "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut",
           "title": "China’s Shenzhou-24 docks at space station with Pakistani national as first foreign astronaut",
           "published": "2026-11-25T00:32:52+00:00"
         }
@@ -293,6 +247,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
+      "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T06:58:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece",
+          "title": "Bangladesh garment workers win 36% wage rise",
+          "published": "2026-11-25T04:17:43+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "2025 AFCON: CAS gives title to Senegal as Morocco vows to challenge verdict",
@@ -327,23 +297,63 @@
       "consensus": 2.5
     },
     {
-      "title": "Israeli strike kills four people in Gaza",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T04:13:58+00:00",
+      "title": "Australia, Solomon Islands sign sweeping pact stymieing China",
+      "url": "https://www.channelnewsasia.com/world/australia-solomon-islands-pact-china-6580656",
+      "source": "CNA",
+      "published": "2026-11-25T04:34:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
-          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
-          "published": "2026-11-24T15:35:53+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australianz/australia-and-solomon-islands-sign-security-pact",
+          "title": "Australia, Solomon Islands sign sweeping pact seen as countering China",
+          "published": "2026-11-25T00:02:49+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
+    {
+      "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
+      "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
+      "source": "RNZ",
+      "published": "2026-11-25T04:27:43+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
+          "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
+          "published": "2026-11-25T01:37:20+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/business/2026/11/25/tech/huang-nvidia-staff-therapy/",
+          "title": "Huang apologizes to Nvidia staff and says he’s in daily therapy",
+          "published": "2026-11-25T01:18:00+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/chuck-schumer-nvidia-jensen-huang-b3091062.html",
+          "title": "Schumer accuses Nvidia CEO Jensen Huang of illegally selling advanced chips to China",
+          "published": "2026-11-24T23:02:03+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375675/nvidias-jensen-huang-apologises-staff-says-he-therapy",
+          "title": "Nvidia’s Jensen Huang says he is in therapy, as comeback rally fades",
+          "published": "2026-11-24T22:03:22+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
+          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
+          "published": "2026-11-17T16:30:10+00:00"
+        }
+      ],
+      "consensus": 7.5
+    },
     {
       "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
       "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
@@ -439,6 +449,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Israeli strike kills four people in Gaza",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T04:13:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "published": "2026-11-24T15:35:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Democrats clinch a historic House majority of at least 259 seats, the largest since 1990",
       "url": "https://www.thehindu.com/news/international/democrats-clinch-a-historic-house-majority-of-at-least-259-seats-the-largest-since-1990/article71740984.ece",
       "source": "The Hindu",
@@ -487,22 +513,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Solomon Islands, Australia sign new treaty to keep foreign military bases out",
-      "url": "https://www.rnz.co.nz/news/pacific/2771868/solomon-islands-australia-sign-new-treaty-to-keep-foreign-military-bases-out",
-      "source": "RNZ",
-      "published": "2026-11-25T01:57:08+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australia-and-solomon-islands-sign-security-pact",
-          "title": "Solomon Islands, Australia sign new treaty amid China ties review",
-          "published": "2026-11-25T00:02:49+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
       "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
       "source": "SCMP",
@@ -530,22 +540,6 @@
           "url": "https://www.thehindu.com/news/international/israels-eisenkot-clinches-first-coalition-agreement-in-bid-to-form-government/article71740200.ece",
           "title": "Israel’s Eisenkot clinches first coalition agreement in bid to form government",
           "published": "2026-11-24T22:56:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
-      "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-24T23:29:40+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmqj5qlj5yz9o?at_medium=RSS&at_campaign=rss",
-          "title": "Zimbabwean convicted in South Africa of trying to fight in Ukraine",
-          "published": "2026-11-24T17:04:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -765,38 +759,6 @@
       "consensus": 2.5
     },
     {
-      "title": "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
-      "url": "http://www.africanews.com/2026/11/22/united-nations-cop31-climate-talks-collapse-in-bitter-row-over-fossil-fuels/",
-      "source": "Africanews",
-      "published": "2026-11-22T16:20:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261122-cop31-climate-talks-collapse-as-eu-rejects-deal-that-omits-fossil-fuels",
-          "title": "Cop31 climate talks collapse as EU rejects deal that omits fossil fuels",
-          "published": "2026-11-22T14:22:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Australia, Solomon Islands sign sweeping pact stymieing China",
-      "url": "https://www.channelnewsasia.com/world/australia-solomon-islands-pact-china-6580656",
-      "source": "CNA",
-      "published": "2026-11-25T04:34:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australianz/solomon-islands-plans-to-replace-china-security-pact-with-australia-treaty-report-says",
-          "title": "Solomon Islands plans to replace China security pact with Australia treaty: Report",
-          "published": "2026-11-24T04:52:35+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Thailand asks China to help halt Myanmar mines over toxic rivers",
       "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/thailand-china-myanmar-mines-rivers/",
       "source": "Japan Times",
@@ -808,6 +770,22 @@
           "url": "https://www.straitstimes.com/asia/se-asia/thailand-asks-china-to-help-halt-myanmar-mines-over-toxic-rivers",
           "title": "Thailand asks China to help halt Myanmar mines over toxic rivers",
           "published": "2026-11-25T01:40:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "U.S. criticizes Australia social media law as harming free speech",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/world/us-australia-social-media-speech/",
+      "source": "Japan Times",
+      "published": "2026-11-25T03:17:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australianz/us-criticises-australia-social-media-law-as-harming-free-speech",
+          "title": "US criticises Australia social media law as harming free speech",
+          "published": "2026-11-25T02:56:57+00:00"
         }
       ],
       "consensus": 2.0
@@ -989,19 +967,35 @@
       "consensus": 1.5
     },
     {
-      "title": "Families of 9 out of 10 helpers killed in Tai Po blaze still awaiting compensation",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3375666/families-9-out-10-helpers-killed-tai-po-blaze-still-awaiting-compensation",
+      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
+      "source": "Africanews",
+      "published": "2026-11-24T07:22:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
+          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+          "published": "2026-11-24T07:22:44+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "BYD apologises for wheel-rim error; Chinese car buyers go electric: 7 EV reads",
+      "url": "https://www.scmp.com/business/china-evs/article/3375716/byd-apologises-wheel-rim-error-chinese-car-buyers-go-electric-7-ev-reads",
       "source": "SCMP",
-      "published": "2026-11-25T07:00:06+00:00",
+      "published": "2026-11-25T07:30:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Door not closed on capital gains carve-out for businesses as inquiry confirmed",
-      "url": "https://www.abc.net.au/news/2026-11-25/door-not-closed-on-capital-gains-carve-out-for-business/107427094",
-      "source": "ABC Australia",
-      "published": "2026-11-25T06:52:03+00:00",
+      "title": "Balkan to the future: The long and winding road to Brussels",
+      "url": "https://www.euronews.com/2026/11/25/balkan-to-the-future-the-long-and-winding-road-to-brussels",
+      "source": "Euronews",
+      "published": "2026-11-25T07:28:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1103,26 +1097,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3519.2,
+        "price": 3517.4,
         "currency": "USD",
-        "change": -42.7,
-        "change_percent": -1.2,
+        "change": -44.5,
+        "change_percent": -1.25,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.2,
+        "price": 40.04,
         "currency": "USD",
-        "change": -0.59,
-        "change_percent": -1.44,
+        "change": -0.74,
+        "change_percent": -1.82,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.31,
+        "price": 87.33,
         "currency": "USD",
-        "change": -1.47,
-        "change_percent": -1.66,
+        "change": -1.45,
+        "change_percent": -1.63,
         "name": "Brent Crude"
       },
       {
@@ -1130,7 +1124,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.25,
+        "change_percent": -0.23,
         "name": "EUR/USD"
       },
       {
@@ -1143,18 +1137,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.25,
+        "price": 159.08,
         "currency": "JPY",
-        "change": 0.0,
-        "change_percent": 0.0,
+        "change": -0.17,
+        "change_percent": -0.1,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59113.9,
+        "price": 59012.31,
         "currency": "USD",
-        "change": -631.75,
-        "change_percent": -1.06,
+        "change": -733.34,
+        "change_percent": -1.23,
         "name": "Bitcoin"
       }
     ],
@@ -1249,22 +1243,22 @@
       "column": "briefings",
       "entries": [
         {
-          "title": "The hidden dangers of GYO mushroom kits",
-          "url": "https://theweek.com/environment/the-hidden-dangers-of-gyo-mushroom-kits",
-          "published": "2026-11-24T22:58:25+00:00",
-          "snippet": "Popularity of growing your own food could be helping an invasive species take root in UK woodlands"
+          "title": "A ‘Sister’ sketch on ‘Saturday Night Live’ strikes a nerve with caregivers over gender roles",
+          "url": "https://theweek.com/health/a-sister-sketch-on-saturday-night-live-strikes-a-nerve-with-caregivers-over-gender-roles",
+          "published": "2026-11-25T07:00:00+00:00",
+          "snippet": "Who takes responsibility for eldercare? And why does it always fall to the sister?"
         },
         {
-          "title": "How do Democrats solve a problem like Jensen Huang?",
-          "url": "https://theweek.com/politics/democrats-huang-nvidia-ai-trump-congress",
-          "published": "2026-11-24T19:19:09+00:00",
-          "snippet": "The compromised CEO’s return to Nvidia presents new challenges — and opportunities — for a party about to assume the majority"
+          "title": "The best fantasy book series for every fan",
+          "url": "https://theweek.com/culture-life/books/the-best-fantasy-book-series-for-every-fan-le-guin-hobb-sanderson-jemisin",
+          "published": "2026-11-25T07:00:00+00:00",
+          "snippet": "These novels, including a classic by Ursula K. Le Guin and a contemporary fave from N.K. Jemisin, will transport you"
         },
         {
-          "title": "Can the US conquer measles — again?",
-          "url": "https://theweek.com/health/can-the-us-conquer-measles-again",
-          "published": "2026-11-24T18:09:21+00:00",
-          "snippet": "Falling vaccination rates lead to a surge in viral disease"
+          "title": "An ED pill may slow Alzheimer’s progression",
+          "url": "https://theweek.com/health/an-ed-pill-may-slow-alzheimers-progression",
+          "published": "2026-11-25T07:00:00+00:00",
+          "snippet": "But only in some people"
         }
       ]
     },
@@ -1325,22 +1319,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "UK household energy bills to soar 26% from January",
+          "url": "https://www.ft.com/content/e9dea6f2-dcf8-4ec5-96ec-0415694bf897?syn-25a6b1a6=1",
+          "published": "2026-11-25T07:13:39+00:00",
+          "snippet": "Energy regulator Ofgem says new three-month price cap reflects surge in wholesale cost of gas"
+        },
+        {
+          "title": "India as AI play",
+          "url": "https://www.ft.com/content/f3e59769-6b74-4dfc-913a-985286847ff0?syn-25a6b1a6=1",
+          "published": "2026-11-25T06:30:02+00:00",
+          "snippet": "The downsides are overstated, the upside overlooked"
+        },
+        {
           "title": "Asian markets lose ground as AI fears return",
           "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
           "published": "2026-11-25T06:04:32+00:00",
           "snippet": "Tech stocks in Tokyo and Seoul suffer after Wall Street’s Jensen Huang bounce fades"
-        },
-        {
-          "title": "China issues list of demands to Brussels over EU trade talks",
-          "url": "https://www.ft.com/content/b32f9488-aa02-47f8-bebf-a97805a076e4?syn-25a6b1a6=1",
-          "published": "2026-11-25T06:00:02+00:00",
-          "snippet": "Also in this newsletter: Serbia’s deafening absence in Brussels"
-        },
-        {
-          "title": "Anthropic has pulled up the ladder",
-          "url": "https://www.ft.com/content/1c62dcfe-826f-4638-a9ee-c3b3009bc45d",
-          "published": "2026-11-25T06:00:02+00:00",
-          "snippet": "By pushing its IPO to the limit, the Claude maker has made itself a hard act to follow"
         }
       ]
     },
@@ -1448,10 +1442,18 @@
   "web": {
     "tech": [
       {
+        "title": "Needles, Haystacks, and Numbers Between 0 and 1",
+        "url": "https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/",
+        "comments_url": "https://lobste.rs/s/5gefep/needles_haystacks_numbers_between_0_1",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-25T07:03:53.327000+00:00"
+      },
+      {
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 3,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1459,7 +1461,7 @@
         "title": "Flat/non-higher-order construction of ANF via mutable holes",
         "url": "https://blueberrywren.dev/blog/anf-mutable/",
         "comments_url": "https://lobste.rs/s/n0itvf/flat_non_higher_order_construction_anf",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:11:39.705000+00:00"
       },
@@ -1467,49 +1469,42 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
-        "title": "Treasury CIO is too busy vibecoding instead of doing his job #147",
-        "url": "https://github.com/samcorcos/legatum/issues/147",
-        "score": 118,
-        "source": "Hacker News",
-        "published": "2026-11-25T04:56:36+00:00"
-      },
-      {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 46,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 32,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
       {
-        "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
-        "url": "https://www.comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F",
-        "score": 115,
-        "source": "Hacker News",
-        "published": "2026-11-25T04:03:33+00:00"
-      },
-      {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 69,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
+        "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+        "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
+        "score": 54,
+        "source": "Hacker News",
+        "published": "2026-11-25T03:28:06+00:00"
+      },
+      {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 192,
+        "score": 234,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1524,28 +1519,28 @@
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 98,
+        "score": 116,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       },
       {
         "title": "I've been drinking wine in my kitchen",
         "url": "https://scottaaronson.blog/?p=10362",
-        "score": 129,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-25T03:02:10+00:00"
       },
       {
         "title": "Top open problems in mathematics ranked by LLM-assessed importance",
         "url": "https://www.proofatlas.ai/open-problems/",
-        "score": 37,
+        "score": 39,
         "source": "Hacker News",
         "published": "2026-11-25T03:01:36+00:00"
       },
       {
         "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
         "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-        "score": 156,
+        "score": 170,
         "source": "Hacker News",
         "published": "2026-11-25T02:34:21+00:00"
       },

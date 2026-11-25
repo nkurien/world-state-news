@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T14:01:07.402371+00:00",
+  "last_updated": "2026-11-25T14:30:59.059325+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 443
+      "ms": 568
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 197
+      "ms": 194
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 178
+      "ms": 208
     },
     "BBC News": {
       "ok": true,
       "count": 29,
       "error": null,
-      "ms": 296
+      "ms": 254
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 155
+      "ms": 475
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 397
+      "ms": 433
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 492
+      "ms": 556
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 297
+      "ms": 388
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 172
+      "ms": 151
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 193
+      "ms": 148
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 740
+      "ms": 954
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 246
+      "ms": 226
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 165
+      "ms": 359
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 167
+      "ms": 186
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 130
+      "ms": 563
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 167
+      "ms": 291
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 599
+      "ms": 673
     },
     "Semafor": {
       "ok": true,
       "count": 267,
       "error": null,
-      "ms": 435
+      "ms": 570
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 633
+      "ms": 568
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 345
+      "ms": 313
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3300
+      "ms": 3277
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 186
+      "ms": 178
     },
     "The Independent": {
       "ok": true,
-      "count": 97,
+      "count": 94,
       "error": null,
-      "ms": 219
+      "ms": 243
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 188
+      "ms": 138
     }
   },
   "breaking": [
@@ -169,6 +169,50 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Trump announces new tariffs, undeterred by midterms defeat",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T14:24:03+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
+          "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
+          "published": "2026-11-25T11:34:00+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/trump-to-double-down-on-tariffs-after-midterms-defeat",
+          "title": "Trump to double down on tariffs after midterms defeat",
+          "published": "2026-11-24T20:44:58+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+      "source": "SCMP",
+      "published": "2026-11-25T14:03:18+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+          "title": "China warns US against imposing new tariffs",
+          "published": "2026-11-25T09:02:00+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Israeli strike kills Hamas official, his wife and children",
@@ -270,38 +314,6 @@
           "url": "https://www.thehindu.com/news/international/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/article71741038.ece",
           "title": "Solomon Islands names Australia as its primary security partner in a new treaty that excludes China",
           "published": "2026-11-25T04:15:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
-      "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
-      "source": "CNA",
-      "published": "2026-11-25T11:34:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-china-eu-trade-b3091177.html",
-          "title": "Trump readies fresh wave of tariffs on China, the European Union and 14 other trading partners",
-          "published": "2026-11-25T10:06:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
-      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
-      "source": "Africanews",
-      "published": "2026-11-25T11:09:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
-          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
-          "published": "2026-11-25T07:26:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -431,17 +443,17 @@
       "consensus": 3.5
     },
     {
-      "title": "US proposes sweeping new tariffs on China, others",
-      "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-      "source": "Semafor",
-      "published": "2026-11-25T13:48:58+00:00",
+      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
+      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
+      "source": "Africanews",
+      "published": "2026-11-25T11:09:56+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-          "title": "China warns US against imposing new tariffs",
-          "published": "2026-11-25T09:02:00+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+          "published": "2026-11-25T07:26:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -522,54 +534,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/house-democrats-congress-seats-record-b3090952.html",
           "title": "Democrats clinch historic House majority winning at least 259 seats",
           "published": "2026-11-24T19:54:31+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Unclassified CIA system breached in latest US cybersecurity incident",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375693/unclassified-cia-system-breached-latest-us-cybersecurity-incident",
-      "source": "SCMP",
-      "published": "2026-11-25T03:13:12+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
-          "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
-          "published": "2026-11-24T21:57:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
-      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive",
-      "source": "France24",
-      "published": "2026-11-24T21:28:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-nvidia-comeback-leaves-him-unfireable-and-indebted-to-trump",
-          "title": "Jensen Huang's Nvidia comeback leaves him unfireable and indebted to Trump",
-          "published": "2026-11-24T13:46:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Senegal reinstated as AFCON 2025 winners",
-      "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners",
-      "source": "France24",
-      "published": "2026-11-24T21:14:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/24/senegal-reinstated-as-afcon-winners-after-cas-rules-against-morocco/",
-          "title": "Senegal reinstated as AFCON winners after CAS rules against Morocco",
-          "published": "2026-11-24T15:22:52+00:00"
         }
       ],
       "consensus": 2.5
@@ -869,80 +833,100 @@
       "consensus": 1.5
     },
     {
-      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
-      "source": "Africanews",
-      "published": "2026-11-24T07:22:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
-          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-          "published": "2026-11-24T07:22:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Kremlin Dismisses Leaked Data on Russian Troop Losses",
+      "url": "https://www.themoscowtimes.com/2026/11/25/kremlin-dismisses-leaked-data-on-russian-troop-losses-a812368",
+      "source": "The Moscow Times",
+      "published": "2026-11-25T14:30:28+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "China embeds ‘loyal wingman’ drone simulations in fighter pilot training",
-      "url": "https://www.scmp.com/news/china/military/article/3375766/china-embeds-loyal-wingman-drone-simulations-fighter-pilot-training",
+      "title": "Hong Kong ticketing hack exposes data of 1.3 million users as cyber breaches surge",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3375802/hong-kong-ticketing-hack-exposes-data-13-million-users-cyber-breaches-surge",
       "source": "SCMP",
-      "published": "2026-11-25T14:00:07+00:00",
+      "published": "2026-11-25T14:26:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Hong Kong government holds firm on proposed 3-year certification renewal for teachers",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3375798/hong-kong-government-holds-firm-proposed-3-year-certification-renewal-teachers",
-      "source": "SCMP",
-      "published": "2026-11-25T13:54:59+00:00",
+      "title": "How American Thanksgiving took root -- and evolved -- in Liberia",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer",
+      "source": "NPR World",
+      "published": "2026-11-25T14:14:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Syrian teams clear landmines after deadly explosion",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/syrian-teams-clear-landmines-after-deadly-explosion?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T13:51:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The devastating scale of Putin’s war on Ukraine laid bare as leaked figures show 500,000 Russian soldiers dead",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-trump-putin-troops-death-toll-b3091347.html",
+      "title": "Will weather ground Macy’s Thanksgiving Parade balloons? Official floats start time change",
+      "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-balloons-weather-start-time-b3091468.html",
       "source": "The Independent",
-      "published": "2026-11-25T13:47:29+00:00",
+      "published": "2026-11-25T14:14:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "French FM defends Ukraine's attacks on Russian ships in Libya",
-      "url": "https://www.rfi.fr/en/international/20261125-french-fm-defends-ukraine-s-attacks-on-russian-ships-in-libya",
-      "source": "RFI English",
-      "published": "2026-11-25T13:45:21+00:00",
+      "title": "Der Kampf um die „Remigration“",
+      "url": "https://www.politico.eu/podcast/inside-afd/der-kampf-um-die-remigration/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T14:11:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Tara Davis-Woodhall, Olympic gold medalist: ‘Some people don’t find muscles sexy, but I couldn’t do what I do if I didn’t have this physique’",
-      "url": "https://english.elpais.com/sports/2026-11-25/tara-davis-woodhall-olympic-gold-medalist-some-people-dont-find-muscles-sexy-but-i-couldnt-do-what-i-do-if-i-didnt-have-this-physique.html",
-      "source": "El País",
-      "published": "2026-11-25T13:44:30+00:00",
+      "title": "California braces for flooding threat from huge tides, El Nino",
+      "url": "https://www.france24.com/en/video/20261125-california-braces-for-flooding-threat-from-huge-tides-el-nino",
+      "source": "France24",
+      "published": "2026-11-25T14:07:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Bocabierta Bookstore, the new epicenter of the Spanish-language literary boom in New York",
-      "url": "https://english.elpais.com/usa/2026-11-25/bocabierta-bookstore-the-new-epicenter-of-the-spanish-language-literary-boom-in-new-york.html",
-      "source": "El País",
-      "published": "2026-11-25T13:40:08+00:00",
+      "title": "Two men face court over break-in at Kate and William's estate",
+      "url": "https://www.abc.net.au/news/2026-11-26/sandringham-estate-breakin-court-appearance/107427840",
+      "source": "ABC Australia",
+      "published": "2026-11-25T14:07:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "On Her Majesty’s Service: Trump sends Natalie Harp on mission to find out more about new James Bond",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-natalie-harp-robert-pattinson-printouts-b3091450.html",
+      "source": "The Independent",
+      "published": "2026-11-25T14:06:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russian strikes kill seven in Ukraine as Kyiv hits three refineries",
+      "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+      "source": "Euronews",
+      "published": "2026-11-25T14:06:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'Historic' space mission: China launches Shenzhou 24 spacecraft carrying Pakistani astronaut",
+      "url": "https://www.france24.com/en/video/20261125-historic-space-mission-china-launches-shenzhou-24-spacecraft-carrying-pakistani-astronaut",
+      "source": "France24",
+      "published": "2026-11-25T14:06:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "More than 2 million Australians living in 'unhealthy' housing",
+      "url": "https://www.abc.net.au/news/2026-11-26/millions-australians-living-houses-linked-poor-health-mould/107425024",
+      "source": "ABC Australia",
+      "published": "2026-11-25T14:01:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -951,34 +935,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7201.09,
+      "price": 7038.46,
       "currency": "USD",
-      "change": -36.08,
-      "change_percent": -0.5,
+      "change": -162.63,
+      "change_percent": -2.26,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.0,
+      "price": 134.06,
       "currency": "GBP",
-      "change": -1.48,
-      "change_percent": -1.09,
+      "change": -1.42,
+      "change_percent": -1.05,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23733.53,
+      "price": 22949.21,
       "currency": "USD",
-      "change": -356.02,
-      "change_percent": -1.48,
+      "change": -784.33,
+      "change_percent": -3.3,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10459.77,
+      "price": 10465.6,
       "currency": "GBP",
-      "change": -7.3,
-      "change_percent": -0.07,
+      "change": -1.47,
+      "change_percent": -0.01,
       "name": "FTSE 100"
     }
   ],
@@ -986,34 +970,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7201.09,
+        "price": 7038.46,
         "currency": "USD",
-        "change": -36.08,
-        "change_percent": -0.5,
+        "change": -162.63,
+        "change_percent": -2.26,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10459.77,
+        "price": 10465.6,
         "currency": "GBP",
-        "change": -7.3,
-        "change_percent": -0.07,
+        "change": -1.47,
+        "change_percent": -0.01,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50018.7,
+        "price": 49286.72,
         "currency": "USD",
-        "change": 423.4,
-        "change_percent": 0.85,
+        "change": -731.98,
+        "change_percent": -1.46,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23733.53,
+        "price": 22949.21,
         "currency": "USD",
-        "change": -356.02,
-        "change_percent": -1.48,
+        "change": -784.33,
+        "change_percent": -3.3,
         "name": "NASDAQ Composite"
       },
       {
@@ -1026,44 +1010,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24843.18,
+        "price": 24888.45,
         "currency": "EUR",
-        "change": -174.63,
-        "change_percent": -0.7,
+        "change": -129.36,
+        "change_percent": -0.52,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8061.62,
+        "price": 8065.63,
         "currency": "EUR",
-        "change": 21.13,
-        "change_percent": 0.26,
+        "change": 25.14,
+        "change_percent": 0.31,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3506.5,
+        "price": 3506.6,
         "currency": "USD",
-        "change": -84.6,
-        "change_percent": -2.36,
+        "change": -84.5,
+        "change_percent": -2.35,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 39.73,
+        "price": 39.54,
         "currency": "USD",
-        "change": -1.53,
-        "change_percent": -3.7,
+        "change": -1.71,
+        "change_percent": -4.15,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.54,
+        "price": 89.62,
         "currency": "USD",
-        "change": 0.76,
-        "change_percent": 0.86,
+        "change": 0.84,
+        "change_percent": 0.95,
         "name": "Brent Crude"
       },
       {
@@ -1071,7 +1055,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.2,
+        "change_percent": -0.16,
         "name": "EUR/USD"
       },
       {
@@ -1079,81 +1063,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.39,
+        "change_percent": -0.41,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.35,
+        "price": 159.33,
         "currency": "JPY",
-        "change": 0.11,
-        "change_percent": 0.07,
+        "change": 0.09,
+        "change_percent": 0.05,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 57993.85,
+        "price": 58152.38,
         "currency": "USD",
-        "change": -1751.8,
-        "change_percent": -2.93,
+        "change": -1593.27,
+        "change_percent": -2.67,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 496.13,
+        "price": 486.1,
         "currency": "USD",
-        "change": 3.63,
-        "change_percent": 0.74,
+        "change": -10.03,
+        "change_percent": -2.02,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 354.07,
+        "price": 351.39,
         "currency": "USD",
-        "change": 4.99,
-        "change_percent": 1.43,
+        "change": -2.68,
+        "change_percent": -0.76,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 155.38,
+        "price": 143.01,
         "currency": "USD",
-        "change": -9.67,
-        "change_percent": -5.86,
+        "change": -12.37,
+        "change_percent": -7.96,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 279.05,
+        "price": 265.07,
         "currency": "USD",
-        "change": -3.05,
-        "change_percent": -1.08,
+        "change": -13.98,
+        "change_percent": -5.01,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 252.29,
+        "price": 242.28,
         "currency": "USD",
-        "change": -3.1,
-        "change_percent": -1.21,
+        "change": -10.01,
+        "change_percent": -3.97,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 384.68,
+        "price": 365.36,
         "currency": "USD",
-        "change": -0.78,
-        "change_percent": -0.2,
+        "change": -19.32,
+        "change_percent": -5.02,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 589.82,
+        "price": 570.81,
         "currency": "USD",
-        "change": -7.78,
-        "change_percent": -1.3,
+        "change": -19.01,
+        "change_percent": -3.22,
         "name": "Meta"
       }
     ]
@@ -1266,22 +1250,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Trump announces raft of new tariffs on major economies",
-          "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
-          "published": "2026-11-25T14:00:55+00:00",
-          "snippet": "China, the EU, Japan and South Korea to be hit by levies as US president doubles down on trade strategy"
+          "title": "Spanish defence giant Indra joins Europe’s push for ‘sovereign AI’",
+          "url": "https://www.ft.com/content/05d6c6b6-80ce-4331-9bed-5835991fba2e?syn-25a6b1a6=1",
+          "published": "2026-11-25T14:22:29+00:00",
+          "snippet": "State-backed group responds to growing angst about continent’s dependence on US technology"
         },
         {
-          "title": "Turkish leader Erdoğan’s biggest rival barred from running for president",
-          "url": "https://www.ft.com/content/88740333-b683-4f86-8dd2-65bf9d231ff9?syn-25a6b1a6=1",
-          "published": "2026-11-25T13:47:22+00:00",
-          "snippet": "Invalidation of opposition leader Ekrem İmamoğlu’s university degree comes as $20bn Fonzi scandal ensnares more senior government officials"
+          "title": "US stocks sell-off accelerates as AI trade cracks",
+          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+          "published": "2026-11-25T14:18:05+00:00",
+          "snippet": "Tech-heavy Nasdaq 100 is set to fall more than 3% as weeks-long slide continues"
         },
         {
-          "title": "NBA rallies private equity for €10bn European arena fund",
-          "url": "https://www.ft.com/content/e70a4095-2e8a-4211-aa38-1ad6a95169cb?syn-25a6b1a6=1",
-          "published": "2026-11-25T13:00:04+00:00",
-          "snippet": "Basketball league wants to help teams finance new arenas as part of its effort to launch a European competition"
+          "title": "Weil’s collapse ushers in law-firm M&A by the back door",
+          "url": "https://www.ft.com/content/7359e027-cc1c-43da-a528-d0e55c556780?syn-25a6b1a6=1",
+          "published": "2026-11-25T14:11:00+00:00",
+          "snippet": "The industry is entering a period of greater volatility, leaving lawyers to wrestle with a new, hedge fund-like culture"
         }
       ]
     },
@@ -1389,9 +1373,16 @@
   "web": {
     "tech": [
       {
+        "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+        "url": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-25T14:12:29+00:00"
+      },
+      {
         "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
         "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "score": 14,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-25T13:33:07+00:00"
       },
@@ -1414,7 +1405,7 @@
       {
         "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
         "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 122,
+        "score": 140,
         "source": "Hacker News",
         "published": "2026-11-25T11:34:25+00:00"
       },
@@ -1430,16 +1421,9 @@
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
         "comments_url": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-25T10:27:49.339000+00:00"
-      },
-      {
-        "title": "Smart People Who Give a Shit Use Tools",
-        "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
-        "score": 74,
-        "source": "Hacker News",
-        "published": "2026-11-25T07:46:43+00:00"
       },
       {
         "title": "Needles, Haystacks, and Numbers Between 0 and 1",
@@ -1453,7 +1437,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 38,
+        "score": 43,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1469,35 +1453,35 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 26,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 209,
+        "score": 225,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 142,
+        "score": 149,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 168,
+        "score": 171,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 550,
+        "score": 582,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       }

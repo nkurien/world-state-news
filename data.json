@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T11:01:10.371443+00:00",
+  "last_updated": "2026-11-25T11:30:54.596796+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 148
+      "ms": 316
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 184
+      "ms": 195
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 224
+      "ms": 142
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 82
+      "ms": 257
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 375
+      "ms": 132
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 270
+      "ms": 330
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 506
+      "ms": 149
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 253
+      "ms": 340
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3111
+      "ok": true,
+      "count": 43,
+      "error": null,
+      "ms": 160
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 182
+      "ms": 248
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 357
+      "ms": 399
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 447
+      "ms": 262
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 71
+      "ms": 226
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 478
+      "ms": 570
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 245
+      "ms": 61
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 162
+      "ms": 378
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 709
+      "ms": 557
     },
     "Semafor": {
       "ok": true,
       "count": 250,
       "error": null,
-      "ms": 384
+      "ms": 418
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 640
+      "ms": 458
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 400
+      "ms": 286
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3121
+      "ms": 3123
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 200
+      "ms": 180
     },
     "The Independent": {
       "ok": true,
       "count": 93,
       "error": null,
-      "ms": 426
+      "ms": 122
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 175
+      "ms": 176
     }
   },
   "breaking": [
@@ -169,6 +169,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "UK police charge two men over a break-in at Prince William and Princess Catherine’s country home",
+      "url": "https://www.thehindu.com/news/international/uk-police-charge-two-men-over-a-break-in-at-prince-william-and-princess-catherines-country-home/article71742079.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T11:23:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/uk-breakin-royals-charges-9.7435154?cmp=rss",
+          "title": "2 men charged in break-in at country residence of Prince William, Princess of Wales",
+          "published": "2026-11-25T10:53:46+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
+          "title": "UK police arrest two men after break-in at William and Kate's home",
+          "published": "2026-11-24T16:29:34+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
@@ -237,6 +259,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
+      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
+      "source": "Africanews",
+      "published": "2026-11-25T11:09:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+          "published": "2026-11-25T07:26:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Two Libyan soldiers die after Ukraine attack on Russian vessel",
       "url": "https://www.aljazeera.com/news/2026/11/25/two-libyan-soldiers-die-after-ukraine-attack-on-russian-vessel?traffic_source=rss",
       "source": "Al Jazeera",
@@ -253,45 +291,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T10:52:09+00:00",
+      "title": "Multiple investigations, internal unrest, and circular financing: The risks behind Jensen Huang’s return to Nvidia",
+      "url": "https://english.elpais.com/usa/2026-11-25/multiple-investigations-internal-unrest-and-circular-financing-the-risks-behind-jensen-huangs-return-to-nvidia.html",
+      "source": "El País",
+      "published": "2026-11-25T09:42:40+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
-          "title": "Huawei guilty in US of stealing trade secrets in landmark case",
-          "published": "2026-11-25T05:50:38+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
+          "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
+          "published": "2026-11-24T12:05:25+00:00"
         }
       ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Meta officials meet India’s Congress party to calm social media takedown row",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375747/meta-officials-meet-indias-congress-party-calm-social-media-takedown-row",
-      "source": "SCMP",
-      "published": "2026-11-25T08:55:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-sources-say",
-          "title": "Meta officials meet India’s opposition Congress amid protests on content curbs, sources say",
-          "published": "2026-11-25T08:48:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "2 men charged in break-in at country residence of Prince William, Princess of Wales",
-      "url": "https://www.cbc.ca/news/world/uk-breakin-royals-charges-9.7435154?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T10:53:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "consensus": 2.5
     }
   ],
   "world": [
@@ -330,17 +343,17 @@
       "consensus": 6.0
     },
     {
-      "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
-      "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
-      "source": "RNZ",
-      "published": "2026-11-25T04:27:43+00:00",
+      "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
+      "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T07:38:43+00:00",
       "score": 4,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
-          "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
-          "published": "2026-11-25T01:37:20+00:00"
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
+          "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
+          "published": "2026-11-25T04:27:43+00:00"
         },
         {
           "source": "The Independent",
@@ -390,6 +403,38 @@
       "consensus": 2.5
     },
     {
+      "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
+      "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T06:11:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
+          "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
+          "published": "2026-11-25T05:12:28+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "North Korea expels Swiss diplomat and orders Bern's new Pyongyang office to close",
+      "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close",
+      "source": "Euronews",
+      "published": "2026-11-25T04:50:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-expels-swiss-representative-over-sanctions-related-to-childrens-camp",
+          "title": "North Korea expels Swiss representative over sanctions related to children’s camp",
+          "published": "2026-11-25T03:56:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Trump awards Rudy Giuliani the Medal of Freedom",
       "url": "https://www.thehindu.com/news/international/trump-awards-rudy-giuliani-the-medal-of-freedom/article71741081.ece",
       "source": "The Hindu",
@@ -433,22 +478,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/cia-cyber-attack-dni-breach-fbi-b3090993.html",
           "title": "CIA system breached in latest cyberattack targeting US intelligence agencies",
           "published": "2026-11-24T21:57:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny show no sign of easing",
-      "url": "https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing",
-      "source": "SCMP",
-      "published": "2026-11-25T03:00:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
-          "title": "Jensen Huang’s Nvidia return shakes Washington",
-          "published": "2026-11-24T12:04:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -534,28 +563,18 @@
       "consensus": 2.5
     },
     {
-      "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
-      "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
-      "source": "Semafor",
-      "published": "2026-11-24T12:05:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-24/jensen-huangs-return-to-nvidia-in-seven-acts-from-trumps-pressure-to-family-support.html",
-          "title": "Jensen Huang’s return to Nvidia in seven acts: From Trump’s pressure to family support",
-          "published": "2026-11-24T11:11:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
       "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
       "source": "Africanews",
       "published": "2026-11-24T08:36:03+00:00",
-      "score": 2,
+      "score": 3,
       "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
+          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
+          "published": "2026-11-24T08:35:56+00:00"
+        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
@@ -566,26 +585,10 @@
       "consensus": 2.5
     },
     {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-      "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-      "source": "NPR World",
-      "published": "2026-11-23T10:16:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
-          "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
-          "published": "2026-11-23T09:39:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Eurostar services between London and Paris cancelled after staff go on surprise strike",
       "url": "https://www.independent.co.uk/travel/news-and-advice/eurostar-cancellations-london-paris-trains-strikes-b3091314.html",
       "source": "The Independent",
-      "published": "2026-11-25T10:48:25+00:00",
+      "published": "2026-11-25T11:05:12+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -593,6 +596,38 @@
           "url": "https://www.france24.com/en/europe/20261125-surprise-eurostar-strike-cancels-london-paris-and-brussels-trains",
           "title": "🔴 Surprise Eurostar strike cancels London, Paris and Brussels trains",
           "published": "2026-11-25T10:14:45+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T10:52:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/asia/china/huawei-guilty-trump-us-iran-trade-secrets-b3091109.html",
+          "title": "Huawei guilty in US of stealing trade secrets in landmark case",
+          "published": "2026-11-25T05:50:38+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Meta officials meet India’s Congress party to calm social media takedown row",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375747/meta-officials-meet-indias-congress-party-calm-social-media-takedown-row",
+      "source": "SCMP",
+      "published": "2026-11-25T08:55:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-sources-say",
+          "title": "Meta officials meet India’s opposition Congress amid protests on content curbs, sources say",
+          "published": "2026-11-25T08:48:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -678,22 +713,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Israeli strikes in Gaza kill seven including senior security official",
-      "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T16:57:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-strikes-in-gaza-kill-seven-including-senior-security-official-6578251",
-          "title": "Israeli strikes in Gaza kill seven including senior security official",
-          "published": "2026-11-24T12:29:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Police officer to stand trial for murder over shooting of French teenager Nahel",
       "url": "https://www.rfi.fr/en/france/20261124-french-officer-to-stand-trial-for-murder-over-nahel-shooting",
       "source": "RFI English",
@@ -705,6 +724,22 @@
           "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html",
           "title": "French police officer who shot teenager to stand trial for murder following appeal",
           "published": "2026-11-24T12:01:20+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
+      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-a94364",
+      "source": "The Moscow Times",
+      "published": "2026-11-24T14:47:26+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/footage-of-russian-cargo-ship-hit-by-ukrainian-drone-attack-in-the-gulf-of-finland",
+          "title": "Footage of Russian cargo ship hit by Ukrainian drone attack in the Gulf of Finland",
+          "published": "2026-11-24T08:14:43+00:00"
         }
       ],
       "consensus": 2.0
@@ -726,143 +761,162 @@
       "consensus": 2.0
     },
     {
-      "title": "Nepal hedges between ‘two Asian giants’ as ties with India thaw",
-      "url": "https://www.scmp.com/week-asia/politics/article/3375772/nepal-hedges-between-two-asian-giants-ties-india-thaw",
-      "source": "SCMP",
-      "published": "2026-11-25T11:00:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Edward Witten: ‘I don’t know what world will be like when AI understands physics’",
-      "url": "https://www.scmp.com/news/china/science/article/3375749/edward-witten-i-dont-know-what-world-will-be-when-ai-understands-physics",
-      "source": "SCMP",
-      "published": "2026-11-25T11:00:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "3 dead, 23 trapped in Indonesia after illegal gold mine floods",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375778/3-dead-23-trapped-indonesia-after-illegal-gold-mine-floods",
-      "source": "SCMP",
-      "published": "2026-11-25T10:59:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Indonesia signs ‘ambitious’ trade deal with EU but will export boom follow?",
-      "url": "https://www.scmp.com/week-asia/economics/article/3375775/indonesia-signs-ambitious-trade-deal-eu-will-export-boom-follow",
-      "source": "SCMP",
-      "published": "2026-11-25T10:54:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "EU plans 50 billion euro investment in AI, quantum computing",
-      "url": "https://www.channelnewsasia.com/world/eu-plans-50-billion-euro-investment-in-ai-quantum-computing-6581386",
-      "source": "CNA",
-      "published": "2026-11-25T10:51:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Cyberattack exposes unclassified information from CIA system, US media reports",
-      "url": "https://www.france24.com/en/americas/20261125-cyberattack-exposes-unclassified-information-from-cia-system-us-media-reports",
-      "source": "France24",
-      "published": "2026-11-25T10:48:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Israel accused of preventing births in Gaza as Amnesty seeks genocide probe",
-      "url": "https://www.rfi.fr/en/international/20261125-israel-accused-of-preventing-births-in-gaza-as-amnesty-seeks-genocide-probe",
-      "source": "RFI English",
-      "published": "2026-11-25T10:45:26+00:00",
+      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
+      "url": "http://www.africanews.com/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges/",
+      "source": "Africanews",
+      "published": "2026-11-24T15:55:06+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261125-amnesty-calls-for-icc-genocide-probe-over-israel-s-impact-on-births-in-gaza",
-          "title": "Amnesty calls for ICC genocide probe over Israel's impact on births in Gaza",
-          "published": "2026-11-25T04:01:48+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
+          "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
+          "published": "2026-11-24T15:54:58+00:00"
         }
       ],
-      "consensus": 1.0
+      "consensus": 1.5
     },
     {
-      "title": "Video shows harrowing moments in lead-up to electric motorbike death",
-      "url": "https://www.abc.net.au/news/2026-11-25/edgewater-electric-motorbike-death-trial-police-aerial-vision/107427646",
-      "source": "ABC Australia",
-      "published": "2026-11-25T10:44:47+00:00",
+      "title": "Nvidia staff cheer Jensen Huang's return as CEO after spy scandal",
+      "url": "http://www.africanews.com/2026/11/24/nvidia-staff-cheer-jensen-huangs-return-as-ceo-after-spy-scandal/",
+      "source": "Africanews",
+      "published": "2026-11-24T14:14:10+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo",
+          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
+          "published": "2026-11-24T09:17:33+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "France: Chefs compete for the world egg mayonnaise championship",
+      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
+      "source": "Africanews",
+      "published": "2026-11-24T14:12:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
+          "title": "France: Chefs compete for the world egg mayonnaise championship",
+          "published": "2026-11-24T14:11:57+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
+      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
+      "source": "Africanews",
+      "published": "2026-11-24T09:19:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire",
+          "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
+          "published": "2026-11-24T09:19:44+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
+      "source": "Africanews",
+      "published": "2026-11-24T07:22:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
+          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+          "published": "2026-11-24T07:22:44+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T11:29:40+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "French justice minister opens probe into prosecutor seen at far-right HQ",
-      "url": "https://www.politico.eu/article/france-justice-minister-gerald-darmanin-probe-prosecutor-christian-de-rocquigny-national-rally/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-25T10:36:26+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Fact check: Deepfakes and 'US abandons Taiwan' claims spread ahead of vote",
-      "url": "https://www.dw.com/en/fact-check-deepfakes-and-us-abandons-taiwan-claims-spread-ahead-of-vote/a-80004834?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-25T10:35:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Democratic test looms on US-Israel policy",
-      "url": "https://www.semafor.com/article/11/25/2026/democratic-test-looms-on-us-israel-policy",
+      "title": "Africa's clothing industry opportunity is bigger than AGOA",
+      "url": "https://www.semafor.com/article/11/25/2026/africas-clothing-industry-opportunity-is-bigger-than-agoa",
       "source": "Semafor",
-      "published": "2026-11-25T10:33:56+00:00",
+      "published": "2026-11-25T11:27:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Police confirm no sign of kitesurfer missing off WA's north west coast",
-      "url": "https://www.abc.net.au/news/2026-11-25/search-for-missing-kitesurfer-near-coral-bay-to-resume-thursday/107425278",
-      "source": "ABC Australia",
-      "published": "2026-11-25T10:33:09+00:00",
+      "title": "Falklands, outbreak of avian influenza among Gentoo Penguins",
+      "url": "https://en.mercopress.com/2026/11/25/falklands-outbreak-of-avian-influenza-among-gentoo-penguins?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-25T11:22:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Indigenous groups alarmed as NT flags fresh child protection overhaul",
-      "url": "https://www.abc.net.au/news/2026-11-25/indigenous-advocates-concerned-about-child-protection-overhaul/107424898",
-      "source": "ABC Australia",
-      "published": "2026-11-25T10:29:09+00:00",
+      "title": "Falklands, growing interest in adjacent areas to Navitas Sea Lion",
+      "url": "https://en.mercopress.com/2026/11/25/falklands-growing-interest-in-adjacent-areas-to-navitas-sea-lion?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-25T11:21:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Could Netanyahu take Israel into another war with Iran to cling to power?",
-      "url": "https://www.aljazeera.com/news/2026/11/25/could-netanyahu-take-israel-into-another-war-with-iran-to-cling-to-power?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T10:27:53+00:00",
+      "title": "Argentina interested in purchasing three Italian made built light frigates",
+      "url": "https://en.mercopress.com/2026/11/25/argentina-interested-in-purchasing-three-italian-made-built-light-frigates?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-25T11:19:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Fewer Americans will be serving turkey this Thanksgiving. Here’s why",
-      "url": "https://www.independent.co.uk/life-style/food-and-drink/thanksgiving-turkey-dinner-food-price-chicken-b3091281.html",
-      "source": "The Independent",
-      "published": "2026-11-25T10:25:18+00:00",
+      "title": "Thailand, Myanmar agree to monitor border rivers amid pollution fears",
+      "url": "https://www.straitstimes.com/asia/se-asia/thailand-myanmar-agree-to-monitor-border-rivers-amid-pollution-fears",
+      "source": "Straits Times",
+      "published": "2026-11-25T11:17:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "British heritage in Chile, 1858 Catedral de San Pablo, refurbished in city-port Valparaiso",
+      "url": "https://en.mercopress.com/2026/11/25/british-heritage-in-chile-1858-catedral-de-san-pablo-refurbished-in-city-port-valparaiso?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-25T11:17:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Violence against women: Its many forms and the paths to justice",
+      "url": "https://www.france24.com/en/tv-shows/press-review/20261125-violence-against-women-its-many-forms-and-the-paths-to-justice",
+      "source": "France24",
+      "published": "2026-11-25T11:16:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Falklands commissions independent review (and survey) of the Tax system",
+      "url": "https://en.mercopress.com/2026/11/25/falklands-commissions-independent-review-and-survey-of-the-tax-system?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-25T11:15:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -879,10 +933,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.9,
+      "price": 134.7,
       "currency": "GBP",
-      "change": -0.58,
-      "change_percent": -0.43,
+      "change": -0.78,
+      "change_percent": -0.58,
       "name": "FTSE All-World ETF"
     },
     {
@@ -895,10 +949,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10518.87,
+      "price": 10499.78,
       "currency": "GBP",
-      "change": 51.8,
-      "change_percent": 0.49,
+      "change": 32.71,
+      "change_percent": 0.31,
       "name": "FTSE 100"
     }
   ],
@@ -914,10 +968,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10518.87,
+        "price": 10499.78,
         "currency": "GBP",
-        "change": 51.8,
-        "change_percent": 0.49,
+        "change": 32.71,
+        "change_percent": 0.31,
         "name": "FTSE 100"
       },
       {
@@ -946,44 +1000,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25056.3,
+        "price": 25033.92,
         "currency": "EUR",
-        "change": 38.49,
-        "change_percent": 0.15,
+        "change": 16.11,
+        "change_percent": 0.06,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8120.85,
+        "price": 8112.55,
         "currency": "EUR",
-        "change": 80.36,
-        "change_percent": 1.0,
+        "change": 72.06,
+        "change_percent": 0.9,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3558.3,
+        "price": 3554.7,
         "currency": "USD",
-        "change": -32.8,
-        "change_percent": -0.91,
+        "change": -36.4,
+        "change_percent": -1.01,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.52,
+        "price": 40.55,
         "currency": "USD",
-        "change": -0.74,
-        "change_percent": -1.79,
+        "change": -0.7,
+        "change_percent": -1.7,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.82,
+        "price": 88.09,
         "currency": "USD",
-        "change": -0.96,
-        "change_percent": -1.08,
+        "change": -0.69,
+        "change_percent": -0.78,
         "name": "Brent Crude"
       },
       {
@@ -998,24 +1052,24 @@
         "symbol": "GBPUSD=X",
         "price": 1.31,
         "currency": "USD",
-        "change": 0.0,
-        "change_percent": -0.35,
+        "change": -0.01,
+        "change_percent": -0.4,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.38,
+        "price": 159.34,
         "currency": "JPY",
-        "change": 0.14,
-        "change_percent": 0.09,
+        "change": 0.1,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58815.07,
+        "price": 58473.12,
         "currency": "USD",
-        "change": -930.58,
-        "change_percent": -1.56,
+        "change": -1272.53,
+        "change_percent": -2.13,
         "name": "Bitcoin"
       }
     ],
@@ -1085,6 +1139,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Begun, the Medicare for All war has",
+          "url": "https://www.politico.com/newsletters/playbook/2026/11/25/begun-the-medicare-for-all-war-has-01182913",
+          "published": "2026-11-25T11:03:48+00:00",
+          "snippet": ""
+        },
+        {
           "title": "Warren puts Nvidia, and Jensen, on notice",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/24/warren-puts-nvidia-and-jensen-on-notice-01181500",
           "published": "2026-11-24T11:02:38+00:00",
@@ -1094,12 +1154,6 @@
           "title": "Newsom’s ‘show not tell’ strategy",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/23/newsoms-show-not-tell-strategy-01180263",
           "published": "2026-11-23T11:05:20+00:00",
-          "snippet": ""
-        },
-        {
-          "title": "Schumer’s 2028 decision",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/22/chuck-schumers-best-exit-is-on-his-own-terms-01179678",
-          "published": "2026-11-22T15:54:03+00:00",
           "snippet": ""
         }
       ]
@@ -1186,22 +1240,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Heathrow seeks to pass on £300mn third runway planning costs to passengers",
+          "url": "https://www.ft.com/content/800abc68-933a-40f5-be6a-3e2f4a55ff88?syn-25a6b1a6=1",
+          "published": "2026-11-25T11:24:03+00:00",
+          "snippet": "Airport wants permission from regulator to claw back money through higher traveller charges"
+        },
+        {
+          "title": "Shein to pay $100mn to resolve US allegations it deceived customers",
+          "url": "https://www.ft.com/content/0128d44e-8ca1-49b8-868b-b8fe0e4824c6?syn-25a6b1a6=1",
+          "published": "2026-11-25T11:18:59+00:00",
+          "snippet": "Regulators claim retailer made misleading claims on origin of its cotton fabrics and suppressed negative reviews"
+        },
+        {
           "title": "Tech stocks slide as confidence in AI trade fades",
           "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
           "published": "2026-11-25T11:00:47+00:00",
           "snippet": "Nasdaq 100 set to open lower as weeks-long sell-off continues"
-        },
-        {
-          "title": "An $87bn debt gamble tests the limits of the Ellison family fortune",
-          "url": "https://www.ft.com/content/f269760e-e9e4-4bf9-b88b-a5daaa5b5b52?syn-25a6b1a6=1",
-          "published": "2026-11-25T11:00:04+00:00",
-          "snippet": "The tech billionaire dynasty’s Hollywood ambitions have rattled credit markets and set the stage for thousands of lay-offs"
-        },
-        {
-          "title": "FirstFT: Trump shelves plans for deals with Russia",
-          "url": "https://www.ft.com/content/6f89d7f9-563e-4c80-b071-e1bfeecbba7b?syn-25a6b1a6=1",
-          "published": "2026-11-25T10:50:07+00:00",
-          "snippet": "Also in today’s newsletter: Jensen Huang’s return, and the Iranian group behind Europe’s freezer hacks"
         }
       ]
     },
@@ -1317,6 +1371,13 @@
         "published": "2026-11-25T10:52:53.581000+00:00"
       },
       {
+        "title": "The Riemann Hypothesis Proof as a Mediaeval Fantasy RPG Map",
+        "url": "https://marioschlosser.org/riemann/",
+        "score": 11,
+        "source": "Hacker News",
+        "published": "2026-11-25T10:32:04+00:00"
+      },
+      {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
         "comments_url": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
@@ -1336,7 +1397,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 20,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1352,21 +1413,21 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 18,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 141,
+        "score": 156,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 94,
+        "score": 106,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
@@ -1381,14 +1442,14 @@
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 129,
+        "score": 133,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 407,
+        "score": 431,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1403,23 +1464,16 @@
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 219,
+        "score": 228,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       },
       {
         "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
         "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-        "score": 249,
+        "score": 258,
         "source": "Hacker News",
         "published": "2026-11-25T02:34:21+00:00"
-      },
-      {
-        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "score": 669,
-        "source": "Hacker News",
-        "published": "2026-11-25T01:19:26+00:00"
       }
     ],
     "reddit": [

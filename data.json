@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T09:31:10.909359+00:00",
+  "last_updated": "2026-11-25T10:01:04.871955+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 115
+      "ms": 621
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 255
+      "ms": 533
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 121
+      "ms": 285
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 107
+      "ms": 141
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 183
+      "ms": 145
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 115
+      "ms": 265
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 114
+      "ms": 47
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 397
+      "ms": 672
     },
     "Euronews": {
-      "ok": true,
-      "count": 44,
-      "error": null,
-      "ms": 51
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3102
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 423
+      "ms": 169
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 376
+      "ms": 381
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 225
+      "ms": 334
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 112
+      "ms": 119
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 4039
+      "ms": 308
     },
     "RFI English": {
       "ok": true,
-      "count": 22,
+      "count": 21,
       "error": null,
-      "ms": 78
+      "ms": 92
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 277
+      "ms": 633
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 449
+      "ms": 806
     },
     "Semafor": {
       "ok": true,
       "count": 247,
       "error": null,
-      "ms": 434
+      "ms": 856
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 552
+      "ms": 704
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 260
+      "ms": 521
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3092
+      "ms": 3059
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 203
+      "ms": 331
     },
     "The Independent": {
       "ok": true,
-      "count": 88,
+      "count": 90,
       "error": null,
-      "ms": 171
+      "ms": 294
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 160
+      "ms": 341
     }
   },
   "breaking": [
@@ -171,6 +171,44 @@
       "consensus": 4.0
     },
     {
+      "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
+      "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
+      "source": "NPR World",
+      "published": "2026-11-25T09:44:13+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/china-investigates-politburo-member-amid-anti-corruption-purge",
+          "title": "China investigates Politburo member as corruption purge deepens",
+          "published": "2026-11-24T22:23:03+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/china-probes-shanghai-party-boss-politburos-chen-jining",
+          "title": "China probes Shanghai party boss Chen Jining, marking fourth Politburo member to fall since 2025",
+          "published": "2026-11-24T12:57:39+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
+      "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
+      "source": "The Independent",
+      "published": "2026-11-25T09:41:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-25/bodies-found-after-mississippi-plane-crash/107426938",
+          "title": "Six dead after small plane crashes off Mississippi coast",
+          "published": "2026-11-25T06:47:45+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Malaysia sues Google for $220m over harmful content",
       "url": "https://www.abc.net.au/news/2026-11-25/malaysia-sues-google-for-220-million-over-youtube-content/107427468",
       "source": "ABC Australia",
@@ -182,22 +220,6 @@
           "url": "https://www.scmp.com/week-asia/politics/article/3375742/malaysian-regulator-sues-google-us146m-over-harmful-online-content",
           "title": "Malaysian regulator sues Google for US$146m over ‘harmful’ online content",
           "published": "2026-11-25T08:32:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
-      "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T06:58:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece",
-          "title": "Bangladesh garment workers win 36% wage rise",
-          "published": "2026-11-25T04:17:43+00:00"
         }
       ],
       "consensus": 2.5
@@ -219,10 +241,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Everything you need to know about the U.S. Army’s 5-ton lead azide explosion in Iowa today",
-      "url": "https://www.independent.co.uk/news/world/americas/us-army-iowa-lead-azide-b3091231.html",
+      "title": "Women around the world call on UK to protect mothers and babies from deadly infections during childbirth",
+      "url": "https://www.independent.co.uk/news/health/women-deaths-birth-baby-water-aid-uk-b3090875.html",
       "source": "The Independent",
-      "published": "2026-11-25T09:18:57+00:00",
+      "published": "2026-11-25T09:56:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Chinese manufacturers are making bigger bets on Africa",
+      "url": "https://www.semafor.com/article/11/23/2026/chinese-manufacturers-are-making-bigger-bets-on-africa",
+      "source": "Semafor",
+      "published": "2026-11-25T09:43:43+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -231,25 +262,7 @@
       "title": "Africa's clothing industry opportunity is bigger than AGOA",
       "url": "https://www.semafor.com/article/11/25/2026/africas-clothing-industry-opportunity-is-bigger-than-agoa",
       "source": "Semafor",
-      "published": "2026-11-25T09:17:42+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "‘Made history’: Pakistan cheers as astronaut flies pioneering mission on Chinese space station",
-      "url": "https://www.straitstimes.com/asia/south-asia/made-history-pakistan-cheers-as-astronaut-flies-pioneering-mission-on-chinese-space-station",
-      "source": "Straits Times",
-      "published": "2026-11-25T09:15:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US tells citizens to leave Iran, warns hostilities could escalate fast",
-      "url": "https://www.euronews.com/2026/11/25/us-tells-citizens-to-leave-iran-warns-hostilities-could-escalate-fast",
-      "source": "Euronews",
-      "published": "2026-11-25T09:13:03+00:00",
+      "published": "2026-11-25T09:41:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -397,29 +410,23 @@
       "consensus": 3.5
     },
     {
-      "title": "Iran carries out flogging of singer and her team, Iranian website says",
-      "url": "https://www.thehindu.com/news/international/iran-carries-out-flogging-of-singer-and-her-team-iranian-website-says/article71737731.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T10:31:43+00:00",
-      "score": 3,
+      "title": "Bangladesh garment workers win 36% pay rise after weeks of protest",
+      "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T06:58:02+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
-          "title": "Iran carries out flogging of singer who performed without hijab",
-          "published": "2026-11-23T18:29:34+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
-          "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-          "published": "2026-11-23T18:04:20+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece",
+          "title": "Bangladesh garment workers win 36% wage rise",
+          "published": "2026-11-25T04:17:43+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
-      "title": "2025 AFCON: CAS gives title to Senegal as Morocco vows to challenge verdict",
+      "title": "AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict",
       "url": "https://www.france24.com/en/tv-shows/sports/20261125-2025-afcon-cas-gives-title-to-senegal-as-morocco-vows-to-challenge-verdict",
       "source": "France24",
       "published": "2026-11-25T06:20:48+00:00",
@@ -430,38 +437,6 @@
           "url": "http://www.africanews.com/2026/11/23/cas-to-publish-verdict-on-senegal-afcon-title-appeal-on-tuesday/",
           "title": "CAS to publish verdict on Senegal AFCON title appeal on Tuesday",
           "published": "2026-11-23T14:25:55+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
-      "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T06:11:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
-          "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
-          "published": "2026-11-25T05:12:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "North Korea expels Swiss diplomat and orders Bern's new Pyongyang office to close",
-      "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close",
-      "source": "Euronews",
-      "published": "2026-11-25T04:50:43+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-expels-swiss-representative-over-sanctions-related-to-childrens-camp",
-          "title": "North Korea expels Swiss representative over sanctions related to children’s camp",
-          "published": "2026-11-25T03:56:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -547,22 +522,6 @@
       "consensus": 2.5
     },
     {
-      "title": "China investigates Politburo member as corruption purge deepens",
-      "url": "https://www.semafor.com/article/11/24/2026/china-investigates-politburo-member-amid-anti-corruption-purge",
-      "source": "Semafor",
-      "published": "2026-11-24T22:23:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-investigates-politburo-member-chen-jining-state-media-reports",
-          "title": "China investigates Politburo member Chen Jining, state media reports",
-          "published": "2026-11-24T12:26:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
       "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive",
       "source": "France24",
@@ -590,6 +549,38 @@
           "url": "http://www.africanews.com/2026/11/24/senegal-reinstated-as-afcon-winners-after-cas-rules-against-morocco/",
           "title": "Senegal reinstated as AFCON winners after CAS rules against Morocco",
           "published": "2026-11-24T15:22:52+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Iran rules out talks with U.S. until its seven conditions are met",
+      "url": "https://www.thehindu.com/news/international/iran-rules-out-talks-with-us-until-its-seven-conditions-are-met/article71739875.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T17:36:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/iran-gaza-palestinians-strait-of-hormuz-israeli-b3090524.html",
+          "title": "Iran insists no talks with the US until its 7 conditions are met, and other Mideast news",
+          "published": "2026-11-24T10:34:19+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Hasina to return to Bangladesh on December 16, says Awami League",
+      "url": "https://www.thehindu.com/news/international/former-bangladesh-pm-sheikh-hasina-return-to-bangladesh/article71737182.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T16:43:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
+          "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
+          "published": "2026-11-24T06:23:01+00:00"
         }
       ],
       "consensus": 2.5
@@ -663,14 +654,8 @@
       "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
       "source": "Africanews",
       "published": "2026-11-24T08:36:03+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
-          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
-          "published": "2026-11-24T08:35:56+00:00"
-        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
@@ -793,22 +778,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
-      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-of-finland-a94364",
-      "source": "The Moscow Times",
-      "published": "2026-11-24T14:47:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/footage-of-russian-cargo-ship-hit-by-ukrainian-drone-attack-in-the-gulf-of-finland",
-          "title": "Footage of Russian cargo ship hit by Ukrainian drone attack in the Gulf of Finland",
-          "published": "2026-11-24T08:14:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Grand Theft Auto VI lets you buy flowers for your girlfriend. Some streamers say it's too woke",
       "url": "https://www.cbc.ca/news/entertainment/grand-theft-auto-vi-lets-you-buy-flowers-for-your-girlfriend-some-streamers-say-it-s-too-woke-9.7432445?cmp=rss",
       "source": "CBC World",
@@ -825,84 +794,85 @@
       "consensus": 2.0
     },
     {
-      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-      "url": "http://www.africanews.com/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges/",
-      "source": "Africanews",
-      "published": "2026-11-24T15:55:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
-          "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-          "published": "2026-11-24T15:54:58+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Chinese girl leads Apec summit dance troupe after 2024 street clip amasses 10 billion views",
+      "url": "https://www.scmp.com/news/people-culture/china-personalities/article/3375694/chinese-girl-leads-apec-summit-dance-troupe-after-2024-street-clip-amasses-10-billion-views",
+      "source": "SCMP",
+      "published": "2026-11-25T10:00:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Nvidia staff cheer Jensen Huang's return as CEO after spy scandal",
-      "url": "http://www.africanews.com/2026/11/24/nvidia-staff-cheer-jensen-huangs-return-as-ceo-after-spy-scandal/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:14:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo",
-          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
-          "published": "2026-11-24T09:17:33+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Marjorie Taylor Greene lambasts Trump and Hegseth over ‘dirty bomb in Iowa’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/iowa-dirty-bomb-marjorie-taylor-greene-b3091214.html",
+      "source": "The Independent",
+      "published": "2026-11-25T09:45:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "France: Chefs compete for the world egg mayonnaise championship",
-      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:12:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
-          "title": "France: Chefs compete for the world egg mayonnaise championship",
-          "published": "2026-11-24T14:11:57+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Trump heaps praise on ‘smart guy’ El-Sayed weeks after calling him ‘a Jihadist lunatic’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-abdul-el-sayed-medicare-healthcare-b3091220.html",
+      "source": "The Independent",
+      "published": "2026-11-25T09:41:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
-      "source": "Africanews",
-      "published": "2026-11-24T09:19:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire",
-          "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-          "published": "2026-11-24T09:19:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "One Killed in Samara Region as Ukraine Strikes Oil Refinery",
+      "url": "https://www.themoscowtimes.com/2026/11/25/one-killed-in-samara-region-as-ukraine-strikes-oil-refinery-a94368",
+      "source": "The Moscow Times",
+      "published": "2026-11-25T09:34:17+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
-      "source": "Africanews",
-      "published": "2026-11-24T07:22:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
-          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
-          "published": "2026-11-24T07:22:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "US-China trade war stuck in limbo as Trump nears new tariffs",
+      "url": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs",
+      "source": "SCMP",
+      "published": "2026-11-25T09:33:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "PSG coach Luis Enrique urges squad to show resilience as Roma clash looms",
+      "url": "https://www.rfi.fr/en/sports/20261125-psg-coach-luis-enrique-urges-squad-to-show-resilience-as-roma-clash-looms",
+      "source": "RFI English",
+      "published": "2026-11-25T09:33:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kommission will 50-Milliarden-Euro-Fonds zur Förderung europäischer Schlüsseltechnologie aufsetzen",
+      "url": "https://www.politico.eu/article/kommission-will-50-milliarden-euro-fonds-zur-foerderung-europaeischer-schluesseltechnologie-aufsetzen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T09:32:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "We reveal the problem with the 10-year plan",
+      "url": "https://www.politico.eu/podcast/politics-at-sam-and-annes/we-reveal-the-problem-with-the-10-year-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T09:32:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "One dead as police storm Colombian supermarket after armed men hold 30 people hostage",
+      "url": "https://www.independent.co.uk/news/world/americas/columbia-hostage-cartagena-supermarket-exito-b3091232.html",
+      "source": "The Independent",
+      "published": "2026-11-25T09:29:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "US warns Kim Ju-ae’s luxury ski gear may breach UN sanctions on North Korea",
@@ -914,28 +884,10 @@
       "consensus": 1.0
     },
     {
-      "title": "EU’s quantum sovereignty push shuts out China but welcomes US firms",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375733/eus-quantum-sovereignty-push-shuts-out-china-welcomes-us-firms",
-      "source": "SCMP",
-      "published": "2026-11-25T09:03:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Watch: 'Beaver Supermoon' lights up skies around the world",
-      "url": "https://www.euronews.com/video/2026/11/25/watch-beaver-supermoon-lights-up-skies-around-the-world",
-      "source": "Euronews",
-      "published": "2026-11-25T09:02:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China warns US against imposing new tariffs",
-      "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-      "source": "Straits Times",
-      "published": "2026-11-25T09:02:00+00:00",
+      "title": "The house that fell on its head: Crazy sculptures trick the eye in Marrakesh",
+      "url": "http://www.africanews.com/2026/11/25/the-house-that-fell-on-its-head-crazy-sculptures-trick-the-eye-in-marrakesh/",
+      "source": "Africanews",
+      "published": "2026-11-25T09:19:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -952,10 +904,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 135.22,
+      "price": 134.82,
       "currency": "GBP",
-      "change": -0.26,
-      "change_percent": -0.19,
+      "change": -0.66,
+      "change_percent": -0.49,
       "name": "FTSE All-World ETF"
     },
     {
@@ -968,10 +920,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10515.97,
+      "price": 10498.08,
       "currency": "GBP",
-      "change": 48.9,
-      "change_percent": 0.47,
+      "change": 31.01,
+      "change_percent": 0.3,
       "name": "FTSE 100"
     }
   ],
@@ -987,10 +939,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10515.97,
+        "price": 10498.08,
         "currency": "GBP",
-        "change": 48.9,
-        "change_percent": 0.47,
+        "change": 31.01,
+        "change_percent": 0.3,
         "name": "FTSE 100"
       },
       {
@@ -1019,44 +971,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25056.85,
+        "price": 24971.19,
         "currency": "EUR",
-        "change": 39.04,
-        "change_percent": 0.16,
+        "change": -46.62,
+        "change_percent": -0.19,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8122.63,
+        "price": 8104.88,
         "currency": "EUR",
-        "change": 82.14,
-        "change_percent": 1.02,
+        "change": 64.39,
+        "change_percent": 0.8,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3556.4,
+        "price": 3555.1,
         "currency": "USD",
-        "change": -34.7,
-        "change_percent": -0.97,
+        "change": -36.0,
+        "change_percent": -1.0,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.55,
+        "price": 40.45,
         "currency": "USD",
-        "change": -0.71,
-        "change_percent": -1.71,
+        "change": -0.8,
+        "change_percent": -1.94,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 88.09,
+        "price": 88.37,
         "currency": "USD",
-        "change": -0.69,
-        "change_percent": -0.78,
+        "change": -0.41,
+        "change_percent": -0.46,
         "name": "Brent Crude"
       },
       {
@@ -1064,7 +1016,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.27,
+        "change_percent": -0.23,
         "name": "EUR/USD"
       },
       {
@@ -1072,23 +1024,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": -0.01,
-        "change_percent": -0.38,
+        "change_percent": -0.45,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.35,
+        "price": 159.43,
         "currency": "JPY",
-        "change": 0.1,
-        "change_percent": 0.07,
+        "change": 0.18,
+        "change_percent": 0.12,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58860.94,
+        "price": 58960.08,
         "currency": "USD",
-        "change": -884.71,
-        "change_percent": -1.48,
+        "change": -785.57,
+        "change_percent": -1.31,
         "name": "Bitcoin"
       }
     ],
@@ -1284,6 +1236,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "What Is Chris Van Hollen Doing?",
+          "url": "https://www.theatlantic.com/politics/2026/11/van-hollen-schumer-democrats-senate-leader/689553/?utm_source=feed",
+          "published": "2026-11-25T10:00:00+00:00",
+          "snippet": "Americans are clamoring for change. Is the Democratic caucus?"
+        },
+        {
           "title": "Jensen Huang Isn’t Worried. But You Should Be.",
           "url": "https://www.theatlantic.com/ideas/2026/11/nvidia-stock-market-crisis/689557/?utm_source=feed",
           "published": "2026-11-24T22:24:33+00:00",
@@ -1294,12 +1252,6 @@
           "url": "https://www.theatlantic.com/newsletters/2026/11/a-better-philosophy-of-gift-giving/689573/?utm_source=feed",
           "published": "2026-11-24T21:10:00+00:00",
           "snippet": "A better philosophy of gift-giving can make the holidays more meaningful."
-        },
-        {
-          "title": "The Agents Howard Lutnick Pulled off Their Jobs",
-          "url": "https://www.theatlantic.com/national-security/2026/11/lutnick-export-control-personal-detail/689562/?utm_source=feed",
-          "published": "2026-11-24T20:57:17+00:00",
-          "snippet": "The commerce secretary reassigned them from safeguarding U.S. computer chips to working on his own security detail."
         }
       ]
     },
@@ -1382,10 +1334,17 @@
   "web": {
     "tech": [
       {
+        "title": "Why Automated Proof-Solving Is the Same Old Dead End",
+        "url": "https://arxiv.org/abs/2611.31286",
+        "score": 19,
+        "source": "Hacker News",
+        "published": "2026-11-25T08:23:34+00:00"
+      },
+      {
         "title": "Needles, Haystacks, and Numbers Between 0 and 1",
         "url": "https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/",
         "comments_url": "https://lobste.rs/s/5gefep/needles_haystacks_numbers_between_0_1",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-25T07:03:53.327000+00:00"
       },
@@ -1409,21 +1368,21 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 111,
+        "score": 119,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 77,
+        "score": 81,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
@@ -1438,14 +1397,14 @@
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 103,
+        "score": 113,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 353,
+        "score": 371,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1460,35 +1419,28 @@
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 171,
+        "score": 183,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       },
       {
-        "title": "Top open problems in mathematics ranked by LLM-assessed importance",
-        "url": "https://www.proofatlas.ai/open-problems/",
-        "score": 50,
-        "source": "Hacker News",
-        "published": "2026-11-25T03:01:36+00:00"
-      },
-      {
         "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
         "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-        "score": 219,
+        "score": 230,
         "source": "Hacker News",
         "published": "2026-11-25T02:34:21+00:00"
       },
       {
         "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "score": 608,
+        "score": 629,
         "source": "Hacker News",
         "published": "2026-11-25T01:19:26+00:00"
       },
       {
         "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
         "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-        "score": 243,
+        "score": 249,
         "source": "Hacker News",
         "published": "2026-11-25T00:54:49+00:00"
       }

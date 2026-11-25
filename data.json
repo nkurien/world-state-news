@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T13:30:53.728151+00:00",
+  "last_updated": "2026-11-25T14:01:07.402371+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 302
+      "ms": 443
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 241
+      "ms": 197
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 235
+      "ms": 178
     },
     "BBC News": {
       "ok": true,
       "count": 29,
       "error": null,
-      "ms": 86
+      "ms": 296
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 337
+      "ms": 155
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 182
+      "ms": 397
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 1097
+      "ms": 492
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 356
+      "ms": 297
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 59
+      "ms": 172
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 102
+      "ms": 193
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 488
+      "ms": 740
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 208
+      "ms": 246
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 338
+      "ms": 165
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 522
+      "ms": 167
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 337
+      "ms": 130
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 335
+      "ms": 167
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 661
+      "ms": 599
     },
     "Semafor": {
       "ok": true,
-      "count": 264,
+      "count": 267,
       "error": null,
-      "ms": 500
+      "ms": 435
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 551
+      "ms": 633
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 301
+      "ms": 345
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3123
+      "ms": 3300
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 161
+      "ms": 186
     },
     "The Independent": {
       "ok": true,
-      "count": 95,
+      "count": 97,
       "error": null,
-      "ms": 166
+      "ms": 219
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 166
+      "ms": 188
     }
   },
   "breaking": [
@@ -172,9 +172,9 @@
     },
     {
       "title": "Israeli strike kills Hamas official, his wife and children",
-      "url": "https://www.channelnewsasia.com/asia/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
+      "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
       "source": "CNA",
-      "published": "2026-11-25T13:27:26+00:00",
+      "published": "2026-11-25T13:27:00+00:00",
       "score": 3,
       "other_sources": [
         {
@@ -259,22 +259,6 @@
       "consensus": 3.5
     },
     {
-      "title": "China pushes back against US plans for new tariffs",
-      "url": "http://www.africanews.com/2026/11/25/china-pushes-back-against-us-plans-for-new-tariffs/",
-      "source": "Africanews",
-      "published": "2026-11-25T13:15:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-          "title": "China warns US against imposing new tariffs",
-          "published": "2026-11-25T09:02:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Solomon Islands signs security deal with Australia",
       "url": "https://www.aljazeera.com/news/2026/11/25/solomon-islands-signs-security-deal-with-australia?traffic_source=rss",
       "source": "Al Jazeera",
@@ -291,17 +275,33 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
+      "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
       "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
       "source": "CNA",
-      "published": "2026-11-25T11:34:49+00:00",
+      "published": "2026-11-25T11:34:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/trump-to-double-down-on-tariffs-after-midterms-defeat",
-          "title": "Trump to double down on tariffs after midterms defeat",
-          "published": "2026-11-24T20:44:58+00:00"
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tariffs-china-eu-trade-b3091177.html",
+          "title": "Trump readies fresh wave of tariffs on China, the European Union and 14 other trading partners",
+          "published": "2026-11-25T10:06:23+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
+      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
+      "source": "Africanews",
+      "published": "2026-11-25T11:09:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+          "published": "2026-11-25T07:26:54+00:00"
         }
       ],
       "consensus": 2.5
@@ -431,17 +431,17 @@
       "consensus": 3.5
     },
     {
-      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
-      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
-      "source": "Africanews",
-      "published": "2026-11-25T11:09:56+00:00",
+      "title": "US proposes sweeping new tariffs on China, others",
+      "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+      "source": "Semafor",
+      "published": "2026-11-25T13:48:58+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
-          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
-          "published": "2026-11-25T07:26:54+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+          "title": "China warns US against imposing new tariffs",
+          "published": "2026-11-25T09:02:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -869,73 +869,80 @@
       "consensus": 1.5
     },
     {
-      "title": "Patent expiration cliffs spur drugmaker M&A",
-      "url": "https://www.semafor.com/article/11/25/2026/patent-expiration-cliffs-spur-drugmaker-ma",
-      "source": "Semafor",
-      "published": "2026-11-25T13:29:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
+      "source": "Africanews",
+      "published": "2026-11-24T07:22:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
+          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+          "published": "2026-11-24T07:22:44+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "China calls on Netherlands to help safeguard industrial and supply chains",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375796/china-calls-netherlands-help-safeguard-industrial-and-supply-chains",
+      "title": "China embeds ‘loyal wingman’ drone simulations in fighter pilot training",
+      "url": "https://www.scmp.com/news/china/military/article/3375766/china-embeds-loyal-wingman-drone-simulations-fighter-pilot-training",
       "source": "SCMP",
-      "published": "2026-11-25T13:27:50+00:00",
+      "published": "2026-11-25T14:00:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Anthropic stock tumble shows IPO gamesmanship",
-      "url": "https://www.semafor.com/article/11/25/2026/anthropic-stock-tumble-shows-ipo-gamesmanship",
-      "source": "Semafor",
-      "published": "2026-11-25T13:27:03+00:00",
+      "title": "Hong Kong government holds firm on proposed 3-year certification renewal for teachers",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3375798/hong-kong-government-holds-firm-proposed-3-year-certification-renewal-teachers",
+      "source": "SCMP",
+      "published": "2026-11-25T13:54:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "South Africa baobab trees replanted after smuggling attempt",
-      "url": "https://www.semafor.com/article/11/25/2026/five-baobab-trees-replanted-in-a-south-african-nature-reserve-after-attempted-illegal-export",
-      "source": "Semafor",
-      "published": "2026-11-25T13:26:59+00:00",
+      "title": "Syrian teams clear landmines after deadly explosion",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/syrian-teams-clear-landmines-after-deadly-explosion?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T13:51:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Flight from Abu Dhabi to Tel Aviv turned back after two failed attempts to reach Israel amid Iran strikes",
-      "url": "https://www.independent.co.uk/news/world/middle-east/tel-aviv-abu-dhabi-iran-saudi-arabia-flight-b3091388.html",
+      "title": "The devastating scale of Putin’s war on Ukraine laid bare as leaked figures show 500,000 Russian soldiers dead",
+      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-trump-putin-troops-death-toll-b3091347.html",
       "source": "The Independent",
-      "published": "2026-11-25T13:22:56+00:00",
+      "published": "2026-11-25T13:47:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "San Francisco Zoo’s oldest animal Mojave the tortoise dies aged 79",
-      "url": "https://www.independent.co.uk/news/world/americas/san-francisco-mojave-tortoise-dead-b3091399.html",
-      "source": "The Independent",
-      "published": "2026-11-25T13:22:48+00:00",
+      "title": "French FM defends Ukraine's attacks on Russian ships in Libya",
+      "url": "https://www.rfi.fr/en/international/20261125-french-fm-defends-ukraine-s-attacks-on-russian-ships-in-libya",
+      "source": "RFI English",
+      "published": "2026-11-25T13:45:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Senegal restored as AFCON champions",
-      "url": "https://www.semafor.com/article/11/25/2026/senegal-restored-as-champions-of-africas-top-football-competition",
-      "source": "Semafor",
-      "published": "2026-11-25T13:21:25+00:00",
+      "title": "Tara Davis-Woodhall, Olympic gold medalist: ‘Some people don’t find muscles sexy, but I couldn’t do what I do if I didn’t have this physique’",
+      "url": "https://english.elpais.com/sports/2026-11-25/tara-davis-woodhall-olympic-gold-medalist-some-people-dont-find-muscles-sexy-but-i-couldnt-do-what-i-do-if-i-didnt-have-this-physique.html",
+      "source": "El País",
+      "published": "2026-11-25T13:44:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "MTN and Telkom talks draw South Africa union fire",
-      "url": "https://www.semafor.com/article/11/25/2026/telecoms-giant-mtn-and-telkom-talks-draw-union-fire",
-      "source": "Semafor",
-      "published": "2026-11-25T13:19:28+00:00",
+      "title": "Bocabierta Bookstore, the new epicenter of the Spanish-language literary boom in New York",
+      "url": "https://english.elpais.com/usa/2026-11-25/bocabierta-bookstore-the-new-epicenter-of-the-spanish-language-literary-boom-in-new-york.html",
+      "source": "El País",
+      "published": "2026-11-25T13:40:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -952,10 +959,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.34,
+      "price": 134.0,
       "currency": "GBP",
-      "change": -1.14,
-      "change_percent": -0.84,
+      "change": -1.48,
+      "change_percent": -1.09,
       "name": "FTSE All-World ETF"
     },
     {
@@ -968,10 +975,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10474.06,
+      "price": 10459.77,
       "currency": "GBP",
-      "change": 6.99,
-      "change_percent": 0.07,
+      "change": -7.3,
+      "change_percent": -0.07,
       "name": "FTSE 100"
     }
   ],
@@ -987,10 +994,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10474.06,
+        "price": 10459.77,
         "currency": "GBP",
-        "change": 6.99,
-        "change_percent": 0.07,
+        "change": -7.3,
+        "change_percent": -0.07,
         "name": "FTSE 100"
       },
       {
@@ -1019,44 +1026,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24917.07,
+        "price": 24843.18,
         "currency": "EUR",
-        "change": -100.74,
-        "change_percent": -0.4,
+        "change": -174.63,
+        "change_percent": -0.7,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8074.72,
+        "price": 8061.62,
         "currency": "EUR",
-        "change": 34.23,
-        "change_percent": 0.43,
+        "change": 21.13,
+        "change_percent": 0.26,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3527.2,
+        "price": 3506.5,
         "currency": "USD",
-        "change": -63.9,
-        "change_percent": -1.78,
+        "change": -84.6,
+        "change_percent": -2.36,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 39.87,
+        "price": 39.73,
         "currency": "USD",
-        "change": -1.39,
-        "change_percent": -3.36,
+        "change": -1.53,
+        "change_percent": -3.7,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.18,
+        "price": 89.54,
         "currency": "USD",
-        "change": 0.4,
-        "change_percent": 0.45,
+        "change": 0.76,
+        "change_percent": 0.86,
         "name": "Brent Crude"
       },
       {
@@ -1064,31 +1071,31 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.18,
+        "change_percent": -0.2,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
         "price": 1.31,
         "currency": "USD",
-        "change": 0.0,
-        "change_percent": -0.34,
+        "change": -0.01,
+        "change_percent": -0.39,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.27,
+        "price": 159.35,
         "currency": "JPY",
-        "change": 0.03,
-        "change_percent": 0.02,
+        "change": 0.11,
+        "change_percent": 0.07,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58459.15,
+        "price": 57993.85,
         "currency": "USD",
-        "change": -1286.5,
-        "change_percent": -2.15,
+        "change": -1751.8,
+        "change_percent": -2.93,
         "name": "Bitcoin"
       }
     ],
@@ -1183,22 +1190,22 @@
       "column": "briefings",
       "entries": [
         {
-          "title": "Kaliningrad: the Russian exclave where tensions are mounting",
-          "url": "https://theweek.com/defence/kaliningrad-the-russian-exclave-where-tensions-are-mounting",
-          "published": "2026-11-25T12:34:37+00:00",
-          "snippet": "Strategically vital Baltic territory is ‘potential flashpoint’ in confrontation between Nato and Moscow"
+          "title": "Why are documentaries having a moment?",
+          "url": "https://theweek.com/culture-life/film/why-are-documentaries-having-a-moment",
+          "published": "2026-11-25T13:49:58+00:00",
+          "snippet": "You Can See Everything leads an inventive new wave of non-fiction movies"
         },
         {
-          "title": "A ‘Sister’ sketch on ‘Saturday Night Live’ strikes a nerve with caregivers over gender roles",
-          "url": "https://theweek.com/health/a-sister-sketch-on-saturday-night-live-strikes-a-nerve-with-caregivers-over-gender-roles",
-          "published": "2026-11-25T07:00:00+00:00",
-          "snippet": "Who takes responsibility for eldercare? And why does it always fall to the sister?"
+          "title": "Magazine solutions - Dec. 4, 2026",
+          "url": "https://theweek.com/puzzles/magazine-solutions-dec-4-2026",
+          "published": "2026-11-25T13:48:16+00:00",
+          "snippet": "Magazine solutions - Dec. 4, 2026"
         },
         {
-          "title": "The best fantasy book series for every fan",
-          "url": "https://theweek.com/culture-life/books/the-best-fantasy-book-series-for-every-fan-le-guin-hobb-sanderson-jemisin",
-          "published": "2026-11-25T07:00:00+00:00",
-          "snippet": "These novels, including a classic by Ursula K. Le Guin and a contemporary fave from N.K. Jemisin, will transport you"
+          "title": "Magazine printables - Dec. 4, 2026",
+          "url": "https://theweek.com/puzzles/magazine-printables-dec-4-2026",
+          "published": "2026-11-25T13:47:09+00:00",
+          "snippet": "Magazine printables - Dec. 4, 2026"
         }
       ]
     },
@@ -1259,22 +1266,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "South Africa’s Ramaphosa wins battle to halt impeachment push",
-          "url": "https://www.ft.com/content/e8081338-7139-4fcb-9643-73079d4913c4?syn-25a6b1a6=1",
-          "published": "2026-11-25T12:50:10+00:00",
-          "snippet": "Court ruling stops inquiry into long-running stolen cash scandal involving president"
+          "title": "Trump announces raft of new tariffs on major economies",
+          "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
+          "published": "2026-11-25T14:00:55+00:00",
+          "snippet": "China, the EU, Japan and South Korea to be hit by levies as US president doubles down on trade strategy"
         },
         {
-          "title": "Where did Vermeer find his hat? Artist Kent Monkman hunts for an answer",
-          "url": "https://www.ft.com/content/84bc3238-c48b-4007-8ca4-48c95a7a70bf",
-          "published": "2026-11-25T12:00:04+00:00",
-          "snippet": "The First Nations artist has made a mischievous suite of paintings in response to the Dutch master — riffing on the violent trade networks that underpinned his..."
+          "title": "Turkish leader Erdoğan’s biggest rival barred from running for president",
+          "url": "https://www.ft.com/content/88740333-b683-4f86-8dd2-65bf9d231ff9?syn-25a6b1a6=1",
+          "published": "2026-11-25T13:47:22+00:00",
+          "snippet": "Invalidation of opposition leader Ekrem İmamoğlu’s university degree comes as $20bn Fonzi scandal ensnares more senior government officials"
         },
         {
-          "title": "Russia is escalating conflict in Europe and space, warns Merz",
-          "url": "https://www.ft.com/content/afdac003-51b0-43da-8c7c-b5675f9b7c1b?syn-25a6b1a6=1",
-          "published": "2026-11-25T11:56:23+00:00",
-          "snippet": "German chancellor seeks to convince increasingly sceptical population to maintain support for Ukraine"
+          "title": "NBA rallies private equity for €10bn European arena fund",
+          "url": "https://www.ft.com/content/e70a4095-2e8a-4211-aa38-1ad6a95169cb?syn-25a6b1a6=1",
+          "published": "2026-11-25T13:00:04+00:00",
+          "snippet": "Basketball league wants to help teams finance new arenas as part of its effort to launch a European competition"
         }
       ]
     },
@@ -1284,22 +1291,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "<em>GTA 6</em> May Be ‘High Art.’ But Is it Good?",
+          "url": "https://www.theatlantic.com/family/2026/11/gta-vi-grand-theft-auto-art/689572/?utm_source=feed",
+          "published": "2026-11-25T14:00:00+00:00",
+          "snippet": "For all its lofty aspirations, the latest Grand Theft Auto is still a video game."
+        },
+        {
+          "title": "The Friendship Model of Politics",
+          "url": "https://www.theatlantic.com/books/2026/11/hanna-arendt-friendship-model-politics/689579/?utm_source=feed",
+          "published": "2026-11-25T13:30:00+00:00",
+          "snippet": "After a decade in which debate has mostly meant pitting one truth against another, it might be time to try a different way."
+        },
+        {
           "title": "The Surprising Pleasures of Aging Gracefully",
           "url": "https://www.theatlantic.com/culture/2026/11/oasis-pulp-documentary/689570/?utm_source=feed",
           "published": "2026-11-25T13:00:00+00:00",
           "snippet": "Two new rock-and-roll documentaries make the case for embracing an unknown future."
-        },
-        {
-          "title": "The Great American Tradition",
-          "url": "https://www.theatlantic.com/ideas/2026/11/boycotts-mississippi-naacp-press-scotus/689568/?utm_source=feed",
-          "published": "2026-11-25T12:30:00+00:00",
-          "snippet": "More than 40 years ago, the Supreme Court affirmed that boycotting is a fundamental right protected by the First Amendment—something the Trump administration..."
-        },
-        {
-          "title": "A Bizarre Sequel to One of Tarantino’s Best Movies",
-          "url": "https://www.theatlantic.com/culture/2026/11/cliff-booth-once-upon-a-time-in-hollywood-sequel-review/689578/?utm_source=feed",
-          "published": "2026-11-25T12:00:00+00:00",
-          "snippet": "The Once Upon a Time in Hollywood follow-up suffers under another director’s very different vision."
         }
       ]
     },
@@ -1382,17 +1389,32 @@
   "web": {
     "tech": [
       {
+        "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+        "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+        "score": 14,
+        "source": "Hacker News",
+        "published": "2026-11-25T13:33:07+00:00"
+      },
+      {
+        "title": "Getting old Java phones online again",
+        "url": "https://antcating.github.io/2026/11/23/getting-old-java-phones-online-again.html",
+        "comments_url": "https://lobste.rs/s/7x2mrq/getting_old_java_phones_online_again",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-25T13:28:55.591000+00:00"
+      },
+      {
         "title": "Optimizing Rustc's next trait solver",
         "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
         "comments_url": "https://lobste.rs/s/lyyksp/optimizing_rustc_s_next_trait_solver",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-25T13:09:22.097000+00:00"
       },
       {
         "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
         "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 99,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-25T11:34:25+00:00"
       },
@@ -1408,14 +1430,14 @@
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
         "comments_url": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-        "score": 5,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-25T10:27:49.339000+00:00"
       },
       {
         "title": "Smart People Who Give a Shit Use Tools",
         "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
-        "score": 49,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-25T07:46:43+00:00"
       },
@@ -1423,7 +1445,7 @@
         "title": "Needles, Haystacks, and Numbers Between 0 and 1",
         "url": "https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/",
         "comments_url": "https://lobste.rs/s/5gefep/needles_haystacks_numbers_between_0_1",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-25T07:03:53.327000+00:00"
       },
@@ -1431,7 +1453,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 32,
+        "score": 38,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1439,7 +1461,7 @@
         "title": "Flat/non-higher-order construction of ANF via mutable holes",
         "url": "https://blueberrywren.dev/blog/anf-mutable/",
         "comments_url": "https://lobste.rs/s/n0itvf/flat_non_higher_order_construction_anf",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:11:39.705000+00:00"
       },
@@ -1454,45 +1476,30 @@
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 196,
+        "score": 209,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 132,
+        "score": 142,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 163,
+        "score": 168,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 519,
+        "score": 550,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
-      },
-      {
-        "title": "Matrix Multiplication is Θ(n^2.25)",
-        "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "comments_url": "https://lobste.rs/s/kn0pmh/matrix_multiplication_is_n_2_25",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T03:15:59.317000+00:00"
-      },
-      {
-        "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-        "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 277,
-        "source": "Hacker News",
-        "published": "2026-11-25T03:04:37+00:00"
       }
     ],
     "reddit": [

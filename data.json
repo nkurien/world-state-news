@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T16:01:07.428682+00:00",
+  "last_updated": "2026-11-25T16:30:56.075984+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 459
+      "ms": 343
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 281
+      "ms": 205
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 300
+      "ms": 337
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 112
+      "ms": 550
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 295
+      "ms": 403
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 204
+      "ms": 386
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 276
+      "ms": 521
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 295
+      "ms": 285
     },
     "Euronews": {
-      "ok": true,
-      "count": 44,
-      "error": null,
-      "ms": 61
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3203
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 253
+      "ms": 212
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 348
+      "ms": 907
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 361
+      "ms": 385
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 75
+      "ms": 492
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 210
+      "ms": 153
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 319
+      "ms": 268
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 99
+      "ms": 710
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 775
+      "ms": 622
     },
     "Semafor": {
       "ok": true,
-      "count": 267,
+      "count": 268,
       "error": null,
-      "ms": 1003
+      "ms": 577
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 579
+      "ms": 493
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 243
+      "ms": 324
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3109
+      "ms": 3069
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 266
+      "ms": 180
     },
     "The Independent": {
       "ok": true,
-      "count": 92,
+      "count": 93,
       "error": null,
-      "ms": 180
+      "ms": 123
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 227
+      "ms": 173
     }
   },
   "breaking": [
@@ -177,70 +177,36 @@
       "consensus": 5.0
     },
     {
-      "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
-      "url": "https://www.aljazeera.com/features/2026/11/25/second-home-why-israel-is-celebrating-jensen-huangs-return-to-nvidia?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T13:04:17+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-25/multiple-investigations-internal-unrest-and-circular-financing-the-risks-behind-jensen-huangs-return-to-nvidia.html",
-          "title": "Multiple investigations, internal unrest, and circular financing: The risks behind Jensen Huang’s return to Nvidia",
-          "published": "2026-11-25T09:42:40+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
-          "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
-          "published": "2026-11-24T12:05:25+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Israeli strike kills Hamas official, his wife and children",
-      "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
-      "source": "CNA",
-      "published": "2026-11-25T13:27:00+00:00",
-      "score": 3,
+      "title": "US Army detonates lead explosives in Iowa despite contamination fears",
+      "url": "https://www.france24.com/en/americas/20261125-us-army-detonates-lead-explosives-iowa-despite-community-backlash",
+      "source": "France24",
+      "published": "2026-11-25T16:08:10+00:00",
+      "score": 2,
       "other_sources": [
         {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
-          "title": "Israeli strike in Gaza kills senior Hamas official, his wife and children",
-          "published": "2026-11-25T11:24:37+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
-          "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
-          "published": "2026-11-25T09:27:55+00:00"
+          "url": "https://www.aljazeera.com/news/2026/11/25/us-army-detonates-toxic-lead-stockpile-in-iowa-amid-backlash?traffic_source=rss",
+          "title": "US Army detonates toxic lead explosives in Iowa amid health concerns",
+          "published": "2026-11-25T15:14:08+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
-      "title": "UK police charge two men over a break-in at Prince William and Princess Catherine’s country home",
-      "url": "https://www.thehindu.com/news/international/uk-police-charge-two-men-over-a-break-in-at-prince-william-and-princess-catherines-country-home/article71742079.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T13:17:35+00:00",
-      "score": 3,
+      "title": "Bangladesh garment workers who supply H&M, Walmart and Gap protest lowest pay hike in 40 years",
+      "url": "https://www.cbc.ca/news/world/bangladesh-garment-workers-protest-9.7435339?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T16:00:32+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/uk-breakin-royals-charges-9.7435154?cmp=rss",
-          "title": "2 men charged in break-in at country residence of Prince William, Princess of Wales",
-          "published": "2026-11-25T10:53:46+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
-          "title": "UK police arrest two men after break-in at William and Kate's home",
-          "published": "2026-11-24T16:29:34+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/bangladesh-garment-workers-protest-over-new-wages?traffic_source=rss",
+          "title": "Bangladesh garment workers protest over new wages",
+          "published": "2026-11-25T12:23:41+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
@@ -291,20 +257,29 @@
       "consensus": 2.5
     },
     {
-      "title": "Yemen's Houthis claim attack on major Saudi oil refinery",
-      "url": "https://www.cbc.ca/news/world/yemen-houthi-saudi-arabia-strikes-9.7435269?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T15:04:30+00:00",
+      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+      "source": "SCMP",
+      "published": "2026-11-25T14:03:18+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261125-yemen-s-houthis-claim-attacks-on-riyadh-financial-district-saudi-refinery",
-          "title": "Yemen's Houthis claim attacks on Riyadh financial district, Saudi refinery",
-          "published": "2026-11-25T11:09:43+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T16:20:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -363,6 +338,50 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
+      "url": "https://www.aljazeera.com/features/2026/11/25/second-home-why-israel-is-celebrating-jensen-huangs-return-to-nvidia?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T13:04:17+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-25/multiple-investigations-internal-unrest-and-circular-financing-the-risks-behind-jensen-huangs-return-to-nvidia.html",
+          "title": "Multiple investigations, internal unrest, and circular financing: The risks behind Jensen Huang’s return to Nvidia",
+          "published": "2026-11-25T09:42:40+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
+          "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
+          "published": "2026-11-24T12:05:25+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "UK police charge two men over a break-in at Prince William and Princess Catherine’s country home",
+      "url": "https://www.thehindu.com/news/international/uk-police-charge-two-men-over-a-break-in-at-prince-william-and-princess-catherines-country-home/article71742079.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T13:17:35+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/uk-breakin-royals-charges-9.7435154?cmp=rss",
+          "title": "2 men charged in break-in at country residence of Prince William, Princess of Wales",
+          "published": "2026-11-25T10:53:46+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/uk-police-arrest-two-men-after-break-in-william-and-kates-home-6579091",
+          "title": "UK police arrest two men after break-in at William and Kate's home",
+          "published": "2026-11-24T16:29:34+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Solomon Islands drops China pact, turns to Australia",
@@ -469,22 +488,6 @@
       "consensus": 2.5
     },
     {
-      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
-      "source": "SCMP",
-      "published": "2026-11-25T14:03:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Solomon Islands signs security deal with Australia",
       "url": "https://www.aljazeera.com/news/2026/11/25/solomon-islands-signs-security-deal-with-australia?traffic_source=rss",
       "source": "Al Jazeera",
@@ -512,54 +515,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
           "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
           "published": "2026-11-25T07:26:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261125-2025-afcon-cas-gives-title-to-senegal-as-morocco-vows-to-challenge-verdict",
-      "source": "France24",
-      "published": "2026-11-25T06:20:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/23/cas-to-publish-verdict-on-senegal-afcon-title-appeal-on-tuesday/",
-          "title": "CAS to publish verdict on Senegal AFCON title appeal on Tuesday",
-          "published": "2026-11-23T14:25:55+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
-      "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T06:11:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
-          "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
-          "published": "2026-11-25T05:12:28+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "North Korea expels Swiss diplomat and orders Bern's new Pyongyang office to close",
-      "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close",
-      "source": "Euronews",
-      "published": "2026-11-25T04:50:43+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/north-korea-expels-swiss-representative-over-sanctions-related-to-childrens-camp",
-          "title": "North Korea expels Swiss representative over sanctions related to children’s camp",
-          "published": "2026-11-25T03:56:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -629,34 +584,12 @@
       "consensus": 2.5
     },
     {
-      "title": "Iran carries out flogging of singer and her team, Iranian website says",
-      "url": "https://www.thehindu.com/news/international/iran-carries-out-flogging-of-singer-and-her-team-iranian-website-says/article71737731.ece",
-      "source": "The Hindu",
-      "published": "2026-11-24T10:31:43+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
-          "title": "Iran carries out flogging of singer who performed without hijab",
-          "published": "2026-11-23T18:29:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
       "url": "http://www.africanews.com/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree/",
       "source": "Africanews",
       "published": "2026-11-24T08:36:03+00:00",
-      "score": 3,
+      "score": 2,
       "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/us-melania-trump-welcomes-the-2026-white-house-christmas-tree",
-          "title": "US: Melania Trump welcomes the 2026 White House Christmas tree",
-          "published": "2026-11-24T08:35:56+00:00"
-        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
@@ -667,17 +600,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
-      "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war",
-      "source": "France24",
-      "published": "2026-11-25T15:14:07+00:00",
+      "title": "Israeli strike kills Hamas official, his wife and children",
+      "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
+      "source": "CNA",
+      "published": "2026-11-25T13:27:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
-          "title": "At least 490,000 Russian soldiers killed in Ukraine, Rosstat data leak reveals",
-          "published": "2026-11-24T14:25:03+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
+          "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
+          "published": "2026-11-25T09:27:55+00:00"
         }
       ],
       "consensus": 2.0
@@ -795,153 +728,145 @@
       "consensus": 2.0
     },
     {
-      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
-      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-a94364",
-      "source": "The Moscow Times",
-      "published": "2026-11-24T14:47:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/footage-of-russian-cargo-ship-hit-by-ukrainian-drone-attack-in-the-gulf-of-finland",
-          "title": "Footage of Russian cargo ship hit by Ukrainian drone attack in the Gulf of Finland",
-          "published": "2026-11-24T08:14:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-      "url": "http://www.africanews.com/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges/",
-      "source": "Africanews",
-      "published": "2026-11-24T15:55:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
-          "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
-          "published": "2026-11-24T15:54:58+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Nvidia staff cheer Jensen Huang's return as CEO after spy scandal",
-      "url": "http://www.africanews.com/2026/11/24/nvidia-staff-cheer-jensen-huangs-return-as-ceo-after-spy-scandal/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:14:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo",
-          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
-          "published": "2026-11-24T09:17:33+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "France: Chefs compete for the world egg mayonnaise championship",
-      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:12:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
-          "title": "France: Chefs compete for the world egg mayonnaise championship",
-          "published": "2026-11-24T14:11:57+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
-      "source": "Africanews",
-      "published": "2026-11-24T09:19:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire",
-          "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-          "published": "2026-11-24T09:19:44+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "UK student playing college soccer in US killed outside taco shop",
-      "url": "https://www.independent.co.uk/news/world/americas/crime/uk-college-soccer-player-killed-shooting-mississippi-b3091586.html",
-      "source": "The Independent",
-      "published": "2026-11-25T15:53:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The five key moments in the Ukraine and Iran wars that sent your energy bills soaring",
-      "url": "https://www.independent.co.uk/news/world/europe/uk-energy-price-cap-wars-ukraine-russia-iran-b3091536.html",
-      "source": "The Independent",
-      "published": "2026-11-25T15:52:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Senegal deny Morocco’s allegations of ‘contact’ with CAS amid AFCON row",
-      "url": "https://www.aljazeera.com/sports/2026/11/25/senegal-deny-moroccos-allegations-of-contact-with-cas-amid-afcon-row?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T15:51:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US Army carries out controlled blast of unstable lead azide in Iowa town",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
-      "source": "SCMP",
-      "published": "2026-11-25T15:48:57+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "EU rejects Trump’s case for new tariffs",
-      "url": "https://www.politico.eu/article/eu-rejects-donald-trump-case-for-new-tariffs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-25T15:48:14+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Meet Miss Universe 2026: Mom from Puerto Rico makes history after 20-year wait",
-      "url": "https://www.independent.co.uk/news/world/americas/jennifer-barreto-miss-universe-2026-puerto-rico-wins-b3091524.html",
-      "source": "The Independent",
-      "published": "2026-11-25T15:47:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Video shows massive explosion as US Army destroys entire stockpile of lead azide",
-      "url": "https://www.euronews.com/2026/11/25/video-shows-massive-explosion-as-us-army-destroys-entire-stockpile-of-lead-azide",
-      "source": "Euronews",
-      "published": "2026-11-25T15:47:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'We need to stop the war in Iran': US Congresswoman Pramila Jayapal",
-      "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261125-we-need-to-stop-the-war-in-iran-us-congresswoman-pramila-jayapal",
+      "title": "US unveils proposed tariffs on major partners, including EU and China",
+      "url": "https://www.france24.com/en/video/20261125-us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
       "source": "France24",
-      "published": "2026-11-25T15:46:59+00:00",
+      "published": "2026-11-25T16:21:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Iranian family seeks release of twin sisters facing death penalty and 25 years in prison",
+      "url": "https://www.france24.com/en/video/20261125-iranian-family-seeks-release-of-twin-sisters-facing-death-penalty-and-25-years-in-prison",
+      "source": "France24",
+      "published": "2026-11-25T16:20:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU weist Trumps Argumente für neue Zölle zurück",
+      "url": "https://www.politico.eu/article/eu-weist-trumps-argumente-fuer-neue-zoelle-zurueck/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T16:17:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+      "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000",
+      "source": "France24",
+      "published": "2026-11-25T16:17:02+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
+      "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
+      "source": "The Independent",
+      "published": "2026-11-25T16:15:26+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Iowa: Toxic dust fears as US Army blows up 10,000 pounds of explosives",
+      "url": "https://www.france24.com/en/video/20261125-iowa-toxic-dust-fears-as-us-army-blows-up-10-000-pounds-of-explosives",
+      "source": "France24",
+      "published": "2026-11-25T16:14:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "White House staffers started a pool to guess when Markwayne Mullin will be fired: report",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/white-house-staffers-betting-markwayne-mullin-b3091521.html",
+      "source": "The Independent",
+      "published": "2026-11-25T16:11:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Biden’s enduring win",
+      "url": "https://www.semafor.com/article/11/25/2026/bidens-enduring-win",
+      "source": "Semafor",
+      "published": "2026-11-25T16:11:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Colombia: Security forces rescue hostages in supermarket siege",
+      "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege",
+      "source": "France24",
+      "published": "2026-11-25T16:08:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Patent expiration cliffs spur drugmaker M&A",
+      "url": "https://www.semafor.com/article/11/25/2026/patent-expiration-cliffs-spur-drugmaker-ma",
+      "source": "Semafor",
+      "published": "2026-11-25T16:08:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Injured delivery workers could get up to a year of sick pay under proposed scheme",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375809/injured-delivery-workers-could-get-year-sick-pay-under-proposed-scheme",
+      "source": "SCMP",
+      "published": "2026-11-25T16:05:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "A timeline of key events in Kilmar Ábrego García's fight with the Trump administration",
+      "url": "https://www.independent.co.uk/news/world/europe/el-salvador-tennessee-maryland-chris-van-hollen-trump-b3091611.html",
+      "source": "The Independent",
+      "published": "2026-11-25T16:04:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "UK will not offer equal tuition fees for EU students, says Burnham",
+      "url": "https://www.politico.eu/article/uk-will-not-offer-equal-tuition-fees-for-eu-students-says-andy-burnham/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T16:04:33+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Israeli strike kills 2 senior Hamas officials",
+      "url": "https://www.cbc.ca/news/world/gaza-hamas-israel-kills-two-hamas-officials-9.7435419?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T16:04:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jerusalem Daily: Israel kills Hamas’s Gaza security chief",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/jerusalem-daily-israel-kills-hamass-gaza-security-chief?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T16:02:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Christa Pike's injuries from botched execution still unknown, lawyers say",
+      "url": "https://www.cbc.ca/news/world/christa-pike-health-update-9.7435304?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T16:00:16+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -950,34 +875,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7010.11,
+      "price": 7013.5,
       "currency": "USD",
-      "change": -190.98,
-      "change_percent": -2.65,
+      "change": -187.59,
+      "change_percent": -2.61,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 133.14,
+      "price": 133.1,
       "currency": "GBP",
-      "change": -2.34,
-      "change_percent": -1.73,
+      "change": -2.38,
+      "change_percent": -1.76,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 22776.36,
+      "price": 22813.62,
       "currency": "USD",
-      "change": -957.17,
-      "change_percent": -4.03,
+      "change": -919.91,
+      "change_percent": -3.88,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10435.85,
+      "price": 10433.27,
       "currency": "GBP",
-      "change": -31.22,
-      "change_percent": -0.3,
+      "change": -33.8,
+      "change_percent": -0.32,
       "name": "FTSE 100"
     }
   ],
@@ -985,34 +910,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7010.11,
+        "price": 7013.5,
         "currency": "USD",
-        "change": -190.98,
-        "change_percent": -2.65,
+        "change": -187.59,
+        "change_percent": -2.61,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10435.85,
+        "price": 10433.27,
         "currency": "GBP",
-        "change": -31.22,
-        "change_percent": -0.3,
+        "change": -33.8,
+        "change_percent": -0.32,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 49289.57,
+        "price": 49369.69,
         "currency": "USD",
-        "change": -729.13,
-        "change_percent": -1.46,
+        "change": -649.01,
+        "change_percent": -1.3,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 22776.36,
+        "price": 22813.62,
         "currency": "USD",
-        "change": -957.17,
-        "change_percent": -4.03,
+        "change": -919.91,
+        "change_percent": -3.88,
         "name": "NASDAQ Composite"
       },
       {
@@ -1025,134 +950,134 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24756.11,
+        "price": 24711.53,
         "currency": "EUR",
-        "change": -261.7,
-        "change_percent": -1.05,
+        "change": -306.28,
+        "change_percent": -1.22,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8013.22,
+        "price": 7995.42,
         "currency": "EUR",
-        "change": -27.27,
-        "change_percent": -0.34,
+        "change": -45.07,
+        "change_percent": -0.56,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3469.6,
+        "price": 3480.5,
         "currency": "USD",
-        "change": -121.5,
-        "change_percent": -3.38,
+        "change": -110.6,
+        "change_percent": -3.08,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 38.81,
+        "price": 39.03,
         "currency": "USD",
-        "change": -2.44,
-        "change_percent": -5.91,
+        "change": -2.22,
+        "change_percent": -5.37,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.81,
+        "price": 89.73,
         "currency": "USD",
-        "change": 1.03,
-        "change_percent": 1.16,
+        "change": 0.95,
+        "change_percent": 1.07,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
-        "price": 1.1,
+        "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.14,
+        "change_percent": -0.16,
         "name": "EUR/USD"
       },
       {
         "symbol": "GBPUSD=X",
         "price": 1.31,
         "currency": "USD",
-        "change": -0.01,
-        "change_percent": -0.4,
+        "change": 0.0,
+        "change_percent": -0.34,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.12,
+        "price": 159.01,
         "currency": "JPY",
-        "change": -0.12,
-        "change_percent": -0.08,
+        "change": -0.23,
+        "change_percent": -0.15,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58417.73,
+        "price": 58586.39,
         "currency": "USD",
-        "change": -1327.92,
-        "change_percent": -2.22,
+        "change": -1159.26,
+        "change_percent": -1.94,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 478.15,
+        "price": 480.96,
         "currency": "USD",
-        "change": -17.98,
-        "change_percent": -3.62,
+        "change": -15.17,
+        "change_percent": -3.06,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 346.28,
+        "price": 348.2,
         "currency": "USD",
-        "change": -7.79,
-        "change_percent": -2.2,
+        "change": -5.87,
+        "change_percent": -1.66,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 142.7,
+        "price": 142.1,
         "currency": "USD",
-        "change": -12.68,
-        "change_percent": -8.16,
+        "change": -13.28,
+        "change_percent": -8.55,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 264.79,
+        "price": 265.43,
         "currency": "USD",
-        "change": -14.26,
-        "change_percent": -5.11,
+        "change": -13.62,
+        "change_percent": -4.88,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 236.86,
+        "price": 238.43,
         "currency": "USD",
-        "change": -15.43,
-        "change_percent": -6.12,
+        "change": -13.86,
+        "change_percent": -5.49,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 363.75,
+        "price": 364.32,
         "currency": "USD",
-        "change": -20.93,
-        "change_percent": -5.44,
+        "change": -20.36,
+        "change_percent": -5.29,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 576.16,
+        "price": 579.25,
         "currency": "USD",
-        "change": -13.66,
-        "change_percent": -2.32,
+        "change": -10.57,
+        "change_percent": -1.79,
         "name": "Meta"
       }
     ]
@@ -1240,6 +1165,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Britain needs to cut its mental-health benefits bill",
+          "url": "https://www.economist.com/leaders/2026/11/25/britain-needs-to-cut-its-mental-health-benefits-bill",
+          "published": "2026-11-25T15:46:57+00:00",
+          "snippet": "Too many people are getting cash intended for the most disabled"
+        },
+        {
           "title": "Jensen Huang and the age of impunity",
           "url": "https://www.economist.com/leaders/2026/11/24/jensen-huang-and-the-age-of-impunity",
           "published": "2026-11-24T17:56:13+00:00",
@@ -1250,12 +1181,6 @@
           "url": "https://www.economist.com/leaders/2026/11/19/americas-neglect-of-global-science-is-backfiring",
           "published": "2026-11-19T14:01:02+00:00",
           "snippet": "The Trump administration’s reforms have overcorrected for past mistakes"
-        },
-        {
-          "title": "Can Britannia rule the waves again?",
-          "url": "https://www.economist.com/leaders/2026/11/19/can-britannia-rule-the-waves-again",
-          "published": "2026-11-19T14:01:02+00:00",
-          "snippet": "A risky bet that could transform the nature of sea power"
         }
       ]
     },
@@ -1265,22 +1190,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "US PCE inflation keeps Fed on course for more tightening",
-          "url": "https://www.ft.com/content/b1246731-9cc9-4d72-a619-bd520ada464d",
-          "published": "2026-11-25T15:12:01+00:00",
-          "snippet": "Headline and core PCE slightly firmer than expected, setting Fed up for further tightening"
+          "title": "US stocks sell-off deepens as AI trade cracks",
+          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+          "published": "2026-11-25T16:23:34+00:00",
+          "snippet": "Tech-heavy Nasdaq 100 falls more than 4% as weeks-long slide continues"
         },
         {
-          "title": "Northern Ireland minister urges UK to drop exemptions to EU food rules",
-          "url": "https://www.ft.com/content/ec8e1e74-9b36-4912-98de-95ca6cc45d08?syn-25a6b1a6=1",
-          "published": "2026-11-25T15:10:15+00:00",
-          "snippet": "Andrew Muir calls for ‘full dynamic alignment’ with European regulations so Irish Sea trade border can be scrapped"
+          "title": "Upgrade to US GDP figures keeps December rate rise in play for Fed",
+          "url": "https://www.ft.com/content/a1aaf5be-176c-4c4c-99d6-00875f6933f3?syn-25a6b1a6=1",
+          "published": "2026-11-25T16:07:13+00:00",
+          "snippet": "Bureau of Economic Analysis said economy grew at annualised rate of 4.3% in third quarter, up from initial estimate of 3.4%"
         },
         {
-          "title": "Why do economists struggle to forecast the impact of AI?",
-          "url": "https://www.ft.com/content/4d330eab-0dda-4d70-be7f-22b9538e0b29",
-          "published": "2026-11-25T14:49:44+00:00",
-          "snippet": "Frontier labs and officials present wildly different predictions for growth in the next few years"
+          "title": "North Korea closes Swiss diplomatic office in row over children’s camp",
+          "url": "https://www.ft.com/content/5b320dc9-ff58-4036-9f84-b4cb66cf9556?syn-25a6b1a6=1",
+          "published": "2026-11-25T16:02:06+00:00",
+          "snippet": "Sanctions on Songdowon International Children’s Camp were a ‘blatant hostile act’, says Pyongyang"
         }
       ]
     },
@@ -1296,7 +1221,7 @@
           "snippet": "For all its lofty aspirations, the latest GTA is still a video game."
         },
         {
-          "title": "‘A Human Being Is Far More Valuable Than His Opinions’",
+          "title": "What Could Replace the Trump Style of Politics?",
           "url": "https://www.theatlantic.com/books/2026/11/hannah-arendt-friendship-model-politics/689579/?utm_source=feed",
           "published": "2026-11-25T13:30:00+00:00",
           "snippet": "After a decade in which political debate has mostly meant pitting one truth against another, it might be time to try a different way."
@@ -1388,25 +1313,25 @@
   "web": {
     "tech": [
       {
-        "title": "In C++, = default and {} are not the same constructor",
-        "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
-        "score": 27,
+        "title": "Investigating degraded experiences across GitHub products",
+        "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+        "score": 52,
         "source": "Hacker News",
-        "published": "2026-11-25T15:20:15+00:00"
+        "published": "2026-11-25T15:59:23+00:00"
       },
       {
         "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
         "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-        "score": 84,
+        "score": 141,
         "source": "Hacker News",
         "published": "2026-11-25T15:14:32+00:00"
       },
       {
-        "title": "The year the web industry gave up",
-        "url": "https://dbushell.com/2026/11/25/web-industry/",
-        "score": 50,
+        "title": "Rumors swirling that labs might have cracked Factoring in P",
+        "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+        "score": 108,
         "source": "Hacker News",
-        "published": "2026-11-25T14:43:41+00:00"
+        "published": "2026-11-25T15:08:44+00:00"
       },
       {
         "title": "October in Servo: video captions and inert content",
@@ -1419,14 +1344,14 @@
       {
         "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
         "url": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
-        "score": 85,
+        "score": 118,
         "source": "Hacker News",
         "published": "2026-11-25T14:12:29+00:00"
       },
       {
         "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
         "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "score": 201,
+        "score": 231,
         "source": "Hacker News",
         "published": "2026-11-25T13:33:07+00:00"
       },
@@ -1442,14 +1367,14 @@
         "title": "Optimizing Rustc's next trait solver",
         "url": "https://donsz.nl/blog/optimizing-rustcs-next-trait-solver",
         "comments_url": "https://lobste.rs/s/lyyksp/optimizing_rustc_s_next_trait_solver",
-        "score": 11,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-25T13:09:22.097000+00:00"
       },
       {
         "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
         "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 190,
+        "score": 215,
         "source": "Hacker News",
         "published": "2026-11-25T11:34:25+00:00"
       },
@@ -1457,7 +1382,7 @@
         "title": "Writing a Turn Based Game Websocket Server in Haskell",
         "url": "https://blog.gordo.life/2026/04/12/haskell-websockets.html",
         "comments_url": "https://lobste.rs/s/fxfl8u/writing_turn_based_game_websocket_server",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-25T10:52:53.581000+00:00"
       },
@@ -1465,7 +1390,7 @@
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
         "comments_url": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-25T10:27:49.339000+00:00"
       },
@@ -1473,7 +1398,7 @@
         "title": "Needles, Haystacks, and Numbers Between 0 and 1",
         "url": "https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/",
         "comments_url": "https://lobste.rs/s/5gefep/needles_haystacks_numbers_between_0_1",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-25T07:03:53.327000+00:00"
       },
@@ -1481,7 +1406,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 58,
+        "score": 62,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1497,7 +1422,7 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 32,
+        "score": 33,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       }

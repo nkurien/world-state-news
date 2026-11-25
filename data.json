@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T02:30:54.736223+00:00",
+  "last_updated": "2026-11-25T03:01:03.841608+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 436
+      "ms": 349
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 475
+      "ms": 357
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 163
+      "ms": 137
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 368
+      "ms": 306
     },
     "CBC World": {
       "ok": true,
       "count": 19,
       "error": null,
-      "ms": 294
+      "ms": 327
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 493
+      "ms": 244
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 641
+      "ms": 477
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 724
+      "ms": 257
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 129
+      "ms": 236
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 145
+      "ms": 275
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 828
+      "ms": 1178
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 321
+      "ms": 156
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 243
+      "ms": 293
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 205
+      "ms": 138
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 145
+      "ms": 363
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 402
+      "ms": 120
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 684
+      "ms": 590
     },
     "Semafor": {
       "ok": true,
       "count": 246,
       "error": null,
-      "ms": 764
+      "ms": 363
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 699
+      "ms": 422
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 277
+      "ms": 230
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3250
+      "ms": 3226
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 334
+      "ms": 132
     },
     "The Independent": {
       "ok": true,
       "count": 89,
       "error": null,
-      "ms": 285
+      "ms": 441
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 231
+      "ms": 82
     }
   },
   "breaking": [
-    {
-      "title": "Thomas Markle charged in US with possessing child sex abuse material",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375679/thomas-markle-charged-us-possessing-child-sex-abuse-material",
-      "source": "SCMP",
-      "published": "2026-11-25T01:17:18+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
-          "title": "A federal grand jury indicts Thomas Markle on child sex abuse material charges",
-          "published": "2026-11-25T00:01:11+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/thomas-markle-child-sex-abuse-materials-9.7434831?cmp=rss",
-          "title": "Megan Markle's father indicted on 2 counts of possessing child sex abuse materials",
-          "published": "2026-11-24T23:42:20+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-25/thomas-markle-father-in-law-of-prince-harry-indicted/107424340",
-          "title": "Thomas Markle indicted on possessing child sexual abuse material charges",
-          "published": "2026-11-24T23:36:50+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
       "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
@@ -203,6 +175,28 @@
         }
       ],
       "consensus": 5.0
+    },
+    {
+      "title": "Thomas Markle charged in US with possessing child sex abuse material",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375679/thomas-markle-charged-us-possessing-child-sex-abuse-material",
+      "source": "SCMP",
+      "published": "2026-11-25T01:17:18+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/philippines-los-angeles-meghan-sussex-florida-b3091078.html",
+          "title": "A federal grand jury indicts Thomas Markle on child sex abuse material charges",
+          "published": "2026-11-25T00:01:11+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/thomas-markle-child-sex-abuse-materials-9.7434831?cmp=rss",
+          "title": "Megan Markle's father indicted on 2 counts of possessing child sex abuse materials",
+          "published": "2026-11-24T23:42:20+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Australia signs 'historic' pact with Solomon Islands in blow to China",
@@ -249,17 +243,49 @@
       "consensus": 3.0
     },
     {
-      "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
-      "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
+      "title": "Jensen Huang’s return steadies Nvidia, but China curbs, US scrutiny show no sign of easing",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375632/jensen-huangs-return-steadies-nvidia-china-curbs-us-scrutiny-show-no-sign-easing",
       "source": "SCMP",
-      "published": "2026-11-25T01:56:28+00:00",
+      "published": "2026-11-25T03:00:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
+          "title": "Jensen Huang’s Nvidia return shakes Washington",
+          "published": "2026-11-24T12:04:43+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T02:59:27+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
-          "title": "Gunmen hold dozens hostage in Colombia supermarket",
-          "published": "2026-11-25T00:49:35+00:00"
+          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+          "published": "2026-11-24T21:43:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "WHO chief calls on U.S. to lift oil blockade on Cuba, citing health impact",
+      "url": "https://www.thehindu.com/news/international/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact/article71740941.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T02:29:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/25/who-chief-urges-end-to-us-fuel-blockade-on-cuba?traffic_source=rss",
+          "title": "WHO chief urges end to US fuel blockade on Cuba",
+          "published": "2026-11-25T02:23:19+00:00"
         }
       ],
       "consensus": 2.5
@@ -276,38 +302,6 @@
           "url": "https://www.thehindu.com/news/international/israels-eisenkot-clinches-first-coalition-agreement-in-bid-to-form-government/article71740200.ece",
           "title": "Israel’s Eisenkot clinches first coalition agreement in bid to form government",
           "published": "2026-11-24T22:56:23+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T01:11:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
-          "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
-          "published": "2026-11-24T21:43:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ukraine says attack on Russian ships in Libya was self-defense",
-      "url": "https://www.japantimes.co.jp/news/2026/11/25/world/politics/ukraine-russia-ships-libya/",
-      "source": "Japan Times",
-      "published": "2026-11-25T01:08:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
-          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
-          "published": "2026-11-23T05:58:22+00:00"
         }
       ],
       "consensus": 2.5
@@ -359,28 +353,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship in Libya",
-      "url": "https://www.thehindu.com/news/international/zelenskyy-hails-ukraines-attack-on-a-russian-warship-in-libya/article71735901.ece",
-      "source": "The Hindu",
-      "published": "2026-11-23T16:57:47+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
-          "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
-          "published": "2026-11-23T10:16:33+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
-          "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
-          "published": "2026-11-23T09:39:00+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "French ex-president Sarkozy, wife to be tried over witness tampering",
       "url": "https://www.channelnewsasia.com/world/french-ex-president-sarkozy-wife-be-tried-over-witness-tampering-6579256",
       "source": "CNA",
@@ -423,6 +395,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Gunmen hold hostages in Colombia supermarket after failed armoured car raid",
+      "url": "https://www.scmp.com/news/world/americas/article/3375682/gunmen-hold-hostages-colombia-supermarket-after-failed-armoured-car-raid",
+      "source": "SCMP",
+      "published": "2026-11-25T01:56:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss",
+          "title": "Gunmen hold dozens hostage in Colombia supermarket",
+          "published": "2026-11-25T00:49:35+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Ukraine says attack on Russian ships in Libya was self-defense",
+      "url": "https://www.japantimes.co.jp/news/2026/11/25/world/politics/ukraine-russia-ships-libya/",
+      "source": "Japan Times",
+      "published": "2026-11-25T01:08:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/un-mission-in-libya-urges-probe-after-russian-ship-hit-by-drones-off-benghazi",
+          "title": "Ukraine responsible for drone strikes on two Russian ships off Libya, Zelenskyy says",
+          "published": "2026-11-23T05:58:22+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
@@ -633,22 +637,6 @@
       "consensus": 2.5
     },
     {
-      "title": "How Jensen Huang’s Nvidia return could deepen US rift over China chip curbs",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375631/how-jensen-huangs-nvidia-return-could-deepen-us-rift-over-china-chip-curbs",
-      "source": "SCMP",
-      "published": "2026-11-24T14:00:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-comeback-as-nvidia-ceo-shakes-washington",
-          "title": "Jensen Huang’s Nvidia return shakes Washington",
-          "published": "2026-11-24T12:04:43+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Jensen Huang returns to Nvidia. And, Rep. Gomez resigns amid alleged sexual misconduct",
       "url": "https://www.npr.org/2026/11/24/g-s1-155227/up-first-newsletter-nvidia-jensen-huang-trump-ukraine-russia-jimmy-gomez",
       "source": "NPR World",
@@ -714,6 +702,54 @@
           "url": "https://www.bbc.co.uk/news/videos/c51k9vp48d2vo?at_medium=RSS&at_campaign=rss",
           "title": "First Lady Melania Trump welcomes this year's White House Christmas tree",
           "published": "2026-11-23T18:49:19+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Nvidia reinstates Jensen Huang as CEO after U.S. government input",
+      "url": "https://www.thehindu.com/sci-tech/technology/nvidia-reinstates-jensen-huang-as-ceo-after-us-government-input/article71735341.ece",
+      "source": "The Hindu",
+      "published": "2026-11-24T07:10:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/23/ai-giant-nvidia-reinstates-jensen-huang-as-ceo-after-spy-scandal/",
+          "title": "AI giant Nvidia reinstates Jensen Huang as CEO after spy scandal",
+          "published": "2026-11-23T16:10:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US chip curbs will not impact Malaysia’s China ties: Anwar",
+      "url": "https://www.straitstimes.com/asia/se-asia/us-chip-curbs-will-not-impact-malaysias-china-ties-anwar",
+      "source": "Straits Times",
+      "published": "2026-11-24T05:55:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/china-threatens-retaliation-against-us-chip-curbs",
+          "title": "China threatens retaliation against US chip curbs",
+          "published": "2026-11-17T22:58:16+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval base in Libya",
+      "url": "https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya",
+      "source": "NPR World",
+      "published": "2026-11-23T10:16:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/23/zelensky-confirms-attack-against-russian-warship-in-libya-a94346",
+          "title": "Zelensky Confirms Attack Against Russian Warship in Libya",
+          "published": "2026-11-23T09:39:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -869,22 +905,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Japan accelerates ICC funding as US sanctions threaten court",
-      "url": "https://www.channelnewsasia.com/east-asia/japan-accelerates-icc-funding-us-sanctions-threaten-court-6577621",
-      "source": "CNA",
-      "published": "2026-11-24T08:49:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/japan-accelerates-icc-funding-as-us-sanctions-threaten-court",
-          "title": "Japan says it will advance ICC funding after US sanctions",
-          "published": "2026-11-24T08:17:51+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
       "url": "http://www.africanews.com/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges/",
       "source": "Africanews",
@@ -933,37 +953,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Protesters demand release of Palestinian activist detained by Israel",
-      "url": "https://www.abc.net.au/news/2026-11-25/protesters-demand-release-of-palestinian-student-activist/107424896",
-      "source": "ABC Australia",
-      "published": "2026-11-25T02:26:04+00:00",
+      "title": "Soybean scientist ‘critical’ for China’s food security dies at 61 after illness",
+      "url": "https://www.scmp.com/news/china/science/article/3375582/soybean-scientist-critical-chinas-food-security-dies-61-after-illness",
+      "source": "SCMP",
+      "published": "2026-11-25T03:00:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Conversion practices set to be banned in Tasmania, ending decade-long fight",
-      "url": "https://www.abc.net.au/news/2026-11-25/conversion-practices-banned-legislative-council-tasmania-vote/107396298",
-      "source": "ABC Australia",
-      "published": "2026-11-25T02:21:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Man arrested after joining RNZ staff protest",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2772085/man-arrested-after-joining-rnz-staff-protest",
-      "source": "RNZ",
-      "published": "2026-11-25T02:17:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Consistent friendship groups linked to longer lives in dolphin populations",
-      "url": "https://www.abc.net.au/news/2026-11-25/queensland-dolphin-friendships-new-research/107421030",
-      "source": "ABC Australia",
-      "published": "2026-11-25T02:17:29+00:00",
+      "title": "James Cleverly is ready to run for London mayor. Labour is still waiting on Sadiq Khan.",
+      "url": "https://www.politico.eu/article/sadiq-khan-james-cleverly-labour-conservative-mayor-london/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-25T03:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1039,10 +1041,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 56742.82,
+        "price": 56710.43,
         "currency": "JPY",
-        "change": -1901.81,
-        "change_percent": -3.24,
+        "change": -1934.2,
+        "change_percent": -3.3,
         "name": "Nikkei 225"
       },
       {
@@ -1065,26 +1067,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3564.0,
+        "price": 3552.5,
         "currency": "USD",
-        "change": 2.1,
-        "change_percent": 0.06,
+        "change": -9.4,
+        "change_percent": -0.26,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.2,
+        "price": 40.63,
         "currency": "USD",
-        "change": 0.42,
-        "change_percent": 1.02,
+        "change": -0.15,
+        "change_percent": -0.36,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 87.71,
+        "price": 87.56,
         "currency": "USD",
-        "change": -1.07,
-        "change_percent": -1.21,
+        "change": -1.22,
+        "change_percent": -1.37,
         "name": "Brent Crude"
       },
       {
@@ -1092,7 +1094,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.01,
+        "change_percent": -0.08,
         "name": "EUR/USD"
       },
       {
@@ -1100,23 +1102,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.03,
+        "change_percent": -0.11,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.26,
+        "price": 159.15,
         "currency": "JPY",
-        "change": 0.02,
-        "change_percent": 0.01,
+        "change": -0.09,
+        "change_percent": -0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59121.09,
+        "price": 59141.18,
         "currency": "USD",
-        "change": -624.56,
-        "change_percent": -1.05,
+        "change": -604.47,
+        "change_percent": -1.01,
         "name": "Bitcoin"
       }
     ],
@@ -1418,23 +1420,23 @@
         "published": "2026-11-25T02:04:56.581000+00:00"
       },
       {
-        "title": "Matrix Multiplication is O(n^2.25) [pdf]",
+        "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
         "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-        "score": 97,
+        "score": 153,
         "source": "Hacker News",
         "published": "2026-11-25T01:19:26+00:00"
       },
       {
         "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
         "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-        "score": 48,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-25T00:54:49+00:00"
       },
       {
         "title": "Here in the World: Letters of Albert Camus, 1944–1959",
         "url": "https://literaryreview.co.uk/here-in-the-world",
-        "score": 23,
+        "score": 27,
         "source": "Hacker News",
         "published": "2026-11-25T00:36:43+00:00"
       },
@@ -1442,7 +1444,7 @@
         "title": "A faster algorithm for extracting hexadecimal digits of π",
         "url": "https://www.stylewarning.com/posts/faster-digit-extraction/",
         "comments_url": "https://lobste.rs/s/qavfgc/faster_algorithm_for_extracting",
-        "score": 2,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-24T23:53:03.123000+00:00"
       },
@@ -1450,7 +1452,7 @@
         "title": "From formal verification to bug-finding in CHERIoT",
         "url": "https://cheriot.org/verification/2026/11/24/griotte-verification-effort.html",
         "comments_url": "https://lobste.rs/s/khb1yv/from_formal_verification_bug_finding",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-24T23:52:41.105000+00:00"
       },
@@ -1458,7 +1460,7 @@
         "title": "Pokemon Childhood Version: A romhack where Mew is under the truck",
         "url": "https://wheybags.com/blog/pokemon_childhood_version.html",
         "comments_url": "https://lobste.rs/s/em9zdb/pokemon_childhood_version_romhack_where",
-        "score": 13,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-24T23:14:50.733000+00:00"
       },
@@ -1473,35 +1475,35 @@
       {
         "title": "Heart attack and stroke risk detectable decades in advance",
         "url": "https://www.ed.ac.uk/news/heart-attack-and-stroke-risk-detectable-decades-in-advance",
-        "score": 160,
+        "score": 166,
         "source": "Hacker News",
         "published": "2026-11-24T21:51:21+00:00"
       },
       {
         "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
         "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-        "score": 181,
+        "score": 182,
         "source": "Hacker News",
         "published": "2026-11-24T21:02:22+00:00"
       },
       {
         "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
         "url": "https://news.ycombinator.com/item?id=50634426",
-        "score": 70,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-24T20:44:15+00:00"
       },
       {
         "title": "Ternary Bonsai 2.5 27B",
         "url": "https://prismml.com/news/bonsai-2-5-27b",
-        "score": 353,
+        "score": 358,
         "source": "Hacker News",
         "published": "2026-11-24T20:08:03+00:00"
       },
       {
         "title": "From CUDA and Jax to TorchTPU: Lessons from a Cayley Graph Solver",
         "url": "https://andlukyane.com/blog/cayley-graphs-and-torchtpu",
-        "score": 69,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-24T19:40:43+00:00"
       },

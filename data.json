@@ -1,30 +1,30 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T12:30:56.769117+00:00",
+  "last_updated": "2026-11-25T13:01:08.638384+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 402
+      "ms": 351
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 546
+      "ms": 451
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 244
+      "ms": 315
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 317
+      "ms": 56
     },
     "CBC World": {
       "ok": true,
@@ -36,115 +36,115 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 247
+      "ms": 278
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 11,
+      "count": 12,
       "error": null,
-      "ms": 289
+      "ms": 633
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 630
+      "ms": 559
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 163
+      "ms": 131
     },
     "France24": {
-      "ok": true,
-      "count": 24,
-      "error": null,
-      "ms": 142
+      "ok": false,
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
+      "ms": 3173
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 771
+      "ms": 308
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 395
+      "ms": 275
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 455
+      "ms": 148
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 126
+      "ms": 112
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 273
+      "ms": 382
     },
     "RNZ": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 297
+      "ms": 209
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 788
+      "ms": 839
     },
     "Semafor": {
       "ok": true,
-      "count": 257,
+      "count": 258,
       "error": null,
-      "ms": 792
+      "ms": 642
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 671
+      "ms": 521
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 357
+      "ms": 439
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3091
+      "ms": 3054
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 533
+      "ms": 296
     },
     "The Independent": {
       "ok": true,
-      "count": 95,
+      "count": 94,
       "error": null,
-      "ms": 260
+      "ms": 737
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 447
+      "ms": 200
     }
   },
   "breaking": [
@@ -237,6 +237,128 @@
       "consensus": 3.5
     },
     {
+      "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
+      "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
+      "source": "CNA",
+      "published": "2026-11-25T11:34:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/trump-to-double-down-on-tariffs-after-midterms-defeat",
+          "title": "Trump to double down on tariffs after midterms defeat",
+          "published": "2026-11-24T20:44:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israeli strike kills Hamas official, his wife and children",
+      "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T11:24:37+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
+          "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
+          "published": "2026-11-25T09:27:55+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
+      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
+      "source": "Africanews",
+      "published": "2026-11-25T11:09:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
+          "published": "2026-11-25T07:26:54+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests",
+      "source": "SCMP",
+      "published": "2026-11-25T12:11:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece",
+          "title": "Bangladesh garment workers win 36% wage rise",
+          "published": "2026-11-25T04:17:43+00:00"
+        }
+      ],
+      "consensus": 2.0
+    }
+  ],
+  "world": [
+    {
+      "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
+      "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T07:38:43+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
+          "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
+          "published": "2026-11-25T04:27:43+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/chuck-schumer-nvidia-jensen-huang-b3091062.html",
+          "title": "Schumer accuses Nvidia CEO Jensen Huang of illegally selling advanced chips to China",
+          "published": "2026-11-24T23:02:03+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
+          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
+          "published": "2026-11-17T16:30:10+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
+    {
+      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
+      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T03:03:03+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+          "title": "Thomas Markle charged in US for possessing child sex abuse images",
+          "published": "2026-11-25T01:40:42+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/thomas-markle-child-sex-abuse-materials-9.7434831?cmp=rss",
+          "title": "Megan Markle's father indicted on 2 counts of possessing child sex abuse materials",
+          "published": "2026-11-24T23:42:20+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-charged-child-sex-abuse-material-b3091071.html",
+          "title": "Thomas Markle indicted in US over possession of child sex abuse material",
+          "published": "2026-11-24T23:31:54+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
       "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
       "source": "NPR World",
@@ -281,122 +403,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Trump set to add new sweeping tariffs, undeterred by midterms defeat",
-      "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
-      "source": "CNA",
-      "published": "2026-11-25T11:34:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/trump-to-double-down-on-tariffs-after-midterms-defeat",
-          "title": "Trump to double down on tariffs after midterms defeat",
-          "published": "2026-11-24T20:44:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Israeli strike kills Hamas official, his wife and children",
-      "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T11:24:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
-          "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
-          "published": "2026-11-25T09:27:55+00:00"
-        }
-      ],
-      "consensus": 2.5
-    }
-  ],
-  "world": [
-    {
-      "title": "Nvidia's Jensen Huang says he is in therapy as comeback rally fades",
-      "url": "https://www.thehindu.com/news/international/nvidias-jensen-huang-says-he-is-in-therapy-as-comeback-rally-fades/article71740890.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T07:38:43+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "RNZ",
-          "url": "https://www.rnz.co.nz/news/business/2772690/nvidia-ceo-jensen-huang-apologises-to-staff-reportedly-says-he-s-in-daily-therapy",
-          "title": "Nvidia CEO Jensen Huang apologises to staff, reportedly says he's in daily therapy",
-          "published": "2026-11-25T04:27:43+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/chuck-schumer-nvidia-jensen-huang-b3091062.html",
-          "title": "Schumer accuses Nvidia CEO Jensen Huang of illegally selling advanced chips to China",
-          "published": "2026-11-24T23:02:03+00:00"
-        },
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
-          "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
-          "published": "2026-11-17T16:30:10+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
-    {
-      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
-      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T03:03:03+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-          "title": "Thomas Markle charged in US for possessing child sex abuse images",
-          "published": "2026-11-25T01:40:42+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/thomas-markle-child-sex-abuse-materials-9.7434831?cmp=rss",
-          "title": "Megan Markle's father indicted on 2 counts of possessing child sex abuse materials",
-          "published": "2026-11-24T23:42:20+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Zimbabwe court issues arrest warrant for Robert Mugabe’s son",
-      "url": "http://www.africanews.com/2026/11/25/zimbabwe-court-issues-arrest-warrant-for-robert-mugabes-son/",
-      "source": "Africanews",
-      "published": "2026-11-25T11:09:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
-          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
-          "published": "2026-11-25T07:26:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Two Libyan soldiers die after Ukraine attack on Russian vessel",
-      "url": "https://www.aljazeera.com/news/2026/11/25/two-libyan-soldiers-die-after-ukraine-attack-on-russian-vessel?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T09:58:02+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261125-live-two-libyan-soldiers-killed-in-ukrainian-attack-on-russian-vessels-in-benghazi",
-          "title": "Live: Two Libyan soldiers killed in Ukrainian attack on Russian vessels in Benghazi",
-          "published": "2026-11-25T03:46:51+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Multiple investigations, internal unrest, and circular financing: The risks behind Jensen Huang’s return to Nvidia",
       "url": "https://english.elpais.com/usa/2026-11-25/multiple-investigations-internal-unrest-and-circular-financing-the-risks-behind-jensen-huangs-return-to-nvidia.html",
       "source": "El País",
@@ -408,22 +414,6 @@
           "url": "https://www.semafor.com/article/11/24/2026/asian-stocks-soar-after-jensen-huangs-return-as-nvidia-ceo",
           "title": "Asian stocks soar after Jensen Huang’s return as Nvidia CEO",
           "published": "2026-11-24T12:05:25+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "AFCON 2025: CAS gives title back to Senegal as Morocco vows to challenge verdict",
-      "url": "https://www.france24.com/en/tv-shows/sports/20261125-2025-afcon-cas-gives-title-to-senegal-as-morocco-vows-to-challenge-verdict",
-      "source": "France24",
-      "published": "2026-11-25T06:20:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/23/cas-to-publish-verdict-on-senegal-afcon-title-appeal-on-tuesday/",
-          "title": "CAS to publish verdict on Senegal AFCON title appeal on Tuesday",
-          "published": "2026-11-23T14:25:55+00:00"
         }
       ],
       "consensus": 2.5
@@ -509,38 +499,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
-      "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive",
-      "source": "France24",
-      "published": "2026-11-24T21:28:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/24/2026/jensen-huangs-nvidia-comeback-leaves-him-unfireable-and-indebted-to-trump",
-          "title": "Jensen Huang's Nvidia comeback leaves him unfireable and indebted to Trump",
-          "published": "2026-11-24T13:46:57+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Senegal reinstated as AFCON 2025 winners",
-      "url": "https://www.france24.com/en/senegal-reinstated-as-afcon-2025-winners",
-      "source": "France24",
-      "published": "2026-11-24T21:14:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/24/senegal-reinstated-as-afcon-winners-after-cas-rules-against-morocco/",
-          "title": "Senegal reinstated as AFCON winners after CAS rules against Morocco",
-          "published": "2026-11-24T15:22:52+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Zambia formally indicts opposition leader on treason charges",
       "url": "https://www.rfi.fr/en/africa/20261124-zambia-formally-indicts-opposition-leader-on-treason-charges",
       "source": "RFI English",
@@ -609,38 +567,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Bangladesh garment workers win 36% minimum wage rise after protests",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375787/bangladesh-garment-workers-win-36-minimum-wage-rise-after-protests",
-      "source": "SCMP",
-      "published": "2026-11-25T12:11:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/bangladesh-garment-workers-win-36-wage-rise/article71741049.ece",
-          "title": "Bangladesh garment workers win 36% wage rise",
-          "published": "2026-11-25T04:17:43+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Eurostar services between London and Paris cancelled after staff go on surprise strike",
-      "url": "https://www.independent.co.uk/travel/news-and-advice/eurostar-cancellations-london-paris-trains-strikes-b3091314.html",
-      "source": "The Independent",
-      "published": "2026-11-25T11:33:45+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261125-surprise-eurostar-strike-cancels-london-paris-and-brussels-trains",
-          "title": "🔴 Surprise Eurostar strike cancels London, Paris and Brussels trains",
-          "published": "2026-11-25T10:14:45+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
@@ -835,82 +761,134 @@
       "consensus": 1.5
     },
     {
-      "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
-      "url": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
+      "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+      "url": "http://www.africanews.com/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns/",
+      "source": "Africanews",
+      "published": "2026-11-24T07:22:52+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/24/ecuador-severe-flooding-hits-galapagos-islands-amid-el-nino-concerns",
+          "title": "Ecuador: Severe flooding hits Galápagos Islands amid El Niño concerns",
+          "published": "2026-11-24T07:22:44+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "A new era of pragmatism? China and Britain look for ways to get along",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375759/new-era-pragmatism-china-and-britain-look-ways-get-along",
+      "source": "SCMP",
+      "published": "2026-11-25T13:00:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kilmar Abrego Garcia, who faced U.S. deportation efforts and 'vindictive prosecution,' arrives in Spain",
+      "url": "https://www.cbc.ca/news/world/us-spain-abrego-garcia-9.7435157?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T12:56:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Italy waits to see if Gianni De Gennaro’s posthumous writings shed light on the secrets of the Mafia",
+      "url": "https://english.elpais.com/international/2026-11-25/italy-waits-to-see-if-gianni-de-gennaros-posthumous-writings-shed-light-on-the-secrets-of-the-mafia.html",
+      "source": "El País",
+      "published": "2026-11-25T12:50:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Xi's graft probe of Shanghai rising star upends traditional path to power in China",
+      "url": "https://www.straitstimes.com/asia/xis-graft-probe-of-shanghai-rising-star-upends-traditional-path-to-power-in-china",
+      "source": "Straits Times",
+      "published": "2026-11-25T12:46:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump to meet Abdul El-Sayed: Will he agree to a renamed Medicare-for-all?",
+      "url": "https://www.aljazeera.com/news/2026/11/25/trump-to-meet-abdul-el-sayed-will-he-agree-to-a-renamed-medicare-for-all?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T12:45:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trinity Rodman out of USWNT’s World Cup qualifier due to shoulder injury",
+      "url": "https://www.aljazeera.com/sports/2026/11/25/trinity-rodman-out-of-uswnts-world-cup-qualifier-due-to-shoulder-injury?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T12:43:25+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Bayern Munich’s Musiala checked for neurological symptoms in April 2025",
+      "url": "https://www.aljazeera.com/sports/2026/11/25/bayern-munichs-musiala-checked-for-neurological-symptoms-in-april-2025?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T12:42:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-25T12:24:12+00:00",
+      "published": "2026-11-25T12:42:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
-      "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T12:21:49+00:00",
+      "title": "Workplace safety to home loans: Asian start-ups rewarded for deploying AI for social good",
+      "url": "https://www.straitstimes.com/asia/south-asia/workplace-safety-to-home-loans-asian-start-ups-rewarded-for-deploying-ai-for-social-good",
+      "source": "Straits Times",
+      "published": "2026-11-25T12:40:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
-      "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T12:20:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
-      "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
-      "source": "NPR World",
-      "published": "2026-11-25T12:18:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Parliament clears 7 EU budget files for negotiations",
-      "url": "https://www.politico.eu/article/parliament-clears-seven-eu-budget-files-for-negotiations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-25T12:17:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "UN warns of growing risk of atrocities by Israel against Palestinians",
-      "url": "https://www.channelnewsasia.com/world/un-warns-growing-risk-atrocities-israel-against-palestinians-6581621",
-      "source": "CNA",
-      "published": "2026-11-25T12:14:41+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Sánchez to skip EU summit before Spanish election",
-      "url": "https://www.politico.eu/article/pedro-sanchez-to-skip-eu-summit-before-spanish-elections-picking-macron-as-proxy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-25T12:14:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "He’s coming home: Catalan leader Puigdemont plans return to Spain",
-      "url": "https://www.politico.eu/article/hes-coming-home-separatist-leader-puigdemont-to-return-to-spain/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-25T12:13:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Saudi Arabia can fund a ‘prolonged’ war, Finance Minister says",
-      "url": "https://www.semafor.com/article/11/25/2026/saudi-arabia-can-fund-a-prolonged-war-finance-minister-says",
+      "title": "Africa’s cashless revolution faces AI challenge",
+      "url": "https://www.semafor.com/article/11/25/2026/africas-cashless-revolution-faces-ai-challenge",
       "source": "Semafor",
-      "published": "2026-11-25T12:13:08+00:00",
+      "published": "2026-11-25T12:38:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russia places Murmansk governor in detention in corruption case",
+      "url": "https://www.channelnewsasia.com/world/russia-places-murmansk-governor-in-detention-in-corruption-case-6581716",
+      "source": "CNA",
+      "published": "2026-11-25T12:37:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "5 popular Hong Kong schools allowed to add extra Form One class next year",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3375788/five-popular-hong-kong-schools-allowed-add-extra-form-one-class-next-year",
+      "source": "SCMP",
+      "published": "2026-11-25T12:34:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Kilmar Ábrego García, a Salvadoran national mistakenly deported from the US, arrives in Spain",
+      "url": "https://www.independent.co.uk/news/world/europe/spain-markwayne-mullin-trump-baltimore-madrid-b3091410.html",
+      "source": "The Independent",
+      "published": "2026-11-25T12:34:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -927,10 +905,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 134.26,
+      "price": 134.18,
       "currency": "GBP",
-      "change": -1.22,
-      "change_percent": -0.9,
+      "change": -1.3,
+      "change_percent": -0.96,
       "name": "FTSE All-World ETF"
     },
     {
@@ -943,10 +921,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10464.99,
+      "price": 10455.4,
       "currency": "GBP",
-      "change": -2.08,
-      "change_percent": -0.02,
+      "change": -11.67,
+      "change_percent": -0.11,
       "name": "FTSE 100"
     }
   ],
@@ -962,10 +940,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10464.99,
+        "price": 10455.4,
         "currency": "GBP",
-        "change": -2.08,
-        "change_percent": -0.02,
+        "change": -11.67,
+        "change_percent": -0.11,
         "name": "FTSE 100"
       },
       {
@@ -994,52 +972,52 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 24941.42,
+        "price": 24900.63,
         "currency": "EUR",
-        "change": -76.39,
-        "change_percent": -0.31,
+        "change": -117.18,
+        "change_percent": -0.47,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8083.64,
+        "price": 8069.78,
         "currency": "EUR",
-        "change": 43.15,
-        "change_percent": 0.54,
+        "change": 29.29,
+        "change_percent": 0.36,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3546.1,
+        "price": 3544.0,
         "currency": "USD",
-        "change": -45.0,
-        "change_percent": -1.25,
+        "change": -47.1,
+        "change_percent": -1.31,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.04,
+        "price": 40.22,
         "currency": "USD",
-        "change": -1.21,
-        "change_percent": -2.94,
+        "change": -1.03,
+        "change_percent": -2.5,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 89.07,
+        "price": 89.0,
         "currency": "USD",
-        "change": 0.29,
-        "change_percent": 0.33,
+        "change": 0.22,
+        "change_percent": 0.25,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
-        "price": 1.1,
+        "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.12,
+        "change_percent": -0.18,
         "name": "EUR/USD"
       },
       {
@@ -1047,23 +1025,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.29,
+        "change_percent": -0.35,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.25,
+        "price": 159.31,
         "currency": "JPY",
-        "change": 0.01,
-        "change_percent": 0.01,
+        "change": 0.07,
+        "change_percent": 0.04,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58583.31,
+        "price": 58567.12,
         "currency": "USD",
-        "change": -1162.34,
-        "change_percent": -1.95,
+        "change": -1178.53,
+        "change_percent": -1.97,
         "name": "Bitcoin"
       }
     ],
@@ -1158,6 +1136,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Kaliningrad: the Russian exclave where tensions are mounting",
+          "url": "https://theweek.com/defence/kaliningrad-the-russian-exclave-where-tensions-are-mounting",
+          "published": "2026-11-25T12:34:37+00:00",
+          "snippet": "Strategically vital Baltic territory is ‘potential flashpoint’ in confrontation between Nato and Moscow"
+        },
+        {
           "title": "A ‘Sister’ sketch on ‘Saturday Night Live’ strikes a nerve with caregivers over gender roles",
           "url": "https://theweek.com/health/a-sister-sketch-on-saturday-night-live-strikes-a-nerve-with-caregivers-over-gender-roles",
           "published": "2026-11-25T07:00:00+00:00",
@@ -1168,12 +1152,6 @@
           "url": "https://theweek.com/culture-life/books/the-best-fantasy-book-series-for-every-fan-le-guin-hobb-sanderson-jemisin",
           "published": "2026-11-25T07:00:00+00:00",
           "snippet": "These novels, including a classic by Ursula K. Le Guin and a contemporary fave from N.K. Jemisin, will transport you"
-        },
-        {
-          "title": "An ED pill may slow Alzheimer’s progression",
-          "url": "https://theweek.com/health/an-ed-pill-may-slow-alzheimers-progression",
-          "published": "2026-11-25T07:00:00+00:00",
-          "snippet": "But only in some people"
         }
       ]
     },
@@ -1234,6 +1212,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "South Africa’s Ramaphosa wins battle to halt impeachment push",
+          "url": "https://www.ft.com/content/e8081338-7139-4fcb-9643-73079d4913c4?syn-25a6b1a6=1",
+          "published": "2026-11-25T12:50:10+00:00",
+          "snippet": "Court ruling stops inquiry into long-running stolen cash scandal involving president"
+        },
+        {
           "title": "Where did Vermeer find his hat? Artist Kent Monkman hunts for an answer",
           "url": "https://www.ft.com/content/84bc3238-c48b-4007-8ca4-48c95a7a70bf",
           "published": "2026-11-25T12:00:04+00:00",
@@ -1244,12 +1228,6 @@
           "url": "https://www.ft.com/content/afdac003-51b0-43da-8c7c-b5675f9b7c1b?syn-25a6b1a6=1",
           "published": "2026-11-25T11:56:23+00:00",
           "snippet": "German chancellor seeks to convince increasingly sceptical population to maintain support for Ukraine"
-        },
-        {
-          "title": "The investigations facing Nvidia and Jensen Huang",
-          "url": "https://www.ft.com/content/b68742ac-f7b9-4aca-b4d9-48245e749b60?syn-25a6b1a6=1",
-          "published": "2026-11-25T11:25:34+00:00",
-          "snippet": "Returning CEO and chipmaker face scrutiny from federal and state authorities, Congress and shareholders"
         }
       ]
     },
@@ -1258,6 +1236,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "The Great American Tradition",
+          "url": "https://www.theatlantic.com/ideas/2026/11/boycotts-mississippi-naacp-press-scotus/689568/?utm_source=feed",
+          "published": "2026-11-25T12:30:00+00:00",
+          "snippet": "More than 40 years ago, the Supreme Court affirmed that boycotting is a fundamental right protected by the First Amendment—something the Trump administration..."
+        },
         {
           "title": "A Bizarre Sequel to One of Tarantino’s Best Movies",
           "url": "https://www.theatlantic.com/culture/2026/11/cliff-booth-once-upon-a-time-in-hollywood-sequel-review/689578/?utm_source=feed",
@@ -1269,12 +1253,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/permit-reform-democratic-accountability/689575/?utm_source=feed",
           "published": "2026-11-25T12:00:00+00:00",
           "snippet": "They ran and won on affordability—now they’re resisting a simple fix."
-        },
-        {
-          "title": "Beware the Gangs of Marauding Wild Turkeys in a City Near You",
-          "url": "https://www.theatlantic.com/science/2026/11/wild-turkeys-cities-suburbs-mayhem/689475/?utm_source=feed",
-          "published": "2026-11-25T12:00:00+00:00",
-          "snippet": "Turkeys are moving into towns across America—and causing mayhem along the way."
         }
       ]
     },
@@ -1359,7 +1337,7 @@
       {
         "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
         "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 47,
+        "score": 76,
         "source": "Hacker News",
         "published": "2026-11-25T11:34:25+00:00"
       },
@@ -1372,25 +1350,25 @@
         "published": "2026-11-25T10:52:53.581000+00:00"
       },
       {
-        "title": "The Riemann Hypothesis Proof as a Mediaeval Fantasy RPG Map",
-        "url": "https://marioschlosser.org/riemann/",
-        "score": 35,
-        "source": "Hacker News",
-        "published": "2026-11-25T10:32:04+00:00"
-      },
-      {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
         "comments_url": "https://lobste.rs/s/ogxwpi/taking_over_us_treasury_subdomains_for_3",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-25T10:27:49.339000+00:00"
+      },
+      {
+        "title": "Smart People Who Give a Shit Use Tools",
+        "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+        "score": 29,
+        "source": "Hacker News",
+        "published": "2026-11-25T07:46:43+00:00"
       },
       {
         "title": "Needles, Haystacks, and Numbers Between 0 and 1",
         "url": "https://rustfoundation.org/media/needles-haystacks-and-numbers-between-0-and-1/",
         "comments_url": "https://lobste.rs/s/5gefep/needles_haystacks_numbers_between_0_1",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-25T07:03:53.327000+00:00"
       },
@@ -1398,7 +1376,7 @@
         "title": "Marginalia Search, Money, C++, Rust, AI, stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
         "comments_url": "https://lobste.rs/s/srb0dp/marginalia_search_money_c_rust_ai_stuff",
-        "score": 28,
+        "score": 29,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:20:29.600000+00:00"
       },
@@ -1406,7 +1384,7 @@
         "title": "Flat/non-higher-order construction of ANF via mutable holes",
         "url": "https://blueberrywren.dev/blog/anf-mutable/",
         "comments_url": "https://lobste.rs/s/n0itvf/flat_non_higher_order_construction_anf",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-25T06:11:39.705000+00:00"
       },
@@ -1414,21 +1392,21 @@
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/",
         "comments_url": "https://lobste.rs/s/sj2pkv/abolish_lock_poisoning",
-        "score": 23,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-25T05:10:37.243000+00:00"
       },
       {
         "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
         "url": "https://gpu-demo-gallery.pages.dev/",
-        "score": 174,
+        "score": 186,
         "source": "Hacker News",
         "published": "2026-11-25T04:31:48+00:00"
       },
       {
         "title": "Taking over US Treasury subdomains for $3 each",
         "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
-        "score": 118,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-25T04:27:55+00:00"
       },
@@ -1443,14 +1421,14 @@
       {
         "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
         "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-        "score": 156,
+        "score": 159,
         "source": "Hacker News",
         "published": "2026-11-25T03:47:42+00:00"
       },
       {
         "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
         "url": "https://buttons.joshwcomeau.com/",
-        "score": 483,
+        "score": 501,
         "source": "Hacker News",
         "published": "2026-11-25T03:23:07+00:00"
       },
@@ -1458,14 +1436,14 @@
         "title": "Matrix Multiplication is Θ(n^2.25)",
         "url": "https://raw.githubusercontent.com/openai/math/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
         "comments_url": "https://lobste.rs/s/kn0pmh/matrix_multiplication_is_n_2_25",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-25T03:15:59.317000+00:00"
       },
       {
         "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
         "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-        "score": 249,
+        "score": 259,
         "source": "Hacker News",
         "published": "2026-11-25T03:04:37+00:00"
       }

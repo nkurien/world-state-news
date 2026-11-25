@@ -1,160 +1,166 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T23:01:05.055570+00:00",
+  "last_updated": "2026-11-25T23:30:57.477337+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 380
+      "ms": 341
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 124
+      "ms": 259
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 171
+      "ms": 173
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 240
+      "ms": 226
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 396
+      "ms": 238
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 324
+      "ms": 280
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 935
+      "ms": 547
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 410
+      "ms": 345
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 87
+      "ms": 153
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 133
+      "ms": 132
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 675
+      "ms": 715
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 260
+      "ms": 658
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 217
+      "ms": 230
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 117
+      "ms": 122
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 393
+      "ms": 162
     },
     "RNZ": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 205
+      "ms": 284
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 568
+      "ms": 582
     },
     "Semafor": {
       "ok": true,
       "count": 275,
       "error": null,
-      "ms": 439
+      "ms": 482
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 467
+      "ms": 713
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 285
+      "ms": 317
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3240
+      "ms": 3226
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 119
+      "ms": 184
     },
     "The Independent": {
       "ok": true,
-      "count": 95,
+      "count": 96,
       "error": null,
-      "ms": 179
+      "ms": 216
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 147
+      "ms": 146
     }
   },
   "breaking": [
     {
-      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-      "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T22:46:30+00:00",
-      "score": 4,
+      "title": "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
+      "url": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
+      "source": "SCMP",
+      "published": "2026-11-25T23:20:50+00:00",
+      "score": 5,
       "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "published": "2026-11-25T22:46:30+00:00"
+        },
         {
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/andy-taylor-guitarist-new-wave-icons-duran-duran-dies-65-6582916",
@@ -174,7 +180,7 @@
           "published": "2026-11-25T21:50:58+00:00"
         }
       ],
-      "consensus": 5.0
+      "consensus": 6.0
     },
     {
       "title": "North Korea expels Swiss diplomat in sanctions row",
@@ -263,20 +269,20 @@
       "consensus": 2.5
     },
     {
-      "title": "South Africa's Ramaphosa wins court bid over impeachment report",
-      "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
-      "source": "Africanews",
-      "published": "2026-11-25T20:07:59+00:00",
+      "title": "U.S. targets China, EU with new tariffs citing overcapacity",
+      "url": "https://www.japantimes.co.jp/business/2026/11/26/us-china-eu-tariffs-overcapacity/",
+      "source": "Japan Times",
+      "published": "2026-11-25T23:10:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
-          "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
-          "published": "2026-11-25T15:42:50+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+          "title": "China warns US against imposing new tariffs",
+          "published": "2026-11-25T09:02:00+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
       "title": "Multiple Russian jets damaged during strike at major military air base, Ukraine says",
@@ -347,28 +353,6 @@
       "consensus": 3.5
     },
     {
-      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
-      "source": "SCMP",
-      "published": "2026-11-25T14:03:18+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-          "title": "China warns US against imposing new tariffs",
-          "published": "2026-11-25T09:02:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
       "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
       "source": "The Independent",
@@ -391,26 +375,20 @@
       "consensus": 3.5
     },
     {
-      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
-      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T03:03:03+00:00",
-      "score": 3,
+      "title": "South Africa's Ramaphosa wins court bid over impeachment report",
+      "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
+      "source": "Africanews",
+      "published": "2026-11-25T20:07:59+00:00",
+      "score": 2,
       "other_sources": [
         {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-          "title": "Thomas Markle charged in US for possessing child sex abuse images",
-          "published": "2026-11-25T01:40:42+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-charged-child-sex-abuse-material-b3091071.html",
-          "title": "Thomas Markle indicted in US over possession of child sex abuse material",
-          "published": "2026-11-24T23:31:54+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
+          "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+          "published": "2026-11-25T15:42:50+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "British show Top Gear revived with Gordon Ramsay as new host",
@@ -456,6 +434,22 @@
           "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
           "title": "US announces new tariffs on host of countries including China",
           "published": "2026-11-25T16:21:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+      "source": "SCMP",
+      "published": "2026-11-25T14:03:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -536,6 +530,22 @@
           "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
           "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
           "published": "2026-11-25T05:12:28+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
+      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T03:03:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+          "title": "Thomas Markle charged in US for possessing child sex abuse images",
+          "published": "2026-11-25T01:40:42+00:00"
         }
       ],
       "consensus": 2.5
@@ -803,35 +813,28 @@
       "consensus": 1.5
     },
     {
-      "title": "France: Chefs compete for the world egg mayonnaise championship",
-      "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:12:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship",
-          "title": "France: Chefs compete for the world egg mayonnaise championship",
-          "published": "2026-11-24T14:11:57+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Romans burn PSG's perfect start to Champions League campaign",
-      "url": "https://www.rfi.fr/en/sports/20261125-romans-burn-psg-s-perfect-start-to-champions-league-campaign",
-      "source": "RFI English",
-      "published": "2026-11-25T22:59:35+00:00",
+      "title": "US trading partners’ patience wears thin as Trump slaps on new tariffs",
+      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3375819/us-trading-partners-patience-wears-thin-trump-slaps-new-tariffs",
+      "source": "SCMP",
+      "published": "2026-11-25T23:30:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Perverse' vote means Tasmania ends greyhound racing without protections for dogs",
-      "url": "https://www.abc.net.au/news/2026-11-26/greyhound-racing-tasmania-phase-out-legislative-protections/107428306",
+      "title": "Live: Victorian election stoush over dumped Liberal's blue t-shirts back in court",
+      "url": "https://www.abc.net.au/news/2026-11-26/victorian-election-live-updates-labor-liberal-court-battle/107428608",
       "source": "ABC Australia",
-      "published": "2026-11-25T22:54:23+00:00",
+      "published": "2026-11-25T23:25:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "US federal court blocks new Trump birthright citizenship executive order",
+      "url": "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+      "source": "SCMP",
+      "published": "2026-11-25T23:25:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -840,70 +843,61 @@
       "title": "Macy’s postpones Thanksgiving Day parade for first time ever and NBC decides what to air instead",
       "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
       "source": "The Independent",
-      "published": "2026-11-25T22:51:19+00:00",
+      "published": "2026-11-25T23:21:50+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Deadly truck fire is latest of Egypt’s transport disasters",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/deadly-truck-fire-is-latest-of-egypts-transport-disasters?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T22:48:47+00:00",
+      "title": "Angelina Jolie and Brad Pitt settle winery fight lawsuit that surfaced abuse allegations",
+      "url": "https://www.independent.co.uk/news/world/americas/angelina-jolie-brad-pitt-los-angeles-french-fbi-b3091834.html",
+      "source": "The Independent",
+      "published": "2026-11-25T23:13:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US CDC reports nine measles-related deaths in 2026",
-      "url": "https://www.channelnewsasia.com/world/us-measles-related-deaths-cdc-2026-6582501",
-      "source": "CNA",
-      "published": "2026-11-25T22:43:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why buying a used EV could get harder next year",
-      "url": "https://www.rnz.co.nz/news/business/2788927/why-buying-a-used-ev-could-get-harder-next-year",
+      "title": "Explainer: Why Air New Zealand is cracking down on your carry-on baggage",
+      "url": "https://www.rnz.co.nz/news/business/2790865/explainer-why-air-new-zealand-is-cracking-down-on-your-carry-on-baggage",
       "source": "RNZ",
-      "published": "2026-11-25T22:38:08+00:00",
+      "published": "2026-11-25T23:12:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US tariff proposal raises stakes for India to clinch trade deal",
-      "url": "https://www.straitstimes.com/asia/south-asia/us-tariff-proposal-raises-stakes-for-india-to-clinch-trade-deal",
-      "source": "Straits Times",
-      "published": "2026-11-25T22:37:00+00:00",
+      "title": "Canberra youths to face charges after aggravated robbery",
+      "url": "https://www.abc.net.au/news/2026-11-26/four-young-people-to-be-charged-following-aggravated-robbery/107428558",
+      "source": "ABC Australia",
+      "published": "2026-11-25T23:04:09+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Football player Shinnichiro Joey Omotani lured drunk woman out of pub before sexual assault",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2789349/football-player-shinnichiro-joey-omotani-lured-drunk-woman-out-of-pub-before-sexual-assault",
-      "source": "RNZ",
-      "published": "2026-11-25T22:32:29+00:00",
+      "title": "At least 31 dead in Egypt blaze after vehicle carrying petrol products flips",
+      "url": "https://www.independent.co.uk/news/world/africa/egypt-fire-vehicle-flip-deaths-b3091723.html",
+      "source": "The Independent",
+      "published": "2026-11-25T23:01:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US economy expands at a rapid 4.3% in third quarter",
-      "url": "https://www.semafor.com/article/11/25/2026/us-economy-expands-at-a-rapid-43-in-third-quarter",
-      "source": "Semafor",
-      "published": "2026-11-25T22:30:52+00:00",
+      "title": "Grinch and Sarge, an unlikely friendship between country cop and dog",
+      "url": "https://www.abc.net.au/news/2026-11-26/wa-police-officer-takes-in-dog-after-crash-kills-owner/107417162",
+      "source": "ABC Australia",
+      "published": "2026-11-25T23:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Farmers staff set to strike over wage negotiations impasse",
-      "url": "https://www.rnz.co.nz/news/business/2789306/farmers-staff-set-to-strike-over-wage-negotiations-impasse",
-      "source": "RNZ",
-      "published": "2026-11-25T22:30:24+00:00",
+      "title": "Romans burn PSG's perfect start to Champions League campaign",
+      "url": "https://www.rfi.fr/en/sports/20261125-romans-burn-psg-s-perfect-start-to-champions-league-campaign",
+      "source": "RFI English",
+      "published": "2026-11-25T22:59:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1005,26 +999,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3617.8,
+        "price": 3604.2,
         "currency": "USD",
-        "change": 53.2,
-        "change_percent": 1.49,
+        "change": 39.6,
+        "change_percent": 1.11,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.67,
+        "price": 41.61,
         "currency": "USD",
-        "change": 1.13,
-        "change_percent": 2.79,
+        "change": 1.07,
+        "change_percent": 2.64,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.82,
+        "price": 90.57,
         "currency": "USD",
-        "change": 0.18,
-        "change_percent": 0.2,
+        "change": -0.07,
+        "change_percent": -0.08,
         "name": "Brent Crude"
       },
       {
@@ -1040,12 +1034,12 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.0,
+        "change_percent": 0.01,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.15,
+        "price": 159.14,
         "currency": "JPY",
         "change": -0.1,
         "change_percent": -0.06,
@@ -1053,10 +1047,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59935.83,
+        "price": 60113.29,
         "currency": "USD",
-        "change": 190.18,
-        "change_percent": 0.32,
+        "change": 367.64,
+        "change_percent": 0.62,
         "name": "Bitcoin"
       }
     ],
@@ -1151,6 +1145,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "The weight-loss needle problem",
+          "url": "https://theweek.com/health/the-weight-loss-needle-problem",
+          "published": "2026-11-25T23:25:36+00:00",
+          "snippet": "Obesity injections have become a major recycling concern and are ‘posing a safety risk to front-line crews’"
+        },
+        {
           "title": "Zoo’s hippo death highlights conflict between safety and access",
           "url": "https://theweek.com/culture-life/zoos-hippo-death-highlights-conflict-between-safety-and-access",
           "published": "2026-11-25T19:56:00+00:00",
@@ -1161,12 +1161,6 @@
           "url": "https://theweek.com/politics/democrats-electoral-sweep-opens-a-path-to-end-the-electoral-college",
           "published": "2026-11-25T17:58:24+00:00",
           "snippet": "The midterms mark a tipping point for states hoping to enact the controversial National Popular Vote Interstate Compact"
-        },
-        {
-          "title": "Why are documentaries having a moment?",
-          "url": "https://theweek.com/culture-life/film/why-are-documentaries-having-a-moment",
-          "published": "2026-11-25T13:49:58+00:00",
-          "snippet": "You Can See Everything leads an inventive new wave of non-fiction movies"
         }
       ]
     },
@@ -1227,6 +1221,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Israeli judges advise prosecutors to drop some charges against Netanyahu",
+          "url": "https://www.ft.com/content/db700af5-22b2-4903-ae2e-124513681071?syn-25a6b1a6=1",
+          "published": "2026-11-25T23:18:48+00:00",
+          "snippet": "Country’s attorney-general told there is little chance of a bribery conviction in a boost for the premier"
+        },
+        {
           "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
           "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
           "published": "2026-11-25T22:24:37+00:00",
@@ -1237,12 +1237,6 @@
           "url": "https://www.ft.com/content/fb4f6707-274e-4f93-bcfb-7cce28d4a4ea",
           "published": "2026-11-25T22:17:53+00:00",
           "snippet": "The report will help cement the coming December Federal Reserve interest rate rise"
-        },
-        {
-          "title": "US stocks close lower in volatile session as AI trade remains under pressure",
-          "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-          "published": "2026-11-25T21:26:33+00:00",
-          "snippet": "Chip group Nvidia among losers but AI start-up Anthropic a bright spot as shares finish higher"
         }
       ]
     },
@@ -1350,10 +1344,25 @@
   "web": {
     "tech": [
       {
+        "title": "Designing for a Sense of Mystery and Wonder (2021)",
+        "url": "https://blog.runevision.com/2021/02/designing-for-sense-of-mystery-and.html",
+        "comments_url": "https://lobste.rs/s/mzffbj/designing_for_sense_mystery_wonder_2021",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-25T23:28:57.752000+00:00"
+      },
+      {
+        "title": "Jev is (probably) Qwen3.5-35B-A3B",
+        "url": "https://modaic.dev/blog/latency-doesnt-lie",
+        "score": 11,
+        "source": "Hacker News",
+        "published": "2026-11-25T22:57:04+00:00"
+      },
+      {
         "title": "SSH is a GUI framework",
         "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
         "comments_url": "https://lobste.rs/s/rtde6f/ssh_is_gui_framework",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:55:47.525000+00:00"
       },
@@ -1361,7 +1370,7 @@
         "title": "Typed indexes in Zig",
         "url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig/",
         "comments_url": "https://lobste.rs/s/l6g7j1/typed_indexes_zig",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:48:44.713000+00:00"
       },
@@ -1369,7 +1378,7 @@
         "title": "Entering the Geminispace",
         "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
         "comments_url": "https://lobste.rs/s/8rgqmw/entering_geminispace",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:43:05.044000+00:00"
       },
@@ -1385,28 +1394,28 @@
         "title": "Scott Aaronson on recent complexity theory AI achievements",
         "url": "https://scottaaronson.blog/?p=10379",
         "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
-        "score": 6,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-25T21:52:52.967000+00:00"
       },
       {
         "title": "Much shorter version of GRH Lean verification from Anthropic",
         "url": "https://github.com/lsernau/grh-lean",
-        "score": 122,
+        "score": 163,
         "source": "Hacker News",
         "published": "2026-11-25T21:48:10+00:00"
       },
       {
         "title": "Defang Security Incident",
         "url": "https://defang.io/blog/post/security-incident-november-2026/",
-        "score": 33,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-25T21:47:16+00:00"
       },
       {
         "title": "The New York Times tells photographers not to use the latest Photoshop",
         "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
-        "score": 60,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-25T21:18:02+00:00"
       },
@@ -1421,21 +1430,21 @@
       {
         "title": "Slow Ubuntu security response times",
         "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-        "score": 55,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-25T20:38:00+00:00"
       },
       {
         "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
         "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
-        "score": 46,
+        "score": 58,
         "source": "Hacker News",
         "published": "2026-11-25T20:35:50+00:00"
       },
       {
         "title": "72-Hour Fasting Can Reset Your Immune System, USC Study Shows",
         "url": "https://scienceinhand.com/72-hour-fasting-can-reset-your-entire-immune-system-usc-study-shows/",
-        "score": 48,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-25T20:35:39+00:00"
       },
@@ -1443,23 +1452,9 @@
         "title": "Slow Ubuntu security response times",
         "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
         "comments_url": "https://lobste.rs/s/wzlzlh/slow_ubuntu_security_response_times",
-        "score": 33,
+        "score": 38,
         "source": "Lobste.rs",
         "published": "2026-11-25T20:10:24.526000+00:00"
-      },
-      {
-        "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-        "url": "https://scottaaronson.blog/?p=10379",
-        "score": 730,
-        "source": "Hacker News",
-        "published": "2026-11-25T19:11:27+00:00"
-      },
-      {
-        "title": "Britain's ghost stations",
-        "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-        "score": 78,
-        "source": "Hacker News",
-        "published": "2026-11-25T17:43:46+00:00"
       }
     ],
     "reddit": [

@@ -1,187 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-25T19:30:58.373225+00:00",
+  "last_updated": "2026-11-25T20:01:24.979196+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 513
+      "ms": 201
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 494
+      "ms": 143
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 320
+      "ms": 150
     },
     "BBC News": {
       "ok": true,
-      "count": 30,
+      "count": 31,
       "error": null,
-      "ms": 206
+      "ms": 381
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 203
+      "ms": 244
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 459
+      "ms": 308
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 606
+      "ms": 693
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 682
+      "ms": 283
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 146
+      "ms": 161
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 311
+      "ms": 229
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 851
+      "ms": 810
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 374
+      "ms": 219
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 322
+      "ms": 176
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 185
+      "ms": 465
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 232
+      "ms": 410
     },
     "RNZ": {
       "ok": true,
       "count": 48,
       "error": null,
-      "ms": 384
+      "ms": 172
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 821
+      "ms": 603
     },
     "Semafor": {
       "ok": true,
       "count": 271,
       "error": null,
-      "ms": 840
+      "ms": 443
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 724
+      "ms": 623
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 291
+      "ms": 273
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3206
+      "ms": 3193
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 471
+      "ms": 166
     },
     "The Independent": {
       "ok": true,
       "count": 93,
       "error": null,
-      "ms": 292
+      "ms": 210
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 276
+      "ms": 140
     }
   },
   "breaking": [
-    {
-      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
-      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T17:38:36+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "title": "US announces new tariffs on host of countries including China",
-          "published": "2026-11-25T16:21:34+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target?traffic_source=rss",
-          "title": "Trump announces new trade tariffs: Which countries are affected?",
-          "published": "2026-11-25T14:54:44+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
-          "title": "Trump announces new tariffs on EU, China despite US midterms defeat",
-          "published": "2026-11-25T14:38:47+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
-          "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
-          "published": "2026-11-25T11:34:00+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
     {
       "title": "US Army detonates toxic explosives in Iowa despite contamination fears",
       "url": "https://www.channelnewsasia.com/world/us-army-detonates-toxic-explosives-in-iowa-despite-contamination-fears-6582536",
@@ -261,26 +227,20 @@
       "consensus": 3.5
     },
     {
-      "title": "Colombian forces rescue all hostages after supermarket siege",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T16:44:22+00:00",
-      "score": 3,
+      "title": "Top Gear is back in 2028, with chef Gordon Ramsay at the wheel",
+      "url": "https://www.cbc.ca/news/entertainment/top-gear-gordon-ramsay-host-9.7435980?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T19:50:40+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege",
-          "title": "Colombia: Security forces rescue hostages in supermarket siege",
-          "published": "2026-11-25T16:08:44+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held",
-          "title": "All hostages rescued after Colombian forces storm Cartagena supermarket",
-          "published": "2026-11-25T07:02:51+00:00"
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/life/screens/tv/top-gear-to-return-in-2028-with-celebrity-chef-gordon-ramsay-as-lead-host",
+          "title": "Chef Gordon Ramsay to host new Top Gear series",
+          "published": "2026-11-25T19:21:48+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
@@ -294,6 +254,22 @@
           "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
           "title": "Russia reportedly to launch a nuclear weapon into space",
           "published": "2026-11-24T12:01:13+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T17:38:36+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "title": "US announces new tariffs on host of countries including China",
+          "published": "2026-11-25T16:21:34+00:00"
         }
       ],
       "consensus": 2.5
@@ -315,20 +291,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Martha Firestone Ford, former Detroit Lions owner and member of auto giant family, dead at 101",
-      "url": "https://www.cbc.ca/news/canada/windsor/martha-ford-nfl-obit-9.7435464?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-25T16:40:18+00:00",
+      "title": "Two children among six dead after plane crash off Mississippi coast",
+      "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T19:26:44+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
-          "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
-          "published": "2026-11-25T16:15:26+00:00"
+          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
+          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
+          "published": "2026-11-25T09:41:54+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -361,6 +337,34 @@
       "consensus": 5.5
     },
     {
+      "title": "Trump announces new tariffs on EU, China despite US midterms defeat",
+      "url": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
+      "source": "France24",
+      "published": "2026-11-25T14:38:47+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
+          "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
+          "published": "2026-11-25T11:34:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+          "title": "China warns US against imposing new tariffs",
+          "published": "2026-11-25T09:02:00+00:00"
+        },
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/trump-to-double-down-on-tariffs-after-midterms-defeat",
+          "title": "Trump to double down on tariffs after midterms defeat",
+          "published": "2026-11-24T20:44:58+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
       "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
       "source": "The Hindu",
@@ -389,23 +393,23 @@
       "consensus": 5.0
     },
     {
-      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
-      "source": "SCMP",
-      "published": "2026-11-25T14:03:18+00:00",
+      "title": "Colombian forces rescue all hostages after supermarket siege",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T16:44:22+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege",
+          "title": "Colombia: Security forces rescue hostages in supermarket siege",
+          "published": "2026-11-25T16:08:44+00:00"
         },
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-          "title": "China warns US against imposing new tariffs",
-          "published": "2026-11-25T09:02:00+00:00"
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/colombia-security-forces-storm-supermarket-where-hostages-are-being-held",
+          "title": "All hostages rescued after Colombian forces storm Cartagena supermarket",
+          "published": "2026-11-25T07:02:51+00:00"
         }
       ],
       "consensus": 3.5
@@ -477,6 +481,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Martha Firestone Ford, former Detroit Lions owner and member of auto giant family, dead at 101",
+      "url": "https://www.cbc.ca/news/canada/windsor/martha-ford-nfl-obit-9.7435464?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T16:40:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/martha-firestone-ford-dead-detroit-lions-tire-heiress-b3091610.html",
+          "title": "Martha Firestone Ford: Ex-Detroit Lions owner dies aged 101",
+          "published": "2026-11-25T16:15:26+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
       "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -488,6 +508,22 @@
           "url": "https://www.aljazeera.com/news/2026/11/25/south-africa-court-repeals-farmgate-impeachment-threat-against-ramaphosa?traffic_source=rss",
           "title": "South Africa court repeals ‘farmgate’ impeachment threat against Ramaphosa",
           "published": "2026-11-25T15:35:33+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+      "source": "SCMP",
+      "published": "2026-11-25T14:03:18+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -593,22 +629,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Two children among six dead after plane crash off Mississippi coast",
-      "url": "https://www.bbc.co.uk/news/articles/c6z74l1017zpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T19:26:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
-          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
-          "published": "2026-11-25T09:41:54+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "MEA separates Sheikh Hasina’s plans to return to Bangladesh from issue of extradition",
@@ -835,19 +855,28 @@
       "consensus": 1.5
     },
     {
-      "title": "House Democrats chart path on trading bans",
-      "url": "https://www.semafor.com/article/11/25/2026/house-democrats-chart-path-on-trading-bans",
-      "source": "Semafor",
-      "published": "2026-11-25T19:27:44+00:00",
+      "title": "Muscular dystrophy drug approval brings hope and progress",
+      "url": "https://www.abc.net.au/news/2026-11-26/drug-approval-hopeful-development-for-muscular-dystrophy/107423880",
+      "source": "ABC Australia",
+      "published": "2026-11-25T19:58:33+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Live: SA Liberal senator Leah Blyth defects to One Nation",
-      "url": "https://www.abc.net.au/news/2026-11-26/federal-politics-live-blog-november-26/107427220",
-      "source": "ABC Australia",
-      "published": "2026-11-25T19:24:16+00:00",
+      "title": "Elderly man with Alzheimer’s rescued after 11 days in Amazon jungle",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_man-with-alzheimers-rescued-after-11-days-in-amazon-251126?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T19:57:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "At least 30 killed in highway fire in Cairo district",
+      "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+      "source": "Euronews",
+      "published": "2026-11-25T19:56:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -856,88 +885,61 @@
       "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
       "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-25T19:23:03+00:00",
+      "published": "2026-11-25T19:54:52+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Trump administration backs Musk's plan for space-based data centres",
-      "url": "https://www.abc.net.au/news/2026-11-26/musk-spacex-datacentres-fcc/107428024",
-      "source": "ABC Australia",
-      "published": "2026-11-25T19:21:00+00:00",
+      "title": "Colombia quiet as China says lawmakers’ Taiwan trip crossed its ‘first red line’",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375815/colombia-quiet-china-says-lawmakers-taiwan-trip-crossed-its-first-red-line",
+      "source": "SCMP",
+      "published": "2026-11-25T19:52:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "UK military ‘moving aircraft to hangars in case of drone attacks’",
-      "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T19:15:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US grants SpaceX approval for 1 million space data centres",
-      "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T19:13:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Marianas group wants more time to comment on US military exercises",
-      "url": "https://www.rnz.co.nz/news/pacific/2780481/marianas-group-wants-more-time-to-comment-on-us-military-exercises",
-      "source": "RNZ",
-      "published": "2026-11-25T19:11:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The Malinauskas government is winning in court — but losing on TV",
-      "url": "https://www.abc.net.au/news/2026-11-26/sa-government-parklands-projects-winning-in-court-losing-on-tv/107419900",
-      "source": "ABC Australia",
-      "published": "2026-11-25T19:06:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "WOMAD announces seven more acts for its 2027 line-up",
-      "url": "https://www.rnz.co.nz/life/music/womad-aotearoa-adds-seven-more-acts-to-2027-lineup",
-      "source": "RNZ",
-      "published": "2026-11-25T19:01:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "ICE arrests migrant days after he was pictured claiming his $1M lottery win",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/ice-arrest-boston-lottery-b3091654.html",
+      "title": "Ukraine-Russia war latest: Germany says Putin is ‘escalating on a massive scale and wants more than Ukraine’",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-putin-zelensky-oil-refineries-casualties-map-b3091150.html",
       "source": "The Independent",
-      "published": "2026-11-25T19:01:33+00:00",
+      "published": "2026-11-25T19:49:25+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Colorado city spending $23M to buy two farms for water rights hundreds of miles away",
-      "url": "https://www.independent.co.uk/news/world/americas/aurora-colorado-buying-farms-water-rights-b3091716.html",
-      "source": "The Independent",
-      "published": "2026-11-25T19:01:12+00:00",
+      "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+      "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T19:47:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Not just a name on a list': Remembering missing Kiwi in Nepal Shweta Mhatre",
-      "url": "https://www.rnz.co.nz/news/indonz-featured/2777521/not-just-a-name-on-a-list-remembering-missing-kiwi-in-nepal-shweta-mhatre",
+      "title": "US stocks tumble as AI rout and Trump tariffs rattle markets",
+      "url": "https://www.abc.net.au/news/2026-11-26/nasdaq-ai-tariffs-rattle-markets/107428016",
+      "source": "ABC Australia",
+      "published": "2026-11-25T19:44:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hopes highly automated homes will help physically disabled people live independently",
+      "url": "https://www.rnz.co.nz/news/community/2777647/hopes-highly-automated-homes-will-help-physically-disabled-people-live-independently",
       "source": "RNZ",
-      "published": "2026-11-25T19:00:35+00:00",
+      "published": "2026-11-25T19:43:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
+      "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
+      "source": "The Independent",
+      "published": "2026-11-25T19:43:18+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -946,10 +948,10 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7190.22,
+      "price": 7180.73,
       "currency": "USD",
-      "change": -10.87,
-      "change_percent": -0.15,
+      "change": -20.36,
+      "change_percent": -0.28,
       "name": "S&P 500"
     },
     {
@@ -962,10 +964,10 @@
     },
     {
       "symbol": "^IXIC",
-      "price": 23590.04,
+      "price": 23563.08,
       "currency": "USD",
-      "change": -143.49,
-      "change_percent": -0.6,
+      "change": -170.45,
+      "change_percent": -0.72,
       "name": "NASDAQ Composite"
     },
     {
@@ -981,10 +983,10 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7190.22,
+        "price": 7180.73,
         "currency": "USD",
-        "change": -10.87,
-        "change_percent": -0.15,
+        "change": -20.36,
+        "change_percent": -0.28,
         "name": "S&P 500"
       },
       {
@@ -997,18 +999,18 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50356.09,
+        "price": 50262.13,
         "currency": "USD",
-        "change": 337.39,
-        "change_percent": 0.67,
+        "change": 243.43,
+        "change_percent": 0.49,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23590.04,
+        "price": 23563.08,
         "currency": "USD",
-        "change": -143.49,
-        "change_percent": -0.6,
+        "change": -170.45,
+        "change_percent": -0.72,
         "name": "NASDAQ Composite"
       },
       {
@@ -1039,26 +1041,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3575.8,
+        "price": 3569.8,
         "currency": "USD",
-        "change": -15.3,
-        "change_percent": -0.43,
+        "change": -21.3,
+        "change_percent": -0.59,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 40.98,
+        "price": 40.95,
         "currency": "USD",
-        "change": -0.27,
-        "change_percent": -0.65,
+        "change": -0.31,
+        "change_percent": -0.74,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.37,
+        "price": 90.38,
         "currency": "USD",
-        "change": 1.59,
-        "change_percent": 1.79,
+        "change": 1.6,
+        "change_percent": 1.8,
         "name": "Brent Crude"
       },
       {
@@ -1066,7 +1068,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.21,
+        "change_percent": 0.15,
         "name": "EUR/USD"
       },
       {
@@ -1074,81 +1076,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.11,
+        "change_percent": 0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.12,
+        "price": 159.2,
         "currency": "JPY",
-        "change": -0.12,
-        "change_percent": -0.08,
+        "change": -0.04,
+        "change_percent": -0.03,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60017.63,
+        "price": 59897.34,
         "currency": "USD",
-        "change": 271.98,
-        "change_percent": 0.46,
+        "change": 151.69,
+        "change_percent": 0.25,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 492.69,
+        "price": 490.44,
         "currency": "USD",
-        "change": -3.44,
-        "change_percent": -0.69,
+        "change": -5.69,
+        "change_percent": -1.15,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 355.25,
+        "price": 354.71,
         "currency": "USD",
-        "change": 1.18,
-        "change_percent": 0.33,
+        "change": 0.64,
+        "change_percent": 0.18,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 148.0,
+        "price": 148.16,
         "currency": "USD",
-        "change": -7.38,
-        "change_percent": -4.75,
+        "change": -7.22,
+        "change_percent": -4.65,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 272.74,
+        "price": 272.38,
         "currency": "USD",
-        "change": -6.31,
-        "change_percent": -2.26,
+        "change": -6.68,
+        "change_percent": -2.39,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 245.96,
+        "price": 245.88,
         "currency": "USD",
-        "change": -6.33,
-        "change_percent": -2.51,
+        "change": -6.41,
+        "change_percent": -2.54,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 382.43,
+        "price": 382.5,
         "currency": "USD",
-        "change": -2.25,
-        "change_percent": -0.58,
+        "change": -2.18,
+        "change_percent": -0.57,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 605.83,
+        "price": 605.15,
         "currency": "USD",
-        "change": 16.01,
-        "change_percent": 2.71,
+        "change": 15.33,
+        "change_percent": 2.6,
         "name": "Meta"
       }
     ]
@@ -1185,6 +1187,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Zoo’s hippo death highlights conflict between safety and access",
+          "url": "https://theweek.com/culture-life/zoos-hippo-death-highlights-conflict-between-safety-and-access",
+          "published": "2026-11-25T19:56:00+00:00",
+          "snippet": "Fiona’s death marks the latest in a string of human-animal interactions"
+        },
+        {
           "title": "Democrats’ electoral sweep opens a path to end the Electoral College",
           "url": "https://theweek.com/politics/democrats-electoral-sweep-opens-a-path-to-end-the-electoral-college",
           "published": "2026-11-25T17:58:24+00:00",
@@ -1195,12 +1203,6 @@
           "url": "https://theweek.com/culture-life/film/why-are-documentaries-having-a-moment",
           "published": "2026-11-25T13:49:58+00:00",
           "snippet": "You Can See Everything leads an inventive new wave of non-fiction movies"
-        },
-        {
-          "title": "Magazine solutions - Dec. 4, 2026",
-          "url": "https://theweek.com/puzzles/magazine-solutions-dec-4-2026",
-          "published": "2026-11-25T13:48:16+00:00",
-          "snippet": "Magazine solutions - Dec. 4, 2026"
         }
       ]
     },
@@ -1261,10 +1263,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "US stocks sell-off deepens as AI trade cracks",
+          "title": "US stocks endure volatile session as AI trade remains under pressure",
           "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
-          "published": "2026-11-25T18:30:41+00:00",
-          "snippet": "Tech-heavy Nasdaq 100 tumbles with chip giant Nvidia among losers"
+          "published": "2026-11-25T19:39:04+00:00",
+          "snippet": "Chip group Nvidia among losers but AI start-up Anthropic a bright spot as shares recover above IPO price"
         },
         {
           "title": "The fund manager’s dilemma over AI",
@@ -1386,14 +1388,14 @@
       {
         "title": "Holy Shit Holy Shit Holy Shit Holy Shit [Algorithmic Complexity Lower Bounds]",
         "url": "https://scottaaronson.blog/?p=10379",
-        "score": 22,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-25T19:11:27+00:00"
       },
       {
         "title": "Britain's ghost stations",
         "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
-        "score": 25,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-25T17:43:46+00:00"
       },
@@ -1401,49 +1403,49 @@
         "title": "Update on a security incident involving 1Password’s backend systems",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
         "comments_url": "https://lobste.rs/s/aulbi2/update_on_security_incident_involving",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-25T17:43:13.558000+00:00"
       },
       {
+        "title": "The polynomial Hirsch conjecture is false [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+        "score": 23,
+        "source": "Hacker News",
+        "published": "2026-11-25T17:34:34+00:00"
+      },
+      {
         "title": "1Password Security Incident",
         "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-        "score": 452,
+        "score": 564,
         "source": "Hacker News",
         "published": "2026-11-25T17:18:26+00:00"
       },
       {
         "title": "Deriving Black-Scholes",
         "url": "https://david.alvarezrosa.com/posts/deriving-black-scholes/",
-        "score": 23,
+        "score": 29,
         "source": "Hacker News",
         "published": "2026-11-25T17:18:15+00:00"
       },
       {
-        "title": "Investigating degraded experiences across GitHub products",
-        "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-        "score": 160,
-        "source": "Hacker News",
-        "published": "2026-11-25T15:59:23+00:00"
-      },
-      {
         "title": "In C++, = default and {} are not the same constructor",
         "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
-        "score": 61,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-25T15:20:15+00:00"
       },
       {
         "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
         "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-        "score": 333,
+        "score": 342,
         "source": "Hacker News",
         "published": "2026-11-25T15:14:32+00:00"
       },
       {
         "title": "I checked Clojure's core with Lean and found unreported bugs",
         "url": "https://s.conao3.com/blog/2026/e4f733",
-        "score": 101,
+        "score": 114,
         "source": "Hacker News",
         "published": "2026-11-25T14:56:52+00:00"
       },
@@ -1451,14 +1453,14 @@
         "title": "October in Servo: video captions and inert content",
         "url": "https://servo.org/blog/2026/11/25/october-in-servo/",
         "comments_url": "https://lobste.rs/s/tf9ldm/october_servo_video_captions_inert",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-25T14:31:31.655000+00:00"
       },
       {
         "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
         "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-        "score": 356,
+        "score": 372,
         "source": "Hacker News",
         "published": "2026-11-25T13:33:07+00:00"
       },
@@ -1481,7 +1483,7 @@
       {
         "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
         "url": "https://github.com/xoxorwr/pw-loudness-eq",
-        "score": 266,
+        "score": 274,
         "source": "Hacker News",
         "published": "2026-11-25T11:34:25+00:00"
       },

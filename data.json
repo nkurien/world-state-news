@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T16:30:59.448975+00:00",
+  "last_updated": "2026-11-26T17:01:10.183926+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 372
+      "ms": 288
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 359
+      "ms": 205
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 125
+      "ms": 149
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 96
+      "ms": 75
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 273
+      "ms": 180
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 192
+      "ms": 157
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 55
+      "ms": 658
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 508
+      "ms": 1109
     },
     "Euronews": {
-      "ok": false,
-      "count": 0,
-      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3185
+      "ok": true,
+      "count": 44,
+      "error": null,
+      "ms": 123
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 235
+      "ms": 155
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 334
+      "ms": 262
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 301
+      "ms": 438
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 276
+      "ms": 108
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 161
+      "ms": 2337
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 339
+      "ms": 107
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 406
+      "ms": 434
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 675
+      "ms": 660
     },
     "Semafor": {
       "ok": true,
       "count": 257,
       "error": null,
-      "ms": 652
+      "ms": 427
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 814
+      "ms": 603
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 459
+      "ms": 329
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3253
+      "ms": 3125
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 329
+      "ms": 146
     },
     "The Independent": {
       "ok": true,
-      "count": 73,
+      "count": 72,
       "error": null,
-      "ms": 254
+      "ms": 210
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 267
+      "ms": 115
     }
   },
   "breaking": [
-    {
-      "title": "Two Italians killed after Iranian strike in Kuwait",
-      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T16:27:09+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
-          "title": "2 Italians killed in Iranian drone attack in Kuwait, Italy says",
-          "published": "2026-11-26T16:03:57+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-          "title": "Two dead after Iranian drone attack on Kuwait",
-          "published": "2026-11-26T15:55:15+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-          "title": "Two Italians killed in Iranian drone strike on Kuwait",
-          "published": "2026-11-26T15:19:02+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
       "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-world-4025-xml-mrss",
@@ -233,6 +205,28 @@
       "consensus": 4.5
     },
     {
+      "title": "Italy says two citizens killed in Iranian strike in Kuwait",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T16:39:30+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
+          "title": "2 Italians killed in Iranian drone attack in Kuwait, Italy says",
+          "published": "2026-11-26T16:03:57+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+          "title": "Two dead after Iranian drone attack on Kuwait",
+          "published": "2026-11-26T15:55:15+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Diesel tanker capsizes near Ibiza, killing crew member",
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_loaded-diesel-tanker-capsizes-off-ibiza-killing-one-261126?traffic_source=rss",
       "source": "Al Jazeera",
@@ -250,6 +244,28 @@
           "url": "https://www.dw.com/en/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-coast/a-80059054?maca=en-rss-en-world-4025-xml-mrss",
           "title": "Crew member dies after diesel tanker sinks off Ibiza coast",
           "published": "2026-11-26T11:58:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Iraq sentences eight French nationals to life for joining Islamic State",
+      "url": "https://www.euronews.com/2026/11/26/iraq-sentences-eight-french-nationals-to-life-for-joining-islamic-state",
+      "source": "Euronews",
+      "published": "2026-11-26T15:07:35+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261126-iraq-sentences-eight-french-islamic-state-members-to-life-as-prosecutions-continue",
+          "title": "Iraq sentences eight French Islamic State members to life as prosecutions continue",
+          "published": "2026-11-26T14:04:12+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375901/8-french-nationals-jailed-life-iraq-joining-syrian-islamic-state",
+          "title": "8 French nationals jailed for life in Iraq for joining Syrian Islamic State",
+          "published": "2026-11-26T08:56:05+00:00"
         }
       ],
       "consensus": 3.5
@@ -277,6 +293,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+      "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T16:32:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+          "title": "Two Italians killed in Iranian drone strike on Kuwait",
+          "published": "2026-11-26T15:19:02+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Five big takeaways from Donald Trump’s sweeping new tariffs on China, Europe and 12 other economies",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-alikhan-fcc-abc-trump-b3092281.html",
       "source": "The Independent",
@@ -288,38 +320,6 @@
           "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
           "title": "US proposes sweeping new tariffs on China, others",
           "published": "2026-11-25T13:48:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Egypt says 31 dead in Cairo fuel truck inferno, one man arrested",
-      "url": "http://www.africanews.com/2026/11/26/egypt-says-31-dead-in-cairo-fuel-truck-inferno-one-man-arrested/",
-      "source": "Africanews",
-      "published": "2026-11-26T15:03:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
-          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
-          "published": "2026-11-26T11:28:29+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Senegal parliament denounces president over budget decree",
-      "url": "http://www.africanews.com/2026/11/26/senegal-parliament-denounces-president-over-budget-decree/",
-      "source": "Africanews",
-      "published": "2026-11-26T13:49:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/20/2026/senegals-president-enacted-budget-by-decree-after-parliaments-rejection",
-          "title": "Senegal's president enacts budget by decree after rejection",
-          "published": "2026-11-20T14:20:51+00:00"
         }
       ],
       "consensus": 2.5
@@ -353,6 +353,50 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+      "source": "NPR World",
+      "published": "2026-11-26T13:31:28+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
+          "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+          "published": "2026-11-26T05:55:00+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "published": "2026-11-26T04:35:38+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Nine hurt in huge explosion at Bangkok oil facility",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/bangkok-oil-facility-explosion/",
+      "source": "Japan Times",
+      "published": "2026-11-26T11:53:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+          "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+          "published": "2026-11-26T09:25:01+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+          "title": "Nine hurt in huge explosion at Bangkok oil facility",
+          "published": "2026-11-26T08:38:50+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
@@ -421,17 +465,33 @@
       "consensus": 3.5
     },
     {
-      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-      "source": "NPR World",
-      "published": "2026-11-26T13:31:28+00:00",
+      "title": "Egypt says 31 dead in Cairo fuel truck inferno, one man arrested",
+      "url": "http://www.africanews.com/2026/11/26/egypt-says-31-dead-in-cairo-fuel-truck-inferno-one-man-arrested/",
+      "source": "Africanews",
+      "published": "2026-11-26T15:03:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
-          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-          "published": "2026-11-26T04:35:38+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
+          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
+          "published": "2026-11-26T11:28:29+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Senegal parliament denounces president over budget decree",
+      "url": "http://www.africanews.com/2026/11/26/senegal-parliament-denounces-president-over-budget-decree/",
+      "source": "Africanews",
+      "published": "2026-11-26T13:49:26+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/20/2026/senegals-president-enacted-budget-by-decree-after-parliaments-rejection",
+          "title": "Senegal's president enacts budget by decree after rejection",
+          "published": "2026-11-20T14:20:51+00:00"
         }
       ],
       "consensus": 2.5
@@ -453,6 +513,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "source": "Euronews",
+      "published": "2026-11-26T09:30:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
+          "published": "2026-11-26T06:26:42+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Cyril Ramaphosa wins court bid to overturn impeachment report",
       "url": "https://www.thehindu.com/news/international/cyril-ramaphosa-wins-court-bid-to-overturn-impeachment-report/article71745568.ece",
       "source": "The Hindu",
@@ -469,22 +545,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
-      "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T06:26:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
-          "title": "At least 31 dead after fuel tanker fire in Egypt",
-          "published": "2026-11-25T22:05:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
       "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
       "source": "The Hindu",
@@ -496,6 +556,22 @@
           "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
           "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
           "published": "2026-11-25T19:43:18+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
+      "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
+      "source": "Euronews",
+      "published": "2026-11-25T19:20:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
+          "title": "Russia reportedly to launch a nuclear weapon into space",
+          "published": "2026-11-24T12:01:13+00:00"
         }
       ],
       "consensus": 2.5
@@ -544,6 +620,22 @@
           "url": "https://www.semafor.com/article/11/17/2026/would-be-honored-to-return-as-nvidia-ceo-jensen-huang-says-in-first-public-remarks",
           "title": "Jensen Huang says he would be 'honored' to return as Nvidia CEO in first public remarks since exit",
           "published": "2026-11-17T16:30:10+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "China launches crewed spaceship carrying first Pakistani astronaut to its space station",
+      "url": "https://www.thehindu.com/sci-tech/science/chinas-shenzhou-24-space-flight-takes-off-with-pakistani-national-as-first-foreign-astronaut/article71740891.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T06:11:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/china-sends-first-foreign-astronaut-to-its-space-station-as-pakistani-joins-shenzhou-24-cr",
+          "title": "China sends first foreign astronaut to its space station as Pakistani joins Shenzhou 24 crew",
+          "published": "2026-11-25T05:12:28+00:00"
         }
       ],
       "consensus": 2.5
@@ -629,22 +721,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Nine hurt in huge explosion at Bangkok oil facility",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/bangkok-oil-facility-explosion/",
-      "source": "Japan Times",
-      "published": "2026-11-26T11:53:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
-          "title": "Nine hurt in huge explosion at Bangkok oil facility",
-          "published": "2026-11-26T08:38:50+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "U.S. chip curbs and distillation crackdown to impact Chinese AI model progress",
       "url": "https://www.japantimes.co.jp/business/2026/11/26/companies/china-ai-development-hurdles/",
       "source": "Japan Times",
@@ -677,10 +753,121 @@
       "consensus": 2.0
     },
     {
+      "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
+      "url": "https://www.euronews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says",
+      "source": "Euronews",
+      "published": "2026-11-26T10:10:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says/",
+          "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
+          "published": "2026-11-26T10:10:16+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Greece: 14,000 march in Athens against rising living costs",
+      "url": "http://www.africanews.com/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs/",
+      "source": "Africanews",
+      "published": "2026-11-25T18:20:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
+          "title": "Greece: 14,000 march in Athens against rising living costs",
+          "published": "2026-11-25T18:20:44+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Pakistan: Emergency teams search for survivors beneath collapsed building",
+      "url": "http://www.africanews.com/2026/11/25/pakistan-emergency-teams-search-for-survivors-beneath-collapsed-building/",
+      "source": "Africanews",
+      "published": "2026-11-25T17:14:19+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/25/pakistan-emergency-teams-search-for-survivors-beneath-collapsed-building",
+          "title": "Pakistan: Emergency teams search for survivors beneath collapsed building",
+          "published": "2026-11-25T17:14:12+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "How a teen’s death raises questions about Colombia’s security crackdown",
+      "url": "https://www.aljazeera.com/news/longform/2026/11/26/how-a-teens-death-raises-questions-about-colombias-security-crackdown?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T16:49:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hong Kong mourns victims of deadly Wang Fuk Court fire one year on",
+      "url": "https://www.euronews.com/video/2026/11/26/hong-kong-mourns-victims-of-deadly-wang-fuk-court-fire-one-year-on",
+      "source": "Euronews",
+      "published": "2026-11-26T16:48:35+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Vance shredded for trying to blame Obama for Iowa’s toxic lead after detonation backlash",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-obama-iowa-lead-explosion-azide-b3092309.html",
+      "source": "The Independent",
+      "published": "2026-11-26T16:44:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump says he'd like to see Putin 'pull back' military aggression in Europe",
+      "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
+      "source": "CNA",
+      "published": "2026-11-26T16:40:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "French woman on trial for Islamic State propaganda says she is 'ashamed'",
+      "url": "https://www.rfi.fr/en/france/20261126-emilie-konig-french-woman-on-trial-for-islamic-state-propaganda-says-she-is-ashamed",
+      "source": "RFI English",
+      "published": "2026-11-26T16:29:32+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Extreme heat threatens pregnant women in South Africa’s informal settlements",
+      "url": "http://www.africanews.com/2026/11/26/extreme-heat-threatens-pregnant-women-in-south-africas-informal-settlements/",
+      "source": "Africanews",
+      "published": "2026-11-26T16:29:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
       "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-26T16:21:19+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Spanish economist to become new European Central Bank chief",
+      "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T16:20:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -729,132 +916,6 @@
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
-    },
-    {
-      "title": "Cross-benches, dual negotiations - what should Opportunity do?",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2804181/cross-benches-dual-negotiations-what-should-opportunity-do",
-      "source": "RNZ",
-      "published": "2026-11-26T16:08:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Warning AI might send you specials that don't exist",
-      "url": "https://www.rnz.co.nz/news/personal-finance/2804180/warning-ai-might-send-you-specials-that-don-t-exist",
-      "source": "RNZ",
-      "published": "2026-11-26T16:08:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "MTN eyes bank licenses in Africa fintech push",
-      "url": "https://www.semafor.com/article/11/26/2026/mtn-eyes-bank-licenses-in-africa-fintech-push",
-      "source": "Semafor",
-      "published": "2026-11-26T16:06:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Democratic Party’s biggest midterms loser gets trolled over Thanksgiving post",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/haley-stevens-thanksgiving-post-democrat-b3092236.html",
-      "source": "The Independent",
-      "published": "2026-11-26T16:04:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine says North Korea temporarily halted missile shipments to ally Russia",
-      "url": "https://www.straitstimes.com/asia/ukraine-says-north-korea-temporarily-halted-missile-shipments-to-ally-russia",
-      "source": "Straits Times",
-      "published": "2026-11-26T16:01:53+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "In California, exceptional tides and nearly 9m-high waves batter the coast",
-      "url": "https://www.france24.com/en/video/20261126-in-california-exceptional-tides-and-nearly-9m-high-waves-batter-the-coast",
-      "source": "France24",
-      "published": "2026-11-26T16:01:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Research reveals barriers for those seeking assisted death",
-      "url": "https://www.rnz.co.nz/news/health/2804138/research-reveals-barriers-for-those-seeking-assisted-death",
-      "source": "RNZ",
-      "published": "2026-11-26T16:00:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukrainian Drone Strike Sparks Fire and Inflicts Serious Damage at Krasnodar Refinery",
-      "url": "https://www.themoscowtimes.com/2026/11/26/ukrainian-drone-strike-sparks-fire-and-inflicts-serious-damage-at-krasnodar-a812387",
-      "source": "The Moscow Times",
-      "published": "2026-11-26T15:59:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why is France roiling?",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/why-is-france-roiling?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T15:57:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
-      "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
-      "source": "France24",
-      "published": "2026-11-26T15:55:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pep Guardiola calls on world to ‘disobey horror’ over Gaza and praises BDS",
-      "url": "https://www.aljazeera.com/sports/2026/11/26/pep-guardiola-calls-on-world-to-disobey-horror-over-gaza-and-praises-bds?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T15:53:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Deal or deadlock: Three ways today's final count could land",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2804064/deal-or-deadlock-three-ways-today-s-final-count-could-land",
-      "source": "RNZ",
-      "published": "2026-11-26T15:52:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bitcoin top, Auckland property bottom: How investment returns have stacked up",
-      "url": "https://www.rnz.co.nz/news/personal-finance/2804066/bitcoin-top-auckland-property-bottom-how-investment-returns-have-stacked-up",
-      "source": "RNZ",
-      "published": "2026-11-26T15:46:24+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Qatari, Egyptian leaders discuss Gaza ‘ceasefire’ and regional security",
-      "url": "https://www.aljazeera.com/news/2026/11/26/qatari-egyptian-leaders-discuss-gaza-ceasefire-and-regional-security?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T15:45:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -868,10 +929,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 137.06,
+      "price": 136.8,
       "currency": "GBP",
-      "change": 4.08,
-      "change_percent": 3.07,
+      "change": 3.82,
+      "change_percent": 2.87,
       "name": "FTSE All-World ETF"
     },
     {
@@ -884,10 +945,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10628.9,
+      "price": 10609.3,
       "currency": "GBP",
-      "change": 201.96,
-      "change_percent": 1.94,
+      "change": 182.36,
+      "change_percent": 1.75,
       "name": "FTSE 100"
     }
   ],
@@ -903,10 +964,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10628.9,
+        "price": 10609.3,
         "currency": "GBP",
-        "change": 201.96,
-        "change_percent": 1.94,
+        "change": 182.36,
+        "change_percent": 1.75,
         "name": "FTSE 100"
       },
       {
@@ -935,44 +996,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25267.87,
+        "price": 25215.52,
         "currency": "EUR",
-        "change": 565.74,
-        "change_percent": 2.29,
+        "change": 513.39,
+        "change_percent": 2.08,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8127.15,
+        "price": 8108.74,
         "currency": "EUR",
-        "change": 146.58,
-        "change_percent": 1.84,
+        "change": 128.17,
+        "change_percent": 1.61,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3601.9,
+        "price": 3598.6,
         "currency": "USD",
-        "change": 37.3,
-        "change_percent": 1.05,
+        "change": 34.0,
+        "change_percent": 0.95,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.85,
+        "price": 41.84,
         "currency": "USD",
         "change": 1.31,
-        "change_percent": 3.24,
+        "change_percent": 3.22,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.56,
+        "price": 91.2,
         "currency": "USD",
-        "change": 0.92,
-        "change_percent": 1.02,
+        "change": 0.56,
+        "change_percent": 0.62,
         "name": "Brent Crude"
       },
       {
@@ -980,7 +1041,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.08,
         "name": "EUR/USD"
       },
       {
@@ -988,23 +1049,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.03,
+        "change_percent": -0.09,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.28,
+        "price": 159.3,
         "currency": "JPY",
-        "change": 0.15,
-        "change_percent": 0.1,
+        "change": 0.18,
+        "change_percent": 0.11,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60408.1,
+        "price": 60538.27,
         "currency": "USD",
-        "change": 29.53,
-        "change_percent": 0.05,
+        "change": 159.7,
+        "change_percent": 0.26,
         "name": "Bitcoin"
       }
     ],
@@ -1175,22 +1236,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Do voters want vision or concision from politicians?",
-          "url": "https://www.ft.com/content/af51083d-f076-44c0-8858-c9e9d4487fcc?syn-25a6b1a6=1",
-          "published": "2026-11-26T16:16:34+00:00",
-          "snippet": "Their flowery flights of rhetoric used to go on forever. Now they keep it brief"
+          "title": "Two Italians killed in Iranian strike on Kuwait",
+          "url": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
+          "published": "2026-11-26T16:57:26+00:00",
+          "snippet": "Rheinmetall workers are the first reported deaths from Iranian attacks since Washington and Tehran restarted exchanging fire this month"
+        },
+        {
+          "title": "Israel’s Eisenkot takes steps towards replacing Netanyahu",
+          "url": "https://www.ft.com/content/a0731abb-c7bf-421b-9486-682114c705ff",
+          "published": "2026-11-26T16:51:18+00:00",
+          "snippet": "Opposition leader’s deals with two parties advance plans to oust prime minister"
         },
         {
           "title": "Global stocks climb after volatile US trading over AI risks",
           "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
-          "published": "2026-11-26T16:08:19+00:00",
+          "published": "2026-11-26T16:49:54+00:00",
           "snippet": "Tech shares hit this month by fears over whether boom can be sustained"
-        },
-        {
-          "title": "Pablo Hernández de Cos: the ‘consensus-builder’ taking over the ECB",
-          "url": "https://www.ft.com/content/1fda901a-222a-4b3e-8e20-ea80c3fbf1d2?syn-25a6b1a6=1",
-          "published": "2026-11-26T16:02:36+00:00",
-          "snippet": "Spanish economist is seen as a skilled diplomat with a ‘unique blend of diplomatic finesse and academic rigour’"
         }
       ]
     },
@@ -1298,23 +1359,30 @@
   "web": {
     "tech": [
       {
+        "title": "Kagi Watch",
+        "url": "https://kagi.com/watch",
+        "score": 27,
+        "source": "Hacker News",
+        "published": "2026-11-26T16:28:54+00:00"
+      },
+      {
         "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
         "url": "https://michidk.github.io/sidebyside/",
-        "score": 19,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-26T15:00:06+00:00"
       },
       {
         "title": "Tell HN: Happy Thanksgiving",
         "url": "https://news.ycombinator.com/item?id=50655664",
-        "score": 270,
+        "score": 321,
         "source": "Hacker News",
         "published": "2026-11-26T14:26:54+00:00"
       },
       {
         "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
         "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
-        "score": 114,
+        "score": 132,
         "source": "Hacker News",
         "published": "2026-11-26T13:48:11+00:00"
       },
@@ -1322,7 +1390,7 @@
         "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
         "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
         "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
-        "score": 11,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-26T12:40:23.353000+00:00"
       },
@@ -1330,14 +1398,14 @@
         "title": "In defense of lock poisoning in Rust",
         "url": "https://sunshowers.io/posts/on-poisoning/",
         "comments_url": "https://lobste.rs/s/wpylec/defense_lock_poisoning_rust",
-        "score": 5,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:51:23.187000+00:00"
       },
       {
         "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
         "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-        "score": 287,
+        "score": 310,
         "source": "Hacker News",
         "published": "2026-11-26T11:50:49+00:00"
       },
@@ -1352,7 +1420,7 @@
       {
         "title": "Intel One Mono font",
         "url": "https://github.com/intel/intel-one-mono",
-        "score": 305,
+        "score": 324,
         "source": "Hacker News",
         "published": "2026-11-26T10:11:01+00:00"
       },
@@ -1383,14 +1451,14 @@
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 159,
+        "score": 172,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 193,
+        "score": 198,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1398,17 +1466,9 @@
         "title": "Browser tabs as a container runtime",
         "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
         "comments_url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
-        "score": 15,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-26T04:57:04.708000+00:00"
-      },
-      {
-        "title": "I Booted From My Tape Backup From 2002",
-        "url": "https://changelog.complete.org/archives/45268-i-booted-from-my-tape-backup-from-2002",
-        "comments_url": "https://lobste.rs/s/2thnmt/i_booted_from_my_tape_backup_from_2002",
-        "score": 18,
-        "source": "Lobste.rs",
-        "published": "2026-11-26T03:56:07.099000+00:00"
       }
     ],
     "reddit": [

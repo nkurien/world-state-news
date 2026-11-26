@@ -1,153 +1,181 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T09:30:53.942858+00:00",
+  "last_updated": "2026-11-26T10:01:04.543762+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 477
+      "ms": 408
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 325
+      "ms": 224
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 150
+      "ms": 371
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 248
+      "ms": 304
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 255
+      "ms": 435
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 369
+      "ms": 395
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
-      "ms": 599
+      "ms": 470
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 592
+      "ms": 335
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 133
+      "ms": 56
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 70
+      "ms": 244
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 396
+      "ms": 758
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 309
+      "ms": 328
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 218
+      "ms": 538
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 115
+      "ms": 108
     },
     "RFI English": {
       "ok": true,
-      "count": 21,
+      "count": 18,
       "error": null,
-      "ms": 150
+      "ms": 282
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 478
+      "ms": 468
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 839
+      "ms": 663
     },
     "Semafor": {
       "ok": true,
       "count": 266,
       "error": null,
-      "ms": 705
+      "ms": 543
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 625
+      "ms": 632
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 312
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3225
+      "ms": 3049
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 279
+      "ms": 188
     },
     "The Independent": {
       "ok": true,
-      "count": 82,
+      "count": 81,
       "error": null,
-      "ms": 207
+      "ms": 158
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 261
+      "ms": 130
     }
   },
   "breaking": [
+    {
+      "title": "Explosion rocks Bangkok oil depot",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T09:30:24+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+          "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+          "published": "2026-11-26T09:25:01+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+          "title": "Seven hurt in huge explosion at Bangkok oil facility",
+          "published": "2026-11-26T08:38:50+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
+          "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
+          "published": "2026-11-26T08:27:20+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
     {
       "title": "Why has North Korea expelled a Swiss diplomat from Pyongyang?",
       "url": "https://www.aljazeera.com/news/2026/11/26/why-has-north-korea-expelled-a-swiss-diplomat-from-pyongyang?traffic_source=rss",
@@ -233,33 +261,33 @@
       "consensus": 4.5
     },
     {
-      "title": "Israeli attacks on Gaza kill senior education official, seven other people",
-      "url": "https://www.aljazeera.com/news/2026/11/26/israeli-attacks-on-gaza-kill-senior-education-official-seven-other-people?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T09:00:06+00:00",
+      "title": "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
+      "url": "https://www.cbc.ca/news/world/fedex-plane-miami-overrun-runway-9.7436760?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T09:54:13+00:00",
       "score": 2,
       "other_sources": [
         {
           "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/hamas-security-official-killed-in-israel-strikes-in-gaza/article71738279.ece",
-          "title": "Israeli strikes in Gaza kill seven including senior security official",
-          "published": "2026-11-24T16:57:13+00:00"
+          "url": "https://www.thehindu.com/news/international/fedex-airplane-overruns-runway-at-miami-airport-closing-all-but-one-runway/article71745686.ece",
+          "title": "FedEx airplane overruns runway at Miami airport, closing all but one runway",
+          "published": "2026-11-26T08:11:34+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "Huge blast hits Bangkok oil depot",
-      "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
-      "source": "Straits Times",
-      "published": "2026-11-26T08:38:50+00:00",
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "source": "Euronews",
+      "published": "2026-11-26T09:30:05+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
-          "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
-          "published": "2026-11-26T08:27:20+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
+          "published": "2026-11-26T06:26:42+00:00"
         }
       ],
       "consensus": 2.5
@@ -292,22 +320,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3375859/fedex-cargo-plane-overshoots-runway-miami-airport",
           "title": "FedEx cargo plane overshoots runway at Miami airport",
           "published": "2026-11-26T04:35:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
-      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T07:20:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "title": "US announces new tariffs on host of countries including China",
-          "published": "2026-11-26T04:10:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -355,62 +367,6 @@
       "consensus": 7.0
     },
     {
-      "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
-      "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T06:26:42+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
-          "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
-          "published": "2026-11-26T01:25:54+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-          "published": "2026-11-25T22:18:06+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
-          "title": "At least 31 dead after fuel tanker fire in Egypt",
-          "published": "2026-11-25T22:05:00+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
-          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
-          "published": "2026-11-25T21:11:06+00:00"
-        }
-      ],
-      "consensus": 6.5
-    },
-    {
-      "title": "Six killed, including children, in plane crash off Mississippi coast",
-      "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T04:48:42+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
-          "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
-          "published": "2026-11-26T01:54:49+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
-          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
-          "published": "2026-11-25T09:41:54+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
       "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
       "source": "The Independent",
@@ -444,6 +400,22 @@
           "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
           "title": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
           "published": "2026-11-26T05:14:01+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T07:20:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "title": "US announces new tariffs on host of countries including China",
+          "published": "2026-11-26T04:10:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -492,6 +464,44 @@
           "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
           "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
           "published": "2026-11-26T04:35:38+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Six killed, including children, in plane crash off Mississippi coast",
+      "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T04:48:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
+          "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+          "published": "2026-11-26T01:54:49+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
+      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
+      "source": "Euronews",
+      "published": "2026-11-26T04:40:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
+          "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
+          "published": "2026-11-26T01:25:54+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
+          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
+          "published": "2026-11-25T21:11:06+00:00"
         }
       ],
       "consensus": 2.5
@@ -641,6 +651,22 @@
       "consensus": 2.5
     },
     {
+      "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
+      "url": "https://www.thehindu.com/sport/cricket/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation/article71745859.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T09:24:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation",
+          "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
+          "published": "2026-11-26T08:33:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "U.S. chip curbs and distillation crackdown to impact Chinese AI model progress",
       "url": "https://www.japantimes.co.jp/business/2026/11/26/companies/china-ai-development-hurdles/",
       "source": "Japan Times",
@@ -652,22 +678,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say",
           "title": "US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
           "published": "2026-11-26T07:54:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
-      "url": "https://www.thehindu.com/sport/cricket/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation/article71745859.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T08:39:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation",
-          "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
-          "published": "2026-11-26T08:33:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -801,22 +811,6 @@
       "consensus": 1.5
     },
     {
-      "title": "Nvidia staff cheer Jensen Huang's return as CEO after spy scandal",
-      "url": "http://www.africanews.com/2026/11/24/nvidia-staff-cheer-jensen-huangs-return-as-ceo-after-spy-scandal/",
-      "source": "Africanews",
-      "published": "2026-11-24T14:14:10+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo",
-          "title": "Trump says he spoke to Nvidia board before Jensen Huang's return as CEO",
-          "published": "2026-11-24T09:17:33+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
       "title": "France: Chefs compete for the world egg mayonnaise championship",
       "url": "http://www.africanews.com/2026/11/24/france-chefs-compete-for-the-world-egg-mayonnaise-championship/",
       "source": "Africanews",
@@ -833,107 +827,100 @@
       "consensus": 1.5
     },
     {
-      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/",
-      "source": "Africanews",
-      "published": "2026-11-24T09:19:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire",
-          "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
-          "published": "2026-11-24T09:19:44+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "China singles choose flea market first dates, sifting through broken ceramics for vibe check",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3375912/china-singles-choose-flea-market-first-dates-sifting-through-broken-ceramics-vibe-check",
+      "source": "SCMP",
+      "published": "2026-11-26T10:00:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Could EU delisting of Chinese firm pave way for wider sanctions relief?",
+      "url": "https://www.scmp.com/economy/policy/article/3375920/could-eu-delisting-chinese-firm-pave-way-wider-sanctions-relief",
+      "source": "SCMP",
+      "published": "2026-11-26T10:00:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Will Hong Kong’s expanded WinterFest this year boost the city’s retail spaces?",
+      "url": "https://www.scmp.com/business/article/3375895/will-hong-kongs-expanded-winterfest-year-boost-citys-retail-spaces",
+      "source": "SCMP",
+      "published": "2026-11-26T10:00:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "PLA overhauls joint training after drills expose coordination gaps",
+      "url": "https://www.scmp.com/news/china/military/article/3375877/pla-overhauls-joint-training-after-drills-expose-coordination-gaps",
+      "source": "SCMP",
+      "published": "2026-11-26T10:00:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "New UK-EU treaty has 10-year termination clause",
+      "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T09:59:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ex-Cricket Australia boss James Sutherland defends ‘Sandpapergate’ probe",
+      "url": "https://www.aljazeera.com/sports/2026/11/26/sandpapergate-cricket-australia-ceo-sutherland-david-warner-ball-tampering-2018?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T09:52:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump threatens incoming Iowa governor while hailing ‘perfect’ Army detonation",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-iowa-governor-army-detonation-lead-azide-b3091974.html",
+      "source": "The Independent",
+      "published": "2026-11-26T09:49:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Iqbal in space: Urdu poet’s verses unite India, Pakistan beyond Earth",
+      "url": "https://www.aljazeera.com/news/2026/11/26/iqbal-in-space-urdu-poets-verses-unite-india-pakistan-beyond-earth?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T09:40:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "How the Nvidia scandal is testing Singapore’s role in global chip trade",
+      "url": "https://www.cbc.ca/news/world/nvidia-singapore-9.7436761?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T09:40:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Starbucks Korea sees profit return after ‘Tank Day’ backlash",
+      "url": "https://www.japantimes.co.jp/business/2026/11/26/companies/starbucks-south-korea-profit/",
+      "source": "Japan Times",
+      "published": "2026-11-26T09:29:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "Musk's plan to send a million SpaceX data satellites into space approved",
       "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "published": "2026-11-26T09:27:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Korean police raid late LEET top scorer’s home in AI cheating probe",
-      "url": "https://www.straitstimes.com/asia/se-asia/south-korean-police-raid-late-leet-top-scorers-home-in-ai-cheating-probe",
-      "source": "Straits Times",
-      "published": "2026-11-26T09:25:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hong Kong exports post fastest growth in 70 years on AI-related goods",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375917/hong-kong-exports-post-fastest-growth-70-years-ai-related-goods",
-      "source": "SCMP",
-      "published": "2026-11-26T09:23:24+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Shanghai party chief’s downfall shows reach of anti-corruption drive",
-      "url": "https://www.scmp.com/plus/news/china/politics/article/3375916/shanghai-party-chiefs-downfall-shows-reach-anti-corruption-drive",
-      "source": "SCMP",
-      "published": "2026-11-26T09:18:53+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump thanks Uzbekistan for traditional pavilions gifted to Washington park",
-      "url": "https://www.euronews.com/2026/11/26/trump-thanks-uzbekistan-for-traditional-pavilions-gifted-to-washington-park",
-      "source": "Euronews",
-      "published": "2026-11-26T09:18:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "New images show stadium-sized crater on asteroid NASA crashed into",
-      "url": "https://www.euronews.com/2026/11/26/new-images-show-stadium-sized-crater-on-asteroid-nasa-crashed-into",
-      "source": "Euronews",
-      "published": "2026-11-26T09:16:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Johor to provide bus services from RTS station to JB Sentral, selected malls",
-      "url": "https://www.straitstimes.com/asia/se-asia/johor-to-provide-bus-services-from-rts-station-to-jb-sentral-selected-malls",
-      "source": "Straits Times",
-      "published": "2026-11-26T09:16:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Deputy Commander of Russia’s Aerospace Forces Arrested in Moscow – Kommersant",
-      "url": "https://www.themoscowtimes.com/2026/11/26/deputy-commander-of-russia-s-aerospace-forces-arrested-in-moscow-kommersant-a812377",
-      "source": "The Moscow Times",
-      "published": "2026-11-26T09:14:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Kushner accused of being Putin’s spokesman after praising ‘political grandmaster’",
-      "url": "https://www.independent.co.uk/news/world/europe/kushner-putin-witkoff-ukraine-war-b3091967.html",
-      "source": "The Independent",
-      "published": "2026-11-26T09:13:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "India asks Netflix not to air Pakistani show, local media report",
-      "url": "https://www.straitstimes.com/asia/south-asia/india-asks-netflix-not-to-air-pakistani-show-local-media-report",
-      "source": "Straits Times",
-      "published": "2026-11-26T09:11:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -950,10 +937,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 136.62,
+      "price": 136.72,
       "currency": "GBP",
-      "change": 3.64,
-      "change_percent": 2.74,
+      "change": 3.74,
+      "change_percent": 2.81,
       "name": "FTSE All-World ETF"
     },
     {
@@ -966,10 +953,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10571.39,
+      "price": 10578.0,
       "currency": "GBP",
-      "change": 144.45,
-      "change_percent": 1.39,
+      "change": 151.06,
+      "change_percent": 1.45,
       "name": "FTSE 100"
     }
   ],
@@ -985,10 +972,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10571.39,
+        "price": 10578.0,
         "currency": "GBP",
-        "change": 144.45,
-        "change_percent": 1.39,
+        "change": 151.06,
+        "change_percent": 1.45,
         "name": "FTSE 100"
       },
       {
@@ -1017,28 +1004,28 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25205.65,
+        "price": 25217.54,
         "currency": "EUR",
-        "change": 503.52,
-        "change_percent": 2.04,
+        "change": 515.41,
+        "change_percent": 2.09,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8131.14,
+        "price": 8137.71,
         "currency": "EUR",
-        "change": 150.57,
-        "change_percent": 1.89,
+        "change": 157.14,
+        "change_percent": 1.97,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3601.6,
+        "price": 3602.3,
         "currency": "USD",
-        "change": 37.0,
-        "change_percent": 1.04,
+        "change": 37.7,
+        "change_percent": 1.06,
         "name": "Gold"
       },
       {
@@ -1051,10 +1038,10 @@
       },
       {
         "symbol": "BZ=F",
-        "price": 89.82,
+        "price": 90.04,
         "currency": "USD",
-        "change": -0.82,
-        "change_percent": -0.9,
+        "change": -0.6,
+        "change_percent": -0.66,
         "name": "Brent Crude"
       },
       {
@@ -1062,7 +1049,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.0,
+        "change_percent": -0.06,
         "name": "EUR/USD"
       },
       {
@@ -1070,23 +1057,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.02,
+        "change_percent": -0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.17,
+        "price": 159.22,
         "currency": "JPY",
-        "change": 0.04,
-        "change_percent": 0.03,
+        "change": 0.09,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60698.75,
+        "price": 60793.41,
         "currency": "USD",
-        "change": 320.18,
-        "change_percent": 0.53,
+        "change": 414.84,
+        "change_percent": 0.69,
         "name": "Bitcoin"
       }
     ],
@@ -1380,6 +1367,14 @@
   "web": {
     "tech": [
       {
+        "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
+        "url": "https://www.jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604/",
+        "comments_url": "https://lobste.rs/s/3lkriu/ansible_fails_waiting_for_privilege",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T09:45:42.146000+00:00"
+      },
+      {
         "title": "Qualcomm’s Oryon 3 Reaches the Top",
         "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
         "comments_url": "https://lobste.rs/s/2kwjb4/qualcomm_s_oryon_3_reaches_top",
@@ -1391,7 +1386,7 @@
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
         "comments_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-26T06:39:00.543000+00:00"
       },
@@ -1399,21 +1394,21 @@
         "title": "Meaningful Human-in-the-Loop Checking of  GenAI Synthesis for Restricted Languages",
         "url": "https://www.siddharthaprasad.com/papers/pafk-pick.pdf",
         "comments_url": "https://lobste.rs/s/bl8gp8/meaningful_human_loop_checking_genai",
-        "score": 2,
+        "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-26T06:35:12.183000+00:00"
       },
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 47,
+        "score": 55,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 94,
+        "score": 101,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1421,7 +1416,7 @@
         "title": "Browser tabs as a container runtime",
         "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
         "comments_url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-26T04:57:04.708000+00:00"
       },
@@ -1436,14 +1431,14 @@
       {
         "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
         "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "score": 229,
+        "score": 246,
         "source": "Hacker News",
         "published": "2026-11-26T03:36:58+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 118,
+        "score": 124,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1459,21 +1454,21 @@
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
       },
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 257,
+        "score": 265,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 163,
+        "score": 174,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1484,14 +1479,6 @@
         "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:12:06.360000+00:00"
-      },
-      {
-        "title": "SSH is a GUI framework",
-        "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
-        "comments_url": "https://lobste.rs/s/rtde6f/ssh_is_gui_framework",
-        "score": 9,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T22:55:47.525000+00:00"
       }
     ],
     "reddit": [

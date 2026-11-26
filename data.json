@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T19:30:55.557647+00:00",
+  "last_updated": "2026-11-26T20:01:03.581758+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 476
+      "ms": 312
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 477
+      "ms": 238
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 183
+      "ms": 240
     },
     "BBC News": {
       "ok": true,
-      "count": 28,
+      "count": 27,
       "error": null,
-      "ms": 68
+      "ms": 372
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 217
+      "ms": 326
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 258
+      "ms": 417
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 54
+      "ms": 598
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 636
+      "ms": 381
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 233
+      "ms": 82
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 98
+      "ms": 189
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 386
+      "ms": 313
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 341
+      "ms": 340
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 361
+      "ms": 223
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 135
+      "ms": 575
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 210
+      "ms": 458
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 180
+      "ms": 488
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 768
+      "ms": 609
     },
     "Semafor": {
       "ok": true,
       "count": 257,
       "error": null,
-      "ms": 746
+      "ms": 599
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 573
+      "ms": 773
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 373
+      "ms": 390
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3096
+      "ms": 3049
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 289
+      "ms": 237
     },
     "The Independent": {
       "ok": true,
-      "count": 64,
+      "count": 63,
       "error": null,
-      "ms": 177
+      "ms": 139
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 317
+      "ms": 165
     }
   },
   "breaking": [
+    {
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T19:27:45+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
+          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
+          "published": "2026-11-26T18:11:38+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
+          "published": "2026-11-26T16:32:31+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
+          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
+          "published": "2026-11-26T16:03:57+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
+          "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
+          "published": "2026-11-26T15:19:02+00:00"
+        }
+      ],
+      "consensus": 7.0
+    },
     {
       "title": "French actor Gerard Depardieu to stand trial for alleged 2018 rape",
       "url": "https://www.aljazeera.com/news/2026/11/26/paris-court-orders-gerard-depardieu-to-stand-trial-for-rape-sexual-assault?traffic_source=rss",
@@ -181,34 +215,6 @@
         }
       ],
       "consensus": 6.0
-    },
-    {
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T19:27:45+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
-          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
-          "published": "2026-11-26T18:11:38+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-          "published": "2026-11-26T16:32:31+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-          "title": "Two Italians killed in drone strike on Kuwait, Iran denies involvement",
-          "published": "2026-11-26T15:19:02+00:00"
-        }
-      ],
-      "consensus": 5.5
     },
     {
       "title": "Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief",
@@ -255,17 +261,17 @@
       "consensus": 4.0
     },
     {
-      "title": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
-      "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
+      "title": "Judge strikes down Trump’s latest restrictions on US birthright citizenship",
+      "url": "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-26T18:27:27+00:00",
+      "published": "2026-11-26T19:09:39+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-demands-probe-gdp-data-released-midterms-6585701",
-          "title": "Trump demands probe of GDP data released before midterms",
-          "published": "2026-11-26T16:20:17+00:00"
+          "source": "El País",
+          "url": "https://english.elpais.com/usa/2026-11-26/judge-rejects-trumps-latest-attempt-to-restrict-birthright-citizenship.html",
+          "title": "Judge rejects Trump’s latest attempt to restrict birthright citizenship",
+          "published": "2026-11-26T09:34:22+00:00"
         }
       ],
       "consensus": 2.5
@@ -287,26 +293,19 @@
       "consensus": 2.0
     },
     {
-      "title": "China's Defence Ministry urges Japan to stop 'stirring up' South China Sea disputes",
-      "url": "https://www.thehindu.com/news/international/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes/article71747672.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T16:56:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes",
-          "title": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes",
-          "published": "2026-11-26T08:26:38+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "Titirangi residents at breaking point over road closures to fix slip",
+      "url": "https://www.rnz.co.nz/news/regions_auckland/2805256/titirangi-residents-at-breaking-point-over-road-closures-to-fix-slip",
+      "source": "RNZ",
+      "published": "2026-11-26T19:47:45+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Remote Australian community becoming a battleground for space race",
-      "url": "https://www.abc.net.au/news/2026-11-27/koonibba-battleground-for-australias-space-race-outback-sa-/107415968",
+      "title": "Burns and electrical shocks: The hidden toll of unsafe products sold online",
+      "url": "https://www.abc.net.au/news/2026-11-27/customers-injured-by-unsafe-products-bought-online-marketplaces/107421400",
       "source": "ABC Australia",
-      "published": "2026-11-26T19:23:51+00:00",
+      "published": "2026-11-26T19:47:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -540,17 +539,33 @@
       "consensus": 3.5
     },
     {
-      "title": "2 Italians killed in Iranian drone attack in Kuwait, Italy says",
-      "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-26T16:03:57+00:00",
+      "title": "Trump calls GDP data released before midterms ‘fake’, demands investigation",
+      "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T18:27:27+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
-          "title": "Two dead after Iranian drone attack on Kuwait",
-          "published": "2026-11-26T15:55:15+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-demands-probe-gdp-data-released-midterms-6585701",
+          "title": "Trump demands probe of GDP data released before midterms",
+          "published": "2026-11-26T16:20:17+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Two dead after Iranian drone attack on Kuwait",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T15:55:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/civilian-flights-diverted-as-kuwait-army-intercepts-iranian-drone-attack",
+          "title": "Passenger flights diverted as Kuwait army intercepts Iranian drone attack",
+          "published": "2026-11-26T13:19:28+00:00"
         }
       ],
       "consensus": 2.5
@@ -652,22 +667,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
-      "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T01:54:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
-          "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
-          "published": "2026-11-25T19:43:18+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
       "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
       "source": "Euronews",
@@ -746,6 +745,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "China's Defence Ministry urges Japan to stop 'stirring up' South China Sea disputes",
+      "url": "https://www.thehindu.com/news/international/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes/article71747672.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T16:56:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes",
+          "title": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes",
+          "published": "2026-11-26T08:26:38+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "U.K. net migration falls to lowest since 1997; Indians largest foreign group entering and leaving the country",
@@ -892,10 +907,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Aussie rugby sevens star driven to 'tick off' goal of Olympic gold",
-      "url": "https://www.abc.net.au/news/2026-11-27/australia-rugby-tia-hinds-sevens-dubai-world-series/107432672",
-      "source": "ABC Australia",
-      "published": "2026-11-26T19:06:34+00:00",
+      "title": "Peru burns more than 10 tonnes of seized drugs",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/peru-burns-more-than-10-tonnes-of-seized-drugs?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T19:44:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Son of Myanmar's Suu Kyi 'relieved' by first call in five years, questions military's motives",
+      "url": "https://www.euronews.com/2026/11/26/son-of-myanmars-suu-kyi-relieved-by-first-call-in-five-years-questions-militarys-motives",
+      "source": "Euronews",
+      "published": "2026-11-26T19:43:33+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -904,61 +928,43 @@
       "title": "Trump turns Thanksgiving into Festivus with grievance-filled rant over ‘fake’ GDP, Sharia law and 98% of Somalis",
       "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-thanksgiving-journalist-attack-truth-social-b3092020.html",
       "source": "The Independent",
-      "published": "2026-11-26T19:06:11+00:00",
+      "published": "2026-11-26T19:40:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Concerns raised over use of smart glasses outside polling booths",
-      "url": "https://www.abc.net.au/news/2026-11-27/smart-glasses-polling-booths-victorian-electoral-commission/107425588",
+      "title": "As postnatal depression rises in Australia, what are the signs to be aware of?",
+      "url": "https://www.abc.net.au/news/2026-11-27/postnatal-depression-what-are-the-signs-help-available/107427808",
       "source": "ABC Australia",
-      "published": "2026-11-26T18:58:56+00:00",
+      "published": "2026-11-26T19:38:52+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Retired priest claims he witnessed sexual abuse inside church as victims come forward",
-      "url": "https://www.abc.net.au/news/2026-11-27/our-lady-of-dolours-catholic-church-abuse-allegations/107424146",
+      "title": "UK man convicted of knife rampage on London-bound train",
+      "url": "https://www.scmp.com/news/world/europe/article/3375965/uk-man-convicted-knife-rampage-london-bound-train",
+      "source": "SCMP",
+      "published": "2026-11-26T19:34:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Everything you need to know as Roos hunt historic AFLW three-peat",
+      "url": "https://www.abc.net.au/news/2026-11-27/aflw-grand-final-start-time-venue-kangaroos-demons-explainer/107429518",
       "source": "ABC Australia",
-      "published": "2026-11-26T18:56:31+00:00",
+      "published": "2026-11-26T19:30:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Australia gets its 'holy grail', but China still plotting in the Pacific",
-      "url": "https://www.abc.net.au/news/2026-11-27/china-solomon-islands-security-pact-ends/107429200",
-      "source": "ABC Australia",
-      "published": "2026-11-26T18:56:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Doctor claims job offer was retracted after she revealed she was pregnant",
-      "url": "https://www.abc.net.au/news/2026-11-27/doctors-allege-pregnancy-discrimination-in-medicine/107396068",
-      "source": "ABC Australia",
-      "published": "2026-11-26T18:55:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "What will Trump’s latest tariffs mean for the world?",
-      "url": "https://www.aljazeera.com/video/inside-story/2026/11/26/what-will-trumps-latest-tariffs-mean-for-the-world?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T18:53:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Kaikohe killing: Man who fatally stabbed Estene Rapatini found not criminally responsible",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2806979/kaikohe-killing-man-who-fatally-stabbed-estene-rapatini-found-not-criminally-responsible",
+      "title": "Cross-benches, dual negotiations - what should Opportunity do?",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2804181/cross-benches-dual-negotiations-what-should-opportunity-do",
       "source": "RNZ",
-      "published": "2026-11-26T18:50:45+00:00",
+      "published": "2026-11-26T19:27:49+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1060,26 +1066,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3593.0,
+        "price": 3593.4,
         "currency": "USD",
-        "change": 28.4,
-        "change_percent": 0.8,
+        "change": 28.8,
+        "change_percent": 0.81,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.73,
+        "price": 41.75,
         "currency": "USD",
-        "change": 1.19,
-        "change_percent": 2.93,
+        "change": 1.21,
+        "change_percent": 2.99,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.65,
+        "price": 91.73,
         "currency": "USD",
-        "change": 1.01,
-        "change_percent": 1.11,
+        "change": 1.09,
+        "change_percent": 1.2,
         "name": "Brent Crude"
       },
       {
@@ -1087,7 +1093,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.09,
+        "change_percent": -0.06,
         "name": "EUR/USD"
       },
       {
@@ -1095,23 +1101,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.08,
+        "change_percent": -0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.28,
+        "price": 159.25,
         "currency": "JPY",
-        "change": 0.16,
-        "change_percent": 0.1,
+        "change": 0.13,
+        "change_percent": 0.08,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60570.15,
+        "price": 60604.5,
         "currency": "USD",
-        "change": 191.58,
-        "change_percent": 0.32,
+        "change": 225.93,
+        "change_percent": 0.37,
         "name": "Bitcoin"
       }
     ],
@@ -1405,73 +1411,90 @@
   "web": {
     "tech": [
       {
+        "title": "Taking Email Back",
+        "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
+        "comments_url": "https://lobste.rs/s/afxeri/taking_email_back",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T19:51:21.378000+00:00"
+      },
+      {
+        "title": "Omnigent — a meta-harness for building and running AI agents",
+        "url": "https://omnigent.ai",
+        "comments_url": "https://lobste.rs/s/l9c8sw/omnigent_meta_harness_for_building",
+        "score": 0,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T19:31:20.264000+00:00"
+      },
+      {
         "title": "George Whitesides, 1939-2026",
         "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
-        "score": 8,
+        "score": 14,
         "source": "Hacker News",
         "published": "2026-11-26T18:13:07+00:00"
       },
       {
         "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
         "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "score": 66,
+        "score": 82,
         "source": "Hacker News",
         "published": "2026-11-26T17:47:45+00:00"
       },
       {
-        "title": "YouTube Ad Punisher – Bypass anti-adblock",
+        "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
         "url": "https://github.com/antonpictures/youtube-punisher",
-        "score": 56,
+        "score": 73,
         "source": "Hacker News",
         "published": "2026-11-26T17:36:47+00:00"
       },
       {
-        "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning",
-        "url": "https://github.com/deepseek-ai/deepseek-math",
-        "score": 27,
-        "source": "Hacker News",
-        "published": "2026-11-26T17:21:14+00:00"
-      },
-      {
         "title": "AMD Specific Patches for Llama.cpp",
         "url": "https://devnull.land/amd-specific-llama-cpp",
-        "score": 119,
+        "score": 141,
         "source": "Hacker News",
         "published": "2026-11-26T17:11:29+00:00"
       },
       {
         "title": "Show HN: SimDrop – Running iOS simulators in the macOS Finder sidebar",
         "url": "https://github.com/rxliuli/sim-drop",
-        "score": 13,
+        "score": 15,
         "source": "Hacker News",
         "published": "2026-11-26T16:51:38+00:00"
       },
       {
         "title": "NP_R ≠ PAR_R",
         "url": "https://github.com/samueleverett01/bss-permanent-separations",
-        "score": 105,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-26T16:50:55+00:00"
       },
       {
         "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
         "url": "https://michidk.github.io/sidebyside/",
-        "score": 72,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-26T15:00:06+00:00"
       },
       {
         "title": "Tell HN: Happy Thanksgiving",
         "url": "https://news.ycombinator.com/item?id=50655664",
-        "score": 469,
+        "score": 487,
         "source": "Hacker News",
         "published": "2026-11-26T14:26:54+00:00"
+      },
+      {
+        "title": "Hints and hazards: pg_plan_advice in PG19",
+        "url": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
+        "comments_url": "https://lobste.rs/s/nfce9x/hints_hazards_pg_plan_advice_pg19",
+        "score": 3,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T13:20:26.832000+00:00"
       },
       {
         "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
         "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
         "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
-        "score": 19,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-26T12:40:23.353000+00:00"
       },
@@ -1479,14 +1502,14 @@
         "title": "In defense of lock poisoning in Rust (2025)",
         "url": "https://sunshowers.io/posts/on-poisoning/",
         "comments_url": "https://lobste.rs/s/wpylec/defense_lock_poisoning_rust_2025",
-        "score": 17,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:51:23.187000+00:00"
       },
       {
         "title": "Nextcloud Office Desktop app",
         "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-        "score": 358,
+        "score": 359,
         "source": "Hacker News",
         "published": "2026-11-26T11:50:49+00:00"
       },
@@ -1497,21 +1520,6 @@
         "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:30:21.471000+00:00"
-      },
-      {
-        "title": "Intel One Mono font (2023)",
-        "url": "https://github.com/intel/intel-one-mono",
-        "score": 388,
-        "source": "Hacker News",
-        "published": "2026-11-26T10:11:01+00:00"
-      },
-      {
-        "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
-        "url": "https://www.jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604/",
-        "comments_url": "https://lobste.rs/s/3lkriu/ansible_fails_waiting_for_privilege",
-        "score": 10,
-        "source": "Lobste.rs",
-        "published": "2026-11-26T09:45:42.146000+00:00"
       }
     ],
     "reddit": [

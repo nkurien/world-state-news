@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T03:30:54.900722+00:00",
+  "last_updated": "2026-11-26T04:01:06.310056+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 166
+      "ms": 395
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 403
+      "ms": 206
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 188
+      "ms": 267
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 153
+      "ms": 295
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 222
+      "ms": 582
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 246
+      "ms": 335
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 534
+      "ms": 609
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 776
+      "ms": 475
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 196
+      "ms": 1283
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 95
+      "ms": 197
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 311
+      "ms": 469
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 432
+      "ms": 256
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 156
+      "ms": 419
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 135
+      "ms": 170
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 302
+      "ms": 439
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 45,
       "error": null,
-      "ms": 146
+      "ms": 271
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 802
+      "ms": 759
     },
     "Semafor": {
       "ok": true,
       "count": 270,
       "error": null,
-      "ms": 864
+      "ms": 650
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 785
+      "ms": 845
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 254
+      "ms": 335
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3096
+      "ms": 3302
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 486
+      "ms": 202
     },
     "The Independent": {
       "ok": true,
-      "count": 94,
+      "count": 93,
       "error": null,
-      "ms": 301
+      "ms": 244
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 239
+      "ms": 158
     }
   },
   "breaking": [
@@ -175,28 +175,6 @@
         }
       ],
       "consensus": 4.5
-    },
-    {
-      "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
-      "url": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T00:52:56+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
-          "title": "Macy’s sidesteps how Thanksgiving Day Parade push impacts participants",
-          "published": "2026-11-26T00:07:58+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375820/macys-thanksgiving-day-parade-postponed-new-york-braces-huge-storm",
-          "title": "Macy’s Thanksgiving Day Parade postponed, as New York braces for huge storm",
-          "published": "2026-11-25T23:34:54+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
@@ -269,26 +247,28 @@
       "consensus": 2.5
     },
     {
-      "title": "‘Russia wants more than Ukraine,’ says Germany’s Merz as he defends aid for Kyiv",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/russia-ukraine-germany-merz-aid/",
-      "source": "Japan Times",
-      "published": "2026-11-26T00:56:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/russia-wants-more-ukraine-says-germanys-merz-he-defends-aid-kyiv-6582701",
-          "title": "'Russia wants more than Ukraine,' says Germany's Merz as he defends aid for Kyiv",
-          "published": "2026-11-25T20:30:59+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "From AI models to football: how China plans to expand defence education by 2030",
+      "url": "https://www.scmp.com/news/china/politics/article/3375850/ai-models-football-how-china-plans-expand-defence-education-2030",
+      "source": "SCMP",
+      "published": "2026-11-26T04:00:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Ex-lawmaker William Wong spared jail for 4 traffic offences after drunken hit-and-run",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375845/ex-lawmaker-william-wong-spared-jail-4-traffic-offences-after-drunken-hit-and-run",
+      "title": "Why Singapore’s Tuas mega port could be good news for Malaysia",
+      "url": "https://www.scmp.com/week-asia/economics/article/3375789/why-singapores-tuas-mega-port-could-be-good-news-malaysia",
       "source": "SCMP",
-      "published": "2026-11-26T03:29:10+00:00",
+      "published": "2026-11-26T04:00:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Court hears victim of alleged schoolies bashing has no sign of brain activity",
+      "url": "https://www.abc.net.au/news/2026-11-26/gold-coast-schoolies-alleged-bashing-court/107429828",
+      "source": "ABC Australia",
+      "published": "2026-11-26T03:52:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -305,7 +285,7 @@
         {
           "source": "SCMP",
           "url": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
-          "title": "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
+          "title": "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65",
           "published": "2026-11-25T23:20:50+00:00"
         },
         {
@@ -330,6 +310,28 @@
       "consensus": 6.0
     },
     {
+      "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+      "url": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T00:52:56+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
+          "title": "Macy’s sidesteps how Thanksgiving Day Parade push impacts participants",
+          "published": "2026-11-26T00:07:58+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375820/macys-thanksgiving-day-parade-postponed-new-york-braces-huge-storm",
+          "title": "Macy’s Thanksgiving Day Parade postponed, as New York braces for huge storm",
+          "published": "2026-11-25T23:34:54+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Brad Pitt, Angelina Jolie settle dispute over French estate Château Miraval",
       "url": "https://www.cbc.ca/news/entertainment/pitt-jolie-miraval-lawsuits-allegations-9.7436552?cmp=rss",
       "source": "CBC World",
@@ -347,28 +349,6 @@
           "url": "https://www.independent.co.uk/news/world/americas/angelina-jolie-brad-pitt-los-angeles-french-fbi-b3091834.html",
           "title": "Angelina Jolie and Brad Pitt settle winery fight lawsuit that surfaced abuse allegations",
           "published": "2026-11-25T23:13:21+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Gordon Ramsay announced as new host of Top Gear to air in 2028",
-      "url": "https://www.abc.net.au/news/2026-11-26/gordon-ramsay-top-gear-host-revival/107428244",
-      "source": "ABC Australia",
-      "published": "2026-11-26T00:14:28+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/top-gear-gordon-ramsay-host-9.7435980?cmp=rss",
-          "title": "British show Top Gear revived with Gordon Ramsay as new host",
-          "published": "2026-11-25T19:50:40+00:00"
-        },
-        {
-          "source": "RNZ",
-          "url": "https://www.rnz.co.nz/life/screens/tv/top-gear-to-return-in-2028-with-celebrity-chef-gordon-ramsay-as-lead-host",
-          "title": "Chef Gordon Ramsay to host new Top Gear series",
-          "published": "2026-11-25T19:21:48+00:00"
         }
       ],
       "consensus": 3.5
@@ -520,6 +500,22 @@
       "consensus": 2.5
     },
     {
+      "title": "British show Top Gear revived with Gordon Ramsay as new host",
+      "url": "https://www.cbc.ca/news/entertainment/top-gear-gordon-ramsay-host-9.7435980?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-25T19:50:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RNZ",
+          "url": "https://www.rnz.co.nz/life/screens/tv/top-gear-to-return-in-2028-with-celebrity-chef-gordon-ramsay-as-lead-host",
+          "title": "Chef Gordon Ramsay to host new Top Gear series",
+          "published": "2026-11-25T19:21:48+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Europe Tonight: Russia reportedly prepares nuclear satellite launch",
       "url": "https://www.euronews.com/2026/11/25/europe-tonight-russia-reportedly-prepares-nuclear-satellite-launch",
       "source": "Euronews",
@@ -643,6 +639,22 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
           "title": "US Army blows up toxic explosives in Iowa, calls detonation a success",
           "published": "2026-11-25T15:48:57+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "‘Russia wants more than Ukraine,’ says Germany’s Merz as he defends aid for Kyiv",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/russia-ukraine-germany-merz-aid/",
+      "source": "Japan Times",
+      "published": "2026-11-26T00:56:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/russia-wants-more-ukraine-says-germanys-merz-he-defends-aid-kyiv-6582701",
+          "title": "'Russia wants more than Ukraine,' says Germany's Merz as he defends aid for Kyiv",
+          "published": "2026-11-25T20:30:59+00:00"
         }
       ],
       "consensus": 2.0
@@ -824,91 +836,73 @@
       "consensus": 1.5
     },
     {
-      "title": "NT records highest mental health ED presentation rate in country",
-      "url": "https://www.abc.net.au/news/2026-11-26/nt-mental-health-emergency-department-presentations-rdh-beds/107425122",
-      "source": "ABC Australia",
-      "published": "2026-11-26T03:26:43+00:00",
+      "title": "Chinese AI chips to capture 88% of home market by 2028, UBS says, as Nvidia woes mount",
+      "url": "https://www.scmp.com/tech/tech-war/article/3375758/chinese-ai-chips-capture-88-home-market-2028-ubs-says-nvidia-woes-mount",
+      "source": "SCMP",
+      "published": "2026-11-26T04:00:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "ACT data reveals which schools will face the biggest budget cuts",
-      "url": "https://www.abc.net.au/news/2026-11-26/act-school-budget-data-shows-funding-gains-and-losses/107428824",
-      "source": "ABC Australia",
-      "published": "2026-11-26T03:22:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump’s newest order curtailing birthright citizenship is blocked by second judge",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/trump-birthright-citizenship-judge-block/",
-      "source": "Japan Times",
-      "published": "2026-11-26T03:21:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Australia's largest proposed vegetation-fuelled power plant rejected again",
-      "url": "https://www.abc.net.au/news/2026-11-26/court-rules-on-hunter-valley-biomass-generator/107423888",
-      "source": "ABC Australia",
-      "published": "2026-11-26T03:17:48+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Person who chopped branches from Ōmārama oak to receive council bill",
-      "url": "https://www.rnz.co.nz/news/community/2799252/person-who-chopped-branches-from-omarama-oak-to-receive-council-bill",
+      "title": "特殊选票释疑：它是如何影响大选结果和政府方向的？",
+      "url": "https://www.rnz.co.nz/news/chinese/2799790/",
       "source": "RNZ",
-      "published": "2026-11-26T03:11:19+00:00",
+      "published": "2026-11-26T03:52:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Man swam to defence land and stole military explosives, police say",
-      "url": "https://www.abc.net.au/news/2026-11-26/townsville-man-swam-to-steal-military-weapons/107429592",
+      "title": "'Neutral from the outset': Wellington mayor Andrew Little still holding back over rates controversy",
+      "url": "https://www.rnz.co.nz/news/regional/2798557/neutral-from-the-outset-wellington-mayor-andrew-little-still-holding-back-over-rates-controversy",
+      "source": "RNZ",
+      "published": "2026-11-26T03:45:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Mother accused of attempted murder of two boys granted bail",
+      "url": "https://www.abc.net.au/news/2026-11-26/qld-noxious-substance-attempted-murder/107430146",
       "source": "ABC Australia",
-      "published": "2026-11-26T03:10:33+00:00",
+      "published": "2026-11-26T03:44:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Death certificates to be issued for all Malaysians missing in Nepal floods",
-      "url": "https://www.straitstimes.com/asia/se-asia/death-certificates-to-be-issued-for-all-malaysians-missing-in-nepal-floods",
-      "source": "Straits Times",
-      "published": "2026-11-26T03:10:00+00:00",
+      "title": "How did the Tasmanian government's greyhound racing ban fail?",
+      "url": "https://www.abc.net.au/news/2026-11-26/tasmanian-greyhound-racing-ban-fails-to-pass-analysis/107429932",
+      "source": "ABC Australia",
+      "published": "2026-11-26T03:43:04+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Japan to extend tax break for inherited home sales by four years",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/japan-inherited-home-sale-tax-break/",
+      "title": "Can Australia’s Pacific diplomacy with Solomon deal match China’s enduring influence?",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375849/can-australias-pacific-diplomacy-solomon-deal-match-chinas-enduring-influence",
+      "source": "SCMP",
+      "published": "2026-11-26T03:39:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "African insurgents take war to the skies with off-the-shelf drones",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/africa-insurgents-war-drones/",
       "source": "Japan Times",
-      "published": "2026-11-26T03:03:00+00:00",
+      "published": "2026-11-26T03:39:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "US authorizes SpaceX to launch up to one million satellites for orbital data centers",
-      "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
-      "source": "France24",
-      "published": "2026-11-26T03:02:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "FIFA turns to influencers to promote U17 World Cup",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/fifa-turns-to-influencers-to-promote-u17-world-cup?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T03:00:51+00:00",
+      "title": "Singapore 'very disappointed' with proposed US tariffs, says findings fail to account for its economic structure",
+      "url": "https://www.channelnewsasia.com/singapore/singapore-us-tariffs-meti-trump-6583911",
+      "source": "CNA",
+      "published": "2026-11-26T03:37:24+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -984,10 +978,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57886.95,
+        "price": 57840.73,
         "currency": "JPY",
-        "change": 875.33,
-        "change_percent": 1.54,
+        "change": 829.11,
+        "change_percent": 1.45,
         "name": "Nikkei 225"
       },
       {
@@ -1010,26 +1004,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3603.6,
+        "price": 3606.1,
         "currency": "USD",
-        "change": 39.0,
-        "change_percent": 1.09,
+        "change": 41.5,
+        "change_percent": 1.16,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.85,
+        "price": 41.95,
         "currency": "USD",
-        "change": 1.31,
-        "change_percent": 3.24,
+        "change": 1.42,
+        "change_percent": 3.5,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.85,
+        "price": 91.17,
         "currency": "USD",
-        "change": 0.21,
-        "change_percent": 0.23,
+        "change": 0.53,
+        "change_percent": 0.58,
         "name": "Brent Crude"
       },
       {
@@ -1037,7 +1031,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.15,
+        "change_percent": -0.16,
         "name": "EUR/USD"
       },
       {
@@ -1045,23 +1039,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.11,
+        "change_percent": -0.12,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.19,
+        "price": 159.16,
         "currency": "JPY",
-        "change": 0.07,
-        "change_percent": 0.04,
+        "change": 0.04,
+        "change_percent": 0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60576.27,
+        "price": 60720.33,
         "currency": "USD",
-        "change": 197.7,
-        "change_percent": 0.33,
+        "change": 341.76,
+        "change_percent": 0.57,
         "name": "Bitcoin"
       }
     ],
@@ -1355,6 +1349,14 @@
   "web": {
     "tech": [
       {
+        "title": "I Booted From My Tape Backup From 2002",
+        "url": "https://changelog.complete.org/archives/45268-i-booted-from-my-tape-backup-from-2002",
+        "comments_url": "https://lobste.rs/s/2thnmt/i_booted_from_my_tape_backup_from_2002",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T03:56:07.099000+00:00"
+      },
+      {
         "title": "Visualizing Metra (2011)",
         "url": "https://www.c82.net/blog/visualizing-metra",
         "comments_url": "https://lobste.rs/s/v4qhwb/visualizing_metra_2011",
@@ -1366,7 +1368,7 @@
         "title": "The beauty of CSS mixins",
         "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
         "comments_url": "https://lobste.rs/s/faqxns/beauty_css_mixins",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:02:17.726000+00:00"
       },
@@ -1374,21 +1376,21 @@
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
       },
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 125,
+        "score": 138,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 22,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1396,7 +1398,7 @@
         "title": "Make the Plan a Value",
         "url": "https://jackkelly.name/blog/archives/2026/11/26/make_the_plan_a_value",
         "comments_url": "https://lobste.rs/s/9imhob/make_plan_value",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:12:06.360000+00:00"
       },
@@ -1420,7 +1422,7 @@
         "title": "Typed indexes in Zig",
         "url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig/",
         "comments_url": "https://lobste.rs/s/l6g7j1/typed_indexes_zig",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:48:44.713000+00:00"
       },
@@ -1436,36 +1438,29 @@
         "title": "Generalized Riemann Hypothesis proof in Lean 4, in 76k lines (down from 17M)",
         "url": "https://leanprover.zulipchat.com/#narrow/channel/658556-Riemann-Hypothesis/topic/Cleaning.20up.20the.20proof/near/643702366",
         "comments_url": "https://lobste.rs/s/tlwot6/generalized_riemann_hypothesis_proof",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:26:56.449000+00:00"
       },
       {
         "title": "Bare Metal Qwen",
         "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-        "score": 78,
+        "score": 87,
         "source": "Hacker News",
         "published": "2026-11-25T22:15:34+00:00"
-      },
-      {
-        "title": "Deploying a payphone on a tiny Pacific Island",
-        "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-        "score": 52,
-        "source": "Hacker News",
-        "published": "2026-11-25T22:12:25+00:00"
       },
       {
         "title": "Scott Aaronson on recent complexity theory AI achievements",
         "url": "https://scottaaronson.blog/?p=10379",
         "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
-        "score": 24,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-25T21:52:52.967000+00:00"
       },
       {
         "title": "Much shorter version of GRH Lean verification from Anthropic",
         "url": "https://github.com/lsernau/grh-lean",
-        "score": 320,
+        "score": 328,
         "source": "Hacker News",
         "published": "2026-11-25T21:48:10+00:00"
       }

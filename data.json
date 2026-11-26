@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T08:30:56.217402+00:00",
+  "last_updated": "2026-11-26T09:01:08.985495+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 277
+      "ms": 307
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 228
+      "ms": 420
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 200
+      "ms": 142
     },
     "BBC News": {
       "ok": true,
-      "count": 30,
+      "count": 27,
       "error": null,
-      "ms": 159
+      "ms": 408
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 381
+      "ms": 116
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 254
+      "ms": 408
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 588
+      "ms": 477
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 355
+      "ms": 654
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 99
+      "ms": 172
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 390
+      "ms": 337
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 835
+      "ms": 366
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 219
+      "ms": 333
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 205
+      "ms": 304
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 149
+      "ms": 864
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 217
+      "ms": 249
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 345
+      "ms": 394
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 649
+      "ms": 680
     },
     "Semafor": {
       "ok": true,
       "count": 266,
       "error": null,
-      "ms": 530
+      "ms": 695
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 604
+      "ms": 703
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 385
+      "ms": 448
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3241
+      "ms": 3216
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 232
+      "ms": 279
     },
     "The Independent": {
       "ok": true,
-      "count": 87,
+      "count": 82,
       "error": null,
-      "ms": 219
+      "ms": 140
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 141
+      "ms": 218
     }
   },
   "breaking": [
@@ -183,8 +183,36 @@
       "consensus": 6.5
     },
     {
-      "title": "Wife of Japanese Journalist Detained in Russia Makes First Public Comments, Calls for His Release",
-      "url": "https://www.themoscowtimes.com/2026/11/26/wife-of-japanese-journalist-detained-in-russia-makes-first-public-comments-calls-a812376",
+      "title": "Trump and NATO Chief Urge Russia to Avoid Actions That Widen Ukraine War",
+      "url": "https://www.themoscowtimes.com/2026/11/26/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war-a812374",
+      "source": "The Moscow Times",
+      "published": "2026-11-26T08:49:04+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+          "title": "Live: Trump, NATO chief urge Moscow to not 'expand' Ukraine war",
+          "published": "2026-11-26T05:44:57+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T05:24:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T04:52:23+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
+      "title": "Wife of Japanese Journalist Jailed By Russia Pleads for His Release in First Public Comments",
+      "url": "https://www.themoscowtimes.com/2026/11/26/wife-of-japanese-journalist-jailed-by-russia-pleads-for-his-release-in-first-a812376",
       "source": "The Moscow Times",
       "published": "2026-11-26T08:27:53+00:00",
       "score": 4,
@@ -211,26 +239,52 @@
       "consensus": 4.5
     },
     {
-      "title": "Live: Trump, NATO chief urge Moscow to not 'expand' Ukraine war",
-      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
-      "source": "France24",
-      "published": "2026-11-26T05:44:57+00:00",
-      "score": 3,
+      "title": "Huge blast hits Bangkok oil depot",
+      "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+      "source": "Straits Times",
+      "published": "2026-11-26T08:38:50+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T05:24:00+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T04:52:23+00:00"
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
+          "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
+          "published": "2026-11-26T08:27:20+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
+    },
+    {
+      "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T08:23:51+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
+          "title": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
+          "published": "2026-11-26T05:14:01+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Cyril Ramaphosa wins court bid to overturn impeachment report",
+      "url": "https://www.thehindu.com/news/international/cyril-ramaphosa-wins-court-bid-to-overturn-impeachment-report/article71745568.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T07:44:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
+          "title": "South Africa's Ramaphosa wins court bid over impeachment report",
+          "published": "2026-11-25T20:07:59+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "FedEx plane overshoots Miami runway, causing brief suspension of flights at airport",
@@ -249,22 +303,6 @@
       "consensus": 2.5
     },
     {
-      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
-      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T07:20:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "title": "US announces new tariffs on host of countries including China",
-          "published": "2026-11-26T04:10:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "'Unacceptable': China, EU among major economies against new US tariffs",
       "url": "https://www.france24.com/en/americas/20261126-unacceptable-major-economies-push-back-against-new-us-tariffs",
       "source": "France24",
@@ -276,6 +314,108 @@
           "url": "https://www.straitstimes.com/asia/major-economies-balk-at-new-us-tariffs-over-unfair-trade",
           "title": "Major economies balk at new US tariffs over ‘unfair’ trade",
           "published": "2026-11-26T06:17:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    }
+  ],
+  "world": [
+    {
+      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T05:19:35+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+          "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+          "published": "2026-11-25T23:37:18+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
+          "title": "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65",
+          "published": "2026-11-25T23:20:50+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "published": "2026-11-25T22:46:30+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/entertainment/andy-taylor-guitarist-new-wave-icons-duran-duran-dies-65-6582916",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "published": "2026-11-25T22:35:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
+          "published": "2026-11-25T22:21:10+00:00"
+        }
+      ],
+      "consensus": 7.0
+    },
+    {
+      "title": "Six killed, including children, in plane crash off Mississippi coast",
+      "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T04:48:42+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
+          "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+          "published": "2026-11-26T01:54:49+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
+          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
+          "published": "2026-11-25T09:41:54+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
+      "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
+      "source": "The Independent",
+      "published": "2026-11-25T10:19:37+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/25/us-shelves-plans-for-business-deals-with-russia-to-end-ukraine-war-ft-a94370",
+          "title": "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War – FT",
+          "published": "2026-11-25T10:14:06+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-shelves-proposals-to-use-business-deals-with-russia-to-end-ukraine-war-ft-reports/article71741201.ece",
+          "title": "U.S. shelves proposals to use business deals with Russia to end Ukraine war, FT reports",
+          "published": "2026-11-25T05:41:19+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T07:20:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "title": "US announces new tariffs on host of countries including China",
+          "published": "2026-11-26T04:10:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -311,124 +451,6 @@
         }
       ],
       "consensus": 2.5
-    }
-  ],
-  "world": [
-    {
-      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
-      "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
-      "source": "France24",
-      "published": "2026-11-25T23:37:18+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375817/duran-duran-guitarist-andy-taylor-sound-1980s-dies-65",
-          "title": "Andy Taylor, guitarist who helped define Duran Duran’s 80s sound, dead at 65",
-          "published": "2026-11-25T23:20:50+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "published": "2026-11-25T22:46:30+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/entertainment/andy-taylor-guitarist-new-wave-icons-duran-duran-dies-65-6582916",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "published": "2026-11-25T22:35:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
-          "published": "2026-11-25T22:21:10+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
-    {
-      "title": "Six killed, including children, in plane crash off Mississippi coast",
-      "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T04:48:42+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
-          "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
-          "published": "2026-11-26T01:54:49+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
-          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
-          "published": "2026-11-25T09:41:54+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
-      "title": "Israeli strike kills Hamas official, his wife and children",
-      "url": "https://www.thehindu.com/news/international/israeli-strike-kills-hamas-official-his-wife-and-children/article71743893.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T17:59:46+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
-          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
-          "published": "2026-11-25T14:06:13+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
-          "title": "Israeli strike kills Hamas official, his wife and children",
-          "published": "2026-11-25T13:27:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
-      "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
-      "source": "The Independent",
-      "published": "2026-11-25T10:19:37+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/25/us-shelves-plans-for-business-deals-with-russia-to-end-ukraine-war-ft-a94370",
-          "title": "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War – FT",
-          "published": "2026-11-25T10:14:06+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-shelves-proposals-to-use-business-deals-with-russia-to-end-ukraine-war-ft-reports/article71741201.ece",
-          "title": "U.S. shelves proposals to use business deals with Russia to end Ukraine war, FT reports",
-          "published": "2026-11-25T05:41:19+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Cyril Ramaphosa wins court bid to overturn impeachment report",
-      "url": "https://www.thehindu.com/news/international/cyril-ramaphosa-wins-court-bid-to-overturn-impeachment-report/article71745568.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T07:12:41+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
-          "title": "South Africa's Ramaphosa wins court bid over impeachment report",
-          "published": "2026-11-25T20:07:59+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "Macy's postpones Thanksgiving parade due to severe weather",
@@ -458,38 +480,6 @@
           "url": "https://www.scmp.com/news/world/united-states-canada/article/3375820/macys-thanksgiving-day-parade-postponed-new-york-braces-huge-storm",
           "title": "Macy’s Thanksgiving Day Parade postponed, as New York braces for huge storm",
           "published": "2026-11-25T23:34:54+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Judges recommend prosecutors end corruption case against Netanyahu",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T01:08:43+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-judges-recommend-prosecutors-drop-one-bribery-case-against-netanyahu-6582791",
-          "title": "Israeli judges recommend prosecutors drop one bribery case against Netanyahu",
-          "published": "2026-11-25T21:24:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Brad Pitt, Angelina Jolie settle dispute over French estate Château Miraval",
-      "url": "https://www.cbc.ca/news/entertainment/pitt-jolie-miraval-lawsuits-allegations-9.7436552?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-26T00:25:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
-          "title": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
-          "published": "2026-11-25T23:18:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -538,22 +528,6 @@
           "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
           "title": "Russia reportedly to launch a nuclear weapon into space",
           "published": "2026-11-24T12:01:13+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
-      "source": "SCMP",
-      "published": "2026-11-25T14:03:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -623,10 +597,26 @@
       "consensus": 2.5
     },
     {
+      "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
+      "url": "https://www.thehindu.com/sport/cricket/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation/article71745859.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T08:39:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation",
+          "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
+          "published": "2026-11-26T08:33:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
       "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
       "source": "The Hindu",
-      "published": "2026-11-26T07:39:48+00:00",
+      "published": "2026-11-26T08:27:03+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -634,6 +624,22 @@
           "url": "https://www.channelnewsasia.com/business/musk-pledges-two-spacex-shares-every-american-child-6584096",
           "title": "Musk pledges two SpaceX shares for every American child",
           "published": "2026-11-26T04:17:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "U.S. Army declares success in detonation of lead-based explosives stockpile in Iowa",
+      "url": "https://www.thehindu.com/news/international/us-army-declares-success-in-detonation-of-lead-based-explosives-stockpile-in-iowa/article71745045.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T07:55:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
+          "title": "US Army blows up toxic explosives in Iowa, calls detonation a success",
+          "published": "2026-11-25T15:48:57+00:00"
         }
       ],
       "consensus": 2.0
@@ -650,22 +656,6 @@
           "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
           "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
           "published": "2026-11-26T05:00:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "U.S. Army declares success in detonation of lead-based explosives stockpile in Iowa",
-      "url": "https://www.thehindu.com/news/international/us-army-declares-success-in-detonation-of-lead-based-explosives-stockpile-in-iowa/article71745045.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T02:05:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
-          "title": "US Army blows up toxic explosives in Iowa, calls detonation a success",
-          "published": "2026-11-25T15:48:57+00:00"
         }
       ],
       "consensus": 2.0
@@ -714,22 +704,6 @@
           "url": "https://www.semafor.com/article/11/24/2026/china-investigates-politburo-member-amid-anti-corruption-purge",
           "title": "China investigates Politburo member as corruption purge deepens",
           "published": "2026-11-24T22:23:03+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
-      "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-a94364",
-      "source": "The Moscow Times",
-      "published": "2026-11-24T14:47:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/24/footage-of-russian-cargo-ship-hit-by-ukrainian-drone-attack-in-the-gulf-of-finland",
-          "title": "Footage of Russian cargo ship hit by Ukrainian drone attack in the Gulf of Finland",
-          "published": "2026-11-24T08:14:43+00:00"
         }
       ],
       "consensus": 2.0
@@ -831,91 +805,109 @@
       "consensus": 1.5
     },
     {
-      "title": "What others can learn from China’s effective governance",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3375562/what-others-can-learn-chinas-effective-governance",
+      "title": "Huawei advances home-grown chip design ecosystem while eyeing global push to rival Nvidia",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375902/huawei-advances-home-grown-chip-design-ecosystem-while-eyeing-global-push-rival-nvidia",
       "source": "SCMP",
-      "published": "2026-11-26T08:30:09+00:00",
+      "published": "2026-11-26T09:00:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
-      "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
+      "title": "Why US-China rivalry narrows Southeast Asia’s trade and foreign policy options",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375897/why-us-china-rivalry-narrows-southeast-asias-trade-and-foreign-policy-options",
+      "source": "SCMP",
+      "published": "2026-11-26T09:00:12+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "8 French nationals jailed for life in Iraq for joining Syrian Islamic State",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3375901/8-french-nationals-jailed-life-iraq-joining-syrian-islamic-state",
+      "source": "SCMP",
+      "published": "2026-11-26T08:56:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Police search for family of boy found in Kaitaia",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2802173/police-search-for-family-of-boy-found-in-kaitaia",
+      "source": "RNZ",
+      "published": "2026-11-26T08:49:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Explosion occurs at oil facility in Thailand’s Bangkok",
+      "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T08:49:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Australia set to pass law for LNG exporters to reserve more gas for domestic use",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/australia-lng-exporters-curb/",
+      "source": "Japan Times",
+      "published": "2026-11-26T08:49:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan, China trade accusations over ships near disputed islands",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-china-trade-accusations-over-ships-near-disputed-islands",
+      "source": "Straits Times",
+      "published": "2026-11-26T08:48:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hong Kong marks deadly fire anniversary with flowers, prayers and tears following government warning",
+      "url": "https://www.straitstimes.com/asia/east-asia/hong-kong-marks-deadly-fire-anniversary-with-flowers-prayers-and-tears-following-government-warning",
+      "source": "Straits Times",
+      "published": "2026-11-26T08:45:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Up to 4½ years in jail for 6 men who had sex with 14-year-old girl they met on dating app",
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3375903/4-1/2-years-jail-6-men-who-had-sex-14-year-old-girl-they-met-dating-app",
+      "source": "SCMP",
+      "published": "2026-11-26T08:42:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "SmarTone network outage leaves Hong Kong mobile users offline and angry",
+      "url": "https://www.scmp.com/news/hong-kong/article/3375900/smartone-network-outage-leaves-hong-kong-mobile-users-offline-and-angry",
+      "source": "SCMP",
+      "published": "2026-11-26T08:39:49+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'We are not fighting culture, we fight to end FGM: It's a human rights violation of women and girls'",
+      "url": "https://www.france24.com/en/we-are-not-fighting-culture-we-fight-to-end-fgm-it-s-a-human-rights-violation-of-women-and-girls",
       "source": "France24",
-      "published": "2026-11-26T08:27:20+00:00",
+      "published": "2026-11-26T08:39:26+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "How China’s leadership will weigh up its choices for picking Shanghai’s next party chief",
-      "url": "https://www.scmp.com/news/china/politics/article/3375898/how-chinas-leadership-will-weigh-its-choices-picking-shanghais-next-party-chief",
-      "source": "SCMP",
-      "published": "2026-11-26T08:27:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes",
-      "url": "https://www.straitstimes.com/asia/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes",
-      "source": "Straits Times",
-      "published": "2026-11-26T08:26:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ryan Cho to be sentenced Feb 12 in ‘unprecedented’ sex predator case",
-      "url": "https://www.straitstimes.com/asia/australianz/ryan-cho-to-be-sentenced-feb-12-in-unprecedented-sex-predator-case",
-      "source": "Straits Times",
-      "published": "2026-11-26T08:26:33+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Councillor ordered to apologise over 'school short-skirt brigade' remarks",
-      "url": "https://www.abc.net.au/news/2026-11-26/ipswich-councillor-andrew-antoniolli-ordered-to-apologise/107432182",
-      "source": "ABC Australia",
-      "published": "2026-11-26T08:24:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Sydney apartment buyers in limbo after $24m in deposits goes missing",
-      "url": "https://www.abc.net.au/news/2026-11-26/landmark-dee-why-blacktown-projects-missing-unit-deposits-sydney/107431556",
-      "source": "ABC Australia",
-      "published": "2026-11-26T08:23:51+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pakistan, Saudi, Turkey to hold Mecca alliance meeting in Islamabad Nov 27-28, sources say",
-      "url": "https://www.straitstimes.com/asia/pakistan-saudi-turkey-to-hold-mecca-alliance-meeting-in-islamabad-nov-27-28-sources-say",
-      "source": "Straits Times",
-      "published": "2026-11-26T08:21:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Train services to be disrupted after Fair Work Commission delays decision",
-      "url": "https://www.abc.net.au/news/2026-11-26/nsw-passenger-trains-disrupted-fair-work-delays-decision/107428948",
-      "source": "ABC Australia",
-      "published": "2026-11-26T08:17:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Apple to expand India retail network with new store in Hyderabad",
-      "url": "https://www.straitstimes.com/asia/south-asia/apple-to-expand-india-retail-network-with-new-store-in-hyderabad",
-      "source": "Straits Times",
-      "published": "2026-11-26T08:17:00+00:00",
+      "title": "Injury-hit PSG drop first points of Champions League campaign against Roma",
+      "url": "https://www.france24.com/en/tv-shows/sports/20261126-injury-hit-psg-drop-first-points-of-champions-league-campaign-against-roma",
+      "source": "France24",
+      "published": "2026-11-26T08:34:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -932,10 +924,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 136.48,
+      "price": 136.64,
       "currency": "GBP",
-      "change": 3.5,
-      "change_percent": 2.63,
+      "change": 3.66,
+      "change_percent": 2.75,
       "name": "FTSE All-World ETF"
     },
     {
@@ -948,10 +940,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10561.44,
+      "price": 10573.91,
       "currency": "GBP",
-      "change": 134.5,
-      "change_percent": 1.29,
+      "change": 146.97,
+      "change_percent": 1.41,
       "name": "FTSE 100"
     }
   ],
@@ -967,17 +959,17 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10561.44,
+        "price": 10573.91,
         "currency": "GBP",
-        "change": 134.5,
-        "change_percent": 1.29,
+        "change": 146.97,
+        "change_percent": 1.41,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50182.9,
+        "price": 50182.95,
         "currency": "USD",
-        "change": 164.2,
+        "change": 164.25,
         "change_percent": 0.33,
         "name": "Dow Jones"
       },
@@ -999,44 +991,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25127.74,
+        "price": 25192.63,
         "currency": "EUR",
-        "change": 425.61,
-        "change_percent": 1.72,
+        "change": 490.5,
+        "change_percent": 1.99,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8107.02,
+        "price": 8120.6,
         "currency": "EUR",
-        "change": 126.45,
-        "change_percent": 1.58,
+        "change": 140.03,
+        "change_percent": 1.75,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3593.5,
+        "price": 3601.8,
         "currency": "USD",
-        "change": 28.9,
-        "change_percent": 0.81,
+        "change": 37.2,
+        "change_percent": 1.04,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.62,
+        "price": 41.99,
         "currency": "USD",
-        "change": 1.08,
-        "change_percent": 2.66,
+        "change": 1.46,
+        "change_percent": 3.59,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.92,
+        "price": 90.53,
         "currency": "USD",
-        "change": 0.28,
-        "change_percent": 0.31,
+        "change": -0.11,
+        "change_percent": -0.12,
         "name": "Brent Crude"
       },
       {
@@ -1044,7 +1036,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.09,
         "name": "EUR/USD"
       },
       {
@@ -1052,23 +1044,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.07,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.14,
+        "price": 159.12,
         "currency": "JPY",
-        "change": 0.02,
-        "change_percent": 0.01,
+        "change": 0.0,
+        "change_percent": 0.0,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60645.13,
+        "price": 60774.11,
         "currency": "USD",
-        "change": 266.56,
-        "change_percent": 0.44,
+        "change": 395.54,
+        "change_percent": 0.66,
         "name": "Bitcoin"
       }
     ],
@@ -1239,22 +1231,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "China hits back at Trump tariff threat",
-          "url": "https://www.ft.com/content/31ae0162-f946-4e2c-b656-1930baea19d0?syn-25a6b1a6=1",
-          "published": "2026-11-26T08:02:13+00:00",
-          "snippet": "Levies follow investigation into whether countries give their own companies unfair subsidies"
+          "title": "Global stocks steady after volatile US trading over AI risks",
+          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+          "published": "2026-11-26T08:31:48+00:00",
+          "snippet": "Tech shares hit this month by fears over whether an AI boom can be sustained"
         },
         {
-          "title": "UK regulator finds ‘systemic’ problems in £8bn private dental market",
-          "url": "https://www.ft.com/content/acd1b122-558c-42ba-ba28-0723ef04fd3f?syn-25a6b1a6=1",
-          "published": "2026-11-26T07:59:45+00:00",
-          "snippet": "Investigation finds patients are sold unnecessary services in an industry that more people are turning to"
+          "title": "China made Shenzhen a showcase for tech prowess at Apec summit",
+          "url": "https://www.ft.com/content/05a51863-48f4-44f5-90a0-3fbaebb72c79?syn-25a6b1a6=1",
+          "published": "2026-11-26T08:27:59+00:00",
+          "snippet": "The inside story on the Asia tech trends that matter, from Nikkei Asia and the Financial Times"
         },
         {
-          "title": "It’s an earnings bubble, not a valuation bubble",
-          "url": "https://www.ft.com/content/511cf4f3-36ea-47a8-9c0b-96e0f8137a9f?syn-25a6b1a6=1",
-          "published": "2026-11-26T07:30:10+00:00",
-          "snippet": "The difference matters"
+          "title": "Tata Trusts launch first legal salvo in boardroom battle",
+          "url": "https://www.ft.com/content/722ecb81-51cc-4897-baa9-cb80c4d2fe4a?syn-25a6b1a6=1",
+          "published": "2026-11-26T08:16:36+00:00",
+          "snippet": "Charitable bodies controlling Tata Sons file court challenge against N Chandrasekaran’s reappointment as chair"
         }
       ]
     },
@@ -1388,14 +1380,14 @@
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 16,
+        "score": 35,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 65,
+        "score": 86,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1418,14 +1410,14 @@
       {
         "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
         "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "score": 198,
+        "score": 217,
         "source": "Hacker News",
         "published": "2026-11-26T03:36:58+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 102,
+        "score": 111,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1433,7 +1425,7 @@
         "title": "The beauty of CSS mixins",
         "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
         "comments_url": "https://lobste.rs/s/faqxns/beauty_css_mixins",
-        "score": 6,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:02:17.726000+00:00"
       },
@@ -1441,21 +1433,21 @@
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 9,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
       },
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 245,
+        "score": 251,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 147,
+        "score": 155,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1463,7 +1455,7 @@
         "title": "Make the Plan a Value",
         "url": "https://jackkelly.name/blog/archives/2026/11/26/make_the_plan_a_value",
         "comments_url": "https://lobste.rs/s/9imhob/make_plan_value",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:12:06.360000+00:00"
       },
@@ -1471,7 +1463,7 @@
         "title": "SSH is a GUI framework",
         "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
         "comments_url": "https://lobste.rs/s/rtde6f/ssh_is_gui_framework",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:55:47.525000+00:00"
       }

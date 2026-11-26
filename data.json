@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T17:01:10.183926+00:00",
+  "last_updated": "2026-11-26T17:30:56.998797+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 288
+      "ms": 460
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 557
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 149
+      "ms": 252
     },
     "BBC News": {
       "ok": true,
       "count": 28,
       "error": null,
-      "ms": 75
+      "ms": 203
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 180
+      "ms": 103
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 157
+      "ms": 273
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 658
+      "ms": 190
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 1109
+      "ms": 710
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 123
+      "ms": 234
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 155
+      "ms": 192
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 262
+      "ms": 388
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 438
+      "ms": 360
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 108
+      "ms": 203
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 2337
+      "ms": 251
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 107
+      "ms": 138
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 434
+      "ms": 433
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 660
+      "ms": 744
     },
     "Semafor": {
       "ok": true,
       "count": 257,
       "error": null,
-      "ms": 427
+      "ms": 771
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 603
+      "ms": 506
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 329
+      "ms": 494
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3125
+      "ms": 3080
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 146
+      "ms": 357
     },
     "The Independent": {
       "ok": true,
-      "count": 72,
+      "count": 73,
       "error": null,
-      "ms": 210
+      "ms": 157
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 115
+      "ms": 338
     }
   },
   "breaking": [
@@ -203,6 +203,50 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief",
+      "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief",
+      "source": "SCMP",
+      "published": "2026-11-26T17:26:17+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
+          "title": "Spanish economist to become new European Central Bank chief",
+          "published": "2026-11-26T16:20:54+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
+          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+          "published": "2026-11-26T15:55:45+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Trump urges Putin to end 'military aggression' in Europe",
+      "url": "https://www.abc.net.au/news/2026-11-27/trump-urges-putin-to-pull-back-military-aggression/107433138",
+      "source": "ABC Australia",
+      "published": "2026-11-26T17:03:08+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
+          "title": "Trump says he'd like to see Putin 'pull back' military aggression in Europe",
+          "published": "2026-11-26T16:40:18+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+          "title": "Ukraine-Russia war latest: Trump tells Putin to end military aggression in Europe to ‘stop the bloodbath’",
+          "published": "2026-11-26T15:36:12+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Italy says two citizens killed in Iranian strike in Kuwait",
@@ -271,28 +315,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Elon Musk to give two shares of SpaceX to every child in the US in a deal worth $18 billion",
-      "url": "https://english.elpais.com/usa/2026-11-26/elon-musk-to-give-two-shares-of-spacex-to-every-child-in-the-us-in-a-deal-worth-18-billion.html",
-      "source": "El País",
-      "published": "2026-11-26T14:14:20+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
-          "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
-          "published": "2026-11-26T08:27:03+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/musk-pledges-two-spacex-shares-every-american-child-6584096",
-          "title": "Musk pledges two SpaceX shares for every American child",
-          "published": "2026-11-26T04:17:00+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
       "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
       "source": "Al Jazeera",
@@ -304,22 +326,6 @@
           "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
           "title": "Two Italians killed in Iranian drone strike on Kuwait",
           "published": "2026-11-26T15:19:02+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Five big takeaways from Donald Trump’s sweeping new tariffs on China, Europe and 12 other economies",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-alikhan-fcc-abc-trump-b3092281.html",
-      "source": "The Independent",
-      "published": "2026-11-26T15:27:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -375,6 +381,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Elon Musk to give two shares of SpaceX to every child in the US in a deal worth $18 billion",
+      "url": "https://english.elpais.com/usa/2026-11-26/elon-musk-to-give-two-shares-of-spacex-to-every-child-in-the-us-in-a-deal-worth-18-billion.html",
+      "source": "El País",
+      "published": "2026-11-26T14:14:20+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
+          "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
+          "published": "2026-11-26T08:27:03+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/business/musk-pledges-two-spacex-shares-every-american-child-6584096",
+          "title": "Musk pledges two SpaceX shares for every American child",
+          "published": "2026-11-26T04:17:00+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Nine hurt in huge explosion at Bangkok oil facility",
@@ -463,6 +491,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Five big takeaways from Donald Trump’s sweeping new tariffs on China, Europe and 12 other economies",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-alikhan-fcc-abc-trump-b3092281.html",
+      "source": "The Independent",
+      "published": "2026-11-26T15:27:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Egypt says 31 dead in Cairo fuel truck inferno, one man arrested",
@@ -641,17 +685,17 @@
       "consensus": 2.5
     },
     {
-      "title": "U.K. net migration falls to lowest since 1997; Indians largest foreign group entering and leaving the country",
-      "url": "https://www.thehindu.com/news/international/uk-net-migration-falls-to-lowest-since-1997-indians-largest-foreign-group-entering-and-leaving-the-country/article71746576.ece",
+      "title": "Myanmar says it will not fully comply with ICJ genocide orders",
+      "url": "https://www.thehindu.com/news/international/myanmar-says-it-will-not-fully-comply-with-icj-genocide-orders/article71747952.ece",
       "source": "The Hindu",
-      "published": "2026-11-26T16:18:30+00:00",
+      "published": "2026-11-26T17:12:15+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375952/uk-net-migration-falls-77000-lowest-annual-level-nearly-30-years",
-          "title": "UK net migration falls to 77,000, lowest annual level in nearly 30 years",
-          "published": "2026-11-26T13:19:28+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/myanmar-says-it-will-not-fully-comply-with-icj-genocide-orders",
+          "title": "Myanmar says it will not fully comply with ICJ genocide orders",
+          "published": "2026-11-26T07:36:49+00:00"
         }
       ],
       "consensus": 2.0
@@ -801,6 +845,69 @@
       "consensus": 1.5
     },
     {
+      "title": "Argentina enters technical recession despite Milei's economic reforms",
+      "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-despite-mileis-economic-reforms",
+      "source": "Euronews",
+      "published": "2026-11-26T17:23:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "USC Trojans marching band ousted from Rose Bowl game over ‘lewd phrase’ scandal",
+      "url": "https://www.independent.co.uk/news/world/americas/usc-marching-band-banned-rose-bowl-ucla-prank-b3092355.html",
+      "source": "The Independent",
+      "published": "2026-11-26T17:12:16+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Rubio angry after Nvidia CEO reinstated despite warning Trump officials about security risk: report",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/marco-rubio-jensen-huang-nvidia-b3092316.html",
+      "source": "The Independent",
+      "published": "2026-11-26T17:10:28+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump calls GDP figures ‘fake’, demands probe of his own Commerce Department",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375962/trump-calls-gdp-figures-fake-demands-probe-his-own-commerce-department",
+      "source": "SCMP",
+      "published": "2026-11-26T17:06:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "UK to get ‘Swiss-style’ consultative rights under new EU deals",
+      "url": "https://www.politico.eu/article/uk-to-get-swiss-style-consultative-rights-under-new-eu-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-26T17:06:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Trump shares the Europe request he made to Putin during China talks",
+      "url": "https://www.independent.co.uk/news/world/europe/trump-putin-russia-ukraine-war-b3092350.html",
+      "source": "The Independent",
+      "published": "2026-11-26T17:05:24+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Why France and Vanuatu are fighting over two uninhabited volcanic islands",
+      "url": "https://www.rfi.fr/en/international/20261126-why-france-and-vanuatu-are-fighting-over-two-uninhabited-volcanic-islands-hunter-matthew",
+      "source": "RFI English",
+      "published": "2026-11-26T17:00:40+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "How a teen’s death raises questions about Colombia’s security crackdown",
       "url": "https://www.aljazeera.com/news/longform/2026/11/26/how-a-teens-death-raises-questions-about-colombias-security-crackdown?traffic_source=rss",
       "source": "Al Jazeera",
@@ -828,91 +935,10 @@
       "consensus": 1.0
     },
     {
-      "title": "Trump says he'd like to see Putin 'pull back' military aggression in Europe",
-      "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
-      "source": "CNA",
-      "published": "2026-11-26T16:40:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
       "title": "French woman on trial for Islamic State propaganda says she is 'ashamed'",
       "url": "https://www.rfi.fr/en/france/20261126-emilie-konig-french-woman-on-trial-for-islamic-state-propaganda-says-she-is-ashamed",
       "source": "RFI English",
       "published": "2026-11-26T16:29:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Extreme heat threatens pregnant women in South Africa’s informal settlements",
-      "url": "http://www.africanews.com/2026/11/26/extreme-heat-threatens-pregnant-women-in-south-africas-informal-settlements/",
-      "source": "Africanews",
-      "published": "2026-11-26T16:29:16+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T16:21:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Spanish economist to become new European Central Bank chief",
-      "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T16:20:54+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump demands probe of GDP data released before midterms",
-      "url": "https://www.channelnewsasia.com/world/trump-demands-probe-gdp-data-released-midterms-6585701",
-      "source": "CNA",
-      "published": "2026-11-26T16:20:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Protests in Iraqi Kurdistan at plans for government in Baghdad to take over oil, border crossings",
-      "url": "https://www.dw.com/en/protests-in-iraqi-kurdistan-at-plans-for-government-in-baghdad-to-take-over-oil-border-crossings/a-80065994?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-26T16:13:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Sweden’s Kristersson edges closer to new term as prime minister",
-      "url": "https://www.politico.eu/article/sweden-kristersson-edges-closer-new-term-prime-minister/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-26T16:11:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "A staggering amount of food goes to waste at Thanksgiving. Here’s how to cut down",
-      "url": "https://www.independent.co.uk/news/world/americas/thanksgiving-dinner-turkey-food-waste-leftovers-recipe-b3092297.html",
-      "source": "The Independent",
-      "published": "2026-11-26T16:10:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Wait continues for new Cook Strait ferries after design unveiled",
-      "url": "https://www.rnz.co.nz/news/business/2804182/wait-continues-for-new-cook-strait-ferries-after-design-unveiled",
-      "source": "RNZ",
-      "published": "2026-11-26T16:08:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1014,26 +1040,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3598.6,
+        "price": 3596.3,
         "currency": "USD",
-        "change": 34.0,
-        "change_percent": 0.95,
+        "change": 31.7,
+        "change_percent": 0.89,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.84,
+        "price": 41.77,
         "currency": "USD",
-        "change": 1.31,
-        "change_percent": 3.22,
+        "change": 1.24,
+        "change_percent": 3.05,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.2,
+        "price": 91.36,
         "currency": "USD",
-        "change": 0.56,
-        "change_percent": 0.62,
+        "change": 0.72,
+        "change_percent": 0.79,
         "name": "Brent Crude"
       },
       {
@@ -1049,7 +1075,7 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.09,
+        "change_percent": -0.08,
         "name": "GBP/USD"
       },
       {
@@ -1062,10 +1088,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60538.27,
+        "price": 60356.72,
         "currency": "USD",
-        "change": 159.7,
-        "change_percent": 0.26,
+        "change": -21.85,
+        "change_percent": -0.04,
         "name": "Bitcoin"
       }
     ],
@@ -1359,30 +1385,44 @@
   "web": {
     "tech": [
       {
-        "title": "Kagi Watch",
-        "url": "https://kagi.com/watch",
-        "score": 27,
+        "title": "AMD Specific Patches for Llama.cpp",
+        "url": "https://devnull.land/amd-specific-llama-cpp",
+        "score": 17,
         "source": "Hacker News",
-        "published": "2026-11-26T16:28:54+00:00"
+        "published": "2026-11-26T17:11:29+00:00"
+      },
+      {
+        "title": "One guy is doing an hunger strike at Anthropic, currently in his 3rd day",
+        "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+        "score": 28,
+        "source": "Hacker News",
+        "published": "2026-11-26T16:55:15+00:00"
+      },
+      {
+        "title": "NP_R ≠ PAR_R",
+        "url": "https://github.com/samueleverett01/bss-permanent-separations",
+        "score": 34,
+        "source": "Hacker News",
+        "published": "2026-11-26T16:50:55+00:00"
       },
       {
         "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
         "url": "https://michidk.github.io/sidebyside/",
-        "score": 25,
+        "score": 34,
         "source": "Hacker News",
         "published": "2026-11-26T15:00:06+00:00"
       },
       {
         "title": "Tell HN: Happy Thanksgiving",
         "url": "https://news.ycombinator.com/item?id=50655664",
-        "score": 321,
+        "score": 348,
         "source": "Hacker News",
         "published": "2026-11-26T14:26:54+00:00"
       },
       {
         "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
         "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
-        "score": 132,
+        "score": 152,
         "source": "Hacker News",
         "published": "2026-11-26T13:48:11+00:00"
       },
@@ -1398,14 +1438,14 @@
         "title": "In defense of lock poisoning in Rust",
         "url": "https://sunshowers.io/posts/on-poisoning/",
         "comments_url": "https://lobste.rs/s/wpylec/defense_lock_poisoning_rust",
-        "score": 8,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:51:23.187000+00:00"
       },
       {
-        "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+        "title": "Nextcloud Office Desktop app",
         "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-        "score": 310,
+        "score": 335,
         "source": "Hacker News",
         "published": "2026-11-26T11:50:49+00:00"
       },
@@ -1420,7 +1460,7 @@
       {
         "title": "Intel One Mono font",
         "url": "https://github.com/intel/intel-one-mono",
-        "score": 324,
+        "score": 339,
         "source": "Hacker News",
         "published": "2026-11-26T10:11:01+00:00"
       },
@@ -1428,7 +1468,7 @@
         "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
         "url": "https://www.jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604/",
         "comments_url": "https://lobste.rs/s/3lkriu/ansible_fails_waiting_for_privilege",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-26T09:45:42.146000+00:00"
       },
@@ -1444,31 +1484,16 @@
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
         "comments_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-26T06:39:00.543000+00:00"
       },
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 172,
+        "score": 180,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
-      },
-      {
-        "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
-        "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 198,
-        "source": "Hacker News",
-        "published": "2026-11-26T05:12:59+00:00"
-      },
-      {
-        "title": "Browser tabs as a container runtime",
-        "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
-        "comments_url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
-        "score": 14,
-        "source": "Lobste.rs",
-        "published": "2026-11-26T04:57:04.708000+00:00"
       }
     ],
     "reddit": [

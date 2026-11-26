@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T15:31:06.110919+00:00",
+  "last_updated": "2026-11-26T15:49:09.627108+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 358
+      "ms": 309
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 59
+      "ms": 239
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 302
+      "ms": 136
     },
     "BBC News": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 400
+      "ms": 302
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 705
+      "ms": 240
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 458
+      "ms": 106
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 819
+      "ms": 435
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 287
+      "ms": 246
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 56
+      "ms": 47
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 247
+      "ms": 272
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 500
+      "ms": 254
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 273
+      "ms": 220
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 467
+      "ms": 114
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 112
+      "ms": 96
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 441
+      "ms": 302
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 465
+      "ms": 169
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 816
+      "ms": 898
     },
     "Semafor": {
       "ok": true,
-      "count": 255,
+      "count": 256,
       "error": null,
-      "ms": 514
+      "ms": 889
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 624
+      "ms": 522
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 270
+      "ms": 341
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3139
+      "ms": 3101
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 77
+      "ms": 202
     },
     "The Independent": {
       "ok": true,
-      "count": 79,
+      "count": 78,
       "error": null,
-      "ms": 159
+      "ms": 261
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 164
+      "ms": 209
     }
   },
   "breaking": [
@@ -175,34 +175,6 @@
         }
       ],
       "consensus": 5.5
-    },
-    {
-      "title": "French actor Gerard Depardieu to stand trial for rape after Paris court rejects appeal",
-      "url": "https://www.scmp.com/news/world/europe/article/3375961/french-actor-gerard-depardieu-stand-trial-rape-after-paris-court-rejects-appeal",
-      "source": "SCMP",
-      "published": "2026-11-26T14:45:59+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-french-emmanuel-macron-paris-catherine-deneuve-b3092247.html",
-          "title": "French actor Gérard Depardieu to stand trial on rape charge, lawyer says",
-          "published": "2026-11-26T14:45:03+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
-          "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-          "published": "2026-11-26T14:44:26+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/france/20261126-french-actor-g%C3%A9rard-depardieu-to-face-trial-for-rape-his-lawyer-says",
-          "title": "🔴 French actor Gérard Depardieu to face trial for alleged rape of actress Charlotte Arnould",
-          "published": "2026-11-26T13:46:41+00:00"
-        }
-      ],
-      "consensus": 4.5
     },
     {
       "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
@@ -271,17 +243,33 @@
       "consensus": 3.5
     },
     {
-      "title": "Two Italians killed in Iranian drone attack in Kuwait, Italy says",
-      "url": "https://www.straitstimes.com/asia/two-italians-killed-in-iranian-drone-attack-in-kuwait-italy-says",
-      "source": "Straits Times",
-      "published": "2026-11-26T15:26:41+00:00",
+      "title": "Five big takeaways from Donald Trump’s sweeping new tariffs on China, Europe and 12 other economies",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-alikhan-fcc-abc-trump-b3092281.html",
+      "source": "The Independent",
+      "published": "2026-11-26T15:27:44+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-27/italians-killed-in-kuwait-attack-iran/107432996",
-          "title": "Two Italians killed in Iranian drone strike on Kuwait",
-          "published": "2026-11-26T15:19:02+00:00"
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Egypt says 31 dead in Cairo fuel truck inferno, one man arrested",
+      "url": "http://www.africanews.com/2026/11/26/egypt-says-31-dead-in-cairo-fuel-truck-inferno-one-man-arrested/",
+      "source": "Africanews",
+      "published": "2026-11-26T15:03:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261126-egypt-31-people-killed-in-cairo-after-fuel-truck-overturns",
+          "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
+          "published": "2026-11-26T11:28:29+00:00"
         }
       ],
       "consensus": 2.5
@@ -613,6 +601,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+      "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T14:44:26+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/france/20261126-french-actor-g%C3%A9rard-depardieu-to-face-trial-for-rape-his-lawyer-says",
+          "title": "🔴 French actor Gérard Depardieu to face trial for alleged rape of actress Charlotte Arnould",
+          "published": "2026-11-26T13:46:41+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "UK net migration falls to 77,000, lowest annual level in nearly 30 years",
       "url": "https://www.scmp.com/news/world/europe/article/3375952/uk-net-migration-falls-77000-lowest-annual-level-nearly-30-years",
       "source": "SCMP",
@@ -757,22 +761,6 @@
       "consensus": 1.5
     },
     {
-      "title": "Moment fuel truck fire engulfs traffic on Cairo highway",
-      "url": "https://www.euronews.com/2026/11/26/moment-fuel-truck-fire-engulfs-traffic-on-cairo-highway",
-      "source": "Euronews",
-      "published": "2026-11-26T04:40:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
-          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
-          "published": "2026-11-25T21:11:06+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
       "title": "Greece: 14,000 march in Athens against rising living costs",
       "url": "http://www.africanews.com/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs/",
       "source": "Africanews",
@@ -821,10 +809,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Europe has ‘no plan’ in Ukraine and we should be grateful Putin hasn’t used nukes - Jared Kushner’s claims are staggering",
-      "url": "https://www.independent.co.uk/news/world/europe/jared-kushner-ukraine-russia-war-trump-b3092082.html",
+      "title": "Katie Miller shares bizarre theory for declining US birth rate",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/katie-miller-declining-birth-rate-b3092269.html",
       "source": "The Independent",
-      "published": "2026-11-26T15:26:55+00:00",
+      "published": "2026-11-26T15:45:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'One of the single greatest live performances one can see'",
+      "url": "https://www.semafor.com/article/11/26/2026/one-of-the-single-greatest-live-performances-one-can-see",
+      "source": "Semafor",
+      "published": "2026-11-26T15:44:02+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Italy's Meloni concerned after Ukraine attack on Russian ship in Libya",
+      "url": "http://www.africanews.com/2026/11/26/italys-meloni-concerned-after-ukraine-attack-on-russian-ship-in-libya/",
+      "source": "Africanews",
+      "published": "2026-11-26T15:42:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Lost homes, stolen freedom: National Book Award winners on exile and imprisonment",
+      "url": "https://www.france24.com/en/tv-shows/arts24/20261126-lost-homes-stolen-freedom-national-book-award-winners-on-exile-and-imprisonment",
+      "source": "France24",
+      "published": "2026-11-26T15:41:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "How far-right Vox is winning over young voters ahead of Spain's snap election",
+      "url": "https://www.france24.com/en/europe/20261126-how-far-right-vox-winning-over-young-voters-ahead-spain-snap-election",
+      "source": "France24",
+      "published": "2026-11-26T15:37:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -833,88 +857,52 @@
       "title": "Ukraine-Russia war latest: Trump tells Putin to end military aggression in Europe to ‘stop the bloodbath’",
       "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
       "source": "The Independent",
-      "published": "2026-11-26T15:24:14+00:00",
+      "published": "2026-11-26T15:36:12+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "New UK-EU treaty has 10-year termination clause",
-      "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T15:23:17+00:00",
+      "title": "Finland Extends Russian Border Closure for Another 2 Years",
+      "url": "https://www.themoscowtimes.com/2026/11/26/finland-extends-russian-border-closure-for-another-2-years-a812386",
+      "source": "The Moscow Times",
+      "published": "2026-11-26T15:32:26+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Anthropic chief denies wanting humans to 'surrender' free will to AI",
-      "url": "https://www.euronews.com/2026/11/26/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai",
-      "source": "Euronews",
-      "published": "2026-11-26T15:22:03+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Korean police seek arrest warrant for top scorer in tax accountancy exam",
-      "url": "https://www.straitstimes.com/asia/east-asia/south-korean-police-seek-arrest-warrant-for-top-scorer-in-tax-accountancy-exam",
-      "source": "Straits Times",
-      "published": "2026-11-26T15:22:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Is authoritarian Vietnam ready to phase out the death penalty?",
-      "url": "https://www.dw.com/en/is-authoritarian-vietnam-ready-to-phase-out-the-death-penalty/a-80064271?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-26T15:19:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-      "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T15:17:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Federal judge slaps down Trump administration over campaign of retaliation against ABC",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/judge-blocks-fcc-abc-licenses-b3092253.html",
+      "title": "Breakfast chain Denny’s ruthlessly trolled over its bizarre defense of Nvidia’s Jensen Huang",
+      "url": "https://www.independent.co.uk/news/world/americas/dennys-jensen-huang-nvidia-plaque-b3092157.html",
       "source": "The Independent",
-      "published": "2026-11-26T15:13:52+00:00",
+      "published": "2026-11-26T15:32:03+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Andalusia offers a glimpse of Spain’s future as the far right gains ground",
-      "url": "https://www.aljazeera.com/news/2026/11/26/andalusia-offers-a-glimpse-of-spains-future-as-the-far-right-gains-ground?traffic_source=rss",
+      "title": "US judge blocks Trump’s FCC attempt to target Disney’s ABC stations",
+      "url": "https://www.aljazeera.com/news/2026/11/26/us-judge-blocks-trumps-fcc-attempt-to-target-disneys-abc-stations?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-26T15:11:30+00:00",
+      "published": "2026-11-26T15:29:03+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Peta activists disrupt Rockettes’ Christmas Spectacular",
-      "url": "https://www.independent.co.uk/tv/news/christmas-rockettes-peta-protest-video-b3092259.html",
-      "source": "The Independent",
-      "published": "2026-11-26T15:11:25+00:00",
+      "title": "Across Africa: The Scars of South Africa's Soweto Uprising",
+      "url": "https://www.france24.com/en/across-africa-the-scars-of-south-africa-s-soweto-uprising-1",
+      "source": "France24",
+      "published": "2026-11-26T15:28:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Five countries bordering Russia withdraw from global landmine ban treaty",
-      "url": "https://www.rfi.fr/en/international/20261126-five-countries-bordering-russia-withdraw-from-global-landmine-ban-treaty",
-      "source": "RFI English",
-      "published": "2026-11-26T15:11:22+00:00",
+      "title": "US-backed Ebola quarantine centre violated constitution, Kenyan court rules",
+      "url": "http://www.africanews.com/2026/11/26/us-backed-ebola-quarantine-centre-violated-constitution-kenyan-court-rules/",
+      "source": "Africanews",
+      "published": "2026-11-26T15:27:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -947,10 +935,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10623.6,
+      "price": 10627.04,
       "currency": "GBP",
-      "change": 196.66,
-      "change_percent": 1.89,
+      "change": 200.1,
+      "change_percent": 1.92,
       "name": "FTSE 100"
     }
   ],
@@ -966,10 +954,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10623.6,
+        "price": 10627.04,
         "currency": "GBP",
-        "change": 196.66,
-        "change_percent": 1.89,
+        "change": 200.1,
+        "change_percent": 1.92,
         "name": "FTSE 100"
       },
       {
@@ -998,17 +986,17 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25244.55,
+        "price": 25243.89,
         "currency": "EUR",
-        "change": 542.42,
-        "change_percent": 2.2,
+        "change": 541.76,
+        "change_percent": 2.19,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8120.11,
+        "price": 8120.61,
         "currency": "EUR",
-        "change": 139.54,
+        "change": 140.04,
         "change_percent": 1.75,
         "name": "CAC 40"
       }
@@ -1016,26 +1004,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3601.0,
+        "price": 3599.6,
         "currency": "USD",
-        "change": 36.4,
-        "change_percent": 1.02,
+        "change": 35.0,
+        "change_percent": 0.98,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.83,
+        "price": 41.85,
         "currency": "USD",
-        "change": 1.29,
-        "change_percent": 3.17,
+        "change": 1.31,
+        "change_percent": 3.24,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.24,
+        "price": 91.47,
         "currency": "USD",
-        "change": 0.6,
-        "change_percent": 0.66,
+        "change": 0.83,
+        "change_percent": 0.92,
         "name": "Brent Crude"
       },
       {
@@ -1051,23 +1039,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.1,
+        "change_percent": -0.06,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.24,
+        "price": 159.27,
         "currency": "JPY",
-        "change": 0.12,
-        "change_percent": 0.08,
+        "change": 0.15,
+        "change_percent": 0.09,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60255.07,
+        "price": 60478.29,
         "currency": "USD",
-        "change": -123.5,
-        "change_percent": -0.2,
+        "change": 99.72,
+        "change_percent": 0.17,
         "name": "Bitcoin"
       }
     ],
@@ -1361,24 +1349,31 @@
   "web": {
     "tech": [
       {
-        "title": "1Password Confirms Hack",
-        "url": "https://www.forbes.com/sites/daveywinder/2026/11/26/1password-confirms-hack-what-users-need-to-know-and-do/",
-        "comments_url": "https://lobste.rs/s/fiwphl/1password_confirms_hack",
-        "score": 0,
+        "title": "Jiffies : The Heartbeat of the Linux Operating System (2024)",
+        "url": "https://blogs.oracle.com/linux/jiffies-the-heartbeat-of-the-linux-operating-system",
+        "comments_url": "https://lobste.rs/s/iqi9wp/jiffies_heartbeat_linux_operating",
+        "score": 1,
         "source": "Lobste.rs",
-        "published": "2026-11-26T15:01:22.289000+00:00"
+        "published": "2026-11-26T15:14:06.809000+00:00"
+      },
+      {
+        "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+        "url": "https://michidk.github.io/sidebyside/",
+        "score": 3,
+        "source": "Hacker News",
+        "published": "2026-11-26T15:00:06+00:00"
       },
       {
         "title": "Tell HN: Happy Thanksgiving",
         "url": "https://news.ycombinator.com/item?id=50655664",
-        "score": 121,
+        "score": 169,
         "source": "Hacker News",
         "published": "2026-11-26T14:26:54+00:00"
       },
       {
         "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
         "url": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
-        "score": 57,
+        "score": 78,
         "source": "Hacker News",
         "published": "2026-11-26T13:48:11+00:00"
       },
@@ -1386,7 +1381,7 @@
         "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
         "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
         "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-26T12:40:23.353000+00:00"
       },
@@ -1401,7 +1396,7 @@
       {
         "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
         "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-        "score": 221,
+        "score": 239,
         "source": "Hacker News",
         "published": "2026-11-26T11:50:49+00:00"
       },
@@ -1409,14 +1404,14 @@
         "title": "Understanding \"You are not expected to understand this.\"",
         "url": "https://www.taniwha.com/~paul/not.html",
         "comments_url": "https://lobste.rs/s/nkmtqk/understanding_you_are_not_expected",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:30:21.471000+00:00"
       },
       {
         "title": "Intel One Mono font",
         "url": "https://github.com/intel/intel-one-mono",
-        "score": 267,
+        "score": 278,
         "source": "Hacker News",
         "published": "2026-11-26T10:11:01+00:00"
       },
@@ -1424,7 +1419,7 @@
         "title": "Ansible Fails waiting for privilege escalation on Ubuntu 26",
         "url": "https://www.jeffgeerling.com/blog/2026/ansible-fails-become-ubuntu2604/",
         "comments_url": "https://lobste.rs/s/3lkriu/ansible_fails_waiting_for_privilege",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-26T09:45:42.146000+00:00"
       },
@@ -1440,14 +1435,14 @@
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
         "comments_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
-        "score": 10,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-26T06:39:00.543000+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 177,
+        "score": 182,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1463,16 +1458,9 @@
         "title": "I Booted From My Tape Backup From 2002",
         "url": "https://changelog.complete.org/archives/45268-i-booted-from-my-tape-backup-from-2002",
         "comments_url": "https://lobste.rs/s/2thnmt/i_booted_from_my_tape_backup_from_2002",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-26T03:56:07.099000+00:00"
-      },
-      {
-        "title": "Minipg: PostgreSQL as a Single Executable",
-        "url": "https://progrium.github.io/minipg/",
-        "score": 211,
-        "source": "Hacker News",
-        "published": "2026-11-26T03:00:48+00:00"
       }
     ],
     "reddit": [

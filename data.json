@@ -1,153 +1,175 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T12:30:57.077709+00:00",
+  "last_updated": "2026-11-26T13:01:07.833547+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 297
+      "ms": 284
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 430
+      "ms": 210
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 304
+      "ms": 278
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 131
+      "ms": 224
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 122
+      "ms": 455
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 214
+      "ms": 94
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 331
+      "ms": 321
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 622
+      "ms": 398
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 138
+      "ms": 151
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 411
+      "ms": 1175
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 795
+      "ms": 381
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 428
+      "ms": 244
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 404
+      "ms": 265
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 205
+      "ms": 119
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 509
+      "ms": 118
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 503
+      "ms": 361
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 809
+      "ms": 601
     },
     "Semafor": {
       "ok": true,
-      "count": 262,
+      "count": 260,
       "error": null,
-      "ms": 767
+      "ms": 523
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 475
+      "ms": 528
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 323
+      "ms": 357
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3155
+      "ms": 3137
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 292
+      "ms": 194
     },
     "The Independent": {
       "ok": true,
-      "count": 82,
+      "count": 84,
       "error": null,
-      "ms": 262
+      "ms": 209
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 311
+      "ms": 144
     }
   },
   "breaking": [
+    {
+      "title": "Nine hurt in huge explosion at Bangkok oil facility",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/bangkok-oil-facility-explosion/",
+      "source": "Japan Times",
+      "published": "2026-11-26T11:53:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
+          "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
+          "published": "2026-11-26T09:25:01+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+          "title": "Nine hurt in huge explosion at Bangkok oil facility",
+          "published": "2026-11-26T08:38:50+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
     {
       "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
       "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
@@ -169,6 +191,38 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "FIFA says personal and business information stolen in cyberattack",
+      "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T12:31:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/sport/fifa-data-breach-hacker-documents-6584971",
+          "title": "FIFA says it has been victim of a cyberattack accessing 'personal and business information'",
+          "published": "2026-11-26T12:03:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Senegal: Parliament denounces president over budget decree",
+      "url": "http://www.africanews.com/2026/11/26/senegal-parliament-denounces-president-over-budget-decree/",
+      "source": "Africanews",
+      "published": "2026-11-26T12:30:53+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/20/2026/senegals-president-enacted-budget-by-decree-after-parliaments-rejection",
+          "title": "Senegal's president enacts budget by decree after rejection",
+          "published": "2026-11-20T14:20:51+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Egypt: 31 people killed in Cairo after fuel truck overturns",
@@ -203,20 +257,20 @@
       "consensus": 2.5
     },
     {
-      "title": "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
-      "url": "https://www.cbc.ca/news/world/fedex-plane-miami-overrun-runway-9.7436760?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-26T09:54:13+00:00",
+      "title": "UN experts demand Vietnam explain ‘abduction’ of activists from Cambodia",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375945/un-experts-demand-vietnam-explain-abduction-activists-cambodia",
+      "source": "SCMP",
+      "published": "2026-11-26T12:38:35+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/fedex-airplane-overruns-runway-at-miami-airport-closing-all-but-one-runway/article71745686.ece",
-          "title": "FedEx airplane overruns runway at Miami airport, closing all but one runway",
-          "published": "2026-11-26T08:11:34+00:00"
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/vietnam-activists-un-experts/",
+          "title": "Vietnam must explain ‘abduction’ of activists: U.N. experts",
+          "published": "2026-11-26T12:17:00+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
       "title": "Will Solomon Islands’ Australia treaty prompt China to rethink its Pacific strategy?",
@@ -233,47 +287,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Nine hurt in huge explosion at Bangkok oil facility",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/bangkok-oil-facility-explosion/",
-      "source": "Japan Times",
-      "published": "2026-11-26T11:53:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
-          "title": "Nine hurt in huge explosion at Bangkok oil facility",
-          "published": "2026-11-26T08:38:50+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
-      "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
-      "source": "France24",
-      "published": "2026-11-26T11:47:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "France’s Jordan Bardella faces fresh antisemitism accusations",
-          "published": "2026-11-26T11:03:17+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Japan plans new long-range anti-ship missile to bolster naval build-up",
-      "url": "https://www.scmp.com/news/china/military/article/3375933/japan-plans-new-long-range-anti-ship-missile-bolster-naval-build",
-      "source": "SCMP",
-      "published": "2026-11-26T12:30:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -301,34 +314,6 @@
           "url": "https://www.euronews.com/2026/11/25/north-korea-expels-swiss-diplomat-and-orders-berns-new-pyongyang-office-to-close",
           "title": "North Korea expels Swiss diplomat and orders Bern's new Pyongyang office to close",
           "published": "2026-11-25T04:50:43+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
-    {
-      "title": "Duran Duran guitarist Andy Taylor dies aged 65",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T05:19:35+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "published": "2026-11-25T22:46:30+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/entertainment/andy-taylor-guitarist-new-wave-icons-duran-duran-dies-65-6582916",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
-          "published": "2026-11-25T22:35:00+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss",
-          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
-          "published": "2026-11-25T22:21:10+00:00"
         }
       ],
       "consensus": 5.0
@@ -362,28 +347,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Explosion rocks Bangkok oil depot",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T09:30:24+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/huge-explosion-at-bangkok-oil-depot-sends-black-smoke-over-thai-capital",
-          "title": "Huge explosion at Bangkok oil depot sends black smoke over Thai capital",
-          "published": "2026-11-26T09:25:01+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
-          "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
-          "published": "2026-11-26T08:27:20+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Trump and NATO Chief Urge Russia to Avoid Actions That Widen Ukraine War",
       "url": "https://www.themoscowtimes.com/2026/11/26/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war-a812374",
       "source": "The Moscow Times",
@@ -404,6 +367,60 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+      "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T22:46:30+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/entertainment/andy-taylor-guitarist-new-wave-icons-duran-duran-dies-65-6582916",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
+          "published": "2026-11-25T22:35:00+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/entertainment/duran-duran-guitarist-andy-taylor-dead-9.7436261?cmp=rss",
+          "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
+          "published": "2026-11-25T22:21:10+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
+      "url": "https://www.cbc.ca/news/world/fedex-plane-miami-overrun-runway-9.7436760?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T09:54:13+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fedex-airplane-overruns-runway-at-miami-airport-closing-all-but-one-runway/article71745686.ece",
+          "title": "FedEx airplane overruns runway at Miami airport, closing all but one runway",
+          "published": "2026-11-26T08:11:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Explosion rocks Bangkok oil depot",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/explosion-rocks-bangkok-oil-depot?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T09:30:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
+          "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
+          "published": "2026-11-26T08:27:20+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
@@ -646,17 +663,17 @@
       "consensus": 2.5
     },
     {
-      "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
-      "url": "https://www.thehindu.com/sport/cricket/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation/article71745859.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T09:24:14+00:00",
+      "title": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
+      "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
+      "source": "France24",
+      "published": "2026-11-26T11:47:52+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/unbelievable-catch-pakistan-motorbike-passenger-becomes-cricket-sensation",
-          "title": "‘Unbelievable catch’: Pakistan motorbike passenger becomes cricket sensation",
-          "published": "2026-11-26T08:33:00+00:00"
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "France’s Jordan Bardella faces fresh antisemitism accusations",
+          "published": "2026-11-26T11:03:17+00:00"
         }
       ],
       "consensus": 2.0
@@ -790,100 +807,91 @@
       "consensus": 1.5
     },
     {
-      "title": "Shenzhen’s Apec legacy: China’s shift from recognition to responsibility",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3375625/shenzhens-apec-legacy-chinas-shift-recognition-responsibility",
+      "title": "China’s tech ambitions to stay on track despite Shanghai party chief’s ouster: analysts",
+      "url": "https://www.scmp.com/tech/big-tech/article/3375938/chinas-tech-ambitions-stay-track-despite-shanghai-party-chiefs-ouster-analysts",
       "source": "SCMP",
-      "published": "2026-11-26T12:30:10+00:00",
+      "published": "2026-11-26T13:00:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Judges in Netanyahu corruption trial urges dropping key charges",
-      "url": "https://www.euronews.com/2026/11/26/judges-in-netanyahu-corruption-trial-urges-dropping-key-charges",
-      "source": "Euronews",
-      "published": "2026-11-26T12:29:21+00:00",
+      "title": "Asian countries race to contain rising inflation",
+      "url": "https://www.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
+      "source": "Semafor",
+      "published": "2026-11-26T12:55:31+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Israel threatens to displace one million Palestinians in Gaza unless Hamas disarms",
-      "url": "https://www.france24.com/en/middle-east/20261126-israel-threatens-to-displace-one-million-palestinians-in-gaza-unless-hamas-disarms",
+      "title": "Hong Kong lawmakers defend CUHK ordinance changes as move to boost governance",
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3375946/hong-kong-lawmakers-defend-cuhk-ordinance-changes-move-boost-governance",
+      "source": "SCMP",
+      "published": "2026-11-26T12:53:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Federal judge makes major ruling on future of $20 million taxpayer funded Trump ads",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/federal-judge-declines-trump-ads-b3092168.html",
+      "source": "The Independent",
+      "published": "2026-11-26T12:50:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "'As humans we feel spiritually homeless': Turkish author Ece Temelkuran on belonging",
+      "url": "https://www.france24.com/en/tv-shows/perspective/20261126-as-humans-we-feel-spiritually-homeless-turkish-author-ece-temelkuran-on-belonging",
       "source": "France24",
-      "published": "2026-11-26T12:28:31+00:00",
+      "published": "2026-11-26T12:48:46+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-      "source": "NPR World",
-      "published": "2026-11-26T12:24:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "USA warnen EU vor einer Steuer auf Big Tech",
-      "url": "https://www.politico.eu/article/usa-warnen-eu-vor-einer-steuer-auf-big-tech/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "title": "10 key faces of Spain’s next (likely) right-wing government",
+      "url": "https://www.politico.eu/article/10-key-faces-of-spains-next-likely-right-wing-government/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
-      "published": "2026-11-26T12:24:19+00:00",
+      "published": "2026-11-26T12:48:32+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Donald Trump to celebrate new Arizona chip plane right after Nvidia CEO faces Senate export grilling",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-tsmc-arizona-chip-foundry-b3092143.html",
-      "source": "The Independent",
-      "published": "2026-11-26T12:20:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Fight against deadly TB faltering as aid cuts bring drug shortages and delayed testing, campaigners say",
-      "url": "https://www.independent.co.uk/news/health/tb-test-treatment-aid-cuts-tuberculosis-b3092148.html",
-      "source": "The Independent",
-      "published": "2026-11-26T12:20:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Vietnam must explain ‘abduction’ of activists: U.N. experts",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/vietnam-activists-un-experts/",
+      "title": "Japan Tobacco studies deal for Imperial Brands",
+      "url": "https://www.japantimes.co.jp/business/2026/11/26/companies/japan-tobacco-considers-imperial-acquisition/",
       "source": "Japan Times",
-      "published": "2026-11-26T12:17:00+00:00",
+      "published": "2026-11-26T12:46:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Russian court jails Colombian fighter for 20 years over Ukraine war role",
-      "url": "https://www.scmp.com/news/world/europe/article/3375944/russian-court-jails-colombian-fighter-20-years-over-ukraine-war-role",
-      "source": "SCMP",
-      "published": "2026-11-26T12:16:48+00:00",
+      "title": "South Korean student suspended after urinating in classmate’s tumbler, victim quits school",
+      "url": "https://www.straitstimes.com/asia/east-asia/south-korean-student-suspended-after-urinating-in-classmates-tumbler-victim-quits-school",
+      "source": "Straits Times",
+      "published": "2026-11-26T12:41:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Putin could fly drones over London if he develops Russian ‘Starlink’, warns Ukraine",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-starlink-drones-london-b3092060.html",
-      "source": "The Independent",
-      "published": "2026-11-26T12:16:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "With the rise of AI, are we close to having universal basic income",
-      "url": "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income?traffic_source=rss",
+      "title": "Eyewitnesses describe scenes of Egypt’s deadly vehicle fire",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-26T12:12:45+00:00",
+      "published": "2026-11-26T12:34:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T12:33:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -900,10 +908,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 136.86,
+      "price": 137.0,
       "currency": "GBP",
-      "change": 3.88,
-      "change_percent": 2.92,
+      "change": 4.02,
+      "change_percent": 3.02,
       "name": "FTSE All-World ETF"
     },
     {
@@ -916,10 +924,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10589.62,
+      "price": 10570.04,
       "currency": "GBP",
-      "change": 162.68,
-      "change_percent": 1.56,
+      "change": 143.1,
+      "change_percent": 1.37,
       "name": "FTSE 100"
     }
   ],
@@ -935,10 +943,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10589.62,
+        "price": 10570.04,
         "currency": "GBP",
-        "change": 162.68,
-        "change_percent": 1.56,
+        "change": 143.1,
+        "change_percent": 1.37,
         "name": "FTSE 100"
       },
       {
@@ -967,44 +975,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25156.04,
+        "price": 25175.27,
         "currency": "EUR",
-        "change": 453.91,
-        "change_percent": 1.84,
+        "change": 473.14,
+        "change_percent": 1.92,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8113.65,
+        "price": 8110.1,
         "currency": "EUR",
-        "change": 133.08,
-        "change_percent": 1.67,
+        "change": 129.53,
+        "change_percent": 1.62,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3595.3,
+        "price": 3593.8,
         "currency": "USD",
-        "change": 30.7,
-        "change_percent": 0.86,
+        "change": 29.2,
+        "change_percent": 0.82,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.8,
+        "price": 41.85,
         "currency": "USD",
-        "change": 1.27,
-        "change_percent": 3.13,
+        "change": 1.31,
+        "change_percent": 3.24,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.12,
+        "price": 91.2,
         "currency": "USD",
-        "change": 0.48,
-        "change_percent": 0.53,
+        "change": 0.56,
+        "change_percent": 0.62,
         "name": "Brent Crude"
       },
       {
@@ -1012,7 +1020,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.06,
+        "change_percent": -0.03,
         "name": "EUR/USD"
       },
       {
@@ -1020,23 +1028,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.07,
+        "change_percent": -0.08,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.26,
+        "price": 159.25,
         "currency": "JPY",
-        "change": 0.14,
-        "change_percent": 0.09,
+        "change": 0.13,
+        "change_percent": 0.08,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60537.98,
+        "price": 60758.33,
         "currency": "USD",
-        "change": 159.41,
-        "change_percent": 0.26,
+        "change": 379.76,
+        "change_percent": 0.63,
         "name": "Bitcoin"
       }
     ],
@@ -1330,12 +1338,27 @@
   "web": {
     "tech": [
       {
+        "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
+        "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
+        "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T12:40:23.353000+00:00"
+      },
+      {
         "title": "In defense of lock poisoning in Rust",
         "url": "https://sunshowers.io/posts/on-poisoning/",
         "comments_url": "https://lobste.rs/s/wpylec/defense_lock_poisoning_rust",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-26T11:51:23.187000+00:00"
+      },
+      {
+        "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+        "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+        "score": 38,
+        "source": "Hacker News",
+        "published": "2026-11-26T11:50:49+00:00"
       },
       {
         "title": "Understanding \"You are not expected to understand this.\"",
@@ -1348,7 +1371,7 @@
       {
         "title": "Intel One Mono font",
         "url": "https://github.com/intel/intel-one-mono",
-        "score": 120,
+        "score": 151,
         "source": "Hacker News",
         "published": "2026-11-26T10:11:01+00:00"
       },
@@ -1359,13 +1382,6 @@
         "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-26T09:45:42.146000+00:00"
-      },
-      {
-        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-        "score": 70,
-        "source": "Hacker News",
-        "published": "2026-11-26T09:44:23+00:00"
       },
       {
         "title": "Qualcomm’s Oryon 3 Reaches the Top",
@@ -1386,14 +1402,14 @@
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 105,
+        "score": 114,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 124,
+        "score": 134,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1416,7 +1432,7 @@
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 161,
+        "score": 172,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1424,7 +1440,7 @@
         "title": "The beauty of CSS mixins",
         "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
         "comments_url": "https://lobste.rs/s/faqxns/beauty_css_mixins",
-        "score": 14,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:02:17.726000+00:00"
       },
@@ -1432,16 +1448,9 @@
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 13,
+        "score": 14,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
-      },
-      {
-        "title": "Tell HN: Lots of Ask HNs again",
-        "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 290,
-        "source": "Hacker News",
-        "published": "2026-11-26T00:43:34+00:00"
       }
     ],
     "reddit": [

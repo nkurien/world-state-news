@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T05:31:04.799100+00:00",
+  "last_updated": "2026-11-26T06:01:07.751324+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 371
+      "ms": 536
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 179
+      "ms": 355
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 54
+      "ms": 273
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 46
+      "ms": 192
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 127
+      "ms": 309
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 116
+      "ms": 463
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 46
+      "ms": 779
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 415
+      "ms": 517
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 166
+      "ms": 139
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 78
+      "ms": 273
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 364
+      "ms": 402
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 236
+      "ms": 332
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 136
+      "ms": 199
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 120
+      "ms": 169
     },
     "RFI English": {
       "ok": true,
-      "count": 21,
+      "count": 22,
       "error": null,
-      "ms": 109
+      "ms": 178
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 95
+      "ms": 400
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 582
+      "ms": 670
     },
     "Semafor": {
       "ok": true,
       "count": 270,
       "error": null,
-      "ms": 557
+      "ms": 651
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 328
+      "ms": 626
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 140
+      "ms": 419
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3054
+      "ms": 3196
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 256
+      "ms": 194
     },
     "The Independent": {
       "ok": true,
-      "count": 92,
+      "count": 90,
       "error": null,
-      "ms": 194
+      "ms": 281
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 88
+      "ms": 209
     }
   },
   "breaking": [
-    {
-      "title": "US announces new tariffs on host of countries including China",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T04:10:58+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
-          "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
-          "published": "2026-11-26T02:54:47+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-new-tariffs-us-midterms-6581566",
-          "title": "Trump announces new tariffs on 14 trading partners including China and Singapore",
-          "published": "2026-11-25T11:34:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
-          "title": "China warns US against imposing new tariffs",
-          "published": "2026-11-25T09:02:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
     {
       "title": "Six killed, including children, in plane crash off Mississippi coast",
       "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
@@ -199,26 +171,36 @@
       "consensus": 4.0
     },
     {
-      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
-      "source": "Japan Times",
-      "published": "2026-11-26T05:24:00+00:00",
-      "score": 3,
+      "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+      "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
+      "source": "Euronews",
+      "published": "2026-11-26T05:55:00+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T04:52:23+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T04:21:46+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "published": "2026-11-26T04:35:38+00:00"
         }
       ],
-      "consensus": 3.0
+      "consensus": 2.5
+    },
+    {
+      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T05:25:34+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "title": "US announces new tariffs on host of countries including China",
+          "published": "2026-11-26T04:10:58+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "FedEx cargo plane overshoots runway at Miami airport",
@@ -253,6 +235,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
+      "source": "Japan Times",
+      "published": "2026-11-26T05:47:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
+          "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
+          "published": "2026-11-26T05:00:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+      "source": "Japan Times",
+      "published": "2026-11-26T05:24:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T04:52:23+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Wife of Japanese journalist detained in Russia pleads for his release",
       "url": "https://www.straitstimes.com/asia/wife-of-japanese-journalist-detained-in-russia-pleads-for-his-release",
       "source": "Straits Times",
@@ -267,24 +281,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Southeast Asia’s rice farmers are being squeezed. Your wallet could be next",
-      "url": "https://www.scmp.com/week-asia/economics/article/3375805/southeast-asias-rice-farmers-are-being-squeezed-your-wallet-could-be-next",
-      "source": "SCMP",
-      "published": "2026-11-26T05:30:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan protests new U.S. tariff rate, allegation of excess capacity",
-      "url": "https://www.japantimes.co.jp/business/2026/11/26/economy/japan-protests-trump-new-tariff/",
-      "source": "Japan Times",
-      "published": "2026-11-26T05:28:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -384,6 +380,28 @@
           "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
           "title": "Israeli strike kills Hamas official, his wife and children",
           "published": "2026-11-25T13:27:00+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+      "source": "SCMP",
+      "published": "2026-11-25T14:03:18+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Semafor",
+          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
+          "title": "US proposes sweeping new tariffs on China, others",
+          "published": "2026-11-25T13:48:58+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+          "title": "China warns US against imposing new tariffs",
+          "published": "2026-11-25T09:02:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -556,22 +574,6 @@
           "url": "https://www.semafor.com/article/11/24/2026/reports-say-russia-is-prepping-to-launch-a-nuclear-weapon-into-space",
           "title": "Russia reportedly to launch a nuclear weapon into space",
           "published": "2026-11-24T12:01:13+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "US proposes new tariffs on China a week after Trump-Xi summit",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
-      "source": "SCMP",
-      "published": "2026-11-25T14:03:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Semafor",
-          "url": "https://www.semafor.com/article/11/25/2026/us-proposes-sweeping-new-tariffs-on-china-others",
-          "title": "US proposes sweeping new tariffs on China, others",
-          "published": "2026-11-25T13:48:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -849,73 +851,73 @@
       "consensus": 1.5
     },
     {
-      "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
-      "url": "https://www.channelnewsasia.com/business/s-and-p-nvidia-board-compromised-rating-downgrade-watch-6582441",
-      "source": "CNA",
-      "published": "2026-11-26T05:17:58+00:00",
+      "title": "Taiwan’s main opposition Kuomintang faces uphill battle in local elections",
+      "url": "https://www.scmp.com/news/china/politics/article/3375867/taiwans-main-opposition-kuomintang-faces-uphill-battle-local-elections",
+      "source": "SCMP",
+      "published": "2026-11-26T06:00:12+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
-      "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
-      "source": "Euronews",
-      "published": "2026-11-26T05:14:01+00:00",
+      "title": "Singapore challenges US tariff logic as free trade pact faces 20% levy",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375874/singapore-challenges-us-tariff-logic-free-trade-pact-faces-20-levy",
+      "source": "SCMP",
+      "published": "2026-11-26T05:49:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Puerto Rico’s Supreme Court cancels major power contract",
-      "url": "https://www.aljazeera.com/news/2026/11/26/puerto-ricos-supreme-court-cancels-major-power-contract?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T05:09:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Breaking: Canberra motorcyclist dies after colliding with pole",
-      "url": "https://www.abc.net.au/news/2026-11-26/act-rider-dies-motorcycle-single-vehicle-crash/107430292",
+      "title": "Dramatic audio released of teen's arrest after electric motorbike death",
+      "url": "https://www.abc.net.au/news/2026-11-26/edgewater-electric-motorbike-death-trial-shelley-spinks/107431318",
       "source": "ABC Australia",
-      "published": "2026-11-26T05:08:27+00:00",
+      "published": "2026-11-26T05:46:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "The five key moments in the Ukraine and Iran wars that sent your energy bills soaring",
-      "url": "https://www.independent.co.uk/news/world/europe/energy-bills-uk-price-cap-iran-war-ukraine-russia-b3091894.html",
-      "source": "The Independent",
-      "published": "2026-11-26T05:06:42+00:00",
+      "title": "Can Rassvet, 'Russia's Starlink' change the course of the war in Ukraine?",
+      "url": "https://www.dw.com/en/can-rassvet-russia-s-starlink-change-the-course-of-the-war-in-ukraine/a-80052579?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-26T05:45:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "EU leaders brace for a summit ‘bloodbath’",
-      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-brace-for-a-summit-bloodbath/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-26T05:05:00+00:00",
+      "title": "Live: EU leaders face showdown over Ukraine funding as divisions deepen",
+      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+      "source": "France24",
+      "published": "2026-11-26T05:44:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Nepal flash floods: Kathmandu begins process to declare 213 missing Indians presumed dead",
-      "url": "https://www.thehindu.com/news/national/nepal-flash-floods-kathmandu-begins-process-to-declare-213-indians-missing-presumed-dead/article71745222.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T05:04:14+00:00",
+      "title": "Boy who died sleeping in bin subject of 29 child abuse reports, court hears",
+      "url": "https://www.abc.net.au/news/2026-11-26/boy-who-died-in-bin-inquest-hears-abuse-notifications/107425544",
+      "source": "ABC Australia",
+      "published": "2026-11-26T05:43:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
-      "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
-      "source": "Straits Times",
-      "published": "2026-11-26T05:00:00+00:00",
+      "title": "Lamarre-Condon staying in secretive prison unit as police review resumes",
+      "url": "https://www.abc.net.au/news/2026-11-26/nsw-beau-lamarre-murder-conviction-what-happens-next/107427328",
+      "source": "ABC Australia",
+      "published": "2026-11-26T05:42:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "France's cost of living crisis: why working is no longer enough",
+      "url": "https://www.rfi.fr/en/france/20261126-france-s-cost-of-living-crisis-why-working-is-no-longer-enough",
+      "source": "RFI English",
+      "published": "2026-11-26T05:42:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -991,10 +993,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57932.36,
+        "price": 57886.76,
         "currency": "JPY",
-        "change": 920.74,
-        "change_percent": 1.62,
+        "change": 875.14,
+        "change_percent": 1.54,
         "name": "Nikkei 225"
       },
       {
@@ -1017,26 +1019,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3626.1,
+        "price": 3606.5,
         "currency": "USD",
-        "change": 61.5,
-        "change_percent": 1.73,
+        "change": 41.9,
+        "change_percent": 1.18,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.33,
+        "price": 41.87,
         "currency": "USD",
-        "change": 1.79,
-        "change_percent": 4.41,
+        "change": 1.33,
+        "change_percent": 3.27,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.18,
+        "price": 91.34,
         "currency": "USD",
-        "change": 0.54,
-        "change_percent": 0.6,
+        "change": 0.7,
+        "change_percent": 0.77,
         "name": "Brent Crude"
       },
       {
@@ -1057,18 +1059,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.18,
+        "price": 159.15,
         "currency": "JPY",
-        "change": 0.06,
-        "change_percent": 0.04,
+        "change": 0.03,
+        "change_percent": 0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60864.32,
+        "price": 60585.77,
         "currency": "USD",
-        "change": 485.75,
-        "change_percent": 0.8,
+        "change": 207.2,
+        "change_percent": 0.34,
         "name": "Bitcoin"
       }
     ],
@@ -1239,22 +1241,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Early review of Disney’s ABC station licences blocked in blow to Trump",
-          "url": "https://www.ft.com/content/99acbf19-3a6f-4b4c-aa8c-77b8b7edb5e9?syn-25a6b1a6=1",
-          "published": "2026-11-26T04:10:42+00:00",
-          "snippet": "US judge Loren AliKhan wrote that broadcast regulator’s chair had ‘taken President Trump’s rhetoric as his marching orders’"
+          "title": "FirstFT: Nvidia halts chip shipments to south-east Asia",
+          "url": "https://www.ft.com/content/1beb609f-b125-402a-a4a4-0fb09bea8584?syn-25a6b1a6=1",
+          "published": "2026-11-26T05:33:25+00:00",
+          "snippet": "Also in today’s newsletter: EU common budget and software stocks"
         },
         {
-          "title": "Stocks advance in Asia after volatile US trading over AI risks",
-          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
-          "published": "2026-11-26T03:28:45+00:00",
-          "snippet": "Tech shares hit this month by fears over whether an AI boom can be sustained"
+          "title": "A Fed tightening to allow subsequent loosening",
+          "url": "https://www.ft.com/content/7283900d-43e6-4d9f-8ecd-d0b975d192dd",
+          "published": "2026-11-26T05:30:09+00:00",
+          "snippet": "Read the Monetary Policy Radar team’s November scenario for the Federal Reserve"
         },
         {
-          "title": "Mrs Takaichi vs Mrs Watanabe: Japan’s coming financial clash",
-          "url": "https://www.ft.com/content/e6adc42b-2851-4122-80cc-326312d823ee?syn-25a6b1a6=1",
-          "published": "2026-11-26T03:11:09+00:00",
-          "snippet": "Normalisation has not only put households on the hunt for returns but given them rapidly growing power to surprise markets"
+          "title": "The ICE raids ‘wreaking havoc’ across American academia",
+          "url": "https://www.ft.com/content/125e9b6d-4e45-4554-9a86-a3ce172bcf65?syn-25a6b1a6=1",
+          "published": "2026-11-26T05:01:09+00:00",
+          "snippet": "Critics say detention of PhD student Eva Yi Xie and others shows how the Trump administration has escalated its crackdown"
         }
       ]
     },
@@ -1365,7 +1367,7 @@
         "title": "Browser tabs as a container runtime",
         "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
         "comments_url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-26T04:57:04.708000+00:00"
       },
@@ -1380,14 +1382,14 @@
       {
         "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
         "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "score": 71,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-26T03:36:58+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 25,
+        "score": 37,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1418,14 +1420,14 @@
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 176,
+        "score": 193,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 71,
+        "score": 86,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1433,7 +1435,7 @@
         "title": "Make the Plan a Value",
         "url": "https://jackkelly.name/blog/archives/2026/11/26/make_the_plan_a_value",
         "comments_url": "https://lobste.rs/s/9imhob/make_plan_value",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:12:06.360000+00:00"
       },
@@ -1449,7 +1451,7 @@
         "title": "Typed indexes in Zig",
         "url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig/",
         "comments_url": "https://lobste.rs/s/l6g7j1/typed_indexes_zig",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:48:44.713000+00:00"
       },
@@ -1457,7 +1459,7 @@
         "title": "Entering the Geminispace",
         "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
         "comments_url": "https://lobste.rs/s/8rgqmw/entering_geminispace",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:43:05.044000+00:00"
       },
@@ -1465,14 +1467,14 @@
         "title": "Generalized Riemann Hypothesis proof in Lean 4, in 76k lines (down from 17M)",
         "url": "https://leanprover.zulipchat.com/#narrow/channel/658556-Riemann-Hypothesis/topic/Cleaning.20up.20the.20proof/near/643702366",
         "comments_url": "https://lobste.rs/s/tlwot6/generalized_riemann_hypothesis_proof",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:26:56.449000+00:00"
       },
       {
         "title": "Bare Metal Qwen",
         "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-        "score": 100,
+        "score": 106,
         "source": "Hacker News",
         "published": "2026-11-25T22:15:34+00:00"
       }

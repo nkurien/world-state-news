@@ -1,42 +1,42 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T05:01:04.245195+00:00",
+  "last_updated": "2026-11-26T05:30:18.738205+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 384
+      "ms": 127
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 314
+      "ms": 81
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 101
+      "ms": 163
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 421
+      "ms": 134
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 147
+      "ms": 191
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 173
+      "ms": 120
     },
     "Deutsche Welle": {
       "ok": true,
@@ -48,103 +48,103 @@
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 442
+      "ms": 229
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 160
+      "ms": 52
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 131
+      "ms": 86
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 395
+      "ms": 223
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 224
+      "ms": 309
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 360
+      "ms": 106
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 559
+      "ms": 105
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 236
+      "ms": 134
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 351
+      "ms": 80
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 559
+      "ms": 539
     },
     "Semafor": {
       "ok": true,
       "count": 270,
       "error": null,
-      "ms": 497
+      "ms": 623
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 516
+      "ms": 531
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 358
+      "ms": 121
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3063
+      "ms": 3099
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 234
+      "ms": 86
     },
     "The Independent": {
       "ok": true,
       "count": 92,
       "error": null,
-      "ms": 153
+      "ms": 407
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 154
+      "ms": 141
     }
   },
   "breaking": [
@@ -175,6 +175,50 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Six killed, including children, in plane crash off Mississippi coast",
+      "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T04:48:42+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
+          "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+          "published": "2026-11-26T01:54:49+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/mississippi-plane-crash-cessna-gulf-b3091251.html",
+          "title": "Small plane plunges 10,000 feet per minute off Mississippi coast, killing six including two children",
+          "published": "2026-11-25T09:41:54+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+      "source": "Japan Times",
+      "published": "2026-11-26T05:24:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T04:52:23+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T04:21:46+00:00"
+        }
+      ],
+      "consensus": 3.0
     },
     {
       "title": "FedEx cargo plane overshoots runway at Miami airport",
@@ -209,60 +253,35 @@
       "consensus": 2.5
     },
     {
-      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-      "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
-      "source": "CNA",
-      "published": "2026-11-26T04:52:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/trump-and-nato-chief-urge-russia-to-avoid-actions-that-widen-ukraine-war",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T04:21:46+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "U.S. Army declares success in detonation of lead-based explosives stockpile in Iowa",
-      "url": "https://www.thehindu.com/news/international/us-army-declares-success-in-detonation-of-lead-based-explosives-stockpile-in-iowa/article71745045.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T02:05:09+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
-          "title": "US Army blows up toxic explosives in Iowa, calls detonation a success",
-          "published": "2026-11-25T15:48:57+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "China’s anti-corruption campaign tracker",
-      "url": "https://www.scmp.com/plus/news/china/politics/article/3375860/chinas-anti-corruption-campaign-tracker",
-      "source": "SCMP",
-      "published": "2026-11-26T04:59:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The devastating scale of Putin’s war on Ukraine laid bare as leaked figures show 500,000 Russian soldiers dead",
-      "url": "https://www.independent.co.uk/news/world/europe/russian-soldiers-ukraine-war-casualties-trump-putin-death-toll-b3091889.html",
-      "source": "The Independent",
-      "published": "2026-11-26T04:53:48+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Wildfires raze homes, displace wildlife on Australian island",
-      "url": "https://www.straitstimes.com/asia/australianz/wildfires-raze-homes-displace-wildlife-on-australian-island",
+      "title": "Wife of Japanese journalist detained in Russia pleads for his release",
+      "url": "https://www.straitstimes.com/asia/wife-of-japanese-journalist-detained-in-russia-pleads-for-his-release",
       "source": "Straits Times",
-      "published": "2026-11-26T04:53:23+00:00",
+      "published": "2026-11-26T05:06:51+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/yuki-imai-wife-letter/",
+          "title": "Wife of Hokkaido Shimbun journalist detained in Russia pleads for his return",
+          "published": "2026-11-26T05:04:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Japan protests new U.S. tariff rate, allegation of excess capacity",
+      "url": "https://www.japantimes.co.jp/business/2026/11/26/economy/japan-protests-trump-new-tariff/",
+      "source": "Japan Times",
+      "published": "2026-11-26T05:28:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "S&P warns Nvidia's board may be compromised, puts chipmaker's rating on downgrade watch",
+      "url": "https://www.channelnewsasia.com/business/s-and-p-nvidia-board-compromised-rating-downgrade-watch-6582441",
+      "source": "CNA",
+      "published": "2026-11-26T05:17:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -390,22 +409,6 @@
         }
       ],
       "consensus": 3.5
-    },
-    {
-      "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
-      "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T01:54:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
-          "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
-          "published": "2026-11-25T19:43:18+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
@@ -638,6 +641,22 @@
       "consensus": 2.5
     },
     {
+      "title": "U.S. Army declares success in detonation of lead-based explosives stockpile in Iowa",
+      "url": "https://www.thehindu.com/news/international/us-army-declares-success-in-detonation-of-lead-based-explosives-stockpile-in-iowa/article71745045.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T02:05:09+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
+          "title": "US Army blows up toxic explosives in Iowa, calls detonation a success",
+          "published": "2026-11-25T15:48:57+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "‘Russia wants more than Ukraine,’ says Germany’s Merz as he defends aid for Kyiv",
       "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/russia-ukraine-germany-merz-aid/",
       "source": "Japan Times",
@@ -830,73 +849,73 @@
       "consensus": 1.5
     },
     {
+      "title": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
+      "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
+      "source": "Euronews",
+      "published": "2026-11-26T05:14:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Breaking: Canberra motorcyclist dies after colliding with pole",
+      "url": "https://www.abc.net.au/news/2026-11-26/act-rider-dies-motorcycle-single-vehicle-crash/107430292",
+      "source": "ABC Australia",
+      "published": "2026-11-26T05:08:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "The five key moments in the Ukraine and Iran wars that sent your energy bills soaring",
+      "url": "https://www.independent.co.uk/news/world/europe/energy-bills-uk-price-cap-iran-war-ukraine-russia-b3091894.html",
+      "source": "The Independent",
+      "published": "2026-11-26T05:06:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU leaders brace for a summit ‘bloodbath’",
+      "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-brace-for-a-summit-bloodbath/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-26T05:05:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Nepal flash floods: Kathmandu begins process to declare 213 missing Indians presumed dead",
+      "url": "https://www.thehindu.com/news/national/nepal-flash-floods-kathmandu-begins-process-to-declare-213-indians-missing-presumed-dead/article71745222.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T05:04:14+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
+      "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
+      "source": "Straits Times",
+      "published": "2026-11-26T05:00:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China’s anti-corruption campaign tracker",
+      "url": "https://www.scmp.com/plus/news/china/politics/article/3375860/chinas-anti-corruption-campaign-tracker",
+      "source": "SCMP",
+      "published": "2026-11-26T04:59:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Government to approach 13 Wang Fuk Court owners who rejected buy-out next month",
       "url": "https://www.scmp.com/news/hong-kong/society/article/3375868/government-approach-13-wang-fuk-court-owners-who-rejected-buy-out-next-month",
       "source": "SCMP",
       "published": "2026-11-26T04:57:10+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Kyiv says five military aircraft damaged in strike on airbase east of Moscow",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
-      "source": "The Independent",
-      "published": "2026-11-26T04:52:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Cane toad reported in Adelaide as authorities appeal for public lookout",
-      "url": "https://www.abc.net.au/news/2026-11-26/cane-toad-reported-in-adelaide-suburbs-grange/107430692",
-      "source": "ABC Australia",
-      "published": "2026-11-26T04:51:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "More driving licence test options called for as wait times stretch",
-      "url": "https://www.rnz.co.nz/news/education/2799536/more-driving-licence-test-options-called-for-as-wait-times-stretch",
-      "source": "RNZ",
-      "published": "2026-11-26T04:49:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Prisoners have clothing, bedding and food withheld in 'degrading' regime",
-      "url": "https://www.abc.net.au/news/2026-11-26/tas-risdon-prison-degrading-punishment-system/107430976",
-      "source": "ABC Australia",
-      "published": "2026-11-26T04:48:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Victoria faces increased bushfire risk in 'mixed bag' of summer emergencies",
-      "url": "https://www.abc.net.au/news/2026-11-26/summer-bushfire-season-victoria-outlook/107429694",
-      "source": "ABC Australia",
-      "published": "2026-11-26T04:48:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Brazil withdraws its ambassador to Argentina and will not invite Milei to Lula's inauguration",
-      "url": "https://en.mercopress.com/2026/11/26/brazil-withdraws-its-ambassador-to-argentina-and-will-not-invite-milei-to-lula-s-inauguration?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-26T04:45:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Malaysian man retracts Kelantan water criticism after US$242,800 legal threat",
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3375863/malaysian-man-retracts-kelantan-water-criticism-after-us242800-legal-threat",
-      "source": "SCMP",
-      "published": "2026-11-26T04:43:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -972,10 +991,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57883.09,
+        "price": 57906.47,
         "currency": "JPY",
-        "change": 871.47,
-        "change_percent": 1.53,
+        "change": 894.85,
+        "change_percent": 1.57,
         "name": "Nikkei 225"
       },
       {
@@ -998,26 +1017,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3623.7,
+        "price": 3625.9,
         "currency": "USD",
-        "change": 59.1,
-        "change_percent": 1.66,
+        "change": 61.3,
+        "change_percent": 1.72,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 42.16,
+        "price": 42.3,
         "currency": "USD",
-        "change": 1.63,
-        "change_percent": 4.01,
+        "change": 1.76,
+        "change_percent": 4.33,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.18,
+        "price": 91.11,
         "currency": "USD",
-        "change": 0.54,
-        "change_percent": 0.6,
+        "change": 0.47,
+        "change_percent": 0.52,
         "name": "Brent Crude"
       },
       {
@@ -1025,7 +1044,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.17,
+        "change_percent": -0.16,
         "name": "EUR/USD"
       },
       {
@@ -1038,18 +1057,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.17,
+        "price": 159.19,
         "currency": "JPY",
-        "change": 0.05,
-        "change_percent": 0.03,
+        "change": 0.07,
+        "change_percent": 0.04,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60926.31,
+        "price": 60879.3,
         "currency": "USD",
-        "change": 547.74,
-        "change_percent": 0.91,
+        "change": 500.73,
+        "change_percent": 0.83,
         "name": "Bitcoin"
       }
     ],
@@ -1346,7 +1365,7 @@
         "title": "Browser tabs as a container runtime",
         "url": "https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-runtime",
         "comments_url": "https://lobste.rs/s/hge0sd/browser_tabs_as_container_runtime",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-26T04:57:04.708000+00:00"
       },
@@ -1361,14 +1380,14 @@
       {
         "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
         "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "score": 50,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-26T03:36:58+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 21,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1399,14 +1418,14 @@
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 165,
+        "score": 176,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 55,
+        "score": 71,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1438,7 +1457,7 @@
         "title": "Entering the Geminispace",
         "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
         "comments_url": "https://lobste.rs/s/8rgqmw/entering_geminispace",
-        "score": 11,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:43:05.044000+00:00"
       },
@@ -1451,11 +1470,11 @@
         "published": "2026-11-25T22:26:56.449000+00:00"
       },
       {
-        "title": "Deploying a payphone on a tiny Pacific Island for fun and zero profit",
-        "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-        "score": 72,
+        "title": "Bare Metal Qwen",
+        "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+        "score": 100,
         "source": "Hacker News",
-        "published": "2026-11-25T22:12:25+00:00"
+        "published": "2026-11-25T22:15:34+00:00"
       }
     ],
     "reddit": [

@@ -1,60 +1,60 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T01:31:00.710302+00:00",
+  "last_updated": "2026-11-26T02:01:03.254093+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 434
+      "ms": 486
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 381
+      "ms": 354
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 75
+      "ms": 261
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 208
+      "ms": 145
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 64
+      "ms": 241
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 327
+      "ms": 379
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 514
+      "ms": 585
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 585
+      "ms": 513
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 125
+      "ms": 217
     },
     "France24": {
       "ok": true,
@@ -66,85 +66,85 @@
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 421
+      "ms": 378
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 292
+      "ms": 425
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 216
+      "ms": 312
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 197
+      "ms": 161
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 155
+      "ms": 150
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 290
+      "ms": 395
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 645
+      "ms": 630
     },
     "Semafor": {
       "ok": true,
       "count": 270,
       "error": null,
-      "ms": 655
+      "ms": 666
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 630
+      "ms": 730
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 281
+      "ms": 273
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3058
+      "ms": 3181
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 289
+      "ms": 255
     },
     "The Independent": {
       "ok": true,
-      "count": 95,
+      "count": 94,
       "error": null,
-      "ms": 194
+      "ms": 204
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 227
+      "ms": 244
     }
   },
   "breaking": [
@@ -283,6 +283,38 @@
       "consensus": 3.5
     },
     {
+      "title": "Plane crash off coast of Mississippi kills extended family of six on fishing trip",
+      "url": "https://www.thehindu.com/news/international/plane-crash-off-coast-of-mississippi-kills-extended-family-of-six-on-fishing-trip/article71745032.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T01:54:49+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/brent-stokes-mississippi-plane-crash-victims-florida-b3091735.html",
+          "title": "Six Mississippi plane crash victims named after fatal wreck on family trip",
+          "published": "2026-11-25T19:43:18+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Bad weather postpones Macy’s 100th Thanksgiving Day Parade for first time ever",
+      "url": "https://www.thehindu.com/news/international/bad-weather-postpones-macys-100th-thanksgiving-day-parade-for-first-time-ever/article71745030.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T01:34:38+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+          "title": "Macy's postpones Thanksgiving parade due to weather",
+          "published": "2026-11-25T23:57:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
       "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
       "source": "France24",
@@ -303,69 +335,9 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-      "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T23:33:39+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/yemens-houthis-threaten-to-target-jeddah-and-other-saudi-red-sea-ports/article71741023.ece",
-          "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
-          "published": "2026-11-25T04:05:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Netanyahu gets boost in long-running corruption trial",
-      "url": "https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
-      "source": "Semafor",
-      "published": "2026-11-25T22:35:24+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
-          "title": "In boost for Netanyahu, judges question corruption trial charges",
-          "published": "2026-11-25T19:28:13+00:00"
-        }
-      ],
-      "consensus": 2.5
     }
   ],
   "world": [
-    {
-      "title": "Israeli strike kills Hamas official, his wife and children",
-      "url": "https://www.thehindu.com/news/international/israeli-strike-kills-hamas-official-his-wife-and-children/article71743893.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T17:59:46+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
-          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
-          "published": "2026-11-25T14:06:13+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
-          "title": "Israeli strike kills Hamas official, his wife and children",
-          "published": "2026-11-25T13:27:00+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375752/israeli-strike-gaza-kills-hamas-security-chief-wife-and-teenage-daughters",
-          "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughters",
-          "published": "2026-11-25T09:27:55+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
     {
       "title": "North Korea expels Swiss diplomat in sanctions row",
       "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
@@ -384,6 +356,28 @@
           "url": "https://www.straitstimes.com/asia/east-asia/north-korea-expels-swiss-representative-over-sanctions-related-to-childrens-camp",
           "title": "North Korea expels Swiss representative over sanctions related to children’s camp",
           "published": "2026-11-25T03:56:44+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Israeli strike kills Hamas official, his wife and children",
+      "url": "https://www.thehindu.com/news/international/israeli-strike-kills-hamas-official-his-wife-and-children/article71743893.ece",
+      "source": "The Hindu",
+      "published": "2026-11-25T17:59:46+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmd718zydz9qo?at_medium=RSS&at_campaign=rss",
+          "title": "Israeli strike kills senior Hamas security official and family in Gaza City",
+          "published": "2026-11-25T14:06:13+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israeli-strike-kills-hamas-official-his-wife-and-children-6581221",
+          "title": "Israeli strike kills Hamas official, his wife and children",
+          "published": "2026-11-25T13:27:00+00:00"
         }
       ],
       "consensus": 3.5
@@ -411,6 +405,38 @@
       "consensus": 3.5
     },
     {
+      "title": "Judges recommend prosecutors end corruption case against Netanyahu",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T01:08:43+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israeli-judges-recommend-prosecutors-drop-one-bribery-case-against-netanyahu-6582791",
+          "title": "Israeli judges recommend prosecutors drop one bribery case against Netanyahu",
+          "published": "2026-11-25T21:24:07+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
+      "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-25T23:33:39+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/yemens-houthis-threaten-to-target-jeddah-and-other-saudi-red-sea-ports/article71741023.ece",
+          "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+          "published": "2026-11-25T04:05:39+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "PSG's perfect Champions League record ends as Roma snatch 2-2 draw with late penalty",
       "url": "https://www.france24.com/en/sport/20261125-psg-s-perfect-champions-league-record-ends-as-roma-snatch-2-2-draw-with-late-penalty",
       "source": "France24",
@@ -422,6 +448,22 @@
           "url": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss",
           "title": "Malen and Roma deny injury-hit PSG in Champions League draw",
           "published": "2026-11-25T22:41:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Netanyahu gets boost in long-running corruption trial",
+      "url": "https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
+      "source": "Semafor",
+      "published": "2026-11-25T22:35:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
+          "title": "In boost for Netanyahu, judges question corruption trial charges",
+          "published": "2026-11-25T19:28:13+00:00"
         }
       ],
       "consensus": 2.5
@@ -683,22 +725,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Meta officials meet India’s Congress party to calm social media takedown row",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3375747/meta-officials-meet-indias-congress-party-calm-social-media-takedown-row",
-      "source": "SCMP",
-      "published": "2026-11-25T08:55:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-sources-say",
-          "title": "Meta officials meet India’s opposition Congress amid protests on content curbs, sources say",
-          "published": "2026-11-25T08:48:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Zelensky Confirms Ukraine Was Behind Drone Attack on Russian Cargo Ship in Gulf of Finland",
       "url": "https://www.themoscowtimes.com/2026/11/24/zelensky-confirms-ukraine-was-behind-drone-attack-on-russian-cargo-ship-in-gulf-a94364",
       "source": "The Moscow Times",
@@ -811,109 +837,91 @@
       "consensus": 1.5
     },
     {
-      "title": "Why Japan’s Takaichi cannot afford to lose another minister",
-      "url": "https://www.scmp.com/week-asia/politics/article/3375767/why-japans-takaichi-cannot-afford-lose-another-minister",
+      "title": "Hong Kong’s Pakistani community mourns philanthropist killed in Tsim Sha Tsui crash",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3375794/hong-kongs-pakistani-community-mourns-philanthropist-killed-tsim-sha-tsui-crash",
       "source": "SCMP",
-      "published": "2026-11-26T01:30:11+00:00",
+      "published": "2026-11-26T02:00:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "California warned of potential Thanksgiving flooding as storms threaten US coasts",
-      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T01:22:55+00:00",
+      "title": "China sounds alarm on new and unseen tech risks, urges AI-driven security defence",
+      "url": "https://www.scmp.com/news/china/politics/article/3375786/china-sounds-alarm-new-and-unseen-tech-risks-urges-ai-driven-security-defence",
+      "source": "SCMP",
+      "published": "2026-11-26T02:00:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Australia's only TV shopping network collapses into liquidation",
-      "url": "https://www.abc.net.au/news/2026-11-26/tvsn-shopping-network-channel-liquidation/107428726",
+      "title": "Retrospective returns Ken Done to the harbour that inspired him",
+      "url": "https://www.abc.net.au/news/2026-11-26/ken-done-exhibition-1980-to-now-mosman-art-gallery/107361266",
       "source": "ABC Australia",
-      "published": "2026-11-26T01:21:01+00:00",
+      "published": "2026-11-26T02:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "More than 120 students sickened at North Carolina elementary school after norovirus outbreak",
-      "url": "https://www.independent.co.uk/news/world/americas/north-carolina-school-norovirus-outbreak-b3091795.html",
-      "source": "The Independent",
-      "published": "2026-11-26T01:18:55+00:00",
+      "title": "Jolie and Pitt settle French winery fight a decade after bitter split",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3375827/jolie-and-pitt-settle-french-winery-fight-decade-after-bitter-split",
+      "source": "SCMP",
+      "published": "2026-11-26T01:56:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "OPEC blames EU for COP31 collapse",
-      "url": "https://www.japantimes.co.jp/environment/2026/11/26/climate-change/opec-eu-cop31-collapse/",
-      "source": "Japan Times",
-      "published": "2026-11-26T01:18:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan to extend tax break for inherited home sales by four years",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/japan-inherited-home-sale-tax-break/",
-      "source": "Japan Times",
-      "published": "2026-11-26T01:17:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
-      "url": "https://www.france24.com/en/americas/20261126-powerful-us-storm-forces-historic-postponement-of-thanksgiving-day-parade-in-new-york",
-      "source": "France24",
-      "published": "2026-11-26T01:11:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Vietnam says it is working with US to complete trade deal as soon as possible",
-      "url": "https://www.straitstimes.com/asia/se-asia/vietnam-says-it-is-working-with-us-to-complete-trade-deal-as-soon-as-possible",
+      "title": "Malaysia’s next general election likely ‘before or after’ National Day 2027: PM Anwar",
+      "url": "https://www.straitstimes.com/asia/se-asia/malaysias-next-general-election-likely-before-or-after-national-day-2027-pm-anwar",
       "source": "Straits Times",
-      "published": "2026-11-26T01:10:00+00:00",
+      "published": "2026-11-26T01:55:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Vance says Todd Blanche assured him Jensen Huang is ‘under no investigation’",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-todd-blanche-jensen-huang-nvidia-b3091829.html",
-      "source": "The Independent",
-      "published": "2026-11-26T01:09:52+00:00",
+      "title": "U.S. judge blocks FCC from revoking licences of Disney-owned ABC stations",
+      "url": "https://www.cbc.ca/news/world/judge-blocks-fcc-revoking-abc-licences-9.7436635?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T01:54:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Farmers staff set to strike over wage negotiations impasse",
-      "url": "https://www.rnz.co.nz/news/business/2789306/farmers-staff-set-to-strike-over-wage-negotiations-impasse",
-      "source": "RNZ",
-      "published": "2026-11-26T01:03:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Volatility-weary investors sideswiped as tariff mayhem adds to tech pain",
-      "url": "https://www.japantimes.co.jp/business/2026/11/26/markets/volatility-investors-tariff-tech-pain/",
-      "source": "Japan Times",
-      "published": "2026-11-26T01:03:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Calls for census recount as country towns claim ABS underestimates them",
-      "url": "https://www.abc.net.au/news/2026-11-26/census-investigation-regional-wa-recount-york-northam/107414540",
+      "title": "Emissions fall, but not fast enough to meet climate target",
+      "url": "https://www.abc.net.au/news/2026-11-26/australia-emissions-fall-short-2035-climate-target/107418552",
       "source": "ABC Australia",
-      "published": "2026-11-26T00:56:27+00:00",
+      "published": "2026-11-26T01:50:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Volkswagen’s $23,000 self-driving sedan shows how China leads on car tech",
+      "url": "https://www.straitstimes.com/asia/east-asia/volkswagens-23000-self-driving-sedan-shows-how-china-leads-on-car-tech",
+      "source": "Straits Times",
+      "published": "2026-11-26T01:45:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Springboks want to win Nations Championship for banned coach Rassie Erasmus",
+      "url": "https://www.japantimes.co.jp/sports/2026/11/26/more-sports/south-africa-nations-championship/",
+      "source": "Japan Times",
+      "published": "2026-11-26T01:41:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Photos: Storms and an El Nino-charged king tide batter California’s coast",
+      "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T01:40:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -989,10 +997,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58061.56,
+        "price": 57864.87,
         "currency": "JPY",
-        "change": 1049.94,
-        "change_percent": 1.84,
+        "change": 853.25,
+        "change_percent": 1.5,
         "name": "Nikkei 225"
       },
       {
@@ -1015,26 +1023,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3605.7,
+        "price": 3589.2,
         "currency": "USD",
-        "change": 41.1,
-        "change_percent": 1.15,
+        "change": 24.6,
+        "change_percent": 0.69,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.92,
+        "price": 41.24,
         "currency": "USD",
-        "change": 1.38,
-        "change_percent": 3.41,
+        "change": 0.7,
+        "change_percent": 1.73,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.03,
+        "price": 90.69,
         "currency": "USD",
-        "change": 0.39,
-        "change_percent": 0.43,
+        "change": 0.05,
+        "change_percent": 0.06,
         "name": "Brent Crude"
       },
       {
@@ -1042,7 +1050,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.1,
+        "change_percent": -0.11,
         "name": "EUR/USD"
       },
       {
@@ -1050,23 +1058,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.04,
+        "change_percent": -0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.05,
+        "price": 159.09,
         "currency": "JPY",
-        "change": -0.07,
-        "change_percent": -0.05,
+        "change": -0.04,
+        "change_percent": -0.02,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60715.49,
+        "price": 60696.09,
         "currency": "USD",
-        "change": 336.92,
-        "change_percent": 0.56,
+        "change": 317.52,
+        "change_percent": 0.53,
         "name": "Bitcoin"
       }
     ],
@@ -1363,7 +1371,7 @@
         "title": "Visualizing Metra (2011)",
         "url": "https://www.c82.net/blog/visualizing-metra",
         "comments_url": "https://lobste.rs/s/v4qhwb/visualizing_metra_2011",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:14:47.489000+00:00"
       },
@@ -1371,14 +1379,14 @@
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
       },
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 36,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
@@ -1401,7 +1409,7 @@
       {
         "title": "Jev is probably Qwen3.5-35B-A3B",
         "url": "https://modaic.dev/blog/latency-doesnt-lie",
-        "score": 212,
+        "score": 220,
         "source": "Hacker News",
         "published": "2026-11-25T22:57:04+00:00"
       },
@@ -1417,7 +1425,7 @@
         "title": "Typed indexes in Zig",
         "url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig/",
         "comments_url": "https://lobste.rs/s/l6g7j1/typed_indexes_zig",
-        "score": 3,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:48:44.713000+00:00"
       },
@@ -1433,21 +1441,21 @@
         "title": "Generalized Riemann Hypothesis proof in Lean 4, in 76k lines (down from 17M)",
         "url": "https://leanprover.zulipchat.com/#narrow/channel/658556-Riemann-Hypothesis/topic/Cleaning.20up.20the.20proof/near/643702366",
         "comments_url": "https://lobste.rs/s/tlwot6/generalized_riemann_hypothesis_proof",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:26:56.449000+00:00"
       },
       {
         "title": "Bare Metal Qwen",
         "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-        "score": 59,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-25T22:15:34+00:00"
       },
       {
         "title": "Deploying a payphone on a tiny Pacific Island",
         "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-        "score": 30,
+        "score": 39,
         "source": "Hacker News",
         "published": "2026-11-25T22:12:25+00:00"
       },
@@ -1455,21 +1463,21 @@
         "title": "Scott Aaronson on recent complexity theory AI achievements",
         "url": "https://scottaaronson.blog/?p=10379",
         "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
-        "score": 18,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-25T21:52:52.967000+00:00"
       },
       {
         "title": "Much shorter version of GRH Lean verification from Anthropic",
         "url": "https://github.com/lsernau/grh-lean",
-        "score": 261,
+        "score": 280,
         "source": "Hacker News",
         "published": "2026-11-25T21:48:10+00:00"
       },
       {
         "title": "The New York Times warns photographers not to update Photoshop over AI features",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-        "score": 194,
+        "score": 200,
         "source": "Hacker News",
         "published": "2026-11-25T21:18:02+00:00"
       }

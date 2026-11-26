@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T13:01:07.833547+00:00",
+  "last_updated": "2026-11-26T13:31:00.743270+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 284
+      "ms": 349
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 210
+      "ms": 396
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 278
+      "ms": 290
     },
     "BBC News": {
       "ok": true,
       "count": 35,
       "error": null,
-      "ms": 224
+      "ms": 222
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 455
+      "ms": 232
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 94
+      "ms": 265
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 321
+      "ms": 852
     },
     "El País": {
       "ok": true,
-      "count": 59,
+      "count": 58,
       "error": null,
-      "ms": 398
+      "ms": 631
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 151
+      "ms": 159
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 1175
+      "ms": 212
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 381
+      "ms": 241
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 244
+      "ms": 345
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 265
+      "ms": 190
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 119
+      "ms": 161
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 118
+      "ms": 180
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 361
+      "ms": 320
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 601
+      "ms": 655
     },
     "Semafor": {
       "ok": true,
-      "count": 260,
+      "count": 261,
       "error": null,
-      "ms": 523
+      "ms": 716
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 528
+      "ms": 786
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 357
+      "ms": 340
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3137
+      "ms": 3291
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 194
+      "ms": 341
     },
     "The Independent": {
       "ok": true,
-      "count": 84,
+      "count": 82,
       "error": null,
-      "ms": 209
+      "ms": 286
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 144
+      "ms": 324
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/bangkok-oil-facility-explosion/",
       "source": "Japan Times",
       "published": "2026-11-26T11:53:00+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
         {
           "source": "Euronews",
@@ -162,35 +162,19 @@
           "published": "2026-11-26T09:25:01+00:00"
         },
         {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
+          "title": "Nine injured in explosion at oil facility in Thailand’s Bangkok",
+          "published": "2026-11-26T08:49:20+00:00"
+        },
+        {
           "source": "Straits Times",
           "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
           "title": "Nine hurt in huge explosion at Bangkok oil facility",
           "published": "2026-11-26T08:38:50+00:00"
         }
       ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
-      "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T10:25:51+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
-          "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
-          "published": "2026-11-26T05:47:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
-          "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
-          "published": "2026-11-26T05:00:00+00:00"
-        }
-      ],
-      "consensus": 3.5
+      "consensus": 5.0
     },
     {
       "title": "FIFA says personal and business information stolen in cyberattack",
@@ -241,20 +225,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Seven injured, four critically, after Bangkok oil refinery explosion",
-      "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T11:21:50+00:00",
+      "title": "UK net migration falls to 77,000, lowest annual level in nearly 30 years",
+      "url": "https://www.scmp.com/news/world/europe/article/3375952/uk-net-migration-falls-77000-lowest-annual-level-nearly-30-years",
+      "source": "SCMP",
+      "published": "2026-11-26T13:19:28+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok?traffic_source=rss",
-          "title": "Seven injured in explosion at oil facility in Thailand’s Bangkok",
-          "published": "2026-11-26T08:49:20+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/uk-net-migration-falls-to-lowest-since-1997-indians-largest-foreign-group-entering-and-leaving-the-country/article71746576.ece",
+          "title": "U.K. net migration falls to lowest since 1997; Indians largest foreign group entering and leaving the country",
+          "published": "2026-11-26T12:55:21+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
       "title": "UN experts demand Vietnam explain ‘abduction’ of activists from Cambodia",
@@ -273,20 +257,29 @@
       "consensus": 2.0
     },
     {
-      "title": "Will Solomon Islands’ Australia treaty prompt China to rethink its Pacific strategy?",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3375923/will-solomon-islands-australia-treaty-prompt-china-rethink-its-pacific-strategy",
-      "source": "SCMP",
-      "published": "2026-11-26T12:00:11+00:00",
+      "title": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
+      "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
+      "source": "France24",
+      "published": "2026-11-26T11:47:52+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/article71741038.ece",
-          "title": "Solomon Islands names Australia as its primary security partner in a new treaty that excludes China",
-          "published": "2026-11-25T04:15:07+00:00"
+          "source": "Politico EU",
+          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "title": "France’s Jordan Bardella faces fresh antisemitism accusations",
+          "published": "2026-11-26T11:03:17+00:00"
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Russian TV Star With Ties to VTB Chief Backed Telegram’s Failed Crypto Venture – Report",
+      "url": "https://www.themoscowtimes.com/2026/11/26/russian-tv-star-with-ties-to-vtb-chief-backed-telegram-s-failed-crypto-venture-a812384",
+      "source": "The Moscow Times",
+      "published": "2026-11-26T13:29:03+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -345,6 +338,28 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
+      "url": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T10:25:51+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
+          "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
+          "published": "2026-11-26T05:47:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
+          "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
+          "published": "2026-11-26T05:00:00+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Trump and NATO Chief Urge Russia to Avoid Actions That Widen Ukraine War",
@@ -471,22 +486,6 @@
       "consensus": 2.5
     },
     {
-      "title": "FedEx plane overshoots Miami runway, causing brief suspension of flights at airport",
-      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T07:34:47+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375859/fedex-cargo-plane-overshoots-runway-miami-airport",
-          "title": "FedEx cargo plane overshoots runway at Miami airport",
-          "published": "2026-11-26T04:35:06+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
       "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
       "source": "The Hindu",
@@ -583,22 +582,6 @@
       "consensus": 2.5
     },
     {
-      "title": "US court finds Chinese tech giant Huawei guilty of fraud",
-      "url": "https://www.semafor.com/article/11/25/2026/us-court-finds-chinese-tech-giant-huawei-guilty-of-fraud",
-      "source": "Semafor",
-      "published": "2026-11-25T12:02:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/sci-tech/technology/chinese-tech-giant-huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-us-jury-finds/article71740060.ece",
-          "title": "Chinese tech giant Huawei is guilty of conspiracy to steal trade secrets, U.S. jury finds",
-          "published": "2026-11-24T22:55:50+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "U.S. Shelves Plans for Business Deals With Russia to End Ukraine War – FT",
       "url": "https://www.themoscowtimes.com/2026/11/25/us-shelves-plans-for-business-deals-with-russia-to-end-ukraine-war-ft-a94370",
       "source": "The Moscow Times",
@@ -663,17 +646,17 @@
       "consensus": 2.5
     },
     {
-      "title": "French far-right leader Bardella faces fresh anti-Semitism accusations in media reports",
-      "url": "https://www.france24.com/en/video/20261126-french-far-right-leader-bardella-faces-fresh-anti-semitism-accusations-in-media-reports",
-      "source": "France24",
-      "published": "2026-11-26T11:47:52+00:00",
+      "title": "Will Solomon Islands’ Australia treaty prompt China to rethink its Pacific strategy?",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3375923/will-solomon-islands-australia-treaty-prompt-china-rethink-its-pacific-strategy",
+      "source": "SCMP",
+      "published": "2026-11-26T12:00:11+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Politico EU",
-          "url": "https://www.politico.eu/article/france-jordan-bardella-faces-fresh-antisemitism-accusations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-          "title": "France’s Jordan Bardella faces fresh antisemitism accusations",
-          "published": "2026-11-26T11:03:17+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/solomon-islands-names-australia-as-its-primary-security-partner-in-a-new-treaty-that-excludes-china/article71741038.ece",
+          "title": "Solomon Islands names Australia as its primary security partner in a new treaty that excludes China",
+          "published": "2026-11-25T04:15:07+00:00"
         }
       ],
       "consensus": 2.0
@@ -807,91 +790,100 @@
       "consensus": 1.5
     },
     {
-      "title": "China’s tech ambitions to stay on track despite Shanghai party chief’s ouster: analysts",
-      "url": "https://www.scmp.com/tech/big-tech/article/3375938/chinas-tech-ambitions-stay-track-despite-shanghai-party-chiefs-ouster-analysts",
-      "source": "SCMP",
-      "published": "2026-11-26T13:00:14+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Asian countries race to contain rising inflation",
-      "url": "https://www.semafor.com/article/11/26/2026/south-koreas-central-bank-raises-interest-rates-to-highest-level-in-more-than-two-years",
-      "source": "Semafor",
-      "published": "2026-11-26T12:55:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Hong Kong lawmakers defend CUHK ordinance changes as move to boost governance",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3375946/hong-kong-lawmakers-defend-cuhk-ordinance-changes-move-boost-governance",
-      "source": "SCMP",
-      "published": "2026-11-26T12:53:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Federal judge makes major ruling on future of $20 million taxpayer funded Trump ads",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/federal-judge-declines-trump-ads-b3092168.html",
-      "source": "The Independent",
-      "published": "2026-11-26T12:50:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'As humans we feel spiritually homeless': Turkish author Ece Temelkuran on belonging",
-      "url": "https://www.france24.com/en/tv-shows/perspective/20261126-as-humans-we-feel-spiritually-homeless-turkish-author-ece-temelkuran-on-belonging",
-      "source": "France24",
-      "published": "2026-11-26T12:48:46+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "10 key faces of Spain’s next (likely) right-wing government",
-      "url": "https://www.politico.eu/article/10-key-faces-of-spains-next-likely-right-wing-government/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-26T12:48:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan Tobacco studies deal for Imperial Brands",
-      "url": "https://www.japantimes.co.jp/business/2026/11/26/companies/japan-tobacco-considers-imperial-acquisition/",
-      "source": "Japan Times",
-      "published": "2026-11-26T12:46:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Korean student suspended after urinating in classmate’s tumbler, victim quits school",
-      "url": "https://www.straitstimes.com/asia/east-asia/south-korean-student-suspended-after-urinating-in-classmates-tumbler-victim-quits-school",
+      "title": "Big fat wedding in India draws 400,000 guests",
+      "url": "https://www.straitstimes.com/asia/south-asia/big-fat-wedding-in-india-draws-400000-guests",
       "source": "Straits Times",
-      "published": "2026-11-26T12:41:00+00:00",
+      "published": "2026-11-26T13:26:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Eyewitnesses describe scenes of Egypt’s deadly vehicle fire",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T12:34:10+00:00",
+      "title": "Dubai forms Islamic mega-bank",
+      "url": "https://www.semafor.com/article/11/26/2026/dubai-islamic-bank-plans-to-buy-emirates-islamic-bank",
+      "source": "Semafor",
+      "published": "2026-11-26T13:25:47+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-      "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+      "title": "Gulf conflicts risk entangling African states",
+      "url": "https://www.semafor.com/article/11/26/2026/uae-commercial-interests-look-to-somaliland-due-to-strategic-position-in-middle-east-conflict",
+      "source": "Semafor",
+      "published": "2026-11-26T13:22:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "China busts cross-border blood smuggling ring over biosecurity fears",
+      "url": "https://www.scmp.com/news/china/politics/article/3375953/china-busts-cross-border-blood-smuggling-ring-over-biosecurity-fears",
+      "source": "SCMP",
+      "published": "2026-11-26T13:20:02+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Spanish PM Pedro Sánchez: ‘We’re within touching distance of securing a progressive majority; if we reach 75% turnout, we can make it happen’",
+      "url": "https://english.elpais.com/international/2026-11-26/spanish-pm-pedro-sanchez-were-within-touching-distance-of-securing-a-progressive-majority-if-we-reach-75-turnout-we-can-make-it-happen.html",
+      "source": "El País",
+      "published": "2026-11-26T13:13:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Miami runway incident disrupts flights on Thanksgiving eve",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-26T12:33:23+00:00",
+      "published": "2026-11-26T13:09:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Israel defence minister threatens to displace 1 million Gazans if Hamas won't disarm",
+      "url": "https://www.channelnewsasia.com/world/israel-katz-threat-displace-1-million-gaza-residents-hamas-6585316",
+      "source": "CNA",
+      "published": "2026-11-26T13:08:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Singapore doctor remanded over filming 874 women in Melbourne: ‘abhorrent sexual predator’",
+      "url": "https://www.scmp.com/week-asia/people/article/3375950/singapore-doctor-remanded-over-filming-874-women-melbourne-abhorrent-sexual-predator",
+      "source": "SCMP",
+      "published": "2026-11-26T13:08:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "url": "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T13:04:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Lutnick’s bodyguards, Noem’s jets, Hegseth’s house: Trump officials really take the cake",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/howard-lutnick-security-detail-analysis-b3091704.html",
+      "source": "The Independent",
+      "published": "2026-11-26T13:02:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Film shows testimonies of international doctors amid Gaza genocide",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T13:02:24+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -908,10 +900,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 137.0,
+      "price": 137.04,
       "currency": "GBP",
-      "change": 4.02,
-      "change_percent": 3.02,
+      "change": 4.06,
+      "change_percent": 3.05,
       "name": "FTSE All-World ETF"
     },
     {
@@ -924,10 +916,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10570.04,
+      "price": 10583.75,
       "currency": "GBP",
-      "change": 143.1,
-      "change_percent": 1.37,
+      "change": 156.81,
+      "change_percent": 1.5,
       "name": "FTSE 100"
     }
   ],
@@ -943,10 +935,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10570.04,
+        "price": 10583.75,
         "currency": "GBP",
-        "change": 143.1,
-        "change_percent": 1.37,
+        "change": 156.81,
+        "change_percent": 1.5,
         "name": "FTSE 100"
       },
       {
@@ -975,17 +967,17 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25175.27,
+        "price": 25171.7,
         "currency": "EUR",
-        "change": 473.14,
-        "change_percent": 1.92,
+        "change": 469.57,
+        "change_percent": 1.9,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8110.1,
+        "price": 8109.49,
         "currency": "EUR",
-        "change": 129.53,
+        "change": 128.92,
         "change_percent": 1.62,
         "name": "CAC 40"
       }
@@ -993,26 +985,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3593.8,
+        "price": 3596.5,
         "currency": "USD",
-        "change": 29.2,
-        "change_percent": 0.82,
+        "change": 31.9,
+        "change_percent": 0.89,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.85,
+        "price": 41.66,
         "currency": "USD",
-        "change": 1.31,
-        "change_percent": 3.24,
+        "change": 1.13,
+        "change_percent": 2.78,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.2,
+        "price": 91.16,
         "currency": "USD",
-        "change": 0.56,
-        "change_percent": 0.62,
+        "change": 0.52,
+        "change_percent": 0.57,
         "name": "Brent Crude"
       },
       {
@@ -1020,7 +1012,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.03,
+        "change_percent": 0.0,
         "name": "EUR/USD"
       },
       {
@@ -1028,23 +1020,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.08,
+        "change_percent": -0.07,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.25,
+        "price": 159.24,
         "currency": "JPY",
-        "change": 0.13,
-        "change_percent": 0.08,
+        "change": 0.12,
+        "change_percent": 0.07,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60758.33,
+        "price": 60769.11,
         "currency": "USD",
-        "change": 379.76,
-        "change_percent": 0.63,
+        "change": 390.54,
+        "change_percent": 0.65,
         "name": "Bitcoin"
       }
     ],
@@ -1215,22 +1207,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Mandelson toned down China speech on advice from firm he founded",
+          "url": "https://www.ft.com/content/2f5970e6-fe6c-416c-aff8-3f8b889802de?syn-25a6b1a6=1",
+          "published": "2026-11-26T13:04:07+00:00",
+          "snippet": "Former UK ambassador to the US kept close links with the Global Counsel consultancy, according to Cabinet Office files"
+        },
+        {
+          "title": "UK to pay additional ‘participation fee’ as price of EU reset deal",
+          "url": "https://www.ft.com/content/00e41702-b11f-4a28-9233-16ce4cff99c7?syn-25a6b1a6=1",
+          "published": "2026-11-26T12:58:59+00:00",
+          "snippet": "Terms of agreement signed with Brussels last week include what EU diplomats call a ‘pay-to-play’ financial settlement"
+        },
+        {
           "title": "Global stocks climb after volatile US trading over AI risks",
           "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
           "published": "2026-11-26T12:27:09+00:00",
           "snippet": "Tech shares hit this month by fears over whether boom can be sustained"
-        },
-        {
-          "title": "Paris and Berlin seek to shield EU budget from Marine Le Pen",
-          "url": "https://www.ft.com/content/3f577839-deed-40f4-af9f-bf8fb54890e3?syn-25a6b1a6=1",
-          "published": "2026-11-26T12:23:57+00:00",
-          "snippet": "France requests an extra €35bn for farmers to raise the cost of far-right leader picking apart deal on bloc’s budget if she becomes president"
-        },
-        {
-          "title": "Minotaur is a breathtaking portrait of wealthy Russians turning a blind eye to war",
-          "url": "https://www.ft.com/content/77d25f83-9fde-4bf8-a589-4620a5ac6288?syn-25a6b1a6=1",
-          "published": "2026-11-26T12:00:09+00:00",
-          "snippet": "Andrey Zvyagintsev directs a stark thriller about a couple with an unhappy marriage and a callous disregard for events outside their own lives"
         }
       ]
     },
@@ -1239,6 +1231,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "This Thanksgiving, I’m Grateful for Claude",
+          "url": "https://www.theatlantic.com/family/2026/11/ai-claude-family-dinner/689550/?utm_source=feed",
+          "published": "2026-11-26T13:00:00+00:00",
+          "snippet": "In one important way, AI has transformed my family’s life."
+        },
         {
           "title": "Measles, MAHA, and the Future of Disease in America",
           "url": "https://www.theatlantic.com/podcasts/2026/11/measles-maha-and-future-disease-america/689567/?utm_source=feed",
@@ -1250,12 +1248,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/scandinavia-inclusion-dynamism-welfare-sweden/689556/?utm_source=feed",
           "published": "2026-11-26T11:00:00+00:00",
           "snippet": "America needs a new model."
-        },
-        {
-          "title": "With <em>Melania</em>, We See Nothing",
-          "url": "https://www.theatlantic.com/culture/2026/11/melania-series-elizabeth-holmes-documentary/689588/?utm_source=feed",
-          "published": "2026-11-25T19:28:00+00:00",
-          "snippet": "On the heels of Nathan Fielder’s Elizabeth Holmes project, another documentary proves the impossibility of getting inside its subject’s head."
         }
       ]
     },
@@ -1338,6 +1330,14 @@
   "web": {
     "tech": [
       {
+        "title": "Hints and hazards: pg_plan_advice in PG19",
+        "url": "https://clickhouse.com/blog/pg-plan-advice-postgresql-19",
+        "comments_url": "https://lobste.rs/s/nfce9x/hints_hazards_pg_plan_advice_pg19",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T13:20:26.832000+00:00"
+      },
+      {
         "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
         "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
         "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
@@ -1356,7 +1356,7 @@
       {
         "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
         "url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
-        "score": 38,
+        "score": 88,
         "source": "Hacker News",
         "published": "2026-11-26T11:50:49+00:00"
       },
@@ -1371,7 +1371,7 @@
       {
         "title": "Intel One Mono font",
         "url": "https://github.com/intel/intel-one-mono",
-        "score": 151,
+        "score": 174,
         "source": "Hacker News",
         "published": "2026-11-26T10:11:01+00:00"
       },
@@ -1395,21 +1395,21 @@
         "title": "How WinHelp files work",
         "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
         "comments_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-26T06:39:00.543000+00:00"
       },
       {
         "title": "Moat: Your OpenRouter Replacement",
         "url": "https://commandcode.ai/moat",
-        "score": 114,
+        "score": 123,
         "source": "Hacker News",
         "published": "2026-11-26T06:32:48+00:00"
       },
       {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 134,
+        "score": 146,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1425,14 +1425,14 @@
         "title": "I Booted From My Tape Backup From 2002",
         "url": "https://changelog.complete.org/archives/45268-i-booted-from-my-tape-backup-from-2002",
         "comments_url": "https://lobste.rs/s/2thnmt/i_booted_from_my_tape_backup_from_2002",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-26T03:56:07.099000+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 172,
+        "score": 178,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
       },
@@ -1440,17 +1440,9 @@
         "title": "The beauty of CSS mixins",
         "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
         "comments_url": "https://lobste.rs/s/faqxns/beauty_css_mixins",
-        "score": 16,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:02:17.726000+00:00"
-      },
-      {
-        "title": "UI style guides",
-        "url": "https://aresluna.org/ui-style-guides/",
-        "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 14,
-        "source": "Lobste.rs",
-        "published": "2026-11-26T00:54:10.835000+00:00"
       }
     ],
     "reddit": [

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T01:01:03.604004+00:00",
+  "last_updated": "2026-11-26T01:31:00.710302+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 272
+      "ms": 434
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 271
+      "ms": 381
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 234
+      "ms": 75
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 102
+      "ms": 208
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 227
+      "ms": 64
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 273
+      "ms": 327
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 240
+      "ms": 514
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 328
+      "ms": 585
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 130
+      "ms": 125
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 193
+      "ms": 230
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 282
+      "ms": 421
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 195
+      "ms": 292
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 230
+      "ms": 216
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 197
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 205
+      "ms": 155
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 374
+      "ms": 290
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 971
+      "ms": 645
     },
     "Semafor": {
       "ok": true,
       "count": 270,
       "error": null,
-      "ms": 452
+      "ms": 655
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 523
+      "ms": 630
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 274
+      "ms": 281
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3139
+      "ms": 3058
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 204
+      "ms": 289
     },
     "The Independent": {
       "ok": true,
-      "count": 93,
+      "count": 95,
       "error": null,
-      "ms": 493
+      "ms": 194
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 159
+      "ms": 227
     }
   },
   "breaking": [
@@ -192,7 +192,7 @@
       "title": "US announces new tariffs on host of countries including China",
       "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-26T01:00:06+00:00",
+      "published": "2026-11-26T01:20:14+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -215,6 +215,28 @@
         }
       ],
       "consensus": 4.5
+    },
+    {
+      "title": "Storms push Macy’s Thanksgiving Day Parade in New York City to Saturday",
+      "url": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T00:52:56+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/macys-thanksgiving-parade-postponed-weather-b3091779.html",
+          "title": "Macy’s sidesteps how Thanksgiving Day Parade push impacts participants",
+          "published": "2026-11-26T00:07:58+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375820/macys-thanksgiving-day-parade-postponed-new-york-braces-huge-storm",
+          "title": "Macy’s Thanksgiving Day Parade postponed, as New York braces for huge storm",
+          "published": "2026-11-25T23:34:54+00:00"
+        }
+      ],
+      "consensus": 4.0
     },
     {
       "title": "Brad Pitt, Angelina Jolie settle dispute over French estate Château Miraval",
@@ -261,6 +283,28 @@
       "consensus": 3.5
     },
     {
+      "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
+      "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
+      "source": "France24",
+      "published": "2026-11-26T01:25:54+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
+          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
+          "published": "2026-11-25T21:11:06+00:00"
+        },
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+          "title": "At least 30 killed in highway fire in Cairo district",
+          "published": "2026-11-25T19:56:45+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
       "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
       "source": "Al Jazeera",
@@ -277,22 +321,6 @@
       "consensus": 2.5
     },
     {
-      "title": "PSG's perfect Champions League record ends as Roma snatch 2-2 draw with late penalty",
-      "url": "https://www.france24.com/en/sport/20261125-psg-s-perfect-champions-league-record-ends-as-roma-snatch-2-2-draw-with-late-penalty",
-      "source": "France24",
-      "published": "2026-11-25T22:47:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss",
-          "title": "Malen and Roma deny injury-hit PSG in Champions League draw",
-          "published": "2026-11-25T22:41:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Netanyahu gets boost in long-running corruption trial",
       "url": "https://www.semafor.com/article/11/25/2026/netanyahu-gets-boost-in-long-running-corruption-trial",
       "source": "Semafor",
@@ -304,22 +332,6 @@
           "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
           "title": "In boost for Netanyahu, judges question corruption trial charges",
           "published": "2026-11-25T19:28:13+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T22:18:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
-          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 30 people",
-          "published": "2026-11-25T22:04:14+00:00"
         }
       ],
       "consensus": 2.5
@@ -377,28 +389,6 @@
       "consensus": 3.5
     },
     {
-      "title": "US Army detonates toxic explosives in Iowa despite contamination fears",
-      "url": "https://www.channelnewsasia.com/world/us-army-iowa-detonate-toxic-explosives-contamination-6582536",
-      "source": "CNA",
-      "published": "2026-11-25T18:13:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261125-iowa-toxic-dust-fears-as-us-army-blows-up-10-000-pounds-of-explosives",
-          "title": "Iowa: Toxic dust fears as US Army blows up 10,000 pounds of explosives",
-          "published": "2026-11-25T16:14:40+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
-          "title": "US Army detonates lead-based explosives in Iowa despite fears of toxic dust",
-          "published": "2026-11-25T15:48:57+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Trump ‘quietly shelves plans for business deals with Putin to push him into Ukraine peace deal’",
       "url": "https://www.independent.co.uk/news/world/europe/trump-putin-business-russia-ukraine-war-b3091204.html",
       "source": "The Independent",
@@ -421,6 +411,22 @@
       "consensus": 3.5
     },
     {
+      "title": "PSG's perfect Champions League record ends as Roma snatch 2-2 draw with late penalty",
+      "url": "https://www.france24.com/en/sport/20261125-psg-s-perfect-champions-league-record-ends-as-roma-snatch-2-2-draw-with-late-penalty",
+      "source": "France24",
+      "published": "2026-11-25T22:47:59+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss",
+          "title": "Malen and Roma deny injury-hit PSG in Champions League draw",
+          "published": "2026-11-25T22:41:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Israeli lawmakers advance October 7 inquiry opposed by Netanyahu",
       "url": "https://www.france24.com/en/israeli-lawmakers-advance-october-7-inquiry-opposed-by-netanyahu",
       "source": "France24",
@@ -432,6 +438,22 @@
           "url": "https://www.channelnewsasia.com/world/israel-gaza-netanyahu-eisenkot-6582466",
           "title": "Israeli lawmakers advance Oct 7 inquiry opposed by Netanyahu",
           "published": "2026-11-25T17:42:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-25T22:18:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 30 people",
+          "published": "2026-11-25T22:04:14+00:00"
         }
       ],
       "consensus": 2.5
@@ -549,22 +571,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Thomas Markle charged in U.S. on second count of possessing child sexual abuse material",
-      "url": "https://www.thehindu.com/news/international/thomas-markle-charged-in-us-on-second-count-of-possessing-child-sexual-abuse-material/article71740964.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T03:03:03+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-          "title": "Thomas Markle charged in US for possessing child sex abuse images",
-          "published": "2026-11-25T01:40:42+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "‘Russia wants more than Ukraine,’ says Germany’s Merz as he defends aid for Kyiv",
       "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/russia-ukraine-germany-merz-aid/",
       "source": "Japan Times",
@@ -613,17 +619,17 @@
       "consensus": 2.0
     },
     {
-      "title": "MEA separates Sheikh Hasina’s plans to return to Bangladesh from issue of extradition",
-      "url": "https://www.thehindu.com/news/national/mea-separates-sheikh-hasinas-plans-to-return-to-bangladesh-from-issue-of-extradition/article71743712.ece",
-      "source": "The Hindu",
-      "published": "2026-11-25T18:01:32+00:00",
+      "title": "US Army detonates toxic explosives in Iowa despite contamination fears",
+      "url": "https://www.channelnewsasia.com/world/us-army-iowa-detonate-toxic-explosives-contamination-6582536",
+      "source": "CNA",
+      "published": "2026-11-25T18:13:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/sheikh-hasina-return-bangladesh/",
-          "title": "Why is Sheikh Hasina’s plan to return to Bangladesh contentious?",
-          "published": "2026-11-25T03:44:00+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375808/us-army-carries-out-controlled-blast-unstable-lead-azide-iowa-town",
+          "title": "US Army detonates lead-based explosives in Iowa despite fears of toxic dust",
+          "published": "2026-11-25T15:48:57+00:00"
         }
       ],
       "consensus": 2.0
@@ -688,22 +694,6 @@
           "url": "https://www.straitstimes.com/asia/south-asia/meta-officials-meet-indias-opposition-congress-amid-protests-on-content-curbs-sources-say",
           "title": "Meta officials meet India’s opposition Congress amid protests on content curbs, sources say",
           "published": "2026-11-25T08:48:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Thailand asks China to help halt Myanmar mines over toxic rivers",
-      "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/thailand-china-myanmar-mines-rivers/",
-      "source": "Japan Times",
-      "published": "2026-11-25T03:24:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/thailand-asks-china-to-help-halt-myanmar-mines-over-toxic-rivers",
-          "title": "Thailand asks China to help shut Myanmar mines over toxic rivers",
-          "published": "2026-11-25T01:40:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -821,100 +811,109 @@
       "consensus": 1.5
     },
     {
+      "title": "Why Japan’s Takaichi cannot afford to lose another minister",
+      "url": "https://www.scmp.com/week-asia/politics/article/3375767/why-japans-takaichi-cannot-afford-lose-another-minister",
+      "source": "SCMP",
+      "published": "2026-11-26T01:30:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "California warned of potential Thanksgiving flooding as storms threaten US coasts",
+      "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T01:22:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Australia's only TV shopping network collapses into liquidation",
+      "url": "https://www.abc.net.au/news/2026-11-26/tvsn-shopping-network-channel-liquidation/107428726",
+      "source": "ABC Australia",
+      "published": "2026-11-26T01:21:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "More than 120 students sickened at North Carolina elementary school after norovirus outbreak",
+      "url": "https://www.independent.co.uk/news/world/americas/north-carolina-school-norovirus-outbreak-b3091795.html",
+      "source": "The Independent",
+      "published": "2026-11-26T01:18:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "OPEC blames EU for COP31 collapse",
+      "url": "https://www.japantimes.co.jp/environment/2026/11/26/climate-change/opec-eu-cop31-collapse/",
+      "source": "Japan Times",
+      "published": "2026-11-26T01:18:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan to extend tax break for inherited home sales by four years",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/japan-inherited-home-sale-tax-break/",
+      "source": "Japan Times",
+      "published": "2026-11-26T01:17:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
+      "url": "https://www.france24.com/en/americas/20261126-powerful-us-storm-forces-historic-postponement-of-thanksgiving-day-parade-in-new-york",
+      "source": "France24",
+      "published": "2026-11-26T01:11:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Vietnam says it is working with US to complete trade deal as soon as possible",
+      "url": "https://www.straitstimes.com/asia/se-asia/vietnam-says-it-is-working-with-us-to-complete-trade-deal-as-soon-as-possible",
+      "source": "Straits Times",
+      "published": "2026-11-26T01:10:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Vance says Todd Blanche assured him Jensen Huang is ‘under no investigation’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/vance-todd-blanche-jensen-huang-nvidia-b3091829.html",
+      "source": "The Independent",
+      "published": "2026-11-26T01:09:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Farmers staff set to strike over wage negotiations impasse",
+      "url": "https://www.rnz.co.nz/news/business/2789306/farmers-staff-set-to-strike-over-wage-negotiations-impasse",
+      "source": "RNZ",
+      "published": "2026-11-26T01:03:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Volatility-weary investors sideswiped as tariff mayhem adds to tech pain",
+      "url": "https://www.japantimes.co.jp/business/2026/11/26/markets/volatility-investors-tariff-tech-pain/",
+      "source": "Japan Times",
+      "published": "2026-11-26T01:03:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Calls for census recount as country towns claim ABS underestimates them",
       "url": "https://www.abc.net.au/news/2026-11-26/census-investigation-regional-wa-recount-york-northam/107414540",
       "source": "ABC Australia",
       "published": "2026-11-26T00:56:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Anthropic's first data centre in Australia given environmental approval",
-      "url": "https://www.abc.net.au/news/2026-11-26/western-downs-digital-park-federal-environmental-approval/107428970",
-      "source": "ABC Australia",
-      "published": "2026-11-26T00:48:51+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Sydney Swan Papley has driving while suspended charge dismissed",
-      "url": "https://www.abc.net.au/news/2026-11-26/sydney-swans-tom-papley-driving-while-suspended-dismissed/107429248",
-      "source": "ABC Australia",
-      "published": "2026-11-26T00:42:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Geelong teacher's licence suspended amid police investigation",
-      "url": "https://www.abc.net.au/news/2026-11-26/geelong-teacher-licence-suspended-amid-police-investigation/107425790",
-      "source": "ABC Australia",
-      "published": "2026-11-26T00:37:30+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Xi unleashes China ‘earthquake’ with shock ouster of rising star",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/xi-china-shanghai-chen-jining/",
-      "source": "Japan Times",
-      "published": "2026-11-26T00:35:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Breaking: NT Police investigating emailed terror threat targeting government ministers",
-      "url": "https://www.abc.net.au/news/2026-11-26/nt-government-threat-darwin-minister-and-public-areas/107429190",
-      "source": "ABC Australia",
-      "published": "2026-11-26T00:33:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Chinese group to develop 10 smart city sites in Indonesia under US$50 billion deal",
-      "url": "https://www.scmp.com/economy/global-economy/article/3375762/chinese-group-develop-10-smart-city-sites-indonesia-under-us50-billion-deal",
-      "source": "SCMP",
-      "published": "2026-11-26T00:30:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Designs for Kiwirail's new Cook Strait ferries unveiled",
-      "url": "https://www.rnz.co.nz/news/business/2793694/designs-for-kiwirail-s-new-cook-strait-ferries-unveiled",
-      "source": "RNZ",
-      "published": "2026-11-26T00:29:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The US pastor who wants to see women's right to vote overturned",
-      "url": "https://www.bbc.co.uk/news/articles/cwe89jyz4012o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T00:24:25+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Spanish elections: What you need to know and what's at stake",
-      "url": "https://www.bbc.co.uk/news/articles/c6wy4ejnyvdyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T00:23:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "France's political mainstream risks presidential vote debacle with no clear candidate",
-      "url": "https://www.bbc.co.uk/news/articles/cq772vedgepro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T00:23:27+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -990,10 +989,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57820.15,
+        "price": 58061.56,
         "currency": "JPY",
-        "change": 808.53,
-        "change_percent": 1.42,
+        "change": 1049.94,
+        "change_percent": 1.84,
         "name": "Nikkei 225"
       },
       {
@@ -1016,26 +1015,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3593.1,
+        "price": 3605.7,
         "currency": "USD",
-        "change": 28.5,
-        "change_percent": 0.8,
+        "change": 41.1,
+        "change_percent": 1.15,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.52,
+        "price": 41.92,
         "currency": "USD",
-        "change": 0.99,
-        "change_percent": 2.43,
+        "change": 1.38,
+        "change_percent": 3.41,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.67,
+        "price": 91.03,
         "currency": "USD",
-        "change": 0.03,
-        "change_percent": 0.03,
+        "change": 0.39,
+        "change_percent": 0.43,
         "name": "Brent Crude"
       },
       {
@@ -1043,7 +1042,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.1,
         "name": "EUR/USD"
       },
       {
@@ -1051,23 +1050,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.02,
+        "change_percent": -0.04,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.01,
+        "price": 159.05,
         "currency": "JPY",
-        "change": -0.12,
-        "change_percent": -0.07,
+        "change": -0.07,
+        "change_percent": -0.05,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60449.42,
+        "price": 60715.49,
         "currency": "USD",
-        "change": 70.85,
-        "change_percent": 0.12,
+        "change": 336.92,
+        "change_percent": 0.56,
         "name": "Bitcoin"
       }
     ],
@@ -1238,22 +1237,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Israeli judges advise prosecutors to drop some charges against Netanyahu",
-          "url": "https://www.ft.com/content/db700af5-22b2-4903-ae2e-124513681071?syn-25a6b1a6=1",
-          "published": "2026-11-25T23:18:48+00:00",
-          "snippet": "Country’s attorney-general told there is little chance of a bribery conviction in a boost for the premier"
+          "title": "Stocks advance in Asia after volatile US trading over AI risks",
+          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679",
+          "published": "2026-11-26T00:57:14+00:00",
+          "snippet": "Tech shares decline this month over fears over whether an AI boom can be sustained"
         },
         {
-          "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
-          "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
-          "published": "2026-11-25T22:24:37+00:00",
-          "snippet": "FinCen takes systems offline after detecting unauthorised access amid growing fears over vulnerability of technology systems"
+          "title": "‘Jensanity’ erupts in Taiwan and China on Nvidia founder’s comeback",
+          "url": "https://www.ft.com/content/368c4526-a0ce-4951-a847-f039af2a51af?syn-25a6b1a6=1",
+          "published": "2026-11-26T00:45:54+00:00",
+          "snippet": "Jensen Huang is among the few business leaders to straddle both sides of the Taiwan Strait"
         },
         {
-          "title": "Beige Book confirms hot US economy and signs of wage pressure building",
-          "url": "https://www.ft.com/content/fb4f6707-274e-4f93-bcfb-7cce28d4a4ea",
-          "published": "2026-11-25T22:17:53+00:00",
-          "snippet": "The report will help cement the coming December Federal Reserve interest rate rise"
+          "title": "UK university ‘grade inflation’ highest in degrees with more coursework, says study",
+          "url": "https://www.ft.com/content/c6b0e13f-9c87-4e8b-8847-8553162d2435?syn-25a6b1a6=1",
+          "published": "2026-11-26T00:01:07+00:00",
+          "snippet": "Subjects where final marks rest on exam grades recorded minimal change, according to the Higher Education Policy Institute"
         }
       ]
     },
@@ -1361,17 +1360,25 @@
   "web": {
     "tech": [
       {
+        "title": "Visualizing Metra (2011)",
+        "url": "https://www.c82.net/blog/visualizing-metra",
+        "comments_url": "https://lobste.rs/s/v4qhwb/visualizing_metra_2011",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T01:14:47.489000+00:00"
+      },
+      {
         "title": "UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
         "comments_url": "https://lobste.rs/s/pbfhis/ui_style_guides",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-26T00:54:10.835000+00:00"
       },
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 17,
+        "score": 36,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
@@ -1394,7 +1401,7 @@
       {
         "title": "Jev is probably Qwen3.5-35B-A3B",
         "url": "https://modaic.dev/blog/latency-doesnt-lie",
-        "score": 196,
+        "score": 212,
         "source": "Hacker News",
         "published": "2026-11-25T22:57:04+00:00"
       },
@@ -1402,7 +1409,7 @@
         "title": "SSH is a GUI framework",
         "url": "https://zydra.sh/articles/ssh-is-a-gui-framework/",
         "comments_url": "https://lobste.rs/s/rtde6f/ssh_is_gui_framework",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:55:47.525000+00:00"
       },
@@ -1418,7 +1425,7 @@
         "title": "Entering the Geminispace",
         "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
         "comments_url": "https://lobste.rs/s/8rgqmw/entering_geminispace",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:43:05.044000+00:00"
       },
@@ -1433,14 +1440,14 @@
       {
         "title": "Bare Metal Qwen",
         "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
-        "score": 50,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-25T22:15:34+00:00"
       },
       {
         "title": "Deploying a payphone on a tiny Pacific Island",
         "url": "https://nickvsnetworking.com/deploying-a-payphone-on-a-tiny-pacific-island-for-fun-and-zero-profit/",
-        "score": 26,
+        "score": 30,
         "source": "Hacker News",
         "published": "2026-11-25T22:12:25+00:00"
       },
@@ -1448,31 +1455,23 @@
         "title": "Scott Aaronson on recent complexity theory AI achievements",
         "url": "https://scottaaronson.blog/?p=10379",
         "comments_url": "https://lobste.rs/s/ilit8q/scott_aaronson_on_recent_complexity",
-        "score": 16,
+        "score": 18,
         "source": "Lobste.rs",
         "published": "2026-11-25T21:52:52.967000+00:00"
       },
       {
         "title": "Much shorter version of GRH Lean verification from Anthropic",
         "url": "https://github.com/lsernau/grh-lean",
-        "score": 237,
+        "score": 261,
         "source": "Hacker News",
         "published": "2026-11-25T21:48:10+00:00"
       },
       {
         "title": "The New York Times warns photographers not to update Photoshop over AI features",
         "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-        "score": 176,
+        "score": 194,
         "source": "Hacker News",
         "published": "2026-11-25T21:18:02+00:00"
-      },
-      {
-        "title": "mockitdown examples - user-interface mockup language like SwiftUI",
-        "url": "https://bbogovich.github.io/mockitdown/demos/",
-        "comments_url": "https://lobste.rs/s/pceggz/mockitdown_examples_user_interface",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T20:46:55.955000+00:00"
       }
     ],
     "reddit": [

@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-26T06:30:57.811766+00:00",
+  "last_updated": "2026-11-26T07:01:07.041947+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 205
+      "ms": 410
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 228
+      "ms": 411
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 304
+      "ms": 214
     },
     "BBC News": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 111
+      "ms": 275
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 183
+      "ms": 377
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 191
+      "ms": 477
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 467
+      "ms": 549
     },
     "El País": {
       "ok": true,
       "count": 59,
       "error": null,
-      "ms": 399
+      "ms": 667
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 167
+      "ms": 79
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 124
+      "ms": 86
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 302
+      "ms": 273
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 206
+      "ms": 393
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 297
+      "ms": 429
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 103
+      "ms": 148
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 347
+      "ms": 270
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 332
+      "ms": 239
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 646
+      "ms": 764
     },
     "Semafor": {
       "ok": true,
-      "count": 270,
+      "count": 266,
       "error": null,
-      "ms": 489
+      "ms": 766
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 479
+      "ms": 662
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 344
+      "ms": 481
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3238
+      "ms": 3059
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 164
+      "ms": 413
     },
     "The Independent": {
       "ok": true,
-      "count": 88,
+      "count": 87,
       "error": null,
-      "ms": 158
+      "ms": 763
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 183
+      "ms": 425
     }
   },
   "breaking": [
+    {
+      "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
+      "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T06:26:42+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
+          "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
+          "published": "2026-11-26T01:25:54+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+          "published": "2026-11-25T22:18:06+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
+          "title": "At least 31 dead after fuel tanker fire in Egypt",
+          "published": "2026-11-25T22:05:00+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
+          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
+          "published": "2026-11-25T21:11:06+00:00"
+        }
+      ],
+      "consensus": 6.5
+    },
     {
       "title": "Six killed, including children, in plane crash off Mississippi coast",
       "url": "https://www.aljazeera.com/news/2026/11/26/six-killed-including-children-in-plane-crash-off-mississippi-coast?traffic_source=rss",
@@ -171,6 +205,82 @@
       "consensus": 4.0
     },
     {
+      "title": "Live: Trump, NATO chief urge Moscow to not 'expand' Ukraine war",
+      "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+      "source": "France24",
+      "published": "2026-11-26T05:44:57+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T05:24:00+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
+          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+          "published": "2026-11-26T04:52:23+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Wife of detained Japanese reporter Yuki Imai pleads for his release from Russia",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3375882/wife-detained-japanese-reporter-yuki-imai-pleads-his-release-russia",
+      "source": "SCMP",
+      "published": "2026-11-26T06:43:16+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/wife-of-japanese-journalist-detained-in-russia-pleads-for-his-release",
+          "title": "Wife of Japanese journalist detained in Russia pleads for his release",
+          "published": "2026-11-26T05:06:51+00:00"
+        },
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/yuki-imai-wife-letter/",
+          "title": "Wife of Hokkaido Shimbun journalist detained in Russia pleads for his return",
+          "published": "2026-11-26T05:04:00+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Cyril Ramaphosa wins court bid to overturn impeachment report",
+      "url": "https://www.thehindu.com/news/international/cyril-ramaphosa-wins-court-bid-to-overturn-impeachment-report/article71745568.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T06:49:23+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
+          "title": "South Africa's Ramaphosa wins court bid over impeachment report",
+          "published": "2026-11-25T20:07:59+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Jannik Sinner ruled out of 2027 Australian Open after knee surgery",
+      "url": "https://www.aljazeera.com/sports/2026/11/26/jannik-sinner-australian-open-2027-knee-injury-surgery-tennis?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T06:32:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/11/26/tennis/sinner-out-australian-open/",
+          "title": "Two-time champion Jannik Sinner out of Australian Open after knee surgery",
+          "published": "2026-11-26T05:22:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
       "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
       "source": "Euronews",
@@ -182,22 +292,6 @@
           "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
           "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
           "published": "2026-11-26T04:35:38+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
-      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T05:25:34+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-          "title": "US announces new tariffs on host of countries including China",
-          "published": "2026-11-26T04:10:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -217,70 +311,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "Macy's postpones Thanksgiving parade due to severe weather",
-      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-26T04:04:14+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/bad-weather-postpones-macys-100th-thanksgiving-day-parade-for-first-time-ever/article71745030.ece",
-          "title": "Bad weather postpones Macy’s 100th Thanksgiving Day Parade for first time ever",
-          "published": "2026-11-26T01:34:38+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
-      "source": "Japan Times",
-      "published": "2026-11-26T05:47:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
-          "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
-          "published": "2026-11-26T05:00:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-      "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
-      "source": "Japan Times",
-      "published": "2026-11-26T05:24:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-and-nato-chief-urge-russia-avoid-actions-widen-ukraine-war-6584126",
-          "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
-          "published": "2026-11-26T04:52:23+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Wife of Japanese journalist detained in Russia pleads for his release",
-      "url": "https://www.straitstimes.com/asia/wife-of-japanese-journalist-detained-in-russia-pleads-for-his-release",
-      "source": "Straits Times",
-      "published": "2026-11-26T05:06:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/yuki-imai-wife-letter/",
-          "title": "Wife of Hokkaido Shimbun journalist detained in Russia pleads for his return",
-          "published": "2026-11-26T05:04:00+00:00"
-        }
-      ],
-      "consensus": 2.0
     }
   ],
   "world": [
@@ -339,28 +369,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "Brad Pitt, Angelina Jolie settle dispute over French estate Château Miraval",
-      "url": "https://www.cbc.ca/news/entertainment/pitt-jolie-miraval-lawsuits-allegations-9.7436552?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-26T00:25:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
-          "title": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
-          "published": "2026-11-25T23:18:27+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/angelina-jolie-brad-pitt-los-angeles-french-fbi-b3091834.html",
-          "title": "Angelina Jolie and Brad Pitt settle winery fight lawsuit that surfaced abuse allegations",
-          "published": "2026-11-25T23:13:21+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Israeli strike kills Hamas official, his wife and children",
@@ -429,23 +437,33 @@
       "consensus": 3.5
     },
     {
-      "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
-      "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
-      "source": "France24",
-      "published": "2026-11-26T01:25:54+00:00",
-      "score": 3,
+      "title": "U.S. announces new 25% tariffs on India, second-highest in the 14 countries against which action has been taken",
+      "url": "https://www.thehindu.com/news/international/donald-trump-tariffs-us-midterm-elections/article71743081.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T05:25:34+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/egypt-says-30-dead-in-cairo-fire-after-fuel-truck-crashes-on-highway/",
-          "title": "Egypt says 30 dead in Cairo fire after fuel truck crashes on highway",
-          "published": "2026-11-25T21:11:06+00:00"
-        },
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+          "title": "US announces new tariffs on host of countries including China",
+          "published": "2026-11-26T04:10:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Macy's postpones Thanksgiving parade due to severe weather",
+      "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-26T04:04:14+00:00",
+      "score": 2,
+      "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
-          "title": "At least 30 killed in highway fire in Cairo district",
-          "published": "2026-11-25T19:56:45+00:00"
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/bad-weather-postpones-macys-100th-thanksgiving-day-parade-for-first-time-ever/article71745030.ece",
+          "title": "Bad weather postpones Macy’s 100th Thanksgiving Day Parade for first time ever",
+          "published": "2026-11-26T01:34:38+00:00"
         }
       ],
       "consensus": 2.5
@@ -467,33 +485,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Houthis target Saudi Arabia’s Red Sea ports as strikes escalate",
-      "url": "https://www.aljazeera.com/news/2026/11/25/houthis-target-saudi-arabias-red-sea-ports-as-strikes-escalate?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-25T23:33:39+00:00",
+      "title": "Brad Pitt, Angelina Jolie settle dispute over French estate Château Miraval",
+      "url": "https://www.cbc.ca/news/entertainment/pitt-jolie-miraval-lawsuits-allegations-9.7436552?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T00:25:00+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/yemens-houthis-threaten-to-target-jeddah-and-other-saudi-red-sea-ports/article71741023.ece",
-          "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
-          "published": "2026-11-25T04:05:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "PSG's perfect Champions League record ends as Roma snatch 2-2 draw with late penalty",
-      "url": "https://www.france24.com/en/sport/20261125-psg-s-perfect-champions-league-record-ends-as-roma-snatch-2-2-draw-with-late-penalty",
-      "source": "France24",
-      "published": "2026-11-25T22:47:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/sports/2026/11/25/malen-and-roma-deny-injury-hit-psg-in-champions-league-draw?traffic_source=rss",
-          "title": "Malen and Roma deny injury-hit PSG in Champions League draw",
-          "published": "2026-11-25T22:41:46+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmvg2989wv74o?at_medium=RSS&at_campaign=rss",
+          "title": "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+          "published": "2026-11-25T23:18:27+00:00"
         }
       ],
       "consensus": 2.5
@@ -526,22 +528,6 @@
           "url": "https://www.channelnewsasia.com/world/israel-gaza-netanyahu-eisenkot-6582466",
           "title": "Israeli lawmakers advance Oct 7 inquiry opposed by Netanyahu",
           "published": "2026-11-25T17:42:34+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
-      "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-25T22:18:06+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
-          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 30 people",
-          "published": "2026-11-25T22:04:14+00:00"
         }
       ],
       "consensus": 2.5
@@ -641,6 +627,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
+      "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
+      "source": "Japan Times",
+      "published": "2026-11-26T05:47:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
+          "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
+          "published": "2026-11-26T05:00:00+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "U.S. Army declares success in detonation of lead-based explosives stockpile in Iowa",
@@ -851,73 +853,89 @@
       "consensus": 1.5
     },
     {
-      "title": "Chief minister denies MP case link, as NT Administrator racks up travel bill",
-      "url": "https://www.abc.net.au/news/2026-11-26/chief-minister-denies-political-involvement-connolly-gosling/107429184",
-      "source": "ABC Australia",
-      "published": "2026-11-26T06:17:34+00:00",
+      "title": "China pushes brain-computer interface breakthroughs as Neuralink advances towards market",
+      "url": "https://www.scmp.com/business/china-business/article/3375858/china-pushes-brain-computer-interface-breakthroughs-neuralink-advances-towards-market",
+      "source": "SCMP",
+      "published": "2026-11-26T07:00:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Major economies balk at new US tariffs over ‘unfair’ trade",
-      "url": "https://www.straitstimes.com/asia/major-economies-balk-at-new-us-tariffs-over-unfair-trade",
+      "title": "War and drought threaten livelihoods of Sudan’s farmers",
+      "url": "https://www.aljazeera.com/features/2026/11/26/war-and-drought-threaten-livelihoods-of-sudans-farmers?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T06:56:34+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU leaders face showdown over Ukraine funding as divisions deepen",
+      "url": "https://www.france24.com/en/europe/20261126-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+      "source": "France24",
+      "published": "2026-11-26T06:56:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "EU rejects new US tariffs targeting industrial overcapacity",
+      "url": "https://www.rfi.fr/en/international/20261126-eu-rejects-new-us-tariffs-targeting-industrial-overcapacity",
+      "source": "RFI English",
+      "published": "2026-11-26T06:54:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/eu-says-strongly-rejects-premise-of-new-us-tariffs",
+          "title": "EU says 'strongly' rejects premise of new US tariffs",
+          "published": "2026-11-25T19:48:32+00:00"
+        }
+      ],
+      "consensus": 1.0
+    },
+    {
+      "title": "The world must choose between nuclear abolition and nuclear catastrophe",
+      "url": "https://www.aljazeera.com/opinions/2026/11/26/the-world-must-choose-between-nuclear-abolition-and-nuclear-catastrophe?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T06:53:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Australia’s Digital Duty of Care law: Why Big Tech is under pressure",
+      "url": "https://www.thehindu.com/sci-tech/technology/australias-digital-duty-of-care-law-why-big-tech-is-under-pressure/article71745512.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T06:52:42+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Shane Jones promises to pause and review $200 million Gas Security Fund",
+      "url": "https://www.rnz.co.nz/news/political/2801306/shane-jones-promises-to-pause-and-review-200-million-gas-security-fund",
+      "source": "RNZ",
+      "published": "2026-11-26T06:45:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Victims’ families await justice ahead of ex-Philippine president Duterte’s ICC trial",
+      "url": "https://www.straitstimes.com/asia/se-asia/victims-families-await-justice-ahead-of-ex-philippine-president-dutertes-icc-trial",
       "source": "Straits Times",
-      "published": "2026-11-26T06:17:00+00:00",
+      "published": "2026-11-26T06:45:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Malaysian air force facilities used to transport illicit drugs, minister says",
-      "url": "https://www.straitstimes.com/asia/malaysian-air-force-facilities-used-to-transport-illicit-drugs-minister-says",
-      "source": "Straits Times",
-      "published": "2026-11-26T06:11:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Nvidia halts chip shipments to Southeast Asia: Report",
-      "url": "https://www.channelnewsasia.com/asia/nvidia-halts-chip-shipments-southeast-asia-6584351",
-      "source": "CNA",
-      "published": "2026-11-26T06:11:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "How Chinese companies circumvent chips sanctions in Southeast Asia",
-      "url": "https://www.dw.com/en/how-chinese-companies-circumvent-chips-sanctions-in-southeast-asia/a-80041002?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-26T06:11:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Returning Matildas star Cooney-Cross wants to make late mum 'proud'",
-      "url": "https://www.abc.net.au/news/2026-11-26/matildas-star-kyra-cooney-cross-making-mum-proud/107431272",
+      "title": "Police did not pass on key information to prison before suicide, inquest hears",
+      "url": "https://www.abc.net.au/news/2026-11-26/linton-ryan-coronial-inquest-lack-of-information-prison/107431324",
       "source": "ABC Australia",
-      "published": "2026-11-26T06:08:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Curtains have closed on parliament for the year. Who walks away a winner?",
-      "url": "https://www.abc.net.au/news/2026-11-26/last-week-of-parliament-who-is-a-winner/107424646",
-      "source": "ABC Australia",
-      "published": "2026-11-26T06:08:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Scale of voyeur doctor's offending 'beggars belief', Melbourne court told",
-      "url": "https://www.abc.net.au/news/2026-11-26/ryan-cho-doctor-who-filmed-hospital-colleagues-court-hearing/107431270",
-      "source": "ABC Australia",
-      "published": "2026-11-26T06:04:00+00:00",
+      "published": "2026-11-26T06:44:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -993,10 +1011,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57444.15,
+        "price": 57499.16,
         "currency": "JPY",
-        "change": 432.53,
-        "change_percent": 0.76,
+        "change": 487.54,
+        "change_percent": 0.86,
         "name": "Nikkei 225"
       },
       {
@@ -1019,26 +1037,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3595.5,
+        "price": 3597.2,
         "currency": "USD",
-        "change": 30.9,
-        "change_percent": 0.87,
+        "change": 32.6,
+        "change_percent": 0.91,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.61,
+        "price": 41.58,
         "currency": "USD",
-        "change": 1.07,
-        "change_percent": 2.64,
+        "change": 1.04,
+        "change_percent": 2.56,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.03,
+        "price": 90.55,
         "currency": "USD",
-        "change": 0.39,
-        "change_percent": 0.43,
+        "change": -0.09,
+        "change_percent": -0.1,
         "name": "Brent Crude"
       },
       {
@@ -1059,18 +1077,18 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.17,
+        "price": 159.22,
         "currency": "JPY",
-        "change": 0.05,
-        "change_percent": 0.03,
+        "change": 0.09,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60552.42,
+        "price": 60457.64,
         "currency": "USD",
-        "change": 173.85,
-        "change_percent": 0.29,
+        "change": 79.07,
+        "change_percent": 0.13,
         "name": "Bitcoin"
       }
     ],
@@ -1241,22 +1259,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "FirstFT: Nvidia halts chip shipments to south-east Asia",
-          "url": "https://www.ft.com/content/1beb609f-b125-402a-a4a4-0fb09bea8584?syn-25a6b1a6=1",
-          "published": "2026-11-26T05:33:25+00:00",
-          "snippet": "Also in today’s newsletter: EU common budget and software stocks"
+          "title": "Bank of Korea raises interest rates amid AI chip boom",
+          "url": "https://www.ft.com/content/823af978-e22b-49a4-a2a1-52867a6520fa",
+          "published": "2026-11-26T06:59:54+00:00",
+          "snippet": "Third quarter-point increase this year takes benchmark rate to 3.25%"
         },
         {
-          "title": "A Fed tightening to allow subsequent loosening",
-          "url": "https://www.ft.com/content/7283900d-43e6-4d9f-8ecd-d0b975d192dd",
-          "published": "2026-11-26T05:30:09+00:00",
-          "snippet": "Read the Monetary Policy Radar team’s November scenario for the Federal Reserve"
+          "title": "Asian trade partners of US hit back at Trump’s latest tariffs",
+          "url": "https://www.ft.com/content/31ae0162-f946-4e2c-b656-1930baea19d0?syn-25a6b1a6=1",
+          "published": "2026-11-26T06:57:10+00:00",
+          "snippet": "Levies follow investigation into whether countries give their own companies unfair subsidies"
         },
         {
-          "title": "The ICE raids ‘wreaking havoc’ across American academia",
-          "url": "https://www.ft.com/content/125e9b6d-4e45-4554-9a86-a3ce172bcf65?syn-25a6b1a6=1",
-          "published": "2026-11-26T05:01:09+00:00",
-          "snippet": "Critics say detention of PhD student Eva Yi Xie and others shows how the Trump administration has escalated its crackdown"
+          "title": "Costa urges EU leaders to make love, not war, over Brussels budget",
+          "url": "https://www.ft.com/content/c0f06d02-7292-4096-896b-fbb1e3dfb668?syn-25a6b1a6=1",
+          "published": "2026-11-26T06:00:10+00:00",
+          "snippet": "Also in this newsletter: ECJ ruling gives more power to the people"
         }
       ]
     },
@@ -1364,9 +1382,25 @@
   "web": {
     "tech": [
       {
+        "title": "How WinHelp files work",
+        "url": "https://quin.fyi/posts/how-winhelp-files-work.html",
+        "comments_url": "https://lobste.rs/s/w4kxiz/how_winhelp_files_work",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T06:39:00.543000+00:00"
+      },
+      {
+        "title": "Meaningful Human-in-the-Loop Checking of  GenAI Synthesis for Restricted Languages",
+        "url": "https://www.siddharthaprasad.com/papers/pafk-pick.pdf",
+        "comments_url": "https://lobste.rs/s/bl8gp8/meaningful_human_loop_checking_genai",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-26T06:35:12.183000+00:00"
+      },
+      {
         "title": "Lions' Commentary on Unix: Why It Was Secretly Copied for 20 Years",
         "url": "https://fosscomics.com/posts/17.%20Lions%27%20Commentary%20on%20Unix/",
-        "score": 17,
+        "score": 33,
         "source": "Hacker News",
         "published": "2026-11-26T05:12:59+00:00"
       },
@@ -1389,30 +1423,22 @@
       {
         "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
         "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-        "score": 123,
+        "score": 144,
         "source": "Hacker News",
         "published": "2026-11-26T03:36:58+00:00"
       },
       {
         "title": "Minipg: PostgreSQL as a Single Executable",
         "url": "https://progrium.github.io/minipg/",
-        "score": 51,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-26T03:00:48+00:00"
-      },
-      {
-        "title": "Visualizing Metra (2011)",
-        "url": "https://www.c82.net/blog/visualizing-metra",
-        "comments_url": "https://lobste.rs/s/v4qhwb/visualizing_metra_2011",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-26T01:14:47.489000+00:00"
       },
       {
         "title": "The beauty of CSS mixins",
         "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
         "comments_url": "https://lobste.rs/s/faqxns/beauty_css_mixins",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-26T01:02:17.726000+00:00"
       },
@@ -1427,14 +1453,14 @@
       {
         "title": "Tell HN: Lots of Ask HNs again",
         "url": "https://news.ycombinator.com/item?id=50649864",
-        "score": 205,
+        "score": 222,
         "source": "Hacker News",
         "published": "2026-11-26T00:43:34+00:00"
       },
       {
         "title": "Collection of preserved UI style guides",
         "url": "https://aresluna.org/ui-style-guides/",
-        "score": 96,
+        "score": 111,
         "source": "Hacker News",
         "published": "2026-11-26T00:40:00+00:00"
       },
@@ -1458,7 +1484,7 @@
         "title": "Typed indexes in Zig",
         "url": "https://lvignoli.eu/posts/2026-11-16-typed-indexes-in-zig/",
         "comments_url": "https://lobste.rs/s/l6g7j1/typed_indexes_zig",
-        "score": 14,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:48:44.713000+00:00"
       },
@@ -1469,14 +1495,6 @@
         "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-25T22:43:05.044000+00:00"
-      },
-      {
-        "title": "Generalized Riemann Hypothesis proof in Lean 4, in 76k lines (down from 17M)",
-        "url": "https://leanprover.zulipchat.com/#narrow/channel/658556-Riemann-Hypothesis/topic/Cleaning.20up.20the.20proof/near/643702366",
-        "comments_url": "https://lobste.rs/s/tlwot6/generalized_riemann_hypothesis_proof",
-        "score": 12,
-        "source": "Lobste.rs",
-        "published": "2026-11-25T22:26:56.449000+00:00"
       }
     ],
     "reddit": [

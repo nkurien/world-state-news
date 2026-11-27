@@ -1,181 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T21:01:06.355895+00:00",
+  "last_updated": "2026-11-27T21:30:54.922745+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 442
+      "ms": 474
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 127
+      "ms": 214
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 273
+      "ms": 202
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 296
+      "ms": 216
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 281
+      "ms": 316
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 363
+      "ms": 365
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null,
-      "ms": 728
+      "ms": 73
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 220
+      "ms": 258
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 148
+      "ms": 137
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 147
+      "ms": 178
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 179
+      "ms": 618
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 384
+      "ms": 280
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 298
+      "ms": 199
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 268
+      "ms": 389
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 182
+      "ms": 144
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 394
+      "ms": 188
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 577
+      "ms": 563
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 727
+      "ms": 369
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 775
+      "ms": 550
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 214
+      "ms": 297
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3088
+      "ms": 3200
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 108
+      "ms": 122
     },
     "The Independent": {
       "ok": true,
-      "count": 49,
+      "count": 50,
       "error": null,
-      "ms": 182
+      "ms": 194
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 220
+      "ms": 130
     }
   },
   "breaking": [
-    {
-      "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-      "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
-      "source": "CNA",
-      "published": "2026-11-27T18:21:47+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
-          "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
-          "published": "2026-11-27T17:19:31+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-          "published": "2026-11-27T15:11:37+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
-          "title": "Kenyan starvation cult leader convicted of radicalisation",
-          "published": "2026-11-27T13:06:41+00:00"
-        }
-      ],
-      "consensus": 5.0
-    },
     {
       "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
       "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
@@ -247,6 +219,22 @@
       "consensus": 2.5
     },
     {
+      "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+      "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
+      "source": "CNA",
+      "published": "2026-11-27T20:55:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/article71752214.ece",
+          "title": "U.S. disables ship trying to leave Iran, as Tehran vows to confront blockade",
+          "published": "2026-11-27T19:35:02+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
       "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
       "source": "The Hindu",
@@ -263,19 +251,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T20:57:04+00:00",
+      "title": "Philippines could be key player in US-China AI competition",
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3375746/philippines-could-be-key-player-us-china-ai-competition",
+      "source": "SCMP",
+      "published": "2026-11-27T21:30:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Spanish elections: 'Right-wing voters extremely mobilised, left-wing voters not mobilised enough'",
-      "url": "https://www.france24.com/en/tv-shows/spotlight/20261127-spanish-elections-right-wing-voters-extremely-mobilised-left-wing-voters-not-mobilised-enough",
-      "source": "France24",
-      "published": "2026-11-27T20:43:44+00:00",
+      "title": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-howard-lutnick-nvidia-congress-hearings-b3093047.html",
+      "source": "The Independent",
+      "published": "2026-11-27T21:23:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -315,6 +303,34 @@
         }
       ],
       "consensus": 5.5
+    },
+    {
+      "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+      "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
+      "source": "CNA",
+      "published": "2026-11-27T18:21:47+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+          "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+          "published": "2026-11-27T17:19:31+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
+          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
+          "published": "2026-11-27T15:11:37+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
+        }
+      ],
+      "consensus": 5.0
     },
     {
       "title": "US Air Force cloud platform hacked, Reuters reports",
@@ -553,22 +569,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Zelenskyy says Trump's relationship with Putin like being friends with Hitler",
-      "url": "https://www.abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062",
-      "source": "ABC Australia",
-      "published": "2026-11-27T11:41:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
-          "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-          "published": "2026-11-27T09:22:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Costa Rica bars entry to UN rapporteur over ‘links to terrorist acts’",
       "url": "https://www.thehindu.com/news/international/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts/article71749582.ece",
       "source": "The Hindu",
@@ -596,22 +596,6 @@
           "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece",
           "title": "Strobe Talbott, former Time magazine reporter and Deputy Secretary of State, has died",
           "published": "2026-11-27T04:58:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Olympic trailblazer Anita DeFrantz dies",
-      "url": "https://www.japantimes.co.jp/olympics/2026/11/27/anita-defrantz-dies-ioc/",
-      "source": "Japan Times",
-      "published": "2026-11-27T02:44:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/sport/olympics/anita-defrantz-death-olympics-ioc-b3092450.html",
-          "title": "Anita DeFrantz: Olympic rower and champion of women’s sport dies aged 74",
-          "published": "2026-11-26T21:10:51+00:00"
         }
       ],
       "consensus": 2.5
@@ -743,38 +727,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
-      "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
-      "source": "CNA",
-      "published": "2026-11-27T20:55:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/article71752214.ece",
-          "title": "U.S. disables ship trying to leave Iran, as Tehran vows to confront blockade",
-          "published": "2026-11-27T19:35:02+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "At least 22 injured after Shenzhen-bound passenger ferry crashes into dock in Hong Kong",
-      "url": "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong",
-      "source": "Straits Times",
-      "published": "2026-11-27T09:18:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/hong-kong/transport/article/3375974/ferry-runs-floating-dock-waters-hong-kong-oil-depot-24-injured",
-          "title": "Ferry crashes into floating dock near Hong Kong oil depot, 22 injured",
-          "published": "2026-11-27T02:55:59+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "AirAsia delays staff salary payments to end of month, internal email shows",
@@ -969,19 +921,46 @@
       "consensus": 1.5
     },
     {
-      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
-      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T20:43:00+00:00",
+      "title": "Live: Black Caps v India - second test, day two",
+      "url": "https://www.rnz.co.nz/news/indonz/2851579/live-black-caps-v-india-second-test-day-two",
+      "source": "RNZ",
+      "published": "2026-11-27T21:18:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
-      "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T20:40:51+00:00",
+      "title": "'Not just a name on a list': Remembering missing Kiwi in Nepal Shweta Mhatre",
+      "url": "https://www.rnz.co.nz/news/indonz-featured/2777521/not-just-a-name-on-a-list-remembering-missing-kiwi-in-nepal-shweta-mhatre",
+      "source": "RNZ",
+      "published": "2026-11-27T21:18:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Economist labels Trump ‘the biggest loser of any president’ as he shreds key trade policy",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-economy-loser-trade-tariffs-peter-schiff-b3093030.html",
+      "source": "The Independent",
+      "published": "2026-11-27T21:16:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Partially treated wastewater discharged near Karori Stream",
+      "url": "https://www.rnz.co.nz/news/regional/2851458/partially-treated-wastewater-discharged-near-karori-stream",
+      "source": "RNZ",
+      "published": "2026-11-27T21:15:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "For me, not thee: Denials of visas that Melania once used have soared under Trump",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-visas-denied-trump-melania-immigrant-b3092960.html",
+      "source": "The Independent",
+      "published": "2026-11-27T21:11:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1110,7 +1089,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.35,
+        "change_percent": -0.36,
         "name": "EUR/USD"
       },
       {
@@ -1118,23 +1097,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.13,
+        "change_percent": -0.12,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
         "price": 159.56,
         "currency": "JPY",
-        "change": 0.34,
+        "change": 0.33,
         "change_percent": 0.21,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59781.53,
+        "price": 59740.1,
         "currency": "USD",
-        "change": -714.42,
-        "change_percent": -1.18,
+        "change": -755.85,
+        "change_percent": -1.25,
         "name": "Bitcoin"
       }
     ],
@@ -1447,28 +1426,28 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
       {
         "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
         "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-        "score": 63,
+        "score": 89,
         "source": "Hacker News",
         "published": "2026-11-27T19:42:25+00:00"
       },
       {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 16,
+        "score": 22,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
       {
         "title": "Michael Nielsen took down his book on neural nets",
         "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
-        "score": 136,
+        "score": 187,
         "source": "Hacker News",
         "published": "2026-11-27T19:31:01+00:00"
       },
@@ -1476,21 +1455,21 @@
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 15,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 117,
+        "score": 140,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
       {
         "title": "Show HN: DragDropMath – Learn math by feel",
         "url": "https://dragdropmath.com/",
-        "score": 36,
+        "score": 49,
         "source": "Hacker News",
         "published": "2026-11-27T17:56:28+00:00"
       },
@@ -1514,7 +1493,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 17,
+        "score": 23,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       },
@@ -1522,21 +1501,21 @@
         "title": "The State of Allocators in 2026 - Finally Stabilised",
         "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
         "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
-        "score": 22,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:09:11.598000+00:00"
       },
       {
         "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
         "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-        "score": 281,
+        "score": 312,
         "source": "Hacker News",
         "published": "2026-11-27T15:40:31+00:00"
       },
       {
         "title": "False computer-checked proofs",
         "url": "https://cr.yp.to/proofs/falseccp.html",
-        "score": 135,
+        "score": 140,
         "source": "Hacker News",
         "published": "2026-11-27T15:26:09+00:00"
       }

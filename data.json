@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T14:31:03.609289+00:00",
+  "last_updated": "2026-11-27T15:01:12.639364+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 105
+      "ms": 205
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 190
+      "ms": 284
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 60
+      "ms": 70
     },
     "BBC News": {
       "ok": true,
       "count": 27,
       "error": null,
-      "ms": 111
+      "ms": 87
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 82
+      "ms": 315
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 125
+      "ms": 280
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 50
+      "ms": 456
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 408
+      "ms": 394
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 42
+      "ms": 97
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 114
+      "ms": 3301
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 404
+      "ms": 615
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 258
+      "ms": 272
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 71
+      "ms": 160
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 167
+      "ms": 660
     },
     "RFI English": {
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null,
-      "ms": 91
+      "ms": 252
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 340
+      "ms": 478
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 624
+      "ms": 653
     },
     "Semafor": {
       "ok": true,
-      "count": 232,
+      "count": 233,
       "error": null,
-      "ms": 463
+      "ms": 497
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 287
+      "ms": 503
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 123
+      "ms": 377
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3054
+      "ms": 3164
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 216
+      "ms": 207
     },
     "The Independent": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 159
+      "ms": 138
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 167
+      "ms": 223
     }
   },
   "breaking": [
@@ -245,67 +245,53 @@
       "consensus": 3.0
     },
     {
-      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-      "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
-      "source": "NPR World",
-      "published": "2026-11-27T11:49:50+00:00",
+      "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+      "url": "https://www.straitstimes.com/asia/kenyan-starvation-cult-leader-guilty-of-manslaughter-for-123-deaths-in-latest-conviction",
+      "source": "Straits Times",
+      "published": "2026-11-27T14:32:02+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-rape-trial-metoo-b3092287.html",
-          "title": "Gérard Depardieu ordered to stand trial for rape",
-          "published": "2026-11-26T16:01:25+00:00"
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "Zelenskyy says Trump's relationship with Putin like being friends with Hitler",
-      "url": "https://www.abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062",
-      "source": "ABC Australia",
-      "published": "2026-11-27T11:41:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
-          "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
-          "published": "2026-11-27T09:22:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam",
-      "url": "https://www.france24.com/en/video/20261127-israel-s-eisenkot-reaches-deal-with-left-wing-faction-as-coalition-talks-gain-steam",
-      "source": "France24",
-      "published": "2026-11-27T11:36:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israels-gadi-eisenkot-reaches-deal-with-left-wing-parties/article71747775.ece",
-          "title": "Israel's Gadi Eisenkot reaches deal with left-wing parties",
-          "published": "2026-11-26T16:16:44+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Cost is key in Africa’s AI rollout",
-      "url": "https://www.semafor.com/article/11/27/2026/cost-is-key-in-africas-ai-rollout",
-      "source": "Semafor",
-      "published": "2026-11-27T14:30:06+00:00",
+      "title": "Young people will pay the price for HIV funding cuts, Burundi activist warns",
+      "url": "https://www.rfi.fr/en/africa/20261127-young-people-will-pay-the-price-for-hiv-funding-cuts-burundi-activist-warns-jeanne-gapiya",
+      "source": "RFI English",
+      "published": "2026-11-27T15:00:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Victoria's election day arrives, as state appears poised to dump Labor",
-      "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-day-arrives-ben-carroll-jess-wilson/107422598",
-      "source": "ABC Australia",
-      "published": "2026-11-27T14:25:42+00:00",
+      "title": "Kenya’s Chinese solar imports surge amid diesel volatility",
+      "url": "https://www.semafor.com/article/11/27/2026/kenyas-chinese-solar-imports-surge-amid-diesel-volatility",
+      "source": "Semafor",
+      "published": "2026-11-27T14:50:49+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+      "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T14:49:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
+      "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
+      "source": "Euronews",
+      "published": "2026-11-27T14:48:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -447,6 +433,54 @@
       "consensus": 3.0
     },
     {
+      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+      "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
+      "source": "NPR World",
+      "published": "2026-11-27T11:49:50+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-rape-trial-metoo-b3092287.html",
+          "title": "Gérard Depardieu ordered to stand trial for rape",
+          "published": "2026-11-26T16:01:25+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Zelenskyy says Trump's relationship with Putin like being friends with Hitler",
+      "url": "https://www.abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062",
+      "source": "ABC Australia",
+      "published": "2026-11-27T11:41:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
+          "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
+          "published": "2026-11-27T09:22:39+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam",
+      "url": "https://www.france24.com/en/video/20261127-israel-s-eisenkot-reaches-deal-with-left-wing-faction-as-coalition-talks-gain-steam",
+      "source": "France24",
+      "published": "2026-11-27T11:36:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israels-gadi-eisenkot-reaches-deal-with-left-wing-parties/article71747775.ece",
+          "title": "Israel's Gadi Eisenkot reaches deal with left-wing parties",
+          "published": "2026-11-26T16:16:44+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Dutch police seize 26 endangered turtles from baggage at Amsterdam airport",
       "url": "https://www.independent.co.uk/news/world/europe/schiphol-airport-vallarta-turtles-mexico-seized-trade-b3092675.html",
       "source": "The Independent",
@@ -490,22 +524,6 @@
           "url": "https://www.channelnewsasia.com/world/thanksgiving-weather-storms-us-power-flights-6585971",
           "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
           "published": "2026-11-26T20:59:52+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Costa Rica denies entry to UN Special Rapporteur Francesca Albanese",
-      "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html",
-      "source": "El País",
-      "published": "2026-11-27T09:25:26+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/costa-rica-denies-entry-to-uns-albanese-over-links-to-terrorist?traffic_source=rss",
-          "title": "Costa Rica denies entry to UN’s Albanese over ‘links to terrorist acts’",
-          "published": "2026-11-27T08:39:50+00:00"
         }
       ],
       "consensus": 2.5
@@ -943,37 +961,19 @@
       "consensus": 1.5
     },
     {
-      "title": "AI debt boom could push up funding costs for South Africa",
-      "url": "https://www.semafor.com/article/11/27/2026/ai-debt-boom-could-push-up-funding-costs-as-south-africa-approaches-refinancing",
+      "title": "With new law, Iraq sees rise in child marriage, custody battles",
+      "url": "https://www.france24.com/en/tv-shows/focus/20261127-with-new-law-iraq-sees-rise-in-child-marriage-custody-battles",
+      "source": "France24",
+      "published": "2026-11-27T14:48:28+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Borrowing rise could offer economic boost, African Union says",
+      "url": "https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
       "source": "Semafor",
-      "published": "2026-11-27T14:25:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-      "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T14:20:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Strobe Talbott: Clinton’s deputy secretary of state dies aged 80",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/strobe-talbott-death-cause-b3092805.html",
-      "source": "The Independent",
-      "published": "2026-11-27T14:19:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Indian police rescue 164 Malaysians and Indonesians from Delhi scam ring",
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3376096/indian-police-rescue-164-malaysians-and-indonesians-delhi-scam-ring",
-      "source": "SCMP",
-      "published": "2026-11-27T14:19:36+00:00",
+      "published": "2026-11-27T14:45:30+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -982,34 +982,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7269.47,
+      "price": 7220.25,
       "currency": "USD",
-      "change": 86.69,
-      "change_percent": 1.21,
+      "change": 37.47,
+      "change_percent": 0.52,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.12,
+      "price": 137.24,
       "currency": "GBP",
-      "change": 1.32,
-      "change_percent": 0.96,
+      "change": 0.44,
+      "change_percent": 0.32,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23961.28,
+      "price": 23723.12,
       "currency": "USD",
-      "change": 375.48,
-      "change_percent": 1.59,
+      "change": 137.32,
+      "change_percent": 0.58,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10667.02,
+      "price": 10684.31,
       "currency": "GBP",
-      "change": 57.72,
-      "change_percent": 0.54,
+      "change": 75.01,
+      "change_percent": 0.71,
       "name": "FTSE 100"
     }
   ],
@@ -1017,34 +1017,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7269.47,
+        "price": 7220.25,
         "currency": "USD",
-        "change": 86.69,
-        "change_percent": 1.21,
+        "change": 37.47,
+        "change_percent": 0.52,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10667.02,
+        "price": 10684.31,
         "currency": "GBP",
-        "change": 57.72,
-        "change_percent": 0.54,
+        "change": 75.01,
+        "change_percent": 0.71,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50681.3,
+        "price": 50462.39,
         "currency": "USD",
-        "change": 498.35,
-        "change_percent": 0.99,
+        "change": 279.44,
+        "change_percent": 0.56,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23961.28,
+        "price": 23723.12,
         "currency": "USD",
-        "change": 375.48,
-        "change_percent": 1.59,
+        "change": 137.32,
+        "change_percent": 0.58,
         "name": "NASDAQ Composite"
       },
       {
@@ -1057,52 +1057,52 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25337.61,
+        "price": 25309.14,
         "currency": "EUR",
-        "change": 122.09,
-        "change_percent": 0.48,
+        "change": 93.62,
+        "change_percent": 0.37,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8122.01,
+        "price": 8129.46,
         "currency": "EUR",
-        "change": 13.27,
-        "change_percent": 0.16,
+        "change": 20.72,
+        "change_percent": 0.26,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3667.8,
+        "price": 3667.2,
         "currency": "USD",
-        "change": 103.2,
-        "change_percent": 2.9,
+        "change": 102.6,
+        "change_percent": 2.88,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 44.27,
+        "price": 44.05,
         "currency": "USD",
-        "change": 3.74,
-        "change_percent": 9.22,
+        "change": 3.51,
+        "change_percent": 8.66,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.49,
+        "price": 91.19,
         "currency": "USD",
-        "change": 0.85,
-        "change_percent": 0.94,
+        "change": 0.55,
+        "change_percent": 0.61,
         "name": "Brent Crude"
       },
       {
         "symbol": "EURUSD=X",
-        "price": 1.1,
+        "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.21,
+        "change_percent": -0.24,
         "name": "EUR/USD"
       },
       {
@@ -1110,12 +1110,12 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.03,
+        "change_percent": 0.0,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.47,
+        "price": 159.48,
         "currency": "JPY",
         "change": 0.25,
         "change_percent": 0.16,
@@ -1123,68 +1123,68 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 61081.58,
+        "price": 58900.09,
         "currency": "USD",
-        "change": 585.63,
-        "change_percent": 0.97,
+        "change": -1595.86,
+        "change_percent": -2.64,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 499.1,
+        "price": 490.48,
         "currency": "USD",
-        "change": 9.17,
-        "change_percent": 1.87,
+        "change": 0.55,
+        "change_percent": 0.11,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 357.97,
+        "price": 356.5,
         "currency": "USD",
-        "change": 2.39,
-        "change_percent": 0.67,
+        "change": 0.92,
+        "change_percent": 0.26,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 149.96,
+        "price": 146.09,
         "currency": "USD",
-        "change": 0.66,
-        "change_percent": 0.44,
+        "change": -3.21,
+        "change_percent": -2.15,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 277.44,
+        "price": 271.59,
         "currency": "USD",
-        "change": 4.34,
-        "change_percent": 1.59,
+        "change": -1.51,
+        "change_percent": -0.55,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 248.94,
+        "price": 249.52,
         "currency": "USD",
-        "change": 4.51,
-        "change_percent": 1.85,
+        "change": 5.09,
+        "change_percent": 2.08,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 393.0,
+        "price": 391.02,
         "currency": "USD",
-        "change": 12.86,
-        "change_percent": 3.38,
+        "change": 10.88,
+        "change_percent": 2.86,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 625.59,
+        "price": 624.13,
         "currency": "USD",
-        "change": 15.7,
-        "change_percent": 2.57,
+        "change": 14.24,
+        "change_percent": 2.33,
         "name": "Meta"
       }
     ]
@@ -1297,9 +1297,9 @@
       "column": "global",
       "entries": [
         {
-          "title": "US tech stocks jump in latest market swing",
+          "title": "US tech stocks rise in latest market swing",
           "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-          "published": "2026-11-27T14:30:41+00:00",
+          "published": "2026-11-27T14:38:51+00:00",
           "snippet": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings"
         },
         {
@@ -1422,7 +1422,7 @@
       {
         "title": "Norse Atlantic suspends all flights as it faces potential collapse",
         "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
-        "score": 4,
+        "score": 12,
         "source": "Hacker News",
         "published": "2026-11-27T14:09:44+00:00"
       },
@@ -1430,21 +1430,21 @@
         "title": "Exception Best Practices",
         "url": "https://www.well-typed.com/blog/2026/11/exception-best-practices/",
         "comments_url": "https://lobste.rs/s/tgihkm/exception_best_practices",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T13:05:30.318000+00:00"
       },
       {
         "title": "US Air Force's cloud computing platform hacked",
         "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-        "score": 68,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-27T12:54:11+00:00"
       },
       {
         "title": "New York and California Age Gating Rules Go into Effect in the New Year",
         "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-        "score": 48,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-27T12:43:40+00:00"
       },
@@ -1467,14 +1467,14 @@
       {
         "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
         "url": "https://eprint.iacr.org/2026/3020.pdf",
-        "score": 110,
+        "score": 128,
         "source": "Hacker News",
         "published": "2026-11-27T12:08:51+00:00"
       },
       {
         "title": "Kimi for Science: More scientific ideas, made possible",
         "url": "https://www.kimi.ai/news/kimi-for-science-program",
-        "score": 63,
+        "score": 84,
         "source": "Hacker News",
         "published": "2026-11-27T12:03:11+00:00"
       },
@@ -1482,7 +1482,7 @@
         "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
         "url": "https://roboticoverlords.org/tinyhat",
         "comments_url": "https://lobste.rs/s/mbm7xw/tiny_hat_new_linux_distro_dedicated_retro",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-27T09:11:13.547000+00:00"
       },
@@ -1490,7 +1490,7 @@
         "title": "Pimalaya goes stable",
         "url": "https://blog.pimalaya.org/pimalaya-goes-stable/",
         "comments_url": "https://lobste.rs/s/kaj037/pimalaya_goes_stable",
-        "score": 5,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-27T08:01:31.196000+00:00"
       },
@@ -1498,7 +1498,7 @@
         "title": "Company Culture = Slack Emoji ÷ sqrt(Headcount)",
         "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
         "comments_url": "https://lobste.rs/s/fin7at/company_culture_slack_emoji_sqrt",
-        "score": 23,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-27T07:35:52.312000+00:00"
       },
@@ -1513,14 +1513,14 @@
       {
         "title": "The group chat where your AI talks behind your back",
         "url": "https://construct22.com/",
-        "score": 455,
+        "score": 477,
         "source": "Hacker News",
         "published": "2026-11-27T06:44:34+00:00"
       },
       {
         "title": "Buy Nothing Day – Friday November 27th 2026",
         "url": "https://www.buynothingday.co.uk/",
-        "score": 213,
+        "score": 228,
         "source": "Hacker News",
         "published": "2026-11-27T05:52:42+00:00"
       },
@@ -1528,7 +1528,7 @@
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
         "comments_url": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-27T01:50:42.910000+00:00"
       }

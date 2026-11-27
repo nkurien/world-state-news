@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T00:04:24.899973+00:00",
+  "last_updated": "2026-11-27T00:30:54.647012+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 470
+      "ms": 314
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 210
+      "ms": 345
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 116
+      "ms": 252
     },
     "BBC News": {
       "ok": true,
-      "count": 29,
+      "count": 30,
       "error": null,
-      "ms": 144
+      "ms": 193
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 232
+      "ms": 222
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 323
+      "ms": 71
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 222
+      "ms": 746
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 302
+      "ms": 630
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 147
+      "ms": 62
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 322
+      "ms": 133
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 685
+      "ms": 442
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 302
+      "ms": 336
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 195
+      "ms": 384
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 217
+      "ms": 100
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 175
+      "ms": 197
     },
     "RNZ": {
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
-      "ms": 238
+      "ms": 332
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 574
+      "ms": 739
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 390
+      "ms": 758
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 520
+      "ms": 902
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 259
+      "ms": 209
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3180
+      "ms": 3056
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 422
+      "ms": 463
     },
     "The Independent": {
       "ok": true,
-      "count": 51,
+      "count": 50,
       "error": null,
-      "ms": 168
+      "ms": 193
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 73
+      "ms": 424
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
       "source": "The Hindu",
       "published": "2026-11-26T23:39:13+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "BBC News",
@@ -168,19 +168,13 @@
           "published": "2026-11-26T18:11:38+00:00"
         },
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
-          "title": "Two Italians killed by ‘drone strike debris’ in Kuwait",
-          "published": "2026-11-26T16:32:31+00:00"
-        },
-        {
           "source": "CBC World",
           "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
           "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
           "published": "2026-11-26T16:03:57+00:00"
         }
       ],
-      "consensus": 6.5
+      "consensus": 5.0
     },
     {
       "title": "French actor Gerard Depardieu to face trial for rape, court rules",
@@ -259,35 +253,28 @@
       "consensus": 2.5
     },
     {
-      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-      "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T21:08:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
-          "title": "At least 31 dead after fuel tanker fire in Egypt",
-          "published": "2026-11-25T22:05:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "The ‘Angry Nerds’ campaign exposing red flags in the Philippines’ 2027 budget",
-      "url": "https://www.scmp.com/week-asia/people/article/3375922/angry-nerds-campaign-exposing-red-flags-philippines-2027-budget",
+      "title": "Smaller Hong Kong companies urged to upgrade themselves to handle new US tariffs",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3375957/smaller-hong-kong-companies-urged-upgrade-themselves-handle-new-us-tariffs",
       "source": "SCMP",
-      "published": "2026-11-27T00:00:19+00:00",
+      "published": "2026-11-27T00:30:05+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Town with more jobs than people remains excluded from hospitality visa rules",
-      "url": "https://www.abc.net.au/news/2026-11-27/visa-rules-changing-but-hospitality-work-still-does-not-count/107375004",
-      "source": "ABC Australia",
-      "published": "2026-11-26T23:59:29+00:00",
+      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+      "url": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T00:29:48+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Bankers pay up for Hong Kong apartments as rents hit new highs",
+      "url": "https://www.straitstimes.com/asia/east-asia/bankers-pay-up-for-hong-kong-apartments-as-rents-hit-new-highs",
+      "source": "Straits Times",
+      "published": "2026-11-27T00:25:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -349,28 +336,6 @@
         }
       ],
       "consensus": 4.5
-    },
-    {
-      "title": "Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief",
-      "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief",
-      "source": "SCMP",
-      "published": "2026-11-26T17:26:17+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/26/spanish-economist-to-become-new-european-central-bank-chief?traffic_source=rss",
-          "title": "Spanish economist to become new European Central Bank chief",
-          "published": "2026-11-26T16:20:54+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
-          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
-          "published": "2026-11-26T15:55:45+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
@@ -521,6 +486,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+      "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-26T21:08:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
+          "title": "At least 31 dead after fuel tanker fire in Egypt",
+          "published": "2026-11-25T22:05:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Crew member dies after diesel tanker capsizes off Ibiza, no pollution so far",
       "url": "https://www.channelnewsasia.com/world/crew-member-dies-after-diesel-tanker-capsizes-ibiza-no-pollution-so-far-6585926",
       "source": "CNA",
@@ -564,6 +545,22 @@
           "url": "https://www.channelnewsasia.com/world/trump-demands-probe-gdp-data-released-midterms-6585701",
           "title": "Trump demands probe of GDP data released before midterms",
           "published": "2026-11-26T16:20:17+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Spain’s Pablo Hernandez de Cos to succeed Lagarde as European Central Bank chief",
+      "url": "https://www.scmp.com/news/world/europe/article/3375963/spains-pablo-hernandez-de-cos-succeed-lagarde-european-central-bank-chief",
+      "source": "SCMP",
+      "published": "2026-11-26T17:26:17+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/europe/20261126-spanish-economist-de-cos-succeed-lagarde-head-ecb",
+          "title": "Spanish economist de Cos to succeed Lagarde as head of ECB",
+          "published": "2026-11-26T15:55:45+00:00"
         }
       ],
       "consensus": 2.5
@@ -969,19 +966,10 @@
       "consensus": 1.5
     },
     {
-      "title": "Two potential sites identified for March 15 national memorial in central Christchurch",
-      "url": "https://www.rnz.co.nz/news/community/2817596/two-potential-sites-identified-for-march-15-national-memorial-in-central-christchurch",
+      "title": "Incoming NZ First MP Taine Randell 'on the gravy train' while awaiting Special Votes",
+      "url": "https://www.rnz.co.nz/news/political/2817707/incoming-nz-first-mp-taine-randell-on-the-gravy-train-while-awaiting-special-votes",
       "source": "RNZ",
-      "published": "2026-11-26T23:58:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Crackdown on trans-Pacific drug smuggling intensifies",
-      "url": "https://www.rnz.co.nz/news/pacific/2817475/crackdown-on-trans-pacific-drug-smuggling-intensifies",
-      "source": "RNZ",
-      "published": "2026-11-26T23:55:33+00:00",
+      "published": "2026-11-27T00:18:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1057,10 +1045,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 57499.16,
+        "price": 57686.46,
         "currency": "JPY",
-        "change": 0.0,
-        "change_percent": 0.0,
+        "change": 187.3,
+        "change_percent": 0.33,
         "name": "Nikkei 225"
       },
       {
@@ -1083,26 +1071,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3594.2,
+        "price": 3597.6,
         "currency": "USD",
-        "change": 29.6,
-        "change_percent": 0.83,
+        "change": 33.0,
+        "change_percent": 0.93,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 41.75,
+        "price": 41.81,
         "currency": "USD",
-        "change": 1.21,
-        "change_percent": 2.99,
+        "change": 1.27,
+        "change_percent": 3.14,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.67,
+        "price": 91.81,
         "currency": "USD",
-        "change": 1.03,
-        "change_percent": 1.14,
+        "change": 1.17,
+        "change_percent": 1.29,
         "name": "Brent Crude"
       },
       {
@@ -1110,7 +1098,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.04,
+        "change_percent": -0.07,
         "name": "EUR/USD"
       },
       {
@@ -1118,23 +1106,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.08,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.33,
+        "price": 159.32,
         "currency": "JPY",
-        "change": 0.1,
+        "change": 0.09,
         "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60561.24,
+        "price": 60494.12,
         "currency": "USD",
-        "change": 182.67,
-        "change_percent": 0.3,
+        "change": -1.83,
+        "change_percent": 0.0,
         "name": "Bitcoin"
       }
     ],
@@ -1428,9 +1416,16 @@
   "web": {
     "tech": [
       {
+        "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+        "url": "https://kendell.dev/blog/arkwrapper/",
+        "score": 22,
+        "source": "Hacker News",
+        "published": "2026-11-26T21:59:19+00:00"
+      },
+      {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "score": 188,
+        "score": 222,
         "source": "Hacker News",
         "published": "2026-11-26T21:47:45+00:00"
       },
@@ -1445,7 +1440,7 @@
       {
         "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
         "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-        "score": 196,
+        "score": 207,
         "source": "Hacker News",
         "published": "2026-11-26T21:08:05+00:00"
       },
@@ -1453,7 +1448,7 @@
         "title": "The need for a formally verifiable mainstream programming language",
         "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
         "comments_url": "https://lobste.rs/s/byfdgn/need_for_formally_verifiable_mainstream",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-26T20:06:50.248000+00:00"
       },
@@ -1461,65 +1456,58 @@
         "title": "Taking Email Back",
         "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
         "comments_url": "https://lobste.rs/s/afxeri/taking_email_back",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-26T19:51:21.378000+00:00"
       },
       {
         "title": "Top-cited AI scientists at four US companies compared",
         "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
-        "score": 25,
+        "score": 27,
         "source": "Hacker News",
         "published": "2026-11-26T19:44:31+00:00"
       },
       {
-        "title": "Rvoip 0.5 the complete VoIP stack in Rust",
+        "title": "Rvoip: VoIP stack in Rust",
         "url": "https://github.com/eisenzopf/rvoip",
-        "score": 64,
+        "score": 69,
         "source": "Hacker News",
         "published": "2026-11-26T19:18:09+00:00"
       },
       {
         "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
         "url": "https://bui.preetham.top/charts/",
-        "score": 40,
+        "score": 43,
         "source": "Hacker News",
         "published": "2026-11-26T18:37:24+00:00"
       },
       {
         "title": "George Whitesides, 1939-2026",
         "url": "https://www.science.org/content/blog-post/george-whitesides-1939-2026",
-        "score": 51,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-26T18:13:07+00:00"
       },
       {
-        "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+        "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
         "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "score": 189,
+        "score": 193,
         "source": "Hacker News",
         "published": "2026-11-26T17:47:45+00:00"
       },
       {
         "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
         "url": "https://github.com/antonpictures/youtube-punisher",
-        "score": 226,
+        "score": 236,
         "source": "Hacker News",
         "published": "2026-11-26T17:36:47+00:00"
       },
       {
         "title": "AMD-specific fork of llama.cpp",
         "url": "https://devnull.land/amd-specific-llama-cpp",
-        "score": 266,
+        "score": 273,
         "source": "Hacker News",
         "published": "2026-11-26T17:11:29+00:00"
-      },
-      {
-        "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
-        "url": "https://michidk.github.io/sidebyside/",
-        "score": 110,
-        "source": "Hacker News",
-        "published": "2026-11-26T15:00:06+00:00"
       },
       {
         "title": "Hints and hazards: pg_plan_advice in PG19",
@@ -1533,7 +1521,7 @@
         "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
         "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
         "comments_url": "https://lobste.rs/s/2gfpu3/garage_v2_6_0_released_with_web_admin_v1_x",
-        "score": 35,
+        "score": 36,
         "source": "Lobste.rs",
         "published": "2026-11-26T12:40:23.353000+00:00"
       }

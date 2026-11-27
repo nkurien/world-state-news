@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T07:01:04.128788+00:00",
+  "last_updated": "2026-11-27T07:30:55.087366+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 246
+      "ms": 341
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 207
+      "ms": 294
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 278
+      "ms": 150
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 380
+      "ms": 192
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 133
+      "ms": 296
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 219
+      "ms": 214
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 301
+      "ms": 578
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 254
+      "ms": 403
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 204
+      "ms": 172
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 129
+      "ms": 104
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 296
+      "ms": 717
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 228
+      "ms": 215
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 354
+      "ms": 371
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 2301
+      "ms": 143
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 361
+      "ms": 164
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 307
+      "ms": 358
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 595
+      "ms": 584
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 411
+      "ms": 526
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 453
+      "ms": 593
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 286
+      "ms": 315
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3235
+      "ms": 3166
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 95
+      "ms": 251
     },
     "The Independent": {
       "ok": true,
-      "count": 52,
+      "count": 53,
       "error": null,
-      "ms": 106
+      "ms": 234
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 178
+      "ms": 171
     }
   },
   "breaking": [
@@ -183,28 +183,6 @@
       "consensus": 5.5
     },
     {
-      "title": "Donald Trump urges Vladimir Putin to end ‘military aggression’ in Europe",
-      "url": "https://www.thehindu.com/news/international/donald-trump-urges-vladimir-putin-to-end-military-aggression-in-europe/article71749343.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T04:11:29+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/27/world/trump-putin-military-aggression/",
-          "title": "Trump urges Putin to end ‘military aggression’ in Europe",
-          "published": "2026-11-27T01:22:00+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe",
-          "title": "Trump urges Putin to end 'military aggression' in Europe",
-          "published": "2026-11-26T20:10:34+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "South Korea repatriates six North Koreans rescued from drifting boat",
       "url": "https://www.thehindu.com/news/international/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat/article71749495.ece",
       "source": "The Hindu",
@@ -227,6 +205,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Hundreds of flights cancelled as Thanksgiving storm knocks out power for many",
+      "url": "https://www.independent.co.uk/news/world/americas/thanksgiving-strom-power-east-coast-b3092552.html",
+      "source": "The Independent",
+      "published": "2026-11-27T07:06:12+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/thanksgiving-weather-storms-us-power-flights-6585971",
+          "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+          "published": "2026-11-26T20:59:52+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
       "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
       "source": "NPR World",
@@ -238,22 +232,6 @@
           "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece",
           "title": "Strobe Talbott, former Time magazine reporter and Deputy Secretary of State, has died",
           "published": "2026-11-27T04:58:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Ukraine says North ​Korea temporarily halted missile shipments to Russia following ‌diplomatic tensions",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-north-korea-ballistic-missiles-russia-b3092527.html",
-      "source": "The Independent",
-      "published": "2026-11-27T04:37:30+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/ukraine-north-korea-missiles/",
-          "title": "Ukraine says North Korea temporarily halted missile shipments to ally Russia",
-          "published": "2026-11-27T00:54:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -275,6 +253,38 @@
       "consensus": 2.5
     },
     {
+      "title": "AirAsia delays staff salary payments to end of month, internal e-mail shows",
+      "url": "https://www.straitstimes.com/asia/airasia-delays-staff-salary-payments-to-end-of-month-internal-e-mail-shows",
+      "source": "Straits Times",
+      "published": "2026-11-27T07:25:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/airasia-delays-staff-salary-payments-to-end-of-month-internal-email-shows/article71749725.ece",
+          "title": "AirAsia delays staff salary payments to end of month, internal email shows",
+          "published": "2026-11-27T07:23:54+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Major storm batters U.S. on Thanksgiving holiday; 400 flights cancelled",
+      "url": "https://www.thehindu.com/news/international/major-storm-batters-us-on-thanksgiving-holiday-400-flights-cancelled/article71749233.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T07:22:02+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375968/major-storm-batters-us-thanksgiving-holiday-disrupting-flights-and-power",
+          "title": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
+          "published": "2026-11-27T01:44:13+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
       "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
       "source": "Japan Times",
@@ -289,15 +299,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Clashes erupt at Besiktas Europa League match against Israeli club",
-      "url": "https://www.euronews.com/2026/11/27/clashes-erupt-at-besiktas-europa-league-match-against-israeli-club",
-      "source": "Euronews",
-      "published": "2026-11-27T06:57:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -380,6 +381,28 @@
       "consensus": 4.0
     },
     {
+      "title": "Donald Trump urges Vladimir Putin to end ‘military aggression’ in Europe",
+      "url": "https://www.thehindu.com/news/international/donald-trump-urges-vladimir-putin-to-end-military-aggression-in-europe/article71749343.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T04:11:29+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/world/trump-putin-military-aggression/",
+          "title": "Trump urges Putin to end ‘military aggression’ in Europe",
+          "published": "2026-11-27T01:22:00+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/trump-urges-putin-to-end-military-aggression-in-europe",
+          "title": "Trump urges Putin to end 'military aggression' in Europe",
+          "published": "2026-11-26T20:10:34+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "UK net migration falls to three-decade low",
       "url": "https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
       "source": "Semafor",
@@ -400,6 +423,22 @@
         }
       ],
       "consensus": 3.5
+    },
+    {
+      "title": "Ukraine says North ​Korea temporarily halted missile shipments to Russia following ‌diplomatic tensions",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-north-korea-ballistic-missiles-russia-b3092527.html",
+      "source": "The Independent",
+      "published": "2026-11-27T04:37:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/ukraine-north-korea-missiles/",
+          "title": "Ukraine says North Korea temporarily halted missile shipments to ally Russia",
+          "published": "2026-11-27T00:54:00+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Olympic trailblazer Anita DeFrantz dies",
@@ -445,22 +484,6 @@
           "url": "https://www.channelnewsasia.com/asia/nvidia-halts-chip-shipments-southeast-asia-6584351",
           "title": "Nvidia halts chip shipments to Southeast Asia: Report",
           "published": "2026-11-26T06:11:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-      "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T21:08:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
-          "title": "At least 31 dead after fuel tanker fire in Egypt",
-          "published": "2026-11-25T22:05:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -674,22 +697,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Major storm batters U.S. on Thanksgiving holiday; 400 flights cancelled",
-      "url": "https://www.thehindu.com/news/international/major-storm-batters-us-on-thanksgiving-holiday-400-flights-cancelled/article71749233.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T06:01:47+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375968/major-storm-batters-us-thanksgiving-holiday-disrupting-flights-and-power",
-          "title": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
-          "published": "2026-11-27T01:44:13+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "President Donald Trump insists Nvidia CEO not a security threat",
       "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
       "source": "The Hindu",
@@ -818,22 +825,6 @@
       "consensus": 2.0
     },
     {
-      "title": "UN experts demand Vietnam explain ‘abduction’ of activists from Cambodia",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3375945/un-experts-demand-vietnam-explain-abduction-activists-cambodia",
-      "source": "SCMP",
-      "published": "2026-11-26T12:38:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/vietnam-activists-un-experts/",
-          "title": "Vietnam must explain ‘abduction’ of activists: U.N. experts",
-          "published": "2026-11-26T12:17:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "China investigates Politburo member and Shanghai party chief Chen Jining",
       "url": "https://www.npr.org/2026/11/25/nx-s1-6053801/china-investigation-politburo-shanghai-party",
       "source": "NPR World",
@@ -946,19 +937,28 @@
       "consensus": 1.5
     },
     {
-      "title": "Invasive clams spread outside Waikato River's controlled area",
-      "url": "https://www.rnz.co.nz/news/environment/2835608/invasive-clams-spread-outside-waikato-river-s-controlled-area",
-      "source": "RNZ",
-      "published": "2026-11-27T06:56:57+00:00",
+      "title": "Number of students not attending school in Japan reaches record",
+      "url": "https://www.japantimes.co.jp/news/2026/11/27/japan/society/japan-school-absency-record/",
+      "source": "Japan Times",
+      "published": "2026-11-27T07:26:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Luxon的“办公室保卫战”：复杂的四党谈判是必经之路",
-      "url": "https://www.rnz.co.nz/news/chinese/2835604/luxon",
-      "source": "RNZ",
-      "published": "2026-11-27T06:56:49+00:00",
+      "title": "Royal crisis in Malaysia’s Negeri Sembilan eases as ruler reinstates council",
+      "url": "https://www.scmp.com/week-asia/politics/article/3376015/royal-crisis-malaysias-negeri-sembilan-eases-ruler-reinstates-council",
+      "source": "SCMP",
+      "published": "2026-11-27T07:23:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘Mushroom killer’ appeals case to Australia’s top court: Media",
+      "url": "https://www.straitstimes.com/asia/australianz/mushroom-killer-appeals-case-to-australias-top-court-media",
+      "source": "Straits Times",
+      "published": "2026-11-27T07:23:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1060,26 +1060,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3679.9,
+        "price": 3686.2,
         "currency": "USD",
-        "change": 115.3,
-        "change_percent": 3.23,
+        "change": 121.6,
+        "change_percent": 3.41,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 44.45,
+        "price": 44.49,
         "currency": "USD",
-        "change": 3.91,
-        "change_percent": 9.64,
+        "change": 3.95,
+        "change_percent": 9.75,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.41,
+        "price": 92.52,
         "currency": "USD",
-        "change": 1.77,
-        "change_percent": 1.95,
+        "change": 1.88,
+        "change_percent": 2.07,
         "name": "Brent Crude"
       },
       {
@@ -1087,7 +1087,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.07,
+        "change_percent": 0.03,
         "name": "EUR/USD"
       },
       {
@@ -1095,23 +1095,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.12,
+        "change_percent": 0.09,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.34,
+        "price": 159.32,
         "currency": "JPY",
-        "change": 0.12,
-        "change_percent": 0.07,
+        "change": 0.1,
+        "change_percent": 0.06,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61562.42,
+        "price": 61760.18,
         "currency": "USD",
-        "change": 1066.47,
-        "change_percent": 1.76,
+        "change": 1264.23,
+        "change_percent": 2.09,
         "name": "Bitcoin"
       }
     ],
@@ -1282,6 +1282,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Sky-high WiFi will give airlines a shortlived boost",
+          "url": "https://www.ft.com/content/8a8d973e-e476-4578-80a9-26e9c6e5f912?syn-25a6b1a6=1",
+          "published": "2026-11-27T07:11:05+00:00",
+          "snippet": "What seems like an upgrade will soon be an everyday expectation, much like hotel WiFis"
+        },
+        {
           "title": "Hong Kong seeks to lure sovereign wealth funds with tax breaks",
           "url": "https://www.ft.com/content/0285a2eb-5312-443d-bd60-b094af9575b1?syn-25a6b1a6=1",
           "published": "2026-11-27T06:47:12+00:00",
@@ -1292,12 +1298,6 @@
           "url": "https://www.ft.com/content/698d29bd-490b-41ef-a3e3-20edc2b591f7?syn-25a6b1a6=1",
           "published": "2026-11-27T06:30:02+00:00",
           "snippet": "Mining billionaire Robert Friedland on copper and war"
-        },
-        {
-          "title": "Chinese shares soar after Beijing signals more support",
-          "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
-          "published": "2026-11-27T06:25:21+00:00",
-          "snippet": "CSI 300 index jumps more than 4 per cent in afternoon trading"
         }
       ]
     },
@@ -1405,23 +1405,31 @@
   "web": {
     "tech": [
       {
+        "title": "Curb impacts of AI on programming to maintain EU sovereignty",
+        "url": "https://www.draketo.de/software/curb-ai-impact",
+        "comments_url": "https://lobste.rs/s/lmxpfo/curb_impacts_ai_on_programming_maintain",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T07:00:03.110000+00:00"
+      },
+      {
         "title": "The group chat where your AI talks behind your back",
         "url": "https://construct22.com/",
-        "score": 6,
+        "score": 30,
         "source": "Hacker News",
         "published": "2026-11-27T06:44:34+00:00"
       },
       {
         "title": "The need for a formally verifiable mainstream programming language",
         "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
-        "score": 62,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-27T05:22:06+00:00"
       },
       {
         "title": "\"What's Claude's Fursona?\" and Other Questions",
         "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-        "score": 67,
+        "score": 70,
         "source": "Hacker News",
         "published": "2026-11-27T04:56:18+00:00"
       },
@@ -1429,14 +1437,14 @@
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
         "comments_url": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T01:50:42.910000+00:00"
       },
       {
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-        "score": 268,
+        "score": 285,
         "source": "Hacker News",
         "published": "2026-11-27T01:13:49+00:00"
       },
@@ -1450,7 +1458,7 @@
       {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "score": 550,
+        "score": 576,
         "source": "Hacker News",
         "published": "2026-11-26T21:47:45+00:00"
       },
@@ -1465,14 +1473,14 @@
       {
         "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
         "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-        "score": 334,
+        "score": 339,
         "source": "Hacker News",
         "published": "2026-11-26T21:08:05+00:00"
       },
       {
         "title": "Company Culture = Slack Emoji ÷ √Headcount",
         "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "score": 257,
+        "score": 267,
         "source": "Hacker News",
         "published": "2026-11-26T20:49:49+00:00"
       },
@@ -1488,30 +1496,23 @@
         "title": "Taking Email Back",
         "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
         "comments_url": "https://lobste.rs/s/afxeri/taking_email_back",
-        "score": 25,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-26T19:51:21.378000+00:00"
       },
       {
         "title": "An introduction to uncertainty in machine learning",
         "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
-        "score": 57,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-26T19:04:50+00:00"
       },
       {
         "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
         "url": "https://bui.preetham.top/charts/",
-        "score": 92,
+        "score": 98,
         "source": "Hacker News",
         "published": "2026-11-26T18:37:24+00:00"
-      },
-      {
-        "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
-        "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "score": 247,
-        "source": "Hacker News",
-        "published": "2026-11-26T17:47:45+00:00"
       }
     ],
     "reddit": [

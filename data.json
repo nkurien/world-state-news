@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T19:31:00.200762+00:00",
+  "last_updated": "2026-11-27T20:01:03.013248+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 496
+      "ms": 295
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 182
+      "ms": 309
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 641
+      "ms": 154
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 543
+      "ms": 671
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 471
+      "ms": 90
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 421
+      "ms": 243
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 653
+      "ms": 459
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 463
+      "ms": 514
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 120
+      "ms": 171
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 71
+      "ms": 73
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 549
+      "ms": 301
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 337
+      "ms": 277
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 147
+      "ms": 419
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 453
+      "ms": 621
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 141
+      "ms": 327
     },
     "RNZ": {
       "ok": true,
-      "count": 47,
+      "count": 46,
       "error": null,
-      "ms": 588
+      "ms": 325
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 746
+      "ms": 738
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 602
+      "ms": 643
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 940
+      "ms": 485
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 505
+      "ms": 375
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3101
+      "ms": 3060
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 115
+      "ms": 312
     },
     "The Independent": {
       "ok": true,
-      "count": 45,
+      "count": 47,
       "error": null,
-      "ms": 629
+      "ms": 151
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 153
+      "ms": 186
     }
   },
   "breaking": [
@@ -249,6 +249,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+      "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
+      "source": "CNA",
+      "published": "2026-11-27T19:39:57+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
+          "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+          "published": "2026-11-27T09:57:50+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "NATO jets scrambled after drone enters Latvian airspace",
       "url": "https://www.thehindu.com/news/international/nato-jets-scrambled-after-drone-enters-latvian-airspace/article71752112.ece",
       "source": "The Hindu",
@@ -265,42 +281,19 @@
       "consensus": 2.5
     },
     {
-      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T16:53:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
-          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-          "published": "2026-11-27T15:15:36+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
-      "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T16:31:20+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Deutsche Welle",
-          "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-xml-mrss",
-          "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
-          "published": "2026-11-27T14:20:00+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Live: Wallabies seeking revenge against Ireland in Nations Championship",
-      "url": "https://www.abc.net.au/news/2026-11-28/wallabies-vs-ireland-nations-championship-live-blog-updates/107437612",
+      "title": "Mixed feelings over Coalition's boot camp plan for young offenders",
+      "url": "https://www.abc.net.au/news/2026-11-28/dhurringile-boot-camp-coalition-victorian-election-shepparton/107426122",
       "source": "ABC Australia",
-      "published": "2026-11-27T19:27:01+00:00",
+      "published": "2026-11-27T19:45:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Does owning a home influence how Spaniards vote? The growing divide between homeowners and renters",
+      "url": "https://english.elpais.com/spain/2026-11-27/does-owning-a-home-influence-how-spaniards-vote-the-growing-divide-between-homeowners-and-renters.html",
+      "source": "El País",
+      "published": "2026-11-27T19:44:48+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -448,6 +441,38 @@
       "consensus": 3.0
     },
     {
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T16:53:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
+          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+          "published": "2026-11-27T15:15:36+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T16:31:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+          "published": "2026-11-27T14:20:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
       "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -491,22 +516,6 @@
           "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
           "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
           "published": "2026-11-27T09:22:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
-      "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-27T09:57:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/thanksgiving-weather-storms-us-power-flights-6585971",
-          "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
-          "published": "2026-11-26T20:59:52+00:00"
         }
       ],
       "consensus": 2.5
@@ -686,6 +695,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T19:27:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
+          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+          "published": "2026-11-27T12:42:00+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "At least 22 injured after Shenzhen-bound passenger ferry crashes into dock in Hong Kong",
@@ -896,64 +921,46 @@
       "consensus": 1.5
     },
     {
-      "title": "'Surreal feeling' as North Melbourne claims third AFLW flag",
-      "url": "https://www.abc.net.au/news/2026-11-28/north-melbourne-wins-third-premiership/107437178",
+      "title": "Army deems lead azide detonation a success but criticism lingers over notification",
+      "url": "https://www.independent.co.uk/news/world/americas/army-republican-democratic-joni-ernst-chuck-grassley-b3093019.html",
+      "source": "The Independent",
+      "published": "2026-11-27T19:42:50+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russian Military Flotilla Bound for Libya Turns Around After Warship Sunk, Sources Say",
+      "url": "https://www.themoscowtimes.com/2026/11/27/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-a812400",
+      "source": "The Moscow Times",
+      "published": "2026-11-27T19:40:46+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Australia selling more wine than it is making but huge glut persists",
+      "url": "https://www.abc.net.au/news/2026-11-28/australian-wine-glut-continues-despite-sales-production/107425900",
       "source": "ABC Australia",
-      "published": "2026-11-27T19:20:25+00:00",
+      "published": "2026-11-27T19:40:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Wild weekend of storms caps off wettest ever El Niño spring",
-      "url": "https://www.abc.net.au/news/2026-11-28/australia-wild-weekend-weather-caps-off-wettest-el-nino-spring/107435544",
+      "title": "MotoGP world champion Marquez announces shock retirement",
+      "url": "https://www.abc.net.au/news/2026-11-28/motogp-world-champion-marc-marquez-announces-shock-retirement/107437638",
       "source": "ABC Australia",
-      "published": "2026-11-27T19:14:42+00:00",
+      "published": "2026-11-27T19:38:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Country Life: Digging into the history of the Huntaway",
-      "url": "https://www.rnz.co.nz/news/country/2849490/country-life-digging-into-the-history-of-the-huntaway",
-      "source": "RNZ",
-      "published": "2026-11-27T19:14:18+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "National needs NZ First, ACT and Opportunity to govern. Here's what to expect from coalition talks",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2844966/national-needs-nz-first-act-and-opportunity-to-govern-here-s-what-to-expect-from-coalition-talks",
-      "source": "RNZ",
-      "published": "2026-11-27T19:13:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "One critically injured in Waikato crash",
-      "url": "https://www.rnz.co.nz/news/regional/2849045/one-critically-injured-in-waikato-crash",
-      "source": "RNZ",
-      "published": "2026-11-27T18:58:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Eat beef? There's a high chance it has come from an Australian feedlot",
-      "url": "https://www.abc.net.au/news/2026-11-28/australian-cattle-feedlot-industry-record-growth/107420348",
-      "source": "ABC Australia",
-      "published": "2026-11-27T18:57:34+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Documentary to detail how cancer 'changed' Princess of Wales",
-      "url": "https://www.abc.net.au/news/2026-11-28/princess-catherine-cancer-recovery-documentary/107432910",
-      "source": "ABC Australia",
-      "published": "2026-11-27T18:56:47+00:00",
+      "title": "U.S. disables ship trying to leave Iran, as Tehran vows to confront blockade",
+      "url": "https://www.thehindu.com/news/international/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/article71752214.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T19:35:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1071,10 +1078,10 @@
       },
       {
         "symbol": "BZ=F",
-        "price": 90.52,
+        "price": 90.84,
         "currency": "USD",
-        "change": -0.12,
-        "change_percent": -0.13,
+        "change": 0.2,
+        "change_percent": 0.22,
         "name": "Brent Crude"
       },
       {
@@ -1082,7 +1089,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.35,
+        "change_percent": -0.33,
         "name": "EUR/USD"
       },
       {
@@ -1090,23 +1097,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.14,
+        "change_percent": -0.11,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.56,
+        "price": 159.55,
         "currency": "JPY",
-        "change": 0.34,
-        "change_percent": 0.21,
+        "change": 0.33,
+        "change_percent": 0.2,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59890.81,
+        "price": 59790.71,
         "currency": "USD",
-        "change": -605.14,
-        "change_percent": -1.0,
+        "change": -705.24,
+        "change_percent": -1.17,
         "name": "Bitcoin"
       }
     ],
@@ -1400,32 +1407,46 @@
   "web": {
     "tech": [
       {
+        "title": "Michael Nielsen took down his book on neural nets",
+        "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+        "score": 51,
+        "source": "Hacker News",
+        "published": "2026-11-27T19:31:01+00:00"
+      },
+      {
+        "title": "I'm a watchmaker and I accidentally made a software factory",
+        "url": "https://opentimegrapher.org/blog/2026-11-27-coordinators-chair-1/",
+        "score": 4,
+        "source": "Hacker News",
+        "published": "2026-11-27T19:06:35+00:00"
+      },
+      {
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 3,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 59,
+        "score": 76,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
       {
-        "title": "I'm Scared of AI",
-        "url": "https://thesoapbox.email/archive/3",
-        "score": 171,
+        "title": "Show HN: DragDropMath – Learn math by feel",
+        "url": "https://dragdropmath.com/",
+        "score": 14,
         "source": "Hacker News",
-        "published": "2026-11-27T17:45:31+00:00"
+        "published": "2026-11-27T17:56:28+00:00"
       },
       {
         "title": "Pop!_OS 26.04 LTS Has Landed",
         "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
         "comments_url": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
-        "score": 7,
+        "score": 8,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:42:50.585000+00:00"
       },
@@ -1441,7 +1462,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       },
@@ -1449,67 +1470,51 @@
         "title": "The State of Allocators in 2026 - Finally Stabilised",
         "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
         "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
-        "score": 14,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:09:11.598000+00:00"
       },
       {
         "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
         "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-        "score": 207,
+        "score": 239,
         "source": "Hacker News",
         "published": "2026-11-27T15:40:31+00:00"
       },
       {
         "title": "False computer-checked proofs",
         "url": "https://cr.yp.to/proofs/falseccp.html",
-        "score": 113,
+        "score": 119,
         "source": "Hacker News",
         "published": "2026-11-27T15:26:09+00:00"
       },
       {
+        "title": "GPT 6.2 Astra solves a historical mystery",
+        "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+        "score": 163,
+        "source": "Hacker News",
+        "published": "2026-11-27T15:03:17+00:00"
+      },
+      {
         "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
         "url": "https://bouncemarket.minhanhday.com/",
-        "score": 264,
+        "score": 267,
         "source": "Hacker News",
         "published": "2026-11-27T15:01:50+00:00"
       },
       {
-        "title": "Show HN: I restored Palm's last device, and brought its OS to other platforms",
-        "url": "https://www.webosarchive.org/pivot/2026/11/27/the-story-so-far/",
-        "score": 34,
+        "title": "Rayshader 1.0: Exit the Matrix",
+        "url": "https://www.tylermw.com/posts/rayverse/rayshader-1-0-exit-the-matrix.html",
+        "score": 8,
         "source": "Hacker News",
-        "published": "2026-11-27T14:37:02+00:00"
+        "published": "2026-11-27T14:30:20+00:00"
       },
       {
         "title": "Making a 3D fantasy map like a 16th-Century atlas",
         "url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
-        "score": 53,
+        "score": 60,
         "source": "Hacker News",
         "published": "2026-11-27T14:02:52+00:00"
-      },
-      {
-        "title": "Exception Best Practices",
-        "url": "https://www.well-typed.com/blog/2026/11/exception-best-practices/",
-        "comments_url": "https://lobste.rs/s/tgihkm/exception_best_practices",
-        "score": 6,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T13:05:30.318000+00:00"
-      },
-      {
-        "title": "US Air Force's cloud computing platform hacked",
-        "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-        "score": 255,
-        "source": "Hacker News",
-        "published": "2026-11-27T12:54:11+00:00"
-      },
-      {
-        "title": "An Overview of Go's Tooling: Version 2",
-        "url": "https://www.alexedwards.net/blog/an-overview-of-go-tooling-v2",
-        "comments_url": "https://lobste.rs/s/twxtcq/overview_go_s_tooling_version_2",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T12:22:52.836000+00:00"
       }
     ],
     "reddit": [

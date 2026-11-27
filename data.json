@@ -1,175 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T21:30:54.922745+00:00",
+  "last_updated": "2026-11-27T22:01:02.700747+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 474
+      "ms": 425
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 214
+      "ms": 304
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 202
+      "ms": 211
     },
     "BBC News": {
       "ok": true,
       "count": 32,
       "error": null,
-      "ms": 216
+      "ms": 339
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 316
+      "ms": 273
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 365
+      "ms": 322
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 73
+      "ms": 519
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 258
+      "ms": 494
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 137
+      "ms": 339
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 178
+      "ms": 280
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 618
+      "ms": 1285
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 280
+      "ms": 316
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 199
+      "ms": 384
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 389
+      "ms": 108
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 144
+      "ms": 313
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 188
+      "ms": 316
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 563
+      "ms": 706
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 369
+      "ms": 649
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 550
+      "ms": 527
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 297
+      "ms": 341
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3200
+      "ms": 3061
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 122
+      "ms": 242
     },
     "The Independent": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 194
+      "ms": 146
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 130
+      "ms": 253
     }
   },
   "breaking": [
-    {
-      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
-      "source": "SCMP",
-      "published": "2026-11-27T20:25:58+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
-          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-          "published": "2026-11-27T15:15:36+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
     {
       "title": "Venezuela to repeal law that bans opposition figures from office",
       "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
@@ -182,6 +160,22 @@
           "url": "https://www.bbc.co.uk/news/articles/c58j4pw9xjrlo?at_medium=RSS&at_campaign=rss",
           "title": "Venezuela to scrap law that bars opposition from public office",
           "published": "2026-11-27T05:35:10+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
+      "source": "SCMP",
+      "published": "2026-11-27T20:25:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
+          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+          "published": "2026-11-27T15:15:36+00:00"
         }
       ],
       "consensus": 2.5
@@ -235,6 +229,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-27T20:43:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
       "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
       "source": "The Hindu",
@@ -251,19 +261,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Philippines could be key player in US-China AI competition",
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3375746/philippines-could-be-key-player-us-china-ai-competition",
+      "title": "Taiwan is expanding its military draft. Will those troops make a difference?",
+      "url": "https://www.scmp.com/news/china/politics/article/3376027/taiwan-expanding-its-military-draft-will-those-troops-make-difference",
       "source": "SCMP",
-      "published": "2026-11-27T21:30:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/jensen-huang-howard-lutnick-nvidia-congress-hearings-b3093047.html",
-      "source": "The Independent",
-      "published": "2026-11-27T21:23:06+00:00",
+      "published": "2026-11-27T22:00:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -793,22 +794,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
-      "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
-      "source": "SCMP",
-      "published": "2026-11-27T03:12:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
-          "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
-          "published": "2026-11-26T16:40:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Ebola cases reach 12,000 in Congo as second-largest outbreak on record grows",
       "url": "https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970?cmp=rss",
       "source": "CBC World",
@@ -921,46 +906,55 @@
       "consensus": 1.5
     },
     {
-      "title": "Live: Black Caps v India - second test, day two",
-      "url": "https://www.rnz.co.nz/news/indonz/2851579/live-black-caps-v-india-second-test-day-two",
-      "source": "RNZ",
-      "published": "2026-11-27T21:18:55+00:00",
+      "title": "Tasmania's cave explorers still finding new worlds underground",
+      "url": "https://www.abc.net.au/news/2026-11-28/oldest-caving-club-southern-tasmanian-caverneers/107369636",
+      "source": "ABC Australia",
+      "published": "2026-11-27T21:58:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "'Not just a name on a list': Remembering missing Kiwi in Nepal Shweta Mhatre",
-      "url": "https://www.rnz.co.nz/news/indonz-featured/2777521/not-just-a-name-on-a-list-remembering-missing-kiwi-in-nepal-shweta-mhatre",
-      "source": "RNZ",
-      "published": "2026-11-27T21:18:55+00:00",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T21:55:53+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Economist labels Trump ‘the biggest loser of any president’ as he shreds key trade policy",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-economy-loser-trade-tariffs-peter-schiff-b3093030.html",
-      "source": "The Independent",
-      "published": "2026-11-27T21:16:59+00:00",
+      "title": "'Everything is on the table' as inquiry into military sexual violence kicks off",
+      "url": "https://www.abc.net.au/news/2026-11-28/australian-military-sexual-violence-inquiry-to-begin/107422632",
+      "source": "ABC Australia",
+      "published": "2026-11-27T21:54:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Partially treated wastewater discharged near Karori Stream",
-      "url": "https://www.rnz.co.nz/news/regional/2851458/partially-treated-wastewater-discharged-near-karori-stream",
-      "source": "RNZ",
-      "published": "2026-11-27T21:15:55+00:00",
+      "title": "The extraordinary allegations that defined Queensland's CFMEU inquiry",
+      "url": "https://www.abc.net.au/news/2026-11-28/queensland-cfmeu-inquiry-key-takeaways-2026/107266420",
+      "source": "ABC Australia",
+      "published": "2026-11-27T21:50:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "For me, not thee: Denials of visas that Melania once used have soared under Trump",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/us-visas-denied-trump-melania-immigrant-b3092960.html",
-      "source": "The Independent",
-      "published": "2026-11-27T21:11:30+00:00",
+      "title": "Rain not enough to extinguish Flinders Island bushfire",
+      "url": "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
+      "source": "ABC Australia",
+      "published": "2026-11-27T21:45:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
+      "url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
+      "source": "CNA",
+      "published": "2026-11-27T21:42:53+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1089,7 +1083,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.36,
+        "change_percent": -0.33,
         "name": "EUR/USD"
       },
       {
@@ -1097,23 +1091,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.12,
+        "change_percent": -0.09,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.56,
+        "price": 159.51,
         "currency": "JPY",
-        "change": 0.33,
-        "change_percent": 0.21,
+        "change": 0.29,
+        "change_percent": 0.18,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 59740.1,
+        "price": 59679.76,
         "currency": "USD",
-        "change": -755.85,
-        "change_percent": -1.25,
+        "change": -816.19,
+        "change_percent": -1.35,
         "name": "Bitcoin"
       }
     ],
@@ -1415,10 +1409,17 @@
         "published": "2026-11-27T20:42:02.268000+00:00"
       },
       {
+        "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
+        "url": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
+        "score": 68,
+        "source": "Hacker News",
+        "published": "2026-11-27T20:25:15+00:00"
+      },
+      {
         "title": "x86 is an octal machine",
         "url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
         "comments_url": "https://lobste.rs/s/kikmfz/x86_is_octal_machine",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:24:04.111000+00:00"
       },
@@ -1426,28 +1427,28 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
       {
         "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
         "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-        "score": 89,
+        "score": 114,
         "source": "Hacker News",
         "published": "2026-11-27T19:42:25+00:00"
       },
       {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 22,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
       {
         "title": "Michael Nielsen took down his book on neural nets",
         "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
-        "score": 187,
+        "score": 228,
         "source": "Hacker News",
         "published": "2026-11-27T19:31:01+00:00"
       },
@@ -1455,21 +1456,21 @@
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 17,
+        "score": 18,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 140,
+        "score": 161,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
       {
         "title": "Show HN: DragDropMath – Learn math by feel",
         "url": "https://dragdropmath.com/",
-        "score": 49,
+        "score": 60,
         "source": "Hacker News",
         "published": "2026-11-27T17:56:28+00:00"
       },
@@ -1493,7 +1494,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 23,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       },
@@ -1501,23 +1502,16 @@
         "title": "The State of Allocators in 2026 - Finally Stabilised",
         "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
         "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
-        "score": 24,
+        "score": 27,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:09:11.598000+00:00"
       },
       {
         "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
         "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-        "score": 312,
+        "score": 330,
         "source": "Hacker News",
         "published": "2026-11-27T15:40:31+00:00"
-      },
-      {
-        "title": "False computer-checked proofs",
-        "url": "https://cr.yp.to/proofs/falseccp.html",
-        "score": 140,
-        "source": "Hacker News",
-        "published": "2026-11-27T15:26:09+00:00"
       }
     ],
     "reddit": [

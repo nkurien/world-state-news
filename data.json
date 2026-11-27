@@ -1,181 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T22:01:02.700747+00:00",
+  "last_updated": "2026-11-27T22:30:54.592620+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 425
+      "ms": 235
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 304
+      "ms": 215
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 211
+      "ms": 208
     },
     "BBC News": {
       "ok": true,
-      "count": 32,
+      "count": 22,
       "error": null,
-      "ms": 339
+      "ms": 133
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 273
+      "ms": 1131
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 322
+      "ms": 749
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 519
+      "ms": 190
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 494
+      "ms": 214
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 339
+      "ms": 282
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 280
+      "ms": 317
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 1285
+      "ms": 566
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 316
+      "ms": 212
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 384
+      "ms": 418
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 108
+      "ms": 451
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 313
+      "ms": 403
     },
     "RNZ": {
       "ok": true,
-      "count": 43,
+      "count": 44,
       "error": null,
-      "ms": 316
+      "ms": 294
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 706
+      "ms": 885
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 649
+      "ms": 365
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 527
+      "ms": 476
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 341
+      "ms": 255
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3061
+      "ms": 3157
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 242
+      "ms": 154
     },
     "The Independent": {
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
-      "ms": 146
+      "ms": 117
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 253
+      "ms": 120
     }
   },
   "breaking": [
     {
-      "title": "Venezuela to repeal law that bans opposition figures from office",
-      "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T20:44:03+00:00",
-      "score": 2,
+      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-27T20:43:00+00:00",
+      "score": 3,
       "other_sources": [
         {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c58j4pw9xjrlo?at_medium=RSS&at_campaign=rss",
-          "title": "Venezuela to scrap law that bars opposition from public office",
-          "published": "2026-11-27T05:35:10+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
-      "source": "SCMP",
-      "published": "2026-11-27T20:25:58+00:00",
-      "score": 2,
-      "other_sources": [
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
+        },
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
           "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
           "published": "2026-11-27T15:15:36+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Uganda to withdraw troops from DR Congo",
+      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo",
+      "source": "France24",
+      "published": "2026-11-27T21:44:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
+          "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
+          "published": "2026-11-27T14:57:33+00:00"
         }
       ],
       "consensus": 2.5
@@ -229,82 +235,34 @@
       "consensus": 2.0
     },
     {
-      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
-      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T20:43:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
-      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T19:27:54+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
-          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
-          "published": "2026-11-27T12:42:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Taiwan is expanding its military draft. Will those troops make a difference?",
-      "url": "https://www.scmp.com/news/china/politics/article/3376027/taiwan-expanding-its-military-draft-will-those-troops-make-difference",
+      "title": "Colombian Congress chiefs rush to reassure China as envoy berates lawmakers in Taiwan",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3376105/colombian-congress-chiefs-rush-reassure-china-envoy-berates-lawmakers-taiwan",
       "source": "SCMP",
-      "published": "2026-11-27T22:00:15+00:00",
+      "published": "2026-11-27T22:27:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jamie Kaiwai: Grandparents waiting to bring their moko home",
+      "url": "https://www.rnz.co.nz/news/te-manu-korihi/2851960/jamie-kaiwai-grandparents-waiting-to-bring-their-moko-home",
+      "source": "RNZ",
+      "published": "2026-11-27T22:22:17+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Hamas says Israel tried to kill chief’s son in Gaza",
+      "url": "https://www.thehindu.com/news/international/hamas-says-israel-tried-to-kill-chiefs-son-in-gaza/article71752540.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T22:18:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     }
   ],
   "world": [
-    {
-      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
-      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
-      "source": "Africanews",
-      "published": "2026-11-27T13:21:05+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-          "published": "2026-11-27T10:20:33+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
-          "title": "Two Italians killed in drone attack in Kuwait",
-          "published": "2026-11-26T23:39:13+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
-          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
-          "published": "2026-11-26T18:11:38+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
-          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
-          "published": "2026-11-26T16:03:57+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
       "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
@@ -362,34 +320,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Mushroom murderer Erin Patterson files last-ditch appeal in the High Court",
-      "url": "https://www.independent.co.uk/news/world/australasia/high-court-mushroom-killer-erin-patterson-appeal-b3092595.html",
-      "source": "The Independent",
-      "published": "2026-11-27T10:09:01+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
-          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
-          "published": "2026-11-27T08:28:49+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australian-mushroom-murderer-erin-patterson-files-high-court-appeal-bid",
-          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
-          "published": "2026-11-27T07:46:57+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/ck053e1d3ly1o?at_medium=RSS&at_campaign=rss",
-          "title": "Mushroom murderer Erin Patterson launches last-ditch High Court appeal",
-          "published": "2026-11-27T05:54:38+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
       "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html",
       "source": "The Independent",
@@ -418,28 +348,6 @@
       "consensus": 4.5
     },
     {
-      "title": "Uganda to withdraw troops from DR Congo town after army chief's threat sparks row",
-      "url": "https://www.france24.com/en/africa/20261127-uganda-withdraw-troops-dr-congo-town-after-army-chief-threat-row",
-      "source": "France24",
-      "published": "2026-11-27T17:56:28+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
-          "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
-          "published": "2026-11-27T14:57:33+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
-          "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
-          "published": "2026-11-27T10:39:31+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Duterte's ICC trial: What is at stake for the Philippines?",
       "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -462,6 +370,28 @@
       "consensus": 3.5
     },
     {
+      "title": "Mushroom murderer Erin Patterson files last-ditch appeal in the High Court",
+      "url": "https://www.independent.co.uk/news/world/australasia/high-court-mushroom-killer-erin-patterson-appeal-b3092595.html",
+      "source": "The Independent",
+      "published": "2026-11-27T10:09:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
+          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
+          "published": "2026-11-27T08:28:49+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australian-mushroom-murderer-erin-patterson-files-high-court-appeal-bid",
+          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
+          "published": "2026-11-27T07:46:57+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Chinese Military tests new Taiwan landing tactics in coastal drills",
       "url": "https://www.thehindu.com/news/international/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills/article71752063.ece",
       "source": "The Hindu",
@@ -479,6 +409,28 @@
           "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
           "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
           "published": "2026-11-27T04:36:56+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
+      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
+      "source": "Africanews",
+      "published": "2026-11-27T13:21:05+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "published": "2026-11-27T10:20:33+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
+          "title": "Two Italians killed in drone attack in Kuwait",
+          "published": "2026-11-26T23:39:13+00:00"
         }
       ],
       "consensus": 3.0
@@ -730,6 +682,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T19:27:54+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
+          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+          "published": "2026-11-27T12:42:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "AirAsia delays staff salary payments to end of month, internal email shows",
       "url": "https://www.thehindu.com/news/international/airasia-delays-staff-salary-payments-to-end-of-month-internal-email-shows/article71749725.ece",
       "source": "The Hindu",
@@ -746,22 +714,6 @@
       "consensus": 2.0
     },
     {
-      "title": "EU budget decision pushed back as leaders fail to bridge divides",
-      "url": "https://www.rfi.fr/en/international/20261127-eu-leaders-fail-to-agree-over-budget-final-decision-postponed-till-december",
-      "source": "RFI English",
-      "published": "2026-11-27T08:07:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw4gnm3m9deno?at_medium=RSS&at_campaign=rss",
-          "title": "EU leaders fail to bridge budget splits as talks stall",
-          "published": "2026-11-27T06:11:55+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Upper House rejects censure motion against education minister",
       "url": "https://www.japantimes.co.jp/news/2026/11/27/japan/politics/censure-motion-voted-down/",
       "source": "Japan Times",
@@ -773,22 +725,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/japans-senate-narrowly-rejects-censure-motion-against-scandal-hit-education-minister-yoshihiro-seki",
           "title": "Japan’s Senate narrowly rejects censure motion against scandal-hit Education Minister Yoshihiro Seki",
           "published": "2026-11-27T05:16:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "President Donald Trump insists Nvidia CEO not a security threat",
-      "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T04:42:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/donald-trump-jensen-huang-nvidia-security-threat-6586401",
-          "title": "Trump insists Nvidia CEO not a security threat",
-          "published": "2026-11-27T01:57:58+00:00"
         }
       ],
       "consensus": 2.0
@@ -906,6 +842,60 @@
       "consensus": 1.5
     },
     {
+      "title": "Trump’s ally-packed committee could ram his renovations projects through before Dems take control of Congress",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-planning-commission-golf-course-dc-renovations-b3093061.html",
+      "source": "The Independent",
+      "published": "2026-11-27T22:12:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T22:03:46+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "S&P revises France's outlook from 'stable' to 'negative'",
+      "url": "https://www.france24.com/en/france/20261127-s-p-revises-france-s-outlook-from-stable-to-negative",
+      "source": "France24",
+      "published": "2026-11-27T22:00:20+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Taiwan is expanding its military draft. Will those troops make a difference?",
+      "url": "https://www.scmp.com/news/china/politics/article/3376027/taiwan-expanding-its-military-draft-will-those-troops-make-difference",
+      "source": "SCMP",
+      "published": "2026-11-27T22:00:15+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Commentary: Nvidia’s ‘great man theory’ is flawed",
+      "url": "https://www.channelnewsasia.com/commentary/nvidia-reinstate-jensen-huang-ceo-great-man-theory-flawed-6587156",
+      "source": "CNA",
+      "published": "2026-11-27T22:00:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "‘Activists of rhythm’: Fighting Spain’s far-right through art",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T21:59:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Tasmania's cave explorers still finding new worlds underground",
       "url": "https://www.abc.net.au/news/2026-11-28/oldest-caving-club-southern-tasmanian-caverneers/107369636",
       "source": "ABC Australia",
@@ -915,46 +905,10 @@
       "consensus": 1.0
     },
     {
-      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
-      "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T21:55:53+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Everything is on the table' as inquiry into military sexual violence kicks off",
-      "url": "https://www.abc.net.au/news/2026-11-28/australian-military-sexual-violence-inquiry-to-begin/107422632",
-      "source": "ABC Australia",
-      "published": "2026-11-27T21:54:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The extraordinary allegations that defined Queensland's CFMEU inquiry",
-      "url": "https://www.abc.net.au/news/2026-11-28/queensland-cfmeu-inquiry-key-takeaways-2026/107266420",
-      "source": "ABC Australia",
-      "published": "2026-11-27T21:50:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Rain not enough to extinguish Flinders Island bushfire",
-      "url": "https://www.abc.net.au/news/2026-11-28/flinders-island-tasmania-bushfire-threat-ongoing-despite-rain/107437676",
-      "source": "ABC Australia",
-      "published": "2026-11-27T21:45:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
-      "url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
-      "source": "CNA",
-      "published": "2026-11-27T21:42:53+00:00",
+      "title": "Partially treated wastewater discharged near Karori Stream",
+      "url": "https://www.rnz.co.nz/news/regional/2851458/partially-treated-wastewater-discharged-near-karori-stream",
+      "source": "RNZ",
+      "published": "2026-11-27T21:58:07+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1104,10 +1058,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59679.76,
+        "price": 59683.17,
         "currency": "USD",
-        "change": -816.19,
-        "change_percent": -1.35,
+        "change": -812.78,
+        "change_percent": -1.34,
         "name": "Bitcoin"
       }
     ],
@@ -1401,6 +1355,21 @@
   "web": {
     "tech": [
       {
+        "title": "My Approach to Alt Text (2024)",
+        "url": "http://adrianroselli.com/2024/05/my-approach-to-alt-text.html",
+        "comments_url": "https://lobste.rs/s/cz9ecz/my_approach_alt_text_2024",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T22:00:18.913000+00:00"
+      },
+      {
+        "title": "9/UX: a Macintosh-inspired desktop for 9front",
+        "url": "https://progrium.github.io/9ux/",
+        "score": 12,
+        "source": "Hacker News",
+        "published": "2026-11-27T21:48:14+00:00"
+      },
+      {
         "title": "Proof automation in a language",
         "url": "https://www.imperialviolet.org/2026/11/15/proofauto2.html",
         "comments_url": "https://lobste.rs/s/ohmjfv/proof_automation_language",
@@ -1411,7 +1380,7 @@
       {
         "title": "I am scared: Careless People – Sarah Wynn-Williams on living under a gag order",
         "url": "https://www.theguardian.com/books/2026/nov/27/careless-people-author-sarah-wynn-williams-the-silence-is-mine-it-doesnt-have-to-be-yours",
-        "score": 68,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-27T20:25:15+00:00"
       },
@@ -1427,28 +1396,28 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
       {
         "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
         "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-        "score": 114,
+        "score": 145,
         "source": "Hacker News",
         "published": "2026-11-27T19:42:25+00:00"
       },
       {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 31,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
       {
         "title": "Michael Nielsen took down his book on neural nets",
         "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
-        "score": 228,
+        "score": 259,
         "source": "Hacker News",
         "published": "2026-11-27T19:31:01+00:00"
       },
@@ -1463,14 +1432,14 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 161,
+        "score": 176,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
       {
         "title": "Show HN: DragDropMath – Learn math by feel",
         "url": "https://dragdropmath.com/",
-        "score": 60,
+        "score": 67,
         "source": "Hacker News",
         "published": "2026-11-27T17:56:28+00:00"
       },
@@ -1486,7 +1455,7 @@
         "title": "Build your own Paint",
         "url": "https://www.buildyourownpaint.com/en",
         "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
-        "score": 9,
+        "score": 10,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
       },
@@ -1494,24 +1463,9 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 24,
+        "score": 26,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
-      },
-      {
-        "title": "The State of Allocators in 2026 - Finally Stabilised",
-        "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
-        "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
-        "score": 27,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T16:09:11.598000+00:00"
-      },
-      {
-        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-        "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-        "score": 330,
-        "source": "Hacker News",
-        "published": "2026-11-27T15:40:31+00:00"
       }
     ],
     "reddit": [

@@ -1,153 +1,175 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T16:30:57.735247+00:00",
+  "last_updated": "2026-11-27T17:01:10.821453+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 417
+      "ms": 338
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 165
+      "ms": 120
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 141
+      "ms": 330
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 166
+      "ms": 365
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 318
+      "ms": 393
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 453
+      "ms": 341
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 673
+      "ms": 617
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 300
+      "ms": 997
     },
     "Euronews": {
       "ok": false,
       "count": 0,
       "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
-      "ms": 3205
+      "ms": 3226
     },
     "France24": {
-      "ok": false,
-      "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
-      "ms": 3138
+      "ok": true,
+      "count": 24,
+      "error": null,
+      "ms": 308
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 376
+      "ms": 369
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 405
+      "ms": 285
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 365
+      "ms": 134
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 125
+      "ms": 122
     },
     "RFI English": {
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null,
-      "ms": 289
+      "ms": 175
     },
     "RNZ": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 396
+      "ms": 128
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 679
+      "ms": 751
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 486
+      "ms": 359
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 738
+      "ms": 693
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 321
+      "ms": 233
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3231
+      "ms": 3223
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 173
+      "ms": 137
     },
     "The Independent": {
       "ok": true,
-      "count": 45,
+      "count": 46,
       "error": null,
-      "ms": 193
+      "ms": 379
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 176
+      "ms": 113
     }
   },
   "breaking": [
+    {
+      "title": "Chinese Military tests new Taiwan landing tactics in coastal drills",
+      "url": "https://www.thehindu.com/news/international/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills/article71752063.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T16:52:37+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
+          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+          "published": "2026-11-27T04:51:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
+          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+          "published": "2026-11-27T04:36:56+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
     {
       "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
       "url": "https://www.thehindu.com/news/international/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/article71750783.ece",
@@ -171,6 +193,54 @@
       "consensus": 3.0
     },
     {
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T16:53:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
+          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+          "published": "2026-11-27T15:15:36+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Norse Atlantic files for bankruptcy, halts flights and ticket sales",
+      "url": "https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T16:31:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Deutsche Welle",
+          "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-world-4025-xml-mrss",
+          "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+          "published": "2026-11-27T14:20:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T16:06:37+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
       "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -182,22 +252,6 @@
           "url": "https://www.channelnewsasia.com/world/endangered-turtles-smuggled-schiphol-airport-amsterdam-6587421",
           "title": "Dutch authorities seize critically endangered turtles at Schiphol airport",
           "published": "2026-11-27T10:37:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T15:38:13+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
-          "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
-          "published": "2026-11-27T15:15:36+00:00"
         }
       ],
       "consensus": 2.5
@@ -219,22 +273,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-      "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-      "source": "The Independent",
-      "published": "2026-11-27T15:11:37+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
-          "title": "Kenyan starvation cult leader convicted of radicalisation",
-          "published": "2026-11-27T13:06:41+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
       "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
       "source": "Africanews",
@@ -249,24 +287,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
-      "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
-      "source": "The Independent",
-      "published": "2026-11-27T16:21:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Senegalese migrants risk deadly Atlantic crossing in search of a better life",
-      "url": "http://www.africanews.com/2026/11/27/senegalese-migrants-risk-deadly-atlantic-crossing-in-search-of-a-better-life/",
-      "source": "Africanews",
-      "published": "2026-11-27T16:15:53+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -275,13 +295,19 @@
       "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
       "source": "Africanews",
       "published": "2026-11-27T13:21:05+00:00",
-      "score": 6,
+      "score": 7,
       "other_sources": [
         {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
           "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
           "published": "2026-11-27T11:51:26+00:00"
+        },
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+          "title": "Kuwait: Two Italians killed in drone attack",
+          "published": "2026-11-27T11:45:48+00:00"
         },
         {
           "source": "SCMP",
@@ -308,7 +334,7 @@
           "published": "2026-11-26T16:03:57+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 9.0
     },
     {
       "title": "Mushroom murderer Erin Patterson files last-ditch appeal in the High Court",
@@ -417,6 +443,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Saudi strike kills 11 in Yemen, reports Houthi media",
+      "url": "https://www.thehindu.com/news/international/saudi-strike-kills-11-in-yemen-reports-houthi-media/article71752134.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T16:48:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media?traffic_source=rss",
+          "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
+          "published": "2026-11-27T12:00:22+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Zelenskyy says Trump's relationship with Putin like being friends with Hitler",
       "url": "https://www.abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062",
       "source": "ABC Australia",
@@ -428,6 +470,22 @@
           "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
           "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
           "published": "2026-11-27T09:22:39+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam",
+      "url": "https://www.france24.com/en/video/20261127-israel-s-eisenkot-reaches-deal-with-left-wing-faction-as-coalition-talks-gain-steam",
+      "source": "France24",
+      "published": "2026-11-27T11:36:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/israels-gadi-eisenkot-reaches-deal-with-left-wing-parties/article71747775.ece",
+          "title": "Israel's Gadi Eisenkot reaches deal with left-wing parties",
+          "published": "2026-11-26T16:16:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -689,38 +747,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-      "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
-      "source": "Japan Times",
-      "published": "2026-11-27T04:51:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
-          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-          "published": "2026-11-27T04:36:56+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "President Donald Trump insists Nvidia CEO not a security threat",
-      "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T04:42:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/donald-trump-jensen-huang-nvidia-security-threat-6586401",
-          "title": "Trump insists Nvidia CEO not a security threat",
-          "published": "2026-11-27T01:57:58+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
       "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
       "source": "SCMP",
@@ -753,127 +779,127 @@
       "consensus": 2.0
     },
     {
-      "title": "National needs NZ First, ACT and Opportunity to govern. Here's what to expect from coalition talks",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2844966/national-needs-nz-first-act-and-opportunity-to-govern-here-s-what-to-expect-from-coalition-talks",
-      "source": "RNZ",
-      "published": "2026-11-27T16:15:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Guinea-Bissau's military government defends postponement of elections",
-      "url": "http://www.africanews.com/2026/11/27/guinea-bissaus-military-government-defends-postponement-of-elections/",
-      "source": "Africanews",
-      "published": "2026-11-27T16:13:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump backs Iraqi PM’s oil smuggling crackdown",
-      "url": "https://www.aljazeera.com/news/2026/11/27/trump-backs-iraqi-pms-oil-smuggling-crackdown?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T16:13:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T16:06:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Staffer sues after he being detained for leaving his gym bag in Philadelphia City Hall that prompted bomb scare",
-      "url": "https://www.independent.co.uk/news/world/americas/philadelphia-staffer-sues-bomb-scare-b3092881.html",
-      "source": "The Independent",
-      "published": "2026-11-27T16:05:23+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Justice Ministry Designates Left-Wing Media Outlet Rabkor as ‘Foreign Agent’",
-      "url": "https://www.themoscowtimes.com/2026/11/27/justice-ministry-designates-left-wing-media-outlet-rabkor-as-foreign-agent-a812396",
-      "source": "The Moscow Times",
-      "published": "2026-11-27T16:05:05+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Organised criminals behind suspected tear gas attack at Manchester Don Toliver gig",
-      "url": "https://www.independent.co.uk/news/uk/home-news/don-toliver-coop-live-unknown-substance-b3092896.html",
-      "source": "The Independent",
-      "published": "2026-11-27T16:02:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Gloriavale trust appeals loss of charity status for serious wrongdoing",
-      "url": "https://www.rnz.co.nz/news/crime-and-justice/2844741/gloriavale-trust-appeals-loss-of-charity-status-for-serious-wrongdoing",
-      "source": "RNZ",
-      "published": "2026-11-27T16:02:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Christopher Luxon’s Opportunity U-turn is the real ‘MMP special’",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2844739/christopher-luxon-s-opportunity-u-turn-is-the-real-mmp-special",
-      "source": "RNZ",
-      "published": "2026-11-27T16:02:27+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T16:01:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-admin-venezuela-iraq-oil-ope-b3092708.html",
-      "source": "The Independent",
-      "published": "2026-11-27T16:00:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Brazil pushes back on Macron calling its meat 'doped'",
-      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T15:54:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Le Pen backs Bardella in anti-Semitism row and vows to curb investigative media",
-      "url": "https://www.rfi.fr/en/france/20261127-le-pen-backs-bardella-in-anti-semitism-row-and-vows-to-curb-investigative-media",
+      "title": "Housing and migration shape Spanish election as far right eyes power",
+      "url": "https://www.rfi.fr/en/international/20261127-housing-and-migration-shape-spanish-election-as-far-right-eyes-power-vox-sanchez",
       "source": "RFI English",
-      "published": "2026-11-27T15:42:50+00:00",
+      "published": "2026-11-27T17:00:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Serbia’s student-led movement nominates chemistry professor for presidency",
-      "url": "https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency?traffic_source=rss",
+      "title": "Divisions deepen between EU member states after tense budget summit",
+      "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-27T16:51:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Syria debates citizenship rights for children of foreign fighters",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_syria-mulls-citizenship-children-foreign-fighters-271126?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-27T15:26:50+00:00",
+      "published": "2026-11-27T16:47:35+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Vietnam War veterans group ditches Trump in legal battle over triumphal DC arch",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dc-arch-vietnam-war-veterans-amicus-brief-b3092899.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:47:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Asia and Europe stocks rally after volatile week",
+      "url": "https://www.france24.com/en/video/20261127-asia-and-europe-stocks-rally-after-volatile-week",
+      "source": "France24",
+      "published": "2026-11-27T16:43:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Allstate becomes the latest company hit by extended tech outage",
+      "url": "https://www.independent.co.uk/news/world/americas/allstate-outage-disruption-technology-thanksgiving-b3092911.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:42:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "More than 57,000 granted UK permanent residence via BN(O) route in year to September",
+      "url": "https://www.scmp.com/news/hong-kong/politics/article/3376100/more-57000-granted-uk-permanent-residence-bno-route-year-september",
+      "source": "SCMP",
+      "published": "2026-11-27T16:38:31+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Turkey summons Georgian envoy after football fans' pro-Palestine protest sparks clashes",
+      "url": "https://www.france24.com/en/sport/20261127-turkey-summons-georgian-envoy-after-football-fans-pro-palestine-protest-sparks-clashes",
+      "source": "France24",
+      "published": "2026-11-27T16:37:29+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Sierra Leone: Maternal deaths fall as healthcare improves, but challenges remain",
+      "url": "https://www.france24.com/en/video/20261127-sierra-leone-maternal-deaths-fall-as-healthcare-improves-but-challenges-remain",
+      "source": "France24",
+      "published": "2026-11-27T16:37:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "France: Macron lashes out at Le Pen’s ‘arrogance’",
+      "url": "https://www.france24.com/en/video/20261127-france-macron-lashes-out-at-le-pen-s-arrogance",
+      "source": "France24",
+      "published": "2026-11-27T16:35:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russia Accuses Latvia of Obstructing Grain Transit, Aiding Ukrainian Drone Attacks",
+      "url": "https://www.themoscowtimes.com/2026/11/27/russia-accuses-latvia-of-obstructing-grain-transit-aiding-ukrainian-drone-a812399",
+      "source": "The Moscow Times",
+      "published": "2026-11-27T16:33:41+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Israel’s Eisenkot accuses Netanyahu’s party of stalling coalition talks",
+      "url": "https://www.aljazeera.com/news/2026/11/27/israels-eisenkot-accuses-netanyahus-party-of-stalling-coalition-talks?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T16:33:21+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "DR Congo: Copper reserves put Africa at the centre of the global race for critical minerals",
+      "url": "https://www.france24.com/en/video/20261127-dr-congo-copper-reserves-put-africa-at-the-centre-of-the-global-race-for-critical-minerals",
+      "source": "France24",
+      "published": "2026-11-27T16:30:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
+      "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:21:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -882,34 +908,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7271.3,
+      "price": 7282.28,
       "currency": "USD",
-      "change": 88.52,
-      "change_percent": 1.23,
+      "change": 99.5,
+      "change_percent": 1.39,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 137.9,
+      "price": 138.2,
       "currency": "GBP",
-      "change": 1.1,
-      "change_percent": 0.8,
+      "change": 1.4,
+      "change_percent": 1.02,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23979.06,
+      "price": 24018.87,
       "currency": "USD",
-      "change": 393.26,
-      "change_percent": 1.67,
+      "change": 433.06,
+      "change_percent": 1.84,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10702.4,
+      "price": 10698.81,
       "currency": "GBP",
-      "change": 93.1,
-      "change_percent": 0.88,
+      "change": 89.51,
+      "change_percent": 0.84,
       "name": "FTSE 100"
     }
   ],
@@ -917,34 +943,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7271.3,
+        "price": 7282.28,
         "currency": "USD",
-        "change": 88.52,
-        "change_percent": 1.23,
+        "change": 99.5,
+        "change_percent": 1.39,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10702.4,
+        "price": 10698.81,
         "currency": "GBP",
-        "change": 93.1,
-        "change_percent": 0.88,
+        "change": 89.51,
+        "change_percent": 0.84,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50693.48,
+        "price": 50750.37,
         "currency": "USD",
-        "change": 510.53,
-        "change_percent": 1.02,
+        "change": 567.42,
+        "change_percent": 1.13,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23979.06,
+        "price": 24018.87,
         "currency": "USD",
-        "change": 393.26,
-        "change_percent": 1.67,
+        "change": 433.06,
+        "change_percent": 1.84,
         "name": "NASDAQ Composite"
       },
       {
@@ -957,44 +983,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25430.0,
+        "price": 25441.24,
         "currency": "EUR",
-        "change": 214.48,
-        "change_percent": 0.85,
+        "change": 225.72,
+        "change_percent": 0.9,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8162.36,
+        "price": 8156.09,
         "currency": "EUR",
-        "change": 53.62,
-        "change_percent": 0.66,
+        "change": 47.35,
+        "change_percent": 0.58,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3646.9,
+        "price": 3658.2,
         "currency": "USD",
-        "change": 82.3,
-        "change_percent": 2.31,
+        "change": 93.6,
+        "change_percent": 2.63,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 43.57,
+        "price": 43.78,
         "currency": "USD",
-        "change": 3.03,
-        "change_percent": 7.48,
+        "change": 3.24,
+        "change_percent": 8.0,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.5,
+        "price": 90.01,
         "currency": "USD",
-        "change": -0.14,
-        "change_percent": -0.15,
+        "change": -0.63,
+        "change_percent": -0.7,
         "name": "Brent Crude"
       },
       {
@@ -1002,7 +1028,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.33,
+        "change_percent": -0.3,
         "name": "EUR/USD"
       },
       {
@@ -1010,81 +1036,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.1,
+        "change_percent": -0.05,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.55,
+        "price": 159.51,
         "currency": "JPY",
-        "change": 0.32,
-        "change_percent": 0.2,
+        "change": 0.28,
+        "change_percent": 0.18,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 60003.57,
+        "price": 59855.39,
         "currency": "USD",
-        "change": -492.38,
-        "change_percent": -0.81,
+        "change": -640.56,
+        "change_percent": -1.06,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 490.26,
+        "price": 491.19,
         "currency": "USD",
-        "change": 0.33,
-        "change_percent": 0.07,
+        "change": 1.26,
+        "change_percent": 0.26,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 357.42,
+        "price": 357.95,
         "currency": "USD",
-        "change": 1.84,
-        "change_percent": 0.52,
+        "change": 2.37,
+        "change_percent": 0.67,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 148.75,
+        "price": 149.0,
         "currency": "USD",
-        "change": -0.55,
-        "change_percent": -0.37,
+        "change": -0.3,
+        "change_percent": -0.2,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 273.32,
+        "price": 273.5,
         "currency": "USD",
-        "change": 0.22,
-        "change_percent": 0.08,
+        "change": 0.4,
+        "change_percent": 0.15,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 253.9,
+        "price": 253.66,
         "currency": "USD",
-        "change": 9.47,
-        "change_percent": 3.87,
+        "change": 9.23,
+        "change_percent": 3.78,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 397.69,
+        "price": 399.5,
         "currency": "USD",
-        "change": 17.55,
-        "change_percent": 4.62,
+        "change": 19.36,
+        "change_percent": 5.09,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 632.0,
+        "price": 629.93,
         "currency": "USD",
-        "change": 22.11,
-        "change_percent": 3.63,
+        "change": 20.04,
+        "change_percent": 3.29,
         "name": "Meta"
       }
     ]
@@ -1197,22 +1223,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "US tech stocks rise in latest market swing",
-          "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-          "published": "2026-11-27T16:16:00+00:00",
-          "snippet": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings"
+          "title": "Mélenchon takes aim at Germany in Berlin campaign stop",
+          "url": "https://www.ft.com/content/6689598a-47f2-41b3-92d7-e5c234914c5b?syn-25a6b1a6=1",
+          "published": "2026-11-27T16:45:39+00:00",
+          "snippet": "Far-left presidential candidate has increased his attacks on France’s neighbour and closest ally"
         },
         {
-          "title": "Russia set to criminalise sharing information about Ukrainian strikes",
-          "url": "https://www.ft.com/content/53a48a14-eadf-4fe3-bd33-9facd4c90266?syn-25a6b1a6=1",
-          "published": "2026-11-27T15:16:07+00:00",
-          "snippet": "Moscow looks to extend wartime crackdown to pro-war bloggers and regular citizens posting about Kyiv’s drones hitting oil refineries"
+          "title": "UK Department for Work and Pensions hit by cyber incident",
+          "url": "https://www.ft.com/content/59a87442-51ad-47b7-ba11-e36876456fd4?syn-25a6b1a6=1",
+          "published": "2026-11-27T16:44:31+00:00",
+          "snippet": "Agency says it has taken most of its online services down as it investigates possible attack"
         },
         {
-          "title": "From Jobs to Jensen: tech’s metamorphosis",
-          "url": "https://www.ft.com/content/5b10a0e6-aad6-403b-9f2e-23b5ca78897d",
-          "published": "2026-11-27T15:10:17+00:00",
-          "snippet": "The Nvidia saga is part of a bigger, stranger story about Silicon Valley’s political transformation"
+          "title": "AI caramba",
+          "url": "https://www.ft.com/content/9c54e827-3786-4bad-ae06-f9a3f31fcab5",
+          "published": "2026-11-27T16:30:05+00:00",
+          "snippet": "We may need to start thinking about the impact a bear market in US tech stocks would have on the real economy"
         }
       ]
     },
@@ -1222,22 +1248,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Welcome to the New Spy Craze",
+          "title": "Jared Kushner’s Strategic Pixie Dust",
+          "url": "https://www.theatlantic.com/ideas/2026/11/kushner-ukraine/689599/?utm_source=feed",
+          "published": "2026-11-27T16:47:00+00:00",
+          "snippet": "Deterrence is the by-product of the will and ability to fight—not a substitute for those qualities."
+        },
+        {
+          "title": "The Good Old Days of American Spy Movies and TV",
           "url": "https://www.theatlantic.com/newsletters/2026/11/old-new-spy-movies-tv/689594/?utm_source=feed",
           "published": "2026-11-27T15:30:00+00:00",
-          "snippet": "But don’t forget the old one—it was more fun."
+          "snippet": "The heyday of pop-spy mania is well worth revisiting."
         },
         {
           "title": "What We Got Wrong About Comas",
           "url": "https://www.theatlantic.com/science/2026/11/coma-consciousness/689574/?utm_source=feed",
           "published": "2026-11-27T13:00:00+00:00",
           "snippet": "Some patients may be aware of what’s being said around them."
-        },
-        {
-          "title": "Why College Towns Are Booming",
-          "url": "https://www.theatlantic.com/ideas/2026/11/housing-yimby-college-towns/689596/?utm_source=feed",
-          "published": "2026-11-27T12:00:00+00:00",
-          "snippet": "Their evolution from NIMBY holdouts to YIMBY hotbeds is a testament to the left’s extraordinary shift on housing."
         }
       ]
     },
@@ -1320,10 +1346,18 @@
   "web": {
     "tech": [
       {
+        "title": "Pop!_OS 26.04 LTS Has Landed",
+        "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
+        "comments_url": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
+        "score": 3,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:42:50.585000+00:00"
+      },
+      {
         "title": "Build your own Paint",
         "url": "https://www.buildyourownpaint.com/en",
         "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
-        "score": 2,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
       },
@@ -1331,7 +1365,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       },
@@ -1339,51 +1373,44 @@
         "title": "The State of Allocators in 2026 - Finally Stabilised",
         "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
         "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
-        "score": 2,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:09:11.598000+00:00"
       },
       {
         "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
         "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-        "score": 26,
+        "score": 61,
         "source": "Hacker News",
         "published": "2026-11-27T15:40:31+00:00"
       },
       {
         "title": "False Computer-Checked Proofs",
         "url": "https://cr.yp.to/proofs/falseccp.html",
-        "score": 15,
+        "score": 37,
         "source": "Hacker News",
         "published": "2026-11-27T15:26:09+00:00"
       },
       {
         "title": "GPT 6.2 Astra Solves a Historical Mystery",
         "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-        "score": 56,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-27T15:03:17+00:00"
       },
       {
         "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
         "url": "https://bouncemarket.minhanhday.com/",
-        "score": 106,
+        "score": 159,
         "source": "Hacker News",
         "published": "2026-11-27T15:01:50+00:00"
       },
       {
         "title": "Making a 3D fantasy map like a 16th-Century atlas",
         "url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
-        "score": 8,
+        "score": 14,
         "source": "Hacker News",
         "published": "2026-11-27T14:02:52+00:00"
-      },
-      {
-        "title": "She Reported Her Sexual Assault. The Marine Corps Kicked Her Out",
-        "url": "https://thewarhorse.org/marine-corps-administrative-separation-after-sexual-assault/",
-        "score": 38,
-        "source": "Hacker News",
-        "published": "2026-11-27T13:06:34+00:00"
       },
       {
         "title": "Exception Best Practices",
@@ -1396,21 +1423,21 @@
       {
         "title": "Mental Health Resources and Political Engagement",
         "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
-        "score": 87,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-27T13:01:02+00:00"
       },
       {
         "title": "US Air Force's cloud computing platform hacked",
         "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-        "score": 158,
+        "score": 176,
         "source": "Hacker News",
         "published": "2026-11-27T12:54:11+00:00"
       },
       {
         "title": "New York and California age gating rules go into effect in the new year",
         "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-        "score": 100,
+        "score": 115,
         "source": "Hacker News",
         "published": "2026-11-27T12:43:40+00:00"
       },
@@ -1425,7 +1452,7 @@
       {
         "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
         "url": "https://eprint.iacr.org/2026/3020.pdf",
-        "score": 161,
+        "score": 168,
         "source": "Hacker News",
         "published": "2026-11-27T12:08:51+00:00"
       }

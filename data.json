@@ -1,227 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T16:01:07.704505+00:00",
+  "last_updated": "2026-11-27T16:30:57.735247+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 629
+      "ms": 417
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 239
+      "ms": 165
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 420
+      "ms": 141
     },
     "BBC News": {
       "ok": true,
-      "count": 29,
+      "count": 31,
       "error": null,
-      "ms": 119
+      "ms": 166
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 376
+      "ms": 318
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 338
+      "ms": 453
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 841
+      "ms": 673
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 287
+      "ms": 300
     },
     "Euronews": {
-      "ok": true,
-      "count": 45,
-      "error": null,
-      "ms": 102
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3205
     },
     "France24": {
-      "ok": true,
-      "count": 24,
-      "error": null,
-      "ms": 441
+      "ok": false,
+      "count": 0,
+      "error": "403 Client Error: Forbidden for url: https://www.france24.com/en/rss",
+      "ms": 3138
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 722
+      "ms": 376
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 179
+      "ms": 405
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 346
+      "ms": 365
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 215
+      "ms": 125
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 420
+      "ms": 289
     },
     "RNZ": {
       "ok": true,
-      "count": 51,
+      "count": 50,
       "error": null,
-      "ms": 303
+      "ms": 396
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 657
+      "ms": 679
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 443
+      "ms": 486
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 540
+      "ms": 738
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 357
+      "ms": 321
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3159
+      "ms": 3231
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 113
+      "ms": 173
     },
     "The Independent": {
       "ok": true,
-      "count": 46,
+      "count": 45,
       "error": null,
-      "ms": 170
+      "ms": 193
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 91
+      "ms": 176
     }
   },
   "breaking": [
-    {
-      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
-      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
-      "source": "Africanews",
-      "published": "2026-11-27T13:21:05+00:00",
-      "score": 8,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
-          "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
-          "published": "2026-11-27T11:51:26+00:00"
-        },
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
-          "title": "Kuwait: Two Italians killed in drone attack",
-          "published": "2026-11-27T11:45:48+00:00"
-        },
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-          "published": "2026-11-27T10:20:33+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
-          "title": "Iran denies role in drone attack that killed Italians in Kuwait",
-          "published": "2026-11-27T02:28:47+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
-          "title": "Two Italians killed in drone attack in Kuwait",
-          "published": "2026-11-26T23:39:13+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
-          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
-          "published": "2026-11-26T18:11:38+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
-          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
-          "published": "2026-11-26T16:03:57+00:00"
-        }
-      ],
-      "consensus": 9.0
-    },
-    {
-      "title": "Duterte's ICC trial: What is at stake for the Philippines?",
-      "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T13:23:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376071/philippines-sara-duterte-says-she-does-not-expect-fair-icc-trial-her-father",
-          "title": "Philippines’ Sara Duterte says she does not expect fair ICC trial for her father",
-          "published": "2026-11-27T10:49:52+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/explainer-rodrigo-dutertes-icc-trial-what-to-know",
-          "title": "Explainer-Rodrigo Duterte's ICC trial: What to know",
-          "published": "2026-11-27T09:52:24+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
     {
       "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
       "url": "https://www.thehindu.com/news/international/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/article71750783.ece",
@@ -323,9 +249,67 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
+      "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:21:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Senegalese migrants risk deadly Atlantic crossing in search of a better life",
+      "url": "http://www.africanews.com/2026/11/27/senegalese-migrants-risk-deadly-atlantic-crossing-in-search-of-a-better-life/",
+      "source": "Africanews",
+      "published": "2026-11-27T16:15:53+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
+    {
+      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
+      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
+      "source": "Africanews",
+      "published": "2026-11-27T13:21:05+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility?traffic_source=rss",
+          "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+          "published": "2026-11-27T11:51:26+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+          "title": "Iran denies role in drone attack that killed Italians in Kuwait",
+          "published": "2026-11-27T02:28:47+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
+          "title": "Two Italians killed in drone attack in Kuwait",
+          "published": "2026-11-26T23:39:13+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
+          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
+          "published": "2026-11-26T18:11:38+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
+          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
+          "published": "2026-11-26T16:03:57+00:00"
+        }
+      ],
+      "consensus": 7.5
+    },
     {
       "title": "Mushroom murderer Erin Patterson files last-ditch appeal in the High Court",
       "url": "https://www.independent.co.uk/news/world/australasia/high-court-mushroom-killer-erin-patterson-appeal-b3092595.html",
@@ -361,34 +345,6 @@
       "consensus": 6.0
     },
     {
-      "title": "Live: Trump calls on Putin to end all 'military aggression' against Europe",
-      "url": "https://www.france24.com/en/europe/20261127-live-trump-calls-on-putin-to-end-all-military-aggression-against-europe",
-      "source": "France24",
-      "published": "2026-11-27T10:22:42+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/donald-trump-urges-vladimir-putin-to-end-military-aggression-in-europe/article71749343.ece",
-          "title": "Donald Trump urges Vladimir Putin to end ‘military aggression’ in Europe",
-          "published": "2026-11-27T07:51:27+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
-          "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
-          "published": "2026-11-27T03:12:46+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
-          "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
-          "published": "2026-11-26T16:40:00+00:00"
-        }
-      ],
-      "consensus": 4.5
-    },
-    {
       "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
       "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html",
       "source": "The Independent",
@@ -417,26 +373,26 @@
       "consensus": 4.5
     },
     {
-      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-      "source": "NPR World",
-      "published": "2026-11-26T13:31:28+00:00",
+      "title": "Duterte's ICC trial: What is at stake for the Philippines?",
+      "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-27T13:23:00+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
-          "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
-          "published": "2026-11-26T05:55:00+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376071/philippines-sara-duterte-says-she-does-not-expect-fair-icc-trial-her-father",
+          "title": "Philippines’ Sara Duterte says she does not expect fair ICC trial for her father",
+          "published": "2026-11-27T10:49:52+00:00"
         },
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
-          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-          "published": "2026-11-26T04:35:38+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/explainer-rodrigo-dutertes-icc-trial-what-to-know",
+          "title": "Explainer-Rodrigo Duterte's ICC trial: What to know",
+          "published": "2026-11-27T09:52:24+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 3.5
     },
     {
       "title": "South Korea repatriates six North Koreans rescued from drifting boat",
@@ -461,22 +417,6 @@
       "consensus": 3.0
     },
     {
-      "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
-      "url": "https://www.npr.org/2026/11/27/nx-s1-6055559/gerard-depardieu-trial-rape-france",
-      "source": "NPR World",
-      "published": "2026-11-27T11:49:50+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-rape-trial-metoo-b3092287.html",
-          "title": "Gérard Depardieu ordered to stand trial for rape",
-          "published": "2026-11-26T16:01:25+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Zelenskyy says Trump's relationship with Putin like being friends with Hitler",
       "url": "https://www.abc.net.au/news/2026-11-27/zelenskyy-says-trump-putin-relationship-like-being-friend-hitler/107437062",
       "source": "ABC Australia",
@@ -488,22 +428,6 @@
           "url": "https://www.scmp.com/news/world/europe/article/3376046/zelensky-says-trump-calling-putin-my-friend-being-buddies-hitler-wwii",
           "title": "Zelensky says Trump calling Putin ‘my friend’ is like being buddies with Hitler in WWII",
           "published": "2026-11-27T09:22:39+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam",
-      "url": "https://www.france24.com/en/video/20261127-israel-s-eisenkot-reaches-deal-with-left-wing-faction-as-coalition-talks-gain-steam",
-      "source": "France24",
-      "published": "2026-11-27T11:36:33+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/israels-gadi-eisenkot-reaches-deal-with-left-wing-parties/article71747775.ece",
-          "title": "Israel's Gadi Eisenkot reaches deal with left-wing parties",
-          "published": "2026-11-26T16:16:44+00:00"
         }
       ],
       "consensus": 2.5
@@ -573,22 +497,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Storms on both US coasts leave 840,000 without power and disrupt Thanksgiving travel",
-      "url": "https://en.mercopress.com/2026/11/26/storms-on-both-us-coasts-leave-840-000-without-power-and-disrupt-thanksgiving-travel?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-26T22:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-          "published": "2026-11-26T21:57:53+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "UK net migration falls to three-decade low",
       "url": "https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
       "source": "Semafor",
@@ -637,6 +545,22 @@
       "consensus": 2.5
     },
     {
+      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+      "source": "NPR World",
+      "published": "2026-11-26T13:31:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "published": "2026-11-26T04:35:38+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
       "url": "https://www.cbc.ca/news/world/fedex-plane-miami-overrun-runway-9.7436760?cmp=rss",
       "source": "CBC World",
@@ -653,17 +577,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
-      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
-      "source": "Euronews",
-      "published": "2026-11-26T09:30:05+00:00",
+      "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
+      "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+      "source": "The Hindu",
+      "published": "2026-11-26T06:26:42+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
-          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
-          "published": "2026-11-26T06:26:42+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/egypt-fire-petroleum-vehicle-overturns-9.7436271?cmp=rss",
+          "title": "At least 31 dead after fuel tanker fire in Egypt",
+          "published": "2026-11-25T22:05:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -797,6 +721,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
+      "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
+      "source": "SCMP",
+      "published": "2026-11-27T03:12:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
+          "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
+          "published": "2026-11-26T16:40:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Ebola cases reach 12,000 in Congo as second-largest outbreak on record grows",
       "url": "https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970?cmp=rss",
       "source": "CBC World",
@@ -813,122 +753,109 @@
       "consensus": 2.0
     },
     {
-      "title": "Iraq sentences eight French nationals to life for joining Islamic State",
-      "url": "https://www.euronews.com/2026/11/26/iraq-sentences-eight-french-nationals-to-life-for-joining-islamic-state",
-      "source": "Euronews",
-      "published": "2026-11-26T15:07:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261126-iraq-sentences-eight-french-islamic-state-members-to-life-as-prosecutions-continue",
-          "title": "Iraq sentences eight French Islamic State members to life as prosecutions continue",
-          "published": "2026-11-26T14:04:12+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "National needs NZ First, ACT and Opportunity to govern. Here's what to expect from coalition talks",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2844966/national-needs-nz-first-act-and-opportunity-to-govern-here-s-what-to-expect-from-coalition-talks",
+      "source": "RNZ",
+      "published": "2026-11-27T16:15:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
-      "url": "http://www.africanews.com/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary/",
+      "title": "Guinea-Bissau's military government defends postponement of elections",
+      "url": "http://www.africanews.com/2026/11/27/guinea-bissaus-military-government-defends-postponement-of-elections/",
       "source": "Africanews",
-      "published": "2026-11-27T14:48:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
-          "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
-          "published": "2026-11-27T14:48:42+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "published": "2026-11-27T16:13:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
-      "url": "http://www.africanews.com/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match/",
-      "source": "Africanews",
-      "published": "2026-11-27T10:04:24+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match",
-          "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
-          "published": "2026-11-27T10:04:15+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Trump backs Iraqi PM’s oil smuggling crackdown",
+      "url": "https://www.aljazeera.com/news/2026/11/27/trump-backs-iraqi-pms-oil-smuggling-crackdown?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T16:13:07+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-      "url": "http://www.africanews.com/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink/",
-      "source": "Africanews",
-      "published": "2026-11-27T08:08:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink",
-          "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-          "published": "2026-11-27T08:08:29+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T16:06:37+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Germany: Christmas markets open across the country amid tight security",
-      "url": "http://www.africanews.com/2026/11/26/germany-christmas-markets-open-across-the-country-amid-tight-security/",
-      "source": "Africanews",
-      "published": "2026-11-26T22:05:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/26/germany-christmas-markets-open-across-the-country-amid-tight-security",
-          "title": "Germany: Christmas markets open across the country amid tight security",
-          "published": "2026-11-26T22:05:21+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Staffer sues after he being detained for leaving his gym bag in Philadelphia City Hall that prompted bomb scare",
+      "url": "https://www.independent.co.uk/news/world/americas/philadelphia-staffer-sues-bomb-scare-b3092881.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:05:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "UK: London's Gingerbread City returns with 50 edible architectural creations",
-      "url": "http://www.africanews.com/2026/11/26/uk-londons-gingerbread-city-returns-with-50-edible-architectural-creations/",
-      "source": "Africanews",
-      "published": "2026-11-26T20:37:18+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/26/uk-londons-gingerbread-city-returns-with-50-edible-architectural-creations",
-          "title": "UK: London's Gingerbread City returns with 50 edible architectural creations",
-          "published": "2026-11-26T20:37:07+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Justice Ministry Designates Left-Wing Media Outlet Rabkor as ‘Foreign Agent’",
+      "url": "https://www.themoscowtimes.com/2026/11/27/justice-ministry-designates-left-wing-media-outlet-rabkor-as-foreign-agent-a812396",
+      "source": "The Moscow Times",
+      "published": "2026-11-27T16:05:05+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
-      "url": "https://www.euronews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says",
-      "source": "Euronews",
-      "published": "2026-11-26T10:10:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says/",
-          "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
-          "published": "2026-11-26T10:10:16+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Organised criminals behind suspected tear gas attack at Manchester Don Toliver gig",
+      "url": "https://www.independent.co.uk/news/uk/home-news/don-toliver-coop-live-unknown-substance-b3092896.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:02:50+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Is stubble burning in Punjab affecting Sri Lanka’s air quality?",
-      "url": "https://www.thehindu.com/sci-tech/science/is-stubble-burning-in-punjab-affecting-sri-lankas-air-quality/article71750848.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T15:48:55+00:00",
+      "title": "Gloriavale trust appeals loss of charity status for serious wrongdoing",
+      "url": "https://www.rnz.co.nz/news/crime-and-justice/2844741/gloriavale-trust-appeals-loss-of-charity-status-for-serious-wrongdoing",
+      "source": "RNZ",
+      "published": "2026-11-27T16:02:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Christopher Luxon’s Opportunity U-turn is the real ‘MMP special’",
+      "url": "https://www.rnz.co.nz/news/politics_election-2026/2844739/christopher-luxon-s-opportunity-u-turn-is-the-real-mmp-special",
+      "source": "RNZ",
+      "published": "2026-11-27T16:02:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Jerusalem Daily: Kushner calls Gaza rebuilding ‘act of kindness’",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/jerusalem-daily-kushner-calls-gaza-rebuilding-act-of?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T16:01:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Saudi crown prince stepped in to halt quiet American campaign to break up OPEC oil cartel, sources say",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-admin-venezuela-iraq-oil-ope-b3092708.html",
+      "source": "The Independent",
+      "published": "2026-11-27T16:00:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T15:54:15+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -943,37 +870,10 @@
       "consensus": 1.0
     },
     {
-      "title": "By Putin's logic, Russia should be returned to Mongolia, Belarus' Lukashenka says",
-      "url": "https://www.euronews.com/2026/11/27/by-putins-logic-russia-should-go-back-to-mongolia-belarus-lukashenka-says",
-      "source": "Euronews",
-      "published": "2026-11-27T15:37:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
       "title": "Serbia’s student-led movement nominates chemistry professor for presidency",
       "url": "https://www.aljazeera.com/news/2026/11/27/serbias-student-led-movement-nominates-chemistry-professor-for-presidency?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-27T15:26:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Several GOP senators say they are open to challenging Donald Trump’s tariffs as voter anger over prices grows",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-republicans-democrats-tariffs-canada-b3092879.html",
-      "source": "The Independent",
-      "published": "2026-11-27T15:22:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "John Simpson: Ukraine is bowed but still unbroken as freezing weather sets in",
-      "url": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T15:18:51+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -982,34 +882,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7268.6,
+      "price": 7271.3,
       "currency": "USD",
-      "change": 85.82,
-      "change_percent": 1.19,
+      "change": 88.52,
+      "change_percent": 1.23,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.12,
+      "price": 137.9,
       "currency": "GBP",
-      "change": 1.32,
-      "change_percent": 0.96,
+      "change": 1.1,
+      "change_percent": 0.8,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23968.07,
+      "price": 23979.06,
       "currency": "USD",
-      "change": 382.27,
-      "change_percent": 1.62,
+      "change": 393.26,
+      "change_percent": 1.67,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10704.86,
+      "price": 10702.4,
       "currency": "GBP",
-      "change": 95.56,
-      "change_percent": 0.9,
+      "change": 93.1,
+      "change_percent": 0.88,
       "name": "FTSE 100"
     }
   ],
@@ -1017,34 +917,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7268.6,
+        "price": 7271.3,
         "currency": "USD",
-        "change": 85.82,
-        "change_percent": 1.19,
+        "change": 88.52,
+        "change_percent": 1.23,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10704.86,
+        "price": 10702.4,
         "currency": "GBP",
-        "change": 95.56,
-        "change_percent": 0.9,
+        "change": 93.1,
+        "change_percent": 0.88,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50686.64,
+        "price": 50693.48,
         "currency": "USD",
-        "change": 503.69,
-        "change_percent": 1.0,
+        "change": 510.53,
+        "change_percent": 1.02,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23968.07,
+        "price": 23979.06,
         "currency": "USD",
-        "change": 382.27,
-        "change_percent": 1.62,
+        "change": 393.26,
+        "change_percent": 1.67,
         "name": "NASDAQ Composite"
       },
       {
@@ -1057,44 +957,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25442.45,
+        "price": 25430.0,
         "currency": "EUR",
-        "change": 226.93,
-        "change_percent": 0.9,
+        "change": 214.48,
+        "change_percent": 0.85,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8165.91,
+        "price": 8162.36,
         "currency": "EUR",
-        "change": 57.17,
-        "change_percent": 0.71,
+        "change": 53.62,
+        "change_percent": 0.66,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3655.8,
+        "price": 3646.9,
         "currency": "USD",
-        "change": 91.2,
-        "change_percent": 2.56,
+        "change": 82.3,
+        "change_percent": 2.31,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 43.81,
+        "price": 43.57,
         "currency": "USD",
-        "change": 3.27,
-        "change_percent": 8.07,
+        "change": 3.03,
+        "change_percent": 7.48,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 90.73,
+        "price": 90.5,
         "currency": "USD",
-        "change": 0.09,
-        "change_percent": 0.1,
+        "change": -0.14,
+        "change_percent": -0.15,
         "name": "Brent Crude"
       },
       {
@@ -1102,7 +1002,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.3,
+        "change_percent": -0.33,
         "name": "EUR/USD"
       },
       {
@@ -1110,7 +1010,7 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.05,
+        "change_percent": -0.1,
         "name": "GBP/USD"
       },
       {
@@ -1123,68 +1023,68 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59963.19,
+        "price": 60003.57,
         "currency": "USD",
-        "change": -532.76,
-        "change_percent": -0.88,
+        "change": -492.38,
+        "change_percent": -0.81,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 491.42,
+        "price": 490.26,
         "currency": "USD",
-        "change": 1.49,
-        "change_percent": 0.3,
+        "change": 0.33,
+        "change_percent": 0.07,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 359.39,
+        "price": 357.42,
         "currency": "USD",
-        "change": 3.81,
-        "change_percent": 1.07,
+        "change": 1.84,
+        "change_percent": 0.52,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 147.41,
+        "price": 148.75,
         "currency": "USD",
-        "change": -1.89,
-        "change_percent": -1.27,
+        "change": -0.55,
+        "change_percent": -0.37,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 272.74,
+        "price": 273.32,
         "currency": "USD",
-        "change": -0.36,
-        "change_percent": -0.13,
+        "change": 0.22,
+        "change_percent": 0.08,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 254.03,
+        "price": 253.9,
         "currency": "USD",
-        "change": 9.6,
-        "change_percent": 3.93,
+        "change": 9.47,
+        "change_percent": 3.87,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 398.36,
+        "price": 397.69,
         "currency": "USD",
-        "change": 18.22,
-        "change_percent": 4.79,
+        "change": 17.55,
+        "change_percent": 4.62,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 634.43,
+        "price": 632.0,
         "currency": "USD",
-        "change": 24.54,
-        "change_percent": 4.02,
+        "change": 22.11,
+        "change_percent": 3.63,
         "name": "Meta"
       }
     ]
@@ -1299,7 +1199,7 @@
         {
           "title": "US tech stocks rise in latest market swing",
           "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-          "published": "2026-11-27T15:17:23+00:00",
+          "published": "2026-11-27T16:16:00+00:00",
           "snippet": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings"
         },
         {
@@ -1420,23 +1320,68 @@
   "web": {
     "tech": [
       {
+        "title": "Build your own Paint",
+        "url": "https://www.buildyourownpaint.com/en",
+        "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:22:36.766000+00:00"
+      },
+      {
+        "title": "Hard Drive pricing has gotten bad",
+        "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+        "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:15:23.956000+00:00"
+      },
+      {
+        "title": "The State of Allocators in 2026 - Finally Stabilised",
+        "url": "https://cetra3.github.io/blog/state-of-allocators-2026-finally-stabilised/",
+        "comments_url": "https://lobste.rs/s/u746hs/state_allocators_2026_finally",
+        "score": 2,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:09:11.598000+00:00"
+      },
+      {
+        "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+        "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+        "score": 26,
+        "source": "Hacker News",
+        "published": "2026-11-27T15:40:31+00:00"
+      },
+      {
+        "title": "False Computer-Checked Proofs",
+        "url": "https://cr.yp.to/proofs/falseccp.html",
+        "score": 15,
+        "source": "Hacker News",
+        "published": "2026-11-27T15:26:09+00:00"
+      },
+      {
         "title": "GPT 6.2 Astra Solves a Historical Mystery",
         "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-        "score": 27,
+        "score": 56,
         "source": "Hacker News",
         "published": "2026-11-27T15:03:17+00:00"
       },
       {
         "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
         "url": "https://bouncemarket.minhanhday.com/",
-        "score": 56,
+        "score": 106,
         "source": "Hacker News",
         "published": "2026-11-27T15:01:50+00:00"
       },
       {
+        "title": "Making a 3D fantasy map like a 16th-Century atlas",
+        "url": "https://www.spritefusion.com/blog/making-a-fantasy-map-like-a-16th-century-atlas",
+        "score": 8,
+        "source": "Hacker News",
+        "published": "2026-11-27T14:02:52+00:00"
+      },
+      {
         "title": "She Reported Her Sexual Assault. The Marine Corps Kicked Her Out",
         "url": "https://thewarhorse.org/marine-corps-administrative-separation-after-sexual-assault/",
-        "score": 16,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-27T13:06:34+00:00"
       },
@@ -1444,28 +1389,28 @@
         "title": "Exception Best Practices",
         "url": "https://www.well-typed.com/blog/2026/11/exception-best-practices/",
         "comments_url": "https://lobste.rs/s/tgihkm/exception_best_practices",
-        "score": 5,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-27T13:05:30.318000+00:00"
       },
       {
         "title": "Mental Health Resources and Political Engagement",
         "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
-        "score": 82,
+        "score": 87,
         "source": "Hacker News",
         "published": "2026-11-27T13:01:02+00:00"
       },
       {
         "title": "US Air Force's cloud computing platform hacked",
         "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-        "score": 135,
+        "score": 158,
         "source": "Hacker News",
         "published": "2026-11-27T12:54:11+00:00"
       },
       {
         "title": "New York and California age gating rules go into effect in the new year",
         "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-        "score": 82,
+        "score": 100,
         "source": "Hacker News",
         "published": "2026-11-27T12:43:40+00:00"
       },
@@ -1473,62 +1418,16 @@
         "title": "An Overview of Go's Tooling: Version 2",
         "url": "https://www.alexedwards.net/blog/an-overview-of-go-tooling-v2",
         "comments_url": "https://lobste.rs/s/twxtcq/overview_go_s_tooling_version_2",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-27T12:22:52.836000+00:00"
       },
       {
         "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
         "url": "https://eprint.iacr.org/2026/3020.pdf",
-        "score": 151,
+        "score": 161,
         "source": "Hacker News",
         "published": "2026-11-27T12:08:51+00:00"
-      },
-      {
-        "title": "Kimi for Science: More scientific ideas, made possible",
-        "url": "https://www.kimi.ai/news/kimi-for-science-program",
-        "score": 107,
-        "source": "Hacker News",
-        "published": "2026-11-27T12:03:11+00:00"
-      },
-      {
-        "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
-        "url": "https://roboticoverlords.org/tinyhat",
-        "comments_url": "https://lobste.rs/s/mbm7xw/tiny_hat_new_linux_distro_dedicated_retro",
-        "score": 25,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T09:11:13.547000+00:00"
-      },
-      {
-        "title": "Claude sabotaging ML research tasks?",
-        "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-        "score": 201,
-        "source": "Hacker News",
-        "published": "2026-11-27T08:28:08+00:00"
-      },
-      {
-        "title": "Pimalaya goes stable",
-        "url": "https://blog.pimalaya.org/pimalaya-goes-stable/",
-        "comments_url": "https://lobste.rs/s/kaj037/pimalaya_goes_stable",
-        "score": 8,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T08:01:31.196000+00:00"
-      },
-      {
-        "title": "Company Culture = Slack Emoji ÷ sqrt(Headcount)",
-        "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "comments_url": "https://lobste.rs/s/fin7at/company_culture_slack_emoji_sqrt",
-        "score": 27,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T07:35:52.312000+00:00"
-      },
-      {
-        "title": "Curb impacts of AI on programming to maintain EU sovereignty",
-        "url": "https://www.draketo.de/software/curb-ai-impact",
-        "comments_url": "https://lobste.rs/s/lmxpfo/curb_impacts_ai_on_programming_maintain",
-        "score": 5,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T07:00:03.110000+00:00"
       }
     ],
     "reddit": [

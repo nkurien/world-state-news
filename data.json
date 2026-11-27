@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T06:01:06.043686+00:00",
+  "last_updated": "2026-11-27T06:30:57.258060+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 253
+      "ms": 297
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 199
+      "ms": 174
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 246
+      "ms": 169
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 152
+      "ms": 258
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 393
+      "ms": 262
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 221
+      "ms": 287
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 515
+      "ms": 544
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 417
+      "ms": 329
     },
     "Euronews": {
       "ok": true,
-      "count": 45,
+      "count": 44,
       "error": null,
-      "ms": 119
+      "ms": 204
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 156
+      "ms": 224
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 383
+      "ms": 648
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 394
+      "ms": 212
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 168
+      "ms": 337
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 247
+      "ms": 170
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 155
+      "ms": 415
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 376
+      "ms": 214
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 610
+      "ms": 535
     },
     "Semafor": {
       "ok": true,
       "count": 249,
       "error": null,
-      "ms": 519
+      "ms": 462
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 864
+      "ms": 567
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 352
+      "ms": 363
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3250
+      "ms": 3295
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 204
+      "ms": 177
     },
     "The Independent": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 193
+      "ms": 160
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 136
+      "ms": 151
     }
   },
   "breaking": [
@@ -227,6 +227,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+      "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+      "source": "NPR World",
+      "published": "2026-11-27T06:12:45+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece",
+          "title": "Strobe Talbott, former Time magazine reporter and Deputy Secretary of State, has died",
+          "published": "2026-11-27T04:58:12+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Ukraine says North ​Korea temporarily halted missile shipments to Russia following ‌diplomatic tensions",
       "url": "https://www.independent.co.uk/news/world/europe/ukraine-north-korea-ballistic-missiles-russia-b3092527.html",
       "source": "The Independent",
@@ -275,26 +291,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
-      "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
-      "source": "SCMP",
-      "published": "2026-11-27T03:12:46+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
-          "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
-          "published": "2026-11-26T16:40:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Election 2026 final results: Election deadlocked as coalition loses majority",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2814808/election-2026-final-results-election-deadlocked-as-coalition-loses-majority",
-      "source": "RNZ",
-      "published": "2026-11-27T05:58:16+00:00",
+      "title": "Danantara unit’s management of RGE’s revoked Indonesia forest concession is temporary, reports say",
+      "url": "https://www.straitstimes.com/asia/se-asia/danantara-units-management-of-rges-revoked-indonesia-forest-concession-is-temporary-reports-say",
+      "source": "Straits Times",
+      "published": "2026-11-27T06:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -334,34 +334,6 @@
         }
       ],
       "consensus": 6.0
-    },
-    {
-      "title": "Musk pledges two SpaceX shares for every US child",
-      "url": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-26T20:19:22+00:00",
-      "score": 4,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/usa/2026-11-26/elon-musk-to-give-two-shares-of-spacex-to-every-child-in-the-us-in-a-deal-worth-18-billion.html",
-          "title": "Elon Musk to give two shares of SpaceX to every child in the US in a deal worth $18 billion",
-          "published": "2026-11-26T14:14:20+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
-          "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
-          "published": "2026-11-26T08:27:03+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/business/musk-pledges-two-spacex-shares-every-american-child-6584096",
-          "title": "Musk pledges two SpaceX shares for every American child",
-          "published": "2026-11-26T04:17:00+00:00"
-        }
-      ],
-      "consensus": 5.0
     },
     {
       "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
@@ -586,6 +558,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Elon Musk to give two shares of SpaceX to every child in the US in a deal worth $18 billion",
+      "url": "https://english.elpais.com/usa/2026-11-26/elon-musk-to-give-two-shares-of-spacex-to-every-child-in-the-us-in-a-deal-worth-18-billion.html",
+      "source": "El País",
+      "published": "2026-11-26T14:14:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
+          "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
+          "published": "2026-11-26T08:27:03+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Senegal parliament denounces president over budget decree",
       "url": "http://www.africanews.com/2026/11/26/senegal-parliament-denounces-president-over-budget-decree/",
       "source": "Africanews",
@@ -730,6 +718,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Major storm batters U.S. on Thanksgiving holiday; 400 flights cancelled",
+      "url": "https://www.thehindu.com/news/international/major-storm-batters-us-on-thanksgiving-holiday-400-flights-cancelled/article71749233.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T06:01:47+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375968/major-storm-batters-us-thanksgiving-holiday-disrupting-flights-and-power",
+          "title": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
+          "published": "2026-11-27T01:44:13+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "President Donald Trump insists Nvidia CEO not a security threat",
       "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
       "source": "The Hindu",
@@ -741,6 +745,22 @@
           "url": "https://www.channelnewsasia.com/world/donald-trump-jensen-huang-nvidia-security-threat-6586401",
           "title": "Trump insists Nvidia CEO not a security threat",
           "published": "2026-11-27T01:57:58+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Trump says he urged Putin to pull back ‘all military aggression’ in Europe",
+      "url": "https://www.scmp.com/news/world/europe/article/3375978/trump-says-he-urged-putin-pull-back-all-military-aggression-europe",
+      "source": "SCMP",
+      "published": "2026-11-27T03:12:46+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/trump-putin-russia-ukraine-military-aggression-europe-6585761",
+          "title": "Trump says he asked Putin to 'pull back' military aggression throughout Europe",
+          "published": "2026-11-26T16:40:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -773,38 +793,6 @@
           "url": "https://www.straitstimes.com/asia/families-of-slain-filipinos-seek-justice-as-dutertes-icc-trial-set-to-start",
           "title": "Families of slain Filipinos seek justice as Duterte's ICC trial set to start",
           "published": "2026-11-27T00:06:57+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Major storm batters U.S. on Thanksgiving holiday; 400 flights cancelled",
-      "url": "https://www.thehindu.com/news/international/major-storm-batters-us-on-thanksgiving-holiday-400-flights-cancelled/article71749233.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T02:11:53+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3375968/major-storm-batters-us-thanksgiving-holiday-disrupting-flights-and-power",
-          "title": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
-          "published": "2026-11-27T01:44:13+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "China's Defence Ministry urges Japan to stop 'stirring up' South China Sea disputes",
-      "url": "https://www.thehindu.com/news/international/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes/article71747672.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T16:56:27+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes",
-          "title": "China's defence ministry urges Japan to stop 'stirring up' South China Sea disputes",
-          "published": "2026-11-26T08:26:38+00:00"
         }
       ],
       "consensus": 2.0
@@ -970,19 +958,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Explainer: How long can coalition talks last for New Zealand's next government?",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2821557/explainer-how-long-can-coalition-talks-last-for-new-zealand-s-next-government",
-      "source": "RNZ",
-      "published": "2026-11-27T05:55:19+00:00",
+      "title": "$5m home which sold after a week believed to be record-breaker",
+      "url": "https://www.abc.net.au/news/2026-11-27/5-million-dollar-riverland-house-record-renmark-property-sa/107429056",
+      "source": "ABC Australia",
+      "published": "2026-11-27T06:23:48+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "National's Mike Butterick reacts after losing Wairarapa seat to Labour's Kieran McAnulty",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2826526/national-s-mike-butterick-reacts-after-losing-wairarapa-seat-to-labour-s-kieran-mcanulty",
-      "source": "RNZ",
-      "published": "2026-11-27T05:54:36+00:00",
+      "title": "Iran warns on Gulf military presence as South Korea readies expanded naval role",
+      "url": "https://www.channelnewsasia.com/world/iran-warns-gulf-military-presence-south-korea-6586851",
+      "source": "CNA",
+      "published": "2026-11-27T06:22:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1058,10 +1046,10 @@
       },
       {
         "symbol": "^N225",
-        "price": 58702.22,
+        "price": 58589.68,
         "currency": "JPY",
-        "change": 1203.06,
-        "change_percent": 2.09,
+        "change": 1090.52,
+        "change_percent": 1.9,
         "name": "Nikkei 225"
       },
       {
@@ -1084,26 +1072,26 @@
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3668.8,
+        "price": 3671.9,
         "currency": "USD",
-        "change": 104.2,
-        "change_percent": 2.92,
+        "change": 107.3,
+        "change_percent": 3.01,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 44.28,
+        "price": 44.41,
         "currency": "USD",
-        "change": 3.74,
-        "change_percent": 9.23,
+        "change": 3.87,
+        "change_percent": 9.54,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.71,
+        "price": 92.61,
         "currency": "USD",
-        "change": 2.07,
-        "change_percent": 2.28,
+        "change": 1.97,
+        "change_percent": 2.17,
         "name": "Brent Crude"
       },
       {
@@ -1111,7 +1099,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.06,
+        "change_percent": 0.07,
         "name": "EUR/USD"
       },
       {
@@ -1124,7 +1112,7 @@
       },
       {
         "symbol": "JPY=X",
-        "price": 159.34,
+        "price": 159.33,
         "currency": "JPY",
         "change": 0.11,
         "change_percent": 0.07,
@@ -1132,10 +1120,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 61675.33,
+        "price": 61645.16,
         "currency": "USD",
-        "change": 1179.38,
-        "change_percent": 1.95,
+        "change": 1149.21,
+        "change_percent": 1.9,
         "name": "Bitcoin"
       }
     ],
@@ -1306,22 +1294,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "Chinese shares soar after Beijing signals more support",
+          "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
+          "published": "2026-11-27T06:25:21+00:00",
+          "snippet": "CSI 300 index jumps more than 4% during afternoon trading"
+        },
+        {
+          "title": "Year-end deadline for EU budget deal in doubt after testy summit",
+          "url": "https://www.ft.com/content/cf5e2884-63e3-4fde-ad32-15c8cfa9603e?syn-25a6b1a6=1",
+          "published": "2026-11-27T06:00:02+00:00",
+          "snippet": "Also in this newsletter: Another turn in Serbia’s momentous political year"
+        },
+        {
           "title": "FirstFT: BoE’s Bailey warns of AI threat to encrypted financial data",
           "url": "https://www.ft.com/content/f1669703-4e86-4ab0-b4d8-f43a40cb0294?syn-25a6b1a6=1",
           "published": "2026-11-27T05:30:19+00:00",
           "snippet": "Also in today’s newsletter: tech sell-off and Meloni’s rebuke"
-        },
-        {
-          "title": "Bank of England to defy market pricing and stick with gradual tightening",
-          "url": "https://www.ft.com/content/e5d08f5e-3f0a-43af-a6d7-06f2ad93370e",
-          "published": "2026-11-27T05:30:02+00:00",
-          "snippet": "Read the BoE’s November forecast from the FT’s Monetary Policy Radar team"
-        },
-        {
-          "title": "Trump media group splashes out to woo shareholders before merger vote",
-          "url": "https://www.ft.com/content/10a28fed-3825-4e07-804d-3c80c35229e5?syn-25a6b1a6=1",
-          "published": "2026-11-27T05:02:01+00:00",
-          "snippet": "TMTG expected to pay between $8mn and $13mn in fees plus expenses for proxy solicitation services"
         }
       ]
     },
@@ -1429,9 +1417,16 @@
   "web": {
     "tech": [
       {
+        "title": "The need for a formally verifiable mainstream programming language",
+        "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+        "score": 25,
+        "source": "Hacker News",
+        "published": "2026-11-27T05:22:06+00:00"
+      },
+      {
         "title": "\"What's Claude's Fursona?\" and Other Questions",
         "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona/",
-        "score": 45,
+        "score": 54,
         "source": "Hacker News",
         "published": "2026-11-27T04:56:18+00:00"
       },
@@ -1439,35 +1434,28 @@
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
         "comments_url": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "score": 4,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T01:50:42.910000+00:00"
       },
       {
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-        "score": 226,
+        "score": 247,
         "source": "Hacker News",
         "published": "2026-11-27T01:13:49+00:00"
       },
       {
-        "title": "ESO statement on approval of launch of one million space data centres",
-        "url": "https://www.eso.org/public/news/eso2614/",
-        "score": 26,
-        "source": "Hacker News",
-        "published": "2026-11-27T00:03:44+00:00"
-      },
-      {
         "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
         "url": "https://kendell.dev/blog/arkwrapper/",
-        "score": 77,
+        "score": 80,
         "source": "Hacker News",
         "published": "2026-11-26T21:59:19+00:00"
       },
       {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "score": 487,
+        "score": 525,
         "source": "Hacker News",
         "published": "2026-11-26T21:47:45+00:00"
       },
@@ -1482,14 +1470,14 @@
       {
         "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
         "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-        "score": 319,
+        "score": 329,
         "source": "Hacker News",
         "published": "2026-11-26T21:08:05+00:00"
       },
       {
         "title": "Company Culture = Slack Emoji ÷ √Headcount",
         "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "score": 222,
+        "score": 241,
         "source": "Hacker News",
         "published": "2026-11-26T20:49:49+00:00"
       },
@@ -1497,7 +1485,7 @@
         "title": "The need for a formally verifiable mainstream programming language",
         "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
         "comments_url": "https://lobste.rs/s/byfdgn/need_for_formally_verifiable_mainstream",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-26T20:06:50.248000+00:00"
       },
@@ -1505,35 +1493,35 @@
         "title": "Taking Email Back",
         "url": "http://www.linux-magazine.com/Online/Features/Taking-Email-Back",
         "comments_url": "https://lobste.rs/s/afxeri/taking_email_back",
-        "score": 23,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-26T19:51:21.378000+00:00"
       },
       {
         "title": "Rvoip: VoIP stack in Rust",
         "url": "https://github.com/eisenzopf/rvoip",
-        "score": 109,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-26T19:18:09+00:00"
       },
       {
         "title": "An introduction to uncertainty in machine learning",
         "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
-        "score": 46,
+        "score": 51,
         "source": "Hacker News",
         "published": "2026-11-26T19:04:50+00:00"
       },
       {
         "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
         "url": "https://bui.preetham.top/charts/",
-        "score": 86,
+        "score": 89,
         "source": "Hacker News",
         "published": "2026-11-26T18:37:24+00:00"
       },
       {
         "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
         "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
-        "score": 244,
+        "score": 247,
         "source": "Hacker News",
         "published": "2026-11-26T17:47:45+00:00"
       }

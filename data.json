@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T23:01:03.428205+00:00",
+  "last_updated": "2026-11-27T23:30:54.300712+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 367
+      "ms": 448
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 179
+      "ms": 393
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 217
+      "ms": 225
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 217
+      "ms": 347
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 451
+      "ms": 317
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 354
+      "ms": 384
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 566
+      "ms": 436
     },
     "El País": {
       "ok": true,
-      "count": 57,
+      "count": 58,
       "error": null,
-      "ms": 430
+      "ms": 584
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 182
+      "ms": 246
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 167
+      "ms": 188
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 703
+      "ms": 465
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 228
+      "ms": 328
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 150
+      "ms": 351
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 555
+      "ms": 442
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 325
+      "ms": 197
     },
     "RNZ": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 301
+      "ms": 209
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 662
+      "ms": 869
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 561
+      "ms": 727
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 635
+      "ms": 509
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 364
+      "ms": 389
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3156
+      "ms": 3111
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 157
+      "ms": 305
     },
     "The Independent": {
       "ok": true,
-      "count": 51,
+      "count": 52,
       "error": null,
-      "ms": 218
+      "ms": 114
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 162
+      "ms": 283
     }
   },
   "breaking": [
@@ -183,6 +183,22 @@
       "consensus": 6.5
     },
     {
+      "title": "Police link substance release to robbery attempts at concert",
+      "url": "https://www.abc.net.au/news/2026-11-28/don-toliver-manchester-concert-substance-robbery-attempt-police/107437726",
+      "source": "ABC Australia",
+      "published": "2026-11-27T23:10:41+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
+          "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
+          "published": "2026-11-27T21:42:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Makkah alliance countries review regional security situation, condemn Houthi attacks on Saudi Arabia",
       "url": "https://www.thehindu.com/news/international/makkah-alliance-countries-review-regional-security-situation-condemn-houthi-attacks-on-saudi-arabia/article71752547.ece",
       "source": "The Hindu",
@@ -215,38 +231,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
-      "source": "SCMP",
-      "published": "2026-11-27T20:25:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T20:10:30+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "El País",
-          "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html",
-          "title": "Costa Rica denies entry to UN Special Rapporteur Francesca Albanese",
-          "published": "2026-11-27T09:25:26+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
       "url": "https://www.channelnewsasia.com/world/us-disable-ship-iran-blockade-hormuz-6588546",
       "source": "CNA",
@@ -263,19 +247,28 @@
       "consensus": 2.0
     },
     {
-      "title": "Nathan Lyon axed as Australia names Test squad",
-      "url": "https://www.abc.net.au/news/2026-11-28/nathan-lyon-axed-as-australia-names-test-squad/107437842",
-      "source": "ABC Australia",
-      "published": "2026-11-27T22:55:21+00:00",
+      "title": "‘Not a mini-Tokyo’: Osaka bids to become Japan’s second capital",
+      "url": "https://www.straitstimes.com/asia/east-asia/not-a-mini-tokyo-osaka-bids-to-become-japans-second-capital",
+      "source": "Straits Times",
+      "published": "2026-11-27T23:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Sudan's lost generation: War is stealing a generation of childhood",
-      "url": "https://www.npr.org/2026/11/27/nx-s1-6053049/sudans-lost-generation-war-is-stealing-a-generation-of-childhood",
-      "source": "NPR World",
-      "published": "2026-11-27T22:54:53+00:00",
+      "title": "Ukraine-Russia war latest: Zelensky frustrated by Trump’s stance towards Putin",
+      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+      "source": "The Independent",
+      "published": "2026-11-27T23:22:17+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Italy pip Fiji 23-21 in London",
+      "url": "https://www.rnz.co.nz/news/pacific/2852678/italy-pip-fiji-23-21-in-london",
+      "source": "RNZ",
+      "published": "2026-11-27T23:20:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -447,6 +440,38 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
+      "source": "SCMP",
+      "published": "2026-11-27T20:25:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T20:10:30+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "El País",
+          "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html",
+          "title": "Costa Rica denies entry to UN Special Rapporteur Francesca Albanese",
+          "published": "2026-11-27T09:25:26+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
@@ -849,73 +874,55 @@
       "consensus": 1.5
     },
     {
-      "title": "Jamie Kaiwai: Grandparents waiting to bring their moko home",
-      "url": "https://www.rnz.co.nz/news/te-manu-korihi/2851960/jamie-kaiwai-grandparents-waiting-to-bring-their-moko-home",
-      "source": "RNZ",
-      "published": "2026-11-27T22:35:43+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Aboriginal community captured in ‘timeless, beautiful’ tintype portraits",
-      "url": "https://www.abc.net.au/news/2026-11-28/vintage-photography-exhibition-showcases-kaurna-portraits/107437790",
+      "title": "Emergency warning after landslide on the Mornington Peninsula",
+      "url": "https://www.abc.net.au/news/2026-11-28/landslide-mccrae-mornington-peninsula-warning/107437814",
       "source": "ABC Australia",
-      "published": "2026-11-27T22:34:19+00:00",
+      "published": "2026-11-27T23:17:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Walker wins Australia's first medal of World Cup season",
-      "url": "https://www.abc.net.au/news/2026-11-28/bree-walker-wins-monobob-bronze-medal-world-cup-germany/107437748",
-      "source": "ABC Australia",
-      "published": "2026-11-27T22:33:51+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Play the game': Whistleblower details building sector's dark underbelly",
-      "url": "https://www.abc.net.au/news/2026-11-28/qld-cfmeu-inquiry-whistleblower-dark-secrets/107428420",
-      "source": "ABC Australia",
-      "published": "2026-11-27T22:28:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Colombian Congress chiefs rush to reassure China as envoy berates lawmakers in Taiwan",
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3376105/colombian-congress-chiefs-rush-reassure-china-envoy-berates-lawmakers-taiwan",
-      "source": "SCMP",
-      "published": "2026-11-27T22:27:36+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
-      "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T22:22:02+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trump’s ally-packed committee could ram his renovations projects through before Dems take control of Congress",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-planning-commission-golf-course-dc-renovations-b3093061.html",
+      "title": "France falls into recession as it struggles to contain deficit",
+      "url": "https://www.independent.co.uk/news/world/europe/france-recession-economy-s-and-p-deficit-b3093084.html",
       "source": "The Independent",
-      "published": "2026-11-27T22:12:15+00:00",
+      "published": "2026-11-27T23:11:29+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T22:03:46+00:00",
+      "title": "A bomb scare ignites 'terrorist' talk in the Territory, but was it justified?",
+      "url": "https://www.abc.net.au/news/2026-11-28/nt-government-bomb-threat-media-reaction/107435122",
+      "source": "ABC Australia",
+      "published": "2026-11-27T23:09:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+      "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T23:09:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Green Party tells 'authentic' new MP Tania Waikato to stay focused after 'squish my booty' post",
+      "url": "https://www.rnz.co.nz/news/political/2852605/green-party-tells-authentic-new-mp-tania-waikato-to-stay-focused-after-squish-my-booty-post",
+      "source": "RNZ",
+      "published": "2026-11-27T23:08:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "The giant turtles travelling 12,000km to New Zealand need our help",
+      "url": "https://www.rnz.co.nz/news/environment/2852566/the-giant-turtles-travelling-12-000km-to-new-zealand-need-our-help",
+      "source": "RNZ",
+      "published": "2026-11-27T23:08:21+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1065,10 +1072,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59783.85,
+        "price": 59786.0,
         "currency": "USD",
-        "change": -712.1,
-        "change_percent": -1.18,
+        "change": -709.95,
+        "change_percent": -1.17,
         "name": "Bitcoin"
       }
     ],
@@ -1364,7 +1371,7 @@
       {
         "title": "Source Control from Hell",
         "url": "https://frantic.im/git/",
-        "score": 15,
+        "score": 27,
         "source": "Hacker News",
         "published": "2026-11-27T22:06:44+00:00"
       },
@@ -1379,7 +1386,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 26,
+        "score": 38,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1402,7 +1409,7 @@
       {
         "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
         "url": "https://github.com/skeeto/prospero",
-        "score": 14,
+        "score": 20,
         "source": "Hacker News",
         "published": "2026-11-27T20:23:14+00:00"
       },
@@ -1417,21 +1424,21 @@
       {
         "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
         "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-        "score": 168,
+        "score": 198,
         "source": "Hacker News",
         "published": "2026-11-27T19:42:25+00:00"
       },
       {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 41,
+        "score": 47,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
       {
         "title": "Michael Nielsen took down his book on neural nets",
         "url": "https://neuralnetworksanddeeplearning.com/",
-        "score": 291,
+        "score": 313,
         "source": "Hacker News",
         "published": "2026-11-27T19:31:01+00:00"
       },
@@ -1439,21 +1446,21 @@
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 21,
+        "score": 23,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 188,
+        "score": 201,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
       {
         "title": "Show HN: DragDropMath – Learn math by feel",
         "url": "https://dragdropmath.com/",
-        "score": 74,
+        "score": 75,
         "source": "Hacker News",
         "published": "2026-11-27T17:56:28+00:00"
       },
@@ -1469,7 +1476,7 @@
         "title": "Build your own Paint",
         "url": "https://www.buildyourownpaint.com/en",
         "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
-        "score": 11,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
       }

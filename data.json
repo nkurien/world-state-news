@@ -1,102 +1,102 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T10:01:04.399694+00:00",
+  "last_updated": "2026-11-27T10:30:55.374035+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 253
+      "ms": 296
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 195
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 293
+      "ms": 180
     },
     "BBC News": {
       "ok": true,
       "count": 31,
       "error": null,
-      "ms": 359
+      "ms": 353
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 649
+      "ms": 201
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 387
+      "ms": 432
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 480
+      "ms": 627
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 209
+      "ms": 413
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 83
+      "ms": 223
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 208
+      "ms": 219
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 472
+      "ms": 654
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 343
+      "ms": 158
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 467
+      "ms": 215
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 1546
+      "ms": 128
     },
     "RFI English": {
       "ok": true,
       "count": 23,
       "error": null,
-      "ms": 415
+      "ms": 169
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 568
+      "ms": 408
     },
     "SCMP": {
       "ok": true,
@@ -108,46 +108,86 @@
       "ok": true,
       "count": 237,
       "error": null,
-      "ms": 434
+      "ms": 534
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 675
+      "ms": 610
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 239
+      "ms": 322
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3173
+      "ms": 3145
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 180
+      "ms": 154
     },
     "The Independent": {
       "ok": true,
-      "count": 51,
+      "count": 52,
       "error": null,
-      "ms": 132
+      "ms": 153
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 165
+      "ms": 154
     }
   },
   "breaking": [
+    {
+      "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+      "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+      "source": "Euronews",
+      "published": "2026-11-27T10:20:33+00:00",
+      "score": 6,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+          "title": "Iran denies role in drone attack that killed Italians in Kuwait",
+          "published": "2026-11-27T02:28:47+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
+          "title": "Two Italians killed in drone attack in Kuwait",
+          "published": "2026-11-26T23:39:13+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+          "published": "2026-11-26T21:17:53+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
+          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
+          "published": "2026-11-26T18:11:38+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
+          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
+          "published": "2026-11-26T16:03:57+00:00"
+        }
+      ],
+      "consensus": 7.0
+    },
     {
       "title": "New Zealand election results set up tricky talks for conservative incumbent",
       "url": "https://www.aljazeera.com/news/2026/11/27/new-zealand-election-results-set-up-tricky-talks-for-conservative-incumbent?traffic_source=rss",
@@ -189,6 +229,34 @@
       "consensus": 7.0
     },
     {
+      "title": "Mushroom murderer Erin Patterson files last-ditch appeal in the High Court",
+      "url": "https://www.independent.co.uk/news/world/australasia/high-court-mushroom-killer-erin-patterson-appeal-b3092595.html",
+      "source": "The Independent",
+      "published": "2026-11-27T10:09:01+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
+          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
+          "published": "2026-11-27T08:28:49+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/australian-mushroom-murderer-erin-patterson-files-high-court-appeal-bid",
+          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
+          "published": "2026-11-27T07:46:57+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-27/mushroom-killer-erin-patterson-high-court-appeal-bid/107433688",
+          "title": "Mushroom killer Erin Patterson asks High Court to hear appeal",
+          "published": "2026-11-27T05:08:33+00:00"
+        }
+      ],
+      "consensus": 5.0
+    },
+    {
       "title": "Costa Rica bars entry to UN rapporteur over ‘links to terrorist acts’",
       "url": "https://www.thehindu.com/news/international/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts/article71749582.ece",
       "source": "The Hindu",
@@ -211,26 +279,20 @@
       "consensus": 4.0
     },
     {
-      "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
-      "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
-      "source": "CNA",
-      "published": "2026-11-27T08:28:49+00:00",
-      "score": 3,
+      "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+      "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-27T09:57:50+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/australian-mushroom-murderer-erin-patterson-files-high-court-appeal-bid",
-          "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
-          "published": "2026-11-27T07:46:57+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-27/mushroom-killer-erin-patterson-high-court-appeal-bid/107433688",
-          "title": "Mushroom killer Erin Patterson asks High Court to hear appeal",
-          "published": "2026-11-27T05:08:33+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/thanksgiving-weather-storms-us-power-flights-6585971",
+          "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
+          "published": "2026-11-26T20:59:52+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
     },
     {
       "title": "Donald Trump urges Vladimir Putin to end ‘military aggression’ in Europe",
@@ -279,61 +341,9 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Failed California billionaire tax proposal gets close look in China tax circles",
-      "url": "https://www.scmp.com/business/china-business/article/3376043/failed-california-billionaire-tax-proposal-gets-close-look-china-tax-circles",
-      "source": "SCMP",
-      "published": "2026-11-27T10:00:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Why Trump’s new tariff threats may spur Southeast Asia to rethink US trade deals",
-      "url": "https://www.scmp.com/week-asia/economics/article/3376040/why-trumps-new-tariff-threats-may-spur-southeast-asia-rethink-us-trade-deals",
-      "source": "SCMP",
-      "published": "2026-11-27T10:00:09+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
-    {
-      "title": "Iran denies role in drone attack that killed Italians in Kuwait",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
-      "source": "SCMP",
-      "published": "2026-11-27T02:28:47+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
-          "title": "Two Italians killed in drone attack in Kuwait",
-          "published": "2026-11-26T23:39:13+00:00"
-        },
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-          "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-          "published": "2026-11-26T21:17:53+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/two-italians-killed-in-attack-kuwait-site-iran-denies-involvement-6585791",
-          "title": "Two Italians killed in attack on Kuwait site, Iran denies involvement",
-          "published": "2026-11-26T18:11:38+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/italian-workers-killed-kuwait-iran-strike-9.7437089?cmp=rss",
-          "title": "Iran denies involvement after 2 Italian technicians killed in attack on Kuwait site",
-          "published": "2026-11-26T16:03:57+00:00"
-        }
-      ],
-      "consensus": 6.0
-    },
     {
       "title": "FIFA says a cyberattack against it targeted a 'limited set of personal and business information'",
       "url": "https://www.dw.com/en/fifa-says-a-cyberattack-against-it-targeted-a-limited-set-of-personal-and-business-information/a-80062660?maca=en-rss-en-world-4025-xml-mrss",
@@ -377,6 +387,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Gérard Depardieu ordered to stand trial for rape",
+      "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-rape-trial-metoo-b3092287.html",
+      "source": "The Independent",
+      "published": "2026-11-26T16:01:25+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/europe/article/3375961/french-actor-gerard-depardieu-stand-trial-rape-after-paris-court-rejects-appeal",
+          "title": "French actor Gerard Depardieu to stand trial for rape after Paris court rejects appeal",
+          "published": "2026-11-26T14:45:59+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+          "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+          "published": "2026-11-26T14:44:26+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "South Korea repatriates six North Koreans rescued from drifting boat",
@@ -449,22 +481,6 @@
       "consensus": 2.5
     },
     {
-      "title": "WHO chief urges US to lift Cuba oil blockade",
-      "url": "https://www.semafor.com/article/11/26/2026/who-chief-urges-us-to-lift-cuba-oil-blockade",
-      "source": "Semafor",
-      "published": "2026-11-26T22:34:17+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/who-chief-calls-on-us-to-lift-oil-blockade-on-cuba-citing-health-impact/article71740941.ece",
-          "title": "WHO chief calls on U.S. to lift oil blockade on Cuba, citing health impact",
-          "published": "2026-11-25T07:14:58+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "UK net migration falls to three-decade low",
       "url": "https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
       "source": "Semafor",
@@ -476,22 +492,6 @@
           "url": "https://www.thehindu.com/news/international/uk-net-migration-falls-to-lowest-since-1997-indians-largest-foreign-group-entering-and-leaving-the-country/article71746576.ece",
           "title": "U.K. net migration falls to lowest since 1997; Indians largest foreign group entering and leaving the country",
           "published": "2026-11-26T16:18:30+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Nvidia halts chip shipments to Southeast Asian countries",
-      "url": "https://www.semafor.com/article/11/26/2026/nvidia-halts-chip-shipments-to-southeast-asian-countries",
-      "source": "Semafor",
-      "published": "2026-11-26T22:15:23+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/asia/nvidia-halts-chip-shipments-southeast-asia-6584351",
-          "title": "Nvidia halts chip shipments to Southeast Asia: Report",
-          "published": "2026-11-26T06:11:00+00:00"
         }
       ],
       "consensus": 2.5
@@ -769,38 +769,6 @@
       "consensus": 2.0
     },
     {
-      "title": "French actor Gerard Depardieu to face trial for rape, court rules",
-      "url": "https://www.channelnewsasia.com/world/french-actor-gerard-depardieu-face-trial-rape-court-rules-6585996",
-      "source": "CNA",
-      "published": "2026-11-26T21:35:49+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/europe/article/3375961/french-actor-gerard-depardieu-stand-trial-rape-after-paris-court-rejects-appeal",
-          "title": "French actor Gerard Depardieu to stand trial for rape after Paris court rejects appeal",
-          "published": "2026-11-26T14:45:59+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Gérard Depardieu ordered to stand trial for rape",
-      "url": "https://www.independent.co.uk/news/world/europe/gerard-depardieu-rape-trial-metoo-b3092287.html",
-      "source": "The Independent",
-      "published": "2026-11-26T16:01:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
-          "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-          "published": "2026-11-26T14:44:26+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Ebola cases reach 12,000 in Congo as second-largest outbreak on record grows",
       "url": "https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970?cmp=rss",
       "source": "CBC World",
@@ -847,6 +815,22 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
+      "url": "http://www.africanews.com/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match/",
+      "source": "Africanews",
+      "published": "2026-11-27T10:04:24+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match",
+          "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
+          "published": "2026-11-27T10:04:15+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
       "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
@@ -929,35 +913,55 @@
       "consensus": 1.5
     },
     {
-      "title": "Greece: 14,000 march in Athens against rising living costs",
-      "url": "http://www.africanews.com/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs/",
-      "source": "Africanews",
-      "published": "2026-11-25T18:20:53+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/25/greece-14000-march-in-athens-against-rising-living-costs",
-          "title": "Greece: 14,000 march in Athens against rising living costs",
-          "published": "2026-11-25T18:20:44+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Lawsuits won’t affect Google’s investments in Malaysia: PM",
-      "url": "https://www.straitstimes.com/asia/se-asia/lawsuits-wont-affect-googles-investments-in-malaysia-pm",
-      "source": "Straits Times",
-      "published": "2026-11-27T09:58:00+00:00",
+      "title": "China and India hold fresh border talks as both boost military readiness before winter",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3376066/china-and-india-hold-fresh-border-talks-both-boost-military-readiness-winter",
+      "source": "SCMP",
+      "published": "2026-11-27T10:27:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "‘Innovation is never democratic’: Benedetto Vigna on Ferrari’s electric shock",
-      "url": "https://www.semafor.com/article/11/25/2026/innovation-is-never-democratic-benedetto-vigna-on-ferraris-electric-shock",
-      "source": "Semafor",
-      "published": "2026-11-27T09:56:11+00:00",
+      "title": "Thailand moves to pin down source of Myanmar mine river pollution",
+      "url": "https://www.straitstimes.com/asia/thailand-moves-to-pin-down-source-of-myanmar-mine-river-pollution",
+      "source": "Straits Times",
+      "published": "2026-11-27T10:26:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Fleeing murder suspect crashes into elephant in Sri Lanka",
+      "url": "https://www.straitstimes.com/asia/south-asia/fleeing-murder-suspect-crashes-into-elephant-in-sri-lanka",
+      "source": "Straits Times",
+      "published": "2026-11-27T10:21:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Soup kitchens to fight hunger in Buenos Aires: ‘I lost my job, my home — what else do they want to take from me?’",
+      "url": "https://english.elpais.com/international/2026-11-27/soup-kitchens-to-fight-hunger-in-buenos-aires-i-lost-my-job-my-home-what-else-do-they-want-to-take-from-me.html",
+      "source": "El País",
+      "published": "2026-11-27T10:19:35+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Around 100,000 British defence veterans contacted amid ‘heightened threat’",
+      "url": "https://www.channelnewsasia.com/world/uk-british-defence-veterans-contact-6587376",
+      "source": "CNA",
+      "published": "2026-11-27T10:17:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Downfall of Shanghai Party chief opens route to pinnacle of politics",
+      "url": "https://www.straitstimes.com/asia/downfall-of-shanghai-party-chief-opens-route-to-pinnacle-of-politics",
+      "source": "Straits Times",
+      "published": "2026-11-27T10:16:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -974,10 +978,10 @@
     },
     {
       "symbol": "VWRP.L",
-      "price": 138.34,
+      "price": 138.25,
       "currency": "GBP",
-      "change": 1.54,
-      "change_percent": 1.13,
+      "change": 1.45,
+      "change_percent": 1.06,
       "name": "FTSE All-World ETF"
     },
     {
@@ -990,10 +994,10 @@
     },
     {
       "symbol": "^FTSE",
-      "price": 10680.1,
+      "price": 10683.91,
       "currency": "GBP",
-      "change": 70.8,
-      "change_percent": 0.67,
+      "change": 74.61,
+      "change_percent": 0.7,
       "name": "FTSE 100"
     }
   ],
@@ -1009,10 +1013,10 @@
       },
       {
         "symbol": "^FTSE",
-        "price": 10680.1,
+        "price": 10683.91,
         "currency": "GBP",
-        "change": 70.8,
-        "change_percent": 0.67,
+        "change": 74.61,
+        "change_percent": 0.7,
         "name": "FTSE 100"
       },
       {
@@ -1041,44 +1045,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25431.16,
+        "price": 25406.97,
         "currency": "EUR",
-        "change": 215.64,
-        "change_percent": 0.86,
+        "change": 191.45,
+        "change_percent": 0.76,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8128.96,
+        "price": 8130.65,
         "currency": "EUR",
-        "change": 20.22,
-        "change_percent": 0.25,
+        "change": 21.91,
+        "change_percent": 0.27,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3706.3,
+        "price": 3699.7,
         "currency": "USD",
-        "change": 141.7,
-        "change_percent": 3.98,
+        "change": 135.1,
+        "change_percent": 3.79,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 44.59,
+        "price": 44.45,
         "currency": "USD",
-        "change": 4.06,
-        "change_percent": 10.01,
+        "change": 3.91,
+        "change_percent": 9.64,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 92.47,
+        "price": 92.45,
         "currency": "USD",
-        "change": 1.83,
-        "change_percent": 2.02,
+        "change": 1.81,
+        "change_percent": 2.0,
         "name": "Brent Crude"
       },
       {
@@ -1086,7 +1090,7 @@
         "price": 1.1,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.09,
+        "change_percent": -0.11,
         "name": "EUR/USD"
       },
       {
@@ -1094,23 +1098,23 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.11,
+        "change_percent": 0.14,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.51,
+        "price": 159.56,
         "currency": "JPY",
-        "change": 0.28,
-        "change_percent": 0.18,
+        "change": 0.33,
+        "change_percent": 0.21,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 61538.78,
+        "price": 61655.93,
         "currency": "USD",
-        "change": 1042.83,
-        "change_percent": 1.72,
+        "change": 1159.98,
+        "change_percent": 1.92,
         "name": "Bitcoin"
       }
     ],
@@ -1281,6 +1285,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "Ladbrokes owner to settle money laundering case in Australia",
+          "url": "https://www.ft.com/content/5fe8a858-6ed2-40f0-a0f3-e8742b7656aa?syn-25a6b1a6=1",
+          "published": "2026-11-27T09:51:44+00:00",
+          "snippet": "Entain agrees preliminary settlement with financial crimes watchdog for $124mn over breaches of rules ahead of court hearing"
+        },
+        {
           "title": "French economy shrinks 0.2% in third quarter",
           "url": "https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1",
           "published": "2026-11-27T09:43:53+00:00",
@@ -1291,12 +1301,6 @@
           "url": "https://www.ft.com/content/59a87442-51ad-47b7-ba11-e36876456fd4?syn-25a6b1a6=1",
           "published": "2026-11-27T09:32:47+00:00",
           "snippet": "Agency says it has taken some online services down but regular pension and benefit payments are not affected"
-        },
-        {
-          "title": "How do you solve a problem like the Met?",
-          "url": "https://www.ft.com/content/c9aefc31-fedc-489a-8b77-0547d7f6f29f?syn-25a6b1a6=1",
-          "published": "2026-11-27T09:30:05+00:00",
-          "snippet": "Narrowing the focus of the UK’s largest police force may be the key triumph of Shabana Mahmood’s reforms"
         }
       ]
     },
@@ -1404,6 +1408,13 @@
   "web": {
     "tech": [
       {
+        "title": "'Cyber incident' forces UK Gov to take some services offline",
+        "url": "https://www.bbc.co.uk/news/live/c6rrg94lgjrjt",
+        "score": 9,
+        "source": "Hacker News",
+        "published": "2026-11-27T09:44:37+00:00"
+      },
+      {
         "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
         "url": "https://roboticoverlords.org/tinyhat",
         "comments_url": "https://lobste.rs/s/mbm7xw/tiny_hat_new_linux_distro_dedicated_retro",
@@ -1412,16 +1423,9 @@
         "published": "2026-11-27T09:11:13.547000+00:00"
       },
       {
-        "title": "Claude sabotaging SOTA ML research tasks",
-        "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-        "score": 51,
-        "source": "Hacker News",
-        "published": "2026-11-27T08:28:08+00:00"
-      },
-      {
         "title": "European Commission Declares Browser Competition a Digital Markets Act Priority",
         "url": "https://open-web-advocacy.org/es/blog/commission-responds-declares-browser-competition-a-dma-priority/",
-        "score": 24,
+        "score": 34,
         "source": "Hacker News",
         "published": "2026-11-27T08:11:46+00:00"
       },
@@ -1437,7 +1441,7 @@
         "title": "Company Culture = Slack Emoji ÷ sqrt(Headcount)",
         "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
         "comments_url": "https://lobste.rs/s/fin7at/company_culture_slack_emoji_sqrt",
-        "score": 8,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-27T07:35:52.312000+00:00"
       },
@@ -1452,21 +1456,21 @@
       {
         "title": "The group chat where your AI talks behind your back",
         "url": "https://construct22.com/",
-        "score": 226,
+        "score": 262,
         "source": "Hacker News",
         "published": "2026-11-27T06:44:34+00:00"
       },
       {
         "title": "Buy Nothing Day – Friday November 27th 2026",
         "url": "https://www.buynothingday.co.uk/",
-        "score": 78,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-27T05:52:42+00:00"
       },
       {
         "title": "The need for a formally verifiable mainstream programming language",
         "url": "https://blainehansen.me/post/mainstream-verifiable-language/",
-        "score": 151,
+        "score": 157,
         "source": "Hacker News",
         "published": "2026-11-27T05:22:06+00:00"
       },
@@ -1474,21 +1478,21 @@
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
         "comments_url": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-27T01:50:42.910000+00:00"
       },
       {
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-        "score": 350,
+        "score": 361,
         "source": "Hacker News",
         "published": "2026-11-27T01:13:49+00:00"
       },
       {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
-        "score": 694,
+        "score": 715,
         "source": "Hacker News",
         "published": "2026-11-26T21:47:45+00:00"
       },
@@ -1503,14 +1507,14 @@
       {
         "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
         "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-        "score": 366,
+        "score": 373,
         "source": "Hacker News",
         "published": "2026-11-26T21:08:05+00:00"
       },
       {
         "title": "Company Culture = Slack Emoji ÷ √Headcount",
         "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-        "score": 354,
+        "score": 364,
         "source": "Hacker News",
         "published": "2026-11-26T20:49:49+00:00"
       }

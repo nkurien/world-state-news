@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-27T15:01:12.639364+00:00",
+  "last_updated": "2026-11-27T15:31:07.585232+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 205
+      "ms": 351
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 284
+      "ms": 238
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 70
+      "ms": 159
     },
     "BBC News": {
       "ok": true,
-      "count": 27,
+      "count": 28,
       "error": null,
-      "ms": 87
+      "ms": 183
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 315
+      "ms": 132
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 280
+      "ms": 297
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 456
+      "ms": 229
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 394
+      "ms": 374
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 97
+      "ms": 42
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 3301
+      "ms": 78
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 615
+      "ms": 349
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 272
+      "ms": 277
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 160
+      "ms": 80
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 660
+      "ms": 115
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 252
+      "ms": 115
     },
     "RNZ": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 478
+      "ms": 160
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 653
+      "ms": 482
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 497
+      "ms": 432
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 503
+      "ms": 552
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 377
+      "ms": 311
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3164
+      "ms": 3093
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 207
+      "ms": 209
     },
     "The Independent": {
       "ok": true,
       "count": 49,
       "error": null,
-      "ms": 138
+      "ms": 154
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 223
+      "ms": 200
     }
   },
   "breaking": [
@@ -201,6 +201,28 @@
       "consensus": 9.0
     },
     {
+      "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
+      "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
+      "source": "The Independent",
+      "published": "2026-11-27T15:11:37+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/kenyan-starvation-cult-leader-guilty-of-manslaughter-for-123-deaths-in-latest-conviction",
+          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+          "published": "2026-11-27T14:32:02+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Duterte's ICC trial: What is at stake for the Philippines?",
       "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -245,53 +267,58 @@
       "consensus": 3.0
     },
     {
-      "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-      "url": "https://www.straitstimes.com/asia/kenyan-starvation-cult-leader-guilty-of-manslaughter-for-123-deaths-in-latest-conviction",
-      "source": "Straits Times",
-      "published": "2026-11-27T14:32:02+00:00",
+      "title": "Canada’s top court largely upholds Quebec’s religious symbols ban",
+      "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T15:15:36+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
-          "title": "Kenyan starvation cult leader convicted of radicalisation",
-          "published": "2026-11-27T13:06:41+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T14:55:15+00:00"
         }
       ],
       "consensus": 2.5
     },
     {
-      "title": "Young people will pay the price for HIV funding cuts, Burundi activist warns",
-      "url": "https://www.rfi.fr/en/africa/20261127-young-people-will-pay-the-price-for-hiv-funding-cuts-burundi-activist-warns-jeanne-gapiya",
+      "title": "Guinea-Bissau junta pushes elections to 2028, extending rule by two years",
+      "url": "https://www.rfi.fr/en/africa/20261127-guinea-bissau-military-junta-pushes-elections-to-2028-extending-rule-by-two-years",
       "source": "RFI English",
-      "published": "2026-11-27T15:00:15+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "published": "2026-11-27T15:15:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/26/guinea-bissau-delays-elections-for-two-years-to-2028/",
+          "title": "Guinea-Bissau delays elections for two years to 2028",
+          "published": "2026-11-27T09:13:07+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Kenya’s Chinese solar imports surge amid diesel volatility",
-      "url": "https://www.semafor.com/article/11/27/2026/kenyas-chinese-solar-imports-surge-amid-diesel-volatility",
-      "source": "Semafor",
-      "published": "2026-11-27T14:50:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
+      "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
+      "source": "Africanews",
+      "published": "2026-11-27T14:57:33+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq4gnj2ldkyzo?at_medium=RSS&at_campaign=rss",
+          "title": "Uganda to withdraw troops from DR Congo town amid diplomatic row",
+          "published": "2026-11-27T10:39:31+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
-      "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
-      "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-27T14:49:59+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
-      "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
-      "source": "Euronews",
-      "published": "2026-11-27T14:48:42+00:00",
+      "title": "Several GOP senators say they are open to challenging Donald Trump’s tariffs as voter anger over prices grows",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-republicans-democrats-tariffs-canada-b3092879.html",
+      "source": "The Independent",
+      "published": "2026-11-27T15:22:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -689,22 +716,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Cyril Ramaphosa wins court bid to overturn impeachment report",
-      "url": "https://www.thehindu.com/news/international/cyril-ramaphosa-wins-court-bid-to-overturn-impeachment-report/article71745568.ece",
-      "source": "The Hindu",
-      "published": "2026-11-26T07:44:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/25/south-africas-ramaphosa-wins-court-bid-over-impeachment-report/",
-          "title": "South Africa's Ramaphosa wins court bid over impeachment report",
-          "published": "2026-11-25T20:07:59+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Andy Taylor, guitarist of new wave icons Duran Duran, dies at 65",
       "url": "https://www.thehindu.com/entertainment/music/andy-taylor-guitarist-of-new-wave-icons-duran-duran-dies-at-65/article71744266.ece",
       "source": "The Hindu",
@@ -865,6 +876,22 @@
       "consensus": 2.0
     },
     {
+      "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
+      "url": "http://www.africanews.com/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary/",
+      "source": "Africanews",
+      "published": "2026-11-27T14:48:48+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
+          "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
+          "published": "2026-11-27T14:48:42+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
       "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
       "url": "http://www.africanews.com/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match/",
       "source": "Africanews",
@@ -929,22 +956,6 @@
       "consensus": 1.5
     },
     {
-      "title": "Belgium: Farmers and tractors descend on Brussels to defend EU subsidies",
-      "url": "http://www.africanews.com/2026/11/26/belgium-farmers-and-tractors-descend-on-brussels-to-defend-eu-subsidies/",
-      "source": "Africanews",
-      "published": "2026-11-26T20:10:52+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/26/belgium-farmers-and-tractors-descend-on-brussels-to-defend-eu-subsidies",
-          "title": "Belgium: Farmers and tractors descend on Brussels to defend EU subsidies",
-          "published": "2026-11-26T20:10:25+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
       "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
       "url": "https://www.euronews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says",
       "source": "Euronews",
@@ -961,19 +972,28 @@
       "consensus": 1.5
     },
     {
-      "title": "With new law, Iraq sees rise in child marriage, custody battles",
-      "url": "https://www.france24.com/en/tv-shows/focus/20261127-with-new-law-iraq-sees-rise-in-child-marriage-custody-battles",
-      "source": "France24",
-      "published": "2026-11-27T14:48:28+00:00",
+      "title": "Borrowing rise could offer economic boost, reportsays",
+      "url": "https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
+      "source": "Semafor",
+      "published": "2026-11-27T15:17:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Borrowing rise could offer economic boost, African Union says",
-      "url": "https://www.semafor.com/article/11/27/2026/borrowing-rise-offers-economic-boost-according-to-african-union",
-      "source": "Semafor",
-      "published": "2026-11-27T14:45:30+00:00",
+      "title": "Russian drone strikes hit Ukraine's energy, rail and civilian infrastructure, causing deaths",
+      "url": "https://www.euronews.com/2026/11/27/russian-drone-strikes-hit-ukraines-energy-rail-and-civilian-infrastructure-causing-deaths",
+      "source": "Euronews",
+      "published": "2026-11-27T15:16:17+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "url": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T15:15:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -982,34 +1002,34 @@
   "tickers": [
     {
       "symbol": "^GSPC",
-      "price": 7220.25,
+      "price": 7247.24,
       "currency": "USD",
-      "change": 37.47,
-      "change_percent": 0.52,
+      "change": 64.46,
+      "change_percent": 0.9,
       "name": "S&P 500"
     },
     {
       "symbol": "VWRP.L",
-      "price": 137.24,
+      "price": 137.48,
       "currency": "GBP",
-      "change": 0.44,
-      "change_percent": 0.32,
+      "change": 0.68,
+      "change_percent": 0.5,
       "name": "FTSE All-World ETF"
     },
     {
       "symbol": "^IXIC",
-      "price": 23723.12,
+      "price": 23871.43,
       "currency": "USD",
-      "change": 137.32,
-      "change_percent": 0.58,
+      "change": 285.63,
+      "change_percent": 1.21,
       "name": "NASDAQ Composite"
     },
     {
       "symbol": "^FTSE",
-      "price": 10684.31,
+      "price": 10691.5,
       "currency": "GBP",
-      "change": 75.01,
-      "change_percent": 0.71,
+      "change": 82.2,
+      "change_percent": 0.77,
       "name": "FTSE 100"
     }
   ],
@@ -1017,34 +1037,34 @@
     "indices": [
       {
         "symbol": "^GSPC",
-        "price": 7220.25,
+        "price": 7247.24,
         "currency": "USD",
-        "change": 37.47,
-        "change_percent": 0.52,
+        "change": 64.46,
+        "change_percent": 0.9,
         "name": "S&P 500"
       },
       {
         "symbol": "^FTSE",
-        "price": 10684.31,
+        "price": 10691.5,
         "currency": "GBP",
-        "change": 75.01,
-        "change_percent": 0.71,
+        "change": 82.2,
+        "change_percent": 0.77,
         "name": "FTSE 100"
       },
       {
         "symbol": "^DJI",
-        "price": 50462.39,
+        "price": 50563.85,
         "currency": "USD",
-        "change": 279.44,
-        "change_percent": 0.56,
+        "change": 380.9,
+        "change_percent": 0.76,
         "name": "Dow Jones"
       },
       {
         "symbol": "^IXIC",
-        "price": 23723.12,
+        "price": 23871.43,
         "currency": "USD",
-        "change": 137.32,
-        "change_percent": 0.58,
+        "change": 285.63,
+        "change_percent": 1.21,
         "name": "NASDAQ Composite"
       },
       {
@@ -1057,44 +1077,44 @@
       },
       {
         "symbol": "^GDAXI",
-        "price": 25309.14,
+        "price": 25387.65,
         "currency": "EUR",
-        "change": 93.62,
-        "change_percent": 0.37,
+        "change": 172.13,
+        "change_percent": 0.68,
         "name": "DAX Index"
       },
       {
         "symbol": "^FCHI",
-        "price": 8129.46,
+        "price": 8155.28,
         "currency": "EUR",
-        "change": 20.72,
-        "change_percent": 0.26,
+        "change": 46.54,
+        "change_percent": 0.57,
         "name": "CAC 40"
       }
     ],
     "commodities_forex": [
       {
         "symbol": "GC=F",
-        "price": 3667.2,
+        "price": 3653.0,
         "currency": "USD",
-        "change": 102.6,
-        "change_percent": 2.88,
+        "change": 88.4,
+        "change_percent": 2.48,
         "name": "Gold"
       },
       {
         "symbol": "SI=F",
-        "price": 44.05,
+        "price": 43.7,
         "currency": "USD",
-        "change": 3.51,
-        "change_percent": 8.66,
+        "change": 3.16,
+        "change_percent": 7.8,
         "name": "Silver"
       },
       {
         "symbol": "BZ=F",
-        "price": 91.19,
+        "price": 90.94,
         "currency": "USD",
-        "change": 0.55,
-        "change_percent": 0.61,
+        "change": 0.3,
+        "change_percent": 0.33,
         "name": "Brent Crude"
       },
       {
@@ -1102,7 +1122,7 @@
         "price": 1.09,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": -0.24,
+        "change_percent": -0.25,
         "name": "EUR/USD"
       },
       {
@@ -1110,81 +1130,81 @@
         "price": 1.31,
         "currency": "USD",
         "change": 0.0,
-        "change_percent": 0.0,
+        "change_percent": -0.01,
         "name": "GBP/USD"
       },
       {
         "symbol": "JPY=X",
-        "price": 159.48,
+        "price": 159.51,
         "currency": "JPY",
-        "change": 0.25,
-        "change_percent": 0.16,
+        "change": 0.29,
+        "change_percent": 0.18,
         "name": "USD/JPY"
       },
       {
         "symbol": "BTC-USD",
-        "price": 58900.09,
+        "price": 59787.77,
         "currency": "USD",
-        "change": -1595.86,
-        "change_percent": -2.64,
+        "change": -708.18,
+        "change_percent": -1.17,
         "name": "Bitcoin"
       }
     ],
     "equities": [
       {
         "symbol": "MSFT",
-        "price": 490.48,
+        "price": 490.45,
         "currency": "USD",
-        "change": 0.55,
+        "change": 0.52,
         "change_percent": 0.11,
         "name": "Microsoft"
       },
       {
         "symbol": "AAPL",
-        "price": 356.5,
+        "price": 358.2,
         "currency": "USD",
-        "change": 0.92,
-        "change_percent": 0.26,
+        "change": 2.62,
+        "change_percent": 0.74,
         "name": "Apple"
       },
       {
         "symbol": "NVDA",
-        "price": 146.09,
+        "price": 147.24,
         "currency": "USD",
-        "change": -3.21,
-        "change_percent": -2.15,
+        "change": -2.06,
+        "change_percent": -1.38,
         "name": "NVIDIA"
       },
       {
         "symbol": "GOOGL",
-        "price": 271.59,
+        "price": 271.19,
         "currency": "USD",
-        "change": -1.51,
-        "change_percent": -0.55,
+        "change": -1.92,
+        "change_percent": -0.7,
         "name": "Alphabet"
       },
       {
         "symbol": "AMZN",
-        "price": 249.52,
+        "price": 251.38,
         "currency": "USD",
-        "change": 5.09,
-        "change_percent": 2.08,
+        "change": 6.95,
+        "change_percent": 2.84,
         "name": "Amazon"
       },
       {
         "symbol": "TSLA",
-        "price": 391.02,
+        "price": 397.69,
         "currency": "USD",
-        "change": 10.88,
-        "change_percent": 2.86,
+        "change": 17.56,
+        "change_percent": 4.62,
         "name": "Tesla"
       },
       {
         "symbol": "META",
-        "price": 624.13,
+        "price": 631.25,
         "currency": "USD",
-        "change": 14.24,
-        "change_percent": 2.33,
+        "change": 21.36,
+        "change_percent": 3.5,
         "name": "Meta"
       }
     ]
@@ -1299,20 +1319,20 @@
         {
           "title": "US tech stocks rise in latest market swing",
           "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
-          "published": "2026-11-27T14:38:51+00:00",
+          "published": "2026-11-27T15:17:23+00:00",
           "snippet": "All-powerful AI trade has been eclipsed by wild moves in a market struggling to price future earnings"
         },
         {
-          "title": "Inflation and interest rates tracker: see how your country compares",
-          "url": "https://www.ft.com/content/088d3368-bb8b-4ff3-9df7-a7680d4d81b2?syn-25a6b1a6=1",
-          "published": "2026-11-27T13:39:05+00:00",
-          "snippet": "Explore the latest data through interactive charts"
+          "title": "Russia set to criminalise sharing information about Ukrainian strikes",
+          "url": "https://www.ft.com/content/53a48a14-eadf-4fe3-bd33-9facd4c90266?syn-25a6b1a6=1",
+          "published": "2026-11-27T15:16:07+00:00",
+          "snippet": "Moscow looks to extend wartime crackdown to pro-war bloggers and regular citizens posting about Kyiv’s drones hitting oil refineries"
         },
         {
-          "title": "The reforms the NHS needs (and those it doesn’t)",
-          "url": "https://www.ft.com/content/901cc148-f3ed-460b-b2ed-8024f9ddff1d",
-          "published": "2026-11-27T13:27:45+00:00",
-          "snippet": "Different age groups make totally different demands on healthcare — here’s what I learnt in adapting how the London Ambulance Service responds"
+          "title": "From Jobs to Jensen: tech’s metamorphosis",
+          "url": "https://www.ft.com/content/5b10a0e6-aad6-403b-9f2e-23b5ca78897d",
+          "published": "2026-11-27T15:10:17+00:00",
+          "snippet": "The Nvidia saga is part of a bigger, stranger story about Silicon Valley’s political transformation"
         }
       ]
     },
@@ -1321,6 +1341,12 @@
       "name": "The Atlantic",
       "column": "global",
       "entries": [
+        {
+          "title": "Welcome to the New Spy Craze",
+          "url": "https://www.theatlantic.com/newsletters/2026/11/old-new-spy-movies-tv/689594/?utm_source=feed",
+          "published": "2026-11-27T15:30:00+00:00",
+          "snippet": "But don’t forget the old one—it was more fun."
+        },
         {
           "title": "What We Got Wrong About Comas",
           "url": "https://www.theatlantic.com/science/2026/11/coma-consciousness/689574/?utm_source=feed",
@@ -1332,12 +1358,6 @@
           "url": "https://www.theatlantic.com/ideas/2026/11/housing-yimby-college-towns/689596/?utm_source=feed",
           "published": "2026-11-27T12:00:00+00:00",
           "snippet": "Their evolution from NIMBY holdouts to YIMBY hotbeds is a testament to the left’s extraordinary shift on housing."
-        },
-        {
-          "title": "Gift Guide for the AI Apocalypse",
-          "url": "https://www.theatlantic.com/ideas/2026/11/gift-guide-ai-apocalypse/689561/?utm_source=feed",
-          "published": "2026-11-27T12:00:00+00:00",
-          "snippet": "This holiday season, unwrap a bulwark against computational calamity."
         }
       ]
     },
@@ -1420,11 +1440,18 @@
   "web": {
     "tech": [
       {
-        "title": "Norse Atlantic suspends all flights as it faces potential collapse",
-        "url": "https://www.bbc.com/news/articles/c9kgmd0ldy0lo",
-        "score": 12,
+        "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+        "url": "https://bouncemarket.minhanhday.com/",
+        "score": 19,
         "source": "Hacker News",
-        "published": "2026-11-27T14:09:44+00:00"
+        "published": "2026-11-27T15:01:50+00:00"
+      },
+      {
+        "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+        "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+        "score": 8,
+        "source": "Hacker News",
+        "published": "2026-11-27T14:55:57+00:00"
       },
       {
         "title": "Exception Best Practices",
@@ -1435,26 +1462,25 @@
         "published": "2026-11-27T13:05:30.318000+00:00"
       },
       {
+        "title": "Mental Health Resources and Political Engagement",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ssqu.70219",
+        "score": 76,
+        "source": "Hacker News",
+        "published": "2026-11-27T13:01:02+00:00"
+      },
+      {
         "title": "US Air Force's cloud computing platform hacked",
         "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
-        "score": 92,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-27T12:54:11+00:00"
       },
       {
-        "title": "New York and California Age Gating Rules Go into Effect in the New Year",
+        "title": "New York and California age gating rules go into effect in the new year",
         "url": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
-        "score": 59,
+        "score": 68,
         "source": "Hacker News",
         "published": "2026-11-27T12:43:40+00:00"
-      },
-      {
-        "title": "Marmot, an alternative Go compiler",
-        "url": "https://marmot.gaurav.zip/",
-        "comments_url": "https://lobste.rs/s/h3scdc/marmot_alternative_go_compiler",
-        "score": 1,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T12:30:42.685000+00:00"
       },
       {
         "title": "An Overview of Go's Tooling: Version 2",
@@ -1467,14 +1493,14 @@
       {
         "title": "A Deterministic Subexponential-Time Algorithm for the Discrete Logarithm Problem [pdf]",
         "url": "https://eprint.iacr.org/2026/3020.pdf",
-        "score": 128,
+        "score": 143,
         "source": "Hacker News",
         "published": "2026-11-27T12:08:51+00:00"
       },
       {
         "title": "Kimi for Science: More scientific ideas, made possible",
         "url": "https://www.kimi.ai/news/kimi-for-science-program",
-        "score": 84,
+        "score": 100,
         "source": "Hacker News",
         "published": "2026-11-27T12:03:11+00:00"
       },
@@ -1482,7 +1508,7 @@
         "title": "Tiny Hat: a new Linux distro dedicated to retro gamedev",
         "url": "https://roboticoverlords.org/tinyhat",
         "comments_url": "https://lobste.rs/s/mbm7xw/tiny_hat_new_linux_distro_dedicated_retro",
-        "score": 22,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-27T09:11:13.547000+00:00"
       },
@@ -1506,29 +1532,22 @@
         "title": "Curb impacts of AI on programming to maintain EU sovereignty",
         "url": "https://www.draketo.de/software/curb-ai-impact",
         "comments_url": "https://lobste.rs/s/lmxpfo/curb_impacts_ai_on_programming_maintain",
-        "score": 3,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-27T07:00:03.110000+00:00"
       },
       {
         "title": "The group chat where your AI talks behind your back",
         "url": "https://construct22.com/",
-        "score": 477,
+        "score": 499,
         "source": "Hacker News",
         "published": "2026-11-27T06:44:34+00:00"
-      },
-      {
-        "title": "Buy Nothing Day – Friday November 27th 2026",
-        "url": "https://www.buynothingday.co.uk/",
-        "score": 228,
-        "source": "Hacker News",
-        "published": "2026-11-27T05:52:42+00:00"
       },
       {
         "title": "AI made self-hosting fun again",
         "url": "https://janlukas.blog/posts/ai-self-hosting",
         "comments_url": "https://lobste.rs/s/xsjwvi/ai_made_self_hosting_fun_again",
-        "score": 12,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-27T01:50:42.910000+00:00"
       }

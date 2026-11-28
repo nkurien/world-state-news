@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T16:30:55.756702+00:00",
+  "last_updated": "2026-11-28T17:01:03.671745+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 272
+      "ms": 241
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 197
+      "ms": 114
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 374
+      "ms": 159
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 433
+      "ms": 388
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 442
+      "ms": 328
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 319
+      "ms": 237
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
-      "ms": 211
+      "ms": 374
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 297
+      "ms": 188
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 157
+      "ms": 151
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 144
+      "ms": 345
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 670
+      "ms": 411
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 283
+      "ms": 230
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 350
+      "ms": 399
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 139
+      "ms": 120
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 203
+      "ms": 340
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 322
+      "ms": 2664
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 560
+      "ms": 671
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 417
+      "ms": 346
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 588
+      "ms": 555
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 271
+      "ms": 250
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3196
+      "ms": 3171
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 94
+      "ms": 80
     },
     "The Independent": {
       "ok": true,
-      "count": 37,
+      "count": 34,
       "error": null,
-      "ms": 164
+      "ms": 150
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 130
+      "ms": 106
     }
   },
   "breaking": [
@@ -177,74 +177,44 @@
       "consensus": 5.0
     },
     {
-      "title": "Taiwan elections: Candidate criticised by China concedes Taipei mayoral race",
-      "url": "https://www.abc.net.au/news/2026-11-29/taiwan-election-results-chiang-wan-an/107438794",
-      "source": "ABC Australia",
-      "published": "2026-11-28T13:57:25+00:00",
+      "title": "Airstrike on Myanmar wedding venue kills around 20, say witnesses",
+      "url": "https://www.thehindu.com/news/international/airstrike-on-myanmar-wedding-venue-kills-around-20-say-witnesses/article71755393.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T16:54:11+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261128-taiwan-holds-local-elections-under-beijing-s-watchful-gaze",
-          "title": "Taiwan mayoral candidate criticised by Beijing concedes defeat",
-          "published": "2026-11-28T06:25:33+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Indian police disperse protest outside Meta offices amid concern the company is censoring political opposition",
-      "url": "https://www.cbc.ca/news/world/india-modi-meta-protest-9.7440253?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-28T13:56:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/indian-police-disperse-protest-outside-meta-offices-with-water-cannon",
-          "title": "Indian police disperse protest outside Meta offices with water cannon",
-          "published": "2026-11-28T12:12:09+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Putin unveils new nuclear submarine",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/putin-unveils-new-nuclear-submarine?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T13:32:51+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/putin-unveils-new-nuclear-submarine/article71753555.ece",
-          "title": "Putin unveils new nuclear submarine",
-          "published": "2026-11-28T04:14:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "MSF ‘outraged’ over Israeli strike on Gaza clinic that killed two",
-      "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
-      "source": "The Independent",
-      "published": "2026-11-28T13:39:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
-          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
-          "published": "2026-11-28T10:34:58+00:00"
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+          "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+          "published": "2026-11-28T15:25:22+00:00"
         }
       ],
       "consensus": 2.0
     },
     {
-      "title": "A clinic is offering to reassess ADHD and autism diagnoses - and hundreds of people are interested",
-      "url": "https://www.bbc.co.uk/news/articles/cr9309nyg2vno?at_medium=RSS&at_campaign=rss",
+      "title": "Netanyahu says he is willing to let Eisenkot be Israel's first PM under rotation proposal",
+      "url": "https://www.france24.com/en/middle-east/20261128-netanyahu-says-he-is-willing-to-let-eisenkot-be-israel-s-first-pm-under-rotation-proposal",
+      "source": "France24",
+      "published": "2026-11-28T16:52:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Argentina's bid to stop Falklands oil drilling rejected",
+      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-28T16:18:58+00:00",
+      "published": "2026-11-28T16:45:30+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Advertisement urging end of US military aid to Israel dropped by NBC: Reports",
+      "url": "https://www.aljazeera.com/news/2026/11/28/advertisement-urging-end-of-us-military-aid-to-israel-dropped-by-nbc-reports?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T16:43:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -253,16 +223,16 @@
       "title": "Sri Lanka appoints parliamentary panel to study 1983 anti-Tamil riots",
       "url": "https://www.thehindu.com/news/international/sri-lanka-appoints-parliamentary-panel-to-study-1983-anti-tamil-riots/article71755349.ece",
       "source": "The Hindu",
-      "published": "2026-11-28T16:09:38+00:00",
+      "published": "2026-11-28T16:39:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Student-led protests in Albania turn violent as thousands call for prime minister to resign",
-      "url": "https://www.cbc.ca/news/world/albania-student-protest-violence-9.7440320?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-28T16:08:54+00:00",
+      "title": "A clinic is offering to reassess ADHD and autism diagnoses - and hundreds of people are interested",
+      "url": "https://www.bbc.co.uk/news/articles/cr9309nyg2vno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T16:18:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -310,18 +280,12 @@
       "consensus": 7.5
     },
     {
-      "title": "Hackers reportedly breach US Air Force cloud platform as Pentagon insists systems are secure",
-      "url": "https://www.france24.com/en/americas/20261128-us-military-cloud-platform-reportedly-hacked-as-pentagon-insists-systems-are-secure",
-      "source": "France24",
-      "published": "2026-11-28T06:04:56+00:00",
-      "score": 5,
+      "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
+      "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
+      "source": "Japan Times",
+      "published": "2026-11-28T01:11:00+00:00",
+      "score": 4,
       "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
-          "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-          "published": "2026-11-28T01:11:00+00:00"
-        },
         {
           "source": "MercoPress",
           "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -341,7 +305,7 @@
           "published": "2026-11-27T11:03:00+00:00"
         }
       ],
-      "consensus": 6.0
+      "consensus": 4.5
     },
     {
       "title": "Russian flotilla heading to Libya turns around after warship sunk in Benghazi",
@@ -430,6 +394,70 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Taiwan elections: Candidate criticised by China concedes Taipei mayoral race",
+      "url": "https://www.abc.net.au/news/2026-11-29/taiwan-election-results-chiang-wan-an/107438794",
+      "source": "ABC Australia",
+      "published": "2026-11-28T13:57:25+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/asia-pacific/20261128-taiwan-holds-local-elections-under-beijing-s-watchful-gaze",
+          "title": "Taiwan mayoral candidate criticised by Beijing concedes defeat",
+          "published": "2026-11-28T06:25:33+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Indian police disperse protest outside Meta offices amid concern the company is censoring political opposition",
+      "url": "https://www.cbc.ca/news/world/india-modi-meta-protest-9.7440253?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T13:56:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/indian-police-disperse-protest-outside-meta-offices-with-water-cannon",
+          "title": "Indian police disperse protest outside Meta offices with water cannon",
+          "published": "2026-11-28T12:12:09+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Putin unveils new nuclear submarine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/putin-unveils-new-nuclear-submarine?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T13:32:51+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/putin-unveils-new-nuclear-submarine/article71753555.ece",
+          "title": "Putin unveils new nuclear submarine",
+          "published": "2026-11-28T04:14:12+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israeli strike kills 2 staff outside Gaza medical clinic, MSF says",
+      "url": "https://www.cbc.ca/news/world/israeli-strike-killed-two-msf-staff-9.7440201?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T13:32:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+          "published": "2026-11-28T10:34:58+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Explosion at Afghanistan school kills seven students, wounds 97 people",
@@ -896,46 +924,10 @@
       "consensus": 1.5
     },
     {
-      "title": "Argentina fails in bid to block UK-led oil drilling off Falkland Islands",
-      "url": "https://www.independent.co.uk/news/world/americas/falkland-islands-oil-drilling-argentina-b3093182.html",
-      "source": "The Independent",
-      "published": "2026-11-28T16:03:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Taiwan elections: KMT holds Taipei, New Taipei but loses Taichung as challenges rise",
-      "url": "https://www.scmp.com/news/china/politics/article/3376154/taiwan-elections-kmt-holds-taipei-new-taipei-loses-taichung-challenges-rise",
-      "source": "SCMP",
-      "published": "2026-11-28T16:01:31+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Suspended lights plunge from ceiling of Hong Kong estate’s clubhouse playroom",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376155/suspended-lights-plunge-ceiling-hong-kong-estates-clubhouse-playroom",
-      "source": "SCMP",
-      "published": "2026-11-28T15:59:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T15:59:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Spanish PM candidate Feijóo visits Ceuta during election blackout day",
-      "url": "https://www.politico.eu/article/spanish-pm-candidate-alberto-nunez-feijoo-visits-ceuta-during-election-blackout-day/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-28T15:49:49+00:00",
+      "title": "Student-led protests in Albania turn violent as thousands call for prime minister to resign",
+      "url": "https://www.cbc.ca/news/world/albania-student-protest-violence-9.7440320?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T16:08:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1013,7 +1005,7 @@
         "symbol": "^N225",
         "price": 58711.11,
         "currency": "JPY",
-        "change": 1211.95,
+        "change": 1211.91,
         "change_percent": 2.11,
         "name": "Nikkei 225"
       },
@@ -1085,10 +1077,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59377.8,
+        "price": 59570.48,
         "currency": "USD",
-        "change": -488.27,
-        "change_percent": -0.82,
+        "change": -295.59,
+        "change_percent": -0.49,
         "name": "Bitcoin"
       }
     ],
@@ -1158,6 +1150,12 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Democrats take the Indiana Bayh way",
+          "url": "https://www.politico.com/newsletters/playbook/2026/11/28/democrats-take-the-indiana-bayh-way-01184486",
+          "published": "2026-11-28T16:32:51+00:00",
+          "snippet": ""
+        },
+        {
           "title": "Democrats recast Jan. 6’s long shadow",
           "url": "https://www.politico.com/newsletters/playbook/2026/11/27/democrats-recast-jan-6s-long-shadow-01184349",
           "published": "2026-11-27T14:01:00+00:00",
@@ -1168,12 +1166,6 @@
           "url": "https://www.politico.com/newsletters/playbook/2026/11/26/year-of-jubilee-01184267",
           "published": "2026-11-26T14:00:00+00:00",
           "snippet": "The mainstream media race to land one of 12 Democratic presidential debates is officially underway."
-        },
-        {
-          "title": "Begun, the Medicare for All war has",
-          "url": "https://www.politico.com/newsletters/playbook/2026/11/25/begun-the-medicare-for-all-war-has-01182913",
-          "published": "2026-11-25T11:03:48+00:00",
-          "snippet": ""
         }
       ]
     },
@@ -1382,11 +1374,12 @@
   "web": {
     "tech": [
       {
-        "title": "If AI takes every job who will buy things?",
-        "url": "https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things",
-        "score": 13,
-        "source": "Hacker News",
-        "published": "2026-11-28T16:09:11+00:00"
+        "title": "Claude Code sabotage",
+        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+        "comments_url": "https://lobste.rs/s/m2jlyn/claude_code_sabotage",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T16:56:16.624000+00:00"
       },
       {
         "title": "Spotify September Outage: What we learnt",
@@ -1397,10 +1390,17 @@
         "published": "2026-11-28T16:00:29.415000+00:00"
       },
       {
+        "title": "Silently degrading the model's capabilities IS sabotage",
+        "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
+        "score": 40,
+        "source": "Hacker News",
+        "published": "2026-11-28T15:55:54+00:00"
+      },
+      {
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 2,
+        "score": 5,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1415,7 +1415,7 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 60,
+        "score": 72,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
       },
@@ -1430,14 +1430,14 @@
       {
         "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
         "url": "https://github.com/RiccardoSottini/AffrescoUI",
-        "score": 33,
+        "score": 39,
         "source": "Hacker News",
         "published": "2026-11-28T14:09:39+00:00"
       },
       {
         "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
         "url": "https://github.com/MVS-sysgen/sysgen",
-        "score": 24,
+        "score": 25,
         "source": "Hacker News",
         "published": "2026-11-28T13:17:39+00:00"
       },
@@ -1445,51 +1445,44 @@
         "title": "A story about Minecraft, Bukkit, and the GPL",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 84,
+        "score": 91,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 118,
+        "score": 130,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 340,
+        "score": 400,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 673,
+        "score": 748,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
         "title": "Claude Code sabotage: preliminary benchmarking",
         "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 395,
+        "score": 455,
         "source": "Hacker News",
         "published": "2026-11-28T10:37:40+00:00"
-      },
-      {
-        "title": "Diablo II",
-        "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 118,
-        "source": "Hacker News",
-        "published": "2026-11-28T09:54:19+00:00"
       }
     ],
     "reddit": [

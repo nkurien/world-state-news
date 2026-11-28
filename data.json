@@ -1,153 +1,187 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T08:30:56.463658+00:00",
+  "last_updated": "2026-11-28T09:01:09.039783+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 376
+      "ms": 190
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 352
+      "ms": 165
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 235
+      "ms": 266
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 267
+      "ms": 261
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 362
+      "ms": 390
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 309
+      "ms": 308
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 559
+      "ms": 485
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 583
+      "ms": 341
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 178
+      "ms": 130
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 288
+      "ms": 128
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 712
+      "ms": 793
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 303
+      "ms": 194
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 272
+      "ms": 422
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 142
+      "ms": 420
     },
     "RFI English": {
       "ok": true,
-      "count": 21,
+      "count": 22,
       "error": null,
-      "ms": 286
+      "ms": 288
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 607
+      "ms": 296
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 587
+      "ms": 632
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 636
+      "ms": 386
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 604
+      "ms": 641
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 407
+      "ms": 269
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3186
+      "ms": 3123
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 249
+      "ms": 132
     },
     "The Independent": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 190
+      "ms": 161
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 281
+      "ms": 120
     }
   },
   "breaking": [
+    {
+      "title": "Kenyan starvation cult leader convicted over further 123 deaths",
+      "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
+      "source": "RFI English",
+      "published": "2026-11-28T08:31:24+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
+          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+          "published": "2026-11-27T18:21:47+00:00"
+        },
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+          "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+          "published": "2026-11-27T17:19:31+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
+          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
+          "published": "2026-11-27T15:11:37+00:00"
+        },
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
+        }
+      ],
+      "consensus": 6.0
+    },
     {
       "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
       "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
@@ -225,77 +259,34 @@
       "consensus": 2.0
     },
     {
-      "title": "Post-property boom, China still has plenty to build and upgrade",
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3375799/post-property-boom-china-still-has-plenty-build-and-upgrade",
+      "title": "Teary-eyed fiancée, brother of firefighter Ho Wai-ho receive posthumous medal",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376125/teary-eyed-fiancee-brother-firefighter-ho-wai-ho-receive-posthumous-medal",
       "source": "SCMP",
-      "published": "2026-11-28T08:30:08+00:00",
+      "published": "2026-11-28T08:54:33+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "India’s bottled-water crackdown widens as new Bisleri sample found with bacteria",
-      "url": "https://www.straitstimes.com/asia/south-asia/indias-bottled-water-crackdown-widens-as-new-bisleri-sample-found-with-bacteria",
-      "source": "Straits Times",
-      "published": "2026-11-28T08:21:00+00:00",
+      "title": "Canada prosecutors seek 25-year prison term for suicide poison seller",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
+      "source": "SCMP",
+      "published": "2026-11-28T08:49:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Inside the NZ genebank sending seeds to the Arctic Circle doomsday vault",
-      "url": "https://www.rnz.co.nz/news/environment/2859591/inside-the-nz-genebank-sending-seeds-to-the-arctic-circle-doomsday-vault",
-      "source": "RNZ",
-      "published": "2026-11-28T08:18:06+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Several students reportedly killed, wounded in explosion at a middle school in eastern Afghanistan",
-      "url": "https://www.thehindu.com/news/international/several-students-reportedly-killed-wounded-in-explosion-at-a-middle-school-in-eastern-afghanistan/article71753929.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T08:03:42+00:00",
+      "title": "Breaking: Jess Wilson to become Victoria's premier as Coalition wins election",
+      "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
+      "source": "ABC Australia",
+      "published": "2026-11-28T08:44:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     }
   ],
   "world": [
-    {
-      "title": "Kenya cult leader found guilty of manslaughter of 123 followers asked to starve to meet Jesus",
-      "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T05:25:36+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
-          "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
-          "published": "2026-11-27T22:33:17+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
-          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-          "published": "2026-11-27T18:21:47+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-          "published": "2026-11-27T15:11:37+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
-          "title": "Kenyan starvation cult leader convicted of radicalisation",
-          "published": "2026-11-27T13:06:41+00:00"
-        }
-      ],
-      "consensus": 6.5
-    },
     {
       "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
       "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
@@ -461,6 +452,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Kenya cult leader found guilty of manslaughter of 123 followers asked to starve to meet Jesus",
+      "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T05:25:36+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+          "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
+          "published": "2026-11-27T22:33:17+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
@@ -879,55 +886,55 @@
       "consensus": 1.5
     },
     {
-      "title": "How spy drama ‘Vivant’ set off a furor — and a fervor",
-      "url": "https://www.japantimes.co.jp/culture/2026/11/28/tv-streaming/vivant-season-2-controversies/",
-      "source": "Japan Times",
-      "published": "2026-11-28T08:00:00+00:00",
+      "title": "Who is Jess Wilson? The efficient rise of Victoria's millennial leader",
+      "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-young-liberals-victoria-leader-millennial/107422040",
+      "source": "ABC Australia",
+      "published": "2026-11-28T08:44:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Students killed or injured in school explosion in Afghanistan’s Kunar",
-      "url": "https://www.aljazeera.com/news/2026/11/28/students-killed-injured-in-school-explosion-in-afghanistans-kunar-region?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T07:42:09+00:00",
+      "title": "US hotline to report cartel activities slammed as foreign interference by Mexico",
+      "url": "https://www.euronews.com/2026/11/28/us-hotline-to-report-cartel-activities-slammed-as-foreign-interference-by-mexico",
+      "source": "Euronews",
+      "published": "2026-11-28T08:39:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Russia says shot down more than 1,200 Ukraine drones overnight",
-      "url": "https://www.channelnewsasia.com/world/russia-ukraine-shot-down-drones-overnight-6589261",
+      "title": "US military repelled drones at UK airbase this month: Report",
+      "url": "https://www.channelnewsasia.com/world/us-military-repelled-drones-uk-airbase-6589176",
       "source": "CNA",
-      "published": "2026-11-28T07:41:00+00:00",
+      "published": "2026-11-28T08:33:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
+      "title": "Post-property boom, China still has plenty to build and upgrade",
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3375799/post-property-boom-china-still-has-plenty-build-and-upgrade",
       "source": "SCMP",
-      "published": "2026-11-28T07:36:59+00:00",
+      "published": "2026-11-28T08:30:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "What's the result in your electorate? Take a look at the map of your seat",
-      "url": "https://www.abc.net.au/news/2026-11-28/victoria-election-results-by-electorate/107436184",
-      "source": "ABC Australia",
-      "published": "2026-11-28T07:28:39+00:00",
+      "title": "Sudanese launch clean-up drive as rubbish overwhelms Khartoum’s streets",
+      "url": "https://www.aljazeera.com/news/2026/11/28/sudanese-launch-clean-up-drive-as-garbage-overwhelms-khartoum-streets?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T08:24:03+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Live: Matildas take on Colombia in Canberra",
-      "url": "https://www.abc.net.au/news/2026-11-28/matildas-live-updates-australia-vs-colombia-in-canberra/107435020",
-      "source": "ABC Australia",
-      "published": "2026-11-28T07:25:57+00:00",
+      "title": "India’s bottled-water crackdown widens as new Bisleri sample found with bacteria",
+      "url": "https://www.straitstimes.com/asia/south-asia/indias-bottled-water-crackdown-widens-as-new-bisleri-sample-found-with-bacteria",
+      "source": "Straits Times",
+      "published": "2026-11-28T08:21:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1077,10 +1084,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59624.5,
+        "price": 59515.93,
         "currency": "USD",
-        "change": -241.57,
-        "change_percent": -0.4,
+        "change": -350.14,
+        "change_percent": -0.58,
         "name": "Bitcoin"
       }
     ],
@@ -1376,14 +1383,14 @@
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 33,
+        "score": 53,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 230,
+        "score": 258,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1406,14 +1413,14 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 346,
+        "score": 362,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
         "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
         "url": "https://tabernet.es/",
-        "score": 111,
+        "score": 117,
         "source": "Hacker News",
         "published": "2026-11-27T23:00:30+00:00"
       },
@@ -1421,7 +1428,7 @@
         "title": "My Approach to Alt Text (2024)",
         "url": "http://adrianroselli.com/2024/05/my-approach-to-alt-text.html",
         "comments_url": "https://lobste.rs/s/cz9ecz/my_approach_alt_text_2024",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-27T22:00:18.913000+00:00"
       },
@@ -1445,7 +1452,7 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 23,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
@@ -1453,14 +1460,14 @@
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 39,
+        "score": 41,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 294,
+        "score": 297,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
@@ -1476,7 +1483,7 @@
         "title": "Build your own Paint",
         "url": "https://www.buildyourownpaint.com/en",
         "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
-        "score": 19,
+        "score": 21,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
       },
@@ -1484,7 +1491,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 50,
+        "score": 54,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       }

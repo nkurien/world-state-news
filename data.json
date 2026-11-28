@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T09:28:57.877064+00:00",
+  "last_updated": "2026-11-28T09:30:55.918963+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 300
+      "ms": 274
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 275
+      "ms": 357
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 117
+      "ms": 342
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 59
+      "ms": 474
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 153
+      "ms": 176
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 163
+      "ms": 146
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 269
+      "ms": 570
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 427
+      "ms": 459
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 84
+      "ms": 137
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 117
+      "ms": 266
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 494
+      "ms": 423
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 299
+      "ms": 322
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 118
+      "ms": 399
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 185
+      "ms": 101
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 347
+      "ms": 281
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 458
+      "ms": 473
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 673
+      "ms": 682
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 435
+      "ms": 595
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 552
+      "ms": 531
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 333
+      "ms": 323
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3147
+      "ms": 3163
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 204
+      "ms": 233
     },
     "The Independent": {
       "ok": true,
       "count": 46,
       "error": null,
-      "ms": 147
+      "ms": 128
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 248
     }
   },
   "breaking": [
@@ -153,8 +153,14 @@
       "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
       "source": "RFI English",
       "published": "2026-11-28T08:31:24+00:00",
-      "score": 4,
+      "score": 5,
       "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
+          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
+          "published": "2026-11-27T18:21:47+00:00"
+        },
         {
           "source": "BBC News",
           "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
@@ -174,7 +180,7 @@
           "published": "2026-11-27T13:06:41+00:00"
         }
       ],
-      "consensus": 4.5
+      "consensus": 6.0
     },
     {
       "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
@@ -335,28 +341,6 @@
         }
       ],
       "consensus": 4.0
-    },
-    {
-      "title": "Kenya cult leader found guilty of manslaughter of 123 followers asked to starve to meet Jesus",
-      "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T05:25:36+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
-          "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
-          "published": "2026-11-27T22:33:17+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
-          "title": "Kenyan starvation cult leader guilty of manslaughter for 123 deaths in latest conviction",
-          "published": "2026-11-27T18:21:47+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
@@ -789,6 +773,22 @@
       "consensus": 2.0
     },
     {
+      "title": "AirAsia delays staff salary payments to end of month, internal email shows",
+      "url": "https://www.thehindu.com/news/international/airasia-delays-staff-salary-payments-to-end-of-month-internal-email-shows/article71749725.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T08:23:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/airasia-delays-staff-salary-payments-to-end-of-month-internal-e-mail-shows",
+          "title": "AirAsia delays staff salary payments to end of month",
+          "published": "2026-11-27T07:25:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Upper House rejects censure motion against education minister",
       "url": "https://www.japantimes.co.jp/news/2026/11/27/japan/politics/censure-motion-voted-down/",
       "source": "Japan Times",
@@ -928,19 +928,19 @@
       "consensus": 1.0
     },
     {
-      "title": "Canada prosecutors seek 25-year prison term for suicide poison seller",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
-      "source": "SCMP",
-      "published": "2026-11-28T08:49:20+00:00",
+      "title": "Spain faces political shift as far right gains ground",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/spain-faces-political-shift-as-far-right-gains-ground?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T08:54:02+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Breaking: Jess Wilson now Victoria's first popularly elected woman in top job",
-      "url": "https://www.abc.net.au/news/2026-11-28/jess-wilson-victorian-liberals-form-government-state-election/107438320",
-      "source": "ABC Australia",
-      "published": "2026-11-28T08:44:23+00:00",
+      "title": "Canada prosecutors seek 25-year prison term for suicide poison seller",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
+      "source": "SCMP",
+      "published": "2026-11-28T08:49:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1090,10 +1090,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59558.84,
+        "price": 59596.68,
         "currency": "USD",
-        "change": -307.23,
-        "change_percent": -0.51,
+        "change": -269.39,
+        "change_percent": -0.45,
         "name": "Bitcoin"
       }
     ],
@@ -1427,7 +1427,7 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 377,
+        "score": 379,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },

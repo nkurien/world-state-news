@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T09:30:55.918963+00:00",
+  "last_updated": "2026-11-28T10:01:01.316255+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 274
+      "ms": 679
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 357
+      "ms": 205
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 342
+      "ms": 112
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 474
+      "ms": 331
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 176
+      "ms": 122
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 146
+      "ms": 243
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 570
+      "ms": 681
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 459
+      "ms": 194
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 137
+      "ms": 220
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 266
+      "ms": 333
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 423
+      "ms": 714
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 322
+      "ms": 292
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 399
+      "ms": 335
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 101
+      "ms": 446
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 281
+      "ms": 203
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 473
+      "ms": 133
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 682
+      "ms": 537
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 595
+      "ms": 334
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 531
+      "ms": 582
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 323
+      "ms": 238
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3163
+      "ms": 3198
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 233
+      "ms": 115
     },
     "The Independent": {
       "ok": true,
-      "count": 46,
+      "count": 45,
       "error": null,
-      "ms": 128
+      "ms": 262
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 248
+      "ms": 107
     }
   },
   "breaking": [
@@ -183,6 +183,34 @@
       "consensus": 6.0
     },
     {
+      "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+      "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-doctors-without-borders-6589316",
+      "source": "CNA",
+      "published": "2026-11-28T09:41:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
+          "title": "Doctors Without Borders ‘outraged’ over Israeli strike on Gaza clinic that killed two staffers",
+          "published": "2026-11-28T09:32:34+00:00"
+        },
+        {
+          "source": "ABC Australia",
+          "url": "https://www.abc.net.au/news/2026-11-28/two-killed-israeli-air-strike-gaza-msf/107438266",
+          "title": "Israeli air strike on Doctors Without Borders Gaza office kills two",
+          "published": "2026-11-28T06:20:19+00:00"
+        },
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
+          "title": "Israeli ‘direct hit ‘on Doctors Without Borders Gaza clinic kills 2 staff",
+          "published": "2026-11-28T03:45:58+00:00"
+        }
+      ],
+      "consensus": 5.5
+    },
+    {
       "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
       "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -205,26 +233,36 @@
       "consensus": 4.0
     },
     {
-      "title": "US military fires at a ship that violated blockade of Iranian ports",
-      "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
-      "source": "Euronews",
-      "published": "2026-11-28T06:55:55+00:00",
-      "score": 3,
+      "title": "Peru, Ecuador hit by El Nino-linked floods",
+      "url": "https://www.scmp.com/news/world/americas/article/3376127/peru-ecuador-hit-el-nino-linked-floods",
+      "source": "SCMP",
+      "published": "2026-11-28T09:38:59+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/us-military-fires-ship-iran-blockade/",
-          "title": "U.S. military fires on ship violating Iran blockade",
-          "published": "2026-11-28T01:09:00+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/usa-military-gulf-of-oman-ship-iran-blockade-b3093017.html",
-          "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
-          "published": "2026-11-27T19:54:54+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+          "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
+          "published": "2026-11-28T04:57:32+00:00"
         }
       ],
-      "consensus": 3.5
+      "consensus": 2.5
+    },
+    {
+      "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
+      "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
+      "source": "Africanews",
+      "published": "2026-11-28T09:14:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+          "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+          "published": "2026-11-28T07:22:17+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Zelenskyy urges U.S. to pressure Russia and questions Trump referring Putin as ‘friend’",
@@ -243,37 +281,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Russian Army Intercepts Over 1.2K Ukrainian Drones in Latest Nighttime Air Barrage",
-      "url": "https://www.themoscowtimes.com/2026/11/28/russian-army-intercepts-over-1-2k-ukrainian-drones-in-latest-nighttime-air-a812401",
-      "source": "The Moscow Times",
-      "published": "2026-11-28T09:21:07+00:00",
+      "title": "Scientists find dice, game tiles in Kublai Khan shipwreck, revealing how troops coped at sea",
+      "url": "https://www.scmp.com/news/people-culture/trending-china/article/3376112/scientists-find-dice-game-tiles-kublai-khan-shipwreck-revealing-how-troops-coped-sea",
+      "source": "SCMP",
+      "published": "2026-11-28T10:00:17+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Turkey pushes for Black Sea shipping deal as UN warns global food crisis looms",
-      "url": "https://www.rfi.fr/en/podcasts/international-report/20261128-turkey-pushes-for-black-sea-shipping-deal-as-un-warns-global-food-crisis-looms",
-      "source": "RFI English",
-      "published": "2026-11-28T09:19:50+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Kyiv uses laser to shoot down Russian drone after Zelensky hits out at Trump",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
-      "source": "The Independent",
-      "published": "2026-11-28T09:14:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Sudan: Addicted to Aid - How conflict and foreign money left the world’s youngest nation unable to stand on its own",
-      "url": "https://www.independent.co.uk/tv/news/south-sudan-conflict-foreign-aid-video-b3092872.html",
-      "source": "The Independent",
-      "published": "2026-11-28T09:12:05+00:00",
+      "title": "School camp staffer fired after reports of inappropriate touching",
+      "url": "https://www.abc.net.au/news/2026-11-28/aussie-bush-camp-police/107438418",
+      "source": "ABC Australia",
+      "published": "2026-11-28T09:52:31+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -341,6 +361,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "US military fires at a ship that violated blockade of Iranian ports",
+      "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
+      "source": "Euronews",
+      "published": "2026-11-28T06:55:55+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/us-military-fires-ship-iran-blockade/",
+          "title": "U.S. military fires on ship violating Iran blockade",
+          "published": "2026-11-28T01:09:00+00:00"
+        },
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/americas/usa-military-gulf-of-oman-ship-iran-blockade-b3093017.html",
+          "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
+          "published": "2026-11-27T19:54:54+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
@@ -451,22 +493,6 @@
         }
       ],
       "consensus": 3.0
-    },
-    {
-      "title": "Israeli air strike on Doctors Without Borders Gaza office kills two",
-      "url": "https://www.abc.net.au/news/2026-11-28/two-killed-israeli-air-strike-gaza-msf/107438266",
-      "source": "ABC Australia",
-      "published": "2026-11-28T06:20:19+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
-          "title": "Israeli ‘direct hit ‘on Doctors Without Borders Gaza clinic kills 2 staff",
-          "published": "2026-11-28T03:45:58+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
@@ -901,46 +927,46 @@
       "consensus": 1.5
     },
     {
-      "title": "South Sudan should be rich. So, why are millions on the brink of starvation?",
-      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-oil-wealth-aid-corruption-war-flooding-b3053646.html",
-      "source": "The Independent",
-      "published": "2026-11-28T09:11:29+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Sudan: a country of conflict",
-      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-conflict-history-b3069256.html",
-      "source": "The Independent",
-      "published": "2026-11-28T09:11:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Teary-eyed fiancée, brother of firefighter Ho Wai-ho receive posthumous medal",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376125/teary-eyed-fiancee-brother-firefighter-ho-wai-ho-receive-posthumous-medal",
+      "title": "Saudi blockbuster 7 Dogs lands in China as cultural ties grow",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3376012/saudi-blockbuster-7-dogs-lands-china-cultural-ties-grow",
       "source": "SCMP",
-      "published": "2026-11-28T08:54:33+00:00",
+      "published": "2026-11-28T10:00:14+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Spain faces political shift as far right gains ground",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/spain-faces-political-shift-as-far-right-gains-ground?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T08:54:02+00:00",
+      "title": "Election day rescue of hikers trapped in floodwaters at Lerderderg Gorge",
+      "url": "https://www.abc.net.au/news/2026-11-28/hikers-rescued-lerderderg-gorge-bacchus-marsh/107438542",
+      "source": "ABC Australia",
+      "published": "2026-11-28T09:35:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Canada prosecutors seek 25-year prison term for suicide poison seller",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376123/canada-prosecutors-seek-25-year-prison-term-suicide-poison-seller",
+      "title": "More than a lanyard: making hidden disabilities visible at Hong Kong airport",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376126/more-lanyard-making-hidden-disabilities-visible-hong-kong-airport",
       "source": "SCMP",
-      "published": "2026-11-28T08:49:20+00:00",
+      "published": "2026-11-28T09:34:11+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Ukraine-Russia war latest: Kyiv uses laser to shoot down Russian drone after Zelensky hits out at Trump",
+      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+      "source": "The Independent",
+      "published": "2026-11-28T09:34:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "For 123 days, Ben Carroll walked in the shadow of his predecessors",
+      "url": "https://www.abc.net.au/news/2026-11-28/ben-carroll-loses-vic-election-niddrie-seat-result/107416690",
+      "source": "ABC Australia",
+      "published": "2026-11-28T09:28:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1090,10 +1116,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59596.68,
+        "price": 59466.81,
         "currency": "USD",
-        "change": -269.39,
-        "change_percent": -0.45,
+        "change": -399.26,
+        "change_percent": -0.67,
         "name": "Bitcoin"
       }
     ],
@@ -1387,24 +1413,32 @@
   "web": {
     "tech": [
       {
+        "title": "Let me Give You Worms",
+        "url": "https://untested.sonnet.io/notes/let-me-give-you-worms/",
+        "comments_url": "https://lobste.rs/s/82zm3l/let_me_give_you_worms",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T09:41:52.020000+00:00"
+      },
+      {
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 72,
+        "score": 85,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 275,
+        "score": 299,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1420,21 +1454,21 @@
         "title": "A Best-in-Class iOS App: The Book Series",
         "url": "https://www.bestinclassiosapp.com/",
         "comments_url": "https://lobste.rs/s/wkljma/best_class_ios_app_book_series",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T00:12:41.264000+00:00"
       },
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 379,
+        "score": 392,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
         "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
         "url": "https://tabernet.es/",
-        "score": 122,
+        "score": 127,
         "source": "Hacker News",
         "published": "2026-11-27T23:00:30+00:00"
       },
@@ -1449,7 +1483,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 127,
+        "score": 128,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1473,7 +1507,7 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 27,
+        "score": 28,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
@@ -1481,24 +1515,16 @@
         "title": "Objections to .php application being published on ICANN site",
         "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
         "comments_url": "https://lobste.rs/s/d0phlt/objections_php_application_being",
-        "score": 41,
+        "score": 43,
         "source": "Lobste.rs",
         "published": "2026-11-27T18:16:09.126000+00:00"
       },
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 300,
+        "score": 302,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
-      },
-      {
-        "title": "Pop!_OS 26.04 LTS Has Landed",
-        "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
-        "comments_url": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
-        "score": 19,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T16:42:50.585000+00:00"
       }
     ],
     "reddit": [

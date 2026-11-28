@@ -1,108 +1,108 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T16:01:08.889095+00:00",
+  "last_updated": "2026-11-28T16:30:55.756702+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 221
+      "ms": 272
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 169
+      "ms": 197
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 117
+      "ms": 374
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 231
+      "ms": 433
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 200
+      "ms": 442
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 221
+      "ms": 319
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 219
+      "ms": 211
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 311
+      "ms": 297
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 43
+      "ms": 157
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 258
+      "ms": 144
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 502
+      "ms": 670
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 207
+      "ms": 283
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 102
+      "ms": 350
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 400
+      "ms": 139
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 89
+      "ms": 203
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 232
+      "ms": 322
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 453
+      "ms": 560
     },
     "Semafor": {
       "ok": true,
@@ -114,37 +114,37 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 558
+      "ms": 588
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 231
+      "ms": 271
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3087
+      "ms": 3196
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 155
+      "ms": 94
     },
     "The Independent": {
       "ok": true,
-      "count": 40,
+      "count": 37,
       "error": null,
-      "ms": 297
+      "ms": 164
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 133
+      "ms": 130
     }
   },
   "breaking": [
@@ -225,10 +225,10 @@
       "consensus": 2.5
     },
     {
-      "title": "Israeli strike kills 2 staff outside Gaza medical clinic, MSF says",
-      "url": "https://www.cbc.ca/news/world/israeli-strike-killed-two-msf-staff-9.7440201?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-28T13:32:40+00:00",
+      "title": "MSF ‘outraged’ over Israeli strike on Gaza clinic that killed two",
+      "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
+      "source": "The Independent",
+      "published": "2026-11-28T13:39:15+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -238,45 +238,31 @@
           "published": "2026-11-28T10:34:58+00:00"
         }
       ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
-      "source": "SCMP",
-      "published": "2026-11-28T15:25:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/se-asia/air-strike-on-myanmar-wedding-venue-kills-several-witness-images",
-          "title": "Air strike on Myanmar wedding venue kills 20: Witness, images",
-          "published": "2026-11-28T12:03:00+00:00"
-        }
-      ],
       "consensus": 2.0
     },
     {
-      "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
-      "url": "https://www.euronews.com/2026/11/28/openai-and-apple-accuse-each-other-of-committing-trade-secret-theft-openai-countersues",
-      "source": "Euronews",
-      "published": "2026-11-28T13:05:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
-          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
-          "published": "2026-11-28T11:35:34+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "A clinic is offering to reassess ADHD and autism diagnoses - and hundreds of people are interested",
+      "url": "https://www.bbc.co.uk/news/articles/cr9309nyg2vno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T16:18:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Suspended lights plunge from ceiling of Hong Kong estate’s clubhouse playroom",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376155/suspended-lights-plunge-ceiling-hong-kong-estates-clubhouse-playroom",
-      "source": "SCMP",
-      "published": "2026-11-28T15:59:39+00:00",
+      "title": "Sri Lanka appoints parliamentary panel to study 1983 anti-Tamil riots",
+      "url": "https://www.thehindu.com/news/international/sri-lanka-appoints-parliamentary-panel-to-study-1983-anti-tamil-riots/article71755349.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T16:09:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Student-led protests in Albania turn violent as thousands call for prime minister to resign",
+      "url": "https://www.cbc.ca/news/world/albania-student-protest-violence-9.7440320?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T16:08:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -457,22 +443,6 @@
           "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
           "title": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
           "published": "2026-11-28T11:32:37+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
-      "source": "SCMP",
-      "published": "2026-11-28T11:07:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205?cmp=rss",
-          "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90",
-          "published": "2026-11-28T10:29:19+00:00"
         }
       ],
       "consensus": 2.5
@@ -668,6 +638,22 @@
         }
       ],
       "consensus": 2.5
+    },
+    {
+      "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
+      "url": "https://www.euronews.com/2026/11/28/openai-and-apple-accuse-each-other-of-committing-trade-secret-theft-openai-countersues",
+      "source": "Euronews",
+      "published": "2026-11-28T13:05:25+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+          "published": "2026-11-28T11:35:34+00:00"
+        }
+      ],
+      "consensus": 2.0
     },
     {
       "title": "Saudi, Houthis trade strikes targeting capitals",
@@ -910,46 +896,46 @@
       "consensus": 1.5
     },
     {
+      "title": "Argentina fails in bid to block UK-led oil drilling off Falkland Islands",
+      "url": "https://www.independent.co.uk/news/world/americas/falkland-islands-oil-drilling-argentina-b3093182.html",
+      "source": "The Independent",
+      "published": "2026-11-28T16:03:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Taiwan elections: KMT holds Taipei, New Taipei but loses Taichung as challenges rise",
+      "url": "https://www.scmp.com/news/china/politics/article/3376154/taiwan-elections-kmt-holds-taipei-new-taipei-loses-taichung-challenges-rise",
+      "source": "SCMP",
+      "published": "2026-11-28T16:01:31+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Suspended lights plunge from ceiling of Hong Kong estate’s clubhouse playroom",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376155/suspended-lights-plunge-ceiling-hong-kong-estates-clubhouse-playroom",
+      "source": "SCMP",
+      "published": "2026-11-28T15:59:39+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Video shows aftermath of deadly air strike at Myanmar wedding venue",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/video-shows-aftermath-of-deadly-air-strike-at-myanmar-wedding-venue?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T15:59:08+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
       "title": "Spanish PM candidate Feijóo visits Ceuta during election blackout day",
       "url": "https://www.politico.eu/article/spanish-pm-candidate-alberto-nunez-feijoo-visits-ceuta-during-election-blackout-day/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "source": "Politico EU",
       "published": "2026-11-28T15:49:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "New York City: Macy’s 100th Thanksgiving Day Parade takes place after historic weather delay",
-      "url": "https://www.euronews.com/2026/11/28/new-york-city-macys-100th-thanksgiving-day-parade-takes-place-after-historic-weather-delay",
-      "source": "Euronews",
-      "published": "2026-11-28T15:48:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Arsenal vs Manchester City: Premier League – teams, prediction, lineups",
-      "url": "https://www.aljazeera.com/sports/2026/11/28/arsenal-vs-manchester-city-premier-league-teams-prediction-lineups?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T15:37:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Major student protests against Albania’s government turn violent as petrol bombs hurled at police",
-      "url": "https://www.independent.co.uk/news/world/europe/albania-protest-student-government-violent-b3093212.html",
-      "source": "The Independent",
-      "published": "2026-11-28T15:37:17+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Protesters against gender-based violence denounce 149 femicides in France",
-      "url": "https://www.france24.com/en/protesters-blame-french-government-for-structural-issues-fueling-gender-based-violence",
-      "source": "France24",
-      "published": "2026-11-28T15:35:54+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1099,10 +1085,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59435.66,
+        "price": 59377.8,
         "currency": "USD",
-        "change": -430.41,
-        "change_percent": -0.72,
+        "change": -488.27,
+        "change_percent": -0.82,
         "name": "Bitcoin"
       }
     ],
@@ -1298,6 +1284,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "How Trump Is Shifting America’s Alliances",
+          "url": "https://www.theatlantic.com/national/2026/11/trump-allies-washington-week/689600/?utm_source=feed",
+          "published": "2026-11-28T16:23:01+00:00",
+          "snippet": "Anne Applebaum joined for a special edition of Washington Week With The Atlantic to discuss how the president’s actions may be distancing the country from its..."
+        },
+        {
           "title": "This Winter’s Forecast Could Get Very Weird",
           "url": "https://www.theatlantic.com/science/2026/11/christmas-weather-el-nino-polar-vortex/689554/?utm_source=feed",
           "published": "2026-11-28T14:00:00+00:00",
@@ -1308,12 +1300,6 @@
           "url": "https://www.theatlantic.com/newsletters/2026/11/familiar-strangeness-family-home-nostalgia/689592/?utm_source=feed",
           "published": "2026-11-28T13:00:00+00:00",
           "snippet": "The complicated nostalgia of reconnecting with our former self"
-        },
-        {
-          "title": "Maybe She’s Born With It. Maybe It’s Aura Farming.",
-          "url": "https://www.theatlantic.com/culture/2026/11/aura-farming-modern-cool/689472/?utm_source=feed",
-          "published": "2026-11-28T13:00:00+00:00",
-          "snippet": "Online, charisma is something that can be optimized—and lost."
         }
       ]
     },
@@ -1396,10 +1382,25 @@
   "web": {
     "tech": [
       {
+        "title": "If AI takes every job who will buy things?",
+        "url": "https://coryalthoff.com/essays/if-ai-takes-every-job-who-will-buy-things",
+        "score": 13,
+        "source": "Hacker News",
+        "published": "2026-11-28T16:09:11+00:00"
+      },
+      {
+        "title": "Spotify September Outage: What we learnt",
+        "url": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt",
+        "comments_url": "https://lobste.rs/s/tz1uyv/spotify_september_outage_what_we_learnt",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T16:00:29.415000+00:00"
+      },
+      {
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1414,16 +1415,9 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 42,
+        "score": 60,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
-      },
-      {
-        "title": "AI Isn't That Dangerous",
-        "url": "https://www.verysane.ai/p/ai-isnt-that-dangerous",
-        "score": 45,
-        "source": "Hacker News",
-        "published": "2026-11-28T14:42:41+00:00"
       },
       {
         "title": "Optimistic Update vs. Immediate Intent",
@@ -1436,14 +1430,14 @@
       {
         "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
         "url": "https://github.com/RiccardoSottini/AffrescoUI",
-        "score": 19,
+        "score": 33,
         "source": "Hacker News",
         "published": "2026-11-28T14:09:39+00:00"
       },
       {
         "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
         "url": "https://github.com/MVS-sysgen/sysgen",
-        "score": 22,
+        "score": 24,
         "source": "Hacker News",
         "published": "2026-11-28T13:17:39+00:00"
       },
@@ -1451,59 +1445,51 @@
         "title": "A story about Minecraft, Bukkit, and the GPL",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 12,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 74,
+        "score": 84,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 94,
+        "score": 118,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 279,
+        "score": 340,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 615,
+        "score": 673,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
         "title": "Claude Code sabotage: preliminary benchmarking",
         "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 347,
+        "score": 395,
         "source": "Hacker News",
         "published": "2026-11-28T10:37:40+00:00"
       },
       {
         "title": "Diablo II",
         "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 106,
+        "score": 118,
         "source": "Hacker News",
         "published": "2026-11-28T09:54:19+00:00"
-      },
-      {
-        "title": "Let me Give You Worms",
-        "url": "https://untested.sonnet.io/notes/let-me-give-you-worms/",
-        "comments_url": "https://lobste.rs/s/82zm3l/let_me_give_you_worms",
-        "score": 2,
-        "source": "Lobste.rs",
-        "published": "2026-11-28T09:41:52.020000+00:00"
       }
     ],
     "reddit": [

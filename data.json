@@ -1,187 +1,153 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T04:01:05.468507+00:00",
+  "last_updated": "2026-11-28T04:30:54.466380+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 298
+      "ms": 503
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 330
+      "ms": 213
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 287
+      "ms": 211
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 500
+      "ms": 207
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 330
+      "ms": 515
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 361
+      "ms": 635
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 474
+      "ms": 274
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 413
+      "ms": 362
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 159
+      "ms": 138
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 136
+      "ms": 189
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 420
+      "ms": 860
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 328
+      "ms": 261
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 401
+      "ms": 297
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 712
+      "ms": 511
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 66
+      "ms": 131
     },
     "RNZ": {
       "ok": true,
       "count": 42,
       "error": null,
-      "ms": 329
+      "ms": 339
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 724
+      "ms": 574
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 588
+      "ms": 454
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 525
+      "ms": 546
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 397
+      "ms": 289
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3075
+      "ms": 3247
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 289
+      "ms": 175
     },
     "The Independent": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 119
+      "ms": 171
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 253
+      "ms": 125
     }
   },
   "breaking": [
-    {
-      "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-      "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
-      "source": "Japan Times",
-      "published": "2026-11-28T01:11:00+00:00",
-      "score": 5,
-      "other_sources": [
-        {
-          "source": "MercoPress",
-          "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-          "title": "US Air Force cloud platform hacked, Reuters reports",
-          "published": "2026-11-27T17:06:00+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/article71750783.ece",
-          "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
-          "published": "2026-11-27T15:45:59+00:00"
-        },
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-          "published": "2026-11-27T12:25:16+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/hackers-breach-us-air-force-cloud-one-computing-platform-6587501",
-          "title": "Hackers breach US Air Force flagship Cloud One computing platform",
-          "published": "2026-11-27T11:03:00+00:00"
-        }
-      ],
-      "consensus": 5.5
-    },
     {
       "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
       "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
@@ -227,10 +193,42 @@
       "consensus": 4.0
     },
     {
-      "title": "Taiwan votes in local elections to choose mayors, other leaders",
-      "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T02:05:27+00:00",
+      "title": "Putin unveils new nuclear submarine",
+      "url": "https://www.thehindu.com/news/international/putin-unveils-new-nuclear-submarine/article71753555.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T04:14:12+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+          "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+          "published": "2026-11-27T20:39:57+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Seoul monitoring signs of possible Kim Jong Un visit to China",
+      "url": "https://www.straitstimes.com/asia/east-asia/seoul-monitoring-signs-of-possible-kim-jong-un-visit-to-china",
+      "source": "Straits Times",
+      "published": "2026-11-28T04:01:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/28/asia-pacific/politics/seoul-north-korea-kim-visit-china/",
+          "title": "Seoul monitoring signs of possible visit to China by North Korea’s Kim",
+          "published": "2026-11-28T03:22:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Taiwan votes in key local elections as China looks on",
+      "url": "https://www.thehindu.com/news/international/taiwan-votes-in-key-local-elections-as-china-looks-on/article71753506.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T03:04:20+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -240,54 +238,31 @@
           "published": "2026-11-28T00:02:06+00:00"
         }
       ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
-      "url": "https://www.japantimes.co.jp/news/2026/11/28/world/russian-military-flotilla-libya-turns-around/",
-      "source": "Japan Times",
-      "published": "2026-11-28T01:11:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/27/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-a812400",
-          "title": "Russian Military Flotilla Bound for Libya Turns Around After Warship Sunk, Sources Say",
-          "published": "2026-11-27T19:40:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Zelenskyy urges U.S. to pressure Russia and questions Trump referring Putin as ‘friend’",
-      "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-pressure-russia-and-questions-trump-referring-putin-as-friend/article71753434.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T01:07:56+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/zelenskyy-trump-russia-ukraine-putin-us-friend-6588296",
-          "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
-          "published": "2026-11-27T17:28:50+00:00"
-        }
-      ],
       "consensus": 2.0
     },
     {
-      "title": "In Southeast Asia, China’s split personality stands out",
-      "url": "https://www.scmp.com/week-asia/opinion/article/3376068/southeast-asia-chinas-split-personality-stands-out",
-      "source": "SCMP",
-      "published": "2026-11-28T04:00:13+00:00",
+      "title": "Japan football star Kamada charged with careless driving in London",
+      "url": "https://www.straitstimes.com/asia/east-asia/japan-football-star-kamada-charged-with-careless-driving-in-london",
+      "source": "Straits Times",
+      "published": "2026-11-28T04:27:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Cambodia’s Ream Naval Base back in spotlight after Chinese radar features in joint drill",
-      "url": "https://www.scmp.com/news/china/military/article/3376023/cambodias-ream-naval-base-back-spotlight-after-chinese-radar-features-joint-drill",
-      "source": "SCMP",
-      "published": "2026-11-28T04:00:11+00:00",
+      "title": "Culture preserved in new Aboriginal language dictionaries",
+      "url": "https://www.abc.net.au/news/2026-11-28/two-aboriginal-language-dictionaries-created-in-the-pilbara/107435892",
+      "source": "ABC Australia",
+      "published": "2026-11-28T04:16:31+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Police responding to vessel in 'difficulty' in Mount Maunganui",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2855776/police-responding-to-vessel-in-difficulty-in-mount-maunganui",
+      "source": "RNZ",
+      "published": "2026-11-28T04:09:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -327,6 +302,40 @@
         }
       ],
       "consensus": 6.5
+    },
+    {
+      "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
+      "url": "https://www.japantimes.co.jp/news/2026/11/28/world/hackers-us-air-force-computing-platform/",
+      "source": "Japan Times",
+      "published": "2026-11-28T01:11:00+00:00",
+      "score": 5,
+      "other_sources": [
+        {
+          "source": "MercoPress",
+          "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "title": "US Air Force cloud platform hacked, Reuters reports",
+          "published": "2026-11-27T17:06:00+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/article71750783.ece",
+          "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
+          "published": "2026-11-27T15:45:59+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
+          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+          "published": "2026-11-27T12:25:16+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/hackers-breach-us-air-force-cloud-one-computing-platform-6587501",
+          "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+          "published": "2026-11-27T11:03:00+00:00"
+        }
+      ],
+      "consensus": 5.5
     },
     {
       "title": "US disables ship attempting to breach Iran blockade",
@@ -423,28 +432,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Chinese Military tests new Taiwan landing tactics in coastal drills",
-      "url": "https://www.thehindu.com/news/international/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills/article71752063.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T17:55:08+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
-          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-          "published": "2026-11-27T04:51:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
-          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-          "published": "2026-11-27T04:36:56+00:00"
-        }
-      ],
-      "consensus": 3.0
-    },
-    {
       "title": "Iran denies involvement in Kuwait strike that killed two Italians",
       "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
       "source": "Africanews",
@@ -467,26 +454,20 @@
       "consensus": 3.0
     },
     {
-      "title": "South Korea repatriates six North Koreans rescued from drifting boat",
-      "url": "https://www.thehindu.com/news/international/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat/article71749495.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T05:40:01+00:00",
-      "score": 3,
+      "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
+      "url": "https://www.japantimes.co.jp/news/2026/11/28/world/russian-military-flotilla-libya-turns-around/",
+      "source": "Japan Times",
+      "published": "2026-11-28T01:11:00+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/south-korea-north-fishing-boat/",
-          "title": "Seoul repatriates six North Koreans found on drifting fishing boat",
-          "published": "2026-11-27T05:21:00+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat",
-          "title": "South Korea repatriates six North Koreans rescued from drifting boat",
-          "published": "2026-11-27T04:46:47+00:00"
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/27/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-a812400",
+          "title": "Russian Military Flotilla Bound for Libya Turns Around After Warship Sunk, Sources Say",
+          "published": "2026-11-27T19:40:46+00:00"
         }
       ],
-      "consensus": 3.0
+      "consensus": 2.5
     },
     {
       "title": "At least eight found dead on migrant boat off Spain’s Canary Islands",
@@ -777,6 +758,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Zelenskyy urges U.S. to pressure Russia and questions Trump referring Putin as ‘friend’",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-pressure-russia-and-questions-trump-referring-putin-as-friend/article71753434.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T01:07:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/zelenskyy-trump-russia-ukraine-putin-us-friend-6588296",
+          "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+          "published": "2026-11-27T17:28:50+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
       "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
       "source": "The Hindu",
@@ -788,6 +785,22 @@
           "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
           "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
           "published": "2026-11-27T12:42:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Chinese Military tests new Taiwan landing tactics in coastal drills",
+      "url": "https://www.thehindu.com/news/international/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills/article71752063.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T17:55:08+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
+          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+          "published": "2026-11-27T04:36:56+00:00"
         }
       ],
       "consensus": 2.0
@@ -937,37 +950,19 @@
       "consensus": 1.5
     },
     {
-      "title": "Ein Spaziergang mit Markus Frohnmaier",
-      "url": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-markus-frohnmaier/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-28T04:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "AI micro dramas turn China's entertainment industry on its head",
-      "url": "https://www.abc.net.au/news/2026-11-28/ai-microdramas-disrupt-china-entertainment-industry/107421952",
-      "source": "ABC Australia",
-      "published": "2026-11-28T03:50:39+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Korea Post confirms data breach affecting at least 113,000 customers",
-      "url": "https://www.straitstimes.com/asia/east-asia/korea-post-confirms-data-breach-affecting-at-least-113000-customers",
+      "title": "No phone, no problem: How students in China are folding microdramas out of paper",
+      "url": "https://www.straitstimes.com/asia/east-asia/no-phone-no-problem-how-students-in-china-are-folding-microdramas-out-of-paper",
       "source": "Straits Times",
-      "published": "2026-11-28T03:47:51+00:00",
+      "published": "2026-11-28T04:10:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Israeli strike on Doctors Without Borders clinic in Gaza kills two staff",
-      "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T03:45:58+00:00",
+      "title": "European financial firms plan larger Hong Kong investment, treasury chief says",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3376111/european-financial-firms-plan-larger-hong-kong-investment-treasury-chief-says",
+      "source": "SCMP",
+      "published": "2026-11-28T04:08:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1027,9 +1022,9 @@
       },
       {
         "symbol": "^DJI",
-        "price": 50774.94,
+        "price": 50774.9,
         "currency": "USD",
-        "change": 591.99,
+        "change": 592.0,
         "change_percent": 1.18,
         "name": "Dow Jones"
       },
@@ -1053,7 +1048,7 @@
         "symbol": "^GDAXI",
         "price": 25441.24,
         "currency": "EUR",
-        "change": 225.72,
+        "change": 225.74,
         "change_percent": 0.9,
         "name": "DAX Index"
       },
@@ -1117,10 +1112,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59999.99,
+        "price": 59925.41,
         "currency": "USD",
-        "change": 133.92,
-        "change_percent": 0.22,
+        "change": 59.34,
+        "change_percent": 0.1,
         "name": "Bitcoin"
       }
     ],
@@ -1416,14 +1411,14 @@
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 11,
+        "score": 28,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
       {
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
-        "score": 110,
+        "score": 126,
         "source": "Hacker News",
         "published": "2026-11-28T02:03:25+00:00"
       },
@@ -1446,9 +1441,16 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 195,
+        "score": 209,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
+      },
+      {
+        "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+        "url": "https://tabernet.es/",
+        "score": 53,
+        "source": "Hacker News",
+        "published": "2026-11-27T23:00:30+00:00"
       },
       {
         "title": "My Approach to Alt Text (2024)",
@@ -1461,7 +1463,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 89,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1485,16 +1487,9 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 17,
+        "score": 18,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
-      },
-      {
-        "title": "The AT&T Unix PC (3B1) VM",
-        "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 68,
-        "source": "Hacker News",
-        "published": "2026-11-27T19:40:33+00:00"
       },
       {
         "title": "Objections to .php application being published on ICANN site",
@@ -1507,7 +1502,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 250,
+        "score": 255,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },

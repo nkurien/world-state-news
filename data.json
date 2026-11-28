@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T03:01:08.867405+00:00",
+  "last_updated": "2026-11-28T03:30:58.982022+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 401
+      "ms": 557
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 178
+      "ms": 477
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 174
+      "ms": 175
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 146
+      "ms": 352
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 203
+      "ms": 306
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 342
+      "ms": 162
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 558
+      "ms": 113
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 352
+      "ms": 494
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 164
+      "ms": 1316
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 193
+      "ms": 206
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 424
+      "ms": 468
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 253
+      "ms": 256
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 311
+      "ms": 51
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 520
+      "ms": 128
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 224
+      "ms": 219
     },
     "RNZ": {
       "ok": true,
-      "count": 43,
+      "count": 42,
       "error": null,
-      "ms": 372
+      "ms": 165
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 585
+      "ms": 696
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 480
+      "ms": 748
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 652
+      "ms": 703
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 289
+      "ms": 435
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3271
+      "ms": 3154
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 140
+      "ms": 326
     },
     "The Independent": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 230
+      "ms": 166
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 142
+      "ms": 396
     }
   },
   "breaking": [
@@ -183,6 +183,28 @@
       "consensus": 5.5
     },
     {
+      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+      "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T03:00:00+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
+          "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+          "published": "2026-11-27T19:39:57+00:00"
+        },
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
+          "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+          "published": "2026-11-27T09:57:50+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
       "url": "https://www.abc.net.au/news/2026-11-28/francesca-albanese-detained-at-costa-rica-airport/107437818",
       "source": "ABC Australia",
@@ -203,6 +225,22 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Taiwan votes in local elections to choose mayors, other leaders",
+      "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T02:05:27+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on",
+          "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+          "published": "2026-11-28T00:02:06+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
@@ -237,37 +275,19 @@
       "consensus": 2.0
     },
     {
-      "title": "Japan’s airlines brace for looming ‘2030 problem’: pilot shortages",
-      "url": "https://www.scmp.com/week-asia/economics/article/3376089/japans-airlines-brace-looming-2030-problem-pilot-shortages",
+      "title": "Costa Rica bars UN-picked human rights expert on Palestinian territories",
+      "url": "https://www.scmp.com/news/world/americas/article/3376110/costa-rica-bars-un-picked-human-rights-expert-palestinian-territories",
       "source": "SCMP",
-      "published": "2026-11-28T03:00:13+00:00",
+      "published": "2026-11-28T03:27:22+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "9 things you need to read ahead of the Spanish election",
-      "url": "https://www.politico.eu/article/nine-things-you-need-to-read-spanish-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-28T03:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Zelensky frustrated by Trump’s stance towards Putin",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
+      "title": "Doctor pleads guilty to secretly filming hundreds of female colleagues in Australian hospitals",
+      "url": "https://www.independent.co.uk/news/world/australasia/australia-melbourne-voyeurism-ryan-cho-singapore-b3092545.html",
       "source": "The Independent",
-      "published": "2026-11-28T02:51:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Dry run for Malaysia’s integrated immigration system to begin next month",
-      "url": "https://www.straitstimes.com/asia/se-asia/dry-run-for-malaysias-integrated-immigration-system-to-begin-next-month",
-      "source": "Straits Times",
-      "published": "2026-11-28T02:47:32+00:00",
+      "published": "2026-11-28T03:21:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -501,22 +521,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Makkah alliance countries review regional security situation, condemn Houthi attacks on Saudi Arabia",
-      "url": "https://www.thehindu.com/news/international/makkah-alliance-countries-review-regional-security-situation-condemn-houthi-attacks-on-saudi-arabia/article71752547.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T22:36:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
-          "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
-          "published": "2026-11-27T17:41:24+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Uganda to withdraw troops from DR Congo",
       "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo",
       "source": "France24",
@@ -544,22 +548,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
           "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
           "published": "2026-11-27T16:53:46+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
-      "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
-      "source": "CNA",
-      "published": "2026-11-27T19:39:57+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
-          "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
-          "published": "2026-11-27T09:57:50+00:00"
         }
       ],
       "consensus": 2.5
@@ -805,6 +793,22 @@
       "consensus": 2.0
     },
     {
+      "title": "AirAsia delays staff salary payments to end of month, internal email shows",
+      "url": "https://www.thehindu.com/news/international/airasia-delays-staff-salary-payments-to-end-of-month-internal-email-shows/article71749725.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T08:23:29+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/airasia-delays-staff-salary-payments-to-end-of-month-internal-e-mail-shows",
+          "title": "AirAsia delays staff salary payments to end of month",
+          "published": "2026-11-27T07:25:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Upper House rejects censure motion against education minister",
       "url": "https://www.japantimes.co.jp/news/2026/11/27/japan/politics/censure-motion-voted-down/",
       "source": "Japan Times",
@@ -917,44 +921,46 @@
       "consensus": 1.5
     },
     {
-      "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
-      "url": "https://www.euronews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says",
-      "source": "Euronews",
-      "published": "2026-11-26T10:10:16+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says/",
-          "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
-          "published": "2026-11-26T10:10:16+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
-      "title": "Calls for AI road signs after increased cassowary road deaths",
-      "url": "https://www.abc.net.au/news/2026-11-28/calls-for-cassowary-ai-signs-amid-deaths/107435502",
-      "source": "ABC Australia",
-      "published": "2026-11-28T02:43:32+00:00",
+      "title": "Skipping sleep to ‘eat wind’ and a late-night drive to a Genting petrol kiosk",
+      "url": "https://www.straitstimes.com/asia/se-asia/skipping-sleep-to-eat-wind-and-a-late-night-drive-to-a-genting-petrol-kiosk",
+      "source": "Straits Times",
+      "published": "2026-11-28T03:20:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Japan to tighten anime and game support under fund to boost its soft power",
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3376108/japan-tighten-anime-and-game-support-under-fund-boost-its-soft-power",
+      "title": "Alleged machete attack on NT woman by partner prompts police search",
+      "url": "https://www.abc.net.au/news/2026-11-28/nt-man-attacks-22yo-partner-with-machete-serious-injuries/107438030",
+      "source": "ABC Australia",
+      "published": "2026-11-28T03:06:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Why is my gas so expensive? Ask Susan",
+      "url": "https://www.rnz.co.nz/news/personal-finance/2855310/why-is-my-gas-so-expensive-ask-susan",
+      "source": "RNZ",
+      "published": "2026-11-28T03:06:13+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Japan’s airlines brace for looming ‘2030 problem’: pilot shortages",
+      "url": "https://www.scmp.com/week-asia/economics/article/3376089/japans-airlines-brace-looming-2030-problem-pilot-shortages",
       "source": "SCMP",
-      "published": "2026-11-28T02:40:42+00:00",
+      "published": "2026-11-28T03:00:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Three phases secured the Kangaroos a historic AFLW three-peat",
-      "url": "https://www.abc.net.au/news/2026-11-28/north-melbourne-dominates-three-phases-to-secure-third-aflw-flag/107438000",
-      "source": "ABC Australia",
-      "published": "2026-11-28T02:38:16+00:00",
+      "title": "9 things you need to read ahead of the Spanish election",
+      "url": "https://www.politico.eu/article/nine-things-you-need-to-read-spanish-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-28T03:00:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1104,10 +1110,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59909.49,
+        "price": 59856.9,
         "currency": "USD",
-        "change": 43.42,
-        "change_percent": 0.07,
+        "change": -9.17,
+        "change_percent": -0.02,
         "name": "Bitcoin"
       }
     ],
@@ -1403,7 +1409,7 @@
       {
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
-        "score": 39,
+        "score": 84,
         "source": "Hacker News",
         "published": "2026-11-28T02:03:25+00:00"
       },
@@ -1424,25 +1430,18 @@
         "published": "2026-11-28T00:12:41.264000+00:00"
       },
       {
-        "title": "Passkey blues",
-        "url": "https://ssg.dev/passkey-blues/",
-        "score": 54,
-        "source": "Hacker News",
-        "published": "2026-11-27T23:51:28+00:00"
-      },
-      {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 149,
+        "score": 170,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
-        "title": "Source Control from Hell",
-        "url": "https://frantic.im/git/",
-        "score": 68,
+        "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+        "url": "https://tabernet.es/",
+        "score": 48,
         "source": "Hacker News",
-        "published": "2026-11-27T22:06:44+00:00"
+        "published": "2026-11-27T23:00:30+00:00"
       },
       {
         "title": "My Approach to Alt Text (2024)",
@@ -1455,7 +1454,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 85,
+        "score": 88,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1471,7 +1470,7 @@
         "title": "x86 is an octal machine",
         "url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
         "comments_url": "https://lobste.rs/s/kikmfz/x86_is_octal_machine",
-        "score": 6,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:24:04.111000+00:00"
       },
@@ -1486,7 +1485,7 @@
       {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 65,
+        "score": 68,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
@@ -1501,7 +1500,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 240,
+        "score": 247,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
@@ -1509,9 +1508,17 @@
         "title": "Pop!_OS 26.04 LTS Has Landed",
         "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
         "comments_url": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
-        "score": 12,
+        "score": 13,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:42:50.585000+00:00"
+      },
+      {
+        "title": "Build your own Paint",
+        "url": "https://www.buildyourownpaint.com/en",
+        "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
+        "score": 16,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:22:36.766000+00:00"
       }
     ],
     "reddit": [

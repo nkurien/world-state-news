@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T17:01:03.671745+00:00",
+  "last_updated": "2026-11-28T17:30:52.880306+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 241
+      "ms": 279
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 114
+      "ms": 491
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 159
+      "ms": 253
     },
     "BBC News": {
       "ok": true,
-      "count": 24,
+      "count": 26,
       "error": null,
-      "ms": 388
+      "ms": 395
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 328
+      "ms": 236
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 237
+      "ms": 77
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 374
+      "ms": 502
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 188
+      "ms": 644
     },
     "Euronews": {
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
-      "ms": 151
+      "ms": 171
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 345
+      "ms": 164
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 411
+      "ms": 654
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 230
+      "ms": 345
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 399
+      "ms": 435
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 120
+      "ms": 585
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 340
+      "ms": 266
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 2664
+      "ms": 414
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 671
+      "ms": 826
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 346
+      "ms": 768
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 555
+      "ms": 632
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 250
+      "ms": 272
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3171
+      "ms": 3088
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 80
+      "ms": 390
     },
     "The Independent": {
       "ok": true,
-      "count": 34,
+      "count": 33,
       "error": null,
-      "ms": 150
+      "ms": 147
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 106
+      "ms": 343
     }
   },
   "breaking": [
@@ -177,6 +177,28 @@
       "consensus": 5.0
     },
     {
+      "title": "Taipei mayor re-elected in tight race",
+      "url": "https://www.thehindu.com/news/international/taipei-mayor-re-elected-in-tight-race/article71755528.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T17:09:06+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "title": "Taipei's Kuomintang mayor Chiang Wan-an re-elected in tight election race",
+          "published": "2026-11-28T14:35:57+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/taiwan-ruling-party-says-its-candidate-puma-shen-lost-taipei-mayoral-election",
+          "title": "Taipei mayor re-elected in tight race; opponent Puma Shen concedes defeat",
+          "published": "2026-11-28T11:55:14+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
       "title": "Airstrike on Myanmar wedding venue kills around 20, say witnesses",
       "url": "https://www.thehindu.com/news/international/airstrike-on-myanmar-wedding-venue-kills-around-20-say-witnesses/article71755393.ece",
       "source": "The Hindu",
@@ -193,10 +215,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Netanyahu says he is willing to let Eisenkot be Israel's first PM under rotation proposal",
-      "url": "https://www.france24.com/en/middle-east/20261128-netanyahu-says-he-is-willing-to-let-eisenkot-be-israel-s-first-pm-under-rotation-proposal",
-      "source": "France24",
-      "published": "2026-11-28T16:52:58+00:00",
+      "title": "Albania’s Independence Day rocked by violent protests over corruption",
+      "url": "https://www.politico.eu/article/albania-independence-day-rocked-by-violent-protests-over-corruption/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "source": "Politico EU",
+      "published": "2026-11-28T17:23:47+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -205,34 +227,34 @@
       "title": "Argentina's bid to stop Falklands oil drilling rejected",
       "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-28T16:45:30+00:00",
+      "published": "2026-11-28T17:11:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Advertisement urging end of US military aid to Israel dropped by NBC: Reports",
-      "url": "https://www.aljazeera.com/news/2026/11/28/advertisement-urging-end-of-us-military-aid-to-israel-dropped-by-nbc-reports?traffic_source=rss",
+      "title": "Pakistan vs Sri Lanka: ACC Men’s Asia Cup Rising Stars 2026 – teams, start time",
+      "url": "https://www.aljazeera.com/sports/2026/11/28/pakistan-vs-sri-lanka-acc-mens-asia-cup-rising-stars-2026-teams-start?traffic_source=rss",
       "source": "Al Jazeera",
-      "published": "2026-11-28T16:43:01+00:00",
+      "published": "2026-11-28T17:07:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Sri Lanka appoints parliamentary panel to study 1983 anti-Tamil riots",
-      "url": "https://www.thehindu.com/news/international/sri-lanka-appoints-parliamentary-panel-to-study-1983-anti-tamil-riots/article71755349.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T16:39:19+00:00",
+      "title": "Spurs-Lakers: Doncic shoved by fan, security intervenes as wristband tossed",
+      "url": "https://www.aljazeera.com/sports/2026/11/28/spurs-lakers-doncic-shoved-by-fan-security-intervenes-as-wristband-tossed?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T17:05:47+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "A clinic is offering to reassess ADHD and autism diagnoses - and hundreds of people are interested",
-      "url": "https://www.bbc.co.uk/news/articles/cr9309nyg2vno?at_medium=RSS&at_campaign=rss",
+      "title": "Dozens killed in Myanmar military strikes on wedding venue and school",
+      "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "published": "2026-11-28T16:18:58+00:00",
+      "published": "2026-11-28T16:53:20+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -240,24 +262,12 @@
   ],
   "world": [
     {
-      "title": "Kenyan starvation cult leader found guilty over deaths of 123 followers",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T09:59:11+00:00",
-      "score": 6,
+      "title": "Kenyan starvation cult leader convicted over further 123 deaths",
+      "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
+      "source": "RFI English",
+      "published": "2026-11-28T08:31:24+00:00",
+      "score": 4,
       "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
-          "title": "Kenyan starvation cult leader convicted over further 123 deaths",
-          "published": "2026-11-28T08:31:24+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
-          "title": "Kenya cult leader found guilty of manslaughter of 123 followers asked to starve to meet Jesus",
-          "published": "2026-11-28T05:25:36+00:00"
-        },
         {
           "source": "CNA",
           "url": "https://www.channelnewsasia.com/world/kenya-paul-mackenzie-cult-leader-guilty-manslaughter-6588436",
@@ -277,7 +287,7 @@
           "published": "2026-11-27T13:06:41+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 5.0
     },
     {
       "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
@@ -924,10 +934,10 @@
       "consensus": 1.5
     },
     {
-      "title": "Student-led protests in Albania turn violent as thousands call for prime minister to resign",
-      "url": "https://www.cbc.ca/news/world/albania-student-protest-violence-9.7440320?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-28T16:08:54+00:00",
+      "title": "Brentford thrash Manchester United 4-0 as Pochettino has horror home debut",
+      "url": "https://www.aljazeera.com/sports/2026/11/28/brentford-beat-manchester-united-4-0-as-pochettino-has-horror-home-debut?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T17:00:58+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1077,10 +1087,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59570.48,
+        "price": 59443.94,
         "currency": "USD",
-        "change": -295.59,
-        "change_percent": -0.49,
+        "change": -422.13,
+        "change_percent": -0.71,
         "name": "Bitcoin"
       }
     ],
@@ -1374,12 +1384,26 @@
   "web": {
     "tech": [
       {
-        "title": "Claude Code sabotage",
-        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "comments_url": "https://lobste.rs/s/m2jlyn/claude_code_sabotage",
+        "title": "Odin's #soa Compared With ISPC",
+        "url": "https://odin-lang.org/news/soa-and-ispc/",
+        "comments_url": "https://lobste.rs/s/k0bkyg/odin_s_soa_compared_with_ispc",
         "score": 1,
         "source": "Lobste.rs",
-        "published": "2026-11-28T16:56:16.624000+00:00"
+        "published": "2026-11-28T17:28:16.895000+00:00"
+      },
+      {
+        "title": "Computer Disease",
+        "url": "https://blog.adafruit.com/2020/01/13/richard-feynman-on-computer-disease/",
+        "score": 5,
+        "source": "Hacker News",
+        "published": "2026-11-28T17:12:25+00:00"
+      },
+      {
+        "title": "10x faster than Spark on a laptop",
+        "url": "https://krishiv.ai/blog/krishiv-0-2-10x-faster-than-spark",
+        "score": 10,
+        "source": "Hacker News",
+        "published": "2026-11-28T16:48:03+00:00"
       },
       {
         "title": "Spotify September Outage: What we learnt",
@@ -1392,7 +1416,7 @@
       {
         "title": "Silently degrading the model's capabilities IS sabotage",
         "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
-        "score": 40,
+        "score": 104,
         "source": "Hacker News",
         "published": "2026-11-28T15:55:54+00:00"
       },
@@ -1400,7 +1424,7 @@
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 5,
+        "score": 7,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1415,7 +1439,7 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 72,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
       },
@@ -1430,59 +1454,45 @@
       {
         "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
         "url": "https://github.com/RiccardoSottini/AffrescoUI",
-        "score": 39,
+        "score": 45,
         "source": "Hacker News",
         "published": "2026-11-28T14:09:39+00:00"
       },
       {
-        "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
-        "url": "https://github.com/MVS-sysgen/sysgen",
-        "score": 25,
-        "source": "Hacker News",
-        "published": "2026-11-28T13:17:39+00:00"
-      },
-      {
-        "title": "A story about Minecraft, Bukkit, and the GPL",
+        "title": "A story about Minecraft, Bukkit, and the GPL (2020)",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
-        "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 16,
+        "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl_2020",
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 91,
+        "score": 105,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 130,
+        "score": 142,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 400,
+        "score": 472,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 748,
+        "score": 791,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
-      },
-      {
-        "title": "Claude Code sabotage: preliminary benchmarking",
-        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 455,
-        "source": "Hacker News",
-        "published": "2026-11-28T10:37:40+00:00"
       }
     ],
     "reddit": [

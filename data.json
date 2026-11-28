@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T05:30:54.023316+00:00",
+  "last_updated": "2026-11-28T06:01:03.100707+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 326
+      "ms": 408
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 414
+      "ms": 286
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 158
+      "ms": 142
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 135
+      "ms": 283
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 101
+      "ms": 234
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 301
+      "ms": 152
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 563
+      "ms": 571
     },
     "El País": {
       "ok": true,
-      "count": 58,
+      "count": 57,
       "error": null,
-      "ms": 534
+      "ms": 587
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 431
+      "ms": 199
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 153
+      "ms": 185
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 447
+      "ms": 385
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 292
+      "ms": 306
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 365
+      "ms": 400
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 637
+      "ms": 110
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 220
+      "ms": 256
     },
     "RNZ": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 433
+      "ms": 394
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 703
+      "ms": 791
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 584
+      "ms": 707
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 475
+      "ms": 617
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 347
+      "ms": 396
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3057
+      "ms": 3105
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 306
+      "ms": 321
     },
     "The Independent": {
       "ok": true,
-      "count": 49,
+      "count": 48,
       "error": null,
-      "ms": 87
+      "ms": 178
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 191
+      "ms": 205
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.thehindu.com/news/international/kenya-cult-leader-found-guilty-of-manslaughter-of-123-followers-asked-to-starve-to-meet-jesus/article71753625.ece",
       "source": "The Hindu",
       "published": "2026-11-28T05:25:36+00:00",
-      "score": 5,
+      "score": 4,
       "other_sources": [
         {
           "source": "Al Jazeera",
@@ -172,37 +172,9 @@
           "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
           "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
           "published": "2026-11-27T15:11:37+00:00"
-        },
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
-          "title": "Kenyan starvation cult leader convicted of radicalisation",
-          "published": "2026-11-27T13:06:41+00:00"
         }
       ],
-      "consensus": 6.5
-    },
-    {
-      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
-      "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T03:00:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
-          "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
-          "published": "2026-11-27T19:39:57+00:00"
-        },
-        {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
-          "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
-          "published": "2026-11-27T09:57:50+00:00"
-        }
-      ],
-      "consensus": 4.0
+      "consensus": 5.0
     },
     {
       "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
@@ -243,37 +215,46 @@
       "consensus": 2.0
     },
     {
-      "title": "Sarawak state election: retreat by Anwar and rivals brings ruling GPS closer to victory",
-      "url": "https://www.scmp.com/week-asia/politics/article/3376115/sarawak-state-election-retreat-anwar-and-rivals-brings-ruling-gps-closer-victory",
+      "title": "Chinese engineers defy Hormuz blockade to install Abu Dhabi drilling rigs",
+      "url": "https://www.scmp.com/news/china/article/3376116/chinese-engineers-defy-hormuz-blockade-install-abu-dhabi-drilling-rigs",
       "source": "SCMP",
-      "published": "2026-11-28T05:21:19+00:00",
+      "published": "2026-11-28T06:00:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Why is my gas so expensive? Ask Susan",
-      "url": "https://www.rnz.co.nz/news/personal-finance/2855310/why-is-my-gas-so-expensive-ask-susan",
+      "title": "Japan expected to push for debate on nuclear subs in security document revisions",
+      "url": "https://www.japantimes.co.jp/news/2026/11/28/japan/japan-nuclear-submarines-security-documents/",
+      "source": "Japan Times",
+      "published": "2026-11-28T05:48:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Breaking: North Melbourne AFLW duo announce retirement after historic three-peat",
+      "url": "https://www.abc.net.au/news/2026-11-28/emma-kearney-kate-shierlaw-annouce-retirement-afl/107438332",
+      "source": "ABC Australia",
+      "published": "2026-11-28T05:43:58+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Black Caps hold upper hand over India after day two of Christchurch test",
+      "url": "https://www.rnz.co.nz/news/sport/2851579/black-caps-hold-upper-hand-over-india-after-day-two-of-christchurch-test",
       "source": "RNZ",
-      "published": "2026-11-28T05:11:56+00:00",
+      "published": "2026-11-28T05:42:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Law expert Andrew Geddis calls for review of overhang seat rules",
-      "url": "https://www.rnz.co.nz/news/politics_election-2026/2857040/law-expert-andrew-geddis-calls-for-review-of-overhang-seat-rules",
-      "source": "RNZ",
-      "published": "2026-11-28T05:03:51+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Behind India’s IIT dream: Student suicides and gaps in support",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/behind-indias-iit-dream-student-suicides-and-gaps-in-support?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T04:59:50+00:00",
+      "title": "Colombia's president backs Abascal: \"Spain deserves a president like you\"",
+      "url": "https://en.mercopress.com/2026/11/28/colombia-s-president-backs-abascal-spain-deserves-a-president-like-you?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-28T05:36:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -343,23 +324,23 @@
       "consensus": 5.0
     },
     {
-      "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
-      "url": "https://www.abc.net.au/news/2026-11-28/francesca-albanese-detained-at-costa-rica-airport/107437818",
-      "source": "ABC Australia",
-      "published": "2026-11-28T01:39:22+00:00",
+      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+      "url": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T03:00:00+00:00",
       "score": 3,
       "other_sources": [
         {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
-          "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
-          "published": "2026-11-28T00:12:20+00:00"
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
+          "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
+          "published": "2026-11-27T19:39:57+00:00"
         },
         {
-          "source": "El País",
-          "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html",
-          "title": "Costa Rica denies entry to UN Special Rapporteur Francesca Albanese",
-          "published": "2026-11-27T09:25:26+00:00"
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
+          "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
+          "published": "2026-11-27T09:57:50+00:00"
         }
       ],
       "consensus": 4.0
@@ -409,28 +390,6 @@
       "consensus": 3.5
     },
     {
-      "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
-      "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html",
-      "source": "The Independent",
-      "published": "2026-11-27T05:40:40+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/explainer-parties-to-negotiate-after-no-one-wins-majority-in-new-zealand-election",
-          "title": "Explainer-Parties to negotiate after no one wins majority in New Zealand election",
-          "published": "2026-11-27T04:56:55+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/new-zealand-ruling-coalition-majority-elections-6586571",
-          "title": "New Zealand’s ruling coalition falls just short of majority in final election count",
-          "published": "2026-11-27T03:08:55+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "Iran denies involvement in Kuwait strike that killed two Italians",
       "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
       "source": "Africanews",
@@ -464,6 +423,22 @@
           "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
           "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
           "published": "2026-11-27T20:39:57+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
+      "url": "https://www.abc.net.au/news/2026-11-28/francesca-albanese-detained-at-costa-rica-airport/107437818",
+      "source": "ABC Australia",
+      "published": "2026-11-28T01:39:22+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
+          "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+          "published": "2026-11-28T00:12:20+00:00"
         }
       ],
       "consensus": 2.5
@@ -565,6 +540,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Kenyan doomsday cult leader convicted over further 123 deaths",
+      "url": "https://www.bbc.co.uk/news/articles/cmy49de4xx1zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-27T17:19:31+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
+          "title": "Kenyan starvation cult leader convicted of radicalisation",
+          "published": "2026-11-27T13:06:41+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
       "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -624,22 +615,6 @@
           "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece",
           "title": "Strobe Talbott, former Time magazine reporter and Deputy Secretary of State, has died",
           "published": "2026-11-27T04:58:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Storms on both US coasts leave 840,000 without power and disrupt Thanksgiving travel",
-      "url": "https://en.mercopress.com/2026/11/26/storms-on-both-us-coasts-leave-840-000-without-power-and-disrupt-thanksgiving-travel?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-26T22:30:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
-          "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
-          "published": "2026-11-26T21:57:53+00:00"
         }
       ],
       "consensus": 2.5
@@ -949,19 +924,19 @@
       "consensus": 1.5
     },
     {
-      "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-      "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T04:57:32+00:00",
+      "title": "Spain wraps up its campaign: Sánchez appeals for a \"progressive majority\", Feijóo for \"change\"",
+      "url": "https://en.mercopress.com/2026/11/28/spain-wraps-up-its-campaign-sanchez-appeals-for-a-progressive-majority-feijoo-for-change?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-28T05:33:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "A day in the life of NZ's 'chicken whisperer'",
-      "url": "https://www.rnz.co.nz/news/business/2856939/a-day-in-the-life-of-nz-s-chicken-whisperer",
-      "source": "RNZ",
-      "published": "2026-11-28T04:56:58+00:00",
+      "title": "Australian university apologises to academic over code requiring ‘self-censorship over Israel’s war on Gaza’",
+      "url": "https://www.independent.co.uk/news/world/australasia/la-trobe-university-israel-palestine-speech-b3092796.html",
+      "source": "The Independent",
+      "published": "2026-11-28T05:29:42+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1111,10 +1086,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59726.97,
+        "price": 59705.03,
         "currency": "USD",
-        "change": -139.1,
-        "change_percent": -0.23,
+        "change": -161.04,
+        "change_percent": -0.27,
         "name": "Bitcoin"
       }
     ],
@@ -1410,14 +1385,14 @@
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 67,
+        "score": 103,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
       {
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
-        "score": 142,
+        "score": 150,
         "source": "Hacker News",
         "published": "2026-11-28T02:03:25+00:00"
       },
@@ -1440,9 +1415,16 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 255,
+        "score": 277,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
+      },
+      {
+        "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
+        "url": "https://tabernet.es/",
+        "score": 75,
+        "source": "Hacker News",
+        "published": "2026-11-27T23:00:30+00:00"
       },
       {
         "title": "My Approach to Alt Text (2024)",
@@ -1455,7 +1437,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 96,
+        "score": 97,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1494,7 +1476,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 259,
+        "score": 267,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
@@ -1513,14 +1495,6 @@
         "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
-      },
-      {
-        "title": "Hard Drive pricing has gotten bad",
-        "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-        "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 39,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T16:15:23.956000+00:00"
       }
     ],
     "reddit": [

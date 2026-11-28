@@ -1,100 +1,100 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T17:30:52.880306+00:00",
+  "last_updated": "2026-11-28T17:49:30.868149+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 279
+      "ms": 474
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 491
+      "ms": 181
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 253
+      "ms": 258
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 395
+      "ms": 252
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 236
+      "ms": 409
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 77
+      "ms": 283
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 502
+      "ms": 418
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 644
+      "ms": 251
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 171
+      "ms": 135
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 164
+      "ms": 175
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 654
+      "ms": 577
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 345
+      "ms": 630
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 435
+      "ms": 158
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 585
+      "ms": 789
     },
     "RFI English": {
       "ok": true,
-      "count": 22,
+      "count": 20,
       "error": null,
-      "ms": 266
+      "ms": 426
     },
     "RNZ": {
       "ok": true,
-      "count": 40,
+      "count": 39,
       "error": null,
       "ms": 414
     },
@@ -102,52 +102,153 @@
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 826
+      "ms": 735
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 768
+      "ms": 413
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 632
+      "ms": 652
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 272
+      "ms": 315
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3088
+      "ms": 3158
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 390
+      "ms": 153
     },
     "The Independent": {
       "ok": true,
-      "count": 33,
+      "count": 34,
       "error": null,
-      "ms": 147
+      "ms": 298
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 343
+      "ms": 157
     }
   },
   "breaking": [
+    {
+      "title": "Taipei mayor re-elected in tight race",
+      "url": "https://www.thehindu.com/news/international/taipei-mayor-re-elected-in-tight-race/article71755528.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T17:09:06+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+          "title": "Taipei's Kuomintang mayor Chiang Wan-an re-elected in tight election race",
+          "published": "2026-11-28T14:35:57+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/taiwan-ruling-party-says-its-candidate-puma-shen-lost-taipei-mayoral-election",
+          "title": "Taipei mayor re-elected in tight race; opponent Puma Shen concedes defeat",
+          "published": "2026-11-28T11:55:14+00:00"
+        }
+      ],
+      "consensus": 3.5
+    },
+    {
+      "title": "Netanyahu offers to rotate Israel PM role with Eisenkot, let rival go first",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
+      "source": "SCMP",
+      "published": "2026-11-28T17:33:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261128-netanyahu-says-he-is-willing-to-let-eisenkot-be-israel-s-first-pm-under-rotation-proposal",
+          "title": "Israel's Netanyahu proposes rival Eisenkot serve as first PM in rotating premiership",
+          "published": "2026-11-28T16:52:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Airstrike on Myanmar wedding venue kills around 20, say witnesses",
+      "url": "https://www.thehindu.com/news/international/airstrike-on-myanmar-wedding-venue-kills-around-20-say-witnesses/article71755393.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T16:54:11+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+          "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+          "published": "2026-11-28T15:25:22+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "United Fidelity Bank seized in biggest US bank failure since 2024",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376157/united-fidelity-bank-seized-biggest-us-bank-failure-2024",
+      "source": "SCMP",
+      "published": "2026-11-28T17:46:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "More people are using AI to follow the news, but can they trust what it tells them?",
+      "url": "https://www.rfi.fr/en/international/20261128-more-people-turn-to-ai-for-news-but-questions-remain-over-its-reliability",
+      "source": "RFI English",
+      "published": "2026-11-28T17:42:38+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Internet takes sides over Weather Channel’s comment on the White House: ‘I want his resignation’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/weather-channel-comment-white-house-trump-b3093257.html",
+      "source": "The Independent",
+      "published": "2026-11-28T17:34:27+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "France protests violence against women and rising cost of living",
+      "url": "https://www.rfi.fr/en/france/20261128-france-protests-violence-against-women-and-cost-of-living",
+      "source": "RFI English",
+      "published": "2026-11-28T17:32:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Amount of wastewater overflow not known after issue at Wellington treatment plant",
+      "url": "https://www.rnz.co.nz/news/regional/2851458/amount-of-wastewater-overflow-not-known-after-issue-at-wellington-treatment-plant",
+      "source": "RNZ",
+      "published": "2026-11-28T17:30:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    }
+  ],
+  "world": [
     {
       "title": "Gaza strike kills two Doctors Without Borders staff Israel links to Hamas",
       "url": "https://www.france24.com/en/gaza-strike-kills-two-doctors-without-borders-staff-israel-links-to-hamas",
@@ -176,91 +277,6 @@
       ],
       "consensus": 5.0
     },
-    {
-      "title": "Taipei mayor re-elected in tight race",
-      "url": "https://www.thehindu.com/news/international/taipei-mayor-re-elected-in-tight-race/article71755528.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T17:09:06+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
-          "title": "Taipei's Kuomintang mayor Chiang Wan-an re-elected in tight election race",
-          "published": "2026-11-28T14:35:57+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/taiwan-ruling-party-says-its-candidate-puma-shen-lost-taipei-mayoral-election",
-          "title": "Taipei mayor re-elected in tight race; opponent Puma Shen concedes defeat",
-          "published": "2026-11-28T11:55:14+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Airstrike on Myanmar wedding venue kills around 20, say witnesses",
-      "url": "https://www.thehindu.com/news/international/airstrike-on-myanmar-wedding-venue-kills-around-20-say-witnesses/article71755393.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T16:54:11+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
-          "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
-          "published": "2026-11-28T15:25:22+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Albania’s Independence Day rocked by violent protests over corruption",
-      "url": "https://www.politico.eu/article/albania-independence-day-rocked-by-violent-protests-over-corruption/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-28T17:23:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Argentina's bid to stop Falklands oil drilling rejected",
-      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T17:11:37+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Pakistan vs Sri Lanka: ACC Men’s Asia Cup Rising Stars 2026 – teams, start time",
-      "url": "https://www.aljazeera.com/sports/2026/11/28/pakistan-vs-sri-lanka-acc-mens-asia-cup-rising-stars-2026-teams-start?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T17:07:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Spurs-Lakers: Doncic shoved by fan, security intervenes as wristband tossed",
-      "url": "https://www.aljazeera.com/sports/2026/11/28/spurs-lakers-doncic-shoved-by-fan-security-intervenes-as-wristband-tossed?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T17:05:47+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Dozens killed in Myanmar military strikes on wedding venue and school",
-      "url": "https://www.bbc.co.uk/news/articles/cm752q30q5leo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T16:53:20+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    }
-  ],
-  "world": [
     {
       "title": "Kenyan starvation cult leader convicted over further 123 deaths",
       "url": "https://www.rfi.fr/en/africa/20261128-kenyan-starvation-cult-leader-convicted-over-further-123-deaths",
@@ -932,15 +948,6 @@
         }
       ],
       "consensus": 1.5
-    },
-    {
-      "title": "Brentford thrash Manchester United 4-0 as Pochettino has horror home debut",
-      "url": "https://www.aljazeera.com/sports/2026/11/28/brentford-beat-manchester-united-4-0-as-pochettino-has-horror-home-debut?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T17:00:58+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1087,10 +1094,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59443.94,
+        "price": 59304.16,
         "currency": "USD",
-        "change": -422.13,
-        "change_percent": -0.71,
+        "change": -561.91,
+        "change_percent": -0.94,
         "name": "Bitcoin"
       }
     ],
@@ -1261,6 +1268,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "UK Department for Work and Pensions hit by cyber attack",
+          "url": "https://www.ft.com/content/59a87442-51ad-47b7-ba11-e36876456fd4?syn-25a6b1a6=1",
+          "published": "2026-11-28T17:33:49+00:00",
+          "snippet": "Agency says it has taken most of its online services down while it investigates"
+        },
+        {
           "title": "China-friendly candidate clings on to power in Taipei mayoral race",
           "url": "https://www.ft.com/content/bba71644-9506-4927-860a-407e9fe9e542?syn-25a6b1a6=1",
           "published": "2026-11-28T14:50:41+00:00",
@@ -1271,12 +1284,6 @@
           "url": "https://www.ft.com/content/7f3900c2-bce6-495e-a6c4-e1133a3c46e9?syn-25a6b1a6=1",
           "published": "2026-11-28T12:00:03+00:00",
           "snippet": "Rightwing mayor David Lisnard has surged in polls with punchy attacks on the bloated state and promises of radical spending cuts"
-        },
-        {
-          "title": "El Guapo’s last gasp?",
-          "url": "https://www.ft.com/content/19dd970c-6258-49ad-8f2d-df90bff90ef2?syn-25a6b1a6=1",
-          "published": "2026-11-28T11:00:02+00:00",
-          "snippet": "The polls look grim for Pedro Sánchez — but a rightwing coalition won’t be smooth sailing if his opponents triumph"
         }
       ]
     },
@@ -1394,14 +1401,14 @@
       {
         "title": "Computer Disease",
         "url": "https://blog.adafruit.com/2020/01/13/richard-feynman-on-computer-disease/",
-        "score": 5,
+        "score": 16,
         "source": "Hacker News",
         "published": "2026-11-28T17:12:25+00:00"
       },
       {
         "title": "10x faster than Spark on a laptop",
         "url": "https://krishiv.ai/blog/krishiv-0-2-10x-faster-than-spark",
-        "score": 10,
+        "score": 13,
         "source": "Hacker News",
         "published": "2026-11-28T16:48:03+00:00"
       },
@@ -1416,7 +1423,7 @@
       {
         "title": "Silently degrading the model's capabilities IS sabotage",
         "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
-        "score": 104,
+        "score": 149,
         "source": "Hacker News",
         "published": "2026-11-28T15:55:54+00:00"
       },
@@ -1424,7 +1431,7 @@
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 7,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1439,7 +1446,7 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 83,
+        "score": 89,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
       },
@@ -1447,52 +1454,52 @@
         "title": "Optimistic Update vs. Immediate Intent",
         "url": "https://romshark.github.io/ux-immediate-intent/",
         "comments_url": "https://lobste.rs/s/brcqm7/optimistic_update_vs_immediate_intent",
-        "score": 1,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T14:14:55.705000+00:00"
-      },
-      {
-        "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
-        "url": "https://github.com/RiccardoSottini/AffrescoUI",
-        "score": 45,
-        "source": "Hacker News",
-        "published": "2026-11-28T14:09:39+00:00"
       },
       {
         "title": "A story about Minecraft, Bukkit, and the GPL (2020)",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl_2020",
-        "score": 19,
+        "score": 20,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 105,
+        "score": 107,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 142,
+        "score": 145,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 472,
+        "score": 519,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 791,
+        "score": 805,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
+      },
+      {
+        "title": "Claude Code sabotage: preliminary benchmarking",
+        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+        "score": 549,
+        "source": "Hacker News",
+        "published": "2026-11-28T10:37:40+00:00"
       }
     ],
     "reddit": [

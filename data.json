@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T19:01:01.600395+00:00",
+  "last_updated": "2026-11-28T19:30:52.122814+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 560
+      "ms": 165
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 175
+      "ms": 129
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 211
+      "ms": 303
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 275
+      "ms": 204
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 314
+      "ms": 202
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 1143
+      "ms": 348
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 278
+      "ms": 421
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 249
+      "ms": 197
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 130
+      "ms": 36
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 91
+      "ms": 116
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 645
+      "ms": 267
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 232
+      "ms": 227
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 259
+      "ms": 121
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 114
+      "ms": 488
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 208
+      "ms": 81
     },
     "RNZ": {
       "ok": true,
       "count": 38,
       "error": null,
-      "ms": 283
+      "ms": 71
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 602
+      "ms": 825
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 352
+      "ms": 304
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 550
+      "ms": 525
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 255
+      "ms": 291
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3153
+      "ms": 3128
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 117
+      "ms": 112
     },
     "The Independent": {
       "ok": true,
       "count": 33,
       "error": null,
-      "ms": 268
+      "ms": 263
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 97
+      "ms": 103
     }
   },
   "breaking": [
@@ -199,6 +199,22 @@
       "consensus": 3.5
     },
     {
+      "title": "Netanyahu offers to rotate Israel PM role with Eisenkot, let rival go first",
+      "url": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
+      "source": "SCMP",
+      "published": "2026-11-28T17:33:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "France24",
+          "url": "https://www.france24.com/en/middle-east/20261128-netanyahu-says-he-is-willing-to-let-eisenkot-be-israel-s-first-pm-under-rotation-proposal",
+          "title": "Israel's Netanyahu proposes rival Eisenkot serve as first PM in rotating premiership",
+          "published": "2026-11-28T16:52:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "At risk of losing power, Netanyahu makes long-shot unity appeal to rival Eisenkot",
       "url": "https://www.channelnewsasia.com/world/risk-losing-power-netanyahu-makes-long-shot-unity-appeal-rival-eisenkot-6589716",
       "source": "CNA",
@@ -210,22 +226,6 @@
           "url": "https://www.thehindu.com/news/international/at-risk-of-losing-power-netanyahu-makes-long-shot-unity-appeal-to-rival-eisenkot/article71755606.ece",
           "title": "At risk of losing power, Netanyahu makes long-shot unity appeal to rival Eisenkot",
           "published": "2026-11-28T18:01:55+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Netanyahu willing to let Eisenkot serve first as PM in unity government",
-      "url": "https://www.euronews.com/2026/11/28/netanyahu-willing-to-let-eisenkot-serve-first-as-pm-in-unity-government",
-      "source": "Euronews",
-      "published": "2026-11-28T18:02:22+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/middle-east/20261128-netanyahu-says-he-is-willing-to-let-eisenkot-be-israel-s-first-pm-under-rotation-proposal",
-          "title": "Israel's Netanyahu proposes rival Eisenkot serve as first PM in rotating premiership",
-          "published": "2026-11-28T16:52:58+00:00"
         }
       ],
       "consensus": 2.0
@@ -247,28 +247,28 @@
       "consensus": 2.0
     },
     {
-      "title": "Scientists don't know why a WA town has had 2,500 earthquakes",
-      "url": "https://www.abc.net.au/news/2026-11-29/wa-town-hit-by-2500-earthquakes/107429732",
+      "title": "Bondi Beach terror attack heroes honoured with top bravery awards",
+      "url": "https://www.abc.net.au/news/2026-11-29/nsw-bondi-beach-terror-attack-bravery-recognised-with-awards/107437660",
       "source": "ABC Australia",
-      "published": "2026-11-28T18:54:19+00:00",
+      "published": "2026-11-28T19:18:48+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "How Huang's return exposes Trump's 'toxic' bromance with Big Tech",
-      "url": "https://www.abc.net.au/news/2026-11-29/trump-s-bromance-with-jensen-huang-silicon-valley/107425234",
-      "source": "ABC Australia",
-      "published": "2026-11-28T18:51:39+00:00",
+      "title": "Live: All Blacks v England Nations Championship third place playoff",
+      "url": "https://www.rnz.co.nz/news/sport/2861441/live-all-blacks-v-england-nations-championship-third-place-playoff",
+      "source": "RNZ",
+      "published": "2026-11-28T19:08:08+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "‘God must have been watching’: Trump uses flooded DC golf course to argue for his stalled renovations",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-dc-golf-course-renovations-god-b3093286.html",
-      "source": "The Independent",
-      "published": "2026-11-28T18:34:12+00:00",
+      "title": "'How's that for culture, baby?': The bigger conversation about culture in sport",
+      "url": "https://www.rnz.co.nz/news/te-manu-korihi/2853175/how-s-that-for-culture-baby-the-bigger-conversation-about-culture-in-sport",
+      "source": "RNZ",
+      "published": "2026-11-28T19:04:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -453,6 +453,22 @@
           "url": "https://www.thehindu.com/news/international/putin-unveils-new-nuclear-submarine/article71753555.ece",
           "title": "Putin unveils new nuclear submarine",
           "published": "2026-11-28T04:14:12+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Israeli strike kills 2 staff outside Gaza medical clinic, MSF says",
+      "url": "https://www.cbc.ca/news/world/israeli-strike-killed-two-msf-staff-9.7440201?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T13:32:40+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+          "published": "2026-11-28T10:34:58+00:00"
         }
       ],
       "consensus": 2.5
@@ -648,22 +664,6 @@
         }
       ],
       "consensus": 2.5
-    },
-    {
-      "title": "MSF ‘outraged’ over Israeli strike on Gaza clinic that killed two",
-      "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
-      "source": "The Independent",
-      "published": "2026-11-28T13:39:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
-          "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
-          "published": "2026-11-28T10:34:58+00:00"
-        }
-      ],
-      "consensus": 2.0
     },
     {
       "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
@@ -906,37 +906,37 @@
       "consensus": 1.5
     },
     {
-      "title": "How Victoria will change under Jess Wilson's Coalition government",
-      "url": "https://www.abc.net.au/news/2026-11-29/how-victoria-will-change-under-a-wilson-liberal-government/107416532",
+      "title": "The 'lipstick effect' involves little luxuries in tough times",
+      "url": "https://www.abc.net.au/news/2026-11-29/the-lipstick-effect-involves-little-luxuries-in-tough-times/107436298",
       "source": "ABC Australia",
-      "published": "2026-11-28T18:47:43+00:00",
+      "published": "2026-11-28T19:02:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Labor's past and present ponder its future after historic loss",
-      "url": "https://www.abc.net.au/news/2026-11-29/what-is-the-path-forward-for-victorian-labor-/107438462",
+      "title": "Scientists don't know why a WA town has had 2,500 earthquakes",
+      "url": "https://www.abc.net.au/news/2026-11-29/wa-town-hit-by-2500-earthquakes/107429732",
       "source": "ABC Australia",
-      "published": "2026-11-28T18:34:38+00:00",
+      "published": "2026-11-28T18:54:19+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "ABC Wordage quiz: Let's get nerdy",
-      "url": "https://www.abc.net.au/news/2026-11-29/abc-wordage-quiz-nerd/107420666",
+      "title": "How Huang's return exposes Trump's 'toxic' bromance with Big Tech",
+      "url": "https://www.abc.net.au/news/2026-11-29/trump-s-bromance-with-jensen-huang-silicon-valley/107425234",
       "source": "ABC Australia",
-      "published": "2026-11-28T18:30:00+00:00",
+      "published": "2026-11-28T18:51:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "The many lives of Radio Birdman's Deniz Tek",
-      "url": "https://www.abc.net.au/news/2026-11-29/deniz-tek-interview-radio-birdman-full-throttle-book/107417700",
-      "source": "ABC Australia",
-      "published": "2026-11-28T18:30:00+00:00",
+      "title": "Israel’s Eisenkot offers immediate talks with Netanyahu to test seriousness",
+      "url": "https://www.aljazeera.com/news/2026/11/28/israels-eisenkot-offers-immediate-talks-with-netanyahu-to-test-seriousness?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T18:48:52+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1086,10 +1086,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59405.85,
+        "price": 59250.7,
         "currency": "USD",
-        "change": -460.22,
-        "change_percent": -0.77,
+        "change": -615.37,
+        "change_percent": -1.03,
         "name": "Bitcoin"
       }
     ],
@@ -1383,6 +1383,14 @@
   "web": {
     "tech": [
       {
+        "title": "ORCA - SecureDrop+Tor whistleblowing platform for Big Tech Workers",
+        "url": "https://orcaresist.org/index.html",
+        "comments_url": "https://lobste.rs/s/8slbeg/orca_securedrop_tor_whistleblowing",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T19:03:30.973000+00:00"
+      },
+      {
         "title": "Rotating bios in Matrix",
         "url": "https://nexy.blog/2026/11/13/which-bio/",
         "comments_url": "https://lobste.rs/s/lxwds4/rotating_bios_matrix",
@@ -1401,28 +1409,28 @@
       {
         "title": "5.0 Earthquake West of LA",
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41581136/executive",
-        "score": 8,
+        "score": 33,
         "source": "Hacker News",
         "published": "2026-11-28T17:53:53+00:00"
       },
       {
         "title": "Donald Knuth suspends error bounties due to an influx of AI-generated reports",
         "url": "https://cs.stanford.edu/~knuth/moratorium.html",
-        "score": 157,
+        "score": 219,
         "source": "Hacker News",
         "published": "2026-11-28T17:53:02+00:00"
       },
       {
         "title": "Patrick Collison you are WRONG about street furniture!!!",
         "url": "https://www.lesswrong.com/posts/Lf49dFMfhWqj33zAJ/patrick-collison-you-are-wrong-about-street-furniture",
-        "score": 40,
+        "score": 65,
         "source": "Hacker News",
         "published": "2026-11-28T17:49:13+00:00"
       },
       {
         "title": "The race is not inevitable",
         "url": "https://ryo.lu/journal/the-race-is-not-inevitable",
-        "score": 62,
+        "score": 88,
         "source": "Hacker News",
         "published": "2026-11-28T17:45:23+00:00"
       },
@@ -1430,14 +1438,14 @@
         "title": "Odin's #soa Compared With ISPC",
         "url": "https://odin-lang.org/news/soa-and-ispc/",
         "comments_url": "https://lobste.rs/s/k0bkyg/odin_s_soa_compared_with_ispc",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T17:28:16.895000+00:00"
       },
       {
         "title": "Computer Disease",
         "url": "https://blog.adafruit.com/2020/01/13/richard-feynman-on-computer-disease/",
-        "score": 70,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-28T17:12:25+00:00"
       },
@@ -1452,7 +1460,7 @@
       {
         "title": "Silently degrading the model's capabilities IS sabotage",
         "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
-        "score": 252,
+        "score": 275,
         "source": "Hacker News",
         "published": "2026-11-28T15:55:54+00:00"
       },
@@ -1460,7 +1468,7 @@
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 22,
+        "score": 25,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1475,7 +1483,7 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 107,
+        "score": 114,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
       },
@@ -1483,17 +1491,9 @@
         "title": "Optimistic Update vs. Immediate Intent",
         "url": "https://romshark.github.io/ux-immediate-intent/",
         "comments_url": "https://lobste.rs/s/brcqm7/optimistic_update_vs_immediate_intent",
-        "score": 3,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-28T14:14:55.705000+00:00"
-      },
-      {
-        "title": "A story about Minecraft, Bukkit, and the GPL (2020)",
-        "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
-        "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl_2020",
-        "score": 25,
-        "source": "Lobste.rs",
-        "published": "2026-11-28T12:58:50.015000+00:00"
       }
     ],
     "reddit": [

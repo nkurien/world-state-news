@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T01:41:03.039725+00:00",
+  "last_updated": "2026-11-28T02:01:00.889468+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 420
+      "ms": 238
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 365
+      "ms": 131
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 408
+      "ms": 234
     },
     "BBC News": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 270
+      "ms": 285
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 186
+      "ms": 192
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 262
+      "ms": 287
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 405
+      "ms": 416
     },
     "El País": {
       "ok": true,
       "count": 58,
       "error": null,
-      "ms": 507
+      "ms": 246
     },
     "Euronews": {
       "ok": true,
       "count": 45,
       "error": null,
-      "ms": 106
+      "ms": 80
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 157
+      "ms": 67
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 327
+      "ms": 420
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 311
+      "ms": 242
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 160
+      "ms": 131
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 743
+      "ms": 550
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 163
+      "ms": 136
     },
     "RNZ": {
       "ok": true,
-      "count": 44,
+      "count": 45,
       "error": null,
-      "ms": 538
+      "ms": 238
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 687
+      "ms": 447
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 602
+      "ms": 1311
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 674
+      "ms": 710
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 430
+      "ms": 193
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3147
+      "ms": 3145
     },
     "The Hindu": {
-      "ok": false,
-      "count": 0,
-      "error": "403 Client Error: Forbidden for url: https://www.thehindu.com/news/international/feeder/default.rss",
-      "ms": 3314
+      "ok": true,
+      "count": 60,
+      "error": null,
+      "ms": 141
     },
     "The Independent": {
       "ok": true,
       "count": 51,
       "error": null,
-      "ms": 93
+      "ms": 170
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 285
+      "ms": 137
     }
   },
   "breaking": [
@@ -153,7 +153,7 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-27T23:55:16+00:00",
-      "score": 3,
+      "score": 4,
       "other_sources": [
         {
           "source": "CNA",
@@ -166,22 +166,50 @@
           "url": "https://www.independent.co.uk/news/world/americas/usa-military-gulf-of-oman-ship-iran-blockade-b3093017.html",
           "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
           "published": "2026-11-27T19:54:54+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/us-military-says-it-disabled-commercial-ship-trying-to-run-iran-blockade/article71752214.ece",
+          "title": "U.S. disables ship trying to leave Iran, as Tehran vows to confront blockade",
+          "published": "2026-11-27T19:35:02+00:00"
         }
       ],
-      "consensus": 4.0
+      "consensus": 5.0
     },
     {
-      "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T00:12:20+00:00",
-      "score": 2,
+      "title": "UN rapporteur Francesca Albanese denied entry at Costa Rica Airport",
+      "url": "https://www.abc.net.au/news/2026-11-28/francesca-albanese-detained-at-costa-rica-airport/107437818",
+      "source": "ABC Australia",
+      "published": "2026-11-28T01:39:22+00:00",
+      "score": 3,
       "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban?traffic_source=rss",
+          "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+          "published": "2026-11-28T00:12:20+00:00"
+        },
         {
           "source": "El País",
           "url": "https://english.elpais.com/international/2026-11-27/costa-rica-denies-entry-to-un-special-rapporteur-francesca-albanese.html",
           "title": "Costa Rica denies entry to UN Special Rapporteur Francesca Albanese",
           "published": "2026-11-27T09:25:26+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
+      "title": "At least eight found dead on migrant boat off Spain’s Canary Islands",
+      "url": "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-27T23:57:03+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Independent",
+          "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
+          "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
+          "published": "2026-11-27T16:21:59+00:00"
         }
       ],
       "consensus": 2.5
@@ -219,37 +247,35 @@
       "consensus": 2.0
     },
     {
-      "title": "Ukrainian psychiatrists training in Australia to treat trauma at home",
-      "url": "https://www.abc.net.au/news/2026-11-28/ukrainian-doctors-receive-trauma-training/107412258",
-      "source": "ABC Australia",
-      "published": "2026-11-28T01:35:23+00:00",
+      "title": "Zelenskyy urges U.S. to pressure Russia and questions Trump referring Putin as ‘friend’",
+      "url": "https://www.thehindu.com/news/international/zelenskyy-urges-us-to-pressure-russia-and-questions-trump-referring-putin-as-friend/article71753434.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T01:07:56+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/zelenskyy-trump-russia-ukraine-putin-us-friend-6588296",
+          "title": "Zelenskyy urges the US to pressure Putin, calling Trump’s 'my friend' remark strange",
+          "published": "2026-11-27T17:28:50+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Mary Jane Veloso on life after death row in Indonesia and finding freedom: ‘I was reborn’",
+      "url": "https://www.scmp.com/week-asia/people/article/3376083/mary-jane-veloso-life-after-death-row-indonesia-and-finding-freedom-i-was-reborn",
+      "source": "SCMP",
+      "published": "2026-11-28T02:00:13+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Nigeria's 'ultimate hard man' who become an online meme",
-      "url": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T01:20:35+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Election result raises questions about fairness of electoral process, political scientist says",
-      "url": "https://www.rnz.co.nz/news/political/2853956/election-result-raises-questions-about-fairness-of-electoral-process-political-scientist-says",
-      "source": "RNZ",
-      "published": "2026-11-28T01:16:56+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Country Life: Young livestock auctioneers put their voices to the test",
-      "url": "https://www.rnz.co.nz/news/country/2853875/country-life-young-livestock-auctioneers-put-their-voices-to-the-test",
-      "source": "RNZ",
-      "published": "2026-11-28T01:09:22+00:00",
+      "title": "Huawei is becoming more indispensable for China’s AI",
+      "url": "https://www.straitstimes.com/asia/east-asia/huawei-is-becoming-more-indispensable-for-chinas-ai",
+      "source": "Straits Times",
+      "published": "2026-11-28T01:51:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -291,6 +317,34 @@
       "consensus": 6.5
     },
     {
+      "title": "US Air Force cloud platform hacked, Reuters reports",
+      "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-27T17:06:00+00:00",
+      "score": 4,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/article71750783.ece",
+          "title": "Hackers breach U.S. Air Force flagship Cloud One computing platform",
+          "published": "2026-11-27T15:45:59+00:00"
+        },
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
+          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
+          "published": "2026-11-27T12:25:16+00:00"
+        },
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/hackers-breach-us-air-force-cloud-one-computing-platform-6587501",
+          "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+          "published": "2026-11-27T11:03:00+00:00"
+        }
+      ],
+      "consensus": 4.5
+    },
+    {
       "title": "New Zealand election results: Ruling coalition falls short of majority by just one seat after knife-edge vote",
       "url": "https://www.independent.co.uk/news/world/australasia/new-zealand-christopher-luxon-election-b3092525.html",
       "source": "The Independent",
@@ -317,28 +371,6 @@
         }
       ],
       "consensus": 4.5
-    },
-    {
-      "title": "US Air Force cloud platform hacked, Reuters reports",
-      "url": "https://en.mercopress.com/2026/11/27/us-air-force-cloud-platform-hacked-reuters-reports?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "source": "MercoPress",
-      "published": "2026-11-27T17:06:00+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/united-states-canada/article/3376087/hackers-breach-us-air-force-cloud-one-platform-putting-military-data-risk",
-          "title": "Hackers breach US Air Force Cloud One platform, putting military data at risk",
-          "published": "2026-11-27T12:25:16+00:00"
-        },
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/hackers-breach-us-air-force-cloud-one-computing-platform-6587501",
-          "title": "Hackers breach US Air Force flagship Cloud One computing platform",
-          "published": "2026-11-27T11:03:00+00:00"
-        }
-      ],
-      "consensus": 3.5
     },
     {
       "title": "Duterte's ICC trial: What is at stake for the Philippines?",
@@ -385,17 +417,83 @@
       "consensus": 3.5
     },
     {
-      "title": "At least eight found dead on migrant boat off Spain’s Canary Islands",
-      "url": "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-27T23:57:03+00:00",
+      "title": "Chinese Military tests new Taiwan landing tactics in coastal drills",
+      "url": "https://www.thehindu.com/news/international/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills/article71752063.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T17:55:08+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
+          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+          "published": "2026-11-27T04:51:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
+          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+          "published": "2026-11-27T04:36:56+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
+      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
+      "source": "Africanews",
+      "published": "2026-11-27T13:21:05+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+          "published": "2026-11-27T10:20:33+00:00"
+        },
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
+          "title": "Two Italians killed in drone attack in Kuwait",
+          "published": "2026-11-26T23:39:13+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "South Korea repatriates six North Koreans rescued from drifting boat",
+      "url": "https://www.thehindu.com/news/international/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat/article71749495.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T05:40:01+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/south-korea-north-fishing-boat/",
+          "title": "Seoul repatriates six North Koreans found on drifting fishing boat",
+          "published": "2026-11-27T05:21:00+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat",
+          "title": "South Korea repatriates six North Koreans rescued from drifting boat",
+          "published": "2026-11-27T04:46:47+00:00"
+        }
+      ],
+      "consensus": 3.0
+    },
+    {
+      "title": "Makkah alliance countries review regional security situation, condemn Houthi attacks on Saudi Arabia",
+      "url": "https://www.thehindu.com/news/international/makkah-alliance-countries-review-regional-security-situation-condemn-houthi-attacks-on-saudi-arabia/article71752547.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T22:36:35+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
-          "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
-          "published": "2026-11-27T16:21:59+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia?traffic_source=rss",
+          "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+          "published": "2026-11-27T17:41:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -417,6 +515,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
+      "source": "SCMP",
+      "published": "2026-11-27T20:25:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
       "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
       "source": "CNA",
@@ -428,6 +542,22 @@
           "url": "https://www.cbc.ca/news/world/u-s-thanksgiving-storm-power-flight-delays-9.7438358?cmp=rss",
           "title": "Thanksgiving storm on U.S. East Coast knocks out power, disrupts flights",
           "published": "2026-11-27T09:57:50+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "NATO jets scrambled after drone enters Latvian airspace",
+      "url": "https://www.thehindu.com/news/international/nato-jets-scrambled-after-drone-enters-latvian-airspace/article71752112.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T17:44:44+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+          "title": "NATO jets scrambled after drone briefly enters Latvian airspace",
+          "published": "2026-11-27T10:41:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -465,6 +595,38 @@
       "consensus": 2.5
     },
     {
+      "title": "Costa Rica bars entry to UN rapporteur over ‘links to terrorist acts’",
+      "url": "https://www.thehindu.com/news/international/costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts/article71749582.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T08:56:15+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "RFI English",
+          "url": "https://www.rfi.fr/en/international/20261127-costa-rica-bars-entry-to-un-rapporteur-over-links-to-terrorist-acts",
+          "title": "Costa Rica bars entry to UN rapporteur over 'links to terrorist acts'",
+          "published": "2026-11-27T05:57:32+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+      "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+      "source": "NPR World",
+      "published": "2026-11-27T06:12:45+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/strobe-talbott-former-time-magazine-reporter-and-deputy-secretary-of-state-has-died/article71748303.ece",
+          "title": "Strobe Talbott, former Time magazine reporter and Deputy Secretary of State, has died",
+          "published": "2026-11-27T04:58:12+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Storms on both US coasts leave 840,000 without power and disrupt Thanksgiving travel",
       "url": "https://en.mercopress.com/2026/11/26/storms-on-both-us-coasts-leave-840-000-without-power-and-disrupt-thanksgiving-travel?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "source": "MercoPress",
@@ -476,6 +638,38 @@
           "url": "https://www.euronews.com/2026/11/26/thanksgiving-storms-flood-us-coasts-and-disrupt-holiday-travel",
           "title": "Thanksgiving storms flood US coasts and disrupt holiday travel",
           "published": "2026-11-26T21:57:53+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "UK net migration falls to three-decade low",
+      "url": "https://www.semafor.com/article/11/26/2026/uk-net-migration-falls-to-three-decade-low",
+      "source": "Semafor",
+      "published": "2026-11-26T22:25:37+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/uk-net-migration-falls-to-lowest-since-1997-indians-largest-foreign-group-entering-and-leaving-the-country/article71746576.ece",
+          "title": "U.K. net migration falls to lowest since 1997; Indians largest foreign group entering and leaving the country",
+          "published": "2026-11-26T16:18:30+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Elon Musk to give two shares of SpaceX to every child in the US in a deal worth $18 billion",
+      "url": "https://english.elpais.com/usa/2026-11-26/elon-musk-to-give-two-shares-of-spacex-to-every-child-in-the-us-in-a-deal-worth-18-billion.html",
+      "source": "El País",
+      "published": "2026-11-26T14:14:20+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/elon-musk-says-every-child-in-us-will-get-two-spacex-shares/article71745692.ece",
+          "title": "Elon Musk says every child in U.S. will get two SpaceX shares",
+          "published": "2026-11-26T08:27:03+00:00"
         }
       ],
       "consensus": 2.5
@@ -497,6 +691,54 @@
       "consensus": 2.5
     },
     {
+      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
+      "source": "NPR World",
+      "published": "2026-11-26T13:31:28+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture/article71745171.ece",
+          "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
+          "published": "2026-11-26T04:35:38+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "FedEx airplane overruns runway at Miami airport, temporarily closing all but 1 runway",
+      "url": "https://www.cbc.ca/news/world/fedex-plane-miami-overrun-runway-9.7436760?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-26T09:54:13+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fedex-airplane-overruns-runway-at-miami-airport-closing-all-but-one-runway/article71745686.ece",
+          "title": "FedEx airplane overruns runway at Miami airport, closing all but one runway",
+          "published": "2026-11-26T08:11:34+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Wreckage and burnt vehicles as fuel tanker fire kills 31 on Cairo highway",
+      "url": "https://www.euronews.com/video/2026/11/26/wreckage-and-burnt-vehicles-as-fuel-tanker-fire-kills-31-on-cairo-highway",
+      "source": "Euronews",
+      "published": "2026-11-26T09:30:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/fuel-tanker-crash-ignites-massive-fire-on-highway-surrounding-cairo/article71744262.ece",
+          "title": "Fuel tanker crash ignites massive fire on highway surrounding Cairo, killing at least 31 people",
+          "published": "2026-11-26T06:26:42+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Multiple investigations, internal unrest, and circular financing: The risks behind Jensen Huang’s return to Nvidia",
       "url": "https://english.elpais.com/usa/2026-11-25/multiple-investigations-internal-unrest-and-circular-financing-the-risks-behind-jensen-huangs-return-to-nvidia.html",
       "source": "El País",
@@ -513,17 +755,17 @@
       "consensus": 2.5
     },
     {
-      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
-      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T20:43:00+00:00",
+      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T19:27:54+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
+          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+          "published": "2026-11-27T12:42:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -540,38 +782,6 @@
           "url": "https://www.straitstimes.com/asia/east-asia/japans-senate-narrowly-rejects-censure-motion-against-scandal-hit-education-minister-yoshihiro-seki",
           "title": "Japan’s Senate narrowly rejects censure motion against scandal-hit Education Minister Yoshihiro Seki",
           "published": "2026-11-27T05:16:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Seoul repatriates six North Koreans found on drifting fishing boat",
-      "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/south-korea-north-fishing-boat/",
-      "source": "Japan Times",
-      "published": "2026-11-27T05:21:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/south-korea-repatriates-six-north-koreans-rescued-from-drifting-boat",
-          "title": "South Korea repatriates six North Koreans rescued from drifting boat",
-          "published": "2026-11-27T04:46:47+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
-      "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-      "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
-      "source": "Japan Times",
-      "published": "2026-11-27T04:51:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
-          "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
-          "published": "2026-11-27T04:36:56+00:00"
         }
       ],
       "consensus": 2.0
@@ -641,22 +851,6 @@
       "consensus": 1.5
     },
     {
-      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
-      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
-      "source": "Africanews",
-      "published": "2026-11-27T13:21:05+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-          "published": "2026-11-27T10:20:33+00:00"
-        }
-      ],
-      "consensus": 1.5
-    },
-    {
       "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
       "url": "http://www.africanews.com/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink/",
       "source": "Africanews",
@@ -705,136 +899,55 @@
       "consensus": 1.5
     },
     {
-      "title": "Taiwan goes to polls in tight local elections as China watches",
-      "url": "https://www.japantimes.co.jp/news/2026/11/28/asia-pacific/politics/taiwan-local-elections-china/",
-      "source": "Japan Times",
-      "published": "2026-11-28T01:08:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Barbara's barbs: 85yo takes scissors to vape advertising",
-      "url": "https://www.rnz.co.nz/news/health/2853478/barbara-s-barbs-85yo-takes-scissors-to-vape-advertising",
-      "source": "RNZ",
-      "published": "2026-11-28T01:07:24+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'How's that for culture, baby?': The bigger conversation about culture in sport",
-      "url": "https://www.rnz.co.nz/news/te-manu-korihi/2853175/how-s-that-for-culture-baby-the-bigger-conversation-about-culture-in-sport",
-      "source": "RNZ",
-      "published": "2026-11-28T01:04:20+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Trade, gold and culture: Russian envoy pushes for closer ties with Hong Kong",
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3376084/trade-gold-and-culture-russian-envoy-pushes-closer-ties-hong-kong",
-      "source": "SCMP",
-      "published": "2026-11-28T01:00:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "As convenience stores face pressure, 7-Eleven set to open largest China outlet in Kunming",
-      "url": "https://www.scmp.com/business/companies/article/3376061/convenience-stores-face-pressure-7-eleven-set-open-largest-china-outlet-kunming",
-      "source": "SCMP",
-      "published": "2026-11-28T01:00:08+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Thousands of Puerto Ricans join ‘Day of National Outrage’ protest",
-      "url": "https://www.aljazeera.com/news/2026/11/28/thousands-of-puerto-ricans-join-day-of-national-outrage-protest?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T01:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Taiwan goes to polls, warns of Beijing interference",
-      "url": "https://www.straitstimes.com/asia/east-asia/taiwan-goes-to-polls-warns-of-beijing-interference",
-      "source": "Straits Times",
-      "published": "2026-11-28T01:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ilia Malinin breaks Nathan Chen’s short program world record at NHK Trophy",
-      "url": "https://www.japantimes.co.jp/sports/2026/11/28/ilia-malinin-breaks-chen-record/",
-      "source": "Japan Times",
-      "published": "2026-11-28T00:59:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "'Poison seller' Kenneth Law apologises in court to the families of his victims",
-      "url": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T00:56:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "The Indian 'Tamasha queen' whose fans paid for a show that never happened",
-      "url": "https://www.bbc.co.uk/news/articles/cj20q9pw0116o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T00:50:11+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Amount of wasterwater overflow not known after issue at Wellington treatment plant",
-      "url": "https://www.rnz.co.nz/news/regional/2851458/amount-of-wasterwater-overflow-not-known-after-issue-at-wellington-treatment-plant",
-      "source": "RNZ",
-      "published": "2026-11-28T00:40:49+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Japan to scrutinise anime, game funding as budget requests surge",
-      "url": "https://www.straitstimes.com/asia/east-asia/japan-to-scrutinise-anime-game-funding-as-budget-requests-surge",
-      "source": "Straits Times",
-      "published": "2026-11-28T00:35:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Police investigating death of 47yo man in remote NT town",
-      "url": "https://www.abc.net.au/news/2026-11-28/police-investigate-death-pine-creek-nt/107437938",
+      "title": "Former media exec admits saying Grace Tame was 'looking to be raped again'",
+      "url": "https://www.abc.net.au/news/2026-11-28/grace-tame-former-media-exec-matt-handbury-rape-comment-nsw/107437856",
       "source": "ABC Australia",
-      "published": "2026-11-28T00:32:39+00:00",
+      "published": "2026-11-28T01:43:34+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "In the new ‘sheconomy’ of China, men are the eye candy for women",
-      "url": "https://www.straitstimes.com/asia/east-asia/in-the-new-sheconomy-of-china-men-are-the-eye-candy-for-women",
-      "source": "Straits Times",
-      "published": "2026-11-28T00:30:00+00:00",
+      "title": "Confidence and supply most sensible course for Opportunity, says former United Future leader Peter Dunne",
+      "url": "https://www.rnz.co.nz/news/political/2854273/confidence-and-supply-most-sensible-course-for-opportunity-says-former-united-future-leader-peter-dunne",
+      "source": "RNZ",
+      "published": "2026-11-28T01:41:55+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Mixed emotions as buffel grass not named weed of national significance",
-      "url": "https://www.abc.net.au/news/2026-11-28/buffel-grass-spared-weed-of-national-significance-listing/107436668",
+      "title": "Ukrainian psychiatrists training in Australia to treat trauma at home",
+      "url": "https://www.abc.net.au/news/2026-11-28/ukrainian-doctors-receive-trauma-training/107412258",
       "source": "ABC Australia",
-      "published": "2026-11-28T00:28:04+00:00",
+      "published": "2026-11-28T01:35:23+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Nigeria's 'ultimate hard man' who become an online meme",
+      "url": "https://www.bbc.co.uk/news/articles/cm3vg3lkrk03o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T01:20:35+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Election result raises questions about fairness of electoral process, political scientist says",
+      "url": "https://www.rnz.co.nz/news/political/2853956/election-result-raises-questions-about-fairness-of-electoral-process-political-scientist-says",
+      "source": "RNZ",
+      "published": "2026-11-28T01:16:56+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Country Life: Young livestock auctioneers put their voices to the test",
+      "url": "https://www.rnz.co.nz/news/country/2853875/country-life-young-livestock-auctioneers-put-their-voices-to-the-test",
+      "source": "RNZ",
+      "published": "2026-11-28T01:09:22+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -984,10 +1097,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 60129.03,
+        "price": 60139.68,
         "currency": "USD",
-        "change": 262.96,
-        "change_percent": 0.44,
+        "change": 273.61,
+        "change_percent": 0.46,
         "name": "Bitcoin"
       }
     ],
@@ -1297,23 +1410,23 @@
         "published": "2026-11-28T00:12:41.264000+00:00"
       },
       {
+        "title": "Passkey blues",
+        "url": "https://ssg.dev/passkey-blues/",
+        "score": 30,
+        "source": "Hacker News",
+        "published": "2026-11-27T23:51:28+00:00"
+      },
+      {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 76,
+        "score": 93,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
-        "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
-        "url": "https://tabernet.es/",
-        "score": 32,
-        "source": "Hacker News",
-        "published": "2026-11-27T23:00:30+00:00"
-      },
-      {
         "title": "Source Control from Hell",
         "url": "https://frantic.im/git/",
-        "score": 56,
+        "score": 58,
         "source": "Hacker News",
         "published": "2026-11-27T22:06:44+00:00"
       },
@@ -1328,7 +1441,7 @@
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 73,
+        "score": 77,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1357,16 +1470,9 @@
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
       {
-        "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
-        "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
-        "score": 264,
-        "source": "Hacker News",
-        "published": "2026-11-27T19:42:25+00:00"
-      },
-      {
         "title": "The AT&T Unix PC (3B1) VM",
         "url": "https://virtuallyfun.com/2026/11/22/the-ultimate-att-unix-pc-3b1-vm-w-tcp-ip-and-apps/",
-        "score": 56,
+        "score": 58,
         "source": "Hacker News",
         "published": "2026-11-27T19:40:33+00:00"
       },
@@ -1381,7 +1487,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 230,
+        "score": 234,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
@@ -1392,6 +1498,14 @@
         "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:42:50.585000+00:00"
+      },
+      {
+        "title": "Build your own Paint",
+        "url": "https://www.buildyourownpaint.com/en",
+        "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
+        "score": 15,
+        "source": "Lobste.rs",
+        "published": "2026-11-27T16:22:36.766000+00:00"
       }
     ],
     "reddit": [

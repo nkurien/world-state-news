@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T15:01:09.278296+00:00",
+  "last_updated": "2026-11-28T15:30:56.610572+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 185
+      "ms": 363
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 276
+      "ms": 243
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 142
+      "ms": 213
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 70
+      "ms": 132
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 184
+      "ms": 432
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 114
+      "ms": 255
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 695
+      "ms": 833
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 295
+      "ms": 433
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 42
+      "ms": 141
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 272
+      "ms": 209
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 397
+      "ms": 907
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 443
+      "ms": 238
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 124
+      "ms": 222
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 256
+      "ms": 588
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 197
+      "ms": 304
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 216
+      "ms": 398
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 729
+      "ms": 640
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 832
+      "ms": 520
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 769
+      "ms": 867
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 171
+      "ms": 335
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3152
+      "ms": 3276
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 237
+      "ms": 213
     },
     "The Independent": {
       "ok": true,
       "count": 39,
       "error": null,
-      "ms": 115
+      "ms": 176
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 194
+      "ms": 227
     }
   },
   "breaking": [
@@ -225,10 +225,10 @@
       "consensus": 2.5
     },
     {
-      "title": "MSF ‘outraged’ over Israeli strike on Gaza clinic that killed two",
-      "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
-      "source": "The Independent",
-      "published": "2026-11-28T13:39:15+00:00",
+      "title": "Israeli strike kills 2 staff outside Gaza medical clinic, MSF says",
+      "url": "https://www.cbc.ca/news/world/israeli-strike-killed-two-msf-staff-9.7440201?cmp=rss",
+      "source": "CBC World",
+      "published": "2026-11-28T13:32:40+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -236,6 +236,22 @@
           "url": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
           "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
           "published": "2026-11-28T10:34:58+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Myanmar air strike on wedding venue kills 20, including children: witnesses",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3376152/myanmar-air-strike-wedding-venue-kills-20-including-children-witnesses",
+      "source": "SCMP",
+      "published": "2026-11-28T15:25:22+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/se-asia/air-strike-on-myanmar-wedding-venue-kills-several-witness-images",
+          "title": "Air strike on Myanmar wedding venue kills 20: Witness, images",
+          "published": "2026-11-28T12:03:00+00:00"
         }
       ],
       "consensus": 2.0
@@ -257,19 +273,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Hong Kong hygiene authorities report staff to police over alleged leave abuse",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376151/hong-kong-hygiene-authorities-report-staff-police-over-alleged-leave-abuse",
-      "source": "SCMP",
-      "published": "2026-11-28T14:51:45+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Mapped: The 21 countries dragged into the Russia Ukraine war",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-mapped-countries-affected-b3092284.html",
-      "source": "The Independent",
-      "published": "2026-11-28T14:41:01+00:00",
+      "title": "French hard-left leader Mélenchon demands 'overhaul' of German ties",
+      "url": "https://www.rfi.fr/en/france/20261128-french-hard-left-leader-m%C3%A9lenchon-demands-overhaul-of-german-ties",
+      "source": "RFI English",
+      "published": "2026-11-28T15:28:23+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -281,7 +288,7 @@
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/28-11-sv-kenya-cult-leader-paul-mackenzie?traffic_source=rss",
       "source": "Al Jazeera",
       "published": "2026-11-28T09:59:11+00:00",
-      "score": 7,
+      "score": 6,
       "other_sources": [
         {
           "source": "RFI English",
@@ -308,19 +315,13 @@
           "published": "2026-11-27T17:19:31+00:00"
         },
         {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/africa/paul-mackenzie-kenya-cult-leader-b3092866.html",
-          "title": "Kenyan starvation cult leader guilty of manslaughter of another 123 people in latest conviction",
-          "published": "2026-11-27T15:11:37+00:00"
-        },
-        {
           "source": "Africanews",
           "url": "http://www.africanews.com/2026/11/27/kenyan-starvation-cult-leader-convicted-of-radicalisation/",
           "title": "Kenyan starvation cult leader convicted of radicalisation",
           "published": "2026-11-27T13:06:41+00:00"
         }
       ],
-      "consensus": 8.5
+      "consensus": 7.5
     },
     {
       "title": "Hackers reportedly breach US Air Force cloud platform as Pentagon insists systems are secure",
@@ -454,7 +455,7 @@
         {
           "source": "NPR World",
           "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
-          "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+          "title": "An explosion at a school in eastern Afghanistan kills 10, wounds 110",
           "published": "2026-11-28T11:32:37+00:00"
         }
       ],
@@ -472,38 +473,6 @@
           "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205?cmp=rss",
           "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90",
           "published": "2026-11-28T10:29:19+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
-      "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
-      "source": "Africanews",
-      "published": "2026-11-28T09:14:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
-          "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
-          "published": "2026-11-28T07:22:17+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
-      "source": "SCMP",
-      "published": "2026-11-27T20:25:58+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
         }
       ],
       "consensus": 2.5
@@ -797,6 +766,22 @@
       "consensus": 2.0
     },
     {
+      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-27T20:43:00+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
       "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
       "source": "CNA",
@@ -909,10 +894,26 @@
       "consensus": 1.5
     },
     {
-      "title": "Taipei's Kuomintang mayor Chiang Wan-an re-elected in tight election race",
-      "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
-      "source": "France24",
-      "published": "2026-11-28T14:35:57+00:00",
+      "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
+      "url": "http://www.africanews.com/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink/",
+      "source": "Africanews",
+      "published": "2026-11-27T08:08:36+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Euronews",
+          "url": "https://www.euronews.com/video/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink",
+          "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
+          "published": "2026-11-27T08:08:29+00:00"
+        }
+      ],
+      "consensus": 1.5
+    },
+    {
+      "title": "Trump team revamps USAID webpage to feature files of how it was ‘weaponized’ to push a ‘radical agenda’",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/usaid-trump-website-radical-agenda-b3093224.html",
+      "source": "The Independent",
+      "published": "2026-11-28T15:08:57+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -921,34 +922,34 @@
       "title": "South Sudan: a country of conflict",
       "url": "https://www.independent.co.uk/news/world/africa/south-sudan-conflict-history-b3069256.html",
       "source": "The Independent",
-      "published": "2026-11-28T14:30:36+00:00",
+      "published": "2026-11-28T15:01:44+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "EPA releases preliminary air and soil tests after Army detonates Iowa toxic lead supply",
-      "url": "https://www.independent.co.uk/news/world/americas/iowa-army-detonation-lead-epa-b3093209.html",
+      "title": "Violence erupts at anti-government protests in Albania",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/violence-erupts-at-anti-government-protests-in-albania?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T14:57:51+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Supreme Court weighs Connecticut AR-15 ban born from Sandy Hook school shooting",
+      "url": "https://www.independent.co.uk/news/world/americas/sandy-hook-supreme-court-assault-rifle-ban-b3093225.html",
       "source": "The Independent",
-      "published": "2026-11-28T14:14:37+00:00",
+      "published": "2026-11-28T14:53:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T14:10:01+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine reports at least 9 killed, Russia shoots down over 1200 drones",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376148/ukraine-reports-least-9-killed-russia-shoots-down-over-1200-drones",
+      "title": "Hong Kong hygiene authorities report staff to police over alleged leave abuse",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376151/hong-kong-hygiene-authorities-report-staff-police-over-alleged-leave-abuse",
       "source": "SCMP",
-      "published": "2026-11-28T14:09:55+00:00",
+      "published": "2026-11-28T14:51:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1098,10 +1099,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59292.37,
+        "price": 59232.31,
         "currency": "USD",
-        "change": -573.7,
-        "change_percent": -0.96,
+        "change": -633.76,
+        "change_percent": -1.06,
         "name": "Bitcoin"
       }
     ],
@@ -1272,6 +1273,12 @@
       "column": "global",
       "entries": [
         {
+          "title": "China-friendly candidate clings on to power in Taipei mayoral race",
+          "url": "https://www.ft.com/content/bba71644-9506-4927-860a-407e9fe9e542?syn-25a6b1a6=1",
+          "published": "2026-11-28T14:50:41+00:00",
+          "snippet": "The ruling Democratic Progressive Party failed to oust Kuomintang incumbent in blow to Taiwan president’s re-election hopes"
+        },
+        {
           "title": "The outsider from Cannes shaking up France’s presidential race",
           "url": "https://www.ft.com/content/7f3900c2-bce6-495e-a6c4-e1133a3c46e9?syn-25a6b1a6=1",
           "published": "2026-11-28T12:00:03+00:00",
@@ -1282,12 +1289,6 @@
           "url": "https://www.ft.com/content/19dd970c-6258-49ad-8f2d-df90bff90ef2?syn-25a6b1a6=1",
           "published": "2026-11-28T11:00:02+00:00",
           "snippet": "The polls look grim for Pedro Sánchez — but a rightwing coalition won’t be smooth sailing if his opponents triumph"
-        },
-        {
-          "title": "Israeli strike kills two Médecins Sans Frontières workers in Gaza",
-          "url": "https://www.ft.com/content/b50e55af-58a3-452b-a282-4d4be735229c?syn-25a6b1a6=1",
-          "published": "2026-11-28T10:14:12+00:00",
-          "snippet": "Medical charity calls for accountability as Israeli military claims men were involved in Hamas"
         }
       ]
     },
@@ -1297,10 +1298,10 @@
       "column": "global",
       "entries": [
         {
-          "title": "The Forecast for Christmas Is Muddy",
+          "title": "This Winter’s Forecast Could Get Very Weird",
           "url": "https://www.theatlantic.com/science/2026/11/christmas-weather-el-nino-polar-vortex/689554/?utm_source=feed",
           "published": "2026-11-28T14:00:00+00:00",
-          "snippet": "El Niño is lowering the chance of snow across much of the country. But the polar vortex could still intervene."
+          "snippet": "El Niño and the polar vortex are caught in a tug-of-war."
         },
         {
           "title": "The Familiar Strangeness of Home",
@@ -1398,36 +1399,43 @@
         "title": "Classic Shift Ciphers with lens and finite-typelits",
         "url": "https://jackkelly.name/blog/archives/2026/11/26/classic_shift_ciphers_with_lens_and_finite-typelits/index.html",
         "comments_url": "https://lobste.rs/s/obmxh1/classic_shift_ciphers_with_lens_finite",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T14:55:12.648000+00:00"
       },
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 6,
+        "score": 31,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
+      },
+      {
+        "title": "AI Isn't That Dangerous",
+        "url": "https://www.verysane.ai/p/ai-isnt-that-dangerous",
+        "score": 26,
+        "source": "Hacker News",
+        "published": "2026-11-28T14:42:41+00:00"
       },
       {
         "title": "Optimistic Update vs. Immediate Intent",
         "url": "https://romshark.github.io/ux-immediate-intent/",
         "comments_url": "https://lobste.rs/s/brcqm7/optimistic_update_vs_immediate_intent",
-        "score": 2,
+        "score": 1,
         "source": "Lobste.rs",
         "published": "2026-11-28T14:14:55.705000+00:00"
       },
       {
-        "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
-        "url": "https://github.com/RiccardoSottini/AffrescoUI",
-        "score": 11,
+        "title": "The AI-designed USB-C LTE Modem is built, and it makes calls",
+        "url": "https://koppar.ai/blog/lte-modem-bring-up/",
+        "score": 24,
         "source": "Hacker News",
-        "published": "2026-11-28T14:09:39+00:00"
+        "published": "2026-11-28T14:06:19+00:00"
       },
       {
         "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
         "url": "https://github.com/MVS-sysgen/sysgen",
-        "score": 13,
+        "score": 17,
         "source": "Hacker News",
         "published": "2026-11-28T13:17:39+00:00"
       },
@@ -1435,49 +1443,49 @@
         "title": "A story about Minecraft, Bukkit, and the GPL",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 9,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 59,
+        "score": 65,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 66,
+        "score": 83,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 151,
+        "score": 214,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 491,
+        "score": 558,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
         "title": "Claude Code sabotage: preliminary benchmarking",
         "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 245,
+        "score": 301,
         "source": "Hacker News",
         "published": "2026-11-28T10:37:40+00:00"
       },
       {
         "title": "Diablo II",
         "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 74,
+        "score": 92,
         "source": "Hacker News",
         "published": "2026-11-28T09:54:19+00:00"
       },
@@ -1485,7 +1493,7 @@
         "title": "Let me Give You Worms",
         "url": "https://untested.sonnet.io/notes/let-me-give-you-worms/",
         "comments_url": "https://lobste.rs/s/82zm3l/let_me_give_you_worms",
-        "score": 3,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:41:52.020000+00:00"
       },
@@ -1493,16 +1501,9 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 19,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
-      },
-      {
-        "title": "Knuth: Moratorium on Error Reports",
-        "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 252,
-        "source": "Hacker News",
-        "published": "2026-11-28T03:49:21+00:00"
       }
     ],
     "reddit": [

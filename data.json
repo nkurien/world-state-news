@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T14:01:01.234314+00:00",
+  "last_updated": "2026-11-28T14:31:00.754446+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 226
+      "ms": 308
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 88
+      "ms": 265
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 343
+      "ms": 156
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 68
+      "ms": 217
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 203
+      "ms": 406
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 176
+      "ms": 126
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 565
+      "ms": 103
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 195
+      "ms": 392
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 135
+      "ms": 46
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 102
+      "ms": 96
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 474
+      "ms": 308
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 208
+      "ms": 269
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 296
+      "ms": 147
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 129
+      "ms": 84
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 99
+      "ms": 163
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 156
+      "ms": 138
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 579
+      "ms": 470
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 294
+      "ms": 454
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 611
+      "ms": 591
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 250
+      "ms": 205
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3090
+      "ms": 3096
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 133
+      "ms": 293
     },
     "The Independent": {
       "ok": true,
-      "count": 38,
+      "count": 39,
       "error": null,
-      "ms": 93
+      "ms": 137
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 83
+      "ms": 164
     }
   },
   "breaking": [
@@ -279,20 +279,20 @@
       "consensus": 2.5
     },
     {
-      "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
-      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
-      "source": "SCMP",
-      "published": "2026-11-28T11:07:35+00:00",
+      "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
+      "url": "https://www.euronews.com/2026/11/28/openai-and-apple-accuse-each-other-of-committing-trade-secret-theft-openai-countersues",
+      "source": "Euronews",
+      "published": "2026-11-28T13:05:25+00:00",
       "score": 2,
       "other_sources": [
         {
-          "source": "CBC World",
-          "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205?cmp=rss",
-          "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90",
-          "published": "2026-11-28T10:29:19+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+          "published": "2026-11-28T11:35:34+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     }
   ],
   "world": [
@@ -441,6 +441,22 @@
         }
       ],
       "consensus": 3.0
+    },
+    {
+      "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
+      "source": "SCMP",
+      "published": "2026-11-28T11:07:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205?cmp=rss",
+          "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90",
+          "published": "2026-11-28T10:29:19+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "World Health Organization sounds alarm as measles fight stalls",
@@ -699,22 +715,6 @@
       "consensus": 2.5
     },
     {
-      "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
-      "url": "https://www.euronews.com/2026/11/28/openai-and-apple-accuse-each-other-of-committing-trade-secret-theft-openai-countersues",
-      "source": "Euronews",
-      "published": "2026-11-28T13:05:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
-          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
-          "published": "2026-11-28T11:35:34+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Saudi, Houthis trade strikes targeting capitals",
       "url": "https://www.channelnewsasia.com/world/saudi-arabia-houthis-strikes-riyadh-6589336",
       "source": "CNA",
@@ -939,37 +939,37 @@
       "consensus": 1.5
     },
     {
-      "title": "Taiwan elections: KMT loses 25-year hold on Hsinchu tech hub in magistrate vote",
-      "url": "https://www.scmp.com/news/china/politics/article/3376147/taiwan-elections-kmt-loses-25-year-hold-hsinchu-tech-hub-magistrate-vote",
-      "source": "SCMP",
-      "published": "2026-11-28T13:59:04+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Argentina fails in bid to block UK-led oil drilling off Falkland Islands",
-      "url": "https://www.independent.co.uk/news/world/americas/falkland-islands-oil-drilling-argentina-b3093182.html",
+      "title": "EPA releases preliminary air and soil tests after Army detonates Iowa toxic lead supply",
+      "url": "https://www.independent.co.uk/news/world/americas/iowa-army-detonation-lead-epa-b3093209.html",
       "source": "The Independent",
-      "published": "2026-11-28T13:48:18+00:00",
+      "published": "2026-11-28T14:14:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Taiwan’s ruling DPP concedes Taipei race, gains key cities",
-      "url": "https://www.straitstimes.com/asia/east-asia/taiwans-ruling-dpp-concedes-taipei-race-gains-key-cities",
-      "source": "Straits Times",
-      "published": "2026-11-28T13:45:17+00:00",
+      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T14:10:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "China zoo stops diet for its ageing star, a pudgy leopard",
-      "url": "https://www.straitstimes.com/asia/east-asia/china-zoo-stops-diet-for-its-ageing-star-a-pudgy-leopard",
-      "source": "Straits Times",
-      "published": "2026-11-28T13:42:00+00:00",
+      "title": "Ukraine reports at least 9 killed, Russia shoots down over 1200 drones",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376148/ukraine-reports-least-9-killed-russia-shoots-down-over-1200-drones",
+      "source": "SCMP",
+      "published": "2026-11-28T14:09:55+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "South Sudan should be rich. So, why are millions on the brink of starvation?",
+      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-oil-wealth-aid-corruption-war-flooding-b3053646.html",
+      "source": "The Independent",
+      "published": "2026-11-28T14:01:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1119,10 +1119,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59081.83,
+        "price": 59235.57,
         "currency": "USD",
-        "change": -784.24,
-        "change_percent": -1.31,
+        "change": -630.5,
+        "change_percent": -1.05,
         "name": "Bitcoin"
       }
     ],
@@ -1330,7 +1330,7 @@
           "snippet": "The complicated nostalgia of reconnecting with our former self"
         },
         {
-          "title": "Can You Maximize Your Own Coolness?",
+          "title": "Maybe She’s Born With It. Maybe It’s Aura Farming.",
           "url": "https://www.theatlantic.com/culture/2026/11/aura-farming-modern-cool/689472/?utm_source=feed",
           "published": "2026-11-28T13:00:00+00:00",
           "snippet": "Online, charisma is something that can be optimized—and lost."
@@ -1416,52 +1416,67 @@
   "web": {
     "tech": [
       {
+        "title": "Optimistic Update vs. Immediate Intent",
+        "url": "https://romshark.github.io/ux-immediate-intent/",
+        "comments_url": "https://lobste.rs/s/brcqm7/optimistic_update_vs_immediate_intent",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T14:14:55.705000+00:00"
+      },
+      {
+        "title": "IBM MVS 3.8 Community Edition (52-year old OS)",
+        "url": "https://github.com/MVS-sysgen/sysgen",
+        "score": 5,
+        "source": "Hacker News",
+        "published": "2026-11-28T13:17:39+00:00"
+      },
+      {
         "title": "A story about Minecraft, Bukkit, and the GPL",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 4,
+        "score": 6,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 32,
+        "score": 43,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 36,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 40,
+        "score": 96,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 347,
+        "score": 424,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
         "title": "Claude Code sabotage: preliminary benchmarking",
         "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 105,
+        "score": 172,
         "source": "Hacker News",
         "published": "2026-11-28T10:37:40+00:00"
       },
       {
         "title": "Diablo II",
         "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 45,
+        "score": 62,
         "source": "Hacker News",
         "published": "2026-11-28T09:54:19+00:00"
       },
@@ -1469,7 +1484,7 @@
         "title": "Let me Give You Worms",
         "url": "https://untested.sonnet.io/notes/let-me-give-you-worms/",
         "comments_url": "https://lobste.rs/s/82zm3l/let_me_give_you_worms",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:41:52.020000+00:00"
       },
@@ -1477,21 +1492,21 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 16,
+        "score": 17,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 226,
+        "score": 238,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 442,
+        "score": 449,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1499,7 +1514,7 @@
         "title": "FastLanes: Next-gen File Format",
         "url": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
         "comments_url": "https://lobste.rs/s/ulfg29/fastlanes_next_gen_file_format",
-        "score": 3,
+        "score": 4,
         "source": "Lobste.rs",
         "published": "2026-11-28T00:12:53.791000+00:00"
       },
@@ -1510,21 +1525,6 @@
         "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T00:12:41.264000+00:00"
-      },
-      {
-        "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
-        "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 480,
-        "source": "Hacker News",
-        "published": "2026-11-27T23:06:29+00:00"
-      },
-      {
-        "title": "My Approach to Alt Text (2024)",
-        "url": "http://adrianroselli.com/2024/05/my-approach-to-alt-text.html",
-        "comments_url": "https://lobste.rs/s/cz9ecz/my_approach_alt_text_2024",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T22:00:18.913000+00:00"
       }
     ],
     "reddit": [

@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T12:01:06.377058+00:00",
+  "last_updated": "2026-11-28T12:31:00.493222+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 227
+      "ms": 332
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 225
+      "ms": 287
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 122
+      "ms": 96
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 105
+      "ms": 101
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 310
+      "ms": 119
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 192
+      "ms": 172
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 12,
       "error": null,
-      "ms": 555
+      "ms": 380
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 316
+      "ms": 521
     },
     "Euronews": {
-      "ok": true,
-      "count": 44,
-      "error": null,
-      "ms": 132
+      "ok": false,
+      "count": 0,
+      "error": "406 Client Error: Not Acceptable for url: https://www.euronews.com/rss?level=theme&name=news",
+      "ms": 3082
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 104
+      "ms": 402
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 461
+      "ms": 474
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 211
+      "ms": 258
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 82
+      "ms": 133
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 174
+      "ms": 597
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 366
+      "ms": 364
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 322
+      "ms": 289
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 521
+      "ms": 792
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 433
+      "ms": 620
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 655
+      "ms": 657
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 415
+      "ms": 230
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3134
+      "ms": 3056
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 210
+      "ms": 243
     },
     "The Independent": {
       "ok": true,
-      "count": 41,
+      "count": 40,
       "error": null,
-      "ms": 192
+      "ms": 167
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 168
+      "ms": 213
     }
   },
   "breaking": [
@@ -199,7 +199,7 @@
       "url": "https://www.thehindu.com/news/international/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza/article71754241.ece",
       "source": "The Hindu",
       "published": "2026-11-28T11:41:39+00:00",
-      "score": 6,
+      "score": 5,
       "other_sources": [
         {
           "source": "France24",
@@ -224,15 +224,9 @@
           "url": "https://www.abc.net.au/news/2026-11-28/two-killed-israeli-air-strike-gaza-msf/107438266",
           "title": "Israeli air strike on Doctors Without Borders Gaza office kills two",
           "published": "2026-11-28T06:20:19+00:00"
-        },
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
-          "title": "Israeli ‘direct hit ‘on Doctors Without Borders Gaza clinic kills 2 staff",
-          "published": "2026-11-28T03:45:58+00:00"
         }
       ],
-      "consensus": 7.5
+      "consensus": 6.0
     },
     {
       "title": "Explosion at Afghanistan school kills seven students, wounds 97 people",
@@ -246,6 +240,22 @@
           "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
           "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
           "published": "2026-11-28T11:32:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
+      "source": "SCMP",
+      "published": "2026-11-28T11:07:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CBC World",
+          "url": "https://www.cbc.ca/news/world/afghanistan-school-explosion-9.7440205?cmp=rss",
+          "title": "Explosion at a middle school in Afghanistan kills at least 7, injures more than 90",
+          "published": "2026-11-28T10:29:19+00:00"
         }
       ],
       "consensus": 2.5
@@ -278,22 +288,6 @@
           "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
           "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
           "published": "2026-11-28T04:57:32+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
-      "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
-      "source": "Africanews",
-      "published": "2026-11-28T09:14:15+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
-          "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
-          "published": "2026-11-28T07:22:17+00:00"
         }
       ],
       "consensus": 2.5
@@ -389,48 +383,20 @@
       "consensus": 4.0
     },
     {
-      "title": "US military fires at a ship that violated blockade of Iranian ports",
-      "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
-      "source": "Euronews",
-      "published": "2026-11-28T06:55:55+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/us-military-fires-ship-iran-blockade/",
-          "title": "U.S. military fires on ship violating Iran blockade",
-          "published": "2026-11-28T01:09:00+00:00"
-        },
-        {
-          "source": "The Independent",
-          "url": "https://www.independent.co.uk/news/world/americas/usa-military-gulf-of-oman-ship-iran-blockade-b3093017.html",
-          "title": "US military disables another ship in Gulf of Oman after attempt to breach Iranian ports blockade",
-          "published": "2026-11-27T19:54:54+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
-      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
-      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
+      "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
+      "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
       "source": "Africanews",
-      "published": "2026-11-27T13:21:05+00:00",
-      "score": 3,
+      "published": "2026-11-28T09:14:15+00:00",
+      "score": 2,
       "other_sources": [
         {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
-          "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
-          "published": "2026-11-27T10:20:33+00:00"
-        },
-        {
-          "source": "The Hindu",
-          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
-          "title": "Two Italians killed in drone attack in Kuwait",
-          "published": "2026-11-26T23:39:13+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+          "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+          "published": "2026-11-28T07:22:17+00:00"
         }
       ],
-      "consensus": 3.0
+      "consensus": 2.5
     },
     {
       "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
@@ -497,22 +463,6 @@
       "consensus": 2.5
     },
     {
-      "title": "NATO jets scrambled after drone enters Latvian airspace",
-      "url": "https://www.thehindu.com/news/international/nato-jets-scrambled-after-drone-enters-latvian-airspace/article71752112.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T17:44:44+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
-          "title": "NATO jets scrambled after drone briefly enters Latvian airspace",
-          "published": "2026-11-27T10:41:24+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Dutch authorities seize 26 critically endangered turtles from luggage of passenger bound for Hong Kong",
       "url": "https://www.dw.com/en/dutch-authorities-seize-26-critically-endangered-turtles-from-luggage-of-passenger-bound-for-hong-kong/a-80077824?maca=en-rss-en-world-4025-xml-mrss",
       "source": "Deutsche Welle",
@@ -556,6 +506,22 @@
           "url": "https://www.straitstimes.com/asia/explainer-rodrigo-dutertes-icc-trial-what-to-know",
           "title": "Explainer-Rodrigo Duterte's ICC trial: What to know",
           "published": "2026-11-27T09:52:24+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Iran denies involvement in Kuwait strike that killed two Italians",
+      "url": "http://www.africanews.com/2026/11/27/iran-denies-involvement-in-kuwait-strike-that-killed-two-italians/",
+      "source": "Africanews",
+      "published": "2026-11-27T13:21:05+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/drone-attack-kuwait-us-iran-war-death-november-27-2026/article71748337.ece",
+          "title": "Two Italians killed in drone attack in Kuwait",
+          "published": "2026-11-26T23:39:13+00:00"
         }
       ],
       "consensus": 2.5
@@ -801,6 +767,22 @@
       "consensus": 2.0
     },
     {
+      "title": "President Donald Trump insists Nvidia CEO not a security threat",
+      "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
+      "source": "The Hindu",
+      "published": "2026-11-27T04:42:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/donald-trump-jensen-huang-nvidia-security-threat-6586401",
+          "title": "Trump insists Nvidia CEO not a security threat",
+          "published": "2026-11-27T01:57:58+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Ebola cases reach 12,000 in Congo as second-largest outbreak on record grows",
       "url": "https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970?cmp=rss",
       "source": "CBC World",
@@ -817,84 +799,67 @@
       "consensus": 2.0
     },
     {
-      "title": "Iraq sentences eight French nationals to life for joining Islamic State",
-      "url": "https://www.euronews.com/2026/11/26/iraq-sentences-eight-french-nationals-to-life-for-joining-islamic-state",
-      "source": "Euronews",
-      "published": "2026-11-26T15:07:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "RFI English",
-          "url": "https://www.rfi.fr/en/international/20261126-iraq-sentences-eight-french-islamic-state-members-to-life-as-prosecutions-continue",
-          "title": "Iraq sentences eight French Islamic State members to life as prosecutions continue",
-          "published": "2026-11-26T14:04:12+00:00"
-        }
-      ],
-      "consensus": 2.0
+      "title": "Tarantulas, scorpions and more found in luggage at Peru airport",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/tarantulas-scorpions-and-more-found-in-luggage-at-peru-airport?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T12:21:52+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
-      "url": "http://www.africanews.com/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match/",
-      "source": "Africanews",
-      "published": "2026-11-27T17:20:31+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match",
-          "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
-          "published": "2026-11-27T10:04:15+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "UK charity honouring WWII veteran to be disbanded after financial controversy",
+      "url": "https://www.scmp.com/news/world/europe/article/3376142/uk-charity-honouring-wwii-veteran-be-disbanded-after-financial-controversy",
+      "source": "SCMP",
+      "published": "2026-11-28T12:17:18+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
-      "url": "http://www.africanews.com/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary/",
-      "source": "Africanews",
-      "published": "2026-11-27T14:48:48+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/uk-londons-cake-and-bake-show-honours-david-attenboroughs-centenary",
-          "title": "UK: London's Cake and Bake Show honours David Attenborough's centenary",
-          "published": "2026-11-27T14:48:42+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Argentina's bid to stop Falkland Islands oil drilling rejected",
+      "url": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T12:15:45+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-      "url": "http://www.africanews.com/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink/",
-      "source": "Africanews",
-      "published": "2026-11-27T08:08:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink",
-          "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-          "published": "2026-11-27T08:08:29+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Indian police disperse protest outside Meta offices with water cannon",
+      "url": "https://www.straitstimes.com/asia/indian-police-disperse-protest-outside-meta-offices-with-water-cannon",
+      "source": "Straits Times",
+      "published": "2026-11-28T12:12:09+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
-      "title": "Germany: Christmas markets open across the country amid tight security",
-      "url": "http://www.africanews.com/2026/11/26/germany-christmas-markets-open-across-the-country-amid-tight-security/",
-      "source": "Africanews",
-      "published": "2026-11-26T22:05:28+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/26/germany-christmas-markets-open-across-the-country-amid-tight-security",
-          "title": "Germany: Christmas markets open across the country amid tight security",
-          "published": "2026-11-26T22:05:21+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "AI data centers in space: Millions of satellites and so many unknowns",
+      "url": "https://www.dw.com/en/ai-data-centers-in-space-millions-of-satellites-and-so-many-unknowns/a-80080166?maca=en-rss-en-world-4025-xml-mrss",
+      "source": "Deutsche Welle",
+      "published": "2026-11-28T12:09:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Manchester United vs Brentford LIVE: Premier League",
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/11/28/manchester-united-vs-brentford-live-premier-league?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T12:06:46+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Air strike on Myanmar wedding venue kills several: Witness, images",
+      "url": "https://www.straitstimes.com/asia/se-asia/air-strike-on-myanmar-wedding-venue-kills-several-witness-images",
+      "source": "Straits Times",
+      "published": "2026-11-28T12:03:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "US Navy pushes ahead with submarine-launched nuclear cruise missile programme",
@@ -915,7 +880,7 @@
       "consensus": 1.0
     },
     {
-      "title": "Taiwan ruling party says its candidate, Puma Shen, lost Taipei mayoral election",
+      "title": "China critic Puma Shen concedes defeat in Taipei mayor election",
       "url": "https://www.straitstimes.com/asia/taiwan-ruling-party-says-its-candidate-puma-shen-lost-taipei-mayoral-election",
       "source": "Straits Times",
       "published": "2026-11-28T11:55:14+00:00",
@@ -937,24 +902,6 @@
       "url": "https://www.scmp.com/news/china/politics/article/3376140/kmt-holds-taipei-mayor-wayne-chiang-fends-fierce-dpp-challenge",
       "source": "SCMP",
       "published": "2026-11-28T11:52:32+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine-Russia war latest: Kyiv uses laser to shoot down Russian drone after Zelensky hits out at Trump",
-      "url": "https://www.independent.co.uk/news/world/europe/russia-ukraine-war-live-putin-drones-nuclear-weapons-casualties-b3091880.html",
-      "source": "The Independent",
-      "published": "2026-11-28T11:41:13+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Zhuhai air show: China’s J-35A stealth jet and delayed MA700 turboprop take the spotlight",
-      "url": "https://www.scmp.com/news/china/military/article/3376138/zhuhai-air-show-chinas-j-35a-stealth-jet-and-delayed-ma700-turboprop-take-spotlight",
-      "source": "SCMP",
-      "published": "2026-11-28T11:41:01+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1104,10 +1051,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59290.99,
+        "price": 59258.27,
         "currency": "USD",
-        "change": -575.08,
-        "change_percent": -0.96,
+        "change": -607.8,
+        "change_percent": -1.02,
         "name": "Bitcoin"
       }
     ],
@@ -1278,22 +1225,22 @@
       "column": "global",
       "entries": [
         {
-          "title": "Iran hitting same ships twice to deter traffic from Strait of Hormuz",
-          "url": "https://www.ft.com/content/f9c4da80-cc2c-4b0b-b083-b7acd0337790?syn-25a6b1a6=1",
-          "published": "2026-11-28T05:00:41+00:00",
-          "snippet": "At least six vessels have been victims of ‘double tapping’ in the past two months"
+          "title": "The outsider from Cannes shaking up France’s presidential race",
+          "url": "https://www.ft.com/content/7f3900c2-bce6-495e-a6c4-e1133a3c46e9?syn-25a6b1a6=1",
+          "published": "2026-11-28T12:00:03+00:00",
+          "snippet": "Rightwing mayor David Lisnard has surged in polls with punchy attacks on the bloated state and promises of radical spending cuts"
         },
         {
-          "title": "Row erupts over plan to make next NHS chief one of highest-paid civil servants",
-          "url": "https://www.ft.com/content/7167cdb4-d905-44ea-bee8-0d686e375fae?syn-25a6b1a6=1",
-          "published": "2026-11-28T05:00:41+00:00",
-          "snippet": "NHS England says it has not been able to advertise the role amid finger-pointing in government departments"
+          "title": "El Guapo’s last gasp?",
+          "url": "https://www.ft.com/content/19dd970c-6258-49ad-8f2d-df90bff90ef2?syn-25a6b1a6=1",
+          "published": "2026-11-28T11:00:02+00:00",
+          "snippet": "The polls look grim for Pedro Sánchez — but a rightwing coalition won’t be smooth sailing if his opponents triumph"
         },
         {
-          "title": "England’s post-Brexit fishing windfall swept up by Dutch tycoon",
-          "url": "https://www.ft.com/content/13566b4a-e996-4029-829b-94fb89a76841?syn-25a6b1a6=1",
-          "published": "2026-11-28T05:00:41+00:00",
-          "snippet": "Smaller operators initially won a quarter of quotas, but their share dwindled to less than 1 per cent in 2025"
+          "title": "Israeli strike kills two Médecins Sans Frontières workers in Gaza",
+          "url": "https://www.ft.com/content/b50e55af-58a3-452b-a282-4d4be735229c?syn-25a6b1a6=1",
+          "published": "2026-11-28T10:14:12+00:00",
+          "snippet": "Medical charity calls for accountability as Israeli military claims men were involved in Hamas"
         }
       ]
     },
@@ -1303,22 +1250,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "The Civil-Rights Law That Activists Say Prohibits Civil-Rights Programs",
+          "url": "https://www.theatlantic.com/ideas/2026/11/civil-rights-discrimination-law/689565/?utm_source=feed",
+          "published": "2026-11-28T12:00:00+00:00",
+          "snippet": "Conservative advocacy groups are turning to an 1866 statute to say that scholarships and other efforts to help minority groups are no longer legal."
+        },
+        {
+          "title": "The Houthis Are the Future of Warfare",
+          "url": "https://www.theatlantic.com/ideas/2026/11/houthis-future-warfare-technology/689559/?utm_source=feed",
+          "published": "2026-11-28T12:00:00+00:00",
+          "snippet": "The fate of the Saudis holds lessons for the U.S."
+        },
+        {
           "title": "Jared Kushner’s Strategic Pixie Dust",
           "url": "https://www.theatlantic.com/ideas/2026/11/kushner-ukraine/689599/?utm_source=feed",
           "published": "2026-11-27T16:47:00+00:00",
           "snippet": "Deterrence is the by-product of the will and ability to fight—not a substitute for those qualities."
-        },
-        {
-          "title": "The Good Old Days of American Spy Movies and TV",
-          "url": "https://www.theatlantic.com/newsletters/2026/11/old-new-spy-movies-tv/689594/?utm_source=feed",
-          "published": "2026-11-27T15:30:00+00:00",
-          "snippet": "The heyday of pop-spy mania is well worth revisiting."
-        },
-        {
-          "title": "What We Got Wrong About Comas",
-          "url": "https://www.theatlantic.com/science/2026/11/coma-consciousness/689574/?utm_source=feed",
-          "published": "2026-11-27T13:00:00+00:00",
-          "snippet": "Some patients may be aware of what’s being said around them."
         }
       ]
     },
@@ -1403,7 +1350,7 @@
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 14,
+        "score": 122,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
@@ -1411,7 +1358,7 @@
         "title": "Let me Give You Worms",
         "url": "https://untested.sonnet.io/notes/let-me-give-you-worms/",
         "comments_url": "https://lobste.rs/s/82zm3l/let_me_give_you_worms",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:41:52.020000+00:00"
       },
@@ -1419,21 +1366,21 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 11,
+        "score": 12,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 157,
+        "score": 177,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 380,
+        "score": 401,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1456,14 +1403,14 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 447,
+        "score": 456,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
         "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
         "url": "https://tabernet.es/",
-        "score": 156,
+        "score": 158,
         "source": "Hacker News",
         "published": "2026-11-27T23:00:30+00:00"
       },
@@ -1487,7 +1434,7 @@
         "title": "x86 is an octal machine",
         "url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
         "comments_url": "https://lobste.rs/s/kikmfz/x86_is_octal_machine",
-        "score": 10,
+        "score": 11,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:24:04.111000+00:00"
       },
@@ -1510,7 +1457,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 320,
+        "score": 324,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       }

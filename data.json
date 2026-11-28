@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T11:01:04.480212+00:00",
+  "last_updated": "2026-11-28T11:30:59.474794+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 369
+      "ms": 262
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 226
+      "ms": 362
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 225
+      "ms": 183
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 223
+      "ms": 217
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 204
+      "ms": 313
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 210
+      "ms": 292
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 521
+      "ms": 760
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 347
+      "ms": 499
     },
     "Euronews": {
       "ok": true,
-      "count": 45,
+      "count": 44,
       "error": null,
-      "ms": 130
+      "ms": 192
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 139
+      "ms": 266
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 662
+      "ms": 464
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 224
+      "ms": 288
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 219
+      "ms": 265
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 188
+      "ms": 177
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 231
+      "ms": 259
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 388
+      "ms": 354
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 541
+      "ms": 625
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 450
+      "ms": 663
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 455
+      "ms": 841
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 369
+      "ms": 367
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3174
+      "ms": 3248
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 220
+      "ms": 230
     },
     "The Independent": {
       "ok": true,
-      "count": 43,
+      "count": 42,
       "error": null,
-      "ms": 195
+      "ms": 240
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 171
+      "ms": 247
     }
   },
   "breaking": [
@@ -196,11 +196,17 @@
     },
     {
       "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
-      "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-doctors-without-borders-6589316",
-      "source": "CNA",
-      "published": "2026-11-28T09:41:00+00:00",
-      "score": 4,
+      "url": "https://www.france24.com/en/israeli-strike-kills-two-doctors-without-borders-staff-in-gaza",
+      "source": "France24",
+      "published": "2026-11-28T11:23:55+00:00",
+      "score": 5,
       "other_sources": [
+        {
+          "source": "CNA",
+          "url": "https://www.channelnewsasia.com/world/israel-gaza-strike-doctors-without-borders-6589316",
+          "title": "Israeli strike kills two Doctors Without Borders staff in Gaza",
+          "published": "2026-11-28T09:41:00+00:00"
+        },
         {
           "source": "The Independent",
           "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
@@ -220,7 +226,23 @@
           "published": "2026-11-28T03:45:58+00:00"
         }
       ],
-      "consensus": 5.5
+      "consensus": 6.5
+    },
+    {
+      "title": "World Health Organization sounds alarm as measles fight stalls",
+      "url": "https://www.france24.com/en/world-health-organization-sounds-alarm-as-measles-fight-stalls",
+      "source": "France24",
+      "published": "2026-11-28T10:34:55+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "SCMP",
+          "url": "https://www.scmp.com/news/world/article/3376102/who-sounds-alarm-measles-fight-falters-it-back",
+          "title": "WHO sounds alarm as measles fight falters: ‘it is back’",
+          "published": "2026-11-27T20:12:12+00:00"
+        }
+      ],
+      "consensus": 2.5
     },
     {
       "title": "Peru, Ecuador hit by El Nino-linked floods",
@@ -287,19 +309,10 @@
       "consensus": 2.0
     },
     {
-      "title": "Australia’s conservatives win landslide victory in bellwether Victoria state",
-      "url": "https://www.straitstimes.com/asia/australianz/australias-conservatives-win-landslide-victory-in-bellwether-victoria-state",
-      "source": "Straits Times",
-      "published": "2026-11-28T10:57:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "KMT claims first win of Taiwan local elections as Chen Yu-jen takes Quemoy",
-      "url": "https://www.scmp.com/news/china/politics/article/3376134/kmt-claims-first-win-taiwan-local-elections-chen-yu-jen-takes-quemoy",
+      "title": "Between Europe and Thailand: can Hong Kong become Asia’s electronic music hub?",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3376133/between-europe-and-thailand-can-hong-kong-become-asias-electronic-music-hub",
       "source": "SCMP",
-      "published": "2026-11-28T10:52:29+00:00",
+      "published": "2026-11-28T11:30:10+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -899,55 +912,55 @@
       "consensus": 1.5
     },
     {
-      "title": "Ukraine ‘planning to destroy’ key bridge linking Russia with Crimea",
-      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-bridge-crimea-kerch-b3093130.html",
-      "source": "The Independent",
-      "published": "2026-11-28T10:47:41+00:00",
+      "title": "France holds nationwide protests against violence towards women",
+      "url": "https://www.france24.com/en/france-holds-nationwide-protests-against-violence-towards-women",
+      "source": "France24",
+      "published": "2026-11-28T11:25:52+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Conservatives set to win government in Australia's second-most populous state",
-      "url": "https://www.straitstimes.com/asia/conservatives-set-to-win-government-in-australias-second-most-populous-state",
-      "source": "Straits Times",
-      "published": "2026-11-28T10:47:00+00:00",
+      "title": "Ten students killed and over 100 injured in explosion in Afghanistan, official says",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T11:18:37+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Santiago Abascal: Spain’s far-right kingmaker",
-      "url": "https://www.politico.eu/article/santiago-abascal-spain-election-2026-far-right-kingmaker/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "source": "Politico EU",
-      "published": "2026-11-28T10:45:17+00:00",
+      "title": "Three days in the dark: How prepared are we for the lights to go out?",
+      "url": "https://www.france24.com/en/europe/20261128-three-days-dark-how-prepared-we-lights-go-out-france-cyber-attack-refrigerators-security",
+      "source": "France24",
+      "published": "2026-11-28T11:17:11+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Hong Kong construction sector hit by cyberattack affecting 85% of registered workers",
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3376132/hong-kong-construction-sector-hit-cyberattack-affecting-85-registered-workers",
+      "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
+      "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
       "source": "SCMP",
-      "published": "2026-11-28T10:43:54+00:00",
+      "published": "2026-11-28T11:07:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Two visions of Spain collide as voters weigh PM Sanchez’s record",
-      "url": "https://www.aljazeera.com/news/2026/11/28/two-visions-of-spain-collide-as-voters-weigh-sanchez-record?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T10:36:41+00:00",
+      "title": "Taiwan holds elections to choose mayors and other local leaders",
+      "url": "https://www.france24.com/en/taiwan-holds-elections-to-choose-mayors-and-other-local-leaders",
+      "source": "France24",
+      "published": "2026-11-28T11:06:49+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Why is Trump backing Iraq’s anti-smuggling campaign?",
-      "url": "https://www.aljazeera.com/news/2026/11/28/why-is-trump-backing-iraqs-anti-smuggling-campaign?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T10:32:42+00:00",
+      "title": "US military denied any issues with computing platform after hack reported",
+      "url": "https://www.euronews.com/2026/11/28/us-military-denied-any-issues-with-computing-platform-after-hack-reported",
+      "source": "Euronews",
+      "published": "2026-11-28T11:06:45+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1097,10 +1110,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59207.86,
+        "price": 59175.6,
         "currency": "USD",
-        "change": -658.21,
-        "change_percent": -1.1,
+        "change": -690.47,
+        "change_percent": -1.15,
         "name": "Bitcoin"
       }
     ],
@@ -1271,22 +1284,22 @@
       "column": "global",
       "entries": [
         {
+          "title": "El Guapo’s last gasp?",
+          "url": "https://www.ft.com/content/19dd970c-6258-49ad-8f2d-df90bff90ef2?syn-25a6b1a6=1",
+          "published": "2026-11-28T11:00:02+00:00",
+          "snippet": "The polls look grim for Pedro Sánchez — but a rightwing coalition won’t be smooth sailing if his opponents triumph"
+        },
+        {
+          "title": "Israeli strike kills two Médecins Sans Frontières workers in Gaza",
+          "url": "https://www.ft.com/content/b50e55af-58a3-452b-a282-4d4be735229c?syn-25a6b1a6=1",
+          "published": "2026-11-28T10:14:12+00:00",
+          "snippet": "Medical charity calls for accountability as Israeli military claims men were involved in Hamas"
+        },
+        {
           "title": "Iran hitting same ships twice to deter traffic from Strait of Hormuz",
           "url": "https://www.ft.com/content/f9c4da80-cc2c-4b0b-b083-b7acd0337790?syn-25a6b1a6=1",
           "published": "2026-11-28T05:00:41+00:00",
           "snippet": "At least six vessels have been victims of ‘double tapping’ in the past two months"
-        },
-        {
-          "title": "Row erupts over plan to make next NHS chief one of highest-paid civil servants",
-          "url": "https://www.ft.com/content/7167cdb4-d905-44ea-bee8-0d686e375fae?syn-25a6b1a6=1",
-          "published": "2026-11-28T05:00:41+00:00",
-          "snippet": "NHS England says it has not been able to advertise the role amid finger-pointing in government departments"
-        },
-        {
-          "title": "England’s post-Brexit fishing windfall swept up by Dutch tycoon",
-          "url": "https://www.ft.com/content/13566b4a-e996-4029-829b-94fb89a76841?syn-25a6b1a6=1",
-          "published": "2026-11-28T05:00:41+00:00",
-          "snippet": "Smaller operators initially won a quarter of quotas, but their share dwindled to less than 1 per cent in 2025"
         }
       ]
     },
@@ -1405,21 +1418,21 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 5,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 122,
+        "score": 137,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 348,
+        "score": 368,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1442,14 +1455,14 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 416,
+        "score": 434,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
         "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
         "url": "https://tabernet.es/",
-        "score": 139,
+        "score": 148,
         "source": "Hacker News",
         "published": "2026-11-27T23:00:30+00:00"
       },
@@ -1481,7 +1494,7 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 30,
+        "score": 31,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
@@ -1496,7 +1509,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 311,
+        "score": 316,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },

@@ -1,158 +1,158 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T14:31:00.754446+00:00",
+  "last_updated": "2026-11-28T15:01:09.278296+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 308
+      "ms": 185
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 265
+      "ms": 276
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 156
+      "ms": 142
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 217
+      "ms": 70
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 406
+      "ms": 184
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 126
+      "ms": 114
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 103
+      "ms": 695
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 392
+      "ms": 295
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 46
+      "ms": 42
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 96
+      "ms": 272
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 308
+      "ms": 397
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 269
+      "ms": 443
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 147
+      "ms": 124
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 84
+      "ms": 256
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 163
+      "ms": 197
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 138
+      "ms": 216
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 470
+      "ms": 729
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 454
+      "ms": 832
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 591
+      "ms": 769
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 205
+      "ms": 171
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3096
+      "ms": 3152
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 293
+      "ms": 237
     },
     "The Independent": {
       "ok": true,
       "count": 39,
       "error": null,
-      "ms": 137
+      "ms": 115
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 164
+      "ms": 194
     }
   },
   "breaking": [
     {
-      "title": "Israeli strike on Gaza kills two medics from Doctors Without Borders",
-      "url": "https://www.france24.com/en/middle-east/20261128-israeli-strike-on-gaza-kills-two-medics-from-doctors-without-borders",
+      "title": "Gaza strike kills two Doctors Without Borders staff Israel links to Hamas",
+      "url": "https://www.france24.com/en/gaza-strike-kills-two-doctors-without-borders-staff-israel-links-to-hamas",
       "source": "France24",
-      "published": "2026-11-28T13:32:17+00:00",
+      "published": "2026-11-28T14:31:26+00:00",
       "score": 4,
       "other_sources": [
         {
@@ -175,28 +175,6 @@
         }
       ],
       "consensus": 5.0
-    },
-    {
-      "title": "Russian flotilla heading to Libya turns around after warship sunk in Benghazi",
-      "url": "http://www.africanews.com/2026/11/28/russian-flotilla-heading-to-libya-turns-around-after-warship-sunk-in-benghazi/",
-      "source": "Africanews",
-      "published": "2026-11-28T11:42:31+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/russian-military-flotilla-libya-turns-around/",
-          "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
-          "published": "2026-11-28T01:11:00+00:00"
-        },
-        {
-          "source": "The Moscow Times",
-          "url": "https://www.themoscowtimes.com/2026/11/27/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-a812400",
-          "title": "Russian Military Flotilla Bound for Libya Turns Around After Warship Sunk, Sources Say",
-          "published": "2026-11-27T19:40:46+00:00"
-        }
-      ],
-      "consensus": 4.0
     },
     {
       "title": "Taiwan elections: Candidate criticised by China concedes Taipei mayoral race",
@@ -247,10 +225,10 @@
       "consensus": 2.5
     },
     {
-      "title": "Israeli strike kills 2 staff outside Gaza medical clinic, MSF says",
-      "url": "https://www.cbc.ca/news/world/israeli-strike-killed-two-msf-staff-9.7440201?cmp=rss",
-      "source": "CBC World",
-      "published": "2026-11-28T13:32:40+00:00",
+      "title": "MSF ‘outraged’ over Israeli strike on Gaza clinic that killed two",
+      "url": "https://www.independent.co.uk/news/world/middle-east/israel-strike-msf-doctors-without-borders-clinic-gaza-b3093134.html",
+      "source": "The Independent",
+      "published": "2026-11-28T13:39:15+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -260,23 +238,7 @@
           "published": "2026-11-28T10:34:58+00:00"
         }
       ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Explosion at Afghanistan school kills seven students, wounds 97 people",
-      "url": "https://www.abc.net.au/news/2026-11-28/explosion-at-afghanistan-school/107438626",
-      "source": "ABC Australia",
-      "published": "2026-11-28T11:43:42+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "NPR World",
-          "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
-          "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
-          "published": "2026-11-28T11:32:37+00:00"
-        }
-      ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
       "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
@@ -293,6 +255,24 @@
         }
       ],
       "consensus": 2.0
+    },
+    {
+      "title": "Hong Kong hygiene authorities report staff to police over alleged leave abuse",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376151/hong-kong-hygiene-authorities-report-staff-police-over-alleged-leave-abuse",
+      "source": "SCMP",
+      "published": "2026-11-28T14:51:45+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Mapped: The 21 countries dragged into the Russia Ukraine war",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-mapped-countries-affected-b3092284.html",
+      "source": "The Independent",
+      "published": "2026-11-28T14:41:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "world": [
@@ -377,6 +357,28 @@
       "consensus": 6.0
     },
     {
+      "title": "Russian flotilla heading to Libya turns around after warship sunk in Benghazi",
+      "url": "http://www.africanews.com/2026/11/28/russian-flotilla-heading-to-libya-turns-around-after-warship-sunk-in-benghazi/",
+      "source": "Africanews",
+      "published": "2026-11-28T11:42:31+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/28/world/russian-military-flotilla-libya-turns-around/",
+          "title": "Russian military flotilla bound for Libya turns around after sinking of warship",
+          "published": "2026-11-28T01:11:00+00:00"
+        },
+        {
+          "source": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/11/27/russian-military-flotilla-bound-for-libya-turns-around-after-warship-sunk-a812400",
+          "title": "Russian Military Flotilla Bound for Libya Turns Around After Warship Sunk, Sources Say",
+          "published": "2026-11-27T19:40:46+00:00"
+        }
+      ],
+      "consensus": 4.0
+    },
+    {
       "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
       "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
@@ -443,6 +445,22 @@
       "consensus": 3.0
     },
     {
+      "title": "Explosion at Afghanistan school kills seven students, wounds 97 people",
+      "url": "https://www.abc.net.au/news/2026-11-28/explosion-at-afghanistan-school/107438626",
+      "source": "ABC Australia",
+      "published": "2026-11-28T11:43:42+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "NPR World",
+          "url": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+          "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+          "published": "2026-11-28T11:32:37+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Afghanistan school explosion kills 7 pupils, over 90 injured",
       "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376136/afghanistan-school-explosion-kills-7-pupils-over-90-injured",
       "source": "SCMP",
@@ -459,22 +477,6 @@
       "consensus": 2.5
     },
     {
-      "title": "World Health Organization sounds alarm as measles fight stalls",
-      "url": "https://www.france24.com/en/world-health-organization-sounds-alarm-as-measles-fight-stalls",
-      "source": "France24",
-      "published": "2026-11-28T10:34:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "SCMP",
-          "url": "https://www.scmp.com/news/world/article/3376102/who-sounds-alarm-measles-fight-falters-it-back",
-          "title": "WHO sounds alarm as measles fight falters: ‘it is back’",
-          "published": "2026-11-27T20:12:12+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
       "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
       "source": "Africanews",
@@ -486,22 +488,6 @@
           "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
           "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
           "published": "2026-11-28T07:22:17+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Uganda to withdraw troops from DR Congo",
-      "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo",
-      "source": "France24",
-      "published": "2026-11-27T21:44:29+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
-          "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
-          "published": "2026-11-27T14:57:33+00:00"
         }
       ],
       "consensus": 2.5
@@ -923,20 +909,22 @@
       "consensus": 1.5
     },
     {
-      "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-      "url": "http://www.africanews.com/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink/",
-      "source": "Africanews",
-      "published": "2026-11-27T08:08:36+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Euronews",
-          "url": "https://www.euronews.com/video/2026/11/27/russia-moscows-iconic-soviet-era-expo-park-opens-its-20000-square-metre-outdoor-ice-rink",
-          "title": "Russia: Moscow's iconic Soviet-era expo park opens its 20,000-square-metre outdoor ice rink",
-          "published": "2026-11-27T08:08:29+00:00"
-        }
-      ],
-      "consensus": 1.5
+      "title": "Taipei's Kuomintang mayor Chiang Wan-an re-elected in tight election race",
+      "url": "https://www.france24.com/en/taipei-s-kuomintang-mayor-re-elected-in-tight-election-race",
+      "source": "France24",
+      "published": "2026-11-28T14:35:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "South Sudan: a country of conflict",
+      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-conflict-history-b3069256.html",
+      "source": "The Independent",
+      "published": "2026-11-28T14:30:36+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     },
     {
       "title": "EPA releases preliminary air and soil tests after Army detonates Iowa toxic lead supply",
@@ -961,15 +949,6 @@
       "url": "https://www.scmp.com/news/world/russia-central-asia/article/3376148/ukraine-reports-least-9-killed-russia-shoots-down-over-1200-drones",
       "source": "SCMP",
       "published": "2026-11-28T14:09:55+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "South Sudan should be rich. So, why are millions on the brink of starvation?",
-      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-oil-wealth-aid-corruption-war-flooding-b3053646.html",
-      "source": "The Independent",
-      "published": "2026-11-28T14:01:35+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1031,7 +1010,7 @@
         "symbol": "^DJI",
         "price": 50774.94,
         "currency": "USD",
-        "change": 592.04,
+        "change": 591.99,
         "change_percent": 1.18,
         "name": "Dow Jones"
       },
@@ -1119,10 +1098,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59235.57,
+        "price": 59292.37,
         "currency": "USD",
-        "change": -630.5,
-        "change_percent": -1.05,
+        "change": -573.7,
+        "change_percent": -0.96,
         "name": "Bitcoin"
       }
     ],
@@ -1416,17 +1395,39 @@
   "web": {
     "tech": [
       {
+        "title": "Classic Shift Ciphers with lens and finite-typelits",
+        "url": "https://jackkelly.name/blog/archives/2026/11/26/classic_shift_ciphers_with_lens_and_finite-typelits/index.html",
+        "comments_url": "https://lobste.rs/s/obmxh1/classic_shift_ciphers_with_lens_finite",
+        "score": 1,
+        "source": "Lobste.rs",
+        "published": "2026-11-28T14:55:12.648000+00:00"
+      },
+      {
+        "title": "Physics Breakthrough Simulator",
+        "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+        "score": 6,
+        "source": "Hacker News",
+        "published": "2026-11-28T14:52:45+00:00"
+      },
+      {
         "title": "Optimistic Update vs. Immediate Intent",
         "url": "https://romshark.github.io/ux-immediate-intent/",
         "comments_url": "https://lobste.rs/s/brcqm7/optimistic_update_vs_immediate_intent",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-28T14:14:55.705000+00:00"
       },
       {
-        "title": "IBM MVS 3.8 Community Edition (52-year old OS)",
+        "title": "Why stop at Emacs? Native apps you or an AI reprogram in Clojure while they run",
+        "url": "https://github.com/RiccardoSottini/AffrescoUI",
+        "score": 11,
+        "source": "Hacker News",
+        "published": "2026-11-28T14:09:39+00:00"
+      },
+      {
+        "title": "IBM MVS 3.8j Community Edition (52-year old OS)",
         "url": "https://github.com/MVS-sysgen/sysgen",
-        "score": 5,
+        "score": 13,
         "source": "Hacker News",
         "published": "2026-11-28T13:17:39+00:00"
       },
@@ -1434,49 +1435,49 @@
         "title": "A story about Minecraft, Bukkit, and the GPL",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl",
-        "score": 6,
+        "score": 9,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 43,
+        "score": 59,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
       },
       {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 50,
+        "score": 66,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Audible removes download option for purchased audiobooks",
         "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 96,
+        "score": 151,
         "source": "Hacker News",
         "published": "2026-11-28T11:51:27+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 424,
+        "score": 491,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
         "title": "Claude Code sabotage: preliminary benchmarking",
         "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
-        "score": 172,
+        "score": 245,
         "source": "Hacker News",
         "published": "2026-11-28T10:37:40+00:00"
       },
       {
         "title": "Diablo II",
         "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 62,
+        "score": 74,
         "source": "Hacker News",
         "published": "2026-11-28T09:54:19+00:00"
       },
@@ -1492,39 +1493,16 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 17,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 238,
+        "score": 252,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
-      },
-      {
-        "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
-        "url": "https://unkernel.dev",
-        "score": 449,
-        "source": "Hacker News",
-        "published": "2026-11-28T03:19:20+00:00"
-      },
-      {
-        "title": "FastLanes: Next-gen File Format",
-        "url": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
-        "comments_url": "https://lobste.rs/s/ulfg29/fastlanes_next_gen_file_format",
-        "score": 4,
-        "source": "Lobste.rs",
-        "published": "2026-11-28T00:12:53.791000+00:00"
-      },
-      {
-        "title": "A Best-in-Class iOS App: The Book Series",
-        "url": "https://www.bestinclassiosapp.com/",
-        "comments_url": "https://lobste.rs/s/wkljma/best_class_ios_app_book_series",
-        "score": 3,
-        "source": "Lobste.rs",
-        "published": "2026-11-28T00:12:41.264000+00:00"
       }
     ],
     "reddit": [

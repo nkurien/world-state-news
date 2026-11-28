@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T13:01:07.732740+00:00",
+  "last_updated": "2026-11-28T13:30:53.649783+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 316
+      "ms": 292
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 322
+      "ms": 256
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 241
+      "ms": 276
     },
     "BBC News": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 252
+      "ms": 424
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 117
+      "ms": 212
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 441
+      "ms": 263
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 13,
       "error": null,
-      "ms": 473
+      "ms": 575
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 459
+      "ms": 299
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 130
+      "ms": 98
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 120
+      "ms": 184
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 384
+      "ms": 442
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 268
+      "ms": 280
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 411
+      "ms": 479
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 632
+      "ms": 580
     },
     "RFI English": {
       "ok": true,
       "count": 22,
       "error": null,
-      "ms": 293
+      "ms": 372
     },
     "RNZ": {
       "ok": true,
       "count": 40,
       "error": null,
-      "ms": 679
+      "ms": 128
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 714
+      "ms": 713
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 591
+      "ms": 496
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 550
+      "ms": 561
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 442
+      "ms": 234
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3055
+      "ms": 3110
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 254
+      "ms": 232
     },
     "The Independent": {
       "ok": true,
-      "count": 40,
+      "count": 41,
       "error": null,
-      "ms": 92
+      "ms": 464
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 247
+      "ms": 197
     }
   },
   "breaking": [
@@ -253,6 +253,22 @@
       "consensus": 2.5
     },
     {
+      "title": "OpenAI and Apple accuse each other of committing trade secret theft, OpenAI countersues",
+      "url": "https://www.euronews.com/2026/11/28/openai-and-apple-accuse-each-other-of-committing-trade-secret-theft-openai-countersues",
+      "source": "Euronews",
+      "published": "2026-11-28T13:05:25+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+          "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+          "published": "2026-11-28T11:35:34+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
       "title": "Medical charity condemns Israeli strike that killed 2 of its staff in Gaza",
       "url": "https://www.rfi.fr/en/international/20261128-israeli-strike-killed-two-staff-outside-gaza-clinic-medical-charity-msf-says",
       "source": "RFI English",
@@ -283,15 +299,6 @@
         }
       ],
       "consensus": 2.0
-    },
-    {
-      "title": "Labor MPs are in 'disbelief' after electoral annihilation in Victoria",
-      "url": "https://www.abc.net.au/news/2026-11-28/victorian-election-result-analysis-rachel-eddie/107438514",
-      "source": "ABC Australia",
-      "published": "2026-11-28T12:56:57+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
     }
   ],
   "world": [
@@ -442,22 +449,6 @@
       "consensus": 3.0
     },
     {
-      "title": "Peru, Ecuador hit by El Nino-linked floods",
-      "url": "https://www.scmp.com/news/world/americas/article/3376127/peru-ecuador-hit-el-nino-linked-floods",
-      "source": "SCMP",
-      "published": "2026-11-28T09:38:59+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-          "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-          "published": "2026-11-28T04:57:32+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
       "title": "Uganda launches first African trial of mRNA Bundibugyo Ebola vaccine",
       "url": "http://www.africanews.com/2026/11/28/uganda-launches-first-african-trial-of-mrna-bundibugyo-ebola-vaccine/",
       "source": "Africanews",
@@ -485,6 +476,22 @@
           "url": "http://www.africanews.com/2026/11/27/uganda-to-withdraw-troops-from-eastern-dr-congo-town-amid-diplomatic-spat/",
           "title": "Uganda to withdraw troops from eastern DR Congo town amid diplomatic spat",
           "published": "2026-11-27T14:57:33+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
+      "title": "Canada’s top court upholds Quebec ban on religious symbols for public servants",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376103/canadas-top-court-upholds-quebec-ban-religious-symbols-public-servants",
+      "source": "SCMP",
+      "published": "2026-11-27T20:25:58+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+          "published": "2026-11-27T16:53:46+00:00"
         }
       ],
       "consensus": 2.5
@@ -778,22 +785,6 @@
       "consensus": 2.0
     },
     {
-      "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
-      "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T20:43:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
-          "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
-          "published": "2026-11-27T16:53:46+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Australian mushroom murderer Erin Patterson files High Court appeal bid",
       "url": "https://www.channelnewsasia.com/world/australia-mushroom-murder-erin-pattinson-high-court-appeal-6587091",
       "source": "CNA",
@@ -906,55 +897,64 @@
       "consensus": 1.5
     },
     {
-      "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
-      "url": "https://www.aljazeera.com/news/2026/11/28/norse-atlantic-ends-flights-how-iran-war-continues-to-batter-aviation?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T12:56:53+00:00",
+      "title": "Law of the sea tribunal rejects Argentina's bid to halt Sea Lion, citing lack of jurisdiction over sovereignty",
+      "url": "https://en.mercopress.com/2026/11/28/law-of-the-sea-tribunal-rejects-argentina-s-bid-to-halt-sea-lion-citing-lack-of-jurisdiction-over-sovereignty?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "source": "MercoPress",
+      "published": "2026-11-28T13:20:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Taiwan elections: KMT’s Johnny Chiang loses key Taichung race in possible 2028 blow",
-      "url": "https://www.scmp.com/news/china/politics/article/3376143/taiwan-elections-kmts-johnny-chiang-loses-key-taichung-race-possible-2028-blow",
-      "source": "SCMP",
-      "published": "2026-11-28T12:54:12+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Azerbaijan's opposition leader Ali Karimli: A year behind bars",
-      "url": "https://www.dw.com/en/azerbaijan-s-opposition-leader-ali-karimli-a-year-behind-bars/a-80036095?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-28T12:52:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Ukraine's expertise comes in handy for international drone alliances",
-      "url": "https://www.dw.com/en/ukraine-s-expertise-comes-in-handy-for-international-drone-alliances/a-80075472?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-28T12:52:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T12:49:44+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "International court rejects Argentina’s bid to halt Falkland Islands oil drilling project",
+      "title": "Argentina fails in bid to block UK-led oil drilling off Falkland Islands",
       "url": "https://www.independent.co.uk/news/world/americas/falkland-islands-oil-drilling-argentina-b3093182.html",
       "source": "The Independent",
-      "published": "2026-11-28T12:43:13+00:00",
+      "published": "2026-11-28T13:19:06+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Europe must unite or face ‘disappearing', warns former Bank of France chief",
+      "url": "https://www.rfi.fr/en/international/20261128-europe-must-unite-or-face-disappearance-warns-former-bank-of-france-fran%C3%A7ois-villeroy-de-galhau",
+      "source": "RFI English",
+      "published": "2026-11-28T13:19:04+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Map reveals how war in Ukraine has now spread to 21 countries after Kyiv hits Russian ship in Libya",
+      "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-mapped-countries-affected-b3092284.html",
+      "source": "The Independent",
+      "published": "2026-11-28T13:17:43+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Florida woman accused of shooting dead husband on Thanksgiving",
+      "url": "https://www.independent.co.uk/news/world/americas/crime/florida-shooting-husband-thanksgiving-arrest-b3093066.html",
+      "source": "The Independent",
+      "published": "2026-11-28T13:14:46+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Markwayne Mullin labeled an ‘idiot’ by Trump staffers as rumors swirl about his future: report",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/markwayne-mullin-trump-staff-dhs-future-b3093196.html",
+      "source": "The Independent",
+      "published": "2026-11-28T13:14:01+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Bootleg alcohol poisonings in Iran see dozens dead and badly injured",
+      "url": "https://www.aljazeera.com/news/2026/11/28/bootleg-alcohol-poisonings-in-iran-see-dozens-dead-and-badly-injured?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T13:12:56+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1104,10 +1104,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59154.46,
+        "price": 59258.06,
         "currency": "USD",
-        "change": -711.61,
-        "change_percent": -1.19,
+        "change": -608.01,
+        "change_percent": -1.02,
         "name": "Bitcoin"
       }
     ],
@@ -1409,23 +1409,37 @@
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
+        "title": "Show HN: Luciole Mono – terminal font designed for legibility",
+        "url": "https://scriptor-pro.github.io/luciole-mono/",
+        "score": 20,
+        "source": "Hacker News",
+        "published": "2026-11-28T12:50:15+00:00"
+      },
+      {
         "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
         "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 13,
+        "score": 28,
         "source": "Hacker News",
         "published": "2026-11-28T11:57:04+00:00"
       },
       {
         "title": "Farewell",
         "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 208,
+        "score": 269,
         "source": "Hacker News",
         "published": "2026-11-28T11:42:26+00:00"
       },
       {
+        "title": "Claude Code sabotage: preliminary benchmarking",
+        "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+        "score": 37,
+        "source": "Hacker News",
+        "published": "2026-11-28T10:37:40+00:00"
+      },
+      {
         "title": "Diablo II",
         "url": "https://www.filfre.net/2026/11/diablo-ii/",
-        "score": 8,
+        "score": 23,
         "source": "Hacker News",
         "published": "2026-11-28T09:54:19+00:00"
       },
@@ -1441,21 +1455,21 @@
         "title": "So, I rewrote my game in C3",
         "url": "https://www.madrigalgames.com/blog/so-i-rewrote-my-game-in-c3/",
         "comments_url": "https://lobste.rs/s/8djplv/so_i_rewrote_my_game_c3",
-        "score": 14,
+        "score": 15,
         "source": "Lobste.rs",
         "published": "2026-11-28T09:19:47.157000+00:00"
       },
       {
         "title": "Knuth: Moratorium on Error Reports",
         "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
-        "score": 190,
+        "score": 214,
         "source": "Hacker News",
         "published": "2026-11-28T03:49:21+00:00"
       },
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 417,
+        "score": 431,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1463,7 +1477,7 @@
         "title": "FastLanes: Next-gen File Format",
         "url": "https://research.vu.nl/files/447013431/afroozehphdthesis%20-%2069280d90f0bfd.pdf",
         "comments_url": "https://lobste.rs/s/ulfg29/fastlanes_next_gen_file_format",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T00:12:53.791000+00:00"
       },
@@ -1471,14 +1485,14 @@
         "title": "A Best-in-Class iOS App: The Book Series",
         "url": "https://www.bestinclassiosapp.com/",
         "comments_url": "https://lobste.rs/s/wkljma/best_class_ios_app_book_series",
-        "score": 2,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T00:12:41.264000+00:00"
       },
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 464,
+        "score": 468,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
@@ -1497,22 +1511,6 @@
         "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:42:02.268000+00:00"
-      },
-      {
-        "title": "x86 is an octal machine",
-        "url": "https://gist.github.com/seanjensengrey/f971c20d05d4d0efc0781f2f3c0353da",
-        "comments_url": "https://lobste.rs/s/kikmfz/x86_is_octal_machine",
-        "score": 11,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T20:24:04.111000+00:00"
-      },
-      {
-        "title": "Why optimistic updates are corrosive",
-        "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
-        "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 32,
-        "source": "Lobste.rs",
-        "published": "2026-11-27T20:01:50.431000+00:00"
       }
     ],
     "reddit": [

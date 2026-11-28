@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T18:01:01.460668+00:00",
+  "last_updated": "2026-11-28T18:30:57.132726+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 274
+      "ms": 290
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 212
+      "ms": 122
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 340
+      "ms": 239
     },
     "BBC News": {
       "ok": true,
       "count": 26,
       "error": null,
-      "ms": 296
+      "ms": 353
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 132
+      "ms": 324
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 300
+      "ms": 315
     },
     "Deutsche Welle": {
       "ok": true,
-      "count": 12,
+      "count": 11,
       "error": null,
-      "ms": 586
+      "ms": 559
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 255
+      "ms": 280
     },
     "Euronews": {
       "ok": true,
       "count": 43,
       "error": null,
-      "ms": 140
+      "ms": 144
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 139
+      "ms": 64
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 325
+      "ms": 462
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 288
+      "ms": 217
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 383
+      "ms": 288
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 492
+      "ms": 134
     },
     "RFI English": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 372
+      "ms": 68
     },
     "RNZ": {
       "ok": true,
       "count": 39,
       "error": null,
-      "ms": 284
+      "ms": 290
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 595
+      "ms": 564
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 433
+      "ms": 398
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 448
+      "ms": 473
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 299
+      "ms": 282
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3086
+      "ms": 3159
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 187
+      "ms": 83
     },
     "The Independent": {
       "ok": true,
-      "count": 34,
+      "count": 33,
       "error": null,
-      "ms": 119
+      "ms": 88
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 155
+      "ms": 157
     }
   },
   "breaking": [
@@ -171,10 +171,26 @@
       "consensus": 3.5
     },
     {
-      "title": "Netanyahu offers to rotate Israel PM role with Eisenkot, let rival go first",
-      "url": "https://www.scmp.com/news/world/middle-east/article/3376156/netanyahu-offers-rotate-israel-pm-role-eisenkot-let-rival-go-first",
-      "source": "SCMP",
-      "published": "2026-11-28T17:33:20+00:00",
+      "title": "At risk of losing power, Netanyahu makes long-shot unity appeal to rival Eisenkot",
+      "url": "https://www.channelnewsasia.com/world/risk-losing-power-netanyahu-makes-long-shot-unity-appeal-rival-eisenkot-6589716",
+      "source": "CNA",
+      "published": "2026-11-28T18:10:06+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "The Hindu",
+          "url": "https://www.thehindu.com/news/international/at-risk-of-losing-power-netanyahu-makes-long-shot-unity-appeal-to-rival-eisenkot/article71755606.ece",
+          "title": "At risk of losing power, Netanyahu makes long-shot unity appeal to rival Eisenkot",
+          "published": "2026-11-28T18:01:55+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Netanyahu willing to let Eisenkot serve first as PM in unity government",
+      "url": "https://www.euronews.com/2026/11/28/netanyahu-willing-to-let-eisenkot-serve-first-as-pm-in-unity-government",
+      "source": "Euronews",
+      "published": "2026-11-28T18:02:22+00:00",
       "score": 2,
       "other_sources": [
         {
@@ -184,7 +200,7 @@
           "published": "2026-11-28T16:52:58+00:00"
         }
       ],
-      "consensus": 2.5
+      "consensus": 2.0
     },
     {
       "title": "Airstrike on Myanmar wedding venue kills around 20, say witnesses",
@@ -203,46 +219,37 @@
       "consensus": 2.0
     },
     {
-      "title": "Los Angeles shaken by a 4.7-magnitude earthquake",
-      "url": "https://www.independent.co.uk/news/world/americas/earthquake-los-angeles-manhattan-beach-b3093275.html",
-      "source": "The Independent",
-      "published": "2026-11-28T17:49:24+00:00",
+      "title": "ABC Wordage quiz: Let's get nerdy",
+      "url": "https://www.abc.net.au/news/2026-11-29/abc-wordage-quiz-nerd/107420666",
+      "source": "ABC Australia",
+      "published": "2026-11-28T18:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "United Fidelity Bank seized in biggest US bank failure since 2024",
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3376157/united-fidelity-bank-seized-biggest-us-bank-failure-2024",
-      "source": "SCMP",
-      "published": "2026-11-28T17:46:38+00:00",
+      "title": "The many lives of Radio Birdman's Deniz Tek",
+      "url": "https://www.abc.net.au/news/2026-11-29/deniz-tek-interview-radio-birdman-full-throttle-book/107417700",
+      "source": "ABC Australia",
+      "published": "2026-11-28T18:30:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Internet takes sides over Weather Channel’s comment on the White House: ‘I want his resignation’",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/weather-channel-comment-white-house-trump-b3093257.html",
-      "source": "The Independent",
-      "published": "2026-11-28T17:44:20+00:00",
+      "title": "Greece retrieves two dead migrants, rescues 41 near Crete",
+      "url": "https://www.channelnewsasia.com/world/greece-retrieves-two-dead-migrants-rescues-41-near-crete-6589706",
+      "source": "CNA",
+      "published": "2026-11-28T18:20:06+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "More people are using AI to follow the news, but can they trust what it tells them?",
-      "url": "https://www.rfi.fr/en/international/20261128-more-people-turn-to-ai-for-news-but-questions-remain-over-its-reliability",
-      "source": "RFI English",
-      "published": "2026-11-28T17:42:38+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "France protests violence against women and rising cost of living",
-      "url": "https://www.rfi.fr/en/france/20261128-france-protests-violence-against-women-and-cost-of-living",
-      "source": "RFI English",
-      "published": "2026-11-28T17:32:06+00:00",
+      "title": "Ukraine restricts reporting on impact of Russian strikes",
+      "url": "https://www.france24.com/en/ukraine-restricts-reporting-on-impact-of-russian-strikes",
+      "source": "France24",
+      "published": "2026-11-28T18:18:41+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -356,28 +363,6 @@
       "consensus": 4.0
     },
     {
-      "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
-      "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "published": "2026-11-28T07:31:14+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Japan Times",
-          "url": "https://www.japantimes.co.jp/sports/2026/11/28/more-sports/bronson-reed-wwe-wrestling/",
-          "title": "WWE star Bronson Reed dies at 38",
-          "published": "2026-11-28T06:21:00+00:00"
-        },
-        {
-          "source": "ABC Australia",
-          "url": "https://www.abc.net.au/news/2026-11-28/wwe-wrestler-bronson-reed-dies-aged-38/107438016",
-          "title": "Adelaide-born WWE wrestler Bronson Reed dies at 38",
-          "published": "2026-11-28T02:05:33+00:00"
-        }
-      ],
-      "consensus": 4.0
-    },
-    {
       "title": "US military fires at a ship that violated blockade of Iranian ports",
       "url": "https://www.euronews.com/2026/11/28/us-military-fires-at-a-ship-that-violated-blockade-of-iranian-ports",
       "source": "Euronews",
@@ -420,22 +405,6 @@
         }
       ],
       "consensus": 3.0
-    },
-    {
-      "title": "Taiwan elections: Candidate criticised by China concedes Taipei mayoral race",
-      "url": "https://www.abc.net.au/news/2026-11-29/taiwan-election-results-chiang-wan-an/107438794",
-      "source": "ABC Australia",
-      "published": "2026-11-28T13:57:25+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "France24",
-          "url": "https://www.france24.com/en/asia-pacific/20261128-taiwan-holds-local-elections-under-beijing-s-watchful-gaze",
-          "title": "Taiwan mayoral candidate criticised by Beijing concedes defeat",
-          "published": "2026-11-28T06:25:33+00:00"
-        }
-      ],
-      "consensus": 2.5
     },
     {
       "title": "Indian police disperse protest outside Meta offices amid concern the company is censoring political opposition",
@@ -502,6 +471,22 @@
       "consensus": 2.5
     },
     {
+      "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+      "url": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "published": "2026-11-28T07:31:14+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Japan Times",
+          "url": "https://www.japantimes.co.jp/sports/2026/11/28/more-sports/bronson-reed-wwe-wrestling/",
+          "title": "WWE star Bronson Reed dies at 38",
+          "published": "2026-11-28T06:21:00+00:00"
+        }
+      ],
+      "consensus": 2.5
+    },
+    {
       "title": "Parts of the US clean up, power outages being restored after Thanksgiving storm soaks East Coast",
       "url": "https://www.channelnewsasia.com/world/thanksgiving-us-east-coast-weather-power-outage-6588506",
       "source": "CNA",
@@ -561,22 +546,6 @@
           "url": "http://www.africanews.com/2026/11/26/guinea-bissau-delays-elections-for-two-years-to-2028/",
           "title": "Guinea-Bissau delays elections for two years to 2028",
           "published": "2026-11-27T09:13:07+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Duterte's ICC trial: What is at stake for the Philippines?",
-      "url": "https://www.dw.com/en/duterte-s-icc-trial-what-is-at-stake-for-the-philippines/a-80075657?maca=en-rss-en-world-4025-xml-mrss",
-      "source": "Deutsche Welle",
-      "published": "2026-11-27T13:23:00+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/explainer-rodrigo-dutertes-icc-trial-what-to-know",
-          "title": "Explainer-Rodrigo Duterte's ICC trial: What to know",
-          "published": "2026-11-27T09:52:24+00:00"
         }
       ],
       "consensus": 2.5
@@ -854,22 +823,6 @@
       "consensus": 2.0
     },
     {
-      "title": "President Donald Trump insists Nvidia CEO not a security threat",
-      "url": "https://www.thehindu.com/news/international/president-donald-trump-insists-nvidia-ceo-not-a-security-threat/article71749200.ece",
-      "source": "The Hindu",
-      "published": "2026-11-27T04:42:55+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/donald-trump-jensen-huang-nvidia-security-threat-6586401",
-          "title": "Trump insists Nvidia CEO not a security threat",
-          "published": "2026-11-27T01:57:58+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Ebola cases reach 12,000 in Congo as second-largest outbreak on record grows",
       "url": "https://www.cbc.ca/news/health/ebola-tops-12000-cases-outbreak-9.7436970?cmp=rss",
       "source": "CBC World",
@@ -948,6 +901,33 @@
         }
       ],
       "consensus": 1.5
+    },
+    {
+      "title": "From ET to Agro, movie puppet exhibition pulls on all the heartstrings",
+      "url": "https://www.abc.net.au/news/2026-11-29/lifelike-celebrates-ingenuity-nostalgia-on-screen-puppets/107430570",
+      "source": "ABC Australia",
+      "published": "2026-11-28T18:30:00+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "South Sudan should be rich. So, why are millions on the brink of starvation?",
+      "url": "https://www.independent.co.uk/news/world/africa/south-sudan-oil-wealth-aid-corruption-war-flooding-b3053646.html",
+      "source": "The Independent",
+      "published": "2026-11-28T18:12:44+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Russia and Ukraine strike energy infrastructure, as attacks kill 10",
+      "url": "https://www.aljazeera.com/news/2026/11/28/russia-and-ukraine-strike-energy-infrastructure-as-attacks-kill-10?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T18:06:10+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
     }
   ],
   "tickers": [
@@ -1094,10 +1074,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59324.21,
+        "price": 59352.79,
         "currency": "USD",
-        "change": -541.86,
-        "change_percent": -0.91,
+        "change": -513.28,
+        "change_percent": -0.86,
         "name": "Bitcoin"
       }
     ],
@@ -1401,9 +1381,23 @@
       {
         "title": "Donald Knuth suspends error bounties due to an influx of AI-generated reports",
         "url": "https://cs.stanford.edu/~knuth/moratorium.html",
-        "score": 5,
+        "score": 86,
         "source": "Hacker News",
         "published": "2026-11-28T17:53:02+00:00"
+      },
+      {
+        "title": "Patrick Collison you are WRONG about street furniture!!!",
+        "url": "https://www.lesswrong.com/posts/Lf49dFMfhWqj33zAJ/patrick-collison-you-are-wrong-about-street-furniture",
+        "score": 11,
+        "source": "Hacker News",
+        "published": "2026-11-28T17:49:13+00:00"
+      },
+      {
+        "title": "The race is not inevitable",
+        "url": "https://ryo.lu/journal/the-race-is-not-inevitable",
+        "score": 24,
+        "source": "Hacker News",
+        "published": "2026-11-28T17:45:23+00:00"
       },
       {
         "title": "Odin's #soa Compared With ISPC",
@@ -1416,22 +1410,29 @@
       {
         "title": "Computer Disease",
         "url": "https://blog.adafruit.com/2020/01/13/richard-feynman-on-computer-disease/",
-        "score": 28,
+        "score": 50,
         "source": "Hacker News",
         "published": "2026-11-28T17:12:25+00:00"
+      },
+      {
+        "title": "GTA 6 Graphics Rendering: What We Know So Far",
+        "url": "https://ben3d.ca/blog/gta-6-graphics-rendering-what-we-know-so-far",
+        "score": 41,
+        "source": "Hacker News",
+        "published": "2026-11-28T16:35:03+00:00"
       },
       {
         "title": "Spotify September Outage: What we learnt",
         "url": "https://engineering.atspotify.com/2026/11/september-29-outage-incident-report-what-we-learnt",
         "comments_url": "https://lobste.rs/s/tz1uyv/spotify_september_outage_what_we_learnt",
-        "score": 1,
+        "score": 3,
         "source": "Lobste.rs",
         "published": "2026-11-28T16:00:29.415000+00:00"
       },
       {
         "title": "Silently degrading the model's capabilities IS sabotage",
         "url": "https://twitter.com/TimSweeneyEpic/status/2126682647862862063",
-        "score": 168,
+        "score": 223,
         "source": "Hacker News",
         "published": "2026-11-28T15:55:54+00:00"
       },
@@ -1439,7 +1440,7 @@
         "title": "Atari Homebrew Awards Cancelled",
         "url": "https://forums.atariage.com/topic/394894-atari-homebrew-awards-cancelled/",
         "comments_url": "https://lobste.rs/s/3dinjq/atari_homebrew_awards_cancelled",
-        "score": 13,
+        "score": 18,
         "source": "Lobste.rs",
         "published": "2026-11-28T15:50:53.770000+00:00"
       },
@@ -1454,7 +1455,7 @@
       {
         "title": "Physics Breakthrough Simulator",
         "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
-        "score": 90,
+        "score": 102,
         "source": "Hacker News",
         "published": "2026-11-28T14:52:45+00:00"
       },
@@ -1470,37 +1471,16 @@
         "title": "A story about Minecraft, Bukkit, and the GPL (2020)",
         "url": "https://jwheel.org/blog/2020/04/open-source-minecraft-bukkit-gpl/",
         "comments_url": "https://lobste.rs/s/rfgkyl/story_about_minecraft_bukkit_gpl_2020",
-        "score": 22,
+        "score": 24,
         "source": "Lobste.rs",
         "published": "2026-11-28T12:58:50.015000+00:00"
       },
       {
         "title": "Show HN: Luciole Mono – terminal font designed for legibility",
         "url": "https://scriptor-pro.github.io/luciole-mono/",
-        "score": 107,
+        "score": 112,
         "source": "Hacker News",
         "published": "2026-11-28T12:50:15+00:00"
-      },
-      {
-        "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
-        "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
-        "score": 151,
-        "source": "Hacker News",
-        "published": "2026-11-28T11:57:04+00:00"
-      },
-      {
-        "title": "Audible removes download option for purchased audiobooks",
-        "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
-        "score": 557,
-        "source": "Hacker News",
-        "published": "2026-11-28T11:51:27+00:00"
-      },
-      {
-        "title": "Farewell",
-        "url": "https://github.com/p-e-w/heretic/issues/601",
-        "score": 816,
-        "source": "Hacker News",
-        "published": "2026-11-28T11:42:26+00:00"
       }
     ],
     "reddit": [

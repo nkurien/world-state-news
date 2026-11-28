@@ -1,150 +1,150 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-11-28T07:30:55.153834+00:00",
+  "last_updated": "2026-11-28T08:01:04.914218+00:00",
   "sources": {
     "ABC Australia": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 213
+      "ms": 175
     },
     "Africanews": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 252
+      "ms": 179
     },
     "Al Jazeera": {
       "ok": true,
       "count": 25,
       "error": null,
-      "ms": 158
+      "ms": 90
     },
     "BBC News": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 89
+      "ms": 85
     },
     "CBC World": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 180
+      "ms": 236
     },
     "CNA": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 177
+      "ms": 95
     },
     "Deutsche Welle": {
       "ok": true,
       "count": 11,
       "error": null,
-      "ms": 528
+      "ms": 64
     },
     "El País": {
       "ok": true,
       "count": 57,
       "error": null,
-      "ms": 303
+      "ms": 659
     },
     "Euronews": {
       "ok": true,
       "count": 44,
       "error": null,
-      "ms": 1142
+      "ms": 185
     },
     "France24": {
       "ok": true,
       "count": 24,
       "error": null,
-      "ms": 176
+      "ms": 228
     },
     "Japan Times": {
       "ok": true,
       "count": 30,
       "error": null,
-      "ms": 407
+      "ms": 262
     },
     "MercoPress": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 278
+      "ms": 322
     },
     "NPR World": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 91
+      "ms": 59
     },
     "Politico EU": {
       "ok": true,
       "count": 10,
       "error": null,
-      "ms": 148
+      "ms": 145
     },
     "RFI English": {
       "ok": true,
       "count": 21,
       "error": null,
-      "ms": 147
+      "ms": 189
     },
     "RNZ": {
       "ok": true,
       "count": 41,
       "error": null,
-      "ms": 346
+      "ms": 341
     },
     "SCMP": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 531
+      "ms": 778
     },
     "Semafor": {
       "ok": true,
       "count": 233,
       "error": null,
-      "ms": 405
+      "ms": 832
     },
     "Spiegel": {
       "ok": true,
       "count": 20,
       "error": null,
-      "ms": 770
+      "ms": 822
     },
     "Straits Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 332
+      "ms": 208
     },
     "The Guardian": {
       "ok": false,
       "count": 0,
       "error": "403 Client Error: Forbidden for url: https://www.theguardian.com/world/rss",
-      "ms": 3162
+      "ms": 3153
     },
     "The Hindu": {
       "ok": true,
       "count": 60,
       "error": null,
-      "ms": 162
+      "ms": 186
     },
     "The Independent": {
       "ok": true,
       "count": 47,
       "error": null,
-      "ms": 204
+      "ms": 298
     },
     "The Moscow Times": {
       "ok": true,
       "count": 50,
       "error": null,
-      "ms": 128
+      "ms": 192
     }
   },
   "breaking": [
@@ -205,28 +205,6 @@
       "consensus": 3.5
     },
     {
-      "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
-      "url": "https://www.thehindu.com/news/international/taiwan-votes-in-key-local-elections-as-china-looks-on/article71753506.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T04:31:57+00:00",
-      "score": 3,
-      "other_sources": [
-        {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
-          "title": "Taiwan votes in local elections to choose mayors, other leaders",
-          "published": "2026-11-28T02:05:27+00:00"
-        },
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on",
-          "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
-          "published": "2026-11-28T00:02:06+00:00"
-        }
-      ],
-      "consensus": 3.5
-    },
-    {
       "title": "WWE star Bronson Reed dies at 38",
       "url": "https://www.japantimes.co.jp/sports/2026/11/28/more-sports/bronson-reed-wwe-wrestling/",
       "source": "Japan Times",
@@ -259,28 +237,44 @@
       "consensus": 2.5
     },
     {
-      "title": "Police responding to vessel in 'difficulty' in Mount Maunganui",
-      "url": "https://www.rnz.co.nz/news/emergencies_local/2855776/police-responding-to-vessel-in-difficulty-in-mount-maunganui",
-      "source": "RNZ",
-      "published": "2026-11-28T07:19:59+00:00",
+      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T05:19:35+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
+          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
+          "published": "2026-11-27T12:42:00+00:00"
+        }
+      ],
+      "consensus": 2.0
+    },
+    {
+      "title": "Russia says shot down more than 1,200 Ukraine drones overnight",
+      "url": "https://www.channelnewsasia.com/world/russia-ukraine-shot-down-drones-overnight-6589261",
+      "source": "CNA",
+      "published": "2026-11-28T07:41:00+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
     },
     {
-      "title": "Live: Ukraine downs Russian drone with laser technology as Moscow intercepts overnight assault",
-      "url": "https://www.france24.com/en/europe/20261128-live-ukraine-downs-russian-drone-with-laser-technology-as-moscow-intercepts-overnight-assault",
-      "source": "France24",
-      "published": "2026-11-28T07:12:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Abby Choi’s ex-husband deflects blame as he insists his father killed her",
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3376114/abby-chois-ex-husband-deflects-blame-he-defends-claim-his-father-killed-her",
+      "title": "About 200 evacuated as scaffolding catches fire at Hong Kong industrial building",
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3376121/about-200-evacuated-scaffolding-catches-fire-hong-kong-industrial-building",
       "source": "SCMP",
-      "published": "2026-11-28T07:00:13+00:00",
+      "published": "2026-11-28T07:36:59+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "What's the result in your electorate? Take a look at the map of your seat",
+      "url": "https://www.abc.net.au/news/2026-11-28/victoria-election-results-by-electorate/107436184",
+      "source": "ABC Australia",
+      "published": "2026-11-28T07:28:39+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -342,6 +336,28 @@
         }
       ],
       "consensus": 4.0
+    },
+    {
+      "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+      "url": "https://www.thehindu.com/news/international/taiwan-votes-in-key-local-elections-as-china-looks-on/article71753506.ece",
+      "source": "The Hindu",
+      "published": "2026-11-28T04:31:57+00:00",
+      "score": 3,
+      "other_sources": [
+        {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+          "title": "Taiwan votes in local elections to choose mayors, other leaders",
+          "published": "2026-11-28T02:05:27+00:00"
+        },
+        {
+          "source": "Straits Times",
+          "url": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on",
+          "title": "Taiwan votes in local elections as China sends warplanes, lambastes Taipei candidate",
+          "published": "2026-11-28T00:02:06+00:00"
+        }
+      ],
+      "consensus": 3.5
     },
     {
       "title": "US disables ship attempting to breach Iran blockade",
@@ -475,22 +491,6 @@
           "url": "https://www.independent.co.uk/news/world/europe/canary-islands-migrant-boat-deaths-b3092926.html",
           "title": "At least eight found dead in migrant boat off Canary Islands after rescue mission",
           "published": "2026-11-27T16:21:59+00:00"
-        }
-      ],
-      "consensus": 2.5
-    },
-    {
-      "title": "Police link substance release to robbery attempts at concert",
-      "url": "https://www.abc.net.au/news/2026-11-28/don-toliver-manchester-concert-substance-robbery-attempt-police/107437726",
-      "source": "ABC Australia",
-      "published": "2026-11-27T23:10:41+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "CNA",
-          "url": "https://www.channelnewsasia.com/world/don-toliver-concert-substance-police-manchester-robbery-6588591",
-          "title": "British police link substance release at Don Toliver's recent Manchester concert to robbery attempts",
-          "published": "2026-11-27T21:42:53+00:00"
         }
       ],
       "consensus": 2.5
@@ -720,22 +720,6 @@
       "consensus": 2.5
     },
     {
-      "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
-      "url": "https://www.thehindu.com/business/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest/article71752292.ece",
-      "source": "The Hindu",
-      "published": "2026-11-28T05:19:35+00:00",
-      "score": 2,
-      "other_sources": [
-        {
-          "source": "Straits Times",
-          "url": "https://www.straitstimes.com/asia/south-asia/global-fashion-brands-shift-orders-from-bangladesh-to-india-amid-unrest",
-          "title": "Global fashion brands shift orders from Bangladesh to India amid unrest",
-          "published": "2026-11-27T12:42:00+00:00"
-        }
-      ],
-      "consensus": 2.0
-    },
-    {
       "title": "Seoul monitoring signs of possible Kim Jong Un visit to China",
       "url": "https://www.straitstimes.com/asia/east-asia/seoul-monitoring-signs-of-possible-kim-jong-un-visit-to-china",
       "source": "Straits Times",
@@ -912,37 +896,53 @@
       "consensus": 1.5
     },
     {
-      "title": "Mumbai will get its first desalination plant but fishermen fear their catches will dry up",
-      "url": "https://www.straitstimes.com/asia/south-asia/mumbai-will-get-its-first-desalination-plant-but-fishermen-fear-their-catches-will-dry-up",
-      "source": "Straits Times",
-      "published": "2026-11-28T07:00:00+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
+      "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
+      "url": "https://www.euronews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says",
+      "source": "Euronews",
+      "published": "2026-11-26T10:10:16+00:00",
+      "score": 2,
+      "other_sources": [
+        {
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/11/26/uk-sent-sri-lankan-refugee-to-eswatini-in-secret-deal-the-bbc-says/",
+          "title": "UK sent Sri Lankan refugee to Eswatini in secret deal, the BBC says",
+          "published": "2026-11-26T10:10:16+00:00"
+        }
+      ],
+      "consensus": 1.5
     },
     {
-      "title": "Trump’s tariffs have become America’s new normal",
-      "url": "https://www.aljazeera.com/opinions/2026/11/28/trumps-tariffs-have-become-americas-new-normal?traffic_source=rss",
-      "source": "Al Jazeera",
-      "published": "2026-11-28T06:57:19+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "No tenders yet for Hong Kong’s first university town, education chief says",
-      "url": "https://www.scmp.com/news/hong-kong/education/article/3376120/no-tenders-yet-hong-kongs-first-university-town-education-chief-says",
-      "source": "SCMP",
-      "published": "2026-11-28T06:57:07+00:00",
-      "score": 1,
-      "other_sources": [],
-      "consensus": 1.0
-    },
-    {
-      "title": "Bendigo Writers Festival offers 'unreserved' apology to author Abdel-Fattah",
-      "url": "https://www.abc.net.au/news/2026-11-28/bendigo-writers-festival-apology-randa-abdel-fattah/107438282",
+      "title": "Live: Matildas take on Colombia in Canberra",
+      "url": "https://www.abc.net.au/news/2026-11-28/matildas-live-updates-australia-vs-colombia-in-canberra/107435020",
       "source": "ABC Australia",
-      "published": "2026-11-28T06:43:59+00:00",
+      "published": "2026-11-28T07:25:57+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Uganda starts mRNA Ebola vaccine trial in first for Africa",
+      "url": "https://www.aljazeera.com/news/2026/11/28/uganda-starts-mrna-ebola-vaccine-trial-in-first-for-africa?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T07:22:17+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "How Israel is fast-tracking data centres in bid to become ‘AI superpower’",
+      "url": "https://www.aljazeera.com/news/2026/11/28/how-israel-is-fast-tracking-data-centres-in-bid-to-become-ai-superpower?traffic_source=rss",
+      "source": "Al Jazeera",
+      "published": "2026-11-28T07:21:22+00:00",
+      "score": 1,
+      "other_sources": [],
+      "consensus": 1.0
+    },
+    {
+      "title": "Police responding to vessel in 'difficulty' in Mount Maunganui",
+      "url": "https://www.rnz.co.nz/news/emergencies_local/2855776/police-responding-to-vessel-in-difficulty-in-mount-maunganui",
+      "source": "RNZ",
+      "published": "2026-11-28T07:19:59+00:00",
       "score": 1,
       "other_sources": [],
       "consensus": 1.0
@@ -1092,10 +1092,10 @@
       },
       {
         "symbol": "BTC-USD",
-        "price": 59661.75,
+        "price": 59776.06,
         "currency": "USD",
-        "change": -204.32,
-        "change_percent": -0.34,
+        "change": -90.01,
+        "change_percent": -0.15,
         "name": "Bitcoin"
       }
     ],
@@ -1190,22 +1190,22 @@
       "column": "briefings",
       "entries": [
         {
+          "title": "Muse: your personal AI assistant",
+          "url": "https://theweek.com/culture-life/personal-technology/muse-your-personal-ai-assistant",
+          "published": "2026-11-28T08:00:00+00:00",
+          "snippet": "Meta’s new AI agent – which launched this week in the UK – could be revolutionary"
+        },
+        {
+          "title": "Anthropic: investing in the apocalypse?",
+          "url": "https://theweek.com/tech/anthropic-investing-in-the-apocalypse",
+          "published": "2026-11-28T08:00:00+00:00",
+          "snippet": "The trillion-dollar company’s historic flotation could either be a godsend, or could ‘unleash hell’ on humanity"
+        },
+        {
           "title": "Bangkok’s riverfront renaissance",
           "url": "https://theweek.com/culture-life/travel/bangkoks-riverfront-renaissance",
           "published": "2026-11-28T07:00:00+00:00",
           "snippet": "Locals are returning to banks of the Chao Phraya, drawn by ‘serene’ atmosphere and ‘majestic’ temples"
-        },
-        {
-          "title": "Net migration plummets: has Labour solved immigration issue?",
-          "url": "https://theweek.com/politics/net-migration-plummets-has-labour-solved-immigration-issue",
-          "published": "2026-11-27T12:56:20+00:00",
-          "snippet": "Some say generationally low levels vindicate Shabana Mahmood’s hardline approach but will the topic ever really go away?"
-        },
-        {
-          "title": "Quiz of The Week: 21 - 27 November",
-          "url": "https://theweek.com/puzzles/quiz-of-the-week-21-27-november",
-          "published": "2026-11-27T12:10:36+00:00",
-          "snippet": "Have you been paying attention to The Week’s news?"
         }
       ]
     },
@@ -1391,7 +1391,7 @@
       {
         "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
         "url": "https://unkernel.dev",
-        "score": 166,
+        "score": 199,
         "source": "Hacker News",
         "published": "2026-11-28T03:19:20+00:00"
       },
@@ -1414,14 +1414,14 @@
       {
         "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
         "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
-        "score": 312,
+        "score": 330,
         "source": "Hacker News",
         "published": "2026-11-27T23:06:29+00:00"
       },
       {
         "title": "Tabernetes: A Kubernetes cluster whose nodes are browser tabs",
         "url": "https://tabernet.es/",
-        "score": 92,
+        "score": 101,
         "source": "Hacker News",
         "published": "2026-11-27T23:00:30+00:00"
       },
@@ -1429,14 +1429,14 @@
         "title": "My Approach to Alt Text (2024)",
         "url": "http://adrianroselli.com/2024/05/my-approach-to-alt-text.html",
         "comments_url": "https://lobste.rs/s/cz9ecz/my_approach_alt_text_2024",
-        "score": 1,
+        "score": 2,
         "source": "Lobste.rs",
         "published": "2026-11-27T22:00:18.913000+00:00"
       },
       {
         "title": "9/UX: a Macintosh-inspired desktop for 9front",
         "url": "https://progrium.github.io/9ux/",
-        "score": 113,
+        "score": 117,
         "source": "Hacker News",
         "published": "2026-11-27T21:48:14+00:00"
       },
@@ -1460,7 +1460,7 @@
         "title": "Why optimistic updates are corrosive",
         "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
         "comments_url": "https://lobste.rs/s/amjski/why_optimistic_updates_are_corrosive",
-        "score": 21,
+        "score": 22,
         "source": "Lobste.rs",
         "published": "2026-11-27T20:01:50.431000+00:00"
       },
@@ -1475,7 +1475,7 @@
       {
         "title": "Convex skills send the user's app idea to a remote server without telling them",
         "url": "https://github.com/convex/convex-backend-skill/issues/64",
-        "score": 282,
+        "score": 289,
         "source": "Hacker News",
         "published": "2026-11-27T18:02:45+00:00"
       },
@@ -1483,7 +1483,7 @@
         "title": "Pop!_OS 26.04 LTS Has Landed",
         "url": "https://system76.com/blog/post/pop_os-26-04-lts-has-landed",
         "comments_url": "https://lobste.rs/s/hizg2w/pop_os_26_04_lts_has_landed",
-        "score": 15,
+        "score": 16,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:42:50.585000+00:00"
       },
@@ -1491,7 +1491,7 @@
         "title": "Build your own Paint",
         "url": "https://www.buildyourownpaint.com/en",
         "comments_url": "https://lobste.rs/s/c2zrmq/build_your_own_paint",
-        "score": 18,
+        "score": 19,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:22:36.766000+00:00"
       },
@@ -1499,7 +1499,7 @@
         "title": "Hard Drive pricing has gotten bad",
         "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
         "comments_url": "https://lobste.rs/s/96gu7o/hard_drive_pricing_has_gotten_bad",
-        "score": 44,
+        "score": 47,
         "source": "Lobste.rs",
         "published": "2026-11-27T16:15:23.956000+00:00"
       }
